@@ -27,7 +27,7 @@ $limit = false;
 // limit to one package?
 if (isset($argv[1])) {
     $limit = $argv[1];
-    echo "limiting to: $limit\n";
+    echo "  expand-package-releases for: $limit\n";
     // but don't limit if there's no matching package info
     if (! file_exists("rest/p/$limit/info.xml")) {
         echo "no package info for $limit\n";
