@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pdo_cubrid">PDO_CUBRID</p>
+ <c>pecl.php.net</c>
+ <v>9.1.0.0001</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>cubrid</m>
+ <s>CUBRID driver for PDO</s>
+ <d>This extension provides a CUBRID driver for PDO.</d>
+ <da>2013-03-15 06:40:01</da>
+ <n>Changed and Enhanced Features:
+
+1) APIS-418: add the ENUM support in PDO driver.
+2) APIS-404: update the urls in README.
+3) APIS-435: use cci_get_last_insert_id() instead of cci_last_insert_id().
+
+Fixed bugs:
+
+1) APIS-392: change the phpinfo field from 'Supported CUBRID server' to 'CCI Version' and fix its value.
+2) APIS-401: improve the invoking of cci_disconnect.
+3) APIS-435: remove free() in the insert_id function for Windows platform.</n>
+ <f>22107</f>
+ <g>http://pecl.php.net/get/PDO_CUBRID-9.1.0.0001</g>
+ <x xlink:href="package.9.1.0.0001.xml"/>
+</r>

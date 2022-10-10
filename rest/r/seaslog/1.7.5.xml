@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/seaslog">SeasLog</p>
+ <c>pecl.php.net</c>
+ <v>1.7.5</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>neeke</m>
+ <s>A effective,fast,stable log extension for PHP.</s>
+ <d>A effective,fast,stable log extension for PHP.
+        - In the PHP project, for convenient record log
+        - The default log directory and module configuration.
+        - Specify the log directory and get the current configuration
+        - Analysis of early warning framework preliminary
+        - Buffer debug efficient log buffer, convenient
+        - With PSR-3 Logger interface
+        - Error and exception automatic logging
+        - Support appender with File,TCP,UDP
+        - Send to Rsyslog(TCP/UDP) with RFC5424
+        - Support RequestId differentiated requests
+        - Support for log template customizations</d>
+ <da>2017-09-19 05:29:56</da>
+ <n>- Update license from Apache License 2.0 to PHP License 3.01.
+- Support send to Rsyslog(TCP/UDP) with RFC5424.
+- Support RequestId differentiated requests to fixed issue #134.
+- Support for log template customizations to fixed issue #12 #143.
+- Update SeasLog Analyzer scripts version to 1.1.0, to fixed issue #139.
+- Optimization of analyzerCount and analyzerDetail to fixed issue #133.
+- Fixed issue #138. Error by file exists.
+- Fixed issue #140. Error by setDatetimeFormat.
+- Fixed issue #142. Error by too many open files.
+- Fixed issue #144. Error by read log detail order desc.
+- Fixed issue #145. Error by analyzerDetail.
+- Fixed issue #146. Segfault at php-fpm.</n>
+ <f>90799</f>
+ <g>http://pecl.php.net/get/SeasLog-1.7.5</g>
+ <x xlink:href="package.1.7.5.xml"/>
+</r>

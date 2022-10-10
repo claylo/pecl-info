@@ -1,0 +1,15 @@
+{
+    "category": "File Formats",
+    "deprecated": true,
+    "description": "Bz2 is an extension to create and parse bzip2 compressed data.",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "PHP License",
+    "name": "bz2",
+    "summary": "A Bzip2 management extension",
+    "php8Mentioned": false,
+    "releases": [],
+    "new_channel": "http://php.net/bzip2",
+    "new_package": "ext/bz2",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

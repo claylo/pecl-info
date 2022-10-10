@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/inclued">inclued</p>
+ <c>pecl.php.net</c>
+ <v>0.1.0</v>
+ <st>alpha</st>
+ <l>PHP License</l>
+ <m>gopalv</m>
+ <s>Clued-in about your inclueds</s>
+ <d>Allows you trace through and dump the hierarchy of file inclusions and class inheritance at runtime</d>
+ <da>2008-02-29 10:20:41</da>
+ <n>- Initial PECL release</n>
+ <f>8127</f>
+ <g>http://pecl.php.net/get/inclued-0.1.0</g>
+ <x xlink:href="package.0.1.0.xml"/>
+</r>

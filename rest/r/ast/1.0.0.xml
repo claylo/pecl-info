@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ast">ast</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0</v>
+ <st>stable</st>
+ <l>BSD-3-Clause</l>
+ <m>nikic</m>
+ <s>Extension exposing PHP 7 abstract syntax tree</s>
+ <d>php-ast exports the AST internally used by PHP 7.
+     php-ast is significantly faster than PHP-Parser, because the AST construction is implemented in C.
+     However, php-ast may only parse code that is syntactically valid on the version of PHP it runs on.</d>
+ <da>2018-10-21 21:34:36</da>
+ <n>This release is the same as version 0.1.7 with obsolete and deprecated functionality removed.
+
+- Removed AST versions prior to version 50.
+- Removed ast\Node\Decl class, which is no longer used.
+- Removed AST kinds AST_AND, AST_COALESCE, AST_GREATER, AST_GREATER_EQUAL, AST_OR, AST_SILENCE,
+  AST_UNARY_MINUS, and AST_UNARY_PLUS, which are no longer used.
+- Removed ASSIGN_* AST flags, which are no longer used.</n>
+ <f>34411</f>
+ <g>http://pecl.php.net/get/ast-1.0.0</g>
+ <x xlink:href="package.1.0.0.xml"/>
+</r>

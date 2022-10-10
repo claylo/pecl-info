@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pecl_http">pecl_http</p>
+ <c>pecl.php.net</c>
+ <v>2.0.0beta1</v>
+ <st>beta</st>
+ <l>BSD, revised</l>
+ <m>mike</m>
+ <s>Extended HTTP Support</s>
+ <d>Extended HTTP support. Again. Keep in mind that it's got the major version 2, because it's incompatible with pecl_http v1.
+
+* Introduces the http namespace.
+* Message bodies have been remodeled to use PHP temporary streams instead of in-memory buffers.
+* The utterly misunderstood HttpResponse class has been reimplemented as http\Env\Response inheriting http\Message.
+* Currently, there's only one Exception class left, http\Exception.
+* Errors triggered by the extension can be configured statically by http\Object::$defaultErrorHandling or inherited http\Object-&gt;errorHandling.
+* The request ecosystem has been modularized to support different libraries, though for the moment only libcurl is supported.</d>
+ <da>2012-10-11 06:08:07</da>
+ <n>* PHP-5.3 compatibility by Anatoly Belsky
+* Fixed http\Client's history handling
+* Disallow serialization of non-serializable objects
+* Fixed parsing of folded headers
+* Fixed the parsing HTTP messages from streams
+* Fixed leak in persistent handles cleanup routine
++ Added http\Url::SANITIZE_PATH; URL paths are not sanitized by default anymore
++ Added JSON Content-Type handler for request body processing if ext/json is present
++ Added missing IANA HTTP response codes
++ Added http\Message\Body::getResource()
++ Added QueryString proxy methods to http\Env\Request
++ Added Serializable to http\Message\Body's interfaces</n>
+ <f>152301</f>
+ <g>http://pecl.php.net/get/pecl_http-2.0.0beta1</g>
+ <x xlink:href="package.2.0.0beta1.xml"/>
+</r>

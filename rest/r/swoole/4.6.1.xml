@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.6.1</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in tcp/http/websocket/http2 server
+        - coroutine tcp/http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2021-01-11 10:51:49</da>
+ <n>Enhancement
+---
++ Added --enable-thread-context option (#3970) (@matyhtf)
++ Strict session_id, check the connection activity (#3993) (@matyhtf)
+* Optimized CURLOPT_PROXY, support user, pass and scheme (swoole/library#87) (sy-records)
+
+Fixed
+---
+* Fixed minimal PHP version (#3979) (@remicollet)
+* Fixed pecl install missing enable-swoole-json and enable-swoole-curl options (#3980) (@sy-records)
+* Fixed openssl thread safety issue (swoole/swoole-src@b516d69) (@matyhtf)
+* Fixed enableSSL coredump (#3990) (@huanghantao)
+
+Kernel
+---
+* Optimized ipc writev, avoid coredump how event data is null (#3994) (@matyhtf)</n>
+ <f>1607686</f>
+ <g>https://pecl.php.net/get/swoole-4.6.1</g>
+ <x xlink:href="package.4.6.1.xml"/>
+</r>

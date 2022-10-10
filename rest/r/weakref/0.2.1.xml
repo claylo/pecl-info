@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/weakref">Weakref</p>
+ <c>pecl.php.net</c>
+ <v>0.2.1</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>colder</m>
+ <s>Implementation of weak references</s>
+ <d>A weak reference provides a gateway to an object without preventing that object from being collected by the garbage collector (GC).</d>
+ <da>2012-06-19 11:09:42</da>
+ <n>- Fixes crashes and bugs caused by zval splitting.</n>
+ <f>7789</f>
+ <g>http://pecl.php.net/get/Weakref-0.2.1</g>
+ <x xlink:href="package.0.2.1.xml"/>
+</r>

@@ -1,0 +1,114 @@
+{
+    "category": "Database",
+    "deprecated": false,
+    "description": "MaxDB PHP is an extension which provides access to the MySQL MaxDB databases. It is compatible\nwith MySQL's mysqli extension.",
+    "latestReleaseDate": "2007-04-21T09:22:15+00:00",
+    "latestVersion": "7.6.00.38",
+    "license": "PHP License",
+    "name": "maxdb",
+    "summary": "An extension to access MaxDB databases",
+    "php8Mentioned": false,
+    "releases": {
+        "7.6.00.38": {
+            "version": "7.6.00.38",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "simenec",
+            "releaseDate": "2007-04-21T09:22:15+00:00",
+            "releaseNotes": "MaxDB PHP with object oriented extensions",
+            "get": "http://pecl.php.net/get/maxdb-7.6.00.38",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "7.6.00.37": {
+            "version": "7.6.00.37",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "simenec",
+            "releaseDate": "2007-04-19T18:21:21+00:00",
+            "releaseNotes": "MaxDB PHP with object oriented extensions",
+            "get": "http://pecl.php.net/get/maxdb-7.6.00.37",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "7.6.00.34": {
+            "version": "7.6.00.34",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "simenec",
+            "releaseDate": "2006-09-13T12:38:07+00:00",
+            "releaseNotes": "MaxDB PHP with object oriented extensions",
+            "get": "http://pecl.php.net/get/maxdb-7.6.00.34",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "7.6.00.32": {
+            "version": "7.6.00.32",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "simenec",
+            "releaseDate": "2006-07-17T12:17:09+00:00",
+            "releaseNotes": "MaxDB PHP with object oriented extensions",
+            "get": "http://pecl.php.net/get/maxdb-7.6.00.32",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "7.6.00.27": {
+            "version": "7.6.00.27",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "simenec",
+            "releaseDate": "2006-05-17T12:55:37+00:00",
+            "releaseNotes": "MaxDB PHP with object oriented extensions",
+            "get": "http://pecl.php.net/get/maxdb-7.6.00.27",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "7.6.00.16": {
+            "version": "7.6.00.16",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "simenec",
+            "releaseDate": "2005-10-18T12:48:05+00:00",
+            "releaseNotes": "MaxDB PHP with object oriented extensions",
+            "get": "http://pecl.php.net/get/maxdb-7.6.00.16",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "7.6.00.12": {
+            "version": "7.6.00.12",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "simenec",
+            "releaseDate": "2005-10-06T11:25:09+00:00",
+            "releaseNotes": "MaxDB PHP with object oriented extensions",
+            "get": "http://pecl.php.net/get/maxdb-7.6.00.12",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "7.5.00.26": {
+            "version": "7.5.00.26",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "simenec",
+            "releaseDate": "2005-04-15T13:40:02+00:00",
+            "releaseNotes": "MaxDB PHP with object oriented extensions",
+            "get": "http://pecl.php.net/get/maxdb-7.5.00.26",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "7.5.00.24": {
+            "version": "7.5.00.24",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "simenec",
+            "releaseDate": "2005-03-23T12:34:26+00:00",
+            "releaseNotes": "MaxDB PHP with object oriented extensions",
+            "get": "http://pecl.php.net/get/maxdb-7.5.00.24",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0": {
+            "version": "1.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "simenec",
+            "releaseDate": "2005-03-23T12:33:59+00:00",
+            "releaseNotes": "Initial Release in PECL",
+            "get": "http://pecl.php.net/get/maxdb-1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

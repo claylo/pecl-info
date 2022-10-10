@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/v8js">v8js</p>
+ <c>pecl.php.net</c>
+ <v>0.1.2</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>jani</m>
+ <s>V8 Javascript Engine for PHP</s>
+ <d>This extension embeds the Google's V8 Javascript Engine into PHP.</d>
+ <da>2010-12-31 07:58:30</da>
+ <n>- Removed unnecessary notice added to registerExtension() in previous release</n>
+ <f>17745</f>
+ <g>http://pecl.php.net/get/v8js-0.1.2</g>
+ <x xlink:href="package.0.1.2.xml"/>
+</r>

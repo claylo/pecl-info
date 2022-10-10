@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/operator">operator</p>
+ <c>pecl.php.net</c>
+ <v>0.4.0</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>tyrael</m>
+ <s>Operator overloading for Objects</s>
+ <d>Operator overloading for: +, -, *, /, %, &lt;&lt;, &gt;&gt;, ., |, &amp;, ^, ~, !, ++, --,
++=, -=, *=, /=, %=, &lt;&lt;=, &gt;&gt;=, .=, |=, &amp;=, ^=, ~=,
+==, !=, ===, !==, &lt;, and &lt;= operators.
+Conditional support for &gt; and &gt;= available with application of a patch.</d>
+ <da>2013-02-06 17:21:58</da>
+ <n>Extension updated to be compatible with PHP5.3 and PHP5.4.</n>
+ <f>9484</f>
+ <g>http://pecl.php.net/get/operator-0.4.0</g>
+ <x xlink:href="package.0.4.0.xml"/>
+</r>

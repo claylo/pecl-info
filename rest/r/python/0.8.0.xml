@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/python">python</p>
+ <c>pecl.php.net</c>
+ <v>0.8.0</v>
+ <st>alpha</st>
+ <l>MIT License</l>
+ <m>jon</m>
+ <s>Embedded Python</s>
+ <d>This extension allows the Python interpreter to be embedded inside of PHP, allowing for the instantiate and manipulation of Python objects from within PHP.</d>
+ <da>2008-02-17 21:36:55</da>
+ <n>The extension has been largely rewritten to take advantage of the latest Zend object module.  Basic functionality is available but many features are still to come.  This release should be considered a &quot;preview&quot; release, intended to encourage general interest and feedback.
+
+This release is designed to work with Python 2.5.  Other releases have not been tested.</n>
+ <f>19822</f>
+ <g>http://pecl.php.net/get/python-0.8.0</g>
+ <x xlink:href="package.0.8.0.xml"/>
+</r>

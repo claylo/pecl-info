@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pecl_http">pecl_http</p>
+ <c>pecl.php.net</c>
+ <v>3.2.1</v>
+ <st>stable</st>
+ <l>BSD-2-Clause</l>
+ <m>mike</m>
+ <s>Extended HTTP Support</s>
+ <d>This HTTP extension aims to provide a convenient and powerful
+set of functionality for one of PHPs major applications.
+
+It eases handling of HTTP urls, headers and messages, provides
+means for negotiation of a client's preferred content type,
+language and charset, as well as a convenient way to send any
+arbitrary data with caching and resuming capabilities.
+
+It provides powerful request functionality with support for
+parallel requests.
+
+Documentation:
+https://mdref.m6w6.name/http</d>
+ <da>2019-06-07 12:49:04</da>
+ <n>* Fixed gh-issue #88: Unable to run test suite (Remi Collet)
+* Fixed gh-issue #86: test failure with curl 7.64
+* Fixed gh-issue #85: [-Wformat-extra-args] build warnings
+* Fixed gh-issue #84: segfault and build failure since curl 7.62
+* Fixed gh-issue #82: Test harness improvements (Chris Wright)
+* Fixed gh-issue #64: compress and connecttimeout interfere with low_speed_limit (@rcanavan)
+* Fixed http\QueryString::getGlobalInstance()
+* Fixed missing 2nd reflection argument info of http\Client::notify()
+* Fixed PHP-7.4 compatibility</n>
+ <f>221244</f>
+ <g>https://pecl.php.net/get/pecl_http-3.2.1</g>
+ <x xlink:href="package.3.2.1.xml"/>
+</r>

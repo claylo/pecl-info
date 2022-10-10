@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/wincache">WINCACHE</p>
+ <c>pecl.php.net</c>
+ <v>1.3.5.0</v>
+ <st>stable</st>
+ <l>BSD License</l>
+ <m>ericsten</m>
+ <s>Windows Cache Extension for PHP</s>
+ <d>Windows Cache Extension for PHP is a PHP accelerator that is used to increase the speed of PHP applications running on Windows and Windows Server. Once the Windows Cache Extension for PHP is enabled and loaded by the PHP engine, PHP applications can take advantage of the functionality without any code modifications. The extension includes PHP opcode cache, file system cache and relative path cache. In addition the extension provides cache API's and a PHP session handler.</d>
+ <da>2013-08-21 12:54:39</da>
+ <n>1.3.5.0 release:
+- Compiled for PHP 5.5
+- Opcode Cache is disabled by default for PHP 5.5 because Opcache is available in Core
+- Added support for traits and trait aliases</n>
+ <f>150777</f>
+ <g>http://pecl.php.net/get/WINCACHE-1.3.5.0</g>
+ <x xlink:href="package.1.3.5.0.xml"/>
+</r>

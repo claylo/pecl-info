@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/yaconf">yaconf</p>
+ <c>pecl.php.net</c>
+ <v>1.1.0</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>laruence</m>
+ <s>PHP Persistent Configurations Container</s>
+ <d>Yaconf is a configurations container, it parses ini files, and store the result in PHP when PHP is started</d>
+ <da>2020-03-12 06:36:52</da>
+ <n>- Refactor Yaconf for performance
+- Around 40% time reduced according to benchmark</n>
+ <f>11772</f>
+ <g>https://pecl.php.net/get/yaconf-1.1.0</g>
+ <x xlink:href="package.1.1.0.xml"/>
+</r>

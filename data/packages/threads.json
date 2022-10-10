@@ -1,0 +1,13 @@
+{
+    "category": "System",
+    "deprecated": false,
+    "description": "experimental implementation of threads",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "PHP License 2.02",
+    "name": "threads",
+    "php8Mentioned": false,
+    "releases": [],
+    "summary": "experimental implementation of threads",
+    "SPDX-License-Identifier": "verify"
+}

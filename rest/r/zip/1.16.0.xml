@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/zip">zip</p>
+ <c>pecl.php.net</c>
+ <v>1.16.0</v>
+ <st>stable</st>
+ <l>PHP 3.01</l>
+ <m>remi</m>
+ <s>A zip management extension</s>
+ <d>Zip is an extension to create, modify and read zip files.</d>
+ <da>2020-01-28 08:18:23</da>
+ <n>- fix #78641 addGlob can modify given remove_path value
+- add ZipArchive::CM_LZMA2 constant (since libzip 1.6.0)
+- add ZipArchive::setMtimeName and ZipArchive::setMtimeIndex
+- add ZipArchive::LIBZIP_VERSION constant</n>
+ <f>288813</f>
+ <g>https://pecl.php.net/get/zip-1.16.0</g>
+ <x xlink:href="package.1.16.0.xml"/>
+</r>

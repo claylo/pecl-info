@@ -1,0 +1,44 @@
+{
+    "category": "Console",
+    "deprecated": false,
+    "description": "ncurses (new curses) is a free software emulation of curses in \nSystem V Rel 4.0 (and above). It uses terminfo format, supports \npads, colors, multiple highlights, form characters and function \nkey mapping. Because of the interactive nature of this library, \nit will be of little use for writing Web applications, but may \nbe useful when writing scripts meant using PHP from the command \nline.\n\nSee also http://www.gnu.org/software/ncurses/ncurses.html",
+    "latestReleaseDate": "2012-06-16T13:07:13+00:00",
+    "latestVersion": "1.0.2",
+    "license": "PHP",
+    "name": "ncurses",
+    "summary": "Terminal screen handling and optimization package",
+    "php8Mentioned": false,
+    "releases": {
+        "1.0.2": {
+            "version": "1.0.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "felipe",
+            "releaseDate": "2012-06-16T13:07:13+00:00",
+            "releaseNotes": "- Fixed build on PHP 5.3+\n- Fixed bug #60853 (Missing NCURSES_KEY_HOME constant)",
+            "get": "http://pecl.php.net/get/ncurses-1.0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rasmus",
+            "releaseDate": "2009-12-17T13:59:57+00:00",
+            "releaseNotes": "Add --enable-ncursesw configure switch for optional wide char support",
+            "get": "http://pecl.php.net/get/ncurses-1.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "hholzgra",
+            "releaseDate": "2006-01-05T17:39:20+00:00",
+            "releaseNotes": "package.xml added to support intallation using pear installer",
+            "get": "http://pecl.php.net/get/ncurses-1.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/imagick">imagick</p>
+ <c>pecl.php.net</c>
+ <v>3.6.0RC1</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>danack</m>
+ <s>Provides a wrapper to the ImageMagick library.</s>
+ <d>Imagick is a native php extension to create and modify images using the ImageMagick API.
+This extension requires ImageMagick version 6.5.3-10+ and PHP 5.4.0+.</d>
+ <da>2021-11-10 12:23:13</da>
+ <n>- Imagick::getImageInterlaceScheme is undeprecated. It's the appropriate function to call to get the image interlace setting.
+- Image formats are now normalised to lower case.
+- Imagick::getImageIndex and Imagick::setImageIndex are undeprecated and work on ImageMagick 7. They call MagickGetIteratorIndex and MagickSetIteratorIndex internally.
+- Imagick::averageImages is undeprecated. For IM 7 it now calls EvaluateImages(wand-&gt;images,MeanEvaluateOperator).
+- Imagick::flattenImages is undeprecated. For IM 7 it now calls MagickMergeImageLayers(intern-&gt;magick_wand, FlattenLayer); internally.
+- Imagick::getImageSize is undeprecated. For IM 7 it now calls MagickGetImageLength internally.
+- Imagick::roundCornersImage is undeprecated and available on IM7.
+- Fixes:
+* Imagick::borderImage() changed internally to use OverCompositeOp rather than AtopCompositeOp for ImageMagick &gt; 7. If you need the old behaviour, please use Imagick::borderImageWithComposite() instead, which allows you to set the composite method.
+* Imagick::frameImage() changed internally to use OverCompositeOp rather than AtopCompositeOp for ImageMagick &gt; 7. If you need the old behaviour, please use Imagick::frameImageWithComposite() instead, which allows you to set the composite method.
+* Imagick::profileImage() fixed to allow null as second paramter again. If you can't upgrade to this version yet, pass in &quot;&quot;, which has the same effect.
+* Imagick::ALPHACHANNEL_COPY and Imagick::ALPHACHANNEL_OPAQUE should be available on IM7.
+* Imagick::setImageMatteColor() should be available on IM7.
+- Added:
+* Imagick::borderImageWithComposite() same as Imagick::borderImage() but allows user to set composite operator used.
+* Imagick::frameImageWithComposite() same as Imagick::frameImage() but allows user to set composite operator used.
+* function Imagick::cannyEdgeImage
+* function Imagick::setSeed
+* function Imagick::waveletDenoiseImage
+* function Imagick::meanShiftImage
+* function Imagick::kmeansImage
+* function Imagick::rangeThresholdImage
+* function Imagick::autoThresholdImage
+* function Imagick::bilateralBlurImage
+* function Imagick::claheImage
+* function Imagick::channelFxImage
+* function Imagick::colorThresholdImage
+* function Imagick::complexImages
+* function Imagick::interpolativeResizeImage
+* function Imagick::levelImageColors
+* function Imagick::levelizeImage
+* function Imagick::orderedDitherImage
+* function Imagick::whiteBalanceImage</n>
+ <f>351492</f>
+ <g>https://pecl.php.net/get/imagick-3.6.0RC1</g>
+ <x xlink:href="package.3.6.0RC1.xml"/>
+</r>

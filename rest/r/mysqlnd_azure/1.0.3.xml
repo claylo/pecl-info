@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mysqlnd_azure">mysqlnd_azure</p>
+ <c>pecl.php.net</c>
+ <v>1.0.3</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>bqq</m>
+ <s>mysqlnd_azure - a redirection plugin for mysqlnd</s>
+ <d>mysqlnd extension for azure</d>
+ <da>2020-02-10 09:28:59</da>
+ <n>- Remove the use of is_using_redirect flag. More strict validation and test cases with php built-in web server.</n>
+ <f>18373</f>
+ <g>https://pecl.php.net/get/mysqlnd_azure-1.0.3</g>
+ <x xlink:href="package.1.0.3.xml"/>
+</r>

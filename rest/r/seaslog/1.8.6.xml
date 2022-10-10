@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/seaslog">SeasLog</p>
+ <c>pecl.php.net</c>
+ <v>1.8.6</v>
+ <st>stable</st>
+ <l>PHP3.01</l>
+ <m>neeke</m>
+ <s>An effective,fast,stable log extension for PHP.</s>
+ <d>An effective,fast,stable log extension for PHP.
+        - In the PHP project, for convenient record log.
+        - The default log directory and module configuration.
+        - Specify the log directory and get the current configuration.
+        - Analysis of early warning framework preliminary.
+        - Buffer debug efficient log buffer, convenient.
+        - With PSR-3 Logger interface.
+        - Error and exception automatic logging.
+        - Support appender with File,TCP,UDP.
+        - Send to Rsyslog(TCP/UDP) with RFC5424.
+        - Support RequestId differentiated requests.
+        - Support for log template customizations.</d>
+ <da>2018-09-07 11:01:27</da>
+ <n>- New Feature Add log message collection recommendations docs.
+- New Feature Add bench_mark.php
+- New Feature #218 add SeasLog::closeLoggerStream()
+- Fixed check_log_level:log level should lower than setting 'seaslog.level'
+- Fixed core dump in phpdbg.
+- Fixed smtp_secure and smtp_mailer.
+- Fixed issue #125 #203 Add seaslog.buffer_disabled_in_cli to config, default false.
+- Fixed issue #196 php5.3.x undefined symbol: expand_filepath_with_mode.
+- Fixed issue #195 rsyslog recive log with RFC5424.
+- Fixed issue #200 error warning when tcp/udp error.
+- Fixed issue #202 Add unit tests.
+- Fixed issue #210 add seaslog.remote_timeout to config, default 1 second.
+- Fixed issue #215 analyzerCount error.
+- Fixed issue #228 analyzerDetail error.</n>
+ <f>100318</f>
+ <g>http://pecl.php.net/get/SeasLog-1.8.6</g>
+ <x xlink:href="package.1.8.6.xml"/>
+</r>

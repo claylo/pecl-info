@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xlswriter">xlswriter</p>
+ <c>pecl.php.net</c>
+ <v>1.3.2</v>
+ <st>stable</st>
+ <l>BSD license</l>
+ <m>wjx</m>
+ <s>Efficient and fast xlsx file extension.</s>
+ <d>xlswriter is a PHP C Extension that can be used to write text, numbers, formulas and hyperlinks to multiple worksheets in an Excel 2007+ XLSX file.
+
+  Writer
+
+  - 100% compatible Excel XLSX files.
+  - Full Excel formatting.
+  - Merged cells.
+  - Defined names.
+  - Autofilters.
+  - Charts.
+  - Data validation and drop down lists.
+  - Worksheet PNG/JPEG images.
+  - Memory optimization mode for writing large files.
+  - Works on Linux, FreeBSD, OpenBSD, OS X, Windows.
+  - Compiles for 32 and 64 bit.
+  - FreeBSD License.
+  - The only dependency is on zlib.
+
+  Reader
+
+  - Full read data
+  - Cursor read data
+  - Read by data type
+  - Xlsx to csv</d>
+ <da>2019-11-21 14:44:11</da>
+ <n>- FEAT display or hide screen and print gridlines.
+- FEAT worksheet zoom.
+- FEAT data method is written by default from the file header.
+- FEAT returns null if the type is specified and the cell is empty.
+- FEAT sheet list.
+- FEAT xlsx to csv.</n>
+ <f>530802</f>
+ <g>https://pecl.php.net/get/xlswriter-1.3.2</g>
+ <x xlink:href="package.1.3.2.xml"/>
+</r>

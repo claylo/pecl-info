@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/parallel">parallel</p>
+ <c>pecl.php.net</c>
+ <v>0.9.0</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>remi</m>
+ <s>Parallel concurrency API</s>
+ <d>A succinct parallel concurrency API for PHP 7.</d>
+ <da>2019-05-08 08:04:41</da>
+ <n>- Channels: bi-directional communication between tasks and runtimes
+- Improvements to copying making it vastly more efficient
+- Improvements to runtime stack, making it more efficient
+- Tasks may use lexical scope
+- Events - an experimental, quite primitive event loop for reading/writing sets of channels and futures
+- Support for rethrowing exceptions uncaught in tasks
+- Simplified Runtime constructor
+- Remove Future::select (in favour of the superior events interface)
+- Task cancellation
+- Closure support
+- Drop support for PHP 7.1</n>
+ <f>44150</f>
+ <g>https://pecl.php.net/get/parallel-0.9.0</g>
+ <x xlink:href="package.0.9.0.xml"/>
+</r>

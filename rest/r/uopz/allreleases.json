@@ -1,0 +1,126 @@
+{
+    "7.1.1": {
+        "version": "7.1.1",
+        "state": "stable"
+    },
+    "7.1.0": {
+        "version": "7.1.0",
+        "state": "stable"
+    },
+    "7.0.0": {
+        "version": "7.0.0",
+        "state": "stable"
+    },
+    "6.1.2": {
+        "version": "6.1.2",
+        "state": "stable"
+    },
+    "6.1.1": {
+        "version": "6.1.1",
+        "state": "stable"
+    },
+    "6.1.0": {
+        "version": "6.1.0",
+        "state": "stable"
+    },
+    "6.0.1": {
+        "version": "6.0.1",
+        "state": "stable"
+    },
+    "6.0.0": {
+        "version": "6.0.0",
+        "state": "stable"
+    },
+    "5.1.0": {
+        "version": "5.1.0",
+        "state": "stable"
+    },
+    "5.0.2": {
+        "version": "5.0.2",
+        "state": "stable"
+    },
+    "5.0.1": {
+        "version": "5.0.1",
+        "state": "stable"
+    },
+    "2.0.7": {
+        "version": "2.0.7",
+        "state": "stable"
+    },
+    "2.0.6": {
+        "version": "2.0.6",
+        "state": "stable"
+    },
+    "2.0.5": {
+        "version": "2.0.5",
+        "state": "stable"
+    },
+    "2.0.4": {
+        "version": "2.0.4",
+        "state": "stable"
+    },
+    "2.0.3": {
+        "version": "2.0.3",
+        "state": "stable"
+    },
+    "2.0.2": {
+        "version": "2.0.2",
+        "state": "stable"
+    },
+    "2.0.1": {
+        "version": "2.0.1",
+        "state": "stable"
+    },
+    "2.0.0": {
+        "version": "2.0.0",
+        "state": "stable"
+    },
+    "1.0.11": {
+        "version": "1.0.11",
+        "state": "beta"
+    },
+    "1.0.10": {
+        "version": "1.0.10",
+        "state": "beta"
+    },
+    "1.0.9": {
+        "version": "1.0.9",
+        "state": "beta"
+    },
+    "1.0.8": {
+        "version": "1.0.8",
+        "state": "beta"
+    },
+    "1.0.7": {
+        "version": "1.0.7",
+        "state": "beta"
+    },
+    "1.0.6": {
+        "version": "1.0.6",
+        "state": "beta"
+    },
+    "1.0.5": {
+        "version": "1.0.5",
+        "state": "beta"
+    },
+    "1.0.4": {
+        "version": "1.0.4",
+        "state": "beta"
+    },
+    "1.0.3": {
+        "version": "1.0.3",
+        "state": "beta"
+    },
+    "1.0.2": {
+        "version": "1.0.2",
+        "state": "beta"
+    },
+    "1.0.1": {
+        "version": "1.0.1",
+        "state": "beta"
+    },
+    "1.0.0": {
+        "version": "1.0.0",
+        "state": "beta"
+    }
+}

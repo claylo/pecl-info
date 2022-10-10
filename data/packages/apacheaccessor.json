@@ -1,0 +1,54 @@
+{
+    "category": "System",
+    "deprecated": false,
+    "description": "ApacheAccessor lets you retrieve Apache configuration (at runtime of current proccess) as PHP array or dump it as HTML table.",
+    "latestReleaseDate": "2012-08-28T07:24:44+00:00",
+    "latestVersion": "1.0.1",
+    "license": "PHP 3.01",
+    "name": "ApacheAccessor",
+    "php8Mentioned": false,
+    "releases": {
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "stable",
+            "license": "PHP 3.01",
+            "releasedBy": "yorambh",
+            "releaseDate": "2012-08-28T07:24:44+00:00",
+            "releaseNotes": "install-examples command added to build\nbuild issue with apr.h fixed",
+            "get": "http://pecl.php.net/get/apacheaccessor-1.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.5.1": {
+            "version": "0.5.1",
+            "state": "stable",
+            "license": "PHP 3.01",
+            "releasedBy": "yorambh",
+            "releaseDate": "2012-04-01T03:09:09+00:00",
+            "releaseNotes": "First stable release.\nplease report bugs",
+            "get": "http://pecl.php.net/get/apacheaccessor-0.5.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.1": {
+            "version": "0.1.1",
+            "state": "beta",
+            "license": "PHP 3.01",
+            "releasedBy": "yorambh",
+            "releaseDate": "2010-07-22T08:19:20+00:00",
+            "releaseNotes": "apacheaccessor_dump_conf() now accepts third optional parameter, which represents the keys (and sections) we want to dump.\nthe configuration walk function was moved to different file.",
+            "get": "http://pecl.php.net/get/apacheaccessor-0.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.0": {
+            "version": "0.1.0",
+            "state": "beta",
+            "license": "PHP 3.01",
+            "releasedBy": "yorambh",
+            "releaseDate": "2010-07-07T06:40:52+00:00",
+            "releaseNotes": "First release\n* functionality seems to work fine.\n* no bugs or craches detected",
+            "get": "http://pecl.php.net/get/apacheaccessor-0.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "simple API to Apache runtime configuration",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

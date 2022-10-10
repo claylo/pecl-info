@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/vld">vld</p>
+ <c>pecl.php.net</c>
+ <v>0.11.2</v>
+ <st>beta</st>
+ <l>BSD style</l>
+ <m>derick</m>
+ <s>Provides functionality to dump the internal representation of PHP scripts</s>
+ <d>The Vulcan Logic Disassembler hooks into the Zend Engine and
+dumps all the opcodes (execution units) of a script.</d>
+ <da>2012-10-16 04:44:24</da>
+ <n>- Fixed some crash fixes (Felipe Pena)
+- Display the constant value if we know it</n>
+ <f>16403</f>
+ <g>http://pecl.php.net/get/vld-0.11.2</g>
+ <x xlink:href="package.0.11.2.xml"/>
+</r>

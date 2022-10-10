@@ -1,0 +1,34 @@
+{
+    "category": "PHP",
+    "deprecated": false,
+    "description": "This extension is like the tokenizer extension for PHP.\nIt takes a document comment (docblock) like this one:\n\n/**\n * information {@inlinetag}\n * @tags\n */\n\nand parses it into tokens.\n\nThe primary function is docblock_tokenize(), which accepts a\nstring, and returns an array of arrays of array(TOKEN, \"token\").\nTOKEN is one of DOCBLOCK_* constants.\n\ndocblock_tokenize() has an optional second bool parameter that\ndetermine whether to output non-essential tokens like\nthe /** * stuff.\n\ndocblock_token_name() takes a DOCBLOCK_* constant and returns its name",
+    "latestReleaseDate": "2006-06-27T19:35:08+00:00",
+    "latestVersion": "0.2.0",
+    "license": "PHP License",
+    "name": "docblock",
+    "php8Mentioned": false,
+    "releases": {
+        "0.2.0": {
+            "version": "0.2.0",
+            "state": "alpha",
+            "license": "PHP License",
+            "releasedBy": "cellog",
+            "releaseDate": "2006-06-27T19:35:08+00:00",
+            "releaseNotes": "Bugfix release\n- fix Bug #7952: terse mode ignores simplelist end\n- fix Bug #7953: {@internal}} returned as inline tag inside <code>",
+            "get": "http://pecl.php.net/get/docblock-0.2.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.0": {
+            "version": "0.1.0",
+            "state": "alpha",
+            "license": "PHP License",
+            "releasedBy": "cellog",
+            "releaseDate": "2005-11-22T02:01:43+00:00",
+            "releaseNotes": "Initial release.  This release supports all docblock features that\nphpDocumentor supports.",
+            "get": "http://pecl.php.net/get/docblock-0.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "phpDocumentor-style DocBlock (T_DOC_COMMENT token) tokenizer",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

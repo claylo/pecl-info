@@ -1,0 +1,13 @@
+{
+    "category": "Text",
+    "deprecated": false,
+    "description": "Namazu is a full-text search system. This module an interface to the Namazu\nlibrary. This extension is originally made by Takuya Tsukada.",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "PHP or GPL",
+    "name": "namazu",
+    "php8Mentioned": false,
+    "releases": [],
+    "summary": "full-text search extension using Namazu",
+    "SPDX-License-Identifier": "verify"
+}

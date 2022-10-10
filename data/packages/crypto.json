@@ -1,0 +1,94 @@
+{
+    "category": "Tools and Utilities",
+    "deprecated": false,
+    "description": "This package provides an objective wrapper for OpenSSL Crypto Library",
+    "latestReleaseDate": "2021-03-07T20:03:55+00:00",
+    "latestVersion": "0.3.2",
+    "license": "PHP 3.01",
+    "name": "crypto",
+    "php8Mentioned": true,
+    "releases": {
+        "0.3.2": {
+            "version": "0.3.2",
+            "state": "devel",
+            "license": "PHP 3.01",
+            "releasedBy": "bukka",
+            "releaseDate": "2021-03-07T20:03:55+00:00",
+            "releaseNotes": "* Fixed compatibility with PHP 8",
+            "get": "https://pecl.php.net/get/crypto-0.3.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.3.1": {
+            "version": "0.3.1",
+            "state": "devel",
+            "license": "PHP 3.01",
+            "releasedBy": "bukka",
+            "releaseDate": "2016-12-15T18:59:36+00:00",
+            "releaseNotes": "* Fixed segfault on PHP 5 in setting KDF key length and PBKDF2 iterations",
+            "get": "http://pecl.php.net/get/crypto-0.3.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.3.0": {
+            "version": "0.3.0",
+            "state": "devel",
+            "license": "PHP 3.01",
+            "releasedBy": "bukka",
+            "releaseDate": "2016-12-14T18:30:04+00:00",
+            "releaseNotes": "* Fixed compilation with OpenSSL 1.1 and PHP 7.1\n* Added KDF abstract class to be a parent for all key derivation function classes\n* Added PBKDF2 class extending KDF class and implementing PBKDF2\n* Renamed HashException code ALGORITHM_NOT_FOUND to HASH_ALGORITHM_NOT_FOUND\n* Renamed MACException code ALGORITHM_NOT_FOUND to MAC_ALGORITHM_NOT_FOUND",
+            "get": "http://pecl.php.net/get/crypto-0.3.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.2": {
+            "version": "0.2.2",
+            "state": "devel",
+            "license": "PHP 3.01",
+            "releasedBy": "bukka",
+            "releaseDate": "2015-11-25T16:32:58+00:00",
+            "releaseNotes": "* Fixed missing CCM cipher algorithms with OpenSSL 1.0.1",
+            "get": "http://pecl.php.net/get/crypto-0.2.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.1": {
+            "version": "0.2.1",
+            "state": "devel",
+            "license": "PHP 3.01",
+            "releasedBy": "bukka",
+            "releaseDate": "2015-11-15T21:38:06+00:00",
+            "releaseNotes": "* Fixed C89 compatibility issue in Base64",
+            "get": "http://pecl.php.net/get/crypto-0.2.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.0": {
+            "version": "0.2.0",
+            "state": "devel",
+            "license": "PHP 3.01",
+            "releasedBy": "bukka",
+            "releaseDate": "2015-11-15T18:44:39+00:00",
+            "releaseNotes": "* Support for PHP 7\n* Added Crypto stream BIO wrapper\n* Improved error handling\n* Added an integer overflow checking\n* Removed Algorithm class and AlogirithmException class\n* Introduced a MAC class as a subclass of Hash and parent of HMAC and CMAC\n* Added MACException class subclassing HashException\n* Fixed HMAC and CMAC implementation and added key param to constructor\n* Fixed and tested CCM mode\n* Added new error code for failed tag verification (TAG_VERIFY_FAILED)\n* Add setTagLength Cipher method replacing length param in getTag\n* Removed Rand::egd\n* Created a complete API documentation",
+            "get": "http://pecl.php.net/get/crypto-0.2.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.1": {
+            "version": "0.1.1",
+            "state": "devel",
+            "license": "PHP 3.01",
+            "releasedBy": "bukka",
+            "releaseDate": "2014-01-04T10:53:51+00:00",
+            "releaseNotes": "* Added linking of openssl shared lib to the config.m4\n* Fixed buffer overflow in Base64 encoding",
+            "get": "http://pecl.php.net/get/crypto-0.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.0": {
+            "version": "0.1.0",
+            "state": "devel",
+            "license": "PHP 3.01",
+            "releasedBy": "bukka",
+            "releaseDate": "2014-01-01T13:47:54+00:00",
+            "releaseNotes": "* Incremental cipher decryption and encryption\n* Support for authenticated encryption and decryption (GCM and CCM modes)\n* Incremental hash creation\n* Methods for retrieving informations about cipher and hash algorithms\n* HMAC and CMAC creation\n* Random numbers API including seeding and saving/loading PRNG state\n* Incremental Base64 decoding and encoding",
+            "get": "http://pecl.php.net/get/crypto-0.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "Wrapper for OpenSSL Crypto Library",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

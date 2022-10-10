@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/memcache">memcache</p>
+ <c>pecl.php.net</c>
+ <v>2.2.3</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>mikl</m>
+ <s>memcached extension</s>
+ <d>Memcached is a caching daemon designed especially for 
+    dynamic web applications to decrease database load by 
+    storing objects in memory.
+    This extension allows you to work with memcached through
+    handy OO and procedural interfaces.</d>
+ <da>2008-02-05 14:48:00</da>
+ <n>- Fixed PECL bug #12883 (Breaks UTF-8 in keys)
+- Fixed PECL bug #13060 (make problems, due to role=&quot;doc&quot; instead of role=&quot;src&quot;)
+- Added package version to phpinfo()</n>
+ <f>27304</f>
+ <g>http://pecl.php.net/get/memcache-2.2.3</g>
+ <x xlink:href="package.2.2.3.xml"/>
+</r>

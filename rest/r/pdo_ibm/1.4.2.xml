@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pdo_ibm">PDO_IBM</p>
+ <c>pecl.php.net</c>
+ <v>1.4.2</v>
+ <st>stable</st>
+ <l>Apache License 2.0</l>
+ <m>theprez</m>
+ <s>PDO driver for IBM databases</s>
+ <d>This extension provides an IBM database driver for PDO. This driver supports IBM DB2
+Universal Database, IBM Cloudscape, Apache Derby databases and IDS (Informix Data Server).</d>
+ <da>2021-10-04 00:24:14</da>
+ <n>* 2021-09-30: 1.4.2
+- Enable liveness checks on all platforms
+- Fix build issue with ulong on some platforms (did not affect Linux/IBM i)
+- Remove spurious warnings from closing the environment handle on IBM i
+- Enable processing driver options before connection (fixes naming mode issues on IBM i)
+- Getter for current naming mode on IBM i</n>
+ <f>95906</f>
+ <g>https://pecl.php.net/get/PDO_IBM-1.4.2</g>
+ <x xlink:href="package.1.4.2.xml"/>
+</r>

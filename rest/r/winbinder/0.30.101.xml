@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/winbinder">WinBinder</p>
+ <c>pecl.php.net</c>
+ <v>0.30.101</v>
+ <st>alpha</st>
+ <l>BSD</l>
+ <m>rubs</m>
+ <s>A Native Windows binding for PHP</s>
+ <d>WinBinder is an extension that allows PHP programmers to build native Windows applications. It wraps a limited but important subset of the Windows API in a lightweight, easy-to-use library so that program creation is quick and straightforward.
+</d>
+ <da>2004-11-15 16:06:00</da>
+ <n>This is a major update with several important changes.
+
+- Timers
+- Double-clicks in list views, treeviews and list boxes
+- Sort list view columns, list boxes, and combo boxes
+- New container pages inside tab controls for more reliable and better operation
+- Tab control pages can be selected programmatically
+- Keyboard accelerators in tab controls
+- Simpler creation of static controls, disabled controls, and invisible controls
+- Several bugs corrected, fixes to some paint problems
+- Several improvements and additions to documentation
+- Some new and improved applications</n>
+ <f>442684</f>
+ <g>http://pecl.php.net/get/WinBinder-0.30.101</g>
+ <x xlink:href="package.0.30.101.xml"/>
+</r>

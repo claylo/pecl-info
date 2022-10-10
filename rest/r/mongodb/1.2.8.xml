@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.2.8</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>jmikola</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundemental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2017-03-20 17:40:25</da>
+ <n>** Improvement
+    * [PHPC-936] - Define PHP_MONGODB_VERSION constant for Pickle compatibility</n>
+ <f>708570</f>
+ <g>http://pecl.php.net/get/mongodb-1.2.8</g>
+ <x xlink:href="package.1.2.8.xml"/>
+</r>

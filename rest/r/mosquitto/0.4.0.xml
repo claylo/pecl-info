@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mosquitto">Mosquitto</p>
+ <c>pecl.php.net</c>
+ <v>0.4.0</v>
+ <st>beta</st>
+ <l>BSD 3-Clause License</l>
+ <m>mgdm</m>
+ <s>Extension for libmosquitto</s>
+ <d>Mosquitto provides support for the MQTT protocol, including publishing, subscribing, and an event loop.</d>
+ <da>2017-03-13 21:17:34</da>
+ <n>* PHP 7 support thanks to Sara Golemon
+* Improved docs hosted on ReadTheDocs
+* Some memory usage fixes</n>
+ <f>23804</f>
+ <g>http://pecl.php.net/get/Mosquitto-0.4.0</g>
+ <x xlink:href="package.0.4.0.xml"/>
+</r>

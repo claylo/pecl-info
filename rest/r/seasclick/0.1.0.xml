@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/seasclick">SeasClick</p>
+ <c>pecl.php.net</c>
+ <v>0.1.0</v>
+ <st>stable</st>
+ <l>PHP3.01</l>
+ <m>neeke</m>
+ <s>An Yandex ClickHouse client driven extension for PHP.</s>
+ <d>PHP client for Yandex ClickHouse，Based on ClickHouse C++ client.</d>
+ <da>2019-03-28 08:08:24</da>
+ <n>- First version for pecl.net</n>
+ <f>736756</f>
+ <g>https://pecl.php.net/get/SeasClick-0.1.0</g>
+ <x xlink:href="package.0.1.0.xml"/>
+</r>

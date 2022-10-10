@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/perl">perl</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>dmitry</m>
+ <s>Embedded Perl.</s>
+ <d>This extension embeds Perl Interpreter into PHP. It allows execute Perl files, evaluate Perl code, access Perl variables and instantiate Perl objects.
+</d>
+ <da>2006-02-13 11:22:00</da>
+ <n>Some improvements</n>
+ <f>21397</f>
+ <g>http://pecl.php.net/get/perl-1.0.0</g>
+ <x xlink:href="package.1.0.0.xml"/>
+</r>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xdebug">xdebug</p>
+ <c>pecl.php.net</c>
+ <v>2.1.2</v>
+ <st>stable</st>
+ <l>BSD style</l>
+ <m>derick</m>
+ <s>Provides functions for function traces and profiling</s>
+ <d>The Xdebug extension helps you debugging your script by providing a lot of
+valuable debug information. The debug information that Xdebug can provide
+includes the following:
+
+    * stack and function traces in error messages with:
+          o full parameter display for user defined functions
+          o function name, file name and line indications
+          o support for member functions
+    * memory allocation
+    * protection for infinite recursions
+
+Xdebug also provides:
+
+    * profiling information for PHP scripts
+    * code coverage analysis
+    * capabilities to debug your scripts interactively with a debug client</d>
+ <da>2011-07-28 11:47:05</da>
+ <n>= Fixed bugs:
+
+	- Fixed bug #622: Working with eval() code is inconvenient and difficult.
+	- Fixed bug #684: xdebug_var_dump - IE does not support &amp;.
+	- Fixed bug #693: Cachegrind files not written when filename is very long.
+	- Fixed bug #697: Incorrect code coverage of function arguments when using
+	  XDEBUG_CC_UNUSED.
+	- Fixed bug #699: Xdebug gets the filename wrong for the countable
+	  interface.
+	- Fixed bug #703 by adding another opcode to the list that needs to be
+	  overridden.</n>
+ <f>304229</f>
+ <g>http://pecl.php.net/get/xdebug-2.1.2</g>
+ <x xlink:href="package.2.1.2.xml"/>
+</r>

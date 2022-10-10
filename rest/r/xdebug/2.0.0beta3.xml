@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xdebug">xdebug</p>
+ <c>pecl.php.net</c>
+ <v>2.0.0beta3</v>
+ <st>beta</st>
+ <l>BSD style</l>
+ <m>derick</m>
+ <s>Provides functions for function traces and profiling</s>
+ <d>The Xdebug extension helps you debugging your script by providing a lot of
+valuable debug information. The debug information that Xdebug can provide
+includes the following:
+
+    * stack and function traces in error messages with:
+          o full parameter display for user defined functions
+          o function name, file name and line indications
+          o support for member functions
+    * memory allocation
+    * protection for infinite recursions
+
+Xdebug also provides:
+
+    * profiling information for PHP scripts
+    * script execution analysis
+    * capabilities to debug your scripts interactively with a debug client
+</d>
+ <da>2005-05-12 11:56:58</da>
+ <n>+ Added new features:
+    - Added the possibility to trigger the profiler by setting
+      &quot;xdebug.profiler_enable_trigger&quot; to 1 and using XDEBUG_PROFILE as a get
+      parameter.
+
+= Fixed bugs:
+    - Fixed a segfault for when an attribute value is NULL on XML string
+      generation.
+    - Fixed bug #118: Segfault with exception when remote debugging.
+    - Fixed bug #117: var_dump dows not work with &quot;private&quot;.
+    - Fixed bug #109: DBGP's eval will abort the script when the eval statement
+      is invalid.
+    - Fixed bug #108: log_only still displays some text for errors in included
+      files.
+    - Fixed bug #107: Code Coverage only detects executable code in used
+      functions and classes.
+    - Fixed bug #103: crash when running the DBGp command 'eval' on a global
+      variable
+    - Fixed bug #95: Segfault when deinitializing Xdebug module.
+      (Patch by Maxim Poltarak &lt;demiurg@gmail.com&gt;)</n>
+ <f>197794</f>
+ <g>http://pecl.php.net/get/xdebug-2.0.0beta3</g>
+ <x xlink:href="package.2.0.0beta3.xml"/>
+</r>

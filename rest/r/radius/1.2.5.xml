@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/radius">radius</p>
+ <c>pecl.php.net</c>
+ <v>1.2.5</v>
+ <st>stable</st>
+ <l>BSD</l>
+ <m>mbretter</m>
+ <s>Radius client library</s>
+ <d>This package is based on the libradius of FreeBSD, with some modifications and extensions. 
+This PECL provides full support for RADIUS authentication (RFC 2865) and RADIUS accounting (RFC 2866), 
+works on Unix and on Windows. Its an easy way to authenticate your users against the user-database of your 
+OS (for example against Windows Active-Directory via IAS).</d>
+ <da>2007-03-18 17:02:49</da>
+ <n>- amd64 arch fixes</n>
+ <f>29750</f>
+ <g>http://pecl.php.net/get/radius-1.2.5</g>
+ <x xlink:href="package.1.2.5.xml"/>
+</r>

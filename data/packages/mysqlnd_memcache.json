@@ -1,0 +1,34 @@
+{
+    "category": "Database",
+    "deprecated": false,
+    "description": "The mysqlnd memcache plugin (mysqlnd_memcache) is an PHP extension for transparently translating SQL into requests for the MySQL InnoDB Memcached Daemon Plugin (server plugin). It includes experimental support for the MySQL Cluster Memcached Daemon. The server plugin provides access to data stored inside MySQL InnoDB (respectively MySQL Cluster NDB) tables using the Memcache protocol. This PHP extension, which supports all PHP MySQL extensions that use mysqlnd, will identify tables exported in this way and will translate specific SELECT queries into Memcache requests.",
+    "latestReleaseDate": "2013-07-17T19:33:32+00:00",
+    "latestVersion": "1.0.1",
+    "license": "PHP License",
+    "name": "mysqlnd_memcache",
+    "summary": "A PHP extension for transparently translating SQL into requests for the MySQL InnoDB Memcached Daemon Plugin",
+    "php8Mentioned": false,
+    "releases": {
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "johannes",
+            "releaseDate": "2013-07-17T19:33:32+00:00",
+            "releaseNotes": "Fixed build issues.",
+            "get": "http://pecl.php.net/get/mysqlnd_memcache-1.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "johannes",
+            "releaseDate": "2012-09-27T16:05:45+00:00",
+            "releaseNotes": "Initial package release.",
+            "get": "http://pecl.php.net/get/mysqlnd_memcache-1.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/oci8">oci8</p>
+ <c>pecl.php.net</c>
+ <v>2.0.1</v>
+ <st>devel</st>
+ <l>PHP</l>
+ <m>sixd</m>
+ <s>Extension for Oracle Database</s>
+ <d>This extension allows you to access Oracle Database. OCI8 2.0 can
+   be built with PHP 4.3.9 onwards. OCI8 can be linked with Oracle
+   Database 9.2, 10, 11, or 12.1 client libraries.  Oracle's standard
+   cross-version connectivity applies.  For example PHP linked with
+   Oracle Database 11.2 client libraries can connect to Oracle
+   Database 9.2 onwards.</d>
+ <da>2013-09-03 18:33:14</da>
+ <n>Fixed --enable-maintainer-zts mode.
+   Allow Implicit Result Set statement resources to inherit the parent's current prefetch count.
+   Allow OCI8 to be DTrace-enabled independently from core PHP.
+   Require OCI8 to be configured 'shared' when enabling DTrace support.</n>
+ <f>187065</f>
+ <g>http://pecl.php.net/get/oci8-2.0.1</g>
+ <x xlink:href="package.2.0.1.xml"/>
+</r>

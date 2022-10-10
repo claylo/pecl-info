@@ -1,0 +1,62 @@
+{
+    "2.2.0RC1": {
+        "version": "2.2.0RC1",
+        "state": "beta"
+    },
+    "2.1.2": {
+        "version": "2.1.2",
+        "state": "stable"
+    },
+    "2.1.1": {
+        "version": "2.1.1",
+        "state": "stable"
+    },
+    "2.1.0": {
+        "version": "2.1.0",
+        "state": "stable"
+    },
+    "2.1.0beta1": {
+        "version": "2.1.0beta1",
+        "state": "beta"
+    },
+    "2.0.3": {
+        "version": "2.0.3",
+        "state": "stable"
+    },
+    "2.0.2": {
+        "version": "2.0.2",
+        "state": "stable"
+    },
+    "2.0.1": {
+        "version": "2.0.1",
+        "state": "beta"
+    },
+    "2.0.0": {
+        "version": "2.0.0",
+        "state": "beta"
+    },
+    "0.5.7": {
+        "version": "0.5.7",
+        "state": "beta"
+    },
+    "0.5.6": {
+        "version": "0.5.6",
+        "state": "beta"
+    },
+    "0.5.5": {
+        "version": "0.5.5",
+        "state": "beta"
+    },
+    "0.5.4": {
+        "version": "0.5.4",
+        "state": "beta"
+    },
+    "0.5.3": {
+        "version": "0.5.3",
+        "state": "beta"
+    },
+    "0.5.2": {
+        "version": "0.5.2",
+        "state": "beta"
+    }
+}

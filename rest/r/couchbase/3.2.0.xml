@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/couchbase">couchbase</p>
+ <c>pecl.php.net</c>
+ <v>3.2.0</v>
+ <st>stable</st>
+ <l>Apache V2</l>
+ <m>avsej</m>
+ <s>Couchbase Server PHP extension</s>
+ <d>The PHP client library provides fast access to documents stored in a Couchbase Server.</d>
+ <da>2021-07-27 17:05:38</da>
+ <n>PCBC-750: Deprecate `getScope` in collections manager.
+PCBC-725: Add support for collections to Full Text Search.
+PCBC-764: Serialize `BooleanSearchQuery-&gt;mustNot` to `&quot;must_not&quot;`.
+PCBC-709: Add scope level analytics queries.
+PCBC-732: Expose partition information for query indexes.
+PCBC-733: Add analytics index manager.
+PCBC-769: Do not allow using CAS with counter operations, which are always atomic.
+PCBC-767: Fix URL for collection create method.
+PCBC-738: Add `preserveExpiry` support for mutations (`replace`, `upsert` and `mutateIn`).
+PCBC-700: Manage remote links for analytics service.
+PCBC-706: Provide tracing interface.
+PCBC-743: Provide metrics interface.</n>
+ <f>161384</f>
+ <g>https://pecl.php.net/get/couchbase-3.2.0</g>
+ <x xlink:href="package.3.2.0.xml"/>
+</r>

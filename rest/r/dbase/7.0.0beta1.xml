@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/dbase">dbase</p>
+ <c>pecl.php.net</c>
+ <v>7.0.0beta1</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>cmb</m>
+ <s>dBase database file access functions</s>
+ <d>These functions allow you to access records stored 
+in dBase-format (dbf) databases.
+
+There is no support for indexes or memo fields. 
+There is no support for locking, too. 
+Two concurrent webserver processes modifying the 
+same dBase file will very likely ruin your database.
+
+dBase files are simple sequential files of fixed length records. 
+Records are appended to the end of the file and delete records 
+are kept until you call dbase_pack().</d>
+ <da>2016-10-26 09:54:23</da>
+ <n>- PHP 7 compatibility (use dbase-5 with PHP 5)
+- Fixed #39305: Use of decimal point in different countries
+- Fixed #52112: dbase_get_record() returns integer instead of decimal values
+- Fixed #68289: wrong strlcpy call
+- Fixed #72812: dbase_create does not close the FD on failure
+- Fixed #72815: zend_get_parameters_ex() is deprecated</n>
+ <f>16206</f>
+ <g>http://pecl.php.net/get/dbase-7.0.0beta1</g>
+ <x xlink:href="package.7.0.0beta1.xml"/>
+</r>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/couchbase">couchbase</p>
+ <c>pecl.php.net</c>
+ <v>2.0.7</v>
+ <st>stable</st>
+ <l>Apache V2</l>
+ <m>brett19</m>
+ <s>Couchbase Server PHP extension</s>
+ <d>The PHP client library provides fast access to documents stored in
+        a Couchbase Server.</d>
+ <da>2015-04-22 14:18:42</da>
+ <n>This is a patch update to the PHP 2.0 SDK.
+    
+Changes:
+* PCBC-339: Add support for using N1QL with CB Server 4.0.0.
+* PCBC-343: Added missing touch method to CouchbaseBucket.</n>
+ <f>30414</f>
+ <g>http://pecl.php.net/get/couchbase-2.0.7</g>
+ <x xlink:href="package.2.0.7.xml"/>
+</r>

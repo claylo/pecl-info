@@ -1,0 +1,218 @@
+{
+    "4.0.0": {
+        "version": "4.0.0",
+        "state": "stable"
+    },
+    "3.2.2": {
+        "version": "3.2.2",
+        "state": "stable"
+    },
+    "3.2.1": {
+        "version": "3.2.1",
+        "state": "stable"
+    },
+    "3.2.0": {
+        "version": "3.2.0",
+        "state": "stable"
+    },
+    "3.1.2": {
+        "version": "3.1.2",
+        "state": "stable"
+    },
+    "3.1.1": {
+        "version": "3.1.1",
+        "state": "stable"
+    },
+    "3.1.0": {
+        "version": "3.1.0",
+        "state": "stable"
+    },
+    "3.0.5": {
+        "version": "3.0.5",
+        "state": "stable"
+    },
+    "3.0.4": {
+        "version": "3.0.4",
+        "state": "stable"
+    },
+    "2.6.2": {
+        "version": "2.6.2",
+        "state": "stable"
+    },
+    "3.0.0beta1": {
+        "version": "3.0.0beta1",
+        "state": "beta"
+    },
+    "3.0.0alpha4": {
+        "version": "3.0.0alpha4",
+        "state": "alpha"
+    },
+    "2.6.1": {
+        "version": "2.6.1",
+        "state": "stable"
+    },
+    "3.0.0alpha3": {
+        "version": "3.0.0alpha3",
+        "state": "alpha"
+    },
+    "3.0.0alpha2": {
+        "version": "3.0.0alpha2",
+        "state": "alpha"
+    },
+    "3.0.0alpha1": {
+        "version": "3.0.0alpha1",
+        "state": "alpha"
+    },
+    "2.6.0": {
+        "version": "2.6.0",
+        "state": "stable"
+    },
+    "2.5.0": {
+        "version": "2.5.0",
+        "state": "stable"
+    },
+    "2.4.7": {
+        "version": "2.4.7",
+        "state": "stable"
+    },
+    "2.4.6": {
+        "version": "2.4.6",
+        "state": "stable"
+    },
+    "2.4.5": {
+        "version": "2.4.5",
+        "state": "stable"
+    },
+    "2.4.4": {
+        "version": "2.4.4",
+        "state": "stable"
+    },
+    "2.4.3": {
+        "version": "2.4.3",
+        "state": "stable"
+    },
+    "2.4.2": {
+        "version": "2.4.2",
+        "state": "stable"
+    },
+    "2.4.1": {
+        "version": "2.4.1",
+        "state": "stable"
+    },
+    "2.4.0": {
+        "version": "2.4.0",
+        "state": "stable"
+    },
+    "2.3.4": {
+        "version": "2.3.4",
+        "state": "stable"
+    },
+    "2.3.3": {
+        "version": "2.3.3",
+        "state": "stable"
+    },
+    "2.3.2": {
+        "version": "2.3.2",
+        "state": "stable"
+    },
+    "2.3.1": {
+        "version": "2.3.1",
+        "state": "stable"
+    },
+    "2.3.0": {
+        "version": "2.3.0",
+        "state": "stable"
+    },
+    "2.2.4": {
+        "version": "2.2.4",
+        "state": "stable"
+    },
+    "2.2.3": {
+        "version": "2.2.3",
+        "state": "stable"
+    },
+    "2.2.2": {
+        "version": "2.2.2",
+        "state": "stable"
+    },
+    "2.2.1": {
+        "version": "2.2.1",
+        "state": "stable"
+    },
+    "2.2.0": {
+        "version": "2.2.0",
+        "state": "stable"
+    },
+    "2.2.0beta4": {
+        "version": "2.2.0beta4",
+        "state": "beta"
+    },
+    "2.2.0beta3": {
+        "version": "2.2.0beta3",
+        "state": "beta"
+    },
+    "2.2.0beta2": {
+        "version": "2.2.0beta2",
+        "state": "beta"
+    },
+    "2.2.0beta1": {
+        "version": "2.2.0beta1",
+        "state": "beta"
+    },
+    "2.1.0": {
+        "version": "2.1.0",
+        "state": "stable"
+    },
+    "2.0.7": {
+        "version": "2.0.7",
+        "state": "stable"
+    },
+    "2.0.6": {
+        "version": "2.0.6",
+        "state": "stable"
+    },
+    "2.0.5": {
+        "version": "2.0.5",
+        "state": "stable"
+    },
+    "2.0.4": {
+        "version": "2.0.4",
+        "state": "stable"
+    },
+    "2.0.3": {
+        "version": "2.0.3",
+        "state": "stable"
+    },
+    "2.0.2": {
+        "version": "2.0.2",
+        "state": "stable"
+    },
+    "2.0.1": {
+        "version": "2.0.1",
+        "state": "stable"
+    },
+    "2.0.0": {
+        "version": "2.0.0",
+        "state": "stable"
+    },
+    "1.2.2": {
+        "version": "1.2.2",
+        "state": "stable"
+    },
+    "1.2.1": {
+        "version": "1.2.1",
+        "state": "stable"
+    },
+    "1.2.0": {
+        "version": "1.2.0",
+        "state": "stable"
+    },
+    "1.1.5": {
+        "version": "1.1.5",
+        "state": "stable"
+    },
+    "1.1.4": {
+        "version": "1.1.4",
+        "state": "snapshot"
+    }
+}

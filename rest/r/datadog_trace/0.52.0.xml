@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.52.0</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>sammyk</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2020-11-30 22:25:43</da>
+ <n>### Added
+- Laravel 8 support #1100 #1102
+- Enable Yii 2 on PHP 8 #1106
+- Add PHP 8 asan tests #1108
+
+### Changed
+- Use the observer API on PHP 8 #1089
+- Remove integrations that do not yet support PHP 8 #1103
+- Update containers to PHP 8.0.0 #1111
+
+### Fixed
+- Fix distributed tracing on PHP 8 #1099</n>
+ <f>429989</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.52.0</g>
+ <x xlink:href="package.0.52.0.xml"/>
+</r>

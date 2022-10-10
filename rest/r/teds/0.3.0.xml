@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/teds">teds</p>
+ <c>pecl.php.net</c>
+ <v>0.3.0</v>
+ <st>alpha</st>
+ <l>BSD-3-Clause</l>
+ <m>tandre</m>
+ <s>teds extension</s>
+ <d>teds (Tentative Extra Data Structures) is a collection of data structures and iterable functionality</d>
+ <da>2021-09-19 13:12:29</da>
+ <n>* Backwards incompatible change: Change `Vector::indexOf` return type from `int|false` to `?int` (and all other `indexOf*` methods in other data structures)
+* Backwards incompatible change: Change `valueAt`/`setValueAt` to get/set in Deque, Vector, and ImmutableSequence
+* Add optional parameter `$value = null` to `Vector::setSize()` to allow overriding the value used for padding when lengthening an array.
+* Change exception handling for sizes/capacities that are definitely too large to allocate.
+* Make Vector::push() variadic and accept 0 or more arguments, like `array_push` does.
+* Reclaim unused memory in Deque when roughly a quarter or less of the internal buffer is used.
+* Optimize performance of Deque, always use powers of 2 for the capacity of Deque to speed up reads/writes.</n>
+ <f>69345</f>
+ <g>https://pecl.php.net/get/teds-0.3.0</g>
+ <x xlink:href="package.0.3.0.xml"/>
+</r>

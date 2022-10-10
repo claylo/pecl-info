@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/htscanner">htscanner</p>
+ <c>pecl.php.net</c>
+ <v>0.6.3</v>
+ <st>alpha</st>
+ <l>PHP License</l>
+ <m>pajoye</m>
+ <s>htaccess support for PHP</s>
+ <d>Allow one to use htaccess-like file to configure PHP
+per directory, just like apache's htaccess. It is especially useful with fastcgi.
+This package was originally developed by Bart Vanbrabant. Old versions are available
+ from: http://files.zoeloelip.be/htscanner</d>
+ <da>2007-01-06 11:06:12</da>
+ <n>- #9672, erroneous ini value length 
+- Replace request and module init fatal errors by warnings 
+- The None value is now case insentive, like in php.ini
+- do not use REPORT_ERRORS while trying to open a config file
+- Added a note in README to compile for apache when mod_access and php are present</n>
+ <f>7912</f>
+ <g>http://pecl.php.net/get/htscanner-0.6.3</g>
+ <x xlink:href="package.0.6.3.xml"/>
+</r>

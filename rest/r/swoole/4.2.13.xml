@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.2.13</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in http/websocket/http2 server
+        - coroutine http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2019-02-02 14:06:24</da>
+ <n>Fixed (incompatible changes to be noted)
+---
+* Fixed a problem with Redis subscribe API design issues that caused duplicate subscriptions and subscription messages to be lost (see: [Subscription Mode Documentation](https://wiki.swoole.com/wiki/page/1041.html)) (#2305) (@windrunner414)
+* After using coroutine, you can no longer use the traditional connection multiplexing method such as `pconnect`, otherwise it will generate the problem of multi-coroutine handle the same Socket at the same time (7b1e786) (@shiguangqi)
+
+Enhancement
+---
++ Coroutine client re-supports full duplex (#2350) (@twosee)
++ Support for secure cross-coroutine socket close (#2327) (@twosee)
++ [RFC-1015](https://github.com/swoole/rfc-chinese/issues/38): Non-Worker Process Allows One-Way Delivery Task (222043a) (@matyhtf)
++ `swoole_strerror` supports automatic convert system error code and Swoole error code to text, no need to specify parameters (c92f444) (@twosee)
++ GDB trace tool supports viewing timer and reactor and hashmap information (2beb563) (@shiguangqi)
++ When MOVED and ASK errors occurred when using Redis cluster, it will be automatically transferred to the corresponding server (#2299) (@windrunner414)
++ Underlying code optimization, reducing memory copy when receiving packages (@matyhtf)
++ Now calling `Co\Socket-&gt;close()` will immediately close the fd instead of waiting for the object to be destructed, after closed,  use any other API will return a BADF error (consistent with the system API) (7a61963) (@Twosee)
++ Some illegal parameters no longer cause fatal errors but generate a warning, because external parameters are sometimes uncontrollable and there is a certain risk (cd432d3) (@twosee)
++ API compatibility enhancement after use coroutine mode (consistent with sync mode) (36687e8) (@matyhtf)
++ Now swoole\src can be used as a C\C++ library at the same time (libswoole)
+
+Fixed
+---
+* Fixed a possible coredump problem when there were a large number of objects before the extension load (4ddeedb) (@twosee)
+* Fixed coredump caused by attempting to clear the uninitialized DNS cache (#2288) (@mabu233)
+* When `task_enable_coroutine` is enabled, incorrectly calling `Server-&gt;finish` will trigger a fatal error (156ede6) (@twosee)
+* The php.ini configuration now displays `On` and `Off` correctly (instead of 0 and 1) (fe25982) (@twosee)
+* Fixed the `Co::getaddrinfo` parameter parser bug (#2273) (@mabu233)
+* Fixed fd error when using dispatch_func in UDP mode (#2306) (@mabu233)
+* Fixed the bug that dispatch_func does not work when specifying the function name, optimization for reducing memory copy (2bc49e4) (@twosee)
+* PHP warnings will no longer be triggered when the task expires (but the underlying log warning of swoole) (54eee5e) (@matyhtf)
+* Fixed enable coroutine states after process restarts (#2310)
+* Fixed the user process id property (#2313) (@junwei-qu)
+* Fixed the bug caused by incorrectly using the asynchronous API in the onStart callback in BASE mode (#2308) (@matyhtf)
+* Fixed incorrect manager_id in BASE mode (e18e013) (@matyhtf)
+* Fixed mmap using SEEK_END offset error (#2314) (@junwei-qu)
+* Fixed getSocket memory leak (ec8c4b2) (@twosee)
+* Optimized stream mode (47e0e9e) (@matyhtf)
+* Fixed BUG caused by connection multiplexing in sync client with KEEP mode under certain conditions (4c5728b) (@matyhtf)
+* Fixed an issue with `Atomic` multiple `wait` and `wakeup` overflows on MacOS (fbccb25) (@twosee)
+* Fixed the problem of opening the static_handler directory traversal attack risk, this is a convenient debugging feature, please do not use for production (#2323) (@windrunner414)
+* Fixed unchecked return value of futex_wait system call (#2351) (@junwei-qu)
+* Fixed bugs in Redis::ZAdd API parsing parameters, and fix other potential type conversion problems (#2321) (21e0497) (a0e612f) (00134cf) (f5a331e) (5f87f17) (a15f094) (67f3285) (808f578) (d118fe3) (5294473) (48f6790) (0105c7f) (ba6c8b4) (@matyhtf)
+* Fixed a third-party hook failure that could result from not using function pointers when sending data (89ba2da) (@matyhtf)
+* Fixed a memory leak in the Timer::tick method when passing arguments (7e15141) (@mabu233)
+* Fixed user process does not exit automatically (2901ce0) (@matyhtf)
+* Fixed read operation timeout config (a990540) (@shiguangqi)
+* Fixed the problem that the parameter timeout time does not take effect after the `Co\Client` open the package length check (#2346) (@twosee)
+* Server is no longer in the control of `buffer_output_size` in BASE mode, only limited by `socket_buffer_size` (#2326) (@matyhtf)
+* Fixed compilation error under FREEBSD (#2325) (@matyhtf)
+* Compatibility: When the Mysql escape method fails, it will return an empty string instead of FALSE
+
+Others
+---
+* Swoole\Serialize is now supported for PHP73, but it is still marked as a deprecated feature</n>
+ <f>1305634</f>
+ <g>https://pecl.php.net/get/swoole-4.2.13</g>
+ <x xlink:href="package.4.2.13.xml"/>
+</r>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/crypto">crypto</p>
+ <c>pecl.php.net</c>
+ <v>0.2.1</v>
+ <st>devel</st>
+ <l>PHP 3.01</l>
+ <m>bukka</m>
+ <s>Wrapper for OpenSSL Crypto Library</s>
+ <d>This package provides an objective wrapper for OpenSSL Crypto Library</d>
+ <da>2015-11-15 21:38:06</da>
+ <n>* Fixed C89 compatibility issue in Base64</n>
+ <f>66286</f>
+ <g>http://pecl.php.net/get/crypto-0.2.1</g>
+ <x xlink:href="package.0.2.1.xml"/>
+</r>

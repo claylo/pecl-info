@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/rpmreader">rpmreader</p>
+ <c>pecl.php.net</c>
+ <v>0.1</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>atex</m>
+ <s>RPM file meta information reader</s>
+ <d>rpmreader is an extension that provides the ability to read RedHat
+Package Manager (RPM) files' header information.  This extension
+currently does not provide the functionality to read the signature
+or archive sections of the RPM file.
+</d>
+ <da>2005-10-06 12:39:56</da>
+ <n>1) Initial release</n>
+ <f>11978</f>
+ <g>http://pecl.php.net/get/rpmreader-0.1</g>
+ <x xlink:href="package.0.1.xml"/>
+</r>

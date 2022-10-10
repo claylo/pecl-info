@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>5.0.0</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in tcp/http/websocket/http2 server
+        - coroutine tcp/http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2022-08-01 13:36:45</da>
+ <n>Added
+---
+* Added max_concurrency option for Server
+* Added max_retries option for Coroutine\Http\Client
+* Added name_resolver global option
+* Added upload_max_filesize option for Server
+* Added Coroutine::getExecuteTime()
+* Added SWOOLE_DISPATCH_CONCURRENT_LB dispatch_mode for Server
+
+Changed
+---
+* Enhanced type system, added types for parameters and return values of all functions
+* Optimized error handling, all constructors will throw exceptions when fail
+* Adjusted the default mode of Server, the default is SWOOLE_BASE mode
+* Migrate pgsql coroutine client to core
+* Contains all bugfixes from the 4.8.x branch
+
+Removed
+---
+- Removed PSR-0 style class names
+- Removed the automatic addition of Event::wait() in shutdown function
+- Removed Server::tick/after/clearTimer/defer aliases
+- Removed --enable-http/--enable-swoole-json, adjusted to be enable by default
+
+Deprecated
+---
+- Deprecated Coroutine\Redis and Coroutine\MySQL</n>
+ <f>2136037</f>
+ <g>https://pecl.php.net/get/swoole-5.0.0</g>
+ <x xlink:href="package.5.0.0.xml"/>
+</r>

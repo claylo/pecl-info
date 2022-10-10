@@ -1,0 +1,74 @@
+{
+    "category": "Encryption",
+    "deprecated": false,
+    "description": "Provides bindings for the unmaintained libmcrypt.",
+    "latestReleaseDate": "2022-05-23T10:41:11+00:00",
+    "latestVersion": "1.0.5",
+    "license": "PHP License",
+    "name": "mcrypt",
+    "php8Mentioned": true,
+    "releases": {
+        "1.0.5": {
+            "version": "1.0.5",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "derick",
+            "releaseDate": "2022-05-23T10:41:11+00:00",
+            "releaseNotes": "- Make release to advertise PHP 8 support, which it already had.",
+            "get": "https://pecl.php.net/get/mcrypt-1.0.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.4": {
+            "version": "1.0.4",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "derick",
+            "releaseDate": "2020-12-02T10:14:34+00:00",
+            "releaseNotes": "- Make release to advertise PHP 8 support, which it already had.",
+            "get": "https://pecl.php.net/get/mcrypt-1.0.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.3": {
+            "version": "1.0.3",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "derick",
+            "releaseDate": "2019-09-17T16:24:24+00:00",
+            "releaseNotes": "- Addressed Windows build issues",
+            "get": "https://pecl.php.net/get/mcrypt-1.0.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.2": {
+            "version": "1.0.2",
+            "state": "snapshot",
+            "license": "PHP License",
+            "releasedBy": "derick",
+            "releaseDate": "2019-01-10T18:02:40+00:00",
+            "releaseNotes": "- The mcrypt extension as it was in PHP 7.1, before it was removed from core.",
+            "get": "https://pecl.php.net/get/mcrypt-1.0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "snapshot",
+            "license": "PHP License",
+            "releasedBy": "leigh",
+            "releaseDate": "2016-12-13T14:09:22+00:00",
+            "releaseNotes": "- The mcrypt extension as it was in PHP 7.1, before it was removed from core.",
+            "get": "http://pecl.php.net/get/mcrypt-1.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "snapshot",
+            "license": "PHP License",
+            "releasedBy": "leigh",
+            "releaseDate": "2016-12-12T17:36:32+00:00",
+            "releaseNotes": "- The mcrypt extension as it was in PHP 7.1, before it was removed from core.",
+            "get": "http://pecl.php.net/get/mcrypt-1.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "Bindings for the libmcrypt library",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

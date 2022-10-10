@@ -1,0 +1,44 @@
+{
+    "category": "Images",
+    "deprecated": false,
+    "description": "A cairo API wrapper. For details about cairo see http://cairographics.org/.",
+    "latestReleaseDate": "2008-03-28T17:20:33+00:00",
+    "latestVersion": "0.2.4",
+    "license": "PHP",
+    "name": "cairo_wrapper",
+    "php8Mentioned": false,
+    "releases": {
+        "0.2.4": {
+            "version": "0.2.4",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "hholzgra",
+            "releaseDate": "2008-03-28T17:20:33+00:00",
+            "releaseNotes": "- added various cairo 1.4 specific functions\n- fixed build if cairo installation has no SVG support (PECL Bug #13521)",
+            "get": "http://pecl.php.net/get/cairo_wrapper-0.2.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.3": {
+            "version": "0.2.3",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "hholzgra",
+            "releaseDate": "2007-11-29T14:06:16+00:00",
+            "releaseNotes": "Stuff added since 0.2.2:\n- fixed some function name issues (PECL bug# 12302)",
+            "get": "http://pecl.php.net/get/cairo_wrapper-0.2.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.2": {
+            "version": "0.2.2",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "hholzgra",
+            "releaseDate": "2007-01-25T15:32:16+00:00",
+            "releaseNotes": "Stuff added since 0.2.1:\n- reflection fix by disabling inclusion of\n  cairo backwards compatibility macros\n- package regenerated using latest CodeGen_PECL\n  to resolve phpize problems on systems with\n  older autoconf installations\n- added comments to more constants\n- *_create_* functions never return NULL, \n  error states need to be checked for using \n  *_status_* functions",
+            "get": "http://pecl.php.net/get/cairo_wrapper-0.2.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "Cairo Wrapper Extension",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

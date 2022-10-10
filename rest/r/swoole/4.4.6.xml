@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.4.6</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in http/websocket/http2 server
+        - coroutine http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2019-09-18 15:33:38</da>
+ <n>Enhancement
+---
++ Support max_request_grace (#2784) (#2808) (#2809) (@sshymko)
++ Add SameSite Cookie (@2815) (@Yurunsoft)
++ Support curl_multi_getcontent, CURLOPT_AUTOREFERER for curl hook, add ignore options (#2817) (@2818) (@2819) (@limingxinleo)
++ Support CURLOPT_SSLVERSION and CURLINFO_HEADER_OUT (f2b4c93) (@matyhtf)
++ AIO thread safe (@matyhtf)
++ Optimize numeric type conversion (aa20913) (@twose)
++ Compatibly with diseval extension for library (8b7eb16) (@GXhua)
+
+Fixed
+---
+* Fixed missing http headers (#2786) (@doubaokun)
+* Defensive programming for signal callback (@twose)
+* Fixed getProcess memory error (#2801) (@matyhtf)
+* Fixed compilation on MacOS (@matyhtf)
+* Fixed Coroutine\System methods (97c1444) (@twose)
+* Fixed AIO thread task stuck (@matyhtf)
+* Fixed HTTP2 HEADER_TABLE_SIZE (@twose)
+* Fixed spurious waking of socket (d0b659a) (@matyhtf)</n>
+ <f>1431440</f>
+ <g>https://pecl.php.net/get/swoole-4.4.6</g>
+ <x xlink:href="package.4.4.6.xml"/>
+</r>

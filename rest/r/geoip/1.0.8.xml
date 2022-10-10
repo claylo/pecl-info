@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/geoip">geoip</p>
+ <c>pecl.php.net</c>
+ <v>1.0.8</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>ohill</m>
+ <s>Map IP address to geographic places</s>
+ <d>This PHP extension allows you to find the location of an IP address - City, State, Country, Longitude, Latitude, and other information as all, such as ISP and connection type. For more info, please visit Maxmind's website.</d>
+ <da>2011-10-23 20:38:33</da>
+ <n>* Windows support
+* Fix segfault with newer geoip libraries and geoip_db_get_all_info() (bug #60066)
+* Use X-Macros for repeated code
+* Updated tests</n>
+ <f>10061</f>
+ <g>http://pecl.php.net/get/geoip-1.0.8</g>
+ <x xlink:href="package.1.0.8.xml"/>
+</r>

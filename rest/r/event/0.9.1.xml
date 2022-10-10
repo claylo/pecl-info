@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/event">event</p>
+ <c>pecl.php.net</c>
+ <v>0.9.1</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>wez</m>
+ <s>Event Scheduling Engine</s>
+ <d>This is an extension to efficiently schedule IO, time and signal based
+events using the best available IO notification mechanism for your system.
+This is a port of libevent to the PHP infrastructure; the API is similar
+but not identical.
+</d>
+ <da>2004-12-16 05:37:00</da>
+ <n>Added event_timeout() function for easily scheduling a callback after a certain
+period of time.  The timeout may be persistent to make the callback a recurrent
+event.
+
+Fixed an issue with timercmp() on windows that caused a busy wait when the
+scheduler could have performed a sleep.
+
+Windows scheduling engine now also processes the message queue while waiting;
+useful for COM/GUI based scripts.
+
+Fixed build for threaded systems with real signals.
+
+Supports epoll(4), poll(2) and select(2) IO notification engines.
+Support for /dev/poll and kqueue is pending.
+
+On Windows, currently only sockets can participate in the IO notification engine.</n>
+ <f>22551</f>
+ <g>http://pecl.php.net/get/event-0.9.1</g>
+ <x xlink:href="package.0.9.1.xml"/>
+</r>

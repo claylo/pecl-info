@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0alpha2</v>
+ <st>alpha</st>
+ <l>New BSD License</l>
+ <m>jmikola</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundemental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2015-08-21 00:30:24</da>
+ <n>* PHPC-365: Add src/contrib to Windows build includes</n>
+ <f>590420</f>
+ <g>http://pecl.php.net/get/mongodb-1.0.0alpha2</g>
+ <x xlink:href="package.1.0.0alpha2.xml"/>
+</r>

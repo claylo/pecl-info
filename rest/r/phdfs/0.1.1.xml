@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/phdfs">phdfs</p>
+ <c>pecl.php.net</c>
+ <v>0.1.1</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>yumin1985</m>
+ <s>PHP client library to communicate with the hadoop hdfs</s>
+ <d>phdfs is using PHP to manipulate Hadoop HDFS.Extension is an interface to HDFS.Currently in use in the phone business consulting system</d>
+ <da>2014-09-11 13:19:47</da>
+ <n>- Fix package</n>
+ <f>147274</f>
+ <g>http://pecl.php.net/get/phdfs-0.1.1</g>
+ <x xlink:href="package.0.1.1.xml"/>
+</r>

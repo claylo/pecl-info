@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/lapack">lapack</p>
+ <c>pecl.php.net</c>
+ <v>0.1.0</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>ianb</m>
+ <s>LAPACK Library</s>
+ <d>LAPACK is a collection of efficient linear algebra routines</d>
+ <da>2012-02-14 03:20:57</da>
+ <n>- Added linear least square, eigenvalues, and singular values functions
+- Added eigenvalues function
+- Added linear equation functions
+- Added inverse and identity functions
+- Added eigenvector retrieval on eigenvalue functions</n>
+ <f>10241</f>
+ <g>http://pecl.php.net/get/lapack-0.1.0</g>
+ <x xlink:href="package.0.1.0.xml"/>
+</r>

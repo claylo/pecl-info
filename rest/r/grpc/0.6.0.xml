@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/grpc">grpc</p>
+ <c>pecl.php.net</c>
+ <v>0.6.0</v>
+ <st>beta</st>
+ <l>BSD</l>
+ <m>stanleycheung</m>
+ <s>A high performance, open source, general RPC framework that puts mobile and HTTP/2 first.</s>
+ <d>Remote Procedure Calls (RPCs) provide a useful abstraction for building distributed applications and services. The libraries in this repository provide a concrete implementation of the gRPC protocol, layered over HTTP/2. These libraries enable communication between clients and servers using any combination of the supported languages.</d>
+ <da>2015-09-24 21:32:12</da>
+ <n>- support per message compression disable
+- expose per-call host override option
+- expose connectivity API
+- expose channel target and call peer
+- add user-agent
+- update to wrap gRPC C core library beta version 0.11.0</n>
+ <f>17613</f>
+ <g>http://pecl.php.net/get/grpc-0.6.0</g>
+ <x xlink:href="package.0.6.0.xml"/>
+</r>

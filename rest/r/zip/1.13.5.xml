@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/zip">zip</p>
+ <c>pecl.php.net</c>
+ <v>1.13.5</v>
+ <st>stable</st>
+ <l>PHP 3.01</l>
+ <m>remi</m>
+ <s>A zip management extension</s>
+ <d>Zip is an extension to create, modify and read zip files.</d>
+ <da>2016-10-14 15:27:30</da>
+ <n>- Fixed bug #72660 (NULL Pointer dereference in zend_virtual_cwd). (Laruence)
+- Fixed bug #68302 (impossible to compile php with zip support). (cmb)
+- Fixed bug #70752 (Depacking with wrong password leaves 0 length files). (cmb)</n>
+ <f>316993</f>
+ <g>http://pecl.php.net/get/zip-1.13.5</g>
+ <x xlink:href="package.1.13.5.xml"/>
+</r>

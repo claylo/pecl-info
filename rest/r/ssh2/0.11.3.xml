@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ssh2">ssh2</p>
+ <c>pecl.php.net</c>
+ <v>0.11.3</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>pajoye</m>
+ <s>Bindings for the libssh2 library</s>
+ <d>Provides bindings to the functions of libssh2 which implements the SSH2 protocol.
+    libssh2 is available from http:/libssh2.org/</d>
+ <da>2011-09-27 16:10:20</da>
+ <n>- Fixed bug#24349 (ssh2_sftp_mkdir fails with trailing slash)
+- Fixed bug#22729 (using ssh2.sftp stream on 64bit vs. 32bit)
+- Fixed bug#22671 (trailing spaces trimmed from filenames)
+- Fixed bug#17142 (Missing EOF detection in ssh2.sftp:// streams)
+- Fixed bug#16944 (Segmentation fault SIGSEGV with protected variable with ssh2)</n>
+ <f>23062</f>
+ <g>http://pecl.php.net/get/ssh2-0.11.3</g>
+ <x xlink:href="package.0.11.3.xml"/>
+</r>

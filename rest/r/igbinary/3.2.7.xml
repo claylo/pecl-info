@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/igbinary">igbinary</p>
+ <c>pecl.php.net</c>
+ <v>3.2.7</v>
+ <st>stable</st>
+ <l>BSD-3-Clause</l>
+ <m>tandre</m>
+ <s>igbinary extension</s>
+ <d>Igbinary is a drop in replacement for the standard php serializer. Instead of
+the time and space consuming textual representation used by PHP's serialize(), igbinary stores php data
+structures in a compact binary form. Savings are significant when using
+memcached or similar memory based storages for serialized data.</d>
+ <da>2022-01-12 13:54:34</da>
+ <n>* Update test expectations for php 8.2.0-dev. Add `#[AllowDynamicProperties]` Attribute to some tests to avoid notices.
+* In php 8.1+, make igbinary_unserialize check to see if an equivalent interned string already exists when unserializing object property names, array keys, and class names
+  and use that instead of creating a brand new string.
+  (This deliberately doesn't create a new interned string if one doesn't already exist.)
+  (Before this change, igbinary would deduplicate strings when serializing, but would not check if strings were interned by PHP itself when unserializing)
+* Avoid debug build assertion failure for `HT_ASSERT_RC1` the same way as PHP's unserialize - this is a case where ostensibly there are no other references to the array being unserialized.</n>
+ <f>97792</f>
+ <g>https://pecl.php.net/get/igbinary-3.2.7</g>
+ <x xlink:href="package.3.2.7.xml"/>
+</r>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ion">ion</p>
+ <c>pecl.php.net</c>
+ <v>0.2.0</v>
+ <st>alpha</st>
+ <l>BSD-2-Clause</l>
+ <m>mike</m>
+ <s>Amazon ION support</s>
+ <d>This PHP extension  provides support for the Amazon ION serialization format.
+https://awesomized.github.io/ext-ion/</d>
+ <da>2022-05-13 07:44:26</da>
+ <n>* Improved documentation.
+* Upgrade bundled ion-c library.
+* Fix gh-issue #5: ion\Timestamp crashes with string timezones.
+* Add ion\Exception.
+* Refactor (un)serialization facilities:
+  * Removed ion\Reader\Options class and moved the options to the ion\Reader constructor.
+  * Removed ion\Writer\Options class and moved the options to the ion\Writer constructor.
+  * Renamed ion\Serializer\PHP to ion\Serializer\Serializer.
+  * Renamed ion\Unserializer\PHP to ion\Unserializer\Unserializer.
+  * Changed ion\Serializer::serialize(mixed $data) to
+    ion\Serializer::serialize(mixed $data, ion\Writer|array|null $writer = null).
+  * Changed ion\Unserializer::unserialize(string|resource $data) to
+    ion\Unserializer::unserialize(ion\Reader|string|resource $data)
+* Add support for custom (un)serializers.</n>
+ <f>63180</f>
+ <g>https://pecl.php.net/get/ion-0.2.0</g>
+ <x xlink:href="package.0.2.0.xml"/>
+</r>

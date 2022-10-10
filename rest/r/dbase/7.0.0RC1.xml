@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/dbase">dbase</p>
+ <c>pecl.php.net</c>
+ <v>7.0.0RC1</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>cmb</m>
+ <s>dBase database file access functions</s>
+ <d>These functions allow you to access records stored 
+in dBase-format (dbf) databases.
+
+There is no support for indexes or memo fields. 
+The databases are automatically locked with blocking flock()s.
+
+dBase files are simple sequential files of fixed length records. 
+Records are appended to the end of the file and deleted records 
+are kept until you call dbase_pack().</d>
+ <da>2019-04-04 08:54:07</da>
+ <n>Backward Incompatible Changes
+
+  - database link identifiers are now proper resources instead of integers
+  - logical values are now retrieved as booleans instead of integers
+
+New Features
+
+  - FoxPro datetime fields ('T') are now supported as &quot;YYYYMMDDhhmmss.uuu&quot;
+  - Uninitialized logical fields are now supported as NULL
+  - base_create() now supports an optional $type parameter (either DBASE_TYPE_DBASE
+    or DBASE_TYPE_FOXPRO) to define the type of database to be created
+  - FoxPro nullable fields are now transparently supported
+  - The $mode of dbase_open() can now be specified as DBASE_RDONLY or DBASE_RDWR
+  - The version of the dbase extension is now available as DBASE_VERSION
+  - Basic database locking has been implemented
+  - Internally the Zend memory manager is now used
+  - Error reporting has been improved; e.g. unsupported field type now raise a
+    warning
+
+Bug Fixes
+
+  - Fixed #73391 (Writing of floats can cause OOB reads)
+  - Fixed #73395 (failing dbase_create() may leak memory)
+  - Fixed #73411 (dbase_pack() returns TRUE on failure)
+  - Fixed #73414 (Unsupported field types may cause dbase_open() to leak memory)
+  - Fixed #73442 (Float fields always have precision 0)
+  - Fixed #73447 (Floats written to character fields are truncated to integer)
+  - Fixed #74983 (SIGABRT when function put_dbf_field is called)</n>
+ <f>32799</f>
+ <g>https://pecl.php.net/get/dbase-7.0.0RC1</g>
+ <x xlink:href="package.7.0.0RC1.xml"/>
+</r>

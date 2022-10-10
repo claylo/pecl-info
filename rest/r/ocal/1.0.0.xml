@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ocal">ocal</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>mikl</m>
+ <s>Oracle Calendar connectivity</s>
+ <d>This extension provides Oracle Calendar connectivity via the Oracle Calendar SDK (CSDK, CAPI) which is included in the Oracle Collaboration Suite distribution at http://www.oracle.com/
+ 
+</d>
+ <da>2008-01-10 13:37:20</da>
+ <n>Release to mark extension stable</n>
+ <f>14136</f>
+ <g>http://pecl.php.net/get/ocal-1.0.0</g>
+ <x xlink:href="package.1.0.0.xml"/>
+</r>

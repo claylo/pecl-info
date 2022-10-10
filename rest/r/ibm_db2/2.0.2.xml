@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ibm_db2">ibm_db2</p>
+ <c>pecl.php.net</c>
+ <v>2.0.2</v>
+ <st>stable</st>
+ <l>Apache License 2.0</l>
+ <m>vnkbabu</m>
+ <s>Extension for IBM DB2 Universal Database, IBM Cloudscape, and
+        Apache Derby</s>
+ <d>This extension supports IBM DB2 Universal Database, IBM
+Cloudscape, and Apache Derby databases.</d>
+ <da>2017-11-21 06:39:47</da>
+ <n>Fixed memory leak stored procedure i/o param both IBM i and LUW.
+Customer request abandon 'executing' persistent connection for IBM i</n>
+ <f>190222</f>
+ <g>http://pecl.php.net/get/ibm_db2-2.0.2</g>
+ <x xlink:href="package.2.0.2.xml"/>
+</r>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/psr">psr</p>
+ <c>pecl.php.net</c>
+ <v>0.3.0RC3</v>
+ <st>beta</st>
+ <l>BSD-2-Clause</l>
+ <m>jbboehr</m>
+ <s>PSR interfaces</s>
+ <d>This extension provides the accepted PSR interfaces, so they can be used in an extension.
+
+  See http://www.php-fig.org/psr/</d>
+ <da>2017-07-30 01:19:44</da>
+ <n>- Windows support</n>
+ <f>18458</f>
+ <g>http://pecl.php.net/get/psr-0.3.0RC3</g>
+ <x xlink:href="package.0.3.0RC3.xml"/>
+</r>

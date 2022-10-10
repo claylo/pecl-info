@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/memcached">memcached</p>
+ <c>pecl.php.net</c>
+ <v>3.0.2</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>sodabrew</m>
+ <s>PHP extension for interfacing with memcached via libmemcached library</s>
+ <d>This extension uses libmemcached library to provide API for communicating with memcached servers.</d>
+ <da>2017-02-12 18:06:50</da>
+ <n>PHP7 release of memcached extension. Note that support for libmemcached 0.x series has been discontinued
+and the oldest actively tested version is 1.0.2. It is highly recommended to use version 1.0.18 of
+libmemcached.
+
+Fixes
+ * Update warning for touch command in binary protocol mode with libmemcached below 1.0.18 (#322)
+ * Add tests for 64-bit increment/decrement/incrementByKey/decrementByKey (#321)
+ * Fix tests for 32-bit increment/decrement/incrementByKey/decrementByKey (#319)</n>
+ <f>77063</f>
+ <g>http://pecl.php.net/get/memcached-3.0.2</g>
+ <x xlink:href="package.3.0.2.xml"/>
+</r>

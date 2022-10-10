@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xdebug">xdebug</p>
+ <c>pecl.php.net</c>
+ <v>3.1.1</v>
+ <st>stable</st>
+ <l>BSD style</l>
+ <m>derick</m>
+ <s>Xdebug is a debugging and productivity extension for PHP</s>
+ <d>Xdebug and provides a range of features to improve the PHP development
+experience.
+
+Step Debugging
+    A way to step through your code in your IDE or editor while the script is
+    executing.
+
+Improvements to PHP's error reporting
+    An improved var_dump() function, stack traces for Notices, Warnings, Errors
+    and Exceptions to highlight the code path to the error
+
+Tracing
+    Writes every function call, with arguments and invocation location to disk.
+    Optionally also includes every variable assignment and return value for
+    each function.
+
+Profiling
+    Allows you, with the help of visualisation tools, to analyse the
+    performance of your PHP application and find bottlenecks.
+
+Code Coverage Analysis
+    To show which parts of your code base are executed when running unit tests
+    with PHP Unit.</d>
+ <da>2021-10-15 13:34:11</da>
+ <n>Fri, Oct 15, 2021 - Xdebug 3.1.1
+
+= Fixed bugs:
+
+  - Fixed issue #2016: apache gives no output with xdebug 3.1.0b2 installed
+  - Fixed issue #2024: Apache restarts in a loop under PHP 8.1.0 RC3
+  - Fixed issue #2029: incorrect and inaccurate date and time displayed in xdebug.log and trace files
+  - Fixed issue #2030: PhpStorm step-debug not working on PHP 8.0.11
+  - Fixed issue #2032: Use runtime PHP version in DBGp and info pages instead of compiled-against version
+  - Fixed issue #2034: Xdebug throws a Segmentation fault when 'set_time_limit' function is disabled
+  - Fixed issue #2035: Xdebug block everything with localhost in XAMMP</n>
+ <f>229723</f>
+ <g>https://pecl.php.net/get/xdebug-3.1.1</g>
+ <x xlink:href="package.3.1.1.xml"/>
+</r>

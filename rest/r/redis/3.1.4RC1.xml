@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/redis">redis</p>
+ <c>pecl.php.net</c>
+ <v>3.1.4RC1</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>mgrunder</m>
+ <s>PHP extension for interfacing with Redis</s>
+ <d>This extension provides an API for communicating with Redis servers.</d>
+ <da>2017-08-31 18:17:28</da>
+ <n>phpredis 3.1.4RC1
+
+The primary new feature phpredis 3.1.4 is the ability to send MULTI .. EXEC blocks in pipeline mode.  There are
+also many bugfixes and minor improvements to the api, listed below:
+
+* Allow mixing MULTI and PIPELINE modes!  [5874b0] (Pavlo Yatsukhnenko)
+* Let EXISTS take multiple keys [cccc39] (Michael Grunder)
+
+* Added integration for coverty static analysis and fixed several warnings 
+  [faac8b0, eff7398, 4766c25, 0438ab4, 1e0b065, 733732a, 26eeda5, 735025, 42f1c9, af71d4] (Pavlo Yatsukhnenko)
+* Added arginfo inrospection structures [81a0303, d5609fc, e5660be, 3c60e1f, 50dcb15, 6c2c6fa, 
+  212e323, e23be2c, 682593d, f8de702, 4ef3acd, f116be9, 5c111dd, 9caa029, 0d69650, 6859828, 024e593, 
+  3643ab6, f576fab, 122d41f, a09d0e6] (Tyson Andre, Pavlo Yatsukhnenko)
+* Fixed link to redis cluster documentation [3b0b06] (Pavlo Yatsukhnenko)
+* Remove unused PHP_RINIT and PHP_RSHUTDOWN functions [c760bf] (Pavlo Yatsukhnenko)
+* Removed duplicate HGET in redis array hash table, formatting [d0b9c5] (Pavlo Yatsukhnenko)
+* Treat NULL bulk as success for session read [659450] (Pavlo Yatsukhnenko)
+* Refactor redis_send_discard [ea15ce] (Pavlo Yatsukhnenko)
+* Updated runtime exception handling [8dcaa4, 7c1407] (Pavlo Yatsukhnenko)
+* Added a github issue template [61aba9] (Pavlo Yatsukhnenko)
+* Initialize gc member of zend_string [37f569) (Pavlo Yatsukhnenko)
+* Fix valgrind warnings [471ce07, 1ab89e1, b624a8b] (Pavlo Yatsukhnenko)
+* Fix php5/php7 compatibility layer [1ab89e, 4e3225] (Pavlo Yatsukhnenko)
+* Fix typo in README.markdown [e47e44] (Mark Shehata)
+* Improve redis array rehash [577a91] (Pavlo Yatsukhnenko)
+* Change redis array pure_cmds from zval to hashtable [a56ed7] (Pavlo Yatsukhnenko)
+* Don't try to set TCP_NODELAY on a unix socket and don't warn on multiple
+  calls to pipeline [d11798, 77aeba] (Michael Grunder)
+* Use zend_string rather than char* for various context fields (err, prefix, etc) [2bf7b2] (Pavlo Yatsukhnenko)
+* Various other library fixes [142b51, 4452f6, e672f4, 658ee3, c9df77, 4a0a46] (Pavlo Yatsukhnenko)</n>
+ <f>200568</f>
+ <g>http://pecl.php.net/get/redis-3.1.4RC1</g>
+ <x xlink:href="package.3.1.4RC1.xml"/>
+</r>

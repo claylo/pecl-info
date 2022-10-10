@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mogilefs">mogilefs</p>
+ <c>pecl.php.net</c>
+ <v>0.7.5</v>
+ <st>stable</st>
+ <l>BSD License</l>
+ <m>lstrojny</m>
+ <s>PHP client library to communicate with the MogileFS storage</s>
+ <d>PHP MogileFS is a client library to communicate with MogileFS trackers. Those trackers are part of the distributed filesystem MogileFS created by Danga Interactive (http://www.danga.com/) and used in serveral large scale projects like LiveJournal.</d>
+ <da>2010-08-30 12:07:42</da>
+ <n>- Allow compilation with PHP 5.3.X
+- Fixed build issue on Mac OS X. Now compiles fine with neon from fink
+- Checking return value of asprintf()</n>
+ <f>15193</f>
+ <g>http://pecl.php.net/get/mogilefs-0.7.5</g>
+ <x xlink:href="package.0.7.5.xml"/>
+</r>

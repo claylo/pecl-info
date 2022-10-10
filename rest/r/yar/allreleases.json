@@ -1,0 +1,106 @@
+{
+    "2.3.2": {
+        "version": "2.3.2",
+        "state": "stable"
+    },
+    "2.3.1": {
+        "version": "2.3.1",
+        "state": "stable"
+    },
+    "2.3.0": {
+        "version": "2.3.0",
+        "state": "stable"
+    },
+    "2.2.1": {
+        "version": "2.2.1",
+        "state": "stable"
+    },
+    "2.2.0": {
+        "version": "2.2.0",
+        "state": "stable"
+    },
+    "2.1.2": {
+        "version": "2.1.2",
+        "state": "stable"
+    },
+    "2.1.1": {
+        "version": "2.1.1",
+        "state": "stable"
+    },
+    "2.1.0": {
+        "version": "2.1.0",
+        "state": "stable"
+    },
+    "2.0.7": {
+        "version": "2.0.7",
+        "state": "stable"
+    },
+    "2.0.6": {
+        "version": "2.0.6",
+        "state": "stable"
+    },
+    "2.0.5": {
+        "version": "2.0.5",
+        "state": "stable"
+    },
+    "2.0.4": {
+        "version": "2.0.4",
+        "state": "stable"
+    },
+    "2.0.3": {
+        "version": "2.0.3",
+        "state": "stable"
+    },
+    "2.0.2": {
+        "version": "2.0.2",
+        "state": "beta"
+    },
+    "2.0.1": {
+        "version": "2.0.1",
+        "state": "beta"
+    },
+    "1.2.5": {
+        "version": "1.2.5",
+        "state": "stable"
+    },
+    "2.0.0": {
+        "version": "2.0.0",
+        "state": "beta"
+    },
+    "1.2.4": {
+        "version": "1.2.4",
+        "state": "stable"
+    },
+    "1.2.3": {
+        "version": "1.2.3",
+        "state": "stable"
+    },
+    "1.2.2": {
+        "version": "1.2.2",
+        "state": "stable"
+    },
+    "1.2.1": {
+        "version": "1.2.1",
+        "state": "stable"
+    },
+    "1.2.0": {
+        "version": "1.2.0",
+        "state": "stable"
+    },
+    "1.1.2": {
+        "version": "1.1.2",
+        "state": "beta"
+    },
+    "1.1.1": {
+        "version": "1.1.1",
+        "state": "beta"
+    },
+    "1.1.0": {
+        "version": "1.1.0",
+        "state": "beta"
+    },
+    "1.0.0": {
+        "version": "1.0.0",
+        "state": "beta"
+    }
+}

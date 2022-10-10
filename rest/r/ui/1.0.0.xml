@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ui">UI</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>krakjoe</m>
+ <s>UI API</s>
+ <d>An OO wrapper around libui</d>
+ <da>2016-10-25 08:13:38</da>
+ <n>App::run changes (see docs)
+App::onTick (see docs)
+UI\Key enumeration
+UI\Point and UI\Size math operations
+Reference counting for layout controls
+Fix build when x is not available</n>
+ <f>42594</f>
+ <g>http://pecl.php.net/get/UI-1.0.0</g>
+ <x xlink:href="package.1.0.0.xml"/>
+</r>

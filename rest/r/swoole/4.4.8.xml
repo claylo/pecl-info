@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.4.8</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in http/websocket/http2 server
+        - coroutine http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2019-10-15 12:27:51</da>
+ <n>Deprecated
+---
+- Move async Swoole\Client to [ext-async](https://github.com/swoole/ext-async)
+
+Enhancement
+---
++ Support Http\Response close (#2861) (@matyhtf)
++ Support Process::daemon() redirection of IO (#2871) (@matyhtf)
+* Add Swoole\Server\Task::pack (#2872) (#2874) (@matyhtf)
++ Support ssl_protocols option (74499276) (@matyhtf)
++ Add document of bug reports (ba1c078f) (@twose)
+
+Fixed
+---
+* Fixed random bytes added to response status code (#2856) (@twose)
+* Fixed naming conflicts with php gdbinit (2a2447ec) (@shiguangqi)
+* Fixed build without PCRE JIT on OSX (2a4c447e) (@twose)
+* Fixed Websocket\Server class entry of property declaration (1f197daf) (@twose)
+* Fixed coroutine bound error checker of Co\Http\Client (2619cdd8) (@twose)
+* Fixed gdb debugger in docker (ec815288) (@twose)
+* Fixed MySQL close error (#2869) (@twose)
+* Fixed Cygwin with process (#2868) (#2876) (@matyhtf)
+* Fixed tls_host_name not found (d1968c26) (@twose)
+* Fixed SSL renegotiation (#2847) (d8b87ebb) (@matyhtf)
+* Fixed HTTP2 client empty data (37b12d72) (775aefed) (@twose)
+* Fixed send yield hang (#2885) (@matyhtf) (@twose)
+* Fixed null fci_cache (#2881) (@twose)
+* Fixed server mode on CYGWIN (#2868) (@matyhtf)
+* Fixed select null (5e23dd96) (@twose)
+* Fixed #2643 #2868 (#2888) (@matyhtf)</n>
+ <f>1427235</f>
+ <g>https://pecl.php.net/get/swoole-4.4.8</g>
+ <x xlink:href="package.4.4.8.xml"/>
+</r>

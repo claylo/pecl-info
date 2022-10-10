@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pdo_sqlsrv">pdo_sqlsrv</p>
+ <c>pecl.php.net</c>
+ <v>4.3.0</v>
+ <st>stable</st>
+ <l>The MIT License (MIT)</l>
+ <m>hadisfard</m>
+ <s>Microsoft Drivers for PHP for SQL Server (PDO_SQLSRV)</s>
+ <d>The Microsoft Drivers for PHP for SQL Server are PHP extensions that allow for the reading and writing of SQL Server data from within PHP scripts. The SQLSRV extension provides a procedural interface while the PDO_SQLSRV extension implements PDO for accessing data in all editions of SQL Server 2008 R2 and later (including Azure SQL DB). These drivers rely on the Microsoft ODBC Driver for SQL Server to handle the low-level communication with SQL Server.
+*This package contains only the PDO_SQLSRV driver.*</d>
+ <da>2017-07-06 18:56:07</da>
+ <n>[Added]
+- Added Unicode Column name support (issue #138). 
+- Support for Always On Availability groups via Transparent Network IP Resolution (TNIR)  
+- Added support for sql_variant data type with limitation (issue #51 and issue #127) 
+- Support drivers on Debian Jessie (tested on Debian 8.7) 
+- Connection Resiliency support in Windows 
+- Connection pooling support for Linux and macOS  
+- Support for Mac(El Capitan and above) 
+- Azure Active Directory Authentication with ActiveDirectoryPassword and SqlPassword 
+[Fixed]
+- Fixed PECL installation errors when PHP was installed from source (issue #213). 
+- Fixed segmentation fault with PDOStatement::getColumnMeta() when the supplied column index is out of range (issue #224). 
+- Fixed the assertion error (Linux) when fetching data from a binary column using the binary encoding (issue #226). 
+- Fixed issue output parameters bound to empty string (issue #182). 
+- Fixed issue with SQLSRV_ATTR_FETCHES_NUMERIC_TYPE when column return type is set on statement (issue #173). 
+- Fixed a memory leak in closing connection resources. 
+- Fixed load ordering issue in MacOS (issue #417) 
+- Added a workaround for a bug in unixODBC 2.3.4 when connection pooling is enabled. 
+- Fixed the issue with driver loading order in macOS 
+- Fixed null returned when an empty string is set to an output parameter (issue #308). 
+- Fixed incorrectly binding of unicode parameter when emulate prepare is on and the encoding is set at the statement level (issue #92). 
+- Fixed binary column binding when emulate prepare is on (issue #140). 
+- Improved performance by implementing a cache to store column SQL types and display sizes (issue #189). 
+- Fixed issue with the unsupported attribute PDO::ATTR_PERSISTENT in connection (issue #65). 
+- Fixed the issue with executing DELETE operation on a non-existent value (issue #336). 
+- Fixed incorrectly binding of unicode parameter when emulate prepare is on and the encoding is set at the statement level (issue #92). 
+- Fixed wrong value returned when fetching varbinary value on Linux (issue #270). 
+- Fixed binary data not returned when the column is bound by name (issue #35). 
+- Fixed exception thrown on closeCursor() when the statement has not been executed (issue #267). 
+[Limitation]
+- Limited support for inout / output params when using sql_variant type
+[Known Issues]
+- When pooling is enabled in Linux or MAC
+  - unixODBC 2.3.4 or prior (Linux and MAC) might not return proper diagnostics information, such as error messages, warnings and informative messages
+  - due to this unixODBC bug, fetch large data (such as xml, binary) as streams as a workaround. See the examples (https://github.com/Microsoft/msphpsql/wiki/Connection-Pooling-on-Linux-and-Mac)</n>
+ <f>156178</f>
+ <g>http://pecl.php.net/get/pdo_sqlsrv-4.3.0</g>
+ <x xlink:href="package.4.3.0.xml"/>
+</r>

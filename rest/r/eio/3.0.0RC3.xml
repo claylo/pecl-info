@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/eio">eio</p>
+ <c>pecl.php.net</c>
+ <v>3.0.0RC3</v>
+ <st>beta</st>
+ <l>php</l>
+ <m>osmanov</m>
+ <s>Provides interface to the libeio library</s>
+ <d>This extension provides interface to the libeio library written by Marc Lehmann
+    &lt;libeio at schmorp dot de&gt;(see http://software.schmorp.de/pkg/libeio.html).
+
+    Libeio is a an asynchronous I/O library. Features basically include
+    asynchronous versions of POSIX API(read, write, open, close, stat, unlink,
+    fdatasync, mknod, readdir etc.); sendfile (native on Solaris, Linux, HP-UX,
+    FreeBSD); readahead. libeio itself emulates the system calls, if they are not
+    available on specific(UNIX-like) platform.
+
+    Currently this extension supports GNU/Linux and BSD platforms only. But you can
+    try it on any UNIX OS.</d>
+ <da>2021-09-20 17:01:32</da>
+ <n>Fixed issue #13: libeio sometimes didn't auto-initialize.</n>
+ <f>89639</f>
+ <g>https://pecl.php.net/get/eio-3.0.0RC3</g>
+ <x xlink:href="package.3.0.0RC3.xml"/>
+</r>

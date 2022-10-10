@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pecl_http">pecl_http</p>
+ <c>pecl.php.net</c>
+ <v>0.2.0</v>
+ <st>alpha</st>
+ <l>PHP License 3.0</l>
+ <m>mike</m>
+ <s>Extended HTTP support</s>
+ <d>Currently implemented features:
+===============================
+
+* Building absolute URIs
+* RCF compliant HTTP redirects
+* Caching by &quot;Last-Modified&quot; and/or ETag (with 'on the fly' option)
+* Sending data/files/streams with (multiple) ranges support
+* Negotiating user preferred language/charset
+* Convenient request functions to HEAD/GET/POST if libcurl is available
+</d>
+ <da>2005-01-31 12:32:00</da>
+ <n>* fixed http_chunked_decode() and http_get_request_ranges() 
+  (broken by a naive fix for signed/unsigned mismatches)
+* added own imlementation for a RFC822 compliant HTTP date
+* added http_auth_basic() and http_auth_basic_cb()</n>
+ <f>22953</f>
+ <g>http://pecl.php.net/get/pecl_http-0.2.0</g>
+ <x xlink:href="package.0.2.0.xml"/>
+</r>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/clucene">clucene</p>
+ <c>pecl.php.net</c>
+ <v>0.0.9</v>
+ <st>alpha</st>
+ <l>PHP</l>
+ <m>cvubrugier</m>
+ <s>Extension for CLucene</s>
+ <d>This is an extension for CLucene. CLucene is a C++ port of the popular Apache Lucene text search engine.</d>
+ <da>2005-11-26 13:15:08</da>
+ <n>First alpha version</n>
+ <f>32061</f>
+ <g>http://pecl.php.net/get/clucene-0.0.9</g>
+ <x xlink:href="package.0.0.9.xml"/>
+</r>

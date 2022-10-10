@@ -1,0 +1,54 @@
+{
+    "category": "Networking",
+    "deprecated": false,
+    "description": "This PECL extension allows you to detect proxy servers with country, region, city, ISP, domain, usage type, ASN, security threat and proxy type information using IP2Proxy binary database.",
+    "latestReleaseDate": "2022-08-01T23:12:17+00:00",
+    "latestVersion": "3.0.3",
+    "license": "PHP License",
+    "name": "ip2proxy",
+    "php8Mentioned": false,
+    "releases": {
+        "3.0.3": {
+            "version": "3.0.3",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "ip2location",
+            "releaseDate": "2022-08-01T23:12:17+00:00",
+            "releaseNotes": "Fixed wrong ip2proxy.c file.",
+            "get": "https://pecl.php.net/get/ip2proxy-3.0.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.2": {
+            "version": "3.0.2",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "ip2location",
+            "releaseDate": "2022-07-29T07:06:23+00:00",
+            "releaseNotes": "fix description and files",
+            "get": "https://pecl.php.net/get/ip2proxy-3.0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.1": {
+            "version": "3.0.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "ip2location",
+            "releaseDate": "2020-10-23T00:35:04+00:00",
+            "releaseNotes": "fix description and files",
+            "get": "https://pecl.php.net/get/ip2proxy-3.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.0": {
+            "version": "3.0.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "ip2location",
+            "releaseDate": "2020-10-22T07:50:40+00:00",
+            "releaseNotes": "first release",
+            "get": "https://pecl.php.net/get/ip2proxy-3.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "Get proxy information of an IP address",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

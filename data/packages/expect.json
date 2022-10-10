@@ -1,0 +1,174 @@
+{
+    "category": "System",
+    "deprecated": false,
+    "description": "This extension allows to interact with processes through PTY, using expect library.",
+    "latestReleaseDate": "2020-01-13T18:28:14+00:00",
+    "latestVersion": "0.4.0",
+    "license": "PHP License",
+    "name": "expect",
+    "php8Mentioned": false,
+    "releases": {
+        "0.4.0": {
+            "version": "0.4.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "sibaz",
+            "releaseDate": "2020-01-13T18:28:14+00:00",
+            "releaseNotes": "Added code to support API for PHP 7.x\nUpdated build scripts, to support 64bit centos",
+            "get": "https://pecl.php.net/get/expect-0.4.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.3.3": {
+            "version": "0.3.3",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "michael",
+            "releaseDate": "2015-09-11T17:45:57+00:00",
+            "releaseNotes": "Added LICENSE. Fixed RPM build for 64bit.",
+            "get": "http://pecl.php.net/get/expect-0.3.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.3.2": {
+            "version": "0.3.2",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "michael",
+            "releaseDate": "2015-09-11T12:30:54+00:00",
+            "releaseNotes": "Fixed #70458",
+            "get": "http://pecl.php.net/get/expect-0.3.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.3.1": {
+            "version": "0.3.1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "michael",
+            "releaseDate": "2011-11-22T11:31:20+00:00",
+            "releaseNotes": "Fixed compilation issue (Bug #59916)",
+            "get": "http://pecl.php.net/get/expect-0.3.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.3.0": {
+            "version": "0.3.0",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "michael",
+            "releaseDate": "2011-06-23T16:44:27+00:00",
+            "releaseNotes": "Fixed setting INI parameters (Bug #22566)\nFixed Segmentation Fault on use (Bug #21578)",
+            "get": "http://pecl.php.net/get/expect-0.3.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.9": {
+            "version": "0.2.9",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "michael",
+            "releaseDate": "2011-01-25T16:08:52+00:00",
+            "releaseNotes": "Provide a default value for expect.match_max (Bug #21823)",
+            "get": "http://pecl.php.net/get/expect-0.2.9",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.8": {
+            "version": "0.2.8",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "michael",
+            "releaseDate": "2011-01-09T03:50:42+00:00",
+            "releaseNotes": "Fixed bug #16836 (introduce expect.match_max .ini parameter for asterisk match buffer size)",
+            "get": "http://pecl.php.net/get/expect-0.2.8",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.7": {
+            "version": "0.2.7",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "michael",
+            "releaseDate": "2010-10-10T03:43:40+00:00",
+            "releaseNotes": "Fixed bug #18998 (Change expect.logfile on runtime leave file descriptor opened)",
+            "get": "http://pecl.php.net/get/expect-0.2.7",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.6": {
+            "version": "0.2.6",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "michael",
+            "releaseDate": "2009-05-20T13:09:20+00:00",
+            "releaseNotes": "Fixed bug #16552\t(does not build with php-5.3.x)",
+            "get": "http://pecl.php.net/get/expect-0.2.6",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.5": {
+            "version": "0.2.5",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "michael",
+            "releaseDate": "2008-11-27T05:13:36+00:00",
+            "releaseNotes": "Fixed bug #14768 (configure error in Ubuntu 8.04)",
+            "get": "http://pecl.php.net/get/expect-0.2.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.4": {
+            "version": "0.2.4",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "michael",
+            "releaseDate": "2007-10-20T03:19:42+00:00",
+            "releaseNotes": "Fixed #12268 (Capturing output via exp_loguser from within PHP / Apache)",
+            "get": "http://pecl.php.net/get/expect-0.2.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.3": {
+            "version": "0.2.3",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "michael",
+            "releaseDate": "2007-09-10T03:26:14+00:00",
+            "releaseNotes": "Fix bug #5950 (leaving \"zombies\" after fopen)",
+            "get": "http://pecl.php.net/get/expect-0.2.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.2": {
+            "version": "0.2.2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "michael",
+            "releaseDate": "2006-07-05T10:54:14+00:00",
+            "releaseNotes": "Fix segfault on scenario with EXP_TIMEOUT.",
+            "get": "http://pecl.php.net/get/expect-0.2.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.1": {
+            "version": "0.2.1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "michael",
+            "releaseDate": "2006-07-04T04:35:07+00:00",
+            "releaseNotes": "1) Support returning match substrings in array.\n\t\t2) Fix missing null-termination in returned match string.",
+            "get": "http://pecl.php.net/get/expect-0.2.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2": {
+            "version": "0.2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "michael",
+            "releaseDate": "2005-11-12T04:40:32+00:00",
+            "releaseNotes": "Fixed #5941",
+            "get": "http://pecl.php.net/get/expect-0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1": {
+            "version": "0.1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "michael",
+            "releaseDate": "2005-10-01T10:21:00+00:00",
+            "releaseNotes": "Initial release. Try it out!",
+            "get": "http://pecl.php.net/get/expect-0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "PHP extension for expect library",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

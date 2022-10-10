@@ -1,0 +1,13 @@
+{
+    "category": "Internationalization",
+    "deprecated": false,
+    "description": "Implements Unicode-related ICU functionality such as character properties, normalization, iterators, etc.",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "PHP",
+    "name": "unicode",
+    "php8Mentioned": false,
+    "releases": [],
+    "summary": "Unicode extension",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

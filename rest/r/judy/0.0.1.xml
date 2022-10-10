@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/judy">Judy</p>
+ <c>pecl.php.net</c>
+ <v>0.0.1</v>
+ <st>alpha</st>
+ <l>PHP</l>
+ <m>nicolas</m>
+ <s>PHP Judy implements a sparse dynamic array (Judy Arrays)</s>
+ <d>PHP Judy implements sparse dynamic arrays. A Judy array consumes memory only when
+    it is populated, yet can grow to take advantage of all available memory if desired.
+    Judy's key benefits are scalability, high performance, and memory efficiency.</d>
+ <da>2010-09-17 05:42:40</da>
+ <n>- Initial PECL release</n>
+ <f>15605</f>
+ <g>http://pecl.php.net/get/Judy-0.0.1</g>
+ <x xlink:href="package.0.0.1.xml"/>
+</r>

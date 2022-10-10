@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ev">ev</p>
+ <c>pecl.php.net</c>
+ <v>0.2.4</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>osmanov</m>
+ <s>Provides interface to libev library</s>
+ <d>ev provides interface to libev library - high performance
+  full-featured event loop written in C.</d>
+ <da>2013-04-22 12:27:58</da>
+ <n>Fix: build error in Mac OS X: inline php_ev_set_watcher_priority function had been exported as a library symbol</n>
+ <f>92978</f>
+ <g>http://pecl.php.net/get/ev-0.2.4</g>
+ <x xlink:href="package.0.2.4.xml"/>
+</r>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/decimal">decimal</p>
+ <c>pecl.php.net</c>
+ <v>1.4.0</v>
+ <st>stable</st>
+ <l>MIT License</l>
+ <m>rtheunissen</m>
+ <s>Arbitrary precision floating-point decimal</s>
+ <d>Adds support for correctly-rounded arbitrary precision decimal floating-point arithmetic in PHP 7</d>
+ <da>2021-02-17 04:35:45</da>
+ <n>- Added support for PHP 8 (thank you @zlodes)
+- Added support for mpdecimal 2.5+ 
+- Fixed internal exception when passing negative decimal places to toFixed</n>
+ <f>40155</f>
+ <g>https://pecl.php.net/get/decimal-1.4.0</g>
+ <x xlink:href="package.1.4.0.xml"/>
+</r>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/cld">cld</p>
+ <c>pecl.php.net</c>
+ <v>0.3.0</v>
+ <st>beta</st>
+ <l>BSD License</l>
+ <m>lstrojny</m>
+ <s>PHP Bindings for Chromium Compact Language Detector</s>
+ <d>Provides a single function CLD\detect() to detect languages from text</d>
+ <da>2011-10-25 10:27:02</da>
+ <n>- Cleanup to use internal APIs (Pierre Joye)
+- Windows build support (Pierre Joye)</n>
+ <f>5082</f>
+ <g>http://pecl.php.net/get/cld-0.3.0</g>
+ <x xlink:href="package.0.3.0.xml"/>
+</r>

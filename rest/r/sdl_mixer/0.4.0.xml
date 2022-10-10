@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/sdl_mixer">sdl_mixer</p>
+ <c>pecl.php.net</c>
+ <v>0.4.0</v>
+ <st>devel</st>
+ <l>ZLib</l>
+ <m>kea</m>
+ <s>Binding of SDL_mixer for PHP</s>
+ <d>SDL_mixer extension for PHP provides the binding of functions for audio loading, playing and mixing.</d>
+ <da>2022-03-15 13:41:58</da>
+ <n>- Fix SDL extension dependency (remicollet)
+- Add workaround for Mix_HasMusicDecoder where not available (remicollet)
+- Properly init/quit sdl_mixer library (remicollet)
+- Improve phpinfo with Mix_Init supported flags (remicollet)
+- Add missing 'src' build directory in config.m4 (kea)</n>
+ <f>16993</f>
+ <g>https://pecl.php.net/get/sdl_mixer-0.4.0</g>
+ <x xlink:href="package.0.4.0.xml"/>
+</r>

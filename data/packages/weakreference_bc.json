@@ -1,0 +1,34 @@
+{
+    "category": "Structures",
+    "deprecated": false,
+    "description": "A weak reference provides a gateway to an object without preventing that object from being collected by the garbage collector (GC).",
+    "latestReleaseDate": "2022-01-06T14:38:40+00:00",
+    "latestVersion": "0.4.1",
+    "license": "PHP",
+    "name": "weakreference_bc",
+    "php8Mentioned": false,
+    "releases": {
+        "0.4.1": {
+            "version": "0.4.1",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "tandre",
+            "releaseDate": "2022-01-06T14:38:40+00:00",
+            "releaseNotes": "- Fix windows build issues.\n- Stop using the nonstandard `ulong` type.\n- Fix typo in PECL conflicts section with weakref PECL.\n- Change configure flag to enable/disable this extension to --enable-weakreference_bc",
+            "get": "https://pecl.php.net/get/weakreference_bc-0.4.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.4.0": {
+            "version": "0.4.0",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "tandre",
+            "releaseDate": "2022-01-06T03:03:05+00:00",
+            "releaseNotes": "- Fork this from the abandoned \"weakref\" PECL to provide WeakMap for php 7.0-7.4 and WeakReference for php 7.0-7.3\n- Fix compilation errors for WeakMap in php 7.4\n- Rename WeakRef to WeakReference to act as a polyfill for WeakReference in php before php 7.4.\n- Make WeakReference constructor throw and require the use of WeakReference::create, like php 7.4\n- Fix edge cases when destructor of an old value modifies the weakmap during an update.\n- Strictly prevent the creation of dynamic properties on a WeakReference.",
+            "get": "https://pecl.php.net/get/weakreference_bc-0.4.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "Polyfill of WeakMap/WeakReference for older PHP versions. This is a fork of the abandoned \"weakref\" PECL.",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

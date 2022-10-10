@@ -1,0 +1,15 @@
+{
+    "category": "Database",
+    "deprecated": true,
+    "description": "Do not use this, as PDO has been moved into core (the php source) so this pecl extension is dead.\n\nThis old extension provided a MySQL driver for PDO.",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "PHP",
+    "name": "PDO_MYSQL",
+    "summary": "MySQL driver for PDO",
+    "php8Mentioned": false,
+    "releases": [],
+    "new_channel": "http://svn.php.net/viewvc/php/php-src/trunk/ext/pdo_mysql/",
+    "new_package": "ext/pdo_mysql",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

@@ -1,0 +1,34 @@
+{
+    "category": "Networking",
+    "deprecated": false,
+    "description": "This extension provides Oracle Calendar connectivity via the Oracle Calendar SDK (CSDK, CAPI) which is included in the Oracle Collaboration Suite distribution at http://www.oracle.com/",
+    "latestReleaseDate": "2008-01-10T13:37:20+00:00",
+    "latestVersion": "1.0.0",
+    "license": "PHP",
+    "name": "ocal",
+    "php8Mentioned": false,
+    "releases": {
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "mikl",
+            "releaseDate": "2008-01-10T13:37:20+00:00",
+            "releaseNotes": "Release to mark extension stable",
+            "get": "http://pecl.php.net/get/ocal-1.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.0": {
+            "version": "0.1.0",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "mikl",
+            "releaseDate": "2006-08-30T11:47:56+00:00",
+            "releaseNotes": "Initial PECL release",
+            "get": "http://pecl.php.net/get/ocal-0.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "Oracle Calendar connectivity",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

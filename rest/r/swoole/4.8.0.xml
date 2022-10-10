@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.8.0</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in tcp/http/websocket/http2 server
+        - coroutine tcp/http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2021-10-15 06:09:38</da>
+ <n>New APIs
+---
+* Added Co::getStackUsage() (#4398) (@matyhtf) (@twose)
+* Added Coroutine\Redis some api (#4390) (@chrysanthemum)
+* Added Table::stats() (#4405) (@matyhtf)
+* Added Coroutine::join() (#4406) (@matyhtf)
+
+New feature
+---
+* Supported server command (#4389) (@matyhtf)
+* Supported Server::onBeforeShutdown callback (#4415) (@matyhtf)
+
+Enhancement
+---
+* Set error code when websocket pack fails (swoole/swoole-src@d27c5a5) (@matyhtf)
+* Added Timer::exec_count field (#4402) (@matyhtf)
+* Supported for hooked mkdir using open_basedir ini config (#4407) (@NathanFreeman)
+* Added vendor_init.php (swoole/library@6c40b02) (@matyhtf)
+* Supported CURLOPT_UNIX_SOCKET_PATH for SWOOLE_HOOK_CURL (swoole/library#121) (@sy-records)
+* Supported ssl_ciphers config for client (#4432) (@amuluowin)
+
+Fixed
+---
+* Fixed unnecessary URL decode of file names when uploading files (swoole/swoole-src@a73780e) (@matyhtf)
+* Fixed HTTP2 max_frame_size error (#4394) (@twose)
+* Fixed curl_multi_select bug #4393 (#4418) (@matyhtf)
+* Fixed missing coroutine options (#4425) (@sy-records)
+* Fixed connection cannot be forcibly closed when the send buffer is full (swoole/swoole-src@2198378) (@matyhtf)</n>
+ <f>1698813</f>
+ <g>https://pecl.php.net/get/swoole-4.8.0</g>
+ <x xlink:href="package.4.8.0.xml"/>
+</r>

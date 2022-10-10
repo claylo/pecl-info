@@ -1,0 +1,134 @@
+{
+    "category": "Languages",
+    "deprecated": false,
+    "description": "This extension brings V8 JavaScript engine API to PHP with some abstraction in mind and provides an accurate native V8 C++ API implementation available from PHP.",
+    "latestReleaseDate": "2018-03-01T15:40:51+00:00",
+    "latestVersion": "0.2.2",
+    "license": "The MIT License (MIT)",
+    "name": "v8",
+    "php8Mentioned": false,
+    "releases": {
+        "0.2.2": {
+            "version": "0.2.2",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "pinepain",
+            "releaseDate": "2018-03-01T15:40:51+00:00",
+            "releaseNotes": "I'm excited to announce that starting from this release documentation is available at\nhttps://php-v8.readthedocs.io.\n\nRead The Docs is awesome place to host documentation and Sphinx would help to create decent documentation.\nContributors welcomed!\n\nThis is the last version that supports PHP 7.1. Nex versions wil reqiure PHP >= 7.2 unless further notice.\n\nBC-breaking changes:\n\n - Upgrade v8 version to 6.6.313\n - Remove deprecated and non-working ScriptCompiler cache options\n - Rework PromiseObject\n - Add ValueObject::isBigInt64Array() and ValueObject::isBigUint64Array methods\n\nNon-breaking changes:\n\n - Add number of native and detached contexts to HeapStatistics\n - Add support to produce code cache\n - Add ScriptCompiler::OPTION_EAGER_COMPILE option\n - Add support for integer-<strings for ObjectValue::GetOwnPropertyNames and `ObjectValue::GetPropertyNames\n - Add {Template,ObjectValue}:setLazyDataProperty() method",
+            "get": "http://pecl.php.net/get/v8-0.2.2",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.2.1": {
+            "version": "0.2.1",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "pinepain",
+            "releaseDate": "2017-10-23T20:27:44+00:00",
+            "releaseNotes": "This release brings stability and improvements. It contains some minor BC-breaking changes which should not affect general public. See full change log below for details\n\nChangelog:\n\nBC-breaking changes:\n\n- require libv8 >= 6.4.6;\n- remove UnboundScript::kNoScriptId const and return null in getId() on no data\n- change ScriptCompiler::cachedDataVersionTag(): int method name and return type to be ScriptCompiler::getCachedDataVersionTag(): float;\n- remove StartupData::getRawSize() method;\n\nNon-breaking changes:\n\n- fix segfault when invalid startup data passed to isolate;\n- fix external exception lost when it has refcount 1;\n- change script compiler version tag generation to take into account changes to extension internals;\n- add CallbackInfoInterface;\n- add support for ScriptCompiler::kProduceFullCodeCache;\n- add {Isolate,Context}::within() as optimization solution;\n- add StartupData::isRejected();\n- add docs skeleton.",
+            "get": "http://pecl.php.net/get/v8-0.2.1",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.2.0": {
+            "version": "0.2.0",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "pinepain",
+            "releaseDate": "2017-09-30T23:25:06+00:00",
+            "releaseNotes": "This release introduces many major changes to public API and breaks BC for the sake of more solid and stable API in a further versions.\n\nPLEASE READ:\n  Maintaining this project takes significant amount of time and efforts.\nIf you like my work and want to show your appreciation, please consider supporting me: https://www.patreon.com/pinepain\n\nChanges:\n\n - Drop PHP 7.0 support, #30;\n - Add typehint for $value param in Template::set(), #36;\n - Rename constants to match PSR-2 convention, #34;\n - Make enum classes with constants final, #39 ;\n - Rename HeapStatistics methods to match PSR-2, #38;\n - Rename V8\\Exception class and it methods, #33;\n - Add FunctionObject::getScriptId() method;\n - Remove no-data constants and use NULL instead, #40;\n - Refactor ScriptOriginOptions to use bit field, #42;\n - Remove redundant ScriptOrigin::is*() methods, #61;\n - Add missed method to Value stub;\n - Fix improperly adjusted external allocated memory on weak callback call;\n - Add Proxy and Promise builtin support, #55;\n - Add support for regexp dotAll flag, #54;\n - Move RegExpObject\\Flags constants under RegExpObject, #64;\n - Move CompileOptions constants under ScriptCompiler, #65;\n - Add Isolate::MemoryPressureNotification() support, #57;\n - Require libv8 >= 6.3.163;\n - Add StackFrame::isWasm(), #53;\n - Get rid of CallbackInfo, #67;\n - Add immutable prototype chains to ObjectTemplate, #58;\n - Add StartupData::warmUpSnapshotDataBlob(), #59;\n - Add missed JSON class support, #56;\n - Add Message::getErrorLevel() method, #52;\n - Rename SymbolValue methods, #41;\n - Rename TryCatch methods, #41;\n - Add missed PrimitiveValue::value() abstract method;\n - Add Isolate::SetRAILMode(), #60;\n - Fix improperly internally constructed RAILMode enum class, #60.\n\nSee https://github.com/pinepain/php-v8/issues/43#issuecomment-333329225 for details",
+            "get": "http://pecl.php.net/get/v8-0.2.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.1.9": {
+            "version": "0.1.9",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "pinepain",
+            "releaseDate": "2017-09-01T17:21:31+00:00",
+            "releaseNotes": "Refactor methods name to follow PSR-2 camelCase convention.\n\nNOTE: This is the last release that supports PHP 7.0.\n\nChanges list:\n  - refactor methods name to follow PSR-2 camelCase convention;",
+            "get": "http://pecl.php.net/get/v8-0.1.9",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.1.8": {
+            "version": "0.1.8",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "pinepain",
+            "releaseDate": "2017-07-17T19:09:07+00:00",
+            "releaseNotes": "This release extends and clarify existent API and does not introduce any BC-breaking changes.\n\nChanges list:\n\n  - Change V8\\Exception::*Error() return type to V8\\ObjectValue as the only possible type;\n  - Add external exception wiring option to V8\\Isolate::ThrowException().",
+            "get": "http://pecl.php.net/get/v8-0.1.8",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.1.7": {
+            "version": "0.1.7",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "pinepain",
+            "releaseDate": "2017-06-30T18:57:47+00:00",
+            "releaseNotes": "Changes to public API and other important changes which may affect end-user:\n\n - Require v8 >= 6.1.170;\n - Fix segfaults on unclean shutdown;",
+            "get": "http://pecl.php.net/get/v8-0.1.7",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.1.6": {
+            "version": "0.1.6",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "pinepain",
+            "releaseDate": "2017-05-03T17:08:21+00:00",
+            "releaseNotes": "Changes to public API and other important changes which may affect end-user:\n\n - Enforce `Value()` method on all `V8\\Primitive` values;\n - Fix segfault when zero args passed to `V8\\FunctionObject::NewInstance()`;",
+            "get": "http://pecl.php.net/get/v8-0.1.6",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.1.5": {
+            "version": "0.1.5",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "pinepain",
+            "releaseDate": "2017-04-30T20:41:43+00:00",
+            "releaseNotes": "This release introduces separate representation for undefined value and fixes some bugs.\nPlease, see change list below for more details.\n\n* - BC-breaking or potentially BC-breaking changes\n\nChanges to public API and other important changes which may affect end-user:\n\n - * Make V8\\Isolate::ThrowException() method void;\n - * Remove non-documented V8Isolate::ContextDisposedNotification();\n - * Make V8\\Value, V8\\PrimitiveValue and V8\\NameValue abstract;\n - V8\\Isolate time limit affects js runtime only;\n - Introduce separate class for undefined value - V8UndefenedValue;\n - Fix V8\\Tempalte::Set() to do not accept non-primitive values;\n - Remove all private properties from V8\\Isolate;",
+            "get": "http://pecl.php.net/get/v8-0.1.5",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.1.4": {
+            "version": "0.1.4",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "pinepain",
+            "releaseDate": "2017-04-22T19:04:36+00:00",
+            "releaseNotes": "This release adds low-level optimizations, simplify some internal methods and fix few bugs. For more details see change list below.\n\nAs of this release, V8 >= 6.0.45 required.\n\n* - BC-breaking or potentially BC-breaking changes\n\nChanges to public API and other important changes which may affect end-user:\n\n    - Raise libv8 required version to 6.0.45;\n    - Add V8\\Value::InstanceOf() method;\n    - Add V8\\ObjectValue::SetNativeDataProperty() method;\n    - Add V8\\PropertyFilter, V8\\KeyCollectionMode and V8\\IndexFilter enums;\n    - Add property filtering support to V8\\ObjectValue::Get{Property,OwnProperty}Names();\n    - Consistently expose all well-known symbols on V8\\SymbolValue;\n    - Setting boolean props on StackFrame with valid type;\n    - Remove non-working and non-supporting $attributes argument from V8\\StringValue constructor in stubs;\n    - * Add V8\\ConstructorBehavior and support for it in V8\\FunctionTemplate constructor;\n    - * Add signature support in V8\\FunctionTemplate constructor via $receiver;\n    - * Add signature support to Template:SetNativeDataProperty() and ObjectTemplate::SetAccessor() via $receiver;\n    - * Remove require $isolate parameter from V8\\Value::TypeOf();\n    - * Remove deprecated V8\\Context::EstimatedSize() method;\n    - * Remove deprecated V8\\StackTrace\\StackTraceOptions;\n    - * Remove deprecated V8\\StackTrace::AsArray();\n    - * Require Context explicitly in V8\\Isolate::ThrowException();\n    - * Rename V8\\Exceptions\\GenericException to V8\\Exceptions\\Exception;\n    - * Rename V8\\Exceptions\\AbstractResourceLimitException to V8\\Exceptions\\ResourceLimitException;\n    - internal: Check whether returned context is empty in V8\\Isolate\\GetEnteredContext() instead of checking InContext();",
+            "get": "http://pecl.php.net/get/v8-0.1.4",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.1.3": {
+            "version": "0.1.3",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "pinepain",
+            "releaseDate": "2017-03-05T21:01:42+00:00",
+            "releaseNotes": "This release adds low-level optimizations, simplify some internal methods and fix few bugs. For more details see\nchange list below.\n\nAs of this release, V8 >= 5.9.5 required.\n\n* - BC-breaking or potentially BC-breaking changes\n\nChanges to public API and other important changes which may affect end-user:\n\n- * Replace V8\\Isolate::GetCurrentContext with V8\\Isolate::GetEnteredContext();\n- * Remove V8\\ObjectValue::CreationContext(), use V8\\ObjectValue::GetContext();\n- Add V8\\PropertyCallbackInfo::ShouldThrowOnError() method;\n- Add V8\\FunctionCallbackInfo::NewTarget() method;\n- V8\\ReturnValue now explicitly holds isolate and context which could be accessed outside of calling context;\n- Fix potential problems with V8\\FunctionCallbackInfo and V8\\PropertyCallbackInfo when used outside calling scope;\n- Fix leak when V8\\ScriptCompiler::CompileFunctionInContext() invoked with arguments and/or context extensions;\n- Fix segfault when abruptly exiting from isolate which entered multiple time or from multiple nested isolates;\n- Add V8\\Exceptions\\ValueException to stubs;\n- Remove $global_template and $global_object private props from V8\\Context.",
+            "get": "http://pecl.php.net/get/v8-0.1.3",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.1.2": {
+            "version": "0.1.2",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "pinepain",
+            "releaseDate": "2017-02-18T15:04:23+00:00",
+            "releaseNotes": "This release adds script compilation and caching. Also more new methods added and some internal logic refactored.\nSee detailed changes below.\n\nAs of this release, V8 >= 5.8.168 required.\n\n* - BC-breaking or potentially BC-breaking changes.\n\nChanges to public API and other important changes which may affect end-user:\n\n    - * Add $is_wasm and $is_module options to V8\\ScriptOriginOptions and V8\\ScriptOrigin;\n    - * Remove non-standard V8\\Scrip::{getSource,getOrigin};\n    - * Remove V8\\ObjectValue::{Get,Set,Has,Delete,CreateDataProperty}Indexed methods;\n    - * Remove non-working V8\\Context extensions support;\n    - * Handle V8\\IntegerValue sub-types when returning values from V8, fixes #19;\n    - Add V8\\UnboundScript class;\n    - Add V8\\ScriptCompiler\\CachedData class;\n    - Add V8\\ScriptCompiler\\CompileOptions class;\n    - Add V8\\ScriptCompiler\\Source class;\n    - Add V8\\ScriptCompiler;\n    - Add V8\\SymbolValue::GetToPrimitive() method;\n    - Add V8\\Value::IsNullOrUndefinedl() method;\n    - Add more V8\\Value::Is*() methods;\n    - Add V8\\MapObject;\n    - Add V8\\SetObject;\n    - Fix obj and func templates external memory adjusting.",
+            "get": "http://pecl.php.net/get/v8-0.1.2",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.1.1": {
+            "version": "0.1.1",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "pinepain",
+            "releaseDate": "2017-01-15T22:40:12+00:00",
+            "releaseNotes": "In this release new methods added and some internal logic refactored.\n\nAs of this release, V8 >= 5.4.420 required.\n\nAlso, deprecated or soon to be deprecated API calls are removed in this release, see note on BC-breaking changes below.\n\n- add V8\\Isolate::IsInUse() method.\n- add V8\\AdjustableExternalMemoryInterface interface;\n- add V8\\ObjectValue::AdjustExternalAllocatedMemory() method;\n- add V8\\ObjectValue::GetExternalAllocatedMemory() method;\n- add V8\\FunctionTemplate::AdjustExternalAllocatedMemory() method;\n- add V8\\FunctionTemplate::GetExternalAllocatedMemory() method;\n- add V8\\ObjectTemplate::AdjustExternalAllocatedMemory() method;\n- add V8\\ObjectTemplate::GetExternalAllocatedMemory() method;\n- rewrite callbacks structures to use std containers;\n- use realistic external allocated memory value to notify isolate about based on callbacks structures size and optionally specified by user value.\n- add V8\\Value::TypeOf() method;\n- add V8\\ObjectValue::IsConstructor() method;\n- add V8\\ObjectValue::SetIntegrityLevel() method;\n- add V8\\CallbackInfo::InContext() method;\n- add V8\\ReturnValue::InContext() method;\n- add V8\\ReturnValue::Get() method;\n- add V8\\HeapStatistics::malloced_memory() method;\n- add V8\\HeapStatistics::peak_malloced_memory() method;\n- properly shutdown in case of OOM;\n- simplify V8\\ReturnValue internals and integration with callbacks.\n\nBC breaking changes:\n\n- V8\\ObjectValue::ForceSet() removed in a favor of V8\\ObjectValue::DefineOwnProperty(), V8\\ObjectValue::CreateDataProperty() and V8\\ObjectValue::CreateDataPropertyIndex().",
+            "get": "http://pecl.php.net/get/v8-0.1.1",
+            "SPDX-License-Identifier": "MIT"
+        }
+    },
+    "summary": "V8 JavaScript engine API for PHP",
+    "SPDX-License-Identifier": "MIT"
+}

@@ -1,0 +1,264 @@
+{
+    "category": "Database",
+    "deprecated": false,
+    "description": "The X DevAPI is the new common API for MySQL Connectors built on the X Protocol introduced in MySQL 5.7.12.\n\nThe X DevAPI wraps powerful concepts in a simple API.\n* A new high-level session concept enables you to write code that can transparently scale from single MySQL Server to a multiple server environment.\n* Read operations are simple and easy to understand.\n\nThe X DevAPI introduces a new, modern and easy-to-learn way to work with your data.\n* Documents are stored in Collections and have their dedicated CRUD operation set.\n* Work with your existing domain objects or generate code based on structure definitions for strictly typed languages.\n* Focus is put on working with data via CRUD operations. See Section 3.1, \u201cCRUD Operations Overview\u201d.\n* Modern practices and syntax styles are used to get away from traditional SQL-String-Building. See Chapter 10, Building Expressions.",
+    "latestReleaseDate": "2022-07-26T10:55:19+00:00",
+    "latestVersion": "8.0.30",
+    "license": "PHP",
+    "name": "mysql_xdevapi",
+    "php8Mentioned": false,
+    "releases": {
+        "8.0.30": {
+            "version": "8.0.30",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "mysqlre",
+            "releaseDate": "2022-07-26T10:55:19+00:00",
+            "releaseNotes": "Release",
+            "get": "https://pecl.php.net/get/mysql_xdevapi-8.0.30",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "8.0.29": {
+            "version": "8.0.29",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "mysqlre",
+            "releaseDate": "2022-04-26T08:38:58+00:00",
+            "releaseNotes": "Release",
+            "get": "https://pecl.php.net/get/mysql_xdevapi-8.0.29",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "8.0.28": {
+            "version": "8.0.28",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "mysqlre",
+            "releaseDate": "2022-01-18T06:00:06+00:00",
+            "releaseNotes": "Release",
+            "get": "https://pecl.php.net/get/mysql_xdevapi-8.0.28",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "8.0.27": {
+            "version": "8.0.27",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "mysqlre",
+            "releaseDate": "2021-10-19T10:27:19+00:00",
+            "releaseNotes": "Release",
+            "get": "https://pecl.php.net/get/mysql_xdevapi-8.0.27",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "8.0.26": {
+            "version": "8.0.26",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "mysqlre",
+            "releaseDate": "2021-07-20T12:03:37+00:00",
+            "releaseNotes": "Release",
+            "get": "https://pecl.php.net/get/mysql_xdevapi-8.0.26",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "8.0.25": {
+            "version": "8.0.25",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "mysqlre",
+            "releaseDate": "2021-05-11T12:43:13+00:00",
+            "releaseNotes": "Release",
+            "get": "https://pecl.php.net/get/mysql_xdevapi-8.0.25",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "8.0.24": {
+            "version": "8.0.24",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "mysqlre",
+            "releaseDate": "2021-04-26T09:50:38+00:00",
+            "releaseNotes": "Release",
+            "get": "https://pecl.php.net/get/mysql_xdevapi-8.0.24",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "8.0.23": {
+            "version": "8.0.23",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "mysqlre",
+            "releaseDate": "2021-01-18T11:30:21+00:00",
+            "releaseNotes": "WL#14014: XProtocol: Support connection close notification\nWL#14228: Replace language in APIs and source code/docs\norabug #30134451: mysqlndx replace raw zval with improved zvalue where possible\norabug #31589457: change default engine from MyISAM to InnoDB",
+            "get": "https://pecl.php.net/get/mysql_xdevapi-8.0.23",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "8.0.22": {
+            "version": "8.0.22",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "mysqlre",
+            "releaseDate": "2020-10-19T04:50:36+00:00",
+            "releaseNotes": "WL#14012: XProtocol -- support for configurable compression algorithms\norabug #31364076: mysqlndx switch from C++14 to C++17, and all related\norabug #31414039: mysqlndx apply std::string_view, remove MYSQLND_CSTRING\norabug #30084547: improve zval wrapper\norabug #31678047: prepared statements tests fail with the newest server\norabug #31958145: some secure connection / TLS tests fail on el8-x86-64bit",
+            "get": "https://pecl.php.net/get/mysql_xdevapi-8.0.22",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "8.0.21": {
+            "version": "8.0.21",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "mysqlre",
+            "releaseDate": "2020-07-13T12:31:28+00:00",
+            "releaseNotes": "WL#13014 DevAPI: Add schema validation to create collection\norabug #30134490: apply helpers from util/object.h\norabug #31084747: single doc tests failing in php-7.4\nchanges in config.m4|w32 to improve resolving 3rdParty libs",
+            "get": "https://pecl.php.net/get/mysql_xdevapi-8.0.21",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "8.0.20": {
+            "version": "8.0.20",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "mysqlre",
+            "releaseDate": "2020-04-27T14:58:08+00:00",
+            "releaseNotes": "WL#13001 DevAPI: Connection compression\norabug #30864458: some methods should not be reported as deprecated anymore",
+            "get": "https://pecl.php.net/get/mysql_xdevapi-8.0.20",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "8.0.19": {
+            "version": "8.0.19",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "mysqlre",
+            "releaseDate": "2020-01-13T09:46:42+00:00",
+            "releaseNotes": "WL#13541: Fix admin command namespace usage\nWL#13398 DNS SRV support",
+            "get": "https://pecl.php.net/get/mysql_xdevapi-8.0.19",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "8.0.18": {
+            "version": "8.0.18",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "mysqlre",
+            "releaseDate": "2019-10-14T19:43:18+00:00",
+            "releaseNotes": "WL#12732: DevAPI: Specify TLS ciphers to be used by a client or session\norabug #29421446: fixes for secure connections\norabug #30226250: some of Collection.Modify ops don't support JSON documents properly\norabug #30093227: mysql_xdevapi\\CollectionFind::fields() path fails when ends in number\norabug #30226232: incorrect behaviour of chained CRUD ops in webserver mode\norabug #30258670: CollectionModify.arrayInsert vs bind: cannot use bindings for arrayInsert\norabug #30088118: clean up XSession leavings\norabug #30088150: remove messages\norabug #30084547: improve zval wrapper\norabug #29998874: fix tests to pass with default auth_plugin=caching_sha2_password\norabug #30096952: add support for building in static mode\norabug #30084593: get rid of vim \"decorators\"\nfixes for building with PHP-7.4+",
+            "get": "https://pecl.php.net/get/mysql_xdevapi-8.0.18",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "8.0.17": {
+            "version": "8.0.17",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "mysqlre",
+            "releaseDate": "2019-07-22T09:01:48+00:00",
+            "releaseNotes": "WL#12190-DevAPI: indexing array fields\nWL#12683-DevAPI: Add overlaps and not_overlaps as operator\nWL#13012: Deprecate methods\nWL#11852: erase temporary protobuf files at 'make clean' step\norabug #28605926: unclear _id related messages with 5.7\nadapt sources to build with PHP-7.4",
+            "get": "https://pecl.php.net/get/mysql_xdevapi-8.0.17",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "8.0.16": {
+            "version": "8.0.16",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "mysqlre",
+            "releaseDate": "2019-04-25T03:15:40+00:00",
+            "releaseNotes": "WL#9879: Prepared statement support\nWL#11983: Support session-connect-attributes\nWL#12396: Support new session reset functionality\norabug #28802543: classes: Driver, ExecutionStatus, Expression, and Statement\norabug #28803208: the DocResult prototype appear wrong\norabug #28803039: the fields() method seems odd\norabug #28805757: how exactly are set() and replace() different?",
+            "get": "https://pecl.php.net/get/mysql_xdevapi-8.0.16",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "8.0.15": {
+            "version": "8.0.15",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "mysqlre",
+            "releaseDate": "2019-02-01T12:27:31+00:00",
+            "releaseNotes": "This release contains no functional changes and is published to align\nversion number with the MySQL Server 8.0.15 release.",
+            "get": "https://pecl.php.net/get/mysql_xdevapi-8.0.15",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "8.0.14": {
+            "version": "8.0.14",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "mysqlre",
+            "releaseDate": "2019-01-23T03:17:59+00:00",
+            "releaseNotes": "WL#12593: DevAPI: Handling of Default Schema\nWL#12457: Be prepared for initial notice on connection\nWL#12291: automagically resolve path to preferred version of boost on pb2\norabug #28803092 the offset() method requires limit()\norabug #28802524 always use sql()->execute() instead of executeSql()\norabug #27441854 fetchAll should return an empty array when the result is empty, not (bool)false\norabug #28804413 containers methods\norabug #28802453 TableDelete: offset does not seem useful\norabug #29011588 execute more than once for crud ops with bind causes crash at releasing\norabug #28605347 CollectionFind::offset() without limit() error is unclear\norabug #28803201 FieldMetadata and ColumnResult are returning different information about columns\norabug #28804447 remove client functions\norabug #28802551 Collection::createIndex() create an index on multiple fields\norabug #28804461 ensure groupBy() functionality\norabug #28838435 PHPT tests - make checking results more precise",
+            "get": "https://pecl.php.net/get/mysql_xdevapi-8.0.14",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "8.0.13": {
+            "version": "8.0.13",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "mysqlre",
+            "releaseDate": "2018-10-22T07:59:54+00:00",
+            "releaseNotes": "WL#11956: Implement connection pooling for xprotocol\nWL#12189: Implement connect timeout\nWL#12428: Adding support for chained adds\nWL#12435: Returning the proper values\nWL#12280: connection error handling - throw an exception\nWL#11851: enable treat warning as error\nWL#11853: check available boost version\nWL#12276: Expose metadata about source and binaries in unified way",
+            "get": "http://pecl.php.net/get/mysql_xdevapi-8.0.13",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "8.0.12": {
+            "version": "8.0.12",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "mysqlre",
+            "releaseDate": "2018-07-30T14:38:58+00:00",
+            "releaseNotes": "WL#11957: DevAPI, Core v1 Alignment\nWL#11955: Increase coverage\nrefactorings: WL#11960, WL#11945,  WL#11949, WL#11947, WL#11854",
+            "get": "http://pecl.php.net/get/mysql_xdevapi-8.0.12",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "8.0.11": {
+            "version": "8.0.11",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "mysqlre",
+            "releaseDate": "2018-04-19T18:37:04+00:00",
+            "releaseNotes": "WL#11591-DevAPI: Add SHA256_MEMORY support\nWL#11390-DevAPI: New document _id generation support\nWL#11242-Support locking modes: NOWAIT and SKIP LOCKED\nrefactoring: reference counting, clear warnings",
+            "get": "http://pecl.php.net/get/mysql_xdevapi-8.0.11",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "8.0.4": {
+            "version": "8.0.4",
+            "state": "alpha",
+            "license": "PHP",
+            "releasedBy": "mysqlre",
+            "releaseDate": "2018-01-31T17:39:12+00:00",
+            "releaseNotes": "WL#9898-Driver: Extended Authentication support (incl. SHA256)\nWL#10089-DevAPI: Cleanup Drop APIs\nWL#9876-DevAPI: Collection.createIndex\nWL#11301-Remove CreateTable and CreateView\nWL#10725-DevAPI: Modify/MergePatch\nWL#10868-DevAPI: transaction save-points\nWL#11340-Remove configuration API",
+            "get": "http://pecl.php.net/get/mysql_xdevapi-8.0.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "8.0.3": {
+            "version": "8.0.3",
+            "state": "alpha",
+            "license": "PHP",
+            "releasedBy": "johannes",
+            "releaseDate": "2017-12-13T15:23:03+00:00",
+            "releaseNotes": "WL-10875: DevAPI: Array or Object \"contains\" operator\nWL-10640 / 10876: DevAPI: getOne, removeOne, replaceOne, addOrReplaceOne\nWL-10641/10877 DevAPI: Row locking for Crud.Find / Table.Select\nserver 8.x support, fixes for phpize build",
+            "get": "http://pecl.php.net/get/mysql_xdevapi-8.0.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "8.0.2": {
+            "version": "8.0.2",
+            "state": "alpha",
+            "license": "PHP",
+            "releasedBy": "johannes",
+            "releaseDate": "2017-07-11T13:51:26+00:00",
+            "releaseNotes": "WL10393/10097 DevAPI: Table.createTable\nMY-235: Configuration handling interface\nWL-10402  Ensure all connectors are secure by default\nWL10627 / 10728 Forbid modify() and remove() with no condition\nWL-10089/10392 DevAPI: Cleanup Drop APIs\nWL-10390: DevAPI, Document UUID generation\nWL-10506: Bugs and Clarifications",
+            "get": "http://pecl.php.net/get/mysql_xdevapi-8.0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "alpha",
+            "license": "PHP",
+            "releasedBy": "johannes",
+            "releaseDate": "2017-03-13T23:44:29+00:00",
+            "releaseNotes": "- Added support for View DDL\n- Added support for X DevAPI unified connection string\n- Added support for Unix Domain Sockets\n- Added table.isView()\n- Added Core TLS/SSLL options\n- Internal refacotoring\n- Fixed a few bugs",
+            "get": "http://pecl.php.net/get/mysql_xdevapi-1.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "alpha",
+            "license": "PHP",
+            "releasedBy": "johannes",
+            "releaseDate": "2016-12-08T15:51:36+00:00",
+            "releaseNotes": "Initial release",
+            "get": "http://pecl.php.net/get/mysql_xdevapi-1.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "MySQL X DevAPI for PHP",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

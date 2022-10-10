@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.8.0RC1</v>
+ <st>beta</st>
+ <l>Apache License</l>
+ <m>jmikola</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2020-07-17 00:13:06</da>
+ <n>** Bug
+    * [PHPC-1648] - Ensure directConnection is validated when specified in URI options array
+
+** Task
+    * [PHPC-1635] - Ensure OCSP and AWS auth are tested on both 4.4 and latest
+
+** Improvement
+    * [PHPC-1556] - Reduce Client Time To Recovery On Topology Changes</n>
+ <f>1291605</f>
+ <g>https://pecl.php.net/get/mongodb-1.8.0RC1</g>
+ <x xlink:href="package.1.8.0RC1.xml"/>
+</r>

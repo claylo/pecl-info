@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/win32std">win32std</p>
+ <c>pecl.php.net</c>
+ <v>1.0</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>ecolinet</m>
+ <s>Access to some Win32 usefull API.</s>
+ <d>Contains:
+- RES (access to resource of .exe/.dll files on Win32)
+- RES stream wrapper for reading. Compatible with the res protocol defined by MS
+- REGISTRY access 
+- Common Win32 dialogs (open/save file, open dir, message boxes)
+- Wrapper for some standard function (win_shell_execute, win_play_wav, win_beep, win_create_link)
+</d>
+ <da>2003-11-19 12:29:00</da>
+ <n>First release</n>
+ <f>28922</f>
+ <g>http://pecl.php.net/get/win32std-1.0</g>
+ <x xlink:href="package.1.0.xml"/>
+</r>

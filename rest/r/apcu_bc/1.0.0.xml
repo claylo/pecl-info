@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/apcu_bc">apcu_bc</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>krakjoe</m>
+ <s>APCu Backwards Compatibility Module</s>
+ <d>This module provides a backwards APC compatible API using APCu.</d>
+ <da>2015-12-07 09:58:18</da>
+ <n>- initial release</n>
+ <f>5893</f>
+ <g>http://pecl.php.net/get/apcu_bc-1.0.0</g>
+ <x xlink:href="package.1.0.0.xml"/>
+</r>

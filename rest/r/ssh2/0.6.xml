@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ssh2">ssh2</p>
+ <c>pecl.php.net</c>
+ <v>0.6</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>pollita</m>
+ <s>Bindings for the libssh2 library</s>
+ <d>Provides bindings to the functions of libssh2 which implements the SSH2 protocol.
+libssh2 is available from http://www.sourceforge.net/projects/libssh2
+</d>
+ <da>2005-02-09 19:56:00</da>
+ <n>Minor fixes including some added error handling and more discriptive ./configure message.
+Users of PHP/SSH2 are recommended to upgrade their installation of libssh2 to version 0.6
+whether or not upgrading the PHP/SSH2 extension.</n>
+ <f>18017</f>
+ <g>http://pecl.php.net/get/ssh2-0.6</g>
+ <x xlink:href="package.0.6.xml"/>
+</r>

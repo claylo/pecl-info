@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/oauth">oauth</p>
+ <c>pecl.php.net</c>
+ <v>0.99.8</v>
+ <st>beta</st>
+ <l>BSD</l>
+ <m>jawed</m>
+ <s>oauth consumer extension</s>
+ <d>OAuth is an authorization protocol built on top of HTTP which allows applications to securely access data without having to store usernames and passwords.
+
+Requirements: ext/hash and libcurl (with https support if you plan to access resources over https).</d>
+ <da>2009-04-30 14:20:45</da>
+ <n>- Added setCAPath/getCAPath for Certificate Authority information
+- Fixed bus error on fetch if http_method was undefined</n>
+ <f>23969</f>
+ <g>http://pecl.php.net/get/oauth-0.99.8</g>
+ <x xlink:href="package.0.99.8.xml"/>
+</r>

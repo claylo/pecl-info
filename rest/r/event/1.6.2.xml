@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/event">event</p>
+ <c>pecl.php.net</c>
+ <v>1.6.2</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>osmanov</m>
+ <s>Provides interface to libevent library</s>
+ <d>This is an extension to efficiently schedule I/O, time and signal based
+  events using the best I/O notification mechanism available for specific platform.
+  This is a port of libevent to the PHP infrastructure.
+  
+  Version 1.0.0 introduces:
+  * new OO API breaking backwards compatibility
+  * support of libevent 2+ including HTTP, DNS, OpenSSL and the event listener.
+
+  Note, event-1.0.0 and greater is not compatible with previous versions.</d>
+ <da>2013-07-17 11:36:43</da>
+ <n>Fix: bug #64678 where Fedora Packaging Guidlines required LICENSE file
+Fix: bug #64680 where we should check for SKIP_ONLINE_TESTS environment variable
+Fix: bug #64679 where we had buffer overflow caused by struct sockaddr_storage * pointer</n>
+ <f>66941</f>
+ <g>http://pecl.php.net/get/event-1.6.2</g>
+ <x xlink:href="package.1.6.2.xml"/>
+</r>

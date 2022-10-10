@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/lzf">LZF</p>
+ <c>pecl.php.net</c>
+ <v>1.0</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>mg</m>
+ <s>LZF compression.</s>
+ <d>This package handles LZF de/compression.
+</d>
+ <da>2003-10-24 17:43:00</da>
+ <n>This release adds win32 support.</n>
+ <f>8120</f>
+ <g>http://pecl.php.net/get/LZF-1.0</g>
+ <x xlink:href="package.1.0.xml"/>
+</r>

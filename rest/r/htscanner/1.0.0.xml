@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/htscanner">htscanner</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>martynas</m>
+ <s>htaccess support for PHP</s>
+ <d>Allow one to use htaccess-like file to configure PHP
+per directory, just like apache's htaccess. It is especially useful with fastcgi (ISS5/6/7, lighttpd, etc.).
+This package was originally developed by Bart Vanbrabant. Old versions are available
+ from: http://files.zoeloelip.be/htscanner</d>
+ <da>2011-02-01 13:54:07</da>
+ <n>- #19019, added support for scanning apache UserDir
+- #19078, made php_flag behavior consistent with apache
+- #19066, call zend at htaccess stage.  Fixes crashes for some
+settings (e.g. zlib.output_compression) and gains security (checks
+mail.force_extra_parameters)
+- #19168, #18886, #17067, #16891, rewritten htscanner parser code.
+All known parsing problems have been fixed
+- Added support for IfModule directive
+- Fixed mail.log safe_mode and open_basedir bypass
+- Plugged serious memory leaks in the caching code
+- Don't cache if default_ttl is zero
+- Unlock mutex after actually using name and value
+- Implemented apache module to provide dummy php_flag and php_value
+directives.  See mod_htscanner.c provided with the package
+- Added htscanner.verbose option that disables warnings when an option
+cannot be set
+- Fixed build on PHP trunk
+- Assorted improvements and code cleanup</n>
+ <f>9904</f>
+ <g>http://pecl.php.net/get/htscanner-1.0.0</g>
+ <x xlink:href="package.1.0.0.xml"/>
+</r>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/parse_tree">parse_tree</p>
+ <c>pecl.php.net</c>
+ <v>0.0.1</v>
+ <st>alpha</st>
+ <l>PHP</l>
+ <m>wcandillon</m>
+ <s>Generate an XML parse tree from a php source code</s>
+ <d>This extension generate an XML parse tree from a php source code.
+ 
+</d>
+ <da>2006-08-25 04:42:47</da>
+ <n>First alpha version</n>
+ <f>4511</f>
+ <g>http://pecl.php.net/get/parse_tree-0.0.1</g>
+ <x xlink:href="package.0.0.1.xml"/>
+</r>

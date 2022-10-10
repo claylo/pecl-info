@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/binpack">binpack</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>srain</m>
+ <s>binpack for PHP.</s>
+ <d>The php implementation for BINPACK.</d>
+ <da>2014-07-26 10:31:11</da>
+ <n>- first release</n>
+ <f>17784</f>
+ <g>http://pecl.php.net/get/binpack-1.0.0</g>
+ <x xlink:href="package.1.0.0.xml"/>
+</r>

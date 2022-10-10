@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>1.7.19</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Asynchronous and concurrent and distributed networking	framework for PHP.</s>
+ <d>Asynchronous and concurrent and distributed networking framework for PHP.
+- event-driven
+- full asynchronous non-blocking
+- multi-thread reactor
+- multi-process worker
+- millisecond timer
+- async MySQL
+- async task
+- async read/write file system
+- async dns lookup
+- support IPv4/IPv6/UnixSocket/TCP/UDP
+- SSL/TLS encrypted transmission</d>
+ <da>2015-08-31 06:54:53</da>
+ <n>- Added swoole_atomic module, support for atomic integer operations
+- Fixed timer in the system can not recover after the resumption of the operation
+- Fixed ssl_server cannot send more than 30K large packages in a slow network
+- Added supports for UDP/UDP6/UNIX_DGRAM big packages(64K)
+- Fixed addtimer/tick timer can't be used in BASE mode
+- Added addProcess in SWOOLE_BASE mode
+- Fixed SWOOLE_KEEP core dump</n>
+ <f>468385</f>
+ <g>http://pecl.php.net/get/swoole-1.7.19</g>
+ <x xlink:href="package.1.7.19.xml"/>
+</r>

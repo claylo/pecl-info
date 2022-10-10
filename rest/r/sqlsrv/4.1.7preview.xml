@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/sqlsrv">sqlsrv</p>
+ <c>pecl.php.net</c>
+ <v>4.1.7preview</v>
+ <st>devel</st>
+ <l>The MIT License (MIT)</l>
+ <m>mbar</m>
+ <s>Microsoft Drivers for PHP for SQL Server (SQLSRV)</s>
+ <d>The Microsoft Drivers for PHP for SQL Server are PHP extensions that allow for the reading and writing of SQL Server data from within PHP scripts. The SQLSRV extension provides a procedural interface while the PDO_SQLSRV extension implements PDO for accessing data in all editions of SQL Server 2005 and later (including Azure SQL DB). These drivers rely on the Microsoft ODBC Driver for SQL Server to handle the low-level communication with SQL Server.
+*This package contains only the SQLSRV driver.*</d>
+ <da>2017-03-07 01:46:47</da>
+ <n>[Added]
+- The early technical preview (ETP) with basic functionalities is now available on MAC OS X. Tested on OS versions El Capitan (OS X 10.11) 
+[Fixed]
+- Fixed null returned when an empty string is set to an output parameter (issue #308)
+- Fixed memory leaks in buffered result sets
+- Fixed debug abort error when building the driver in debug mode with PHP 7.1
+- Fixed string truncation when binding varchar(max), nvarchar(max), varbinary(max), and xml types (issue #231)
+- Fixed clang compile errors
+- Fixed fatal error when fetching empty nvarchar (issue #69)
+- Fixed fatal error when calling sqlsrv_fetch() with an out of bound offset for SQLSRV_SCROLL_ABSOLUTE (issue #223)
+[Known Issues]
+- User defined data types and SQL_VARIANT
+- In MAC OS X, if loading both sqlsrv and pdo_sqlsrv, the order matters (even when dynamically). For sqlsrv scripts, load sqlsrv.so first
+- Connection pooling not working in MAC OS X</n>
+ <f>192817</f>
+ <g>http://pecl.php.net/get/sqlsrv-4.1.7preview</g>
+ <x xlink:href="package.4.1.7preview.xml"/>
+</r>

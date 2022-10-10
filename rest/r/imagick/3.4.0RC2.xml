@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/imagick">imagick</p>
+ <c>pecl.php.net</c>
+ <v>3.4.0RC2</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>danack</m>
+ <s>Provides a wrapper to the ImageMagick library.</s>
+ <d>Imagick is a native php extension to create and modify images using the ImageMagick API.
+This extension requires ImageMagick version 6.5.4+ and PHP 5.4.0+.</d>
+ <da>2015-12-04 18:31:24</da>
+ <n>- Added support:
+  * PHP 7
+  * ImageMagick 7. Imagick can be compiled against either ImageMagick 6 or ImageMagick 7
+    However it must be run with the exact same version it was compiled against. Trying
+    to run Imagick with a different version of ImageMagick than it was compiled against 
+    is not supported. Please see http://nextgen.imagemagick.org/script/porting.php for
+    more information about ImageMagick 7.
+- Minimum versions supported are now PHP &gt;= 5.4.0 and ImageMagick &gt;= 6.5.3-10.
+    Earlier versions may continue to work, but they are no longer supported.
+- Added methods:
+  * Imagick::getConfigureOptions
+  * Imagick::getFeatures
+  * Imagick::getHDRIEnabled
+  * Imagick::setImageChannelMask (IM7 only)
+- Added IM7 constants:
+  * Imagick::CHANNEL_READ_MASK
+  * Imagick::CHANNEL_WRITE_MASK
+  * Imagick::CHANNEL_META
+- Fixes:
+  * ImagickPixel::getColorQuantum, ImagickPixel::getColorValueQuantum and 
+    ImagickPixel::setColorValueQuantum now correctly use floats when Imagick 
+    was compiled against a HDRI version of ImageMagick
+  * Imagick::exportImagePixels works for all storage types
+  * Version number in extension header</n>
+ <f>230995</f>
+ <g>http://pecl.php.net/get/imagick-3.4.0RC2</g>
+ <x xlink:href="package.3.4.0RC2.xml"/>
+</r>

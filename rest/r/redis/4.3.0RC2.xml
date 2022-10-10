@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/redis">redis</p>
+ <c>pecl.php.net</c>
+ <v>4.3.0RC2</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>yatsukhnenko</m>
+ <s>PHP extension for interfacing with Redis</s>
+ <d>This extension provides an API for communicating with Redis servers.</d>
+ <da>2019-03-06 07:36:25</da>
+ <n>phpredis 4.3.0RC2
+
+This is probably the latest release with PHP 5 suport!!!
+
+* Proper persistent connections pooling implementation [a3703820, c76e00fb, 0433dc03, c75b3b93] (Pavlo Yatsukhnenko)
+* RedisArray auth [b5549cff, 339cfa2b, 6b411aa8] (Pavlo Yatsukhnenko)
+* Use zend_string for storing key hashing algorithm [8cd165df, 64e6a57f] (Pavlo Yatsukhnenko)
+* Add ZPOPMAX and ZPOPMIN support [46f03561, f89e941a, 2ec7d91a] (@mbezhanov, Michael Grunder)
+* Implement GEORADIUS_RO and GEORADIUSBYMEMBER_RO [22d81a94] (Michael Grunder)
+* Add callback parameter to subscribe/psubscribe arginfo [0653ff31] (Pavlo Yatsukhnenko)
+* Don't check the number affected keys in PS_UPDATE_TIMESTAMP_FUNC [b00060ce] (Pavlo Yatsukhnenko)
+* Xgroup updates [15995c06] (Michael Grunder)
+* RedisCluster auth [c5994f2a] (Pavlo Yatsukhnenko)
+* Cancel pipeline mode without executing commands [789256d7] (Pavlo Yatsukhnenko)
+* Use zend_string for pipeline_cmd [e98f5116] (Pavlo Yatsukhnenko)
+* Different key hashing algorithms from hash extension [850027ff] (Pavlo Yatsukhnenko)
+* Breaking the lock acquire loop in case of network problems [61889cd7] (@SkydiveMarius)
+* Implement consistent hashing algorithm for RedisArray [bb32e6f3, 71922bf1] (Pavlo Yatsukhnenko)
+* Use zend_string for storing RedisArray hosts [602740d3, 3e7e1c83] (Pavlo Yatsukhnenko)
+* Update lzf_compress to be compatible with PECL lzf extension [b27fd430] (@jrchamp)
+* Fix RedisCluster keys memory leak [3b56b7db] (Michael Grunder)
+* Directly use return_value in RedisCluster::keys method [ad10a49e] (Pavlo Yatsukhnenko)
+* Fix segfault in Redis Cluster with inconsistent configuration [72749916, 6e455e2e] (Pavlo Yatsukhnenko)
+* Masters info leakfix [91bd7426] (Michael Grunder)
+* Refactor redis_sock_read_bulk_reply [bc4dbc4b] (Pavlo Yatsukhnenko)
+* Remove unused parameter lazy_connect from redis_sock_create [c0793e8b] (Pavlo Yatsukhnenko)
+* Remove useless ZEND_ACC_[C|D]TOR. [bc9b5597] (@twosee)
+* Documentation improvements (@fanjiapeng, @alexander-schranz, @hmc, Pavlo Yatsukhnenko, Michael Grunder)</n>
+ <f>241909</f>
+ <g>https://pecl.php.net/get/redis-4.3.0RC2</g>
+ <x xlink:href="package.4.3.0RC2.xml"/>
+</r>

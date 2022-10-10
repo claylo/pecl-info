@@ -1,0 +1,34 @@
+{
+    "category": "Date and Time",
+    "deprecated": false,
+    "description": "A PHP extension providing \"time travel\" and \"time freezing\" capabilities, inspired by ruby timecop gem.",
+    "latestReleaseDate": "2017-11-23T03:29:35+00:00",
+    "latestVersion": "1.2.10",
+    "license": "MIT License",
+    "name": "timecop",
+    "php8Mentioned": false,
+    "releases": {
+        "1.2.10": {
+            "version": "1.2.10",
+            "state": "beta",
+            "license": "MIT License",
+            "releasedBy": "hnw",
+            "releaseDate": "2017-11-23T03:29:35+00:00",
+            "releaseNotes": "Fix \"double free\" bug on PHP 7.2.0",
+            "get": "http://pecl.php.net/get/timecop-1.2.10",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.2.8": {
+            "version": "1.2.8",
+            "state": "beta",
+            "license": "MIT License",
+            "releasedBy": "hnw",
+            "releaseDate": "2017-07-07T13:30:28+00:00",
+            "releaseNotes": "Publish on PECL",
+            "get": "http://pecl.php.net/get/timecop-1.2.8",
+            "SPDX-License-Identifier": "MIT"
+        }
+    },
+    "summary": "A PHP extension providing \"time travel\" capabilities.",
+    "SPDX-License-Identifier": "MIT"
+}

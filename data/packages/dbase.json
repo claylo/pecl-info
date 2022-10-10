@@ -1,0 +1,134 @@
+{
+    "category": "Database",
+    "deprecated": false,
+    "description": "These functions allow you to access records stored \nin dBase-format (dbf) databases.\n\nThere is no support for indexes or memo fields. \nThe databases are automatically locked with blocking flock()s.\n\ndBase files are simple sequential files of fixed length records. \nRecords are appended to the end of the file and deleted records \nare kept until you call dbase_pack().",
+    "latestReleaseDate": "2021-10-29T15:51:36+00:00",
+    "latestVersion": "7.1.1",
+    "license": "PHP",
+    "name": "dbase",
+    "php8Mentioned": true,
+    "releases": {
+        "7.1.1": {
+            "version": "7.1.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "cmb",
+            "releaseDate": "2021-10-29T15:51:36+00:00",
+            "releaseNotes": "Bug Fixes\n\n  - Fixed GH-1 (dbase_add_record() converts passed floats and leaks memory)\n  - Fixed #81563 (SIGSEGV reading dbase file with few data)",
+            "get": "https://pecl.php.net/get/dbase-7.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "7.1.0": {
+            "version": "7.1.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "cmb",
+            "releaseDate": "2021-06-13T21:20:28+00:00",
+            "releaseNotes": "New features\n\n  - Full fledged arginfo is available under PHP 8 (Remi Collet)\n  - Calling dbase functions with wrong parameter types/values throws TypeExceptions and\n    ValueExceptions, respectively, instead of raising warnings under PHP 8 (Remi Collet)\n\nBug Fixes\n\n  - Fixed #80156 (Incomplete records may be written)\n  - Fixed #80488 (ReflectionParameter->getDefaultValue() throws for dbase_create())",
+            "get": "https://pecl.php.net/get/dbase-7.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "7.1.0RC2": {
+            "version": "7.1.0RC2",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "cmb",
+            "releaseDate": "2020-10-04T20:41:37+00:00",
+            "releaseNotes": "New features\n\n  - Full fledged arginfo is available under PHP 8 (Remi Collet)\n  - Calling dbase functions with wrong parameter types/values throws TypeExceptions and\n    ValueExceptions, respectively, instead of raising warnings under PHP 8 (Remi Collet)\n\nBug Fixes\n\n  - Fixed #80156 (Incomplete records may be written)",
+            "get": "https://pecl.php.net/get/dbase-7.1.0RC2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "7.1.0RC1": {
+            "version": "7.1.0RC1",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "cmb",
+            "releaseDate": "2020-10-04T16:30:24+00:00",
+            "releaseNotes": "New features\n\n  - Full fledged arginfo is available under PHP 8 (Remi Collet)\n  - Calling dbase functions with wrong parameter types/values throws TypeExceptions and\n    ValueExceptions, respectively, instead of raising warnings under PHP 8 (Remi Collet)\n\nBug Fixes\n\n  - Fixed #80156 (Incomplete records may be written)",
+            "get": "https://pecl.php.net/get/dbase-7.1.0RC1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "7.0.1": {
+            "version": "7.0.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "cmb",
+            "releaseDate": "2019-10-20T13:12:09+00:00",
+            "releaseNotes": "Security Fixes\n\n  - Fixed #78668 (Out-of-bounds Read in dbase.c)\n\nBug Fixes\n\n  - Fixed #78070 (dbase functions may modify passed array)\n  - Fixed #78594 (compile error: 'LOCK_EX' undeclared)",
+            "get": "https://pecl.php.net/get/dbase-7.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "7.0.0": {
+            "version": "7.0.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "cmb",
+            "releaseDate": "2019-04-17T09:44:21+00:00",
+            "releaseNotes": "Backward Incompatible Changes\n\n  - database link identifiers are now proper resources instead of integers\n  - logical values are now retrieved as booleans instead of integers\n\nNew Features\n\n  - FoxPro datetime fields ('T') are now supported as \"YYYYMMDDhhmmss.uuu\"\n  - Uninitialized logical fields are now supported as NULL\n  - base_create() now supports an optional $type parameter (either DBASE_TYPE_DBASE\n    or DBASE_TYPE_FOXPRO) to define the type of database to be created\n  - FoxPro nullable fields are now transparently supported\n  - The $mode of dbase_open() can now be specified as DBASE_RDONLY or DBASE_RDWR\n  - The version of the dbase extension is now available as DBASE_VERSION\n  - Basic database locking has been implemented\n  - Internally the Zend memory manager is now used\n  - Error reporting has been improved; e.g. unsupported field type now raise a\n    warning\n\nBug Fixes\n\n  - Fixed #39305 (Use of decimal point in different countries)\n  - Fixed #52112 (dbase_get_record() returns integer instead of decimal values)\n  - Fixed #68289 (wrong strlcpy call)\n  - Fixed #72812 (dbase_create does not close the FD on failure)\n  - Fixed #72815 (zend_get_parameters_ex() is deprecated)\n  - Fixed #73391 (Writing of floats can cause OOB reads)\n  - Fixed #73395 (failing dbase_create() may leak memory)\n  - Fixed #73411 (dbase_pack() returns TRUE on failure)\n  - Fixed #73414 (Unsupported field types may cause dbase_open() to leak memory)\n  - Fixed #73442 (Float fields always have precision 0)\n  - Fixed #73447 (Floats written to character fields are truncated to integer)\n  - Fixed #74983 (SIGABRT when function put_dbf_field is called)",
+            "get": "https://pecl.php.net/get/dbase-7.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "7.0.0RC1": {
+            "version": "7.0.0RC1",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "cmb",
+            "releaseDate": "2019-04-04T08:54:07+00:00",
+            "releaseNotes": "Backward Incompatible Changes\n\n  - database link identifiers are now proper resources instead of integers\n  - logical values are now retrieved as booleans instead of integers\n\nNew Features\n\n  - FoxPro datetime fields ('T') are now supported as \"YYYYMMDDhhmmss.uuu\"\n  - Uninitialized logical fields are now supported as NULL\n  - base_create() now supports an optional $type parameter (either DBASE_TYPE_DBASE\n    or DBASE_TYPE_FOXPRO) to define the type of database to be created\n  - FoxPro nullable fields are now transparently supported\n  - The $mode of dbase_open() can now be specified as DBASE_RDONLY or DBASE_RDWR\n  - The version of the dbase extension is now available as DBASE_VERSION\n  - Basic database locking has been implemented\n  - Internally the Zend memory manager is now used\n  - Error reporting has been improved; e.g. unsupported field type now raise a\n    warning\n\nBug Fixes\n\n  - Fixed #73391 (Writing of floats can cause OOB reads)\n  - Fixed #73395 (failing dbase_create() may leak memory)\n  - Fixed #73411 (dbase_pack() returns TRUE on failure)\n  - Fixed #73414 (Unsupported field types may cause dbase_open() to leak memory)\n  - Fixed #73442 (Float fields always have precision 0)\n  - Fixed #73447 (Floats written to character fields are truncated to integer)\n  - Fixed #74983 (SIGABRT when function put_dbf_field is called)",
+            "get": "https://pecl.php.net/get/dbase-7.0.0RC1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "5.1.1": {
+            "version": "5.1.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "cmb",
+            "releaseDate": "2016-10-26T15:33:09+00:00",
+            "releaseNotes": "- Fixed #39305: Use of decimal point in different countries\n- Fixed #52112: dbase_get_record() returns integer instead of decimal values\n- Fixed #68289: wrong strlcpy call\n- Fixed #72812: dbase_create does not close the FD on failure\n- Fixed #73391: Writing of floats can cause OOB reads",
+            "get": "http://pecl.php.net/get/dbase-5.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "7.0.0beta1": {
+            "version": "7.0.0beta1",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "cmb",
+            "releaseDate": "2016-10-26T09:54:23+00:00",
+            "releaseNotes": "- PHP 7 compatibility (use dbase-5 with PHP 5)\n- Fixed #39305: Use of decimal point in different countries\n- Fixed #52112: dbase_get_record() returns integer instead of decimal values\n- Fixed #68289: wrong strlcpy call\n- Fixed #72812: dbase_create does not close the FD on failure\n- Fixed #72815: zend_get_parameters_ex() is deprecated",
+            "get": "http://pecl.php.net/get/dbase-7.0.0beta1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "5.1.0": {
+            "version": "5.1.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "felipe",
+            "releaseDate": "2012-06-12T21:46:08+00:00",
+            "releaseNotes": "- Fixed build on PHP 5.4+",
+            "get": "http://pecl.php.net/get/dbase-5.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "5.0.1": {
+            "version": "5.0.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "alan_k",
+            "releaseDate": "2010-10-11T02:22:22+00:00",
+            "releaseNotes": "Bug fix release \n    #18831 - invalid length field when writing date and boolean types.",
+            "get": "http://pecl.php.net/get/dbase-5.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "5.0": {
+            "version": "5.0",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "alan_k",
+            "releaseDate": "2010-08-19T00:51:37+00:00",
+            "releaseNotes": "package.xml added to support installation using pear installer\n\nReleased so at least it can be installed..",
+            "get": "http://pecl.php.net/get/dbase-5.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "dBase database file access functions",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

@@ -1,0 +1,167 @@
+#!/usr/bin/env php -d display_errors=0
+<?php
+
+// TODO clean up & standardize licenses to a new spdx key
+$licences = [];
+$licenseUrls = [];
+$verify = [];
+
+$packages = json_decode(file_get_contents('data/packages.json'), true);
+$extra = json_decode(file_get_contents('data/packages-extra.json'), true);
+$spdxMap = json_decode(file_get_contents('data/spdx-map.json'), true);
+
+$skipTags = ['r', 'c', 'x', 'f', 'p', 's', 'd'];
+$tagMap = [
+    'v'  => 'version',
+    'st' => 'state',
+    'l'  => 'license',
+    'm'  => 'releasedBy',
+    's'  => 'summary',
+    'd'  => 'description',
+    'da' => 'releaseDate',
+    'n'  => 'releaseNotes',
+    'g'  => 'get'
+];
+
+$limit = false;
+// limit to one package?
+if (isset($argv[1])) {
+    $limit = $argv[1];
+    echo "limiting to: $limit\n";
+    // but don't limit if there's no matching package info
+    if (! file_exists("rest/p/$limit/info.xml")) {
+        echo "no package info for $limit\n";
+        exit;
+    }
+}
+
+function getSpdxId($pkg, $txt, $spdxMap, $version = null) {
+    $id = $spdxMap[$txt];
+    if (array_key_exists($pkg, $spdxMap['package-specific'])) {
+        if (array_key_exists($txt, $spdxMap['package-specific'][$pkg])) {
+            $id = $spdxMap['package-specific'][$pkg][$txt];
+        } else {
+            if ($id == 'verify') {
+                // echo "------------------------\n";
+                // echo "MISSING package-specific key for '$txt', pkg $pkg, version $version\n";
+                // echo "------------------------\n";
+            }
+        }
+    }
+    return $id;
+}
+
+foreach ($packages as $pkg => $info) {
+    if ($limit !== false) {
+        if ($limit !== $pkg) {
+            continue;
+        }
+    }
+
+    // if we already know this package is unmaintained, skip it
+    $pextra = [];
+    if (array_key_exists($pkg, $extra)) {
+        $pextra = $extra[$pkg];
+        if ($pextra['maintained'] === false) {
+            continue;
+        }
+    }
+
+    if (! empty($info['license'])) {
+        $licenses[] = $info['license'];
+        $spdx = getSpdxId($pkg, $info['license'], $spdxMap);
+        $packages[$pkg]['SPDX-License-Identifier'] = $spdx;
+        // if ($spdx == 'verify') {
+        //     $spdxMap['package-specific'][$pkg][$info['license']] = '';
+        // }
+    }
+
+    // echo "package: $pkg\n";
+    if (!array_key_exists('releases', $info)) {
+        continue;
+    }
+
+    // if (empty($info['releases'])) {
+    //     if (array_key_exists($pkg, $spdxMap['package-specific'])) {
+    //         unset($spdxMap['package-specific'][$pkg]);
+    //     }
+    //     continue;
+    // }
+
+    foreach ($info['releases'] as $v => $rel) {
+        $relfile = "rest/r/$pkg/$v.xml";
+        // echo "  $relfile\n";
+        $xml = file_get_contents($relfile);
+        if (strpos($xml, 'PECL :: Error 404') !== false) {
+            continue;
+        }
+        if (empty($xml)) {
+            continue;
+        }
+        // just to be sure
+        $xml = mb_convert_encoding($xml, 'UTF-8');
+        $doc = new DOMDocument();
+        $doc->loadXML($xml);
+        $r = [];
+        $elements = $doc->getElementsByTagNameNS('http://pear.php.net/dtd/rest.release', '*');
+        foreach ($elements as $element) {
+            if (!in_array($element->localName, $skipTags)) {
+                $r[$tagMap[$element->localName]] = trim($element->nodeValue);
+                if ($tagMap[$element->localName] == 'releaseDate') {
+                    $d = DateTimeImmutable::createFromFormat('Y-m-d H:i:s', $r['releaseDate'], new DateTimeZone('UTC'));
+                    $r['releaseDate'] = $d->format(DATE_ATOM);
+                }
+            }
+        }
+        if ($info['latestVersion'] == $v) {
+            $packages[$pkg]['latestReleaseDate'] = $r['releaseDate'];
+        }
+
+        if (preg_match('/php.?8/i', $r['releaseNotes'])) {
+            $packages[$pkg]['php8Mentioned'] = true;
+        }
+        if (! empty($r['license'])) {
+            $licenses[] = $r['license'];
+            $spdx = getSpdxId($pkg, $r['license'], $spdxMap, $v);
+            $r['SPDX-License-Identifier'] = $spdx;
+            if ($spdx == 'verify' || $spdx == '') {
+                if (! array_key_exists($pkg, $verify)) {
+                    $verify[$pkg] = [];
+                }
+                if (! array_key_exists($r['license'], $verify[$pkg])) {
+                    $verify[$pkg][$r['license']] = $r['get'];
+                }
+            }
+        }
+
+        $packages[$pkg]['releases'][$v] = $r;
+    }
+
+    $licenses = array_values(array_unique($licenses));
+
+    // save per-package releases
+    file_put_contents(
+        "data/packages/$pkg.json",
+        json_encode($packages[$pkg], JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES)
+    );
+}
+
+ksort($packages);
+
+file_put_contents(
+    'data/packages.json',
+    json_encode($packages, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES)
+);
+
+// sort($licenses);
+// file_put_contents(
+//     'data/licenses.json',
+//     json_encode($licenses, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES)
+// );
+
+// file_put_contents(
+//     'data/spdx-map.json',
+//     json_encode($spdxMap, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES)
+// );
+
+// print_r($verify);

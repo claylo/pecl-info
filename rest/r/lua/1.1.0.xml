@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/lua">lua</p>
+ <c>pecl.php.net</c>
+ <v>1.1.0</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>laruence</m>
+ <s>Embedded lua interpreter</s>
+ <d>&quot;Lua is a powerful, fast, light-weight, embeddable scripting language.&quot; 
+ This extension embeds the lua interpreter and offers an OO-API to lua variables and functions.</d>
+ <da>2013-10-23 00:22:17</da>
+ <n>- Fixed #65097 (nApplyCount release missing) (emptyhua at gmail dot com)
+- Trigger E_STRICT when pass an array with index '0' to lua instead of ignoring it
+- added support for callable functions and closures as values returned injected into lua engine (harald at octris dot org)</n>
+ <f>14896</f>
+ <g>http://pecl.php.net/get/lua-1.1.0</g>
+ <x xlink:href="package.1.1.0.xml"/>
+</r>

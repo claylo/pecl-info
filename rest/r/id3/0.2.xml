@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/id3">id3</p>
+ <c>pecl.php.net</c>
+ <v>0.2</v>
+ <st>alpha</st>
+ <l>PHP License</l>
+ <m>luckec</m>
+ <s>Functions to read and write ID3 tags in MP3 files.</s>
+ <d>id3 enables to to retrieve and update information from ID3 tags in
+MP3 files. It supports version 1.0, 1.1 and 2.2+ (only reading text- and url-frames at the moment).
+</d>
+ <da>2004-09-24 18:34:00</da>
+ <n>added support to read id3v2 text- and url-frames</n>
+ <f>20693</f>
+ <g>http://pecl.php.net/get/id3-0.2</g>
+ <x xlink:href="package.0.2.xml"/>
+</r>

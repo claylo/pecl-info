@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/bbcode">bbcode</p>
+ <c>pecl.php.net</c>
+ <v>0.10.2</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>void</m>
+ <s>BBCode parsing Extension</s>
+ <d>This is a quick and efficient BBCode Parsing Library.
+  It provides various tag types, high speed one pass parsing,
+  callback system, tag position restriction.
+  
+  It will force closing BBCode tags in the good order, and closing
+  terminating tags at the end of the string this is in order to ensure
+  HTML Validity in all case.</d>
+ <da>2007-10-05 18:26:50</da>
+ <n>* Corrected Segfault when unpaired Tags where found
+
+* Exposed smiley API
+* Exposed Argument Parser API
+* Exposed parser option API
+  ** Added the ability to alter parser behaviour at run time
+
+* Exposed more flags for tag options
+  ** Added REMOVE_TAG_IF_EMPTY option on tag level
+
+* Fixed some weird behaviour on special parse method</n>
+ <f>43795</f>
+ <g>http://pecl.php.net/get/bbcode-0.10.2</g>
+ <x xlink:href="package.0.10.2.xml"/>
+</r>

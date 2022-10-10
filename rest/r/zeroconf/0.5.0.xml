@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/zeroconf">zeroconf</p>
+ <c>pecl.php.net</c>
+ <v>0.5.0</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>gabe</m>
+ <s>A PHP interface for browsing network services using ZeroConf</s>
+ <d>Provides an interface for browsing and publishing network services 
+  via ZeroConf using Apple's Rendezvous/OpenTalk library. You can browse the network for specific 
+  services like database servers (PostgreSQL, Sybase, InterBase), Apple File 
+  Sharing, web services via Apache's mod_rendezvous, etc. and discover the IP 
+  address and port for each found service.</d>
+ <da>2005-06-01 19:44:18</da>
+ <n>Fixed build for Mac OS X 10.3 and earlier.</n>
+ <f>29318</f>
+ <g>http://pecl.php.net/get/zeroconf-0.5.0</g>
+ <x xlink:href="package.0.5.0.xml"/>
+</r>

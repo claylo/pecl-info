@@ -1,0 +1,13 @@
+{
+    "category": "Database",
+    "deprecated": false,
+    "description": "It' a database extention module driver ,that is required to work with Daffodil DB in PHP.",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "Proprietary",
+    "name": "daffodildb",
+    "summary": "Daffodil DB extention module Driver.",
+    "php8Mentioned": false,
+    "releases": [],
+    "SPDX-License-Identifier": "verify"
+}

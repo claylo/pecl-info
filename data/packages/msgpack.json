@@ -1,0 +1,164 @@
+{
+    "category": "Tools and Utilities",
+    "deprecated": false,
+    "description": "This extension provide API for communicating with MessagePack serialization.",
+    "latestReleaseDate": "2021-08-30T12:26:22+00:00",
+    "latestVersion": "2.2.0RC1",
+    "license": "3-Clause-BSD",
+    "name": "msgpack",
+    "php8Mentioned": true,
+    "releases": {
+        "2.2.0RC1": {
+            "version": "2.2.0RC1",
+            "state": "beta",
+            "license": "3-Clause-BSD",
+            "releasedBy": "mike",
+            "releaseDate": "2021-08-30T12:26:22+00:00",
+            "releaseNotes": "* Fixed PHP-8.1 compatibility (see gh issues #161, #157, and #156)\n* Added support for ZEND_ACC_NOT_SERIALIZABLE and magic __{,un}serialize",
+            "get": "https://pecl.php.net/get/msgpack-2.2.0RC1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "2.1.2": {
+            "version": "2.1.2",
+            "state": "stable",
+            "license": "3-Clause-BSD",
+            "releasedBy": "mike",
+            "releaseDate": "2020-11-27T18:26:42+00:00",
+            "releaseNotes": "* PHP-8 compatibility. (Remi Collet, Michael Wallner)\n* Fixed #152: Split tests for #67 regarding 32/64bit platforms. (Andy Postnikov)\n* Fixed #153 and #147: Small string optimization causes excessive memory \n  consumption under specific workloads. (Michael Wallner)",
+            "get": "https://pecl.php.net/get/msgpack-2.1.2",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "2.1.1": {
+            "version": "2.1.1",
+            "state": "stable",
+            "license": "3-Clause-BSD",
+            "releasedBy": "mike",
+            "releaseDate": "2020-07-27T11:44:58+00:00",
+            "releaseNotes": "* Fixed issue #149: msgpack unpack error",
+            "get": "https://pecl.php.net/get/msgpack-2.1.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "2.1.0": {
+            "version": "2.1.0",
+            "state": "stable",
+            "license": "3-Clause-BSD",
+            "releasedBy": "mike",
+            "releaseDate": "2020-02-28T14:47:04+00:00",
+            "releaseNotes": "+ Improved performance\n+ Upgraded bundled msgpack headers to 3.2.0\n* Merged PR #101: Update README in order to match compatibile PHP version\n* Merged PR #125: fix ce->name is a zend_string\n* Merged PR #106: Update README\n* Merged PR #126: add mising tests in archive\n* Merged PR #135: Add fixes for issue #81 This also includes tests.\n* Merged PR #143: Fixed build with PHP-7.4\n* Fixed issue #139: Segmentation fault when using cloned unpacker\n* Fixed issue #132: Segfault on session php7.3\n* Fixed issue #107: $unpacker->execute() bug\n* Fixed issue #83: Arrays and negative index\n* Fixed issue #137: DateTime(Immutable) serialization doesn't work with php 7.4 RC1\n* Fixed issue #105: MessagePackUnpacker() bug\n* Fixed issue #90: msgpack_unpack is super slow (30x times igbinary) on big data sets\n* Fixed issue #91: Private property in base class\n* Fixed issue #67: Integer overflow on a 64-bit system\n* Fixed issue #33: int64 and uint64 decode is not supported in 32-bit php\n* Fixed issue #119: uint64 numbers are cast to uint on Windows\n* Fixed issue #134: msgpack-php msgpack_serialize/msgpack_pack not handling properly large int\n* Fixed issue #81: Serialize optimization\n* Fixed issue #108: tests/041.phpt failure\n* Fixed issue #142: Recursion encoded as NULL\n* Fixed issue #138: Serializers comparison for session like data",
+            "get": "https://pecl.php.net/get/msgpack-2.1.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "2.1.0beta1": {
+            "version": "2.1.0beta1",
+            "state": "beta",
+            "license": "3-Clause-BSD",
+            "releasedBy": "mike",
+            "releaseDate": "2019-12-20T11:58:44+00:00",
+            "releaseNotes": "+ Improved performance\n+ Upgraded bundled msgpack headers to 3.2.0\n* Merged PR #101: Update README in order to match compatibile PHP version\n* Merged PR #125: fix ce->name is a zend_string\n* Merged PR #106: Update README\n* Merged PR #126: add mising tests in archive\n* Merged PR #135: Add fixes for issue #81 This also includes tests.\n* Merged PR #143: Fixed build with PHP-7.4\n* Fixed issue #139: Segmentation fault when using cloned unpacker\n* Fixed issue #132: Segfault on session php7.3\n* Fixed issue #107: $unpacker->execute() bug\n* Fixed issue #83: Arrays and negative index\n* Fixed issue #137: DateTime(Immutable) serialization doesn't work with php 7.4 RC1\n* Fixed issue #105: MessagePackUnpacker() bug\n* Fixed issue #90: msgpack_unpack is super slow (30x times igbinary) on big data sets\n* Fixed issue #91: Private property in base class\n* Fixed issue #67: Integer overflow on a 64-bit system\n* Fixed issue #33: int64 and uint64 decode is not supported in 32-bit php\n* Fixed issue #119: uint64 numbers are cast to uint on Windows\n* Fixed issue #134: msgpack-php msgpack_serialize/msgpack_pack not handling properly large int\n* Fixed issue #81: Serialize optimization\n* Fixed issue #108: tests/041.phpt failure\n* Fixed issue #142: Recursion encoded as NULL\n* Fixed issue #138: Serializers comparison for session like data",
+            "get": "https://pecl.php.net/get/msgpack-2.1.0beta1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "2.0.3": {
+            "version": "2.0.3",
+            "state": "stable",
+            "license": "New BSD",
+            "releasedBy": "laruence",
+            "releaseDate": "2018-12-20T10:35:22+00:00",
+            "releaseNotes": "- Fixed PHP-7.3 Compatibility",
+            "get": "https://pecl.php.net/get/msgpack-2.0.3",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "2.0.2": {
+            "version": "2.0.2",
+            "state": "stable",
+            "license": "New BSD",
+            "releasedBy": "laruence",
+            "releaseDate": "2016-12-07T04:18:30+00:00",
+            "releaseNotes": "- Fixed issue #104 (PHP7.1 build:Use own definition of msgpack_unserialize_data_t)",
+            "get": "http://pecl.php.net/get/msgpack-2.0.2",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "2.0.1": {
+            "version": "2.0.1",
+            "state": "beta",
+            "license": "New BSD",
+            "releasedBy": "laruence",
+            "releaseDate": "2016-03-01T03:23:36+00:00",
+            "releaseNotes": "- Fixed issue #82 (Check hash protection flag to avoid memory corruption)\n- Fixed Issue #80 (Serialized failed on unseted value)\n- When packing/unpacking a zend_object don't call magic methods __set/__get",
+            "get": "http://pecl.php.net/get/msgpack-2.0.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "2.0.0": {
+            "version": "2.0.0",
+            "state": "beta",
+            "license": "New BSD",
+            "releasedBy": "laruence",
+            "releaseDate": "2015-10-27T02:50:03+00:00",
+            "releaseNotes": "- Release msgpack for PHP7",
+            "get": "http://pecl.php.net/get/msgpack-2.0.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.5.7": {
+            "version": "0.5.7",
+            "state": "beta",
+            "license": "New BSD",
+            "releasedBy": "laruence",
+            "releaseDate": "2015-08-30T08:01:37+00:00",
+            "releaseNotes": "- Add support deserializing the bin format family\n- Implement Issue #49, implement the 'compatibility mode' mentioned in msgpack implementation guidelines",
+            "get": "http://pecl.php.net/get/msgpack-0.5.7",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.5.6": {
+            "version": "0.5.6",
+            "state": "beta",
+            "license": "New BSD",
+            "releasedBy": "laruence",
+            "releaseDate": "2015-04-27T03:36:15+00:00",
+            "releaseNotes": "- support str8 type (wudikua)\n- Fix a warning and a possible crash (Mike)\n- Fix crash with memcached (Mike)",
+            "get": "http://pecl.php.net/get/msgpack-0.5.6",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.5.5": {
+            "version": "0.5.5",
+            "state": "beta",
+            "license": "New BSD",
+            "releasedBy": "laruence",
+            "releaseDate": "2013-02-18T22:08:46+00:00",
+            "releaseNotes": "- Fix ZTS build\n- Fixed Bug #14 (\"Invalid read\" reported by valgrind)\n- Fixed FR #8 (Return on unserialization)",
+            "get": "http://pecl.php.net/get/msgpack-0.5.5",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.5.4": {
+            "version": "0.5.4",
+            "state": "beta",
+            "license": "New BSD",
+            "releasedBy": "laruence",
+            "releaseDate": "2013-02-18T01:48:19+00:00",
+            "releaseNotes": "- Fixed Bug #12 (msgpack_seriallize interfere with php serialize)\n- Fixed Bug #11 (unpacking empty array / segmentation fault).",
+            "get": "http://pecl.php.net/get/msgpack-0.5.4",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.5.3": {
+            "version": "0.5.3",
+            "state": "beta",
+            "license": "New BSD",
+            "releasedBy": "laruence",
+            "releaseDate": "2012-10-12T04:01:00+00:00",
+            "releaseNotes": "- Fixed Bug #6 (bug with incorrect packing of mixed arrays)",
+            "get": "http://pecl.php.net/get/msgpack-0.5.3",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.5.2": {
+            "version": "0.5.2",
+            "state": "beta",
+            "license": "New BSD",
+            "releasedBy": "laruence",
+            "releaseDate": "2012-09-14T23:55:29+00:00",
+            "releaseNotes": "- Initial release",
+            "get": "http://pecl.php.net/get/msgpack-0.5.2",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        }
+    },
+    "summary": "PHP extension for interfacing with MessagePack",
+    "SPDX-License-Identifier": "BSD-3-Clause"
+}

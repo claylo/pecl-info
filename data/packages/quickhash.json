@@ -1,0 +1,44 @@
+{
+    "category": "Structures",
+    "deprecated": false,
+    "description": "This extension contains four classes for managing: an integer set, an integer\nhash, integer to string hash and a string to integer hash. The main features\nare low memory consumption and fast serialization and deserialization of\nthe sets and hashes.",
+    "latestReleaseDate": "2022-07-19T12:16:00+00:00",
+    "latestVersion": "1.1.1",
+    "license": "The PHP License",
+    "name": "quickhash",
+    "php8Mentioned": false,
+    "releases": {
+        "1.1.1": {
+            "version": "1.1.1",
+            "state": "stable",
+            "license": "The PHP License",
+            "releasedBy": "derick",
+            "releaseDate": "2022-07-19T12:16:00+00:00",
+            "releaseNotes": "PHP 7 support",
+            "get": "https://pecl.php.net/get/quickhash-1.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable",
+            "license": "The PHP License",
+            "releasedBy": "derick",
+            "releaseDate": "2012-09-02T17:47:09+00:00",
+            "releaseNotes": "Implemented ArrayAccess for QuickHashIntSet",
+            "get": "http://pecl.php.net/get/quickhash-1.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.0": {
+            "version": "0.1.0",
+            "state": "beta",
+            "license": "The PHP License",
+            "releasedBy": "derick",
+            "releaseDate": "2011-07-28T12:56:35+00:00",
+            "releaseNotes": "- First release",
+            "get": "http://pecl.php.net/get/quickhash-0.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "Provides a set of specific strongly-typed classes for sets and hashing",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

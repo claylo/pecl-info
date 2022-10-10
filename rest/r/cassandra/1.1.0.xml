@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/cassandra">cassandra</p>
+ <c>pecl.php.net</c>
+ <v>1.1.0</v>
+ <st>stable</st>
+ <l>Apache License 2.0</l>
+ <m>mpenick</m>
+ <s>DataStax PHP Driver for Apache Cassandra</s>
+ <d>A modern, feature-rich and highly tunable PHP client library for Apache
+Cassandra and DataStax Enterprise using exclusively Cassandra's binary
+protocol and Cassandra Query Language v3.</d>
+ <da>2016-02-11 17:40:21</da>
+ <n># 1.1.0
+
+Features:
+
+* Added support for PHP 7
+* Added support for UDTs and tuples
+* Added support for nested collections
+* Added access to raw paging token (via `Cassandra\Rows::pagingStateToken()`)
+* Added support for client-side timestamps and timestamp generators
+* Added support for retry policys (includes logging, downgrading and fallthrough)
+* Added the ability to disable schema metadata updates (via `Cassandra\Cluster\withSchemaMetdata()`)
+* Added support for using named arguments with `Cassandra\SimpleStatement`
+* Changed the default consistency to `LOCAL_ONE` (from `ONE`)
+
+Bug Fixes:
+
+* [PHP-70] Fixed invalid encoding of decimals and varints</n>
+ <f>131529</f>
+ <g>http://pecl.php.net/get/cassandra-1.1.0</g>
+ <x xlink:href="package.1.1.0.xml"/>
+</r>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mysql_xdevapi">mysql_xdevapi</p>
+ <c>pecl.php.net</c>
+ <v>8.0.28</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>mysqlre</m>
+ <s>MySQL X DevAPI for PHP</s>
+ <d>The X DevAPI is the new common API for MySQL Connectors built on the X Protocol introduced in MySQL 5.7.12.
+
+The X DevAPI wraps powerful concepts in a simple API.
+* A new high-level session concept enables you to write code that can transparently scale from single MySQL Server to a multiple server environment.
+* Read operations are simple and easy to understand.
+
+The X DevAPI introduces a new, modern and easy-to-learn way to work with your data.
+* Documents are stored in Collections and have their dedicated CRUD operation set.
+* Work with your existing domain objects or generate code based on structure definitions for strictly typed languages.
+* Focus is put on working with data via CRUD operations. See Section 3.1, “CRUD Operations Overview”.
+* Modern practices and syntax styles are used to get away from traditional SQL-String-Building. See Chapter 10, Building Expressions.</d>
+ <da>2022-01-18 06:00:06</da>
+ <n>Release</n>
+ <f>587705</f>
+ <g>https://pecl.php.net/get/mysql_xdevapi-8.0.28</g>
+ <x xlink:href="package.8.0.28.xml"/>
+</r>

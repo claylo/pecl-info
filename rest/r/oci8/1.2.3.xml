@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/oci8">oci8</p>
+ <c>pecl.php.net</c>
+ <v>1.2.3</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>tony2001</m>
+ <s>OCI8 functions</s>
+ <d>These functions allow you to access Oracle database servers using 
+the Oracle Call Interface (OCI8).</d>
+ <da>2007-01-25 11:54:51</da>
+ <n>Fixed possible segfault in ZTS mode when statements containing sub-statements are destroyed in wrong order.
+Fixed bug #40078 (ORA-01405 when fetching NULL values using oci_bind_array_by_name()).
+Fixed bug #39988 (type argument of oci_define_by_name() is ignored).
+Fixed bug #39732 (oci_bind_array_by_name doesn't work on Solaris 64bit).
+Fixed PECL bug #8816 (issue in php_oci_statement_fetch with more than one piecewise column).
+Various minor improvements.</n>
+ <f>83591</f>
+ <g>http://pecl.php.net/get/oci8-1.2.3</g>
+ <x xlink:href="package.1.2.3.xml"/>
+</r>

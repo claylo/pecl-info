@@ -1,0 +1,50 @@
+{
+    "2.7.0": {
+        "version": "2.7.0",
+        "state": "beta"
+    },
+    "2.6.0": {
+        "version": "2.6.0",
+        "state": "beta"
+    },
+    "2.5.0": {
+        "version": "2.5.0",
+        "state": "devel"
+    },
+    "2.4.0": {
+        "version": "2.4.0",
+        "state": "devel"
+    },
+    "2.3.0": {
+        "version": "2.3.0",
+        "state": "devel"
+    },
+    "2.2.2": {
+        "version": "2.2.2",
+        "state": "devel"
+    },
+    "2.2.0": {
+        "version": "2.2.0",
+        "state": "devel"
+    },
+    "2.1.0": {
+        "version": "2.1.0",
+        "state": "devel"
+    },
+    "0.9.3": {
+        "version": "0.9.3",
+        "state": "beta"
+    },
+    "0.9.2": {
+        "version": "0.9.2",
+        "state": "beta"
+    },
+    "0.9.1": {
+        "version": "0.9.1",
+        "state": "beta"
+    },
+    "0.9.0": {
+        "version": "0.9.0",
+        "state": "beta"
+    }
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/jsond">jsond</p>
+ <c>pecl.php.net</c>
+ <v>1.4.0RC1</v>
+ <st>beta</st>
+ <l>PHP 3.01</l>
+ <m>bukka</m>
+ <s>JavaScript Object Notation</s>
+ <d>This is a drop-in alternative to the standard PHP JSON extension.</d>
+ <da>2016-12-27 19:42:28</da>
+ <n>* Added compatibility with PHP 7
+* Empty string is considered invalid and JSON_ERROR_SYNTAX is raised
+* Removed option `JSOND_VALID_ESCAPED_UNICODE`
+* Added new error `JSOND_ERROR_INVALID_PROPERTY_NAME` for invalid property names
+* Fixed compatibility with json ext for  `JSOND_ERROR_CTRL_CHAR`
+* Added depth checking for greater than 0 and lower than `INT_MAX`
+* Added JSOND_PRESERVE_ZERO_FRACTION option for better handling of float values
+* Fixed blank line inside empty array/object when JSOND_PRETTY_PRINT is set
+* Fixed JSON_NUMERIC_CHECK issue with NaN and Inf double
+* Used new UTF8 decoder based on automaton from Bjoern Hoehrmann
+* Introduced new experimental buffer for encoding (option: --enable-jsond-buffer-native)
+* Added a possibility to switch prefix to json (option: --enable-jsond-with-json-prefi)
+* Use special template for Bison
+* The parser and scanner is rebuilt only if enabled in configuration</n>
+ <f>86120</f>
+ <g>http://pecl.php.net/get/jsond-1.4.0RC1</g>
+ <x xlink:href="package.1.4.0RC1.xml"/>
+</r>

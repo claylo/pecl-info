@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/apcu">apcu</p>
+ <c>pecl.php.net</c>
+ <v>5.1.14</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>remi</m>
+ <s>APCu - APC User Cache</s>
+ <d>APC User Caching</d>
+ <da>2018-11-21 07:42:52</da>
+ <n>- Fixed GH #347: Disable slam defense by default.
+- Fix potential issue with destruction of locks. This does not affect Linux, but might affect Windows and BSD.
+- Use mutex instead of rwlock for shared memory allocator (if pthreads mutex available).
+- Require only read-lock for apcu_cas(), by using atomic compare-and-swap.</n>
+ <f>92976</f>
+ <g>https://pecl.php.net/get/apcu-5.1.14</g>
+ <x xlink:href="package.5.1.14.xml"/>
+</r>

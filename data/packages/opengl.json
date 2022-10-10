@@ -1,0 +1,34 @@
+{
+    "category": "Multimedia",
+    "deprecated": false,
+    "description": "This extension allows you to develop 3D multimedia applications with PHP using the complete OpenGL library API.",
+    "latestReleaseDate": "2018-09-22T12:23:40+00:00",
+    "latestVersion": "0.9.0",
+    "license": "PHP",
+    "name": "opengl",
+    "php8Mentioned": false,
+    "releases": {
+        "0.9.0": {
+            "version": "0.9.0",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "santiagolizardo",
+            "releaseDate": "2018-09-22T12:23:40+00:00",
+            "releaseNotes": "- Better PHP7.2 support.\n- Example scripts included in the main extension package.",
+            "get": "http://pecl.php.net/get/opengl-0.9.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.8.0": {
+            "version": "0.8.0",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "santiagolizardo",
+            "releaseDate": "2014-04-20T17:48:51+00:00",
+            "releaseNotes": "- Initial PECL package release.",
+            "get": "http://pecl.php.net/get/opengl-0.8.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "OpenGL (3D graphics library) bindings for the PHP language",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

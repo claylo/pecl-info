@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/imagick">imagick</p>
+ <c>pecl.php.net</c>
+ <v>3.7.0RC1</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>danack</m>
+ <s>Provides a wrapper to the ImageMagick library.</s>
+ <d>Imagick is a native php extension to create and modify images using the ImageMagick API.
+This extension requires ImageMagick version 6.5.3-10+ and PHP 5.4.0+.</d>
+ <da>2022-01-04 18:40:32</da>
+ <n>- Added:
+  * function Imagick::deleteOption(string $option): bool {}
+  * function Imagick::getBackgroundColor(): ImagickPixel {}
+  * function Imagick::getImageArtifacts(string $pattern = &quot;*&quot;): array {}
+  * function Imagick::getImageKurtosis(): array {}
+  * function Imagick::getImageMean(): array {}
+  * function Imagick::getImageRange(): array {}
+  * function Imagick::getInterpolateMethod(): int {}
+  * function Imagick::getOptions(string $pattern = &quot;*&quot;): array {}
+  * function Imagick::getOrientation(): int {}
+  * function Imagick::getResolution(): array {}
+  * function Imagick::getType(): int {}
+  * function Imagick::implodeImageWithMethod(float $radius, int $pixel_interpolate_method): bool  {}
+  * function Imagick::oilPaintImageWithSigma(float $radius, float $sigma)
+  * function Imagick::polaroidWithTextAndMethod(ImagickDraw $settings, float $angle, string $caption, int $method): bool {}
+  * function Imagick::polynomialImage(array $terms): bool {}
+  * function Imagick::setDepth(int $depth): bool {}
+  * function Imagick::setExtract(string $geometry): bool {}
+  * function Imagick::setInterpolateMethod(int $method): bool{}
+  * function Imagick::setOrientation(int $orientation): bool {}
+  * function Imagick::spreadImageWithMethod(float $radius, int $interpolate_method): bool  {}
+  * function Imagick::swirlImageWithMethod(float $degrees, int $interpolate_method): bool  {}
+  * function Imagick::waveImageWithMethod(float $amplitude, float $length, int $interpolate_method): bool {}
+  * Imagick::IMAGE_TYPE_BILEVEL
+  * Imagick::IMAGE_TYPE_GRAYSCALE
+  * Imagick::IMAGE_TYPE_GRAYSCALE_ALPHA
+  * Imagick::IMAGE_TYPE_PALETTE
+  * Imagick::IMAGE_TYPE_PALETTE_ALPHA
+  * Imagick::IMAGE_TYPE_TRUE_COLOR
+  * Imagick::IMAGE_TYPE_TRUE_COLOR_ALPHA
+  * Imagick::IMAGE_TYPE_COLOR_SEPARATION
+  * Imagick::IMAGE_TYPE_COLOR_SEPARATION_ALPHA
+  * Imagick::IMAGE_TYPE_OPTIMIZE
+  * Imagick::IMAGE_TYPE_PALETTE_BILEVEL_ALPHA
+  * Imagick::COMPOSITE_SEAMLESS_BLEND
+- Changed:
+  * Imagick::setImageArtifact can now take null for the string value.
+  * Return type for Imagick::getImageArtifact is string|null instead of string.</n>
+ <f>360667</f>
+ <g>https://pecl.php.net/get/imagick-3.7.0RC1</g>
+ <x xlink:href="package.3.7.0RC1.xml"/>
+</r>

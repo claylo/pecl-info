@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/leveldb">leveldb</p>
+ <c>pecl.php.net</c>
+ <v>0.1.2</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>reeze</m>
+ <s>LevelDB PHP bindings</s>
+ <d>This extension is a PHP binding for Google LevelDB</d>
+ <da>2013-02-24 01:42:29</da>
+ <n>2013-02-24 - leveldb 0.1.2
+- Fixed bug when explict specify NULL comparator/snapshot raises exception
+- Fixed memory leaks when sepecify invalid snapshot
+- Fixed memory leaks of LevelDB::get()</n>
+ <f>17686</f>
+ <g>http://pecl.php.net/get/leveldb-0.1.2</g>
+ <x xlink:href="package.0.1.2.xml"/>
+</r>

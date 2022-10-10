@@ -1,0 +1,3661 @@
+{
+    "ahocorasick": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/ph4r05/php_aho_corasick",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1024&rid=&cid=36",
+        "verified": false
+    },
+    "amfext": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://www.teslacore.it/wiki/index.php?title=AMFEXT",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/amfext/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=711&rid=&cid=31"
+    },
+    "amqp": {
+        "bugs": "https://github.com/php-amqp/php-amqp/issues",
+        "docs": "",
+        "home": "https://github.com/php-amqp/php-amqp",
+        "maintained": true,
+        "repo": "https://github.com/php-amqp/php-amqp",
+        "stats": "https://pecl.php.net/package-stats.php?pid=879&rid=&cid=16",
+        "verified": false
+    },
+    "aop": {
+        "bugs": "https://github.com/AOP-PHP/AOP/issues",
+        "docs": "",
+        "home": "https://aop-php.github.io/",
+        "maintained": true,
+        "repo": "https://github.com/AOP-PHP/AOP",
+        "stats": "https://pecl.php.net/package-stats.php?pid=925&rid=&cid=25",
+        "verified": false
+    },
+    "apacheaccessor": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/yorambh/apacheaccessor",
+        "stats": "https://pecl.php.net/package-stats.php?pid=882&rid=&cid=37",
+        "verified": false
+    },
+    "apc": {
+        "bugs": "",
+        "docs": "http://php.net/apc",
+        "home": "",
+        "maintained": false,
+        "repo": "http://git.php.net/?p=pecl/caching/apc.git",
+        "stats": "https://pecl.php.net/package-stats.php?pid=220&rid=&cid=3"
+    },
+    "apcu": {
+        "bugs": "https://github.com/krakjoe/apcu/issues",
+        "docs": "http://php.net/apcu",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/krakjoe/apcu",
+        "stats": "https://pecl.php.net/package-stats.php?pid=944&rid=&cid=3",
+        "verified": false
+    },
+    "apcu_bc": {
+        "bugs": "https://github.com/krakjoe/apcu-bc/issues",
+        "docs": "",
+        "home": "http://github.com/krakjoe/apcu-bc",
+        "maintained": true,
+        "repo": "http://github.com/krakjoe/apcu-bc",
+        "stats": "https://pecl.php.net/package-stats.php?pid=991&rid=&cid=3",
+        "verified": false
+    },
+    "apd": {
+        "bugs": "",
+        "docs": "http://php.net/apd",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/apd",
+        "stats": "https://pecl.php.net/package-stats.php?pid=118&rid=&cid=25"
+    },
+    "apfd": {
+        "bugs": "https://github.com/m6w6/ext-apfd/issues",
+        "docs": "https://mdref.m6w6.name/apfd",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/m6w6/ext-apfd",
+        "stats": "https://pecl.php.net/package-stats.php?pid=977&rid=&cid=11",
+        "verified": true
+    },
+    "apm": {
+        "bugs": "https://github.com/patrickallaert/php-apm/issues",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/patrickallaert/php-apm",
+        "stats": "https://pecl.php.net/package-stats.php?pid=871&rid=&cid=25",
+        "verified": false
+    },
+    "apn": {
+        "bugs": "https://github.com/adobkin/php-apn/issues",
+        "docs": "",
+        "home": "http://libcapn.org/php-apn",
+        "maintained": false,
+        "repo": "https://github.com/adobkin/php-apn",
+        "stats": "https://pecl.php.net/package-stats.php?pid=948&rid=&cid=16"
+    },
+    "archive": {
+        "bugs": "https://bugs.php.net/search.php?cmd=display&status=Open&package_name[]=archive",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "http://git.php.net/?p=pecl/file_formats/archive.git",
+        "stats": "https://pecl.php.net/package-stats.php?pid=428&rid=&cid=33"
+    },
+    "ares": {
+        "bugs": "https://github.com/m6w6/ext-ares/issues",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "https://github.com/m6w6/ext-ares",
+        "stats": "https://pecl.php.net/package-stats.php?pid=597&rid=&cid=16"
+    },
+    "ast": {
+        "bugs": "https://github.com/nikic/php-ast/issues",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/nikic/php-ast",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1013&rid=&cid=25",
+        "verified": false
+    },
+    "augeas": {
+        "bugs": "",
+        "docs": "http://wiki.github.com/ppadron/php-augeas/object-oriented-api",
+        "home": "http://augeas.net/",
+        "maintained": true,
+        "repo": "http://github.com/ppadron/php-augeas/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=872&rid=&cid=4",
+        "verified": false
+    },
+    "automap": {
+        "bugs": "",
+        "docs": "http://automap.tekwire.net",
+        "home": "http://automap.tekwire.net",
+        "maintained": false,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=746&rid=&cid=25"
+    },
+    "awscrt": {
+        "bugs": "",
+        "docs": "",
+        "home": "https://aws.amazon.com/sdk-for-php/",
+        "maintained": true,
+        "repo": "https://github.com/awslabs/aws-crt-php",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1060&rid=&cid=29",
+        "verified": false
+    },
+    "axis2": {
+        "bugs": "",
+        "docs": "http://wso2.org/project/wsf/php/1.2.0/docs/api.html",
+        "home": "http://wso2.org/projects/wsf/php",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/axis2/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=592&rid=&cid=23"
+    },
+    "base58": {
+        "bugs": "https://github.com/improved-php-library/base58-php-ext/issues",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/legalthings/base58-php-ext",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1033&rid=&cid=36",
+        "verified": false
+    },
+    "bbcode": {
+        "bugs": "",
+        "docs": "http://www.php.net/manual/en/ref.bbcode.php",
+        "home": "http://www.bmco.be/",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/bbcode",
+        "stats": "https://pecl.php.net/package-stats.php?pid=732&rid=&cid=36"
+    },
+    "bcgen": {
+        "bugs": "https://github.com/vjardin/bcgen/issues",
+        "docs": "",
+        "home": "https://github.com/vjardin/bcgen/blob/master/README",
+        "maintained": true,
+        "repo": "https://github.com/vjardin/bcgen?files=1",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1025&rid=&cid=25",
+        "verified": false
+    },
+    "bcompiler": {
+        "bugs": "",
+        "docs": "http://php.net/bcompiler",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/bcompiler",
+        "stats": "https://pecl.php.net/package-stats.php?pid=95&rid=&cid=25"
+    },
+    "big_int": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://valyala.narod.ru/big_int/",
+        "maintained": false,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=436&rid=&cid=15"
+    },
+    "binpack": {
+        "bugs": "https://github.com/binpack/binpack-php/issues",
+        "docs": "",
+        "home": "http://binpack.liaohuqiu.net/",
+        "maintained": false,
+        "repo": "https://github.com/binpack/binpack-php",
+        "stats": "https://pecl.php.net/package-stats.php?pid=969&rid=&cid=29"
+    },
+    "bitset": {
+        "bugs": "https://github.com/php/pecl-numbers-bitset/issues",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/php/pecl-numbers-bitset",
+        "stats": "https://pecl.php.net/package-stats.php?pid=504&rid=&cid=17",
+        "verified": false
+    },
+    "blenc": {
+        "bugs": "https://github.com/php/pecl-php-blenc/issues",
+        "docs": "http://www.php.net/manual/en/book.blenc.php",
+        "home": "http://www.php.net/manual/en/book.blenc.php",
+        "maintained": false,
+        "repo": "https://github.com/php/pecl-php-blenc",
+        "stats": "https://pecl.php.net/package-stats.php?pid=345&rid=&cid=25"
+    },
+    "bloomy": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://github.com/andreiz/bloomy",
+        "maintained": true,
+        "repo": "http://svn.php.net/pecl/bloomy",
+        "stats": "https://pecl.php.net/package-stats.php?pid=857&rid=&cid=27",
+        "verified": false
+    },
+    "bz2": {
+        "bugs": "",
+        "docs": "http://php.net/bzip2",
+        "home": "",
+        "maintained": false,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=209&rid=&cid=33"
+    },
+    "bz2_filter": {
+        "bugs": "",
+        "docs": "https://www.php.net/filters.compression",
+        "home": "",
+        "maintained": true,
+        "repo": "http://svn.php.net/pecl/bz2_filter",
+        "stats": "https://pecl.php.net/package-stats.php?pid=318&rid=&cid=35",
+        "verified": true
+    },
+    "cairo": {
+        "bugs": "https://github.com/gtkforphp/cairo/issues",
+        "docs": "http://php.net/cairo",
+        "home": "https://github.com/gtkforphp/cairo/wiki",
+        "maintained": false,
+        "repo": "https://github.com/gtkforphp/cairo",
+        "stats": "https://pecl.php.net/package-stats.php?pid=823&rid=&cid=12"
+    },
+    "cairo_wrapper": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://cairo-wrapper.php-baustelle.de/",
+        "maintained": true,
+        "repo": "http://cairo-wrapper.php-baustelle.de/trac/browser/trunk",
+        "stats": "https://pecl.php.net/package-stats.php?pid=681&rid=&cid=12",
+        "verified": false
+    },
+    "cassandra": {
+        "bugs": "https://datastax-oss.atlassian.net/browse/PHP",
+        "docs": "https://datastax.github.io/php-driver/",
+        "home": "http://datastax.github.io/php-driver/",
+        "maintained": true,
+        "repo": "https://github.com/datastax/php-driver",
+        "stats": "https://pecl.php.net/package-stats.php?pid=987&rid=&cid=7",
+        "verified": true
+    },
+    "chdb": {
+        "bugs": "https://github.com/lcastelli/chdb/issues",
+        "docs": "",
+        "home": "http://github.com/lcastelli/chdb",
+        "maintained": false,
+        "repo": "http://github.com/lcastelli/chdb",
+        "stats": "https://pecl.php.net/package-stats.php?pid=881&rid=&cid=3"
+    },
+    "classkit": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://pecl.php.net/runkit",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/classkit/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=384&rid=&cid=25"
+    },
+    "cld": {
+        "bugs": "https://github.com/lstrojny/php-cld/issues",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/lstrojny/php-cld",
+        "stats": "https://pecl.php.net/package-stats.php?pid=914&rid=&cid=28",
+        "verified": false
+    },
+    "clips": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://phlips.sourceforge.net",
+        "maintained": true,
+        "repo": "http://svn.php.net/pecl/clips",
+        "stats": "https://pecl.php.net/package-stats.php?pid=411&rid=&cid=29",
+        "verified": false
+    },
+    "clucene": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=557&rid=&cid=57",
+        "verified": false
+    },
+    "cmark": {
+        "bugs": "https://github.com/krakjoe/cmark/issues",
+        "docs": "http://php.net/cmark",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/krakjoe/cmark",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1022&rid=&cid=36",
+        "verified": false
+    },
+    "coherence": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=880&rid=&cid=3",
+        "verified": false
+    },
+    "coin_acceptor": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://www.ghostdrivers.net",
+        "maintained": false,
+        "repo": "http://cvs.ghostdrivers.net",
+        "stats": "https://pecl.php.net/package-stats.php?pid=410&rid=&cid=18"
+    },
+    "colorer": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=427&rid=&cid=36"
+    },
+    "componere": {
+        "bugs": "https://github.com/krakjoe/componere/issues",
+        "docs": "http://php.net/componere",
+        "home": "https://github.com/krakjoe/componere",
+        "maintained": true,
+        "repo": "https://github.com/krakjoe/componere",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1020&rid=&cid=25",
+        "verified": false
+    },
+    "couchbase": {
+        "bugs": "https://issues.couchbase.com/browse/PCBC",
+        "docs": "https://docs.couchbase.com/php-sdk/current/hello-world/start-using-sdk.html",
+        "home": "https://docs.couchbase.com/php-sdk/current/project-docs/sdk-release-notes.html",
+        "maintained": true,
+        "repo": "https://github.com/couchbase/php-couchbase",
+        "stats": "https://pecl.php.net/package-stats.php?pid=922&rid=&cid=7",
+        "verified": false
+    },
+    "courierauth": {
+        "bugs": "https://github.com/m6w6/ext-courierauth/issues",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/m6w6/ext-courierauth",
+        "stats": "https://pecl.php.net/package-stats.php?pid=674&rid=&cid=1",
+        "verified": false
+    },
+    "cpdf": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/cpdf",
+        "stats": "https://pecl.php.net/package-stats.php?pid=806&rid=&cid=33"
+    },
+    "crack": {
+        "bugs": "",
+        "docs": "http://php.net/crack",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/crack",
+        "stats": "https://pecl.php.net/package-stats.php?pid=293&rid=&cid=29"
+    },
+    "crack_dll": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "http://svn.php.net/pecl/crack",
+        "stats": "https://pecl.php.net/package-stats.php?pid=532&rid=&cid=29",
+        "verified": false
+    },
+    "crypto": {
+        "bugs": "https://github.com/bukka/php-crypto/issues",
+        "docs": "https://github.com/bukka/php-crypto/blob/master/README.md",
+        "home": "https://github.com/bukka/php-crypto",
+        "maintained": true,
+        "repo": "https://github.com/bukka/php-crypto",
+        "stats": "https://pecl.php.net/package-stats.php?pid=958&rid=&cid=29",
+        "verified": false
+    },
+    "csv": {
+        "bugs": "https://gitlab.com/Girgias/csv-php-extension/-/issues",
+        "docs": "",
+        "home": "https://gitlab.com/Girgias/csv-php-extension",
+        "maintained": true,
+        "repo": "https://gitlab.com/Girgias/csv-php-extension.git",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1047&rid=&cid=33",
+        "verified": false
+    },
+    "cubrid": {
+        "bugs": "",
+        "docs": "http://php.net/manual/en/book.cubrid.php",
+        "home": "http://www.cubrid.org/php_api_for_cubrid",
+        "maintained": true,
+        "repo": "http://svn.php.net/viewvc/pecl/cubrid/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=885&rid=&cid=7",
+        "verified": false
+    },
+    "cvsclient": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "http://svn.php.net/pecl/cvsclient",
+        "stats": "https://pecl.php.net/package-stats.php?pid=273&rid=&cid=16",
+        "verified": false
+    },
+    "cybercash": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=175&rid=&cid=18"
+    },
+    "cybermut": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=199&rid=&cid=18",
+        "verified": false
+    },
+    "cyrus": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=210&rid=&cid=16"
+    },
+    "daffodildb": {
+        "bugs": "",
+        "docs": "",
+        "home": "www.daffodildb.com",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/daffodildb",
+        "stats": "https://pecl.php.net/package-stats.php?pid=400&rid=&cid=7"
+    },
+    "datadog_trace": {
+        "bugs": "",
+        "docs": "",
+        "home": "https://docs.datadoghq.com/tracing/languages/php/",
+        "maintained": true,
+        "repo": "https://github.com/DataDog/dd-trace-php",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1029&rid=&cid=2",
+        "verified": false
+    },
+    "date_time": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/date",
+        "stats": "https://pecl.php.net/package-stats.php?pid=301&rid=&cid=8"
+    },
+    "dazuko": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://delphinux.dotgeek.org",
+        "maintained": true,
+        "repo": "http://delphinux.ghostdrivers.ath.cx/cgi-bin/cvsweb.cgi",
+        "stats": "https://pecl.php.net/package-stats.php?pid=347&rid=&cid=9",
+        "verified": false
+    },
+    "dbase": {
+        "bugs": "https://github.com/php/pecl-database-dbase/issues",
+        "docs": "https://www.php.net/dbase",
+        "home": "https://github.com/php/pecl-database-dbase",
+        "maintained": true,
+        "repo": "https://github.com/php/pecl-database-dbase",
+        "stats": "https://pecl.php.net/package-stats.php?pid=887&rid=&cid=7",
+        "verified": false
+    },
+    "dbdo": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://www.akbkhome.com/wiki.php/DBDO/index.html",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/dbdo/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=401&rid=&cid=7"
+    },
+    "dbplus": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=215&rid=&cid=7"
+    },
+    "dbus": {
+        "bugs": "https://github.com/derickr/pecl-dbus/issues",
+        "docs": "https://github.com/derickr/pecl-dbus/tree/master/examples",
+        "home": "",
+        "maintained": false,
+        "repo": "https://github.com/derickr/pecl-dbus",
+        "stats": "https://pecl.php.net/package-stats.php?pid=834&rid=&cid=16"
+    },
+    "dbx": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/dbx",
+        "stats": "https://pecl.php.net/package-stats.php?pid=509&rid=&cid=7"
+    },
+    "decimal": {
+        "bugs": "https://github.com/php-decimal/ext-decimal/issues",
+        "docs": "https://php-decimal.io/",
+        "home": "http://php-decimal.io",
+        "maintained": true,
+        "repo": "https://github.com/php-decimal/extension",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1028&rid=&cid=15",
+        "verified": true
+    },
+    "dio": {
+        "bugs": "https://github.com/php/pecl-system-dio/issues",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/php/pecl-system-dio",
+        "stats": "https://pecl.php.net/package-stats.php?pid=430&rid=&cid=37",
+        "verified": false
+    },
+    "docblock": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "http://svn.php.net/pecl/docblock",
+        "stats": "https://pecl.php.net/package-stats.php?pid=552&rid=&cid=25",
+        "verified": false
+    },
+    "dom_varimport": {
+        "bugs": "https://github.com/DmitryKoterov/dom_varimport/issues",
+        "docs": "https://github.com/DmitryKoterov/dom_varimport",
+        "home": "https://github.com/DmitryKoterov/dom_varimport",
+        "maintained": false,
+        "repo": "https://github.com/DmitryKoterov/dom_varimport",
+        "stats": "https://pecl.php.net/package-stats.php?pid=966&rid=&cid=22"
+    },
+    "domxml": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://php.net/domxml",
+        "maintained": false,
+        "repo": "http://viewsvn.php.net/pecl/domxml",
+        "stats": "https://pecl.php.net/package-stats.php?pid=491&rid=&cid=22"
+    },
+    "doublemetaphone": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "http://svn.php.net/pecl/doublemetaphone/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=738&rid=&cid=36",
+        "verified": false
+    },
+    "drizzle": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://drizzle.org/",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/drizzle/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=864&rid=&cid=7"
+    },
+    "druid": {
+        "bugs": "https://github.com/SeasX/PHP-Druid/issues",
+        "docs": "https://github.com/SeasX/PHP-Druid/blob/master/README.md",
+        "home": "https://github.com/SeasX/PHP-Druid",
+        "maintained": true,
+        "repo": "https://github.com/SeasX/PHP-Druid",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1004&rid=&cid=7",
+        "verified": false
+    },
+    "ds": {
+        "bugs": "https://github.com/php-ds/ext-ds/issues",
+        "docs": "https://www.php.net/ds",
+        "home": "http://github.com/php-ds",
+        "maintained": true,
+        "repo": "http://github.com/php-ds/extension",
+        "stats": "https://pecl.php.net/package-stats.php?pid=996&rid=&cid=27",
+        "verified": false
+    },
+    "dtrace": {
+        "bugs": "",
+        "docs": "http://www.php.net/manual/en/features.dtrace.php",
+        "home": "http://www.php.net/manual/en/features.dtrace.php",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/dtrace/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=510&rid=&cid=2"
+    },
+    "ecasound": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=120&rid=&cid=46",
+        "verified": false
+    },
+    "eio": {
+        "bugs": "https://github.com/rosmanov/pecl-eio/issues",
+        "docs": "http://docs.php.net/eio",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/rosmanov/pecl-eio",
+        "stats": "https://pecl.php.net/package-stats.php?pid=913&rid=&cid=44",
+        "verified": false
+    },
+    "enchant": {
+        "bugs": "",
+        "docs": "http://php.net/enchant",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/enchant",
+        "stats": "https://pecl.php.net/package-stats.php?pid=302&rid=&cid=36"
+    },
+    "env": {
+        "bugs": "",
+        "docs": "",
+        "home": "https://github.com/beberlei/env",
+        "maintained": true,
+        "repo": "https://github.com/beberlei/env",
+        "stats": "https://pecl.php.net/package-stats.php?pid=994&rid=&cid=4",
+        "verified": false
+    },
+    "ereg": {
+        "bugs": "",
+        "docs": "http://php.net/regex",
+        "home": "",
+        "maintained": false,
+        "repo": "http://git.php.net/?p=pecl/text/ereg.git;a=summary",
+        "stats": "https://pecl.php.net/package-stats.php?pid=978&rid=&cid=36"
+    },
+    "esmtp": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://www.klaban.torun.pl/prog/esmtp/",
+        "maintained": true,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=388&rid=&cid=16",
+        "verified": false
+    },
+    "ev": {
+        "bugs": "https://bitbucket.org/osmanov/pecl-ev/issues",
+        "docs": "http://docs.php.net/ev",
+        "home": "https://bitbucket.org/osmanov/pecl-ev",
+        "maintained": true,
+        "repo": "https://bitbucket.org/osmanov/pecl-ev/src",
+        "stats": "https://pecl.php.net/package-stats.php?pid=938&rid=&cid=44",
+        "verified": false
+    },
+    "event": {
+        "bugs": "https://bitbucket.org/osmanov/pecl-event/issues",
+        "docs": "http://docs.php.net/event",
+        "home": "https://bitbucket.org/osmanov/pecl-event",
+        "maintained": true,
+        "repo": "https://bitbucket.org/osmanov/pecl-event/src",
+        "stats": "https://pecl.php.net/package-stats.php?pid=418&rid=&cid=16",
+        "verified": false
+    },
+    "excimer": {
+        "bugs": "",
+        "docs": "",
+        "home": "https://www.mediawiki.org/wiki/Excimer",
+        "maintained": true,
+        "repo": "https://github.com/wikimedia/php-excimer",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1057&rid=&cid=2",
+        "verified": false
+    },
+    "expect": {
+        "bugs": "https://github.com/sibaz/pecl-expect/issues",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/sibaz/pecl-expect",
+        "stats": "https://pecl.php.net/package-stats.php?pid=535&rid=&cid=37",
+        "verified": false
+    },
+    "fam": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://oss.sgi.com/projects/fam/",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/fam/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=770&rid=&cid=37"
+    },
+    "fann": {
+        "bugs": "https://github.com/bukka/php-fann/issues",
+        "docs": "http://www.php.net/manual/en/book.fann.php",
+        "home": "https://github.com/bukka/php-fann",
+        "maintained": true,
+        "repo": "https://github.com/bukka/php-fann",
+        "stats": "https://pecl.php.net/package-stats.php?pid=314&rid=&cid=29",
+        "verified": false
+    },
+    "ffi": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://zlog.thebrainroom.net",
+        "maintained": false,
+        "repo": "http://git.php.net/?p=pecl/php/ffi.git",
+        "stats": "https://pecl.php.net/package-stats.php?pid=286&rid=&cid=25"
+    },
+    "fileinfo": {
+        "bugs": "",
+        "docs": "http://php.net/fileinfo",
+        "home": "",
+        "maintained": true,
+        "repo": "http://svn.php.net/php/php-src/trunk/ext/fileinfo",
+        "stats": "https://pecl.php.net/package-stats.php?pid=295&rid=&cid=33",
+        "verified": false
+    },
+    "filepro": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://www.php.net/filepro",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/filepro",
+        "stats": "https://pecl.php.net/package-stats.php?pid=802&rid=&cid=7"
+    },
+    "filter": {
+        "bugs": "",
+        "docs": "http://php.net/filter",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/php/php-src/trunk/ext/filter",
+        "stats": "https://pecl.php.net/package-stats.php?pid=538&rid=&cid=29"
+    },
+    "flitetts": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "http://svn.php.net/pecl/flitetts",
+        "stats": "https://pecl.php.net/package-stats.php?pid=571&rid=&cid=47",
+        "verified": false
+    },
+    "framegrab": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "http://svn.php.net/viewvc/pecl/framegrab/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=877&rid=&cid=12",
+        "verified": false
+    },
+    "freeimage": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://www.phpsalon.com",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/freeimage",
+        "stats": "https://pecl.php.net/package-stats.php?pid=281&rid=&cid=12"
+    },
+    "fribidi": {
+        "bugs": "https://bugs.php.net/search.php?cmd=display&status=Open&package_name[]=fribidi",
+        "docs": "http://php.net/fribidi",
+        "home": "",
+        "maintained": false,
+        "repo": "http://git.php.net/?p=pecl/internationalization/fribidi.git",
+        "stats": "https://pecl.php.net/package-stats.php?pid=190&rid=&cid=28"
+    },
+    "funcall": {
+        "bugs": "https://code.google.com/archive/p/funcall/issues",
+        "docs": "http://code.google.com/p/funcall/wiki/Example",
+        "home": "http://code.google.com/p/funcall",
+        "maintained": false,
+        "repo": "http://code.google.com/p/funcall/source/browse",
+        "stats": "https://pecl.php.net/package-stats.php?pid=766&rid=&cid=25"
+    },
+    "functional": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/lstrojny/functional-php",
+        "stats": "https://pecl.php.net/package-stats.php?pid=902&rid=&cid=29",
+        "verified": false
+    },
+    "fuse": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://fuse.sourceforge.net/",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/fuse/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=836&rid=&cid=9"
+    },
+    "gdchart": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/gdchart",
+        "stats": "https://pecl.php.net/package-stats.php?pid=563&rid=&cid=12"
+    },
+    "gearman": {
+        "bugs": "https://github.com/php/pecl-networking-gearman/issues",
+        "docs": "http://php.net/gearman",
+        "home": "http://gearman.org",
+        "maintained": true,
+        "repo": "https://github.com/php/pecl-networking-gearman",
+        "stats": "https://pecl.php.net/package-stats.php?pid=861&rid=&cid=16",
+        "verified": false
+    },
+    "gender": {
+        "bugs": "",
+        "docs": "http://php.net/manual/en/book.gender.php",
+        "home": "",
+        "maintained": true,
+        "repo": "http://svn.php.net/pecl/gender/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=832&rid=&cid=28",
+        "verified": false
+    },
+    "geoip": {
+        "bugs": "https://github.com/php/pecl-networking-geoip/issues",
+        "docs": "https://www.php.net/geoip",
+        "home": "http://www.maxmind.com/",
+        "maintained": true,
+        "repo": "https://github.com/php/pecl-networking-geoip",
+        "stats": "https://pecl.php.net/package-stats.php?pid=640&rid=&cid=16",
+        "verified": false
+    },
+    "geospatial": {
+        "bugs": "https://github.com/php-geospatial/geospatial/issues",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/php-geospatial/geospatial",
+        "stats": "https://pecl.php.net/package-stats.php?pid=992&rid=&cid=15",
+        "verified": false
+    },
+    "gmagick": {
+        "bugs": "https://github.com/vitoc/gmagick/issues",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/vitoc/gmagick",
+        "stats": "https://pecl.php.net/package-stats.php?pid=860&rid=&cid=12",
+        "verified": false
+    },
+    "gnupg": {
+        "bugs": "https://github.com/php-gnupg/php-gnupg/issues",
+        "docs": "http://php.net/gnupg",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/php-gnupg/php-gnupg",
+        "stats": "https://pecl.php.net/package-stats.php?pid=543&rid=&cid=6",
+        "verified": false
+    },
+    "graphdat": {
+        "bugs": "https://github.com/alphashack/graphdat-sdk-php/issues",
+        "docs": "",
+        "home": "http://www.graphdat.com",
+        "maintained": true,
+        "repo": "https://github.com/alphashack/graphdat-sdk-php",
+        "stats": "https://pecl.php.net/package-stats.php?pid=937&rid=&cid=29",
+        "verified": false
+    },
+    "grpc": {
+        "bugs": "https://github.com/grpc/grpc/issues",
+        "docs": "",
+        "home": "http://grpc.io",
+        "maintained": true,
+        "repo": "https://github.com/grpc/grpc/tree/master/src/php/ext/grpc",
+        "stats": "https://pecl.php.net/package-stats.php?pid=986&rid=&cid=16",
+        "verified": false
+    },
+    "gupnp": {
+        "bugs": "",
+        "docs": "http://www.php.net/manual/en/book.gupnp.php",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/viewvc/pecl/gupnp/trunk/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=859&rid=&cid=16"
+    },
+    "handlebars": {
+        "bugs": "https://github.com/jbboehr/php-handlebars/issues",
+        "docs": "",
+        "home": "https://github.com/jbboehr/php-handlebars",
+        "maintained": true,
+        "repo": "https://github.com/jbboehr/php-handlebars",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1009&rid=&cid=59",
+        "verified": false
+    },
+    "haru": {
+        "bugs": "https://bugs.php.net/search.php?cmd=display&status=Open&package_name[]=haru",
+        "docs": "http://www.php.net/haru",
+        "home": "",
+        "maintained": false,
+        "repo": "http://git.php.net/?p=pecl/file_formats/haru.git",
+        "stats": "https://pecl.php.net/package-stats.php?pid=692&rid=&cid=33"
+    },
+    "hash": {
+        "bugs": "",
+        "docs": "http://www.php.net/hash",
+        "home": "",
+        "maintained": false,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=554&rid=&cid=29"
+    },
+    "hdr_histogram": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://hdrhistogram.org/",
+        "maintained": true,
+        "repo": "https://github.com/beberlei/hdrhistogram-php",
+        "stats": "https://pecl.php.net/package-stats.php?pid=995&rid=&cid=15",
+        "verified": false
+    },
+    "hidef": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/viewvc/pecl/hidef/trunk/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=688&rid=&cid=3"
+    },
+    "hprose": {
+        "bugs": "https://github.com/hprose/hprose-pecl/issues",
+        "docs": "",
+        "home": "http://hprose.com",
+        "maintained": true,
+        "repo": "https://github.com/hprose/hprose-pecl",
+        "stats": "https://pecl.php.net/package-stats.php?pid=982&rid=&cid=23",
+        "verified": false
+    },
+    "hrtime": {
+        "bugs": "",
+        "docs": "http://php.net/hrtime",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/php/pecl-datetime-hrtime",
+        "stats": "https://pecl.php.net/package-stats.php?pid=965&rid=&cid=8",
+        "verified": false
+    },
+    "html_parse": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=217&rid=&cid=10"
+    },
+    "htscanner": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/htscanner",
+        "stats": "https://pecl.php.net/package-stats.php?pid=670&rid=&cid=25"
+    },
+    "http_message": {
+        "bugs": "https://github.com/improved-php-library/http-message/issues",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/improved-php-library/http-message.git",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1038&rid=&cid=11",
+        "verified": false
+    },
+    "huffman": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://pecl.docuverse.de",
+        "maintained": false,
+        "repo": "http://www.docuverse.de/cgi-bin/cvsview/cgi/viewcvs.cgi/ext_huffman/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=385&rid=&cid=29"
+    },
+    "hwapi": {
+        "bugs": "",
+        "docs": "http://www.php.net/hwapi",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/hwapi/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=804&rid=&cid=7"
+    },
+    "ibm_db2": {
+        "bugs": "https://github.com/php/pecl-database-ibm_db2/issues",
+        "docs": "http://www.php.net/ibm_db2",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/php/pecl-database-ibm_db2",
+        "stats": "https://pecl.php.net/package-stats.php?pid=440&rid=&cid=7",
+        "verified": false
+    },
+    "ice": {
+        "bugs": "https://github.com/ice/framework/issues",
+        "docs": "",
+        "home": "https://www.iceframework.org",
+        "maintained": true,
+        "repo": "https://github.com/ice/framework.git",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1048&rid=&cid=37",
+        "verified": false
+    },
+    "id3": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/id3/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=348&rid=&cid=33"
+    },
+    "idn": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "http://svn.php.net/pecl/idn/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=326&rid=&cid=28",
+        "verified": false
+    },
+    "igbinary": {
+        "bugs": "https://github.com/igbinary/igbinary/issues",
+        "docs": "",
+        "home": "https://github.com/igbinary/igbinary/",
+        "maintained": true,
+        "repo": "https://github.com/igbinary/igbinary/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=895&rid=&cid=25",
+        "verified": false
+    },
+    "imagick": {
+        "bugs": "https://github.com/Imagick/imagick/issues",
+        "docs": "http://php.net/imagick",
+        "home": "https://phpimagick.com",
+        "maintained": true,
+        "repo": "https://github.com/Imagick/imagick",
+        "stats": "https://pecl.php.net/package-stats.php?pid=76&rid=&cid=12",
+        "verified": false
+    },
+    "imlib2": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://www.fission.org.uk/imlib2/",
+        "maintained": false,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=406&rid=&cid=12"
+    },
+    "ims": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "http://svn.php.net/pecl/ims",
+        "stats": "https://pecl.php.net/package-stats.php?pid=694&rid=&cid=16",
+        "verified": false
+    },
+    "inclued": {
+        "bugs": "",
+        "docs": "http://php.net/inclued",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/viewvc/pecl/inclued/trunk/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=748&rid=&cid=2"
+    },
+    "informix": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://www.php.net/informix",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/informix",
+        "stats": "https://pecl.php.net/package-stats.php?pid=803&rid=&cid=7"
+    },
+    "ingres": {
+        "bugs": "",
+        "docs": "http://www.php.net/manual/en/ref.ingres.php",
+        "home": "http://community.ingres.com/wiki/PHP_Driver",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/ingres",
+        "stats": "https://pecl.php.net/package-stats.php?pid=478&rid=&cid=7"
+    },
+    "inotify": {
+        "bugs": "https://github.com/arnaud-lb/php-inotify/issues",
+        "docs": "https://php.net/inotify",
+        "home": "https://github.com/arnaud-lb/php-inotify",
+        "maintained": true,
+        "repo": "https://github.com/arnaud-lb/php-inotify",
+        "stats": "https://pecl.php.net/package-stats.php?pid=826&rid=&cid=9",
+        "verified": false
+    },
+    "interbase": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "https://git.php.net/?p=pecl/database/interbase.git",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1037&rid=&cid=7"
+    },
+    "intercept": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "http://svn.php.net/pecl/intercept",
+        "stats": "https://pecl.php.net/package-stats.php?pid=443&rid=&cid=25",
+        "verified": false
+    },
+    "intl": {
+        "bugs": "",
+        "docs": "http://php.net/intl",
+        "home": "http://www.icu-project.org/",
+        "maintained": false,
+        "repo": "https://github.com/cataphract/PECL-intl",
+        "stats": "https://pecl.php.net/package-stats.php?pid=723&rid=&cid=28"
+    },
+    "ion": {
+        "bugs": "https://github.com/awesomized/ext-ion/issues",
+        "docs": "https://awesomized.github.io/ext-ion/",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/awesomized/ext-ion",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1067&rid=&cid=29",
+        "verified": false
+    },
+    "ip2location": {
+        "bugs": "https://github.com/chrislim2888/IP2Location-PECL-Extension/issues",
+        "docs": "",
+        "home": "http://www.ip2location.com",
+        "maintained": true,
+        "repo": "https://github.com/chrislim2888/IP2Location-PECL-Extension",
+        "stats": "https://pecl.php.net/package-stats.php?pid=952&rid=&cid=16",
+        "verified": false
+    },
+    "ip2proxy": {
+        "bugs": "",
+        "docs": "",
+        "home": "https://www.ip2location.com",
+        "maintained": true,
+        "repo": "https://github.com/ip2location/ip2proxy-pecl",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1053&rid=&cid=16",
+        "verified": false
+    },
+    "ircclient": {
+        "bugs": "https://github.com/m6w6/ext-ircclient/issues",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "https://github.com/m6w6/ext-ircclient",
+        "stats": "https://pecl.php.net/package-stats.php?pid=959&rid=&cid=16"
+    },
+    "isis": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://solsoft.biz/investigacion/bases-de-datos-textuales/openisis.html",
+        "maintained": true,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=182&rid=&cid=7",
+        "verified": false
+    },
+    "jsmin": {
+        "bugs": "https://github.com/sqmk/pecl-jsmin/issues",
+        "docs": "https://github.com/sqmk/pecl-jsmin#readme",
+        "home": "https://github.com/sqmk/pecl-jsmin",
+        "maintained": true,
+        "repo": "https://github.com/sqmk/pecl-jsmin",
+        "stats": "https://pecl.php.net/package-stats.php?pid=933&rid=&cid=36",
+        "verified": false
+    },
+    "json": {
+        "bugs": "",
+        "docs": "http://php.net/json",
+        "home": "",
+        "maintained": true,
+        "repo": "http://svn.php.net/viewvc/php/php-src/trunk/ext/json/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=587&rid=&cid=23",
+        "verified": false
+    },
+    "json_post": {
+        "bugs": "https://github.com/m6w6/ext-json_post/issues",
+        "docs": "https://mdref.m6w6.name/json_post",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/m6w6/ext-json_post",
+        "stats": "https://pecl.php.net/package-stats.php?pid=976&rid=&cid=11",
+        "verified": false
+    },
+    "jsonc": {
+        "bugs": "https://github.com/remicollet/pecl-json-c/issues",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/remicollet/pecl-json-c",
+        "stats": "https://pecl.php.net/package-stats.php?pid=950&rid=&cid=23",
+        "verified": false
+    },
+    "jsond": {
+        "bugs": "https://github.com/bukka/php-jsond/issues",
+        "docs": "",
+        "home": "https://github.com/bukka/php-jsond",
+        "maintained": false,
+        "repo": "https://github.com/bukka/php-jsond",
+        "stats": "https://pecl.php.net/package-stats.php?pid=963&rid=&cid=23"
+    },
+    "jsonnet": {
+        "bugs": "https://github.com/Neeke/Jsonnet-PHP/issues",
+        "docs": "",
+        "home": "https://github.com/Neeke/Jsonnet-PHP",
+        "maintained": true,
+        "repo": "https://github.com/Neeke/Jsonnet-PHP",
+        "stats": "https://pecl.php.net/package-stats.php?pid=985&rid=&cid=23",
+        "verified": false
+    },
+    "jsonpath": {
+        "bugs": "https://github.com/supermetrics-public/pecl-jsonpath/issues",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/supermetrics-public/pecl-jsonpath",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1062&rid=&cid=29",
+        "verified": false
+    },
+    "judy": {
+        "bugs": "https://github.com/orieg/php-judy/issues",
+        "docs": "http://docs.php.net/manual/en/book.judy.php",
+        "home": "http://github.com/orieg/php-judy",
+        "maintained": false,
+        "repo": "http://svn.php.net/viewvc/pecl/judy/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=889&rid=&cid=27"
+    },
+    "kadm5": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=212&rid=&cid=16"
+    },
+    "krb5": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/php/pecl-authentication-krb5",
+        "stats": "https://pecl.php.net/package-stats.php?pid=884&rid=&cid=1",
+        "verified": false
+    },
+    "ktaglib": {
+        "bugs": "",
+        "docs": "http://www.php.net/manual/en/book.ktaglib.php",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/ktaglib/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=816&rid=&cid=47"
+    },
+    "lapack": {
+        "bugs": "https://github.com/ianbarber/php-lapack/issues",
+        "docs": "",
+        "home": "https://github.com/ianbarber/php-lapack",
+        "maintained": false,
+        "repo": "https://github.com/ianbarber/php-lapack",
+        "stats": "https://pecl.php.net/package-stats.php?pid=919&rid=&cid=15"
+    },
+    "lchash": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://ilia.ws/",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/lchash",
+        "stats": "https://pecl.php.net/package-stats.php?pid=519&rid=&cid=7"
+    },
+    "leveldb": {
+        "bugs": "https://github.com/reeze/php-leveldb",
+        "docs": "http://reeze.cn/php-leveldb/",
+        "home": "http://reeze.cn/php-leveldb/",
+        "maintained": true,
+        "repo": "https://github.com/reeze/php-leveldb",
+        "stats": "https://pecl.php.net/package-stats.php?pid=929&rid=&cid=7",
+        "verified": false
+    },
+    "libevent": {
+        "bugs": "",
+        "docs": "http://php.net/libevent",
+        "home": "",
+        "maintained": false,
+        "repo": "http://git.php.net/?p=pecl/event/libevent.git",
+        "stats": "https://pecl.php.net/package-stats.php?pid=835&rid=&cid=44"
+    },
+    "libsodium": {
+        "bugs": "https://github.com/jedisct1/libsodium-php/issues",
+        "docs": "https://github.com/jedisct1/libsodium-php",
+        "home": "https://github.com/jedisct1/libsodium-php",
+        "maintained": true,
+        "repo": "https://github.com/jedisct1/libsodium-php",
+        "stats": "https://pecl.php.net/package-stats.php?pid=974&rid=&cid=6",
+        "verified": false
+    },
+    "libvirt": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://libvirt.org/php/",
+        "maintained": true,
+        "repo": "http://git.php.net/?p=pecl/virtualization/libvirt.git;a=summary",
+        "stats": "https://pecl.php.net/package-stats.php?pid=942&rid=&cid=60",
+        "verified": false
+    },
+    "llvm": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "http://svn.php.net/pecl/llvm",
+        "stats": "https://pecl.php.net/package-stats.php?pid=797&rid=&cid=25",
+        "verified": false
+    },
+    "lua": {
+        "bugs": "https://github.com/laruence/php-lua/issues",
+        "docs": "http://www.laruence.com/lua",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/laruence/php-lua",
+        "stats": "https://pecl.php.net/package-stats.php?pid=717&rid=&cid=59",
+        "verified": false
+    },
+    "luasandbox": {
+        "bugs": "",
+        "docs": "",
+        "home": "https://www.mediawiki.org/wiki/LuaSandbox",
+        "maintained": true,
+        "repo": "https://phabricator.wikimedia.org/diffusion/MLUS/repository/master/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1027&rid=&cid=59",
+        "verified": false
+    },
+    "lzf": {
+        "bugs": "https://github.com/php/pecl-file_formats-lzf/issues",
+        "docs": "http://php.net/lzf",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/php/pecl-file_formats-lzf",
+        "stats": "https://pecl.php.net/package-stats.php?pid=262&rid=&cid=33",
+        "verified": false
+    },
+    "mailparse": {
+        "bugs": "https://github.com/php/pecl-mail-mailparse/issues",
+        "docs": "http://php.net/mailparse",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/php/pecl-mail-mailparse",
+        "stats": "https://pecl.php.net/package-stats.php?pid=143&rid=&cid=14",
+        "verified": false
+    },
+    "markdown": {
+        "bugs": "https://github.com/cataphract/php-discount/issues",
+        "docs": "http://nebm.ist.utl.pt/~glopes/discount/doc/Discount/MarkdownDocument.html",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/cataphract/php-discount",
+        "stats": "https://pecl.php.net/package-stats.php?pid=855&rid=&cid=36",
+        "verified": false
+    },
+    "maxdb": {
+        "bugs": "",
+        "docs": "http://php.net/maxdb",
+        "home": "http://dev.mysql.com/doc/maxdb/interfaces.html",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/maxdb",
+        "stats": "https://pecl.php.net/package-stats.php?pid=425&rid=&cid=7"
+    },
+    "maxminddb": {
+        "bugs": "https://github.com/maxmind/MaxMind-DB-Reader-php/issues",
+        "docs": "",
+        "home": "https://github.com/maxmind/MaxMind-DB-Reader-php",
+        "maintained": true,
+        "repo": "https://github.com/maxmind/MaxMind-DB-Reader-php",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1052&rid=&cid=33",
+        "verified": false
+    },
+    "mcrypt": {
+        "bugs": "https://github.com/php/pecl-encryption-mcrypt/issues",
+        "docs": "",
+        "home": "http://www.php.net/mcrypt",
+        "maintained": true,
+        "repo": "https://github.com/php/pecl-encryption-mcrypt",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1003&rid=&cid=6",
+        "verified": false
+    },
+    "mcrypt_filter": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://www.php.net/filters",
+        "maintained": true,
+        "repo": "http://svn.php.net/pecl/mcrypt_filter",
+        "stats": "https://pecl.php.net/package-stats.php?pid=444&rid=&cid=6",
+        "verified": false
+    },
+    "mcve": {
+        "bugs": "",
+        "docs": "http://php.net/mcve",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/mcve",
+        "stats": "https://pecl.php.net/package-stats.php?pid=520&rid=&cid=18"
+    },
+    "mdbtools": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/mdbtools",
+        "stats": "https://pecl.php.net/package-stats.php?pid=311&rid=&cid=7"
+    },
+    "memcache": {
+        "bugs": "https://github.com/websupport-sk/pecl-memcache/issues",
+        "docs": "http://www.php.net/memcache",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/websupport-sk/pecl-memcache",
+        "stats": "https://pecl.php.net/package-stats.php?pid=294&rid=&cid=3",
+        "verified": false
+    },
+    "memcached": {
+        "bugs": "https://github.com/php-memcached-dev/php-memcached/issues",
+        "docs": "http://php.net/memcached",
+        "home": "https://github.com/php-memcached-dev/php-memcached",
+        "maintained": true,
+        "repo": "https://github.com/php-memcached-dev/php-memcached",
+        "stats": "https://pecl.php.net/package-stats.php?pid=847&rid=&cid=3",
+        "verified": false
+    },
+    "memoize": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/arraypad/php-memoize",
+        "stats": "https://pecl.php.net/package-stats.php?pid=905&rid=&cid=3",
+        "verified": false
+    },
+    "memprof": {
+        "bugs": "",
+        "docs": "",
+        "home": "https://github.com/arnaud-lb/php-memory-profiler",
+        "maintained": true,
+        "repo": "https://github.com/arnaud-lb/php-memory-profiler",
+        "stats": "https://pecl.php.net/package-stats.php?pid=946&rid=&cid=2",
+        "verified": false
+    },
+    "memsession": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/repository/pecl/memsession/trunk",
+        "stats": "https://pecl.php.net/package-stats.php?pid=866&rid=&cid=25"
+    },
+    "memtrack": {
+        "bugs": "",
+        "docs": "http://php.net/memtrack",
+        "home": "",
+        "maintained": false,
+        "repo": "http://git.php.net/?p=pecl/php/memtrack.git",
+        "stats": "https://pecl.php.net/package-stats.php?pid=846&rid=&cid=25"
+    },
+    "meta": {
+        "bugs": "https://github.com/flavius/phpmeta/issues",
+        "docs": "",
+        "home": "https://github.com/flavius/phpmeta/blob/master/README.md",
+        "maintained": true,
+        "repo": "https://github.com/flavius/phpmeta",
+        "stats": "https://pecl.php.net/package-stats.php?pid=912&rid=&cid=25",
+        "verified": false
+    },
+    "ming": {
+        "bugs": "",
+        "docs": "http://php.net/ming",
+        "home": "",
+        "maintained": true,
+        "repo": "http://svn.php.net/pecl/ming",
+        "stats": "https://pecl.php.net/package-stats.php?pid=821&rid=&cid=46",
+        "verified": false
+    },
+    "mnogosearch": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/mnogosearch",
+        "stats": "https://pecl.php.net/package-stats.php?pid=606&rid=&cid=57"
+    },
+    "mogilefs": {
+        "bugs": "https://github.com/lstrojny/pecl-mogilefs/issues",
+        "docs": "",
+        "home": "http://projects.usrportage.de/index.fcgi/php-mogilefs",
+        "maintained": true,
+        "repo": "http://github.com/lstrojny/pecl-mogilefs",
+        "stats": "https://pecl.php.net/package-stats.php?pid=833&rid=&cid=9",
+        "verified": false
+    },
+    "molten": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://chuanyun.io/Molten/",
+        "maintained": true,
+        "repo": "https://github.com/chuan-yun/Molten",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1015&rid=&cid=25",
+        "verified": false
+    },
+    "mongo": {
+        "bugs": "http://jira.mongodb.org/browse/PHP",
+        "docs": "http://php.net/mongo",
+        "home": "http://docs.mongodb.org/ecosystem/drivers/php/",
+        "maintained": false,
+        "repo": "http://github.com/mongodb/mongo-php-driver-legacy",
+        "stats": "https://pecl.php.net/package-stats.php?pid=852&rid=&cid=7"
+    },
+    "mongodb": {
+        "bugs": "https://jira.mongodb.org/browse/PHPC",
+        "docs": "https://php.net/mongodb",
+        "home": "http://docs.mongodb.org/ecosystem/drivers/php/",
+        "maintained": true,
+        "repo": "https://github.com/mongodb/mongo-php-driver",
+        "stats": "https://pecl.php.net/package-stats.php?pid=981&rid=&cid=7",
+        "verified": true
+    },
+    "mono": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://www.php.net/~sterling/mono/",
+        "maintained": false,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=172&rid=&cid=25"
+    },
+    "mosquitto": {
+        "bugs": "https://github.com/mgdm/Mosquitto-PHP/issues",
+        "docs": "",
+        "home": "https://github.com/mgdm/Mosquitto-PHP/",
+        "maintained": true,
+        "repo": "https://github.com/mgdm/Mosquitto-PHP/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=956&rid=&cid=16",
+        "verified": false
+    },
+    "mqseries": {
+        "bugs": "https://github.com/php/pecl-networking-mqseries/issues",
+        "docs": "http://www.php.net/mqseries",
+        "home": "http://www.tjonahen.nl/mqseries/",
+        "maintained": true,
+        "repo": "https://github.com/php/pecl-networking-mqseries",
+        "stats": "https://pecl.php.net/package-stats.php?pid=204&rid=&cid=16",
+        "verified": false
+    },
+    "msession": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://www.php.net/msession",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/msession",
+        "stats": "https://pecl.php.net/package-stats.php?pid=805&rid=&cid=16"
+    },
+    "msgpack": {
+        "bugs": "https://github.com/msgpack/msgpack-php/issues",
+        "docs": "",
+        "home": "http://msgpack.org/",
+        "maintained": true,
+        "repo": "https://github.com/msgpack/msgpack-php",
+        "stats": "https://pecl.php.net/package-stats.php?pid=930&rid=&cid=29",
+        "verified": false
+    },
+    "mustache": {
+        "bugs": "https://github.com/jbboehr/php-mustache/issues",
+        "docs": "",
+        "home": "https://github.com/jbboehr/php-mustache",
+        "maintained": true,
+        "repo": "https://github.com/jbboehr/php-mustache",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1010&rid=&cid=59",
+        "verified": false
+    },
+    "mysql": {
+        "bugs": "https://github.com/php/pecl-database-mysql/issues",
+        "docs": "http://php.net/book.mysql",
+        "home": "",
+        "maintained": false,
+        "repo": "https://github.com/php/pecl-database-mysql",
+        "stats": "https://pecl.php.net/package-stats.php?pid=522&rid=&cid=7"
+    },
+    "mysql_xdevapi": {
+        "bugs": "https://bugs.mysql.com/search.php?bug_type[]=Server%3A+DocStore&cmd=display",
+        "docs": "http://docs.php.net/manual/en/book.mysql-xdevapi.php",
+        "home": "http://docs.php.net/manual/en/book.mysql-xdevapi.php",
+        "maintained": true,
+        "repo": "https://github.com/php/pecl-database-mysql_xdevapi",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1002&rid=&cid=7",
+        "verified": false
+    },
+    "mysqlnd_azure": {
+        "bugs": "https://github.com/microsoft/mysqlnd_azure/issues",
+        "docs": "",
+        "home": "https://github.com/microsoft/mysqlnd_azure",
+        "maintained": true,
+        "repo": "https://github.com/microsoft/mysqlnd_azure",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1043&rid=&cid=7",
+        "verified": false
+    },
+    "mysqlnd_memcache": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "http://git.php.net/?p=pecl/database/mysqlnd_memcache.git;a=summary",
+        "stats": "https://pecl.php.net/package-stats.php?pid=932&rid=&cid=7"
+    },
+    "mysqlnd_ms": {
+        "bugs": "",
+        "docs": "http://php.net/mysqlnd_ms",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/viewvc/pecl/mysqlnd_ms/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=896&rid=&cid=7"
+    },
+    "mysqlnd_ngen": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1059&rid=&cid=25"
+    },
+    "mysqlnd_qc": {
+        "bugs": "",
+        "docs": "http://php.net/mysqlnd_qc",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/viewvc/pecl/mysqlnd_qc/trunk/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=883&rid=&cid=7"
+    },
+    "mysqlnd_uh": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/viewvc/pecl/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=886&rid=&cid=7"
+    },
+    "namazu": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "http://svn.php.net/pecl/namazu",
+        "stats": "https://pecl.php.net/package-stats.php?pid=432&rid=&cid=36",
+        "verified": false
+    },
+    "ncurses": {
+        "bugs": "",
+        "docs": "http://php.net/ncurses",
+        "home": "http://www.gnu.org/software/ncurses/ncurses.html",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/ncurses",
+        "stats": "https://pecl.php.net/package-stats.php?pid=565&rid=&cid=5"
+    },
+    "net_gopher": {
+        "bugs": "",
+        "docs": "http://php.net/net_gopher",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/Net_Gopher",
+        "stats": "https://pecl.php.net/package-stats.php?pid=224&rid=&cid=16"
+    },
+    "netools": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=145&rid=&cid=16"
+    },
+    "newt": {
+        "bugs": "",
+        "docs": "http://php.net/newt",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/newt",
+        "stats": "https://pecl.php.net/package-stats.php?pid=386&rid=&cid=5"
+    },
+    "notes": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://php.net/notes",
+        "maintained": true,
+        "repo": "http://svn.php.net/pecl/notes",
+        "stats": "https://pecl.php.net/package-stats.php?pid=490&rid=&cid=7",
+        "verified": false
+    },
+    "nsq": {
+        "bugs": "https://github.com/yunnian/php-nsq/issues",
+        "docs": "",
+        "home": "https://github.com/yunnian/php-nsq",
+        "maintained": true,
+        "repo": "https://github.com/yunnian/php-nsq",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1021&rid=&cid=16",
+        "verified": false
+    },
+    "oauth": {
+        "bugs": "https://github.com/php/pecl-web_services-oauth/issues",
+        "docs": "https://php.net/oauth",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/php/pecl-web_services-oauth",
+        "stats": "https://pecl.php.net/package-stats.php?pid=828&rid=&cid=23",
+        "verified": true
+    },
+    "ocal": {
+        "bugs": "",
+        "docs": "https://svn.php.net/viewvc/pecl/ocal/trunk/README?view=markup",
+        "home": "http://www.synd.info/extensions/ocal/",
+        "maintained": true,
+        "repo": "http://svn.php.net/viewvc/pecl/ocal/trunk/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=643&rid=&cid=16",
+        "verified": true
+    },
+    "oci8": {
+        "bugs": "https://github.com/php/php-src/issues",
+        "docs": "https://php.net/oci8",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/php/php-src/tree/master/ext/oci8",
+        "stats": "https://pecl.php.net/package-stats.php?pid=277&rid=&cid=7",
+        "verified": true
+    },
+    "odbtp": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://odbtp.sourceforge.net",
+        "maintained": false,
+        "repo": "http://cvs.sourceforge.net/viewcvs.py/odbtp/odbtp/php/ext/odbtp/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=323&rid=&cid=7"
+    },
+    "oggvorbis": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://www.php.net/wrappers.audio",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/oggvorbis",
+        "stats": "https://pecl.php.net/package-stats.php?pid=250&rid=&cid=35"
+    },
+    "openal": {
+        "bugs": "https://github.com/Ponup/php-openal/issues",
+        "docs": "http://php.net/openal",
+        "home": "http://www.php.net/ref.openal",
+        "maintained": true,
+        "repo": "https://github.com/ponup/php-openal",
+        "stats": "https://pecl.php.net/package-stats.php?pid=255&rid=&cid=35",
+        "verified": false
+    },
+    "opencensus": {
+        "bugs": "https://github.com/census-instrumentation/opencensus-php/issues",
+        "docs": "",
+        "home": "https://github.com/census-instrumentation/opencensus-php",
+        "maintained": true,
+        "repo": "https://github.com/census-instrumentation/opencensus-php",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1014&rid=&cid=2",
+        "verified": false
+    },
+    "opencv": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "opencv",
+        "stats": "https://pecl.php.net/package-stats.php?pid=962&rid=&cid=12",
+        "verified": false
+    },
+    "opendirectory": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://www.128kb.com/projects/index.php",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/opendirectory",
+        "stats": "https://pecl.php.net/package-stats.php?pid=285&rid=&cid=16"
+    },
+    "opengl": {
+        "bugs": "https://github.com/Ponup/php-opengl/issues",
+        "docs": "https://github.com/ponup/php-opengl/blob/master/README.md",
+        "home": "https://github.com/ponup/php-opengl",
+        "maintained": true,
+        "repo": "https://github.com/ponup/php-opengl",
+        "stats": "https://pecl.php.net/package-stats.php?pid=955&rid=&cid=46",
+        "verified": false
+    },
+    "openswoole": {
+        "bugs": "https://github.com/openswoole/swoole-src/issues",
+        "docs": "https://openswoole.com/docs",
+        "home": "https://openswoole.com/",
+        "maintained": true,
+        "repo": "https://github.com/openswoole",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1065&rid=&cid=44",
+        "verified": true
+    },
+    "operator": {
+        "bugs": "https://github.com/php/pecl-php-operator/issues",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "https://github.com/php/pecl-php-operator",
+        "stats": "https://pecl.php.net/package-stats.php?pid=568&rid=&cid=25"
+    },
+    "optimizer": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/optimizer",
+        "stats": "https://pecl.php.net/package-stats.php?pid=815&rid=&cid=25"
+    },
+    "orng": {
+        "bugs": "",
+        "docs": "",
+        "home": "https://github.com/zeriyoshi/php-ext-orng",
+        "maintained": true,
+        "repo": "https://github.com/zeriyoshi/php-ext-orng",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1054&rid=&cid=15",
+        "verified": false
+    },
+    "ovrimos": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": " http://svn.php.net/pecl/ovrimis",
+        "stats": "https://pecl.php.net/package-stats.php?pid=521&rid=&cid=7",
+        "verified": false
+    },
+    "pam": {
+        "bugs": "https://github.com/amishmm/php-pam/issues",
+        "docs": "https://github.com/amishmm/php-pam/blob/master/README",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/amishmm/php-pam/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=667&rid=&cid=1",
+        "verified": false
+    },
+    "panda": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://savannah.nongnu.org/projects/panda",
+        "maintained": false,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=325&rid=&cid=36"
+    },
+    "pango": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "http://github.com/mgdm/php-pango",
+        "stats": "https://pecl.php.net/package-stats.php?pid=873&rid=&cid=12",
+        "verified": false
+    },
+    "paradox": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/paradox",
+        "stats": "https://pecl.php.net/package-stats.php?pid=268&rid=&cid=7"
+    },
+    "parallel": {
+        "bugs": "https://github.com/krakjoe/parallel/issues",
+        "docs": "",
+        "home": "https://github.com/krakjoe/parallel",
+        "maintained": true,
+        "repo": "https://github.com/krakjoe/parallel",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1032&rid=&cid=25",
+        "verified": false
+    },
+    "params": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "http://svn.php.net/pecl/params",
+        "stats": "https://pecl.php.net/package-stats.php?pid=739&rid=&cid=25",
+        "verified": false
+    },
+    "parle": {
+        "bugs": "https://github.com/weltling/parle/issues",
+        "docs": "http://php.net/parle",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/weltling/parle",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1016&rid=&cid=36",
+        "verified": false
+    },
+    "parse_tree": {
+        "bugs": "",
+        "docs": "http://code.google.com/p/yaxx/wiki/phpParseTree",
+        "home": "http://code.google.com/p/yaxx/wiki/phpParseTree",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/parse_tree/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=634&rid=&cid=25"
+    },
+    "parsekit": {
+        "bugs": "https://bugs.php.net/search.php?cmd=display&status=Open&package_name[]=parsekit",
+        "docs": "http://php.net/parsekit",
+        "home": "",
+        "maintained": false,
+        "repo": "http://git.php.net/?p=pecl/php/parsekit.git",
+        "stats": "https://pecl.php.net/package-stats.php?pid=331&rid=&cid=25"
+    },
+    "pcov": {
+        "bugs": "https://github.com/krakjoe/pcov/issues",
+        "docs": "",
+        "home": "https://github.com/krakjoe/pcov",
+        "maintained": true,
+        "repo": "https://github.com/krakjoe/pcov",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1031&rid=&cid=25",
+        "verified": false
+    },
+    "pcs": {
+        "bugs": "https://github.com/flaupretre/pecl-pcs/issues",
+        "docs": "http://pcs.tekwire.net",
+        "home": "http://pcs.tekwire.net",
+        "maintained": true,
+        "repo": "https://github.com/flaupretre/pecl-pcs",
+        "stats": "https://pecl.php.net/package-stats.php?pid=989&rid=&cid=25",
+        "verified": false
+    },
+    "pcsc": {
+        "bugs": "https://github.com/pcsc-for-php/pcsc/issues",
+        "docs": "",
+        "home": "https://github.com/pcsc-for-php/pcsc",
+        "maintained": true,
+        "repo": "https://github.com/pcsc-for-php/pcsc",
+        "stats": "https://pecl.php.net/package-stats.php?pid=916&rid=&cid=29",
+        "verified": false
+    },
+    "pdflib": {
+        "bugs": "https://github.com/php/pecl-text-pdflib/issues",
+        "docs": "",
+        "home": "www.pdflib.com",
+        "maintained": false,
+        "repo": "https://github.com/php/pecl-text-pdflib",
+        "stats": "https://pecl.php.net/package-stats.php?pid=355&rid=&cid=36"
+    },
+    "pdo": {
+        "bugs": "",
+        "docs": "http://php.net/pdo",
+        "home": "",
+        "maintained": false,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=335&rid=&cid=7"
+    },
+    "pdo_4d": {
+        "bugs": "",
+        "docs": "http://php.net/pdo_4d",
+        "home": "http://sources.4d.com/trac/4d_pdo4d",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/pdo_4d",
+        "stats": "https://pecl.php.net/package-stats.php?pid=858&rid=&cid=7"
+    },
+    "pdo_cubrid": {
+        "bugs": "",
+        "docs": "https://php.net/pdo-cubrid",
+        "home": "http://www.cubrid.org/php_cubrid_pdo",
+        "maintained": true,
+        "repo": "http://cubridinterface.svn.sourceforge.net/viewvc/cubridinterface/pdo/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=892&rid=&cid=7",
+        "verified": true
+    },
+    "pdo_dblib": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/pdo_dblib",
+        "stats": "https://pecl.php.net/package-stats.php?pid=505&rid=&cid=7"
+    },
+    "pdo_firebird": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/pdo_firebird",
+        "stats": "https://pecl.php.net/package-stats.php?pid=356&rid=&cid=7"
+    },
+    "pdo_ibm": {
+        "bugs": "https://github.com/php/pecl-database-pdo_ibm/issues",
+        "docs": "https://php.net/pdo-ibm",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/php/pecl-database-pdo_ibm",
+        "stats": "https://pecl.php.net/package-stats.php?pid=661&rid=&cid=7",
+        "verified": true
+    },
+    "pdo_informix": {
+        "bugs": "",
+        "docs": "https://php.net/pdo-informix",
+        "home": "",
+        "maintained": true,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=549&rid=&cid=7",
+        "verified": true
+    },
+    "pdo_mysql": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=340&rid=&cid=7"
+    },
+    "pdo_oci": {
+        "bugs": "",
+        "docs": "http://www.php.net/pdo_oci",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/pdo_oci",
+        "stats": "https://pecl.php.net/package-stats.php?pid=336&rid=&cid=7"
+    },
+    "pdo_odbc": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/pdo_odbc",
+        "stats": "https://pecl.php.net/package-stats.php?pid=337&rid=&cid=7"
+    },
+    "pdo_pgsql": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/pdo_pgsql",
+        "stats": "https://pecl.php.net/package-stats.php?pid=339&rid=&cid=7"
+    },
+    "pdo_sqlanywhere": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=890&rid=&cid=7",
+        "verified": false
+    },
+    "pdo_sqlite": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/pdo_sqlite",
+        "stats": "https://pecl.php.net/package-stats.php?pid=433&rid=&cid=7"
+    },
+    "pdo_sqlsrv": {
+        "bugs": "https://github.com/Microsoft/msphpsql/issues",
+        "docs": "https://php.net/pdo-sqlsrv",
+        "home": "https://github.com/Microsoft/msphpsql",
+        "maintained": true,
+        "repo": "https://github.com/Microsoft/msphpsql",
+        "stats": "https://pecl.php.net/package-stats.php?pid=901&rid=&cid=7",
+        "verified": true
+    },
+    "pdo_taos": {
+        "bugs": "https://github.com/bearlord/pdo_taos/issues",
+        "docs": "",
+        "home": "https://github.com/bearlord/pdo_taos",
+        "maintained": true,
+        "repo": "https://github.com/bearlord/pdo_taos",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1070&rid=&cid=7",
+        "verified": false
+    },
+    "pdo_user": {
+        "bugs": "https://bugs.php.net/search.php?cmd=display&status=Open&package_name[]=pdo_user",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "http://git.php.net/?p=pecl/database/pdo_user.git;a=summary",
+        "stats": "https://pecl.php.net/package-stats.php?pid=602&rid=&cid=7"
+    },
+    "pdo_xml": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://code.google.com/p/pdo-xml-php-extension/",
+        "maintained": true,
+        "repo": "http://code.google.com/p/pdo-xml-php-extension/source/browse/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=863&rid=&cid=7",
+        "verified": false
+    },
+    "pecl_gen": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/pear/PECL_Gen",
+        "stats": "https://pecl.php.net/package-stats.php?pid=219&rid=&cid=29"
+    },
+    "pecl_http": {
+        "bugs": "https://github.com/m6w6/ext-http/issues",
+        "docs": "https://mdref.m6w6.name/http",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/m6w6/ext-http",
+        "stats": "https://pecl.php.net/package-stats.php?pid=429&rid=&cid=11",
+        "verified": false
+    },
+    "perforce": {
+        "bugs": "",
+        "docs": "https://www.indelible.org/php/perforce/guide.html",
+        "home": "http://www.indelible.org/php/perforce/",
+        "maintained": true,
+        "repo": "http://public.perforce.com:8080/@md=d&cd=//guest/jon_parise/api/php/&ra=s&c=SI0@//guest/jon_parise/api/php/?ac=83",
+        "stats": "https://pecl.php.net/package-stats.php?pid=334&rid=&cid=16",
+        "verified": true
+    },
+    "perl": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/perl",
+        "stats": "https://pecl.php.net/package-stats.php?pid=305&rid=&cid=59"
+    },
+    "phalcon": {
+        "bugs": "https://github.com/phalcon/cphalcon/issues",
+        "docs": "https://docs.phalcon.io",
+        "home": "https://phalcon.io",
+        "maintained": true,
+        "repo": "https://github.com/phalcon/cphalcon",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1042&rid=&cid=37",
+        "verified": true
+    },
+    "phar": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/phar",
+        "stats": "https://pecl.php.net/package-stats.php?pid=559&rid=&cid=25"
+    },
+    "phdfs": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "https://github.com/php/pecl-file_system-phdfs",
+        "stats": "https://pecl.php.net/package-stats.php?pid=971&rid=&cid=9"
+    },
+    "phk": {
+        "bugs": "https://github.com/flaupretre/pecl-phk/issues",
+        "docs": "http://phk.tekwire.net",
+        "home": "http://phk.tekwire.net",
+        "maintained": false,
+        "repo": "https://github.com/flaupretre/pecl-phk",
+        "stats": "https://pecl.php.net/package-stats.php?pid=742&rid=&cid=25"
+    },
+    "php_trie": {
+        "bugs": "https://github.com/ace411/php-trie-ext/issues",
+        "docs": "",
+        "home": "https://github.com/ace411/php-trie-ext",
+        "maintained": true,
+        "repo": "https://github.com/ace411/php-trie-ext",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1051&rid=&cid=27",
+        "verified": false
+    },
+    "php_xcb": {
+        "bugs": "http://code.google.com/p/php-xcb/issues/list",
+        "docs": "",
+        "home": "http://code.google.com/p/php-xcb/",
+        "maintained": true,
+        "repo": "http://code.google.com/p/php-xcb/source/browse/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=897&rid=&cid=45",
+        "verified": false
+    },
+    "phpscript": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/activescript",
+        "stats": "https://pecl.php.net/package-stats.php?pid=368&rid=&cid=25"
+    },
+    "pkcs11": {
+        "bugs": "",
+        "docs": "",
+        "home": "https://github.com/gamringer/php-pkcs11/",
+        "maintained": true,
+        "repo": "https://github.com/gamringer/php-pkcs11.git",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1055&rid=&cid=6",
+        "verified": false
+    },
+    "pledge": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/tvlooy/php-pledge",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1026&rid=&cid=54",
+        "verified": false
+    },
+    "pop3": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/pop3",
+        "stats": "https://pecl.php.net/package-stats.php?pid=284&rid=&cid=14"
+    },
+    "postparser": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=408&rid=&cid=25",
+        "verified": false
+    },
+    "pq": {
+        "bugs": "https://github.com/m6w6/ext-pq/issues",
+        "docs": "https://mdref.m6w6.name/pq",
+        "home": "https://github.com/m6w6/ext-pq",
+        "maintained": true,
+        "repo": "https://github.com/m6w6/ext-pq",
+        "stats": "https://pecl.php.net/package-stats.php?pid=941&rid=&cid=7",
+        "verified": false
+    },
+    "preprocessor": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "http://svn.php.net/pecl/preprocessor",
+        "stats": "https://pecl.php.net/package-stats.php?pid=668&rid=&cid=25",
+        "verified": false
+    },
+    "printer": {
+        "bugs": "",
+        "docs": "http://php.net/printer",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/printer",
+        "stats": "https://pecl.php.net/package-stats.php?pid=800&rid=&cid=37"
+    },
+    "proctitle": {
+        "bugs": "https://github.com/MagicalTux/proctitle/issues",
+        "docs": "",
+        "home": "https://github.com/MagicalTux/proctitle",
+        "maintained": false,
+        "repo": "https://github.com/MagicalTux/proctitle",
+        "stats": "https://pecl.php.net/package-stats.php?pid=848&rid=&cid=37"
+    },
+    "propro": {
+        "bugs": "https://github.com/m6w6/ext-propro/issues",
+        "docs": "https://mdref.m6w6.name/propro",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/m6w6/ext-propro",
+        "stats": "https://pecl.php.net/package-stats.php?pid=939&rid=&cid=25",
+        "verified": false
+    },
+    "protobuf": {
+        "bugs": "https://github.com/protocolbuffers/protobuf/issues",
+        "docs": "https://github.com/protocolbuffers/protobuf/tree/main/php",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/google/protobuf",
+        "stats": "https://pecl.php.net/package-stats.php?pid=997&rid=&cid=29",
+        "verified": true
+    },
+    "protocolbuffers": {
+        "bugs": "https://github.com/chobie/php-protocolbuffers/issues",
+        "docs": "",
+        "home": "https://github.com/chobie/protoc-gen-php",
+        "maintained": false,
+        "repo": "https://github.com/chobie/php-protocolbuffers",
+        "stats": "https://pecl.php.net/package-stats.php?pid=960&rid=&cid=29"
+    },
+    "ps": {
+        "bugs": "https://github.com/steinm/ps/issues",
+        "docs": "https://php.net/ps",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/steinm/ps",
+        "stats": "https://pecl.php.net/package-stats.php?pid=299&rid=&cid=36",
+        "verified": true
+    },
+    "psr": {
+        "bugs": "https://github.com/jbboehr/php-psr/issues",
+        "docs": "https://github.com/jbboehr/php-psr",
+        "home": "https://github.com/jbboehr/php-psr",
+        "maintained": true,
+        "repo": "https://github.com/jbboehr/php-psr",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1012&rid=&cid=25",
+        "verified": true
+    },
+    "pthreads": {
+        "bugs": "https://github.com/krakjoe/pthreads/issues",
+        "docs": "http://docs.php.net/manual/en/book.pthreads.php",
+        "home": "https://github.com/krakjoe/pthreads/issues/929",
+        "maintained": false,
+        "repo": "https://github.com/krakjoe/pthreads",
+        "stats": "https://pecl.php.net/package-stats.php?pid=931&rid=&cid=37"
+    },
+    "python": {
+        "bugs": "https://github.com/jparise/php-python/issues",
+        "docs": "https://github.com/jparise/php-python/wiki",
+        "home": "https://github.com/jparise/php-python",
+        "maintained": false,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=132&rid=&cid=59"
+    },
+    "qb": {
+        "bugs": "https://github.com/chung-leong/qb/issues",
+        "docs": "",
+        "home": "http://www.php-qb.net",
+        "maintained": false,
+        "repo": "https://github.com/chung-leong/qb",
+        "stats": "https://pecl.php.net/package-stats.php?pid=961&rid=&cid=12"
+    },
+    "qqwry": {
+        "bugs": "",
+        "docs": "http://www.surfchen.org/peclqqwry",
+        "home": "http://www.surfchen.org/peclqqwry",
+        "maintained": true,
+        "repo": "https://github.com/chenze/qqwry",
+        "stats": "https://pecl.php.net/package-stats.php?pid=830&rid=&cid=33",
+        "verified": false
+    },
+    "quickhash": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/derickr/quickhash",
+        "stats": "https://pecl.php.net/package-stats.php?pid=909&rid=&cid=27",
+        "verified": false
+    },
+    "radius": {
+        "bugs": "https://github.com/LawnGnome/php-radius/issues",
+        "docs": "https://php.net/radius",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/LawnGnome/php-radius",
+        "stats": "https://pecl.php.net/package-stats.php?pid=149&rid=&cid=1",
+        "verified": true
+    },
+    "raphf": {
+        "bugs": "https://github.com/m6w6/ext-raphf/issues",
+        "docs": "https://mdref.m6w6.name/raphf",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/m6w6/ext-raphf",
+        "stats": "https://pecl.php.net/package-stats.php?pid=940&rid=&cid=25",
+        "verified": true
+    },
+    "rar": {
+        "bugs": "https://github.com/cataphract/php-rar",
+        "docs": "https://php.net/rar",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/cataphract/php-rar",
+        "stats": "https://pecl.php.net/package-stats.php?pid=349&rid=&cid=33",
+        "verified": true
+    },
+    "rdkafka": {
+        "bugs": "https://github.com/arnaud-lb/php-rdkafka/issues",
+        "docs": "https://arnaud-lb.github.io/php-rdkafka-doc/phpdoc/book.rdkafka.html",
+        "home": "https://github.com/arnaud-lb/php-rdkafka",
+        "maintained": true,
+        "repo": "https://github.com/arnaud-lb/php-rdkafka",
+        "stats": "https://pecl.php.net/package-stats.php?pid=984&rid=&cid=16",
+        "verified": true
+    },
+    "re2": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "https://github.com/arraypad/php-re2",
+        "stats": "https://pecl.php.net/package-stats.php?pid=904&rid=&cid=36"
+    },
+    "recode": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "http://git.php.net/?p=pecl/text/recode.git",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1039&rid=&cid=36"
+    },
+    "redis": {
+        "bugs": "https://github.com/phpredis/phpredis/issues",
+        "docs": "https://github.com/phpredis/phpredis/#readme",
+        "home": "https://github.com/phpredis/phpredis/",
+        "maintained": true,
+        "repo": "https://github.com/phpredis/phpredis/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=935&rid=&cid=7",
+        "verified": false
+    },
+    "ref": {
+        "bugs": "https://github.com/pinepain/php-ref/issues",
+        "docs": "",
+        "home": "https://github.com/pinepain/php-ref",
+        "maintained": true,
+        "repo": "https://github.com/pinepain/php-ref",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1005&rid=&cid=25",
+        "verified": false
+    },
+    "request": {
+        "bugs": "https://github.com/pmjones/ext-request/issues",
+        "docs": "https://github.com/pmjones/ext-request",
+        "home": "https://github.com/pmjones/ext-request",
+        "maintained": true,
+        "repo": "https://github.com/pmjones/ext-request",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1000&rid=&cid=37",
+        "verified": false
+    },
+    "riak": {
+        "bugs": "https://github.com/php-riak/php_riak/issues",
+        "docs": "",
+        "home": "http://phpriak.bachpedersen.dk/",
+        "maintained": false,
+        "repo": "https://github.com/TriKaspar/php_riak",
+        "stats": "https://pecl.php.net/package-stats.php?pid=951&rid=&cid=7"
+    },
+    "rpminfo": {
+        "bugs": "https://github.com/remicollet/rpminfo/issues",
+        "docs": "https://php.net/rpminfo",
+        "home": "https://git.remirepo.net/cgit/tools/php-rpminfo.git/",
+        "maintained": true,
+        "repo": "https://git.remirepo.net/cgit/tools/php-rpminfo.git/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1019&rid=&cid=33",
+        "verified": true
+    },
+    "rpmreader": {
+        "bugs": "https://bugs.php.net/search.php?cmd=display&status=Open&package_name[]=rpmreader",
+        "docs": "http://www.php.net/rpmreader",
+        "home": "",
+        "maintained": false,
+        "repo": "http://git.php.net/?p=pecl/file_formats/rpmreader.git",
+        "stats": "https://pecl.php.net/package-stats.php?pid=541&rid=&cid=33"
+    },
+    "rrd": {
+        "bugs": "https://github.com/php/pecl-processing-rrd/issues",
+        "docs": "https://php.net/rrd",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/php/pecl-processing-rrd",
+        "stats": "https://pecl.php.net/package-stats.php?pid=893&rid=&cid=31",
+        "verified": true
+    },
+    "rsvg": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/viewvc/pecl/rsvg",
+        "stats": "https://pecl.php.net/package-stats.php?pid=874&rid=&cid=12"
+    },
+    "rsync": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/viewvc/pecl/rsync",
+        "stats": "https://pecl.php.net/package-stats.php?pid=899&rid=&cid=29"
+    },
+    "runkit": {
+        "bugs": "https://github.com/zenovich/runkit/issues",
+        "docs": "http://php.net/runkit",
+        "home": "",
+        "maintained": false,
+        "repo": "https://github.com/zenovich/runkit",
+        "stats": "https://pecl.php.net/package-stats.php?pid=551&rid=&cid=25"
+    },
+    "runkit7": {
+        "bugs": "https://github.com/runkit7/runkit7/issues",
+        "docs": "https://github.com/runkit7/runkit7",
+        "home": "https://github.com/runkit7/runkit7",
+        "maintained": true,
+        "repo": "https://github.com/runkit7/runkit7",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1036&rid=&cid=25",
+        "verified": false
+    },
+    "sam": {
+        "bugs": "",
+        "docs": "http://project-sam.awardspace.com/docs.htm",
+        "home": "http://project-sam.awardspace.com",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/sam",
+        "stats": "https://pecl.php.net/package-stats.php?pid=663&rid=&cid=16"
+    },
+    "sandbox": {
+        "bugs": "https://github.com/krakjoe/sandbox/issues",
+        "docs": "https://github.com/krakjoe/sandbox",
+        "home": "https://github.com/krakjoe/sandbox",
+        "maintained": true,
+        "repo": "https://github.com/krakjoe/sandbox",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1030&rid=&cid=25",
+        "verified": true
+    },
+    "sasl": {
+        "bugs": "",
+        "docs": "https://www.indelible.org/php/sasl/guide.html",
+        "home": "http://www.indelible.org/php/sasl/",
+        "maintained": true,
+        "repo": "http://svn.php.net/viewvc/pecl/sasl/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=290&rid=&cid=1",
+        "verified": true
+    },
+    "sca_sdo": {
+        "bugs": "",
+        "docs": "http://www.php.net/sdo/",
+        "home": "http://www.osoa.org/display/PHP/",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/sdo",
+        "stats": "https://pecl.php.net/package-stats.php?pid=502&rid=&cid=23"
+    },
+    "scoutapm": {
+        "bugs": "https://github.com/scoutapp/scout-apm-php-ext/issues",
+        "docs": "https://docs.scoutapm.com/#php-agent",
+        "home": "https://scoutapm.com",
+        "maintained": true,
+        "repo": "https://github.com/scoutapp/scout-apm-php-ext",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1041&rid=&cid=2",
+        "verified": false
+    },
+    "scream": {
+        "bugs": "",
+        "docs": "http://php.net/scream",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/viewvc/pecl/scream/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=853&rid=&cid=25"
+    },
+    "scrypt": {
+        "bugs": "https://github.com/DomBlack/php-scrypt/issues",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/DomBlack/php-scrypt",
+        "stats": "https://pecl.php.net/package-stats.php?pid=947&rid=&cid=6",
+        "verified": false
+    },
+    "sdl": {
+        "bugs": "https://github.com/ponup/phpsdl/issues",
+        "docs": "https://github.com/Ponup/phpsdl/blob/master/README.md",
+        "home": "https://github.com/ponup/phpsdl",
+        "maintained": true,
+        "repo": "https://github.com/ponup/phpsdl",
+        "stats": "https://pecl.php.net/package-stats.php?pid=945&rid=&cid=46",
+        "verified": false
+    },
+    "sdl_image": {
+        "bugs": "",
+        "docs": "",
+        "home": "https://github.com/kea/php-sdl-image",
+        "maintained": true,
+        "repo": "https://github.com/kea/php-sdl-image",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1069&rid=&cid=46",
+        "verified": false
+    },
+    "sdl_mixer": {
+        "bugs": "https://github.com/kea/php-sdl-mixer/issues",
+        "docs": "",
+        "home": "https://github.com/kea/php-sdl-mixer",
+        "maintained": true,
+        "repo": "https://github.com/kea/php-sdl-mixer",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1068&rid=&cid=46",
+        "verified": false
+    },
+    "sdl_ttf": {
+        "bugs": "",
+        "docs": "",
+        "home": "https://github.com/Ponup/php-sdl-ttf",
+        "maintained": true,
+        "repo": "https://github.com/Ponup/php-sdl-ttf",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1071&rid=&cid=46",
+        "verified": false
+    },
+    "seasclick": {
+        "bugs": "",
+        "docs": "",
+        "home": "https://github.com/SeasX/SeasClick",
+        "maintained": true,
+        "repo": "https://github.com/SeasX/SeasClick.git",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1035&rid=&cid=7",
+        "verified": true
+    },
+    "seaslog": {
+        "bugs": "https://github.com/SeasX/SeasLog/issues",
+        "docs": "https://github.com/SeasX/SeasLog/blob/master/README.md",
+        "home": "https://SeasX.github.io/SeasLog",
+        "maintained": true,
+        "repo": "https://github.com/SeasX/SeasLog",
+        "stats": "https://pecl.php.net/package-stats.php?pid=968&rid=&cid=13",
+        "verified": true
+    },
+    "seassnowflake": {
+        "bugs": "https://github.com/SeasX/SeasSnowflake/issues",
+        "docs": "https://github.com/SeasX/SeasSnowflake",
+        "home": "https://github.com/SeasX/SeasSnowflake",
+        "maintained": true,
+        "repo": "https://github.com/SeasX/SeasSnowflake",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1063&rid=&cid=29",
+        "verified": true
+    },
+    "selinux": {
+        "bugs": "",
+        "docs": "https://github.com/php/pecl-security-selinux/blob/master/README",
+        "home": "http://pecl.php.net/package/selinux",
+        "maintained": true,
+        "repo": "https://github.com/php/pecl-security-selinux",
+        "stats": "https://pecl.php.net/package-stats.php?pid=854&rid=&cid=54",
+        "verified": true
+    },
+    "session_mysql": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://websupport.sk/~stanojr/projects/session_mysql/",
+        "maintained": true,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=555&rid=&cid=25",
+        "verified": false
+    },
+    "shape": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "http://svn.php.net/pecl/shp/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=457&rid=&cid=31",
+        "verified": false
+    },
+    "simdjson": {
+        "bugs": "",
+        "docs": "https://github.com/crazyxman/simdjson_php",
+        "home": "https://github.com/crazyxman/simdjson_php",
+        "maintained": true,
+        "repo": "https://github.com/crazyxman/simdjson_php",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1072&rid=&cid=29",
+        "verified": true
+    },
+    "simple_kafka_client": {
+        "bugs": "",
+        "docs": "",
+        "home": "https://php-kafka.com",
+        "maintained": true,
+        "repo": "https://github.com/php-kafka/php-simple-kafka-client.git",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1058&rid=&cid=44",
+        "verified": false
+    },
+    "skywalking": {
+        "bugs": "https://github.com/SkyAPM/SkyAPM-php-sdk/issues",
+        "docs": "",
+        "home": "https://skywalking.apache.org/",
+        "maintained": true,
+        "repo": "https://github.com/SkyAPM/SkyAPM-php-sdk.git",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1044&rid=&cid=25",
+        "verified": true
+    },
+    "skywalking_agent": {
+        "bugs": "",
+        "docs": "",
+        "home": "https://skywalking.apache.org/",
+        "maintained": true,
+        "repo": "https://github.com/apache/skywalking-php",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1073&rid=&cid=29",
+        "verified": true
+    },
+    "smbclient": {
+        "bugs": "https://github.com/eduardok/libsmbclient-php/issues",
+        "docs": "",
+        "home": "https://github.com/eduardok/libsmbclient-php",
+        "maintained": true,
+        "repo": "https://github.com/eduardok/libsmbclient-php",
+        "stats": "https://pecl.php.net/package-stats.php?pid=993&rid=&cid=9",
+        "verified": false
+    },
+    "solr": {
+        "bugs": "https://github.com/php/pecl-search_engine-solr/issues",
+        "docs": "https://php.net/solr",
+        "home": "http://lucene.apache.org/solr/",
+        "maintained": true,
+        "repo": "https://github.com/php/pecl-search_engine-solr",
+        "stats": "https://pecl.php.net/package-stats.php?pid=867&rid=&cid=57",
+        "verified": true
+    },
+    "sphinx": {
+        "bugs": "",
+        "docs": "http://php.net/sphinx",
+        "home": "",
+        "maintained": false,
+        "repo": "http://git.php.net/?p=pecl/search_engine/sphinx.git",
+        "stats": "https://pecl.php.net/package-stats.php?pid=813&rid=&cid=57"
+    },
+    "spidermonkey": {
+        "bugs": "https://github.com/christopherobin/php-spidermonkey/issues",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "https://github.com/christopherobin/php-spidermonkey",
+        "stats": "https://pecl.php.net/package-stats.php?pid=851&rid=&cid=59"
+    },
+    "spl": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/spl",
+        "stats": "https://pecl.php.net/package-stats.php?pid=276&rid=&cid=29"
+    },
+    "spl_types": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/spl_types/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=585&rid=&cid=29"
+    },
+    "spplus": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://www.spplus.net",
+        "maintained": true,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=133&rid=&cid=18",
+        "verified": false
+    },
+    "spread": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "https://svn.php.net/pecl/spread",
+        "stats": "https://pecl.php.net/package-stats.php?pid=119&rid=&cid=16",
+        "verified": true
+    },
+    "sqlanywhere": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=829&rid=&cid=7",
+        "verified": false
+    },
+    "sqlite": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/viewvc/pecl/sqlite",
+        "stats": "https://pecl.php.net/package-stats.php?pid=193&rid=&cid=7"
+    },
+    "sqlite3": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "http://trac.macvicar.net/sqlite3/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=750&rid=&cid=7"
+    },
+    "sqlsrv": {
+        "bugs": "https://github.com/Microsoft/msphpsql/issues",
+        "docs": "https://msdn.microsoft.com/en-us/library/cc296152(v=sql.105).aspx",
+        "home": "https://github.com/Microsoft/msphpsql",
+        "maintained": true,
+        "repo": "https://github.com/Microsoft/msphpsql",
+        "stats": "https://pecl.php.net/package-stats.php?pid=900&rid=&cid=7",
+        "verified": true
+    },
+    "ssdeep": {
+        "bugs": "https://github.com/php/pecl-text-ssdeep/issues",
+        "docs": "https://php.net/ssdeep",
+        "home": "http://treffynnon.github.com/php_ssdeep/",
+        "maintained": true,
+        "repo": "https://github.com/php/pecl-text-ssdeep",
+        "stats": "https://pecl.php.net/package-stats.php?pid=888&rid=&cid=36",
+        "verified": true
+    },
+    "ssh2": {
+        "bugs": "https://github.com/php/pecl-networking-ssh2/issues",
+        "docs": "https://php.net/ssh2",
+        "home": "http://www.libssh2.org",
+        "maintained": true,
+        "repo": "https://github.com/php/pecl-networking-ssh2",
+        "stats": "https://pecl.php.net/package-stats.php?pid=421&rid=&cid=16",
+        "verified": true
+    },
+    "stackdriver_debugger": {
+        "bugs": "https://github.com/GoogleCloudPlatform/stackdriver-debugger-php-extension/issues",
+        "docs": "",
+        "home": "https://cloud.google.com/debugger/",
+        "maintained": true,
+        "repo": "https://github.com/GoogleCloudPlatform/stackdriver-debugger-php-extension",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1018&rid=&cid=29",
+        "verified": false
+    },
+    "statgrab": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "http://svn.php.net/pecl/statgrab",
+        "stats": "https://pecl.php.net/package-stats.php?pid=292&rid=&cid=37",
+        "verified": false
+    },
+    "stats": {
+        "bugs": "https://github.com/php/pecl-math-stats/issues",
+        "docs": "http://php.net/manual/en/book.stats.php",
+        "home": "",
+        "maintained": false,
+        "repo": "https://github.com/php/pecl-math-stats",
+        "stats": "https://pecl.php.net/package-stats.php?pid=556&rid=&cid=15"
+    },
+    "stem": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "http://svn.php.net/pecl/stem/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=570&rid=&cid=36",
+        "verified": false
+    },
+    "stomp": {
+        "bugs": "https://github.com/php/pecl-tools-stomp/issues",
+        "docs": "https://php.net/stomp",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/php/pecl-tools-stomp",
+        "stats": "https://pecl.php.net/package-stats.php?pid=870&rid=&cid=29",
+        "verified": true
+    },
+    "strict": {
+        "bugs": "",
+        "docs": "",
+        "home": "https://github.com/krakjoe/strict",
+        "maintained": false,
+        "repo": "https://github.com/krakjoe/strict",
+        "stats": "https://pecl.php.net/package-stats.php?pid=975&rid=&cid=25"
+    },
+    "sundown": {
+        "bugs": "https://github.com/chobie/php-sundown/issues",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "https://github.com/chobie/php-sundown",
+        "stats": "https://pecl.php.net/package-stats.php?pid=917&rid=&cid=36"
+    },
+    "svm": {
+        "bugs": "",
+        "docs": "https://php.net/svm",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/ianbarber/php-svm",
+        "stats": "https://pecl.php.net/package-stats.php?pid=898&rid=&cid=29",
+        "verified": true
+    },
+    "svn": {
+        "bugs": "https://github.com/php/pecl-tools-svn/issues",
+        "docs": "https://php.net/svn",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/php/pecl-tools-svn",
+        "stats": "https://pecl.php.net/package-stats.php?pid=480&rid=&cid=40",
+        "verified": true
+    },
+    "swish": {
+        "bugs": "",
+        "docs": "http://www.php.net/swish",
+        "home": "",
+        "maintained": false,
+        "repo": "http://git.php.net/?p=pecl/search_engine/swish.git",
+        "stats": "https://pecl.php.net/package-stats.php?pid=683&rid=&cid=57"
+    },
+    "swoole": {
+        "bugs": "https://github.com/swoole/swoole-src/issues",
+        "docs": "https://www.swoole.co.uk/docs/",
+        "home": "https://github.com/swoole/swoole-src",
+        "maintained": true,
+        "repo": "https://github.com/swoole/swoole-src",
+        "stats": "https://pecl.php.net/package-stats.php?pid=957&rid=&cid=44",
+        "verified": true
+    },
+    "swoole_serialize": {
+        "bugs": "https://github.com/swoole/swoole_serialize/issues",
+        "docs": "",
+        "home": "https://github.com/swoole/swoole_serialize",
+        "maintained": false,
+        "repo": "https://github.com/swoole/swoole_serialize",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1007&rid=&cid=29",
+        "verified": true
+    },
+    "syck": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://wiki.github.com/indeyets/syck",
+        "maintained": true,
+        "repo": "http://github.com/indeyets/syck/tree/master/ext/php",
+        "stats": "https://pecl.php.net/package-stats.php?pid=716&rid=&cid=33",
+        "verified": false
+    },
+    "sync": {
+        "bugs": "https://github.com/php/pecl-system-sync/issues",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/php/pecl-system-sync",
+        "stats": "https://pecl.php.net/package-stats.php?pid=967&rid=&cid=37",
+        "verified": false
+    },
+    "taint": {
+        "bugs": "https://github.com/laruence/taint/issues",
+        "docs": "https://php.net/taint",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/laruence/taint",
+        "stats": "https://pecl.php.net/package-stats.php?pid=918&rid=&cid=54",
+        "verified": true
+    },
+    "tcc": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "http://svn.php.net/pecl/tcc/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=769&rid=&cid=25",
+        "verified": false
+    },
+    "tclink": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://trustcommerce.com/tclink.html",
+        "maintained": true,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=160&rid=&cid=18",
+        "verified": false
+    },
+    "tcpwrap": {
+        "bugs": "https://github.com/php/pecl-networking-tcpwrap/issues",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/php/pecl-networking-tcpwrap",
+        "stats": "https://pecl.php.net/package-stats.php?pid=263&rid=&cid=16",
+        "verified": false
+    },
+    "tdb": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "http://git.php.net/?p=pecl/database/tdb.git",
+        "stats": "https://pecl.php.net/package-stats.php?pid=722&rid=&cid=7",
+        "verified": false
+    },
+    "teds": {
+        "bugs": "https://github.com/TysonAndre/pecl-teds/issues",
+        "docs": "",
+        "home": "https://github.com/TysonAndre/pecl-teds",
+        "maintained": true,
+        "repo": "https://github.com/TysonAndre/pecl-teds",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1064&rid=&cid=27",
+        "verified": false
+    },
+    "tensor": {
+        "bugs": "https://github.com/RubixML/Tensor/issues",
+        "docs": "",
+        "home": "https://rubixml.com",
+        "maintained": true,
+        "repo": "https://github.com/RubixML/Tensor",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1056&rid=&cid=15",
+        "verified": false
+    },
+    "termbox": {
+        "bugs": "https://github.com/adsr/termbox-php/issues",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/adsr/termbox-php",
+        "stats": "https://pecl.php.net/package-stats.php?pid=972&rid=&cid=5",
+        "verified": false
+    },
+    "textcat": {
+        "bugs": "",
+        "docs": "",
+        "home": "https://gitorious.org/textus/php-language-detection",
+        "maintained": true,
+        "repo": "http://svn.php.net/viewvc/pecl/textcat/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=875&rid=&cid=36",
+        "verified": false
+    },
+    "threads": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "http://svn.php.net/pecl/threads",
+        "stats": "https://pecl.php.net/package-stats.php?pid=687&rid=&cid=37",
+        "verified": false
+    },
+    "tidy": {
+        "bugs": "",
+        "docs": "http://php.net/tidy",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/tidy",
+        "stats": "https://pecl.php.net/package-stats.php?pid=236&rid=&cid=10"
+    },
+    "timecop": {
+        "bugs": "https://github.com/hnw/php-timecop/issues",
+        "docs": "https://github.com/hnw/php-timecop",
+        "home": "https://github.com/hnw/php-timecop",
+        "maintained": true,
+        "repo": "https://github.com/hnw/php-timecop",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1011&rid=&cid=8",
+        "verified": true
+    },
+    "timezonedb": {
+        "bugs": "https://github.com/php/pecl-datetime-timezonedb/issues",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/php/pecl-datetime-timezonedb",
+        "stats": "https://pecl.php.net/package-stats.php?pid=536&rid=&cid=8",
+        "verified": false
+    },
+    "tk": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://php-tk.sourceforge.net/",
+        "maintained": false,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=409&rid=&cid=45"
+    },
+    "tokyo_tyrant": {
+        "bugs": "https://github.com/mkoppanen/php-tokyo_tyrant/issues",
+        "docs": "http://us3.php.net/manual/en/book.tokyo-tyrant.php",
+        "home": "http://github.com/mkoppanen/php-tokyo_tyrant/tree/master",
+        "maintained": false,
+        "repo": "http://github.com/mkoppanen/php-tokyo_tyrant/tree/master",
+        "stats": "https://pecl.php.net/package-stats.php?pid=865&rid=&cid=7"
+    },
+    "trace": {
+        "bugs": "",
+        "docs": "",
+        "home": "https://github.com/Qihoo360/phptrace",
+        "maintained": true,
+        "repo": "https://github.com/Qihoo360/phptrace",
+        "stats": "https://pecl.php.net/package-stats.php?pid=983&rid=&cid=25",
+        "verified": false
+    },
+    "trader": {
+        "bugs": "https://github.com/php/pecl-math-trader/issues",
+        "docs": "http://www.php.net/manual/en/book.trader.php",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/php/pecl-math-trader",
+        "stats": "https://pecl.php.net/package-stats.php?pid=921&rid=&cid=15",
+        "verified": false
+    },
+    "translit": {
+        "bugs": "https://github.com/derickr/pecl-translit/issues",
+        "docs": "",
+        "home": "http://derickrethans.nl/translit.php",
+        "maintained": true,
+        "repo": "https://github.com/derickr/pecl-translit",
+        "stats": "https://pecl.php.net/package-stats.php?pid=403&rid=&cid=28",
+        "verified": false
+    },
+    "tvision": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://blindman.dotgeek.org",
+        "maintained": true,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=459&rid=&cid=5",
+        "verified": false
+    },
+    "txforward": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://fcartegnie.free.fr/patchs/txforward.html",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/txforward/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=831&rid=&cid=11"
+    },
+    "udis86": {
+        "bugs": "https://github.com/felipensp/php-udis86/issues",
+        "docs": "",
+        "home": "https://github.com/felipensp/php-udis86",
+        "maintained": false,
+        "repo": "https://github.com/felipensp/php-udis86",
+        "stats": "https://pecl.php.net/package-stats.php?pid=934&rid=&cid=29"
+    },
+    "ui": {
+        "bugs": "https://github.com/krakjoe/ui/issues",
+        "docs": "https://php.net/ui",
+        "home": "https://github.com/krakjoe/ui",
+        "maintained": true,
+        "repo": "https://github.com/krakjoe/ui",
+        "stats": "https://pecl.php.net/package-stats.php?pid=998&rid=&cid=45",
+        "verified": true
+    },
+    "unicode": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://www.icu-project.org/",
+        "maintained": true,
+        "repo": "http://svn.php.net/pecl/unicode",
+        "stats": "https://pecl.php.net/package-stats.php?pid=725&rid=&cid=28",
+        "verified": false
+    },
+    "unicodestring": {
+        "bugs": "https://github.com/LawnGnome/unicodestring/issues",
+        "docs": "",
+        "home": "https://github.com/LawnGnome/unicodestring",
+        "maintained": true,
+        "repo": "https://github.com/LawnGnome/unicodestring",
+        "stats": "https://pecl.php.net/package-stats.php?pid=915&rid=&cid=28",
+        "verified": false
+    },
+    "uopz": {
+        "bugs": "https://github.com/krakjoe/uopz/issues",
+        "docs": "http://docs.php.net/uopz",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/krakjoe/uopz",
+        "stats": "https://pecl.php.net/package-stats.php?pid=964&rid=&cid=25",
+        "verified": false
+    },
+    "uploadprogress": {
+        "bugs": "https://github.com/php/pecl-php-uploadprogress/issues",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/php/pecl-php-uploadprogress",
+        "stats": "https://pecl.php.net/package-stats.php?pid=671&rid=&cid=25",
+        "verified": false
+    },
+    "uri_template": {
+        "bugs": "https://github.com/ioseb/uri-template/issues",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "https://github.com/ioseb/uri-template",
+        "stats": "https://pecl.php.net/package-stats.php?pid=928&rid=&cid=11"
+    },
+    "uuid": {
+        "bugs": "https://github.com/php/pecl-networking-uuid/issues",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/php/pecl-networking-uuid",
+        "stats": "https://pecl.php.net/package-stats.php?pid=216&rid=&cid=16",
+        "verified": true
+    },
+    "uv": {
+        "bugs": "https://github.com/amphp/ext-uv/issues",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/amphp/ext-uv",
+        "stats": "https://pecl.php.net/package-stats.php?pid=999&rid=&cid=44",
+        "verified": true
+    },
+    "v8": {
+        "bugs": "https://github.com/phpv8/php-v8/issues",
+        "docs": "",
+        "home": "https://github.com/pinepain/php-v8",
+        "maintained": true,
+        "repo": "https://github.com/pinepain/php-v8",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1006&rid=&cid=59",
+        "verified": false
+    },
+    "v8js": {
+        "bugs": "https://github.com/preillyme/v8js/issues",
+        "docs": "http://php.net/v8js/",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/phpv8/v8js",
+        "stats": "https://pecl.php.net/package-stats.php?pid=894&rid=&cid=59",
+        "verified": true
+    },
+    "valkyrie": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://www.xavier-noguer.com/valkyrie.html",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/valkyrie/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=317&rid=&cid=29"
+    },
+    "var_representation": {
+        "bugs": "",
+        "docs": "https://php.net/var_representation",
+        "home": "https://github.com/TysonAndre/var_representation",
+        "maintained": true,
+        "repo": "https://github.com/TysonAndre/var_representation",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1061&rid=&cid=25",
+        "verified": true
+    },
+    "varnish": {
+        "bugs": "https://github.com/php/pecl-caching-varnish/issues",
+        "docs": "https://php.net/varnish",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/php/pecl-caching-varnish",
+        "stats": "https://pecl.php.net/package-stats.php?pid=911&rid=&cid=3",
+        "verified": true
+    },
+    "vips": {
+        "bugs": "https://github.com/libvips/php-vips-ext/issues",
+        "docs": "",
+        "home": "https://github.com/libvips/php-vips-ext",
+        "maintained": false,
+        "repo": "https://github.com/libvips/php-vips-ext",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1001&rid=&cid=12",
+        "verified": true
+    },
+    "vld": {
+        "bugs": "https://github.com/derickr/vld/issues",
+        "docs": "",
+        "home": "https://derickrethans.nl/projects.html#vld",
+        "maintained": true,
+        "repo": "https://github.com/derickr/vld",
+        "stats": "https://pecl.php.net/package-stats.php?pid=253&rid=&cid=25",
+        "verified": true
+    },
+    "vpopmail": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=125&rid=&cid=14"
+    },
+    "w32api": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://www.php.net/w32api",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/w32api",
+        "stats": "https://pecl.php.net/package-stats.php?pid=801&rid=&cid=37"
+    },
+    "wasm": {
+        "bugs": "",
+        "docs": "https://wasmerio.github.io/wasmer-php/",
+        "home": "https://github.com/wasmerio/wasmer-php",
+        "maintained": true,
+        "repo": "https://github.com/wasmerio/wasmer-php",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1040&rid=&cid=59",
+        "verified": true
+    },
+    "wbxml": {
+        "bugs": "",
+        "docs": "http://svn.php.net/viewvc/pecl/wbxml/trunk/README?view=markup",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/viewvc/pecl/wbxml/trunk/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=642&rid=&cid=22"
+    },
+    "wddx": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "http://git.php.net/?p=pecl/text/wddx.git",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1034&rid=&cid=36"
+    },
+    "weakref": {
+        "bugs": "https://github.com/colder/php-weakref/issues",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "https://github.com/colder/php-weakref",
+        "stats": "https://pecl.php.net/package-stats.php?pid=910&rid=&cid=27"
+    },
+    "weakreference_bc": {
+        "bugs": "https://github.com/TysonAndre/pecl-weakreference_bc/issues",
+        "docs": "https://github.com/tysonandre/pecl-weakreference_bc",
+        "home": "https://github.com/tysonandre/pecl-weakreference_bc",
+        "maintained": true,
+        "repo": "https://github.com/tysonandre/pecl-weakreference_bc",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1066&rid=&cid=27",
+        "verified": true
+    },
+    "win32ps": {
+        "bugs": "",
+        "docs": "http://php.net/win32ps",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/win32ps",
+        "stats": "https://pecl.php.net/package-stats.php?pid=534&rid=&cid=37"
+    },
+    "win32ps_dll": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://pecl4win.php.net/ext.php/php_win32ps.dll",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/win32ps/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=539&rid=&cid=37"
+    },
+    "win32service": {
+        "bugs": "https://github.com/win32service/win32service/issues",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/win32service/win32service",
+        "stats": "https://pecl.php.net/package-stats.php?pid=891&rid=&cid=37",
+        "verified": false
+    },
+    "win32std": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://wildphp.free.fr/wiki/doku.php?id=win32std:index",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/win32std",
+        "stats": "https://pecl.php.net/package-stats.php?pid=271&rid=&cid=45"
+    },
+    "winbinder": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://hypervisual.com/winbinder/",
+        "maintained": true,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=398&rid=&cid=45",
+        "verified": false
+    },
+    "wincache": {
+        "bugs": "",
+        "docs": "http://www.php.net/manual/en/book.wincache.php",
+        "home": "http://www.iis.net/expand/WinCacheForPhp",
+        "maintained": false,
+        "repo": "https://github.com/php/pecl-caching-wincache",
+        "stats": "https://pecl.php.net/package-stats.php?pid=869&rid=&cid=3"
+    },
+    "wkhtmltox": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/krakjoe/wkhtmltox",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1017&rid=&cid=33",
+        "verified": false
+    },
+    "wxwidgets": {
+        "bugs": "https://github.com/wxphp/wxphp/issues",
+        "docs": "https://github.com/wxphp/wxphp/wiki",
+        "home": "http://wxphp.org/",
+        "maintained": false,
+        "repo": "http://github.com/wxphp/wxphp",
+        "stats": "https://pecl.php.net/package-stats.php?pid=923&rid=&cid=45"
+    },
+    "xattr": {
+        "bugs": "https://github.com/php/pecl-file_system-xattr/issues",
+        "docs": "https://php.net/xattr",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/php/pecl-file_system-xattr",
+        "stats": "https://pecl.php.net/package-stats.php?pid=380&rid=&cid=9",
+        "verified": true
+    },
+    "xcommerce": {
+        "bugs": "https://github.com/johnj/php5-xcom/issues",
+        "docs": "",
+        "home": "https://github.com/johnj/php5-xcom",
+        "maintained": false,
+        "repo": "https://github.com/johnj/php5-xcom",
+        "stats": "https://pecl.php.net/package-stats.php?pid=920&rid=&cid=23"
+    },
+    "xdebug": {
+        "bugs": "https://bugs.xdebug.org",
+        "docs": "https://xdebug.org/docs/",
+        "home": "https://xdebug.org/",
+        "maintained": true,
+        "repo": "https://github.com/xdebug/xdebug",
+        "stats": "https://pecl.php.net/package-stats.php?pid=214&rid=&cid=25",
+        "verified": true
+    },
+    "xdiff": {
+        "bugs": "https://github.com/php/pecl-text-xdiff/issues",
+        "docs": "https://php.net/xdiff",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/php/pecl-text-xdiff",
+        "stats": "https://pecl.php.net/package-stats.php?pid=283&rid=&cid=36",
+        "verified": true
+    },
+    "xhprof": {
+        "bugs": "https://github.com/longxinH/xhprof/issues",
+        "docs": "https://php.net/xhprof",
+        "home": "https://github.com/longxinH/xhprof",
+        "maintained": true,
+        "repo": "https://github.com/longxinH/xhprof",
+        "stats": "https://pecl.php.net/package-stats.php?pid=856&rid=&cid=29",
+        "verified": true
+    },
+    "xlswriter": {
+        "bugs": "https://github.com/viest/php-ext-xlswriter/issues",
+        "docs": "https://xlswriter-docs.viest.me/",
+        "home": "https://github.com/viest/php-ext-xlswriter",
+        "maintained": true,
+        "repo": "https://github.com/viest/php-ext-xlswriter",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1023&rid=&cid=33",
+        "verified": true
+    },
+    "xmldiff": {
+        "bugs": "https://github.com/php/pecl-xml-xmldiff/issues",
+        "docs": "https://php.net/xmldiff",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/php/pecl-xml-xmldiff",
+        "stats": "https://pecl.php.net/package-stats.php?pid=953&rid=&cid=22",
+        "verified": true
+    },
+    "xmlreader": {
+        "bugs": "http://bugs.php.net/",
+        "docs": "http://php.net/xmlreader",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/php-src/ext/xmlreader/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=330&rid=&cid=22"
+    },
+    "xmlrpc": {
+        "bugs": "https://github.com/php/pecl-networking-xmlrpc/issues",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "http://git.php.net/?p=pecl/networking/xmlrpc.git",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1049&rid=&cid=16"
+    },
+    "xmlrpci": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://www.coggeshall.org/oss/xmlrpci/",
+        "maintained": false,
+        "repo": "https://svn.php.net/pecl/xmlrpci",
+        "stats": "https://pecl.php.net/package-stats.php?pid=438&rid=&cid=22",
+        "verified": true
+    },
+    "xmlwriter": {
+        "bugs": "",
+        "docs": "http://php.net/xmlwriter",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/xmlwriter",
+        "stats": "https://pecl.php.net/package-stats.php?pid=366&rid=&cid=22"
+    },
+    "xmms": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=73&rid=&cid=5"
+    },
+    "xmp": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "https://git.php.net/?p=pecl%2Fmultimedia%2Fxmp.git",
+        "stats": "https://pecl.php.net/package-stats.php?pid=973&rid=&cid=46"
+    },
+    "xrange": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/xrange/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=758&rid=&cid=29"
+    },
+    "xslcache": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://code.nytimes.com/projects/xslcache",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/xslcache",
+        "stats": "https://pecl.php.net/package-stats.php?pid=862&rid=&cid=22"
+    },
+    "xxtea": {
+        "bugs": "https://github.com/xxtea/xxtea-pecl/issues",
+        "docs": "",
+        "home": "https://github.com/xxtea/xxtea-pecl",
+        "maintained": true,
+        "repo": "https://github.com/xxtea/xxtea-pecl",
+        "stats": "https://pecl.php.net/package-stats.php?pid=980&rid=&cid=6",
+        "verified": false
+    },
+    "yac": {
+        "bugs": "https://github.com/laruence/yac/issues",
+        "docs": "https://php.net/yac",
+        "home": "https://github.com/laruence/yac",
+        "maintained": true,
+        "repo": "https://github.com/laruence/yac",
+        "stats": "https://pecl.php.net/package-stats.php?pid=949&rid=&cid=3",
+        "verified": true
+    },
+    "yaconf": {
+        "bugs": "https://github.com/laruence/yaconf/issues",
+        "docs": "https://php.net/yaconf",
+        "home": "https://github.com/laruence/yaconf",
+        "maintained": true,
+        "repo": "https://github.com/laruence/yaconf",
+        "stats": "https://pecl.php.net/package-stats.php?pid=990&rid=&cid=4",
+        "verified": false
+    },
+    "yaf": {
+        "bugs": "https://github.com/laruence/yaf/issues",
+        "docs": "https://php.net/yaf",
+        "home": "https://github.com/laruence/yaf",
+        "maintained": true,
+        "repo": "https://github.com/laruence/yaf",
+        "stats": "https://pecl.php.net/package-stats.php?pid=903&rid=&cid=37",
+        "verified": true
+    },
+    "yami": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://www.planetbazaar.com",
+        "maintained": false,
+        "repo": "http://svn.php.net/pecl/yami",
+        "stats": "https://pecl.php.net/package-stats.php?pid=719&rid=&cid=16"
+    },
+    "yaml": {
+        "bugs": "https://github.com/php/pecl-file_formats-yaml/issues",
+        "docs": "https://php.net/yaml",
+        "home": "http://bd808.com/pecl-file_formats-yaml/",
+        "maintained": true,
+        "repo": "https://github.com/php/pecl-file_formats-yaml",
+        "stats": "https://pecl.php.net/package-stats.php?pid=876&rid=&cid=33",
+        "verified": true
+    },
+    "yar": {
+        "bugs": "https://github.com/laruence/yar/issues",
+        "docs": "https://php.net/yar",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/laruence/yar",
+        "stats": "https://pecl.php.net/package-stats.php?pid=924&rid=&cid=23",
+        "verified": true
+    },
+    "yaz": {
+        "bugs": "https://github.com/indexdata/phpyaz/issues",
+        "docs": "",
+        "home": "http://www.indexdata.com/phpyaz",
+        "maintained": true,
+        "repo": "https://github.com/indexdata/phpyaz",
+        "stats": "https://pecl.php.net/package-stats.php?pid=322&rid=&cid=16",
+        "verified": false
+    },
+    "yp": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://www.php.net/nis",
+        "maintained": true,
+        "repo": "http://git.php.net/?p=pecl/networking/yp.git",
+        "stats": "https://pecl.php.net/package-stats.php?pid=607&rid=&cid=16",
+        "verified": false
+    },
+    "zendopcache": {
+        "bugs": "http://github.com/zendtech/ZendOptimizerPlus/issues",
+        "docs": "",
+        "home": "",
+        "maintained": false,
+        "repo": "http://github.com/zendtech/ZendOptimizerPlus",
+        "stats": "https://pecl.php.net/package-stats.php?pid=943&rid=&cid=3"
+    },
+    "zephir_parser": {
+        "bugs": "https://github.com/zephir-lang/php-zephir-parser/issues",
+        "docs": "",
+        "home": "https://github.com/zephir-lang/php-zephir-parser",
+        "maintained": true,
+        "repo": "https://github.com/zephir-lang/php-zephir-parser",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1046&rid=&cid=29",
+        "verified": false
+    },
+    "zeroconf": {
+        "bugs": "",
+        "docs": "",
+        "home": "http://phpzeroconf.sourceforge.net",
+        "maintained": true,
+        "repo": "http://svn.php.net/pecl/zeroconf/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=357&rid=&cid=16",
+        "verified": false
+    },
+    "zip": {
+        "bugs": "https://github.com/pierrejoye/php_zip/issues",
+        "docs": "https://php.net/zip",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/pierrejoye/php_zip",
+        "stats": "https://pecl.php.net/package-stats.php?pid=208&rid=&cid=33",
+        "verified": true
+    },
+    "zlib_filter": {
+        "bugs": "",
+        "docs": "https://www.php.net/filters.compression",
+        "home": "https://www.php.net/filters.compression",
+        "maintained": true,
+        "repo": "http://svn.php.net/pecl/zlib_filter",
+        "stats": "https://pecl.php.net/package-stats.php?pid=315&rid=&cid=35",
+        "verified": true
+    },
+    "zmq": {
+        "bugs": "https://github.com/zeromq/php-zmq/issues",
+        "docs": "https://php.net/zmq",
+        "home": "https://zeromq.org/",
+        "maintained": true,
+        "repo": "https://github.com/zeromq/php-zmq",
+        "stats": "https://pecl.php.net/package-stats.php?pid=954&rid=&cid=16",
+        "verified": true
+    },
+    "zookeeper": {
+        "bugs": "https://github.com/php-zookeeper/php-zookeeper/issues",
+        "docs": "https://php.net/zookeeper",
+        "home": "https://github.com/php-zookeeper/php-zookeeper",
+        "maintained": true,
+        "repo": "https://github.com/php-zookeeper/php-zookeeper",
+        "stats": "https://pecl.php.net/package-stats.php?pid=868&rid=&cid=4",
+        "verified": true
+    },
+    "zstd": {
+        "bugs": "https://github.com/kjdev/php-ext-zstd/issues",
+        "docs": "",
+        "home": "https://github.com/kjdev/",
+        "maintained": true,
+        "repo": "https://github.com/kjdev/php-ext-zstd",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1045&rid=&cid=33",
+        "verified": false
+    }
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.47.1</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>sammyk</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2020-07-30 19:35:55</da>
+ <n>**Deprecation notice**: The following environment variable names have changed. The old names are deprecated. See #969 for more details.
+
+| Old Name                                       | New Name                                             |
+| ---------------------------------------------- | ---------------------------------------------------- |
+| `DD_&lt;INTEGRATION&gt;_ANALYTICS_ENABLED`     | `DD_TRACE_&lt;INTEGRATION&gt;_ANALYTICS_ENABLED`     |
+| `DD_&lt;INTEGRATION&gt;_ANALYTICS_SAMPLE_RATE` | `DD_TRACE_&lt;INTEGRATION&gt;_ANALYTICS_SAMPLE_RATE` |
+| `DD_INTEGRATIONS_DISABLED`                     | `DD_TRACE_&lt;INTEGRATION&gt;_ENABLED`               |
+
+### Added
+
+- Add `DD_TRACE_AGENT_URL` environment support #926 (thank you @nurcahyo!) #962
+- Support for `DD_TRACE_&lt;INTEGRATION&gt;_&lt;SUFFIX&gt;` env vars #969
+- Deeper instrumentation of Symfony 4.4 #967
+
+### Fixed
+
+- Move startup logging to first RINIT #961
+- Fix propagation of `DD_ENV` and `DD_VERSION` to children spans #963
+- Remove query string when new resource mapper is used #973</n>
+ <f>260382</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.47.1</g>
+ <x xlink:href="package.0.47.1.xml"/>
+</r>

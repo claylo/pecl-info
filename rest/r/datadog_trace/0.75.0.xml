@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.75.0</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>labbati</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2022-06-10 17:39:51</da>
+ <n>## Tracer
+### Added
+- Add a new decision maker mechanism #1598
+- Rename DD_TRACE_X_DATADOG_TAGS_PROPAGATE_SERVICE to DD_TRACE_PROPAGATE_SERVICE #1612, #1613
+- Add support for unix domain sockets #1601
+- Add RedisCluster split by host #1602 (Thanks to @radykal-com)
+- Add http.useragent to root span #1607
+
+### Fixed
+- Fix #1582: *_id keys in meta and metrics are wrongly encoded #1599
+- Fix dlerror logging format #1605
+- Fix DD_TRACE_URL_AS_RESOURCE_NAMES_ENABLED accidentally guarding http.method and http.url as well #1608
+
+### Internal changes
+- Fix downstream job trigger for deployments to rel-env #1597
+- Update dd-trace-php link for reliability environment #1595
+- Move request-replayer from our internal deprecated repository to dd-trace-php #1600
+- Support restricting PHP versions while running randomized tests #1604
+- Transition to non-legacy circleci images #1609</n>
+ <f>533906</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.75.0</g>
+ <x xlink:href="package.0.75.0.xml"/>
+</r>

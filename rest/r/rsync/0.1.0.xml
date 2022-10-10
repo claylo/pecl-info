@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/rsync">rsync</p>
+ <c>pecl.php.net</c>
+ <v>0.1.0</v>
+ <st>beta</st>
+ <l>Modified BSD License</l>
+ <m>ironpinguin</m>
+ <s>Wrapper for librsync library</s>
+ <d>The librsync library itself can be found at http://librsync.sourceforge.org/ and implements rsync remote-delta algorithm (http://rsync.samba.org/tech_report).
+
+This algorithm is using a rolling check-sum and a md4 check-sum for
+blocks of the file to generate a signature file. The signature file is used
+to generate a diff from the file on the remote site. This diff can be
+used on the local site to patch the file.
+The Algorithm is from rsync 1.x and not compatible with rsync 2.x.</d>
+ <da>2011-06-07 03:01:49</da>
+ <n>0.1.0 release</n>
+ <f>575174</f>
+ <g>http://pecl.php.net/get/rsync-0.1.0</g>
+ <x xlink:href="package.0.1.0.xml"/>
+</r>

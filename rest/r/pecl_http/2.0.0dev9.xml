@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pecl_http">pecl_http</p>
+ <c>pecl.php.net</c>
+ <v>2.0.0dev9</v>
+ <st>devel</st>
+ <l>BSD, revised</l>
+ <m>mike</m>
+ <s>Extended HTTP Support</s>
+ <d>Extended HTTP support. Again. Keep in mind that it's got the major version 2, because it's incompatible with pecl_http v1.
+
+* Introduces the http namespace.
+* Message bodies have been remodeled to use PHP temporary streams instead of in-memory buffers.
+* The utterly misunderstood HttpResponse class has been reimplemented as http\Env\Response inheriting http\Message.
+* Currently, there's only one Exception class left, http\Exception.
+* Errors triggered by the extension can be configured statically by http\Object::$defaultErrorHandling or inherited http\Object-&gt;errorHandling.
+* The request ecosystem has been modularized to support different libraries, though for the moment only libcurl is supported;
+  Nevertheless, you have to use the http\Request\Factory to create your request/pool/datashare objects.</d>
+ <da>2012-03-23 08:43:42</da>
+ <n>+ Added population of $_POST and $_FILES for non-POST requests
+- Renamed http\Env\Request::getPost() to ::getForm()
+- Changed http\Env\Response::setContentDisposition() to take an http\Params like array as argument
+- Removed http\Env\Response::CONTENT_DISPOSOTION_* constants
+- Removed http\Request\Method class; request methods are now used as simple strings</n>
+ <f>144090</f>
+ <g>http://pecl.php.net/get/pecl_http-2.0.0dev9</g>
+ <x xlink:href="package.2.0.0dev9.xml"/>
+</r>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pdo_user">PDO_USER</p>
+ <c>pecl.php.net</c>
+ <v>0.1.0</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>pollita</m>
+ <s>Userspace driver for PDO</s>
+ <d>This extension provides a Userspace interface for PDO drivers</d>
+ <da>2006-05-03 19:17:15</da>
+ <n>Initial Release</n>
+ <f>13815</f>
+ <g>http://pecl.php.net/get/PDO_USER-0.1.0</g>
+ <x xlink:href="package.0.1.0.xml"/>
+</r>

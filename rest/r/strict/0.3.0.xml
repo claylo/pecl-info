@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/strict">strict</p>
+ <c>pecl.php.net</c>
+ <v>0.3.0</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>krakjoe</m>
+ <s>strict</s>
+ <d>Strict scalar parameter type hint support for 5.4+</d>
+ <da>2014-11-19 03:18:51</da>
+ <n>fix issue in 5 series</n>
+ <f>7526</f>
+ <g>http://pecl.php.net/get/strict-0.3.0</g>
+ <x xlink:href="package.0.3.0.xml"/>
+</r>

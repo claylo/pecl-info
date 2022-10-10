@@ -1,0 +1,34 @@
+{
+    "category": "Console",
+    "deprecated": false,
+    "description": "A simple libxmms extension",
+    "latestReleaseDate": "2002-06-06T11:10:00+00:00",
+    "latestVersion": "0.2",
+    "license": "PHP",
+    "name": "xmms",
+    "summary": "Provides functions to interact with xmms",
+    "php8Mentioned": false,
+    "releases": {
+        "0.2": {
+            "version": "0.2",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "ssb",
+            "releaseDate": "2002-06-06T11:10:00+00:00",
+            "releaseNotes": "Packaging fixes",
+            "get": "http://pecl.php.net/get/xmms-0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1": {
+            "version": "0.1",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "ssb",
+            "releaseDate": "2002-06-06T10:13:00+00:00",
+            "releaseNotes": "- Mostly a strawman extension, but it does work\n- Illustrates procedural and OO interface along with a bit of php-gtk",
+            "get": "http://pecl.php.net/get/xmms-0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

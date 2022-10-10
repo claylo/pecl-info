@@ -1,0 +1,74 @@
+{
+    "category": "Caching",
+    "deprecated": false,
+    "description": "This module provides a backwards APC compatible API using APCu.",
+    "latestReleaseDate": "2019-02-20T17:00:38+00:00",
+    "latestVersion": "1.0.5",
+    "license": "PHP License",
+    "name": "apcu_bc",
+    "php8Mentioned": false,
+    "releases": {
+        "1.0.5": {
+            "version": "1.0.5",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2019-02-20T17:00:38+00:00",
+            "releaseNotes": "- fix skipif.inc path in test suite\n- remove APCU version from phpinfo\n- remove Build date from phpinfo",
+            "get": "https://pecl.php.net/get/apcu_bc-1.0.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.4": {
+            "version": "1.0.4",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2018-02-16T07:25:55+00:00",
+            "releaseNotes": "- promote as stable (no change)",
+            "get": "http://pecl.php.net/get/apcu_bc-1.0.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.3": {
+            "version": "1.0.3",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2016-02-11T16:05:45+00:00",
+            "releaseNotes": "- fix gh#14: apc_inc segfaults if APCu is disabled\n- fix Windows build",
+            "get": "http://pecl.php.net/get/apcu_bc-1.0.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.2": {
+            "version": "1.0.2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2016-01-29T06:48:08+00:00",
+            "releaseNotes": "- restore apc behavior, apc_inc / apc_dec fail when key doesnt exists",
+            "get": "http://pecl.php.net/get/apcu_bc-1.0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2016-01-06T09:52:04+00:00",
+            "releaseNotes": "- fix gh#10 - apc_clear_cache: parameter is optional\n- apc_cache_info: both parameters are optional\n- add dep on APCu extension",
+            "get": "http://pecl.php.net/get/apcu_bc-1.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "krakjoe",
+            "releaseDate": "2015-12-07T09:58:18+00:00",
+            "releaseNotes": "- initial release",
+            "get": "http://pecl.php.net/get/apcu_bc-1.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "APCu Backwards Compatibility Module",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.6.0</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>alcaeus</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2019-09-09 13:41:08</da>
+ <n>** Bug
+* [PHPC-1331] - Fix typos in ReadPreference::__set_state() errors
+* [PHPC-1332] - PHP array API downcasts 64-bit integers to 32-bit values on Windows
+* [PHPC-1341] - Remove XFAIL for unacknowledged write concern test
+* [PHPC-1419] - Error label from server error is not exposed in ServerException
+* [PHPC-1432] - Fix documentation for Session::startTransaction() options parameter
+* [PHPC-1435] - Fix Session::startTransaction() arginfo
+
+** Epic
+* [PHPC-837] - Update PHP driver to test in Evergreen
+* [PHPC-1112] - Test suite improvements
+* [PHPC-1233] - FY2019Q3 Quick Wins
+* [PHPC-1235] - PHPC MongoDB 4.2 Support
+* [PHPC-1329] - Fix Windows build failures on AppVeyor
+
+** New Feature
+* [PHPC-1123] - Create interface for Cursor class
+* [PHPC-1222] - Implement accessor for error labels on exception classes
+* [PHPC-1231] - Add Session::isInTransaction to indicate whether a transaction is active
+* [PHPC-1254] - Implement ObjectID spec
+* [PHPC-1288] - Implement Unified URI Options
+* [PHPC-1290] - Support mongos pinning for sharded transactions
+* [PHPC-1291] - Retryable Reads
+* [PHPC-1292] - Support polling SRV records for mongos discovery
+* [PHPC-1297] - Support sharded transactions recovery token
+* [PHPC-1319] - Drivers should use majority write concern when retrying commitTransaction
+* [PHPC-1324] - Support Retryable Writes on by Default
+* [PHPC-1355] - Add the ability to specify a pipeline to an update command
+* [PHPC-1371] - Drivers send recoveryToken on abortTransaction
+* [PHPC-1382] - Allow applications to set maxTimeMS for commitTransaction
+
+** Task
+* [PHPC-691] - Test that Server command/query execute methods send read preference to mongos
+* [PHPC-857] - Create Evergreen matrix for various test configurations
+* [PHPC-858] - Add authentication axis to Evergreen matrix
+* [PHPC-859] - Add SSL axis to Evergreen matrix
+* [PHPC-860] - Add PHP runtime axis to Evergreen matrix
+* [PHPC-861] - Add MongoDB version axis to Evergreen matrix
+* [PHPC-862] - Add Evergreen matrix to run against nightly server builds
+* [PHPC-863] - Add RHEL 7.1/Power 8 to the operating system axis
+* [PHPC-864] - Add storage engines to Evergreen matrix
+* [PHPC-1122] - Check whether we still need SUPPRESS_UNUSED_WARNING
+* [PHPC-1173] - Reimplement replica set seedlist tests
+* [PHPC-1180] - Fix peer certificate verification errors for SSL clusters
+* [PHPC-1219] - Relax requirement for replica set tagsets assertions
+* [PHPC-1240] - Remove noprealloc, nssize and smallfiles from MO configurations
+* [PHPC-1250] - Document the order in which skip_ifs in tests need to be done
+* [PHPC-1271] - Add (only) RHEL on zSeries to Evergreen Matrix
+* [PHPC-1275] - Bump wire protocol version for 4.2
+* [PHPC-1276] - Create tool chain for PHP binaries
+* [PHPC-1299] - Add Ubuntu 16.04/ARM64 to the operating system axis
+* [PHPC-1320] - Regenerate test certificates with SHA256 signatures
+* [PHPC-1333] - Revert to virtualized Travis CI environments
+* [PHPC-1345] - Revise fragile session ID assertions
+* [PHPC-1364] - Upgrade libmongoc to 1.14.0
+* [PHPC-1369] - Upgrade libmongoc to 1.15.0
+* [PHPC-1370] - Revise test assertion for unknown modifier error message
+* [PHPC-1377] - Remove support for PHP 5.5
+* [PHPC-1390] - Remove 7.0 and add 7.3 on AppVeyor
+* [PHPC-1392] - Avoid spurious failure in ConnectionTimeoutException test due to slow auth
+* [PHPC-1399] - Test MongoDB 4.2 in Evergreen
+* [PHPC-1412] - Fix test failures when retryable writes are enabled
+* [PHPC-1413] - Fix test failures executing insert on secondary
+* [PHPC-1414] - Skip tests when mongo orchestration is not available
+* [PHPC-1415] - Fix test failures for sharded cluster without replica set
+* [PHPC-1428] - Bump libmongoc to 1.15.1
+
+** Improvement
+* [PHPC-1206] - Add __set_state() support for ReadConcern, ReadPreference, and WriteConcern
+* [PHPC-1229] - Populate error labels for bulk write exceptions
+* [PHPC-1301] - php_phongo_cursor_t.got_iterator should use bool type
+* [PHPC-1307] - Exception interface should extend Throwable on PHP 7+
+* [PHPC-1346] - Do not allow empty string for username
+* [PHPC-1373] - WriteResult is inaccessible if executeBulkWrite() encounters socket error
+* [PHPC-1394] - Don't send $readPreference to standalone servers
+* [PHPC-1422] - Raise an actionable error message when retryWrites fails due to using an unsupported storage engine
+* [PHPC-1431] - Session::startTransaction() should accept null for options</n>
+ <f>1096156</f>
+ <g>https://pecl.php.net/get/mongodb-1.6.0</g>
+ <x xlink:href="package.1.6.0.xml"/>
+</r>

@@ -1,0 +1,13 @@
+{
+    "category": "Database",
+    "deprecated": false,
+    "description": "Interface to Ovrimos SQL Server client/server, transactional RDBMS combined with Web capabilities and fast transactions.",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "PHP Licence",
+    "name": "Ovrimos",
+    "php8Mentioned": false,
+    "releases": [],
+    "summary": "Ovrimos interface",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

@@ -1,0 +1,44 @@
+{
+    "category": "XML",
+    "deprecated": false,
+    "description": "The XSL Cache extension is a modification of PHP's standard XSL extension that caches\n\tthe parsed XSL stylesheet representation between sessions for 2.5x boost in performance\n\tfor sites that repeatedly apply the same transform. Although there is still some further\n\twork that could be done on the extension, this code is already proving beneficial in\n\tproduction use for a few applications on the New York Times' website.",
+    "latestReleaseDate": "2013-07-11T05:58:55+00:00",
+    "latestVersion": "0.7.2",
+    "license": "PHP License",
+    "name": "xslcache",
+    "summary": "A modification of PHP's standard XSL extension that caches the parsed XSL stylesheet representation",
+    "php8Mentioned": false,
+    "releases": {
+        "0.7.2": {
+            "version": "0.7.2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "indeyets",
+            "releaseDate": "2013-07-11T05:58:55+00:00",
+            "releaseNotes": "- PHP 5.4+ compatibility\n- fixed assgnmemt to field of uninitialized structure",
+            "get": "http://pecl.php.net/get/xslcache-0.7.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.7.1": {
+            "version": "0.7.1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "indeyets",
+            "releaseDate": "2009-09-30T15:05:20+00:00",
+            "releaseNotes": "- Windows compatibility (kalle)\n- Fixed PECL Bug #16819: Crash when empty object is destroyed (mkoppanen)",
+            "get": "http://pecl.php.net/get/xslcache-0.7.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.7.0": {
+            "version": "0.7.0",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "indeyets",
+            "releaseDate": "2009-08-26T11:18:17+00:00",
+            "releaseNotes": "Initial release in PECL",
+            "get": "http://pecl.php.net/get/xslcache-0.7.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

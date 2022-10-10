@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/redis">redis</p>
+ <c>pecl.php.net</c>
+ <v>5.2.1</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>mgrunder</m>
+ <s>PHP extension for interfacing with Redis</s>
+ <d>This extension provides an API for communicating with Redis servers.</d>
+ <da>2020-03-19 18:22:56</da>
+ <n>phpredis 5.2.1
+
+This is a bugfix release that fixes `redis-&gt;zAdd` arginfo as well as a
+segfault when closing persistent connections.
+
+* Fix arginfo for Redis::zadd [a8e2b021] (Pavlo Yatsukhnenko)
+* Fix segfault on closing persistent stream [b7f9df75] (Pavlo Yatsukhnenko)
+
+* Sponsors
+  ~ Audiomack.com - https://audiomack.com
+  ~ Till Kruss - https://github.com/tillkruss</n>
+ <f>251570</f>
+ <g>https://pecl.php.net/get/redis-5.2.1</g>
+ <x xlink:href="package.5.2.1.xml"/>
+</r>

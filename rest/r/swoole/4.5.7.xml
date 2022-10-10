@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.5.7</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in tcp/http/websocket/http2 server
+        - coroutine tcp/http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2020-11-09 12:02:30</da>
+ <n>New APIs
+---
++ Added writeVector, writeVectorAll, readVector, readVectorAll for Coroutine::Socket (#3764) (@huanghantao)
+
+Enhancement
+---
++ Added task_worker_num and dispatch_count for server-&gt;stats (#3771) (#3806) (@sy-records) (@matyhtf)
++ Added extension dependencies, including json, mysqlnd, sockets (#3789) (@remicollet)
++ Limited the minimum for uid server-&gt;bind is INT32_MIN (#3785) (@sy-records)
++ Added compilation option for JSON decoder, Support negative offset (#3809) (@matyhtf)
++ Added CURLOPT_TCP_NODELAY for Curl (swoole/library#65) (@sy-records) (@deminy)
+
+Fixed
+---
+* Fixed sync client::connect error info (#3784) (@twose)
+* Fixed the scandir function hooked (#3793) (@twose)
+* Fixed some errors in the barrier (swoole/library#68) (@sy-records)
+
+Kernel
+---
+* Optimized print-backtrace, using boost.stacktrace (#3788) (@matyhtf)</n>
+ <f>1550084</f>
+ <g>https://pecl.php.net/get/swoole-4.5.7</g>
+ <x xlink:href="package.4.5.7.xml"/>
+</r>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/phar">phar</p>
+ <c>pecl.php.net</c>
+ <v>2.0.0a1</v>
+ <st>alpha</st>
+ <l>PHP License</l>
+ <m>cellog</m>
+ <s>allows running of complete applications out of .phar files (like Java .jar files)</s>
+ <d>This is the extension version of PEAR's PHP_Archive package. Support for
+zlib, bz2 and crc32 is achieved without any dependency other than the external
+zlib or bz2 extension.
+
+.phar files can be read using the phar stream, or with the Phar class.  If the SPL extension
+is available, a Phar object can be used as an array to iterate over a phar's contents
+or to read files directly from the phar.
+
+Phar archives can be created using the streams API or with the Phar class, if
+the phar.readonly ini variable is set to false.
+
+Full support for MD5 and SHA1 signatures is possible. Signatures can be required 
+if the ini variable phar.require_hash is set to true. When PECL extension hash is
+avaiable then SHA-256 and SHA-512 signatures are supported as well.</d>
+ <da>2008-03-26 00:23:40</da>
+ <n>Major feature functionality release
+ * new default stub allows running of phar-based phars without phar extension [Greg/Steph]
+ * add support for tar-based and zip-based phar archives [Greg]
+ * add Phar::isTar(), Phar::isZip(), and Phar::isPhar() [Greg]
+ * add Phar::convertToTar(), Phar::convertToZip(), and Phar::convertToPhar() [Greg]
+ * add Phar::compress() [Greg]
+ * conversion to compressed or to other file formats automatically copies the archive
+   to a new extension (i.e. &quot;.phar&quot; to &quot;.phar.tar&quot; or &quot;.tar&quot; to &quot;.tar.gz&quot;) [Steph]
+ * add Phar::webPhar() for running a web-based application unmodified
+   directly from a phar archive [Greg]
+ * file functions (fopen-based and stat-based) can be instructed to only look for
+   relative paths within a phar via Phar::interceptFileFuncs()
+ * add PharData class to allow manipulation/creation of non-executable tar and zip archives. [Steph]
+   non-executable tar/zip manipulation is allowed even when phar.readonly=1 [Greg]
+ * paths with . and .. work (phar://blah.phar/a/../b.php =&gt; phar://blah.phar/b.php) [Greg]
+ * add support for mkdir()/rmdir() and support for empty directories to phar file format [Greg]
+ * add option to compress the entire phar file for phar/tar file format [Greg]
+ * implement Phar::isCompressed() returning 0, Phar::GZ or Phar::BZ2 [Greg]
+ * implement Phar::copy(string $from, string $to) [Greg]
+ * implement Phar::buildFromIterator(Iterator $it[, string $base_directory]) [Greg]
+ * implement Phar::mount() for mounting external paths or files to locations inside a phar [Greg]
+ * add Phar::delete() [Greg]</n>
+ <f>208891</f>
+ <g>http://pecl.php.net/get/phar-2.0.0a1</g>
+ <x xlink:href="package.2.0.0a1.xml"/>
+</r>

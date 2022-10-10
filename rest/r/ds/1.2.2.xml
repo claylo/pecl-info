@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ds">ds</p>
+ <c>pecl.php.net</c>
+ <v>1.2.2</v>
+ <st>stable</st>
+ <l>MIT License</l>
+ <m>rtheunissen</m>
+ <s>Data Structures</s>
+ <d>Data Structures for PHP 7</d>
+ <da>2017-08-07 13:52:17</da>
+ <n>- Segfault in ds_htable_lookup_bucket_by_hash. @gnoddep #86</n>
+ <f>50621</f>
+ <g>http://pecl.php.net/get/ds-1.2.2</g>
+ <x xlink:href="package.1.2.2.xml"/>
+</r>

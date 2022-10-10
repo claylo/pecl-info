@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/geospatial">geospatial</p>
+ <c>pecl.php.net</c>
+ <v>0.2.0</v>
+ <st>beta</st>
+ <l>PHP 3.01</l>
+ <m>derick</m>
+ <s>PHP Extension to handle common geospatial functions</s>
+ <d>The extension currently has implementations of the Haversine and
+ Vincenty's formulas for calculating distances, an initial bearing calculation
+ function, a Helmert transformation function to transfer between different
+ supported datums, conversions between polar and Cartesian coordinates,
+ conversions between Degree/Minute/Seconds and decimal degrees, a method to
+ simplify linear geometries, as well as a method to calculate intermediate
+ points on a LineString.</d>
+ <da>2017-12-29 12:12:43</da>
+ <n>- Fixed issue #16: Segfault on rdp_simplify for GeoJSON
+- Add Travis tests (Emir Beganovic)
+- Fixed issue #20: Add Geo Hashing functions geohash_encode and geohash_decode. (Emir Beganovic)</n>
+ <f>12614</f>
+ <g>http://pecl.php.net/get/geospatial-0.2.0</g>
+ <x xlink:href="package.0.2.0.xml"/>
+</r>

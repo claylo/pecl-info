@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/var_representation">var_representation</p>
+ <c>pecl.php.net</c>
+ <v>0.1.2</v>
+ <st>stable</st>
+ <l>BSD-3-Clause</l>
+ <m>tandre</m>
+ <s>A compact, more readable alternative to var_export.</s>
+ <d>var_representation is a compact alternative to var_export that properly escapes control characters</d>
+ <da>2022-08-31 00:28:02</da>
+ <n>* Switch from infinite recursion detection on the object's properties to infinite recursion detection on the object itself.
+  This conforms with the change to var_export/debug_zval_dump in php 8.2-dev,
+  and would allow data structures to safely start returning temporary arrays that can be garbage collected to save memory
+  (after dumping the representation) starting in php 8.2+.</n>
+ <f>13785</f>
+ <g>https://pecl.php.net/get/var_representation-0.1.2</g>
+ <x xlink:href="package.0.1.2.xml"/>
+</r>

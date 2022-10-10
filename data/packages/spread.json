@@ -1,0 +1,64 @@
+{
+    "category": "Networking",
+    "deprecated": false,
+    "description": "Provides a full interface to the Spread group communication\ntoolkit API.  Information on Spread can be found at http://www.spread.org/",
+    "latestReleaseDate": "2008-10-22T12:54:56+00:00",
+    "latestVersion": "2.1.0",
+    "license": "PHP License",
+    "name": "spread",
+    "php8Mentioned": false,
+    "releases": {
+        "2.1.0": {
+            "version": "2.1.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "rrichards",
+            "releaseDate": "2008-10-22T12:54:56+00:00",
+            "releaseNotes": "- Added optional parameter to connect() allowing receipt of\njoin/leave messages\n- service_type property added to received messages\n- membership data added to membership based messages\n- Spread::leave() method implemented\n- Add private group information (patch by Benjamin Schulz)\n- Spread::receive returns null on timeout",
+            "get": "http://pecl.php.net/get/spread-2.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.2": {
+            "version": "2.0.2",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "rrichards",
+            "releaseDate": "2008-06-09T10:09:42+00:00",
+            "releaseNotes": "- fix zts build (patch from Alexey Zakhlestin)\n-fix config scrip\n- fix bug #13965 (spread_receive() should be able to wait forever).\n  (patch from Alexey Zakhlestin)\n- 64 bit fixes\n- prevent potential overflow calling multicast\n- fix name collision with curl. (patch by Alexey Zakhlestin)",
+            "get": "http://pecl.php.net/get/spread-2.0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.1": {
+            "version": "2.0.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "rrichards",
+            "releaseDate": "2008-05-03T12:44:48+00:00",
+            "releaseNotes": "- fix misplaced parenthesis (patch by Kevin Murphy)\n- fix mem corruption calling receive multiple time",
+            "get": "http://pecl.php.net/get/spread-2.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.0": {
+            "version": "2.0.0",
+            "state": "alpha",
+            "license": "PHP License",
+            "releasedBy": "rrichards",
+            "releaseDate": "2008-03-24T07:29:27+00:00",
+            "releaseNotes": "- change API and method signatures\n- remove unimplemented functions/functionality\n- re-work much of the internal code\n- fix various segfaults and other memory issues",
+            "get": "http://pecl.php.net/get/spread-2.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.1": {
+            "version": "1.1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "gschlossnagle",
+            "releaseDate": "2002-10-17T05:45:00+00:00",
+            "releaseNotes": "Initial import into PECL",
+            "get": "http://pecl.php.net/get/spread-1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "A php interface to the Spread toolkit API",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

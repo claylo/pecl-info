@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ibm_db2">ibm_db2</p>
+ <c>pecl.php.net</c>
+ <v>2.1.0</v>
+ <st>stable</st>
+ <l>Apache License 2.0</l>
+ <m>theprez</m>
+ <s>Extension for IBM DB2 Universal Database, IBM Cloudscape, and
+        Apache Derby</s>
+ <d>This extension supports IBM DB2 Universal Database, IBM
+Cloudscape, and Apache Derby databases.</d>
+ <da>2020-11-30 22:51:56</da>
+ <n>* 2020-11-30: 2.1.0
+- Compatibility with PHP 8
+- Fix compatibility with 64-bit PASE/modern IBM i (sqlcli-dev package, pointer/integer width mismatch, XMLSERVICE location, etc)
+- Backport character trim from Zend Server
+- Major improvements to test suite (fix broken tests, less hardcoding)
+- Handle CCSID 65535 on IBM i
+- Fix warnings (returning void from non-void, etc)</n>
+ <f>195635</f>
+ <g>https://pecl.php.net/get/ibm_db2-2.1.0</g>
+ <x xlink:href="package.2.1.0.xml"/>
+</r>

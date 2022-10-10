@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xdebug">xdebug</p>
+ <c>pecl.php.net</c>
+ <v>2.4.0RC4</v>
+ <st>beta</st>
+ <l>BSD style</l>
+ <m>derick</m>
+ <s>Provides functions for function traces and profiling</s>
+ <d>The Xdebug extension helps you debugging your script by providing a lot of
+valuable debug information. The debug information that Xdebug can provide
+includes the following:
+
+    * stack and function traces in error messages with:
+          o full parameter display for user defined functions
+          o function name, file name and line indications
+          o support for member functions
+    * memory allocation
+    * protection for infinite recursions
+
+Xdebug also provides:
+
+    * profiling information for PHP scripts
+    * code coverage analysis
+    * capabilities to debug your scripts interactively with a debug client</d>
+ <da>2016-01-27 09:06:24</da>
+ <n>Mon, Jan 25, 2016 - xdebug 2.4.0RC4
+
+= Fixed bugs:
+
+  - Fixed issue #1220: Segmentation fault if var_dump() output is too large.
+  - Fixed issue #1223: Xdebug crashes on PHP 7 when doing a DBGp eval command.
+  - Fixed issue #1229: Issues with GCC 4.8, which in -O2 move removes some
+    required code.
+  - Fixed issue #1235: Xdebug does not compile against PHP 7.1-dev due to
+    ZEND_FETCH_STATIC_PROP*.
+  - Fixed issue #1236: Can't remove breakpoints with negative IDs.
+  - Fixed issue #1238: Xdebug crashes with SIGSEGV while enumerating references
+    in variables.
+  - Fixed issue #1239: Crash due to changes with the CATCH opcode's jump
+    mechanism in 7.1
+  - Fixed issue #1241: Xdebug doesn't handle FAST_RET and FAST_CALL opcodes for
+    branch/dead code analysis, and path coverage.
+  - Fixed issue #1245: xdebug_dump_superglobals dumps *uninitialized* with PHP
+    7.
+  - Fixed issue #1250: Add PHP version descriptors to debugging log and profile
+    files.</n>
+ <f>264477</f>
+ <g>http://pecl.php.net/get/xdebug-2.4.0RC4</g>
+ <x xlink:href="package.2.4.0RC4.xml"/>
+</r>

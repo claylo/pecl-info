@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/dazuko">dazuko</p>
+ <c>pecl.php.net</c>
+ <v>0.1</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>areaz2</m>
+ <s>Dazuko file-access-control</s>
+ <d>Dazuko (in german: (Da)tei (Zu)griffs (Ko)ntrolle)
+file-access-control allows you to communicate with the dazuko-kernel module
+(See: http://www.dazuko.org for details). 
+
+It is used to allow or disallow access to a file or directory, based upon
+the event, the file or directory was accessed. So it is possible to use
+dazuko to code virus scanners and other security frameworks.
+</d>
+ <da>2004-09-11 10:44:00</da>
+ <n>Initial release</n>
+ <f>52743</f>
+ <g>http://pecl.php.net/get/dazuko-0.1</g>
+ <x xlink:href="package.0.1.xml"/>
+</r>

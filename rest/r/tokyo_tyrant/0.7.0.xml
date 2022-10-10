@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/tokyo_tyrant">tokyo_tyrant</p>
+ <c>pecl.php.net</c>
+ <v>0.7.0</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>mkoppanen</m>
+ <s>Provides a wrapper to the Tokyo Tyrant client library.</s>
+ <d>tokyo_tyrant extension provides object oriented API for communicating
+with Tokyo Tyrant key-value store.
+
+This extension requires Tokyo Cabinet, Tokyo Tyrant and PHP version 5.2.0+.</d>
+ <da>2012-12-09 18:48:12</da>
+ <n>- PHP 5.4 support</n>
+ <f>26924</f>
+ <g>http://pecl.php.net/get/tokyo_tyrant-0.7.0</g>
+ <x xlink:href="package.0.7.0.xml"/>
+</r>

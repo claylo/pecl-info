@@ -1,0 +1,1568 @@
+{
+    "category": "HTTP",
+    "deprecated": false,
+    "description": "This HTTP extension aims to provide a convenient and powerful\nset of functionality for one of PHPs major applications.\n\nIt eases handling of HTTP urls, headers and messages, provides\nmeans for negotiation of a client's preferred content type,\nlanguage and charset, as well as a convenient way to send any\narbitrary data with caching and resuming capabilities.\n\nIt provides powerful request functionality with support for\nparallel requests.\n\nDocumentation:\nhttps://mdref.m6w6.name/http",
+    "latestReleaseDate": "2022-06-10T07:41:45+00:00",
+    "latestVersion": "4.2.3",
+    "license": "BSD-2-Clause",
+    "name": "pecl_http",
+    "php8Mentioned": true,
+    "releases": {
+        "4.2.3": {
+            "version": "4.2.3",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2022-06-10T07:41:45+00:00",
+            "releaseNotes": "* Fix http\\Client::requeue() not updating response callback",
+            "get": "https://pecl.php.net/get/pecl_http-4.2.3",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "3.3.0": {
+            "version": "3.3.0",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2022-06-10T07:40:53+00:00",
+            "releaseNotes": "* Fix http\\Client::requeue() not updating response callback\n* Backport bug fixes and features from v4:\n  * Fixed configure reliably finding the right libcurl features available\n  * Fixed cookie handling with libcurl 7.77+ and consistently across all\n    supported libcurl versions (follow-up to gh issue #116)\n  * Fixed cookies failing with libcurl >= 7.77 (see gh issue #116)\n  * Fixed tests using $_ENV instead of getenv() to find executables in PATH (see gh issue #113)\n  * Fixed configure on systems which do not provide icu-config\n  * Fixed gh-issue #89: Cookie handling cannot be disabled since v3.2.1\n  * Added http\\Env::reset(): resets internal HTTP request cache (see gh issue #90)\n  * Added request options:\n    * http\\Client\\Curl::$abstract_unix_socket\n    * http\\Client\\Curl::$altsvc\n    * http\\Client\\Curl::$altsvc_ctrl\n    * http\\Client\\Curl::$aws_sigv4\n    * http\\Client\\Curl::$doh_url\n    * http\\Client\\Curl::$dns_shuffle_addresses\n    * http\\Client\\Curl::$haproxy_protocol\n    * http\\Client\\Curl::$hsts\n    * http\\Client\\Curl::$hsts_ctrl\n    * http\\Client\\Curl::$http09_allowed\n    * http\\Client\\Curl::$maxage_conn\n    * http\\Client\\Curl::$pinned_publickey\n    * http\\Client\\Curl::$proxy_ssl\n    * http\\Client\\Curl::$socks5_auth\n    * http\\Client\\Curl::$tcp_fastopen\n    * http\\Client\\Curl::$tls13_ciphers\n    * http\\Client\\Curl::$xoauth2_bearer\n  * Added request option constants:\n    * http\\Client\\Curl\\AUTH_AWS_SIGV4\n    * http\\Client\\Curl\\AUTH_BEARER\n    * http\\Client\\Curl\\AUTH_NONE\n    * http\\Client\\Curl\\HTTP_VERSION_2_PRIOR_KNOWLEDGE\n    * http\\Client\\Curl\\HTTP_VERSION_3\n    * http\\Client\\Curl\\SSL_VERSION_MAX_*\n    * http\\Client\\Curl\\SSL_VERSION_TLSv1_3\n  * Added library version constants:\n    * http\\Client\\Curl\\Versions\\BROTLI\n    * http\\Client\\Curl\\Versions\\CAINFO\n    * http\\Client\\Curl\\Versions\\CAPATH\n    * http\\Client\\Curl\\Versions\\HYPER\n    * http\\Client\\Curl\\Versions\\ICONV\n    * http\\Client\\Curl\\Versions\\NGHTTP2\n    * http\\Client\\Curl\\Versions\\QUIC\n    * http\\Client\\Curl\\Versions\\ZSTD",
+            "get": "https://pecl.php.net/get/pecl_http-3.3.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "4.2.2": {
+            "version": "4.2.2",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2022-02-25T12:53:58+00:00",
+            "releaseNotes": "* Fixed gh-issue #123: Segfault with libcurl 7.81",
+            "get": "https://pecl.php.net/get/pecl_http-4.2.2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "3.2.5": {
+            "version": "3.2.5",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2022-02-25T12:51:07+00:00",
+            "releaseNotes": "* Fixed gh-issue #123: Segfault with libcurl 7.81",
+            "get": "https://pecl.php.net/get/pecl_http-3.2.5",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "4.2.1": {
+            "version": "4.2.1",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2021-09-13T10:51:41+00:00",
+            "releaseNotes": "* Fixed failing tests with PHP-8.1 (see gh issue #120)\n* Fixed configure reliably finding the right libcurl features available\n* Fixed cookie handling with libcurl 7.77+ and consistently across all \n  supported libcurl versions (follow-up to gh issue #116)",
+            "get": "https://pecl.php.net/get/pecl_http-4.2.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "4.2.0": {
+            "version": "4.2.0",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2021-08-30T12:19:20+00:00",
+            "releaseNotes": "* Fixed PHP-8.1 compatibility (see gh issues #114, #115 and #118)\n* Fixed cookies failing with libcurl >= 7.77 (see gh issue #116)\n* Fixed tests using $_ENV instead of getenv() to find executables in PATH (see gh issue #113)\n* Added http\\Env::reset(): resets internal HTTP request cache (see gh issue #90)",
+            "get": "https://pecl.php.net/get/pecl_http-4.2.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "4.1.0": {
+            "version": "4.1.0",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2021-04-19T08:33:33+00:00",
+            "releaseNotes": "* Added request options:\n * http\\Client\\Curl::$abstract_unix_socket\n * http\\Client\\Curl::$altsvc\n * http\\Client\\Curl::$altsvc_ctrl\n * http\\Client\\Curl::$aws_sigv4\n * http\\Client\\Curl::$doh_url\n * http\\Client\\Curl::$dns_shuffle_addresses\n * http\\Client\\Curl::$haproxy_protocol\n * http\\Client\\Curl::$hsts\n * http\\Client\\Curl::$hsts_ctrl\n * http\\Client\\Curl::$http09_allowed\n * http\\Client\\Curl::$maxage_conn\n * http\\Client\\Curl::$pinned_publickey\n * http\\Client\\Curl::$proxy_ssl\n * http\\Client\\Curl::$socks5_auth\n * http\\Client\\Curl::$tcp_fastopen\n * http\\Client\\Curl::$tls13_ciphers\n * http\\Client\\Curl::$xoauth2_bearer\n* Added request option constants:\n * http\\Client\\Curl\\AUTH_AWS_SIGV4\n * http\\Client\\Curl\\AUTH_BEARER\n * http\\Client\\Curl\\AUTH_NONE\n * http\\Client\\Curl\\HTTP_VERSION_2_PRIOR_KNOWLEDGE\n * http\\Client\\Curl\\HTTP_VERSION_3\n * http\\Client\\Curl\\SSL_VERSION_MAX_*\n * http\\Client\\Curl\\SSL_VERSION_TLSv1_3\n* Added library version constants:\n * http\\Client\\Curl\\Versions\\BROTLI\n * http\\Client\\Curl\\Versions\\CAINFO\n * http\\Client\\Curl\\Versions\\CAPATH\n * http\\Client\\Curl\\Versions\\HYPER\n * http\\Client\\Curl\\Versions\\ICONV\n * http\\Client\\Curl\\Versions\\NGHTTP2\n * http\\Client\\Curl\\Versions\\QUIC\n * http\\Client\\Curl\\Versions\\ZSTD",
+            "get": "https://pecl.php.net/get/pecl_http-4.1.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "4.0.0": {
+            "version": "4.0.0",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2021-01-13T15:35:44+00:00",
+            "releaseNotes": "> *NOTE:*  \n  v4.x is PHP-8 only.\n\n* PHP 8 compatibility\n  - Drop ext-propro support\n    PHP 8 removes the object get/set API from the ZendEngine, which renders\n    that extension dysfunctional. As a consequence, the header property of\n    http\\Message and derived classes cannot be modified in place, and thus\n    by reference.\n\nChanges from beta1:\n* Fixed configure on systems which do not provide icu-config\n* Fixed gh-issue #89: Cookie handling cannot be disabled since v3.2.1",
+            "get": "https://pecl.php.net/get/pecl_http-4.0.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "3.2.4": {
+            "version": "3.2.4",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2021-01-13T15:35:22+00:00",
+            "releaseNotes": "* Fixed configure on systems which do not provide icu-config\n* Fixed gh-issue #89: Cookie handling cannot be disabled since v3.2.1",
+            "get": "https://pecl.php.net/get/pecl_http-3.2.4",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "4.0.0beta1": {
+            "version": "4.0.0beta1",
+            "state": "beta",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2020-09-23T06:30:51+00:00",
+            "releaseNotes": ">*NOTE:*\nv4.x will be PHP-8 only, v3.x continues PHP-7 support\n\n* PHP 8 compatibility\n  - Drop ext-propro support\n    PHP 8 removes the object get/set API from the ZendEngine, which renders\n    that extension dysfunctional. As a consequence, the header property of\n    http\\Message and derived classes cannot be modified in place, and thus\n    by reference.",
+            "get": "https://pecl.php.net/get/pecl_http-4.0.0beta1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "3.2.3": {
+            "version": "3.2.3",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2019-10-29T07:33:19+00:00",
+            "releaseNotes": "* Fixed Windows build (Jan Ehrhardt)",
+            "get": "https://pecl.php.net/get/pecl_http-3.2.3",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "3.2.2": {
+            "version": "3.2.2",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2019-10-24T08:29:13+00:00",
+            "releaseNotes": "* PHP-7.4 compatibility\n* Fixed gh-issue #92: http\\Message\\Body::addForm() discards numeric names\n* Fixed gh-issue #95: typo in http\\Message::getResponseCode()'s error message",
+            "get": "https://pecl.php.net/get/pecl_http-3.2.2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "3.2.1": {
+            "version": "3.2.1",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2019-06-07T12:49:04+00:00",
+            "releaseNotes": "* Fixed gh-issue #88: Unable to run test suite (Remi Collet)\n* Fixed gh-issue #86: test failure with curl 7.64\n* Fixed gh-issue #85: [-Wformat-extra-args] build warnings\n* Fixed gh-issue #84: segfault and build failure since curl 7.62\n* Fixed gh-issue #82: Test harness improvements (Chris Wright)\n* Fixed gh-issue #64: compress and connecttimeout interfere with low_speed_limit (@rcanavan)\n* Fixed http\\QueryString::getGlobalInstance()\n* Fixed missing 2nd reflection argument info of http\\Client::notify()\n* Fixed PHP-7.4 compatibility",
+            "get": "https://pecl.php.net/get/pecl_http-3.2.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "3.2.0": {
+            "version": "3.2.0",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2018-07-19T11:18:04+00:00",
+            "releaseNotes": "* Fixed gh-issue #73: build fails with libidn and libidn2\n* Fixed gh-issue #78: PHP-7.3 build crashes\n* Fixed PHP-7.2 build crashes\n+ Added brotli compression support\n+ Implemented gh-issue #58: Notify observers before any request is built",
+            "get": "http://pecl.php.net/get/pecl_http-3.2.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "3.2.0RC1": {
+            "version": "3.2.0RC1",
+            "state": "beta",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2018-04-09T10:36:58+00:00",
+            "releaseNotes": "* PHP-7.2 compatibility\n* Fixed gh-issue #73: build fails with libidn and libidn2\n+ Added brotli compression support\n+ Implemented gh-issue #58: Notify observers before any request is built",
+            "get": "http://pecl.php.net/get/pecl_http-3.2.0RC1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "3.1.1RC1": {
+            "version": "3.1.1RC1",
+            "state": "beta",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2017-07-03T08:10:02+00:00",
+            "releaseNotes": "* Fix gh-issue #65: http\\Client::enqueue(): Could not enqueue request: The easy handle is already added to a multi handle (@rcanavan, Mike)\n* Fix gh-issue #66: SILENT_ERRORS flag not properly passed to parse_mb (@rcanavan, Mike)\n* Fix gh-issue #67: IGNORE_ERRORS should not drop \"invalid\" characters (@rcanavan, Mike)\n* Fix gh-issue #68 STDFLAGS not fully applied when creating http\\Client\\Request with URL as string (@rcanavan, Mike)\n* Fixed -Werror builds\n* Fixed big endian builds\n* Fixed builds against libcurl with gnutls, without libz or without ssl support",
+            "get": "http://pecl.php.net/get/pecl_http-3.1.1RC1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "3.1.0": {
+            "version": "3.1.0",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2016-12-12T09:06:03+00:00",
+            "releaseNotes": "+ Added http\\Client\\Curl\\User interface for userland event loops\n+ Added http\\Url::IGNORE_ERRORS, http\\Url::SILENT_ERRORS and http\\Url::STDFLAGS\n+ Added http\\Client::setDebug(callable $debug)\n+ Added http\\Client\\Curl\\FEATURES constants and namespace\n+ Added http\\Client\\Curl\\VERSIONS constants and namespace\n+ Added share_cookies and share_ssl (libcurl >= 7.23.0) options to http\\Client::configure()\n+ http\\Client uses curl_share handles to properly share cookies and SSL/TLS sessions between requests\n+ Improved configure checks for default CA bundles\n+ Improved negotiation precision\n* Fixed regression introduced by http\\Params::PARSE_RFC5987: negotiation using the params parser would receive param keys without the trailing asterisk, stripped by http\\Params::PARSE_RFC5987.\n* Fix gh-issue #50: http\\Client::dequeue() within http\\Client::setDebug() causes segfault (Mike, Maik Wagner)\n* Fix gh-issue #47: http\\Url: Null pointer deref in sanitize_value() (Mike, @rc0r)\n* Fix gh-issue #45: HTTP/2 response message parsing broken with libcurl >= 7.49.1 (Mike)\n* Fix gh-issue #43: Joining query with empty original variable in query (Mike, Sander Backus)\n* Fix gh-issue #42: fatal error when using punycode in URLs (Mike, Sebastian Thielen)\n* Fix gh-issue #41: Use curl_version_info_data.features when initializing options (Mike)\n* Fix gh-issue #40: determinde the SSL backend used by curl at runtime (Mike, @rcanavan)\n* Fix gh-issue #39: Notice: http\\Client::enqueue(): Could not set option proxy_service_name (Mike, @rcanavan)\n* Fix gh-issue #38: Persistent curl handles: error code not properly reset (Mike, @afflerbach)\n* Fix gh-issue #36: Unexpected cookies sent if persistent_handle_id is used (Mike, @rcanavan, @afflerbach)\n* Fix gh-issue #34: allow setting multiple headers with the same name (Mike, @rcanavan)\n* Fix gh-issue #33: allow setting prodyhost request option to NULL (Mike, @rcanavan)\n* Fix gh-issue #31: add/improve configure checks for default CA bundle/path (Mike, @rcanavan)\n\nChanges from beta1:\n* Fixed recursive calls to the event loop dispatcher\n\nChanges from beta2:\n+ Improved configure checks for IDNA libraries (added --with-http-libicu-dir, --with-http-libidnkit{,2}-dir, --with-http-libidn2-dir)\n* Fix bug #73055: crash in http\\QueryString (Mike, @rc0r) (CVE-2016-7398)\n* Fix bug #73185: Buffer overflow in HTTP parse_hostinfo() (Mike, @rc0r) (CVE-2016-7961)\n* Fix HTTP/2 version parser for older libcurl versions (Mike)\n* Fix gh-issue #52: Underscores in host names: libidn Failed to parse IDN (Mike, @canavan)",
+            "get": "http://pecl.php.net/get/pecl_http-3.1.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.6.0": {
+            "version": "2.6.0",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2016-12-12T08:17:13+00:00",
+            "releaseNotes": "+ Added http\\Client\\Curl\\User interface for userland event loops\n+ Added http\\Url::IGNORE_ERRORS, http\\Url::SILENT_ERRORS and http\\Url::STDFLAGS\n+ Added http\\Client::setDebug(callable $debug)\n+ Added http\\Client\\Curl\\FEATURES constants and namespace\n+ Added http\\Client\\Curl\\VERSIONS constants and namespace\n+ Added share_cookies and share_ssl (libcurl >= 7.23.0) options to http\\Client::configure()\n+ http\\Client uses curl_share handles to properly share cookies and SSL/TLS sessions between requests\n+ Improved configure checks for default CA bundles\n+ Improved negotiation precision\n* Fixed regression introduced by http\\Params::PARSE_RFC5987: negotiation using the params parser would receive param keys without the trailing asterisk, stripped by http\\Params::PARSE_RFC5987.\n* Fix gh-issue #50: http\\Client::dequeue() within http\\Client::setDebug() causes segfault (Mike, Maik Wagner)\n* Fix gh-issue #47: http\\Url: Null pointer deref in sanitize_value() (Mike, @rc0r)\n* Fix gh-issue #45: HTTP/2 response message parsing broken with libcurl >= 7.49.1 (Mike)\n* Fix gh-issue #43: Joining query with empty original variable in query (Mike, Sander Backus)\n* Fix gh-issue #42: fatal error when using punycode in URLs (Mike, Sebastian Thielen)\n* Fix gh-issue #41: Use curl_version_info_data.features when initializing options (Mike)\n* Fix gh-issue #40: determinde the SSL backend used by curl at runtime (Mike, @rcanavan)\n* Fix gh-issue #39: Notice: http\\Client::enqueue(): Could not set option proxy_service_name (Mike, @rcanavan)\n* Fix gh-issue #38: Persistent curl handles: error code not properly reset (Mike, @afflerbach)\n* Fix gh-issue #36: Unexpected cookies sent if persistent_handle_id is used (Mike, @rcanavan, @afflerbach)\n* Fix gh-issue #34: allow setting multiple headers with the same name (Mike, @rcanavan)\n* Fix gh-issue #33: allow setting prodyhost request option to NULL (Mike, @rcanavan)\n* Fix gh-issue #31: add/improve configure checks for default CA bundle/path (Mike, @rcanavan) \n\nChanges from beta1:\n* Fixed PHP-5.3 compatibility\n* Fixed recursive calls to the event loop dispatcher\n\nChanges from beta2:\n* Fix bug #73055: crash in http\\QueryString (Mike, @rc0r) (CVE-2016-7398)\n* Fix bug #73185: Buffer overflow in HTTP parse_hostinfo() (Mike, @rc0r) (CVE-2016-7961)\n* Fix HTTP/2 version parser for older libcurl versions (Mike)",
+            "get": "http://pecl.php.net/get/pecl_http-2.6.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "3.1.0RC1": {
+            "version": "3.1.0RC1",
+            "state": "beta",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2016-10-04T15:41:22+00:00",
+            "releaseNotes": "+ Added http\\Client\\Curl\\User interface for userland event loops\n+ Added http\\Url::IGNORE_ERRORS, http\\Url::SILENT_ERRORS and http\\Url::STDFLAGS\n+ Added http\\Client::setDebug(callable $debug)\n+ Added http\\Client\\Curl\\FEATURES constants and namespace\n+ Added http\\Client\\Curl\\VERSIONS constants and namespace\n+ Added share_cookies and share_ssl (libcurl >= 7.23.0) options to http\\Client::configure()\n+ http\\Client uses curl_share handles to properly share cookies and SSL/TLS sessions between requests\n+ Improved configure checks for default CA bundles\n+ Improved negotiation precision\n* Fixed regression introduced by http\\Params::PARSE_RFC5987: negotiation using the params parser would receive param keys without the trailing asterisk, stripped by http\\Params::PARSE_RFC5987.\n* Fix gh-issue #50: http\\Client::dequeue() within http\\Client::setDebug() causes segfault (Mike, Maik Wagner)\n* Fix gh-issue #47: http\\Url: Null pointer deref in sanitize_value() (Mike, @rc0r)\n* Fix gh-issue #45: HTTP/2 response message parsing broken with libcurl >= 7.49.1 (Mike)\n* Fix gh-issue #43: Joining query with empty original variable in query (Mike, Sander Backus)\n* Fix gh-issue #42: fatal error when using punycode in URLs (Mike, Sebastian Thielen)\n* Fix gh-issue #41: Use curl_version_info_data.features when initializing options (Mike)\n* Fix gh-issue #40: determinde the SSL backend used by curl at runtime (Mike, @rcanavan)\n* Fix gh-issue #39: Notice: http\\Client::enqueue(): Could not set option proxy_service_name (Mike, @rcanavan)\n* Fix gh-issue #38: Persistent curl handles: error code not properly reset (Mike, @afflerbach)\n* Fix gh-issue #36: Unexpected cookies sent if persistent_handle_id is used (Mike, @rcanavan, @afflerbach)\n* Fix gh-issue #34: allow setting multiple headers with the same name (Mike, @rcanavan)\n* Fix gh-issue #33: allow setting prodyhost request option to NULL (Mike, @rcanavan)\n* Fix gh-issue #31: add/improve configure checks for default CA bundle/path (Mike, @rcanavan)\n\nChanges from beta1:\n* Fixed recursive calls to the event loop dispatcher\n\nChanges from beta2:\n+ Improved configure checks for IDNA libraries (added --with-http-libicu-dir, --with-http-libidnkit{,2}-dir, --with-http-libidn2-dir)\n* Fix bug #73055: crash in http\\QueryString (Mike, @rc0r) (CVE-2016-7398)\n* Fix bug #73185: Buffer overflow in HTTP parse_hostinfo() (Mike, @rc0r)\n* Fix HTTP/2 version parser for older libcurl versions (Mike)\n* Fix gh-issue #52: Underscores in host names: libidn Failed to parse IDN (Mike, @canavan)",
+            "get": "http://pecl.php.net/get/pecl_http-3.1.0RC1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.6.0RC1": {
+            "version": "2.6.0RC1",
+            "state": "beta",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2016-10-04T15:40:11+00:00",
+            "releaseNotes": "+ Added http\\Client\\Curl\\User interface for userland event loops\n+ Added http\\Url::IGNORE_ERRORS, http\\Url::SILENT_ERRORS and http\\Url::STDFLAGS\n+ Added http\\Client::setDebug(callable $debug)\n+ Added http\\Client\\Curl\\FEATURES constants and namespace\n+ Added http\\Client\\Curl\\VERSIONS constants and namespace\n+ Added share_cookies and share_ssl (libcurl >= 7.23.0) options to http\\Client::configure()\n+ http\\Client uses curl_share handles to properly share cookies and SSL/TLS sessions between requests\n+ Improved configure checks for default CA bundles\n+ Improved negotiation precision\n* Fixed regression introduced by http\\Params::PARSE_RFC5987: negotiation using the params parser would receive param keys without the trailing asterisk, stripped by http\\Params::PARSE_RFC5987.\n* Fix gh-issue #50: http\\Client::dequeue() within http\\Client::setDebug() causes segfault (Mike, Maik Wagner)\n* Fix gh-issue #47: http\\Url: Null pointer deref in sanitize_value() (Mike, @rc0r)\n* Fix gh-issue #45: HTTP/2 response message parsing broken with libcurl >= 7.49.1 (Mike)\n* Fix gh-issue #43: Joining query with empty original variable in query (Mike, Sander Backus)\n* Fix gh-issue #42: fatal error when using punycode in URLs (Mike, Sebastian Thielen)\n* Fix gh-issue #41: Use curl_version_info_data.features when initializing options (Mike)\n* Fix gh-issue #40: determinde the SSL backend used by curl at runtime (Mike, @rcanavan)\n* Fix gh-issue #39: Notice: http\\Client::enqueue(): Could not set option proxy_service_name (Mike, @rcanavan)\n* Fix gh-issue #38: Persistent curl handles: error code not properly reset (Mike, @afflerbach)\n* Fix gh-issue #36: Unexpected cookies sent if persistent_handle_id is used (Mike, @rcanavan, @afflerbach)\n* Fix gh-issue #34: allow setting multiple headers with the same name (Mike, @rcanavan)\n* Fix gh-issue #33: allow setting prodyhost request option to NULL (Mike, @rcanavan)\n* Fix gh-issue #31: add/improve configure checks for default CA bundle/path (Mike, @rcanavan) \n\nChanges from beta1:\n* Fixed PHP-5.3 compatibility\n* Fixed recursive calls to the event loop dispatcher\n\nChanges from beta2:\n* Fix bug #73055: crash in http\\QueryString (Mike, @rc0r) (CVE-2016-7398)\n* Fix bug #73185: Buffer overflow in HTTP parse_hostinfo() (Mike, @rc0r)\n* Fix HTTP/2 version parser for older libcurl versions (Mike)",
+            "get": "http://pecl.php.net/get/pecl_http-2.6.0RC1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "3.1.0beta2": {
+            "version": "3.1.0beta2",
+            "state": "beta",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2016-09-07T07:14:29+00:00",
+            "releaseNotes": "+ Added http\\Client\\Curl\\User interface for userland event loops\n+ Added http\\Url::IGNORE_ERRORS, http\\Url::SILENT_ERRORS and http\\Url::STDFLAGS\n+ Added http\\Client::setDebug(callable $debug)\n+ Added http\\Client\\Curl\\FEATURES constants and namespace\n+ Added http\\Client\\Curl\\VERSIONS constants and namespace\n+ Added share_cookies and share_ssl (libcurl >= 7.23.0) options to http\\Client::configure()\n+ http\\Client uses curl_share handles to properly share cookies and SSL/TLS sessions between requests\n+ Improved configure checks for default CA bundles\n+ Improved negotiation precision\n* Fixed regression introduced by http\\Params::PARSE_RFC5987: negotiation using the params parser would receive param keys without the trailing asterisk, stripped by http\\Params::PARSE_RFC5987.\n* Fix gh-issue #50: http\\Client::dequeue() within http\\Client::setDebug() causes segfault (Mike, Maik Wagner)\n* Fix gh-issue #47: http\\Url: Null pointer deref in sanitize_value() (Mike, @rc0r)\n* Fix gh-issue #45: HTTP/2 response message parsing broken with libcurl >= 7.49.1 (Mike)\n* Fix gh-issue #43: Joining query with empty original variable in query (Mike, Sander Backus)\n* Fix gh-issue #42: fatal error when using punycode in URLs (Mike, Sebastian Thielen)\n* Fix gh-issue #41: Use curl_version_info_data.features when initializing options (Mike)\n* Fix gh-issue #40: determinde the SSL backend used by curl at runtime (Mike, @rcanavan)\n* Fix gh-issue #39: Notice: http\\Client::enqueue(): Could not set option proxy_service_name (Mike, @rcanavan)\n* Fix gh-issue #38: Persistent curl handles: error code not properly reset (Mike, @afflerbach)\n* Fix gh-issue #36: Unexpected cookies sent if persistent_handle_id is used (Mike, @rcanavan, @afflerbach)\n* Fix gh-issue #34: allow setting multiple headers with the same name (Mike, @rcanavan)\n* Fix gh-issue #33: allow setting prodyhost request option to NULL (Mike, @rcanavan)\n* Fix gh-issue #31: add/improve configure checks for default CA bundle/path (Mike, @rcanavan)\n\nChanges from beta1:\n* Fixed recursive calls to the event loop dispatcher",
+            "get": "http://pecl.php.net/get/pecl_http-3.1.0beta2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.6.0beta2": {
+            "version": "2.6.0beta2",
+            "state": "beta",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2016-09-07T07:13:56+00:00",
+            "releaseNotes": "+ Added http\\Client\\Curl\\User interface for userland event loops\n+ Added http\\Url::IGNORE_ERRORS, http\\Url::SILENT_ERRORS and http\\Url::STDFLAGS\n+ Added http\\Client::setDebug(callable $debug)\n+ Added http\\Client\\Curl\\FEATURES constants and namespace\n+ Added http\\Client\\Curl\\VERSIONS constants and namespace\n+ Added share_cookies and share_ssl (libcurl >= 7.23.0) options to http\\Client::configure()\n+ http\\Client uses curl_share handles to properly share cookies and SSL/TLS sessions between requests\n+ Improved configure checks for default CA bundles\n+ Improved negotiation precision\n* Fixed regression introduced by http\\Params::PARSE_RFC5987: negotiation using the params parser would receive param keys without the trailing asterisk, stripped by http\\Params::PARSE_RFC5987.\n* Fix gh-issue #50: http\\Client::dequeue() within http\\Client::setDebug() causes segfault (Mike, Maik Wagner)\n* Fix gh-issue #47: http\\Url: Null pointer deref in sanitize_value() (Mike, @rc0r)\n* Fix gh-issue #45: HTTP/2 response message parsing broken with libcurl >= 7.49.1 (Mike)\n* Fix gh-issue #43: Joining query with empty original variable in query (Mike, Sander Backus)\n* Fix gh-issue #42: fatal error when using punycode in URLs (Mike, Sebastian Thielen)\n* Fix gh-issue #41: Use curl_version_info_data.features when initializing options (Mike)\n* Fix gh-issue #40: determinde the SSL backend used by curl at runtime (Mike, @rcanavan)\n* Fix gh-issue #39: Notice: http\\Client::enqueue(): Could not set option proxy_service_name (Mike, @rcanavan)\n* Fix gh-issue #38: Persistent curl handles: error code not properly reset (Mike, @afflerbach)\n* Fix gh-issue #36: Unexpected cookies sent if persistent_handle_id is used (Mike, @rcanavan, @afflerbach)\n* Fix gh-issue #34: allow setting multiple headers with the same name (Mike, @rcanavan)\n* Fix gh-issue #33: allow setting prodyhost request option to NULL (Mike, @rcanavan)\n* Fix gh-issue #31: add/improve configure checks for default CA bundle/path (Mike, @rcanavan) \n\nChanges from beta1:\n* Fixed PHP-5.3 compatibility\n* Fixed recursive calls to the event loop dispatcher",
+            "get": "http://pecl.php.net/get/pecl_http-2.6.0beta2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "3.1.0beta1": {
+            "version": "3.1.0beta1",
+            "state": "beta",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2016-08-22T13:52:04+00:00",
+            "releaseNotes": "+ Added http\\Client\\Curl\\User interface for userland event loops\n+ Added http\\Url::IGNORE_ERRORS, http\\Url::SILENT_ERRORS and http\\Url::STDFLAGS\n+ Added http\\Client::setDebug(callable $debug)\n+ Added http\\Client\\Curl\\FEATURES constants and namespace\n+ Added http\\Client\\Curl\\VERSIONS constants and namespace\n+ Added share_cookies and share_ssl (libcurl >= 7.23.0) options to http\\Client::configure()\n+ http\\Client uses curl_share handles to properly share cookies and SSL/TLS sessions between requests\n+ Improved configure checks for default CA bundles\n+ Improved negotiation precision\n* Fixed regression introduced by http\\Params::PARSE_RFC5987: negotiation using the params parser would receive param keys without the trailing asterisk, stripped by http\\Params::PARSE_RFC5987.\n* Fix gh-issue #50: http\\Client::dequeue() within http\\Client::setDebug() causes segfault (Mike, Maik Wagner)\n* Fix gh-issue #47: http\\Url: Null pointer deref in sanitize_value() (Mike, @rc0r)\n* Fix gh-issue #45: HTTP/2 response message parsing broken with libcurl >= 7.49.1 (Mike)\n* Fix gh-issue #43: Joining query with empty original variable in query (Mike, Sander Backus)\n* Fix gh-issue #42: fatal error when using punycode in URLs (Mike, Sebastian Thielen)\n* Fix gh-issue #41: Use curl_version_info_data.features when initializing options (Mike)\n* Fix gh-issue #40: determinde the SSL backend used by curl at runtime (Mike, @rcanavan)\n* Fix gh-issue #39: Notice: http\\Client::enqueue(): Could not set option proxy_service_name (Mike, @rcanavan)\n* Fix gh-issue #38: Persistent curl handles: error code not properly reset (Mike, @afflerbach)\n* Fix gh-issue #36: Unexpected cookies sent if persistent_handle_id is used (Mike, @rcanavan, @afflerbach)\n* Fix gh-issue #34: allow setting multiple headers with the same name (Mike, @rcanavan)\n* Fix gh-issue #33: allow setting prodyhost request option to NULL (Mike, @rcanavan)\n* Fix gh-issue #31: add/improve configure checks for default CA bundle/path (Mike, @rcanavan)",
+            "get": "http://pecl.php.net/get/pecl_http-3.1.0beta1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.6.0beta1": {
+            "version": "2.6.0beta1",
+            "state": "beta",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2016-08-22T13:51:32+00:00",
+            "releaseNotes": "+ Added http\\Client\\Curl\\User interface for userland event loops\n+ Added http\\Url::IGNORE_ERRORS, http\\Url::SILENT_ERRORS and http\\Url::STDFLAGS\n+ Added http\\Client::setDebug(callable $debug)\n+ Added http\\Client\\Curl\\FEATURES constants and namespace\n+ Added http\\Client\\Curl\\VERSIONS constants and namespace\n+ Added share_cookies and share_ssl (libcurl >= 7.23.0) options to http\\Client::configure()\n+ http\\Client uses curl_share handles to properly share cookies and SSL/TLS sessions between requests\n+ Improved configure checks for default CA bundles\n+ Improved negotiation precision\n* Fixed regression introduced by http\\Params::PARSE_RFC5987: negotiation using the params parser would receive param keys without the trailing asterisk, stripped by http\\Params::PARSE_RFC5987.\n* Fix gh-issue #50: http\\Client::dequeue() within http\\Client::setDebug() causes segfault (Mike, Maik Wagner)\n* Fix gh-issue #47: http\\Url: Null pointer deref in sanitize_value() (Mike, @rc0r)\n* Fix gh-issue #45: HTTP/2 response message parsing broken with libcurl >= 7.49.1 (Mike)\n* Fix gh-issue #43: Joining query with empty original variable in query (Mike, Sander Backus)\n* Fix gh-issue #42: fatal error when using punycode in URLs (Mike, Sebastian Thielen)\n* Fix gh-issue #41: Use curl_version_info_data.features when initializing options (Mike)\n* Fix gh-issue #40: determinde the SSL backend used by curl at runtime (Mike, @rcanavan)\n* Fix gh-issue #39: Notice: http\\Client::enqueue(): Could not set option proxy_service_name (Mike, @rcanavan)\n* Fix gh-issue #38: Persistent curl handles: error code not properly reset (Mike, @afflerbach)\n* Fix gh-issue #36: Unexpected cookies sent if persistent_handle_id is used (Mike, @rcanavan, @afflerbach)\n* Fix gh-issue #34: allow setting multiple headers with the same name (Mike, @rcanavan)\n* Fix gh-issue #33: allow setting prodyhost request option to NULL (Mike, @rcanavan)\n* Fix gh-issue #31: add/improve configure checks for default CA bundle/path (Mike, @rcanavan)",
+            "get": "http://pecl.php.net/get/pecl_http-2.6.0beta1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "3.0.1": {
+            "version": "3.0.1",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2016-03-09T11:34:58+00:00",
+            "releaseNotes": "* Fix php-bug #71719: Buffer overflow in HTTP url parsing functions (Mike, rc0r)\n* Fix gh-issue #28: Possible null pointer dereference in php_http_url_mod() (rc0r)\n* Fix gh-issue #21: Fix PHP7 config.w32 (Jan Ehrhardt)\n* Fix gh-issue #20: setSslOptions notice with curl 7.43 (Mike, Vitaliy Demidov)",
+            "get": "http://pecl.php.net/get/pecl_http-3.0.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.5.6": {
+            "version": "2.5.6",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2016-03-09T11:34:36+00:00",
+            "releaseNotes": "* Fix php-bug #71719: Buffer overflow in HTTP url parsing functions (Mike, rc0r)\n* Fix gh-issue #28: Possible null pointer dereference in php_http_url_mod() (rc0r)\n* Fix gh-issue #22: Fix PHP5 config.w32 (Jan Ehrhardt)\n* Fix gh-issue #20: setSslOptions notice with curl 7.43 (Mike, Vitaliy Demidov)",
+            "get": "http://pecl.php.net/get/pecl_http-2.5.6",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "3.0.0": {
+            "version": "3.0.0",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2016-01-19T11:02:09+00:00",
+            "releaseNotes": "PHP7 compatible release based on the 2.5.x series with the following backwards incompatible changes:\n- removed http\\Url::FROM_ENV from the default flags of the http\\Url constructor, use http\\Env\\Url instead",
+            "get": "http://pecl.php.net/get/pecl_http-3.0.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "3.0.0RC1": {
+            "version": "3.0.0RC1",
+            "state": "beta",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2015-12-07T08:27:51+00:00",
+            "releaseNotes": "PHP7 compatible release based on the 2.5.x series with the following backwards incompatible changes:\n- removed http\\Url::FROM_ENV from the default flags of the http\\Url constructor, use http\\Env\\Url instead",
+            "get": "http://pecl.php.net/get/pecl_http-3.0.0RC1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.5.5": {
+            "version": "2.5.5",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2015-12-07T08:22:42+00:00",
+            "releaseNotes": "* Fixed gh-issue #16: No Content-Length header with empty POST requests",
+            "get": "http://pecl.php.net/get/pecl_http-2.5.5",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.5.3": {
+            "version": "2.5.3",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2015-09-25T12:18:12+00:00",
+            "releaseNotes": "* Fixed gh-issue #12: crash on bad url passed to http\\Message::setRequestUrl()\n* The URL parser now fails on empty labels",
+            "get": "http://pecl.php.net/get/pecl_http-2.5.3",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.5.2": {
+            "version": "2.5.2",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2015-09-10T06:25:40+00:00",
+            "releaseNotes": "* Fixed regression with HEAD requests always warning about a partial file transfer\n+ Added \"path_as_is\" request option (libcurl >= 7.42)",
+            "get": "http://pecl.php.net/get/pecl_http-2.5.2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.5.1": {
+            "version": "2.5.1",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2015-07-28T08:22:22+00:00",
+            "releaseNotes": "* Fixed VC11 build (Jan Erhardt)\n* Fixed gh-issue #2: comparison of obsolete pointers in the header parser (xiaoyjy)\n* Fixed gh-issue #6: allow RFC1738 unsafe characters in query/fragment\n* Fixed gh-issue #7: crash with querystring and exception from error handler\n+ SSL certinfo is available for libcurl >= 7.42 with gnutls (openssl has already been since 7.19.1)\n+ Added \"falsestart\" SSL request option (available with libcurl >= 7.42 and darwinssl/NSS)\n+ Added \"service_name\" and \"proxy_service_name\" request options for SPNEGO (available with libcurl >= 7.43)\n+ Enabled \"certinfo\" transfer info on all supporting SSL backends (OpenSSL: libcurl v7.19.1, NSS: libcurl v7.34.0, GSKit: libcurl v7.39.0, GnuTLS: libcurl v7.42.0)",
+            "get": "http://pecl.php.net/get/pecl_http-2.5.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.5.0": {
+            "version": "2.5.0",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2015-07-09T06:58:11+00:00",
+            "releaseNotes": "+ Added RFC5988 (Web Linking) support to http\\Params\n+ Added http\\Url::SANITIZE_PATH to default flags of http\\Url::mod()\n* Fixed overly aggressive response caching to only consider 2xx cachable",
+            "get": "http://pecl.php.net/get/pecl_http-2.5.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.5.0RC1": {
+            "version": "2.5.0RC1",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2015-05-21T12:47:27+00:00",
+            "releaseNotes": "* Added RFC5988 (Web Linking) support to http\\Params\n* Added http\\Url::SANITIZE_PATH to default flags of http\\Url::mod()\n* Fixed overly aggressive response chaching to only consider 2xx cachable",
+            "get": "http://pecl.php.net/get/pecl_http-2.5.0RC1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.4.3": {
+            "version": "2.4.3",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2015-04-08T10:16:23+00:00",
+            "releaseNotes": "* Fixed bug #69357 (HTTP/1.1 100 Continue overriding subsequent 200 response code with PUT request)",
+            "get": "http://pecl.php.net/get/pecl_http-2.4.3",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.4.2": {
+            "version": "2.4.2",
+            "state": "stable"
+        },
+        "2.4.1": {
+            "version": "2.4.1",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2015-03-18T02:20:47+00:00",
+            "releaseNotes": "* Fixed build with PHP <= 5.4 (Remi)",
+            "get": "http://pecl.php.net/get/pecl_http-2.4.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.4.0": {
+            "version": "2.4.0",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2015-03-18T01:47:56+00:00",
+            "releaseNotes": "* Split off pecl/apfd and pecl/json_post",
+            "get": "http://pecl.php.net/get/pecl_http-2.4.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.3.2": {
+            "version": "2.3.2",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2015-03-12T01:26:51+00:00",
+            "releaseNotes": "* Fixed bug with http\\QueryString::offsetSet() resetting the complete query string",
+            "get": "http://pecl.php.net/get/pecl_http-2.3.2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.3.1": {
+            "version": "2.3.1",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2015-03-02T09:08:07+00:00",
+            "releaseNotes": "* Fixed build on platforms that need stddef.h to define ptrdiff_t (e.g. CentOS 7.5)",
+            "get": "http://pecl.php.net/get/pecl_http-2.3.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.3.0": {
+            "version": "2.3.0",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2015-03-01T08:36:04+00:00",
+            "releaseNotes": "+ Preliminiary HTTP2 support for http\\Client (libcurl with nghttp2 support)\n+ Improved performance of HTTP info parser (request/response line)\n+ Improved performance of updating client observers\n+ Improved performance of http\\Env\\Response output to streams\n+ Improved the error messages of the header parser\n+ Added http\\Header\\Parser class\n+ Added http\\Client::configure() method accepting an array with the following options for libcurl:\n  . maxconnects (int, size of the connection cache)\n  . max_host_connections (int, max number of connections to a single host, libcurl >= 7.30.0)\n  . max_pipeline_length (int, max number of requests in a pipeline, libcurl >= 7.30.0)\n  . max_total_connections (int, max number of simultaneous open connections of this client, libcurl >= 7.30.0)\n  . pipelining (bool, whether to enable HTTP/1.1 pipelining)\n  . chunk_length_penalty_size (int, chunk length threshold for pipelining, libcurl >= 7.30.0)\n  . content_length_penalty_size (int, size threshold for pipelining, libcurl >= 7.30.0)\n  . pipelining_server_bl (array, list of server software names to blacklist for pipelining, libcurl >= 7.30.0)\n  . pipelining_site_bl (array, list of server host names to blacklist for pipelining, libcurl >= 7.30.0)\n  . use_eventloop (bool, whether to use libevent, libcurl+libevent)\n+ Added http\\Client::getAvailableOptions() and http\\Client::getAvailableConfiguration() methods\n+ Added support for HTTP2 if libcurl was built with nghttp2 support.\n+ Added http\\Client\\Curl\\HTTP_VERSION_2_0 constant (libcurl >= 7.33.0)\n+ Added http\\Client\\Curl\\TLS_AUTH_SRP constant (libcurl >= 7.21.4)\n+ Added pinned_publickey SSL request option (libcurl >= 7.39.0)\n+ Added tlsauthtype, tlsauthuser and tlsauthpass SSL request option (libcurl >= 7.21.4)\n+ Added verifystatus (a.k.a OCSP) SSL request option (libcurl >= 7.41.0)\n+ Added proxyheader request option (libcurl >= 7.37.0)\n+ Added unix_socket_path request option (libcurl >= 7.40.0)\n* Fixed compress request option\n* Fixed parsing authorities of CONNECT messages\n* Fixed parsing Content-Range messages\n* Fixed http\\Env\\Response to default to chunked encoding over streams\n* Fixed superfluous output of Content-Length:0 headers\n* Fixed persistent easy handles to be only created for persistent multi handles\n* Fixed the header parser to accept not-yet-complete header lines\n* Fixed http\\Message::toStream() crash in ZTS mode\n* Fixed the message stream parser to handle intermediary data bigger than 4k\n* Fixed the message stream parser to handle single header lines without EOL\n* Fixed http\\Message\\Body to not generate stat based etags for temporary streams\n- Deprecated http\\Client::enablePipelining(), use http\\Client::configure([\"pipelining\" => true]) instead\n- Deprecated http\\Client::enableEvents(), use http\\Client::configure([\"use_eventloop\" => true]) instead\n- Removed the cookies entry from the transfer info, wich was very slow and generated a Netscape formatted list of cookies\n- Changed the header parser to reject illegal characters\n\nChanges from RC1:\n* Fixed a shutdown crash with chunked encoded stream responses",
+            "get": "http://pecl.php.net/get/pecl_http-2.3.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.3.0RC1": {
+            "version": "2.3.0RC1",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2015-02-19T03:31:37+00:00",
+            "releaseNotes": "+ Preliminiary HTTP2 support for http\\Client (libcurl with nghttp2 support)\n+ Improved performance of HTTP info parser (request/response line)\n+ Improved performance of updating client observers\n+ Improved performance of http\\Env\\Response output to streams\n+ Improved the error messages of the header parser\n+ Added http\\Header\\Parser class\n+ Added http\\Client::configure() method accepting an array with the following options for libcurl:\n  . maxconnects (int, size of the connection cache)\n  . max_host_connections (int, max number of connections to a single host, libcurl >= 7.30.0)\n  . max_pipeline_length (int, max number of requests in a pipeline, libcurl >= 7.30.0)\n  . max_total_connections (int, max number of simultaneous open connections of this client, libcurl >= 7.30.0)\n  . pipelining (bool, whether to enable HTTP/1.1 pipelining)\n  . chunk_length_penalty_size (int, chunk length threshold for pipelining, libcurl >= 7.30.0)\n  . content_length_penalty_size (int, size threshold for pipelining, libcurl >= 7.30.0)\n  . pipelining_server_bl (array, list of server software names to blacklist for pipelining, libcurl >= 7.30.0)\n  . pipelining_site_bl (array, list of server host names to blacklist for pipelining, libcurl >= 7.30.0)\n  . use_eventloop (bool, whether to use libevent, libcurl+libevent)\n+ Added http\\Client::getAvailableOptions() and http\\Client::getAvailableConfiguration() methods\n+ Added support for HTTP2 if libcurl was built with nghttp2 support.\n+ Added http\\Client\\Curl\\HTTP_VERSION_2_0 constant (libcurl >= 7.33.0)\n+ Added http\\Client\\Curl\\TLS_AUTH_SRP constant (libcurl >= 7.21.4)\n+ Added pinned_publickey SSL request option (libcurl >= 7.39.0)\n+ Added tlsauthtype, tlsauthuser and tlsauthpass SSL request option (libcurl >= 7.21.4)\n+ Added verifystatus (a.k.a OCSP) SSL request option (libcurl >= 7.41.0)\n+ Added proxyheader request option (libcurl >= 7.37.0)\n+ Added unix_socket_path request option (libcurl >= 7.40.0)\n* Fixed compress request option\n* Fixed parsing authorities of CONNECT messages\n* Fixed parsing Content-Range messages\n* Fixed http\\Env\\Response to default to chunked encoding over streams\n* Fixed superfluous output of Content-Length:0 headers\n* Fixed persistent easy handles to be only created for persistent multi handles\n* Fixed the header parser to accept not-yet-complete header lines\n* Fixed http\\Message::toStream() crash in ZTS mode\n* Fixed the message stream parser to handle intermediary data bigger than 4k\n* Fixed the message stream parser to handle single header lines without EOL\n* Fixed http\\Message\\Body to not generate stat based etags for temporary streams\n- Deprecated http\\Client::enablePipelining(), use http\\Client::configure([\"pipelining\" => true]) instead\n- Deprecated http\\Client::enableEvents(), use http\\Client::configure([\"use_eventloop\" => true]) instead\n- Removed the cookies entry from the transfer info, wich was very slow and generated a Netscape formatted list of cookies\n- Changed the header parser to reject illegal characters",
+            "get": "http://pecl.php.net/get/pecl_http-2.3.0RC1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.2.1": {
+            "version": "2.2.1",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2015-02-07T06:26:46+00:00",
+            "releaseNotes": "* Fixed Bug #69000 (http\\Url breaks down with very long URL query strings)",
+            "get": "http://pecl.php.net/get/pecl_http-2.2.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.2.0": {
+            "version": "2.2.0",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2015-01-26T22:33:07+00:00",
+            "releaseNotes": "- var_dump(http\\Message) no longer automatically creates an empty body\n+ Added http\\Message\\Parser class\n+ Made http\\Client::once() and http\\Client::wait() available when using events\n+ Added http\\Url::PARSE_MBLOC, http\\Url::PARSE_MBUTF8, http\\Url::PARSE_TOIDN and http\\Url::PARSE_TOPCT constants\n+ Added http\\Env\\Response::setCookie()\n+ Added http\\Env\\Request::getCookie()",
+            "get": "http://pecl.php.net/get/pecl_http-2.2.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.2.0RC1": {
+            "version": "2.2.0RC1",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2014-11-12T09:16:11+00:00",
+            "releaseNotes": "- var_dump(http\\Message) no longer automatically creates an empty body\n+ Added http\\Message\\Parser class\n+ Made http\\Client::once() and http\\Client::wait() available when using events\n+ Added http\\Url::PARSE_MBLOC, http\\Url::PARSE_MBUTF8, http\\Url::PARSE_TOIDN and http\\Url::PARSE_TOPCT constants\n+ Added http\\Env\\Response::setCookie()\n+ Added http\\Env\\Request::getCookie()",
+            "get": "http://pecl.php.net/get/pecl_http-2.2.0RC1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.1.4": {
+            "version": "2.1.4",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2014-11-06T12:48:01+00:00",
+            "releaseNotes": "* Fixed bug #68353 (QsoSSL support removed in libcurl 7.39)\n* Fixed bug #68149 (duplicate content-length with libcurl < 7.23)\n* Fixed bug #66891 (Unexpected HTTP 401 after NTLM authentication)",
+            "get": "http://pecl.php.net/get/pecl_http-2.1.4",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.1.3": {
+            "version": "2.1.3",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2014-10-16T03:19:33+00:00",
+            "releaseNotes": "* Fix build with libcurl < 7.26 (Remi)",
+            "get": "http://pecl.php.net/get/pecl_http-2.1.3",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.1.2": {
+            "version": "2.1.2",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2014-09-25T03:28:41+00:00",
+            "releaseNotes": "+ Added missing request option constants:\n  POSTREDIR_303, AUTH_SPNEGO (libcurl >= 7.38.0), SSL_VERSION_TLSv1_{0,1,2} (libcurl >= 7.34)\n* Fixed bug #68083 (PUT method not working after DELETE)\n* Fixed bug #68009 (Segmentation fault after calling exit(0) after a request)\n* Fixed bug #68000 (Extension does not build on FreeBSD)",
+            "get": "http://pecl.php.net/get/pecl_http-2.1.2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.1.1": {
+            "version": "2.1.1",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2014-09-09T04:02:35+00:00",
+            "releaseNotes": "* Fix httpVersion retrieval on bigendian (Remi)\n* Fix etag/crc32b on bigendian (Remi)",
+            "get": "http://pecl.php.net/get/pecl_http-2.1.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.1.0": {
+            "version": "2.1.0",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2014-09-01T05:27:42+00:00",
+            "releaseNotes": "- Removed port and scheme guessing of http\\Url for portability\n* Fixed PHP-5.3 compatibility\n* Fixed PHP-5.4 compatibility\n* Fixed possible bus error on shutdown when using events\n* Fixed sovereignty of clients when using events\n* Fixed a possible crash with http\\Encoding\\Stream\\Dechunk::decode($unencoded)\n* Fixed a leak in http\\Client\\Curl options\n* Fixed bug #67733 (Compile error with libevent 2.x)\n+ Added RFC5987 support in http\\Params\n+ Improved synthetic HTTP message parsing performace for ~20%\n+ Added request options if libcurl has builtin c-ares support:\n  dns_interface, dns_local_ip4, dns_local_ip6 (all libcurl >= 7.33.0)\n+ Added request options:\n  expect_100_timeout (libcurl >= 7.36.0), tcp_nodelay\n+ Added transfer info:\n  curlcode, tls_session (libcurl >= 7.34.0), only available during transfer",
+            "get": "http://pecl.php.net/get/pecl_http-2.1.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.1.0RC3": {
+            "version": "2.1.0RC3",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2014-08-19T03:24:31+00:00",
+            "releaseNotes": "Changes from RC2:\n* Fixed PHP-5.3 compatibility\n* Fixed possible bus error on shutdown when using events\n+ Added curlcode transfer info\n- Removed port and scheme guessing of http\\Url for portability",
+            "get": "http://pecl.php.net/get/pecl_http-2.1.0RC3",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.1.0RC2": {
+            "version": "2.1.0RC2",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2014-08-05T11:16:33+00:00",
+            "releaseNotes": "Changes from RC1:\n* Fixed a possible crash with http\\Encoding\\Stream\\Dechunk::decode($unencoded)\n* Fixed a leak in http\\Client\\Curl options\n* Fixed PHP-5.4 compatibility",
+            "get": "http://pecl.php.net/get/pecl_http-2.1.0RC2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.1.0RC1": {
+            "version": "2.1.0RC1",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2014-08-01T04:52:56+00:00",
+            "releaseNotes": "* Fixed bug #67733 (Compile error with libevent 2.x)\n+ Added RFC5987 support in http\\Params\n+ Improved synthetic HTTP message parsing performace for ~20%\n+ Added request options if libcurl has builtin c-ares support:\n  dns_interface, dns_local_ip4, dns_local_ip6 (all libcurl >= 7.33.0)\n+ Added request options:\n  expect_100_timeout (libcurl >= 7.36.0)\n  tcp_nodelay\n+ Added transfer info:\n  tls_session (libcurl >= 7.34.0), only available during transfer",
+            "get": "http://pecl.php.net/get/pecl_http-2.1.0RC1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.7": {
+            "version": "2.0.7",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2014-07-11T09:01:36+00:00",
+            "releaseNotes": "* General improvements to the test suite\n* Fixed http\\Env\\Response::send() ignoring some write errors\n* Fixed bug #67528 (RFC compliant default user agent)\n* Fixed a garbage collector issue with JSON POSTs\n* Fixed refcount issue and double free of message bodies\n* Fixed use after free if the http\\Client::enqueue() closure returns TRUE\n* Fixed bug #67584 (http\\Client\\Response not initialized as response on failure)",
+            "get": "http://pecl.php.net/get/pecl_http-2.0.7",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.6": {
+            "version": "2.0.6",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2014-04-24T08:37:20+00:00",
+            "releaseNotes": "+ Added \"uploaded\" progress state\n* Fixed bug #67089 (Segmentaion fault with ZTS)\n* Fixed compatibility with PHP-5.6+\n* Fixed re-use of request messages which content length remained untouched when the body was reset",
+            "get": "http://pecl.php.net/get/pecl_http-2.0.6",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.5": {
+            "version": "2.0.5",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2014-04-04T07:08:20+00:00",
+            "releaseNotes": "* Fix rare crash with uninitialized CURLOPT_HTTPHEADER\n* Fix build with -Werror=format-security (Remi)\n* Fix build with extenal libs needed by libcurl",
+            "get": "http://pecl.php.net/get/pecl_http-2.0.5",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.4": {
+            "version": "2.0.4",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2014-01-02T10:10:51+00:00",
+            "releaseNotes": "* Removed the pecl/event conflict\n* Fixed bug #66388 (Crash on POST with Content-Length:0 and untouched body)",
+            "get": "http://pecl.php.net/get/pecl_http-2.0.4",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.3": {
+            "version": "2.0.3",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2013-12-10T03:54:12+00:00",
+            "releaseNotes": "* Fixed typo",
+            "get": "http://pecl.php.net/get/pecl_http-2.0.3",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.2": {
+            "version": "2.0.2",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2013-12-10T03:42:41+00:00",
+            "releaseNotes": "* Fixed bug #66250 (shutdown crash as shared extension)",
+            "get": "http://pecl.php.net/get/pecl_http-2.0.2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.1": {
+            "version": "2.0.1",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2013-11-26T05:43:19+00:00",
+            "releaseNotes": "* Fixed a bug with multiple ob_start(http\\Env\\Response) while replacing the body\n* Fixed build on Windows with libevent2",
+            "get": "http://pecl.php.net/get/pecl_http-2.0.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.0": {
+            "version": "2.0.0",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2013-11-22T04:46:27+00:00",
+            "releaseNotes": "Extended HTTP support. Again. \n\t \nKeep in mind that it's got the major version 2, because it's incompatible with pecl_http v1.",
+            "get": "http://pecl.php.net/get/pecl_http-2.0.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.0beta5": {
+            "version": "2.0.0beta5",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2013-08-12T15:50:04+00:00",
+            "releaseNotes": "Extended HTTP support. Again. Keep in mind that it's got the major version 2, because it's incompatible with pecl_http v1.\n\n* Introduces the http namespace.\n* Message bodies have been remodeled to use PHP temporary streams instead of in-memory buffers.\n* The utterly misunderstood HttpResponse class has been reimplemented as http\\Env\\Response inheriting http\\Message.\n* Currently, there's only one Exception class left, http\\Exception.\n* Errors triggered by the extension can be configured statically by http\\Object::$defaultErrorHandling or inherited http\\Object->errorHandling.\n* The request ecosystem has been modularized to support different libraries, though for the moment only libcurl is supported.",
+            "get": "http://pecl.php.net/get/pecl_http-2.0.0beta5",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.7.6": {
+            "version": "1.7.6",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2013-06-20T09:21:34+00:00",
+            "releaseNotes": "* Fixed bug #64380 (PHP-5.5 build fails)",
+            "get": "http://pecl.php.net/get/pecl_http-1.7.6",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.7.5": {
+            "version": "1.7.5",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2013-03-03T02:17:13+00:00",
+            "releaseNotes": "* Fixed Bug #64310 (weak etags W/\"abc\" are quoted as \"W/\"abc\"\")",
+            "get": "http://pecl.php.net/get/pecl_http-1.7.5",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.0beta4": {
+            "version": "2.0.0beta4",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2012-12-31T06:56:11+00:00",
+            "releaseNotes": "! >80% test coverage http://goo.gl/VmyIW\n* Fixed build with libcurl <= 7.21.3\n* Fixed var_dump of http\\Message with inherited userland properties with increased access level\n+ Added http\\Header::getParams()\n+ Added simple support for escapes and quotes in the params parser\n+ Added support for sending http\\Env\\Response over PHP streams\n+ Added message body reference counting",
+            "get": "http://pecl.php.net/get/pecl_http-2.0.0beta4",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.0beta3": {
+            "version": "2.0.0beta3",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2012-12-13T12:06:15+00:00",
+            "releaseNotes": "! >80% test coverage http://goo.gl/YCV74\n* Fixed http\\Env\\Response throttling\n* Fixed http\\Env\\Response caching by last-modified\n* Fixed http\\Message::addBody()\n* Fixed http\\Message::parentMessage write access\n* Fixed crash with freed but not nulled event_base pointer\n* Fixed crash with null pointer dereference on http\\Encoding\\Stream::flush()\n* Fixed some memory leaks\n+ Added http\\Header::negotiate()\n+ Added http\\Header::parse()",
+            "get": "http://pecl.php.net/get/pecl_http-2.0.0beta3",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.0beta2": {
+            "version": "2.0.0beta2",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2012-11-29T04:24:53+00:00",
+            "releaseNotes": "! >80% test coverage\n* Fixed http\\Request\\Pool with libevent2\n* Fixed http\\Env\\Request::getFiles() with multiple-file-uploads\n* Fixed PHP-5.3 compatibility\n* Fixed reference handling of http\\Message\\Body::getResource()\n* Fixed reading stream filters to correctly detect EOF of tmp and mem streams\n- Change: merge message headers with the same key\n- Change: the stream message parser can optionally return after each message\n- Change: you have to care yourself for Content headers if a message's body has a reading stream filter attached\n+ Added http\\Env::getResponseStatusForAllCodes()",
+            "get": "http://pecl.php.net/get/pecl_http-2.0.0beta2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.0beta1": {
+            "version": "2.0.0beta1",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2012-10-11T06:08:07+00:00",
+            "releaseNotes": "* PHP-5.3 compatibility by Anatoly Belsky\n* Fixed http\\Client's history handling\n* Disallow serialization of non-serializable objects\n* Fixed parsing of folded headers\n* Fixed the parsing HTTP messages from streams\n* Fixed leak in persistent handles cleanup routine\n+ Added http\\Url::SANITIZE_PATH; URL paths are not sanitized by default anymore\n+ Added JSON Content-Type handler for request body processing if ext/json is present\n+ Added missing IANA HTTP response codes\n+ Added http\\Message\\Body::getResource()\n+ Added QueryString proxy methods to http\\Env\\Request\n+ Added Serializable to http\\Message\\Body's interfaces",
+            "get": "http://pecl.php.net/get/pecl_http-2.0.0beta1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.0alpha1": {
+            "version": "2.0.0alpha1",
+            "state": "alpha",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2012-04-13T08:10:34+00:00",
+            "releaseNotes": "+ Added http\\Client\\AbstractClient::request(string method, string url[, array headers=null[, mixed body=null[, array options=null]]])\n+ Added constants http\\Params::PARSE_RAW, ::PARSE_DEFAULT, ::PARSE_URLENCODED, ::PARSE_DIMENSION, ::PARSE_QUERY\n+ Added fourth parameter 'flags' to http\\Params' constructor, which defaults to http\\Params::PARSE_DEFAULT\n* Fixed bug #61444 (query string converts . to _ in param names)",
+            "get": "http://pecl.php.net/get/pecl_http-2.0.0alpha1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.7.4": {
+            "version": "1.7.4",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2012-04-02T05:45:29+00:00",
+            "releaseNotes": "* Fixed Bug #61372 (build fails with \"undefined symbol Z_ADDREF_P)",
+            "get": "http://pecl.php.net/get/pecl_http-1.7.4",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.0dev10": {
+            "version": "2.0.0dev10",
+            "state": "devel",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2012-03-30T08:22:39+00:00",
+            "releaseNotes": "+ This release contains the http\\Request to http\\Client refactoring triggered by Benjamin Eberlei. Many thanks.",
+            "get": "http://pecl.php.net/get/pecl_http-2.0.0dev10",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.0dev9": {
+            "version": "2.0.0dev9",
+            "state": "devel",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2012-03-23T08:43:42+00:00",
+            "releaseNotes": "+ Added population of $_POST and $_FILES for non-POST requests\n- Renamed http\\Env\\Request::getPost() to ::getForm()\n- Changed http\\Env\\Response::setContentDisposition() to take an http\\Params like array as argument\n- Removed http\\Env\\Response::CONTENT_DISPOSOTION_* constants\n- Removed http\\Request\\Method class; request methods are now used as simple strings",
+            "get": "http://pecl.php.net/get/pecl_http-2.0.0dev9",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.0dev8": {
+            "version": "2.0.0dev8",
+            "state": "devel",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2012-03-16T11:15:06+00:00",
+            "releaseNotes": "* Fixed build failure and compiler warnings\n* Fixed logical errors in http\\Env\\Response::isCachedBy{Etag,LastModified}()\n* Fixed memory leaks in http\\Env\\Response::isCachedByLastModified()\n* Fixed memory leaks in http\\Env::getResponseHeader()\n* Fixed erroneous trailing CRLF of http\\Message strings\n- Renamed http\\Message\\Body::add() to ::addForm()\n+ Added http\\Message\\Body::addPart(http\\Message $part)\n+ Added http\\Env\\Response::__invoke() output buffering handler",
+            "get": "http://pecl.php.net/get/pecl_http-2.0.0dev8",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.0dev7": {
+            "version": "2.0.0dev7",
+            "state": "devel",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2012-03-09T10:00:22+00:00",
+            "releaseNotes": "+ Added multipart support to http\\Message, which can now splitMultipartBody() \n  to a http\\Message chain, f.e. of a ranges response or file upload request.\n+ Added primitive quoting/escaping capabilities to http\\Params.\n+ Reworked and improved negotiation support, added asterisk (*) matching etc.",
+            "get": "http://pecl.php.net/get/pecl_http-2.0.0dev7",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.7.3": {
+            "version": "1.7.3",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2012-03-08T03:46:33+00:00",
+            "releaseNotes": "* Fixed Bug #61310: Bundled pecl_http-1.7.2.tgz is invalid",
+            "get": "http://pecl.php.net/get/pecl_http-1.7.3",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.0dev6": {
+            "version": "2.0.0dev6",
+            "state": "devel",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2012-03-01T16:43:08+00:00",
+            "releaseNotes": "+ Added stream parsing capability to http\\Message\n+ Added http\\Env\\Request methods: getQuery(), getPost(), getFiles()\n* Changed http\\Env\\Response to only cache responses to GET or HEAD requests without authorization\n* Fixed possible crash when http\\Url was initialized with empty urls",
+            "get": "http://pecl.php.net/get/pecl_http-2.0.0dev6",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.7.2": {
+            "version": "1.7.2",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2012-02-21T15:16:50+00:00",
+            "releaseNotes": "+ Added PHP-5.4 compatibility\n* Fixed bug #59974 methodRegister doesn't allow \"_\" to be in method name\n* Fixed SAPI hang if request body size is greater than 4k with http_get_request_body_stream()",
+            "get": "http://pecl.php.net/get/pecl_http-1.7.2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.0dev5": {
+            "version": "2.0.0dev5",
+            "state": "devel",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2012-02-17T07:39:37+00:00",
+            "releaseNotes": "* Improved test coverage [1] and fixed a lot of issues with the cookie, params, querystring,\n  persistent handles, request factory, etag, stream filters, encoding streams, negotiation\n  and HTTP message info code.\n\n[1] http://dev.iworks.at/ext-http/lcov/ext/http/index.html",
+            "get": "http://pecl.php.net/get/pecl_http-2.0.0dev5",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.0dev4": {
+            "version": "2.0.0dev4",
+            "state": "devel",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2012-01-23T04:13:17+00:00",
+            "releaseNotes": "This is to become v2 of the known pecl_http extension.\nIt is completely incompatible to previous version.\nTry it, or let it be. If you are not sure, let it be. Really.\n\nList of changes (TBD):\n* Everything lives below the http namespace\n* The message body is implemented as a temp stream instead of a chunk of memory\n* The utterly misunderstood HttpResponse class has been reimplemented in the http\\env namespace\n* There's only http\\Exception\n* Every instance follows http\\Object::$defaultErrorHandling or inherited http\\Object->errorHandling, but only for errors generated by the extension itself\n* You have to use the http\\Request\\Factory to create your requests/pools/datashares",
+            "get": "http://pecl.php.net/get/pecl_http-2.0.0dev4",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.0dev3": {
+            "version": "2.0.0dev3",
+            "state": "devel",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2012-01-16T10:23:05+00:00",
+            "releaseNotes": "This is to become v2 of the known pecl_http extension.\nIt is completely incompatible to previous version.\nTry it, or let it be. If you are not sure, let it be. Really.\n\nList of changes (TBD):\n* Everything lives below the http namespace\n* The message body is implemented as a temp stream instead of a chunk of memory\n* The utterly misunderstood HttpResponse class has been reimplemented in the http\\env namespace\n* There's only http\\Exception\n* Every instance follows http\\Object::$defaultErrorHandling or inherited http\\Object->errorHandling, but only for errors generated by the extension itself\n* You have to use the http\\Request\\Factory to create your requests/pools/datashares",
+            "get": "http://pecl.php.net/get/pecl_http-2.0.0dev3",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.0dev2": {
+            "version": "2.0.0dev2",
+            "state": "devel",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2011-06-14T04:14:57+00:00",
+            "releaseNotes": "This is to become v2 of the known pecl_http extension.\nIt is completely incompatible to previous version.\nTry it, or let it be. If you are not sure, let it be. Really.\n\nList of changes (TBD):\n* Everything lives below the http namespace\n* Supported request libraries: curl, neon\n* The message body is implemented as a temp stream instead of a chunk of memory\n* The utterly misunderstood HttpResponse class has been reimplemented in the http\\env namespace\n* There's only http\\Exception\n* Every instance follows http\\Object::$defaultErrorHandling or inherited http\\Object->errorHandling, but only for errors generated by the extension itself",
+            "get": "http://pecl.php.net/get/pecl_http-2.0.0dev2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.0dev1": {
+            "version": "2.0.0dev1",
+            "state": "devel",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2011-06-02T16:10:14+00:00",
+            "releaseNotes": "This is to become v2 of the known pecl_http extension.\nIt is completely incompatible to previous version.\nTry it, or let it be. If you are not sure, let it be. Really.\n\nList of changes (TBD):\n* Everything lives below the http namespace\n* Supported request libraries: curl, neon\n* The message body is implemented as a temp stream instead of a chunk of memory\n* The utterly misunderstood HttpResponse class has been reimplemented in the http\\env namespace\n* There's only http\\Exception\n* Every instance follows http\\Object::$defaultErrorHandling or inherited http\\Object->errorHandling, but only for errors generated by the extension itself",
+            "get": "http://pecl.php.net/get/pecl_http-2.0.0dev1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.7.1": {
+            "version": "1.7.1",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2011-05-05T02:49:41+00:00",
+            "releaseNotes": "* Fixed a bug when the status component of the HTTP response is missing (fixes Bug #19390) (Ilia)\n* Fixed double-free when auto-decompressing pages (Ilia)\n* Fixed non-funtional HttpMessage::setResponseStatus()\n* Fixed Bug #22177 (http_redirect breaks output with zlib.output_compression=on)\n* Fixed Bug #17806 (Segmentation fault when passing invalid url to http_get())\n* Fixed logic error and possible hang in sapi_deactivate when using http_get_request_body() with a request body longer than 4096 bytes (Rob)\n* Fixed Bug #17896 (Make failed)",
+            "get": "http://pecl.php.net/get/pecl_http-1.7.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.7.0": {
+            "version": "1.7.0",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2010-06-09T04:37:29+00:00",
+            "releaseNotes": "* Added generic http_negotiate() function (FR#17338)\n* Added request options:\n - proxytunnel: enable tunelling through the HTTP proxy\n - noproxy: comma separatet list of hosts (* means all hosts) not to use a proxy for (libcurl >= 7.19.4)\n* Added postredir request options constants:\n - HTTP_POSTREDIR_301\n - HTTP_POSTREDIR_302\n - HTTP_POSTREDIR_ALL\n* Added authtype request option constant:\n - HTTP_AUTH_DIGEST_IE\n* Added proxytype request option constants:\n - HTTP_PROXY_HTTP_1_0\n* Added request info members:\n - condition_unmet (libcurl >= 7.19.4)\n* Fixed bug #16893 (Content not decoded with zlib support and compress enabled)\n* Fixed bug #17087 (http_build_cookie() exhausts memory if cookie value is NULL)\n* Fixed bug #17169 (Wrong return value of HttpMessage::getHttpVersion())",
+            "get": "http://pecl.php.net/get/pecl_http-1.7.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.7.0b2": {
+            "version": "1.7.0b2",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2009-12-29T07:47:09+00:00",
+            "releaseNotes": "* Added request options:\n - proxytunnel: enable tunelling through the HTTP proxy\n - noproxy: comma separatet list of hosts (* means all hosts) not to use a proxy for (libcurl >= 7.19.4)\n* Added postredir request options constants:\n - HTTP_POSTREDIR_301\n - HTTP_POSTREDIR_302\n - HTTP_POSTREDIR_ALL\n* Added authtype request option constant:\n - HTTP_AUTH_DIGEST_IE\n* Added proxytype request option constants:\n - HTTP_PROXY_HTTP_1_0\n* Added request info members:\n - condition_unmet (libcurl >= 7.19.4)",
+            "get": "http://pecl.php.net/get/pecl_http-1.7.0b2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.6.6": {
+            "version": "1.6.6",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2009-12-10T10:32:18+00:00",
+            "releaseNotes": "* Fixed a Last-Modified caching bug in http_send API\n* Fixed bug with HttpRequestPool and libevent when adding requests while running\n* Fixed memory leak in HttpResponse::getStream() (Felipe Pena)\n* Fixed bug #14382 (PHP crash after casting scalar argument to an array in HttpQueryString)\n* Fixed bug #16533 (http_redirect fails with url->port==0)",
+            "get": "http://pecl.php.net/get/pecl_http-1.6.6",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.6.5": {
+            "version": "1.6.5",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2009-08-13T11:28:31+00:00",
+            "releaseNotes": "* Fixed PHP5.1 build\n* Fixed http_get_request_body[_stream]() with FastCGI SAPI",
+            "get": "http://pecl.php.net/get/pecl_http-1.6.5",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.6.4": {
+            "version": "1.6.4",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2009-07-24T08:51:24+00:00",
+            "releaseNotes": "* Fixed PHP4 build\n* Fixed PHP5.3 issue in the negotiation API\n* Fixed HttpMessage::toMessageTypeObject() to honor non-string arguments\n* Fixed memory leaks and unterminated string issues with HttpMessage\n* Fixed bug #16577 typo in http_request_object.c (HttpRequest::addBody)\n* Fixed bug #16700 child classes of HttpMessage cannot not have array properties",
+            "get": "http://pecl.php.net/get/pecl_http-1.6.4",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.7.0b1": {
+            "version": "1.7.0b1",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2009-02-16T10:52:39+00:00",
+            "releaseNotes": "* Implement Request #14408 (Add a customizable timeout for HttpRequestPool::socketSelect)\n* Implement Request #15775 (recursive http_request_body_encode)\n* Added request options:\n - postredir: enforcing RFC conformig POST after redirect (libcurl >= 7.17.1)\n - address_scope: RFC4007 zone_id (libcurl >= 7.19.0)\n - ssl->issuercert: validate peer certificate issuer (libcurl >= 7.19.0)\n - ssl->crlfile: require CRL check (libcurl >= 7.19.0 with openssl)\n - ssl->certinfo: enable the certinfo gatherer (libcurl >= 7.19.1 with openssl)\n* Added proxytype request option constants:\n - HTTP_PROXY_SOCKS4A\n - HTTP_PROXY_SOCKS5_HOSTNAME\n* Added request info members:\n - redirect_url (libcurl >= 7.18.2)\n - primary_ip (libcurl >= 7.19.0)\n - appconnect_time (libcurl >= 7.19.0)\n - certinfo (libcurl >= 7.19.1 with openssl)",
+            "get": "http://pecl.php.net/get/pecl_http-1.7.0b1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.6.3": {
+            "version": "1.6.3",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2009-02-12T12:18:29+00:00",
+            "releaseNotes": "* Fixed bug #15495 (HttpMessage::setHttpVersion segfault)\n* Fixed bug #15497 (HttpInflateStream::finish segfault)\n* Fixed bug #15499 (HttpRequest::addHeaders segfault)\n* Fixed bug #15509 (HttpMessage::rewind memory leaks)\n* Fixed bug #15800 (Double free when zval is separated in convert_to_*)\n* Fixed bug #15813 (Requests not removed from multi stack when fatal errors occur with fcgi)",
+            "get": "http://pecl.php.net/get/pecl_http-1.6.3",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.6.2": {
+            "version": "1.6.2",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2008-12-05T04:33:04+00:00",
+            "releaseNotes": "* Fixed PHP-5.3 API incompatibilities (including bug #15065)\n* Fixed memory corruption with headers and HttpRequest\n* Fixed crash in HttpMessage::unserialize()\n* Fixed bug #14826 (race condition in http_request_dtor)\n* Fixed bug #15223 (http_parse_message cuts off more than headers)",
+            "get": "http://pecl.php.net/get/pecl_http-1.6.2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.6.1": {
+            "version": "1.6.1",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2008-07-23T04:30:12+00:00",
+            "releaseNotes": "* Fixed bug #13362 (PHP-5.3 build)\n* Fixed bug #14168 (st->errorbuffer not cleared between uses of persistent handles)\n* Fixed bug #14218 (properties of class extending HttpMessage inaccessible)",
+            "get": "http://pecl.php.net/get/pecl_http-1.6.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.6.0": {
+            "version": "1.6.0",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2007-11-26T09:56:01+00:00",
+            "releaseNotes": "+ Added HttpRequest::flushCookies() (libcurl >= 7.17.1)\n+ Added constant HTTP_URL_FROM_ENV\n+ Added 'retrycount' and 'retrydelay' request options\n+ Added libevent support for libcurl (>= 7.16.0):\n  o added --with-http-curl-libevent configure option\n  o added HttpRequestPool::enableEvents()\n* Fixed problems with cookiestore request option introduced with persistent handles\n* Fixed crash on prematurely called HttpMessage::next()\n* Fixed possible shutdown crash with http_parse_params() and PHP4\n* Fixed a possible crash at module shutdown in the persistent handle API\n  (probably fixing bug #11509)\n* Fixed test suite for PHP4\n* Fixed missing PHP_LIBDIR definition in config.m4 for PHP4\n* Fixed non-standard shell support in config.m4",
+            "get": "http://pecl.php.net/get/pecl_http-1.6.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.6.0RC1": {
+            "version": "1.6.0RC1",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2007-10-05T08:03:02+00:00",
+            "releaseNotes": "1.6.0RC1:\n+ Added HttpRequest::flushCookies() (libcurl >= 7.17.1)\n* Fixed problems with cookiestore request option introduced with persistent handles\n* Fixed crash on prematurely called HttpMessage::next()\n* Fixed possible shutdown crash with http_parse_params() and PHP4\n\n1.6.0b2:\n+ Added constant HTTP_URL_FROM_ENV\n* Fixed a possible crash at module shutdown in the persistent handle API\n  (probably fixing bug #11509)\n* Fixed test suite for PHP4\n* Fixed missing PHP_LIBDIR definition in config.m4 for PHP4\n* Fixed non-standard shell support in config.m4\n\n1.6.0b1:\n+ Added 'retrycount' and 'retrydelay' request options\n+ Added libevent support for libcurl (>= 7.16.0):\n  o added --with-http-curl-libevent configure option\n  o added HttpRequestPool::enableEvents()",
+            "get": "http://pecl.php.net/get/pecl_http-1.6.0RC1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.6.0b2": {
+            "version": "1.6.0b2",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2007-09-27T08:33:11+00:00",
+            "releaseNotes": "+ Added constant HTTP_URL_FROM_ENV\n+ Added 'retrycount' and 'retrydelay' request options\n+ Added libevent support for libcurl (>= 7.16.0):\n  o added --with-http-curl-libevent configure option\n  o added HttpRequestPool::enableEvents()\n* Fixed a possible crash at module shutdown in the persistent handle API\n  (probably fixing bug #11509)\n* Fixed test suite for PHP4\n* Fixed missing PHP_LIBDIR definition in config.m4 for PHP4\n* Fixed non-standard shell support in config.m4",
+            "get": "http://pecl.php.net/get/pecl_http-1.6.0b2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.5.6": {
+            "version": "1.5.6",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2007-09-27T08:28:50+00:00",
+            "releaseNotes": "* Fixed a possible crash at module shutdown in the persistent handle API\n  (probably fixing bug #11509)\n* Fixed test suite for PHP4\n* Fixed missing PHP_LIBDIR definition in config.m4 for PHP4\n* Fixed non-standard shell support in config.m4",
+            "get": "http://pecl.php.net/get/pecl_http-1.5.6",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.6.0b1": {
+            "version": "1.6.0b1",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2007-09-05T13:19:13+00:00",
+            "releaseNotes": "+ Added 'retrycount' and 'retrydelay' request options\n+ Added libevent support for libcurl (>= 7.16.0):\n  o added --with-http-curl-libevent configure option\n  o added HttpRequestPool::enableEvents()",
+            "get": "http://pecl.php.net/get/pecl_http-1.6.0b1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.5.5": {
+            "version": "1.5.5",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2007-09-04T12:09:37+00:00",
+            "releaseNotes": "* Fixed Bug #11929 (http_negotiate does not return default value on non-match)\n* Fixed SSL library detection for libcurl >= 7.16.2\n- Removed max_recv_speed and max_send_speed request options\n  again, due to LFS dependence",
+            "get": "http://pecl.php.net/get/pecl_http-1.5.5",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.5.4": {
+            "version": "1.5.4",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2007-06-28T16:01:43+00:00",
+            "releaseNotes": "* Fixed bug #11359 HttpMessage::toMessageTypeObject() does not populate POST fields",
+            "get": "http://pecl.php.net/get/pecl_http-1.5.4",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.5.3": {
+            "version": "1.5.3",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2007-04-25T04:27:19+00:00",
+            "releaseNotes": "* Fixed crashes with repeated registering/unregisitering of request methods (noticed by Andreas Weber)",
+            "get": "http://pecl.php.net/get/pecl_http-1.5.3",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.5.2": {
+            "version": "1.5.2",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2007-02-25T13:04:37+00:00",
+            "releaseNotes": "* Fixed bug #10151 (build fails dynamic linking on Mac OS X)\n* Allow setting the \"proxyhost\" request option to an empty string,\n  which lets curl ignore any environment settings\n* Allow unsetting request options by passing NULL:\n  $request->setOptions(array(\"option\" => NULL));",
+            "get": "http://pecl.php.net/get/pecl_http-1.5.2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.5.1": {
+            "version": "1.5.1",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2007-02-21T10:51:03+00:00",
+            "releaseNotes": "* Fixed build with PHP-5 < v5.2",
+            "get": "http://pecl.php.net/get/pecl_http-1.5.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.5.0": {
+            "version": "1.5.0",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2007-02-20T16:59:51+00:00",
+            "releaseNotes": "* Fixed responses to range requests which asked for the first byte (0-0)\n* Fixed Win32 build",
+            "get": "http://pecl.php.net/get/pecl_http-1.5.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.5.0RC2": {
+            "version": "1.5.0RC2",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2007-02-10T04:33:39+00:00",
+            "releaseNotes": "o Improved new persistent handles functionality\n  - Removed --enable-http-persistent-handles\n  + Added http.persistent.handles.limit system INI option which controls\n    the maximum amount of idle persistent handles kept around (per provider);\n      0 means every handle is destroyed after usage (i.e. disabled),\n      -1 means virtually unlimited maximum amount of idle handles (default)",
+            "get": "http://pecl.php.net/get/pecl_http-1.5.0RC2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.5.0RC1": {
+            "version": "1.5.0RC1",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2007-02-08T08:37:10+00:00",
+            "releaseNotes": "+ Added HttpMessage::fromEnv(int type[, string class_name = \"HttpMessage\"]) (Clay Loveless)\n+ Added support for per process persistent cURL handles (requested by Clay Loveless):\n  o Added --enable-http-persistent-handles configure option\n  o Added http_persistent_handles_count(), http_persistent_handles_clean([string name]), http_persistent_handles_ident([string ident])\n  o Added http.persistent.handles.ident INI setting",
+            "get": "http://pecl.php.net/get/pecl_http-1.5.0RC1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.4.1": {
+            "version": "1.4.1",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2007-01-28T12:10:59+00:00",
+            "releaseNotes": "* Fixed crashes with incompletely initialiezed HttpMessages",
+            "get": "http://pecl.php.net/get/pecl_http-1.4.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.4.0": {
+            "version": "1.4.0",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2007-01-23T10:40:02+00:00",
+            "releaseNotes": "* Allow response codes up to 599 in HttpMessage::setResponseCode()",
+            "get": "http://pecl.php.net/get/pecl_http-1.4.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.4.0RC2": {
+            "version": "1.4.0RC2",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2007-01-19T17:35:21+00:00",
+            "releaseNotes": "* Fixed infinite loop with http_parse_params(\"=\")\n* Fixed greedy response message parsing with proxy CONNECT requests (petr at hroch dot info)",
+            "get": "http://pecl.php.net/get/pecl_http-1.4.0RC2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.4.0RC1": {
+            "version": "1.4.0RC1",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2006-12-04T13:21:34+00:00",
+            "releaseNotes": "* Improved response performance\n+ Added \"ipresolve\" request option\n+ Added HTTP_IPRESOLVE_{ANY|V4|V6}, HttpRequest::IPRESOLVE_{ANY|V4|V6} constants\n+ Added missing HTTP_SSL_VERSION_{ANY|TLSv1|SSLv2|SSLv3}, HttpRequest::SSL_VERSION_{ANY|TLSv1|SSLv2|SSLv3} constants\n+ Added factory methods to HttpMessage, HttpQueryString, HttpRequest, HttpRequestDataShare, HttpDeflateStream, HttpInflateStream\n* Fixed aborted PUT request when empty put data was set with HttpRequest::setPutData()\n* Fixed crash when using non-associative arrays as request headers\n* Fixed crash when serializing incomplete HttpMessage objects\n* Fixed bug #9282: libcurl version error in configure (keith at iveys dot org)\n* Fixed crash when retrieving the response message from an unserialized HttpRequest object\n- Removed obsolete HTML function reference",
+            "get": "http://pecl.php.net/get/pecl_http-1.4.0RC1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.3.3": {
+            "version": "1.3.3",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2006-10-27T08:33:21+00:00",
+            "releaseNotes": "* Fixed HttpResponse::setHeader(\"name\", {omitted|NULL|\"\"}) not unsetting header\n* Fixed array parameters to allow NULL in HttpRequest::__construct(),\n  HttpRequest::getResposeCookie(), HttpMessage::setHeaders(),\n  http_parse_cookie(), http_post_fields().\n* Fixed possible leak in http_send_data() and HttpResponse::setData()\n* Fixed build --without-http-curl-requests (bug #8872)\n* Fixed build with PHP < 4.3.10 (bug #9067)",
+            "get": "http://pecl.php.net/get/pecl_http-1.3.3",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.3.2": {
+            "version": "1.3.2",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2006-10-10T15:39:51+00:00",
+            "releaseNotes": "* Fixed invalid detection whether a deflated response should be started\n* Fixed build --without-http-zlib-compression (bug #8872)",
+            "get": "http://pecl.php.net/get/pecl_http-1.3.2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.3.1": {
+            "version": "1.3.1",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2006-10-02T10:14:56+00:00",
+            "releaseNotes": "* Fixed build with gcc-2.95 (bug #8737)\n* Fixed bug in HttpRequestPool where a negative timeout was passed to select()",
+            "get": "http://pecl.php.net/get/pecl_http-1.3.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.3.0": {
+            "version": "1.3.0",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2006-09-19T11:00:50+00:00",
+            "releaseNotes": "+ Added HttpRequestDataShare (interface to curl_share)\n+ Added \"dns_cache_timeout\", \"low_speed_limit\", \"low_speed_time\", \"max_send_speed\",\n  \"max_recv_speed\", \"forbid_reuse\" and \"fresh_connect\" request options\n+ Added HttpRequestPool::enablePipelining([bool enable = TRUE]) (libcurl >= 7.16.0, unstable)",
+            "get": "http://pecl.php.net/get/pecl_http-1.3.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.2.1": {
+            "version": "1.2.1",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2006-08-26T04:08:03+00:00",
+            "releaseNotes": "+ Added HttpException::__toString() which takes care about any inner exceptions\n- Disallowed detaching HttpRequest objects from HttpRequestPool while executing progress callback\n* Fixed crash on detaching requests from pool in request event callbacks\n* Fixed suppression of nested exceptions in e.g. HttpRequestPool::send() (fixes bug #8535)\n* Fixed issues with inheritance and cloning of HttpDeflateStream, HttpInflateStream and HttpMessage\n  (Extending classes lose default properties on instantiation; Complex members ignored during cloning)",
+            "get": "http://pecl.php.net/get/pecl_http-1.2.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.2.0": {
+            "version": "1.2.0",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2006-08-18T08:29:17+00:00",
+            "releaseNotes": "+ Improved response performance (HttpResponse, http_send API)\n* Fixed http_parse_cookie() allowed_extras and flags parameters\n* Added http_build_cookie() function\n* Fixed configuration with shared dependencies",
+            "get": "http://pecl.php.net/get/pecl_http-1.2.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.1.0": {
+            "version": "1.1.0",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2006-07-17T12:33:24+00:00",
+            "releaseNotes": "* Fixed endless loop in http_build_url(\"..\")\n* Fixed HttpResponse::capture() failure if buffered output exceeds 40k\n* Fixed HttpQueryString failures with objects as params\n* Fixed memory leaks with overloaded classes extending HTTP classes\n* Added HttpQueryString::mod(array $params) method\n* Added ArrayAccess to interfaces implemented by HttpQueryString\n* Added HttpMessage::getHeader(string $name) method",
+            "get": "http://pecl.php.net/get/pecl_http-1.1.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2006-06-26T07:37:57+00:00",
+            "releaseNotes": "* Fixed build with gcc-2.95 (Thanks to Alexander Zhuravlev)\n* Fixed memory leak in inflate code (Thanks to Thomas Landro Johnsen)",
+            "get": "http://pecl.php.net/get/pecl_http-1.0.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2006-06-08T18:14:50+00:00",
+            "releaseNotes": "+ Added --with[out]-http-shared-deps configure option (dependencies on shared extensions)\n+ Added INI entries: http.log.not_found, http.send.not_found_404\n+ Added HttpMessage::guessContentType()\n* Fixed build on Debian systems where access to Curl_* functions is prohibited\n* Fixed empty Cache-Control header if not customly set with HttpResponse\n* Reset Content-Disposition and Content-Type if file is not found by http_send_file() etc",
+            "get": "http://pecl.php.net/get/pecl_http-1.0.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.0.0RC5": {
+            "version": "1.0.0RC5",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2006-05-28T11:58:56+00:00",
+            "releaseNotes": "+ Added HttpRequest::enableCookies() and HttpRequest::resetCookies([bool session_only=FALSE])\n+ Added optional flags argument to http_parse_params()\n+ Added HTTP_PARAMS_ALLOW_COMMA, HTTP_PARAMS_ALLOW_FAILURE, HTTP_PARAMS_RAISE_ERROR constants\n* Fixed http_build_url(\"./path\") if REQUEST_URI is empty\n* Fixed http_parse_params(\"foo;bar\") returning \"foo\" and \"ar\"\n* Fixed return value of http_parse_params() Object{\"params\"=>Array(\"value\", Array(\"name\"=>\"value\"), ...)}\n* Fixed HttpMessage::setRequestMethod() errenously issuing a warning about an unknown request method\n* Fixed bugs introduced by using the new REQUEST_TIME server variable\n! NOTE: Many INI settings have been renamed to comply with the internal structure",
+            "get": "http://pecl.php.net/get/pecl_http-1.0.0RC5",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.0.0RC4": {
+            "version": "1.0.0RC4",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2006-05-19T11:12:28+00:00",
+            "releaseNotes": "+ Added http_parse_params() function\n+ Added HTTP_URL_STRIP_ALL constant\n* Fixed possible crash in progress/onfinish request callbacks\n* Fixed http_redirect() and http_build_url() without arguments\n* Fixed behaviour of http_build_url() when second parameter is NULL\n* Enabled recursive query string merging in http_build_url() with HTTP_URL_JOIN_QUERY",
+            "get": "http://pecl.php.net/get/pecl_http-1.0.0RC4",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.0.0RC3": {
+            "version": "1.0.0RC3",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2006-04-13T11:34:20+00:00",
+            "releaseNotes": "+ Added missing http_request() function\n+ Added missing http_request_body_encode() function\n- Improved performance of the message and header parser\n- Disallow $HttpMessage->prepend($HttpMessage) causing infinite recursion\n* Fixed internal http_parse_headers() always returning success\n* Fixed missing \"parentMessage\" entry in print_r($HttpMessageObject)\n* Fixed possible crash if the response does not contain a status message",
+            "get": "http://pecl.php.net/get/pecl_http-1.0.0RC3",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.0.0RC2": {
+            "version": "1.0.0RC2",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2006-03-28T05:15:43+00:00",
+            "releaseNotes": "* Fixed Bug #7192: Build against libcurl >= 7.15.2 fails\n* Fixed access of super globals\n* Fixed sending userspace streams\n* Fixed too aggressive caching behaviour of HttpResponse",
+            "get": "http://pecl.php.net/get/pecl_http-1.0.0RC2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.0.0RC1": {
+            "version": "1.0.0RC1",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2006-03-19T13:55:45+00:00",
+            "releaseNotes": "* Fixed possible crash in HttpQueryString if the SAPI does not have a treat_data function registered.\n* Fixed http_build_str() to urlencode square brackets (\"[]\").\n* Fixed HttpQueryString::xlate()\n* Fixed builds where include/php/ext/iconv does not have php_have_*.h files\n* Fixed PHP-4 build.",
+            "get": "http://pecl.php.net/get/pecl_http-1.0.0RC1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.25.0": {
+            "version": "0.25.0",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2006-03-07T10:12:18+00:00",
+            "releaseNotes": "* Fixed bug #6924 (Linking fails on Mac OSX).\n* Fixed HttpRequest::addRawPostData().\n\n- Renamed HttpQueryString::getInstance() to more commonly used ::singleton().\n- Renamed HttpQueryString::iconv() to more generic ::xlate().\n\n+ Added feature request http_put_data() and HttpRequest::(set|get|add)PutData().\n+ Added 'range' request option.\n+ Added 'proxytype' request option.\n+ Added HTTP_PROXY_HTTP, HTTP_PROXY_SOCKS4, HTTP_PROXY_SOCKS5 constants.",
+            "get": "http://pecl.php.net/get/pecl_http-0.25.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.24.1": {
+            "version": "0.24.1",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2006-02-23T07:12:03+00:00",
+            "releaseNotes": "* Fixed bug #6861 - 5 digit ports get truncated\n* Fixed bug with non-functional HttpRequest::setContentType()",
+            "get": "http://pecl.php.net/get/pecl_http-0.24.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.24.0": {
+            "version": "0.24.0",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2006-02-20T11:46:29+00:00",
+            "releaseNotes": "+ Added If-Range header recognition.\n+ Added \"portrange\" request option.\n+ Added HttpQueryString::iconv().\n+ HttpQueryString implements Serializable (PHP-5.1).\n\n* Fixed bug #6804 - configure does not recognize '--without-http-zlib-compression'.\n* Fixed cases where '412 Precondition failed' responses should be sent.\n* Fixed message chain order in HttpRequest::getHistory().",
+            "get": "http://pecl.php.net/get/pecl_http-0.24.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.23.1": {
+            "version": "0.23.1",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2006-02-15T13:48:43+00:00",
+            "releaseNotes": "* Fixed http_parse_cookie(), really.",
+            "get": "http://pecl.php.net/get/pecl_http-0.23.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.23.0": {
+            "version": "0.23.0",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2006-02-15T02:44:03+00:00",
+            "releaseNotes": "+ Added 'etag' request option.\n+ Added 'encodecookies' request option (defaults to true).\n+ Added missing accessors for response status text to HttpMessage and HttpRequest classes.\n+ Added HttpMessage::reverse().\n+ Added bool must_revalidate parameter to HttpResponse::setCacheControl()\n\n- Reimplemented http_parse_cookie().\n- Changed HttpRequest::getResponseCookie() to HttpRequest::getResponseCookies(), \n  compliant to http_parse_cookie().\n- http_build_url() now tries to \"resolve\" public hostname prior falling back \n  to localhost if neither HTTP_HOST nor SERVER_NAME is set.\n- Changed HttpRequest::getHistory() to return a real property.\n\n* Fixed PHP-4.4 and PHP-5.0 build.",
+            "get": "http://pecl.php.net/get/pecl_http-0.23.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.22.0": {
+            "version": "0.22.0",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2006-02-03T04:47:27+00:00",
+            "releaseNotes": "+ Added HTTP 'protocol' version request option. (Ilia)\n+ Added optional class_name param to HttpMessage::fromString()\n+ Added HttpMessage::toMessageTypeObject(), HttpMessage::detach(), HttpMessage::prepend()\n+ Added Iterator interface to HttpMessage\n+ Added http_get_request_body_stream()\n+ Added HttpQueryString class\n\n- Don't pretend anylonger to understand 'compress' Content-Encoding\n- Sending an User-Agent can now be prevented by setting 'useragent' to NULL or empty string. (Ilia)\n- Changed http_redirect() to PHPs behaviour by default\n- Changed configure to enable curl and zlib functionality by default\n- Changed http_build_url() to accept a flag that defines what parts and how they are replaced/merged\n\n* Decreased the per-request calls to curl_easy_setopt()\n* Fixed gnutls ZTS build\n* Fixed openssl ZTS issues with other libraries using openssl\n* Fixed some issues with http_get_request_body()\n* Fixed bug #6645 - doesn't compile with zlib 1.2.2 (undefined Z_FIXED)",
+            "get": "http://pecl.php.net/get/pecl_http-0.22.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.21.0": {
+            "version": "0.21.0",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2006-01-03T14:17:53+00:00",
+            "releaseNotes": "! Encodings functionality requires libz version 1.2.0.4 or greater\n\n+ Added HttpDeflateStream and HttpInflateStream classes\n+ Added ob_deflatehandler and ob_inflatehandler\n+ Added HttpRequest::getRawRequestMessage and ::getRawResponseMessage\n+ Added 'resetcookies' request option (libcurl > 7.14.1)\n\n- Changed all methods and properties with \"URI\" in their name to \"URL\"\n- Changed HttpRequest properties to be private\n\n* Fixed a lot of memory corruptions within HttpRequest\n\nSpecial thanks for this release go to Ilia Alshanetsky.",
+            "get": "http://pecl.php.net/get/pecl_http-0.21.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.20.0": {
+            "version": "0.20.0",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2005-12-15T09:31:04+00:00",
+            "releaseNotes": "! Request functionality requires libcurl >= 7.12.3 now\n\n+ Added 'bodyonly' request option\n+ Added IOCTL callback for cURL\n+ Added ssl_engines array and cookies array to the request info array\n+ Added http_parse_cookie() to parse Set-Cookie headers\n\n- Renamed http_connectcode to connect_code in the request info array\n- Enable \"original headers\" previously stripped off by the message parser:\n\to X-Original-Transfer-Encoding (Transfer-Encoding)\n\to X-Original-Content-Encoding (Content-Encoding)\n\to X-Original-Content-Length (Content-Length)\n- RequestExceptions thrown by HttpRequestPool::__construct() and send() are\n  now wrapped into the HttpRequestPoolException object's $exceptionStack property\n- Removed http_compress() and http_uncompress() (http_deflate/inflate ambiguity)\n\n* Fixed bug which caused GZIP encoded archives to be decoded\n* Fixed bug with DEFLATE encoded response messages\n* Fixed several memory leaks and inconspicuous access violations\n* Fixed some logical errors in the uri builder",
+            "get": "http://pecl.php.net/get/pecl_http-0.20.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.19.0": {
+            "version": "0.19.0",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2005-11-26T17:22:04+00:00",
+            "releaseNotes": "+ Added http_negotiate_content_type()\n\n* Fixed bug in http_negotiate_*() when client sends spaces within accept headers\n\n- Removed support for etag hashing through libmhash\n- Removed HTTP_ETAG_* and HttpResponse::ETAG_* constants\n- Changed http.etag_mode INI setting to acccept a string specifying the\n  hash algorithm to use for generating etags.\n  CRC32, MD5 and SHA1 are available out of the box with MD5 being the default. \n  If pecl/hash is available, any algorithm this extension provides can be used.",
+            "get": "http://pecl.php.net/get/pecl_http-0.19.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.18.1": {
+            "version": "0.18.1",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2005-11-18T05:31:29+00:00",
+            "releaseNotes": "* Fixed build with PHP-4 and PHP-5.0",
+            "get": "http://pecl.php.net/get/pecl_http-0.18.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.18.0": {
+            "version": "0.18.0",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2005-11-16T11:49:01+00:00",
+            "releaseNotes": "+ Added INI setting http.force_exit which can be used to disable script termination\n  in case of redirects and positive cache hits (instead, standard output will be discarded)\n+ Classes HttpMessage and HttpRequestPool implement Countable if PHP >= 5.1 with SPL is available\n+ Class HttpMessage implements Serializable if PHP >= 5.1 is available\n+ Added experimental http.chunked_encode and chunked_decode stream filter\n\n* Fixed a bug that caused a warning about an invalid curl handle at HttpRequestPool destruction\n* Fixed a bug with http_get_request_headers() modifying $_SERVER array\n* Fixed a bug which required \"=\" in Content-Range response message headers\n* Fixed a bug with directly setting HttpMessage property values",
+            "get": "http://pecl.php.net/get/pecl_http-0.18.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.17.0": {
+            "version": "0.17.0",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2005-11-04T07:03:02+00:00",
+            "releaseNotes": "+ Added experimental thread safety for builds linking against libcurl-gnutls\n+ Improved the chunked decoder\n+ Added clone support to HttpRequest objects\n\n- License changed from PHP license to revised BSD license!\n- HttpMessage properties are not accessible by reference or array index/key!\n- HttpRequest history logging is disabled by default!\n- HttpRequestPool is not clonable!\n\n* Fixed a bug where HttpRequest warnings were hidden within the HttpRequestPool\n* Fixed shared build within the PHP source tree\n* Fixed parallel build with ext/zlib on Win32\n* Fixed object deallocation\n* Fixed http_support() pretending no support for SSL in non-threadsafe builds\n* Fixed the message parser to not choke on headers containing HTTP/1.x\n* Fixed access to protected HttpMessage properties in extending classes\n* Fixed lots of tests for the changed HTTP header order in PHP-5.1",
+            "get": "http://pecl.php.net/get/pecl_http-0.17.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.16.0": {
+            "version": "0.16.0",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mike",
+            "releaseDate": "2005-10-19T05:15:18+00:00",
+            "releaseNotes": "+ Added ext/zlib independant GZIP support\n+ Added HttpRequestPool::getAttachedRequests() and getFinishedRequests()",
+            "get": "http://pecl.php.net/get/pecl_http-0.16.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.15.0": {
+            "version": "0.15.0",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mike",
+            "releaseDate": "2005-10-11T09:50:01+00:00",
+            "releaseNotes": "+ Updated documentation (a lot)\n+ Added optional third parameter to HttpRequest::__construct() accepting an array with options\n+ Added compression functions gzencode/gzdecode, deflate/inflate, compress/uncompress\n+ Added http_support() for probing features that depend on external libraries\n\n- Renamed http_absolute_uri() to http_build_uri() (complements with http_build_query())\n- Changed the signature of the negotiator to fill the second parameter with the results array\n\n* Fixed several ETag issues\n* Fixed HttpRequestPools detach() and attach() methods when the iterator is active\n* Fixed parsing messages with Content-Range headers\n* Fixed parsing messages with another Transfer-Encoding header value than chunked",
+            "get": "http://pecl.php.net/get/pecl_http-0.15.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.14.2": {
+            "version": "0.14.2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mike",
+            "releaseDate": "2005-10-04T04:54:47+00:00",
+            "releaseNotes": "* Fixed caching by Last-Modified with dates in october",
+            "get": "http://pecl.php.net/get/pecl_http-0.14.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.14.1": {
+            "version": "0.14.1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mike",
+            "releaseDate": "2005-09-30T07:19:29+00:00",
+            "releaseNotes": "* Fixed PHP-5.0 build",
+            "get": "http://pecl.php.net/get/pecl_http-0.14.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.14.0": {
+            "version": "0.14.0",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mike",
+            "releaseDate": "2005-09-28T10:37:11+00:00",
+            "releaseNotes": "+ Added missing support for raw post data in HttpRequest\n+ Added missing HttpMessage::setBody()\n+ Added HttpRequest::METH_* constants\n+ Added HttpRequest::AUTH_* constants\n+ Added HttpMessage::TYPE_* constants\n+ Added HttpResponse::ETAG_* constants\n+ Added HTTP_ETAG_MHASH_* constants\n+ Added supported ETag hash algrithms to php_info() output\n+ Added ETag hashing through PHPs CRC32() implementation\n+ Added new language/charset negotiator\n\n* Changed HttpMessage::toString([include_parent = true]) to false\n* Renamed HTTP_GET etc. constants to HTTP_METH_GET\n* Fixed protected property access",
+            "get": "http://pecl.php.net/get/pecl_http-0.14.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.13.0": {
+            "version": "0.13.0",
+            "state": "beta",
+            "license": "PHP License 3.0",
+            "releasedBy": "mike",
+            "releaseDate": "2005-09-09T10:53:57+00:00",
+            "releaseNotes": "+ HTTP request method API is now available for builds without libcurl, too\n+ Added HttpResponse::guessContentType() through libmagic\n\n- Removed HttpResponse class from PHP-5.0 (WONKY) due to ZE limitations\n\n* Improved the build system\n* Imrpoved logging format\n* Implemented SSL crypto locks for thread safe builds\n* Fixed ridiculous low default transfer timeout of 3 seconds (set to 0 now)\n* Fixed a bug where plain instead of more specific HttpExceptions were thrown\n* Fixed a bug where entities that where not marked for being cached were\n  actually cached if an apropriate ETag or Last-Modified header was seen",
+            "get": "http://pecl.php.net/get/pecl_http-0.13.0",
+            "SPDX-License-Identifier": "PHP-3.0"
+        },
+        "0.12.0": {
+            "version": "0.12.0",
+            "state": "beta",
+            "license": "PHP License 3.0",
+            "releasedBy": "mike",
+            "releaseDate": "2005-08-26T07:25:39+00:00",
+            "releaseNotes": "+ Added ETag generation through libmhash\n+ Added http_parse_message()\n+ Added single LF awareness to the parsers\n+ Added HttpResponse::setHeader(), HttpResponse::getHeader(), HttpResponse::status()\n+ Added HttpResponse::status()\n+ Added constants HttpMessage::NONE, Http_Message::REQUEST, HttpMessage::RESPONSE\n+ Added Content-Length header if HttpResponse sends full plain entity\n+ Added ZendEngine workaround for internal class' static properties (HttpResponse)\n+ Added HttpRequestPool::socketPerform()\n\n- Removed http_split_response()\n- Removed AuthBasic hooks\n- Removed HttpResponse::sendHeader(), HttpResponse::sendStatus()\n- Removed HttpRequest::unset*() methods, now handled through set*() with empty parameter\n- Removed HttpRequestPool::socketRead(), HttpRequestPool::socketSend()\n\n* Fixed initialization and cleanup of module globals\n* Fixed builds and tests without libcurl\n* Fixed access of request headers through $_SERVER\n* Fixed check for ext/session in http_redirect()\n* Fixed custom ETags and Last-Modified dates in HttpResponse\n* Fixed PHP4 build",
+            "get": "http://pecl.php.net/get/pecl_http-0.12.0",
+            "SPDX-License-Identifier": "PHP-3.0"
+        },
+        "0.11.0": {
+            "version": "0.11.0",
+            "state": "beta",
+            "license": "PHP License 3.0",
+            "releasedBy": "mike",
+            "releaseDate": "2005-08-01T04:12:31+00:00",
+            "releaseNotes": "* Fixed HttpRequest with redirects\n* Fixed http.allowed_methods INI entry\n+ Added HTTP specific exceptions\n+ Added http.only_exceptions INI entry\n+ Added HttpRequest::$recordHistory and HttpRequest::getHistory()\n- Removed the ondebug callback option for requests",
+            "get": "http://pecl.php.net/get/pecl_http-0.11.0",
+            "SPDX-License-Identifier": "PHP-3.0"
+        },
+        "0.10.1": {
+            "version": "0.10.1",
+            "state": "beta",
+            "license": "PHP License 3.0",
+            "releasedBy": "mike",
+            "releaseDate": "2005-07-25T12:11:04+00:00",
+            "releaseNotes": "* fixed installation through the PEAR installer",
+            "get": "http://pecl.php.net/get/pecl_http-0.10.1",
+            "SPDX-License-Identifier": "PHP-3.0"
+        },
+        "0.10.0": {
+            "version": "0.10.0",
+            "state": "beta",
+            "license": "PHP License 3.0",
+            "releasedBy": "mike",
+            "releaseDate": "2005-07-25T08:56:37+00:00",
+            "releaseNotes": "* changed HttpResponse to a completely static class, please see docs/functions.html for reference\n* added http_get_request_body()\n* several bug fixes\n* added test files",
+            "get": "http://pecl.php.net/get/pecl_http-0.10.0",
+            "SPDX-License-Identifier": "PHP-3.0"
+        },
+        "0.9.0": {
+            "version": "0.9.0",
+            "state": "beta",
+            "license": "PHP License 3.0",
+            "releasedBy": "mike",
+            "releaseDate": "2005-06-15T12:18:05+00:00",
+            "releaseNotes": "* added HttpRequestPool class (PHP5)\n* added missing files to package.xml",
+            "get": "http://pecl.php.net/get/pecl_http-0.9.0",
+            "SPDX-License-Identifier": "PHP-3.0"
+        },
+        "0.8.0": {
+            "version": "0.8.0",
+            "state": "beta",
+            "license": "PHP License 3.0",
+            "releasedBy": "mike",
+            "releaseDate": "2005-06-06T07:52:29+00:00",
+            "releaseNotes": "* renamed ob_httpetaghandler to ob_etaghandler\n* http_chunked_decode() now silently passes through apparently not encoded data\n* added HttpMessage class and HttpException (PHP5 only)\n* added http.cache_log INI directive\n* added throttling capability to http_send()/HttpResponse\n* added hooks for custom request methods\n* added PUT support\n* added http_match_request_header()\n* added clean_ob parameter to HttpResponse::send()",
+            "get": "http://pecl.php.net/get/pecl_http-0.8.0",
+            "SPDX-License-Identifier": "PHP-3.0"
+        },
+        "0.7.0": {
+            "version": "0.7.0",
+            "state": "beta",
+            "license": "PHP License 3.0",
+            "releasedBy": "mike",
+            "releaseDate": "2005-03-24T12:08:39+00:00",
+            "releaseNotes": "* Renamed HTTPi to HttpUtil\n* Renamed HTTPi_Request to HttpRequest\n* Renamed HTTPi_Response to HttpResponse\n* Added several methods to HttpRequest: unsetOptions(), addHeaders(array),\n  getHeaders(), unsetHeaders(), addCookies(array), getCookies(), unsetCookies(),\n  setSslOptions(array), getSslOptions(), unsetSslOptions()\n* Improved HTTP ranges support",
+            "get": "http://pecl.php.net/get/pecl_http-0.7.0",
+            "SPDX-License-Identifier": "PHP-3.0"
+        },
+        "0.6.1": {
+            "version": "0.6.1",
+            "state": "alpha",
+            "license": "PHP License 3.0",
+            "releasedBy": "mike",
+            "releaseDate": "2005-03-07T13:23:39+00:00",
+            "releaseNotes": "* fixed overflow in http_split_response()\n- removed HTTPi_Request::getResponseHeaders()\n+ added HTTPi_Request::getResponseCode()\n+ added HTTPi_Request::getResponseHeader([string name]), allowing retrieval of single header values\n+ HTTPi_Request::getResponseInfo([string name]) now allows retrieval of single info values\n+ vastly enhanced http_absolute_uri()",
+            "get": "http://pecl.php.net/get/pecl_http-0.6.1",
+            "SPDX-License-Identifier": "PHP-3.0"
+        },
+        "0.6.0": {
+            "version": "0.6.0",
+            "state": "alpha",
+            "license": "PHP License 3.0",
+            "releasedBy": "mike",
+            "releaseDate": "2005-03-04T11:19:32+00:00",
+            "releaseNotes": "+ added POST support to HTTPi_Request\n+ added some more curl options\n+ better recognition of older libcurl versions\n* internal API optimizations",
+            "get": "http://pecl.php.net/get/pecl_http-0.6.0",
+            "SPDX-License-Identifier": "PHP-3.0"
+        },
+        "0.5.1": {
+            "version": "0.5.1",
+            "state": "alpha",
+            "license": "PHP License 3.0",
+            "releasedBy": "mike",
+            "releaseDate": "2005-02-22T12:52:00+00:00",
+            "releaseNotes": "* added some compatibility checks for older libcurl versions\n* fixed some memory leaks\n* fixed a typo which made http_split_response() useless\n* fixed HTTPi_Request object destruction",
+            "get": "http://pecl.php.net/get/pecl_http-0.5.1",
+            "SPDX-License-Identifier": "PHP-3.0"
+        },
+        "0.5.0": {
+            "version": "0.5.0",
+            "state": "alpha",
+            "license": "PHP License 3.0",
+            "releasedBy": "mike",
+            "releaseDate": "2005-02-19T12:38:00+00:00",
+            "releaseNotes": "* added ob_httpetaghandler() (has major limitations compared to http_cache_etag())\n* smarter ob handling in http_cache_etag() - used buffers will be fetched, freed\n  and piped through again, so that everything passes the etag ob handler\n* added static final HTTPi class (PHP5) providing fairly every function as static method\n* added HTTPi_Response class (PHP5)\n* added HTTPi_Request class, only HEAD/GET support for now (PHP5/curl)\n* renamed http_content_type() and http_content_disposition() to http_send_*",
+            "get": "http://pecl.php.net/get/pecl_http-0.5.0",
+            "SPDX-License-Identifier": "PHP-3.0"
+        },
+        "0.4.0": {
+            "version": "0.4.0",
+            "state": "alpha",
+            "license": "PHP License 3.0",
+            "releasedBy": "mike",
+            "releaseDate": "2005-02-16T08:37:00+00:00",
+            "releaseNotes": "* No need to initialize $info in http_(get|head|post*) functions anymore\n* Array keys of $info in http_(get|head|post*) functions are now lower case\n* Added http_get_request_headers()\n* Added http.allowed_methods INI entry\n* Fixed memory corruption in http_parse_headers() with empty header values\n* Fixed ETag caching\n* Fixed http_send_data()\n* Correctly send the full entity if the clients Range header is syntactically invalid",
+            "get": "http://pecl.php.net/get/pecl_http-0.4.0",
+            "SPDX-License-Identifier": "PHP-3.0"
+        },
+        "0.3.0": {
+            "version": "0.3.0",
+            "state": "alpha",
+            "license": "PHP License 3.0",
+            "releasedBy": "mike",
+            "releaseDate": "2005-02-10T18:56:00+00:00",
+            "releaseNotes": "* ctype is now mandatory\n* implemented additional third/fourth informational parameter to http_(get|head|post*)\n  which will be filled with an associative array containing request/response information\n* removed http_accept_ranges()\n* output \"Redirecting to <a>URI</a>.\" in http_redirect() for full RFC compliance\n* fixed http_cache_last_modified(): if parameter was omitted, would have always sent 304 Not Modified\n* added http_parse_headers()",
+            "get": "http://pecl.php.net/get/pecl_http-0.3.0",
+            "SPDX-License-Identifier": "PHP-3.0"
+        },
+        "0.2.0": {
+            "version": "0.2.0",
+            "state": "alpha",
+            "license": "PHP License 3.0",
+            "releasedBy": "mike",
+            "releaseDate": "2005-01-31T12:32:00+00:00",
+            "releaseNotes": "* fixed http_chunked_decode() and http_get_request_ranges() \n  (broken by a naive fix for signed/unsigned mismatches)\n* added own imlementation for a RFC822 compliant HTTP date\n* added http_auth_basic() and http_auth_basic_cb()",
+            "get": "http://pecl.php.net/get/pecl_http-0.2.0",
+            "SPDX-License-Identifier": "PHP-3.0"
+        },
+        "0.1.0": {
+            "version": "0.1.0",
+            "state": "alpha",
+            "license": "PHP License 3.0",
+            "releasedBy": "mike",
+            "releaseDate": "2005-01-27T19:13:00+00:00",
+            "releaseNotes": "* 1st release",
+            "get": "http://pecl.php.net/get/pecl_http-0.1.0",
+            "SPDX-License-Identifier": "PHP-3.0"
+        }
+    },
+    "summary": "Extended HTTP Support",
+    "SPDX-License-Identifier": "BSD-2-Clause"
+}

@@ -1,0 +1,84 @@
+{
+    "category": "Tools and Utilities",
+    "deprecated": false,
+    "description": "This is an extension for using PC/SC based smart cards with PHP. It is a wrapper to the winscard API which provides a native interface to smart cards using the PC/SC standard. Linux/UNIX and Windows are supported.",
+    "latestReleaseDate": "2021-02-21T00:40:11+00:00",
+    "latestVersion": "0.5.1",
+    "license": "PHP",
+    "name": "pcsc",
+    "php8Mentioned": true,
+    "releases": {
+        "0.5.1": {
+            "version": "0.5.1",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "hanez",
+            "releaseDate": "2021-02-21T00:40:11+00:00",
+            "releaseNotes": "Added and updated content like README.md; No bug or feature updates.",
+            "get": "https://pecl.php.net/get/pcsc-0.5.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.5.0": {
+            "version": "0.5.0",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "hanez",
+            "releaseDate": "2021-02-20T22:48:04+00:00",
+            "releaseNotes": "Updated for PHP 8 compatibility.",
+            "get": "https://pecl.php.net/get/pcsc-0.5.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.4.0": {
+            "version": "0.4.0",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "hanez",
+            "releaseDate": "2021-02-08T22:25:42+00:00",
+            "releaseNotes": "Updated for PHP 7 compatibility.",
+            "get": "https://pecl.php.net/get/pcsc-0.4.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.3.1": {
+            "version": "0.3.1",
+            "state": "alpha",
+            "license": "PHP",
+            "releasedBy": "hanez",
+            "releaseDate": "2015-01-22T17:13:26+00:00",
+            "releaseNotes": "Fixed bug to make the use of the T=0 protocol possible.",
+            "get": "http://pecl.php.net/get/pcsc-0.3.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.3": {
+            "version": "0.3",
+            "state": "alpha",
+            "license": "PHP",
+            "releasedBy": "hanez",
+            "releaseDate": "2014-04-23T21:21:11+00:00",
+            "releaseNotes": "Fix w32 build, fix compiler warnings, use zval resource instead of LONG for handles",
+            "get": "http://pecl.php.net/get/pcsc-0.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2": {
+            "version": "0.2",
+            "state": "alpha",
+            "license": "PHP",
+            "releasedBy": "hanez",
+            "releaseDate": "2013-04-11T14:21:30+00:00",
+            "releaseNotes": "Fixed compile error on >= PHP5.4 and added w32 support",
+            "get": "http://pecl.php.net/get/pcsc-0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1": {
+            "version": "0.1",
+            "state": "alpha",
+            "license": "PHP",
+            "releasedBy": "hanez",
+            "releaseDate": "2011-12-13T18:26:40+00:00",
+            "releaseNotes": "Initial release",
+            "get": "http://pecl.php.net/get/pcsc-0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "winscard PC/SC API support for PHP",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ps">ps</p>
+ <c>pecl.php.net</c>
+ <v>1.3.4</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>steinm</m>
+ <s>An extension to create PostScript files</s>
+ <d>ps is an extension similar to the pdf extension but for creating PostScript files. Its api is modelled after the pdf extension.
+ 
+</d>
+ <da>2006-07-25 09:22:07</da>
+ <n>Made ps_arcn() available. ps_set_border_dash() checks now for 3 parameters instead of 4. Fixed segm fault when the optional parameter of ps_show_boxed() is not passed. Added some more examples. New function ps_include_file().</n>
+ <f>197802</f>
+ <g>http://pecl.php.net/get/ps-1.3.4</g>
+ <x xlink:href="package.1.3.4.xml"/>
+</r>

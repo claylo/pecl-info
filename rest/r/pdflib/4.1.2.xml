@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pdflib">pdflib</p>
+ <c>pecl.php.net</c>
+ <v>4.1.2</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>rjs</m>
+ <s>Creating PDF on the fly with the PDFlib library</s>
+ <d>This extension wraps the PDFlib programming library
+for processing PDF on the fly, available from PDFlib GmbH
+at http://www.pdflib.com. 
+
+More info on how to use PDFlib with PHP can be found at
+http://www.pdflib.com/developer-center/technical-documentation/php-howto</d>
+ <da>2017-07-28 21:14:41</da>
+ <n>- fix problem in PHP 7 that when extending the PDFlib class it was not possible to access any members of the extended class.</n>
+ <f>33081</f>
+ <g>http://pecl.php.net/get/pdflib-4.1.2</g>
+ <x xlink:href="package.4.1.2.xml"/>
+</r>

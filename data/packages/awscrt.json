@@ -1,0 +1,114 @@
+{
+    "category": "Tools and Utilities",
+    "deprecated": false,
+    "description": "AWS Common Runtime provides a set of low level tools\n  as network protocols and authentication used by the AWSSDK for\n  PHP to provide high level API to access AWS\n  services.",
+    "latestReleaseDate": "2022-02-14T23:01:24+00:00",
+    "latestVersion": "1.0.9",
+    "license": "Apache\n  License Version 2.0",
+    "name": "awscrt",
+    "php8Mentioned": false,
+    "releases": {
+        "1.0.9": {
+            "version": "1.0.9",
+            "state": "devel",
+            "license": "Apache\n  License Version 2.0",
+            "releasedBy": "sdavtaker",
+            "releaseDate": "2022-02-14T23:01:24+00:00",
+            "releaseNotes": "Changes in build process",
+            "get": "https://pecl.php.net/get/awscrt-1.0.9",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.0.8": {
+            "version": "1.0.8",
+            "state": "stable",
+            "license": "Apache\n  License Version 2.0",
+            "releasedBy": "sdavtaker",
+            "releaseDate": "2021-09-10T14:33:08+00:00",
+            "releaseNotes": "Changes in build process",
+            "get": "https://pecl.php.net/get/awscrt-1.0.8",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.0.7": {
+            "version": "1.0.7",
+            "state": "stable",
+            "license": "Apache\n  License Version 2.0",
+            "releasedBy": "samremis",
+            "releaseDate": "2021-09-03T02:04:53+00:00",
+            "releaseNotes": "STABLE",
+            "get": "https://pecl.php.net/get/awscrt-1.0.7",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.0.6": {
+            "version": "1.0.6",
+            "state": "stable",
+            "license": "Apache\n  License Version 2.0",
+            "releasedBy": "samremis",
+            "releaseDate": "2021-09-03T01:52:27+00:00",
+            "releaseNotes": "STABLE",
+            "get": "https://pecl.php.net/get/awscrt-1.0.6",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.0.5": {
+            "version": "1.0.5",
+            "state": "devel",
+            "license": "Apache\n  License Version 2.0",
+            "releasedBy": "samremis",
+            "releaseDate": "2021-09-03T01:21:07+00:00",
+            "releaseNotes": "removed",
+            "get": "https://pecl.php.net/get/awscrt-1.0.5",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.0.4": {
+            "version": "1.0.4",
+            "state": "devel",
+            "license": "Apache\n  License Version 2.0",
+            "releasedBy": "sdavtaker",
+            "releaseDate": "2021-07-08T19:31:58+00:00",
+            "releaseNotes": "Changes in build process",
+            "get": "https://pecl.php.net/get/awscrt-1.0.4",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.0.3": {
+            "version": "1.0.3",
+            "state": "devel",
+            "license": "Apache\n  License Version 2.0",
+            "releasedBy": "sdavtaker",
+            "releaseDate": "2021-07-08T19:06:52+00:00",
+            "releaseNotes": "Changes in build process",
+            "get": "https://pecl.php.net/get/awscrt-1.0.3",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.0.2": {
+            "version": "1.0.2",
+            "state": "devel",
+            "license": "Apache\n  License Version 2.0",
+            "releasedBy": "sdavtaker",
+            "releaseDate": "2021-07-08T18:05:06+00:00",
+            "releaseNotes": "Changes in build process",
+            "get": "https://pecl.php.net/get/awscrt-1.0.2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "devel",
+            "license": "Apache\n  License Version 2.0",
+            "releasedBy": "sdavtaker",
+            "releaseDate": "2021-06-29T14:41:19+00:00",
+            "releaseNotes": "Changes in build process",
+            "get": "https://pecl.php.net/get/awscrt-1.0.1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "devel",
+            "license": "Apache License Version 2.0",
+            "releasedBy": "sdavtaker",
+            "releaseDate": "2021-06-22T17:23:49+00:00",
+            "releaseNotes": "Initial development release of awscrt API bindings.",
+            "get": "https://pecl.php.net/get/awscrt-1.0.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        }
+    },
+    "summary": "AWS Common Runtime PHP bindings",
+    "SPDX-License-Identifier": "Apache-2.0"
+}

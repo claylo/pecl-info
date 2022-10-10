@@ -1,0 +1,54 @@
+{
+    "category": "Text",
+    "deprecated": false,
+    "description": "This extension provides access to the reference implementation of CommonMark, \n  a rationalized version of Markdown syntax with a specification.",
+    "latestReleaseDate": "2019-05-27T08:42:03+00:00",
+    "latestVersion": "1.2.0",
+    "license": "PHP License",
+    "name": "cmark",
+    "php8Mentioned": false,
+    "releases": {
+        "1.2.0": {
+            "version": "1.2.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2019-05-27T08:42:03+00:00",
+            "releaseNotes": "- Fix #13 Reflection of CommonMark\\CQL::__construct has no parameters\n- Fix #14 Reflection of CommonMark\\Parse doesn't have return type\n- Fix #16 Reflection of CommonMark\\Parser::finish doesn't have return type\n- Add PHP 7.4 support\n- Drop PHP 7.0 / 7.1 support",
+            "get": "https://pecl.php.net/get/cmark-1.2.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.1.0": {
+            "version": "1.1.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2018-04-20T14:51:24+00:00",
+            "releaseNotes": "- Add CQL, CommonMark Query Language: allow the programmer to navigate the\n  document without loading entire trees or intermediate objects into memory\n- refcounting fixes",
+            "get": "http://pecl.php.net/get/cmark-1.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2018-04-10T04:45:54+00:00",
+            "releaseNotes": "- improve efficiency of visitation, only looking up functions one time for each accept()\n- allow returning [Event => Node] from enter/leave, providing full control over backing iterator",
+            "get": "http://pecl.php.net/get/cmark-1.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2018-03-29T07:06:29+00:00",
+            "releaseNotes": "- initial pecl release",
+            "get": "http://pecl.php.net/get/cmark-1.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "CommonMark extension",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

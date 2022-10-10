@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/bitset">bitset</p>
+ <c>pecl.php.net</c>
+ <v>2.0.2</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>willfitch</m>
+ <s>BITSET library</s>
+ <d>Bitsets manipulation library</d>
+ <da>2016-02-26 20:28:18</da>
+ <n>- Fixed issue (Github #9) BitSet::clear(0) should clear the first bit only (credits @aurora)
+- Cleaned up warnings from old code
+- Added fromRawValue method (Github #6) (credits @aurora)</n>
+ <f>18307</f>
+ <g>http://pecl.php.net/get/bitset-2.0.2</g>
+ <x xlink:href="package.2.0.2.xml"/>
+</r>

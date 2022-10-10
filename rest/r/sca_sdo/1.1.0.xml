@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/sca_sdo">SCA_SDO</p>
+ <c>pecl.php.net</c>
+ <v>1.1.0</v>
+ <st>stable</st>
+ <l>Apache 2.0</l>
+ <m>cem</m>
+ <s>Service Component Architecture (SCA) and Service Data Objects (SDO) for PHP</s>
+ <d>Service Data Objects (SDOs) enable PHP applications to work with data from different sources (like a database query, an XML file, or a spreadsheet) using a single interface. SCA for PHP allows a PHP programmer to write reusable components (classes) in PHP, which can be called either locally, or remotely via Web Services, with an identical interface.
+ 
+</d>
+ <da>2006-11-24 09:41:31</da>
+ <n>This is the first release under the new project name SCA_SDO (renamed from SDO).
+The rename reflects the fact that this project now implements the Service Component Architecture (SCA)
+(see http://osoa.org/display/PHP/SCA+with+PHP for more information).
+The project's stable state refers to the SDO component.
+The SCA component is currently alpha quality and experimental.
+The main changes since 1.0.4 are:
+ - inclusion of the Service Component Architecture (SCA) component
+ - new PEAR packaging to install SCA and SDO as peer directories (PEAR/SCA and PEAR/SDO)
+ - update to Apache Tuscany C++ SDO revision level 478193
+ - new function in SDO_DAS_Relational to support multiple root data objects
+ - new function in SDO_DAS_XML to support CDATA sections (not yet complete)
+ - fixes for bugs #9287, #9289, #9339</n>
+ <f>358236</f>
+ <g>http://pecl.php.net/get/SCA_SDO-1.1.0</g>
+ <x xlink:href="package.1.1.0.xml"/>
+</r>

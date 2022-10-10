@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/yaml">yaml</p>
+ <c>pecl.php.net</c>
+ <v>1.1.0RC2</v>
+ <st>beta</st>
+ <l>MIT</l>
+ <m>bd808</m>
+ <s>YAML-1.1 parser and emitter</s>
+ <d>Support for YAML 1.1 (YAML Ain't Markup Language) serialization using the
+  LibYAML library.</d>
+ <da>2012-03-26 23:39:25</da>
+ <n>Bugs Fixed:
+  - #61477 memset sizeof(struct) instead of sizeof(pointer)
+  - #61475 config.m4 honors `php-config --prefix`</n>
+ <f>35887</f>
+ <g>http://pecl.php.net/get/yaml-1.1.0RC2</g>
+ <x xlink:href="package.1.1.0RC2.xml"/>
+</r>

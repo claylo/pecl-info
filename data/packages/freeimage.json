@@ -1,0 +1,24 @@
+{
+    "category": "Images",
+    "deprecated": false,
+    "description": "This extension is a wrapper for the FreeImage (http://freeimage.sourceforge.net)\nlibrary that allows PHP to support popular graphics image fromats like GIF, PNG,\nBMP, JPEG, TIFF, PSD, XPM and others as needed by today's multimedia application.\nSee the examples in the examples/ directory for some hints on how to use it.",
+    "latestReleaseDate": "2004-08-04T10:50:00+00:00",
+    "latestVersion": "0.1",
+    "license": "PHP",
+    "name": "FreeImage",
+    "summary": "Provides a wrapper to the FreeImage library.",
+    "php8Mentioned": false,
+    "releases": {
+        "0.1": {
+            "version": "0.1",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "wenlong",
+            "releaseDate": "2004-08-04T10:50:00+00:00",
+            "releaseNotes": "- Rewritten all code.\n- Both a procedural and an OO API is provided.\n- Upgraded FreeImage library to version 3.4.0.\n- Added stream support.\n- Added PHP5 support.\n- First Release in PECL.",
+            "get": "http://pecl.php.net/get/FreeImage-0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

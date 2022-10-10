@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>1.10.1</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+- event-driven
+- asynchronous non-blocking
+- multi-thread reactor
+- multi-process worker
+- multi-protocol
+- millisecond timer
+- async mysql client
+- built-in http/websocket/http2 server
+- async http/websocket client
+- async redis client
+- async task
+- async read/write file system
+- async dns lookup
+- support IPv4/IPv6/UnixSocket/TCP/UDP
+- support SSL/TLS encrypted transmission</d>
+ <da>2018-01-30 08:42:53</da>
+ <n>- Fixed Http2\Server cannot set http header
+- Added http_proxy_user and http_proxy_password options
+- Added Client::shutdown
+- Added WebSocket\server::isEstablished
+- Added debug_mode option
+- HttpClient compatible with Unity3D</n>
+ <f>722451</f>
+ <g>http://pecl.php.net/get/swoole-1.10.1</g>
+ <x xlink:href="package.1.10.1.xml"/>
+</r>

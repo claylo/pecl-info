@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.47.0</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>sammyk</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2020-07-08 19:55:44</da>
+ <n>**Deprecation notice**:
+- Setting service name via `DD_SERVICE_NAME` is now deprecated and will be removed in a future release. Use `DD_SERVICE` instead for consistency with other Datadog tracers and services.
+- Setting global tags via `DD_TRACE_GLOBAL_TAGS` is now deprecated and will be removed in a future release. Use `DD_TAGS` instead (with the same format) for consistency with other Datadog tracers and services.
+- `DD_TRACE_RESOURCE_URI_MAPPING` is deprecated now that it has been split into `DD_TRACE_RESOURCE_URI_MAPPING_INCOMING` and `DD_TRACE_RESOURCE_URI_MAPPING_OUTGOING`.
+- The functions `dd_trace` and `dd_trace_forward_call` are deprecated and will be made a no-op in the next release. See #924 for how to migrate.
+
+### Added
+
+- Apply new uri to resource normalization rules #928
+- Add DDTrace namespace for internal functions #930
+- Startup logging (can be disabled by setting `DD_TRACE_STARTUP_LOGS=0`) #935
+
+### Changed
+
+- Sandboxed cURL (PHP 5) #911, #938
+- Sandbox Lumen (PHP 5) #945
+- Sandboxed Symfony (PHP 5) #946
+- Add support for service name configuration via DD_SERVICE #919
+- Add support for DD_TAGS, fallback to DD_TRACE_GLOBAL_TAGS #920
+- Add support for DD_VERSION and DD_ENV variables #803 - thanks @brettlangdon
+- Enable OpenTracing test suite in CI #921
+- Defaults for name and resource on SpanData #923
+- Refactor dispatch.{c,h} #932
+- Extract ddtrace_sandbox_begin/ddtrace_sandbox_end helpers #940
+- Warn on dd_trace usage if DD_TRACE_WARN_LEGACY_DD_TRACE #941
+
+### Fixed
+
+- Only build on 64-bit platforms #929 (thanks for the report @remicollet)
+- (PHP 5.4) Make compilation to single file compatible with `include __DIR__ . '...'` in files #943</n>
+ <f>257014</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.47.0</g>
+ <x xlink:href="package.0.47.0.xml"/>
+</r>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xdebug">xdebug</p>
+ <c>pecl.php.net</c>
+ <v>2.1.1RC1</v>
+ <st>beta</st>
+ <l>BSD style</l>
+ <m>derick</m>
+ <s>Provides functions for function traces and profiling</s>
+ <d>The Xdebug extension helps you debugging your script by providing a lot of
+valuable debug information. The debug information that Xdebug can provide
+includes the following:
+
+    * stack and function traces in error messages with:
+          o full parameter display for user defined functions
+          o function name, file name and line indications
+          o support for member functions
+    * memory allocation
+    * protection for infinite recursions
+
+Xdebug also provides:
+
+    * profiling information for PHP scripts
+    * code coverage analysis
+    * capabilities to debug your scripts interactively with a debug client</d>
+ <da>2011-03-22 13:18:53</da>
+ <n>Tue, Mar 22, 2011 - xdebug 2.1.1rc1
+
+= Fixed bugs:
+
+  = Debugger
+	- Fixed bug #518: Removed CLASSNAME pseudo-property optional.
+	- Fixed bug #592: Xdebug crashes with run after detach.
+	- Fixed bug #596: Call breakpoint never works with instance methods, only
+	  static methods.
+	- Fixed JIT mode in the debugger so that it works for xdebug_break() too.
+
+  = Profiler
+	- Fixed bug #631: Summary not written when script ended with &quot;exit()&quot;.
+	- Fixed bug #639: Xdebug profiling: output not correct - missing 'cfl='.
+	- Fixed bug #642: Fixed line numbers for offsetGet, offsetSet,
+	  __get/__set/__isset/__unset and __call in profile files and stack
+	  traces/function traces.
+	- Fixed bug #643: Profiler gets line numbers wrong.
+	- Fixed bug #653: XDebug profiler crashes with %H in file name and non
+	  standard port.
+
+  = Others
+	- Fixed bug #651: Incorrect code coverage after empty() in conditional.
+	- Fixed bug #654: Xdebug hides error message in CLI.
+	- Fixed bug #665: Xdebug does not respect display_errors=stderr.
+	  Patch by Ben Spencer &lt;dangerous.ben@gmail.com&gt;
+	- Fixed bug #670: Xdebug crashes with broken &quot;break x&quot; code.</n>
+ <f>303148</f>
+ <g>http://pecl.php.net/get/xdebug-2.1.1RC1</g>
+ <x xlink:href="package.2.1.1RC1.xml"/>
+</r>

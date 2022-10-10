@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xdebug">xdebug</p>
+ <c>pecl.php.net</c>
+ <v>3.0.0RC1</v>
+ <st>beta</st>
+ <l>BSD style</l>
+ <m>derick</m>
+ <s>Provides functions for function traces and profiling</s>
+ <d>The Xdebug extension helps you debugging your script by providing a lot of
+valuable debug information. The debug information that Xdebug can provide
+includes the following:
+
+    * stack and function traces in error messages with:
+          o full parameter display for user defined functions
+          o function name, file name and line indications
+          o support for member functions
+    * memory allocation
+    * protection for infinite recursions
+
+Xdebug also provides:
+
+    * profiling information for PHP scripts
+    * code coverage analysis
+    * capabilities to debug your scripts interactively with a debug client</d>
+ <da>2020-11-16 11:01:20</da>
+ <n>Mon, Nov 16, 2020 - xdebug 3.0.0RC1
+
+This is a BETA release, and not ready for production environments.
+
+Xdebug 3 has many changes. Please read the upgrade guide at
+https://3.xdebug.org/docs/upgrade_guide
+
+Xdebug 3 documentation is available at https://3.xdebug.org/docs
+
+-------------
+
++ Improvements:
+  
+  - Implemented issue #1814: Don't obtain the current time when it's not needed
+  - Implemented issue #1885: Change xdebug.start_with_ settings to PHP_INI_SYSTEM|PHP_INI_PERDIR
+
+- Removed features:
+  
+  - Implemented issue #1016: Removed support for pause-execution (introduced in beta1)
+  - Implemented issue #1868: Remove xdebug_disable and xdebug_enabled
+  - Implemented issue #1883: Function xdebug_is_enabled has been removed
+
+= Fixed bugs:
+
+  - Fixed issue #1608: XDEBUG_CONFIG env var make sessions automatically START ever (at least send the XDEBUG_SESSION cookie)
+  - Fixed issue #1757: Pause-execution feature degrades performance
+  - Fixed issue #1864: Incompatibility with PCS and protobuf extensions
+  - Fixed issue #1870: XDEBUG_SESSION_START URL parameter does not override XDEBUG_SESSION cookie
+  - Fixed issue #1871: The &quot;idekey&quot; is not set when debugging is started through XDEBUG_SESSION cookie
+  - Fixed issue #1873: xdebug_info() segfaults if the diagnostic buffer is empty
+  - Fixed issue #1874: Incompatibility with protobuf extension
+  - Fixed issue #1875: Overflow with large amounts of elements for variadics
+  - Fixed issue #1878: Compilation failure: Socket options TCP_KEEPCNT and TCP_KEEPINTVL do not exist on Solaris 10 Sparc
+  - Fixed issue #1880: Bundled unit test tests/debugger/bug00886.phar misses to load phar extension
+  - Fixed issue #1887: Crash bug with xdebug_call_class and xdebug_call_file
+ 
++ Documentation
+
+  - Fixed issue #1865: Document XDEBUG_TRIGGER environment variable
+  - Fixed issue #1866: Document comma separated xdebug.mode values
+  - Fixed issue #1884: Document where Xdebug's settings can be set</n>
+ <f>189333</f>
+ <g>https://pecl.php.net/get/xdebug-3.0.0RC1</g>
+ <x xlink:href="package.3.0.0RC1.xml"/>
+</r>

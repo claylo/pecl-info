@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/newt">newt</p>
+ <c>pecl.php.net</c>
+ <v>0.3</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>michael</m>
+ <s>Extension for RedHat Newt window library</s>
+ <d>PHP-NEWT - PHP language extension for RedHat Newt library, a terminal-based window and widget library for writing applications with user friendly interface.  Once this extension is enabled in PHP it will provide the use of Newt widgets, such as windows, buttons, checkboxes, radiobuttons, labels, editboxes, scrolls, textareas, scales, etc. Use of this extension if very similar to the original Newt API of C programming language.
+</d>
+ <da>2004-12-28 22:18:00</da>
+ <n>1) Fixed some of listbox and windows functions
+2) Fixed callback filters</n>
+ <f>22766</f>
+ <g>http://pecl.php.net/get/newt-0.3</g>
+ <x xlink:href="package.0.3.xml"/>
+</r>

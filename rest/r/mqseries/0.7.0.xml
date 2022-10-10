@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mqseries">mqseries</p>
+ <c>pecl.php.net</c>
+ <v>0.7.0</v>
+ <st>alpha</st>
+ <l>BSD</l>
+ <m>mbretter</m>
+ <s>mqseries client library</s>
+ <d>This package provides support for IBM Websphere MQ (MQSeries).
+</d>
+ <da>2003-05-19 19:55:00</da>
+ <n>- Release 0.7.0
+- Initial Release</n>
+ <f>20811</f>
+ <g>http://pecl.php.net/get/mqseries-0.7.0</g>
+ <x xlink:href="package.0.7.0.xml"/>
+</r>

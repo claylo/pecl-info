@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/uopz">uopz</p>
+ <c>pecl.php.net</c>
+ <v>7.1.1</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>remi</m>
+ <s>User Operations for Zend</s>
+ <d>The uopz extension is focused on providing utilities to aid with unit testing PHP code.
+
+It supports the following activities:
+
+* Intercepting function execution
+* Intercepting object creation
+* Hooking into function execution
+* Manipulation of function statics
+* Manipulation of function flags
+* Redefinition of constants
+* Deletion of constants
+* Runtime creation of functions and methods</d>
+ <da>2021-10-19 08:47:28</da>
+ <n>- fix PHP 8.1 compatibility</n>
+ <f>29338</f>
+ <g>https://pecl.php.net/get/uopz-7.1.1</g>
+ <x xlink:href="package.7.1.1.xml"/>
+</r>

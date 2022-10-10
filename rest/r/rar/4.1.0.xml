@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/rar">rar</p>
+ <c>pecl.php.net</c>
+ <v>4.1.0</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>cataphract</m>
+ <s>rar extension</s>
+ <d>PHP extension for reading RAR archives using bundled unRAR library.</d>
+ <da>2020-10-11 18:18:53</da>
+ <n>- Merge changes made to unrar up to version 5.5.6.
+- Support PHP 7.2, PHP 7.3 and PHP 7.4.
+- Update to unrar 5.9.4
+- Fix bug #76592: streaming unpacking of uncompressed files incomplete</n>
+ <f>393885</f>
+ <g>https://pecl.php.net/get/rar-4.1.0</g>
+ <x xlink:href="package.4.1.0.xml"/>
+</r>

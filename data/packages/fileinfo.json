@@ -1,0 +1,15 @@
+{
+    "category": "File Formats",
+    "deprecated": true,
+    "description": "Allows retrieval of information regarding a vast majority of file types. This information may include dimensions, quality, length etc.\n\nAdditionally it can also be used to retrieve the mime type for a particular \nfile and for text files proper language encoding.\n\nNote: As of PHP 5.3.0 this extension is enabled by default and this PECL extension is no longer maintained and will contain no more releases.",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "PHP",
+    "name": "Fileinfo",
+    "new_channel": "php-src/ext/fileinfo",
+    "new_package": "in php sources",
+    "php8Mentioned": false,
+    "releases": [],
+    "summary": "libmagic bindings",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

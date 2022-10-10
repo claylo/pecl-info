@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/v8js">v8js</p>
+ <c>pecl.php.net</c>
+ <v>0.6.3</v>
+ <st>stable</st>
+ <l>The MIT License (MIT)</l>
+ <m>stesie</m>
+ <s>V8 Javascript Engine for PHP</s>
+ <d>This extension embeds Google's V8 Javascript Engine into PHP.</d>
+ <da>2016-05-22 19:09:30</da>
+ <n>Bug Fixes
+- Send LowMemoryNotification signals to V8 before imposing memory limit
+- Fix build against V8 version 5.2 (deprecated WeakCallbackInfo &amp; GetHiddenValue et al)
+- Improve/Clarify README
+
+Code Cleanup
+- Removed support for &quot;old-age&quot; V8 versions (i.e. V8 &lt; 4.6.76)
+- Removed old examples and pre-phpt test script</n>
+ <f>86882</f>
+ <g>http://pecl.php.net/get/v8js-0.6.3</g>
+ <x xlink:href="package.0.6.3.xml"/>
+</r>

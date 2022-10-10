@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/memcache">memcache</p>
+ <c>pecl.php.net</c>
+ <v>2.1.1</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>tony2001</m>
+ <s>memcached extension</s>
+ <d>Memcached is a caching daemon designed especially for 
+dynamic web applications to decrease database load by 
+storing objects in memory.
+This extension allows you to work with memcached through
+handy OO and procedural interfaces.</d>
+ <da>2007-03-26 16:16:53</da>
+ <n>- Added experimental session storage support. You can use memcached as session storage.
+- Fixed PECL bug #9486 (empty keys should not be allowed in memcache_set/add())
+- Fixed PECL bug #9854 (get() changes the datatype of variable of given as key)</n>
+ <f>20146</f>
+ <g>http://pecl.php.net/get/memcache-2.1.1</g>
+ <x xlink:href="package.2.1.1.xml"/>
+</r>

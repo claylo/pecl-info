@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/phalcon">phalcon</p>
+ <c>pecl.php.net</c>
+ <v>4.0.3</v>
+ <st>stable</st>
+ <l>BSD 3-Clause License</l>
+ <m>ruudboon</m>
+ <s>Phalcon is a full stack PHP framework offering low resource consumption and high performance.</s>
+ <d>Phalcon is an open source full stack framework for PHP, written as a C-extension. Phalcon is optimized for high performance. Its unique architecture allows the framework to always be memory resident, offering its functionality whenever its needed, without expensive file stats and file reads that traditional PHP frameworks employ.</d>
+ <da>2020-01-25 22:30:51</da>
+ <n>Full changelog can be found at: https://github.com/phalcon/cphalcon/blob/master/CHANGELOG-4.0.md
+
+# [4.0.3]
+## Fixed
+- Fixed `Phalcon\Db\Adapter\Pdo\Mysql` Tinyint(1) is handled as boolean under MySql [#14708](https://github.com/phalcon/cphalcon/issues/14708)
+- Fixed `Phalcon\Mvc\View\Engine\Volt` to produce the correct order of variables for the `join` filter [#14771](https://github.com/phalcon/cphalcon/issues/14771)
+- Fixed `Phalcon\Storage\Adapter\Stream::getKeys()` bug in the absence of a directory with a prefix name [#14725](https://github.com/phalcon/cphalcon/issues/14725), [#14721](https://github.com/phalcon/cphalcon/pull/14721)
+- Fixed `Phalcon\Debug::onUncaughtException` Should accept `\Throwable` instead of `\Exception` as an argument [#14738](https://github.com/phalcon/cphalcon/pull/14738)
+- Fixed `Phalcon\Validation\ValidatorFactory` Should return Phalcon\Validation\ValidatorInterface [14749](https://github.com/phalcon/cphalcon/pull/14749)
+- Fixed `Phalcon\Mvc\Model\Binder` to now correctly call `has` and `set` on the cache object [#14743](https://github.com/phalcon/cphalcon/pull/14743)
+- Fixed `Phalcon\Session\Adapter\Stream` and `Phalcon\Storage\Adapter\Stream` to correctly handle simultaneous read/write [#14694](https://github.com/phalcon/cphalcon/issues/14694)
+- Fixed `Phalcon\Config\ConfigFactory` to always add the correct extension [#14756](https://github.com/phalcon/cphalcon/issues/14756)</n>
+ <f>890358</f>
+ <g>https://pecl.php.net/get/phalcon-4.0.3</g>
+ <x xlink:href="package.4.0.3.xml"/>
+</r>

@@ -1,0 +1,54 @@
+{
+    "category": "Event",
+    "deprecated": false,
+    "description": "This extension is a wrapper for libevent - event notification library.",
+    "latestReleaseDate": "2013-05-22T07:28:55+00:00",
+    "latestVersion": "0.1.0",
+    "license": "PHP",
+    "name": "libevent",
+    "summary": "Libevent - event notification",
+    "php8Mentioned": false,
+    "releases": {
+        "0.1.0": {
+            "version": "0.1.0",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "tony2001",
+            "releaseDate": "2013-05-22T07:28:55+00:00",
+            "releaseNotes": "- Added event_base_reinit(). (Ivan Shalganov, Andy Skelton)\n- Added config.w32. (bruno at chalopin dot fr)\n- Fixed windows compilation with libevent 2.x. (Anatol Belski)\n- Fixed bug #61673 (callback function args are wrong for signal handler).\n- Fixed bug #61653 (Segfault on event_free()).",
+            "get": "http://pecl.php.net/get/libevent-0.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.0.5": {
+            "version": "0.0.5",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "tony2001",
+            "releaseDate": "2012-04-02T10:26:12+00:00",
+            "releaseNotes": "- Fixed build with museum PHP versions.\n- Fixed PECL bug #22705 (event_set() resets event base to NULL).\n- Changed event_set(), event_buffer_new() and event_buffer_set_fd() to\naccept numerical file descriptors.\n- Added event_priority_set() (patch by Ruslan Osmanov).\n- Fixed build with 5_4.",
+            "get": "http://pecl.php.net/get/libevent-0.0.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.0.4": {
+            "version": "0.0.4",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "tony2001",
+            "releaseDate": "2010-06-23T04:16:18+00:00",
+            "releaseNotes": "- Added signal support to event_set().\n- Added add event_buffer_set_callback().\n- Fixed possible segfault in event_del().",
+            "get": "http://pecl.php.net/get/libevent-0.0.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.0.2": {
+            "version": "0.0.2",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "tony2001",
+            "releaseDate": "2009-08-29T10:43:42+00:00",
+            "releaseNotes": "Initial release (after a long testing period).",
+            "get": "http://pecl.php.net/get/libevent-0.0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

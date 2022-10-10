@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xdiff">xdiff</p>
+ <c>pecl.php.net</c>
+ <v>1.5.2</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>felipe</m>
+ <s>File differences/patches.</s>
+ <d>This extension creates and applies patches to both text and binary files.</d>
+ <da>2012-06-11 20:20:13</da>
+ <n>- Fixed bug #61358 (&quot;Warning: String is not zero-terminated&quot; failing tests w/PHP 5.3.10)
+- Fixed build on PHP 5.4+</n>
+ <f>9275</f>
+ <g>http://pecl.php.net/get/xdiff-1.5.2</g>
+ <x xlink:href="package.1.5.2.xml"/>
+</r>

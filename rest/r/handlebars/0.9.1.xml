@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/handlebars">handlebars</p>
+ <c>pecl.php.net</c>
+ <v>0.9.1</v>
+ <st>stable</st>
+ <l>BSD-2-Clause</l>
+ <m>jbboehr</m>
+ <s>Handlebars templating language</s>
+ <d>This extension embeds a Handlebars interpreter into PHP, allowing the execution of Handlebars templates.</d>
+ <da>2020-04-18 11:41:20</da>
+ <n>- Fixed test failure on PHP 8 (@remicollet)
+- Fixed test failure on 32bit
+- The compiled template produced by `Handlebars\VM::compile()` should now be deterministic, if using handlebars.c &gt;= 0.7.1.</n>
+ <f>239110</f>
+ <g>https://pecl.php.net/get/handlebars-0.9.1</g>
+ <x xlink:href="package.0.9.1.xml"/>
+</r>

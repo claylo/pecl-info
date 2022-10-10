@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pam">pam</p>
+ <c>pecl.php.net</c>
+ <v>2.2.1</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>anonamish</m>
+ <s>PAM integration</s>
+ <d>This extension provides PAM (Pluggable Authentication Modules) integration. PAM is a system of libraries that handle the authentication tasks of applications and services. The library provides a stable API for applications to defer to for authentication tasks.</d>
+ <da>2021-06-07 10:47:05</da>
+ <n>PHP 8.0 support with other features</n>
+ <f>8877</f>
+ <g>https://pecl.php.net/get/pam-2.2.1</g>
+ <x xlink:href="package.2.2.1.xml"/>
+</r>

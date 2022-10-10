@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/solr">solr</p>
+ <c>pecl.php.net</c>
+ <v>2.1.0</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>omars</m>
+ <s>The Apache Solr PHP extension is an extremely fast, light-weight, feature-rich library that allows PHP applications to communicate easily and efficiently with Apache Solr server instances using an object-oriented API.</s>
+ <d>It effectively simplifies the process of interacting with Apache Solr using PHP5 and it already comes with built-in readiness for the latest features. 
+
+The extension has features such as built-in, serializable query string builder objects which effectively simplifies the manipulation of name-value pair request parameters across repeated requests. 
+The response from the Solr server is also automatically parsed into native php objects whose properties can be accessed as array keys or object properties without any additional configuration on the client-side. 
+
+Its advanced HTTP client reuses the same connection across multiple requests and provides built-in support for connecting to Solr servers secured behind HTTP Authentication or HTTP proxy servers. It is also able to connect to SSL-enabled containers. 
+
+Please consult the documentation for more details on features. Included in the source code are phpdoc stubs that enable autocomplete of Solr classes and methods in IDE during development in userland.
+
+Please use PECL Solr Extension 1.x for Solr Server 3.x, or use PECL Solr 2.x for Solr Server 4.0+
+
+Note: To force install a version use: pecl install -f solr-2.0.0
+Change 2.0.0 with your version number</d>
+ <da>2015-01-17 10:47:26</da>
+ <n>- New Feature: SolrDisMaxQuery Builder (dismax/edismax) [Feature #67101]
+- Support PHPS (PHP Serialized) Response Writer [Request #61329]
+- SolrResponse::getArrayResponse [Feature #67660]
+- SolrResponse::getResponse() returns SolrObject instead of array (with json response writer) [Bug #67579]
+- Argument list parameter: Argument to value separator disappears [Bug #68179]
+- Conflict Occurs When using SolrDisMax::addBoostQuery and setBoostQuery [Bug #68181]
+- Doc Fix [Doc #67542]
+- Internals: simple_list parameter type allow custom delimiter 
+- Internals: Allowed zero-length argument value
+- Internals: Allowed zero-length argument-to-argument-value separator
+- Security Fix</n>
+ <f>122073</f>
+ <g>http://pecl.php.net/get/solr-2.1.0</g>
+ <x xlink:href="package.2.1.0.xml"/>
+</r>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/phalcon">phalcon</p>
+ <c>pecl.php.net</c>
+ <v>4.0.5</v>
+ <st>stable</st>
+ <l>BSD 3-Clause License</l>
+ <m>ruudboon</m>
+ <s>Phalcon is a full stack PHP framework offering low resource consumption and high performance.</s>
+ <d>Phalcon is an open source full stack framework for PHP, written as a C-extension. Phalcon is optimized for high performance. Its unique architecture allows the framework to always be memory resident, offering its functionality whenever its needed, without expensive file stats and file reads that traditional PHP frameworks employ.</d>
+ <da>2020-03-07 20:53:55</da>
+ <n>Full changelog can be found at: https://github.com/phalcon/cphalcon/blob/master/CHANGELOG-4.0.md
+
+# [4.0.5]
+## Added
+
+## Changed
+
+## Fixed
+- Fixed `Phalcon\Db::fetchAll` to correctly return data when `Enum::FETCH_COLUMN` is supplied. [#13321](https://github.com/phalcon/cphalcon/issues/13321)
+- Fixed Postgres NULL values to not be required during model update. [#14862](https://github.com/phalcon/cphalcon/issues/14862)
+- Fixed MySQL alter column when default value contains not only CURRENT_TIMESTAMP [#14880](https://github.com/phalcon/cphalcon/issues/14880)
+- Fixed MySQL default value with ON UPDATE expression [#14887](https://github.com/phalcon/cphalcon/pull/14887)
+- Fixed `Str::dirFromFile()` to replace `.` with `-` to avoid issues with Windows environments [#14858](https://github.com/phalcon/cphalcon/issues/14858)</n>
+ <f>891583</f>
+ <g>https://pecl.php.net/get/phalcon-4.0.5</g>
+ <x xlink:href="package.4.0.5.xml"/>
+</r>

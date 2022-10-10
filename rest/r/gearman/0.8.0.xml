@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/gearman">gearman</p>
+ <c>pecl.php.net</c>
+ <v>0.8.0</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>hradtke</m>
+ <s>PHP wrapper to libgearman</s>
+ <d>This extension uses libgearman library to provide API for communicating with gearmand, and writing clients and workers.</d>
+ <da>2011-05-17 16:39:09</da>
+ <n>- Fixed PECL Bug #17114 (Return values that are class private variables are null'd)
+- Fixed PECL Bug #22637 (GearmanJob::setReturn causes segfault)
+- Fixed PECL Bug #16883 (GearmanJob::sendWarning() segfaults)
+- Fixed PECL Bug #16884 (GearmanJob::sendData() crashes)
+- Fixed PECL Bug #16883 (GearmanWorker::addFunction segfaults when function name is non-string)
+- Fixed PECL Bug #17539 (Segmentation fault on calling error() of a fresh worker).  Patch by jiayong.</n>
+ <f>29750</f>
+ <g>http://pecl.php.net/get/gearman-0.8.0</g>
+ <x xlink:href="package.0.8.0.xml"/>
+</r>

@@ -1,0 +1,18 @@
+{
+    "0.1.0": {
+        "version": "0.1.0",
+        "state": "beta"
+    },
+    "0.0.5": {
+        "version": "0.0.5",
+        "state": "beta"
+    },
+    "0.0.4": {
+        "version": "0.0.4",
+        "state": "beta"
+    },
+    "0.0.2": {
+        "version": "0.0.2",
+        "state": "beta"
+    }
+}

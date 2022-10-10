@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/libsodium">libsodium</p>
+ <c>pecl.php.net</c>
+ <v>2.0.5</v>
+ <st>stable</st>
+ <l>BSD 2-Clause License</l>
+ <m>jedisct1</m>
+ <s>Wrapper for the Sodium cryptographic library</s>
+ <d>A simple, low-level PHP extension for libsodium.</d>
+ <da>2017-09-26 14:56:29</da>
+ <n>Requires at least php 7.0 and libsodium 1.0.9.</n>
+ <f>175010</f>
+ <g>http://pecl.php.net/get/libsodium-2.0.5</g>
+ <x xlink:href="package.2.0.5.xml"/>
+</r>

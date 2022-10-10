@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pecl_http">pecl_http</p>
+ <c>pecl.php.net</c>
+ <v>0.13.0</v>
+ <st>beta</st>
+ <l>PHP License 3.0</l>
+ <m>mike</m>
+ <s>Extended HTTP support</s>
+ <d>* Building absolute URIs
+* RFC compliant HTTP redirects
+* RFC compliant HTTP date handling
+* Parsing of HTTP headers and messages
+* Caching by &quot;Last-Modified&quot; and/or ETag
+  (with 'on the fly' option for ETag generation from buffered output)
+* Sending data/files/streams with (multiple) ranges support
+* Negotiating user preferred language/charset
+* Convenient request functionality built upon libcurl
+* PHP5 classes: HttpUtil, HttpResponse (PHP-5.1), HttpRequest, HttpRequestPool, HttpMessage
+ 
+</d>
+ <da>2005-09-09 10:53:57</da>
+ <n>+ HTTP request method API is now available for builds without libcurl, too
++ Added HttpResponse::guessContentType() through libmagic
+
+- Removed HttpResponse class from PHP-5.0 (WONKY) due to ZE limitations
+
+* Improved the build system
+* Imrpoved logging format
+* Implemented SSL crypto locks for thread safe builds
+* Fixed ridiculous low default transfer timeout of 3 seconds (set to 0 now)
+* Fixed a bug where plain instead of more specific HttpExceptions were thrown
+* Fixed a bug where entities that where not marked for being cached were
+  actually cached if an apropriate ETag or Last-Modified header was seen</n>
+ <f>95778</f>
+ <g>http://pecl.php.net/get/pecl_http-0.13.0</g>
+ <x xlink:href="package.0.13.0.xml"/>
+</r>

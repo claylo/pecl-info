@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.7.0</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in tcp/http/websocket/http2 server
+        - coroutine tcp/http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2021-07-19 04:51:10</da>
+ <n>New APIs
+---
+* Added Process\Pool::detach() (#4221) (@matyhtf)
+* Added onDisconnect callback for Swoole\Server (#4230) (@matyhtf)
+* Added Coroutine::cancel() (#4247) (#4249) (@matyhtf)
+* Added http_compression/body_decompression options for Http Client (#4299) (@matyhtf)
+
+Enhancement
+---
+* Supported mysql client prepare field type identification (#4238) (@Yurunsoft)
+* Supported c-ares, Refactor DNS (#4275) (@matyhtf)
+* Supported setting different idle time for each port (#4290) (@matyhtf)
+* Supported SW_DISPATCH_CO_CONN_LB and SW_DISPATCH_CO_REQ_LB for Swoole\Server dispatch_mode (#4318) (@matyhtf)
+* Supported timeout for Swoole\ConnectionPool::get (swoole/library#108) (@leocavalcante)
+* Supported CURLOPT_PRIVATE for Hook Curl (swoole/library#112) (@sy-records)
+* Optimized PDOStatementProxy::setFetchMode function prototype (swoole/library#109) (@yespire)
+
+Fixed
+---
+* Fixed uncaught thread creation exception when creating a large number of coroutines (swoole/swoole-src@8ce5041) (@matyhtf)
+* Fixed the &quot;make install&quot; missing php_swoole.h header file (#4239) (@sy-records)
+* Fixed EVENT_HANDSHAKE BC (#4248) (@sy-records)
+* Fixed SW_LOCK_CHECK_RETURN (#4302) (@zmyWL)
+* Fixed problems with Swoole\Atomic\Long M1 chip (swoole/swoole-src@e6fae2e) (@matyhtf)
+* Fixed missing return value of Coroutine\go (swoole/library@1ed49db) (@matyhtf)
+* Fixed StringObject consistency between other methods and its immutability (swoole/library#111) (@leocavalcante)
+* Fixed StringObject substr error (swoole/library#113) (@sy-records)
+
+Kernel
+---
+* Did not hook disabled functions (#4283) (@twose)
+
+Test
+---
+* Added Cygwin build (#4222) (@sy-records)
+* Added alpine 3.13 and 3.14 into building test (#4309) (@limingxinleo)</n>
+ <f>1667209</f>
+ <g>https://pecl.php.net/get/swoole-4.7.0</g>
+ <x xlink:href="package.4.7.0.xml"/>
+</r>

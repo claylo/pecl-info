@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.2.2</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+- event-driven
+- asynchronous non-blocking
+- multi-thread reactor
+- multi-process worker
+- multi-protocol
+- millisecond timer
+- async mysql client
+- built-in http/websocket/http2 server
+- async http/websocket client
+- async redis client
+- async task
+- async read/write file system
+- async dns lookup
+- support IPv4/IPv6/UnixSocket/TCP/UDP
+- support SSL/TLS encrypted transmission</d>
+ <da>2018-10-15 09:03:13</da>
+ <n>+ Task process supports asynchronous and coroutine
++ Refactor `addListener`, now developers can add new service listeners in any order
++ Support  mixed server of `http`, `http2`, `websocket`, `tcp`
++ Completed coroutine redis client method parameter definition
++ `Co::readFile` supports reading non-disk files
++ Now static_handler supports more file types and skips files with length 0
+* Fixed multipart/form-data in some cases parsing errors
+* Fixed the dislocation of sendfile data on MacOS
+* Fixed bug where SIGRTMIN processing error caused the log file to fail to reopen
+* Fixed a bug where redis-client last error value was not cleared and the next request was incorrect
+* Fixed a bug about connecting a connected asynchronous redis coredump
+* Fixed MySQL client protocol processing parameter binding NULL bug
+* Fixed segment fault caused by file hook, closed the include/require coroutine
+* Fixed the socket hook construct error
+* Fixed the sleep hook
+* Fixed a bug that returned an illegal pointer when reading an unset object property
+* Fixed the bug that after event_wait, EG(scope) is not restored in PHP70, causing private properties to be inaccessible
+* Alpine dependency compatibility optimization
+* Cygwin compatibility optimization
+* Support log_level to block warning information
+* Distinguish 204 response then skip body processing
+* The underlying code is cleaned up, all TSRM macros, PHP5 compatible macros and functions are removed, useless stack allocation and multiple pointers are reduced, FASTZPP is re-enabled to improve parameter parsing performance
+* Error tips optimization, error reporting guidelines will be generated when the underlying crash occurs</n>
+ <f>1126504</f>
+ <g>http://pecl.php.net/get/swoole-4.2.2</g>
+ <x xlink:href="package.4.2.2.xml"/>
+</r>

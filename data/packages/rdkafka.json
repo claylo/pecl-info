@@ -1,0 +1,354 @@
+{
+    "category": "Networking",
+    "deprecated": false,
+    "description": "PHP-rdkafka is a stable Kafka client for PHP based on librdkafka",
+    "latestReleaseDate": "2022-07-02T13:16:36+00:00",
+    "latestVersion": "6.0.3",
+    "license": "MIT License",
+    "name": "rdkafka",
+    "php8Mentioned": true,
+    "releases": {
+        "6.0.3": {
+            "version": "6.0.3",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2022-07-02T13:16:36+00:00",
+            "releaseNotes": "## Improvements\n- Ability to provide custom `librdkafka` path during pecl install (#526, @Wirone)",
+            "get": "https://pecl.php.net/get/rdkafka-6.0.3",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "6.0.2": {
+            "version": "6.0.2",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2022-06-12T11:14:54+00:00",
+            "releaseNotes": "## Bugfixes\n- Fixed signature of RdKafka\\KafkaConsumer::getMetadata() (#521, @arnaud-lb)",
+            "get": "https://pecl.php.net/get/rdkafka-6.0.2",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "6.0.1": {
+            "version": "6.0.1",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2022-02-15T12:43:02+00:00",
+            "releaseNotes": "## Bugfixes\n- Always initialize Message::$headers (#508, @arnaud-lb)",
+            "get": "https://pecl.php.net/get/rdkafka-6.0.1",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "6.0.0": {
+            "version": "6.0.0",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2022-01-07T13:39:45+00:00",
+            "releaseNotes": "# Changes since 5.x\n\n## Improvements\n- PHP 8.1 support (@remicollet, @ruudk, @nick-zh)\n- Added parameter types (when built with PHP>=8.0) (@arnaud-lb)\n- Added tentative return types (when built with PHP>=8.1) (@arnaud-lb)\n\n## Deprecations\n- PHP 8.1: Overloading php-rdkafka methods without specifying a return type\n  will trigger a deprecation message unless annotated with\n  #[\\ReturnTypeWillChange]\n\n# Changes since 6.0.0RC2\n\n## Bugfixes\n- Fix newTopic() arginfo (#502, @arnaud-lb)",
+            "get": "https://pecl.php.net/get/rdkafka-6.0.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "6.0.0RC2": {
+            "version": "6.0.0RC2",
+            "state": "beta",
+            "license": "MIT License",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2021-11-27T14:12:20+00:00",
+            "releaseNotes": "## Bugfixes\n-  Fix crash in RdKafka\\TopicPartition::__construct() (#491, @remicollet)",
+            "get": "https://pecl.php.net/get/rdkafka-6.0.0RC2",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "5.0.2": {
+            "version": "5.0.2",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2021-11-27T11:30:59+00:00",
+            "releaseNotes": "## Bugfixes\n- Fix arginfo on getMetadata(), queryWatermarkOffsets() (#494)",
+            "get": "https://pecl.php.net/get/rdkafka-5.0.2",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "6.0.0RC1": {
+            "version": "6.0.0RC1",
+            "state": "beta",
+            "license": "MIT License",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2021-11-19T14:05:06+00:00",
+            "releaseNotes": "## Enhancements\n- PHP 8.1 support (@ruudk, @remicollet, @nick-zh, @arnaud-lb)\n\n## Breaking changes\n- Added tentative return types in PHP 8.1 builds",
+            "get": "https://pecl.php.net/get/rdkafka-6.0.0RC1",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "5.0.1": {
+            "version": "5.0.1",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2021-11-19T13:57:07+00:00",
+            "releaseNotes": "## Enhancements\n- Add pausePartitions(), resumePartitions() on RdKfaka, RdKafka\\KafkaConsumer (#438, @arnaud-lb)\n- Clarify error when KafkaConsumer is closed (@zoonru)\n\n## Bugfixes\n- Fix windows build (#440, @nick-zh)\n- Fix crash in RdKafka\\Metadata\\Topic::getTopic() (#465, @arnaud-lb)",
+            "get": "https://pecl.php.net/get/rdkafka-5.0.1",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "5.0.0": {
+            "version": "5.0.0",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2021-01-14T11:48:30+00:00",
+            "releaseNotes": "## Enhancements\n- PHP 8 support (@nick-zh, @arnaud-lb)\n- Suport passing an opaque value in produce(), producev() (@arnaud-lb)\n\n## Breaking changes\n- Dropped PHP 5 support",
+            "get": "https://pecl.php.net/get/rdkafka-5.0.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "4.1.2": {
+            "version": "4.1.2",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2020-12-24T10:57:53+00:00",
+            "releaseNotes": "BREAKING CHANGE: Since version 4.0, the client no longer polls for network\nevents at shutdown (during object destructor). This behaviour didn't give\nenough control to the user in case of server issue, and could cause the script\nto hang while terminating.\n\nStarting from 4.0, programs MUST call flush() before shutting down, otherwise\nsome messages and callbacks may be lost.\n\n## Enhancements\n- Enabled features on windows build: headers, purge, murmur (#410, @nick-zh, @cmb69)",
+            "get": "https://pecl.php.net/get/rdkafka-4.1.2",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "4.1.1": {
+            "version": "4.1.1",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2020-12-07T18:49:20+00:00",
+            "releaseNotes": "BREAKING CHANGE: Since version 4.0, the client no longer polls for network\nevents at shutdown (during object destructor). This behaviour didn't give\nenough control to the user in case of server issue, and could cause the script\nto hang while terminating.\n\nStarting from 4.0, programs MUST call flush() before shutting down, otherwise\nsome messages and callbacks may be lost.\n\n## Bugfixes\n- Fix windows pecl build (#402, @nick-zh)",
+            "get": "https://pecl.php.net/get/rdkafka-4.1.1",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "4.1.0": {
+            "version": "4.1.0",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2020-12-06T10:49:44+00:00",
+            "releaseNotes": "BREAKING CHANGE: Since version 4.0, the client no longer polls for network\nevents at shutdown (during object destructor). This behaviour didn't give\nenough control to the user in case of server issue, and could cause the script\nto hang while terminating.\n\nStarting from 4.0, programs MUST call flush() before shutting down, otherwise\nsome messages and callbacks may be lost.\n\n## Features\n- Add transactional producer support (#359, @nick-zh)",
+            "get": "https://pecl.php.net/get/rdkafka-4.1.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "4.0.4": {
+            "version": "4.0.4",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2020-10-08T12:57:01+00:00",
+            "releaseNotes": "BREAKING CHANGE: Since version 4.0, the client no longer polls for network\nevents at shutdown (during object destructor). This behaviour didn't give\nenough control to the user in case of server issue, and could cause the script\nto hang while terminating.\n\nStarting from 4.0, programs MUST call flush() before shutting down, otherwise\nsome messages and callbacks may be lost.\n\n## Bugfixes\n- Fix crash during shurtdown (#367, @nick-zh, @sofire)\n\n## Enhancements\n- Improved CI (@Steveb-p, @arnaud-lb)\n\n## Documentation\n- Improved doc (@nick-zh, @Steveb-p)",
+            "get": "https://pecl.php.net/get/rdkafka-4.0.4",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "4.0.3": {
+            "version": "4.0.3",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2020-02-07T14:58:21+00:00",
+            "releaseNotes": "BREAKING CHANGE: Since version 4.0, the client no longer polls for network\nevents at shutdown (during object destructor). This behaviour didn't give\nenough control to the user in case of server issue, and could cause the script\nto hang while terminating.\n\nStarting from 4.0, programs MUST call flush() before shutting down, otherwise\nsome messages and callbacks may be lost.\n\n## Improvements\n- Add partition check for offsetStore (#331, @nick-zh)\n- Naming consistency for setting in tests (#339, @romainneutron)\n\n## Bugfixes\n- Fix headers containing null bytes (#338,  @arnaud-lb, @dirx @nick-zh)\n- Fix topic deconstruct for high level consumer (#333, @nick-zh)\n\n## Documentation\n- Fix doc example (#340, @Steveb-p)\n- Remove outdated and duplicate examples (#341, @nick-zh)",
+            "get": "https://pecl.php.net/get/rdkafka-4.0.3",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "4.0.2": {
+            "version": "4.0.2",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2019-12-15T15:52:17+00:00",
+            "releaseNotes": "BREAKING CHANGE: Since version 4.0, the client no longer polls for network\nevents at shutdown (during object destructor). This behaviour didn't give\nenough control to the user in case of server issue, and could cause the script\nto hang while terminating.\n\nStarting from 4.0, programs MUST call flush() before shutting down, otherwise\nsome messages and callbacks may be lost.\n\n## Bugfixes\n\n* Fix partition 0 exposed as NULL in Message (#327 reverts #321, @arnaud-lb @nick-zh)\n* Fix memory leak in consume() when messages have headers (#323, @nick-zh)",
+            "get": "https://pecl.php.net/get/rdkafka-4.0.2",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "4.0.1": {
+            "version": "4.0.1",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2019-12-08T10:07:26+00:00",
+            "releaseNotes": "BREAKING CHANGE: Since version 4.0, the client no longer polls for network\nevents at shutdown (during object destructor). This behaviour didn't give\nenough control to the user in case of server issue, and could cause the script\nto hang while terminating.\n\nStarting from 4.0, programs MUST call flush() before shutting down, otherwise\nsome messages and callbacks may be lost.\n\n## Features\n\n* Added RdKafka\\ConsumerTopic::consumeCallback() (#310, @nick-zh)\n\n## Enhancements\n\n* Run integration tests in CI (#223, @Steveb-p)\n* Improved README (#295 #297 #298, #307 @Steveb-p @sndsgd @nick-zh)\n* Fix windows test cases (#296, @cmb69)\n* Add testsuite in pecl archive (#291, @remicollet)\n* Add editor config (#308, @Steveb-p)\n\n## Bugfixes\n\n* Fix build (#290, @nick-zh)\n* Fix segfault during module shutdown (#293, @arnaud-lb @nick-zh)\n* Fix RdKafka\\Topic visibility in PHP 7.4 (#316, @nick-zh)\n* Fix headers memory management in producev (#318 , @nick-zh)\n* Fix partition number in error (#321, @nick-zh)",
+            "get": "https://pecl.php.net/get/rdkafka-4.0.1",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "3.1.3": {
+            "version": "3.1.3",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2019-12-08T09:49:48+00:00",
+            "releaseNotes": "* Fix segfault during module shutdown (#293, @arnaud-lb @nick-zh)\n* Fix RdKafka\\Topic visibility in PHP 7.4 (#316, @nick-zh)",
+            "get": "https://pecl.php.net/get/rdkafka-3.1.3",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "4.0.0": {
+            "version": "4.0.0",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2019-10-04T15:09:42+00:00",
+            "releaseNotes": "BREAKING CHANGE: Since version 4.0, the client longer polls for network events\nat shutdown (during object destructor). This behaviour didn't give enought\ncontrol to the user in case of server issue, and could cause the script to\nhang while terminating.\n\nStarting from this version, programs MUST now call flush() before shutting\ndown, otherwise some messages and callbacks may be lost.\n\n## Features\n\n* Added RdKafka\\Kafka::offsetsForTimes(), RdKafka\\KafkaConsumer::offsetsForTimes() (#238, #270, @nick-zh)\n* Added RdKafka\\KafkaConsumer::getOffsetPositions() (#244, @nick-zh)\n* Added RdKafka\\Kafka::purge() (#255, @nick-zh)\n* Added RdKafka\\Kafka::flush() (#264, @nick-zh)\n* Added RdKafka\\ConsumerTopic::consumeBatch() (#256, @nick-zh)\n* Added RdKafka\\Conf::setLogCb() (#253, @nick-zh)\n* Added RdKafka\\KafkaConsumer::queryWatermarkOffsets() (#271, @nick-zh)\n* Added RdKafka\\KafkaConsumer::close() (#144, @TiMESPLiNTER)\n\n## Enhancements\n\n* Support block on full producer queue (RD_KAFKA_MSG_F_BLOCK) (#245, @nick-zh)\n* Add additional partitioners (#267, @nick-zh)\n* Fix phpinfo output (#172, @TiMESPLiNTER)\n* Don't poll in destruct anymore (#264, #278, @nick-zh)\n\n## Bugfixes\n\n* Fix segfault, remove Producer::newQueue (#273, @nick-zh)\n\n## General\n\n* Dropping support for librdkafka below 0.11 (#247, @arnaud-lb)\n* Update build matrix PHP 7.3 + nightly, librdkafka 1.x + master (#249, @arnaud-lb)\n* Deprecating deprecated librdkafka functions (#266, #254, #251, @nick-zh)",
+            "get": "https://pecl.php.net/get/rdkafka-4.0.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "3.1.2": {
+            "version": "3.1.2",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2019-07-08T14:59:12+00:00",
+            "releaseNotes": "* Fix build",
+            "get": "https://pecl.php.net/get/rdkafka-3.1.2",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "3.1.1": {
+            "version": "3.1.1",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2019-07-03T09:33:16+00:00",
+            "releaseNotes": "* Expose query watermark offsets (#219, @gytislakavicius)\n* Support sending timestamp (epoch ms) in producev (#228, @lkm)\n* Fix KafkaTopic::producev causing segfault on librdkafka 1.0.0 (#222, @Steveb-p)\n* Fix version parsing (#224, @dariuskasiulevicius)",
+            "get": "https://pecl.php.net/get/rdkafka-3.1.1",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "3.1.0": {
+            "version": "3.1.0",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2019-04-18T09:30:10+00:00",
+            "releaseNotes": "* Added timestamp support (@mariam-japaridze)\n* Added headers support (@martynaszaliaduonis, @dariuskasiulevicius)\n* Added Rdkafka\\Conf::setConsumeCb(), RdKafka\\Conf::setOffsetCommitCb() (@tPl0ch)\n* Added RdKafka\\KafkaConsumer::getCommittedOffsets() (@dariuskasiulevicius)\n* Fixed RdKafka\\Message::errstr() (@JustBlackBird)\n* Fixed reflection (@carusogabriel)\n* Allow null key and null message (@awons)\n* Dropped official PHP 5.4 / 5.5 support (@tPl0ch)\n* Improved examples (@dbakiu, @Steveb-p)",
+            "get": "https://pecl.php.net/get/rdkafka-3.1.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "3.0.5": {
+            "version": "3.0.5",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2017-11-20T10:53:39+00:00",
+            "releaseNotes": "* Fixed destruction order, fixes hangs during RdKafka\\Consumer destruction",
+            "get": "http://pecl.php.net/get/rdkafka-3.0.5",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "3.0.4": {
+            "version": "3.0.4",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2017-08-16T09:46:27+00:00",
+            "releaseNotes": "* Fixed destruction order, fixes hangs during RdKafka\\Consumer destruction\n* Added RdKafka\\Conf::setStatsCb",
+            "get": "http://pecl.php.net/get/rdkafka-3.0.4",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "3.0.3": {
+            "version": "3.0.3",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2017-05-29T14:30:02+00:00",
+            "releaseNotes": "* Reduced termination times",
+            "get": "http://pecl.php.net/get/rdkafka-3.0.3",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "3.0.2": {
+            "version": "3.0.2",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2017-05-23T15:49:06+00:00",
+            "releaseNotes": "* Fixed ConsumerTopic::consumeStop() hanging on PHP 5",
+            "get": "http://pecl.php.net/get/rdkafka-3.0.2",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "3.0.1": {
+            "version": "3.0.1",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2017-01-28T10:32:32+00:00",
+            "releaseNotes": "* Fixed build on old gcc",
+            "get": "http://pecl.php.net/get/rdkafka-3.0.1",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "3.0.0": {
+            "version": "3.0.0",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2016-12-18T10:34:28+00:00",
+            "releaseNotes": "* Unified code for PHP versions 5 and 7. This package builds and works on\n  PHP 5.3 through PHP 7.x.",
+            "get": "http://pecl.php.net/get/rdkafka-3.0.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "2.0.1": {
+            "version": "2.0.1",
+            "state": "beta",
+            "license": "MIT License",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2016-11-28T13:30:19+00:00",
+            "releaseNotes": "This version of rdkafka is indented for php version 7. To compile rdkafka for\nolder versions of php, use the pecl package version 1.\n\n * Fix build on PHP 7.1\n * Various bug fixes",
+            "get": "http://pecl.php.net/get/rdkafka-2.0.1",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "2.0.0": {
+            "version": "2.0.0",
+            "state": "beta",
+            "license": "MIT License",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2016-09-09T10:05:35+00:00",
+            "releaseNotes": "This version of rdkafka is indented for php version 7. To compile rdkafka for\nolder versions of php, use the pecl package version 1.\n\n * Added high level consumer: Rdkafka\\KafkaConsumer (librdkafka 0.9)\n * RD_KAFKA_VERSION now reports the runtime librdkafka version\n * Added RD_KAFKA_BUILD_VERSION\n * Export runtime-provided constants from librdkafka (librdkafka 0.9)\n * Added rd_kafka_get_err_descs() (librdkafka 0.9)\n * Improve reflection/arginfo\n * Rdkafka::metadata() is now a deprecated alias to Rdkafka::getMetadata()\n * Rdkafka::outqLen() is now a deprecated alias to Rdkafka::getOutQLen()\n * Rdkafka now throws Rdkafka\\Exception instances\n * Added Rdkafka\\Conf::setDefaultTopicConf() (librdkafka 0.9)\n * Added Rdkafka\\Conf::setDrMsgCb() (librdkafka 0.9)",
+            "get": "http://pecl.php.net/get/rdkafka-2.0.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "beta",
+            "license": "MIT License",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2016-09-09T10:01:51+00:00",
+            "releaseNotes": "This version of rdkafka is indented for php version 5. To compile rdkafka for\nnewer versions of php, use the pecl package version 2.\n\n * Added high level consumer: Rdkafka\\KafkaConsumer (librdkafka 0.9)\n * RD_KAFKA_VERSION now reports the runtime librdkafka version\n * Added RD_KAFKA_BUILD_VERSION\n * Export runtime-provided constants from librdkafka (librdkafka 0.9)\n * Added rd_kafka_get_err_descs() (librdkafka 0.9)\n * Improve reflection/arginfo\n * Rdkafka::metadata() is now a deprecated alias to Rdkafka::getMetadata()\n * Rdkafka::outqLen() is now a deprecated alias to Rdkafka::getOutQLen()\n * Rdkafka now throws Rdkafka\\Exception instances\n * Added Rdkafka\\Conf::setDefaultTopicConf() (librdkafka 0.9)\n * Added Rdkafka\\Conf::setDrMsgCb() (librdkafka 0.9)",
+            "get": "http://pecl.php.net/get/rdkafka-1.0.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.9.1": {
+            "version": "0.9.1",
+            "state": "beta",
+            "license": "MIT License",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2016-01-11T09:34:03+00:00",
+            "releaseNotes": "* Allow to build against librdkafka master/0.9.x",
+            "get": "http://pecl.php.net/get/rdkafka-0.9.1",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.9.0": {
+            "version": "0.9.0",
+            "state": "beta",
+            "license": "MIT License",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2016-01-09T14:22:55+00:00",
+            "releaseNotes": "* Metadata API\n* Consistent partitioner\n* Fix ZTS build",
+            "get": "http://pecl.php.net/get/rdkafka-0.9.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.0.2": {
+            "version": "0.0.2",
+            "state": "alpha",
+            "license": "MIT License",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2015-05-13T14:47:36+00:00",
+            "releaseNotes": "Fixed package",
+            "get": "http://pecl.php.net/get/rdkafka-0.0.2",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.0.1": {
+            "version": "0.0.1",
+            "state": "alpha",
+            "license": "MIT License",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2015-05-13T14:41:02+00:00",
+            "releaseNotes": "First release",
+            "get": "http://pecl.php.net/get/rdkafka-0.0.1",
+            "SPDX-License-Identifier": "MIT"
+        }
+    },
+    "summary": "Kafka client based on librdkafka",
+    "SPDX-License-Identifier": "MIT"
+}

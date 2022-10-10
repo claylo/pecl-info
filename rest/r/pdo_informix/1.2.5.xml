@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pdo_informix">PDO_INFORMIX</p>
+ <c>pecl.php.net</c>
+ <v>1.2.5</v>
+ <st>stable</st>
+ <l>Apache License 2.0</l>
+ <m>kfbombar</m>
+ <s>PDO driver for IBM Informix INFORMIX databases</s>
+ <d>This extension provides an IBM Informix Dynamic Server driver for PDO. To build and run
+PDO_INFORMIX, you must install the Informix Client Software Development Kit (CSDK)
+from http://ibm.com/informix/downloads.html.
+ 
+</d>
+ <da>2008-08-12 06:47:43</da>
+ <n>Bug of SEGV when execute is used with bind_param on parameter markers BLOB/CLOB type fixed.
+Problem while inserting NULL in CLOB field.
+Bug fixed - PDO error info throws SEGV on SQL_SUCCESS.
+Updating test cases.</n>
+ <f>65594</f>
+ <g>http://pecl.php.net/get/PDO_INFORMIX-1.2.5</g>
+ <x xlink:href="package.1.2.5.xml"/>
+</r>

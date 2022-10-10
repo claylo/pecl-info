@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/rdkafka">rdkafka</p>
+ <c>pecl.php.net</c>
+ <v>4.0.0</v>
+ <st>stable</st>
+ <l>MIT License</l>
+ <m>lbarnaud</m>
+ <s>Kafka client based on librdkafka</s>
+ <d>This extension is a librdkafka binding providing a working client for Kafka</d>
+ <da>2019-10-04 15:09:42</da>
+ <n>BREAKING CHANGE: Since version 4.0, the client longer polls for network events
+at shutdown (during object destructor). This behaviour didn't give enought
+control to the user in case of server issue, and could cause the script to
+hang while terminating.
+
+Starting from this version, programs MUST now call flush() before shutting
+down, otherwise some messages and callbacks may be lost.
+
+## Features
+
+* Added RdKafka\Kafka::offsetsForTimes(), RdKafka\KafkaConsumer::offsetsForTimes() (#238, #270, @nick-zh)
+* Added RdKafka\KafkaConsumer::getOffsetPositions() (#244, @nick-zh)
+* Added RdKafka\Kafka::purge() (#255, @nick-zh)
+* Added RdKafka\Kafka::flush() (#264, @nick-zh)
+* Added RdKafka\ConsumerTopic::consumeBatch() (#256, @nick-zh)
+* Added RdKafka\Conf::setLogCb() (#253, @nick-zh)
+* Added RdKafka\KafkaConsumer::queryWatermarkOffsets() (#271, @nick-zh)
+* Added RdKafka\KafkaConsumer::close() (#144, @TiMESPLiNTER)
+
+## Enhancements
+
+* Support block on full producer queue (RD_KAFKA_MSG_F_BLOCK) (#245, @nick-zh)
+* Add additional partitioners (#267, @nick-zh)
+* Fix phpinfo output (#172, @TiMESPLiNTER)
+* Don't poll in destruct anymore (#264, #278, @nick-zh)
+
+## Bugfixes
+
+* Fix segfault, remove Producer::newQueue (#273, @nick-zh)
+
+## General
+
+* Dropping support for librdkafka below 0.11 (#247, @arnaud-lb)
+* Update build matrix PHP 7.3 + nightly, librdkafka 1.x + master (#249, @arnaud-lb)
+* Deprecating deprecated librdkafka functions (#266, #254, #251, @nick-zh)</n>
+ <f>35443</f>
+ <g>https://pecl.php.net/get/rdkafka-4.0.0</g>
+ <x xlink:href="package.4.0.0.xml"/>
+</r>

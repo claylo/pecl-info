@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ui">UI</p>
+ <c>pecl.php.net</c>
+ <v>1.0.2</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>krakjoe</m>
+ <s>UI API</s>
+ <d>An OO wrapper around libui</d>
+ <da>2016-10-28 09:43:39</da>
+ <n>UI\Size and UI\Point support for basic math operators (+,/,*,-) fixed
+UI\Point cast to UI\Size with UI\Size::of(UI\Point) (can also take double-ish)
+UI\Size cast to UI\Point with UI\Point::at(UI\Size) (can also take double-ish)</n>
+ <f>45024</f>
+ <g>http://pecl.php.net/get/UI-1.0.2</g>
+ <x xlink:href="package.1.0.2.xml"/>
+</r>

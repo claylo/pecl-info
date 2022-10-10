@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/zendopcache">zendopcache</p>
+ <c>pecl.php.net</c>
+ <v>7.0.5</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>laruence</m>
+ <s>The Zend OPcache provides faster PHP execution through opcode caching and optimization.</s>
+ <d>The Zend OPcache provides faster PHP execution through opcode caching and
+  optimization. It improves PHP performance by storing precompiled script
+  bytecode in the shared memory. This eliminates the stages of reading code from
+  the disk and compiling it on future access. In addition, it applies a few
+  bytecode optimization patterns that make code execution faster.</d>
+ <da>2015-04-14 05:32:27</da>
+ <n>- Fixed bug #69281 (opcache_is_script_cached no longer works)
+- Fixed bug #68677 (Use After Free in OPcache)
+- Make killing a locker an ERROR event
+- Fixed bug #69125 (Array numeric string as key)
+- Fixed bug #69038 (switch(SOMECONSTANT) misbehaves)
+- Fixed segfault while running with moodle</n>
+ <f>97101</f>
+ <g>http://pecl.php.net/get/zendopcache-7.0.5</g>
+ <x xlink:href="package.7.0.5.xml"/>
+</r>

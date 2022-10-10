@@ -1,0 +1,34 @@
+{
+    "category": "Audio",
+    "deprecated": false,
+    "description": "KTaglib is a PHP binding for the KDE taglib, which reads and writes tags for various audio files",
+    "latestReleaseDate": "2008-12-21T20:51:38+00:00",
+    "latestVersion": "0.2.0",
+    "license": "Modified BSD License",
+    "name": "KTaglib",
+    "summary": "Library to edit audio properties and tags on MPEG and OGG files",
+    "php8Mentioned": false,
+    "releases": {
+        "0.2.0": {
+            "version": "0.2.0",
+            "state": "beta",
+            "license": "Modified BSD License",
+            "releasedBy": "dsp",
+            "releaseDate": "2008-12-21T20:51:38+00:00",
+            "releaseNotes": "- Add Windows compatibility (David).\n- Add OGG Tag support (Anatoliy).\n- Add OGG Audio properties support (Anatoliy).\n- Add $create parameter to getID3v2 and getID3v1 (David).\n- Add setMimeType, getMimeType to AttachedPictureFrame (David).\n- Add getType, setType and corresponding constants to AttachedPictureFrame (David).\n- Fix unitialized values (David).\n- Fix an issue when saving the a picture (David).\n- Fix return value of addFrame()\n- Fix a heap overflow in MINFO.",
+            "get": "http://pecl.php.net/get/KTaglib-0.2.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.0.1a1": {
+            "version": "0.0.1a1",
+            "state": "alpha",
+            "license": "Modified BSD License",
+            "releasedBy": "dsp",
+            "releaseDate": "2008-08-01T10:25:03+00:00",
+            "releaseNotes": "* Initial release",
+            "get": "http://pecl.php.net/get/KTaglib-0.0.1a1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        }
+    },
+    "SPDX-License-Identifier": "BSD-2-Clause"
+}

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xdebug">xdebug</p>
+ <c>pecl.php.net</c>
+ <v>2.0.0RC1</v>
+ <st>beta</st>
+ <l>BSD style</l>
+ <m>derick</m>
+ <s>Provides functions for function traces and profiling</s>
+ <d>The Xdebug extension helps you debugging your script by providing a lot of
+valuable debug information. The debug information that Xdebug can provide
+includes the following:
+
+    * stack and function traces in error messages with:
+          o full parameter display for user defined functions
+          o function name, file name and line indications
+          o support for member functions
+    * memory allocation
+    * protection for infinite recursions
+
+Xdebug also provides:
+
+    * profiling information for PHP scripts
+    * script execution analysis
+    * capabilities to debug your scripts interactively with a debug client</d>
+ <da>2006-10-08 17:12:22</da>
+ <n>+ Added new features:
+    - Implemented FR #70: Provide optional depth on xdebug_call_* functions.
+    - Partially implemented FR #50: Resource limiting for variable display. By
+      default only two levels of nested variables and max string lengths of 512
+      are shown. This can be changed by setting the ini settings
+      xdebug.var_display_max_depth and xdebug.var_display_max_data.
+    - Implemented breakpoints for different types of PHP errors. You can now
+      set an 'exception' breakpoint on &quot;Fatal error&quot;, &quot;Warning&quot;, &quot;Notice&quot; etc.
+      This is related to bug #187.
+    - Added the xdebug_print_function_trace() function to display a stack trace on
+      demand.
+    - Reintroduce HTML tracing by adding a new tracing option &quot;XDEBUG_TRACE_HTML&quot;
+      (4).
+    - Made xdebug_stop_trace() return the trace file name, so that the
+      following works: 
+    - Added the xdebug.collect_vars setting to tell Xdebug to collect
+      information about which variables are used in a scope. Now you don't need
+      to show variables with xdebug.show_local_vars anymore for
+      xdebug_get_declared_vars() to work.
+    - Make the filename parameter to the xdebug_start_trace() function
+      optional. If left empty it will use the same algorithm to pick a filename
+      as when you are using the xdebug.auto_trace setting.
+
++ Changes:
+    - Implemented dead code analysis during code coverage for:
+      * abstract methods.
+      * dead code after return, throw and exit.
+      * implicit returns when a normal return is present.
+    - Improved readability of stack traces.
+    - Use PG(html_errors) instead of checking whether we run with CLI when
+      deciding when to use HTML messages or plain text messages.
+
+= Fixed bugs:
+    - Fixed bug #203: PHP errors with HTML content processed incorrectly. This
+      patch backs out the change that was made to fix bug #182.
+    - Fixed bug #198: Segfault when trying to use a non-existing debug handler.
+    - Fixed bug #197: Race condition fixes created too many files.
+    - Fixed bug #196: Profile timing on Windows does not work.
+    - Fixed bug #195: CLI Error after debugging session.
+    - Fixed bug #193: Compile problems with PHP 5.2.
+    - Fixed bug #191: File/line breakpoints are case-sensitive on Windows.
+    - Fixed bug #181: Xdebug doesn't handle uncaught exception output
+      correctly.
+    - Fixed bug #173: Coverage produces wrong coverage.
+    - Fixed a typo that prevented the XDEBUG_CONFIG option &quot;profiler_enable&quot;
+      from working.</n>
+ <f>252286</f>
+ <g>http://pecl.php.net/get/xdebug-2.0.0RC1</g>
+ <x xlink:href="package.2.0.0RC1.xml"/>
+</r>

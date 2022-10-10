@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/riak">riak</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0</v>
+ <st>stable</st>
+ <l>Apache 2</l>
+ <m>kasparp</m>
+ <s>Riak database PHP extension</s>
+ <d>Fast protocol buffers client for Riak database and session module.</d>
+ <da>2013-11-18 14:17:14</da>
+ <n>Fixed issue 52: A temporary connection is now taken from pool when doing streaming operations</n>
+ <f>128989</f>
+ <g>http://pecl.php.net/get/riak-1.0.0</g>
+ <x xlink:href="package.1.0.0.xml"/>
+</r>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.2.6</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>jmikola</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundemental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2017-03-07 19:15:09</da>
+ <n>** Bug
+    * [PHPC-901] - False slaveOk URI option should be ignored
+    * [PHPC-912] - Child processes should not destroy clients created by parent processes
+    * [PHPC-913] - Child process should not re-use mongoc_client_t objects from parent
+    * [PHPC-917] - localThresholdMS should default to 15 milliseconds
+    * [PHPC-923] - Use zend_string_release() to free class names
+    * [PHPC-924] - Cursor::setTypeMap() may unnecessarily convert first BSON document
+
+** Task
+    * [PHPC-736] - Remove zend_str_tolower_dup() in ObjectID construction
+    * [PHPC-825] - Document URI options array for Manager constructor
+    * [PHPC-906] - Make test suite compatible with libbson/libmongoc 1.5.0 and 1.6.0</n>
+ <f>785493</f>
+ <g>http://pecl.php.net/get/mongodb-1.2.6</g>
+ <x xlink:href="package.1.2.6.xml"/>
+</r>

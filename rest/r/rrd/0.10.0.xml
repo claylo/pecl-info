@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/rrd">rrd</p>
+ <c>pecl.php.net</c>
+ <v>0.10.0</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>koubel</m>
+ <s>PHP bindings to rrd tool system</s>
+ <d>Procedural and simple OO wrapper for rrdtool - data logging and graphing system for time series data.</d>
+ <da>2011-03-02 14:27:40</da>
+ <n>- fixed all reported bugs
+- fixed major bug in rrd_fetch #21402
+- BC break : rdd_fetch returned array format changed, these items doesn't
+ exist anymore - &quot;ds_cnt&quot;, &quot;ds_namv&quot;</n>
+ <f>26291</f>
+ <g>http://pecl.php.net/get/rrd-0.10.0</g>
+ <x xlink:href="package.0.10.0.xml"/>
+</r>

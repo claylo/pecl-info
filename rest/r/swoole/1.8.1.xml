@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>1.8.1</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+- event-driven
+- full asynchronous non-blocking
+- multi-thread reactor
+- multi-process worker
+- multi-protocol
+- millisecond timer
+- async mysql client
+- async http/websocket client
+- async redis client
+- async task
+- async read/write file system
+- async dns lookup
+- support IPv4/IPv6/UnixSocket/TCP/UDP
+- support SSL/TLS encrypted transmission</d>
+ <da>2016-02-04 02:13:47</da>
+ <n>- Added psr-4 style namespace classes alias
+- Added swoole_server-&gt;protect methods used to protect the connection will not close by heartbeat thread
+- Added swoole_websocker_server::pack and swoole_websocker_server::unpack static method
+- Added redis subscribe and publish messages supports
+- Added swoole_http_client for gzip content compression support
+- Added swoole_client-&gt;reuse property
+- Fixed async client incidental core dump 
+- Fixed async client memory leak
+- Fixed compile failed with enable-openssl on MacOS</n>
+ <f>494129</f>
+ <g>http://pecl.php.net/get/swoole-1.8.1</g>
+ <x xlink:href="package.1.8.1.xml"/>
+</r>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/imagick">imagick</p>
+ <c>pecl.php.net</c>
+ <v>3.2.0b2</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>mkoppanen</m>
+ <s>Provides a wrapper to the ImageMagick library.</s>
+ <d>Imagick is a native php extension to create and modify images using the ImageMagick API.
+This extension requires ImageMagick version 6.2.4+ and PHP 5.1.3+.
+
+IMPORTANT: Version 2.x API is not compatible with earlier versions.</d>
+ <da>2013-10-20 05:50:53</da>
+ <n>- A lot of internal improvements on the code
+- Added ImagickPixel::isPixelSimilar and deprecate ImagickPixel::isSimilar #10
+- Added imagick::smushimages
+- Added imagick::blueshiftimage and imagick::clampimage
+- Added Imagick::autolevelimage
+- Added constants:
+    Imagick::ALPHACHANNEL_REMOVE
+    Imagick::ALPHACHANNEL_FLATTEN
+    Imagick::RESOURCETYPE_THREAD
+    Imagick::COMPOSITE_CHANGEMASK
+    Imagick::COMPOSITE_LINEARLIGHT
+    Imagick::COMPOSITE_DIVIDE
+    Imagick::COMPOSITE_DISTORT
+    Imagick::COMPOSITE_BLUR
+    Imagick::COMPOSITE_PEGTOPLIGHT
+    Imagick::COMPOSITE_VIVIDLIGHT
+    Imagick::COMPOSITE_PINLIGHT
+    Imagick::COMPOSITE_LINEARDODGE
+    Imagick::COMPOSITE_LINEARBURN
+    Imagick::COMPOSITE_MATHEMATICS
+    Imagick::COMPOSITE_MODULUSADD
+    Imagick::COMPOSITE_MODULUSSUBTRACT
+    Imagick::COMPOSITE_MINUSDST
+    Imagick::COMPOSITE_DIVIDEDST
+    Imagick::COMPOSITE_DIVIDESRC
+    Imagick::COMPOSITE_MINUSSRC
+    Imagick::COMPOSITE_DARKENINTENSITY
+    Imagick::COMPOSITE_LIGHTENINTENSITY
+    Imagick::FILTER_KAISER
+    Imagick::FILTER_WELSH
+    Imagick::FILTER_PARZEN
+    Imagick::FILTER_LAGRANGE
+    Imagick::FILTER_SENTINEL
+    Imagick::FILTER_BOHMAN
+    Imagick::FILTER_BARTLETT
+    Imagick::FILTER_JINC
+    Imagick::FILTER_SINCFAST
+    Imagick::FILTER_ROBIDOUX
+    Imagick::FILTER_LANCZOSSHARP
+    Imagick::FILTER_LANCZOS2
+    Imagick::FILTER_LANCZOS2SHARP
+    Imagick::FILTER_ROBIDOUXSHARP
+    Imagick::FILTER_COSINE
+    Imagick::FILTER_SPLINE
+    Imagick::FILTER_LANCZOSRADIUS
+    Imagick::COMPRESSION_ZIPS
+    Imagick::COMPRESSION_PIZ
+    Imagick::COMPRESSION_PXR24
+    Imagick::COMPRESSION_B44
+    Imagick::COMPRESSION_B44A
+    Imagick::COMPRESSION_LZMA
+    Imagick::COMPRESSION_JBIG1
+    Imagick::COMPRESSION_JBIG2</n>
+ <f>163326</f>
+ <g>http://pecl.php.net/get/imagick-3.2.0b2</g>
+ <x xlink:href="package.3.2.0b2.xml"/>
+</r>

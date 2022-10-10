@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/vpopmail">vpopmail</p>
+ <c>pecl.php.net</c>
+ <v>0.2</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>imajes</m>
+ <s>Provides functions to interact with vpopmail, a Qmail addon</s>
+ <d>A wrapper to vpopmail, a Qmail addon
+</d>
+ <da>2004-03-11 23:36:00</da>
+ <n>Package &amp; move to PECL</n>
+ <f>8970</f>
+ <g>http://pecl.php.net/get/vpopmail-0.2</g>
+ <x xlink:href="package.0.2.xml"/>
+</r>

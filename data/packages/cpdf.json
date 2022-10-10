@@ -1,0 +1,13 @@
+{
+    "category": "File Formats",
+    "deprecated": false,
+    "description": "C language API definitions for ClibPDF library",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "PHP License 3.0",
+    "name": "cpdf",
+    "summary": "C language API definitions for ClibPDF library",
+    "php8Mentioned": false,
+    "releases": [],
+    "SPDX-License-Identifier": "PHP-3.0"
+}

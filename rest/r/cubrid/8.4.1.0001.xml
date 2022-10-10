@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/cubrid">CUBRID</p>
+ <c>pecl.php.net</c>
+ <v>8.4.1.0001</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>cubrid</m>
+ <s>This is the official PHP Extension to connect to CUBRID Database.</s>
+ <d>CUBRID is an open source database management system highly optimized for Web applications (http://www.cubrid.org). The current PHP extension is fully compatibly with the latest stable version of CUBRID Database. To post issues and report bugs, please use CUBRID Official Forum at http://forum.cubrid.org.</d>
+ <da>2012-02-01 00:54:31</da>
+ <n>2008 R4.1 Release
+
+This release is a major release. Several new features have been added to this version 
+including persistent connecting, query timeout and so on. Accordingly new functions
+are added, and several bugs have been fixed.
+
+The following functions have been added:
+
+- cubrid_pconnect
+- cubrid_pconnect_with_url
+- cubrid_set_query_timeout
+- cubrid_get_query_timeout
+
+Changed and Enhanced Features:
+
+1) Reuse the connection established:
+
+For mysql, if a second call is made to mysql_connect() with the same arguments, no new
+link will be established, but instead, the connect identifier of the already opened
+connection will be returned. The new_link parameter modifies this behavior and makes
+mysql_connect() always open a new connection, even if mysql_connect() was called before
+with the same parameters. 
+
+To make compatibility with mysql, we add the new_link parameter in cubrid_connect and
+cubrid_connect_with_url.
+
+2) Add persistent connection:
+
+We add two functions, cubrid_pconnect and cubrid_pconnect_with_url, to provide persistent
+database connections. The parameters of cubrid_pconnect are same with cubrid_connect, and
+so do cubrid_pconnect_with_url and cubrid_connect_with_url.
+
+3) Add functions about getting and setting the query timeout time:
+
+If database queries are taking too long to perform, and your application is becoming
+unresponsive, you can configure a timeout for database queries. We add two functions
+(cubrid_get_query_timeout and cubrid_set_query_timeout) to get and set the query timeout
+of database queries.
+
+4) Add a form of the url parameter for cubrid_connect_with_url function:
+
+Support the way without &quot;cci:&quot; in url parameter, that is the url become 
+&quot;CUBRID:host:db_name:db_user:.......&quot;
+
+Fixed bugs:
+
+- Fix a bug in cubrid_fetch, cubrid_fetch_row, cubrid_fetch_array, cubrid_fetch_assoc
+and cubrid_fetch_object: Modified the return value when there are no more data;</n>
+ <f>42446</f>
+ <g>http://pecl.php.net/get/CUBRID-8.4.1.0001</g>
+ <x xlink:href="package.8.4.1.0001.xml"/>
+</r>

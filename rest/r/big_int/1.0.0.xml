@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/big_int">big_int</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0</v>
+ <st>stable</st>
+ <l>see LICENSE</l>
+ <m>valyala</m>
+ <s>big_int library provides a set of functions for calculations with arbitrary length integers and bitsets</s>
+ <d>Functions from this package are useful for number theory applications. For example, in two-keys cryptography.
+See tests/RSA.php in the package for example of implementation of RSA-like cryptoalgorithm.
+
+The package has many bitset functions, which allow to work with arbitrary length bitsets.
+
+This package is much faster than bundled into PHP BCMath and consists almost all functions, which 
+implemented in PHP GMP extension, but it needn't any external libraries.</d>
+ <da>2005-03-01 11:22:04</da>
+ <n>+ first stable release
+* fixed installation bug during execution of 'pear install big_int' command
+- removed unnesessary files from package: regression tests and calc application, based on BIG_INT library.
+  These files are still avaible at BIG_INT homepage http://chat.finalcombat.com/valyala/big_int/</n>
+ <f>42597</f>
+ <g>http://pecl.php.net/get/big_int-1.0.0</g>
+ <x xlink:href="package.1.0.0.xml"/>
+</r>

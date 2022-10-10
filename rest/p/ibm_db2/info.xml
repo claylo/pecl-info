@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<p xmlns="http://pear.php.net/dtd/rest.package"    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"    xsi:schemaLocation="http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd">
+ <n>ibm_db2</n>
+ <c>pecl.php.net</c>
+ <ca xlink:href="/rest/c/Database">Database</ca>
+ <l>Apache License 2.0</l>
+ <s>Extension for IBM Db2 (LUW/i/z) and other compatible databases</s>
+ <d>ibm_db2 provides access to DB2 and compatible databases on PHP.
+  It uses a procedural interface. (PDO users should use PDO_IBM instead.)
+  
+  The following software is supported without any additional licenses:
+  - IBM Db2 (Linux/Unix/Windows)
+  - IBM Db2 for i (running on IBM i)
+  - Apache Derby
+  
+  The following software may require additional licenses on the database:
+  - IBM Db2 Connect for i (for using Db2 for i from LUW)
+  - IBM Db2 Connect for z (for using Db2 for z from LUW)
+  
+  Note that for IBM i, IBM and Seiden Group recommend new applications use ODBC instead.</d>
+ <r xlink:href="/rest/r/ibm_db2"/>
+</p>

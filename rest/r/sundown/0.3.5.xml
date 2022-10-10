@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/sundown">sundown</p>
+ <c>pecl.php.net</c>
+ <v>0.3.5</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>chobieeee</m>
+ <s>Sundown is a fast, robust Markdown parsing library for PHP5</s>
+ <d>Sundown is a fast, robust Markdown parsing library, originally created
+by Natacha PortÃ© and improved Vicent Marti.
+this extension inspired Redcarpet ruby extension which created by Vicent.
+
+PECL Sundown provides straight forward object oriented Markdown API and customizable Renders.</d>
+ <da>2012-05-16 11:56:27</da>
+ <n>* bumped up 0.3.5
+
+fix #19 Autolink is broken for emails
+
+[added constants]:
+Sundown\Render\MKDA_NORMAL
+Sundown\Render\MKDA_EMAIL
+
+[changed signature]:
+Sundown\Render\Base::autolink(string$link, int $type)
+  type should be Sundown\Render\MKDA_NORMAL or Sundown\Render\MKDA_EMAIL</n>
+ <f>52717</f>
+ <g>http://pecl.php.net/get/sundown-0.3.5</g>
+ <x xlink:href="package.0.3.5.xml"/>
+</r>

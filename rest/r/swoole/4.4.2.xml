@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.4.2</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in http/websocket/http2 server
+        - coroutine http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2019-07-26 07:30:01</da>
+ <n>Enhancement
+---
++ Added `idle_worker_num` and `task_idle_worker_num` to `Server::stats` (#2687) (@matyhtf)
++ PHP7.4 Compatibility (5bf6491) (@twose) (#2707) (@remicollet)
++ Clear reactor when error occured (61536e7) (@twose)
+
+Fixed
+---
+* Fixed `Socket-&gt;sendto` (7bd8492) (@twose)
+* Fixed `WaitGroup-&gt;wait` timeout type (acf20c3) (@twose)
+* Fixed #2710 (#2710) (@twose)
+* Fixed event num of signal in OSX (cf32c35) (@matyhtf)</n>
+ <f>1415078</f>
+ <g>https://pecl.php.net/get/swoole-4.4.2</g>
+ <x xlink:href="package.4.4.2.xml"/>
+</r>

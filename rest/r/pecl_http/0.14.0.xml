@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pecl_http">pecl_http</p>
+ <c>pecl.php.net</c>
+ <v>0.14.0</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>mike</m>
+ <s>Extended HTTP Support</s>
+ <d>* Building absolute URIs
+* RFC compliant HTTP redirects
+* RFC compliant HTTP date handling
+* Parsing of HTTP headers and messages
+* Caching by &quot;Last-Modified&quot; and/or ETag
+  (with 'on the fly' option for ETag generation from buffered output)
+* Sending data/files/streams with (multiple) ranges support
+* Negotiating user preferred language/charset
+* Convenient request functionality built upon libcurl
+* PHP5 classes: HttpUtil, HttpResponse (PHP-5.1), HttpRequest, HttpRequestPool, HttpMessage</d>
+ <da>2005-09-28 10:37:11</da>
+ <n>+ Added missing support for raw post data in HttpRequest
++ Added missing HttpMessage::setBody()
++ Added HttpRequest::METH_* constants
++ Added HttpRequest::AUTH_* constants
++ Added HttpMessage::TYPE_* constants
++ Added HttpResponse::ETAG_* constants
++ Added HTTP_ETAG_MHASH_* constants
++ Added supported ETag hash algrithms to php_info() output
++ Added ETag hashing through PHPs CRC32() implementation
++ Added new language/charset negotiator
+
+* Changed HttpMessage::toString([include_parent = true]) to false
+* Renamed HTTP_GET etc. constants to HTTP_METH_GET
+* Fixed protected property access</n>
+ <f>104144</f>
+ <g>http://pecl.php.net/get/pecl_http-0.14.0</g>
+ <x xlink:href="package.0.14.0.xml"/>
+</r>

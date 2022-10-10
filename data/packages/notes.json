@@ -1,0 +1,13 @@
+{
+    "category": "Database",
+    "deprecated": false,
+    "description": "A Lotus Notes extension for PHP.\nThis is an unmaintained Windows-only extension.\nYou will need Visual C++ 6.0 to build it; use the CVS Web link below to obtain the source.\n\nVolunteers are welcomed to maintain this extension; contact pecl-dev@lists.php.net if you are willing to contribute.",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "PHP",
+    "name": "notes",
+    "php8Mentioned": false,
+    "releases": [],
+    "summary": "Lotus Notes bindings for PHP",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

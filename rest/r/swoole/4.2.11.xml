@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.2.11</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in http/websocket/http2 server
+        - coroutine http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2018-12-28 10:55:39</da>
+ <n>+ Support Timer in manager processes
++ Added DNS cache to improve the connection speed of external network services, default TTL60s, capacity 1000 (#2250)
++ When swoole_strerror the second param is 9, it will convert the swoole-specific error code into the text
+* Fixed the problem that the connection timeout does not take effect after the client triggers the DNS query. It may cause the coroutine to hang for a long time and connection resource occupation, please update the affected version (v4.2.10) as soon as possible
+* Restore Co\Client backward compatibility, connect timeout parameter will change the default timeout of the client
+* Fixed the problem that the change does not take place immediately when the client calls the `set` method after the connection
+* Fixed the problem that the error code was not updated after the MySQL handshake failed (#2234)
+* Fixed a memory error caused by buffer expansion when MySQL executed a large amount of data (e3c5a28)
+* Fixed static compilation problem (#2230)
+* Async write files to increase the reference count to prevent premature shutdown (028ddf4)
+* Fixed Redis Client use illegal parameter would lead to coredump (5af9f3d)
+* Fixed the bug that `stack_size` set by `Co::set` is set to the page size of the PHP stack. It is recommended to use the configuration name of `c_stack_size`. Please do not set it without knowing. If your application has C extension hook to zend_execute, you need to pay special attention to setting the C stack, or you don't need to set it
+- Remove `enable-debug-log` from PECL compilation configure option, kernel debug logs must be compiled manually to enable</n>
+ <f>1263994</f>
+ <g>https://pecl.php.net/get/swoole-4.2.11</g>
+ <x xlink:href="package.4.2.11.xml"/>
+</r>

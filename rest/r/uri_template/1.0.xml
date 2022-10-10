@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/uri_template">uri_template</p>
+ <c>pecl.php.net</c>
+ <v>1.0</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>ioseb</m>
+ <s>uri_template extension</s>
+ <d>Implementation of URI Template(RFC6570) specification for PHP.</d>
+ <da>2013-10-14 18:17:17</da>
+ <n>- Fixed extended version: https://github.com/ioseb/uri-template/issues/6
+- Package includes LICENSE and README.md files
+- Windows fix by Anatol Belski: https://github.com/ioseb/uri-template/pull/4</n>
+ <f>23489</f>
+ <g>http://pecl.php.net/get/uri_template-1.0</g>
+ <x xlink:href="package.1.0.xml"/>
+</r>

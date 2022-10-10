@@ -1,0 +1,64 @@
+{
+    "category": "PHP",
+    "deprecated": false,
+    "description": "Operator overloading for: +, -, *, /, %, <<, >>, ., |, &, ^, ~, !, ++, --,\n+=, -=, *=, /=, %=, <<=, >>=, .=, |=, &=, ^=, ~=,\n==, !=, ===, !==, <, and <= operators.\nConditional support for > and >= available with application of a patch.",
+    "latestReleaseDate": "2013-02-07T08:14:52+00:00",
+    "latestVersion": "0.4.1",
+    "license": "PHP",
+    "name": "operator",
+    "summary": "Operator overloading for Objects",
+    "php8Mentioned": false,
+    "releases": {
+        "0.4.1": {
+            "version": "0.4.1",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "gabrielwu84",
+            "releaseDate": "2013-02-07T08:14:52+00:00",
+            "releaseNotes": "Extension updated to be compatible with PHP5.3 and PHP5.4.",
+            "get": "http://pecl.php.net/get/operator-0.4.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.4.0": {
+            "version": "0.4.0",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "tyrael",
+            "releaseDate": "2013-02-06T17:21:58+00:00",
+            "releaseNotes": "Extension updated to be compatible with PHP5.3 and PHP5.4.",
+            "get": "http://pecl.php.net/get/operator-0.4.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.3": {
+            "version": "0.3",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "pollita",
+            "releaseDate": "2006-02-08T16:30:41+00:00",
+            "releaseNotes": "* Added support for comparator ops\n\nNote: ZE treats > style comparisons as backwards < comparisons, so what looks like a left-associative greater than becomes a right-associative less-than.\nBecause of this, overloading the > and >= operators for left-association requires application of a parser patch.",
+            "get": "http://pecl.php.net/get/operator-0.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2": {
+            "version": "0.2",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "pollita",
+            "releaseDate": "2006-01-25T15:22:49+00:00",
+            "releaseNotes": "* Added support for pre/post inc/dec operators\n* Added support for assignment operators\n* Refactored opline->result handling\n* Refactored opcode handlers",
+            "get": "http://pecl.php.net/get/operator-0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1": {
+            "version": "0.1",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "pollita",
+            "releaseDate": "2006-01-12T00:50:33+00:00",
+            "releaseNotes": "Initial Release",
+            "get": "http://pecl.php.net/get/operator-0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

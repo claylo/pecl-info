@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/zendopcache">zendopcache</p>
+ <c>pecl.php.net</c>
+ <v>7.0.3</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>laruence</m>
+ <s>The Zend OPcache provides faster PHP execution through opcode caching and optimization.</s>
+ <d>The Zend OPcache provides faster PHP execution through opcode caching and
+  optimization. It improves PHP performance by storing precompiled script
+  bytecode in the shared memory. This eliminates the stages of reading code from
+  the disk and compiling it on future access. In addition, it applies a few
+  bytecode optimization patterns that make code execution faster.</d>
+ <da>2014-01-20 08:38:12</da>
+ <n>- Fixed bug #66298 (ext/opcache/Optimizer/zend_optimizer.c has dos-style ^M as lineend)
+- Added suggestion about opcache.revalidate_freq setting in development environmento
+- Fixed Issue #140: &quot;opcache.enable_file_override&quot; doesn't respect &quot;opcache.revalidate_freq&quot;
+- Fixed reavlidate_path=1 behavior to avoid caching of symlinks values.
+- Fixed opcahce_reset() crash when opcache.protect_memory is set
+- Fixed bug #66176 (Invalid constant substitution)
+- Fixed bug #65559 (Opcache: cache not cleared if changes occur while running)
+- Fixed compatibility with old PHP versions
+- Fixed bug #65915 (Inconsistent results with require return value)
+- Fixed issue #115 (path issue when using phar)
+- Fixed issue #149 (Phar mount points not working with OPcache enabled)
+- Fixed bug #65845 (Error when Zend Opcache Optimizer is fully enabled).
+- Added function opcache_compile_file() to load PHP scripts into cache without execution.
+- Fixed issue #135 (segfault in interned strings if initial memory is too low)
+- Fixed bug #65665 (Exception not properly caught when opcache enabled)
+- Fixed issue #128 (opcache_invalidate segmentation fault)
+- Fixed bug #65510 (5.5.2 crashes in _get_zval_ptr_ptr_var)
+- Fixed bug #65561 (Zend Opcache on Solaris 11 x86 needs ZEND_MM_ALIGNMENT=4)
+- Replce ZEND_FETCH_* instructions with IS_CV if possible
+- Added opcache.restrict_api configuration directive that may limit usage of OPcahce API functions only to patricular script(s)
+- Added support for glob symbols in blacklist entries (?, *, **)
+- Improved implementation of NOP removal pass from O(n^2) to O(n)
+- Fixed bug #65338 (Enabling both php_opcache and php_wincache AVs on shutdown).
+- Fixed bug #64827 Segfault in zval_mark_grey (zend_gc.c)</n>
+ <f>94164</f>
+ <g>http://pecl.php.net/get/zendopcache-7.0.3</g>
+ <x xlink:href="package.7.0.3.xml"/>
+</r>

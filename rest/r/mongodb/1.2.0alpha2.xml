@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.2.0alpha2</v>
+ <st>alpha</st>
+ <l>Apache License</l>
+ <m>jmikola</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundemental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2016-09-14 18:12:33</da>
+ <n>** Bug
+    * [PHPC-762] - undefined symbol: mongoc_write_concern_is_acknowledged
+
+** Improvement
+    * [PHPC-433] - Persist topology state between requests
+    * [PHPC-726] - Allow cross-platform serialization of Timestamp and UTCDateTime
+    * [PHPC-731] - Parse Timestamp argument as strings to accept large integers
+    * [PHPC-742] - Regex constructor should default flags arg to empty string
+    * [PHPC-744] - Improve error messages for invalid Decimal128 and ObjectID strings
+
+** New Feature
+    * [PHPC-552] - Implement ObjectID::getTimestamp() method
+    * [PHPC-716] - Support new readConcern level &quot;linearizable&quot;
+    * [PHPC-757] - Implement The MongoDB Handshake Protocol
+    * [PHPC-786] - Support appname in URI array options
+
+** Task
+    * [PHPC-605] - Rely on libmongoc's socket handling and SSL implementation
+    * [PHPC-629] - Upgrade libbson and libmongoc to 1.4.0
+    * [PHPC-704] - Do not set &quot;mongodb.debug&quot; based on Manager's $driverOptions[&quot;debug&quot;]
+    * [PHPC-761] - Remove BSON_NAMESPACE constant
+    * [PHPC-769] - Javascript serialization, export, and dump should always include scope field
+    * [PHPC-779] - Switch serialization from O type to C type
+    * [PHPC-789] - Remove __wakeup from BSON/* classes</n>
+ <f>830181</f>
+ <g>http://pecl.php.net/get/mongodb-1.2.0alpha2</g>
+ <x xlink:href="package.1.2.0alpha2.xml"/>
+</r>

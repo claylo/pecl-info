@@ -1,0 +1,15 @@
+{
+    "category": "Web Services",
+    "deprecated": true,
+    "description": "This extension provides support for providing and consuming Web services based on <a href=\"http://ws.apache.org/axis2/c/\">Apache Axis2/C</a>.\n\nThe development of this extension has been moved to <a href=\"http://wso2.org/projects/wsf/php\">WSO2 WSF/PHP Project</a>.\nYou can download the latest release of this package from the <a href=\"http://wso2.org/downloads/wsf/php\n\">downloads page</a>.\nPlease note that there is a <a href=\"http://dist.wso2.org/products/wsf/php/wso2_wsf_php-1.2.0.tgz\">pecl package</a> available.\n\nThis package has full Web services support including WS-Addressing, WS-Security, WS-Security Policy , MTOM for binary attachments, WSDL Generation and contract first Web services (WSDL mode). It also has some level of REST support.",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "The Apache 2.0 License",
+    "name": "axis2",
+    "summary": "Web Services for PHP",
+    "php8Mentioned": false,
+    "releases": [],
+    "new_channel": "http://wso2.org/projects/wsf/php",
+    "new_package": "WSO2",
+    "SPDX-License-Identifier": "Apache-2.0"
+}

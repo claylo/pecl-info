@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/couchbase">couchbase</p>
+ <c>pecl.php.net</c>
+ <v>3.0.5</v>
+ <st>stable</st>
+ <l>Apache V2</l>
+ <m>avsej</m>
+ <s>Couchbase Server PHP extension</s>
+ <d>The PHP client library provides fast access to documents stored in a Couchbase Server.</d>
+ <da>2020-12-06 13:09:24</da>
+ <n>* PCBC-699: Add support for minimal durability settings for bucket manager
+* PCBC-718: Deprecate expiry() on GetResult and LookupInResult. expiry() is deprecated in favour to expiryTime()
+  which returns DateTimeInterface
+* PCBC-715: refactor document expiry duration
+    - allow to specify DateTimeInterface objects as expiry value in mutation options
+    - when expiration is set as long in seconds, treat the value as relative if it is less than 50 years in
+      seconds. In this case take current time and add to the expiration value
+* PCBC-733: Add missing fields for SearchFacet results
+* PCBC-720: allow to disable FTS scoring
+* Support PHP 8. Drop support for PHP older than 7.2</n>
+ <f>141579</f>
+ <g>https://pecl.php.net/get/couchbase-3.0.5</g>
+ <x xlink:href="package.3.0.5.xml"/>
+</r>

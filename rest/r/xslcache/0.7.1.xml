@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xslcache">xslcache</p>
+ <c>pecl.php.net</c>
+ <v>0.7.1</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>indeyets</m>
+ <s>A modification of PHP's standard XSL extension that caches the parsed XSL stylesheet representation</s>
+ <d>The XSL Cache extension is a modification of PHP's standard XSL extension that caches
+	the parsed XSL stylesheet representation between sessions for 2.5x boost in performance
+	for sites that repeatedly apply the same transform. Although there is still some further
+	work that could be done on the extension, this code is already proving beneficial in
+	production use for a few applications on the New York Times' website.</d>
+ <da>2009-09-30 15:05:20</da>
+ <n>- Windows compatibility (kalle)
+- Fixed PECL Bug #16819: Crash when empty object is destroyed (mkoppanen)</n>
+ <f>12683</f>
+ <g>http://pecl.php.net/get/xslcache-0.7.1</g>
+ <x xlink:href="package.0.7.1.xml"/>
+</r>

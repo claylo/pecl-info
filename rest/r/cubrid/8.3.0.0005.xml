@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/cubrid">CUBRID</p>
+ <c>pecl.php.net</c>
+ <v>8.3.0.0005</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>cubrid</m>
+ <s>This is the official PHP Extension to connect to CUBRID Database.</s>
+ <d>CUBRID is an open source database management system highly optimized for Web applications (http://www.cubrid.org). The current PHP extension is fully compatibly with the latest stable version of CUBRID Database. To post issues and report bugs, please use CUBRID Official Forum at http://forum.cubrid.org.</d>
+ <da>2011-01-03 20:55:21</da>
+ <n>- enhance cubrid_fetch_object : make it compitible with mysql_fetch_object.
+- enhance cubrid_unbuffered_query : make it worthy of the name, unbuffered query.
+
+- fix a bug in cubrid_execute : if cubrid fails to get result info, there may be memory leak.
+- fix a bug in cubrid_disconnect : When disconnecting any db connection, it will always reset the last request and connection info.
+- fix a bug in last db connect/request life cycle management : if there is no var to refer these resources, then they will be removed by garbage collector.
+- fix a bug in cubrid_unbuffered_query which can cause memory leak : when query execution fails, it don't free the allocated request resource.</n>
+ <f>37945</f>
+ <g>http://pecl.php.net/get/CUBRID-8.3.0.0005</g>
+ <x xlink:href="package.8.3.0.0005.xml"/>
+</r>

@@ -1,0 +1,44 @@
+{
+    "category": "Web Services",
+    "deprecated": false,
+    "description": "This is a drop-in alternative to the standard PHP JSON extension.",
+    "latestReleaseDate": "2017-04-14T18:45:08+00:00",
+    "latestVersion": "1.4.0",
+    "license": "PHP 3.01",
+    "name": "jsond",
+    "summary": "JavaScript Object Notation",
+    "php8Mentioned": false,
+    "releases": {
+        "1.4.0": {
+            "version": "1.4.0",
+            "state": "stable",
+            "license": "PHP 3.01",
+            "releasedBy": "bukka",
+            "releaseDate": "2017-04-14T18:45:08+00:00",
+            "releaseNotes": "* No changes since 1.4.0RC1",
+            "get": "http://pecl.php.net/get/jsond-1.4.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.4.0RC1": {
+            "version": "1.4.0RC1",
+            "state": "beta",
+            "license": "PHP 3.01",
+            "releasedBy": "bukka",
+            "releaseDate": "2016-12-27T19:42:28+00:00",
+            "releaseNotes": "* Added compatibility with PHP 7\n* Empty string is considered invalid and JSON_ERROR_SYNTAX is raised\n* Removed option `JSOND_VALID_ESCAPED_UNICODE`\n* Added new error `JSOND_ERROR_INVALID_PROPERTY_NAME` for invalid property names\n* Fixed compatibility with json ext for  `JSOND_ERROR_CTRL_CHAR`\n* Added depth checking for greater than 0 and lower than `INT_MAX`\n* Added JSOND_PRESERVE_ZERO_FRACTION option for better handling of float values\n* Fixed blank line inside empty array/object when JSOND_PRETTY_PRINT is set\n* Fixed JSON_NUMERIC_CHECK issue with NaN and Inf double\n* Used new UTF8 decoder based on automaton from Bjoern Hoehrmann\n* Introduced new experimental buffer for encoding (option: --enable-jsond-buffer-native)\n* Added a possibility to switch prefix to json (option: --enable-jsond-with-json-prefi)\n* Use special template for Bison\n* The parser and scanner is rebuilt only if enabled in configuration",
+            "get": "http://pecl.php.net/get/jsond-1.4.0RC1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.3.0": {
+            "version": "1.3.0",
+            "state": "beta",
+            "license": "PHP 3.01",
+            "releasedBy": "bukka",
+            "releaseDate": "2014-03-20T14:57:00+00:00",
+            "releaseNotes": "* New JSON parser implemented using re2c and bison",
+            "get": "http://pecl.php.net/get/jsond-1.3.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

@@ -1,0 +1,44 @@
+{
+    "category": "Networking",
+    "deprecated": false,
+    "description": "apn is a PHP extension to introduce simple yet powerful interface for sending push notifications to iOS \n\tand OS X devices from within your PHP code",
+    "latestReleaseDate": "2014-02-20T02:44:17+00:00",
+    "latestVersion": "1.0.3",
+    "license": "PHP 3.01",
+    "name": "apn",
+    "summary": "An extension for sending push notifications to iOS and OS X devices from within your PHP code",
+    "php8Mentioned": false,
+    "releases": {
+        "1.0.3": {
+            "version": "1.0.3",
+            "state": "stable",
+            "license": "PHP 3.01",
+            "releasedBy": "adobkin",
+            "releaseDate": "2014-02-20T02:44:17+00:00",
+            "releaseNotes": "- Fixed typo in constant name (APN_PODUCTION -> APN_PRODUCTION)\n    \t- Incorrect warning message in apn_feedback()\n    \t- Added \"invalid token\" warning in apn_send()\n    \t- TSRM fixes",
+            "get": "http://pecl.php.net/get/apn-1.0.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.2": {
+            "version": "1.0.2",
+            "state": "stable",
+            "license": "PHP 3.01",
+            "releasedBy": "adobkin",
+            "releaseDate": "2013-05-29T12:54:51+00:00",
+            "releaseNotes": "- Fixed package.xml",
+            "get": "http://pecl.php.net/get/apn-1.0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "stable",
+            "license": "PHP 3.01",
+            "releasedBy": "adobkin",
+            "releaseDate": "2013-05-29T12:30:32+00:00",
+            "releaseNotes": "- Initial release",
+            "get": "http://pecl.php.net/get/apn-1.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

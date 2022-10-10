@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/fribidi">fribidi</p>
+ <c>pecl.php.net</c>
+ <v>1.1</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>behnam</m>
+ <s>Implementation of the Unicode Bidirectional Algorithm (bidi)</s>
+ <d>A PHP frontend to the GNU FriBidi library: an implementation of the unicode Bidi algorithm,
+provides means for handling right-to-left text.</d>
+ <da>2013-05-15 02:20:01</da>
+ <n>Requires GNU FriBidi version 0.19.1 or later.</n>
+ <f>6940</f>
+ <g>http://pecl.php.net/get/fribidi-1.1</g>
+ <x xlink:href="package.1.1.xml"/>
+</r>

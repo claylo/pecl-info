@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/timecop">timecop</p>
+ <c>pecl.php.net</c>
+ <v>1.2.10</v>
+ <st>beta</st>
+ <l>MIT License</l>
+ <m>hnw</m>
+ <s>A PHP extension providing &quot;time travel&quot; capabilities.</s>
+ <d>A PHP extension providing &quot;time travel&quot; and &quot;time freezing&quot; capabilities, inspired by ruby timecop gem.</d>
+ <da>2017-11-23 03:29:35</da>
+ <n>Fix &quot;double free&quot; bug on PHP 7.2.0</n>
+ <f>39487</f>
+ <g>http://pecl.php.net/get/timecop-1.2.10</g>
+ <x xlink:href="package.1.2.10.xml"/>
+</r>

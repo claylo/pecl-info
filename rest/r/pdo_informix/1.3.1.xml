@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pdo_informix">PDO_INFORMIX</p>
+ <c>pecl.php.net</c>
+ <v>1.3.1</v>
+ <st>stable</st>
+ <l>Apache License 2.0</l>
+ <m>rahulpriyadarshi</m>
+ <s>PDO driver for IBM Informix INFORMIX databases</s>
+ <d>This extension provides an IBM Informix Dynamic Server driver for PDO. To build and run
+PDO_INFORMIX, you must install the Informix Client Software Development Kit (CSDK)
+from http://ibm.com/informix/downloads.html.</d>
+ <da>2013-06-16 12:58:29</da>
+ <n>Fixed: Segmentation fault while fetching null value for Integer Field in specific case</n>
+ <f>67566</f>
+ <g>http://pecl.php.net/get/PDO_INFORMIX-1.3.1</g>
+ <x xlink:href="package.1.3.1.xml"/>
+</r>

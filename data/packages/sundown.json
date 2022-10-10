@@ -1,0 +1,154 @@
+{
+    "category": "Text",
+    "deprecated": false,
+    "description": "Sundown is a fast, robust Markdown parsing library, originally created\nby Natacha Port\u00e9 and improved Vicent Marti.\nthis extension inspired Redcarpet ruby extension which created by Vicent.\n\nPECL Sundown provides straight forward object oriented Markdown API and customizable Renders.",
+    "latestReleaseDate": "2014-01-02T05:59:09+00:00",
+    "latestVersion": "0.3.11",
+    "license": "PHP",
+    "name": "sundown",
+    "summary": "Sundown is a fast, robust Markdown parsing library for PHP5",
+    "php8Mentioned": false,
+    "releases": {
+        "0.3.11": {
+            "version": "0.3.11",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "chobieeee",
+            "releaseDate": "2014-01-02T05:59:09+00:00",
+            "releaseNotes": "fix segfault in sundown_render_base",
+            "get": "http://pecl.php.net/get/sundown-0.3.11",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.3.10": {
+            "version": "0.3.10",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "chobieeee",
+            "releaseDate": "2013-12-08T19:52:18+00:00",
+            "releaseNotes": "bumped up 0.3.10.\nthis release for imporve windows support.\n\n[fix]\n * windows compatibility",
+            "get": "http://pecl.php.net/get/sundown-0.3.10",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.3.9": {
+            "version": "0.3.9",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "chobieeee",
+            "releaseDate": "2013-12-08T05:48:29+00:00",
+            "releaseNotes": "bumped up 0.3.9.\n\nnext 0.4.x release will change sundown library to hoedown as sundown has been deprecated.\n0.3.x releases are bug fixes only.\n\n[improvements]\n* improve readability\n* use common internal `php_sundown_markdon_render` for rendering markdown.\n* add various markdown test case from karlcow/markdown-testsuite\n* add --enable-sundown-debug configure flag for configure option.\n* add escape_html render flag\n* xhtml render always overrides `xhtml` flag\n\n[bug fix]\nfix incorrect render_html flags\n\n* filter_html\n* no_images\n* no_links",
+            "get": "http://pecl.php.net/get/sundown-0.3.9",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.3.8": {
+            "version": "0.3.8",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "chobieeee",
+            "releaseDate": "2012-09-30T04:01:47+00:00",
+            "releaseNotes": "* bumped up 0.3.8\n\n- fixes #28 Wired memory limit error with autolink set.\nSundown\\Render\\Base callbacks are able to throw exceptions.",
+            "get": "http://pecl.php.net/get/sundown-0.3.8",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.3.7": {
+            "version": "0.3.7",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "chobieeee",
+            "releaseDate": "2012-08-10T22:54:24+00:00",
+            "releaseNotes": "* bumped up 0.3.7\n\nfixed SEGV when processing tableCell and prettify source codes.\n\n9582b04 update contributors\n1f11ace update README\n497d0a4 add a space after comma.\n7bc4703 fix several compile warnings\na11eb98 update CFLAGS for fix compile warnings\n9a86d00 fixes #26:prevent SEGV when calling Sundwon\\Base\\tableCell\n26b77d6 change submodule to vmg/sundown from tanoku/sundown\nee8a132 Merge pull request #24 from reeze/patch-2\n0a08969 Fix build in php-src\nb0adcc7 Merge pull request #23 from reeze/patch-1\nebae34b Make travis report test failure since make test didn't report exit code",
+            "get": "http://pecl.php.net/get/sundown-0.3.7",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.3.6": {
+            "version": "0.3.6",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "chobieeee",
+            "releaseDate": "2012-06-02T00:20:15+00:00",
+            "releaseNotes": "* bumped up 0.3.6\n\nnow, php-sundown is able to use under windows box.\nThank you stealth35!\n\n* prettify phpinfo, add ext and sundown version\n* windows support\n* fix several compile warnings\n\n[removed constants]:\nSundown\\Render\\LIST_ORDERED\nSundown\\Render\\MKDA_NORMAL\nSundown\\Render\\MKDA_EMAIL\n\n[added constants]:\nSundown\\Render\\Base::LIST_ORDERED\nSundown\\Render\\Base::MKDA_NORMAL\nSundown\\Render\\Base::MKDA_EMAIL",
+            "get": "http://pecl.php.net/get/sundown-0.3.6",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.3.5": {
+            "version": "0.3.5",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "chobieeee",
+            "releaseDate": "2012-05-16T11:56:27+00:00",
+            "releaseNotes": "* bumped up 0.3.5\n\nfix #19 Autolink is broken for emails\n\n[added constants]:\nSundown\\Render\\MKDA_NORMAL\nSundown\\Render\\MKDA_EMAIL\n\n[changed signature]:\nSundown\\Render\\Base::autolink(string$link, int $type)\n  type should be Sundown\\Render\\MKDA_NORMAL or Sundown\\Render\\MKDA_EMAIL",
+            "get": "http://pecl.php.net/get/sundown-0.3.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.3.4": {
+            "version": "0.3.4",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "chobieeee",
+            "releaseDate": "2012-05-14T10:35:16+00:00",
+            "releaseNotes": "bumped up 0.3.4\n\n[summary]\n  * add Sundown\\Render\\HTML_TOC render.\n  * add Sundown\\Markdown::setRender(Sundown\\Render\\Base $render);\n  * improve build script.\n  * add Changelog, adjust package.xml",
+            "get": "http://pecl.php.net/get/sundown-0.3.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.3.3": {
+            "version": "0.3.3",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "chobieeee",
+            "releaseDate": "2012-04-21T22:23:02+00:00",
+            "releaseNotes": "bumped up 0.3.3\n\n[summary]\n  * fix #16 missing space_after_headers extension",
+            "get": "http://pecl.php.net/get/sundown-0.3.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.3.2": {
+            "version": "0.3.2",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "chobieeee",
+            "releaseDate": "2012-04-19T23:21:12+00:00",
+            "releaseNotes": "bumped up 0.3.2\n\n[summary]\n  * use no_intra_emphasis instead of no_intraemphasis",
+            "get": "http://pecl.php.net/get/sundown-0.3.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.3.1": {
+            "version": "0.3.1",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "chobieeee",
+            "releaseDate": "2012-04-02T08:36:09+00:00",
+            "releaseNotes": "bumped up 0.3.1\n\n[summary]\n  * fixed overloading callback methods. \n  * fixed segfault when calling render method more than once.\n  * implement more test cases.",
+            "get": "http://pecl.php.net/get/sundown-0.3.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.3.0": {
+            "version": "0.3.0",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "chobieeee",
+            "releaseDate": "2012-03-03T22:35:53+00:00",
+            "releaseNotes": "bumped up 0.3.0\n\nchange callback method name for PECL standards.\nphp-sundown aims to implement more test cases until next minor version release.\n\n[summary]\n  * change callback method names for PECL standards\n  * fix segfault when using XHTML render\n  * fix getting render flags issue\n  * improve Sundown\\Markdown\n    don'd read render / extensions property directly.\n  * fix memory leaks\n  * implement more test cases.",
+            "get": "http://pecl.php.net/get/sundown-0.3.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.0": {
+            "version": "0.2.0",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "chobieeee",
+            "releaseDate": "2012-02-21T18:10:15+00:00",
+            "releaseNotes": "* checks extensions and render flags value.\n\n0.1.0b release only checks specified key exist. Now, it also checks their value.\n\n* added useful methods.\n\narray Sundown\\Render\\Base::getRenderFlags()\nvoid Sundown\\Render\\Base::setRenderFlags(array $render_flags)\n\narray Sundown\\Markdown::getExtensions()\nvoid Sundown\\Markdown::setExtensions(array $extensions)\nSundown\\Render\\Base Sundown\\Markdown::getRender()\n\n* update bundled Sundown library\n\n[summary]\n  * Fix segfault on empty link refs\n  * Escape html inside table of contents.\n  * hanging whitespace breaks tables",
+            "get": "http://pecl.php.net/get/sundown-0.2.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.0b": {
+            "version": "0.1.0b",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "chobieeee",
+            "releaseDate": "2012-02-05T09:08:29+00:00",
+            "releaseNotes": "Initial Release.\nthis extension provides following classes.\n\n* Sundown\nsimple markdown render.\n\n* Sundown\\Markdown\ncustomizable markdown render.\n\n* Sundown\\Render\\Base\nrender base class.\n\n* Sundown\\Render\\HTML\nbuiltin markdown html render.\n\n* Sundown\\Render\\XHTML\nbuiltin markdown xhtml render.",
+            "get": "http://pecl.php.net/get/sundown-0.1.0b",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

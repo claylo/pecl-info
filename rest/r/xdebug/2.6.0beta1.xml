@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xdebug">xdebug</p>
+ <c>pecl.php.net</c>
+ <v>2.6.0beta1</v>
+ <st>beta</st>
+ <l>BSD style</l>
+ <m>derick</m>
+ <s>Provides functions for function traces and profiling</s>
+ <d>The Xdebug extension helps you debugging your script by providing a lot of
+valuable debug information. The debug information that Xdebug can provide
+includes the following:
+
+    * stack and function traces in error messages with:
+          o full parameter display for user defined functions
+          o function name, file name and line indications
+          o support for member functions
+    * memory allocation
+    * protection for infinite recursions
+
+Xdebug also provides:
+
+    * profiling information for PHP scripts
+    * code coverage analysis
+    * capabilities to debug your scripts interactively with a debug client</d>
+ <da>2017-12-28 19:48:43</da>
+ <n>Thu, Dec 28, 2017 - xdebug 2.6.0beta1
+
++ Added features:
+
+  - Fixed issue #1059: Add filter capabilities to tracing, stack traces, and code coverage.
+  - Fixed issue #1437: Add X-Profile-File-Name header when a profile file has been generated.
+
++ Improvements:
+
+  - Fixed issue #1493: Run test suite in AppVeyor for Windows CI.
+  - Fixed issue #1498: Use new ZEND_EXTENSION API in config.w32 build scripts. (Kalle)
+
+= Fixed bugs:
+
+  - Fixed issue #702: Check whether variables tracing also works with =&amp;.
+  - Fixed issue #1501: Xdebug var dump tries casting properties.
+  - Fixed issue #1502: SEND_REF lines are not marked as covered.</n>
+ <f>279605</f>
+ <g>http://pecl.php.net/get/xdebug-2.6.0beta1</g>
+ <x xlink:href="package.2.6.0beta1.xml"/>
+</r>

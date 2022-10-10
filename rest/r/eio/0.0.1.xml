@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/eio">eio</p>
+ <c>pecl.php.net</c>
+ <v>0.0.1</v>
+ <st>alpha</st>
+ <l>PHP</l>
+ <m>osmanov</m>
+ <s>Provides interface to the libeio library</s>
+ <d>This extension provides interface to the libeio library written by Marc Lehmann
+  &lt;libeio at schmorp dot de&gt;(see http://software.schmorp.de/pkg/libeio.html).
+  
+  Libeio is a an asynchronous I/O library. Features basically include
+  asynchronous versions of POSIX API(read, write, open, close, stat, unlink,
+  fdatasync, mknod, readdir etc.); sendfile (native on Solaris, Linux, HP-UX,
+  FreeBSD); readahead. libeio itself emulates the system calls, if they are not
+  available on specific(UNIX-like) platform.
+  
+  Currently this extension supports Linux platforms only.</d>
+ <da>2011-10-13 03:54:17</da>
+ <n>Change: Shared memory permissions are set to 0660 by default 
+Change: Removed redundant code and comments
+Add: Tests: eio_read_basic.phpt, eio_stat_basic.phpt
+Fix: the package XML
+Fix: docs</n>
+ <f>22673</f>
+ <g>http://pecl.php.net/get/eio-0.0.1</g>
+ <x xlink:href="package.0.0.1.xml"/>
+</r>

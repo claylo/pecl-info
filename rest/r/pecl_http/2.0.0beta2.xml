@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pecl_http">pecl_http</p>
+ <c>pecl.php.net</c>
+ <v>2.0.0beta2</v>
+ <st>beta</st>
+ <l>BSD, revised</l>
+ <m>mike</m>
+ <s>Extended HTTP Support</s>
+ <d>Extended HTTP support. Again. Keep in mind that it's got the major version 2, because it's incompatible with pecl_http v1.
+
+* Introduces the http namespace.
+* Message bodies have been remodeled to use PHP temporary streams instead of in-memory buffers.
+* The utterly misunderstood HttpResponse class has been reimplemented as http\Env\Response inheriting http\Message.
+* Currently, there's only one Exception class left, http\Exception.
+* Errors triggered by the extension can be configured statically by http\Object::$defaultErrorHandling or inherited http\Object-&gt;errorHandling.
+* The request ecosystem has been modularized to support different libraries, though for the moment only libcurl is supported.</d>
+ <da>2012-11-29 04:24:53</da>
+ <n>! &gt;80% test coverage
+* Fixed http\Request\Pool with libevent2
+* Fixed http\Env\Request::getFiles() with multiple-file-uploads
+* Fixed PHP-5.3 compatibility
+* Fixed reference handling of http\Message\Body::getResource()
+* Fixed reading stream filters to correctly detect EOF of tmp and mem streams
+- Change: merge message headers with the same key
+- Change: the stream message parser can optionally return after each message
+- Change: you have to care yourself for Content headers if a message's body has a reading stream filter attached
++ Added http\Env::getResponseStatusForAllCodes()</n>
+ <f>156080</f>
+ <g>http://pecl.php.net/get/pecl_http-2.0.0beta2</g>
+ <x xlink:href="package.2.0.0beta2.xml"/>
+</r>

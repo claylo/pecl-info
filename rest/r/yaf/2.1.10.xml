@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/yaf">yaf</p>
+ <c>pecl.php.net</c>
+ <v>2.1.10</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>laruence</m>
+ <s>PHP Framework in PHP extension</s>
+ <d>Yaf is a PHP framework similar to zend framework, which is written in c and built as PHP extension</d>
+ <da>2012-04-04 01:10:17</da>
+ <n>- Improved Yaf_Config_Ini::__Construct performance, and reduce memory consumption
+- Fixed bug #61493 (Can't remove item when using unset() with a Yaf_Config_Simple instance)
+- Support controller autoloading(Only default module)
+- Fixed bug that the controller name could be lowercase in routeShutdown hook
+- Fixed bug that segfault while attempt to free owrite_handler
+- Added Yaf_Controller::$yafAutoRender to controller render
+- Fixed some memory leaks</n>
+ <f>77025</f>
+ <g>http://pecl.php.net/get/yaf-2.1.10</g>
+ <x xlink:href="package.2.1.10.xml"/>
+</r>

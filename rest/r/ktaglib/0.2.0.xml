@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ktaglib">KTaglib</p>
+ <c>pecl.php.net</c>
+ <v>0.2.0</v>
+ <st>beta</st>
+ <l>Modified BSD License</l>
+ <m>dsp</m>
+ <s>Library to edit audio properties and tags on MPEG and OGG files</s>
+ <d>KTaglib is a PHP binding for the KDE taglib, which reads and writes tags for various audio files</d>
+ <da>2008-12-21 20:51:38</da>
+ <n>- Add Windows compatibility (David).
+- Add OGG Tag support (Anatoliy).
+- Add OGG Audio properties support (Anatoliy).
+- Add $create parameter to getID3v2 and getID3v1 (David).
+- Add setMimeType, getMimeType to AttachedPictureFrame (David).
+- Add getType, setType and corresponding constants to AttachedPictureFrame (David).
+- Fix unitialized values (David).
+- Fix an issue when saving the a picture (David).
+- Fix return value of addFrame()
+- Fix a heap overflow in MINFO.</n>
+ <f>12897</f>
+ <g>http://pecl.php.net/get/KTaglib-0.2.0</g>
+ <x xlink:href="package.0.2.0.xml"/>
+</r>

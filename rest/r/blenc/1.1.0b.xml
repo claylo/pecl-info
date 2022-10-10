@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/blenc">blenc</p>
+ <c>pecl.php.net</c>
+ <v>1.1.0b</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>gchiesa</m>
+ <s>Transparent PHP Script Encryption using Blowfish</s>
+ <d>BLENC is an extension which hooks into the Zend Engine, allowing for
+transparent encryption and execution of PHP scripts using the blowfish
+algorithm. It is not designed for complete security (it is still
+possible to disassemble the script into op codes using a package such
+as XDebug), however it does keep people out of your code and make
+reverse engineering difficult.</d>
+ <da>2013-05-30 12:58:15</da>
+ <n>Upgraded to works with latest PHP version</n>
+ <f>17454</f>
+ <g>http://pecl.php.net/get/blenc-1.1.0b</g>
+ <x xlink:href="package.1.1.0b.xml"/>
+</r>

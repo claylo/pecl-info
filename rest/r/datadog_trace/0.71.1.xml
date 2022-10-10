@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.71.1</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>labbati</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2022-03-31 15:02:52</da>
+ <n>### Fixed
+
+- Use -1 as uninitialized op_array_extension marker #1550
+
+### Internal changes
+
+- Use latest ubuntu images in CI #1543
+- Use 8.1.4 in development buster images #1553
+- Add randomized tests for PHP 8.1 and make buster containers arm64 ready #1551
+- Remove regressions from randomized tests #1547</n>
+ <f>526122</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.71.1</g>
+ <x xlink:href="package.0.71.1.xml"/>
+</r>

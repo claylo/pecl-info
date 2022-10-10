@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/svn">svn</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>alan_k</m>
+ <s>PHP Bindings for the Subversion Revision control system.</s>
+ <d>Bindings for the Subversion revision control system, providing a method for manipulating
+	a working copy or repository with PHP.</d>
+ <da>2010-05-12 23:04:23</da>
+ <n>Bumped release to stable, as not much is really changing and the API is pretty steady.
+
+
+- not handling SVN_REVISION_COMMITTED, SVN_REVISION_PREV, SVN_REVISION_BASE properly 
+  (svn_ls, svn_info, svn_update, svn_export) (Chung, Hyung-Hwan)
+- not handling utf8 failure  (Chung, Hyung-Hwan)
+ (svn_update, svn_export, svn_repos_create, svn_commit, svn_add, svn_status, svn_blame)
+- using a wrong type for the 'l' parameter that can cause a problem on architectures where 
+   sizeof(int) != sizeof(long) - ( svn_info, svn_ls ) (Chung, Hyung-Hwan)
+- multiple utf8 check fixes - (Chung, Hyung-Hwan)
+- add revision parameter to svn_propget and svn_proplist, do utf8 checks (Chung, Hyung-Hwan)
+- fix bug #17080 - svn_mkdir requires log message, also added utf8 checks (Ivan P)
+- req #14360 - support svn_export with revisions  (lostoutfrog)
+- php 5.3.0 TSRMLS_CC additions (Thomas Krause)
+- update package xml to v2 (Pierre Joye)</n>
+ <f>24466</f>
+ <g>http://pecl.php.net/get/svn-1.0.0</g>
+ <x xlink:href="package.1.0.0.xml"/>
+</r>

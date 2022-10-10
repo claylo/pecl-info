@@ -1,0 +1,28 @@
+{
+    "category": "Networking",
+    "deprecated": false,
+    "description": "pserver client extension.  Current version has read-only, diff, and log support.\nLater versions to include add/commit/remove.",
+    "latestReleaseDate": "2004-04-15T05:13:00+00:00",
+    "latestVersion": "0.2",
+    "license": "PHP",
+    "name": "cvsclient",
+    "php8Mentioned": false,
+    "releases": {
+        "0.2": {
+            "version": "0.2",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "pollita",
+            "releaseDate": "2004-04-15T05:13:00+00:00",
+            "releaseNotes": "- Added cvs.diff:// wrapper.\n- Added Resource based functions (cvsclient_connect, cvsclient_login, cvsclient_retrieve, cvsclient_log)\n- Several code improvements",
+            "get": "http://pecl.php.net/get/cvsclient-0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1": {
+            "version": "0.1",
+            "state": "alpha"
+        }
+    },
+    "summary": "CVS pserver client",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

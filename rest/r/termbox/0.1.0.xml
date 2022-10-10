@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/termbox">termbox</p>
+ <c>pecl.php.net</c>
+ <v>0.1.0</v>
+ <st>beta</st>
+ <l>Apache</l>
+ <m>as</m>
+ <s>a termbox wrapper for PHP</s>
+ <d>termbox is a robust, minimal alternative to ncurses. termbox-php is a wrapper
+extension that provides termbox functionality in PHP land.
+
+See https://github.com/adsr/termbox-php for the source distribution.
+See https://github.com/nsf/termbox for the underlying library.</d>
+ <da>2014-09-12 00:09:32</da>
+ <n>initial release</n>
+ <f>201277</f>
+ <g>http://pecl.php.net/get/termbox-0.1.0</g>
+ <x xlink:href="package.0.1.0.xml"/>
+</r>

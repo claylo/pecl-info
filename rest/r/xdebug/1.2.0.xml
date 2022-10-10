@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xdebug">xdebug</p>
+ <c>pecl.php.net</c>
+ <v>1.2.0</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>derick</m>
+ <s>Provides functions for function traces and profiling</s>
+ <d>An extension which gives you detailed errors with backtraces and provides
+functions for function tracing, memory usage and profiling.
+</d>
+ <da>2003-06-08 10:14:00</da>
+ <n>Fixed a bug in handling Windows path files and one for dealing with Zend
+Engine 2. Also added support for MacOSX and added the xdebug_call_class()
+function.</n>
+ <f>58608</f>
+ <g>http://pecl.php.net/get/xdebug-1.2.0</g>
+ <x xlink:href="package.1.2.0.xml"/>
+</r>

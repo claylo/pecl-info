@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ref">ref</p>
+ <c>pecl.php.net</c>
+ <v>0.4.4</v>
+ <st>stable</st>
+ <l>The MIT License (MIT)</l>
+ <m>pinepain</m>
+ <s>Soft and Weak references support in PHP</s>
+ <d>This extension adds Soft and Weak references support to PHP 7 and may serve as a ground for other data structures that require advanced referencing model.</d>
+ <da>2017-07-22 11:45:25</da>
+ <n>This release improves PHP 7.2 compatibility support
+
+Changelist:
+ - Restore original referent obj handler when it is no longer tracked</n>
+ <f>36137</f>
+ <g>http://pecl.php.net/get/ref-0.4.4</g>
+ <x xlink:href="package.0.4.4.xml"/>
+</r>

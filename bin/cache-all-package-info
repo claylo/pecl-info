@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+# shellcheck disable=SC2312
+set -o pipefail
+
+REPODIR="$(dirname "$(cd "$(dirname "$0")" && pwd -P)")"
+PATH="${REPODIR}/bin:${PATH}"
+
+cache-req "p/packages.xml"
+packages-to-json
+
+jq -r 'keys | .[] | ascii_downcase' "${REPODIR}/data/packages.json" | while read -r info; do
+  echo "${info} info & allreleases.xml"
+  cache-req "p/${info}/info.xml"
+  cache-req "r/${info}/allreleases.xml"
+done
+
+expand-package-info
+
+jq -r 'keys | .[] | ascii_downcase' "${REPODIR}/data/packages.json" | while read -r info; do
+  if [[ -f "${REPODIR}/rest/r/${info}/allreleases.json" ]]; then
+    echo "${info}: collecting releases"
+    jq -r 'keys | .[]' "${REPODIR}/rest/r/${info}/allreleases.json" | while read -r rel; do
+      cache-req "r/${info}/${rel}.xml"
+      cache-req "r/${info}/package.${rel}.xml"
+      cache-req "r/${info}/deps.${rel}.txt"
+    done
+  fi
+done

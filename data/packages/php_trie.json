@@ -1,0 +1,44 @@
+{
+    "category": "Structures",
+    "deprecated": false,
+    "description": "Trie and HAT trie data structures for PHP.",
+    "latestReleaseDate": "2022-05-25T09:28:09+00:00",
+    "latestVersion": "0.1.2",
+    "license": "PHP",
+    "name": "php_trie",
+    "php8Mentioned": true,
+    "releases": {
+        "0.1.2": {
+            "version": "0.1.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "agiroloki95",
+            "releaseDate": "2022-05-25T09:28:09+00:00",
+            "releaseNotes": "- Fixed versioning inconsistencies\n- Fixed config.h reverse logic",
+            "get": "https://pecl.php.net/get/php_trie-0.1.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.1": {
+            "version": "0.1.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "agiroloki95",
+            "releaseDate": "2022-05-23T15:51:45+00:00",
+            "releaseNotes": "- Added support for PHP 8\n- Removed Countable interface implementation",
+            "get": "https://pecl.php.net/get/php_trie-0.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.0": {
+            "version": "0.1.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "agiroloki95",
+            "releaseDate": "2020-09-08T19:51:11+00:00",
+            "releaseNotes": "- First stable release",
+            "get": "https://pecl.php.net/get/php_trie-0.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "PHP Trie extension",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

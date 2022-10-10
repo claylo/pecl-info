@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/rdkafka">rdkafka</p>
+ <c>pecl.php.net</c>
+ <v>4.1.2</v>
+ <st>stable</st>
+ <l>MIT License</l>
+ <m>lbarnaud</m>
+ <s>Kafka client based on librdkafka</s>
+ <d>This extension is a librdkafka binding providing a working client for Kafka</d>
+ <da>2020-12-24 10:57:53</da>
+ <n>BREAKING CHANGE: Since version 4.0, the client no longer polls for network
+events at shutdown (during object destructor). This behaviour didn't give
+enough control to the user in case of server issue, and could cause the script
+to hang while terminating.
+
+Starting from 4.0, programs MUST call flush() before shutting down, otherwise
+some messages and callbacks may be lost.
+
+## Enhancements
+- Enabled features on windows build: headers, purge, murmur (#410, @nick-zh, @cmb69)</n>
+ <f>41443</f>
+ <g>https://pecl.php.net/get/rdkafka-4.1.2</g>
+ <x xlink:href="package.4.1.2.xml"/>
+</r>

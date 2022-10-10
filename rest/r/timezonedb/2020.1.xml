@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/timezonedb">timezonedb</p>
+ <c>pecl.php.net</c>
+ <v>2020.1</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>derick</m>
+ <s>Timezone Database to be used with PHP's date and time functions</s>
+ <d>This extension is a drop-in replacement for the builtin timezone database that
+comes with PHP. You should only install this extension in case you need to get
+a later version of the timezone database than the one that ships with PHP.
+
+The data that this extension uses comes from the &quot;Olson&quot; database, which is
+located at http://www.iana.org/time-zones.</d>
+ <da>2020-04-24 11:30:01</da>
+ <n>Updated to version 2020.1 (2020a)</n>
+ <f>413993</f>
+ <g>https://pecl.php.net/get/timezonedb-2020.1</g>
+ <x xlink:href="package.2020.1.xml"/>
+</r>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/libevent">libevent</p>
+ <c>pecl.php.net</c>
+ <v>0.0.4</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>tony2001</m>
+ <s>Libevent - event notification</s>
+ <d>This extension is a wrapper for libevent - event notification library.</d>
+ <da>2010-06-23 04:16:18</da>
+ <n>- Added signal support to event_set().
+- Added add event_buffer_set_callback().
+- Fixed possible segfault in event_del().</n>
+ <f>9003</f>
+ <g>http://pecl.php.net/get/libevent-0.0.4</g>
+ <x xlink:href="package.0.0.4.xml"/>
+</r>

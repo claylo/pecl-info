@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/gnupg">gnupg</p>
+ <c>pecl.php.net</c>
+ <v>0.7</v>
+ <st>beta</st>
+ <l>BSD, revised</l>
+ <m>traufeisen</m>
+ <s>wrapper around the gpgme library</s>
+ <d>This extension provides methods to interact with gnupg.</d>
+ <da>2005-11-29 16:00:53</da>
+ <n>changed licence to BSD, revised
+fixed error during keyimport when the keyring is not writeable
+fixed error when an invalid errormode is passed to seterrormode</n>
+ <f>17247</f>
+ <g>http://pecl.php.net/get/gnupg-0.7</g>
+ <x xlink:href="package.0.7.xml"/>
+</r>

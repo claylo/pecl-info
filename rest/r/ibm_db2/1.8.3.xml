@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ibm_db2">ibm_db2</p>
+ <c>pecl.php.net</c>
+ <v>1.8.3</v>
+ <st>stable</st>
+ <l>Apache License 2.0</l>
+ <m>ambrish</m>
+ <s>Extension for IBM DB2 Universal Database, IBM Cloudscape, and
+        Apache Derby</s>
+ <d>This extension supports IBM DB2 Universal Database, IBM
+Cloudscape, and Apache Derby databases.</d>
+ <da>2009-12-24 02:56:19</da>
+ <n>Fixed 14347: ibm_db2 1.6.6 fails to compile (still a problem w/ 1.8.2).
+Fixed 16257: db2_execute() Segfault on an empty string as a bind parameter. 
+Fixed: GRAPHIC, VARGRAPHIC Data type error.</n>
+ <f>147671</f>
+ <g>http://pecl.php.net/get/ibm_db2-1.8.3</g>
+ <x xlink:href="package.1.8.3.xml"/>
+</r>

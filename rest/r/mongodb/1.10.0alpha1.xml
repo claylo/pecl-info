@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.10.0alpha1</v>
+ <st>alpha</st>
+ <l>Apache License</l>
+ <m>alcaeus</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2021-04-09 12:01:19</da>
+ <n>** Bug
+* [PHPC-1420] - Using replicaSet triggers __fortify_fail () from /lib64/libc.so.6
+* [PHPC-1529] - Reset libmongocrypt's key vault client after forking
+* [PHPC-1720] - Move mongoc_client_set_error_api after check for null client pointer
+* [PHPC-1722] - Persistent clients and their HashTable should be destroyed in GSHUTDOWN
+
+** Epic
+* [PHPC-1731] - Versioned MongoDB API for Drivers
+
+** New Feature
+* [PHPC-1645] - Allow disabling of libmongoc client persistence
+
+** Improvement
+* [PHPC-1366] - Declare libbson vtable in MINIT instead of using a global
+* [PHPC-1367] - Move libmongoc init/cleanup within scope of custom libbson vtable
+* [PHPC-1681] - Support parsing $uuid as extended JSON representation for subtype 4 binary
+* [PHPC-1684] - Support Azure and GCP keystores in FLE
+* [PHPC-1716] - Allow configuring serverApi in manager class
+* [PHPC-1737] - Use zend_hash_graceful_reverse_destroy to free persistent client HashTable
+* [PHPC-1753] - Define error handling behavior of writeErrors and writeConcernError on Mongos
+* [PHPC-1754] - Drivers should not inspect error messages for &quot;not master&quot; or &quot;node is recovering&quot;</n>
+ <f>1324732</f>
+ <g>https://pecl.php.net/get/mongodb-1.10.0alpha1</g>
+ <x xlink:href="package.1.10.0alpha1.xml"/>
+</r>

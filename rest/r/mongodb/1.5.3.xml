@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.5.3</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>jmikola</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2018-09-20 18:57:45</da>
+ <n>** Bug
+    * [PHPC-1241] - OpenSSL 1.1 not found if pkg-config is not available
+    * [PHPC-1266] - Empty deeply nested BSON document causes unallocated memory writes
+    * [PHPC-1272] - phongo_execute_query() should not alter state of Query opts
+
+** Task
+    * [PHPC-1177] - Reimplement tests that use parse_url()
+    * [PHPC-1178] - Reimplement tests that load data fixtures
+    * [PHPC-1179] - Reimplement tests that start servers with Mongo Orchestration
+    * [PHPC-1209] - is_replica_set() should return false when connected to RS primary in standalone mode
+    * [PHPC-1220] - Create skip function for insufficient replica set members
+    * [PHPC-1225] - Add test to catch unsupported server wire protocol versions
+    * [PHPC-1258] - Bump system dependency on libbson and libmongoc in config.m4 to 1.12.0
+    * [PHPC-1263] - Update tests for PHP 7.3's output changes
+    * [PHPC-1270] - Upgrade libmongoc to 1.13.0</n>
+ <f>1059580</f>
+ <g>http://pecl.php.net/get/mongodb-1.5.3</g>
+ <x xlink:href="package.1.5.3.xml"/>
+</r>

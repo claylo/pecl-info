@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/cairo">Cairo</p>
+ <c>pecl.php.net</c>
+ <v>0.3.0</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>auroraeosrose</m>
+ <s>Cairo Graphics Library Extension</s>
+ <d>Cairo is a 2D graphics library with support for multiple output devices. Currently supported output targets include the X Window System, Quartz, Win32, image buffers, PostScript, PDF, and SVG file output.</d>
+ <da>2011-12-28 15:32:27</da>
+ <n>* Added support for Cairo 1.10 subsurfaces
+* Added support for Cairo 1.10 recording surfaces
+* Added other Cairo 1.10 methods
+* Fix bug relating to strides for image data
+* Allow compiling all the way back to Cairo 1.2
+* Win32 font support
+* Handle construction and destruction of globals correctly</n>
+ <f>171729</f>
+ <g>http://pecl.php.net/get/Cairo-0.3.0</g>
+ <x xlink:href="package.0.3.0.xml"/>
+</r>

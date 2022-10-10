@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/lchash">lchash</p>
+ <c>pecl.php.net</c>
+ <v>0.9</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>iliaa</m>
+ <s>LibC Hash Interface</s>
+ <d>The LCHASH extension provides interface to libc implementation
+  of hash tables described by POSIX 1003.1-2001.
+</d>
+ <da>2005-08-31 10:29:22</da>
+ <n>Initial Commit</n>
+ <f>2894</f>
+ <g>http://pecl.php.net/get/lchash-0.9</g>
+ <x xlink:href="package.0.9.xml"/>
+</r>

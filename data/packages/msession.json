@@ -1,0 +1,13 @@
+{
+    "category": "Networking",
+    "deprecated": false,
+    "description": "msession is an interface to a high speed session daemon which can run either locally or remotely. It is designed to provide consistent session management for a PHP web farm. More Information about msession and the session server software itself can be found at http://www.mohawksoft.org/?q=node/8.",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "PHP License",
+    "name": "msession",
+    "summary": "mohawksoft session serveur support",
+    "php8Mentioned": false,
+    "releases": [],
+    "SPDX-License-Identifier": "PHP-3.01"
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/psr">psr</p>
+ <c>pecl.php.net</c>
+ <v>1.2.0</v>
+ <st>stable</st>
+ <l>BSD-2-Clause</l>
+ <m>jbboehr</m>
+ <s>PSR interfaces</s>
+ <d>This extension provides the accepted PSR interfaces, so they can be used in an extension.
+
+  See http://www.php-fig.org/psr/</d>
+ <da>2021-12-11 18:29:14</da>
+ <n>- PHP 8.1 compatibility (@Jeckerson)
+- All classes are now defined in a separate namespace `PsrExt` and aliased into the `Psr` namespace to aid in debuggging compatibility issues for framework maintainers</n>
+ <f>28238</f>
+ <g>https://pecl.php.net/get/psr-1.2.0</g>
+ <x xlink:href="package.1.2.0.xml"/>
+</r>

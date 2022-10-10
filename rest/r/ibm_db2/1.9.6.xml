@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ibm_db2">ibm_db2</p>
+ <c>pecl.php.net</c>
+ <v>1.9.6</v>
+ <st>stable</st>
+ <l>Apache License 2.0</l>
+ <m>rahulpriyadarshi</m>
+ <s>Extension for IBM DB2 Universal Database, IBM Cloudscape, and
+        Apache Derby</s>
+ <d>This extension supports IBM DB2 Universal Database, IBM
+Cloudscape, and Apache Derby databases.</d>
+ <da>2014-07-23 05:19:07</da>
+ <n>Fixed: Fetching of mixed character data when the application code page different from database code page
+Fixed: db2-bind-param with INOUT LOB parameters
+Enhanced: Enable iSeries system naming mode from LUW to iSeries
+Enhanced: Clear global error state at end of request</n>
+ <f>158319</f>
+ <g>http://pecl.php.net/get/ibm_db2-1.9.6</g>
+ <x xlink:href="package.1.9.6.xml"/>
+</r>

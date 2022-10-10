@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.5.9</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in tcp/http/websocket/http2 server
+        - coroutine tcp/http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2020-11-27 03:02:56</da>
+ <n>Enhancement
+---
++ Added SWOOLE_HTTP_CLIENT_ESTATUS_SEND_FAILED constant for Coroutine\\Http\\Client (#3873) (@sy-records)
+
+Fixed
+---
+* Fixed PHP8 compatibility (#3868) (#3869) (#3872) (@twose) (@huanghantao) (@doubaokun)
+* Fixed undefined constant CURLOPT_HEADEROPT and CURLOPT_PROXYHEADER (swoole/library#77) (@sy-records)
+* Fixed CURLOPT_USERPWD (swoole/library@7952a7b6) (@twose)</n>
+ <f>1552445</f>
+ <g>https://pecl.php.net/get/swoole-4.5.9</g>
+ <x xlink:href="package.4.5.9.xml"/>
+</r>

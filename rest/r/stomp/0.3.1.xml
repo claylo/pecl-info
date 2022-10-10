@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/stomp">stomp</p>
+ <c>pecl.php.net</c>
+ <v>0.3.1</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>pierrick</m>
+ <s>Stomp client extension</s>
+ <d>This extension allows php applications to communicate with any Stomp compliant Message Brokers through easy object oriented and procedural interfaces.</d>
+ <da>2009-11-08 10:39:57</da>
+ <n>- Fix memory leak in stomp_send and in stomp_ack
+- Reduced minimum php version to 5.2.2</n>
+ <f>16371</f>
+ <g>http://pecl.php.net/get/stomp-0.3.1</g>
+ <x xlink:href="package.0.3.1.xml"/>
+</r>

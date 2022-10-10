@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.73.0</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>labbati</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2022-04-28 08:48:17</da>
+ <n>## Application Security Monitoring
+### v0.3.1
+#### Fixes
+- Fix relative module order with ddtrace on PHP 7.3 issue [#88](https://github.com/DataDog/dd-appsec-php/issues/88) -  [#86](https://github.com/DataDog/dd-appsec-php/pull/86)
+
+### v0.3.0
+#### Breaking Changes
+- Rename ini settings from `datadog.appsec.rules_path` to `datadog.appsec.rules` [#74](https://github.com/DataDog/dd-appsec-php/pull/74)
+- Interpret `datadog.appsec.waf_timeout` as microseconds rather than milliseconds [#74](https://github.com/DataDog/dd-appsec-php/pull/74)
+
+### Fixes
+- Add obfuscator strings when initialising WAF from client settings [#83](https://github.com/DataDog/dd-appsec-php/pull/83)
+
+#### Additions
+- Add WAF metrics and errors to traces [#79](https://github.com/DataDog/dd-appsec-php/pull/79)
+- Actor IP resolution from request headers [#80](https://github.com/DataDog/dd-appsec-php/pull/80)
+- Add support for WAF event obfuscator [#82](https://github.com/DataDog/dd-appsec-php/pull/82)
+- Add obfuscator regex for values [#84](https://github.com/DataDog/dd-appsec-php/pull/84)
+
+#### Miscellaneous Changes
+- Update installer links in documentation and tests [#76](https://github.com/DataDog/dd-appsec-php/pull/76)
+- Add `parameter_view` for non-ownership of WAF parameters [#78](https://github.com/DataDog/dd-appsec-php/pull/78)
+- Accept IP list on `X-Cluster-Client-IP` header [#81](https://github.com/DataDog/dd-appsec-php/pull/81)
+- Update ruleset to v1.3.1 [#82](https://github.com/DataDog/dd-appsec-php/pull/82)
+- libddwaf upgraded to v1.3.0 [#82](https://github.com/DataDog/dd-appsec-php/pull/82)
+- Update installation instructions [#84](https://github.com/DataDog/dd-appsec-php/pull/84)</n>
+ <f>526803</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.73.0</g>
+ <x xlink:href="package.0.73.0.xml"/>
+</r>

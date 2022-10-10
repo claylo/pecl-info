@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/grpc">grpc</p>
+ <c>pecl.php.net</c>
+ <v>1.4.0</v>
+ <st>stable</st>
+ <l>BSD</l>
+ <m>stanleycheung</m>
+ <s>A high performance, open source, general RPC framework that puts mobile and HTTP/2 first.</s>
+ <d>Remote Procedure Calls (RPCs) provide a useful abstraction for building distributed applications and services. The libraries in this repository provide a concrete implementation of the gRPC protocol, layered over HTTP/2. These libraries enable communication between clients and servers using any combination of the supported languages.</d>
+ <da>2017-06-21 19:40:56</da>
+ <n>- Fixed some memory leaks #9559, #10996
+- Disabled cares dependency from gRPC C Core #10940
+- De-coupled protobuf dependency #11112
+- Fixed extension reported version #10842
+- Added config.w32 for Windows support #8161
+- Fixed PHP distrib test after cc files were added #11193
+- Fixed protoc plugin comment escape bug #11025</n>
+ <f>2298120</f>
+ <g>http://pecl.php.net/get/grpc-1.4.0</g>
+ <x xlink:href="package.1.4.0.xml"/>
+</r>

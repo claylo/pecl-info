@@ -1,0 +1,38 @@
+{
+    "0.2.2b1": {
+        "version": "0.2.2b1",
+        "state": "beta"
+    },
+    "0.2.1b5": {
+        "version": "0.2.1b5",
+        "state": "beta"
+    },
+    "0.2.1b4": {
+        "version": "0.2.1b4",
+        "state": "beta"
+    },
+    "0.2.1b3": {
+        "version": "0.2.1b3",
+        "state": "beta"
+    },
+    "0.2.1b2": {
+        "version": "0.2.1b2",
+        "state": "beta"
+    },
+    "0.2.1b1": {
+        "version": "0.2.1b1",
+        "state": "beta"
+    },
+    "0.2.1": {
+        "version": "0.2.1",
+        "state": "alpha"
+    },
+    "0.2.0": {
+        "version": "0.2.0",
+        "state": "beta"
+    },
+    "0.1.0": {
+        "version": "0.1.0",
+        "state": "beta"
+    }
+}

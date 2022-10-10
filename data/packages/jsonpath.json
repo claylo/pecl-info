@@ -1,0 +1,64 @@
+{
+    "category": "Tools and Utilities",
+    "deprecated": false,
+    "description": "This extension allows you to use the versatile JSONPath query language to extract the properties that you want from a decoded JSON document.",
+    "latestReleaseDate": "2022-03-20T09:52:28+00:00",
+    "latestVersion": "1.0.0",
+    "license": "PHP License",
+    "name": "jsonpath",
+    "php8Mentioned": true,
+    "releases": {
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "viktor",
+            "releaseDate": "2022-03-20T09:52:28+00:00",
+            "releaseNotes": "## Changes\n\n## Bug fixes\n- Issue #158 - Skip child filter check on non-arrays @mkaminski1988 (#159)\n- Issue #156 - Bubble up filter parsing error @mkaminski1988 (#157)\n\n## Maintenance\n- Remove alpha suffix from PECL install command as we release version 1.0.0 @crocodele (#162)\n- Add documentation to describe the notation, along with more examples @crocodele (#160)\n- Include PHP 8.2 nightly as a version for test runs on Linux @crocodele (#161)",
+            "get": "https://pecl.php.net/get/jsonpath-1.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.9.6": {
+            "version": "0.9.6",
+            "state": "alpha",
+            "license": "PHP License",
+            "releasedBy": "viktor",
+            "releaseDate": "2022-01-13T11:06:42+00:00",
+            "releaseNotes": "## Changes\n- Basic Windows CI (build and test) @cmb69 (#154)\n- Fix Windows builds @cmb69 (#153)\n- Revert \"Issue #150 - pass AST\\_RECURSE token to exec\\_recursive\\_descent()\" @mkaminski1988 (#152)\n\n## Bug fixes\n- Dereference values to always get the underlying value @crocodele (#151)",
+            "get": "https://pecl.php.net/get/jsonpath-0.9.6",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.9.5": {
+            "version": "0.9.5",
+            "state": "alpha",
+            "license": "PHP License",
+            "releasedBy": "viktor",
+            "releaseDate": "2021-10-31T14:08:07+00:00",
+            "releaseNotes": "## Bug fixes\n- Fix issues 143, 145, 146 @mkaminski1988 (#147)\n\n## Maintenance\n- Add PECL release process @crocodele (#148)\n- Add instructions for building the extension with PECL @crocodele (#141)",
+            "get": "https://pecl.php.net/get/jsonpath-0.9.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.9.4": {
+            "version": "0.9.4",
+            "state": "alpha",
+            "license": "PHP License",
+            "releasedBy": "viktor",
+            "releaseDate": "2021-08-19T21:00:44+00:00",
+            "releaseNotes": "## Changes\n- missing file and license uri @remicollet (#137)\n\n## Bug fixes\n- Add missing config.w32 entry to package.xml to make PECL builds on Windows possible @crocodele (#138)\n- Add required email tag to lead details @crocodele (#140)\n\n## Maintenance\n- Add Mike to list of PECL extension developers, release version 0.9.4 @crocodele (#139)",
+            "get": "https://pecl.php.net/get/jsonpath-0.9.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.9.3": {
+            "version": "0.9.3",
+            "state": "alpha",
+            "license": "PHP License",
+            "releasedBy": "viktor",
+            "releaseDate": "2021-08-07T10:01:35+00:00",
+            "releaseNotes": "## Changes\n\n- Bump version to 0.9.3 for initial PECL release @crocodele (#134)",
+            "get": "https://pecl.php.net/get/jsonpath-0.9.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "Extract data using JSONPath notation",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

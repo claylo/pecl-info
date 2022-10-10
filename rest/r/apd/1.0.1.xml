@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/apd">apd</p>
+ <c>pecl.php.net</c>
+ <v>1.0.1</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>gschlossnagle</m>
+ <s>A full-featured engine-level profiler/debugger</s>
+ <d>APD is a full-featured profiler/debugger that is loaded as a zend_extension.  It aims to be an analog of C's gprof or Perl's Devel::DProf.
+</d>
+ <da>2004-09-28 03:41:00</da>
+ <n>Fixed crash error in pprofp.
+Fixed crash on 64bit architectures.</n>
+ <f>36643</f>
+ <g>http://pecl.php.net/get/apd-1.0.1</g>
+ <x xlink:href="package.1.0.1.xml"/>
+</r>

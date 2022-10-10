@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/zip">zip</p>
+ <c>pecl.php.net</c>
+ <v>1.2.3</v>
+ <st>alpha</st>
+ <l>PHP License</l>
+ <m>pajoye</m>
+ <s>A zip management extension</s>
+ <d>Zip is an extension to create and  read zip files.</d>
+ <da>2006-03-30 09:39:02</da>
+ <n>- #7214, use binary safe string as return value, 0x00 was considered as 
+the end of the content, affected only the procedural API</n>
+ <f>40767</f>
+ <g>http://pecl.php.net/get/zip-1.2.3</g>
+ <x xlink:href="package.1.2.3.xml"/>
+</r>

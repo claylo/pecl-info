@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/apn">apn</p>
+ <c>pecl.php.net</c>
+ <v>1.0.1</v>
+ <st>stable</st>
+ <l>PHP 3.01</l>
+ <m>adobkin</m>
+ <s>An extension for sending push notifications on iOS and OS X devices from within your PHP code</s>
+ <d>apn is a PHP extension to introduce simple yet powerful interface for sending push notifications on iOS 
+	and OS X devices from within your PHP code</d>
+ <da>2013-05-29 12:30:32</da>
+ <n>- Initial release</n>
+ <f>12739</f>
+ <g>http://pecl.php.net/get/apn-1.0.1</g>
+ <x xlink:href="package.1.0.1.xml"/>
+</r>

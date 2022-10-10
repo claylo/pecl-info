@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ip2proxy">ip2proxy</p>
+ <c>pecl.php.net</c>
+ <v>3.0.2</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>ip2location</m>
+ <s>Get proxy information of an IP address</s>
+ <d>This PECL extension allows you to detect proxy servers with country, region, city, ISP, domain, usage type, ASN, security threat and proxy type information using IP2Proxy binary database.</d>
+ <da>2022-07-29 07:06:23</da>
+ <n>fix description and files</n>
+ <f>16639</f>
+ <g>https://pecl.php.net/get/ip2proxy-3.0.2</g>
+ <x xlink:href="package.3.0.2.xml"/>
+</r>

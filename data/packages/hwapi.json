@@ -1,0 +1,13 @@
+{
+    "category": "Database",
+    "deprecated": false,
+    "description": "Include official Hyperwave API support",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "PHP License 3.01",
+    "name": "hwapi",
+    "summary": "Include official Hyperwave API support",
+    "php8Mentioned": false,
+    "releases": [],
+    "SPDX-License-Identifier": "PHP-3.01"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/krb5">krb5</p>
+ <c>pecl.php.net</c>
+ <v>1.1.3</v>
+ <st>stable</st>
+ <l>MIT License</l>
+ <m>mbechler</m>
+ <s>Features:</s>
+ <d>+ An interface for maintaining credential caches (KRB5CCache),
+   that can be used for authenticating against a kerberos5 realm
++ Bindings for nearly the complete GSSAPI (RFC2744)
++ The administrative interface (KADM5)
++ Support for HTTP Negotiate authentication via GSSAPI
+
+Documentation:
++ see docs/ for the API documentation
++ there are several pieces of example code in the examples/ directory
++ see below for install instructions</d>
+ <da>2020-02-26 17:02:49</da>
+ <n>- [BUG] Keep proper minor status for error reporting in initSecContex
+- [BUG] remove some overlooked debugging output
+- [BUG] fix PECL package license metadata
+- [FEATURE] Add API for password expiration information (MIT &gt;=1.9 only)
+- [FEATURE] Allow leaving the NegotiateAuth SPN unspecified (allow all from keytab)
+- [FEATURE] Add support for gss_acquire_cred_from() instead of setting the per process keytab (in NegotiateAuth,
+GSSAPI to follow).
+- [FEATURE] Allow overriding SPN for NegotiateAuth.</n>
+ <f>37371</f>
+ <g>https://pecl.php.net/get/krb5-1.1.3</g>
+ <x xlink:href="package.1.1.3.xml"/>
+</r>

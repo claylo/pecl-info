@@ -1,0 +1,104 @@
+{
+    "category": "Math",
+    "deprecated": false,
+    "description": "A library and extension that provides objects for scientific computing in PHP.",
+    "latestReleaseDate": "2022-04-02T04:10:18+00:00",
+    "latestVersion": "3.0.2",
+    "license": "MIT",
+    "name": "Tensor",
+    "php8Mentioned": true,
+    "releases": {
+        "3.0.2": {
+            "version": "3.0.2",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "andrewdalpino",
+            "releaseDate": "2022-04-02T04:10:18+00:00",
+            "releaseNotes": "- Added PHP 8.1 extension compatibility",
+            "get": "https://pecl.php.net/get/tensor-3.0.2",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "3.0.00": {
+            "version": "3.0.00",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "andrewdalpino",
+            "releaseDate": "2021-06-06T06:44:01+00:00",
+            "releaseNotes": "- No changes",
+            "get": "https://pecl.php.net/get/tensor-3.0.00",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "2.2.3": {
+            "version": "2.2.3",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "andrewdalpino",
+            "releaseDate": "2021-05-25T05:38:49+00:00",
+            "releaseNotes": "- Remove dependency on pthreads",
+            "get": "https://pecl.php.net/get/tensor-2.2.3",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "3.0.0": {
+            "version": "3.0.0",
+            "state": "beta",
+            "license": "MIT",
+            "releasedBy": "andrewdalpino",
+            "releaseDate": "2021-05-25T05:21:00+00:00",
+            "releaseNotes": "- Extension now compatible with PHP 7.4 and 8.0+\n- Drop extension support for PHP 7.2 and 7.3\n- Tensors only compute floating point operations\n- Matrix returns vector on row access\n- Removed deprecated methods",
+            "get": "https://pecl.php.net/get/tensor-3.0.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "2.2.1": {
+            "version": "2.2.1",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "andrewdalpino",
+            "releaseDate": "2021-03-08T06:01:42+00:00",
+            "releaseNotes": "- Optimize 2D convolution operation\n- Fix and optimize vector convolve 1D operation",
+            "get": "https://pecl.php.net/get/tensor-2.2.1",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "2.2.0": {
+            "version": "2.2.0",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "andrewdalpino",
+            "releaseDate": "2021-02-28T08:32:18+00:00",
+            "releaseNotes": "- Implemented Singular Value Decomposition (SVD)\n- Implemented matrix (Moore-Penrose) pseudoinverse\n- Tensor objects now throw namespaced exceptions\n- Optimized Reduced Row Echelon Form (RREF)\n- Optimize eigendecomposition for symmetric matrices",
+            "get": "https://pecl.php.net/get/tensor-2.2.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "2.1.4": {
+            "version": "2.1.4",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "andrewdalpino",
+            "releaseDate": "2021-02-20T08:22:58+00:00",
+            "releaseNotes": "- Implemented Eigen decomposition in extension\n- Optimize row echelon form (REF) of matrix\n- Optimize Cholesky decomposition\n- Fix memory leak in matrix inverse\n- Optimize LU decomposition",
+            "get": "https://pecl.php.net/get/tensor-2.1.4",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "2.1.03": {
+            "version": "2.1.03",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "andrewdalpino",
+            "releaseDate": "2021-02-14T06:03:25+00:00",
+            "releaseNotes": "No notes",
+            "get": "https://pecl.php.net/get/tensor-2.1.03",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "2.1.3": {
+            "version": "2.1.3",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "andrewdalpino",
+            "releaseDate": "2021-02-14T05:22:38+00:00",
+            "releaseNotes": "No notes",
+            "get": "https://pecl.php.net/get/tensor-2.1.3",
+            "SPDX-License-Identifier": "MIT"
+        }
+    },
+    "summary": "A library and extension that provides objects for scientific computing in PHP.",
+    "SPDX-License-Identifier": "MIT"
+}

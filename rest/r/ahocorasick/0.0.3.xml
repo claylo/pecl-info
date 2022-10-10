@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ahocorasick">ahocorasick</p>
+ <c>pecl.php.net</c>
+ <v>0.0.3</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>ph4r05sk</m>
+ <s>Effective Aho-Corasick string pattern matching algorithm</s>
+ <d>PHP extension implementing Aho-Corasick pattern matching algorithm (more on wiki).
+
+        Is especially effective if there is a large database of needles (=strings to be searched, for example virus
+        signatures). Another advantage is that built search structure is initialized before search in separate call thus
+        it can be called more times with different haystack, saving time.
+
+        Computing Aho-Corasick in th native code (PHP extension) rather than in a pure PHP manner gives this
+        implementation significant performance boost.</d>
+ <da>2019-03-14 14:25:44</da>
+ <n>Initial release</n>
+ <f>32500</f>
+ <g>https://pecl.php.net/get/ahocorasick-0.0.3</g>
+ <x xlink:href="package.0.0.3.xml"/>
+</r>

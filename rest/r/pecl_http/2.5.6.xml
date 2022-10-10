@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pecl_http">pecl_http</p>
+ <c>pecl.php.net</c>
+ <v>2.5.6</v>
+ <st>stable</st>
+ <l>BSD-2-Clause</l>
+ <m>mike</m>
+ <s>Extended HTTP Support</s>
+ <d>This HTTP extension aims to provide a convenient and powerful
+set of functionality for one of PHPs major applications.
+
+It eases handling of HTTP urls, headers and messages, provides
+means for negotiation of a client's preferred content type,
+language and charset, as well as a convenient way to send any
+arbitrary data with caching and resuming capabilities.
+
+It provides powerful request functionality with support for
+parallel requests.
+
+Documentation:
+https://mdref.m6w6.name/http
+
+Code Coverage:
+http://dev.iworks.at/ext-http/lcov/ext/http/</d>
+ <da>2016-03-09 11:34:36</da>
+ <n>* Fix php-bug #71719: Buffer overflow in HTTP url parsing functions (Mike, rc0r)
+* Fix gh-issue #28: Possible null pointer dereference in php_http_url_mod() (rc0r)
+* Fix gh-issue #22: Fix PHP5 config.w32 (Jan Ehrhardt)
+* Fix gh-issue #20: setSslOptions notice with curl 7.43 (Mike, Vitaliy Demidov)</n>
+ <f>200469</f>
+ <g>http://pecl.php.net/get/pecl_http-2.5.6</g>
+ <x xlink:href="package.2.5.6.xml"/>
+</r>

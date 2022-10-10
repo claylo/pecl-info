@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/intl">intl</p>
+ <c>pecl.php.net</c>
+ <v>2.0.0b1</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>cataphract</m>
+ <s>Internationalization extension</s>
+ <d>Internationalization extension implements ICU library functionality in PHP.</d>
+ <da>2011-11-29 12:12:46</da>
+ <n>Synchronized with PHP 5.4 ext/intl</n>
+ <f>142940</f>
+ <g>http://pecl.php.net/get/intl-2.0.0b1</g>
+ <x xlink:href="package.2.0.0b1.xml"/>
+</r>

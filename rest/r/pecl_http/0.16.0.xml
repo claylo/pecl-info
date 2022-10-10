@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pecl_http">pecl_http</p>
+ <c>pecl.php.net</c>
+ <v>0.16.0</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>mike</m>
+ <s>Extended HTTP Support</s>
+ <d>* Building absolute URIs
+* RFC compliant HTTP redirects
+* RFC compliant HTTP date handling
+* Parsing of HTTP headers and messages
+* Caching by &quot;Last-Modified&quot; and/or ETag
+  (with 'on the fly' option for ETag generation from buffered output)
+* Sending data/files/streams with (multiple) ranges support
+* Negotiating user preferred language/charset
+* Convenient request functionality built upon libcurl
+* PHP5 classes: HttpUtil, HttpResponse (PHP-5.1), HttpRequest, HttpRequestPool, HttpMessage</d>
+ <da>2005-10-19 05:15:18</da>
+ <n>+ Added ext/zlib independant GZIP support
++ Added HttpRequestPool::getAttachedRequests() and getFinishedRequests()</n>
+ <f>129194</f>
+ <g>http://pecl.php.net/get/pecl_http-0.16.0</g>
+ <x xlink:href="package.0.16.0.xml"/>
+</r>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/apm">APM</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0beta3</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>patrickallaert</m>
+ <s>Alternative PHP Monitor</s>
+ <d>Monitoring extension for PHP, collects error events and send them to one of the drivers.
+SQLite and MySQL drivers are storing those in a database.
+More drivers to come (SNMP, e-mail, Hadoop,...).</d>
+ <da>2010-11-07 11:41:36</da>
+ <n>Added:
+- MySQL driver
+- Per driver error reporting level
+- Asynchronous processing of events (config option: apm.deffered_processing)
+
+Changed:
+- Code refactored to make use of 'APM drivers'
+
+Fixed:
+- APM cannot be compiled with PHP &lt; 5.2.2.
+- Bug #17502: Drivers' rshutdown run only when slow_request tracking is enabled.
+- Bug #17512: Sqlite connections aren't closed at the end of the request.
+- Bug #17513: Using MySQL driver, only events of the first incoming request are stored.
+- Bug #19421: apm.*_error_reporting is ignored.</n>
+ <f>112419</f>
+ <g>http://pecl.php.net/get/APM-1.0.0beta3</g>
+ <x xlink:href="package.1.0.0beta3.xml"/>
+</r>

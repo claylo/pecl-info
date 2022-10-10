@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/hidef">hidef</p>
+ <c>pecl.php.net</c>
+ <v>0.1.11</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>gopalv</m>
+ <s>Constants for real</s>
+ <d>Allow definition of user defined constants in simple ini files, 
+  which are then processed like internal constants, without any 
+  of the usual performance penalties.</d>
+ <da>2011-12-22 08:28:46</da>
+ <n>- Fix segfaults and TSRM builds with hidef_wrap
+- hidef.per_request_ini to load up .ini files in vhosts 
+- allow simplified constants in hidef ini files</n>
+ <f>21078</f>
+ <g>http://pecl.php.net/get/hidef-0.1.11</g>
+ <x xlink:href="package.0.1.11.xml"/>
+</r>

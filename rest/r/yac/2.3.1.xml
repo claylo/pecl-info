@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/yac">yac</p>
+ <c>pecl.php.net</c>
+ <v>2.3.1</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>laruence</m>
+ <s>lockless user data cache</s>
+ <d>yac is a fast, lock-free, shared memory user data cache for PHP. it can be used to replace APC or local memcached.</d>
+ <da>2021-12-18 09:22:30</da>
+ <n>- PHP8.1 Supports</n>
+ <f>37063</f>
+ <g>https://pecl.php.net/get/yac-2.3.1</g>
+ <x xlink:href="package.2.3.1.xml"/>
+</r>

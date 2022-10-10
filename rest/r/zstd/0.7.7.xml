@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/zstd">zstd</p>
+ <c>pecl.php.net</c>
+ <v>0.7.7</v>
+ <st>alpha</st>
+ <l>MIT</l>
+ <m>kjdev</m>
+ <s>Zstandard extension</s>
+ <d>PHP extension for compression and decompression with Zstandard library.</d>
+ <da>2019-12-22 23:55:29</da>
+ <n>- Fixed PHP_ADD_BUILD_DIR in config.m4</n>
+ <f>279718</f>
+ <g>https://pecl.php.net/get/zstd-0.7.7</g>
+ <x xlink:href="package.0.7.7.xml"/>
+</r>

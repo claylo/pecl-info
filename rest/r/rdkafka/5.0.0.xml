@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/rdkafka">rdkafka</p>
+ <c>pecl.php.net</c>
+ <v>5.0.0</v>
+ <st>stable</st>
+ <l>MIT License</l>
+ <m>lbarnaud</m>
+ <s>Kafka client based on librdkafka</s>
+ <d>PHP-rdkafka is a stable Kafka client for PHP based on librdkafka</d>
+ <da>2021-01-14 11:48:30</da>
+ <n>## Enhancements
+- PHP 8 support (@nick-zh, @arnaud-lb)
+- Suport passing an opaque value in produce(), producev() (@arnaud-lb)
+
+## Breaking changes
+- Dropped PHP 5 support</n>
+ <f>41427</f>
+ <g>https://pecl.php.net/get/rdkafka-5.0.0</g>
+ <x xlink:href="package.5.0.0.xml"/>
+</r>

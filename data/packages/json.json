@@ -1,0 +1,15 @@
+{
+    "category": "Web Services",
+    "deprecated": true,
+    "description": "Support for JSON (JavaScript Object Notation) serialization.",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "PHP 3.01",
+    "name": "json",
+    "new_channel": "http://www.php.net/json",
+    "new_package": "json",
+    "php8Mentioned": false,
+    "releases": [],
+    "summary": "JavaScript Object Notation.\n\nNote: This extension is now part of PHP Core, so use it instead. As of PHP 5.2.0.",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

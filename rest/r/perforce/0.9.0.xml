@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/perforce">perforce</p>
+ <c>pecl.php.net</c>
+ <v>0.9.0</v>
+ <st>beta</st>
+ <l>BSD License</l>
+ <m>jon</m>
+ <s>Perforce API Extension</s>
+ <d>The Perforce extension wraps the Perforce C/C++ API.  This gives PHP developers direct access to the native Perforce client functions.</d>
+ <da>2007-12-09 16:55:56</da>
+ <n>- Fixing support for tagged output.
+- Unknown tags are no longer filtered before being passed to OutputStat().
+- setArgs() now accepts either an array of arguments or individual arguments.
+- The documention includes a number of small improvements.
+- The API is now considered stable.</n>
+ <f>16052</f>
+ <g>http://pecl.php.net/get/perforce-0.9.0</g>
+ <x xlink:href="package.0.9.0.xml"/>
+</r>

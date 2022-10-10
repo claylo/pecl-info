@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.4.0</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>jmikola</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2018-02-09 04:02:22</da>
+ <n>** Bug
+    * [PHPC-1038] - &quot;documents&quot; key in &quot;command&quot; in APM's commandStarted for &quot;insert&quot; is missing
+    * [PHPC-1043] - phongo_execute_query() may leak cursor struct on error
+    * [PHPC-1049] - Build warnings with CLang/LLVM
+    * [PHPC-1050] - Advancing a new command cursor to check for an error may invoke getMore
+    * [PHPC-1053] - UTCDateTime constructor reports that its single argument is required
+    * [PHPC-1057] - Refactor option parsing for execute methods
+    * [PHPC-1067] - BSON document produces driver segfault
+    * [PHPC-1072] - phongo_execute_command() leaks BSON reply on error
+    * [PHPC-1092] - Infinite loop iterating BSON object properties with foreach
+    * [PHPC-1093] - Bound checking on 32-bit platforms for APM's duration_micros
+    * [PHPC-1096] - Driver fails to build with libmongoc's bundled zlib
+    * [PHPC-1104] - pecl package misses zlib sources
+
+** Epic
+    * [PHPC-934] - PHPC MongoDB 3.6 Support
+
+** New Feature
+    * [PHPC-834] - Add Read, ReadWrite, and Write command execute methods
+    * [PHPC-967] - Add support for reading and writing OP_COMPRESSED
+    * [PHPC-975] - Array Update Improvements
+    * [PHPC-979] - OP_MSG support
+    * [PHPC-980] - Implement Drivers Sessions API
+    * [PHPC-986] - All writes retryable support
+    * [PHPC-987] - Causally Consistent Reads support 
+    * [PHPC-993] - Parse localLogicalSessionTimeoutMinutes from isMaster response
+    * [PHPC-1015] - Implement Initial DNS Seedlist discovery spec
+    * [PHPC-1027] - Introduce classes for deprecated BSON types
+    * [PHPC-1029] - Support maxTimeMS getMore option for tailable command cursors
+    * [PHPC-1042] - Support options array for BulkWrite, Command, and Query execute methods
+    * [PHPC-1109] - Support batchSize getMore option for command cursors
+
+** Task
+    * [PHPC-227] - Mongo Orchestration should restart when Vagrant test VM boots
+    * [PHPC-599] - Document 32-bit platform limitation for Timestamp arguments
+    * [PHPC-995] - Drop support for MongoDB 2.4
+    * [PHPC-1003] - Use container environment for Travis CI builds
+    * [PHPC-1013] - Test Driver Wire Version Overlap logic
+    * [PHPC-1024] - Document BSON exceptions for Cursor iteration
+    * [PHPC-1035] - Improve server compatibility error messages for wire version checks
+    * [PHPC-1036] - Update test suite for MongoDB 3.6
+    * [PHPC-1037] - Upgrade bundled libmongoc and libbson to 1.9
+    * [PHPC-1039] - Non data-bearing servers must be excluded when determining if a cluster supports sessions
+    * [PHPC-1047] - Add MongoDB 3.6 to test framework
+    * [PHPC-1048] - Rename phongo_execute_write to phongo_execute_bulk_write
+    * [PHPC-1055] - Improve docs for linking correct version of OpenSSL on macOS
+    * [PHPC-1065] - Enable BSON corpus tests for deprecated types
+    * [PHPC-1069] - Enable Coverity scans for the driver
+    * [PHPC-1070] - Create macro for accessing zval class or type name
+    * [PHPC-1077] - Fix X509 test failures with libmongoc 1.9.0 and MongoDB 3.6
+    * [PHPC-1078] - Create constant for available read concern level
+    * [PHPC-1079] - Document that jsonSerialize() returns legacy extended JSON
+    * [PHPC-1080] - Document new (deprecated) BSON classes
+    * [PHPC-1081] - Investigate Fedora build failures for 1.4.0beta1
+    * [PHPC-1082] - Add a PHP version check to config.m4
+    * [PHPC-1084] - Upgrade switch/case fallthrough comments to use GCC 7's new attribute
+    * [PHPC-1097] - Report libmongoc's compression engines in phpinfo() output
+    * [PHPC-1098] - Fix test failures due to floating point precision
+    * [PHPC-1100] - Fix test failures when driver is compiled without SSL
+
+** Improvement
+    * [PHPC-709] - Debuglog timestamp does not contain micro/nanoseconds
+    * [PHPC-888] - Support additional TLS libraries for bundled libmongoc
+    * [PHPC-969] - Have TCP keepalive default to true 
+    * [PHPC-1031] - Run configure check to use ASN1_STRING_get0_data over ASN1_STRING_data in bundled libmongoc
+    * [PHPC-1071] - Report class name in exception for unexpected object values</n>
+ <f>1039403</f>
+ <g>http://pecl.php.net/get/mongodb-1.4.0</g>
+ <x xlink:href="package.1.4.0.xml"/>
+</r>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/couchbase">couchbase</p>
+ <c>pecl.php.net</c>
+ <v>2.4.5</v>
+ <st>stable</st>
+ <l>Apache V2</l>
+ <m>avsej</m>
+ <s>Couchbase Server PHP extension</s>
+ <d>The PHP client library provides fast access to documents stored in a Couchbase Server.</d>
+ <da>2018-03-09 21:33:32</da>
+ <n>* PCBC-527: Initial tracing implementation. The extension checks if libcouchbase has tracing support, and sets up hooks for fetch/persist operations to report encoding/decoding times. This functionality is preview and is not enabled by default.
+* PCBC-519: Implement log redaction. When `log_redaction=on` is specified in the connection string, the library will wrap sensitive data in the logs in special tags, which can be processed by the `cblogredaction` tool from the server distribution.</n>
+ <f>163538</f>
+ <g>http://pecl.php.net/get/couchbase-2.4.5</g>
+ <x xlink:href="package.2.4.5.xml"/>
+</r>

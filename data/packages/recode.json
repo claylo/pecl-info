@@ -1,0 +1,13 @@
+{
+    "category": "Text",
+    "deprecated": false,
+    "description": "Convert between character sets/encodings",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "PHP",
+    "name": "recode",
+    "summary": "Convert between character sets/encodings",
+    "php8Mentioned": false,
+    "releases": [],
+    "SPDX-License-Identifier": "PHP-3.01"
+}

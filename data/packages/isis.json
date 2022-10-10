@@ -1,0 +1,24 @@
+{
+    "category": "Database",
+    "deprecated": false,
+    "description": "This extension adds functionality to PHP in order to read CDS/ISIS databases through the OpenIsis library.",
+    "latestReleaseDate": "2004-08-20T21:17:00+00:00",
+    "latestVersion": "1.0.3p3",
+    "license": "BSD",
+    "name": "isis",
+    "php8Mentioned": false,
+    "releases": {
+        "1.0.3p3": {
+            "version": "1.0.3p3",
+            "state": "devel",
+            "license": "BSD",
+            "releasedBy": "braulio",
+            "releaseDate": "2004-08-20T21:17:00+00:00",
+            "releaseNotes": "This is a development release (EXPERIMENTAL).",
+            "get": "http://pecl.php.net/get/isis-1.0.3p3",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        }
+    },
+    "summary": "PHP extension for reading CDS/ISIS databases.",
+    "SPDX-License-Identifier": "BSD-3-Clause"
+}

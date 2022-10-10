@@ -1,0 +1,54 @@
+{
+    "category": "Database",
+    "deprecated": false,
+    "description": "PDO_4D is a driver for the PHP Data Objects (PDO) interface to enable access from PHP to 4D databases.",
+    "latestReleaseDate": "2009-11-04T07:37:32+00:00",
+    "latestVersion": "0.3",
+    "license": "PHP License",
+    "name": "PDO_4D",
+    "summary": "PDO driver for 4D-SQL database",
+    "php8Mentioned": false,
+    "releases": {
+        "0.3": {
+            "version": "0.3",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "fourd",
+            "releaseDate": "2009-11-04T07:37:32+00:00",
+            "releaseNotes": "bug #16759 fixed, unit tests passed, live data use tested",
+            "get": "http://pecl.php.net/get/pdo_4d-0.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.1": {
+            "version": "0.2.1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "fourd",
+            "releaseDate": "2009-09-01T10:56:56+00:00",
+            "releaseNotes": "Fixed retrieval bug, that made PHP crash when reading too much data.\nMade licence into PHP only.",
+            "get": "http://pecl.php.net/get/pdo_4d-0.2.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.0": {
+            "version": "0.2.0",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "fourd",
+            "releaseDate": "2009-04-30T07:21:15+00:00",
+            "releaseNotes": "Added support for timeout, monoquery and 4D 11.4.\nDevelopement cycle release.",
+            "get": "http://pecl.php.net/get/pdo_4d-0.2.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.0": {
+            "version": "0.1.0",
+            "state": "alpha",
+            "license": "PHP",
+            "releasedBy": "fourd",
+            "releaseDate": "2009-04-22T11:59:54+00:00",
+            "releaseNotes": "Initial release.",
+            "get": "http://pecl.php.net/get/pdo_4d-0.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

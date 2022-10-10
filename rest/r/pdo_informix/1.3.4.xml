@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pdo_informix">PDO_INFORMIX</p>
+ <c>pecl.php.net</c>
+ <v>1.3.4</v>
+ <st>stable</st>
+ <l>Apache License 2.0</l>
+ <m>vnkbabu</m>
+ <s>PDO driver for IBM Informix INFORMIX databases</s>
+ <d>This extension provides an IBM Informix Dynamic Server driver for PDO. To build and run
+PDO_INFORMIX, you must install the Informix Client Software Development Kit (CSDK)
+from http://ibm.com/informix/downloads.html.</d>
+ <da>2021-03-04 11:24:53</da>
+ <n>Added Supportfor PHP 8 version.</n>
+ <f>71846</f>
+ <g>https://pecl.php.net/get/PDO_INFORMIX-1.3.4</g>
+ <x xlink:href="package.1.3.4.xml"/>
+</r>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.4.0beta1</v>
+ <st>beta</st>
+ <l>Apache License</l>
+ <m>jmikola</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2017-12-21 22:02:19</da>
+ <n>** Bug
+    * [PHPC-1043] - phongo_execute_query() may leak cursor struct on error
+    * [PHPC-1053] - UTCDateTime constructor reports that its single argument is required
+    * [PHPC-1057] - Refactor option parsing for execute methods
+    * [PHPC-1072] - phongo_execute_command() leaks BSON reply on error
+
+** Epic
+    * [PHPC-934] - PHPC MongoDB 3.6 Support
+
+** New Feature
+    * [PHPC-967] - Add support for reading and writing OP_COMPRESSED
+    * [PHPC-975] - Array Update Improvements
+    * [PHPC-979] - OP_MSG support
+    * [PHPC-980] - Implement Drivers Sessions API
+    * [PHPC-986] - All writes retryable support
+    * [PHPC-987] - Causally Consistent Reads support 
+    * [PHPC-993] - Parse localLogicalSessionTimeoutMinutes from isMaster response
+    * [PHPC-1015] - Implement Initial DNS Seedlist discovery spec
+    * [PHPC-1027] - Introduce classes for deprecated BSON types
+    * [PHPC-1029] - Support maxTimeMS getMore option for tailable command cursors
+    * [PHPC-1042] - Support options array for BulkWrite, Command, and Query execute methods
+
+** Task
+    * [PHPC-599] - Document 32-bit platform limitation for Timestamp arguments
+    * [PHPC-834] - Add Read, ReadWrite, and Write command execute methods
+    * [PHPC-995] - Drop support for MongoDB 2.4
+    * [PHPC-1035] - Improve server compatibility error messages for wire version checks
+    * [PHPC-1036] - Update test suite for MongoDB 3.6
+    * [PHPC-1037] - Upgrade bundled libmongoc and libbson to 1.9
+    * [PHPC-1039] - Non data-bearing servers must be excluded when determining if a cluster supports sessions
+    * [PHPC-1047] - Add MongoDB 3.6 to test framework
+    * [PHPC-1048] - Rename phongo_execute_write to phongo_execute_bulk_write
+    * [PHPC-1070] - Create macro for accessing zval class or type name
+
+** Improvement
+    * [PHPC-709] - Debuglog timestamp does not contain micro/nanoseconds
+    * [PHPC-969] - Have TCP keepalive default to true 
+    * [PHPC-1031] - Run configure check to use ASN1_STRING_get0_data over ASN1_STRING_data in bundled libmongoc
+    * [PHPC-1071] - Report class name in exception for unexpected object values</n>
+ <f>897428</f>
+ <g>http://pecl.php.net/get/mongodb-1.4.0beta1</g>
+ <x xlink:href="package.1.4.0beta1.xml"/>
+</r>

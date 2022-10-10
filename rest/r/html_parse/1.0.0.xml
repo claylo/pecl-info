@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/html_parse">html_parse</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>hholzgra</m>
+ <s>HTML parser extenion</s>
+ <d>HTML parser extension based on the ekhtml library 
+    (http://ekhtml.sourceforge.net/)</d>
+ <da>2007-11-28 17:36:54</da>
+ <n>- first stable release</n>
+ <f>7799</f>
+ <g>http://pecl.php.net/get/html_parse-1.0.0</g>
+ <x xlink:href="package.1.0.0.xml"/>
+</r>

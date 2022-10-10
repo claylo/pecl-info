@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xmp">xmp</p>
+ <c>pecl.php.net</c>
+ <v>4.2.0</v>
+ <st>stable</st>
+ <l>Apache 2.0</l>
+ <m>bor0</m>
+ <s>Bindings for the libxmp library</s>
+ <d>PHP extension for managing (e.g. playing, decoding, retrieving metadata, mixing)
+    module tracked files (http://en.wikipedia.org/wiki/Module_file),
+    libxmp is available from http://xmp.sourceforge.net/</d>
+ <da>2014-09-11 14:15:55</da>
+ <n>- Initial release</n>
+ <f>113208</f>
+ <g>http://pecl.php.net/get/xmp-4.2.0</g>
+ <x xlink:href="package.4.2.0.xml"/>
+</r>

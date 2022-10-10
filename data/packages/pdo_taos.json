@@ -1,0 +1,44 @@
+{
+    "category": "Database",
+    "deprecated": false,
+    "description": "This extension provides a TDengine database driver for PDO.\n        TDengine is a open-sourced time-series big data platform, designed and optimized for IoT, faster on insert/query speeds.\n        This extension can be used to develop IoT projects with Swoole extension.\n        This extension is compatible with PHP versions since 7.0.",
+    "latestReleaseDate": "2022-09-06T15:14:04+00:00",
+    "latestVersion": "1.0.3",
+    "license": "Apache2.0",
+    "name": "PDO_TAOS",
+    "php8Mentioned": false,
+    "releases": {
+        "1.0.3": {
+            "version": "1.0.3",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "bearlord",
+            "releaseDate": "2022-09-06T15:14:04+00:00",
+            "releaseNotes": "Adapt to TDengine v3. Please install the 1.0.2 extension when using TDengine v2.",
+            "get": "https://pecl.php.net/get/PDO_TAOS-1.0.3",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.0.2": {
+            "version": "1.0.2",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "bearlord",
+            "releaseDate": "2022-07-05T14:08:31+00:00",
+            "releaseNotes": "Fixed bug when the subquery field value is empty.\nFixed warnings when compiling with higher versions of gcc.",
+            "get": "https://pecl.php.net/get/PDO_TAOS-1.0.2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "bearlord",
+            "releaseDate": "2022-03-21T14:13:13+00:00",
+            "releaseNotes": "Compatible with PHP versions since 7.0.",
+            "get": "https://pecl.php.net/get/PDO_TAOS-1.0.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        }
+    },
+    "summary": "TDengine driver for PDO",
+    "SPDX-License-Identifier": "Apache-2.0"
+}

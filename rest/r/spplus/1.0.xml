@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/spplus">spplus</p>
+ <c>pecl.php.net</c>
+ <v>1.0</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>nicos</m>
+ <s>SPPLUS Paiement System</s>
+ <d>This extension gives you the possibility to use the SPPLUS Paiement System of the Caisse d'Epargne (French Bank).
+</d>
+ <da>2002-11-09 17:39:00</da>
+ <n>Updated alpha release that includes a number of improvements over the existing alpha preview.  PEAR (PECL) support is now working, too.</n>
+ <f>3464</f>
+ <g>http://pecl.php.net/get/spplus-1.0</g>
+ <x xlink:href="package.1.0.xml"/>
+</r>

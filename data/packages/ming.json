@@ -1,0 +1,13 @@
+{
+    "category": "Multimedia",
+    "deprecated": false,
+    "description": "Ming is an open-source (LGPL) library which allows you to create SWF (\"Flash\") format movies. Ming supports almost all of Flash 4's features, including: shapes, gradients, bitmaps (pngs and jpegs), morphs (\"shape tweens\"), text, buttons, actions, sprites (\"movie clips\"), streaming mp3, and color transforms --the only thing that's missing is sound events.",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "PHP License 3.01",
+    "name": "ming",
+    "php8Mentioned": false,
+    "releases": [],
+    "summary": "Binding for the ming library, swf generation (flash)",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

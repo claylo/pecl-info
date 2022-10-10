@@ -1,0 +1,15 @@
+{
+    "category": "Caching",
+    "deprecated": true,
+    "description": "APC is a free, open, and robust framework for caching and optimizing PHP intermediate code.",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "PHP License",
+    "name": "APC",
+    "summary": "Alternative PHP Cache",
+    "php8Mentioned": false,
+    "releases": [],
+    "new_channel": "",
+    "new_package": "APCu",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.4.4</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in http/websocket/http2 server
+        - coroutine http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2019-08-17 07:58:36</da>
+ <n>Enhancement
+---
++ Perfect array_walk for coroutine  (#2740) (@twose)
++ Add `Swoole\Constant` to replace string (@matyhtf) (@twose)
++ Add alias `Co::dnsLookup` of `swoole_async_dns_lookup_coro` (42293ef) (@matyhtf)
++ Expend default HTTP_FORM_KEYLEN to 512 (#2734) (@sshymko)
++ Better dns resolver (c6deff1) (@matyhtf)
++ Support HTTP PURGE (#2462) (@sshymko)
++ Response 400 for bad request (#2751) (@twose)
++ Decoupling sockets and reactor (internal) (@twose)
++ Add Timer::set / Process-&gt;set / Process\Pool-&gt;set (@twose)
++ Optional hugepage feature support for FreeBSD (#2757) (@devnexen)
+
+Fixed
+---
+* Fixed macOS not support extern thread_local () (@matyhtf)
+* Fixed SSL dispatch (#2736) (@matyhtf)
+* Fixed aio thread num (#2745) (@matyhtf)
+* Fixed async_thread (#2747) (@matyhtf)
+* Fixed Swoole\Client::select timeout (#2758) (@LeiZhang-Hunter)
++ Fixed #2749 (@twose)</n>
+ <f>1419688</f>
+ <g>https://pecl.php.net/get/swoole-4.4.4</g>
+ <x xlink:href="package.4.4.4.xml"/>
+</r>

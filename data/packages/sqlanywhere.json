@@ -1,0 +1,13 @@
+{
+    "category": "Database",
+    "deprecated": false,
+    "description": "This extension allow access to SQLAnywhere Database Servers.",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "Apache License 2.0",
+    "name": "sqlanywhere",
+    "php8Mentioned": false,
+    "releases": [],
+    "summary": "Extension for SQLAnywhere Database",
+    "SPDX-License-Identifier": "Apache-2.0"
+}

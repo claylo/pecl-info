@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/haru">haru</p>
+ <c>pecl.php.net</c>
+ <v>0.0.1</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>tony2001</m>
+ <s>Haru PDF functions</s>
+ <d>These functions allow you to create PDF documents using the Haru Free PDF Library.</d>
+ <da>2007-03-26 03:46:41</da>
+ <n>First PECL release</n>
+ <f>23121</f>
+ <g>http://pecl.php.net/get/haru-0.0.1</g>
+ <x xlink:href="package.0.0.1.xml"/>
+</r>

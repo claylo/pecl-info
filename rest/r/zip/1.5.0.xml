@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/zip">zip</p>
+ <c>pecl.php.net</c>
+ <v>1.5.0</v>
+ <st>alpha</st>
+ <l>PHP License</l>
+ <m>pajoye</m>
+ <s>A zip management extension</s>
+ <d>Zip is an extension to create, modify and read zip files.</d>
+ <da>2006-07-14 06:24:45</da>
+ <n>- bring consistency to the method names:
+ - rename zip::delete() to deleteIndex() 
+ - add zip::deleteName()
+ - rename zip::statPath to zip::statName()
+ - rename zip::rename to zip::renameIndex()
+ - add zip::renameName();
+- add zip::locateName(), returns the index of an entry, allows case insensitive
+  or directory free lookup (ZIP::FL_NOCASE, ZIP::FL_NODIR)
+- add zip::unchangeName(), ::unchangeIndex(), unchangeAll() and unchangeArchive()
+  revert changes to an entry, to all entries or the archive
+- add zip::getNameIndex(), get the name of the entry at the given position 
+- Bug #7658, Modify zip archives causes corruption if the data descriptor is used
+  (bit 3 of the general flags)
+- fix a bug when in the delete and rename methods when the index is lower than 1
+- zip::addFile() must return true on success
+- zip::open() returns now the error code on error and true on success</n>
+ <f>54926</f>
+ <g>http://pecl.php.net/get/zip-1.5.0</g>
+ <x xlink:href="package.1.5.0.xml"/>
+</r>

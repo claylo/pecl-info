@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/phk">phk</p>
+ <c>pecl.php.net</c>
+ <v>3.0.1</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>francois</m>
+ <s>An optional accelerator for Automap and PHK</s>
+ <d>An optional accelerator for Automap and PHK.
+
+Automap (http://automap.tekwire.net) is a fast map-based autoloader.
+
+PHK (http://phk.tekwire.net) is a PHP-oriented package/archive system.
+
+This extension does not provide any new feature, it just provides a dramatic
+increase in performance when using Automap and/or PHK.
+
+Note that there is no 'Automap' PECL extension anymore. The PHK extension now
+includes it. So, this is the one you need, even if using Automap out of PHK
+packages.</d>
+ <da>2015-06-01 15:56:52</da>
+ <n>PHP 5.x only</n>
+ <f>52685</f>
+ <g>http://pecl.php.net/get/phk-3.0.1</g>
+ <x xlink:href="package.3.0.1.xml"/>
+</r>

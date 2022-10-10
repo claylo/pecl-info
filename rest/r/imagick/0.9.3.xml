@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/imagick">imagick</p>
+ <c>pecl.php.net</c>
+ <v>0.9.3</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>chregu</m>
+ <s>Provides a wrapper to the Image Magick Library.</s>
+ <d>It's a native php-extension. 
+        See the examples in the examples/ directory for some hints on how to use it.
+        A compiled windows extension is available at http://php.chregu.tv/php_imagick.dll for the time being.
+</d>
+ <da>2003-01-03 15:41:00</da>
+ <n>- functions added:
+        imagick_zoom()
+- the difference between imagick_zoom() and imagick_resize() is
+  that zoom applies the blur and filter that are defined by
+  the image.  It is a much simpler way of resizing an image.
+- added imagick.dsp and modifications for compiling under Windows.
+- changed all instances of le_handle to le_imagick_handle to avoid
+  future conflicts.</n>
+ <f>69539</f>
+ <g>http://pecl.php.net/get/imagick-0.9.3</g>
+ <x xlink:href="package.0.9.3.xml"/>
+</r>

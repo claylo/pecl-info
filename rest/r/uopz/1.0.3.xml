@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/uopz">uopz</p>
+ <c>pecl.php.net</c>
+ <v>1.0.3</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>krakjoe</m>
+ <s>User Operations for Zend</s>
+ <d>Doing things you probably shouldn't since 2014</d>
+ <da>2014-03-24 14:38:54</da>
+ <n>allow overriding static scope on created methods
+add backup/restore functions (auto restore internal functions)</n>
+ <f>17894</f>
+ <g>http://pecl.php.net/get/uopz-1.0.3</g>
+ <x xlink:href="package.1.0.3.xml"/>
+</r>

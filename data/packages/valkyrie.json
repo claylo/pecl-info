@@ -1,0 +1,24 @@
+{
+    "category": "Tools and Utilities",
+    "deprecated": false,
+    "description": "This extension makes validating POST and GET parameters easier, through the use of a single XML file for declaring all parameters to be received by all files of an application. See http://www.xavier-noguer.com/valkyrie.html for details.",
+    "latestReleaseDate": "2004-04-12T23:18:00+00:00",
+    "latestVersion": "0.1",
+    "license": "PHP",
+    "name": "Valkyrie",
+    "summary": "Valkyrie validation extension",
+    "php8Mentioned": false,
+    "releases": {
+        "0.1": {
+            "version": "0.1",
+            "state": "alpha",
+            "license": "PHP",
+            "releasedBy": "xnoguer",
+            "releaseDate": "2004-04-12T23:18:00+00:00",
+            "releaseNotes": "First release. It probably contains many bugs and should not under any circumstance be used in a production environment.",
+            "get": "http://pecl.php.net/get/valkyrie-0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

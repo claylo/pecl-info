@@ -1,0 +1,13 @@
+{
+    "category": "PHP",
+    "deprecated": false,
+    "description": "This package is an enhanced version of mysqlnd, it includes PDO and Mysqli as well.\n     The purpose of releasing this version of mysqlnd is to make available new features that can take\n     longer to be rolled out to the official php repo.",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "PHP",
+    "name": "mysqlnd_ngen",
+    "summary": "Extended version of mysqlnd,mysqli and pdo",
+    "php8Mentioned": false,
+    "releases": [],
+    "SPDX-License-Identifier": "PHP-3.01"
+}

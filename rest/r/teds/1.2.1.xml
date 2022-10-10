@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/teds">teds</p>
+ <c>pecl.php.net</c>
+ <v>1.2.1</v>
+ <st>stable</st>
+ <l>BSD-3-Clause</l>
+ <m>tandre</m>
+ <s>Provides extra data structures and iterable/array functionality.</s>
+ <d>teds (Tentative Extra Data Structures) is a collection of data structures and iterable functionality</d>
+ <da>2022-03-05 16:34:04</da>
+ <n>* Update documentation
+* Make iteration of Teds\StrictSortedVectorSet and Teds\StrictSortedVectorMap account for removals and additions.
+* Make removal in Teds\StrictTreeSet and Teds\StrictTreeMap move iterators to the previous node if the iterator pointed to the removed node.
+  Add a state for iterators being prior to the start of the tree.
+  Use the state of being before the first value of the tree when calling InternalIterator::rewind on an empty tree or removing an iterator pointing to the first value in a tree.
+* Make repacking/removals in Teds\StrictHashSet and Teds\StrictHashMap move InternalIterator positions.
+* Change iteration behavior of Teds\Deque to be like Vector, make shift/pop behave the same way as offsetUnset with respect to iteration.
+  (If the iterator is moved to be before the start of the deque, calling next will move it to the front, and other changes to the Deque will have no effect)</n>
+ <f>296014</f>
+ <g>https://pecl.php.net/get/teds-1.2.1</g>
+ <x xlink:href="package.1.2.1.xml"/>
+</r>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/svn">svn</p>
+ <c>pecl.php.net</c>
+ <v>0.4.1</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>scottmac</m>
+ <s>PHP Bindings for the Subversion Revision control system.</s>
+ <d>Bindings for the Subversion revision control system, providing a method for manipulating
+	a working copy or repository with PHP.</d>
+ <da>2008-06-24 09:18:44</da>
+ <n>- Add recurse option to svn_ls()
+- Change array keys returned from svn_ls() to be filename
+- Potential BC break with some lower case constants, these are now uppercase.</n>
+ <f>22394</f>
+ <g>http://pecl.php.net/get/svn-0.4.1</g>
+ <x xlink:href="package.0.4.1.xml"/>
+</r>

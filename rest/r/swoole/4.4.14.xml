@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.4.14</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in tcp/http/websocket/http2 server
+        - coroutine tcp/http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2019-12-26 02:36:08</da>
+ <n>Enhancement
+---
++ Now cookie parsing on client-side always succeeds (#3035) (378a7fca) (@twose)
+
+Fixed
+---
+* Fixed Coroutine\HTTP\Server memory leak and can not handle pipeline request (#3025) (#3029) (@twose)
+* Fixed compatibility issues with phar (e0558d6e) (4bf483f5) (4f93b793) (@twose)
+* Fixed the concurrency capability of the Coroutine HTTP2 Server (daf45b57) (@twose)
+* Fixed SIGCHLD listener for manager process (#3017) (@hejingsong)
+* Fixed warning in buffer module (161f449c) (@twose)</n>
+ <f>1440095</f>
+ <g>https://pecl.php.net/get/swoole-4.4.14</g>
+ <x xlink:href="package.4.4.14.xml"/>
+</r>

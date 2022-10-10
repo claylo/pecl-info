@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/yaz">yaz</p>
+ <c>pecl.php.net</c>
+ <v>1.0.5</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>dickmeiss</m>
+ <s>a Z39.50 client for PHP</s>
+ <d>This extension implements a Z39.50 client for PHP using the YAZ toolkit.
+
+Find more information at:
+  http://www.indexdata.dk/phpyaz/
+  http://www.indexdata.dk/yaz/
+</d>
+ <da>2005-11-29 14:47:10</da>
+ <n>Added support for Z39.50 SearchResult-1 which is allows a client
+to get details about hit counts for parts of a query.
+Added support for new yaz_connect options, preferredMessageSize and
+maximumRecordSize.</n>
+ <f>16432</f>
+ <g>http://pecl.php.net/get/yaz-1.0.5</g>
+ <x xlink:href="package.1.0.5.xml"/>
+</r>

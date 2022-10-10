@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# shellcheck disable=SC2312
+set -o pipefail
+
+REPODIR="$(dirname "$(cd "$(dirname "$0")" && pwd -P)")"
+PATH="${REPODIR}/bin:${PATH}"
+
+cache-req "c/categories.xml"
+categories-to-json
+
+jq -r 'to_entries | .[] | .value | ltrimstr("/rest/")' "${REPODIR}/data/categories.json" | while read -r catinfo; do
+  cache-req "${catinfo}"
+done

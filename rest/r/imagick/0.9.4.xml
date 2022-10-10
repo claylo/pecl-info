@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/imagick">imagick</p>
+ <c>pecl.php.net</c>
+ <v>0.9.4</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>chregu</m>
+ <s>Provides a wrapper to the Image Magick Library.</s>
+ <d>It's a native php-extension. 
+        See the examples in the examples/ directory for some hints on how to use it.
+        A compiled windows extension is available at http://php.chregu.tv/php_imagick.dll for the time being.
+</d>
+ <da>2003-01-24 14:22:00</da>
+ <n>- functions added:
+	imagick_flatten()
+	imagick_getmagick()
+	imagick_setfillopacity()
+- fixed bad code in these functions:
+	imagick_despeckle()
+	imagick_edge()
+	imagick_emboss()
+	imagick_enhance()
+	imagick_gaussianblur()
+	imagick_medianfilter()
+	imagick_motionblur()
+	imagick_reducenoise()
+	imagick_shade()
+	imagick_sharpen()
+	imagick_spread()
+	imagick_unsharpmask()
+- for the above functions, if call to corresponding ImageMagick
+  function the module would probably core dump.  If it didn't the
+  results would be really buddy and weird.
+- setfillopacity() thanks to Allen Condit, condit@isri.unlv.edu.</n>
+ <f>69730</f>
+ <g>http://pecl.php.net/get/imagick-0.9.4</g>
+ <x xlink:href="package.0.9.4.xml"/>
+</r>

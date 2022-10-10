@@ -1,0 +1,13 @@
+{
+    "category": "PHP",
+    "deprecated": false,
+    "description": "BCgen is derived from the Zend OPcache source code.\n\nIt provides a single function to compile a PHP script into binary bytecode file.\nBCgen is similiar to bcompiler, but not a direct replacement.",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "PHP",
+    "name": "bcgen",
+    "php8Mentioned": false,
+    "releases": [],
+    "summary": "PHP 7+ compiler",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

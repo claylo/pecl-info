@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mosquitto">Mosquitto</p>
+ <c>pecl.php.net</c>
+ <v>0.2.2</v>
+ <st>alpha</st>
+ <l>BSD 3-Clause License</l>
+ <m>mgdm</m>
+ <s>Extension for libmosquitto</s>
+ <d>Mosquitto provides support for the MQTT protocol, including publishing, subscribing, and an event loop.</d>
+ <da>2014-05-12 10:28:02</da>
+ <n>* Add missing unsubscribe method</n>
+ <f>16018</f>
+ <g>http://pecl.php.net/get/Mosquitto-0.2.2</g>
+ <x xlink:href="package.0.2.2.xml"/>
+</r>

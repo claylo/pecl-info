@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/stats">stats</p>
+ <c>pecl.php.net</c>
+ <v>1.0.4</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>uchiyama</m>
+ <s>Extension with routines for statistical computation.</s>
+ <d>Extension that provides few dozens routines for statistical computation.</d>
+ <da>2016-05-28 05:09:59</da>
+ <n>Fixed bugs (see tests for details)</n>
+ <f>112182</f>
+ <g>http://pecl.php.net/get/stats-1.0.4</g>
+ <x xlink:href="package.1.0.4.xml"/>
+</r>

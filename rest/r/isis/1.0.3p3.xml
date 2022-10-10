@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/isis">isis</p>
+ <c>pecl.php.net</c>
+ <v>1.0.3p3</v>
+ <st>devel</st>
+ <l>BSD</l>
+ <m>braulio</m>
+ <s>PHP extension for reading CDS/ISIS databases.</s>
+ <d>This extension adds functionality to PHP in order to read CDS/ISIS databases through the OpenIsis library.
+</d>
+ <da>2004-08-20 21:17:00</da>
+ <n>This is a development release (EXPERIMENTAL).</n>
+ <f>8225</f>
+ <g>http://pecl.php.net/get/isis-1.0.3p3</g>
+ <x xlink:href="package.1.0.3p3.xml"/>
+</r>

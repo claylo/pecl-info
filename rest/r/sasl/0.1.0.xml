@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/sasl">sasl</p>
+ <c>pecl.php.net</c>
+ <v>0.1.0</v>
+ <st>alpha</st>
+ <l>PHP License</l>
+ <m>jon</m>
+ <s>Cyrus SASL Extension</s>
+ <d>SASL is the Simple Authentication and Security Layer (as defined by RFC 2222).  It provides a system for adding plugable authenticating support to connection-based protocols.  The SASL Extension for PHP makes the Cyrus SASL library functions available to PHP. It aims to provide a 1-to-1 wrapper around the SASL library to provide the greatest amount of implementation flexibility.  To that end, it is possible to build both a client-side and server-side SASL implementation entirely in PHP.
+</d>
+ <da>2004-01-27 08:58:00</da>
+ <n>Initial preview release.</n>
+ <f>6435</f>
+ <g>http://pecl.php.net/get/sasl-0.1.0</g>
+ <x xlink:href="package.0.1.0.xml"/>
+</r>

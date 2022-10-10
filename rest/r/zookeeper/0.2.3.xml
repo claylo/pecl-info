@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/zookeeper">zookeeper</p>
+ <c>pecl.php.net</c>
+ <v>0.2.3</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>timandes</m>
+ <s>PHP extension for interfacing with Apache ZooKeeper</s>
+ <d>This extension provides API for communicating with ZooKeeper service.</d>
+ <da>2016-11-07 01:30:19</da>
+ <n>Bugs:
+- Fix 'Node with null data cause php segfault at Zookeeper::get($path)' (AZ Issue #21)
+- Fix 'Stat is null when get a node which holds null data' (AZ Issue #29)
+- Fix 'Wrong type conversion in function call' (Thanks to Dmitry Faleychik&lt;fadimko@gmail.com&gt;, AZ PR #42)
+- Fix AZ PR #44 (Thanks to jeff.tang&lt;likeytom@gmail.com&gt;)
+- Fix AZ Issue #27 (--with-libdir not honoured, Thanks to Remi Collet)
+- Return null after zoo_exists returning 0-length directly (AZ PR #45)
+
+Improvements:
+- Respect null's when passed as values during set(), create(), and get() (Thanks to Ryan Uber&lt;ru@ryanuber.com&gt;, AZ PR #22)
+- Make extension compatible with Zookeeper 3.5.0alpha (Thanks to Ryan Uber&lt;ru@ryanuber.com&gt;, AZ PR #28 N #48)
+- Display ini entries in `phpinfo()`</n>
+ <f>21379</f>
+ <g>http://pecl.php.net/get/zookeeper-0.2.3</g>
+ <x xlink:href="package.0.2.3.xml"/>
+</r>

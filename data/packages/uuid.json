@@ -1,0 +1,114 @@
+{
+    "category": "Networking",
+    "deprecated": false,
+    "description": "A wrapper around libuuid from the ext2utils project.",
+    "latestReleaseDate": "2020-10-06T12:42:47+00:00",
+    "latestVersion": "1.2.0",
+    "license": "LGPL",
+    "name": "uuid",
+    "php8Mentioned": true,
+    "releases": {
+        "1.2.0": {
+            "version": "1.2.0",
+            "state": "stable",
+            "license": "LGPL",
+            "releasedBy": "remi",
+            "releaseDate": "2020-10-06T12:42:47+00:00",
+            "releaseNotes": "- raise warnings on bad input value with PHP 7\n- promote warnings to ValueError with PHP 8\n- add type hinting with PHP 8\n- fix bug #66982 uuid_mac checks wrong bit/byte for valid MAC address",
+            "get": "https://pecl.php.net/get/uuid-1.2.0",
+            "SPDX-License-Identifier": "LGPL-2.1-or-later"
+        },
+        "1.1.0": {
+            "version": "1.1.0",
+            "state": "stable",
+            "license": "LGPL",
+            "releasedBy": "remi",
+            "releaseDate": "2019-11-28T15:21:12+00:00",
+            "releaseNotes": "- add uuid_generate_md5 and uuid_generate_sha1 functions",
+            "get": "https://pecl.php.net/get/uuid-1.1.0",
+            "SPDX-License-Identifier": "LGPL-2.1-or-later"
+        },
+        "1.0.5": {
+            "version": "1.0.5",
+            "state": "stable",
+            "license": "LGPL",
+            "releasedBy": "remi",
+            "releaseDate": "2019-11-28T09:05:03+00:00",
+            "releaseNotes": "- add missing constant UUID_VARIANT_NCS",
+            "get": "https://pecl.php.net/get/uuid-1.0.5",
+            "SPDX-License-Identifier": "LGPL-2.1-or-later"
+        },
+        "1.0.4": {
+            "version": "1.0.4",
+            "state": "stable",
+            "license": "LGPL",
+            "releasedBy": "remi",
+            "releaseDate": "2015-05-08T15:14:36+00:00",
+            "releaseNotes": "- PHP 7 compatibility\n- add LICENSE in documentation\n- various build fix",
+            "get": "http://pecl.php.net/get/uuid-1.0.4",
+            "SPDX-License-Identifier": "LGPL-2.1-or-later"
+        },
+        "1.0.4RC2": {
+            "version": "1.0.4RC2",
+            "state": "beta",
+            "license": "LGPL",
+            "releasedBy": "remi",
+            "releaseDate": "2015-04-08T07:55:03+00:00",
+            "releaseNotes": "- PHP 7 compatibility\n- add LICENSE in documentation\n- various build fix",
+            "get": "http://pecl.php.net/get/uuid-1.0.4RC2",
+            "SPDX-License-Identifier": "LGPL-2.1-or-later"
+        },
+        "1.0.3": {
+            "version": "1.0.3",
+            "state": "stable",
+            "license": "LGPL",
+            "releasedBy": "felipe",
+            "releaseDate": "2012-06-18T19:41:04+00:00",
+            "releaseNotes": "- Fixed build on PHP 5.3+",
+            "get": "http://pecl.php.net/get/uuid-1.0.3",
+            "SPDX-License-Identifier": "LGPL-2.1-or-later"
+        },
+        "1.0.2": {
+            "version": "1.0.2",
+            "state": "stable",
+            "license": "LGPL",
+            "releasedBy": "hholzgra",
+            "releaseDate": "2008-04-01T11:00:11+00:00",
+            "releaseNotes": "- should now work on Solaris, too (although missing two functions)\n- added uuid_parse() and uuid_unparse()\n- now generated using PEAR::CodeGen_PECL",
+            "get": "http://pecl.php.net/get/uuid-1.0.2",
+            "SPDX-License-Identifier": "LGPL-2.1-or-later"
+        },
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "hholzgra",
+            "releaseDate": "2008-03-25T18:04:41+00:00",
+            "releaseNotes": "Now works with Solaris libuuid implementation, too",
+            "get": "http://pecl.php.net/get/uuid-1.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0": {
+            "version": "1.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "hholzgra",
+            "releaseDate": "2004-03-27T13:16:00+00:00",
+            "releaseNotes": "Official 1.0 stable release",
+            "get": "http://pecl.php.net/get/uuid-1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.9": {
+            "version": "0.9",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "hholzgra",
+            "releaseDate": "2003-06-24T09:28:00+00:00",
+            "releaseNotes": "Initial 'official' beta release.",
+            "get": "http://pecl.php.net/get/uuid-0.9",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "UUID extension",
+    "SPDX-License-Identifier": "LGPL-2.1-or-later"
+}

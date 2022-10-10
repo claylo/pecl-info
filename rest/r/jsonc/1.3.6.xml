@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/jsonc">jsonc</p>
+ <c>pecl.php.net</c>
+ <v>1.3.6</v>
+ <st>stable</st>
+ <l>PHP 3.01</l>
+ <m>remi</m>
+ <s>JavaScript Object Notation</s>
+ <d>Support for JSON (JavaScript Object Notation) serialization.
+This is a drop-in alternative to PHP standard json extension.</d>
+ <da>2014-08-01 02:46:15</da>
+ <n>- apply fix for #66021 (Blank line inside empty array/object)
+- fix #20 json_decode segfault when depth=0</n>
+ <f>69111</f>
+ <g>http://pecl.php.net/get/jsonc-1.3.6</g>
+ <x xlink:href="package.1.3.6.xml"/>
+</r>

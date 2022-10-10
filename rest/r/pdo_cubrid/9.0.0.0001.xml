@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pdo_cubrid">PDO_CUBRID</p>
+ <c>pecl.php.net</c>
+ <v>9.0.0.0001</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>cubrid</m>
+ <s>CUBRID driver for PDO</s>
+ <d>This extension provides a CUBRID driver for PDO.</d>
+ <da>2012-10-14 07:34:59</da>
+ <n>Fixed bugs:
+
+- Use CCI funciton cci_escape_string() to implement PDO::quote
+- Get correct lock_timeout value when it has been set.
+- Update error code in handle error function in PDO driver
+- Use cci_connect_ex instead of cci_connect in PDO driver.
+- Use old functions in pdo driver because CUBRID does not export them.</n>
+ <f>21286</f>
+ <g>http://pecl.php.net/get/PDO_CUBRID-9.0.0.0001</g>
+ <x xlink:href="package.9.0.0.0001.xml"/>
+</r>

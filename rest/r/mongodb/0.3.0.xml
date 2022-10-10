@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>0.3.0</v>
+ <st>alpha</st>
+ <l>New BSD License</l>
+ <m>bjori</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundemental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2015-03-25 18:14:01</da>
+ <n>* PHPC-175: Fix header includes on Windows
+* PHPC-175: Fix build on 32bit
+* PHPC-175: Windows doesn't have these compiler attributes
+* IPHPC-176: Copy build templates, add missing file &amp; set build flags
+* PHPC-200: Don't set stream initiator when creating client fails
+* PHPC-199: Missing file from mongoc in config.m4
+* Update naming after PHPC-174</n>
+ <f>454215</f>
+ <g>http://pecl.php.net/get/mongodb-0.3.0</g>
+ <x xlink:href="package.0.3.0.xml"/>
+</r>

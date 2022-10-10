@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/stomp">stomp</p>
+ <c>pecl.php.net</c>
+ <v>1.0.7</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>gena01</m>
+ <s>Stomp client extension</s>
+ <d>This extension allows php applications to communicate with any Stomp compliant Message Brokers through easy object oriented and procedural interfaces.</d>
+ <da>2015-05-15 21:09:07</da>
+ <n>- add LICENSE file as documentation (Remi)
+- Fixed Windows compilation regression due to new TCP_NODELAY code. (Gennady Feldman)
+- Fixed bug where error checking was missing after stomp_send(). (Gennady Feldman)</n>
+ <f>21846</f>
+ <g>http://pecl.php.net/get/stomp-1.0.7</g>
+ <x xlink:href="package.1.0.7.xml"/>
+</r>

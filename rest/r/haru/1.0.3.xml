@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/haru">haru</p>
+ <c>pecl.php.net</c>
+ <v>1.0.3</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>tony2001</m>
+ <s>Haru PDF functions</s>
+ <d>These functions allow you to create PDF documents using the Haru Free PDF Library.</d>
+ <da>2012-02-02 06:22:50</da>
+ <n>- Fixed PECL bug #15960 (Cannot access to object properties when extending HaruDoc class)
+- Allow compiling with PHP 5.4+. (philip)</n>
+ <f>25941</f>
+ <g>http://pecl.php.net/get/haru-1.0.3</g>
+ <x xlink:href="package.1.0.3.xml"/>
+</r>

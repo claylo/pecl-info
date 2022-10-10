@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ibm_db2">ibm_db2</p>
+ <c>pecl.php.net</c>
+ <v>2.1.2</v>
+ <st>stable</st>
+ <l>Apache License 2.0</l>
+ <m>theprez</m>
+ <s>Extension for IBM DB2 Universal Database, IBM Cloudscape, and
+        Apache Derby</s>
+ <d>This extension supports IBM DB2 Universal Database, IBM
+Cloudscape, and Apache Derby databases.</d>
+ <da>2020-12-22 16:17:07</da>
+ <n>* 2020-12-22: 2.1.2
+- Fix memory leaks
+- Remove PHP 5 compatibility stubs and ifdefs
+- Fix compile warnings
+- Use PHP 8 arginfo generator, with generated fallbacks for PHP 7</n>
+ <f>195418</f>
+ <g>https://pecl.php.net/get/ibm_db2-2.1.2</g>
+ <x xlink:href="package.2.1.2.xml"/>
+</r>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.4.13RC2</v>
+ <st>beta</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in tcp/http/websocket/http2 server
+        - coroutine tcp/http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2019-12-11 08:12:46</da>
+ <n>New API
+---
++ Built-in Connection Pool ([examples](https://github.com/swoole/library/tree/master/examples)) ([doc](https://wiki.swoole.com/wiki/page/p-library.html)) (@twose)
+
+Enhancement
+---
++ Support websocket compression on Coroutine\Http\Server (#2943) (@twose)
++ Support `CURLOPT_PUT`, `CURLOPT_INFILE`, `CURLOPT_INFILESIZE` (#2954) (@twose)
++ Add error info for bind error (#2972) (@LeiZhang-Hunter) (@twose)
++ Update error info if socket call failed (it will not warn anymore if not necessary) (1e9b8cbb) (@twose)
++ Move the library to [a separate repo](https://github.com/swoole/library) (@twose)
++ Support `CURLOPT_IPRESOLVE` (library-12ffb4d6) (@twose)
++ Support `CURLOPT_PORT`, `CURLOPT_PROXYPORT`, `CURLOPT_DNS_USE_GLOBAL_CACHE` (library-5a718920) (@twose)
++ Better `CURLOPT_ENCODING` support (library-7b680712) (@twose)
++ Support `curl_reset`, `CURLOPT_PROXYTYPE`, `CURLOPT_PROXYUSERNAME`, `CURLOPT_PROXYPASSWORD`, `CURLOPT_PROXYUSERPWD` (library-84ce0a04) (@twose)
+
+Fixed
+---
+* Fixed gdbinit in docker (missing symbol) (d46dc2d7 (@twose)
+* Fixed compression in POST request (#2947) (@twose)
+* Fixed compatibility of `Websocket-&gt;push` method (ac7dbcbc) (@twose)
+* Fixed `$output` result inconsistency (@Yurunsoft) (#2955)
+* Fixed `Coroutine::fread` (#2958) (@matyhtf)
+* Fixed `Coroutine\Server` can not exit normally #2837 (#2962) (@twose)
+* Fixed memory leak in HTTP2 Server (#2964) (@twose)
+* Fixed `unsafe_event` (#2970) (@matyhtf)
+* Fixed illegal call after server start (#2977) (@twose)
+* Fixed `WebSocket\Frame` can not enable mask (#2982) (#2983) (@twose)
+* Fixed memory leak of `Process` callback (898894a7) (@twose)
+* Fixed case where minfd is never updated (#2985)
+* Fixed HTTP2 module is always enable (3925e212) (@twose)
+* Fixed HTTP2 context double free (#2987) (f4cdff1b) (@twose)
+* Fixed string comparison (#2988) (97c6c425) (9e5eae63) (@twose)
+* Fixed HTTP2 pipeline (#2993) (@twose)
+* Fixed coroutine context has been destroyed (#2991) (@twose)
+* Fixed illegal usage of `Process::daemon` (#3005) (@twose)
+* Fixed compilation without zlib (#3008) (@twose)
+
+Kernel
+---
+* Refactor `swoole_(get|set)_object` to the way of extending `zend_object` (more stable and efficient) (#2966) (@twose)
+* Support Github Actions (@twose) (@matyhtf)</n>
+ <f>1434939</f>
+ <g>https://pecl.php.net/get/swoole-4.4.13RC2</g>
+ <x xlink:href="package.4.4.13RC2.xml"/>
+</r>

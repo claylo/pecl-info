@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/http_message">http_message</p>
+ <c>pecl.php.net</c>
+ <v>0.2.2</v>
+ <st>beta</st>
+ <l>MIT License</l>
+ <m>jasny</m>
+ <s>PSR-7 HTTP Message implementation</s>
+ <d>PSR-7 compatible HTTP Message implementation as PHP extension</d>
+ <da>2020-08-25 11:23:53</da>
+ <n>Fixed HttpMessage\Factory::createUri()</n>
+ <f>47093</f>
+ <g>https://pecl.php.net/get/http_message-0.2.2</g>
+ <x xlink:href="package.0.2.2.xml"/>
+</r>

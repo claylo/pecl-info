@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/scream">scream</p>
+ <c>pecl.php.net</c>
+ <v>0.1.0</v>
+ <st>alpha</st>
+ <l>PHP License</l>
+ <m>johannes</m>
+ <s>Break the silence operator</s>
+ <d>Allows you to disable the silence operator (@) to get all error messages</d>
+ <da>2009-02-25 16:17:57</da>
+ <n>- Initial PECL release</n>
+ <f>3002</f>
+ <g>http://pecl.php.net/get/scream-0.1.0</g>
+ <x xlink:href="package.0.1.0.xml"/>
+</r>

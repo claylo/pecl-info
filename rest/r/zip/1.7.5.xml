@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/zip">zip</p>
+ <c>pecl.php.net</c>
+ <v>1.7.5</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>pajoye</m>
+ <s>A zip management extension</s>
+ <d>Zip is an extension to create, modify and read zip files.</d>
+ <da>2006-10-21 21:02:37</da>
+ <n>- PECL Bug #9082, wrong entry name like &quot;a/b//file.txt&quot; cannot be extracted on windows
+  A &quot;bug&quot; in php mkdir was the cause, a work around has been introduced for php versions before 5.2.0</n>
+ <f>57137</f>
+ <g>http://pecl.php.net/get/zip-1.7.5</g>
+ <x xlink:href="package.1.7.5.xml"/>
+</r>

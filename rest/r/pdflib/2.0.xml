@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pdflib">pdflib</p>
+ <c>pecl.php.net</c>
+ <v>2.0</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>steinm</m>
+ <s>Creating PDF on the fly with the PDFlib library</s>
+ <d>This extension wraps the PDFlib programming library
+for processing PDF on the fly, created by Thomas Merz. 
+
+PDFlib is available under the PDFlib Lite License
+(http://www.pdflib.com/pdffiles/PDFlib-Lite-License.pdf)
+and for commercial licensing.
+</d>
+ <da>2004-06-21 14:14:00</da>
+ <n>A major rework
+- supports PDFlib 5 and PDFlib 6
+- adds an Object Oriented API to PDFlib (for PHP 5 only)
+- uses PHP exceptions (for PHP 5 only)
+- only official PDFlib API's are included (plus pdf_open_memory_image)
+- changed old API's with varargs to only accept all args now
+- disables VIRTUAL_DIR support (use SerachPath instead)
+- disables CHECK_OPEN_BASEDIR checks</n>
+ <f>22841</f>
+ <g>http://pecl.php.net/get/pdflib-2.0</g>
+ <x xlink:href="package.2.0.xml"/>
+</r>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/yaml">yaml</p>
+ <c>pecl.php.net</c>
+ <v>1.1.1</v>
+ <st>stable</st>
+ <l>MIT</l>
+ <m>bd808</m>
+ <s>YAML-1.1 parser and emitter</s>
+ <d>Support for YAML 1.1 (YAML Ain't Markup Language) serialization using the
+  LibYAML library.</d>
+ <da>2013-11-18 23:37:39</da>
+ <n>New Features:
+- Removed &quot;not yet implemented&quot; warning and deliberate abort from
+  yaml_emit_file()
+Bugs Fixed:
+- #61770 Crash on nonunicode character
+- #61923 Detect_scalar_type() is not aware of base 60 representation
+- #63086 Compiling PHP with YAML as static extension fails
+- #64019 Segmentation fault if yaml anchor ends with a colon
+- #64694 Segfault when array used as mapping key</n>
+ <f>37862</f>
+ <g>http://pecl.php.net/get/yaml-1.1.1</g>
+ <x xlink:href="package.1.1.1.xml"/>
+</r>

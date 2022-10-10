@@ -1,0 +1,394 @@
+{
+    "category": "Languages",
+    "deprecated": false,
+    "description": "This extension embeds Google's V8 Javascript Engine into PHP.",
+    "latestReleaseDate": "2020-08-21T11:52:58+00:00",
+    "latestVersion": "2.1.2",
+    "license": "The MIT License (MIT)",
+    "name": "v8js",
+    "php8Mentioned": false,
+    "releases": {
+        "2.1.2": {
+            "version": "2.1.2",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "stesie",
+            "releaseDate": "2020-08-21T11:52:58+00:00",
+            "releaseNotes": "- support PHP 7.4\n- support V8 8.x\n- pass pointer to (char*) instead of (zend_string*) to spprintf (issue #431)\n- improve README",
+            "get": "https://pecl.php.net/get/v8js-2.1.2",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "2.1.1": {
+            "version": "2.1.1",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "stesie",
+            "releaseDate": "2019-06-23T19:59:35+00:00",
+            "releaseNotes": "- support PHP 7.3\n- support V8 7.x (now V8 > 6.9 is required)\n- fix module path normaliser (issue #349)\n- fix export bug w/ multiple derived classes (issue #410)",
+            "get": "https://pecl.php.net/get/v8js-2.1.1",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "2.1.0": {
+            "version": "2.1.0",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "stesie",
+            "releaseDate": "2018-01-07T12:25:21+00:00",
+            "releaseNotes": "- emit warning when compiling against V8 without untrusted code mitigations\n- support native modules (i.e. expose PHP objects via require('...'))",
+            "get": "http://pecl.php.net/get/v8js-2.1.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "2.0.0": {
+            "version": "2.0.0",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "stesie",
+            "releaseDate": "2017-11-26T14:25:25+00:00",
+            "releaseNotes": "Backward-incompatible changes\n-----------------------------\n\n- normal script execution shares its context with modules now (like on Node.js)\n- expose a \"global\" symbol that references the global scope (like on Node.js)\n- modules may return arbitrary values (not just objects; now like on Node.js)\n- pick up exports from \"module.exports\" also (like on Node.js)\n- handle exceptions thrown in module loader/normaliser like in other PHP scopes called from JS\n  (i.e. by default terminate execution, optionally propagate to JS side)\n\nV8Js' modules vastly behave like Node.js modules now \\o/\n\n- php.ini option v8js.compat_php_exceptions has been removed\n\nDeprecations\n------------\n- V8Js::registerExtension and V8Js::getExtensions are now deprecated, use snapshots instead\n- likewise passing $extensions to V8Js::__construct\n- V8Js::getPendingException and and V8Js::clearPendingException are deprecated, use try/catch\n- likewise passing $report_uncaught_exceptions !== true to V8Js::__construct\n\nImprovements\n------------\n- add documentation on heap snapshots\n\nBugfixes\n--------\n\n- fix build on Windows with VS2017 (thanks @Jan-E)\n- fix enumeration of methods on V8 6.3",
+            "get": "http://pecl.php.net/get/v8js-2.0.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.4.1": {
+            "version": "1.4.1",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "stesie",
+            "releaseDate": "2017-08-01T20:42:08+00:00",
+            "releaseNotes": "- omit usage of deprecated V8 API (#311)\n- fix build against V8 version 6.0 (#313)\n- don't clean properties hash while it is iterated (#316)\n- fix build against PHP 7.2",
+            "get": "http://pecl.php.net/get/v8js-1.4.1",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.4.0": {
+            "version": "1.4.0",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "stesie",
+            "releaseDate": "2017-04-23T20:01:36+00:00",
+            "releaseNotes": "Correctly initialize V8's ICU component\n- path to libv8 library is now baked into the library to find icudtl.dat file\n- if icudtl.dat file is moved after compile time, set v8js.icudtl_dat_path php.ini variable",
+            "get": "http://pecl.php.net/get/v8js-1.4.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.3.6": {
+            "version": "1.3.6",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "stesie",
+            "releaseDate": "2017-03-16T20:22:26+00:00",
+            "releaseNotes": "Bugfixes\n- fix compilation with GCC7 (include necessary headers)\n- fix build with recent V8 5.9 versions (libv8_libplatform not found)\n- adapt exception_start_column.phpt test to changed output of recent V8 5.9 versions\n- fix compilation with PHP 7.1.3\n\nRefactorings\n- drop TSRM stuff unneeded since PHP 7\n- remove unused variables\n- make memory_limit a size_t internally (and throw if negative values are provided on PHP interface)",
+            "get": "http://pecl.php.net/get/v8js-1.3.6",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.3.5": {
+            "version": "1.3.5",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "stesie",
+            "releaseDate": "2017-03-11T12:27:58+00:00",
+            "releaseNotes": "- Fix long vs. zend_long issues on x64 Windows",
+            "get": "http://pecl.php.net/get/v8js-1.3.5",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.3.4": {
+            "version": "1.3.4",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "stesie",
+            "releaseDate": "2017-03-05T19:23:06+00:00",
+            "releaseNotes": "- Bugfix: Reset fatal_error_abort on RSHUTDOWN\n- Improve auto configuration (V8 detection)\n- Improve build instructions on Linux & Windows",
+            "get": "http://pecl.php.net/get/v8js-1.3.4",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.3.3": {
+            "version": "1.3.3",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "stesie",
+            "releaseDate": "2016-09-22T18:17:24+00:00",
+            "releaseNotes": "- fix detection of libv8_libbase.a during configuration\n- fix license URIs in package.xml",
+            "get": "http://pecl.php.net/get/v8js-1.3.3",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.3.2": {
+            "version": "1.3.2",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "stesie",
+            "releaseDate": "2016-09-04T14:56:16+00:00",
+            "releaseNotes": "- fix reference counting issue (and hence use-after-free memory error)\n- fix another use-after-free issue with registerExtension\n- fix build against PHP 7.1 (beta)\n- correctly export reference-type variables to JavaScript",
+            "get": "http://pecl.php.net/get/v8js-1.3.2",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.3.1": {
+            "version": "1.3.1",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "stesie",
+            "releaseDate": "2016-07-02T21:09:36+00:00",
+            "releaseNotes": "Fix build against V8 5.3.337 (and higher)",
+            "get": "http://pecl.php.net/get/v8js-1.3.1",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.6.4": {
+            "version": "0.6.4",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "stesie",
+            "releaseDate": "2016-07-02T20:51:39+00:00",
+            "releaseNotes": "Fix build against V8 5.3.337 (and higher)",
+            "get": "http://pecl.php.net/get/v8js-0.6.4",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.3.0": {
+            "version": "1.3.0",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "stesie",
+            "releaseDate": "2016-05-22T21:55:50+00:00",
+            "releaseNotes": "This release merges changes from V8Js for PHP 5.x (version 0.6.3) to PHP 7.0 branch.\n\nNew Features\n- Allow to adjust the considered \"amount of external memory\" by objects exported to V8\n\nBug Fixes\n- Pass back V8Object instances, don't re-wrap\n- Retain object identity on 'return $this'\n- Retain object identity on JS-side 'return this'\n- Send LowMemoryNotification signals to V8 before imposing memory limit\n- Fix build against V8 version 5.2 (deprecated WeakCallbackInfo & GetHiddenValue et al)\n- Improve/Clarify README\n\nCode Cleanup\n- Removed support for \"old-age\" V8 versions (i.e. V8 < 4.6.76)\n- Removed old examples and pre-phpt test script",
+            "get": "http://pecl.php.net/get/v8js-1.3.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.6.3": {
+            "version": "0.6.3",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "stesie",
+            "releaseDate": "2016-05-22T19:09:30+00:00",
+            "releaseNotes": "Bug Fixes\n- Send LowMemoryNotification signals to V8 before imposing memory limit\n- Fix build against V8 version 5.2 (deprecated WeakCallbackInfo & GetHiddenValue et al)\n- Improve/Clarify README\n\nCode Cleanup\n- Removed support for \"old-age\" V8 versions (i.e. V8 < 4.6.76)\n- Removed old examples and pre-phpt test script",
+            "get": "http://pecl.php.net/get/v8js-0.6.3",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.6.2": {
+            "version": "0.6.2",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "stesie",
+            "releaseDate": "2016-03-25T22:27:43+00:00",
+            "releaseNotes": "- Pass back V8Object instances, don't re-wrap\n- Retain object identity on 'return $this'\n- Retain object identity on JS-side 'return this'",
+            "get": "http://pecl.php.net/get/v8js-0.6.2",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.6.1": {
+            "version": "0.6.1",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "stesie",
+            "releaseDate": "2016-03-24T20:08:33+00:00",
+            "releaseNotes": "- Fix configuration on MacOS platform",
+            "get": "http://pecl.php.net/get/v8js-0.6.1",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.6.0": {
+            "version": "0.6.0",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "stesie",
+            "releaseDate": "2016-03-08T17:16:04+00:00",
+            "releaseNotes": "- Allow to adjust the considered \"amount of external memory\" by objects exported to V8",
+            "get": "http://pecl.php.net/get/v8js-0.6.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.2.0": {
+            "version": "1.2.0",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "stesie",
+            "releaseDate": "2016-03-05T22:27:36+00:00",
+            "releaseNotes": "- allow to pass generators from PHP to JS and vice versa\n\nMerge improvements from V8Js for PHP 5.x (version 0.5.0) to PHP 7.0 branch:\n- Export public methods on classes derived from \\V8Js to V8\n- Support V8 compiled with external snapshots\n- Allow to create custom snapshots of V8 heaps\n- Allow to create V8 contexts based on custom snapshots generated earlier\n- Support V8 5.1 well",
+            "get": "http://pecl.php.net/get/v8js-1.2.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.5.0": {
+            "version": "0.5.0",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "stesie",
+            "releaseDate": "2016-03-05T20:26:04+00:00",
+            "releaseNotes": "- Export public methods on classes derived from \\V8Js to V8\n- Support V8 compiled with external snapshots\n- Allow to create custom snapshots of V8 heaps\n- Allow to create V8 contexts based on custom snapshots generated earlier\n- Support V8 5.1 well",
+            "get": "http://pecl.php.net/get/v8js-0.5.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.1.0": {
+            "version": "1.1.0",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "stesie",
+            "releaseDate": "2016-01-08T08:04:45+00:00",
+            "releaseNotes": "- fix build on Windows with Visual Studio 2015\n- use libv8_platform on Windows\n- fix double free on object export\n- fix use after free regarding pending exceptions\n- fix memory leaks on bailouts caused in V8 contexts\n- don't abort PHP process on fatal V8 error (but trigger a warning instead)\n\nThis release also merges in new features from V8Js 0.4.0, namely\n- Improve -Wno-c++11-narrowing/-Wno-narrowing flag detection (clang/gcc5 support)\n- Added ability to set properties on V8Function\n- CommonJS modules now have access to V8Js' var_dump function\n- V8JsScriptExtensions now reference the normalised module id (instead of just \"require\")\n- fatal PHP errors triggered in setModuleLoader callback are now handled gracefully\n- setModuleLoader callback is now allowed to return an empty string as source of module\n- V8Js' internal module path normalisation may now be overrode using setModuleNormaliser",
+            "get": "http://pecl.php.net/get/v8js-1.1.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.4.1": {
+            "version": "0.4.1",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "stesie",
+            "releaseDate": "2016-01-08T07:32:54+00:00",
+            "releaseNotes": "- Fix PHP.var_dump output on regexp objects (for consistency over all V8 versions)\n- Fix \"this\" on V8Object method invocations",
+            "get": "http://pecl.php.net/get/v8js-0.4.1",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.4.0": {
+            "version": "0.4.0",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "stesie",
+            "releaseDate": "2015-12-07T12:29:26+00:00",
+            "releaseNotes": "- Improve -Wno-c++11-narrowing/-Wno-narrowing flag detection (clang/gcc5 support)\n- Added ability to set properties on V8Function\n- CommonJS modules now have access to V8Js' var_dump function\n- V8JsScriptExtensions now reference the normalised module id (instead of just \"require\")\n- fatal PHP errors triggered in setModuleLoader callback are now handled gracefully\n- setModuleLoader callback is now allowed to return an empty string as source of module\n- V8Js' internal module path normalisation may now be overrode using setModuleNormaliser",
+            "get": "http://pecl.php.net/get/v8js-0.4.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "stesie",
+            "releaseDate": "2015-12-04T20:19:27+00:00",
+            "releaseNotes": "First PHP 7 release",
+            "get": "http://pecl.php.net/get/v8js-1.0.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.3.0": {
+            "version": "0.3.0",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "stesie",
+            "releaseDate": "2015-10-11T20:03:09+00:00",
+            "releaseNotes": "- Fix multi-threading with pthreads extension\n- Remove v8 debug agent support (which is unsupported by V8 since 3.28.4)",
+            "get": "http://pecl.php.net/get/v8js-0.3.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.2.6": {
+            "version": "0.2.6",
+            "state": "beta",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "stesie",
+            "releaseDate": "2015-09-26T10:46:57+00:00",
+            "releaseNotes": "- Fix reference counting issue on PHP->JS->PHP exception propagation",
+            "get": "http://pecl.php.net/get/v8js-0.2.6",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.2.5": {
+            "version": "0.2.5",
+            "state": "beta",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "stesie",
+            "releaseDate": "2015-09-23T20:27:35+00:00",
+            "releaseNotes": "- Stop JS execution on PHP exceptions (instead of continuing silently)\n- Allow propagation of PHP exceptions to JS context (disabled by default)\n- Add v8js.compat_php_exceptions php.ini switch to switch previous behaviour back on",
+            "get": "http://pecl.php.net/get/v8js-0.2.5",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.2.4": {
+            "version": "0.2.4",
+            "state": "beta",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "stesie",
+            "releaseDate": "2015-09-01T15:19:33+00:00",
+            "releaseNotes": "- Fix memory leak with repeated Array exports from PHP to JS",
+            "get": "http://pecl.php.net/get/v8js-0.2.4",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.2.3": {
+            "version": "0.2.3",
+            "state": "beta",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "stesie",
+            "releaseDate": "2015-08-27T14:26:52+00:00",
+            "releaseNotes": "- Fix FLAG_FORCE_ARRAY affecting V8Function objects\n- Fix memory leak with repeated calls of methods on exported PHP objects",
+            "get": "http://pecl.php.net/get/v8js-0.2.3",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.2.2": {
+            "version": "0.2.2",
+            "state": "beta",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "stesie",
+            "releaseDate": "2015-08-26T09:22:43+00:00",
+            "releaseNotes": "- Fix CommonJS module caching\n- Fix use-after-free issue on CommonJS module reuse\n- Fix memory leaks in CommonJS module loader\n- Fix memory leak regarding lost script resources (compileScript call et al)\n- Improve V8Function call performance",
+            "get": "http://pecl.php.net/get/v8js-0.2.2",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.2.1": {
+            "version": "0.2.1",
+            "state": "beta",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "stesie",
+            "releaseDate": "2015-07-25T22:21:24+00:00",
+            "releaseNotes": "- adapt to latest v8 API (v8 versions from 3.24.6 up to latest 4.6 branch supported now)\n- fixed FLAG_FORCE_ARRAY behaviour regarding property assignments\n- properly stop (and restart) timer thread (for memory & cpu limits)\n- fixed crash on failed module bootstrapping",
+            "get": "http://pecl.php.net/get/v8js-0.2.1",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.2.0": {
+            "version": "0.2.0",
+            "state": "beta",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "stesie",
+            "releaseDate": "2015-03-13T10:49:05+00:00",
+            "releaseNotes": "- adapt to latest v8 API (v8 versions from 3.24.6 up to latest 4.3 branch supported now)\n- v8 debugging support\n- apply time & memory limits to V8Function calls\n- support mapping of PHP objects implementing ArrayAccess to native arrays\n- new API to set limits: setTimeLimit & setMemoryLimit methods on V8Js object\n- typesafe JavaScript function wrappers\n- improved back-and-forth object passing (rewrapping, correcty isolate unlocking)\n- fix property and method visibility issues\n- fix memory leaks",
+            "get": "http://pecl.php.net/get/v8js-0.2.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.1.5": {
+            "version": "0.1.5",
+            "state": "beta",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "preilly",
+            "releaseDate": "2013-09-29T23:50:53+00:00",
+            "releaseNotes": "- Fix package",
+            "get": "http://pecl.php.net/get/v8js-0.1.5",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.1.4": {
+            "version": "0.1.4",
+            "state": "beta",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "preilly",
+            "releaseDate": "2013-09-28T16:51:45+00:00",
+            "releaseNotes": "- Added time/memory limit support\n- Moved to The MIT License (MIT)",
+            "get": "http://pecl.php.net/get/v8js-0.1.4",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.1.3": {
+            "version": "0.1.3",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "felipe",
+            "releaseDate": "2012-06-12T22:41:48+00:00",
+            "releaseNotes": "- Fixed build in PHP 5.4+\n- Fixed bug #59553 (can't build due to missing class member)",
+            "get": "http://pecl.php.net/get/v8js-0.1.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.2": {
+            "version": "0.1.2",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "jani",
+            "releaseDate": "2010-12-31T07:58:30+00:00",
+            "releaseNotes": "- Removed unnecessary notice added to registerExtension() in previous release",
+            "get": "http://pecl.php.net/get/v8js-0.1.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.1": {
+            "version": "0.1.1",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "jani",
+            "releaseDate": "2010-12-31T07:00:41+00:00",
+            "releaseNotes": "- Fixed crash bug in setting v8.flags ini directive.\n- Added notice to registerExtension() if trying to use it when V8 is already initialized.",
+            "get": "http://pecl.php.net/get/v8js-0.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.0": {
+            "version": "0.1.0",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "jani",
+            "releaseDate": "2010-12-30T09:52:50+00:00",
+            "releaseNotes": "- Initial PECL release",
+            "get": "http://pecl.php.net/get/v8js-0.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "V8 Javascript Engine for PHP",
+    "SPDX-License-Identifier": "MIT"
+}

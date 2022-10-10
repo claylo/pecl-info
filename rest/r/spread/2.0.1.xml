@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/spread">spread</p>
+ <c>pecl.php.net</c>
+ <v>2.0.1</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>rrichards</m>
+ <s>A php interface to the Spread toolkit API</s>
+ <d>Provides a full interface to the Spread group communication
+toolkit API.  Information on Spread can be found at http://www.spread.org/</d>
+ <da>2008-05-03 12:44:48</da>
+ <n>- fix misplaced parenthesis (patch by Kevin Murphy)
+- fix mem corruption calling receive multiple time</n>
+ <f>8017</f>
+ <g>http://pecl.php.net/get/spread-2.0.1</g>
+ <x xlink:href="package.2.0.1.xml"/>
+</r>

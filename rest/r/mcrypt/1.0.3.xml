@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mcrypt">mcrypt</p>
+ <c>pecl.php.net</c>
+ <v>1.0.3</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>derick</m>
+ <s>Bindings for the libmcrypt library</s>
+ <d>Provides bindings for the unmaintained libmcrypt.</d>
+ <da>2019-09-17 16:24:24</da>
+ <n>- Addressed Windows build issues</n>
+ <f>33590</f>
+ <g>https://pecl.php.net/get/mcrypt-1.0.3</g>
+ <x xlink:href="package.1.0.3.xml"/>
+</r>

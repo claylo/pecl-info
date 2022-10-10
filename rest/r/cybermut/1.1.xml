@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/cybermut">cybermut</p>
+ <c>pecl.php.net</c>
+ <v>1.1</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>nicos</m>
+ <s>CyberMut Paiement System</s>
+ <d>This extension gives you the possibility to use the CyberMut Paiement System of the Credit Mutuel (French Bank).
+</d>
+ <da>2003-06-03 11:12:00</da>
+ <n>Fixing #23978</n>
+ <f>3249</f>
+ <g>http://pecl.php.net/get/cybermut-1.1</g>
+ <x xlink:href="package.1.1.xml"/>
+</r>

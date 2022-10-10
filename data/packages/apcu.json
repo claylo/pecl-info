@@ -1,0 +1,344 @@
+{
+    "category": "Caching",
+    "deprecated": false,
+    "description": "APC User Caching",
+    "latestReleaseDate": "2022-09-19T07:01:29+00:00",
+    "latestVersion": "5.1.22",
+    "license": "PHP License",
+    "name": "APCu",
+    "php8Mentioned": true,
+    "releases": {
+        "5.1.22": {
+            "version": "5.1.22",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2022-09-19T07:01:29+00:00",
+            "releaseNotes": "- PHP 8.2 compatibility\n- PHP 8.1 compatibility in apc.php\n- Fix --enable-apcu-rwlocks configure option\n- Enable transparent huge pages for mmap memory\n- Use monotonic clock for TTL",
+            "get": "https://pecl.php.net/get/apcu-5.1.22",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "5.1.21": {
+            "version": "5.1.21",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2021-10-07T09:19:37+00:00",
+            "releaseNotes": "- Fixed compatibility with PHP 8.1 by adding return types to APCUIterator.\n- APCUIterator::current() and ::key() can no longer be called on an invalid iterator.",
+            "get": "https://pecl.php.net/get/apcu-5.1.21",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "5.1.20": {
+            "version": "5.1.20",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2021-03-04T09:27:53+00:00",
+            "releaseNotes": "- Fix deadlocks when other apcu_* functions are used inside apcu_entry(). It should now be safe to use any functions inside the apcu_entry() callback.\n- Fix division by zero exception in apc.php.\n- Fix handling of references in PHP 8 if \"default\" serializer is used (which is not the default).\n- Fix string reuse handling if \"default\" serializer is used (which is not the default).\n- Check for failures when acquiring read locks to report problems earlier (write locks were already checked previously).\n- Adjust tests for current PHP 8.1 development branch.\n- Remove *_api.h headers. Use apc_cache.h instead of apc_cache_api.h etc.",
+            "get": "https://pecl.php.net/get/apcu-5.1.20",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "5.1.19": {
+            "version": "5.1.19",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2020-10-05T09:48:09+00:00",
+            "releaseNotes": "- Fixed apcu_store() with integer keys (#388).\n- Made apc.use_request_time=0 the default (#391).\n- Made apcu compatible with PHP 8.0.",
+            "get": "https://pecl.php.net/get/apcu-5.1.19",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "5.1.18": {
+            "version": "5.1.18",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2019-10-28T06:25:29+00:00",
+            "releaseNotes": "- Implement apcu_inc() and apcu_dec() using atomic operations. This means that these functions no longer have to acquire a write lock. These functions will now wraparound on overflow, instead of saturating to a floating point value.\n- Make table header in apc.php sticky.\n- Fix compile warnings related to mktemp() usage.\n- Fix compatibility with PHP 8.0.\n- Fix required number of arguments for apcu_store() returned by Reflection.",
+            "get": "https://pecl.php.net/get/apcu-5.1.18",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "5.1.17": {
+            "version": "5.1.17",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2019-02-08T11:21:48+00:00",
+            "releaseNotes": "- Fixed compatibility with PHP 7.4 and PHP 8.0.",
+            "get": "https://pecl.php.net/get/apcu-5.1.17",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "5.1.16": {
+            "version": "5.1.16",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "nikic",
+            "releaseDate": "2018-12-16T22:02:49+00:00",
+            "releaseNotes": "- Fix build on OSX.",
+            "get": "https://pecl.php.net/get/apcu-5.1.16",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "5.1.15": {
+            "version": "5.1.15",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2018-12-07T13:38:05+00:00",
+            "releaseNotes": "- Restore apc.serializer=php as the default, as the \"default\" serializer still/again has issues.\n- Fix possible issues in persistence of arrays with the \"default\" serializer.\n- Attempt to reduce shared memory fragementation.",
+            "get": "https://pecl.php.net/get/apcu-5.1.15",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "5.1.14": {
+            "version": "5.1.14",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2018-11-21T07:42:52+00:00",
+            "releaseNotes": "- Fixed GH #347: Disable slam defense by default.\n- Fix potential issue with destruction of locks. This does not affect Linux, but might affect Windows and BSD.\n- Use mutex instead of rwlock for shared memory allocator (if pthreads mutex available).\n- Require only read-lock for apcu_cas(), by using atomic compare-and-swap.",
+            "get": "https://pecl.php.net/get/apcu-5.1.14",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "5.1.13": {
+            "version": "5.1.13",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2018-11-19T09:15:16+00:00",
+            "releaseNotes": "- Reimplement persistence logic using precise allocation rather than memory pools. This reduces\nmemory usage of cache entries, especially for small values, and improves performance of persisting\nand unpersisting values.\n- Fixed GH #335: Stampede protection is broken.\n- Fixed GH #328: Segfault in apcu_key_info() if APCu is disabled.\n- Generally make the behavior of functions if APCu is disabled more consistent.\n- Fixed PHP bug #72980: Empty strings are now consistently allowed as cache keys.\n- Optimized apcu_key_info() and apcu_cache_info() by using interned strings.\n- Fix build against PHP master (PHP 7.4).\n- Many changes to internal C APIs.",
+            "get": "https://pecl.php.net/get/apcu-5.1.13",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "5.1.12": {
+            "version": "5.1.12",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2018-07-09T10:24:05+00:00",
+            "releaseNotes": "- gh#307: Fix 'Timout' sort option (apc.php).\n- gh#308: Keep search parameter on cache entry detail link (apc.php).\n- Fix --enable-apcu-clear-signal support.\n- Show entries with expired global TTL in APCuIterator.\n- Respect TTL when calculating APCuIterator totals.\n- The per-entry TTL now always takes precedence over the global TTL.\n- The global TTL is now always relative to the access time.\n- apcu_inc() and apcu_dec() no longer update hard-expired entries. Instead a new entry is created.\n- Added optional $ttl argument to apcu_inc() and apcu_dec(), used when creating a new entry.\n- PHP bug #76145: Fix use of APCu inside Serializer::(un)serialize().\n- gh#304: If apcu_cas() is used on a non-existing entry, don't insert it.\n- gh#295: Improve APCuIterator performance by using PCRE JIT and preallocating key strings.\n- Reduce the memory overhead of cache entries.\n- Prevent potential memory corruption in the cache slam defense implementation.\n- Ensure cache entry references are released on bailout during unserialization.\n- Make support for atomic operations a hard requirement for building APCu.\n- Check write-lock acquisition for failure, to help debugging deadlock situations.\n- Make sure apcu_inc/dec are atomic when working on a non-existing entry.\n- Many changes to internal C APIs.",
+            "get": "http://pecl.php.net/get/apcu-5.1.12",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "5.1.11": {
+            "version": "5.1.11",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2018-03-08T05:20:13+00:00",
+            "releaseNotes": "- fix gh#246 apcu_entry hangs\n- fix gh#259 deadlock in apcu_store\n- fix gh#281 undefined variable in apc.php\n- fix handling of fatal errors in apcu_entry\n- check string lengths when looking up keys\n- many internal C APIs changed",
+            "get": "http://pecl.php.net/get/apcu-5.1.11",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "5.1.10": {
+            "version": "5.1.10",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2018-02-16T06:01:37+00:00",
+            "releaseNotes": "- fix gh#247 when a NUL char is used as key, apcu_fetch(array) truncates the key\n- fix gh#248 apcu_fetch may return values causing zend_mm_corruption or segfaults\n  when custom serializer is used\n- fix gh#260 apcu.serializer=default results in segfault\n- fix gh#274 non-portable shell == in config.m4\n- fix crash when passing bad array to apcu_delete\n- improve fix gh#266 refcounting errors in APCIterator\n- fix for PHP 7.3 compatibility",
+            "get": "http://pecl.php.net/get/apcu-5.1.10",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "5.1.9": {
+            "version": "5.1.9",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2018-01-02T14:39:30+00:00",
+            "releaseNotes": "- fix gh#234 mmap disabled when configure is called with --enable-apcu-mmap\n- fix gh#226 Warning: apcu_fetch(): apc_fetch() expects a string or array of strings.\n- mitigate gh#223 Fatal error when starting php on windows\n- add support for PCRE2 in 7.3\n- use row formatting for information in phpinfo() tables\n- set IS_STR_PERSISTENT so refcounting failures are reported by -DRC_DEBUG=1\n- fix gh#266 refcounting errors in APCIterator",
+            "get": "http://pecl.php.net/get/apcu-5.1.9",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "5.1.8": {
+            "version": "5.1.8",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2017-01-16T07:02:18+00:00",
+            "releaseNotes": "- fix gh#207 Segmentation fault in apc_sma_api_free()\n- fix gh#221 memory leak\n- update to apc dashboard (Tyson Andre)",
+            "get": "http://pecl.php.net/get/apcu-5.1.8",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "5.1.7": {
+            "version": "5.1.7",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2016-10-21T12:23:09+00:00",
+            "releaseNotes": "- fixes gh#19: hung apaches on pthread wrlocks\n- fixes gh#203: segfaults in bailout / longjmp",
+            "get": "http://pecl.php.net/get/apcu-5.1.7",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "5.1.6": {
+            "version": "5.1.6",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2016-10-06T05:21:11+00:00",
+            "releaseNotes": "- fixes gh#19:  Hung apaches on pthread wrlocks\n- fixes gh#188: Fix Segfault in ZTS build when locking (Tyson Andre)\n- fixes gh#194: apcu_entry ttl not working\n- fixes gh#189: SegFault in apc_copy_zval\n- fixes gh#185: zend_mm_heap corrupted\n- fixes gh#190: memory leak/failed check for duplicates",
+            "get": "http://pecl.php.net/get/apcu-5.1.6",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "5.1.5": {
+            "version": "5.1.5",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2016-06-07T13:01:22+00:00",
+            "releaseNotes": "- fix version check in control panel page (gh#182, lennartwesdijk)\n- do not create null strings, palloc may fail",
+            "get": "http://pecl.php.net/get/apcu-5.1.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "5.1.4": {
+            "version": "5.1.4",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2016-05-12T10:50:05+00:00",
+            "releaseNotes": "- fix possible memory leak\n- fix gh#168 drop trying to return strings from shm\n- fix gh#170 do not create entries when serialization fails",
+            "get": "http://pecl.php.net/get/apcu-5.1.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "4.0.11": {
+            "version": "4.0.11",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2016-04-20T12:05:27+00:00",
+            "releaseNotes": "- fix #176 segfault when apc.preload_path contains bad data\n- fix bad data used in test suite",
+            "get": "http://pecl.php.net/get/apcu-4.0.11",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "5.1.3": {
+            "version": "5.1.3",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2016-01-15T13:27:10+00:00",
+            "releaseNotes": "- fixed macro using interlocked increment in Windows\n- fix gh#158 apc_inc() with negative step value hangs the process\n- fix gh#164 apc_inc() can take minutes with huge step value",
+            "get": "http://pecl.php.net/get/apcu-5.1.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "5.1.2": {
+            "version": "5.1.2",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "krakjoe",
+            "releaseDate": "2015-12-07T09:06:46+00:00",
+            "releaseNotes": "- be really consistent with APC in use of atomics",
+            "get": "http://pecl.php.net/get/apcu-5.1.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "4.0.10": {
+            "version": "4.0.10",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "krakjoe",
+            "releaseDate": "2015-12-07T09:02:59+00:00",
+            "releaseNotes": "- be really consistent with APC in use of atomics, avoid surprises",
+            "get": "http://pecl.php.net/get/apcu-4.0.10",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "5.1.0": {
+            "version": "5.1.0",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "krakjoe",
+            "releaseDate": "2015-11-21T04:44:53+00:00",
+            "releaseNotes": "- PHP 7 compatibility\n- provide APC compatibility in \"apc\" optional extension\n- move APCIterator to APC compatibility extension\n- add APCuIterator without cache argument\n- drop apcu_bin_* functions\n- add apcu_entry(key, callback, ttl) function\n- fix race on refcount of entry when using rwlocks (or on windows)",
+            "get": "http://pecl.php.net/get/apcu-5.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "4.0.8": {
+            "version": "4.0.8",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "krakjoe",
+            "releaseDate": "2015-11-20T11:08:55+00:00",
+            "releaseNotes": "- fix inconsistent member names for entries in userland\n- fix race on ref_count",
+            "get": "http://pecl.php.net/get/apcu-4.0.8",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "4.0.7": {
+            "version": "4.0.7",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "krakjoe",
+            "releaseDate": "2014-10-11T13:02:48+00:00",
+            "releaseNotes": "- fix inconsistent member names for entries in userland",
+            "get": "http://pecl.php.net/get/apcu-4.0.7",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "4.0.6": {
+            "version": "4.0.6",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "krakjoe",
+            "releaseDate": "2014-06-12T09:39:14+00:00",
+            "releaseNotes": "- fix issues with stddef inclusion causing compilation issue",
+            "get": "http://pecl.php.net/get/apcu-4.0.6",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "4.0.5": {
+            "version": "4.0.5",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "krakjoe",
+            "releaseDate": "2014-06-11T01:48:38+00:00",
+            "releaseNotes": "- fix compile with 5.6 beta",
+            "get": "http://pecl.php.net/get/apcu-4.0.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "4.0.4": {
+            "version": "4.0.4",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "krakjoe",
+            "releaseDate": "2014-03-01T02:30:08+00:00",
+            "releaseNotes": "- Fix deadlocking due to destroyed locks\n- Fix various compatibility bugs",
+            "get": "http://pecl.php.net/get/apcu-4.0.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "4.0.3": {
+            "version": "4.0.3",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "krakjoe",
+            "releaseDate": "2014-01-27T04:35:58+00:00",
+            "releaseNotes": "- Fix various compatibility problems\n- Fix a few lingering faults\n- Remove experimental eval serializer\n- Fix iterator for compatibility",
+            "get": "http://pecl.php.net/get/apcu-4.0.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "4.0.2": {
+            "version": "4.0.2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "krakjoe",
+            "releaseDate": "2013-09-14T16:15:05+00:00",
+            "releaseNotes": "- Fixed bug #15 APC compatibility option broken. (Anatol)\n- Fixed bug #20 APCu's APCIterator constructor is not compatable with APC. (Anatol)\n- Fixed resource leak when data preload fails. (Anatol)\n- Fixed issue #29 php_apcu.dll does not load anymore under X64. (Anatol)",
+            "get": "http://pecl.php.net/get/apcu-4.0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "4.0.1": {
+            "version": "4.0.1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "krakjoe",
+            "releaseDate": "2013-04-30T03:30:12+00:00",
+            "releaseNotes": "- Fix crash in cli on apc_store where enable_cli=0\n- Testing eval serializers\n- Change apc_* to apcu_* in apc.php\n- Fix exports in API\n- Expose to userland whether APCu is compiled with the APC compatibility.\n  See the APCU_APC_FULL_BC constant. (Anatol)\n- Fixed bin dump producing garbage data in multithreaded env. (Anatol)",
+            "get": "http://pecl.php.net/get/apcu-4.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "4.0.0": {
+            "version": "4.0.0",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "krakjoe",
+            "releaseDate": "2013-03-26T22:10:13+00:00",
+            "releaseNotes": "All opcode caching abilities removed\nThe default locking is now rwlocks\nAPCu API installed in build environment\nPlease see TECHNOTES/README.md",
+            "get": "http://pecl.php.net/get/apcu-4.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "APCu - APC User Cache",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

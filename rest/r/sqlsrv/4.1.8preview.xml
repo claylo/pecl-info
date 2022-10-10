@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/sqlsrv">sqlsrv</p>
+ <c>pecl.php.net</c>
+ <v>4.1.8preview</v>
+ <st>devel</st>
+ <l>The MIT License (MIT)</l>
+ <m>mbar</m>
+ <s>Microsoft Drivers for PHP for SQL Server (SQLSRV)</s>
+ <d>The Microsoft Drivers for PHP for SQL Server are PHP extensions that allow for the reading and writing of SQL Server data from within PHP scripts. The SQLSRV extension provides a procedural interface while the PDO_SQLSRV extension implements PDO for accessing data in all editions of SQL Server 2005 and later (including Azure SQL DB). These drivers rely on the Microsoft ODBC Driver for SQL Server to handle the low-level communication with SQL Server.
+*This package contains only the SQLSRV driver.*</d>
+ <da>2017-04-10 19:58:31</da>
+ <n>[Added]
+- Connection Resiliency now supported in Windows
+- Connection pooling now works in MAC
+[Fixed]
+- Added a workaround for a bug in unixODBC 2.3.4 when connection pooling is enabled
+- Fixed the issue in MAC such that the order of which drivers are loaded first no longer matters
+- Fixed sqlsrv_num_rows() when the client buffered result is null (issue #330)
+- Fixed compilation const char conversion warnings (issue #332)
+[Known Issues]
+- User defined data types and SQL_VARIANT</n>
+ <f>195103</f>
+ <g>http://pecl.php.net/get/sqlsrv-4.1.8preview</g>
+ <x xlink:href="package.4.1.8preview.xml"/>
+</r>

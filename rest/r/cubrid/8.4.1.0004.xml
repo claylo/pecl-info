@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/cubrid">CUBRID</p>
+ <c>pecl.php.net</c>
+ <v>8.4.1.0004</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>cubrid</m>
+ <s>This is the official PHP Extension to connect to CUBRID Database.</s>
+ <d>CUBRID is an open source database management system highly optimized for Web applications (http://www.cubrid.org). The current PHP extension is fully compatibly with the latest stable version of CUBRID Database. To post issues and report bugs, please use CUBRID Official Forum at http://forum.cubrid.org.</d>
+ <da>2012-07-04 02:37:38</da>
+ <n>We have added functions about lob object in this version and these functions have been tested carefully.
+If you want to get more information about the bugs or if you need help, please go to
+http://jira.cubrid.org/browse/APIS.
+
+The following functions have been added:
+
+- cubrid_lob2_new
+- cubrid_lob2_bind
+- cubrid_lob2_export
+- cubrid_lob2_import
+- cubrid_lob2_read
+- cubrid_lob2_write
+- cubrid_lob2_tell
+- cubrid_lob2_tell64
+- cubrid_lob2_seek
+- cubrid_lob2_seek64
+- cubrid_lob2_size
+- cubrid_lob2_size64
+- cubrid_lob2_close
+
+Changed and Enhanced Features:
+
+1) APIS-179: Remove the support of named placeholders for prepare statements
+
+2) APIS-172: Remove the possibilities of the value of affected rows may not correct
+
+3) APIS-171: Unify the request resource registered in cubrid_execute, cubrid_query and cubrid_unbuffered_query
+
+   Though the implements of cubrid_execute, cubrid_query and cubrid_unbuffered_query are different,
+   there are also some problems that these three functions all need to consider, such as when should the 
+   request resource be registered. We should register the request resource when the related objects are ready.
+
+Fixed bugs:
+
+1) APIS-176: Resolve the memory growth when continually execute SQL statements on one connection and don't close request.</n>
+ <f>46409</f>
+ <g>http://pecl.php.net/get/CUBRID-8.4.1.0004</g>
+ <x xlink:href="package.8.4.1.0004.xml"/>
+</r>

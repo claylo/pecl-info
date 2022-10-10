@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ref">ref</p>
+ <c>pecl.php.net</c>
+ <v>0.5.0</v>
+ <st>stable</st>
+ <l>The MIT License (MIT)</l>
+ <m>pinepain</m>
+ <s>Soft and Weak references support in PHP</s>
+ <d>This extension adds Soft and Weak references support to PHP 7 and may serve as a ground for other data structures that require advanced referencing model.</d>
+ <da>2017-08-27 14:32:11</da>
+ <n>This release fix bugs, drop unused feature and soon to be EOL PHP 7.0 (see http://php.net/supported-versions.php for details).
+
+Changelist:
+ - Drop PHP &lt; 7.1 support (BC-breaking);
+ - Remove array notifier in a favor of callback (BC-breaking);
+ - Remove references comparison (BC-breaking);
+ - Fix bug when object handle reused but previous state was not clean;
+ - Fix wrong behavior when reference get deleted during notifier call;
+ - Fix memleaks;</n>
+ <f>33923</f>
+ <g>http://pecl.php.net/get/ref-0.5.0</g>
+ <x xlink:href="package.0.5.0.xml"/>
+</r>

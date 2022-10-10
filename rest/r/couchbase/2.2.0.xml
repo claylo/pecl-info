@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/couchbase">couchbase</p>
+ <c>pecl.php.net</c>
+ <v>2.2.0</v>
+ <st>stable</st>
+ <l>Apache V2</l>
+ <m>avsej</m>
+ <s>Couchbase Server PHP extension</s>
+ <d>The PHP client library provides fast access to documents stored in
+        a Couchbase Server.</d>
+ <da>2016-07-06 20:57:01</da>
+ <n>This is the GA release of the 2.2.0 SDK. It includes more features
+to support new Couchbase Server 4.5 release and bug fixes.
+
+Changes:
+* PCBC-393: Support for enhanced durability
+* PCBC-398: expose methods for parameterized N1QL queries
+* PCBC-382: cluster level authentication
+* Expose meta for N1QL and Search queries
+* Documentation updates and bug fixes</n>
+ <f>59251</f>
+ <g>http://pecl.php.net/get/couchbase-2.2.0</g>
+ <x xlink:href="package.2.2.0.xml"/>
+</r>

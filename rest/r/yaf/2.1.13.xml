@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/yaf">yaf</p>
+ <c>pecl.php.net</c>
+ <v>2.1.13</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>laruence</m>
+ <s>PHP Framework in PHP extension</s>
+ <d>Yaf is a PHP framework similar to zend framework, which is written in c and built as PHP extension</d>
+ <da>2012-04-24 05:25:12</da>
+ <n>- Added Yaf_View_Simple::eval
+- Supported short_open_tag in Yaf_View_Simple
+- Fixed a potential segfault while alternately access two yaf application host in one machine
+- Improve the Yaf_Route_Static/Supervar::route logic
+- Fixed bug that 404 occurred if the request is prefix with more than one slash
+- Fixed bug that free NULL pointer in Yaf_Loader::registerLocalNameSpace</n>
+ <f>81156</f>
+ <g>http://pecl.php.net/get/yaf-2.1.13</g>
+ <x xlink:href="package.2.1.13.xml"/>
+</r>

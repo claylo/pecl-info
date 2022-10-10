@@ -1,0 +1,24 @@
+{
+    "category": "Database",
+    "deprecated": false,
+    "description": "MySQLnd Userland Handler let you specify a userland handler for all\n   mysqlnd connections.",
+    "latestReleaseDate": "2010-08-10T02:16:30+00:00",
+    "latestVersion": "0.1.0a1",
+    "license": "PHP License",
+    "name": "mysqlnd_uh",
+    "summary": "MySQLnd Userland Handler",
+    "php8Mentioned": false,
+    "releases": {
+        "0.1.0a1": {
+            "version": "0.1.0a1",
+            "state": "alpha",
+            "license": "PHP License",
+            "releasedBy": "dsp",
+            "releaseDate": "2010-08-10T02:16:30+00:00",
+            "releaseNotes": "0.1.0 release",
+            "get": "http://pecl.php.net/get/mysqlnd_uh-0.1.0a1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

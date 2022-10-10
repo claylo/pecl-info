@@ -1,0 +1,44 @@
+{
+    "category": "PHP",
+    "deprecated": false,
+    "description": "molten is transparency tool for application tracing it self module call.\n\n     It trace php app core call and output zipkin/opentracing format trace log.\n\n     Provides features about muliti trace sapi, multi sampling type, upload tracing status, module control and muliti sink type.\n\n     It very easy to build a distributed systems tracing infrastructure base on php, already run on thousand instance on production env.",
+    "latestReleaseDate": "2017-08-17T06:35:39+00:00",
+    "latestVersion": "0.1.2beta",
+    "license": "Apache 2.0",
+    "name": "Molten",
+    "php8Mentioned": false,
+    "releases": {
+        "0.1.2beta": {
+            "version": "0.1.2beta",
+            "state": "beta",
+            "license": "Apache 2.0",
+            "releasedBy": "silkcut",
+            "releaseDate": "2017-08-17T06:35:39+00:00",
+            "releaseNotes": "molten 0.1.2 beta\n* remove RTLD_NOW build error.",
+            "get": "http://pecl.php.net/get/Molten-0.1.2beta",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "0.1.1beta": {
+            "version": "0.1.1beta",
+            "state": "beta",
+            "license": "Apache 2.0",
+            "releasedBy": "silkcut",
+            "releaseDate": "2017-08-17T06:30:04+00:00",
+            "releaseNotes": "molten 0.1.0 beta\n* support pdo/mysqli/memcached/curl/redis/guzzle/es call tracing.\n* support zipkin format trace log for zipkin server.\n* get it self running status cross web server.\n* muliti report format for different env.",
+            "get": "http://pecl.php.net/get/Molten-0.1.1beta",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "0.1.0beta": {
+            "version": "0.1.0beta",
+            "state": "beta",
+            "license": "Apache 2.0",
+            "releasedBy": "silkcut",
+            "releaseDate": "2017-08-16T08:03:17+00:00",
+            "releaseNotes": "molten 0.1.0 beta\n* support pdo/mysqli/memcached/curl/redis/guzzle/es call tracing.\n* support zipkin format trace log for zipkin server.\n* get it self running status cross web server.\n* muliti report format for different env.",
+            "get": "http://pecl.php.net/get/Molten-0.1.0beta",
+            "SPDX-License-Identifier": "Apache-2.0"
+        }
+    },
+    "summary": "molten is transparency tool for application tracing it self module call",
+    "SPDX-License-Identifier": "Apache-2.0"
+}

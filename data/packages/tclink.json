@@ -1,0 +1,34 @@
+{
+    "category": "Payment",
+    "deprecated": false,
+    "description": "This package provides a module for using TCLink directly from PHP scripts.\nTCLink is a thin client library to allow your e-commerce servers to connect\nto the TrustCommerce payment gateway.",
+    "latestReleaseDate": "2003-09-10T23:48:00+00:00",
+    "latestVersion": "3.4.0",
+    "license": "LGPL",
+    "name": "TCLink",
+    "php8Mentioned": false,
+    "releases": {
+        "3.4.0": {
+            "version": "3.4.0",
+            "state": "stable",
+            "license": "LGPL",
+            "releasedBy": "witten",
+            "releaseDate": "2003-09-10T23:48:00+00:00",
+            "releaseNotes": "new upstream release",
+            "get": "http://pecl.php.net/get/TCLink-3.4.0",
+            "SPDX-License-Identifier": "LGPL-2.1-or-later"
+        },
+        "3.3.1": {
+            "version": "3.3.1",
+            "state": "stable",
+            "license": "LGPL",
+            "releasedBy": "witten",
+            "releaseDate": "2003-01-14T23:02:00+00:00",
+            "releaseNotes": "initial pear/PECL release",
+            "get": "http://pecl.php.net/get/TCLink-3.3.1",
+            "SPDX-License-Identifier": "LGPL-2.1-or-later"
+        }
+    },
+    "summary": "Enables credit card processing via the TrustCommerce payment gateway",
+    "SPDX-License-Identifier": "LGPL-2.1-or-later"
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/oauth">oauth</p>
+ <c>pecl.php.net</c>
+ <v>2.0.5</v>
+ <st>stable</st>
+ <l>BSD</l>
+ <m>jawed</m>
+ <s>oauth consumer extension</s>
+ <d>OAuth is an authorization protocol built on top of HTTP which allows applications to securely access data without having to store usernames and passwords.
+
+Requirements: ext/hash (now a part of PHP core)</d>
+ <da>2020-02-06 05:46:03</da>
+ <n>* fix config.w32 (cmb)
+* fix 7.3 segfault (rlerdorf)
+* replace uint-uint32_t, ulong-zend_ulong (Jan-E)
+* handle cases where a passed in array might be a const (keyurdg)
+* Fix configure for recent cURL versions  (cmb)
+* Bug #76722 cURL library headers not recognized on Debian 9 (js361014)</n>
+ <f>49641</f>
+ <g>https://pecl.php.net/get/oauth-2.0.5</g>
+ <x xlink:href="package.2.0.5.xml"/>
+</r>

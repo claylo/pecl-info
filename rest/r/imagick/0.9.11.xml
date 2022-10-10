@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/imagick">imagick</p>
+ <c>pecl.php.net</c>
+ <v>0.9.11</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>chregu</m>
+ <s>Provides a wrapper to the ImageMagick/GraphicsMagick library.</s>
+ <d>It's a native php-extension. 
+        See the examples in the examples/ directory for some hints on how to use it.
+        A compiled windows extension is available at http://kromann.info/pear-pecl.php .
+        You need the ImageMagick libraries from www.imagemagick.org or GraphicsMagick libraries from
+        http://www.graphicsmagick.org/ to get it running.
+        ImageMagick 6 support is EXPERIMENTAL. Please report successes or failures.
+</d>
+ <da>2004-06-28 13:23:00</da>
+ <n>- Fix some segfaults on errors  (by Andrei Nigmatulin)
+- EXPERIMENTAL support for ImageMagick &gt;= 6.0.0 (hint by Stanislav Yadykin). Please report successes or failures.</n>
+ <f>69562</f>
+ <g>http://pecl.php.net/get/imagick-0.9.11</g>
+ <x xlink:href="package.0.9.11.xml"/>
+</r>

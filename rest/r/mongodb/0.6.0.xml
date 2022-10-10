@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>0.6.0</v>
+ <st>alpha</st>
+ <l>New BSD License</l>
+ <m>bjori</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundemental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2015-05-05 16:24:43</da>
+ <n>* PHPC-282: Test for multiple Cursor::toArray() calls
+* PHPC-255: Cursors cannot rewind after starting iteration
+* PHPC-282: Remove tests for multiple iterators on the same Cursor
+* PHPC-282: Cursor should not yield multiple iterators
+* PHPC-284: Create MongoDB\Driver\Exception\LogicException class
+* PHPC-283: UnexpectedValueException for invalid bsonSerialize() return value
+* PHPC-280: WriteConcern should always set journal/fsync boolean args
+* PHPC-179: Show unset journal/fsync as null in WriteConcern debug handler
+* PHPC-274: Regression test for root BSON\Serializable encoding
+* PHPC-275: object_to_bson() handling for invalid bsonSerialize() retval
+* PHPC-274: Fix zval_to_bson() encoding of BSON\Serializable objects
+* PHPC-278: nModified may be null for legacy writes
+* PHPC-269: Travis mojo again
+* PHPC-272: Move exceptions into MongoDB\Driver\Exception namespace</n>
+ <f>702206</f>
+ <g>http://pecl.php.net/get/mongodb-0.6.0</g>
+ <x xlink:href="package.0.6.0.xml"/>
+</r>

@@ -1,0 +1,44 @@
+{
+    "category": "HTML",
+    "deprecated": false,
+    "description": "HTML parser extension based on the ekhtml library \n    (http://ekhtml.sourceforge.net/)",
+    "latestReleaseDate": "2007-11-28T17:36:54+00:00",
+    "latestVersion": "1.0.0",
+    "license": "PHP",
+    "name": "html_parse",
+    "summary": "HTML parser extenion",
+    "php8Mentioned": false,
+    "releases": {
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "hholzgra",
+            "releaseDate": "2007-11-28T17:36:54+00:00",
+            "releaseNotes": "- first stable release",
+            "get": "http://pecl.php.net/get/html_parse-1.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.9.0": {
+            "version": "0.9.0",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "hholzgra",
+            "releaseDate": "2006-02-20T13:38:25+00:00",
+            "releaseNotes": "- preparing for 1.0.0 release",
+            "get": "http://pecl.php.net/get/html_parse-0.9.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1": {
+            "version": "0.1",
+            "state": "alpha",
+            "license": "PHP License",
+            "releasedBy": "hholzgra",
+            "releaseDate": "2003-06-24T16:45:00+00:00",
+            "releaseNotes": "- first experimental draft",
+            "get": "http://pecl.php.net/get/html_parse-0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

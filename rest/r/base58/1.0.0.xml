@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/base58">base58</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0</v>
+ <st>stable</st>
+ <l>MIT License</l>
+ <m>jasny</m>
+ <s>Encode and decode data with base58</s>
+ <d>PHP extension for base58 encoding and decoding using the Bitcoin alphabet</d>
+ <da>2020-12-26 19:51:46</da>
+ <n>Release as v1.0.0</n>
+ <f>6917</f>
+ <g>https://pecl.php.net/get/base58-1.0.0</g>
+ <x xlink:href="package.1.0.0.xml"/>
+</r>

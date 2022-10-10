@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/json_post">json_post</p>
+ <c>pecl.php.net</c>
+ <v>1.0.2</v>
+ <st>stable</st>
+ <l>BSD-2-Clause</l>
+ <m>mike</m>
+ <s>JSON POST handler</s>
+ <d>This extension provides a PHP content type handler for &quot;application/json&quot; and
+&quot;text/json&quot; to PHP's form data parser. If the `Content-Type` of an incoming
+request is `text/json`, the JSON contents of the request body will by parsed
+into `$_POST`.
+
+This extension does not provide any constants, functions or classes.</d>
+ <da>2020-05-25 08:42:31</da>
+ <n>* Fix gh-issue #1: segfault on 7.4 with empty array (Mark Rigby-Jones)</n>
+ <f>6642</f>
+ <g>https://pecl.php.net/get/json_post-1.0.2</g>
+ <x xlink:href="package.1.0.2.xml"/>
+</r>

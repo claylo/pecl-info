@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/sca_sdo">SCA_SDO</p>
+ <c>pecl.php.net</c>
+ <v>1.2.2</v>
+ <st>stable</st>
+ <l>Apache 2.0</l>
+ <m>mfp</m>
+ <s>Service Component Architecture (SCA) and Service Data Objects (SDO) for PHP</s>
+ <d>Service Data Objects (SDOs) enable PHP applications to work with data from different sources (typically a database query or an XML file) using a single interface. SCA for PHP allows a PHP programmer to write reusable components (classes) in PHP, which can be called either locally, or in a a variety of ways remotely (soap web services, xml-rpc, json-rpc, REST, etc), but always with the same interface.
+ 
+</d>
+ <da>2007-06-22 11:16:25</da>
+ <n>* Fixes for PECL bugs:
+   - PECL#10925 - Don't treat magic PHP methods as service operations
+   - PECL#10989 - don't automatically make all types in the wsdl nillable
+   - PECL#10994 - Business Exceptions Data Returned to Client
+   - PECL#11004 - WSDL Generated Does Not Validate
+   - PECL#11012 - Visual Studio Consumption of SCA Generated WSDL
+ * Other:
+   - Pick up revision 546761 of Tuscany SDO code.
+   - Include new eBay soap binding
+   - Tactical version of the in memory caching of the data model enabled for eBay binding
+   - Unit tests keep going to conclusion even when extensions are missing
+   - Added the eServiceStore example - shows several components which can be make local or
+     remote with only a swift change of the @binding annotations.</n>
+ <f>492328</f>
+ <g>http://pecl.php.net/get/SCA_SDO-1.2.2</g>
+ <x xlink:href="package.1.2.2.xml"/>
+</r>

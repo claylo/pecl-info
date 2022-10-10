@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.3.0</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>jmikola</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundemental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2017-09-19 20:45:03</da>
+ <n>** Bug
+    * [PHPC-586] - Create regression tests for tailable cursor iteration
+    * [PHPC-624] - WriteResult::getUpsertedIds() only supports ObjectIDs and integers
+    * [PHPC-692] - Check for phongo_bson_to_zval_ex() failures in Server methods
+    * [PHPC-712] - Driver should validate BSON documents before insert and update
+    * [PHPC-875] - Allow compiling without SSL
+    * [PHPC-895] - Require 16-byte data length for Binary UUID subtypes 0x03 and 0x04
+    * [PHPC-914] - php mongodb connect 'SCRAM Failure: invalid salt length of 0 in sasl step2' exception
+    * [PHPC-939] - BSON classes should not assign public properties after var_dump()
+    * [PHPC-950] - Skip APM callbacks if subscriber HashTable is uninitialized
+    * [PHPC-951] - CursorId is a signed 64-bit integer
+    * [PHPC-964] - Ensure SASL output variables are always defined in config.m4
+    * [PHPC-974] - Converting JSON to BSON to PHP introduces gaps in array indexes
+    * [PHPC-981] - APM functions should reside in MongoDB\Driver\Monitoring namespace
+    * [PHPC-982] - Include null byte in key length when accessing subscriber HashTable in PHP 5
+    * [PHPC-983] - MongoDB\BSON\toPHP() arg info is missing type map parameter
+    * [PHPC-994] - Fix HAVE_SOCKLEN_T macro redefinition for Windows builds
+    * [PHPC-1005] - Ensure array symtable converts to object proptable in PHP 7.2
+    * [PHPC-1006] - Do not modify memory of Persistable::bsonSerialize() return value
+
+** Epic
+    * [PHPC-909] - Spring cleaning for 1.3.0
+
+** New Feature
+    * [PHPC-349] - Application Performance Monitoring (APM)
+    * [PHPC-382] - Allow zval_to_bson() to return the ID irrespective of ID generation
+    * [PHPC-471] - BulkWrite::insert() should always return the document's ID
+    * [PHPC-587] - CursorId should serialize to BSON as 64-bit integer
+    * [PHPC-772] - Parse authMechanism options in URI options array
+    * [PHPC-839] - Add option maxAwaitTimeMS on getMore commands
+    * [PHPC-926] - Implement Extended JSON spec
+    * [PHPC-976] - Create isDefault() method for read and write concerns
+    * [PHPC-985] - Implement Timestamp::getIncrement() and getTimestamp() methods
+    * [PHPC-988] - PHP 5.x segfault if TypeWrapper::createFromBSONType() throws exception
+
+** Task
+    * [PHPC-302] - Throw exceptions for unsupported BSON types
+    * [PHPC-640] - Implement interfaces for userland BSON type classes
+    * [PHPC-765] - Connection string spec compliance
+    * [PHPC-892] - Upgrade libbson and libmongoc to 1.6.0
+    * [PHPC-907] - Remove PHONGO_API macro for exported symbols
+    * [PHPC-908] - Do not declare MINIT functions for each driver class
+    * [PHPC-910] - Reorganize BSON encoding and decoding sources
+    * [PHPC-911] - Prefix symbols and use static decls whenever possible
+    * [PHPC-915] - Document precedence of authMechanismProperties URI option over named GSSAPI options
+    * [PHPC-928] - Sync release files in PECL package generation script
+    * [PHPC-929] - Skip BSON corpus test for embedded null in code string
+    * [PHPC-932] - Remove reference to Manager on Cursor, Server, and WriteResult objects
+    * [PHPC-953] - Do not parse undocumented &quot;database&quot; key in URI options array
+    * [PHPC-957] - Use libmongoc constants for applicable URI options
+    * [PHPC-959] - Do not check for null return from mongoc_collection_find_with_opts()
+    * [PHPC-977] - Upgrade libbson and libmongoc to 1.7.0
+    * [PHPC-992] - Rename to[Canonical|Relaxed]JSON() to to[Canonical|Relaxed]ExtendedJSON()
+    * [PHPC-996] - Remove support for PHP 5.4
+    * [PHPC-997] - Update date/time handling code due to changes in timelib
+    * [PHPC-1004] - Rename ObjectID to ObjectId
+    * [PHPC-1007] - Upgrade libbson and libmongoc to 1.8.0
+    * [PHPC-1008] - Use SETUP_OPENSSL() in config.w32 if available
+
+** Improvement
+    * [PHPC-579] - Throw exception for invalid BulkWrite::update() newObj argument
+    * [PHPC-628] - executeBulkWrite() should throw InvalidArgumentException for empty BulkWrite
+    * [PHPC-846] - Throw if maxStalenessSeconds URI option is out of range
+    * [PHPC-887] - Throw exceptions for unexpected types in URI options array
+    * [PHPC-904] - ReadPreference constructor should accept strings
+    * [PHPC-930] - Do not throw exceptions for critical and error levels in libmongoc log callback
+    * [PHPC-935] - Validate filter and options in Query constructor
+    * [PHPC-937] - Cursor::setTypeMap() and toPHP() should return early if type map is invalid
+    * [PHPC-941] - Introduce API for converting BSON to canonical and relaxed extended JSON
+    * [PHPC-942] - Use mongoc_uri_new_with_error() to improve URI error reporting
+    * [PHPC-944] - MONGOC_ERROR_COMMAND_INVALID_ARG should yield InvalidArgumentException
+    * [PHPC-1001] - Report field name for invalid UTF-8 and unsupported zval types during BSON encoding</n>
+ <f>927842</f>
+ <g>http://pecl.php.net/get/mongodb-1.3.0</g>
+ <x xlink:href="package.1.3.0.xml"/>
+</r>

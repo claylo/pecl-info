@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/zendopcache">zendopcache</p>
+ <c>pecl.php.net</c>
+ <v>7.0.1</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>laruence</m>
+ <s>The Zend OPcache provides faster PHP execution through opcode caching and optimization.</s>
+ <d>The Zend OPcache provides faster PHP execution through opcode caching and
+  optimization. It improves PHP performance by storing precompiled script
+  bytecode in the shared memory. This eliminates the stages of reading code from
+  the disk and compiling it on future access. In addition, it applies a few
+  bytecode optimization patterns that make code execution faster.</d>
+ <da>2013-03-25 04:49:10</da>
+ <n>- Fixed Bug #64490 (add __FreeBSD_kernel__ to allowed FreeBSD defs)
+- Fixed Bug #64482 (Opcodes for dynamic includes should not be cached)
+- Fixed Bug #64353 (Built-in classes can be unavailable with dynamic includes and Optimizer+)
+- Fixed compatibility with ext/phar
+- Fixed Issue #58 (PHP-5.2 compatibility)
+- Fixed Issue #57 (segfaults in drupal7)
+- Fixed Issue #54 (PECL install adds extension= instead of zend_extension= to php.ini)-iii
+- Allows exclusion of large files from being cached
+- Save a stat() call by calling sapi_module.get_stat()
+- Add optional flag to opcache_get_status()
+- Separate &quot;start_time&quot; from &quot;last_restart_time&quot;</n>
+ <f>85076</f>
+ <g>http://pecl.php.net/get/zendopcache-7.0.1</g>
+ <x xlink:href="package.7.0.1.xml"/>
+</r>

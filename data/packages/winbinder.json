@@ -1,0 +1,134 @@
+{
+    "category": "GUI",
+    "deprecated": false,
+    "description": "WinBinder is a new extension that allows PHP programmers to build native Window applications. It wraps the Windows API in a lightweight, easy-to-use library, so that program creation is quick and straightforward.",
+    "latestReleaseDate": "2006-06-08T19:49:48+00:00",
+    "latestVersion": "0.46.0",
+    "license": "BSD License",
+    "name": "WinBinder",
+    "php8Mentioned": false,
+    "releases": {
+        "0.46.0": {
+            "version": "0.46.0",
+            "state": "alpha",
+            "license": "BSD License",
+            "releasedBy": "sfrausch",
+            "releaseDate": "2006-06-08T19:49:48+00:00",
+            "releaseNotes": "This is the last maintenance release of the alpha branch. WinBinder now does fully support the following PHP versions: 4.3.10 up to 4.4.2 and 5.0.3 up to 5.1.4.\n\nHIGHLIGHTS:\n\n- added the new Form Editor (FE) developed by Rubem and removed the old Layout Editor (LE)\n\nENHANCEMENTS:\n\n- improved PHP version checking in winbinder.php\n\n- In PHP.INI for version 5.0 and 5.1: added E_STRICT flag to entry error_reporting\n\n- created PHP 5.1.1 path and project files for lcc-win32\n\n- added and optional extra parameter (usually called $lparam3) to window callback functions. This was done via wbCallUserFunction()\n\n- on windows that have the WBC_RESIZE style, $lparam3 (in the callback function) now receives the size of the client area as a LONG. Usually a call to wb_get_size($window, true) would produce the same effect, but it's there anyway to take advantage of the new $lparam3\n\n- Changes in make_release.phpw:\n\n. even less \"USER PARAMETERS\" to set up (7 strings only)\n. force DEBUG = False in wb_setup.pas\n. slight adjustments in screen layout\n. more adjustments to include PHP 5.1.1 files\n. checks if zip file was actually generated\n. other changes\n\n- small changes in welcome.phpw\n\n- examples/hyperlink.phpw: changed to show \"finger\" cursor and underlined text\n\n- examples/printer.phpw: added example how to print directly from a WinBinder enabled application\n\n- resources/wb.ico: added new WinBinder icon\n\nBUG FIXES:\n\n- wb_generic.inc.php: functions generate_ini and parse_ini do now handle double quotes correctly; fixed missing escaping of the '$' character\n\n- wb_windows.inc.php: function wb_set_selected now processes check boxes in menu items as it should; wb_get_text() now returns an array with the whole contents of a ListView control, as stated in the manual - did return null instead\n\n- solved memory leak that occurred on every function call: added some extra calls to efree() in function wbCallUserFunction() in module phpwb_wb_lib.c\n\n- wb_control.c: Rectified wb_set_range() slider TBM_SETRANGEMAX action and other aspects of this function\n\n- WBC_MOUSEMOVE messages were not being sent in certain situations\n\n- InvisibleArea was subclassed to process and send WM_MOUSEMOVE messages to the callback\n\n- wb_refresh() (and wbRefreshControl()):\n\n. completely rewrote the whole function\n. default value of parameter 'now' was changed to TRUE\n. now it invalidates and redraws only a part of the screen or control when (still undocumented) xpos/ypos/width/height parameters are passed to it. Was buggy prior to this release.\n. probably a bit faster for most operations\n. if the wb_refresh() command is issued and the xpos/ypos/width/height are set, the window callback function (in PHP) receives a pointer to rectangle (About to change! Should be the area instead, and an array would be great.) as $lparam3. If wb_refresh() acts on the whole window, $lparam3 is zero.\n\n  Dimensions should be obtained from $lparam3\n  as follows:\n\n  $address = wb_peek($lparam3, 16);\n  $num = unpack('L4n', $address);\n  $xpos = $num['n1'];\n  $ypos = $num['n2'];\n  $width = $num['n3'] - $xpos;\n  $height = $num['n4'] - $ypos;\n\n- Added handling of the official PHP 4.4.2 bug reported at http://bugs.php.net/bug.php?id=36671 and regarding the function file_get_contents in examples/welcome.phpw\n\n- Changes in make_release.phpw:\n\n. now correctly handles/saves the new version no. structure\n\n- Changes in setup:\n\n. many changes and corrections to wb_setup.iss (PHP 5.0 and 5.1, freeimage.dll, etc.)\n. separated the script section from wb.iss into wb_setup.pas. A separate file allows correct syntax highlighting in a code editor and allows testing script changes without leaving ISTool (Inno Setup UI)\n. other changes\n\nOTHER ACTIVITIES\n\n- updated the PHP 4 engine and the respective extensions to 4.4.2\n\n- removed the redundant PHP binaries and accompanying files (not the extensions) for 5.0.5 and 5.1.2\n\n- uploaded new \"minimal\" PHP 4.4.2, 5.0.5 and 5.1.2 versions as well as the respective extensions to SF\n\nFor further enhancements and bug fixes since the last official release 0.43.164 see the change log.",
+            "get": "http://pecl.php.net/get/WinBinder-0.46.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.43.164": {
+            "version": "0.43.164",
+            "state": "alpha",
+            "license": "BSD",
+            "releasedBy": "sfrausch",
+            "releaseDate": "2005-11-24T15:19:58+00:00",
+            "releaseNotes": "- New installer includes PHP version 4.4.1, SQLite, FreeImage, HTML sources for manual and other files. Server for downloading PHP 5.0.5 is selectable\n- New, much better folder structure (thanks Techtonik, Stefano)\n- wb_load_image() and wb_set_image() can load/set small icons (thanks EK)\n- wb_get_size() can also return the dimensions of a text in pixels\n- wb_sys_dlg_save() now allows a default extension to be added to file names\n- wb_set_selected() allows selection of root node in treeviews\n- Treeviews now keep the selected item highlighted (usually in gray) when focus is lost\n- Implemented non-read-only (editable) combo boxes\n- New function: wb_draw_ellipse()\n- Included parameter for dashed line styles in some drawing functions\n- Lots of changes and fixes in the PHP scripts, as well as a couple of new ones\n\n... and many other fixes and changes as usual. Please make sure you read the changelog for the complete list!",
+            "get": "http://pecl.php.net/get/WinBinder-0.43.164",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.41.154": {
+            "version": "0.41.154",
+            "state": "alpha",
+            "license": "BSD",
+            "releasedBy": "rubs",
+            "releaseDate": "2005-05-29T18:24:10+00:00",
+            "releaseNotes": "- Implemented the much awaited HTML control\n- New memory constants for wb_get_system_info()\n- Easy way to set/retrieve columns widths from ListViews\n- Custom-drawn windows now created with system background color\n- Optional standard window border for naked windows\n- Several bug fixes, corrections to manual and other improvements\n\nPlease make sure you read the changelog!",
+            "get": "http://pecl.php.net/get/WinBinder-0.41.154",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.40.152": {
+            "version": "0.40.152",
+            "state": "alpha",
+            "license": "BSD",
+            "releasedBy": "rubs",
+            "releaseDate": "2005-05-03T17:40:40+00:00",
+            "releaseNotes": "******************************************************************************\n*           WARNING: THIS VERSION IS NOT 100% BACKWARDS COMPATIBLE.          *\n*                 SOME CHANGES WILL AFFECT EXISTING CODE!                    *\n******************************************************************************\n\nThis release has many advanced features and contains the biggest set of changes since the beginning of the WinBinder project.\n\nNew controls: InvisibleArea, Calendar, HyperLink (thanks to Davide)\nTreeviews learned lots of new tricks: associate variables to treeview nodes, expand/collapse nodes, create and delete nodes at will, and more\nAssociate integer values to combo boxes and list boxes\nMaximum/minimum window size, resize and reposition controls when main window changes size, fake split windows\nBig changes and enhancements to the documentation and example scripts\nPersistent window drawing mechanism\nNested tab controls possible\nSeveral new functions\nNew tool for easier script execution\nLots of fixes and new functionalities\n\nPlease make sure you see the changelog.txt and db_changelog.txt for details.\n\n******************************************************************************\n*           WARNING: THIS VERSION IS NOT 100% BACKWARDS COMPATIBLE.          *\n*                 SOME CHANGES WILL AFFECT EXISTING CODE!                    *\n******************************************************************************",
+            "get": "http://pecl.php.net/get/WinBinder-0.40.152",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.38.133": {
+            "version": "0.38.133",
+            "state": "alpha",
+            "license": "BSD",
+            "releasedBy": "rubs",
+            "releaseDate": "2005-03-07T17:12:03+00:00",
+            "releaseNotes": "- Applications can be made single instance\n- Implemented Always on Top windows\n- Windows with no border, no title bar and draggable\n- New and improved PHP database library (thanks to Hans) with several enhancements and new documentation\n- Programatically minimize / maximize / restore application windows\n- New control class for bimapped buttons with automatic tooltips\n- Change icons in the taskbar\n- wb_get_system_info(\"DiskDrives\") now returns the list of available disk drives\n- wb_get_image_size() removed, merged with wb_get_size() which now returns icon sizes too\n- Some odd constant names changed at last\n- In most (but not all) errors, the warning message will now display the name of the function where the error occurred\n- New, smaller php-win.exe does not need php.exe anymore\n- Fixed: Closing modeless dialogs terminates applications\n- Fixed: Persistent icon bug in ListViews\n- Fixed: After switching to another program and back, wb_destroy_window() destroyed the main window instead of the dialog\n- Fixed: Modeless dialogs did not always pass the focus to the calling window when closed\n- As always, many other fixes and enhancements, several new sample scripts and many additions and corrections to the documentation.\n\nPlease make sure you see the changelog.txt and db_changelog.txt for details.",
+            "get": "http://pecl.php.net/get/WinBinder-0.38.133",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.36.126": {
+            "version": "0.36.126",
+            "state": "alpha",
+            "license": "BSD",
+            "releasedBy": "rubs",
+            "releaseDate": "2005-02-09T21:04:00+00:00",
+            "releaseNotes": "This release consolidates all patches, has many user-requested changes, several new functions an sereval enhancements in the manual. Please see below for a reasonable complete list.\n\n------------------------------------------------------------------------------\nChanges in library\n------------------------------------------------------------------------------\n\n- \"plus\" string accepted as accelerator in menus or in wb_create_control($mainwin, Accel, ...)\n- All styles that can be set with wb_set_style() can now be set on wb_create_control() too (but not vice-versa yet)\n- Arrow keys will change pages of a tab control with the keyboard focus (Part of item #353)\n- Edit controls send the WBC_KEYPRESS notification message when a key is pressed. lparam2 contains the key code\n- Fixed function wb_set_style(), was broken\n- Fixed inconsistency in WBC_DBLCLICK: was being tested in style instead of lparam (thanks Alexandre)\n- Item #300 (resize toolbars automatically) - already implemented\n- ListView: header selection goes now through WBC_HEADERSEL notification message in $lparam1; Header number is $lparam2. Thus WBC_HEADERSEL must be included as lparam in wb_create_window(). CAUTION: THIS CHANGE MAY BREAK EXISTING CODE.\n- Message WBC_HEADERSEL is sent to callback function when a ListView header is clicked\n- More options in wb_wait(): WBC_MOUSEUP, WBC_KEYUP\n- Moved the OOi interface to a separate file\n- New aliases accepted as accelerators in menus or in wb_create_control($mainwin, Accel, ...): \"ESC\", \"PGDN\", \"PGUP\", \"INS\", \"DEL\"\n- New constant WBC_KEYDOWN, used in wb_wait()\n- New constant WBC_KEYUP, used in wb_wait()\n- New constant: FTA_REGULAR (Same as FTA_NORMAL)\n- New constant: WBC_HEADERSEL\n- New function wb_wait() can be used as a simple delay or to verify if a key or mouse button was pressed, useful for lengthy operations\n- New function: wb_draw_image() (Issue #138)\n- New function: wb_draw_text()\n- New function: wb_get_focus(), returns the control or window that has the focus\n- New notification: WBC_KEYPRESS\n- New wb_get_system_info() parameters (part of item #276):\n\t- \"commandline\": The original Windows command line including the executable file (PHP.EXE)\n\t- \"consolemode\": A boolean indicating whether console (DOS box) is active or not\n\t- \"computername\": The name of the computer, in a network\n\t- \"username\":  The name of the user, in a network\n\t- \"screenarea\": The total area (x, y, width, height) of the screen, in pixels\n\t- \"workarea\": The valid area (x, y, width, height) of the screen, in pixels\n\t- \"exepath\": Path to the main executable (PHP.EXE)\n\t- \"systemfont\": The default interface font, which will be used in the controls\n- No need to include notification messages as lparam when creating a window\n- Parameter linewidth works correctly in wb_draw_rect() now\n- Solved bug #399, \"Menu access keys won't work in some apps\"\n- Solved issue #299, \"Optional dotted lines in treeviews\", using wb_set_style()\n- Solved serious leakage in some wb_draw* functions\n- Some resource leaks solved\n- Tab control: tab selection goes now through WBC_HEADERSEL notification message in $lparam1; Tab number is $lparam2. Thus WBC_HEADERSEL must be included as lparam in wb_create_window(). CAUTION: THIS CHANGE MAY BREAK EXISTING CODE.\n- wb_create_font() had undefined values for optional parameters, fixed\n- wb_create_image(): two optional, extra parameters for use with image libraries (like FreeImage): bmi, bits\n- wb_draw_text() can accept flags WBC_CENTER, WBC_LEFT, WBC_RIGHT, WBC_LINES, WBC_ELLIPSIS\n- wb_draw_text() now accepts three different vertical alignments: new constants WBC_TOP, WBC_BOTTOM, WBC_MIDDLE\n- wb_exec() will give a warning if the executable/target file does not exist\n- wb_exec(): new 'o' parameter will \"shell execute\" a phpw file instead of running it. It will usually run it anyway, except if the user has changed the .phpw association.\n- wb_exec(): new parameters 'c' or 'w' run a phpw file in console or windowed mode, respectively\n- wb_poke(): an incorrect NULL test was improperly invalidating some results. Fixed.\n- wb_send_message(): 0xFFFF (65535) can be used as first parameter (HWND_BROADCAST in Windows API)\n- wb_set_style(): changed parameter to set/unset style (bool)\n- wb_wait: changed parameter order, now flags is last\n- Bug fix: wb_wait was always returning upon keyboard events regardless of flags: fixed.\n- Other changes\n\n------------------------------------------------------------------------------\nChanges in applications and examples\n------------------------------------------------------------------------------\n\n- /Code/tests directory renamed to /Code/Samples\n- Changed default Setup directory to C:\\WINBINDER\n- Changes and fixes in listview_sort.phpw, dblclick.phpw, ttfreader.phpw, tabcontrol.phpw and others\n- Code page data in application dll_functions.phpw\n- Code samples from /Code/Hello, /Code/minimal, /Code/calc, /Code/TTFReader moved to /Code/Samples\n- Corrections and small changes to make_release.phpw\n- In listview_sort.phpw, handler was not processing IDCLOSE. Fixed.\n- In test_struct.phpw, STRUCT_WBOBJ and STRUCT_WBOBJ_SIZE are undefined constants.\n- More examples: wait.phpw\n- New DB interface by Hans (see doc)\n- New OOi by Alexandre (see doc), moved to separate archive\n- New SA (SQLAdmin) app by Hans (see doc)\n- New examples: combobox.phpw, wait.phpw, sysinfo.phpw, accel.phpw\n- New sample: dib.phpw, needs freeimage.inc.php\n- Removed some PHPW sample files, added some, renamed some\n- Script freeimage.inc.php added to the distribution\n- To Do changed so it can be called from anywhere\n- Two new small bitmaps (edit, note) (no big deal)\n- Welcome has a new button to call the To Do app\n- manytests_main.phpw: renamed some files, other small tweaks\n- ttfreader.phpw: one phpw source file only, new accelerators, double-click now closes the Font Select dialog, several small fixes\n- Other fixes\n\n------------------------------------------------------------------------------\nChanges in documentation\n------------------------------------------------------------------------------\n\n- Corrected/enhanced/added at least the following help topics:\n\t- wb_call_function()\n\t- wb_create_control()\n\t- wb_create_font()\n\t- wb_create_image()\n\t- wb_create_window()\n\t- wb_get_function_address()\n\t- wb_draw_line\n\t- wb_draw_rect\n\t- wb_draw_text()\n\t- wb_exec()\n\t- wb_get_focus()\n\t- wb_get_function_address()\n\t- wb_get_size()\n\t- wb_get_system_info()\n\t- wb_load_library()\n\t- wb_send_message()\n\t- wb_set_focus()\n\t- wb_set_size()\n\t- wb_set_style()\n\t- wb_set_visible()\n\t- wb_wait()\n- Many new tips, new sample code, more corrections, more keywords\n- More info on Callback functions and window handlers, Windows messages, and others\n- New default position for help window (winbinder_help.chm)\n- Other changes\n\n------------------------------------------------------------------------------\nChanges in C code\n------------------------------------------------------------------------------\n\n- A call to wbSetStyle() was added to wbCreateControl(), replaces some existing code\n- Added parameter bSet to wbSetStyle()\n- Assignments to hCurrentDlg in the application window were removed in wb_window.c. This helps to solve part of bug #399\n- EditBox was subclassed to notify keystrokes to main window\n- New C funtions: wbDrawBitmap(), wbGetFont(), wbDrawText()\n- New static function EditProc() in wb_control.c\n- Removed wbGetWindowStyle(), wbSetWindowStyle() (low-level functions)\n- Removed wbIsWBObj() call in DrawEnd(): this solves leakage in wb_draw* functions\n- SetFocus() call was removed in TabPageProc: This solves bug #399\n- Some new WBC_* constants in wb.h, changed phpwb_export.c accordingly\n- Tab controls have style WS_TABSTOP as before with no visible problems. This restores the right/left arrow functionality, but does not yet give the focus to other controls with tab/alt+tab\n- WBC_GETFOCUS, WBC_HEADERSEL values changed\n- wbDrawRect() now uses MoveTo / LineTo instead of FrameRect()\n- wbDrawText() now processes text flags\n- wbExec() calls WB apps, param may be \"windowed\", \"console\" or nothing\n- wbGetSystemInfo() changed to LONG\n- wbMakeAccelFromString(): buffer increased to 99 characters, strings added\n- wb_window.c: DefaultWBProc(): WBWM_KEYPRESS callback\n- Many other changes",
+            "get": "http://pecl.php.net/get/WinBinder-0.36.126",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.34.117": {
+            "version": "0.34.117",
+            "state": "alpha",
+            "license": "BSD",
+            "releasedBy": "rubs",
+            "releaseDate": "2005-01-05T21:25:00+00:00",
+            "releaseNotes": "- New setup application for easy installation\n- New functions to directly access Windows API\n- Many changes and enhancements to the manual and new overviews\n- New / enhanced PHP code samples\n- New DLLs for PHP versions 5.0.3 and 4.3.10\n- Bug fixes\n- Other changes\n\nPlease be sure to check the changelog for the complete list.",
+            "get": "http://pecl.php.net/get/WinBinder-0.34.117",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.33.114": {
+            "version": "0.33.114",
+            "state": "alpha",
+            "license": "BSD",
+            "releasedBy": "rubs",
+            "releaseDate": "2004-12-24T01:32:00+00:00",
+            "releaseNotes": "- Added new DLL for PHP 5.0.3. This solves the \"module API=20040412\" vs. \"module API=20041030\" issue\n\nOther changes from version 0.33 build 113:\n\n- New functions to change fonts\n- New functions to draw lines and rectangles (filled and hollow)\n- Callback functions can handle left/middle/right mouse buttons, mouse movement, double-click, down/up mouse buttons, Ctrl/Shift/Alt key modifiers\n- StatusBar width and position are automatically updated when main window is resized\n- New and updated OOi interface (by Alexandre) with new Minesweeper clone example\n- Several fixes and updates in manual\n- Several bug fixes, other enhancements\n\nMake sure you check the changelog for the complete list.",
+            "get": "http://pecl.php.net/get/WinBinder-0.33.114",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.33.113": {
+            "version": "0.33.113",
+            "state": "alpha",
+            "license": "BSD",
+            "releasedBy": "rubs",
+            "releaseDate": "2004-12-10T00:33:00+00:00",
+            "releaseNotes": "- New functions to change fonts\n- New functions to draw lines and rectangles (filled and hollow)\n- Callback functions can handle left/middle/right mouse buttons, mouse movement, double-click, down/up mouse buttons, Ctrl/Shift/Alt key modifiers\n- StatusBar width and position are automatically updated when main window is resized\n- New and updated OOi interface (by Alexandre) with new Minesweeper clone example\n- Several fixes and updates in manual\n- Several bug fixes, other enhancements\n\nMake sure you check the changelog for the complete list.",
+            "get": "http://pecl.php.net/get/WinBinder-0.33.113",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.32.108": {
+            "version": "0.32.108",
+            "state": "alpha",
+            "license": "BSD",
+            "releasedBy": "rubs",
+            "releaseDate": "2004-12-03T01:04:00+00:00",
+            "releaseNotes": "This release has several enhancements and fixes. Here are the main ones:\n\n- A working concept of a visual form editor for WinBinder\n- New functions: wb_get_position(), wb_get_size(), wb_get_id(), wb_get_item_list()\n- Fixes in wb_get_text() and wb_set_item()\n- Reviewed and updated object-oriented interface\n- Independent radio button groups now possible within the same window\n- New interface for the make_release application\n- Many small improvements and other bug fixes\n\nMake sure you check the changelog for the complete list.",
+            "get": "http://pecl.php.net/get/WinBinder-0.32.108",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.31.104": {
+            "version": "0.31.104",
+            "state": "alpha",
+            "license": "BSD",
+            "releasedBy": "rubs",
+            "releaseDate": "2004-11-23T13:20:00+00:00",
+            "releaseNotes": "This release has many bug fixes and more enhancements. the main ones are:\n\n- Fixed bug that made some classes appear 'wrong' over tab pages in Windows XP\n- New style options: grid lines and check boxes in ListViews; tick marks in Sliders; sunken borders in various classes; wrap lines in labels\n- Consistent processing of focus and double-click notification messages\n- New functionalities and fixes to low-level functions\n- Several enhancements to the example and test applications\n- Several other enhancements and various bugs corrected\n- Some enhancements to web site\n\nSome fixes werw quite major and may be still unstable, so please report any bugs you find.",
+            "get": "http://pecl.php.net/get/WinBinder-0.31.104",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.30.101": {
+            "version": "0.30.101",
+            "state": "alpha",
+            "license": "BSD",
+            "releasedBy": "rubs",
+            "releaseDate": "2004-11-15T16:06:00+00:00",
+            "releaseNotes": "This is a major update with several important changes.\n\n- Timers\n- Double-clicks in list views, treeviews and list boxes\n- Sort list view columns, list boxes, and combo boxes\n- New container pages inside tab controls for more reliable and better operation\n- Tab control pages can be selected programmatically\n- Keyboard accelerators in tab controls\n- Simpler creation of static controls, disabled controls, and invisible controls\n- Several bugs corrected, fixes to some paint problems\n- Several improvements and additions to documentation\n- Some new and improved applications",
+            "get": "http://pecl.php.net/get/WinBinder-0.30.101",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        }
+    },
+    "summary": "A Native Windows Binding for PHP",
+    "SPDX-License-Identifier": "BSD-3-Clause"
+}

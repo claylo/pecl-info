@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/colorer">colorer</p>
+ <c>pecl.php.net</c>
+ <v>0.7</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>blindman</m>
+ <s>Syntax highlighting</s>
+ <d>Colorer take5 is a syntax highlighting and text parsing library, that provides
+services of text parsing in host editor systems in real-time and transforming
+results into colored text. For details, see http://colorer.sourceforge.net/
+
+While colorer is primarily designed for use with text editors, it can be also
+used for non-interactive syntax highlighting, for example, in web
+applications. This PHP extension provides basic functions for syntax
+highlighting.
+</d>
+ <da>2005-11-21 02:51:00</da>
+ <n>Added ability to specify input and output encoding</n>
+ <f>12465</f>
+ <g>http://pecl.php.net/get/colorer-0.7</g>
+ <x xlink:href="package.0.7.xml"/>
+</r>

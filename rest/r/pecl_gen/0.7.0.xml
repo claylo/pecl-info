@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pecl_gen">PECL_Gen</p>
+ <c>pecl.php.net</c>
+ <v>0.7.0</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>hholzgra</m>
+ <s>Tool to generate PECL extensions from an XML description</s>
+ <d>pear-skel (aka. ext_skel_ng) is a pure PHP replacement for the ext_skel
+shell script provided with PHP 4. 
+It reads in configuration options, function prototypes and code fragments
+from an XML description file and generates a complete ready-to-compile
+PECL extension.
+</d>
+ <da>2003-07-03 11:36:00</da>
+ <n>- a README file is written containing information on
+  how to continue after an extension was generated
+- --function=&quot;proto&quot; writes function stub to stdout
+- --stubs=filename now supported in ext_skel BC mode
+- added --help and --version options
+- added a short feedback howto message 
+  (can be disabled using --quiet)  
+- --with-xml works again 
+  (ext_skel compatibility)
+- will now only purge and overwrite existing target directory
+  if '--force' is requested on cmd line
+- .cvsignore created with platform-specific entries
+- PEARifying error reporting finished</n>
+ <f>39370</f>
+ <g>http://pecl.php.net/get/PECL_Gen-0.7.0</g>
+ <x xlink:href="package.0.7.0.xml"/>
+</r>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pam">pam</p>
+ <c>pecl.php.net</c>
+ <v>1.0.1</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>mikl</m>
+ <s>PAM integration</s>
+ <d>This extension provides PAM (Pluggable Authentication Modules) integration. PAM is a system of libraries that handle the authentication tasks of applications and services. The library provides a stable API for applications to defer to for authentication tasks.
+ 
+</d>
+ <da>2007-09-22 03:31:57</da>
+ <n>Error messages specify which pam_* function failed
+Fixed build on lib64 type systems</n>
+ <f>5819</f>
+ <g>http://pecl.php.net/get/pam-1.0.1</g>
+ <x xlink:href="package.1.0.1.xml"/>
+</r>

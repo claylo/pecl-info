@@ -1,0 +1,24 @@
+{
+    "category": "Encryption",
+    "deprecated": false,
+    "description": "Creates mcrypt.* and mdecrypt.* class of filters for inline symmetric encryption and decryption.",
+    "latestReleaseDate": "2005-02-27T02:02:50+00:00",
+    "latestVersion": "0.1.0",
+    "license": "PHP",
+    "name": "mcrypt_filter",
+    "php8Mentioned": false,
+    "releases": {
+        "0.1.0": {
+            "version": "0.1.0",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "pollita",
+            "releaseDate": "2005-02-27T02:02:50+00:00",
+            "releaseNotes": "Initial Release.",
+            "get": "http://pecl.php.net/get/mcrypt_filter-0.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "Applies mcrypt symmetric encryption using stream filters",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

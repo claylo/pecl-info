@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mustache">mustache</p>
+ <c>pecl.php.net</c>
+ <v>0.9.0</v>
+ <st>stable</st>
+ <l>MIT</l>
+ <m>jbboehr</m>
+ <s>Mustache templating language</s>
+ <d>This extension embeds a Mustache interpreter into PHP, allowing the execution of Mustache templates.</d>
+ <da>2019-05-27 21:52:58</da>
+ <n>- PHP 7.4 support
+- Removed PHP 5.x support</n>
+ <f>39758</f>
+ <g>https://pecl.php.net/get/mustache-0.9.0</g>
+ <x xlink:href="package.0.9.0.xml"/>
+</r>

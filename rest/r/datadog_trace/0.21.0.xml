@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.21.0</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>sammyk</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2019-05-01 17:41:37</da>
+ <n>### Added
+- `dd_trace_forward_call()` to forward the original call from within a tracing closure #284
+
+### Fixed
+- `parent::` keyword not honored from a subclass when forwarding a call from a tracing closure #284
+- Private and protected callable strings not resolved properly from a tracing closure #303</n>
+ <f>122647</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.21.0</g>
+ <x xlink:href="package.0.21.0.xml"/>
+</r>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/intl">intl</p>
+ <c>pecl.php.net</c>
+ <v>3.0.0a2</v>
+ <st>alpha</st>
+ <l>PHP License</l>
+ <m>cataphract</m>
+ <s>Internationalization extension</s>
+ <d>Internationalization extension implements ICU library functionality in PHP.</d>
+ <da>2012-07-24 19:41:55</da>
+ <n>- Added IntlBreakIterator, IntlRuleBasedBreakiterator and
+  IntlCodePointBreakIterator.
+- Added IntlDateFormatter::formatObject().
+- Implememented FR #61871: named Argument support for MessageFormatter.
+- Accepted numeric strings for dates (when a timestamp is expected).
+- Better error messages in MessageFormatter::format().
+- Number of arguments in MessageFormatter::format() is not checked anymore.
+- Kept subsecond date precision in MessageFormatter.
+- Changed ResourceBundle constructor behavior: null is now accepted for two
+  first (mandatory arguments).
+- Accept DateTimeZone where time zones are expected.
+- Added IntlCalendar::fromDateTime().
+- Added IntlTimeZone::fromDateTimeZone() and ::toDateTimeZone.
+- MessageFormatter accepts IntlCalendar arguments.
+- Added IntlCalendar::toDateTime().
+- Made IntlDateFormatter constructor accept NULL, IntlTimeZone and DateTimeZone
+  objects in the timezone argument.
+- When NULL is passed to IntlDateFormatter, the time zone specified in
+  date.timezone is used instead of the ICU default, except if an IntlCalendar is
+  also passed, in which its time zone is used instead.
+- The IntlDateFormatter constructor now accepts for the $calendar argument also
+  an IntlCalendar. In this case, IntlDateFormatter::getCalendar() will return
+  false.
+- Added IntlDateFormatter::getCalendarObject(), which always returns the
+  IntlCalendar object that backs the DateFormat, even if a constant was passed
+  to the constructor, i.e., if an IntlCalendar was not passed to the
+  constructor.
+- Added IntlDateFormatter::setTimeZone() and IntlDateFormatter::getTimeZone().
+- Do not fetch default locale on minit or rinit
+- Deprecated IntlDateFormatter::setTimeZoneId() and made it an alias for
+  IntlDateFormatter::setTimeZone(), as the new ::setTimeZone() also accepts
+  plain identifiers, besides other types.
+- Fixed bug #55610: ResourceBundle not marked Traversable.
+- Fixed bug #58756: IntlDateFormatter and MessageFormatter do not respect
+  date.timezone INI setting w.r.t MessageFormatter (partial fix)
+- Fixed bug #59597: NumberFormatter::parse() with TYPE_INT64 results in a 32 bit
+  integer.
+- Fixed bug #60785: memory leak in IntlDateFormatter constructor.
+- Fixed bug #61829: memory leak when calling MessageFormatter's constructor
+  twice.
+- Fixed bug #62017: datefmt_create with incorrectly encoded timezone leaks
+  pattern.
+- Fixed bug #62070: Collator::getSortKey() was returning an unterminated string
+  due the length given to RETURN_STRINGL being off by one.
+- Fixed bug #62081: constructor of IntlDateFormatter would leak if called twice.
+- Fixed bug #62082: buffer overflow in internal function
+  get_icu_disp_value_src_php().
+- Fixed bug #62083: memory leak in grapheme_extract().
+- Fixed bug #62564/#62565: call to object_properties_init() missing.
+- Fixed problem in IntlCalendar debug handler.
+- Fixed write in constant memory.
+- Added private constructor to IntlTimeZone.
+- Fixed IntlDateFormatter::setCalendar() with a constant passed.</n>
+ <f>232123</f>
+ <g>http://pecl.php.net/get/intl-3.0.0a2</g>
+ <x xlink:href="package.3.0.0a2.xml"/>
+</r>

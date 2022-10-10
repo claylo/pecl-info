@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/zip">zip</p>
+ <c>pecl.php.net</c>
+ <v>1.2.1</v>
+ <st>alpha</st>
+ <l>PHP License</l>
+ <m>pajoye</m>
+ <s>A zip management extension</s>
+ <d>Zip is an extension to create and  read zip files.</d>
+ <da>2006-03-19 11:11:09</da>
+ <n>- fixed a possible build problem (mkstemp missing)
+- fix a bug where extending the Zip class does allow
+to write to a property, see php bugs #36743 (array)</n>
+ <f>39291</f>
+ <g>http://pecl.php.net/get/zip-1.2.1</g>
+ <x xlink:href="package.1.2.1.xml"/>
+</r>

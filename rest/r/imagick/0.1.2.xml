@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/imagick">imagick</p>
+ <c>pecl.php.net</c>
+ <v>0.1.2</v>
+ <st>alpha</st>
+ <l>PHP License</l>
+ <m>chregu</m>
+ <s>Provides a wrapper to the Image Magick Library.</s>
+ <d>It's a native php-extension. 
+  See http://pear.php.net/manual/en/pecl.imagick.php for installation and usage notes
+</d>
+ <da>2002-09-01 13:58:00</da>
+ <n>- Added imagick_border(). (pierre-alain joye)
+      - Fixed return of annotate and rotate (true on success). (pierre-alain joye)</n>
+ <f>13316</f>
+ <g>http://pecl.php.net/get/imagick-0.1.2</g>
+ <x xlink:href="package.0.1.2.xml"/>
+</r>

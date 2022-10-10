@@ -1,0 +1,49 @@
+# EditorConfig helps developers define and maintain consistent
+# coding styles between different editors and IDEs
+# http://editorconfig.org
+
+[*]
+indent_style = space
+indent_size = 4
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.php]
+indent_style = space
+indent_size = 4
+
+[scratch]
+indent_size = 4
+indent_style = space
+
+[bin/*]
+indent_size = 4
+indent_style = space
+
+[*.js]
+indent_size = 2
+indent_style = space
+
+[*.json]
+indent_size = 2
+indent_style = space
+
+[*.yaml]
+indent_size = 2
+indent_style = space
+
+[*.yml]
+indent_size = 2
+indent_style = space
+
+[Makefile]
+indent_size = 4
+indent_style = tab
+
+[bin/cache-*]
+indent_size = 2
+
+[bin/refresh-*]
+indent_size = 2

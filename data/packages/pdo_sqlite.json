@@ -1,0 +1,104 @@
+{
+    "category": "Database",
+    "deprecated": false,
+    "description": "This extension provides an SQLite v3 driver for PDO.\nSQLite V3 is NOT compatible with the bundled SQLite 2 in PHP 5, but is a significant\nstep forwards, featuring complete utf-8 support, native support for blobs,\nnative support for prepared statements with bound parameters and improved\nconcurrency.",
+    "latestReleaseDate": "2006-05-01T22:53:37+00:00",
+    "latestVersion": "1.0.1",
+    "license": "PHP",
+    "name": "PDO_SQLITE",
+    "summary": "SQLite v3 Interface driver for PDO",
+    "php8Mentioned": false,
+    "releases": {
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "wez",
+            "releaseDate": "2006-05-01T22:53:37+00:00",
+            "releaseNotes": "- Updated libsqlite in ext/pdo_sqlite to 3.2.8. (Ilia)\n- Upgraded to new package2 format\n- Fixed PECL Bug #5633; build issues\n- Added sqliteCreateFunction() and sqliteCreateAggregate()\n- Fixed PECL Bug #3452; problem when first row of a result set contains a NULL value.\n- Upgraded bundled sqlite to 3.1.3\n- setting PDO_ATTR_TIMEOUT controls the busy timeout\n- Fixed PECL Bug #3391; cannot bind NULL parameters\t\n- Fixed build problem when building the bundled sqlite library\n\nWindows binary:\nhttp://pecl4win.php.net/ext.php/php_pdo_sqlite.dll",
+            "get": "http://pecl.php.net/get/PDO_SQLITE-1.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0": {
+            "version": "1.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "wez",
+            "releaseDate": "2005-11-26T15:56:47+00:00",
+            "releaseNotes": "You need to install the PDO core module before you can make use of this one.\nThis package includes a bundled SQLite 3 library.\n\nWindows binary:\nhttp://pecl4win.php.net/ext.php/php_pdo_sqlite.dll\n\n- Fixed PECL Bug #5633; build issues\n- Added sqliteCreateFunction() and sqliteCreateAggregate()\n- Fixed PECL Bug #3452; problem when first row of a result set contains a NULL value.\n- Upgraded bundled sqlite to 3.1.3\n- setting PDO_ATTR_TIMEOUT controls the busy timeout\n- Fixed PECL Bug #3391; cannot bind NULL parameters\t\n- Fixed build problem when building the bundled sqlite library",
+            "get": "http://pecl.php.net/get/PDO_SQLITE-1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0RC2": {
+            "version": "1.0RC2",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "wez",
+            "releaseDate": "2005-11-01T22:15:37+00:00",
+            "releaseNotes": "You need to install the PDO core module before you can make use of this one.\nThis package includes a bundled SQLite 3 library.\n\nWindows binary:\nhttp://pecl4win.php.net/ext.php/php_pdo_sqlite.dll\n\n- Fixed PECL Bug #5633; build issues\n- Added sqliteCreateFunction() and sqliteCreateAggregate()\n- Fixed PECL Bug #3452; problem when first row of a result set contains a NULL value.\n- Upgraded bundled sqlite to 3.1.3\n- setting PDO_ATTR_TIMEOUT controls the busy timeout\n- Fixed PECL Bug #3391; cannot bind NULL parameters\t\n- Fixed build problem when building the bundled sqlite library",
+            "get": "http://pecl.php.net/get/PDO_SQLITE-1.0RC2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0RC1": {
+            "version": "1.0RC1",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "wez",
+            "releaseDate": "2005-09-11T01:57:08+00:00",
+            "releaseNotes": "You need to install the PDO core module before you can make use of this one.\nThis package includes a bundled SQLite 3 library.\nWindows binary: http://snaps.php.net/win32/PECL_5_0/php_pdo_sqlite.dll\n- Added sqliteCreateFunction() and sqliteCreateAggregate()\n- Fixed PECL Bug #3452; problem when first row of a result set contains a NULL value.\n- Upgraded bundled sqlite to 3.1.3\n- setting PDO_ATTR_TIMEOUT controls the busy timeout\n- Fixed PECL Bug #3391; cannot bind NULL parameters\t\n- Fixed build problem when building the bundled sqlite library",
+            "get": "http://pecl.php.net/get/PDO_SQLITE-1.0RC1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.9": {
+            "version": "0.9",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "wez",
+            "releaseDate": "2005-07-27T00:17:24+00:00",
+            "releaseNotes": "You need to install the PDO core module before you can make use of this one.\nThis package includes a bundled SQLite 3 library.\nWindows binary: http://snaps.php.net/win32/PECL_5_0/php_pdo_sqlite.dll\n- Fixed PECL Bug #3452; problem when first row of a result set contains a NULL value.\n- Upgraded bundled sqlite to 3.1.3\n- setting PDO_ATTR_TIMEOUT controls the busy timeout\n- Fixed PECL Bug #3391; cannot bind NULL parameters\t\n- Fixed build problem when building the bundled sqlite library",
+            "get": "http://pecl.php.net/get/PDO_SQLITE-0.9",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.3": {
+            "version": "0.3",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "wez",
+            "releaseDate": "2005-03-09T13:23:09+00:00",
+            "releaseNotes": "You need to install the PDO core module before you can make use of this one.\nThis package includes a bundled SQLite 3 library.\nWindows binary: http://snaps.php.net/win32/PECL_5_0/php_pdo_sqlite.dll\n- Fixed PECL Bug #3452; problem when first row of a result set contains a NULL value.\n- Upgraded bundled sqlite to 3.1.3\n- setting PDO_ATTR_TIMEOUT controls the busy timeout\n- Fixed PECL Bug #3391; cannot bind NULL parameters\t\n- Fixed build problem when building the bundled sqlite library",
+            "get": "http://pecl.php.net/get/PDO_SQLITE-0.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.2": {
+            "version": "0.2.2",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "wez",
+            "releaseDate": "2005-02-12T08:25:00+00:00",
+            "releaseNotes": "You need to install the PDO core module before you can make use of this one.\nThis package includes a bundled SQLite 3 library.\nWindows binary: http://snaps.php.net/win32/PECL_5_0/php_pdo_sqlite.dll\n- setting PDO_ATTR_TIMEOUT controls the busy timeout\n- Fixed PECL Bug #3391; cannot bind NULL parameters\t\n- Fixed build problem when building the bundled sqlite library",
+            "get": "http://pecl.php.net/get/PDO_SQLITE-0.2.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.1": {
+            "version": "0.2.1",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "wez",
+            "releaseDate": "2005-02-10T02:08:00+00:00",
+            "releaseNotes": "You need to install the PDO core module before you can make use of this one.\nThis package includes a bundled SQLite 3 library.\nWindows binary: http://snaps.php.net/win32/PECL_5_0/php_pdo_sqlite.dll\n- setting PDO_ATTR_TIMEOUT controls the busy timeout\n- Fixed PECL Bug #3391; cannot bind NULL parameters",
+            "get": "http://pecl.php.net/get/PDO_SQLITE-0.2.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2": {
+            "version": "0.2",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "wez",
+            "releaseDate": "2005-02-09T05:08:00+00:00",
+            "releaseNotes": "You need to install the PDO core module before you can make use of this one.\nThis package includes a bundled SQLite 3 library.",
+            "get": "http://pecl.php.net/get/PDO_SQLITE-0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

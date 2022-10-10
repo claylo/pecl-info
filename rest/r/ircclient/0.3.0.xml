@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ircclient">ircclient</p>
+ <c>pecl.php.net</c>
+ <v>0.3.0</v>
+ <st>beta</st>
+ <l>BSD, revised</l>
+ <m>mike</m>
+ <s>IRC Client</s>
+ <d>Binding for the ircclient library.</d>
+ <da>2014-01-10 07:43:59</da>
+ <n>* Allow infinite timeout in Session::run()
+* The read and write fd arrays may now be empty and still trigger a select() in Session::run()</n>
+ <f>10906</f>
+ <g>http://pecl.php.net/get/ircclient-0.3.0</g>
+ <x xlink:href="package.0.3.0.xml"/>
+</r>

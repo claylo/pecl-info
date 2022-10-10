@@ -1,0 +1,64 @@
+{
+    "category": "Tools and Utilities",
+    "deprecated": false,
+    "description": "Stackdriver Debugger is a free, open-source way to debug your running\n application without requiring a redeployment.\n\n This library allows you to set breakpoints in your running application that\n conditionally capture local variable state, stack traces, and more. This library\n can work in conjunction with the PHP library google/cloud-debugger (available\n via composer: https://packagist.org/packages/google/cloud-debugger) in\n order to send collected data to a backend storage server.",
+    "latestReleaseDate": "2018-03-07T18:52:53+00:00",
+    "latestVersion": "0.2.0",
+    "license": "Apache 2.0",
+    "name": "stackdriver_debugger",
+    "php8Mentioned": false,
+    "releases": {
+        "0.2.0": {
+            "version": "0.2.0",
+            "state": "alpha",
+            "license": "Apache 2.0",
+            "releasedBy": "chingor",
+            "releaseDate": "2018-03-07T18:52:53+00:00",
+            "releaseNotes": "- Limit memory usage (#28)\n- Limit time spent in debugger (#33)\n- Detect and handle OPcache clearing (#35)\n- Optionally limit stackframe depth for capturing variables (#39)\n- Provide hash id for deduping arrays and strings (#41)\n- Fix segfault for OSX (#42)",
+            "get": "http://pecl.php.net/get/stackdriver_debugger-0.2.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "0.1.1": {
+            "version": "0.1.1",
+            "state": "alpha",
+            "license": "Apache 2.0",
+            "releasedBy": "chingor",
+            "releaseDate": "2018-01-09T17:57:15+00:00",
+            "releaseNotes": "Fix missing snapshot w/ OPCache (#30)",
+            "get": "http://pecl.php.net/get/stackdriver_debugger-0.1.1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "0.1.0": {
+            "version": "0.1.0",
+            "state": "alpha",
+            "license": "Apache 2.0",
+            "releasedBy": "chingor",
+            "releaseDate": "2018-01-02T19:21:49+00:00",
+            "releaseNotes": "First alpha release",
+            "get": "http://pecl.php.net/get/stackdriver_debugger-0.1.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "0.0.2": {
+            "version": "0.0.2",
+            "state": "devel",
+            "license": "Apache 2.0",
+            "releasedBy": "chingor",
+            "releaseDate": "2017-12-12T01:04:13+00:00",
+            "releaseNotes": "Fix windows build configuration",
+            "get": "http://pecl.php.net/get/stackdriver_debugger-0.0.2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "0.0.1": {
+            "version": "0.0.1",
+            "state": "devel",
+            "license": "Apache 2.0",
+            "releasedBy": "chingor",
+            "releaseDate": "2017-12-11T22:54:05+00:00",
+            "releaseNotes": "First dev release",
+            "get": "http://pecl.php.net/get/stackdriver_debugger-0.0.1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        }
+    },
+    "summary": "Investigate your code's behavior in production",
+    "SPDX-License-Identifier": "Apache-2.0"
+}

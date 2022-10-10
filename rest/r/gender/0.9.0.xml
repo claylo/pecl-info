@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/gender">gender</p>
+ <c>pecl.php.net</c>
+ <v>0.9.0</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>ab</m>
+ <s>Gender Extension</s>
+ <d>Gender PHP extension is a port of the gender.c program originally written by Joerg Michael. The main purpose is to find out the gender of firstnames. The name dictionary contains &gt;40000 firstnames from 54 countries.</d>
+ <da>2013-04-04 13:16:30</da>
+ <n>* implemented Gender::similarNames()
+* implemented Gender::isNick()</n>
+ <f>1184391</f>
+ <g>http://pecl.php.net/get/gender-0.9.0</g>
+ <x xlink:href="package.0.9.0.xml"/>
+</r>

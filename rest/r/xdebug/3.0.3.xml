@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xdebug">xdebug</p>
+ <c>pecl.php.net</c>
+ <v>3.0.3</v>
+ <st>stable</st>
+ <l>BSD style</l>
+ <m>derick</m>
+ <s>Provides functions for function traces and profiling</s>
+ <d>The Xdebug extension helps you debugging your script by providing a lot of
+valuable debug information. The debug information that Xdebug can provide
+includes the following:
+
+    * stack and function traces in error messages with:
+          o full parameter display for user defined functions
+          o function name, file name and line indications
+          o support for member functions
+    * memory allocation
+    * protection for infinite recursions
+
+Xdebug also provides:
+
+    * profiling information for PHP scripts
+    * code coverage analysis
+    * capabilities to debug your scripts interactively with a debug client</d>
+ <da>2021-02-22 12:06:31</da>
+ <n>Mon, Feb 22, 2021 - Xdebug 3.0.3
+
+= Fixed bugs:
+
+  - Fixed issue #1930: No local variables with trigger and xdebug_break()
+  - Fixed issue #1931: xdebug_info() output misses configuration settings if phpinfo() has been called
+  - Fixed issue #1932: One line in multi-line string concatenation is not covered
+  - Fixed issue #1940: Wrong type used for showing GC Stats reports</n>
+ <f>215952</f>
+ <g>https://pecl.php.net/get/xdebug-3.0.3</g>
+ <x xlink:href="package.3.0.3.xml"/>
+</r>

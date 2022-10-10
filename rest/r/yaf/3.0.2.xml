@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/yaf">yaf</p>
+ <c>pecl.php.net</c>
+ <v>3.0.2</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>laruence</m>
+ <s>PHP Framework in PHP extension</s>
+ <d>Yaf is a PHP framework similar to zend framework, which is written in c and built as PHP extension</d>
+ <da>2015-12-28 11:54:23</da>
+ <n>- Fixed issue #231 (php-fpm worker core dump BUG)
+- Attempt to fix issue #226 (Segfault on windows7 64bits)
+- Fixed issue #232 (segfault with Yaf_Route_Simple)</n>
+ <f>95601</f>
+ <g>http://pecl.php.net/get/yaf-3.0.2</g>
+ <x xlink:href="package.3.0.2.xml"/>
+</r>

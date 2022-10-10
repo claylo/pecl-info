@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xdebug">xdebug</p>
+ <c>pecl.php.net</c>
+ <v>2.0.2</v>
+ <st>stable</st>
+ <l>BSD style</l>
+ <m>derick</m>
+ <s>Provides functions for function traces and profiling</s>
+ <d>The Xdebug extension helps you debugging your script by providing a lot of
+valuable debug information. The debug information that Xdebug can provide
+includes the following:
+
+    * stack and function traces in error messages with:
+          o full parameter display for user defined functions
+          o function name, file name and line indications
+          o support for member functions
+    * memory allocation
+    * protection for infinite recursions
+
+Xdebug also provides:
+
+    * profiling information for PHP scripts
+    * code coverage analysis
+    * capabilities to debug your scripts interactively with a debug client</d>
+ <da>2007-11-11 11:29:52</da>
+ <n>Sun, Nov 11, 2007 - xdebug 2.0.2
+
+= Fixed bugs:
+	- Fixed bug #325: DBGP: &quot;detach&quot; stops further sessions being established
+	  from Apache.
+	- Fixed bug #321: Code coverage crashes on empty PHP files.
+	- Fixed bug #318: Segmentation Fault in code coverage analysis.
+	- Fixed bug #315: Xdebug crashes when including a file that doesn't exist.
+	- Fixed bug #314: PHP CLI Error Logging thwarted when XDebug Loaded.
+	- Fixed bug #300: Direction of var_dump().
+	- Always set the transaction_id and command. (Related to bug #313).</n>
+ <f>279621</f>
+ <g>http://pecl.php.net/get/xdebug-2.0.2</g>
+ <x xlink:href="package.2.0.2.xml"/>
+</r>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/druid">Druid</p>
+ <c>pecl.php.net</c>
+ <v>0.9.2</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>neeke</m>
+ <s>A Druid driver for PHP with PECL extension.</s>
+ <d>A Druid driver for PHP with PECL extension.
+        - Build Druid REST Client Use CURL.
+        - Request both with Full-Json or Templates-Json</d>
+ <da>2017-01-09 16:36:31</da>
+ <n>- Fixed #7 Support multi instance by getInstance('instance_2')
+- Fixed zend_mm_heap corrupted</n>
+ <f>15618</f>
+ <g>http://pecl.php.net/get/Druid-0.9.2</g>
+ <x xlink:href="package.0.9.2.xml"/>
+</r>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/yaml">yaml</p>
+ <c>pecl.php.net</c>
+ <v>1.3.2</v>
+ <st>stable</st>
+ <l>MIT</l>
+ <m>bd808</m>
+ <s>YAML-1.1 parser and emitter</s>
+ <d>Support for YAML 1.1 (YAML Ain't Markup Language) serialization using the
+  LibYAML library.</d>
+ <da>2018-11-24 04:03:10</da>
+ <n>Bugs Fixed:
+- #74886 Type confusion when processing yaml array merges</n>
+ <f>37354</f>
+ <g>https://pecl.php.net/get/yaml-1.3.2</g>
+ <x xlink:href="package.1.3.2.xml"/>
+</r>

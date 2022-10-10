@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/riak">riak</p>
+ <c>pecl.php.net</c>
+ <v>0.4.0</v>
+ <st>alpha</st>
+ <l>Apache 2</l>
+ <m>kasparp</m>
+ <s>Riak database PHP extension</s>
+ <d>Fast protocol buffers client for Riak database and session module.</d>
+ <da>2013-06-13 04:32:23</da>
+ <n>First PECL release</n>
+ <f>74640</f>
+ <g>http://pecl.php.net/get/riak-0.4.0</g>
+ <x xlink:href="package.0.4.0.xml"/>
+</r>

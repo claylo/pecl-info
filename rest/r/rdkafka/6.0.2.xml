@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/rdkafka">rdkafka</p>
+ <c>pecl.php.net</c>
+ <v>6.0.2</v>
+ <st>stable</st>
+ <l>MIT License</l>
+ <m>lbarnaud</m>
+ <s>Kafka client based on librdkafka</s>
+ <d>PHP-rdkafka is a stable Kafka client for PHP based on librdkafka</d>
+ <da>2022-06-12 11:14:54</da>
+ <n>## Bugfixes
+- Fixed signature of RdKafka\KafkaConsumer::getMetadata() (#521, @arnaud-lb)</n>
+ <f>55470</f>
+ <g>https://pecl.php.net/get/rdkafka-6.0.2</g>
+ <x xlink:href="package.6.0.2.xml"/>
+</r>

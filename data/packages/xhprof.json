@@ -1,0 +1,214 @@
+{
+    "category": "Tools and Utilities",
+    "deprecated": false,
+    "description": "XHProf is a function-level hierarchical profiler for PHP and has a simple HTML based navigational interface. The raw data collection component is implemented in C (as a PHP extension). The reporting/UI layer is all in PHP. It is capable of reporting function-level inclusive and exclusive wall times, memory usage, CPU times and number of calls for each function. Additionally, it supports ability to compare two runs (hierarchical DIFF reports), or aggregate results from multiple runs.",
+    "latestReleaseDate": "2022-09-05T14:59:51+00:00",
+    "latestVersion": "2.3.7",
+    "license": "Apache 2.0",
+    "name": "xhprof",
+    "php8Mentioned": true,
+    "releases": {
+        "2.3.7": {
+            "version": "2.3.7",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "longxinhui",
+            "releaseDate": "2022-09-05T14:59:51+00:00",
+            "releaseNotes": "- fix version number",
+            "get": "https://pecl.php.net/get/xhprof-2.3.7",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.3.6": {
+            "version": "2.3.6",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "longxinhui",
+            "releaseDate": "2022-09-05T02:05:40+00:00",
+            "releaseNotes": "- Compatible with PHP8.2RC1 #68",
+            "get": "https://pecl.php.net/get/xhprof-2.3.6",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.3.5": {
+            "version": "2.3.5",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "longxinhui",
+            "releaseDate": "2021-09-05T05:32:19+00:00",
+            "releaseNotes": "- Fix multiple memory releases #62",
+            "get": "https://pecl.php.net/get/xhprof-2.3.5",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.3.4": {
+            "version": "2.3.4",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "longxinhui",
+            "releaseDate": "2021-08-04T02:25:15+00:00",
+            "releaseNotes": "- fix for 8.1.0alpha2 #61",
+            "get": "https://pecl.php.net/get/xhprof-2.3.4",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.3.3": {
+            "version": "2.3.3",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "longxinhui",
+            "releaseDate": "2021-07-05T03:34:08+00:00",
+            "releaseNotes": "- Fix memory leak on array_filter #60\n- Custom xhprof_error",
+            "get": "https://pecl.php.net/get/xhprof-2.3.3",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.3.2": {
+            "version": "2.3.2",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "longxinhui",
+            "releaseDate": "2021-05-07T02:36:39+00:00",
+            "releaseNotes": "- PHP8 JIT support #51\n- Allow to override xhprof.output_dir via env XHPROF_OUTPUT_DIR\n- Set SVG render as default for callgraph.php",
+            "get": "https://pecl.php.net/get/xhprof-2.3.2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.3.1": {
+            "version": "2.3.1",
+            "state": "beta",
+            "license": "Apache 2.0",
+            "releasedBy": "longxinhui",
+            "releaseDate": "2021-04-30T15:59:19+00:00",
+            "releaseNotes": "- Set SVG render as default for callgraph.php",
+            "get": "https://pecl.php.net/get/xhprof-2.3.1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.3.0": {
+            "version": "2.3.0",
+            "state": "beta",
+            "license": "Apache 2.0",
+            "releasedBy": "longxinhui",
+            "releaseDate": "2021-03-31T14:43:19+00:00",
+            "releaseNotes": "- PHP8 JIT support #51\n- Allow to override xhprof.output_dir via env XHPROF_OUTPUT_DIR",
+            "get": "https://pecl.php.net/get/xhprof-2.3.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.2.3": {
+            "version": "2.2.3",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "longxinhui",
+            "releaseDate": "2020-11-27T01:26:54+00:00",
+            "releaseNotes": "- Fix reflected XSS with symbol parameter #50",
+            "get": "https://pecl.php.net/get/xhprof-2.2.3",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.2.2": {
+            "version": "2.2.2",
+            "state": "beta",
+            "license": "Apache 2.0",
+            "releasedBy": "longxinhui",
+            "releaseDate": "2020-10-09T07:11:30+00:00",
+            "releaseNotes": "- Fix PECL installation #48",
+            "get": "https://pecl.php.net/get/xhprof-2.2.2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.2.1": {
+            "version": "2.2.1",
+            "state": "beta",
+            "license": "Apache 2.0",
+            "releasedBy": "longxinhui",
+            "releaseDate": "2020-09-19T02:52:13+00:00",
+            "releaseNotes": "- Support PHP 8.0 beta4",
+            "get": "https://pecl.php.net/get/xhprof-2.2.1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.2.0": {
+            "version": "2.2.0",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "longxinhui",
+            "releaseDate": "2020-04-10T16:54:23+00:00",
+            "releaseNotes": "- Modify hash code calculation, get from zend_string",
+            "get": "https://pecl.php.net/get/xhprof-2.2.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.1.4": {
+            "version": "2.1.4",
+            "state": "beta",
+            "license": "Apache 2.0",
+            "releasedBy": "longxinhui",
+            "releaseDate": "2019-12-17T01:11:54+00:00",
+            "releaseNotes": "- Windows support #34",
+            "get": "https://pecl.php.net/get/xhprof-2.1.4",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.1.3": {
+            "version": "2.1.3",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "longxinhui",
+            "releaseDate": "2019-12-11T01:54:40+00:00",
+            "releaseNotes": "- Fix s390x accuracy loss #15",
+            "get": "https://pecl.php.net/get/xhprof-2.1.3",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.1.2": {
+            "version": "2.1.2",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "longxinhui",
+            "releaseDate": "2019-12-06T03:55:49+00:00",
+            "releaseNotes": "-- Fixed build with PHP-7.4 #32",
+            "get": "https://pecl.php.net/get/xhprof-2.1.2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "0.9.4": {
+            "version": "0.9.4",
+            "state": "beta",
+            "license": "Apache 2.0",
+            "releasedBy": "scottmac",
+            "releaseDate": "2013-09-30T20:05:15+00:00",
+            "releaseNotes": "-- Fix reflected XSS with run parameter. PR#20 and #29\n-- Change graph edge colour. PR#23\n-- Added .gitignore file for build artifacts. PR#25",
+            "get": "http://pecl.php.net/get/xhprof-0.9.4",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "0.9.3": {
+            "version": "0.9.3",
+            "state": "beta",
+            "license": "Apache 2.0",
+            "releasedBy": "wez",
+            "releaseDate": "2013-05-20T01:46:03+00:00",
+            "releaseNotes": "-- Just updating the pecl package to https://github.com/facebook/xhprof/commit/254eb24dcfa763c76c57b472093ebc4b81af2b7d\n-- Request #16544: Mac port for XHProf (svilen spasov)\n-- fix #16574: require/require_once not special cased like include/include_once (kannan)\n-- add a sanity test for sampling mode in xhprof (kannan)\n-- add support to ignore functions (such as call_user_func) during profiling (mike paleczny)\n-- fix #16098: suppress notices due to use of FILE_BINARY (kannan)\n-- add a sanity test for timer (kannan)\n-- fix for compile error on debian linux (russ)",
+            "get": "http://pecl.php.net/get/xhprof-0.9.3",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "0.9.2": {
+            "version": "0.9.2",
+            "state": "beta",
+            "license": "Apache 2.0",
+            "releasedBy": "kannan",
+            "releaseDate": "2009-06-01T13:55:43+00:00",
+            "releaseNotes": "-- Request #16544: Mac port for XHProf (svilen spasov)\n-- fix #16574: require/require_once not special cased like include/include_once (kannan)\n-- add a sanity test for sampling mode in xhprof (kannan)\n-- add support to ignore functions (such as call_user_func) during profiling (mike paleczny)\n-- fix #16098: suppress notices due to use of FILE_BINARY (kannan)\n-- add a sanity test for timer (kannan)\n-- fix for compile error on debian linux (russ)",
+            "get": "http://pecl.php.net/get/xhprof-0.9.2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "0.9.1": {
+            "version": "0.9.1",
+            "state": "beta",
+            "license": "Apache 2.0",
+            "releasedBy": "kannan",
+            "releaseDate": "2009-03-21T15:28:58+00:00",
+            "releaseNotes": "-- doc improvements/fixes",
+            "get": "http://pecl.php.net/get/xhprof-0.9.1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "0.9.0": {
+            "version": "0.9.0",
+            "state": "beta",
+            "license": "Apache 2.0",
+            "releasedBy": "kannan",
+            "releaseDate": "2009-03-18T00:32:30+00:00",
+            "releaseNotes": "-- initial release of xhprof",
+            "get": "http://pecl.php.net/get/xhprof-0.9.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        }
+    },
+    "summary": "XHProf: A Hierarchical Profiler for PHP",
+    "SPDX-License-Identifier": "Apache-2.0"
+}

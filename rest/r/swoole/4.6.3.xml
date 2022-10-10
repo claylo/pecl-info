@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.6.3</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in tcp/http/websocket/http2 server
+        - coroutine tcp/http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2021-02-09 10:31:31</da>
+ <n>New APIs
+---
++ Added Swoole\Coroutine\go function (swoole/library@82f63be) (@matyhtf)
++ Added Swoole\Coroutine\defer function (swoole/library@92fd0de) (@matyhtf)
+
+Enhancement
+---
++ Added option compression_min_length for HTTP Server (#4033) (@matyhtf)
++ Allowed setting content-length HTTP header in application layer (#4041) (@doubaokun)
+
+Fixed
+---
+* Fixed coredump when program reach file open limitation (swoole/swoole-src@709813f) (@matyhtf)
+* Fixed JIT being disabled (#4029) (@twose)
+* Fixed Response::create() bug (swoole/swoole-src@a630b5b) (@matyhtf)
+* Fixed task process id false positives on ARM (#4040) (@doubaokun)
+* Fixed README (#4046) (@asheroto)
+* Fixed native-curl crash on PHP8 (#4042) (#4045) (@Yurunsoft) (@matyhtf)
+* Fixed mem error (#4050) (@matyhtf)
+
+Kernel
+---
+* Optimized ssl_connect/ssl_shutdown (#4030) (@matyhtf)
+* Exit the process directly when a fatal error occurs (#4053) (@matyhtf)</n>
+ <f>1613183</f>
+ <g>https://pecl.php.net/get/swoole-4.6.3</g>
+ <x xlink:href="package.4.6.3.xml"/>
+</r>

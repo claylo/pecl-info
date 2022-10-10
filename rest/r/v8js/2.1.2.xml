@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/v8js">v8js</p>
+ <c>pecl.php.net</c>
+ <v>2.1.2</v>
+ <st>stable</st>
+ <l>The MIT License (MIT)</l>
+ <m>stesie</m>
+ <s>V8 Javascript Engine for PHP</s>
+ <d>This extension embeds Google's V8 Javascript Engine into PHP.</d>
+ <da>2020-08-21 11:52:58</da>
+ <n>- support PHP 7.4
+- support V8 8.x
+- pass pointer to (char*) instead of (zend_string*) to spprintf (issue #431)
+- improve README</n>
+ <f>102977</f>
+ <g>https://pecl.php.net/get/v8js-2.1.2</g>
+ <x xlink:href="package.2.1.2.xml"/>
+</r>

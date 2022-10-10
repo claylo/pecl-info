@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ev">ev</p>
+ <c>pecl.php.net</c>
+ <v>1.0.9</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>osmanov</m>
+ <s>Provides interface to libev library</s>
+ <d>ev provides interface to libev library - high performance
+  full-featured event loop written in C.</d>
+ <da>2020-11-19 09:49:08</da>
+ <n>- Fixed GC issues revealed with PHP 7.4.1
+- Fixed: tests/10_signal.phpt failed with debug build of PHP
+- Made sockets dependency optional in the Windows build configuration.</n>
+ <f>139420</f>
+ <g>https://pecl.php.net/get/ev-1.0.9</g>
+ <x xlink:href="package.1.0.9.xml"/>
+</r>

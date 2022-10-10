@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/couchbase">couchbase</p>
+ <c>pecl.php.net</c>
+ <v>2.2.2</v>
+ <st>stable</st>
+ <l>Apache V2</l>
+ <m>avsej</m>
+ <s>Couchbase Server PHP extension</s>
+ <d>The PHP client library provides fast access to documents stored in
+        a Couchbase Server.</d>
+ <da>2016-09-07 00:22:16</da>
+ <n>This is the GA release of the 2.2.2 SDK. It is a maitenance release
+with several fixes:
+
+Changes:
+* PCBC-410: consolidate libcouchbase and extension loggers, and expose them through PHP logger
+* PCBC-409: bubble errors from server on view upsert
+* PCBC-417: do not send duplicated requests for multi-get
+* PCBC-423: report N1QL error details via logger
+* Documentation updates and bug fixes</n>
+ <f>61304</f>
+ <g>http://pecl.php.net/get/couchbase-2.2.2</g>
+ <x xlink:href="package.2.2.2.xml"/>
+</r>

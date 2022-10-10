@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.8.0beta2</v>
+ <st>beta</st>
+ <l>Apache License</l>
+ <m>jmikola</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2020-06-10 19:30:43</da>
+ <n>** Bug
+    * [PHPC-1598] - Objects with get_properties handlers should have get_gc delegate to zend_std_get_properties
+
+** New Feature
+    * [PHPC-1313] - Add support for Zstandard compression
+    * [PHPC-1533] - OCSP Support
+    * [PHPC-1554] - Unify behavior around configuration for replica set discovery 
+    * [PHPC-1571] - Driver support for server Hedged Reads
+    * [PHPC-1575] - Add URI option to disable certificate revocation checking
+
+** Task
+    * [PHPC-1131] - Do not compile php.exe for Appveyor builds
+    * [PHPC-1384] - Specify behavior where connection string contain auth database but no credentials
+    * [PHPC-1616] - Remove PHP 7.1 from AppVeyor build config
+    * [PHPC-1621] - Bundled libmongocrypt emits compiler warning
+
+** Improvement
+    * [PHPC-1566] - Support speculative authentication attempts in isMaster
+    * [PHPC-1591] - Add tests for allowed cases when authSource is given but username is not
+    * [PHPC-1614] - Consult SIZEOF_ZEND_LONG instead of SIZEOF_LONG
+    * [PHPC-1615] - Specify obj_dir when adding sources in config.w32
+    * [PHPC-1628] - Clarify return type for WriteConcernError and WriteError getInfo() methods
+    * [PHPC-1629] - Call libmongoc is_valid functions before completing WriteConcern and ReadPreference initialization
+    * [PHPC-1632] - Reduce default keepalive time to align with Azure defaults</n>
+ <f>1277371</f>
+ <g>https://pecl.php.net/get/mongodb-1.8.0beta2</g>
+ <x xlink:href="package.1.8.0beta2.xml"/>
+</r>

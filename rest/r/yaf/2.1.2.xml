@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/yaf">yaf</p>
+ <c>pecl.php.net</c>
+ <v>2.1.2</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>laruence</m>
+ <s>PHP Framework in PHP extension</s>
+ <d>Yaf is a PHP framework similar to zend framework, which is written in c and built as PHP extension</d>
+ <da>2011-09-01 06:15:54</da>
+ <n>-Added Yaf_Application::getLastErrorNo
+-Added Yaf_Application::getLastErrorMsg
+-Added Yaf_Application::clearLastError
+-Changed trigger ERROR to E_RECOVERABLE_ERROR, then people can use set_error_handler to catch it</n>
+ <f>73916</f>
+ <g>http://pecl.php.net/get/yaf-2.1.2</g>
+ <x xlink:href="package.2.1.2.xml"/>
+</r>

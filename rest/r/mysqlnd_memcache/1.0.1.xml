@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mysqlnd_memcache">mysqlnd_memcache</p>
+ <c>pecl.php.net</c>
+ <v>1.0.1</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>johannes</m>
+ <s>A PHP extension for transparently translating SQL into requests for the MySQL InnoDB Memcached Daemon Plugin</s>
+ <d>The mysqlnd memcache plugin (mysqlnd_memcache) is an PHP extension for transparently translating SQL into requests for the MySQL InnoDB Memcached Daemon Plugin (server plugin). It includes experimental support for the MySQL Cluster Memcached Daemon. The server plugin provides access to data stored inside MySQL InnoDB (respectively MySQL Cluster NDB) tables using the Memcache protocol. This PHP extension, which supports all PHP MySQL extensions that use mysqlnd, will identify tables exported in this way and will translate specific SELECT queries into Memcache requests.</d>
+ <da>2013-07-17 19:33:32</da>
+ <n>Fixed build issues.</n>
+ <f>30072</f>
+ <g>http://pecl.php.net/get/mysqlnd_memcache-1.0.1</g>
+ <x xlink:href="package.1.0.1.xml"/>
+</r>

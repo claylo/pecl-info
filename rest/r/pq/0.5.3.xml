@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pq">pq</p>
+ <c>pecl.php.net</c>
+ <v>0.5.3</v>
+ <st>beta</st>
+ <l>BSD, revised</l>
+ <m>mike</m>
+ <s>PostgreSQL client library (libpq) binding</s>
+ <d>Documents: http://devel-m6w6.rhcloud.com/mdref/pq
+ 
+ Highlights:
+ * Nearly complete support for asynchronous usage:
+   http://devel-m6w6.rhcloud.com/mdref/pq/Connection/%3A%20Asynchronous%20Usage
+ * Extended type support by pg_type:
+   http:/devel-m6w6.rhcloud.com/mdref/pq/Types/%3A%20Overview
+ * Fetching simple multi-dimensional array maps:
+   http:/devel-m6w6.rhcloud.com/mdref/pq/Result/map
+ * Working Gateway implementation: 
+   https://http://devel-m6w6.rhcloud.com/mdref/pq-gateway</d>
+ <da>2014-10-23 03:57:26</da>
+ <n>+ Add PostgreSQL-9.4beta3 type OIDs
+* Fix JSON dep (Remi)
+* Fix build on MacOSX</n>
+ <f>58243</f>
+ <g>http://pecl.php.net/get/pq-0.5.3</g>
+ <x xlink:href="package.0.5.3.xml"/>
+</r>

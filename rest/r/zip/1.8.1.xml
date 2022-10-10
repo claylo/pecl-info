@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/zip">zip</p>
+ <c>pecl.php.net</c>
+ <v>1.8.1</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>pajoye</m>
+ <s>A zip management extension</s>
+ <d>Zip is an extension to create, modify and read zip files.</d>
+ <da>2006-11-27 20:43:45</da>
+ <n>- PECL #9278, Binary access issues on Windows in any SAPI but CGI, CLI and embed
+  (windows API does not respect &quot;b&quot; mode given to fopen)
+- Fixed a possible leak in the entries managements (Nuno Lopes)
+- createEmptyDir returns true one success
+- Use static for each internal functions when possible (Nuno Lopes)
+- Update protos in the sources</n>
+ <f>60058</f>
+ <g>http://pecl.php.net/get/zip-1.8.1</g>
+ <x xlink:href="package.1.8.1.xml"/>
+</r>

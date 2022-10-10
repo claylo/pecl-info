@@ -1,0 +1,48 @@
+{
+    "category": "Benchmarking",
+    "deprecated": false,
+    "description": "Obsolete; use the much better implementation available in the core of PHP:\n\nhttp://www.php.net/manual/en/features.dtrace.php",
+    "latestReleaseDate": "2005-09-05T21:19:44+00:00",
+    "latestVersion": "1.0.3",
+    "license": "PHP",
+    "name": "DTrace",
+    "summary": "A Solaris Dtrace provider",
+    "php8Mentioned": false,
+    "releases": {
+        "1.0.3": {
+            "version": "1.0.3",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "wez",
+            "releaseDate": "2005-09-05T21:19:44+00:00",
+            "releaseNotes": "Added .map file to workaround a bug in dtrace.\nTested only with gcc; it may not build with the SUN cc.\nBoth probes have the following signatures:\narg0 = the function name\narg1 = the filename\narg2 = the line number\n\narg3 = classname (or an empty string)\narg4 = object/class operator (::, ->, or an empty string)",
+            "get": "http://pecl.php.net/get/dtrace-1.0.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.2": {
+            "version": "1.0.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "wez",
+            "releaseDate": "2005-08-08T22:50:48+00:00",
+            "releaseNotes": "Added .map file to workaround a bug in dtrace.\nTested only with gcc; it may not build with the SUN cc.\nBoth probes have the following signatures:\narg0 = the function name\narg1 = the filename\narg2 = the line number",
+            "get": "http://pecl.php.net/get/dtrace-1.0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "wez",
+            "releaseDate": "2005-08-05T03:24:57+00:00",
+            "releaseNotes": "Seems to have problems instrumenting when run under apache.\nOffers two probes: function-entry and function-return.",
+            "get": "http://pecl.php.net/get/dtrace-1.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}
