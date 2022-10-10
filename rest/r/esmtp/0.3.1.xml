@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/esmtp">esmtp</p>
+ <c>pecl.php.net</c>
+ <v>0.3.1</v>
+ <st>alpha</st>
+ <l>PHP License</l>
+ <m>makler</m>
+ <s>ESMTP client extenion</s>
+ <d>Esmtp is a wrapper for SMTP client library based on the libESMTP library 
+(http://www.stafford.uklinux.net/libesmtp/). You can use it to send messages
+using internal SASL, and external/openssl SSL support.
+</d>
+ <da>2004-10-19 06:28:00</da>
+ <n>add checks for libESMTP (and PHP) version</n>
+ <f>25963</f>
+ <g>http://pecl.php.net/get/esmtp-0.3.1</g>
+ <x xlink:href="package.0.3.1.xml"/>
+</r>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0alpha1</v>
+ <st>alpha</st>
+ <l>New BSD License</l>
+ <m>jmikola</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundemental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2015-08-20 20:22:14</da>
+ <n>* PHPC-271: Server::executeBulkWrite() should take a write concern
+* PHPC-196: Implement Manager getters for WC and RP
+* PHPC-353: Return early when there are no options to apply
+* PHPC-353: Support RP and WC in Manager options array
+* PHPC-357: Revise test and relocate to standalone group
+* PHPC-357: &quot;invalid namespace&quot; exception should report the namespace
+* PHPC-129: Split out WriteConcern constructor error test
+* PHPC-350: Bump libmongoc submodule for updated headers
+* PHPC-347: bson_to_zval() leaks when buffer contains no documents
+* PHPC-345: bson_to_zval() should throw exceptions instead of warnings
+* PHPC-334: Split hex_dump() test case
+* PHPC-344: Allow non-root Serializable to encode as BSON array
+* PHPC-343: Allow bsonSerialize() to return a stdClass
+* PHPC-331: Tests for BSON deserialization errors
+* PHPC-329: bson_to_zval() serialization spec compatibility
+* PHPC-329: __pclass must be both instantiatable and Persistable
+* PHPC-329: Apply more validation to type map class
+* PHPC-336: BSON\Binary debug handler
+* PHPC-341: Ensure bson_t is freed after decoding JSON
+* PHPC-333: Implement MongoDB\BSON\Binary::getData()
+* PHPC-229: Support options array in second parameter of Manager ctor
+* PHPC-334: Don't produce BSON with multiple __pclass fields
+* PHPC-330: Always include __pclass property when unserializing BSON
+* PHPC-311: Rename from/toArray() functions to from/toPHP()
+* PHPC-315: Support &quot;root&quot; type mapping for top-level documents
+* PHPC-319: Convert top-level documents to stdClass by default
+* PHPC-304: Enable the test again -- and fix typo in the clean section!
+* PHPC-303: Cannot connect to healthy Replica Set if seedlist only contains a secondary
+* PHPC-325: bson_to_zval() leaks when buffer contains multiple documents
+* PHPC-306: Check for sasl_client_done in config.m4
+* PHPC-317: Ensure &quot;sort&quot; query option serializes as BSON object
+* PHPC-323: The check for system mongoc checks system bson, not mongoc
+* PHPC-322: Wrong bugtracker URL in configure output
+* PHPC-321: UTCDatetime -&gt; UTCDateTime
+* PHPC-321: UTCDatetime -&gt; UTCDateTime
+* PHPC-309: Bump tests
+* PHPC-309: Move the BSON namespace under MongoDB\ namespace
+* PHPC-308: Skip getmore test until libmongoc issues are resolved
+* PHPC-308: Failed getmore should throw exception
+* PHPC-304: Add a failGetMore trigger
+* PHPC-291: New cluster/socket/connection tests
+* PHPC-291: Add a script to convert mo-tests (JSON) to PHPT
+* PHPC-305: add --with-libmongo option
+* PHPC-75: Improve debug output coverage
+* PHPC-75: Improve coverage
+* PHPC-75: Server error code coverage
+* PHPC-301: var_dump()ing Manager should show debug info
+* PHPC-300: Add var_dump() debug info for Server
+* PHPC-75: Improve coverage for the Manager
+* PHPC-277: Ensure Query always serializes $query as a BSON object
+* PHPC-299: Annoying compiler warning
+* PHPC-298: Coalesce small writes
+* PHPC-284: Fix LogicException declaration
+* PHPC-279: Add 2.4 (and 2.6) to build matrix and ensure test suite compatibility
+* PHPC-296: phongo.debug created for empty values</n>
+ <f>591541</f>
+ <g>http://pecl.php.net/get/mongodb-1.0.0alpha1</g>
+ <x xlink:href="package.1.0.0alpha1.xml"/>
+</r>

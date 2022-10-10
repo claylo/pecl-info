@@ -1,0 +1,1314 @@
+{
+    "category": "Date and Time",
+    "deprecated": false,
+    "description": "This extension is a drop-in replacement for the builtin timezone database that\ncomes with PHP. You should only install this extension in case you need to get\na later version of the timezone database than the one that ships with PHP.\n\nThe data that this extension uses comes from the \"Olson\" database, which is\nlocated at http://www.iana.org/time-zones.",
+    "latestReleaseDate": "2022-08-11T14:50:37+00:00",
+    "latestVersion": "2022.2",
+    "license": "PHP",
+    "name": "timezonedb",
+    "php8Mentioned": false,
+    "releases": {
+        "2022.2": {
+            "version": "2022.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2022-08-11T14:50:37+00:00",
+            "releaseNotes": "Updated to version 2022.2 (2022b)",
+            "get": "https://pecl.php.net/get/timezonedb-2022.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2021.5": {
+            "version": "2021.5",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2021-11-03T16:50:14+00:00",
+            "releaseNotes": "Updated to version 2021.5 (2021e)",
+            "get": "https://pecl.php.net/get/timezonedb-2021.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2021.1": {
+            "version": "2021.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2021-01-25T10:42:40+00:00",
+            "releaseNotes": "Updated to version 2021.1 (2021a)",
+            "get": "https://pecl.php.net/get/timezonedb-2021.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2020.4": {
+            "version": "2020.4",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2020-10-22T09:13:14+00:00",
+            "releaseNotes": "Updated to version 2020.4 (2020d)",
+            "get": "https://pecl.php.net/get/timezonedb-2020.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2020.3": {
+            "version": "2020.3",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2020-10-20T14:45:41+00:00",
+            "releaseNotes": "Updated to version 2020.3 (2020c)",
+            "get": "https://pecl.php.net/get/timezonedb-2020.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2020.2": {
+            "version": "2020.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2020-10-09T14:00:54+00:00",
+            "releaseNotes": "Updated to version 2020.2 (2020b)",
+            "get": "https://pecl.php.net/get/timezonedb-2020.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2020.1": {
+            "version": "2020.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2020-04-24T11:30:01+00:00",
+            "releaseNotes": "Updated to version 2020.1 (2020a)",
+            "get": "https://pecl.php.net/get/timezonedb-2020.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2019.3": {
+            "version": "2019.3",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2019-10-02T22:40:55+00:00",
+            "releaseNotes": "Updated to version 2019.3 (2019c)",
+            "get": "https://pecl.php.net/get/timezonedb-2019.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2019.2": {
+            "version": "2019.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2019-08-11T15:12:33+00:00",
+            "releaseNotes": "Updated to version 2019.2 (2019b)",
+            "get": "https://pecl.php.net/get/timezonedb-2019.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2019.1": {
+            "version": "2019.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2019-04-01T09:40:27+00:00",
+            "releaseNotes": "Updated to version 2019.1 (2019a)",
+            "get": "https://pecl.php.net/get/timezonedb-2019.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2018.9": {
+            "version": "2018.9",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2019-01-17T11:08:12+00:00",
+            "releaseNotes": "Updated to version 2018.9 (2018i)",
+            "get": "https://pecl.php.net/get/timezonedb-2018.9",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2018.7": {
+            "version": "2018.7",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2018-10-30T11:34:08+00:00",
+            "releaseNotes": "Updated to version 2018.7 (2018g)",
+            "get": "http://pecl.php.net/get/timezonedb-2018.7",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2018.6": {
+            "version": "2018.6",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2018-10-22T16:42:49+00:00",
+            "releaseNotes": "Updated to version 2018.6 (2018f)",
+            "get": "http://pecl.php.net/get/timezonedb-2018.6",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2018.5": {
+            "version": "2018.5",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2018-07-10T16:05:10+00:00",
+            "releaseNotes": "Updated to version 2018.5 (2018e)",
+            "get": "http://pecl.php.net/get/timezonedb-2018.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2018.4": {
+            "version": "2018.4",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2018-03-24T11:24:45+00:00",
+            "releaseNotes": "Updated to version 2018.4 (2018d)",
+            "get": "http://pecl.php.net/get/timezonedb-2018.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2018.3": {
+            "version": "2018.3",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2018-01-24T13:58:17+00:00",
+            "releaseNotes": "Updated to version 2018.3 (2018c)",
+            "get": "http://pecl.php.net/get/timezonedb-2018.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2017.3": {
+            "version": "2017.3",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2017-10-23T16:29:59+00:00",
+            "releaseNotes": "Updated to version 2017.3 (2017c)",
+            "get": "http://pecl.php.net/get/timezonedb-2017.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2017.2": {
+            "version": "2017.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2017-03-24T12:26:32+00:00",
+            "releaseNotes": "Updated to version 2017.2 (2017b)",
+            "get": "http://pecl.php.net/get/timezonedb-2017.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2017.1": {
+            "version": "2017.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2017-03-14T11:16:11+00:00",
+            "releaseNotes": "Updated to version 2017.1 (2017a)",
+            "get": "http://pecl.php.net/get/timezonedb-2017.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2016.10": {
+            "version": "2016.10",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2016-11-24T10:44:40+00:00",
+            "releaseNotes": "Updated to version 2016.10 (2016j)",
+            "get": "http://pecl.php.net/get/timezonedb-2016.10",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2016.9": {
+            "version": "2016.9",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2016-11-04T14:32:35+00:00",
+            "releaseNotes": "Updated to version 2016.9 (2016i)",
+            "get": "http://pecl.php.net/get/timezonedb-2016.9",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2016.8": {
+            "version": "2016.8",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2016-10-24T09:44:37+00:00",
+            "releaseNotes": "Updated to version 2016.8 (2016h)",
+            "get": "http://pecl.php.net/get/timezonedb-2016.8",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2016.7": {
+            "version": "2016.7",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2016-09-28T22:30:21+00:00",
+            "releaseNotes": "Updated to version 2016.7 (2016g)",
+            "get": "http://pecl.php.net/get/timezonedb-2016.7",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2016.6": {
+            "version": "2016.6",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2016-07-06T10:13:45+00:00",
+            "releaseNotes": "Updated to version 2016.6 (2016f)",
+            "get": "http://pecl.php.net/get/timezonedb-2016.6",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2016.5": {
+            "version": "2016.5",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2016-06-15T11:00:12+00:00",
+            "releaseNotes": "Updated to version 2016.5 (2016e)",
+            "get": "http://pecl.php.net/get/timezonedb-2016.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2016.4": {
+            "version": "2016.4",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2016-04-18T18:24:13+00:00",
+            "releaseNotes": "Updated to version 2016.4 (2016d)",
+            "get": "http://pecl.php.net/get/timezonedb-2016.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2016.3": {
+            "version": "2016.3",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2016-03-24T11:11:00+00:00",
+            "releaseNotes": "Updated to version 2016.3 (2016c)",
+            "get": "http://pecl.php.net/get/timezonedb-2016.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2016.2": {
+            "version": "2016.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2016-03-15T09:14:26+00:00",
+            "releaseNotes": "Updated to version 2016.2 (2016b)",
+            "get": "http://pecl.php.net/get/timezonedb-2016.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2016.1": {
+            "version": "2016.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2016-02-02T10:35:20+00:00",
+            "releaseNotes": "Updated to version 2016.1 (2016a)",
+            "get": "http://pecl.php.net/get/timezonedb-2016.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2015.7": {
+            "version": "2015.7",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2015-10-03T09:10:05+00:00",
+            "releaseNotes": "Updated to version 2015.7 (2015g)",
+            "get": "http://pecl.php.net/get/timezonedb-2015.7",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2015.6.1": {
+            "version": "2015.6.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2015-08-16T21:59:22+00:00",
+            "releaseNotes": "Updated to version 2015.6 (2015f)",
+            "get": "http://pecl.php.net/get/timezonedb-2015.6.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2015.6": {
+            "version": "2015.6",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2015-08-12T21:02:44+00:00",
+            "releaseNotes": "Updated to version 2015.6 (2015f)",
+            "get": "http://pecl.php.net/get/timezonedb-2015.6",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2015.5": {
+            "version": "2015.5",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2015-06-15T09:44:56+00:00",
+            "releaseNotes": "Updated to version 2015.5 (2015e)",
+            "get": "http://pecl.php.net/get/timezonedb-2015.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2015.4": {
+            "version": "2015.4",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2015-04-26T18:16:55+00:00",
+            "releaseNotes": "Updated to version 2015.4 (2015d)",
+            "get": "http://pecl.php.net/get/timezonedb-2015.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2015.3": {
+            "version": "2015.3",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2015-04-14T09:52:43+00:00",
+            "releaseNotes": "Updated to version 2015.3 (2015c)",
+            "get": "http://pecl.php.net/get/timezonedb-2015.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2015.2": {
+            "version": "2015.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2015-03-21T08:52:16+00:00",
+            "releaseNotes": "Updated to version 2015.2 (2015b)",
+            "get": "http://pecl.php.net/get/timezonedb-2015.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2015.1": {
+            "version": "2015.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2015-02-01T13:32:33+00:00",
+            "releaseNotes": "Updated to version 2015.1 (2015a)",
+            "get": "http://pecl.php.net/get/timezonedb-2015.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2014.10": {
+            "version": "2014.10",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2014-11-11T12:05:02+00:00",
+            "releaseNotes": "Updated to version 2014.10 (2014j)",
+            "get": "http://pecl.php.net/get/timezonedb-2014.10",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2014.9": {
+            "version": "2014.9",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2014-10-26T10:22:44+00:00",
+            "releaseNotes": "Updated to version 2014.9 (2014i)",
+            "get": "http://pecl.php.net/get/timezonedb-2014.9",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2014.8": {
+            "version": "2014.8",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2014-10-09T05:08:57+00:00",
+            "releaseNotes": "Updated to version 2014.8 (2014h)",
+            "get": "http://pecl.php.net/get/timezonedb-2014.8",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2014.7": {
+            "version": "2014.7",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2014-09-01T11:45:30+00:00",
+            "releaseNotes": "Updated to version 2014.7 (2014g)",
+            "get": "http://pecl.php.net/get/timezonedb-2014.7",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2014.6": {
+            "version": "2014.6",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2014-08-08T14:57:11+00:00",
+            "releaseNotes": "Updated to version 2014.6 (2014f)",
+            "get": "http://pecl.php.net/get/timezonedb-2014.6",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2014.5": {
+            "version": "2014.5",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2014-06-13T18:27:54+00:00",
+            "releaseNotes": "Updated to version 2014.5 (2014e)",
+            "get": "http://pecl.php.net/get/timezonedb-2014.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2014.3": {
+            "version": "2014.3",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2014-05-13T11:38:32+00:00",
+            "releaseNotes": "Updated to version 2014.3 (2014c)",
+            "get": "http://pecl.php.net/get/timezonedb-2014.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2014.2": {
+            "version": "2014.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2014-03-25T07:24:36+00:00",
+            "releaseNotes": "Updated to version 2014.2 (2014b)",
+            "get": "http://pecl.php.net/get/timezonedb-2014.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2014.1": {
+            "version": "2014.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2014-03-18T10:06:46+00:00",
+            "releaseNotes": "Updated to version 2014.1 (2014a)",
+            "get": "http://pecl.php.net/get/timezonedb-2014.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2013.9": {
+            "version": "2013.9",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2013-12-19T15:41:39+00:00",
+            "releaseNotes": "Updated to version 2013.9 (2013i)",
+            "get": "http://pecl.php.net/get/timezonedb-2013.9",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2013.8": {
+            "version": "2013.8",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2013-10-28T09:14:43+00:00",
+            "releaseNotes": "Updated to version 2013.8 (2013h)",
+            "get": "http://pecl.php.net/get/timezonedb-2013.8",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2013.7": {
+            "version": "2013.7",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2013-10-23T17:53:27+00:00",
+            "releaseNotes": "Updated to version 2013.7 (2013g)",
+            "get": "http://pecl.php.net/get/timezonedb-2013.7",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2013.6": {
+            "version": "2013.6",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2013-09-27T05:17:26+00:00",
+            "releaseNotes": "Updated to version 2013.6 (2013f)",
+            "get": "http://pecl.php.net/get/timezonedb-2013.6",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2013.4": {
+            "version": "2013.4",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2013-07-09T04:08:36+00:00",
+            "releaseNotes": "Updated to version 2013.4 (2013d)",
+            "get": "http://pecl.php.net/get/timezonedb-2013.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2013.3": {
+            "version": "2013.3",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2013-04-22T12:56:35+00:00",
+            "releaseNotes": "Updated to version 2013.3 (2013c)",
+            "get": "http://pecl.php.net/get/timezonedb-2013.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2013.2": {
+            "version": "2013.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2013-03-11T16:37:51+00:00",
+            "releaseNotes": "Updated to version 2013.2 (2013b)",
+            "get": "http://pecl.php.net/get/timezonedb-2013.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2013.1": {
+            "version": "2013.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2013-03-03T13:16:35+00:00",
+            "releaseNotes": "Updated to version 2013.1 (2013a)",
+            "get": "http://pecl.php.net/get/timezonedb-2013.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2012.10": {
+            "version": "2012.10",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2012-11-18T15:58:09+00:00",
+            "releaseNotes": "Updated to version 2012.10 (2012j)",
+            "get": "http://pecl.php.net/get/timezonedb-2012.10",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2012.9": {
+            "version": "2012.9",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2012-11-04T11:25:47+00:00",
+            "releaseNotes": "Updated to version 2012.9 (2012i)",
+            "get": "http://pecl.php.net/get/timezonedb-2012.9",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2012.8": {
+            "version": "2012.8",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2012-10-27T10:37:17+00:00",
+            "releaseNotes": "Updated to version 2012.8 (2012h)",
+            "get": "http://pecl.php.net/get/timezonedb-2012.8",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2012.7": {
+            "version": "2012.7",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2012-10-18T16:55:58+00:00",
+            "releaseNotes": "Updated to version 2012.7 (2012g)",
+            "get": "http://pecl.php.net/get/timezonedb-2012.7",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2012.6": {
+            "version": "2012.6",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2012-09-14T04:52:46+00:00",
+            "releaseNotes": "Updated to version 2012.6 (2012f)",
+            "get": "http://pecl.php.net/get/timezonedb-2012.6",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2012.5": {
+            "version": "2012.5",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2012-08-06T08:01:03+00:00",
+            "releaseNotes": "Updated to version 2012.5 (2012e)",
+            "get": "http://pecl.php.net/get/timezonedb-2012.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2012.4": {
+            "version": "2012.4",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2012-07-20T05:14:18+00:00",
+            "releaseNotes": "Updated to version 2012.4 (2012d)",
+            "get": "http://pecl.php.net/get/timezonedb-2012.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2012.3": {
+            "version": "2012.3",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2012-04-02T05:41:49+00:00",
+            "releaseNotes": "Updated to version 2012.3 (2012c)",
+            "get": "http://pecl.php.net/get/timezonedb-2012.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2012.2": {
+            "version": "2012.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2012-03-02T12:07:28+00:00",
+            "releaseNotes": "Updated to version 2012.2 (2012b)",
+            "get": "http://pecl.php.net/get/timezonedb-2012.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2012.1": {
+            "version": "2012.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2012-03-01T10:27:16+00:00",
+            "releaseNotes": "Updated to version 2012.1 (2012a)",
+            "get": "http://pecl.php.net/get/timezonedb-2012.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2011.14": {
+            "version": "2011.14",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2011-11-02T06:00:26+00:00",
+            "releaseNotes": "Updated to version 2011.14 (2011n)",
+            "get": "http://pecl.php.net/get/timezonedb-2011.14",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2011.13": {
+            "version": "2011.13",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2011-10-24T11:24:03+00:00",
+            "releaseNotes": "Updated to version 2011.13 (2011m)",
+            "get": "http://pecl.php.net/get/timezonedb-2011.13",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2011.12": {
+            "version": "2011.12",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2011-10-10T04:57:49+00:00",
+            "releaseNotes": "Updated to version 2011.12 (2011l)",
+            "get": "http://pecl.php.net/get/timezonedb-2011.12",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2011.11": {
+            "version": "2011.11",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2011-09-26T13:23:18+00:00",
+            "releaseNotes": "Updated to version  (2011j)",
+            "get": "http://pecl.php.net/get/timezonedb-2011.11",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2011.10": {
+            "version": "2011.10",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2011-09-12T11:50:16+00:00",
+            "releaseNotes": "Updated to version  (2011j)",
+            "get": "http://pecl.php.net/get/timezonedb-2011.10",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2011.9": {
+            "version": "2011.9",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2011-08-29T12:38:31+00:00",
+            "releaseNotes": "Updated to version 2011.9 (2011i)",
+            "get": "http://pecl.php.net/get/timezonedb-2011.9",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2011.8": {
+            "version": "2011.8",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2011-06-27T07:50:45+00:00",
+            "releaseNotes": "Updated to version 2011.8 (2011h)",
+            "get": "http://pecl.php.net/get/timezonedb-2011.8",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2011.7": {
+            "version": "2011.7",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2011-04-30T16:26:24+00:00",
+            "releaseNotes": "Updated to version 2011.7 (2011g)",
+            "get": "http://pecl.php.net/get/timezonedb-2011.7",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2011.5": {
+            "version": "2011.5",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2011-04-01T06:28:28+00:00",
+            "releaseNotes": "Updated to version 2011.5 (2011e)",
+            "get": "http://pecl.php.net/get/timezonedb-2011.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2011.4": {
+            "version": "2011.4",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2011-03-14T14:00:06+00:00",
+            "releaseNotes": "Updated to version 2011.4 (2011d)",
+            "get": "http://pecl.php.net/get/timezonedb-2011.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2011.3": {
+            "version": "2011.3",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2011-03-07T10:00:21+00:00",
+            "releaseNotes": "Updated to version 2011.3 (2011c)",
+            "get": "http://pecl.php.net/get/timezonedb-2011.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2011.2": {
+            "version": "2011.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2011-02-15T11:28:01+00:00",
+            "releaseNotes": "Updated to version 2011.2 (2011b)",
+            "get": "http://pecl.php.net/get/timezonedb-2011.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2011.1": {
+            "version": "2011.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2011-01-24T12:12:21+00:00",
+            "releaseNotes": "Updated to version 2011.1 (2011a)",
+            "get": "http://pecl.php.net/get/timezonedb-2011.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2010.15": {
+            "version": "2010.15",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2010-11-01T13:10:13+00:00",
+            "releaseNotes": "Updated to version 2010.15 (2010o)",
+            "get": "http://pecl.php.net/get/timezonedb-2010.15",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2010.13": {
+            "version": "2010.13",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2010-09-27T09:58:27+00:00",
+            "releaseNotes": "Updated to version 2010.13 (2010m)",
+            "get": "http://pecl.php.net/get/timezonedb-2010.13",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2010.12": {
+            "version": "2010.12",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2010-08-16T08:49:21+00:00",
+            "releaseNotes": "Updated to version 2010.12 (2010l)",
+            "get": "http://pecl.php.net/get/timezonedb-2010.12",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2010.11": {
+            "version": "2010.11",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2010-08-16T05:35:30+00:00",
+            "releaseNotes": "Updated to version 2010.11 (2010k)",
+            "get": "http://pecl.php.net/get/timezonedb-2010.11",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2010.9": {
+            "version": "2010.9",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2010-04-28T19:16:05+00:00",
+            "releaseNotes": "Updated to version 2010.9 (2010i)",
+            "get": "http://pecl.php.net/get/timezonedb-2010.9",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2010.7.1": {
+            "version": "2010.7.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2010-03-29T16:37:41+00:00",
+            "releaseNotes": "Updated to version 2010.7.1 (2010g)",
+            "get": "http://pecl.php.net/get/timezonedb-2010.7.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2010.7": {
+            "version": "2010.7",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2010-03-29T12:27:56+00:00",
+            "releaseNotes": "Updated to version  ()",
+            "get": "http://pecl.php.net/get/timezonedb-2010.7",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2010.5": {
+            "version": "2010.5",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2010-03-08T15:09:34+00:00",
+            "releaseNotes": "Updated to version 2010.5 (2010e)",
+            "get": "http://pecl.php.net/get/timezonedb-2010.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2010.3": {
+            "version": "2010.3",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2010-03-01T10:01:27+00:00",
+            "releaseNotes": "Updated to version 2010.3 (2010c)",
+            "get": "http://pecl.php.net/get/timezonedb-2010.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2010.2": {
+            "version": "2010.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2010-01-25T10:02:27+00:00",
+            "releaseNotes": "Updated to version 2010.2 (2010b)",
+            "get": "http://pecl.php.net/get/timezonedb-2010.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2010.1": {
+            "version": "2010.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2010-01-24T10:39:24+00:00",
+            "releaseNotes": "Updated to version 2010.1 (2010a)",
+            "get": "http://pecl.php.net/get/timezonedb-2010.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2009.21": {
+            "version": "2009.21",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2009-12-28T09:31:46+00:00",
+            "releaseNotes": "Updated to version 2009.21 (2009u)",
+            "get": "http://pecl.php.net/get/timezonedb-2009.21",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2009.18": {
+            "version": "2009.18",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2009-11-09T10:57:36+00:00",
+            "releaseNotes": "Updated to version 2009.18 (2009r)",
+            "get": "http://pecl.php.net/get/timezonedb-2009.18",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2009.17": {
+            "version": "2009.17",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2009-11-02T11:17:41+00:00",
+            "releaseNotes": "Updated to version 2009.17 (2009q)",
+            "get": "http://pecl.php.net/get/timezonedb-2009.17",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2009.16": {
+            "version": "2009.16",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2009-10-26T09:12:59+00:00",
+            "releaseNotes": "Updated to version 2009.16 (2009p)",
+            "get": "http://pecl.php.net/get/timezonedb-2009.16",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2009.15": {
+            "version": "2009.15",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2009-10-19T12:54:31+00:00",
+            "releaseNotes": "Updated to version 2009.15 (2009o)",
+            "get": "http://pecl.php.net/get/timezonedb-2009.15",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2009.14": {
+            "version": "2009.14",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2009-10-13T04:17:53+00:00",
+            "releaseNotes": "Updated to version 2009.14 (2009n)",
+            "get": "http://pecl.php.net/get/timezonedb-2009.14",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2009.13": {
+            "version": "2009.13",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2009-09-08T10:05:22+00:00",
+            "releaseNotes": "Updated to version 2009.13 (2009m)",
+            "get": "http://pecl.php.net/get/timezonedb-2009.13",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2009.12": {
+            "version": "2009.12",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2009-08-17T10:48:14+00:00",
+            "releaseNotes": "Updated to version 2009.12 (2009l)",
+            "get": "http://pecl.php.net/get/timezonedb-2009.12",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2009.10": {
+            "version": "2009.10",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2009-06-18T05:10:12+00:00",
+            "releaseNotes": "Updated to version 2009.10 (2009j)",
+            "get": "http://pecl.php.net/get/timezonedb-2009.10",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2009.8": {
+            "version": "2009.8",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2009-05-26T11:07:40+00:00",
+            "releaseNotes": "Updated to version 2009.8 (2009h)",
+            "get": "http://pecl.php.net/get/timezonedb-2009.8",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2009.6": {
+            "version": "2009.6",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2009-04-13T09:55:43+00:00",
+            "releaseNotes": "Updated to version 2009.6 (2009f)",
+            "get": "http://pecl.php.net/get/timezonedb-2009.6",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2009.5": {
+            "version": "2009.5",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2009-04-06T09:44:47+00:00",
+            "releaseNotes": "Updated to version 2009.5 (2009e)",
+            "get": "http://pecl.php.net/get/timezonedb-2009.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2009.4": {
+            "version": "2009.4",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2009-03-23T16:43:30+00:00",
+            "releaseNotes": "Updated to version 2009.4 (2009d)",
+            "get": "http://pecl.php.net/get/timezonedb-2009.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2009.3": {
+            "version": "2009.3",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2009-03-22T07:05:32+00:00",
+            "releaseNotes": "Updated to version 2009.3 (2009c)",
+            "get": "http://pecl.php.net/get/timezonedb-2009.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2009.1": {
+            "version": "2009.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2009-01-21T10:49:41+00:00",
+            "releaseNotes": "Updated to version 2009.1 (2009a)",
+            "get": "http://pecl.php.net/get/timezonedb-2009.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2008.9": {
+            "version": "2008.9",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2008-10-28T03:21:20+00:00",
+            "releaseNotes": "Updated to version 2008.9 (2008i)",
+            "get": "http://pecl.php.net/get/timezonedb-2008.9",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2008.8": {
+            "version": "2008.8",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2008-10-13T07:49:06+00:00",
+            "releaseNotes": "Updated to version 2008.8 (2008h)",
+            "get": "http://pecl.php.net/get/timezonedb-2008.8",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2008.7": {
+            "version": "2008.7",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2008-10-06T10:30:36+00:00",
+            "releaseNotes": "Updated to version 2008.7 (2008g)",
+            "get": "http://pecl.php.net/get/timezonedb-2008.7",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2008.6": {
+            "version": "2008.6",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2008-09-15T14:08:59+00:00",
+            "releaseNotes": "Updated to version 2008.6 (2008f)",
+            "get": "http://pecl.php.net/get/timezonedb-2008.6",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2008.5": {
+            "version": "2008.5",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2008-07-28T15:35:24+00:00",
+            "releaseNotes": "Updated to version 2008.5 (2008e)",
+            "get": "http://pecl.php.net/get/timezonedb-2008.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2008.4.1": {
+            "version": "2008.4.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2008-07-18T10:05:30+00:00",
+            "releaseNotes": "Updated to version 2008.4.1 (2008d)",
+            "get": "http://pecl.php.net/get/timezonedb-2008.4.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2008.4": {
+            "version": "2008.4",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2008-07-07T10:37:31+00:00",
+            "releaseNotes": "Updated to version 2008.4 (2008d)",
+            "get": "http://pecl.php.net/get/timezonedb-2008.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2008.3": {
+            "version": "2008.3",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2008-06-07T19:30:40+00:00",
+            "releaseNotes": "Updated to version 2008.3 (2008c)",
+            "get": "http://pecl.php.net/get/timezonedb-2008.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2008.2": {
+            "version": "2008.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2008-03-24T08:03:37+00:00",
+            "releaseNotes": "Updated to version 2008.2 (2008b)",
+            "get": "http://pecl.php.net/get/timezonedb-2008.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2008.1": {
+            "version": "2008.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2008-03-16T02:26:25+00:00",
+            "releaseNotes": "Updated to version 2008.1 (2008a)",
+            "get": "http://pecl.php.net/get/timezonedb-2008.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2007.11": {
+            "version": "2007.11",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2008-01-01T11:02:20+00:00",
+            "releaseNotes": "Updated to version 2007.11 (2007k)",
+            "get": "http://pecl.php.net/get/timezonedb-2007.11",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2007.10": {
+            "version": "2007.10",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2007-12-03T10:32:30+00:00",
+            "releaseNotes": "Updated to version 2007.10",
+            "get": "http://pecl.php.net/get/timezonedb-2007.10",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2007.9": {
+            "version": "2007.9",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2007-11-05T06:21:33+00:00",
+            "releaseNotes": "Updated to version 2007.9",
+            "get": "http://pecl.php.net/get/timezonedb-2007.9",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2007.8": {
+            "version": "2007.8",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2007-10-11T14:57:14+00:00",
+            "releaseNotes": "Updated to version 2007.8",
+            "get": "http://pecl.php.net/get/timezonedb-2007.8",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2007.5": {
+            "version": "2007.5",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2007-04-13T10:50:27+00:00",
+            "releaseNotes": "Updated to version 2007e.",
+            "get": "http://pecl.php.net/get/timezonedb-2007.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2007.3": {
+            "version": "2007.3",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2007-03-06T16:30:08+00:00",
+            "releaseNotes": "Updated to version 2007c.",
+            "get": "http://pecl.php.net/get/timezonedb-2007.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2007.2": {
+            "version": "2007.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2007-02-12T21:37:01+00:00",
+            "releaseNotes": "Updated to version 2007b.",
+            "get": "http://pecl.php.net/get/timezonedb-2007.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2006.16": {
+            "version": "2006.16",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2006-11-29T15:01:57+00:00",
+            "releaseNotes": "Updated to version 2006p.",
+            "get": "http://pecl.php.net/get/timezonedb-2006.16",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2006.14.1": {
+            "version": "2006.14.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2006-10-27T14:10:57+00:00",
+            "releaseNotes": "Fixed a symbol issue for FreeBSD.",
+            "get": "http://pecl.php.net/get/timezonedb-2006.14.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2006.14": {
+            "version": "2006.14",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2006-10-17T13:09:23+00:00",
+            "releaseNotes": "Updated timezone database version to 2006.14.",
+            "get": "http://pecl.php.net/get/timezonedb-2006.14",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2006.11": {
+            "version": "2006.11",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2006-08-29T16:23:31+00:00",
+            "releaseNotes": "Updated timezone database version to 2006.11.",
+            "get": "http://pecl.php.net/get/timezonedb-2006.11",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2006.7": {
+            "version": "2006.7",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2006-07-04T14:17:41+00:00",
+            "releaseNotes": "Updated timezone database version to 2006.7.",
+            "get": "http://pecl.php.net/get/timezonedb-2006.7",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2006.1": {
+            "version": "2006.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2006-01-31T13:35:29+00:00",
+            "releaseNotes": "Updated timezone database version to 2006.1.",
+            "get": "http://pecl.php.net/get/timezonedb-2006.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2005.18": {
+            "version": "2005.18",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2005-12-27T11:42:09+00:00",
+            "releaseNotes": "Updated timezone database version to 2005.18.",
+            "get": "http://pecl.php.net/get/timezonedb-2005.18",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2005.17": {
+            "version": "2005.17",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2005-12-19T08:28:19+00:00",
+            "releaseNotes": "Updated timezone database version to 2005.17.",
+            "get": "http://pecl.php.net/get/timezonedb-2005.17",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2005.14": {
+            "version": "2005.14",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2005-10-15T14:19:28+00:00",
+            "releaseNotes": "Updated timezone database version to 2005.14.",
+            "get": "http://pecl.php.net/get/timezonedb-2005.14",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2005.13": {
+            "version": "2005.13",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2005-10-03T07:43:15+00:00",
+            "releaseNotes": "Initial release with version 2005.13.",
+            "get": "http://pecl.php.net/get/timezonedb-2005.13",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "Timezone Database to be used with PHP's date and time functions",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

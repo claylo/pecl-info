@@ -1,0 +1,64 @@
+{
+    "category": "HTTP",
+    "deprecated": false,
+    "description": "PSR-7 compatible HTTP Message implementation as PHP extension",
+    "latestReleaseDate": "2020-08-25T11:23:53+00:00",
+    "latestVersion": "0.2.2",
+    "license": "MIT License",
+    "name": "http_message",
+    "php8Mentioned": false,
+    "releases": {
+        "0.2.2": {
+            "version": "0.2.2",
+            "state": "beta",
+            "license": "MIT License",
+            "releasedBy": "jasny",
+            "releaseDate": "2020-08-25T11:23:53+00:00",
+            "releaseNotes": "Fixed HttpMessage\\Factory::createUri()",
+            "get": "https://pecl.php.net/get/http_message-0.2.2",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.2.1": {
+            "version": "0.2.1",
+            "state": "beta",
+            "license": "MIT License",
+            "releasedBy": "jasny",
+            "releaseDate": "2019-11-07T01:47:35+00:00",
+            "releaseNotes": "Added `HttpMessage\\Emitter`.\nEmitter outputs header and body.\nXDebug is needed to test emitter.\n\nFixed segfault for `withHeader()` when using a non-string var.",
+            "get": "https://pecl.php.net/get/http_message-0.2.1",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.2.0": {
+            "version": "0.2.0",
+            "state": "beta",
+            "license": "MIT License",
+            "releasedBy": "jasny",
+            "releaseDate": "2019-09-05T01:36:10+00:00",
+            "releaseNotes": "Added Factory class that implements all PSR-17 interfaces.\nAll properties private.\nAllow filename and mode for Stream constructor.\nAllow StreamInterface object for UploadedFile constructor.\nMove uploaded file copies a stream if stream is supplied.\nFixes and cleanup.",
+            "get": "https://pecl.php.net/get/http_message-0.2.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.1.1": {
+            "version": "0.1.1",
+            "state": "beta",
+            "license": "MIT License",
+            "releasedBy": "jasny",
+            "releaseDate": "2019-07-28T12:58:58+00:00",
+            "releaseNotes": "Fixed default value issue with ServerRequest::getAttribute(). The method only accepted one argument.",
+            "get": "https://pecl.php.net/get/http_message-0.1.1",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.1.0": {
+            "version": "0.1.0",
+            "state": "beta",
+            "license": "MIT License",
+            "releasedBy": "jasny",
+            "releaseDate": "2019-07-11T01:02:46+00:00",
+            "releaseNotes": "Initial release.",
+            "get": "https://pecl.php.net/get/http_message-0.1.0",
+            "SPDX-License-Identifier": "MIT"
+        }
+    },
+    "summary": "PSR-7 HTTP Message implementation",
+    "SPDX-License-Identifier": "MIT"
+}

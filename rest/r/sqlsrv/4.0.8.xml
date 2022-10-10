@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/sqlsrv">sqlsrv</p>
+ <c>pecl.php.net</c>
+ <v>4.0.8</v>
+ <st>stable</st>
+ <l>The MIT License (MIT)</l>
+ <m>hadisfard</m>
+ <s>Microsoft Drivers for PHP for SQL Server (SQLSRV)</s>
+ <d>The Microsoft Drivers for PHP for SQL Server are PHP extensions that allow for the reading and writing of SQL Server data from within PHP scripts. The SQLSRV extension provides a procedural interface while the PDO_SQLSRV extension implements PDO for accessing data in all editions of SQL Server 2005 and later (including Azure SQL DB). These drivers rely on the Microsoft ODBC Driver for SQL Server to handle the low-level communication with SQL Server.
+*This package contains only the SQLSRV driver.*</d>
+ <da>2016-12-19 21:15:29</da>
+ <n>[Added]
+- Unicode Column name support.
+[Fixed]
+- Fixed issue with buffered cursor in PDO_SQLSRV driver when CharacterSet is UTF-8.
+- Fixed issue with empty output parameters on stored procedure.
+- Fixed memory leaks in buffered queries.</n>
+ <f>192155</f>
+ <g>http://pecl.php.net/get/sqlsrv-4.0.8</g>
+ <x xlink:href="package.4.0.8.xml"/>
+</r>

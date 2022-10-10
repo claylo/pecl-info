@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xdebug">xdebug</p>
+ <c>pecl.php.net</c>
+ <v>2.2.1</v>
+ <st>stable</st>
+ <l>BSD style</l>
+ <m>derick</m>
+ <s>Provides functions for function traces and profiling</s>
+ <d>The Xdebug extension helps you debugging your script by providing a lot of
+valuable debug information. The debug information that Xdebug can provide
+includes the following:
+
+    * stack and function traces in error messages with:
+          o full parameter display for user defined functions
+          o function name, file name and line indications
+          o support for member functions
+    * memory allocation
+    * protection for infinite recursions
+
+Xdebug also provides:
+
+    * profiling information for PHP scripts
+    * code coverage analysis
+    * capabilities to debug your scripts interactively with a debug client</d>
+ <da>2012-07-14 18:10:59</da>
+ <n>= Fixed bugs:
+
+	- Fixed bug #843: Text output depends on php locale.
+	- Fixed bug #838/#839/#840: Debugging static properties crashes Xdebug.
+	- Fixed bug #821: Variable assignments (beginning with =&gt;) should be
+	  indented one more scope.
+	- Fixed bug #811: PHP Documentation Link.
+	- Fixed bug #800: var_dump(get_class(new foo\bar')) add an extra &quot;\&quot; in
+	  class name.</n>
+ <f>248057</f>
+ <g>http://pecl.php.net/get/xdebug-2.2.1</g>
+ <x xlink:href="package.2.2.1.xml"/>
+</r>

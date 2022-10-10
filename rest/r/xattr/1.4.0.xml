@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xattr">xattr</p>
+ <c>pecl.php.net</c>
+ <v>1.4.0</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>remi</m>
+ <s>Extended attributes.</s>
+ <d>This package allows to manipulate extended attributes on filesystems that support them.</d>
+ <da>2020-04-24 07:03:41</da>
+ <n>- drop dupport for PHP older than 7.2
+- add type hinting in reflection</n>
+ <f>8401</f>
+ <g>https://pecl.php.net/get/xattr-1.4.0</g>
+ <x xlink:href="package.1.4.0.xml"/>
+</r>

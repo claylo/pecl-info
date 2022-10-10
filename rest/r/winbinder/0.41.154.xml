@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/winbinder">WinBinder</p>
+ <c>pecl.php.net</c>
+ <v>0.41.154</v>
+ <st>alpha</st>
+ <l>BSD</l>
+ <m>rubs</m>
+ <s>A Native Windows binding for PHP</s>
+ <d>WinBinder is a new extension that allows PHP programmers to build native Windows applications. It wraps the Windows API in a lightweight, easy-to-use library so that program creation is quick and straightforward.
+</d>
+ <da>2005-05-29 18:24:10</da>
+ <n>- Implemented the much awaited HTML control
+- New memory constants for wb_get_system_info()
+- Easy way to set/retrieve columns widths from ListViews
+- Custom-drawn windows now created with system background color
+- Optional standard window border for naked windows
+- Several bug fixes, corrections to manual and other improvements
+
+Please make sure you read the changelog!</n>
+ <f>569623</f>
+ <g>http://pecl.php.net/get/WinBinder-0.41.154</g>
+ <x xlink:href="package.0.41.154.xml"/>
+</r>

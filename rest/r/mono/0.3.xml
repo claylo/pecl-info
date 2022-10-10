@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mono">mono</p>
+ <c>pecl.php.net</c>
+ <v>0.3</v>
+ <st>alpha</st>
+ <l>PHP License</l>
+ <m>sterling</m>
+ <s>Allows you to access .NET assemblies from PHP</s>
+ <d>A C extension that interfaces with the mono library to allow
+	access to .NET assemblies.
+</d>
+ <da>2003-02-08 18:19:00</da>
+ <n>- Properly destroy objects
+- Add the ability to clone objects</n>
+ <f>9283</f>
+ <g>http://pecl.php.net/get/mono-0.3</g>
+ <x xlink:href="package.0.3.xml"/>
+</r>

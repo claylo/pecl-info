@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/gmagick">gmagick</p>
+ <c>pecl.php.net</c>
+ <v>2.0.1RC2</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>vito</m>
+ <s>Provides a wrapper to the GraphicsMagick library.</s>
+ <d>Gmagick is a php extension to create, modify and obtain meta information of images using the GraphicsMagick API.
+Version 2.0.0RC1 onwards requires GraphicsMagick version 1.3.17+ and PHP 7.0.1+
+If you're using versions of PHP below 7.0.1 but above 5.1.3, please use version Gmagick 1.1.7RC3</d>
+ <da>2016-01-31 15:17:59</da>
+ <n>Extraneous optional parameter for blurImage and sharpenImage removed. Only two parameters are supported, radius and sigma. Also, a lot more image methods with corresponding tests.</n>
+ <f>122762</f>
+ <g>http://pecl.php.net/get/gmagick-2.0.1RC2</g>
+ <x xlink:href="package.2.0.1RC2.xml"/>
+</r>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ibm_db2">ibm_db2</p>
+ <c>pecl.php.net</c>
+ <v>1.0.1</v>
+ <st>beta</st>
+ <l>Apache License 2.0</l>
+ <m>skoduru</m>
+ <s>Extension for IBM DB2 Universal Database, IBM Cloudscape, and Apache Derby</s>
+ <d>This extension supports IBM DB2 Universal Database, IBM Cloudscape, and
+Apache Derby databases.
+</d>
+ <da>2005-05-18 11:41:35</da>
+ <n>Enable binary data types. Handle string truncation errors gracefully.
+Enable verbose output in phpinfo().</n>
+ <f>146339</f>
+ <g>http://pecl.php.net/get/ibm_db2-1.0.1</g>
+ <x xlink:href="package.1.0.1.xml"/>
+</r>

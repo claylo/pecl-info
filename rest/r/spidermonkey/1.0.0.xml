@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/spidermonkey">spidermonkey</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>crobin</m>
+ <s>JavaScript engine for PHP</s>
+ <d>This extension allow you to embed Mozilla's Javascript engine Spidermonkey in PHP.</d>
+ <da>2012-04-19 00:09:08</da>
+ <n>* Fixed package
+* Fixed compilation issue on 5.3
+* Bumped version to 1.0.0 to prevent PECL from complaining about the version</n>
+ <f>16639</f>
+ <g>http://pecl.php.net/get/spidermonkey-1.0.0</g>
+ <x xlink:href="package.1.0.0.xml"/>
+</r>

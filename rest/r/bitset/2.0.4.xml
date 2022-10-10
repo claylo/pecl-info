@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/bitset">bitset</p>
+ <c>pecl.php.net</c>
+ <v>2.0.4</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>willfitch</m>
+ <s>BITSET library</s>
+ <d>Bitsets manipulation library</d>
+ <da>2017-10-06 16:45:40</da>
+ <n>- Fixed out of bounds bug (thanks kgodet)
+- Fixed fromRawValue missing offset</n>
+ <f>19973</f>
+ <g>http://pecl.php.net/get/bitset-2.0.4</g>
+ <x xlink:href="package.2.0.4.xml"/>
+</r>

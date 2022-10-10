@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/gearman">gearman</p>
+ <c>pecl.php.net</c>
+ <v>1.0.2</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>hradtke</m>
+ <s>PHP wrapper to libgearman</s>
+ <d>This extension uses libgearman library to provide API for communicating with gearmand, and writing clients and workers.</d>
+ <da>2012-03-06 02:14:40</da>
+ <n>- Updates for PHP 5.4</n>
+ <f>30405</f>
+ <g>http://pecl.php.net/get/gearman-1.0.2</g>
+ <x xlink:href="package.1.0.2.xml"/>
+</r>

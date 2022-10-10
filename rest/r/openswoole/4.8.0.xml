@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/openswoole">openswoole</p>
+ <c>pecl.php.net</c>
+ <v>4.8.0</v>
+ <st>stable</st>
+ <l>Apache 2.0</l>
+ <m>doubaokun</m>
+ <s>High Performance Programmatic Server for PHP with Async IO, Coroutines and Fibers</s>
+ <d>Build high-performance, scalable, concurrent TCP, UDP, Unix Socket, HTTP, WebSocket services with PHP and easy to use coroutine, fibers API.</d>
+ <da>2021-11-28 09:24:49</da>
+ <n>- Official PHP 8.1 stable support 🎉
+- Native support for Postgres coroutine client, enable --with-postgres[=DIR]
+- New HTTP server option: max_request_execution_time
+- Support strict type hinting and fix the type of arguments, return value
+- Bug fixed: data loss bug in Swoole table
+- Bug fixed: compile issues when enabling OpenSSL on macOS
+- Throw \Swoole\Exception when Swoole table is too small to avoid data loss
+- Deprecation warning added: Swoole\Coroutine\Server
+- Deprecation warning added: Swoole\Coroutine\Barrier
+- Deprecation warning added: Swoole\Coroutine\Http\Server
+- Deprecation warning added: SWOOLE_HOOK_CURL, use SWOOLE_HOOK_NATIVE_CURL</n>
+ <f>1623556</f>
+ <g>https://pecl.php.net/get/openswoole-4.8.0</g>
+ <x xlink:href="package.4.8.0.xml"/>
+</r>

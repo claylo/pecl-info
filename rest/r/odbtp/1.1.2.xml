@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/odbtp">odbtp</p>
+ <c>pecl.php.net</c>
+ <v>1.1.2</v>
+ <st>stable</st>
+ <l>LGPL</l>
+ <m>rtwitty</m>
+ <s>ODBTP client functions</s>
+ <d>This extension provides a set of ODBTP, Open Database Transport
+Protocol, client functions. ODBTP allows any platform to remotely
+access Win32-based databases. Linux and UNIX clients can use this
+extension to access Win32 databases like MS SQL Server, MS Access
+and Visual FoxPro.
+</d>
+ <da>2004-08-17 01:05:00</da>
+ <n>Incorporates support for the new features that were added into
+the ODBTP 1.1.2 C client library. The extension's source file was also
+renamed from odbtp.c to php_odbtp.c.</n>
+ <f>25475</f>
+ <g>http://pecl.php.net/get/odbtp-1.1.2</g>
+ <x xlink:href="package.1.1.2.xml"/>
+</r>

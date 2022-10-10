@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/dio">dio</p>
+ <c>pecl.php.net</c>
+ <v>0.2.0</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>remi</m>
+ <s>Direct I/O functions</s>
+ <d>PHP supports the direct io functions as described in the 
+Posix Standard (Section 6) for performing I/O functions at 
+a lower level than the C-Language stream I/O functions 
+(fopen(), fread(),..). 
+
+DIO provides functions and stream wrappers which provide raw and
+serial low level IO support.  The use of the DIO functions should 
+be considered only when direct control of a device is needed. 
+In all other cases, the standard filesystem functions are 
+more than adequate.</d>
+ <da>2020-04-16 14:38:00</da>
+ <n>- fix stream API for PHP 7.4+</n>
+ <f>37328</f>
+ <g>https://pecl.php.net/get/dio-0.2.0</g>
+ <x xlink:href="package.0.2.0.xml"/>
+</r>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.8.12</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Coroutine-based concurrency library for PHP</s>
+ <d>Coroutine-based concurrency library for PHP
+        - event-driven
+        - coroutines
+        - asynchronous non-blocking
+        - built-in tcp/http/websocket/http2 server
+        - coroutine tcp/http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - automatically replace blocking functions to non-blocking
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2022-09-23 00:11:59</da>
+ <n>- Supports PHP-8.2
+- Enhanced Event::add() support for sockets resources
+- Fixed incorrect error message when wrong multipart body is received
+- Improved Http\Client::sendfile(), support large files over 4G
+- Improved Server::taskWaitMulti(), support coroutine environment
+- Fixed incorrect error message when add timer less than 1ms
+- Fixed deadlock caused by writing log when disk is full</n>
+ <f>2097350</f>
+ <g>https://pecl.php.net/get/swoole-4.8.12</g>
+ <x xlink:href="package.4.8.12.xml"/>
+</r>

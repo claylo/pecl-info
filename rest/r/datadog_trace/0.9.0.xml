@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.9.0</v>
+ <st>beta</st>
+ <l>BSD 3-Clause</l>
+ <m>sammyk</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2019-01-07 17:59:02</da>
+ <n>### Added
+- PHP code compatibility with PHP 5.4 #194
+- Move framework tests to tests root folder #198
+- Move integrations tests to tests root folder #200
+- Allow testing of multiple library versions #203
+- Downgrade of phpunit to 4.* in order to prepare for php 5.4 #208
+- Configurable autofinishing of unfinished spans on tracer flush #217
+
+### Fixed
+- Predis integration supporting constructor options as an object #187 - thanks @raffaellopaletta
+- Properly set http status code tag in Laravel 4 integration #195
+- Agent calls traced when using Symfony 3 integration #197
+- Fix for trace and span ID's that were improperly serialized on the wire in distributed tracing contexts #204
+- Fix noop tracer issues with Laravel integration #220</n>
+ <f>19905</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.9.0</g>
+ <x xlink:href="package.0.9.0.xml"/>
+</r>

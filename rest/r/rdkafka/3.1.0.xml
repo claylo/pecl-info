@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/rdkafka">rdkafka</p>
+ <c>pecl.php.net</c>
+ <v>3.1.0</v>
+ <st>stable</st>
+ <l>MIT License</l>
+ <m>lbarnaud</m>
+ <s>Kafka client based on librdkafka</s>
+ <d>This extension is a librdkafka binding providing a working client for Kafka</d>
+ <da>2019-04-18 09:30:10</da>
+ <n>* Added timestamp support (@mariam-japaridze)
+* Added headers support (@martynaszaliaduonis, @dariuskasiulevicius)
+* Added Rdkafka\Conf::setConsumeCb(), RdKafka\Conf::setOffsetCommitCb() (@tPl0ch)
+* Added RdKafka\KafkaConsumer::getCommittedOffsets() (@dariuskasiulevicius)
+* Fixed RdKafka\Message::errstr() (@JustBlackBird)
+* Fixed reflection (@carusogabriel)
+* Allow null key and null message (@awons)
+* Dropped official PHP 5.4 / 5.5 support (@tPl0ch)
+* Improved examples (@dbakiu, @Steveb-p)</n>
+ <f>32386</f>
+ <g>https://pecl.php.net/get/rdkafka-3.1.0</g>
+ <x xlink:href="package.3.1.0.xml"/>
+</r>

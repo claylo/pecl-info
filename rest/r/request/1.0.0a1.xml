@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/request">request</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0a1</v>
+ <st>alpha</st>
+ <l>MIT</l>
+ <m>pmjones</m>
+ <s>Provides server-side request and response objects.</s>
+ <d>This extension provides server-side request and response objects for PHP.
+These are *not* HTTP message objects proper. They are more like wrappers
+for existing global PHP variables and functions, with some limited
+additional convenience functionality.
+
+This extension defines two classes in the global namespace:
+
+- ServerRequest, composed of read-only copies of PHP superglobals and some
+  other commonly-used values, with methods for adding application-specific
+  request information in immutable fashion.
+
+- ServerResponse, essentially a wrapper around (and buffer for) response-
+  related PHP functions, with some additional convenience methods, and self-
+  sending capability.
+
+Documentation: https://gitlab.com/pmjones/phprequest</d>
+ <da>2016-11-17 21:05:53</da>
+ <n>Please see CHANGELOG.md for release notes.</n>
+ <f>33118</f>
+ <g>http://pecl.php.net/get/request-1.0.0a1</g>
+ <x xlink:href="package.1.0.0a1.xml"/>
+</r>

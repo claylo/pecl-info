@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pdflib">pdflib</p>
+ <c>pecl.php.net</c>
+ <v>2.0.3</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>rjs</m>
+ <s>Creating PDF on the fly with the PDFlib library</s>
+ <d>This extension wraps the PDFlib programming library
+for processing PDF on the fly, created by Thomas Merz. 
+
+PDFlib is available under the PDFlib Lite License
+(http://www.pdflib.com/pdffiles/PDFlib-Lite-license.pdf)
+and for commercial licensing.
+</d>
+ <da>2004-11-24 12:30:00</da>
+ <n>Bugfixes:
+- PDF_get_parameter crashed when called with only 2 parameters.
+Enhancements:
+- added pdf_utf8_to_utf16() and pdf_utf16_to_utf8() API's.
+- included support for PDFlib4 again</n>
+ <f>36143</f>
+ <g>http://pecl.php.net/get/pdflib-2.0.3</g>
+ <x xlink:href="package.2.0.3.xml"/>
+</r>

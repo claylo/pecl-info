@@ -1,0 +1,22 @@
+{
+    "2.4.0": {
+        "version": "2.4.0",
+        "state": "stable"
+    },
+    "2.3": {
+        "version": "2.3",
+        "state": "stable"
+    },
+    "2.2.0": {
+        "version": "2.2.0",
+        "state": "stable"
+    },
+    "2.1.2": {
+        "version": "2.1.2",
+        "state": "stable"
+    },
+    "2.1.1": {
+        "version": "2.1.1",
+        "state": "stable"
+    }
+}

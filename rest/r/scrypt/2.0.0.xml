@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/scrypt">scrypt</p>
+ <c>pecl.php.net</c>
+ <v>2.0.0</v>
+ <st>stable</st>
+ <l>BSD 2-Clause</l>
+ <m>kocsismate</m>
+ <s>Scrypt hashing function</s>
+ <d>A PHP wrapper to Colin Percival's scrypt implementation.</d>
+ <da>2022-09-06 16:14:50</da>
+ <n>Increased PHP version requirement to 7.0 (#67, #69), Improved parameter reflection and validation (#63, #64),
+   Fixed memory leak in scrypt() (#68), Fixed compilation warning (#69), Added support for sensitive parameters on PHP 8.2+ (#70)</n>
+ <f>23229</f>
+ <g>https://pecl.php.net/get/scrypt-2.0.0</g>
+ <x xlink:href="package.2.0.0.xml"/>
+</r>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/sca_sdo">SCA_SDO</p>
+ <c>pecl.php.net</c>
+ <v>1.2.3</v>
+ <st>stable</st>
+ <l>Apache 2.0</l>
+ <m>mfp</m>
+ <s>Service Component Architecture (SCA) and Service Data Objects (SDO) for PHP</s>
+ <d>Service Data Objects (SDOs) enable PHP applications to work with data from different sources (typically a database query or an XML file) using a single interface. SCA for PHP allows a PHP programmer to write reusable components (classes) in PHP, which can be called either locally, or in a a variety of ways remotely (soap web services, xml-rpc, json-rpc, REST, etc), but always with the same interface.
+ 
+</d>
+ <da>2007-08-24 11:00:08</da>
+ <n>* Fixes for PECL bugs:
+   - TUSCANY-1362 - Incorrect operation of code that checks whether schema is loaded before going out on the net to retrieve it.
+   - TUSCANY-1112 - (which is PECL 9867)  Incorrect namespaces in generated XML
+   - TUSCANY-1564 - (which is PECL 11774) xsi:type not always set for complexType
+   - TUSCANY-1566 - Elements coming out in wrong namespace (found by Caroline and reported in the phpsoa group under &quot;Experiences with Atompub&quot;
+ * Other:
+   - Pick up revision 568244 of Tuscany SDO code.
+   - There is a new Rest Resource binding, with tests and examples.
+   - There is a new simpledb binding with examples</n>
+ <f>516350</f>
+ <g>http://pecl.php.net/get/SCA_SDO-1.2.3</g>
+ <x xlink:href="package.1.2.3.xml"/>
+</r>

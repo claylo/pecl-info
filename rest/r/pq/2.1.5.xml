@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pq">pq</p>
+ <c>pecl.php.net</c>
+ <v>2.1.5</v>
+ <st>stable</st>
+ <l>BSD-2-Clause</l>
+ <m>mike</m>
+ <s>PostgreSQL client library (libpq) binding</s>
+ <d>Documents: https://mdref.m6w6.name/pq
+
+ Highlights:
+ * Nearly complete support for asynchronous usage:
+   https://mdref.m6w6.name/pq/Connection/%3A%20Asynchronous%20Usage
+ * Extended type support by pg_type:
+   https://mdref.m6w6.name/pq/Types/%3A%20Overview
+ * Fetching simple multi-dimensional array maps:
+   https://mdref.m6w6.name/pq/Result/map
+ * Working Gateway implementation:
+   https://mdref.m6w6.name/pq-gateway</d>
+ <da>2019-01-14 14:21:29</da>
+ <n>* Fix PHP-7.3 compatibility</n>
+ <f>67384</f>
+ <g>https://pecl.php.net/get/pq-2.1.5</g>
+ <x xlink:href="package.2.1.5.xml"/>
+</r>

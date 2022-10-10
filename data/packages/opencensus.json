@@ -1,0 +1,164 @@
+{
+    "category": "Benchmarking",
+    "deprecated": false,
+    "description": "OpenCensus is a open source, distributed tracing system that allows you to collect latency data and report it to any trace aggregation system such as Zipkin or Stackdriver Trace.\n\nThis extension allows you to easily gather latency and other metadata by watching for targeted function and method invocations without needing to inject code into the libraries.",
+    "latestReleaseDate": "2021-06-09T22:11:05+00:00",
+    "latestVersion": "0.3.0",
+    "license": "Apache 2.0",
+    "name": "opencensus",
+    "php8Mentioned": true,
+    "releases": {
+        "0.3.0": {
+            "version": "0.3.0",
+            "state": "alpha",
+            "license": "Apache 2.0",
+            "releasedBy": "chingor",
+            "releaseDate": "2021-06-09T22:11:05+00:00",
+            "releaseNotes": "- OpenCensus stats implementation (#220)\n- Fix ZVAL_DESTRUCTOR usage\n- Add PHP8 compatibility (#270)",
+            "get": "https://pecl.php.net/get/opencensus-0.3.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "0.2.2": {
+            "version": "0.2.2",
+            "state": "alpha",
+            "license": "Apache 2.0",
+            "releasedBy": "chingor",
+            "releaseDate": "2018-05-08T23:50:57+00:00",
+            "releaseNotes": "- Fix refcounts for arguments in traced function callbacks (#184)",
+            "get": "http://pecl.php.net/get/opencensus-0.2.2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "0.2.1": {
+            "version": "0.2.1",
+            "state": "alpha",
+            "license": "Apache 2.0",
+            "releasedBy": "chingor",
+            "releaseDate": "2018-04-18T21:46:48+00:00",
+            "releaseNotes": "- Preserve annotation, link, and message event options (#171)\n- Preserve span stacktrace when provided as an option (#171)",
+            "get": "http://pecl.php.net/get/opencensus-0.2.1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "0.2.0": {
+            "version": "0.2.0",
+            "state": "alpha",
+            "license": "Apache 2.0",
+            "releasedBy": "chingor",
+            "releaseDate": "2018-04-02T20:16:49+00:00",
+            "releaseNotes": "- Adds Span kind (#151)\n- Adds Span sameProcessAsParentSpan (#153)",
+            "get": "http://pecl.php.net/get/opencensus-0.2.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "0.1.4": {
+            "version": "0.1.4",
+            "state": "alpha",
+            "license": "Apache 2.0",
+            "releasedBy": "chingor",
+            "releaseDate": "2018-03-05T21:35:45+00:00",
+            "releaseNotes": "Fix handling startTime when passed to opencensus_trace_begin (#135)",
+            "get": "http://pecl.php.net/get/opencensus-0.1.4",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "0.1.3": {
+            "version": "0.1.3",
+            "state": "alpha",
+            "license": "Apache 2.0",
+            "releasedBy": "chingor",
+            "releaseDate": "2018-03-02T22:22:14+00:00",
+            "releaseNotes": "Fix segfault on OSX (#129)",
+            "get": "http://pecl.php.net/get/opencensus-0.1.3",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "0.1.2": {
+            "version": "0.1.2",
+            "state": "alpha",
+            "license": "Apache 2.0",
+            "releasedBy": "chingor",
+            "releaseDate": "2018-01-19T18:22:02+00:00",
+            "releaseNotes": "Fix potential variable naming collision (#97)",
+            "get": "http://pecl.php.net/get/opencensus-0.1.2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "0.1.1": {
+            "version": "0.1.1",
+            "state": "alpha",
+            "license": "Apache 2.0",
+            "releasedBy": "chingor",
+            "releaseDate": "2017-12-27T17:26:00+00:00",
+            "releaseNotes": "Fix segfault when specifying attributes in a callback (#93)",
+            "get": "http://pecl.php.net/get/opencensus-0.1.1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "0.1.0": {
+            "version": "0.1.0",
+            "state": "alpha",
+            "license": "Apache 2.0",
+            "releasedBy": "chingor",
+            "releaseDate": "2017-12-12T17:35:59+00:00",
+            "releaseNotes": "First alpha release.\n- Refactored internal data structures to match OpenCensus models\n- Supports creating detached spans.\n- Add support for annotations, message events, and links.",
+            "get": "http://pecl.php.net/get/opencensus-0.1.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "0.1.0RC2": {
+            "version": "0.1.0RC2",
+            "state": "devel",
+            "license": "Apache 2.0",
+            "releasedBy": "chingor",
+            "releaseDate": "2017-12-12T00:42:01+00:00",
+            "releaseNotes": "RC1 for alpha release.\n- Refactored internal data structures to match OpenCensus models\n- Supports creating detached spans.\n- Add support for annotations, message events, and links.",
+            "get": "http://pecl.php.net/get/opencensus-0.1.0RC2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "0.1.0RC1": {
+            "version": "0.1.0RC1",
+            "state": "devel",
+            "license": "Apache 2.0",
+            "releasedBy": "chingor",
+            "releaseDate": "2017-12-11T21:40:59+00:00",
+            "releaseNotes": "RC1 for alpha release.\n- Refactored internal data structures to match OpenCensus models\n- Supports creating detached spans.\n- Add support for annotations, message events, and links.",
+            "get": "http://pecl.php.net/get/opencensus-0.1.0RC1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "0.0.4": {
+            "version": "0.0.4",
+            "state": "devel",
+            "license": "Apache 2.0",
+            "releasedBy": "chingor",
+            "releaseDate": "2017-10-20T20:20:18+00:00",
+            "releaseNotes": "- Adds php_info() section (#42)\n- Span ids are captured as hex strings (#44)",
+            "get": "http://pecl.php.net/get/opencensus-0.0.4",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "0.0.3": {
+            "version": "0.0.3",
+            "state": "devel",
+            "license": "Apache 2.0",
+            "releasedBy": "chingor",
+            "releaseDate": "2017-08-25T18:20:05+00:00",
+            "releaseNotes": "- Capture span kind (#19)\n- Capture stacktrace (#21)",
+            "get": "http://pecl.php.net/get/opencensus-0.0.3",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "0.0.2": {
+            "version": "0.0.2",
+            "state": "devel",
+            "license": "Apache 2.0",
+            "releasedBy": "chingor",
+            "releaseDate": "2017-08-15T23:33:56+00:00",
+            "releaseNotes": "- Fix builds for 32-bit architecture (#15)\n- Fix windows builds (#17)",
+            "get": "http://pecl.php.net/get/opencensus-0.0.2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "0.0.1": {
+            "version": "0.0.1",
+            "state": "devel",
+            "license": "Apache 2.0",
+            "releasedBy": "chingor",
+            "releaseDate": "2017-08-15T00:15:09+00:00",
+            "releaseNotes": "- Initial release",
+            "get": "http://pecl.php.net/get/opencensus-0.0.1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        }
+    },
+    "summary": "A stats collection and distributed tracing framework",
+    "SPDX-License-Identifier": "Apache-2.0"
+}

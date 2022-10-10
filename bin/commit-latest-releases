@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+if [[ -f "commit.txt" ]]; then
+  today=$(date '+%F')
+  git config push.autoSetupRemote true
+  git stash
+  git checkout -b "releases-${today}"
+  git stash pop
+  git add rest .etags data
+  git commit -F commit.txt
+  git push
+  gh pr create --fill --base main
+  rm commit.txt
+fi

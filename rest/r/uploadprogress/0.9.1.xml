@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/uploadprogress">uploadprogress</p>
+ <c>pecl.php.net</c>
+ <v>0.9.1</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>chregu</m>
+ <s>An extension to track progress of a file upload.</s>
+ <d>See http://cvs.php.net/viewvc.cgi/pecl/uploadprogress/examples/ for a little example. 
+ PHP 5.2 is needed.</d>
+ <da>2008-08-25 06:21:04</da>
+ <n>- Fixed version information in phpinfo()
+ - Added php.ini options to phpinfo()</n>
+ <f>7607</f>
+ <g>http://pecl.php.net/get/uploadprogress-0.9.1</g>
+ <x xlink:href="package.0.9.1.xml"/>
+</r>

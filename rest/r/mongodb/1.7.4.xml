@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.7.4</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>alcaeus</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2020-03-11 12:43:33</da>
+ <n>** Bug
+* [PHPC-1560] - MongoDB compile fails due to missing openssl</n>
+ <f>1223416</f>
+ <g>https://pecl.php.net/get/mongodb-1.7.4</g>
+ <x xlink:href="package.1.7.4.xml"/>
+</r>

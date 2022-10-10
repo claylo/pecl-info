@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.4.12</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in http/websocket/http2 server
+        - coroutine http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2019-11-04 13:13:34</da>
+ <n>New API
+---
++ Runtime::getHookFlags (#2915) (@limingxinleo)
+
+Enhancement
+---
++ Support Websocket Compression on client-side (#2937) (@twose)
++ Support compress websocket message by frame (#2937) (@twose)
++ Optimized the detect logical of shortname (#2935) (@sy-records)
++ Better compression handler (Gzip and Brotli) (#2928) (@twose)
++ Reduce memory copy (#2893) (7fc93504) (@hantaohuang) (@twose)
++ Accepted connection will inherit the options of server (#2898) (@twose)
++ Coroutine\Http\Server support HTTP2 protocol now (5479dbc4) (@matyhtf)
++ Automatically add Content-Type header when use sendfile (4e62bc52) (@matyhtf)
++ Compatibility with Zend preloader (Special thanks to PHP team) (#2899) (@twose)
++ Implement RFC-7692 (#2906) (@matyhtf)
++ Support PHP error control operators (#2916) (@twose)
++ Support socket_send_timeout option for sync client (#2919) (@matyhtf)
++ Support NPN (#2900) (@matyhtf)
++ Improve HTTP proxy handshake request (#2922) (@twose)
+
+Fixed
+---
+* Fixed AIO task num overflow (7038bdc1) (@twose)
+* Fixed gdbinit, support get backtrace info of current stack (bd033e56) (@twose)
+* Fixed Websocket Compression (ca818657) (@matyhtf)
+* Fixed compilation failure caused BrotliDecoder (#2925) (@twose)
+* Fixed memory error caused by compressing big data (#2928) (@twose)
+* Fixed #2890 (start a Process\Pool without onWorkerStart event) (#2892) (@twose)
+* Fixed the bug that close the connection in non-current worker (#2891) (@matyhtf)
+* Fixed memory error of create socket failure (2948f10a) (@matyhtf)
+* Fixed missing ssl_host_name of HTTPS proxy (#2904) (@twose)
+* Fixed CID-1466865 (#2923) (@tutanhamon)</n>
+ <f>1436554</f>
+ <g>https://pecl.php.net/get/swoole-4.4.12</g>
+ <x xlink:href="package.4.4.12.xml"/>
+</r>

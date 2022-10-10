@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/redis">redis</p>
+ <c>pecl.php.net</c>
+ <v>5.3.1</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>mgrunder</m>
+ <s>PHP extension for interfacing with Redis</s>
+ <d>This extension provides an API for communicating with Redis servers.</d>
+ <da>2020-07-07 18:56:31</da>
+ <n>phpredis 5.3.1
+
+This is a small bugfix release that fixes a couple of issues in 5.3.0.
+
+You should upgrade if you're using persistent_id in session.save_path or
+of if you're having trouble building 5.3.0 because the php_hash_bin2hex
+symbol is missing.
+
+You can find a detailed list of changes in Changelog.md and package.xml
+
+* Sponsors
+  ~ Audiomack - https://audiomack.com
+  ~ BlueHost - https://bluehost.com
+  ~ Redis Cache Pro for WordPress - https://wprediscache.com
+  ~ Avtandil Kikabidze - https://github.com/akalongman
+
+---
+* Properly clean up on session start failure [066cff6a] (Michael Grunder)
+* Treat NULL as a failure for redis_extract_auth_info [49428a2f, 14ac969d]
+  (Michael Grunder)
+* Don't dereference a NULL zend_string or efree one [ff2e160f, 7fed06f2]
+  (Michael Grunder)
+* Fix config.m4 messages and test for and include php_hash.h [83a1b7c5,
+  3c56289c, 08f202e7] (Remi Collet)
+* Add openSUSE installation instructions [13a168f4] (Pavlo Yatsukhnenko)
+* Remove EOL Fedora installation instructions [b4779e6a] (Remi Collet)</n>
+ <f>264485</f>
+ <g>https://pecl.php.net/get/redis-5.3.1</g>
+ <x xlink:href="package.5.3.1.xml"/>
+</r>

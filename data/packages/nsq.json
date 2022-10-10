@@ -1,0 +1,124 @@
+{
+    "category": "Networking",
+    "deprecated": false,
+    "description": "This extension is a NSQ client .NSQ is a message queue system which like Kafka .",
+    "latestReleaseDate": "2021-09-17T17:45:43+00:00",
+    "latestVersion": "3.5.1",
+    "license": "PHP",
+    "name": "nsq",
+    "php8Mentioned": true,
+    "releases": {
+        "3.5.1": {
+            "version": "3.5.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rick",
+            "releaseDate": "2021-09-17T17:45:43+00:00",
+            "releaseNotes": "* for PHP8\n* add pub connection timeout\n* fix pub bug retrun false when revice heartbeat",
+            "get": "https://pecl.php.net/get/nsq-3.5.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.5.0": {
+            "version": "3.5.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rick",
+            "releaseDate": "2019-10-15T14:33:24+00:00",
+            "releaseNotes": "* Fix the bug in MacOs",
+            "get": "https://pecl.php.net/get/nsq-3.5.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.4.3": {
+            "version": "3.4.3",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rick",
+            "releaseDate": "2019-09-17T16:16:41+00:00",
+            "releaseNotes": "* Fix the problem of sub-processes not restarting automatically in CentOS environment\n* this version is Stable",
+            "get": "https://pecl.php.net/get/nsq-3.4.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.4.2": {
+            "version": "3.4.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rick",
+            "releaseDate": "2019-09-17T06:51:08+00:00",
+            "releaseNotes": "* Fix the problem of sub-processes not restarting automatically in CentOS environment",
+            "get": "https://pecl.php.net/get/nsq-3.4.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.4.1": {
+            "version": "3.4.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rick",
+            "releaseDate": "2019-06-11T08:45:59+00:00",
+            "releaseNotes": "* fix url \n* add connect time out",
+            "get": "https://pecl.php.net/get/nsq-3.4.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.4.0": {
+            "version": "3.4.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rick",
+            "releaseDate": "2018-10-23T11:29:20+00:00",
+            "releaseNotes": "* fix process management\n* fix pub error",
+            "get": "http://pecl.php.net/get/nsq-3.4.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.3.0": {
+            "version": "3.3.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rick",
+            "releaseDate": "2018-10-21T08:19:56+00:00",
+            "releaseNotes": "* add the process management\n* When the child process exits abnormally, it will pull up a new child process\n* When the master process exits, all child processes also exit",
+            "get": "http://pecl.php.net/get/nsq-3.3.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.1.0": {
+            "version": "3.1.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rick",
+            "releaseDate": "2018-07-01T17:04:04+00:00",
+            "releaseNotes": "*Fix memory wrong\n*Fix subscribe wrong",
+            "get": "http://pecl.php.net/get/nsq-3.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0": {
+            "version": "3.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rick",
+            "releaseDate": "2018-06-21T02:00:17+00:00",
+            "releaseNotes": "*Fix libevent more than 4096 bytes are truncated\n*add the identify command,can use be set or increase heartbeats time and msg-timeout",
+            "get": "http://pecl.php.net/get/nsq-3.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.4.0": {
+            "version": "2.4.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rick",
+            "releaseDate": "2018-05-29T13:13:09+00:00",
+            "releaseNotes": "* Fix pub bug\n* Fix sub coredump \n* Fix touch bug\n* Add the waite,  when topic has no message",
+            "get": "http://pecl.php.net/get/nsq-2.4.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.3.2": {
+            "version": "2.3.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rick",
+            "releaseDate": "2018-03-22T12:01:46+00:00",
+            "releaseNotes": "* Add function which use of  pub connection close\n* Fix sub coredump\n* pecl init",
+            "get": "http://pecl.php.net/get/nsq-2.3.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "PHP extension for NSQ client",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

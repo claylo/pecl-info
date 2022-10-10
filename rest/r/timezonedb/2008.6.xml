@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/timezonedb">timezonedb</p>
+ <c>pecl.php.net</c>
+ <v>2008.6</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>derick</m>
+ <s>Timezone Database to be used with PHP's date and time functions</s>
+ <d>This extension is a drop-in replacement for the builtin timezone database that
+comes with PHP. You should only install this extension in case you need to get
+a later version of the timezone database than the one that ships with PHP.
+
+The data that this extension uses comes from the &quot;Olson&quot; database, which is
+located at ftp://elsie.nci.nih.gov/pub/.</d>
+ <da>2008-09-15 14:08:59</da>
+ <n>Updated to version 2008.6 (2008f)</n>
+ <f>196327</f>
+ <g>http://pecl.php.net/get/timezonedb-2008.6</g>
+ <x xlink:href="package.2008.6.xml"/>
+</r>

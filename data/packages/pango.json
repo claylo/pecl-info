@@ -1,0 +1,13 @@
+{
+    "category": "Images",
+    "deprecated": false,
+    "description": "This is a wrapper for the Pango text rendering library (http://www.pango.org) that makes its features available for use with PHP via object-oriented and procedural APIs.\n\nRequirements:\n* PHP 5.2+\n* PECL/Cairo\n\nThe code is currently on GitHub; it will be moved to PECL SVN soon.",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "PHP Licence 3.01",
+    "name": "pango",
+    "php8Mentioned": false,
+    "releases": [],
+    "summary": "Wrapper for the Pango text rendering library",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

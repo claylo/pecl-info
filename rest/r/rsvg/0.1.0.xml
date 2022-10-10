@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/rsvg">RSVG</p>
+ <c>pecl.php.net</c>
+ <v>0.1.0</v>
+ <st>alpha</st>
+ <l>PHP License</l>
+ <m>mgdm</m>
+ <s>RSVG Extension</s>
+ <d>RSVG is a library for rendering SVG images, which</d>
+ <da>2010-04-17 16:47:07</da>
+ <n>* Initial release</n>
+ <f>9357</f>
+ <g>http://pecl.php.net/get/RSVG-0.1.0</g>
+ <x xlink:href="package.0.1.0.xml"/>
+</r>

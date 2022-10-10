@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/shape">shape</p>
+ <c>pecl.php.net</c>
+ <v>0.9.1</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>andrey</m>
+ <s>libshape wrapper</s>
+ <d>Extension that wraps libshape, provides the ability to write programs for manipulating ESRI shapefiles.</d>
+ <da>2006-07-12 13:19:39</da>
+ <n>Fixed small bug, SHPT_POLYGON constant hat the same value as SHPT_MULTIPOINT (Thanks to Peter Schweitzer)</n>
+ <f>8514</f>
+ <g>http://pecl.php.net/get/shape-0.9.1</g>
+ <x xlink:href="package.0.9.1.xml"/>
+</r>

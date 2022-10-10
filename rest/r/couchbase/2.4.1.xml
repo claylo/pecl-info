@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/couchbase">couchbase</p>
+ <c>pecl.php.net</c>
+ <v>2.4.1</v>
+ <st>stable</st>
+ <l>Apache V2</l>
+ <m>avsej</m>
+ <s>Couchbase Server PHP extension</s>
+ <d>The PHP client library provides fast access to documents stored in a Couchbase Server.</d>
+ <da>2017-10-05 09:52:03</da>
+ <n>* PCBC-493: Implement subdoc GET_COUNT API.
+* Update AnalyticsQuery API: removed experimental hostname() method as it derived from cluster config now.
+* Allow to override default pool connectime idle time with `couchbase.pool.max_idle_time_sec` INI setting.
+* PCBC-503, PCBC-504: Improve running tests.</n>
+ <f>153695</f>
+ <g>http://pecl.php.net/get/couchbase-2.4.1</g>
+ <x xlink:href="package.2.4.1.xml"/>
+</r>

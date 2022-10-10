@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/uploadprogress">uploadprogress</p>
+ <c>pecl.php.net</c>
+ <v>1.1.0</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>ramsey</m>
+ <s>An extension to track progress of a file upload.</s>
+ <d>See https://github.com/php/pecl-php-uploadprogress/tree/master/examples for a little example.
+        It is only known to work on Apache with mod_php, other SAPI implementations unfortunately still have issues.
+        At least PHP 5.2 is needed.</d>
+ <da>2020-01-26 15:16:57</da>
+ <n>- PHP 7 compatibility</n>
+ <f>10283</f>
+ <g>https://pecl.php.net/get/uploadprogress-1.1.0</g>
+ <x xlink:href="package.1.1.0.xml"/>
+</r>

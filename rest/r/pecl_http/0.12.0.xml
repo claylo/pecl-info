@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pecl_http">pecl_http</p>
+ <c>pecl.php.net</c>
+ <v>0.12.0</v>
+ <st>beta</st>
+ <l>PHP License 3.0</l>
+ <m>mike</m>
+ <s>Extended HTTP support</s>
+ <d>* Building absolute URIs
+* RFC compliant HTTP redirects
+* RFC compliant HTTP date handling
+* Parsing of HTTP headers and messages
+* Caching by &quot;Last-Modified&quot; and/or ETag
+  (with 'on the fly' option for ETag generation from buffered output)
+* Sending data/files/streams with (multiple) ranges support
+* Negotiating user preferred language/charset
+* Convenient request functions built upon libcurl
+* PHP5 classes: HttpUtil, HttpResponse, HttpRequest, HttpRequestPool, HttpMessage
+ 
+</d>
+ <da>2005-08-26 07:25:39</da>
+ <n>+ Added ETag generation through libmhash
++ Added http_parse_message()
++ Added single LF awareness to the parsers
++ Added HttpResponse::setHeader(), HttpResponse::getHeader(), HttpResponse::status()
++ Added HttpResponse::status()
++ Added constants HttpMessage::NONE, Http_Message::REQUEST, HttpMessage::RESPONSE
++ Added Content-Length header if HttpResponse sends full plain entity
++ Added ZendEngine workaround for internal class' static properties (HttpResponse)
++ Added HttpRequestPool::socketPerform()
+
+- Removed http_split_response()
+- Removed AuthBasic hooks
+- Removed HttpResponse::sendHeader(), HttpResponse::sendStatus()
+- Removed HttpRequest::unset*() methods, now handled through set*() with empty parameter
+- Removed HttpRequestPool::socketRead(), HttpRequestPool::socketSend()
+
+* Fixed initialization and cleanup of module globals
+* Fixed builds and tests without libcurl
+* Fixed access of request headers through $_SERVER
+* Fixed check for ext/session in http_redirect()
+* Fixed custom ETags and Last-Modified dates in HttpResponse
+* Fixed PHP4 build</n>
+ <f>92002</f>
+ <g>http://pecl.php.net/get/pecl_http-0.12.0</g>
+ <x xlink:href="package.0.12.0.xml"/>
+</r>

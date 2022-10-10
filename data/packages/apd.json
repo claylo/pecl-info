@@ -1,0 +1,134 @@
+{
+    "category": "PHP",
+    "deprecated": false,
+    "description": "APD is a full-featured profiler/debugger that is loaded as a zend_extension.  It aims to be an analog of C's gprof or Perl's Devel::DProf.",
+    "latestReleaseDate": "2004-09-28T03:41:00+00:00",
+    "latestVersion": "1.0.1",
+    "license": "PHP License",
+    "name": "apd",
+    "summary": "A full-featured engine-level profiler/debugger",
+    "php8Mentioned": false,
+    "releases": {
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "gschlossnagle",
+            "releaseDate": "2004-09-28T03:41:00+00:00",
+            "releaseNotes": "Fixed crash error in pprofp.\nFixed crash on 64bit architectures.",
+            "get": "http://pecl.php.net/get/apd-1.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.9.2": {
+            "version": "0.9.2",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "gschlossnagle",
+            "releaseDate": "2004-09-28T03:28:00+00:00",
+            "releaseNotes": "Fix for crash error with pprofp on some systems.  \nFix for crash on 64 bit.",
+            "get": "http://pecl.php.net/get/apd-0.9.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0": {
+            "version": "1.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "gschlossnagle",
+            "releaseDate": "2004-08-20T18:15:00+00:00",
+            "releaseNotes": "Official php5 release",
+            "get": "http://pecl.php.net/get/apd-1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.9.1": {
+            "version": "0.9.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "gschlossnagle",
+            "releaseDate": "2004-07-16T20:19:00+00:00",
+            "releaseNotes": "Fix for packaging error",
+            "get": "http://pecl.php.net/get/apd-0.9.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.9": {
+            "version": "0.9",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "gschlossnagle",
+            "releaseDate": "2004-07-10T14:02:00+00:00",
+            "releaseNotes": "Fixed build for 4.3",
+            "get": "http://pecl.php.net/get/apd-0.9",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.4p2": {
+            "version": "0.4p2",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "gschlossnagle",
+            "releaseDate": "2003-01-31T00:02:00+00:00",
+            "releaseNotes": "Fixed build for 4.3",
+            "get": "http://pecl.php.net/get/apd-0.4p2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.4p1": {
+            "version": "0.4p1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "gschlossnagle",
+            "releaseDate": "2002-11-28T01:38:00+00:00",
+            "releaseNotes": "Fix for pre-4.3 versions of php",
+            "get": "http://pecl.php.net/get/apd-0.4p1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.4": {
+            "version": "0.4",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "gschlossnagle",
+            "releaseDate": "2002-11-27T17:43:00+00:00",
+            "releaseNotes": "ixed installation of pprofp, added some memory tracing",
+            "get": "http://pecl.php.net/get/apd-0.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.3p2": {
+            "version": "0.3p2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "gschlossnagle",
+            "releaseDate": "2002-11-16T15:20:00+00:00",
+            "releaseNotes": "Doc fix, minor performance improvements",
+            "get": "http://pecl.php.net/get/apd-0.3p2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.3p1": {
+            "version": "0.3p1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "ssb",
+            "releaseDate": "2002-11-03T17:06:00+00:00",
+            "releaseNotes": "Enabled compile on non 4.3 systems",
+            "get": "http://pecl.php.net/get/apd-0.3p1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.3": {
+            "version": "0.3",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "gschlossnagle",
+            "releaseDate": "2002-10-17T05:36:00+00:00",
+            "releaseNotes": "Complete rewrite of internal to use the zend_execute function\npointer instead of the engine hooks for tracing.",
+            "get": "http://pecl.php.net/get/apd-0.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2": {
+            "version": "0.2",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "gschlossnagle",
+            "releaseDate": "2002-10-17T05:33:00+00:00",
+            "releaseNotes": "Initial release into PECL.  Previous notes available at http://apd.communityconnect.com",
+            "get": "http://pecl.php.net/get/apd-0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

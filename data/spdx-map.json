@@ -1,0 +1,279 @@
+{
+    "package-specific": {
+        "ahocorasick": {
+            "PHP License": "PHP-3.01 OR LGPL-3.0-only"
+        },
+        "apfd": {
+            "BSD, revised": "BSD-2-Clause"
+        },
+        "apm": {
+            "GNU GENERAL PUBLIC LICENSE": "PHP-3.01"
+        },
+        "ares": {
+            "BSD, revised": "BSD-2-Clause"
+        },
+        "bbcode": {
+            "PHP / BSD": "PHP-3.01"
+        },
+        "big_int": {
+            "see LICENSE": false
+        },
+        "chdb": {
+            "BSD": "BSD-3-Clause"
+        },
+        "cld": {
+            "BSD License": "BSD-2-Clause"
+        },
+        "courierauth": {
+            "BSD, revised": "BSD-2-Clause"
+        },
+        "crack": {
+            "Artistic": "PHP-3.0"
+        },
+        "funcall": {
+            "New BSD": "BSD-3-Clause"
+        },
+        "functional": {
+            "BSD License": "MIT"
+        },
+        "geospatial": {
+            "BSD style": "PHP-3.01"
+        },
+        "gnupg": {
+            "BSD, revised": "BSD-2-Clause"
+        },
+        "grpc": {
+            "BSD": "BSD-3-Clause"
+        },
+        "hdr_histogram": {
+            "New BSD": "BSD-2-Clause"
+        },
+        "hrtime": {
+            "BSD": "BSD-2-Clause"
+        },
+        "igbinary": {
+            "New BSD": "BSD-3-Clause"
+        },
+        "ircclient": {
+            "BSD, revised": "BSD-2-Clause"
+        },
+        "isis": {
+            "BSD": "BSD-3-Clause"
+        },
+        "json_post": {
+            "BSD, revised": "BSD-2-Clause"
+        },
+        "kadm5": {
+            "LGPL": "LGPL-2.1-or-later"
+        },
+        "krb5": {
+            "New BSD License": "MIT"
+        },
+        "ktaglib": {
+            "Modified BSD License": "BSD-2-Clause"
+        },
+        "markdown": {
+            "New BSD License": "BSD-3-Clause"
+        },
+        "mdbtools": {
+            "LGPL": "LGPL-2.1-or-later"
+        },
+        "memprof": {
+            "BSD": "MIT"
+        },
+        "meta": {
+            "New BSD License": "PHP-3.01"
+        },
+        "mogilefs": {
+            "BSD License": "BSD-3-Clause"
+        },
+        "mongodb": {
+            "Apache License": "Apache-2.0",
+            "New BSD License": "PHP-3.01 OR Apache-2.0"
+        },
+        "mqseries": {
+            "BSD": "BSD-3-Clause"
+        },
+        "msgpack": {
+            "New BSD": "BSD-3-Clause"
+        },
+        "oauth": {
+            "BSD": "BSD-3-Clause"
+        },
+        "odbtp": {
+            "LGPL": "LGPL-2.1-or-later"
+        },
+        "optimizer": {
+            "BSD style": "PHP-3.0"
+        },
+        "pecl_http": {
+            "BSD, revised": "BSD-2-Clause"
+        },
+        "perforce": {
+            "BSD License": "BSD-2-Clause"
+        },
+        "pq": {
+            "BSD, revised": "BSD-2-Clause"
+        },
+        "propro": {
+            "BSD, revised": "BSD-2-Clause"
+        },
+        "protobuf": {
+          "New BSD License": "BSD-3-Clause"
+        },
+        "ps": {
+          "BSD style": "PHP-3.0"
+        },
+        "raphf": {
+            "BSD, revised": "BSD-2-Clause"
+        },
+        "win32ps": {
+            "BSD, revised": "BSD-2-Clause"
+        },
+        "win32ps_dll": {
+            "BSD, revised": "BSD-2-Clause"
+        },
+        "imlib2": {
+            "PHP License 4.0": "PHP-3.0"
+        },
+        "protocolbuffers": {
+            "New BSD License": "BSD-2-Clause"
+        },
+        "qqwry": {
+            "New BSD": "PHP-3.01"
+        },
+        "quickhash": {
+            "The PHP License": "PHP-3.01"
+        },
+        "radius": {
+            "BSD": "BSD-3-Clause",
+            "PHP, BSD": "BSD-3-Clause"
+        },
+        "rrd": {
+            "BSD": "BSD-2-Clause"
+        },
+        "rsync": {
+            "Modified BSD License": "BSD-2-Clause"
+        },
+        "spplus": {
+            "LGPL": "PHP-3.0"
+        },
+        "ssdeep": {
+            "New BSD License": "BSD-2-Clause"
+        },
+        "stem": {
+          "BSD": "BSD-3-Clause"
+        },
+        "tclink": {
+            "LGPL": "LGPL-2.1-or-later"
+        },
+        "termbox": {
+            "Apache": "Apache-2.0"
+        },
+        "translit": {
+            "BSD style": "BSD-2-Clause"
+        },
+        "tvision": {
+            "BSD License": "BSD-2-Clause"
+        },
+        "uuid": {
+            "LGPL": "LGPL-2.1-or-later"
+        },
+        "varnish": {
+            "BSD": "BSD-2-Clause"
+        },
+        "vld": {
+            "BSD style": "BSD-2-Clause"
+        },
+        "winbinder": {
+            "BSD License": "BSD-3-Clause",
+            "BSD": "BSD-3-Clause"
+        },
+        "wincache": {
+            "BSD License": "BSD-3-Clause"
+        },
+        "xcommerce": {
+            "BSD": "BSD-3-Clause"
+        },
+        "xdebug": {
+            "BSD style": "Xdebug"
+        },
+        "xlswriter": {
+            "BSD license": "BSD-2-Clause"
+        },
+        "yaz": {
+            "revised BSD": "BSD-3-Clause"
+        },
+        "zmq": {
+            "BSD License": "BSD-3-Clause"
+        }
+    },
+    "3-Clause BSD License": "BSD-3-Clause",
+    "3-Clause-BSD": "BSD-3-Clause",
+    "Apache": "verify",
+    "Apache\n  License Version 2.0": "Apache-2.0",
+    "Apache 2": "Apache-2.0",
+    "Apache 2.0": "Apache-2.0",
+    "Apache License": "verify",
+    "Apache License 2.0": "Apache-2.0",
+    "Apache License Version 2.0": "Apache-2.0",
+    "Apache V2": "Apache-2.0",
+    "Apache-2.0": "Apache-2.0",
+    "Apache2.0": "Apache-2.0",
+    "Artistic": "verify",
+    "BSD": "verify",
+    "BSD 2-Clause": "BSD-2-Clause",
+    "BSD 2-Clause License": "BSD-2-Clause",
+    "BSD 2-clause": "BSD-2-Clause",
+    "BSD 3-Clause": "BSD-3-Clause",
+    "BSD 3-Clause License": "BSD-3-Clause",
+    "BSD 3-clause": "BSD-3-Clause",
+    "BSD License": "verify",
+    "BSD License (3 Clause)": "BSD-3-Clause",
+    "BSD license": "verify",
+    "BSD style": "verify",
+    "BSD, revised": "verify",
+    "BSD-2-Clause": "BSD-2-Clause",
+    "BSD-3 License": "BSD-3-Clause",
+    "BSD-3-Clause": "BSD-3-Clause",
+    "GNU": "verify",
+    "GNU GENERAL PUBLIC LICENSE": "verify",
+    "ISC License": "ISC",
+    "LGPL": "verify",
+    "MIT": "MIT",
+    "MIT / Beerware": "MIT OR Beerware",
+    "MIT License": "MIT",
+    "Modified BSD License": "verify",
+    "New BSD": "verify",
+    "New BSD License": "verify",
+    "PHP": "PHP-3.01",
+    "PHP / BSD": "verify",
+    "PHP 3.0": "PHP-3.0",
+    "PHP 3.0.1 License": "PHP-3.01",
+    "PHP 3.01": "PHP-3.01",
+    "PHP Licence": "PHP-3.01",
+    "PHP Licence 3.01": "PHP-3.01",
+    "PHP License": "PHP-3.01",
+    "PHP License 2.02": "verify",
+    "PHP License 3.0": "PHP-3.0",
+    "PHP License 3.01": "PHP-3.01",
+    "PHP License 4.0": "verify",
+    "PHP V3.01": "PHP-3.01",
+    "PHP license 3.0": "PHP-3.0",
+    "PHP like license": "PHP-3.01",
+    "PHP or GPL": "verify",
+    "PHP v3.01": "PHP-3.01",
+    "PHP, BSD": "verify",
+    "PHP3.01": "PHP-3.01",
+    "Proprietary": "verify",
+    "The Apache 2.0 License": "Apache-2.0",
+    "The MIT License (MIT)": "MIT",
+    "The PHP License": "verify",
+    "ZLIB": "Zlib",
+    "ZLib": "Zlib",
+    "Zlib": "Zlib",
+    "http://www.php.net/license/3_01.txt": "PHP-3.01",
+    "php": "PHP-3.01",
+    "revised BSD": "verify",
+    "see LICENSE": "verify"
+}

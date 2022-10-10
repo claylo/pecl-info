@@ -1,0 +1,94 @@
+{
+    "category": "Event",
+    "deprecated": false,
+    "description": "uv provides access to underlying libuv functions",
+    "latestReleaseDate": "2019-05-01T11:04:56+00:00",
+    "latestVersion": "0.2.4",
+    "license": "PHP License",
+    "name": "uv",
+    "php8Mentioned": false,
+    "releases": {
+        "0.2.4": {
+            "version": "0.2.4",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "bwoebi",
+            "releaseDate": "2019-05-01T11:04:56+00:00",
+            "releaseNotes": "- Fix Windows build",
+            "get": "https://pecl.php.net/get/uv-0.2.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.3": {
+            "version": "0.2.3",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "bwoebi",
+            "releaseDate": "2019-04-28T12:20:40+00:00",
+            "releaseNotes": "- Fix Windows build\n- Fix PHP 7.4 build",
+            "get": "https://pecl.php.net/get/uv-0.2.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.2": {
+            "version": "0.2.2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "bwoebi",
+            "releaseDate": "2017-06-27T13:50:31+00:00",
+            "releaseNotes": "- Fix uv_is_active() to not warn when passed a closed handle\n- Fix uv pipes within UVStdio objects",
+            "get": "http://pecl.php.net/get/uv-0.2.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.1": {
+            "version": "0.2.1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "bwoebi",
+            "releaseDate": "2017-05-08T10:13:06+00:00",
+            "releaseNotes": "- Fix memory leak when closing",
+            "get": "http://pecl.php.net/get/uv-0.2.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.0": {
+            "version": "0.2.0",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "bwoebi",
+            "releaseDate": "2017-05-07T20:40:39+00:00",
+            "releaseNotes": "- Move from resource handles to object handles\n- Various smaller fixes",
+            "get": "http://pecl.php.net/get/uv-0.2.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.2": {
+            "version": "0.1.2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "bwoebi",
+            "releaseDate": "2017-03-06T12:28:21+00:00",
+            "releaseNotes": "- Fix uv_listen()\n- Fix a few memory leaks\n- Fix loop cleanup",
+            "get": "http://pecl.php.net/get/uv-0.1.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.1": {
+            "version": "0.1.1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "bwoebi",
+            "releaseDate": "2016-11-14T12:31:47+00:00",
+            "releaseNotes": "- A few fixes regarding refcounting of uv resources\n- A better config.m4",
+            "get": "http://pecl.php.net/get/uv-0.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.0": {
+            "version": "0.1.0",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "bwoebi",
+            "releaseDate": "2016-11-01T17:30:51+00:00",
+            "releaseNotes": "- initial pecl release",
+            "get": "http://pecl.php.net/get/uv-0.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "libuv wrapper",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/parallel">parallel</p>
+ <c>pecl.php.net</c>
+ <v>1.1.3</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>remi</m>
+ <s>Parallel concurrency API</s>
+ <d>A succinct parallel concurrency API for PHP 7.</d>
+ <da>2019-08-14 07:12:37</da>
+ <n>- Fix #79 segfault on copy closure in 7.2
+- Fix #69 segfault on deep runtime copy
+- Fix #70 segfault caused by incorrect Channel serialize/unserialize
+- Fix #71 segfault caused by cloned Channel access</n>
+ <f>58176</f>
+ <g>https://pecl.php.net/get/parallel-1.1.3</g>
+ <x xlink:href="package.1.1.3.xml"/>
+</r>

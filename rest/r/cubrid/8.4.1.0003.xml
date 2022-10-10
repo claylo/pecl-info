@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/cubrid">CUBRID</p>
+ <c>pecl.php.net</c>
+ <v>8.4.1.0003</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>cubrid</m>
+ <s>This is the official PHP Extension to connect to CUBRID Database.</s>
+ <d>CUBRID is an open source database management system highly optimized for Web applications (http://www.cubrid.org). The current PHP extension is fully compatibly with the latest stable version of CUBRID Database. To post issues and report bugs, please use CUBRID Official Forum at http://forum.cubrid.org.</d>
+ <da>2012-03-20 00:45:21</da>
+ <n>Changed and Enhanced Features:
+
+- APIS-52: Simplify the code of cubrid_client_encoding and cubrid_get_charset
+- APIS-72: Unify the return value of some functions when they fail
+- APIS-97: In PHP calling is_resource() function when  = cubrid resource, always returns &quot;Unknown&quot;
+- APIS-100: PHPinfo() displays DB engine, CCI(libcas) and PHP driver's version info
+- APIS-103: Error: CCI, -13, Column index is out of range when calling cubrid_fetch_field()
+- APIS-105: cubrid_field_type() returns &quot;varchar(100)&quot; instead of &quot;varchar&quot;
+- APIS-106: cubrid_affected_rows() requires a different parameter than mysql_affected_rows()
+- APIS-107: cubrid_fetch_field() return default value as empty string instead of NULL
+- APIS-108: The resource parameter in cubrid_disconnect should be optional as in cubrid_close
+- APIS-109: Make the return values of cubrid_move_cursor and cubrid_data_seek consistent with mysql_data_seek
+- APIS-110: Modify return value of cubrid_num_fields
+- APIS-111: cubrid_list_dbs() requires connection_id while in mysql_list_dbs() connection_id is optional
+- APIS-117: cubrid_fetch_field will affect the cursor position which will influence the results of cubrid_fetch
+- APIS-123: Return value of cubrid_fetch_lengths method is empty when record number is 1
+- APIS-128: Passing field parameter in the form of tablename.fieldname to cubrid_result method will fail
+- APIS-129: Getting value using cubrid_result method will fail when the column value in database is null
+- APIS-132: Error message is empty when row number is out of range of cubrid_data_seek method
+- APIS-135: Segment default will appear when calling cubrid_list_dbs() method
+- APIS-147: Connect will success when passing a error passwd to cubrid_pconnect() method
+- APIS-150: Return values are not good for cubrid_get_autocommit</n>
+ <f>43634</f>
+ <g>http://pecl.php.net/get/CUBRID-8.4.1.0003</g>
+ <x xlink:href="package.8.4.1.0003.xml"/>
+</r>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/svm">svm</p>
+ <c>pecl.php.net</c>
+ <v>0.2.3</v>
+ <st>beta</st>
+ <l>BSD 3-clause</l>
+ <m>ab</m>
+ <s>Support Vector Machine Library</s>
+ <d>LibSVM is an efficient solver for SVM classification and regression problems. The svm extension wraps this in a PHP interface for easy use in PHP scripts.</d>
+ <da>2018-08-20 14:23:52</da>
+ <n>- Fixed lib dir evaluation in config.m4 (Remi Collet)
+- Fixed phpinfo() crash (Remi Collet, Anatol)</n>
+ <f>130776</f>
+ <g>http://pecl.php.net/get/svm-0.2.3</g>
+ <x xlink:href="package.0.2.3.xml"/>
+</r>

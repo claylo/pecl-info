@@ -1,0 +1,94 @@
+{
+    "category": "System",
+    "deprecated": false,
+    "description": "Ice is a PHP framework frozen in C extension.",
+    "latestReleaseDate": "2022-06-13T17:34:10+00:00",
+    "latestVersion": "1.9.0",
+    "license": "BSD-3-Clause",
+    "name": "ice",
+    "php8Mentioned": true,
+    "releases": {
+        "1.9.0": {
+            "version": "1.9.0",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "mruz",
+            "releaseDate": "2022-06-13T17:34:10+00:00",
+            "releaseNotes": "- PHP 8.1, add support fix #299\n- Switch to Github Actions fix #302\n- Update zephir to 0.16.0\n- Update zephir parser to 1.5.0",
+            "get": "https://pecl.php.net/get/ice-1.9.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "1.8.0": {
+            "version": "1.8.0",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "mruz",
+            "releaseDate": "2021-03-26T07:54:57+00:00",
+            "releaseNotes": "- Build, add support for php 8.0\n- Composer, update zephir to 0.13.0\n- Travis, no mongodb extension on nightly build\n- Tests, fix get related\n- Validation, fix type error in options\n- Model, fix type errors",
+            "get": "https://pecl.php.net/get/ice-1.8.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "1.8.0alpha3": {
+            "version": "1.8.0alpha3",
+            "state": "alpha",
+            "license": "BSD-3-Clause",
+            "releasedBy": "mruz",
+            "releaseDate": "2021-02-16T07:39:38+00:00",
+            "releaseNotes": "- Pecl, add build directories fix #271\n- Di, resolve default services in cli fix #295\n- Loader, register namespaces in the constructor fix #294",
+            "get": "https://pecl.php.net/get/ice-1.8.0alpha3",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "1.8.0alpha2": {
+            "version": "1.8.0alpha2",
+            "state": "alpha",
+            "license": "BSD-3-Clause",
+            "releasedBy": "mruz",
+            "releaseDate": "2021-02-12T08:17:02+00:00",
+            "releaseNotes": "- PHP 7.1, drop support, update phpunit to v8\n- Update zephir parser to 1.3.5\n- Zephir, use zephir-php8 branch\n- Pdo, fix associative array in order by\n- PHP 7.2 and 7.3, drop support\n- Tests, fix get related count and filter\n- Version, remove hyphen fix #292",
+            "get": "https://pecl.php.net/get/ice-1.8.0alpha2",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "1.7.0": {
+            "version": "1.7.0",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "mruz",
+            "releaseDate": "2020-09-26T15:47:58+00:00",
+            "releaseNotes": "- Url, add href and rel, deprecate getStatic, fix #231\n- Arr, add merge, deprecate replace, fix #228\n- View, set engine options, sleet compile fix #288\n- Validation, add exists validator #274\n- Db, count elements #277\n- Router, set routes must be explicitly called #282\n- Db, skip settings if not provided, fix #286\n- Auth file, fetch users from the options, fix #285\n- Sqlite, row count returns zero all the time, fix #283",
+            "get": "https://pecl.php.net/get/ice-1.7.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "1.6.2": {
+            "version": "1.6.2",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "mruz",
+            "releaseDate": "2020-09-12T07:34:46+00:00",
+            "releaseNotes": "- Model, get related record if field is null fix #275\n- Pagination, calculate if data is array or total is specified #273\n- Url, fixed getStatic() #193",
+            "get": "https://pecl.php.net/get/ice-1.6.2",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "1.6.1": {
+            "version": "1.6.1",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "mruz",
+            "releaseDate": "2020-05-10T15:30:31+00:00",
+            "releaseNotes": "- Update zephir, Model dafault rules fix #270\n - Build with recent GCC fix #266\n - Image, gd watermark fix #268",
+            "get": "https://pecl.php.net/get/ice-1.6.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "1.6.0": {
+            "version": "1.6.0",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "mruz",
+            "releaseDate": "2020-04-26T17:05:44+00:00",
+            "releaseNotes": "- Composer, update zephir to 0.12.18\n - Add the image component\n - Dump, recursion fix #265\n - PHP 7.0, drop support\n - Code cleanup\n - Update prototypes\n - Flash, add dismissible class\n - Dispatcher, continue if before returns a value\n - Update zephir parser to 1.3.4\n - Websocket, long message fix #262",
+            "get": "https://pecl.php.net/get/ice-1.6.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        }
+    },
+    "summary": "Simple and fast PHP framework",
+    "SPDX-License-Identifier": "BSD-3-Clause"
+}

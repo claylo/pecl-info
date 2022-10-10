@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/sundown">sundown</p>
+ <c>pecl.php.net</c>
+ <v>0.1.0b</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>chobieeee</m>
+ <s>Sundown is a fast, robust Markdown parsing library for PHP5</s>
+ <d>Sundown is a fast, robust Markdown parsing library, originally created
+by Natacha PortÃ© and improved Vicent Marti.
+this extension inspired Redcarpet ruby extension which created by Vicent.
+
+PECL Sundown provides straight forward object oriented Markdown API and customizable Renders.</d>
+ <da>2012-02-05 09:08:29</da>
+ <n>Initial Release.
+this extension provides following classes.
+
+* Sundown
+simple markdown render.
+
+* Sundown\Markdown
+customizable markdown render.
+
+* Sundown\Render\Base
+render base class.
+
+* Sundown\Render\HTML
+builtin markdown html render.
+
+* Sundown\Render\XHTML
+builtin markdown xhtml render.</n>
+ <f>44227</f>
+ <g>http://pecl.php.net/get/sundown-0.1.0b</g>
+ <x xlink:href="package.0.1.0b.xml"/>
+</r>

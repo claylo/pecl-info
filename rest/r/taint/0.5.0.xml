@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/taint">taint</p>
+ <c>pecl.php.net</c>
+ <v>0.5.0</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>laruence</m>
+ <s>XSS code sniffer</s>
+ <d>An extension used for detecting XSS codes(tainted string), 
+  And also can be used to spot sql injection vulnerabilities, shell inject, etc.</d>
+ <da>2012-03-22 23:52:19</da>
+ <n>- Support more functions(strstr, substr, str_replace etc)
+- Fixed Bug that tainted info lost if string is parsed by htmlspecialchars
+- Trigger warning when doing dim assign concat</n>
+ <f>14264</f>
+ <g>http://pecl.php.net/get/taint-0.5.0</g>
+ <x xlink:href="package.0.5.0.xml"/>
+</r>

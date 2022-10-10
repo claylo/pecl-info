@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/radius">radius</p>
+ <c>pecl.php.net</c>
+ <v>1.2</v>
+ <st>stable</st>
+ <l>PHP, BSD</l>
+ <m>mbretter</m>
+ <s>Radius client library</s>
+ <d>This package is based on the libradius of FreeBSD, with some modifications and extensions. 
+This PECL provides full support for RADIUS authentication (RFC 2865) and RADIUS accounting (RFC 2866), 
+works on Unix and on Windows. Its an easy way to authenticate your users against the user-database of your 
+OS (for example against Windows Active-Directory via IAS).
+</d>
+ <da>2003-01-11 21:18:00</da>
+ <n>- Release 1.2    
+- BugFix: a to short challenge was generated sometimes (MS-CHAPv1, MS-CHAPv2)
+- New functions:
+    radius_demangle: demangles radius passwords and mppe MS-CHAPv1 Keys
+    radius_demangle_mppe_key: demangles mppe send- and recvkey (MS-CHAPv2)
+- Added examples for radius-accounting
+- Replaced mcrypt-functions with own des-ecb-encryption function
+- Some minor changes in radius-auth.php
+- Added php-script for testing MS-CHAP functions</n>
+ <f>30171</f>
+ <g>http://pecl.php.net/get/radius-1.2</g>
+ <x xlink:href="package.1.2.xml"/>
+</r>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/sdl_image">sdl_image</p>
+ <c>pecl.php.net</c>
+ <v>0.4.0</v>
+ <st>devel</st>
+ <l>ZLib</l>
+ <m>kea</m>
+ <s>Binding of SDL_image for PHP</s>
+ <d>SDL_image extension for PHP provides the binding of functions for loading images in SDL textures and surfaces.</d>
+ <da>2022-03-16 20:20:13</da>
+ <n>- First release</n>
+ <f>4504</f>
+ <g>https://pecl.php.net/get/sdl_image-0.4.0</g>
+ <x xlink:href="package.0.4.0.xml"/>
+</r>

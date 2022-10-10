@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/teds">teds</p>
+ <c>pecl.php.net</c>
+ <v>0.4.0</v>
+ <st>alpha</st>
+ <l>BSD-3-Clause</l>
+ <m>tandre</m>
+ <s>teds extension</s>
+ <d>teds (Tentative Extra Data Structures) is a collection of data structures and iterable functionality</d>
+ <da>2021-09-26 20:55:19</da>
+ <n>* Backwards incompatible change: Change `Deque` APIs to be consistent with SplDoublyLinkedList and `array_push`: change pushBack/popBack/pushFront/popFront to push/pop/unshift/shift
+* Backwards incompatible change: Remove `$preserve_keys` flag from `Vector::__construct` (Always reindex keys in order of iteration instead).
+* Add isEmpty() method to datastructures
+* Make exceeding the capacity limit for a vector a fatal error.
+* Make Deque::push() and unshift() variadic.</n>
+ <f>71731</f>
+ <g>https://pecl.php.net/get/teds-0.4.0</g>
+ <x xlink:href="package.0.4.0.xml"/>
+</r>

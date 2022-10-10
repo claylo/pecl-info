@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/oci8">oci8</p>
+ <c>pecl.php.net</c>
+ <v>1.4.6</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>sixd</m>
+ <s>Extension for Oracle Database</s>
+ <d>This extension allows you to access Oracle databases. It can be built with PHP 4.3.9 to 5.x.  It can be linked with Oracle 9.2, 10.2, 11.1, or 11.2 client libraries.</d>
+ <da>2011-08-22 19:58:13</da>
+ <n>Added oci_client_version() returning the runtime Oracle client library version
+Made OCI8 extension buildable with PHP 5.4-development code</n>
+ <f>167182</f>
+ <g>http://pecl.php.net/get/oci8-1.4.6</g>
+ <x xlink:href="package.1.4.6.xml"/>
+</r>

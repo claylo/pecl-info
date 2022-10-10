@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/apcu">apcu</p>
+ <c>pecl.php.net</c>
+ <v>5.1.6</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>remi</m>
+ <s>APCu - APC User Cache</s>
+ <d>APC User Caching</d>
+ <da>2016-10-06 05:21:11</da>
+ <n>- fixes gh#19:  Hung apaches on pthread wrlocks
+- fixes gh#188: Fix Segfault in ZTS build when locking (Tyson Andre)
+- fixes gh#194: apcu_entry ttl not working
+- fixes gh#189: SegFault in apc_copy_zval
+- fixes gh#185: zend_mm_heap corrupted
+- fixes gh#190: memory leak/failed check for duplicates</n>
+ <f>110792</f>
+ <g>http://pecl.php.net/get/apcu-5.1.6</g>
+ <x xlink:href="package.5.1.6.xml"/>
+</r>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xdebug">xdebug</p>
+ <c>pecl.php.net</c>
+ <v>2.7.2</v>
+ <st>stable</st>
+ <l>BSD style</l>
+ <m>derick</m>
+ <s>Provides functions for function traces and profiling</s>
+ <d>The Xdebug extension helps you debugging your script by providing a lot of
+valuable debug information. The debug information that Xdebug can provide
+includes the following:
+
+    * stack and function traces in error messages with:
+          o full parameter display for user defined functions
+          o function name, file name and line indications
+          o support for member functions
+    * memory allocation
+    * protection for infinite recursions
+
+Xdebug also provides:
+
+    * profiling information for PHP scripts
+    * code coverage analysis
+    * capabilities to debug your scripts interactively with a debug client</d>
+ <da>2019-05-06 16:09:14</da>
+ <n>Mon, May  6, 2019 - xdebug 2.7.2
+
+= Fixed bugs:
+
+  - Fixed issue #1488: Rewrite DBGp 'property_set' to always use eval
+  - Fixed issue #1586: error_reporting()'s return value is incorrect during debugger's 'eval' command
+  - Fixed issue #1615: Turn off Zend OPcache when remote debugger is turned on
+  - Fixed issue #1656: remote_connect_back alters header if multiple values are present
+  - Fixed issue #1662: __debugInfo should not be used for user-defined classes</n>
+ <f>230987</f>
+ <g>https://pecl.php.net/get/xdebug-2.7.2</g>
+ <x xlink:href="package.2.7.2.xml"/>
+</r>

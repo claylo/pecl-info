@@ -1,0 +1,64 @@
+{
+    "category": "Event",
+    "deprecated": false,
+    "description": "This extension is a librdkafka binding providing a working client for Kafka",
+    "latestReleaseDate": "2021-08-04T10:48:45+00:00",
+    "latestVersion": "0.1.4",
+    "license": "BSD-3 License",
+    "name": "simple_kafka_client",
+    "php8Mentioned": true,
+    "releases": {
+        "0.1.4": {
+            "version": "0.1.4",
+            "state": "stable",
+            "license": "BSD-3 License",
+            "releasedBy": "nickzh",
+            "releaseDate": "2021-08-04T10:48:45+00:00",
+            "releaseNotes": "## Bugfixes\n- fix for PHP 8.1 (#54, @remicollet)\n## Internals\n- add all sources to package.xml (#54, @remicollet)",
+            "get": "https://pecl.php.net/get/simple_kafka_client-0.1.4",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.1.3": {
+            "version": "0.1.3",
+            "state": "stable",
+            "license": "BSD-3 License",
+            "releasedBy": "nickzh",
+            "releaseDate": "2021-07-01T15:14:18+00:00",
+            "releaseNotes": "## Features\n- support oauthbearer mechanism (#47, #48, #49)\n## Bugfixes\n- fix for PHP 8.1 (#52)\n## Internals\n- cleanup and refactor (#43, #44, #45, #46)",
+            "get": "https://pecl.php.net/get/simple_kafka_client-0.1.3",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.1.2": {
+            "version": "0.1.2",
+            "state": "stable",
+            "license": "BSD-3 License",
+            "releasedBy": "nickzh",
+            "releaseDate": "2021-04-12T18:26:59+00:00",
+            "releaseNotes": "## Internals\n- add AppVeyor build (#39, @cmb69)\n## Bugfixes\n- version and test fixes (#35, #36, @remicollet)\n- fix windows build (#38, #40, @cmb69)",
+            "get": "https://pecl.php.net/get/simple_kafka_client-0.1.2",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.1.1": {
+            "version": "0.1.1",
+            "state": "stable",
+            "license": "BSD-3 License",
+            "releasedBy": "nickzh",
+            "releaseDate": "2021-04-11T08:04:04+00:00",
+            "releaseNotes": "## Bugfixes\n- fix Consumer:assign argument type (#33)\n- fix Producer:getTopicHandle return type (#33)",
+            "get": "https://pecl.php.net/get/simple_kafka_client-0.1.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.1.0": {
+            "version": "0.1.0",
+            "state": "stable",
+            "license": "BSD-3 License",
+            "releasedBy": "nickzh",
+            "releaseDate": "2021-04-10T17:36:44+00:00",
+            "releaseNotes": "Initial release",
+            "get": "https://pecl.php.net/get/simple_kafka_client-0.1.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        }
+    },
+    "summary": "Kafka client based on librdkafka",
+    "SPDX-License-Identifier": "BSD-3-Clause"
+}

@@ -1,0 +1,154 @@
+{
+    "category": "PHP",
+    "deprecated": false,
+    "description": "A succinct parallel concurrency API for PHP 7.",
+    "latestReleaseDate": "2020-09-17T09:45:45+00:00",
+    "latestVersion": "1.1.4",
+    "license": "PHP License",
+    "name": "parallel",
+    "php8Mentioned": false,
+    "releases": {
+        "1.1.4": {
+            "version": "1.1.4",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2020-09-17T09:45:45+00:00",
+            "releaseNotes": "- Fix #103: memory leaks in Sync\n- Fix #112: broken type hinting and instanceof operator\n- Fix #139: crash with opcache enabled",
+            "get": "https://pecl.php.net/get/parallel-1.1.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.1.3": {
+            "version": "1.1.3",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2019-08-14T07:12:37+00:00",
+            "releaseNotes": "- Fix #79 segfault on copy closure in 7.2\n- Fix #69 segfault on deep runtime copy\n- Fix #70 segfault caused by incorrect Channel serialize/unserialize\n- Fix #71 segfault caused by cloned Channel access",
+            "get": "https://pecl.php.net/get/parallel-1.1.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.1.2": {
+            "version": "1.1.2",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2019-06-13T14:13:05+00:00",
+            "releaseNotes": "- Fix for 7.4.0alpha1",
+            "get": "https://pecl.php.net/get/parallel-1.1.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.1.1": {
+            "version": "1.1.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2019-06-05T07:10:33+00:00",
+            "releaseNotes": "- Fix #60 copying refcounted internals may lead to deadlocks",
+            "get": "https://pecl.php.net/get/parallel-1.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.1.0": {
+            "version": "1.1.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2019-06-03T05:30:25+00:00",
+            "releaseNotes": "- Fix #54 Input::add and Channel::send inconsistency\n- Fix #55 \\parallel\\run may schedule in wrong thread\n- Anonymous channel support\n- Add \\parallel\\Sync",
+            "get": "https://pecl.php.net/get/parallel-1.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.3": {
+            "version": "1.0.3",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2019-05-27T05:31:58+00:00",
+            "releaseNotes": "- Fix #49 closure statics in cache memory\n- Fix #50 persistent reference memory leaks\n- Fix #51 sometimes kill/cancel may crash\n- Fix #52 persistent objects have incorrect refcount",
+            "get": "https://pecl.php.net/get/parallel-1.0.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.2": {
+            "version": "1.0.2",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2019-05-23T06:16:51+00:00",
+            "releaseNotes": "- Fix #45 segfault on new Channel\n- Fix #46 scheduler is leaking function allocated in frame",
+            "get": "https://pecl.php.net/get/parallel-1.0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2019-05-21T08:29:15+00:00",
+            "releaseNotes": "- Fix #42 \\parallel\\run will choose wrong thread for scheduling\n- Fix #41 buffered channel could not be drained after close\n- Fix #40 class in FQN stops stubs being generated",
+            "get": "https://pecl.php.net/get/parallel-1.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2019-05-20T11:52:42+00:00",
+            "releaseNotes": "- Caching improvements\n- Channel comparison (==) fixed\n- Debug handler added for Channel\n- Debug handler for Future (just shows runtime)\n- Fix copying of interned strings\n- Object support\n- Functional API for parallel\\Runtime",
+            "get": "https://pecl.php.net/get/parallel-1.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.9.0": {
+            "version": "0.9.0",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2019-05-08T08:04:41+00:00",
+            "releaseNotes": "- Channels: bi-directional communication between tasks and runtimes\n- Improvements to copying making it vastly more efficient\n- Improvements to runtime stack, making it more efficient\n- Tasks may use lexical scope\n- Events - an experimental, quite primitive event loop for reading/writing sets of channels and futures\n- Support for rethrowing exceptions uncaught in tasks\n- Simplified Runtime constructor\n- Remove Future::select (in favour of the superior events interface)\n- Task cancellation\n- Closure support\n- Drop support for PHP 7.1",
+            "get": "https://pecl.php.net/get/parallel-0.9.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.8.3": {
+            "version": "0.8.3",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2019-03-25T08:30:33+00:00",
+            "releaseNotes": "- Fix potential race condition for state on Future::value (where an exception was thrown)\n- Better compatibility with JIT",
+            "get": "https://pecl.php.net/get/parallel-0.8.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.8.2": {
+            "version": "0.8.2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2019-02-28T07:51:19+00:00",
+            "releaseNotes": "- fix bugs in copying literals",
+            "get": "https://pecl.php.net/get/parallel-0.8.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.8.1": {
+            "version": "0.8.1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2019-02-25T16:47:46+00:00",
+            "releaseNotes": "- fix gh#11 Future::value after Future::select hangs",
+            "get": "https://pecl.php.net/get/parallel-0.8.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.8.0": {
+            "version": "0.8.0",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2019-02-18T13:40:38+00:00",
+            "releaseNotes": "- initial pecl release",
+            "get": "https://pecl.php.net/get/parallel-0.8.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "Parallel concurrency API",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

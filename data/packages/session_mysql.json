@@ -1,0 +1,13 @@
+{
+    "category": "PHP",
+    "deprecated": false,
+    "description": "mysql session save handler for php with locking support",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "MIT / Beerware",
+    "name": "session_mysql",
+    "php8Mentioned": false,
+    "releases": [],
+    "summary": "mysql session save handler for php",
+    "SPDX-License-Identifier": "MIT OR Beerware"
+}

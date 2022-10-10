@@ -1,0 +1,15 @@
+{
+    "category": "Database",
+    "deprecated": true,
+    "description": "This package provides an interface for communicating with the MongoDB database in PHP.",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "Apache License",
+    "name": "mongo",
+    "summary": "MongoDB database driver",
+    "php8Mentioned": false,
+    "releases": [],
+    "new_channel": "",
+    "new_package": "mongodb",
+    "SPDX-License-Identifier": "verify"
+}

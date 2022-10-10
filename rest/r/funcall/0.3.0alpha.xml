@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/funcall">funcall</p>
+ <c>pecl.php.net</c>
+ <v>0.3.0alpha</v>
+ <st>alpha</st>
+ <l>New BSD</l>
+ <m>surfchen</m>
+ <s>Add callbacks for any function/method</s>
+ <d>Call callbacks before or after specified functions/methods being called.</d>
+ <da>2010-11-08 10:37:40</da>
+ <n>Added PHP 5.3 support
+fixed bug #14849
+fixed bug #16553
+fixed bug #16999</n>
+ <f>12037</f>
+ <g>http://pecl.php.net/get/funcall-0.3.0alpha</g>
+ <x xlink:href="package.0.3.0alpha.xml"/>
+</r>

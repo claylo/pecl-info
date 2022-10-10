@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/request">request</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0b1</v>
+ <st>beta</st>
+ <l>MIT</l>
+ <m>pmjones</m>
+ <s>Provides server-side request and response objects.</s>
+ <d>This extension provides server-side request and response objects for PHP 7.
+These are *not* HTTP message objects proper. They are more like wrappers
+for existing global PHP variables and functions, with some limited
+additional convenience functionality.
+
+This extension defines two classes in the global namespace:
+
+- ServerRequest, composed of read-only copies of PHP superglobals and some
+  other commonly-used values, with methods for adding application-specific
+  request information in immutable fashion.
+
+- ServerResponse, essentially a wrapper around (and buffer for) response-
+  related PHP functions, with some additional convenience methods, and self-
+  sending capability.
+
+Documentation: https://gitlab.com/pmjones/ext-request
+
+A PHP 5 userland implementation that tracks this extension is available at
+https://packagist.org/packages/pmjones/request .</d>
+ <da>2016-12-18 16:54:04</da>
+ <n>Added:
+
+- ServerRequest::$forwarded property, computed from
+  $_SERVER['HTTP_FORWARDED']
+
+- ServerRequest::$forwarded(For|Host|Proto), computed from
+  $_SERVER['HTTP_X_FORWARDED(FOR|HOST|PROTO)']</n>
+ <f>34666</f>
+ <g>http://pecl.php.net/get/request-1.0.0b1</g>
+ <x xlink:href="package.1.0.0b1.xml"/>
+</r>

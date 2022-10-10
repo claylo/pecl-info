@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ev">ev</p>
+ <c>pecl.php.net</c>
+ <v>0.2.6</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>osmanov</m>
+ <s>Provides interface to libev library</s>
+ <d>ev provides interface to libev library - high performance
+  full-featured event loop written in C.</d>
+ <da>2013-07-19 08:54:57</da>
+ <n>Merged in 5lava/pecl-ev (pull request #1) @ Bitbucket
+Fix: made php 5.5.0-compatible
+Upgraded libev to version 4.15</n>
+ <f>93755</f>
+ <g>http://pecl.php.net/get/ev-0.2.6</g>
+ <x xlink:href="package.0.2.6.xml"/>
+</r>

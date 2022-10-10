@@ -1,0 +1,44 @@
+{
+    "category": "Database",
+    "deprecated": false,
+    "description": "This extension uses libdrizzle library to provide API for communicating with drizzle and mysql databases.",
+    "latestReleaseDate": "2010-04-03T19:59:47+00:00",
+    "latestVersion": "0.4.2",
+    "license": "PHP",
+    "name": "drizzle",
+    "summary": "Drizzle Database API",
+    "php8Mentioned": false,
+    "releases": {
+        "0.4.2": {
+            "version": "0.4.2",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "jluedke",
+            "releaseDate": "2010-04-03T19:59:47+00:00",
+            "releaseNotes": "- applied patch from eday\n- added contex_free calls where needed\n- updated a few methods",
+            "get": "http://pecl.php.net/get/drizzle-0.4.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.4.1": {
+            "version": "0.4.1",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "jluedke",
+            "releaseDate": "2009-07-02T02:13:10+00:00",
+            "releaseNotes": "- Fixed php 5.3 compile issue\n- there was a bug in libdrizzle v0.3 had to regen const of 0.4\n- renamed $obj->errno to $obj->getErrno will likely change back at some point\n- renamed $drizzle->escape() to $drizzle->escapeString()",
+            "get": "http://pecl.php.net/get/drizzle-0.4.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.4.0": {
+            "version": "0.4.0",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "jluedke",
+            "releaseDate": "2009-06-30T04:44:42+00:00",
+            "releaseNotes": "- Initial PECL import\n- Added $obj->returnCode() to all objects\n- Fixed compile issues with PHP 5.1 and 5.3\n- Added in ARG_INFO macros to make reflection work",
+            "get": "http://pecl.php.net/get/drizzle-0.4.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

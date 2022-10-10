@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/uri_template">uri_template</p>
+ <c>pecl.php.net</c>
+ <v>0.99.2</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>ioseb</m>
+ <s>uri_template extension</s>
+ <d>Implementation of URI Template(RFC6570) specification for PHP.</d>
+ <da>2012-10-31 15:35:09</da>
+ <n>- Fixed bug: pct-encoded literals outside of varspecs must be copied directly, https://github.com/ioseb/uri-template/issues/1
+- Fixed bug: encoding and copying of utf8 literals outside of varspecs</n>
+ <f>19010</f>
+ <g>http://pecl.php.net/get/uri_template-0.99.2</g>
+ <x xlink:href="package.0.99.2.xml"/>
+</r>

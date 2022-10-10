@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/uri_template">uri_template</p>
+ <c>pecl.php.net</c>
+ <v>0.99.1</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>ioseb</m>
+ <s>uri_template extension</s>
+ <d>Implementation of URI Template(RFC6570) specification for PHP.</d>
+ <da>2012-07-31 17:28:09</da>
+ <n>- Initial release</n>
+ <f>18099</f>
+ <g>http://pecl.php.net/get/uri_template-0.99.1</g>
+ <x xlink:href="package.0.99.1.xml"/>
+</r>

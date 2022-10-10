@@ -1,0 +1,15 @@
+{
+    "category": "Tools and Utilities",
+    "deprecated": true,
+    "description": "The Input Filter extension is meant to address this issue by implementing a set\nof filters and mechanisms that users can use to safely access their input data.",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "PHP",
+    "name": "filter",
+    "summary": "Extension for safely dealing with input parameters.\n\nNote: This extension is now part of PHP Core, so use it instead of this outdated PECL version (as of PHP 5.2.0).",
+    "php8Mentioned": false,
+    "releases": [],
+    "new_channel": "http://www.php.net/filter",
+    "new_package": "ext/filter",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

@@ -1,0 +1,13 @@
+{
+    "category": "Tools and Utilities",
+    "deprecated": false,
+    "description": "The PHP Agent for Apache SkyWalking, which provides the native tracing abilities for PHP project.",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "Apache-2.0",
+    "name": "skywalking_agent",
+    "php8Mentioned": false,
+    "releases": [],
+    "summary": "PHP Agent for Apache SkyWalking",
+    "SPDX-License-Identifier": "Apache-2.0"
+}

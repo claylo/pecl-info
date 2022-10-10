@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/imagick">imagick</p>
+ <c>pecl.php.net</c>
+ <v>2.3.0b1</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>mkoppanen</m>
+ <s>Provides a wrapper to the ImageMagick library.</s>
+ <d>Imagick is a native php extension to create and modify images using the ImageMagick API.
+This extension requires ImageMagick version 6.2.4+ and PHP 5.1.3+.
+
+IMPORTANT: Version 2.x API is not compatible with earlier versions.</d>
+ <da>2009-03-21 18:35:59</da>
+ <n>- Fixed compilation against older ImageMagick versions (Patch by Tim Herzog)
+- Fixed getImageMatte to actually return boolean instead of int
+
+- Added methods:
+  * Imagick::getImageMimeType
+  * Imagick::writeimagefile
+  * Imagick::writeimagesfile
+  * Imagick::resetimagepage
+  * Imagick::setimageclipmask
+  * Imagick::getimageclipmask
+  * Imagick::animateimages
+  * Imagick::recolorimage
+  * Imagick::floodfillpaintimage
+  * Imagick::opaquepaintimage
+  * Imagick::transparentpaintimage
+  * Imagick::decipherimage
+  * Imagick::encipherimage
+  * Imagick::getimagealphachannel 
+  * Imagick::getimagechanneldistortions
+  * Imagick::getimagegravity
+  * Imagick::setimagegravity
+  * Imagick::remapimage
+  * Imagick::exportimagepixels
+  * Imagick::getimagechannelkurtosis
+  * Imagick::functionimage
+  * Imagick::importImagePixels
+  * Imagick::sparseColorImage
+  * Imagick::deskewImage
+  * Imagick::segmentImage
+
+  * Imagickdraw::gettextkerning
+  * Imagickdraw::settextkerning
+  * Imagickdraw::gettextinterwordspacing
+  * Imagickdraw::gettextinterwordspacing
+
+  * ImagickPixel::getColorValueQuantum
+  * ImagickPixel::setColorValueQuamtum
+  * ImagickPixel::getIndex
+  * ImagickPixel::setIndex</n>
+ <f>83853</f>
+ <g>http://pecl.php.net/get/imagick-2.3.0b1</g>
+ <x xlink:href="package.2.3.0b1.xml"/>
+</r>

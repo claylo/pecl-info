@@ -1,0 +1,174 @@
+{
+    "category": "Tools and Utilities",
+    "deprecated": false,
+    "description": "This package provides a PHP binding for FANN (Fast Artificial Neural Network) Library",
+    "latestReleaseDate": "2022-01-03T00:00:14+00:00",
+    "latestVersion": "1.2.0RC2",
+    "license": "PHP 3.01",
+    "name": "fann",
+    "php8Mentioned": true,
+    "releases": {
+        "1.2.0RC2": {
+            "version": "1.2.0RC2",
+            "state": "beta",
+            "license": "PHP 3.01",
+            "releasedBy": "bukka",
+            "releaseDate": "2022-01-03T00:00:14+00:00",
+            "releaseNotes": "* Added support for PHP 8.1",
+            "get": "https://pecl.php.net/get/fann-1.2.0RC2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.2.0RC1": {
+            "version": "1.2.0RC1",
+            "state": "beta",
+            "license": "PHP 3.01",
+            "releasedBy": "bukka",
+            "releaseDate": "2021-03-14T20:55:48+00:00",
+            "releaseNotes": "* Added support for PHP 8\n* Added logic gates, OCR and pathfinder examples",
+            "get": "https://pecl.php.net/get/fann-1.2.0RC1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.1.1": {
+            "version": "1.1.1",
+            "state": "stable",
+            "license": "PHP 3.01",
+            "releasedBy": "bukka",
+            "releaseDate": "2016-06-26T15:02:05+00:00",
+            "releaseNotes": "* Fixed segfault after calling fann_destroy",
+            "get": "http://pecl.php.net/get/fann-1.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.1.0": {
+            "version": "1.1.0",
+            "state": "stable",
+            "license": "PHP 3.01",
+            "releasedBy": "bukka",
+            "releaseDate": "2016-03-30T18:34:21+00:00",
+            "releaseNotes": "* No changes since 1.1.0RC2",
+            "get": "http://pecl.php.net/get/fann-1.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.1.0RC2": {
+            "version": "1.1.0RC2",
+            "state": "beta",
+            "license": "PHP 3.01",
+            "releasedBy": "bukka",
+            "releaseDate": "2016-03-13T17:33:51+00:00",
+            "releaseNotes": "* Fixed C89 compatibility in placing TSRMLS_FETCH",
+            "get": "http://pecl.php.net/get/fann-1.1.0RC2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.1.0RC1": {
+            "version": "1.1.0RC1",
+            "state": "beta",
+            "license": "PHP 3.01",
+            "releasedBy": "bukka",
+            "releaseDate": "2016-03-06T16:07:27+00:00",
+            "releaseNotes": "* Added support for PHP 7\n* Fixed issue #15: Incorrect path permission check",
+            "get": "http://pecl.php.net/get/fann-1.1.0RC1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.7": {
+            "version": "1.0.7",
+            "state": "stable",
+            "license": "PHP 3.01",
+            "releasedBy": "bukka",
+            "releaseDate": "2014-01-01T12:37:37+00:00",
+            "releaseNotes": "* Fixed build with -Werror=format-security",
+            "get": "http://pecl.php.net/get/fann-1.0.7",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.6": {
+            "version": "1.0.6",
+            "state": "stable",
+            "license": "PHP 3.01",
+            "releasedBy": "bukka",
+            "releaseDate": "2013-12-31T12:32:23+00:00",
+            "releaseNotes": "* Fixed not working fann_train\n* Added extra check for NULL when ANN creation fails",
+            "get": "http://pecl.php.net/get/fann-1.0.6",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.5": {
+            "version": "1.0.5",
+            "state": "stable",
+            "license": "PHP 3.01",
+            "releasedBy": "bukka",
+            "releaseDate": "2013-10-16T14:59:08+00:00",
+            "releaseNotes": "* Fixed version macros",
+            "get": "http://pecl.php.net/get/fann-1.0.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.4": {
+            "version": "1.0.4",
+            "state": "stable",
+            "license": "PHP 3.01",
+            "releasedBy": "bukka",
+            "releaseDate": "2013-10-12T13:24:08+00:00",
+            "releaseNotes": "* Fixed compilation errors and warnings for PHP 5.2 and 5.3",
+            "get": "http://pecl.php.net/get/fann-1.0.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.3": {
+            "version": "1.0.3",
+            "state": "stable",
+            "license": "PHP 3.01",
+            "releasedBy": "bukka",
+            "releaseDate": "2013-10-06T14:35:36+00:00",
+            "releaseNotes": "* Fixed segfault on 32bit platform\n* Included tests in PECL tarball",
+            "get": "http://pecl.php.net/get/fann-1.0.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.2": {
+            "version": "1.0.2",
+            "state": "stable",
+            "license": "PHP 3.01",
+            "releasedBy": "bukka",
+            "releaseDate": "2013-09-18T14:50:30+00:00",
+            "releaseNotes": "* Added configuration for Windows build to config.w32\n* Fixed GCC and Windows compiler warnings",
+            "get": "http://pecl.php.net/get/fann-1.0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "stable",
+            "license": "PHP 3.01",
+            "releasedBy": "bukka",
+            "releaseDate": "2013-09-09T14:56:28+00:00",
+            "releaseNotes": "* Fixed configuration bug for older versions of autoconf",
+            "get": "http://pecl.php.net/get/fann-1.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "bukka",
+            "releaseDate": "2013-08-02T16:02:35+00:00",
+            "releaseNotes": "* New functional API supporting libfann version 2.1 and 2.2.\n* More than 140 new functions.\n* Many new algorithms and options for neural networks.\n* Incompatible with previous version (rewritten from scratch).",
+            "get": "http://pecl.php.net/get/fann-1.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.1": {
+            "version": "0.1.1",
+            "state": "devel",
+            "license": "PHP",
+            "releasedBy": "enemerson",
+            "releaseDate": "2004-06-17T05:13:00+00:00",
+            "releaseNotes": "Fix all known bugs, supporting fann-1.1.0",
+            "get": "http://pecl.php.net/get/fann-0.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.0": {
+            "version": "0.1.0",
+            "state": "devel",
+            "license": "PHP",
+            "releasedBy": "enemerson",
+            "releaseDate": "2004-04-01T23:54:00+00:00",
+            "releaseNotes": "Initial release, supporting fann-1.1.0",
+            "get": "http://pecl.php.net/get/fann-0.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "Wrapper for FANN (Fast Artificial Neural Network) Library",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

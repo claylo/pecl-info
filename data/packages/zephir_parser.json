@@ -1,0 +1,64 @@
+{
+    "category": "Tools and Utilities",
+    "deprecated": false,
+    "description": "Zephir Parser is a code parser, delivered as a C extension for the PHP language.",
+    "latestReleaseDate": "2022-09-19T11:34:50+00:00",
+    "latestVersion": "1.5.1",
+    "license": "MIT",
+    "name": "zephir_parser",
+    "php8Mentioned": true,
+    "releases": {
+        "1.5.1": {
+            "version": "1.5.1",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "jeckerson",
+            "releaseDate": "2022-09-19T11:34:50+00:00",
+            "releaseNotes": "### Added\n- Enabled support of PHP8.2 for PECL [#141](https://github.com/phalcon/php-zephir-parser/issues/141)",
+            "get": "https://pecl.php.net/get/zephir_parser-1.5.1",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.5.0": {
+            "version": "1.5.0",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "jeckerson",
+            "releaseDate": "2022-02-13T11:15:05+00:00",
+            "releaseNotes": "Sat, Feb 12, 2022 - Zephir Parser 1.5.0\n\n= Added:\n\n- Added support of `false` return type",
+            "get": "https://pecl.php.net/get/zephir_parser-1.5.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.4.2": {
+            "version": "1.4.2",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "jeckerson",
+            "releaseDate": "2021-12-11T21:41:18+00:00",
+            "releaseNotes": "### Added\n- Enabled support of PHP8.1 for PECL [#116](https://github.com/phalcon/php-zephir-parser/issues/116)",
+            "get": "https://pecl.php.net/get/zephir_parser-1.4.2",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.4.1": {
+            "version": "1.4.1",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "jeckerson",
+            "releaseDate": "2021-09-18T14:55:17+00:00",
+            "releaseNotes": "Sat, Sep 18, 2021 - Zephir Parser 1.4.1\n\n= Changes:\n\n- Fixed issue #125: Renamed extension name from `Zephir Parser` to `zephir_parser`",
+            "get": "https://pecl.php.net/get/zephir_parser-1.4.1",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.4.0": {
+            "version": "1.4.0",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "jeckerson",
+            "releaseDate": "2021-09-18T10:22:20+00:00",
+            "releaseNotes": "Sat, Sep 18, 2021 - Zephir Parser 1.4.0\n\n= New features:\n\n- Fixed issue #120: Add support for `mixed` type\n- Fixed issue #118: Add support for `yield` statement",
+            "get": "https://pecl.php.net/get/zephir_parser-1.4.0",
+            "SPDX-License-Identifier": "MIT"
+        }
+    },
+    "summary": "Zephir code parser.",
+    "SPDX-License-Identifier": "MIT"
+}

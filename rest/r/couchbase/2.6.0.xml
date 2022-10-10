@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/couchbase">couchbase</p>
+ <c>pecl.php.net</c>
+ <v>2.6.0</v>
+ <st>stable</st>
+ <l>Apache V2</l>
+ <m>avsej</m>
+ <s>Couchbase Server PHP extension</s>
+ <d>The PHP client library provides fast access to documents stored in a Couchbase Server.</d>
+ <da>2018-10-05 16:29:43</da>
+ <n>* PCBC-562: Allow disabling caching (persistent) connections by setting couchbase.pool.max_idle_time_sec to zero.
+* PCBC-560: Positional, named and raw parameters for Analytics</n>
+ <f>174067</f>
+ <g>http://pecl.php.net/get/couchbase-2.6.0</g>
+ <x xlink:href="package.2.6.0.xml"/>
+</r>

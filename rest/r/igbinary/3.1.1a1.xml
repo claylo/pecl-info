@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/igbinary">igbinary</p>
+ <c>pecl.php.net</c>
+ <v>3.1.1a1</v>
+ <st>alpha</st>
+ <l>BSD-3-Clause</l>
+ <m>tandre</m>
+ <s>igbinary extension</s>
+ <d>Igbinary is a drop in replacement for the standard php serializer. Instead of
+	time and space consuming textual representation, igbinary stores php data
+	structures in a compact binary form. Savings are significant when using
+	memcached or similar memory based storages for serialized data.</d>
+ <da>2020-01-11 21:21:25</da>
+ <n>* Throw when an uninitialized php 7.4 typed property is included in the result of __sleep(),
+  instead of emitting a notice and attempting to represent the unset/uninitialized value as null (#258).
+  See https://bugs.php.net/bug.php?id=79002
+
+  Uninitialized properties without types from __sleep continue to emit notices and be represented as null.</n>
+ <f>71460</f>
+ <g>https://pecl.php.net/get/igbinary-3.1.1a1</g>
+ <x xlink:href="package.3.1.1a1.xml"/>
+</r>

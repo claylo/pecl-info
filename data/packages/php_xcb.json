@@ -1,0 +1,13 @@
+{
+    "category": "GUI",
+    "deprecated": false,
+    "description": "php-xcb allows you to interact with the X desktop, create windows, and draw primitives, or even create a window manager",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "PHP 3.01",
+    "name": "php_xcb",
+    "php8Mentioned": false,
+    "releases": [],
+    "summary": "A Wrapper to XCB, the X11 C Bindings",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

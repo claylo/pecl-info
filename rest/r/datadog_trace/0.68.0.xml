@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.68.0</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>labbati</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2021-12-22 18:29:07</da>
+ <n>### Added
+- Bring priority sampling to internal #1366
+- SpanData::$parent property #1369
+- Add queue and channel components #1388
+- Add log component #1390
+- Add arena component #1391
+- Add stack sample component #1392
+- Add uuid component #1393
+- Add time component #1394, #1408
+- Add profiler installation #1422
+- Zai/json #1378, #1397
+- Add Code Coverage #1389
+
+### Changed
+- (PHP 8) Migrate ObjectKVStore to WeakMap internally #1362
+- Adjust components #1387
+- Export only specific symbols #1407
+- Sanitize user information from urls #1396
+- Split INI setting in installer so they can be added separately when missing #1415
+- Use the new targz bundle format with the new PHP installer #1421
+- Have both legacy and new installer to fail when json PHP extension is not enabled #1410
+
+### Fixed
+- Fix Laravel unnamed route with caching and domain specification #1364
+- Fix http.url of internal root span #1360
+- Add small framework to stress test our internal API with bogus inputs #1365
+- PDOIntegration::parseDSN fails to parse some DSN #1373
+- Fix constructor of OpenTracing wrapper when no Datadog tracer is provided #1406 - thanks @OGKevin for the reproduction case
+- Fix parsing of urls without schema into host name #1385</n>
+ <f>512996</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.68.0</g>
+ <x xlink:href="package.0.68.0.xml"/>
+</r>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/memcache">memcache</p>
+ <c>pecl.php.net</c>
+ <v>8.0</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>tomassrnka</m>
+ <s>memcached extension</s>
+ <d>Memcached is a caching daemon designed especially for 
+    dynamic web applications to decrease database load by 
+    storing objects in memory.
+    This extension allows you to work with memcached through
+    handy OO and procedural interfaces.
+    The extension allows use to store sessions in memcached via memcache.</d>
+ <da>2020-12-06 15:07:41</da>
+ <n>- Version 8.x support PHP 8.x
+- Version 4.x supports PHP 7.0-7.4. 
+- Version 4.x is considered to be stable for production usage. 
+- Support for PHP 5.x has been removed, please use memcache extension ver. 3.x 
+- Special thanks to Frantisek Drojak - thesource93 (github) and Zaffy (github) for making this happen</n>
+ <f>78448</f>
+ <g>https://pecl.php.net/get/memcache-8.0</g>
+ <x xlink:href="package.8.0.xml"/>
+</r>

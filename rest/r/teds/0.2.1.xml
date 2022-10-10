@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/teds">teds</p>
+ <c>pecl.php.net</c>
+ <v>0.2.1</v>
+ <st>alpha</st>
+ <l>BSD-3-Clause</l>
+ <m>tandre</m>
+ <s>teds extension</s>
+ <d>teds (Tentative Extra Data Structures) is a collection of data structures and iterable functionality</d>
+ <da>2021-09-17 01:44:10</da>
+ <n>* Support `$vector[] = $value` and `$deque[] = $value` assignments to append to Vector/Deque.
+* Add map() and filter() functions to Vector.</n>
+ <f>65140</f>
+ <g>https://pecl.php.net/get/teds-0.2.1</g>
+ <x xlink:href="package.0.2.1.xml"/>
+</r>

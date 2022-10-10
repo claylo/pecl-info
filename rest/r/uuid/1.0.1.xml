@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/uuid">uuid</p>
+ <c>pecl.php.net</c>
+ <v>1.0.1</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>hholzgra</m>
+ <s>UUID support functions</s>
+ <d>This extension provides functions to generate and analyse
+universally unique identifiers (UUIDs). It depends on the
+external libuuid. This library is available on most linux 
+systems (its source is there bundled with the ext2fs tools)
+and on Solaris.</d>
+ <da>2008-03-25 18:04:41</da>
+ <n>Now works with Solaris libuuid implementation, too</n>
+ <f>5619</f>
+ <g>http://pecl.php.net/get/uuid-1.0.1</g>
+ <x xlink:href="package.1.0.1.xml"/>
+</r>

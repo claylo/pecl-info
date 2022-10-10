@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ibm_db2">ibm_db2</p>
+ <c>pecl.php.net</c>
+ <v>1.0</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>skoduru</m>
+ <s>PHP extension for DB2/Cloudscape</s>
+ <d>This extension provides functionality to work with DB2/Cloudscape databases.
+</d>
+ <da>2005-05-06 15:08:43</da>
+ <n>This is the first release of this extension. Lookup TODO in docs for in-complete features.</n>
+ <f>145456</f>
+ <g>http://pecl.php.net/get/ibm_db2-1.0</g>
+ <x xlink:href="package.1.0.xml"/>
+</r>

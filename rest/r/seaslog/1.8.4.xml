@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/seaslog">SeasLog</p>
+ <c>pecl.php.net</c>
+ <v>1.8.4</v>
+ <st>stable</st>
+ <l>PHP3.01</l>
+ <m>neeke</m>
+ <s>An effective,fast,stable log extension for PHP.</s>
+ <d>An effective,fast,stable log extension for PHP.
+        - In the PHP project, for convenient record log.
+        - The default log directory and module configuration.
+        - Specify the log directory and get the current configuration.
+        - Analysis of early warning framework preliminary.
+        - Buffer debug efficient log buffer, convenient.
+        - With PSR-3 Logger interface.
+        - Error and exception automatic logging.
+        - Support appender with File,TCP,UDP.
+        - Send to Rsyslog(TCP/UDP) with RFC5424.
+        - Support RequestId differentiated requests.
+        - Support for log template customizations.</d>
+ <da>2018-03-23 11:11:57</da>
+ <n>- New Feature #162 Configure seaslog.recall_depth support for filename and code line.
+- New Feature #170 Configure seaslog.trace_notice and seaslog.trace_warning support trace notice and warning.
+- New Feature #172 Configure seaslog.disting_folder support switch {Logger}/{Time}[.Type].log or {Logger}_{Time}[.Type].log.
+- New Feature #174 Add %U(MemoryUsage) and %u(PeakMemoryUsage) into default variable table.
+- New Feature #186 Use seaslog_throw_exception replace zend_error.
+- Fixed issue #65 Message template content match error.
+- Fixed issue #153 Disting_by_hour and disting_type can not use together.
+- Fixed issue #156 Log template format error with %L and %M.
+- Fixed issue #158 SeasLog::setRequestID intercepted error.
+- Fixed issue #165 Phpdbg seg fault.
+- Fixed issue #184 SeasLog::analyzerCount seg fault at PHP7-nts.
+- Fixed issue #181 Perfect when stream's connection was broken.</n>
+ <f>92715</f>
+ <g>http://pecl.php.net/get/SeasLog-1.8.4</g>
+ <x xlink:href="package.1.8.4.xml"/>
+</r>

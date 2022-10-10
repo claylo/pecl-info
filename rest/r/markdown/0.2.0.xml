@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/markdown">markdown</p>
+ <c>pecl.php.net</c>
+ <v>0.2.0</v>
+ <st>alpha</st>
+ <l>New BSD License</l>
+ <m>pajoye</m>
+ <s>Processes the Markdown language with the bundled discount library.</s>
+ <d>Markdown is a lightweight markup language created by John Gruber. It is also
+the name of the original tool written in Perl that converts such markup into
+HTML.
+
+This library is a wrapper for a modified version of the discount Markdown
+processor, created by David Parsons. It supports several extensions of the
+original Markdown language, including smartypants-style substitutions, pandoc-
+style document headers, and parts of Markdown Extra.
+
+The modifications to discount include discarding several parts important only
+to stand-alone applications that accompany the library code, better consistency
+in library interface functions, thread-safety without eager initialization of
+globals, usage of the Zend memory manager and support for Microsoft Windows.
+
+Discount is available at &lt;http://www.pell.portland.or.us/~orc/Code/discount/&gt;.
+
+The page of the original Markdown is available at
+&lt;http://daringfireball.net/projects/markdown/&gt;.</d>
+ <da>2011-01-12 05:27:22</da>
+ <n>- Completely new codebase.
+- More recent and tightly coupled discount library.
+- Much richer interface.
+- Interface incompatible with PECL markdown 0.1.0.</n>
+ <f>71877</f>
+ <g>http://pecl.php.net/get/markdown-0.2.0</g>
+ <x xlink:href="package.0.2.0.xml"/>
+</r>

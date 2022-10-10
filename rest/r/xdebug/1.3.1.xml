@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xdebug">xdebug</p>
+ <c>pecl.php.net</c>
+ <v>1.3.1</v>
+ <st>stable</st>
+ <l>BSD style</l>
+ <m>derick</m>
+ <s>Provides functions for function traces and profiling</s>
+ <d>The Xdebug extension helps you debugging your script by providing a lot of
+valuable debug information. The debug information that Xdebug can provide
+includes the following:
+
+    * stack and function traces in error messages with:
+          o full parameter display for user defined functions
+          o function name, file name and line indications
+          o support for member functions
+    * memory allocation
+    * protection for infinite recursions
+
+Xdebug also provides:
+
+    * profiling information for PHP scripts
+    * script execution analysis
+    * capabilities to debug your scripts interactively with a debug client
+</d>
+ <da>2004-04-06 19:32:00</da>
+ <n>= Fixed profiler to aggregate class/method calls correctly. (Robert Beenen)
+= Fixed debugclient to initialize socket structure correctly. (Brandon Philips
+  and David Sklar)
+= GDB: Fixed bug where the source file wasn't closed after a &quot;source&quot; command.
+  (Derick)</n>
+ <f>153506</f>
+ <g>http://pecl.php.net/get/xdebug-1.3.1</g>
+ <x xlink:href="package.1.3.1.xml"/>
+</r>

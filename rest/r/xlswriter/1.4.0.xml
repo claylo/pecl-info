@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xlswriter">xlswriter</p>
+ <c>pecl.php.net</c>
+ <v>1.4.0</v>
+ <st>stable</st>
+ <l>BSD license</l>
+ <m>wjx</m>
+ <s>Efficient and fast xlsx file extension.</s>
+ <d>xlswriter is a PHP C Extension that can be used to write text, numbers, formulas and hyperlinks to multiple worksheets in an Excel 2007+ XLSX file.
+
+  Writer
+
+  - 100% compatible Excel XLSX files.
+  - Full Excel formatting.
+  - Merged cells.
+  - Defined names.
+  - Autofilters.
+  - Charts.
+  - Data validation and drop down lists.
+  - Worksheet PNG/JPEG images.
+  - Memory optimization mode for writing large files.
+  - Works on Linux, FreeBSD, OpenBSD, OS X, Windows.
+  - Compiles for 32 and 64 bit.
+  - FreeBSD License.
+  - The only dependency is on zlib.
+
+  Reader
+
+  - Full read data
+  - Cursor read data
+  - Read by data type
+  - Xlsx to csv</d>
+ <da>2021-07-18 06:58:51</da>
+ <n>- Fix disable reader build failed.
+- Fix insertDate use curtom format segmentation fault.
+- Feat custom free resource.
+- Feat writer validation.
+- Feat writer data validation can be applied to a single cell or a range of cells.
+- Feat reader add file path in open file exception message.
+- Feat exit worksheet.
+- Feat set paper.
+- Feat set margins.
+- Build read module is enabled by default.
+- Perfect exception message.
+- Compatible PHP 8.1 API.
+- Destructive rename method setPrintedLandscape to setLandscape
+- Destructive rename method setPrintedPortrait to setPortrait</n>
+ <f>613924</f>
+ <g>https://pecl.php.net/get/xlswriter-1.4.0</g>
+ <x xlink:href="package.1.4.0.xml"/>
+</r>

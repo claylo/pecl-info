@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/big_int">big_int</p>
+ <c>pecl.php.net</c>
+ <v>1.0.2</v>
+ <st>stable</st>
+ <l>see LICENSE</l>
+ <m>valyala</m>
+ <s>big_int library provides a set of functions for calculations with arbitrary length integers and bitsets</s>
+ <d>Functions from this package are useful for number theory applications. For example, in two-keys cryptography.
+See /tests/RSA.php in the package for example of simple implementation of RSA-like cryptoalgorithm.
+See contents of /PEAR folder for more complex implementation of RSA-like crypto, which supports key generating,
+encrypting/decrypting, signing and validating of sign.
+
+The package has many bitset functions, which allow to work with arbitrary length bitsets.
+
+This package is much faster than bundled into PHP BCMath and consists almost all functions, which 
+are implemented in PHP GMP extension, but it needn't any external libraries.
+</d>
+ <da>2005-04-12 18:49:17</da>
+ <n>+ added optional parameter to functions bi_or(), bi_and(), bi_xor() and bi_andnot(), which allows to set start position for bitwise operations. See /tests/bitset.php for details
++ added new function: bi_info(), which returns useful information, related to the package. See documentation for details
++ added flexible and extensible set of PHP classes, which allow to work with RSA-like two-key cryptography. See contents of /PEAR folder
++ updated documentation. Now it has pretty look. See /docs/index.html
++ added missing /tests/std_header.php and /test/rand.php scripts
++ updated BIG_INT library to new version
+* fixed several bugs in /php_big_int.c</n>
+ <f>55910</f>
+ <g>http://pecl.php.net/get/big_int-1.0.2</g>
+ <x xlink:href="package.1.0.2.xml"/>
+</r>

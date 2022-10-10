@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.79.0</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>labbati</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2022-09-09 14:11:27</da>
+ <n>### Added
+- Integrate with Symfony console commands #1724
+
+### Changed
+
+### Fixed
+- Fix #1709 appsec attempting to load erroneously #1711
+- Fix symfony service and root span name #1723 (Thanks @numyx)
+- Initialize hooks and config early to prevent conflicts with code executed in early startup #1726
+- Fix hook dynamic data zeroing when new hooks are added during hook execution #1730
+
+### Internal changes
+- Fix compilation on MacOS #1716
+- Deduplicate PHP 7 and PHP 8 source files #1722
+
+
+## Profiling (v0.10.0)
+
+#### Added
+- Add Endpoint Profiling #1720
+
+#### Internal changes
+- Extract C API module; refactor Uuid #1710</n>
+ <f>389025</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.79.0</g>
+ <x xlink:href="package.0.79.0.xml"/>
+</r>

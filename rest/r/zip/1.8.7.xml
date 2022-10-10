@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/zip">zip</p>
+ <c>pecl.php.net</c>
+ <v>1.8.7</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>pajoye</m>
+ <s>A zip management extension</s>
+ <d>Zip is an extension to create, modify and read zip files.</d>
+ <da>2007-03-14 07:38:07</da>
+ <n>- Add missing openbasedir or safemode (php 5.x and 4.x) checks in zip:// stream or ZipArchive::open
+- Fixed possible relative path issues in zip_open and TS mode (old API)
+- rename SAFEMODE_CHECKFILE to OPENBASEDIR_CHECKPATH (no confusion when used wiht php6)</n>
+ <f>66863</f>
+ <g>http://pecl.php.net/get/zip-1.8.7</g>
+ <x xlink:href="package.1.8.7.xml"/>
+</r>

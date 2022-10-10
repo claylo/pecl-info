@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/teds">teds</p>
+ <c>pecl.php.net</c>
+ <v>1.2.0</v>
+ <st>stable</st>
+ <l>BSD-3-Clause</l>
+ <m>tandre</m>
+ <s>Provides extra data structures and iterable/array functionality.</s>
+ <d>teds (Tentative Extra Data Structures) is a collection of data structures and iterable functionality</d>
+ <da>2022-03-04 02:20:48</da>
+ <n>* Add `Teds\SortedIntVectorSet` - a Set implementation represented in a way similar to an `Teds\IntVector` with unique sorted integers.
+  (This may be useful for reducing memory usage and speeding up unserialization, when unserializing large Sets of integers which change infrequently. See benchmarks/benchmark_vector_unserialize.php)
+* Add `Teds\ImmutableSortedStringSet` - an immutable Set implementation containing a list of unique strings sorted with strcmp.
+  (This may be useful for reducing memory usage and speeding up unserialization, when unserializing large Sets of strings which change infrequently to check values for membership in a Set. See benchmarks/benchmark_string_set.php)
+* Add `Teds\ImmutableSortedIntSet` - an immutable Set implementation containing a list of unique integers sorted by increasing value.
+  (This may be useful for reducing memory usage and speeding up unserialization, when unserializing large Sets of integers which change infrequently to check values for membership in a Set.)
+* Rename `Teds\BitSet` to `Teds\BitVector`
+* Add `Teds\Sequence::insert(int $offset, mixed ...$values)` to the Sequence interfaces and implementations
+* Add first/last to the `Teds\Sequence` interface.
+* Fix edge cases with var_export/var_dump/debug_zval_dump and cyclic data structures in debug builds and php 8.2.0-dev.
+* Make iteration account for offsetUnset/insert/shift/unshift in Sequences.</n>
+ <f>291086</f>
+ <g>https://pecl.php.net/get/teds-1.2.0</g>
+ <x xlink:href="package.1.2.0.xml"/>
+</r>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/apcu">apcu</p>
+ <c>pecl.php.net</c>
+ <v>4.0.6</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>krakjoe</m>
+ <s>APCu - APC User Cache</s>
+ <d>APC User Caching</d>
+ <da>2014-06-12 09:39:14</da>
+ <n>- fix issues with stddef inclusion causing compilation issue</n>
+ <f>119689</f>
+ <g>http://pecl.php.net/get/apcu-4.0.6</g>
+ <x xlink:href="package.4.0.6.xml"/>
+</r>

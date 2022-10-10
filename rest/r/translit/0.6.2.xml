@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/translit">translit</p>
+ <c>pecl.php.net</c>
+ <v>0.6.2</v>
+ <st>beta</st>
+ <l>BSD style</l>
+ <m>tyrael</m>
+ <s>Transliterates non-latin character sets to latin</s>
+ <d>This extension allows you to transliterate text in non-latin characters (such
+as Chinese, Cyrillic, Greek etc) to latin characters.  Besides the
+transliteration the extension also contains filters to upper- and lowercase
+latin, cyrillic and greek, and perform special forms of transliteration such
+as converting ligatures such as the Norwegian &quot;æ&quot; to &quot;ae&quot; and normalizing
+punctuation and spacing.</d>
+ <da>2015-12-09 01:07:55</da>
+ <n>PHP 7 support</n>
+ <f>103023</f>
+ <g>http://pecl.php.net/get/translit-0.6.2</g>
+ <x xlink:href="package.0.6.2.xml"/>
+</r>

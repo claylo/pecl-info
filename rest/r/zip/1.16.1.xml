@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/zip">zip</p>
+ <c>pecl.php.net</c>
+ <v>1.16.1</v>
+ <st>stable</st>
+ <l>PHP 3.01</l>
+ <m>remi</m>
+ <s>A zip management extension</s>
+ <d>Zip is an extension to create, modify and read zip files.</d>
+ <da>2020-01-29 13:16:28</da>
+ <n>- add ZipArchive::CM_XZ constant (since libzip 1.6.0)
+- add ZipArchive::ER_* missing constants
+- fix Windows build</n>
+ <f>289776</f>
+ <g>https://pecl.php.net/get/zip-1.16.1</g>
+ <x xlink:href="package.1.16.1.xml"/>
+</r>

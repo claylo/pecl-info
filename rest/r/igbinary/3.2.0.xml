@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/igbinary">igbinary</p>
+ <c>pecl.php.net</c>
+ <v>3.2.0</v>
+ <st>stable</st>
+ <l>BSD-3-Clause</l>
+ <m>tandre</m>
+ <s>igbinary extension</s>
+ <d>Igbinary is a drop in replacement for the standard php serializer. Instead of
+	time and space consuming textual representation, igbinary stores php data
+	structures in a compact binary form. Savings are significant when using
+	memcached or similar memory based storages for serialized data.</d>
+ <da>2020-12-26 21:28:37</da>
+ <n>* Use PHP's shared empty array instance when unserializing empty arrays in php 7.3+.
+  (helps slightly with memory usage when repeatedly unserializing,
+  when removing elements from arrays before unserializing them,
+  or when serializing values including an empty array that was unserialized)
+* Emit a deprecation notice when serializing resources.
+  PHP itself is converting many resources to objects that throw an Error on serialization attempts.
+  Continue to represent resources as null in the serialized data.
+* Fix memory management bug when unserializing invalid data (duplicate properties in objects (e.g. from `__sleep`) or duplicate fields in arrays (impossible for valid data)).
+* Speed up calls to `__serialize`/`__unserialize` in php 8.0+.
+* Fix error messages for unserialize_callback_func: make messages properly refer to the autoload function.
+* Optimize unserializing alternative names for private/protected constants that were previously public.</n>
+ <f>82818</f>
+ <g>https://pecl.php.net/get/igbinary-3.2.0</g>
+ <x xlink:href="package.3.2.0.xml"/>
+</r>

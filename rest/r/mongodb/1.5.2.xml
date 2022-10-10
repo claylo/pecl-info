@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.5.2</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>derick</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2018-08-01 17:07:22</da>
+ <n>** Bug
+    * [PHPC-1110] - advanceOperationTime test failure
+    * [PHPC-1239] - Passing empty driversOptions array to Manager constructor overrides SSL options in URI
+    * [PHPC-1241] - OpenSSL 1.1 not found if pkg-config is not available
+    * [PHPC-1243] - Calling session methods after Session::endSession() causes use-after-free crash
+
+** Task
+    * [PHPC-1184] - Add alternative topologies to Travis CI
+    * [PHPC-1205] - Allow unencoded subdelimiters in usernames and passwords
+    * [PHPC-1227] - Document that transactions do not allow per-op read/write concerns
+    * [PHPC-1244] - Use majority WC to drop/create collections for transaction tests
+    * [PHPC-1246] - Document class tree for exception classes
+    * [PHPC-1248] - Add test to ensure that URI constant is successfully parsed
+    * [PHPC-1249] - Fix tests running against MongoDB 3.0 replicaset
+    * [PHPC-1251] - Upgrade libmongoc to 1.12.0</n>
+ <f>1057139</f>
+ <g>http://pecl.php.net/get/mongodb-1.5.2</g>
+ <x xlink:href="package.1.5.2.xml"/>
+</r>

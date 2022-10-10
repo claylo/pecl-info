@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/couchbase">couchbase</p>
+ <c>pecl.php.net</c>
+ <v>2.2.0beta1</v>
+ <st>beta</st>
+ <l>Apache V2</l>
+ <m>avsej</m>
+ <s>Couchbase Server PHP extension</s>
+ <d>The PHP client library provides fast access to documents stored in
+        a Couchbase Server.</d>
+ <da>2016-04-19 18:34:47</da>
+ <n>This is a major update to the PHP 2.2 SDK.
+
+Changes:
+* PCBC-360: refactoring to support PHP 7
+* PCBC-376: reentrant transcoders
+* PCBC-369: allow to use system fastlz
+* PCBC-373: ensure view query values are properly url encoded
+* Various minor changes</n>
+ <f>40927</f>
+ <g>http://pecl.php.net/get/couchbase-2.2.0beta1</g>
+ <x xlink:href="package.2.2.0beta1.xml"/>
+</r>

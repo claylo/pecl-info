@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ast">ast</p>
+ <c>pecl.php.net</c>
+ <v>0.1.5</v>
+ <st>stable</st>
+ <l>BSD-3-Clause</l>
+ <m>nikic</m>
+ <s>Extension exposing PHP 7 abstract syntax tree</s>
+ <d>php-ast exports the AST internally used by PHP 7.
+     php-ast is significantly faster than PHP-Parser, because the AST construction is implemented in C.
+     However, php-ast may only parse code that is syntactically valid on the version of PHP it runs on.</d>
+ <da>2017-07-29 15:56:45</da>
+ <n>- Fix issue #51: Make nullable array/callable have a flag of 0 in inner element, in version 40.
+- Added a constructor for the ast\Node class.
+- Added ast\flags\FUNC_GENERATOR constant, which is used since PHP 7.1.
+- Added ast\flags\FUNC_RETURNS_REF constant, intended to supersede ast\flags\RETURNS_REF.
+- Added ast\flags\CLOSURE_USE_REF constant, used by AST_CLOSURE_VAR nodes. Previously &quot;1&quot; was used.
+- Added version 45 with the following changes (PHP 7.2 support):
+  - An `object` type annotation now returns an `AST_TYPE` with `TYPE_OBJECT` flag, rather than
+    treating `object` as a class name.
+- Added version 50 with the following changes:
+  - `ast\Node\Decl` nodes are no longer generated. AST kinds `AST_FUNCTION`, `AST_METHOD`,
+    `AST_CLOSURE` and `AST_CLASS` now also use the normal `ast\Node` class. The `name` and
+    `docComment` properties are now represented as children. The `endLineno` is still represented as
+    an (undeclared) property.
+  - An integer `__declId` has been added to declaration nodes of kind `AST_FUNCTION`, `AST_METHOD`,
+    `AST_CLOSURE` and `AST_CLASS`. The `__declId` uniquely identifies a declaration within the
+	parsed code and will remain the same if the code is parsed again. This is useful to distinguish
+	closures declared on the same line, or multiple conditional declarations using the same name.
+	The ID is not unique across different codes/files.
+  - `\ast\parse_file` will now consistently return an empty statement list (similar to
+    `\ast\parse_code`) if it is was passed a zero-byte file. Previously, it would return `null`.</n>
+ <f>33196</f>
+ <g>http://pecl.php.net/get/ast-0.1.5</g>
+ <x xlink:href="package.0.1.5.xml"/>
+</r>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/memcached">memcached</p>
+ <c>pecl.php.net</c>
+ <v>2.0.0b1</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>andrei</m>
+ <s>PHP extension for interfacing with memcached via libmemcached library</s>
+ <d>This extension uses libmemcached library to provide API for communicating with memcached servers.</d>
+ <da>2011-03-13 13:39:55</da>
+ <n>- Change the return value for non-existing keys to be NULL rather than
+  'false', affects simple get only
+- Add fastlz library that provides better/faster payload compression
+- Add configure switch to enable/disable JSON serialization support
+- Add getAllKeys() method
+- Add deleteMulti() and deleteMultiByKey() methods
+- Add isPristine() and isPersistent() methods
+- Add setOptions() method to set multiple options at once
+- Add SERIALIZER_JSON_ARRAY type that decodes JSON payloads as arrays
+  instead of objects
+- Add support for Unix domain socket connections
+- Add memcached.compression_threshold INI setting
+- Add memcached.compression_factor INI setting
+- Add memcached.compression_type INI setting
+- Implement a few speed optimizations
+- Many bug fixes and memory leaks plugged
+- Add several more tests
+- Add constants for libmemcached 0.37+:
+  * Memcached::OPT_NUMBER_OF_REPLICAS
+  * Memcached::OPT_RANDOMIZE_REPLICA_READ
+- Add 'on_new' callback to constructor
+- Add SASL support</n>
+ <f>34708</f>
+ <g>http://pecl.php.net/get/memcached-2.0.0b1</g>
+ <x xlink:href="package.2.0.0b1.xml"/>
+</r>

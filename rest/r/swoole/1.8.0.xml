@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>1.8.0</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Asynchronous and concurrent and distributed networking	framework for PHP.</s>
+ <d>Asynchronous and concurrent and distributed networking framework for PHP.
+- event-driven
+- full asynchronous non-blocking
+- multi-thread reactor
+- multi-process worker
+- millisecond timer
+- async MySQL
+- async task
+- async read/write file system
+- async dns lookup
+- support IPv4/IPv6/UnixSocket/TCP/UDP
+- SSL/TLS encrypted transmission</d>
+ <da>2016-01-27 07:33:10</da>
+ <n>- Fixed swoole_process::signal core dump on PHP7
+- Refactor after/tick timer
+- Refactor swoole_websocket_server
+- Added async redis client
+- Added async http/websocket client
+- Added swoole_client-&gt;reuse property
+- Added swoole_server-&gt;defer/swoole_event_defer
+- Added support for multi-port hybrid protocol
+- Added configure option for tcmalloc and jemalloc
+- Remove swoole_server-&gt;addtimer/swoole_timer_add/swoole_timer_del
+- Remove swoole_server-&gt;onTimer event callback
+- Remove swoole_server-&gt;handler
+- Update lish.h to version-1.9.9</n>
+ <f>491816</f>
+ <g>http://pecl.php.net/get/swoole-1.8.0</g>
+ <x xlink:href="package.1.8.0.xml"/>
+</r>

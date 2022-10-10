@@ -1,0 +1,44 @@
+{
+    "category": "Networking",
+    "deprecated": false,
+    "description": "NIS (formerly called Yellow Pages) allows network management \nof important administrative files (e.g. the password file).",
+    "latestReleaseDate": "2014-05-12T06:04:55+00:00",
+    "latestVersion": "1.0.1",
+    "license": "PHP 3.01",
+    "name": "yp",
+    "php8Mentioned": false,
+    "releases": {
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "stable",
+            "license": "PHP 3.01",
+            "releasedBy": "gasolwu",
+            "releaseDate": "2014-05-12T06:04:55+00:00",
+            "releaseNotes": "1.0.1 release\n\n- trivial update to fix wrong version dispaly in php_info page [gasolwu]",
+            "get": "http://pecl.php.net/get/yp-1.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable",
+            "license": "PHP 3.01",
+            "releasedBy": "gasolwu",
+            "releaseDate": "2014-05-11T09:55:51+00:00",
+            "releaseNotes": "Initial stable release\n\n - Fix build with modern PHP including PHP 5.3, 5.4 and 5.5 [gasolwu]\n - Build testing environment with vagrants [gasolwu]\n - Add tests for all public functions [gasolwu]\n - Fix bugs #59537 [gasolwu]\n - Correct constant value of YPERR_ACCESS [gasolwu]",
+            "get": "http://pecl.php.net/get/yp-1.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.0RC1": {
+            "version": "1.0.0RC1",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "gasolwu",
+            "releaseDate": "2014-02-21T23:43:45+00:00",
+            "releaseNotes": "Initial beta release\n\n - Fix build with modern PHP including PHP 5.3, 5.4 and 5.5 [gasolwu]\n - Build testing environment with vagrants [gasolwu]\n - Add tests for all public funcctions [gasolwu]",
+            "get": "http://pecl.php.net/get/yp-1.0.0RC1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "YP/NIS functions",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

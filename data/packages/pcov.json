@@ -1,0 +1,144 @@
+{
+    "category": "PHP",
+    "deprecated": false,
+    "description": "A self contained php-code-coverage compatible driver for PHP.",
+    "latestReleaseDate": "2021-12-20T17:02:57+00:00",
+    "latestVersion": "1.0.11",
+    "license": "PHP License",
+    "name": "pcov",
+    "php8Mentioned": true,
+    "releases": {
+        "1.0.11": {
+            "version": "1.0.11",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2021-12-20T17:02:57+00:00",
+            "releaseNotes": "- Fix anonymous function coverage",
+            "get": "https://pecl.php.net/get/pcov-1.0.11",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.10": {
+            "version": "1.0.10",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2021-11-24T09:08:56+00:00",
+            "releaseNotes": "- Use zend_new_interned_string instead of hand-rolling\n- Use ZEND_MOD_END to fix build warning",
+            "get": "https://pecl.php.net/get/pcov-1.0.10",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.9": {
+            "version": "1.0.9",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2021-06-07T10:58:00+00:00",
+            "releaseNotes": "- Fix #67 huge memory consumption to generate coverage",
+            "get": "https://pecl.php.net/get/pcov-1.0.9",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.8": {
+            "version": "1.0.8",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2021-03-22T06:54:18+00:00",
+            "releaseNotes": "- Fix Windows build",
+            "get": "https://pecl.php.net/get/pcov-1.0.8",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.7": {
+            "version": "1.0.7",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2021-03-19T08:00:53+00:00",
+            "releaseNotes": "- Fix #46 Segmentation fault on 7.4 on macOS with anonymous class\n- Fix #59 \"malloc_consolidate(): invalid chunk size\" with PHP 8.1",
+            "get": "https://pecl.php.net/get/pcov-1.0.7",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.6": {
+            "version": "1.0.6",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2019-06-13T08:53:35+00:00",
+            "releaseNotes": "- Fix for 7.4.0alpha1",
+            "get": "https://pecl.php.net/get/pcov-1.0.6",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.5": {
+            "version": "1.0.5",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2019-06-11T06:18:42+00:00",
+            "releaseNotes": "- Fix #19 fault in 7.2 caused by modification of filename pointer",
+            "get": "https://pecl.php.net/get/pcov-1.0.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.4": {
+            "version": "1.0.4",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2019-06-03T04:50:29+00:00",
+            "releaseNotes": "- Fix #17 Lines not covered when more tests are run\n- Improve perf of clear routine\n- Merge upstream cfg updates (switch block change)\n- Omit ignored opcodes from internal coverage data completely (doesn't effect users, except less memory used)",
+            "get": "https://pecl.php.net/get/pcov-1.0.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.3": {
+            "version": "1.0.3",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2019-05-06T05:11:01+00:00",
+            "releaseNotes": "- Fix #12 issue with faulty line coverage",
+            "get": "https://pecl.php.net/get/pcov-1.0.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.2": {
+            "version": "1.0.2",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2019-03-31T16:26:14+00:00",
+            "releaseNotes": "- Fix #10 second non-cli SAPI request behaves strangely",
+            "get": "https://pecl.php.net/get/pcov-1.0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2019-03-25T07:51:46+00:00",
+            "releaseNotes": "- Release memory from building CFG as early as possible\n- Compat with 7.4/8.0 changes",
+            "get": "https://pecl.php.net/get/pcov-1.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2019-01-30T13:28:26+00:00",
+            "releaseNotes": "- initial pecl release",
+            "get": "https://pecl.php.net/get/pcov-1.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.9.0": {
+            "version": "0.9.0",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2019-01-22T08:46:30+00:00",
+            "releaseNotes": "- initial pecl release",
+            "get": "https://pecl.php.net/get/pcov-0.9.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "Code coverage driver",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

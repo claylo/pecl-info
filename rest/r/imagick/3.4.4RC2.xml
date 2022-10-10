@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/imagick">imagick</p>
+ <c>pecl.php.net</c>
+ <v>3.4.4RC2</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>danack</m>
+ <s>Provides a wrapper to the ImageMagick library.</s>
+ <d>Imagick is a native php extension to create and modify images using the ImageMagick API.
+This extension requires ImageMagick version 6.5.3-10+ and PHP 5.4.0+.</d>
+ <da>2019-04-16 17:00:15</da>
+ <n>- The 3.4.4 release is intended to be the last release (other than small bug fixes) that will support either PHP 5.x, or ImageMagick 6.x. The next planned release will be PHP &gt; 7.0 and ImageMagick &gt; 7.0 at least, if not higher.
+- Added:
+* function Imagick::optimizeImageTransparency()
+* METRIC_STRUCTURAL_SIMILARITY_ERROR
+* METRIC_STRUCTURAL_DISSIMILARITY_ERROR
+* COMPRESSION_ZSTD - https://github.com/facebook/zstd
+* COMPRESSION_WEBP
+* CHANNEL_COMPOSITE_MASK
+* FILTER_CUBIC_SPLINE - &quot;Define the lobes with the -define filter:lobes={2,3,4} (reference https://imagemagick.org/discourse-server/viewtopic.php?f=2&amp;t=32506).&quot;
+* Imagick now explicitly conflicts with the Gmagick extension.
+- Fixes:
+* Bug 77128 - Imagick::setImageInterpolateMethod() not available on Windows
+* Prevent memory leak when ImagickPixel::__construct called after object instantiation.
+* Prevent segfault when ImagickPixel internal constructor not called.
+* Imagick::setResourceLimit support for values larger than 2GB (2^31) on 32bit platforms.
+* Corrected memory overwrite in Imagick::colorDecisionListImage()
+* Bug 77791 - ImagickKernel::fromMatrix() out of bounds write.
+- Deprecated:
+* The following functions have been deprecated:
+ImagickDraw, matte
+Imagick::averageimages
+Imagick::colorfloodfillimage
+Imagick::filter
+Imagick::flattenimages
+Imagick::getimageattribute
+Imagick::getimagechannelextrema
+Imagick::getimageclipmask
+Imagick::getimageextrema
+Imagick::getimageindex
+Imagick::getimagematte
+Imagick::getimagemattecolor
+Imagick::getimagesize
+Imagick::mapimage
+Imagick::mattefloodfillimage
+Imagick::medianfilterimage
+Imagick::mosaicimages
+Imagick::orderedposterizeimage
+Imagick::paintfloodfillimage
+Imagick::paintopaqueimage
+Imagick::painttransparentimage
+Imagick::radialblurimage
+Imagick::recolorimage
+Imagick::reducenoiseimage
+Imagick::roundcornersimage
+Imagick::roundcorners
+Imagick::setimageattribute
+Imagick::setimagebias
+Imagick::setimageclipmask
+Imagick::setimageindex
+Imagick::setimagemattecolor
+Imagick::setimagebiasquantum
+Imagick::setimageopacity
+Imagick::transformimage</n>
+ <f>253351</f>
+ <g>https://pecl.php.net/get/imagick-3.4.4RC2</g>
+ <x xlink:href="package.3.4.4RC2.xml"/>
+</r>

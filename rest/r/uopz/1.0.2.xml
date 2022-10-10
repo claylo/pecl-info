@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/uopz">uopz</p>
+ <c>pecl.php.net</c>
+ <v>1.0.2</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>krakjoe</m>
+ <s>User Operations for Zend</s>
+ <d>Doing things you probably shouldn't since 2014</d>
+ <da>2014-03-24 05:34:38</da>
+ <n>allow compose to take constructor
+apply magic to methods created with uopz_function
+capture class scope for created methods</n>
+ <f>16184</f>
+ <g>http://pecl.php.net/get/uopz-1.0.2</g>
+ <x xlink:href="package.1.0.2.xml"/>
+</r>

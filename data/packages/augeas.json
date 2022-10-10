@@ -1,0 +1,74 @@
+{
+    "category": "Configuration",
+    "deprecated": false,
+    "description": "Augeas is a configuration editing tool. It parses configuration files in their native formats and transforms them into a tree. Configuration changes are made by manipulating this tree and saving it back into native config files. This extension provides PHP bindings to it's API.",
+    "latestReleaseDate": "2010-02-12T07:22:11+00:00",
+    "latestVersion": "0.6.1",
+    "license": "PHP License",
+    "name": "augeas",
+    "php8Mentioned": false,
+    "releases": {
+        "0.6.1": {
+            "version": "0.6.1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "ppadron",
+            "releaseDate": "2010-02-12T07:22:11+00:00",
+            "releaseNotes": "- fixed Apache segfault on 64bit",
+            "get": "http://pecl.php.net/get/augeas-0.6.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.6.0": {
+            "version": "0.6.0",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "ppadron",
+            "releaseDate": "2010-02-01T14:05:28+00:00",
+            "releaseNotes": "- extension is now compatible with PHP 5.3 (removed static from ZEND_ARG_INFO)\n- fixed some compiler warnings",
+            "get": "http://pecl.php.net/get/augeas-0.6.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.5.1": {
+            "version": "0.5.1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "ppadron",
+            "releaseDate": "2010-01-29T14:06:21+00:00",
+            "releaseNotes": "- Added README file",
+            "get": "http://pecl.php.net/get/augeas-0.5.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.5.0": {
+            "version": "0.5.0",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "ppadron",
+            "releaseDate": "2009-12-15T19:47:31+00:00",
+            "releaseNotes": "- Augeas::match() now returns an associative array with nodes => values",
+            "get": "http://pecl.php.net/get/augeas-0.5.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.4.0": {
+            "version": "0.4.0",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "ppadron",
+            "releaseDate": "2009-12-01T13:09:23+00:00",
+            "releaseNotes": "- new method Augeas::mv()\n- added test suite AllTests.php",
+            "get": "http://pecl.php.net/get/augeas-0.4.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.3": {
+            "version": "0.3",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "ppadron",
+            "releaseDate": "2009-11-24T11:55:47+00:00",
+            "releaseNotes": "- private property Augeas::$handle no longer exists\n- resource type is no longer used",
+            "get": "http://pecl.php.net/get/augeas-0.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "PHP bindings to the Augeas API",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

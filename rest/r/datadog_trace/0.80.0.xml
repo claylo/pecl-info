@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.80.0</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>krakjoe</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2022-09-29 06:06:56</da>
+ <n>### Added
+
+### Changed
+-  Make sampling priorities public API again #1742
+
+### Fixed
+- Fix behaviour of return false in trace hooks #1749
+- Handle non-binaries in installer #1743
+- Fix mishandling of payload size limit #1750
+
+### Internal changes
+
+
+## Profiling (v0.10.1)
+
+### Fixed
+- Match the service names of the tracer when unset or empty #1733
+- Avoid crashing when pcntl_fork is called #1745
+
+## Application Security Monitoring (v0.4.3)
+
+### Fixed
+- Return error response in helper when incoming message can't be unpacked DataDog/dd-appsec-php#120 
+- Avoid creating a log file during MINIT/MSHUTDOWN DataDog/dd-appsec-php#124 
+- Handle helper errors gracefully DataDog/dd-appsec-php#127 
+- Reset context on shutdown DataDog/dd-appsec-php#130
+- Handle errors on request shutdown DataDog/dd-appsec-php#132 
+
+### Internal changes
+- Enable CI on all relevant branches DataDog/dd-appsec-php#123</n>
+ <f>389711</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.80.0</g>
+ <x xlink:href="package.0.80.0.xml"/>
+</r>

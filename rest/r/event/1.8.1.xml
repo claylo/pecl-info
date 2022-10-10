@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/event">event</p>
+ <c>pecl.php.net</c>
+ <v>1.8.1</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>osmanov</m>
+ <s>Provides interface to libevent library</s>
+ <d>This is an extension to efficiently schedule I/O, time and signal based
+  events using the best I/O notification mechanism available for specific platform.
+  This is a port of libevent to the PHP infrastructure.
+  
+  Version 1.0.0 introduces:
+  * new OO API breaking backwards compatibility
+  * support of libevent 2+ including HTTP, DNS, OpenSSL and the event listener.
+
+  Note, event-1.0.0 and greater is not compatible with previous versions.</d>
+ <da>2013-10-07 03:21:53</da>
+ <n>Fix: Bug #65847 Issue with old libevent2 where evhttp_connection_get_bufferevent function was not available with libevent version &lt; 2.0.17 (thanks to Remi &lt;remi@php.net&gt;)</n>
+ <f>71747</f>
+ <g>http://pecl.php.net/get/event-1.8.1</g>
+ <x xlink:href="package.1.8.1.xml"/>
+</r>

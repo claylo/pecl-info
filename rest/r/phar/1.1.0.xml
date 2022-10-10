@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/phar">phar</p>
+ <c>pecl.php.net</c>
+ <v>1.1.0</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>helly</m>
+ <s>allows running of complete applications out of .phar files (like Java .jar files)</s>
+ <d>This is the extension version of PEAR's PHP_Archive package. Support for
+zlib, bz2 and crc32 is achieved without any dependency other than the external
+zlib or bz2 extension.
+
+.phar files can be read using the phar stream, or with the Phar class.  If the SPL extension
+is available, a Phar object can be used as an array to iterate over a phar's contents
+or to read files directly from the phar.
+
+Phar archives can be created using the streams API or with the Phar class, if
+the phar.readonly ini variable is set to false.
+
+Full support for MD5 and SHA1 signatures is possible. Signatures can be required 
+if the ini variable phar.require_hash is set to true. When PECL extension hash is
+avaiable then SHA-256 and SHA-512 signatures are supported as well.</d>
+ <da>2007-04-12 17:07:39</da>
+ <n>* implement ability connect a phar file 'phar://whatever' to a directory. That way all
+  access to that phar archive are directed to the extracted directory. This
+  allows to have the installed files and the archieve keep the same includes.
+  [Marcus]
+* implement SHA-2 (256, 512) support [Marcus]
+* implement setSignatureAlgorithm() and Phar::MD5 Phar::SHA1 Phar::SHA256 Phar::SHA512 Phar::PGP to
+  choose the kind of signature to use (PGP falls back to SHA1) [Greg]</n>
+ <f>54851</f>
+ <g>http://pecl.php.net/get/phar-1.1.0</g>
+ <x xlink:href="package.1.1.0.xml"/>
+</r>

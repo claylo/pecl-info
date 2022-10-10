@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/solr">solr</p>
+ <c>pecl.php.net</c>
+ <v>2.4.0</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>omars</m>
+ <s>The Apache Solr PHP extension is an extremely fast, light-weight, feature-rich library that allows PHP applications to communicate easily and efficiently with Apache Solr server instances using an object-oriented API.</s>
+ <d>It effectively simplifies the process of interacting with Apache Solr using PHP5 and it already comes with built-in readiness for the latest features. 
+
+The extension has features such as built-in, serializable query string builder objects which effectively simplifies the manipulation of name-value pair request parameters across repeated requests. 
+The response from the Solr server is also automatically parsed into native php objects whose properties can be accessed as array keys or object properties without any additional configuration on the client-side. 
+
+Its advanced HTTP client reuses the same connection across multiple requests and provides built-in support for connecting to Solr servers secured behind HTTP Authentication or HTTP proxy servers. It is also able to connect to SSL-enabled containers. 
+
+Please consult the documentation for more details on features. Included in the source code are phpdoc stubs that enable autocomplete of Solr classes and methods in IDE during development in userland.
+
+PECL Solr 2+ is only compatible with Apache Solr Server 4.0+</d>
+ <da>2016-03-30 13:44:57</da>
+ <n>- PHP 7 Support [Request #70696]
+- Performance Optimizations
+- Enabled SolrUtils::getSolrStats()
+- Fix SolrException*::getInternalInfo
+- Fix SolrQueryResponse::getRequestUrl returns wrong url with terms [Bug #71591]
+- Fix SolrClient::deleteByIds Segfaults with invalid ids [Bug #71853]
+- Fix SolrObject::offsetExists SegFault [Bug #71852]
+- Fix float formatting with decimal comma [Bug #71568]</n>
+ <f>256316</f>
+ <g>http://pecl.php.net/get/solr-2.4.0</g>
+ <x xlink:href="package.2.4.0.xml"/>
+</r>

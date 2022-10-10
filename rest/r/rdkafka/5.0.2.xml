@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/rdkafka">rdkafka</p>
+ <c>pecl.php.net</c>
+ <v>5.0.2</v>
+ <st>stable</st>
+ <l>MIT License</l>
+ <m>lbarnaud</m>
+ <s>Kafka client based on librdkafka</s>
+ <d>PHP-rdkafka is a stable Kafka client for PHP based on librdkafka</d>
+ <da>2021-11-27 11:30:59</da>
+ <n>## Bugfixes
+- Fix arginfo on getMetadata(), queryWatermarkOffsets() (#494)</n>
+ <f>43347</f>
+ <g>https://pecl.php.net/get/rdkafka-5.0.2</g>
+ <x xlink:href="package.5.0.2.xml"/>
+</r>

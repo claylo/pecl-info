@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/sqlite3">sqlite3</p>
+ <c>pecl.php.net</c>
+ <v>0.4</v>
+ <st>alpha</st>
+ <l>PHP License</l>
+ <m>scottmac</m>
+ <s>SQLite v3 Database Bindings.</s>
+ <d>SQLite3 is a PHP extension for use with the SQLite database system.
+	This extension bundles SQLite 3.5.6 though the minimum requirement is 3.3.9.</d>
+ <da>2008-02-29 19:45:08</da>
+ <n>- Upgraded bundled SQLite to 3.5.6
+- Added Fulltext Searching by default
+- Fixed crash when a prepared statement failed
+- Fixed overflow with 64bit numbers
+- Fixed building with thread safety enabled</n>
+ <f>742884</f>
+ <g>http://pecl.php.net/get/sqlite3-0.4</g>
+ <x xlink:href="package.0.4.xml"/>
+</r>

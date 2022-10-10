@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>1.6.11</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>PHP's asynchronous concurrent distributed networking framework</s>
+ <d>PHP's asynchronous concurrent distributed networking framework.
+- Event-driven
+- Full asynchronous non-blocking
+- Multi-Thread or Multi-Process
+- Millisecond timer
+- Asynchronous MySQL
+- AsyncTask workers</d>
+ <da>2014-02-26 23:14:25</da>
+ <n>- Disable by default async_mysql
+- Disable by default sockets
+- Added event onWorkerError
+- Added event onWorkerStart for task_worker
+- swoole_server-&gt;task can assign worker_id
+- swoole_server-&gt;set() save params to swoole_server::$setting
+- swoole_client-&gt;send will check data length
+- swoole_server-&gt;connection_info for udp</n>
+ <f>99403</f>
+ <g>http://pecl.php.net/get/swoole-1.6.11</g>
+ <x xlink:href="package.1.6.11.xml"/>
+</r>

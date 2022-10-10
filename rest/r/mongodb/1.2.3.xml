@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.2.3</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>jmikola</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundemental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2017-01-17 18:36:12</da>
+ <n>** Bug
+    * [PHPC-855] - Assertion failure in stream_not_found() after failed getmore operation
+    * [PHPC-856] - Build errors using bundled libbson and system libmongoc
+    * [PHPC-872] - Do not use system crypto policy for OpenSSL on Windows
+    * [PHPC-878] - php_json_serializable_ce missing in PHP versions before 5.5.10 and 5.4.26
+    * [PHPC-879] - php_date_get_immutable_ce missing in PHP versions before 5.6.8 and 5.5.24
+    * [PHPC-881] - Windows CA stores should be opened with read-only flag
+    * [PHPC-883] - BSON array keys should be disregarded during visitation
+    * [PHPC-884] - Public property with zero-length name ignored during BSON encoding
+    * [PHPC-885] - Alphabetize Regex flags when instantiating from BSON
+    * [PHPC-886] - Always recalculate field name length when encoding BSON
+    * [PHPC-891] - BSON encoding should throw if PHP keys contain null bytes
+
+** Improvement
+    * [PHPC-635] - WriteResult debug handler should return objects
+    * [PHPC-873] - Do not allow mixing bundled and system libbson and libmongoc libraries
+
+** Task
+    * [PHPC-633] - Add lines to phpinfo() output regarding support for SSL and SASL
+    * [PHPC-714] - Implement BSON corpus test suite
+    * [PHPC-890] - Add license header to source files</n>
+ <f>708270</f>
+ <g>http://pecl.php.net/get/mongodb-1.2.3</g>
+ <x xlink:href="package.1.2.3.xml"/>
+</r>

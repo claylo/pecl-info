@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.14.1</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>jmikola</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2022-09-09 23:16:28</da>
+ <n>** Bug
+    * [PHPC-2131] - Ensure CRYPT_SHARED_LIB_PATH is exported for Evergreen tests
+
+** Task
+    * [PHPC-2135] - Test with consistent versions of crypt_shared and server
+    * [PHPC-2137] - Upgrade libmongoc to 1.22.1 and libmongocrypt to 1.5.2</n>
+ <f>1711789</f>
+ <g>https://pecl.php.net/get/mongodb-1.14.1</g>
+ <x xlink:href="package.1.14.1.xml"/>
+</r>

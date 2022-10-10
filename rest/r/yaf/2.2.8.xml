@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/yaf">yaf</p>
+ <c>pecl.php.net</c>
+ <v>2.2.8</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>laruence</m>
+ <s>PHP Framework in PHP extension</s>
+ <d>Yaf is a PHP framework similar to zend framework, which is written in c and built as PHP extension</d>
+ <da>2012-12-18 00:32:02</da>
+ <n>- Fixed bug that partial module name taken</n>
+ <f>94695</f>
+ <g>http://pecl.php.net/get/yaf-2.2.8</g>
+ <x xlink:href="package.2.2.8.xml"/>
+</r>

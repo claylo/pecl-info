@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/apd">apd</p>
+ <c>pecl.php.net</c>
+ <v>0.3</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>gschlossnagle</m>
+ <s>Allows inline inclusion of function definitions in C</s>
+ <d>APD is a fully feature profiler/debugger that is loaded as a zend_extension.  It aims to be an analog of C's gprof or Perl's Devel::DProf.
+</d>
+ <da>2002-10-17 05:36:00</da>
+ <n>Complete rewrite of internal to use the zend_execute function
+pointer instead of the engine hooks for tracing.</n>
+ <f>36796</f>
+ <g>http://pecl.php.net/get/apd-0.3</g>
+ <x xlink:href="package.0.3.xml"/>
+</r>

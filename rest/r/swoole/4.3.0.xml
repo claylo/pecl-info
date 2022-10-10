@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.3.0</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in http/websocket/http2 server
+        - coroutine http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2019-03-06 02:57:08</da>
+ <n>New Features
+---
++ `Co::getContext` to get the coroutine context object ([RFC-1018](https://github.com/swoole/rfc-chinese/issues/45)) (@twose)
++ `Co::getPcid` to get the parent coroutine ID ([RFC-1017](https://github.com/swoole/rfc-chinese/issues/41)) (@twose)
++ `Co::exists` to know if a coroutine exists (@twose)
++ Runtime Coroutine Hook supports `stream_select` (#2358) (@matyhtf)
++ `max_wait_time` configuration support in BASE mode (#2282) (@shiguangqi)
++ Support for one-way delivery tasks in the `Master/Manager/User` process ([RFC-1015](https://github.com/swoole/rfc-chinese/issues/38)) (@matyhtf)
++ `Co\Socket` has two new APIs `recvAll` and `sendAll` to ensure complete receive/send data until completion or error (3700cbb) (@twose)
++ `Process` supports the coroutine mode, please refer to ([Use Coroutine in Process](https://wiki.swoole.com/wiki/page/p-process_coro.html))
++ `Process-&gt;exportSocket` to export `Co\Socket` object (91d3621) (@matyhtf)
++ Added `Server-&gt;getCallback` method to get the callback function of the specified name of the Server (@matyhtf)
+
+Enhancement
+---
+* The default max number of connections is 100K (instead of 10K) now. If the system configuration is less than this number, use the system configuration first (3d2e387) (@twose)
+* Optimize the code for the `Timer` module, which now runs faster and accepts any number of arguments (#2347) (@twose)
+* `Co::stats` will show more information such as the number of events, the number of registered signals, the number of AIO tasks, etc. (@matyhtf)
+* `Co::getBackTrace` with no params is equivalent to `debug_backtrace` (@twose)
+* `Co::listCoroutines` is renamed to `Co::list`, but the original name is still reserved as an alias (Backward compatibility) (@twose)
+* `Table::exist`, `Server::exist` are renamed to `exists`, but the original name is still reserved as aliases (Backward compatibility) (@twose)
+* Redis will automatically authenticate and select the corresponding database when it is automatically reconnected. Add API: `getOptions`, `getAuth`, `getDBNum` (#2303) (fdac8a3) (@windrunner414 &amp; @twose)
+* The default Socket buffer size on FreeBSD should be 2M (750a29c) (@twose)
+* `Server-&gt;stats` will show `worker_dispatch_count` which can get the number of requests submitted by the master to the current process. The number of requests in the queue can be got by `worker_dispatch_count - worker_request_count` (a353808) (@matyhtf)
+* Remove `Nghttp2` dependencies, no longer need to install it, configuring compilation parameters to open
+* Coroutines now have no max nesting level limitation (there are no real  nesting relations between coroutines) (5458cbc) (@twose)
+* When the coroutine reaches the max limitation, the HTTP server will return a 503 error indicating that the service is temporarily unavailable (ebd377f) (@twose)
+* `defer` will now accept a parameter whose value is the return value at the end of the coroutine ([example](https://github.com/swoole/swoole-src/commit/ef978b3b432615b0f392958145d999f4e66584eb)) (@twose)
+
+Fixed
+---
+* Fixed error when the task method passed a null argument (#2366) (@twose)
+* Fixed Http client send big data incomplete (#2360) (@twose)
+* Fixed the bug that unprocessed data in the buffer was lost when the TCP client used the eof protocol (a59ae39) (@twose)
+* Fixed async security of Server Reload (022f859) (@matyhtf)
+* Fixed the index value of the connection iterator (b066146) (@twose)
+* Fixed the bug that Set-Cookie special characters are too long to be outputed (#2368) (@mabu233 &amp; @twose)
+* Fixed the bug that Http client did not decode the cookie (duplicated encode when sent) (069ca5d) (@twose)
+* Fixed Http client download with timeout lead to coredump (#2377) (@matyhtf &amp; @twose)
+* Fixed `__call` and  `call_user_func*` lead to coredump when calling MySQL client method (#2387) (@matyhtf)
+* Fixed coredump when Http2 client header name passed in a number (#2375) (@mabu233)
+* Fixed `Swoole\Event::dispatch` behavior not as expected (#2390) (@matyhtf)
+* Fixed `Socks5` proxy handshake failed (94ef96c) (@twose)
+* Fixed a memory read error caused by a connection failure in a low-version Linux kernel (5adf625) (@matyhtf &amp; @twose)
+* Fixed the bug that the server used the timer in the BASE single-process mode not work (82eca13) (@twose)
+* Fixed compilation failure due to unstable ZendAPI in low-version (768b8a7) (@shiguangqi)
+* Fixed `EINVAL` when calling `sendto` (#2395) (@junwei)
+
+Unsupported
+---
+- Create server or customs process after using async file IO are not allowed
+- Create server or customs process in coroutine are not allowed
+
+Removed
+---
+- `Websocket\Server-&gt;exists` only shows if the connection exists. Please use the `isEstablished` method to get if it is a Websocket client.
+- Remove the `swoole.fast_serialize` configuration item
+- Removed the PHP Warning when the `Co\Client` method return failed
+- Remove the `Server-&gt;gzip` method
+- Remove `PicoHttpParser` support
+
+Remove async modules
+---
+Remove all async modules, separate asynchronous extensions to [async-ext](https://github.com/swoole/async-ext):
+
+- Async functions
+- MySQL
+- Redis
+- Http\Client
+- Memory\Pool
+- MsgQueue
+- RingQueue</n>
+ <f>1307078</f>
+ <g>https://pecl.php.net/get/swoole-4.3.0</g>
+ <x xlink:href="package.4.3.0.xml"/>
+</r>

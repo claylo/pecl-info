@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/apcu">apcu</p>
+ <c>pecl.php.net</c>
+ <v>4.0.3</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>krakjoe</m>
+ <s>APCu - APC User Cache</s>
+ <d>APC User Caching</d>
+ <da>2014-01-27 04:35:58</da>
+ <n>- Fix various compatibility problems
+- Fix a few lingering faults
+- Remove experimental eval serializer
+- Fix iterator for compatibility</n>
+ <f>119681</f>
+ <g>http://pecl.php.net/get/apcu-4.0.3</g>
+ <x xlink:href="package.4.0.3.xml"/>
+</r>

@@ -1,0 +1,24 @@
+{
+    "category": "Payment",
+    "deprecated": false,
+    "description": "This extension gives you the possibility to use the SPPLUS Paiement System of the Caisse d'Epargne (French Bank).",
+    "latestReleaseDate": "2002-11-09T17:39:00+00:00",
+    "latestVersion": "1.0",
+    "license": "LGPL",
+    "name": "spplus",
+    "php8Mentioned": false,
+    "releases": {
+        "1.0": {
+            "version": "1.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "nicos",
+            "releaseDate": "2002-11-09T17:39:00+00:00",
+            "releaseNotes": "Updated alpha release that includes a number of improvements over the existing alpha preview.  PEAR (PECL) support is now working, too.",
+            "get": "http://pecl.php.net/get/spplus-1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "SPPLUS Paiement System",
+    "SPDX-License-Identifier": "PHP-3.0"
+}

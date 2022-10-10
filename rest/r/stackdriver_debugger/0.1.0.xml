@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/stackdriver_debugger">stackdriver_debugger</p>
+ <c>pecl.php.net</c>
+ <v>0.1.0</v>
+ <st>alpha</st>
+ <l>Apache 2.0</l>
+ <m>chingor</m>
+ <s>Investigate your code's behavior in production</s>
+ <d>Stackdriver Debugger is a free, open-source way to debug your running
+ application without requiring a redeployment.
+
+ This library allows you to set breakpoints in your running application that
+ conditionally capture local variable state, stack traces, and more. This library
+ can work in conjunction with the PHP library google/cloud-debugger (available
+ via composer: https://packagist.org/packages/google/cloud-debugger) in
+ order to send collected data to a backend storage server.</d>
+ <da>2018-01-02 19:21:49</da>
+ <n>First alpha release</n>
+ <f>29040</f>
+ <g>http://pecl.php.net/get/stackdriver_debugger-0.1.0</g>
+ <x xlink:href="package.0.1.0.xml"/>
+</r>

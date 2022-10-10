@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pdo_sqlite">PDO_SQLITE</p>
+ <c>pecl.php.net</c>
+ <v>1.0RC2</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>wez</m>
+ <s>SQLite v3 Interface driver for PDO</s>
+ <d>This extension provides an SQLite v3 driver for PDO.
+SQLite V3 is NOT compatible with the bundled SQLite 2 in PHP 5, but is a significant
+step forwards, featuring complete utf-8 support, native support for blobs,
+native support for prepared statements with bound parameters and improved
+concurrency.
+ 
+</d>
+ <da>2005-11-01 22:15:37</da>
+ <n>You need to install the PDO core module before you can make use of this one.
+This package includes a bundled SQLite 3 library.
+
+Windows binary:
+http://pecl4win.php.net/ext.php/php_pdo_sqlite.dll
+
+- Fixed PECL Bug #5633; build issues
+- Added sqliteCreateFunction() and sqliteCreateAggregate()
+- Fixed PECL Bug #3452; problem when first row of a result set contains a NULL value.
+- Upgraded bundled sqlite to 3.1.3
+- setting PDO_ATTR_TIMEOUT controls the busy timeout
+- Fixed PECL Bug #3391; cannot bind NULL parameters	
+- Fixed build problem when building the bundled sqlite library</n>
+ <f>867031</f>
+ <g>http://pecl.php.net/get/PDO_SQLITE-1.0RC2</g>
+ <x xlink:href="package.1.0RC2.xml"/>
+</r>

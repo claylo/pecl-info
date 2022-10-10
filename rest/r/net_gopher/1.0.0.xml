@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/net_gopher">Net_Gopher</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>pollita</m>
+ <s>fopen wrapper for the gopher protocol</s>
+ <d>fopen wrapper for retreiving documents via the gopher protocol.
+Includes additional function for parsing gopher directory entries.</d>
+ <da>2005-02-28 21:09:29</da>
+ <n>Promote to stable</n>
+ <f>3696</f>
+ <g>http://pecl.php.net/get/Net_Gopher-1.0.0</g>
+ <x xlink:href="package.1.0.0.xml"/>
+</r>

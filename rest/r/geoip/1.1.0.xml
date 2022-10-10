@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/geoip">geoip</p>
+ <c>pecl.php.net</c>
+ <v>1.1.0</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>ohill</m>
+ <s>Map IP address to geographic places</s>
+ <d>This PHP extension allows you to find the location of an IP address - City, State, Country, Longitude, Latitude, and other information as all, such as ISP and connection type. For more info, please visit Maxmind's website.</d>
+ <da>2014-05-01 13:46:35</da>
+ <n>* Add geoip_setup_custom_directory() to setup custom directories per request.
+* Remove E_NOTICES for IPs not found in database.
+* Fix a segfault with geoip_db_get_all_info() on newer libs (bug #64692).
+* Add support for geoip_netspeedcell_by_name(), geoip_asnum_by_name() and geoip_domain_by_name() (bug #67121).
+* Fix memory leak with custom directories (bug #67138).
+* Support changing custom directory via ini_set() (bug #61607).</n>
+ <f>12714</f>
+ <g>http://pecl.php.net/get/geoip-1.1.0</g>
+ <x xlink:href="package.1.1.0.xml"/>
+</r>

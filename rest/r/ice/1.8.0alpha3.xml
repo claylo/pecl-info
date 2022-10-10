@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ice">ice</p>
+ <c>pecl.php.net</c>
+ <v>1.8.0alpha3</v>
+ <st>alpha</st>
+ <l>BSD-3-Clause</l>
+ <m>mruz</m>
+ <s>Simple and fast PHP framework</s>
+ <d>Ice is a PHP framework frozen in C extension.</d>
+ <da>2021-02-16 07:39:38</da>
+ <n>- Pecl, add build directories fix #271
+- Di, resolve default services in cli fix #295
+- Loader, register namespaces in the constructor fix #294</n>
+ <f>352325</f>
+ <g>https://pecl.php.net/get/ice-1.8.0alpha3</g>
+ <x xlink:href="package.1.8.0alpha3.xml"/>
+</r>

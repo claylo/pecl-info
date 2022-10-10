@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/parle">parle</p>
+ <c>pecl.php.net</c>
+ <v>0.6.3</v>
+ <st>alpha</st>
+ <l>BSD 2-clause</l>
+ <m>ab</m>
+ <s>Parsing and lexing</s>
+ <d>With Parle, it is possible to implement lexing and parsing in PHP while relying on features and principles of the parser/lexer generator tools for C/C++.</d>
+ <da>2017-09-22 19:30:32</da>
+ <n>- Turned Stack method top into property
+- Internal refactoring</n>
+ <f>105528</f>
+ <g>http://pecl.php.net/get/parle-0.6.3</g>
+ <x xlink:href="package.0.6.3.xml"/>
+</r>

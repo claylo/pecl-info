@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.5.2</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in tcp/http/websocket/http2 server
+        - coroutine tcp/http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2020-05-31 09:12:39</da>
+ <n>Enhancement
+---
++ Support `Server-&gt;set(['log_rotation' =&gt; SWOOLE_LOG_ROTATION_DAILY])` to generate log file by date (#3311) (@matyhtf)
++ Support `swoole_async_set(['wait_signal' =&gt; true])`, reactor will not exit if there is signal listener (#3314) (@matyhtf)
++ Support `Server-&gt;sendfile` to send empty file (#3318) (@twose)
++ Improve worker idle warning (#3328) (@huanghantao)
++ Improve configuration parser about Host (for HTTPS proxy) (#3343) (@twose)
++ SSL use ecdh auto (#3316) (@matyhtf)
++ SSL quiet shutdown when client close (#3342) (@huanghantao)
+
+Fixed
+---
+* Fixed `Server-&gt;taskWait` on OSX (#3330) (@matyhtf)
+* Fixed MQTT protocol bug (8dbf506b) (@guoxinhua) (2ae8eb32) (@twose)
+* Fixed Content-Length int overflow (#3346) (@twose)
+* Fixed packet length checker of PRI (#3348) (@twose)
+* Fixed CURLOPT_POSTFIELDS (swoole/library@ed192f64) (@twose)
+* Fixed the latest connection can not be released before accept new one (swoole/library@1ef79339) (@twose)
+
+Kernel
+---
+* Socket zero copy feature (#3327) (@twose)
+* Use swoole_get_last_error/swoole_set_last_error to replace global vars (e25f262a) (@matyhtf) (#3315) (@huanghantao)</n>
+ <f>1496045</f>
+ <g>https://pecl.php.net/get/swoole-4.5.2</g>
+ <x xlink:href="package.4.5.2.xml"/>
+</r>

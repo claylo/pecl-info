@@ -1,0 +1,44 @@
+{
+    "category": "PHP",
+    "deprecated": false,
+    "description": "A sandbox is an isolated environment (a thread in our case); Things may go\nvery badly wrong in the sandbox environment and not effect the environment\nthat created it. This means that we must try very hard to limit the\ninfluence each environment has on the other. So the prototype and\ninstructions of entry point \"Closures\" are verified to ensure they will not\nreduce or break isolation.\n\nIn practice this means entry point closures must not:\n\n* accept or return by reference\n* accept or return objects\n* execute a limited set of instructions\n\nInstructions prohibited directly in the sandbox are:\n\n* declare (anonymous) function\n* declare (anonymous) class\n* lexical scope access\n* yield\n\nNo instructions are prohibited in the files which the sandbox may include,\nbut allowing these instructions directly in the code which the sandbox\nexecutes at entry would break the isolation of the sandbox such that we\ncouldn't be sure the system would remain stable.\n\nWith these restrictions in place, we can be sure that a sandbox may do\nanything up to but excluding making PHP segfault, and not effect the\nenvironment that created it.",
+    "latestReleaseDate": "2019-09-18T12:36:23+00:00",
+    "latestVersion": "0.1.3",
+    "license": "PHP License",
+    "name": "sandbox",
+    "php8Mentioned": false,
+    "releases": {
+        "0.1.3": {
+            "version": "0.1.3",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2019-09-18T12:36:23+00:00",
+            "releaseNotes": "- Fix compatibility with 7.4.0RC1",
+            "get": "https://pecl.php.net/get/sandbox-0.1.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.2": {
+            "version": "0.1.2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2019-06-14T10:02:02+00:00",
+            "releaseNotes": "- Fix compatibility with 7.4.0alpha1\n- Display extension version in phpinfo",
+            "get": "https://pecl.php.net/get/sandbox-0.1.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.1": {
+            "version": "0.1.1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2019-01-16T13:27:19+00:00",
+            "releaseNotes": "- initial pecl release",
+            "get": "https://pecl.php.net/get/sandbox-0.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "Isolated environment",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

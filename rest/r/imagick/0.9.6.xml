@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/imagick">imagick</p>
+ <c>pecl.php.net</c>
+ <v>0.9.6</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>chregu</m>
+ <s>Provides a wrapper to the ImageMagick Library.</s>
+ <d>It's a native php-extension. 
+        See the examples in the examples/ directory for some hints on how to use it.
+        A compiled windows extension is available at http://php.chregu.tv/php_imagick.dll for the time being.
+</d>
+ <da>2003-04-11 16:08:00</da>
+ <n>- functions added:
+	imagick_getcolorspace()
+	imagick_error()
+- added a new example called transparent_1x1.html and some explanatory text.
+  I can think of many uses for this code.
+- thanks to James Huston (hustonjs@itadevelopment.com) for suggesting
+  imagick_getcolorspace() and testing it out.
+- added GraphicsMagick (http://www.graphicsmagick.org) support to configure 
+  script (enable it with --with-imagick-gm)
+- imagick_readimage() now returns false if ImageMagick ReadImage() fails.
+- imagick_error() returns 1 string representing any errors that have occurred
+  on an operation.  IT IS LARGELY UNTESTED!  Beware!  However, you can now
+  do things like:
+          $handle = imagick_readimage( &quot;image.jpg&quot; ) or die( imagick_error() ) ;
+- fixed configure script. It honours now values returned by Magick-config.</n>
+ <f>71297</f>
+ <g>http://pecl.php.net/get/imagick-0.9.6</g>
+ <x xlink:href="package.0.9.6.xml"/>
+</r>

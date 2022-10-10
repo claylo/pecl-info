@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/event">event</p>
+ <c>pecl.php.net</c>
+ <v>1.6.0</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>osmanov</m>
+ <s>Provides interface to libevent library</s>
+ <d>This is an extension to efficiently schedule I/O, time and signal based
+  events using the best I/O notification mechanism available for specific platform.
+  This is a port of libevent to the PHP infrastructure.
+  
+  Version 1.0.0 introduces:
+  * new OO API breaking backwards compatibility
+  * support of libevent 2+ including HTTP, DNS, OpenSSL and the event listener.
+
+  Note, event-1.0.0 and greater is not compatible with previous versions.</d>
+ <da>2013-04-02 06:16:01</da>
+ <n>Fix: bug #64551 with build failed on Mac OS X
+Fix: address argument of the listener accept callback contained garbage in case of a client connected via UNIX domain socket
+Add: EventBuffer::write, EventUtil::setSocketOption methods and some constants
+Refact: automatically set the upper bound of EventBuffer::search to the buffer length, if it is greater then the length
+Fix: make the code compatible with PHP 5.5.0 .. 5.6.0-dev
+Fix: build error with zts PHP setup
+Fix: build error with libevent_extra disabled
+Add: EventListener fd readonly property for numeric file descriptor of the socket associated with the listener
+Add: EventBuffer::substr method
+
+INCOMPATIBLE CHANGES!
+Renamed EventBuffer::remove to EventBuffer::read, EventBuffer::read now takes only max_bytes argument and returns string.
+Renamed EventBuffer::removeBuffer to EventBuffer::appendFrom
+EventBuffer::read now takes single argument 'size' and returns the string read</n>
+ <f>65229</f>
+ <g>http://pecl.php.net/get/event-1.6.0</g>
+ <x xlink:href="package.1.6.0.xml"/>
+</r>

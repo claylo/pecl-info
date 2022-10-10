@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/seaslog">SeasLog</p>
+ <c>pecl.php.net</c>
+ <v>1.4.2</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>neeke</m>
+ <s>A effective,fast,stable log extension for PHP.</s>
+ <d>A effective,fast,stable log extension for PHP.
+        - In the PHP project, for convenient record log
+        - The default log directory and module configuration.
+        - Specify the log directory and get the current configuration
+        - Analysis of early warning framework preliminary
+        - Buffer debug efficient log buffer, convenient
+        - With PSR-3 Logger interface</d>
+ <da>2015-09-15 14:29:55</da>
+ <n>- Fixed issue #47 support trace_error and trace_exception switch.
+- Fixed issue #48 Ignore notice or warning, but error automatic logging.</n>
+ <f>67544</f>
+ <g>http://pecl.php.net/get/SeasLog-1.4.2</g>
+ <x xlink:href="package.1.4.2.xml"/>
+</r>

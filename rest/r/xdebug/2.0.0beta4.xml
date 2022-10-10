@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xdebug">xdebug</p>
+ <c>pecl.php.net</c>
+ <v>2.0.0beta4</v>
+ <st>beta</st>
+ <l>BSD style</l>
+ <m>derick</m>
+ <s>Provides functions for function traces and profiling</s>
+ <d>The Xdebug extension helps you debugging your script by providing a lot of
+valuable debug information. The debug information that Xdebug can provide
+includes the following:
+
+    * stack and function traces in error messages with:
+          o full parameter display for user defined functions
+          o function name, file name and line indications
+          o support for member functions
+    * memory allocation
+    * protection for infinite recursions
+
+Xdebug also provides:
+
+    * profiling information for PHP scripts
+    * script execution analysis
+    * capabilities to debug your scripts interactively with a debug client</d>
+ <da>2005-09-24 18:03:07</da>
+ <n>+ Added new features:
+    - Added xdebug_debug_zval_stdout().
+	- Added xdebug_get_profile_filename() function which returns the current
+	  profiler dump file.
+	- Updated for latest 5.1 and 6.0 CVS versions of PHP.
+	- Added FR #148: Option to append to cachegrind files, instead of
+	  overwriting.
+	- Implemented FR #114: Rename tests/*.php to tests/*.inc
+
+- Changed features:
+	- Allow &quot;xdebug.default_enable&quot; to be set everywhere.
+
+= Fixed bugs:
+	- DBGP: Xdebug should return &quot;array&quot; with property get, which is defined
+	  in the typemap to the common type &quot;hash&quot;.
+	- Debugclient: Will now build with an older libedit as found in FreeBSD
+	  4.9.
+	- Fixed bug #142: xdebug crashes with implicit destructor calls.
+	- Fixed bug #136: The &quot;type&quot; attribute is missing from stack_get returns.
+	- Fixed bug #133: PHP scripts exits with 0 on PHP error.
+	- Fixed bug #132: use of eval causes a segmentation fault.</n>
+ <f>228343</f>
+ <g>http://pecl.php.net/get/xdebug-2.0.0beta4</g>
+ <x xlink:href="package.2.0.0beta4.xml"/>
+</r>

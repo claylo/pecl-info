@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.74.0</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>labbati</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2022-05-12 13:12:17</da>
+ <n>## Tracer
+### Added
+- Add configurations for retaining select query string parameters in resources and http.url #1566
+
+### Changed
+- Respect autofinish on flush(), add warnings in debug mode when having unbalanced spans #1564, #1569
+- Loose restrictions around distributed tracing context setting #1571
+
+### Fixed
+- Fix dispatch resetting #1570
+- Fix run_time_cache initialization for closure calls with foreign scope on PHP 7.4-8.1 #1578
+- Eliminate the separate span id stack, fix distributed tracing trace_id #1586
+- Fix handling of INI and ENV changes post minit, pre runtime #1593
+- Fix inconsistent module load and unload sequence #1585
+- Fix installer setting check for extensions #1584
+
+### Internal changes
+- Pin composer on PHP 7 docker containers to version 2.2 #1565
+- Disable flaky test on PHP 5.4 #1583
+- Remove Symfony 4.2 from PHP 7.4 web tests #1587
+- Add the scenario name to the randomized test docker name #1590
+- Fix ownership of files within release artifact tars #1591
+
+## Profiling (v0.6.1)
+### Fixed
+- Bump profiling to v0.6.1 #1588. This re-initializes static variables on startup/minit which may help prevent Apache reload from crashing.
+- Enable profiling installation on PHP 8.1 #1576
+
+## Application Security Monitoring (v0.3.2)
+### Fixed
+- Fix hybrid extension initialisation [#92](https://github.com/DataDog/dd-appsec-php/pull/92)</n>
+ <f>529978</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.74.0</g>
+ <x xlink:href="package.0.74.0.xml"/>
+</r>

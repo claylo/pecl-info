@@ -1,0 +1,54 @@
+{
+    "category": "PHP",
+    "deprecated": false,
+    "description": "Strict scalar parameter type hint support for 5.4+",
+    "latestReleaseDate": "2014-12-08T01:11:54+00:00",
+    "latestVersion": "0.4.1",
+    "license": "PHP License",
+    "name": "strict",
+    "summary": "strict",
+    "php8Mentioned": false,
+    "releases": {
+        "0.4.1": {
+            "version": "0.4.1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "krakjoe",
+            "releaseDate": "2014-12-08T01:11:54+00:00",
+            "releaseNotes": "updates for 7",
+            "get": "http://pecl.php.net/get/strict-0.4.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.4.0": {
+            "version": "0.4.0",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "krakjoe",
+            "releaseDate": "2014-12-01T02:14:01+00:00",
+            "releaseNotes": "add strict_cast function",
+            "get": "http://pecl.php.net/get/strict-0.4.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.3.0": {
+            "version": "0.3.0",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "krakjoe",
+            "releaseDate": "2014-11-19T03:18:51+00:00",
+            "releaseNotes": "fix issue in 5 series",
+            "get": "http://pecl.php.net/get/strict-0.3.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.0": {
+            "version": "0.2.0",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "krakjoe",
+            "releaseDate": "2014-11-18T01:19:06+00:00",
+            "releaseNotes": "initial release",
+            "get": "http://pecl.php.net/get/strict-0.2.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

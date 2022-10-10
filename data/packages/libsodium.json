@@ -1,0 +1,366 @@
+{
+    "category": "Encryption",
+    "deprecated": false,
+    "description": "A simple, low-level PHP extension for libsodium.",
+    "latestReleaseDate": "2020-12-06T17:59:13+00:00",
+    "latestVersion": "2.0.23",
+    "license": "BSD 2-Clause License",
+    "name": "libsodium",
+    "php8Mentioned": true,
+    "releases": {
+        "2.0.23": {
+            "version": "2.0.23",
+            "state": "stable",
+            "license": "BSD 2-Clause License",
+            "releasedBy": "jedisct1",
+            "releaseDate": "2020-12-06T17:59:13+00:00",
+            "releaseNotes": "- PHP 8.0.x compatibility.",
+            "get": "https://pecl.php.net/get/libsodium-2.0.23",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.22": {
+            "version": "2.0.22",
+            "state": "stable",
+            "license": "BSD 2-Clause License",
+            "releasedBy": "jedisct1",
+            "releaseDate": "2019-09-07T08:17:17+00:00",
+            "releaseNotes": "- Security: the sodium_crypto_generichash_init() function used to return a partially uninitialized buffer. This has been fixed. Thanks to @CiPHPerCoder for spotting this.\n- SODIUM_CRYPTO_PWHASH_STRBYTES has been added",
+            "get": "https://pecl.php.net/get/libsodium-2.0.22",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.21": {
+            "version": "2.0.21",
+            "state": "stable",
+            "license": "BSD 2-Clause License",
+            "releasedBy": "jedisct1",
+            "releaseDate": "2019-02-21T13:58:37+00:00",
+            "releaseNotes": "- Detached signature strings were not properly terminated. This has been fixed.",
+            "get": "https://pecl.php.net/get/libsodium-2.0.21",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.20": {
+            "version": "2.0.20",
+            "state": "stable",
+            "license": "BSD 2-Clause License",
+            "releasedBy": "jedisct1",
+            "releaseDate": "2018-12-18T10:29:59+00:00",
+            "releaseNotes": "- Restore compatibility with PHP",
+            "get": "https://pecl.php.net/get/libsodium-2.0.20",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.19": {
+            "version": "2.0.19",
+            "state": "stable",
+            "license": "BSD 2-Clause License",
+            "releasedBy": "jedisct1",
+            "releaseDate": "2018-12-16T09:33:19+00:00",
+            "releaseNotes": "- Restore compatibility with 7.3",
+            "get": "https://pecl.php.net/get/libsodium-2.0.19",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.18": {
+            "version": "2.0.18",
+            "state": "stable",
+            "license": "BSD 2-Clause License",
+            "releasedBy": "jedisct1",
+            "releaseDate": "2018-12-16T09:23:34+00:00",
+            "releaseNotes": "- Restore compatibility with PHP before 7.3",
+            "get": "https://pecl.php.net/get/libsodium-2.0.18",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.17": {
+            "version": "2.0.17",
+            "state": "stable",
+            "license": "BSD 2-Clause License",
+            "releasedBy": "jedisct1",
+            "releaseDate": "2018-12-15T12:44:50+00:00",
+            "releaseNotes": "- PHP 7.3 compatibility.",
+            "get": "https://pecl.php.net/get/libsodium-2.0.17",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.16": {
+            "version": "2.0.16",
+            "state": "stable",
+            "license": "BSD 2-Clause License",
+            "releasedBy": "jedisct1",
+            "releaseDate": "2018-12-14T21:32:52+00:00",
+            "releaseNotes": "- PHP 7.3 compatibility.",
+            "get": "https://pecl.php.net/get/libsodium-2.0.16",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.15": {
+            "version": "2.0.15",
+            "state": "stable"
+        },
+        "2.0.14": {
+            "version": "2.0.14",
+            "state": "stable"
+        },
+        "2.0.13": {
+            "version": "2.0.13",
+            "state": "stable",
+            "license": "BSD 2-Clause License",
+            "releasedBy": "jedisct1",
+            "releaseDate": "2018-10-12T22:17:50+00:00",
+            "releaseNotes": "- Security fix: sodium_pad() used to read extra memory when given an empty string",
+            "get": "http://pecl.php.net/get/libsodium-2.0.13",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.12": {
+            "version": "2.0.12",
+            "state": "stable",
+            "license": "BSD 2-Clause License",
+            "releasedBy": "jedisct1",
+            "releaseDate": "2018-08-29T10:05:33+00:00",
+            "releaseNotes": "- Bug fix: sodium_pad() din't support block sizes over 255 bytes\n- Bug fix: file descriptors were not properly closed when using PHP as an Apache module, and Apache was reloaded",
+            "get": "http://pecl.php.net/get/libsodium-2.0.12",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.11": {
+            "version": "2.0.11",
+            "state": "stable",
+            "license": "BSD 2-Clause License",
+            "releasedBy": "jedisct1",
+            "releaseDate": "2018-04-29T17:05:52+00:00",
+            "releaseNotes": "- Added a workaround for a PHP vulnerability affecting all PHP7 versions up to and including 7.2.5.\n- Bindings for crypto_aead_*_detached() functions have been added.",
+            "get": "http://pecl.php.net/get/libsodium-2.0.11",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.10": {
+            "version": "2.0.10",
+            "state": "stable",
+            "license": "BSD 2-Clause License",
+            "releasedBy": "jedisct1",
+            "releaseDate": "2017-10-26T11:13:54+00:00",
+            "releaseNotes": "No code change. Fixes an installation issue with PECL.",
+            "get": "http://pecl.php.net/get/libsodium-2.0.10",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.9": {
+            "version": "2.0.9",
+            "state": "stable",
+            "license": "BSD 2-Clause License",
+            "releasedBy": "jedisct1",
+            "releaseDate": "2017-10-20T08:19:32+00:00",
+            "releaseNotes": "No code change. This release was made to ensure that the stable channel installs version 2.x.",
+            "get": "http://pecl.php.net/get/libsodium-2.0.9",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.0.7": {
+            "version": "1.0.7",
+            "state": "stable",
+            "license": "BSD 2-Clause License",
+            "releasedBy": "jedisct1",
+            "releaseDate": "2017-10-11T12:15:07+00:00",
+            "releaseNotes": "This is a maintenance release, compatible with libsodium 1.0.15+",
+            "get": "http://pecl.php.net/get/libsodium-1.0.7",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.8": {
+            "version": "2.0.8",
+            "state": "stable",
+            "license": "BSD 2-Clause License",
+            "releasedBy": "jedisct1",
+            "releaseDate": "2017-10-01T15:25:13+00:00",
+            "releaseNotes": "Support for libsodium 1.0.15 was implemented.",
+            "get": "http://pecl.php.net/get/libsodium-2.0.8",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.7": {
+            "version": "2.0.7",
+            "state": "stable",
+            "license": "BSD 2-Clause License",
+            "releasedBy": "jedisct1",
+            "releaseDate": "2017-09-26T20:25:24+00:00",
+            "releaseNotes": "Requires at least php 7.0 and libsodium 1.0.9.",
+            "get": "http://pecl.php.net/get/libsodium-2.0.7",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.6": {
+            "version": "2.0.6",
+            "state": "stable",
+            "license": "BSD 2-Clause License",
+            "releasedBy": "jedisct1",
+            "releaseDate": "2017-09-26T16:12:02+00:00",
+            "releaseNotes": "Requires at least php 7.0 and libsodium 1.0.9.",
+            "get": "http://pecl.php.net/get/libsodium-2.0.6",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.5": {
+            "version": "2.0.5",
+            "state": "stable",
+            "license": "BSD 2-Clause License",
+            "releasedBy": "jedisct1",
+            "releaseDate": "2017-09-26T14:56:29+00:00",
+            "releaseNotes": "Requires at least php 7.0 and libsodium 1.0.9.",
+            "get": "http://pecl.php.net/get/libsodium-2.0.5",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.4": {
+            "version": "2.0.4",
+            "state": "stable",
+            "license": "BSD 2-Clause License",
+            "releasedBy": "jedisct1",
+            "releaseDate": "2017-07-18T13:29:24+00:00",
+            "releaseNotes": "Requires at least php 7.0 and libsodium 1.0.9.",
+            "get": "http://pecl.php.net/get/libsodium-2.0.4",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.3": {
+            "version": "2.0.3",
+            "state": "stable",
+            "license": "BSD 2-Clause License",
+            "releasedBy": "jedisct1",
+            "releaseDate": "2017-07-18T13:10:51+00:00",
+            "releaseNotes": "Requires at least php 7.0 and libsodium 1.0.9.",
+            "get": "http://pecl.php.net/get/libsodium-2.0.3",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.2": {
+            "version": "2.0.2",
+            "state": "stable",
+            "license": "BSD 2-Clause License",
+            "releasedBy": "jedisct1",
+            "releaseDate": "2017-07-16T12:24:37+00:00",
+            "releaseNotes": "Version 2.0.0 couldn't be compiled on old libsodium versions.\n\nThis has been fixed.",
+            "get": "http://pecl.php.net/get/libsodium-2.0.2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.1": {
+            "version": "2.0.1",
+            "state": "stable",
+            "license": "BSD 2-Clause License",
+            "releasedBy": "jedisct1",
+            "releaseDate": "2017-07-15T13:49:24+00:00",
+            "releaseNotes": "Version 2.0.0 couldn't be compiled on old libsodium versions.\n\nThis has been fixed.",
+            "get": "http://pecl.php.net/get/libsodium-2.0.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.0": {
+            "version": "2.0.0",
+            "state": "stable",
+            "license": "BSD 2-Clause License",
+            "releasedBy": "jedisct1",
+            "releaseDate": "2017-07-13T18:22:32+00:00",
+            "releaseNotes": "This is a major release, featuring a new API identical to the one of sodium extension included with PHP 7.2.\n\nFunctions are now in the global namespace, and return exceptions.\n\nNote that PHP 5 is not supported any more.\n\nSupport for the key exchange API (crypto_kx), key derivation (crypto_kdf) and\nfor the xchacha20-poly1305 construction have been added.\n\nMany bugs have been squashed.",
+            "get": "http://pecl.php.net/get/libsodium-2.0.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.0.6": {
+            "version": "1.0.6",
+            "state": "stable",
+            "license": "BSD 2-Clause License",
+            "releasedBy": "jedisct1",
+            "releaseDate": "2016-05-04T21:55:56+00:00",
+            "releaseNotes": "- The PWHASH_MEMLIMIT_{MODERATE,SENSITIVE} constants are correctly defined",
+            "get": "http://pecl.php.net/get/libsodium-1.0.6",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.0.5": {
+            "version": "1.0.5",
+            "state": "stable",
+            "license": "BSD 2-Clause License",
+            "releasedBy": "jedisct1",
+            "releaseDate": "2016-04-08T07:52:39+00:00",
+            "releaseNotes": "- The IETF variant of the ChaCha20-Poly1305 construction has been added",
+            "get": "http://pecl.php.net/get/libsodium-1.0.5",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.0.4": {
+            "version": "1.0.4",
+            "state": "stable",
+            "license": "BSD 2-Clause License",
+            "releasedBy": "jedisct1",
+            "releaseDate": "2016-04-05T08:36:53+00:00",
+            "releaseNotes": "- Fixed compatibility with old libsodium versions",
+            "get": "http://pecl.php.net/get/libsodium-1.0.4",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.0.3": {
+            "version": "1.0.3",
+            "state": "stable",
+            "license": "BSD 2-Clause License",
+            "releasedBy": "jedisct1",
+            "releaseDate": "2016-04-04T20:17:34+00:00",
+            "releaseNotes": "- The Argon2 function is now available for password hashing",
+            "get": "http://pecl.php.net/get/libsodium-1.0.3",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.0.2": {
+            "version": "1.0.2",
+            "state": "stable",
+            "license": "BSD 2-Clause License",
+            "releasedBy": "jedisct1",
+            "releaseDate": "2015-10-27T09:26:10+00:00",
+            "releaseNotes": "- Compatibility with old distros and old versions of libsodium",
+            "get": "http://pecl.php.net/get/libsodium-1.0.2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "stable",
+            "license": "BSD 2-Clause License",
+            "releasedBy": "jedisct1",
+            "releaseDate": "2015-10-24T16:51:44+00:00",
+            "releaseNotes": "- Added crypto_aead_aes256gcm_*()\n- Added crypto_box_seed_keypair()\n- Added crypto_sign_ed25519_sk_to_curve25519() and crypto_sign_ed25519_pk_to_curve25519()\n- Added compare()\n- On PHP7, make memzero() and increment() avoid zeroing an object if it is not a reference or if its reference count is > 1",
+            "get": "http://pecl.php.net/get/libsodium-1.0.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable",
+            "license": "BSD 2-Clause License",
+            "releasedBy": "jedisct1",
+            "releaseDate": "2015-09-03T17:59:59+00:00",
+            "releaseNotes": "- The extension can now be statically compiled.\n- crypto_sign_publickey_from_secretkey(), and crypto_auth() have been added.\n- The extension and its API are now marked stable.",
+            "get": "http://pecl.php.net/get/libsodium-1.0.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.2.1": {
+            "version": "0.2.1",
+            "state": "beta",
+            "license": "BSD 2-Clause License",
+            "releasedBy": "jedisct1",
+            "releaseDate": "2015-07-27T08:38:43+00:00",
+            "releaseNotes": "- Fixed support for old versions of libsodium\n- New helper function: increment()",
+            "get": "http://pecl.php.net/get/libsodium-0.2.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.2.0": {
+            "version": "0.2.0",
+            "state": "beta",
+            "license": "BSD 2-Clause License",
+            "releasedBy": "jedisct1",
+            "releaseDate": "2015-07-26T18:32:46+00:00",
+            "releaseNotes": "- Methods were moved to functions in a \\Sodium\\ namespace.\n- PHP 7 is now fully supported.\n- crypto_aead_chacha20poly1305_decrypt() now returns FALSE instead of a PHP error if verification fails.\n- multi-part hashing was implemented (crypto_generichash_{init|update|final})\n- sealed boxes have been implemented (crypto_seal)",
+            "get": "http://pecl.php.net/get/libsodium-0.2.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.1.3": {
+            "version": "0.1.3",
+            "state": "beta",
+            "license": "BSD 2-Clause License",
+            "releasedBy": "jedisct1",
+            "releaseDate": "2015-04-15T13:57:08+00:00",
+            "releaseNotes": "crypto_scalarmult() has been added.",
+            "get": "http://pecl.php.net/get/libsodium-0.1.3",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.1.2": {
+            "version": "0.1.2",
+            "state": "beta"
+        },
+        "0.1.1": {
+            "version": "0.1.1",
+            "state": "beta",
+            "license": "BSD 2-Clause License",
+            "releasedBy": "jedisct1",
+            "releaseDate": "2014-09-27T16:21:08+00:00",
+            "releaseNotes": "Initial release",
+            "get": "http://pecl.php.net/get/libsodium-0.1.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        }
+    },
+    "summary": "Wrapper for the Sodium cryptographic library",
+    "SPDX-License-Identifier": "BSD-2-Clause"
+}

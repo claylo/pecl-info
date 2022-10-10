@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/rrd">rrd</p>
+ <c>pecl.php.net</c>
+ <v>1.0.5RC1</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>koubel</m>
+ <s>PHP bindings to rrd tool system</s>
+ <d>Procedural and simple OO wrapper for rrdtool - data logging and graphing system for time series data.</d>
+ <da>2011-09-27 04:41:45</da>
+ <n>- config.m4 - lib searching rewritten, better support across architectures #22683
+- RRDUpdater - multiple DS doesnt' work #23579
+- better support for compiling under 5.2.x #22719
+- small manual fixes</n>
+ <f>19675</f>
+ <g>http://pecl.php.net/get/rrd-1.0.5RC1</g>
+ <x xlink:href="package.1.0.5RC1.xml"/>
+</r>

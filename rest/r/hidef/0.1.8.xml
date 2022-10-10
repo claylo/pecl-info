@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/hidef">hidef</p>
+ <c>pecl.php.net</c>
+ <v>0.1.8</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>gopalv</m>
+ <s>Constants for real</s>
+ <d>Allow definition of user defined constants in simple ini files, 
+  which are then processed like internal constants, without any 
+  of the usual performance penalties.</d>
+ <da>2011-05-23 10:15:03</da>
+ <n>- Fix exceptions thrown for FrozenArray set and unset operations
+- add an optional $size byref parameter for FrozenArray-&gt;thaw()</n>
+ <f>17200</f>
+ <g>http://pecl.php.net/get/hidef-0.1.8</g>
+ <x xlink:href="package.0.1.8.xml"/>
+</r>

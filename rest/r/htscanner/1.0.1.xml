@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/htscanner">htscanner</p>
+ <c>pecl.php.net</c>
+ <v>1.0.1</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>martynas</m>
+ <s>htaccess support for PHP</s>
+ <d>Allow one to use htaccess-like file to configure PHP
+per directory, just like apache's htaccess. It is especially useful with fastcgi (ISS5/6/7, lighttpd, etc.).
+This package was originally developed by Bart Vanbrabant. Old versions are available
+ from: http://files.zoeloelip.be/htscanner</d>
+ <da>2012-03-01 10:21:47</da>
+ <n>- Fixed NULL pointer dereference when CLI server does not
+define sapi_module.getenv.
+- #22607, adapted apache module to provide dummy php_flag and
+php_value directives for Apache 2.x API.  See mod_htscanner2.c provided
+with the package
+- #22608, made example in README more explicit with regarding to IfModule
+directive</n>
+ <f>10229</f>
+ <g>http://pecl.php.net/get/htscanner-1.0.1</g>
+ <x xlink:href="package.1.0.1.xml"/>
+</r>

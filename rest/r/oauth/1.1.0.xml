@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/oauth">oauth</p>
+ <c>pecl.php.net</c>
+ <v>1.1.0</v>
+ <st>stable</st>
+ <l>BSD</l>
+ <m>jawed</m>
+ <s>oauth consumer extension</s>
+ <d>OAuth is an authorization protocol built on top of HTTP which allows applications to securely access data without having to store usernames and passwords.
+
+Requirements: ext/hash</d>
+ <da>2011-02-06 12:23:56</da>
+ <n>- Fixed bugs: 17782, 18214, 21426, 22093
+- Added PLAINTEXT signature method support (stas@)
+- Added OAuth::getRequestHeader and OAuth::setSSLChecks (hirokawa@)</n>
+ <f>44731</f>
+ <g>http://pecl.php.net/get/oauth-1.1.0</g>
+ <x xlink:href="package.1.1.0.xml"/>
+</r>

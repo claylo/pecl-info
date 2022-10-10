@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/intl">intl</p>
+ <c>pecl.php.net</c>
+ <v>2.0.1</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>cataphract</m>
+ <s>Internationalization extension</s>
+ <d>Internationalization extension implements ICU library functionality in PHP.</d>
+ <da>2012-07-24 12:14:13</da>
+ <n>- Changed ResourceBundle constructor behavior: null is now accepted for two
+  first (mandatory arguments).
+- Optimization in ext/intl/msgformat: don't transform the string to make it
+  apostrophe friendly in ICU 4.8+.
+- Fixed bug #55610: ResourceBundle not marked Traversable.
+- Fixed bug #59597: NumberFormatter::parse() with TYPE_INT64 results in a 32 bit
+  integer.
+- Fixed bug #60785: memory leak in IntlDateFormatter constructor.
+- Fixed bug #61829: memory leak when calling MessageFormatter's constructor
+  twice.
+- Fixed bug #62017: datefmt_create with incorrectly encoded timezone leaks
+  pattern.
+- Fixed bug #62070: Collator::getSortKey() was returning an unterminated string
+  due the length given to RETURN_STRINGL being off by one.
+- Fixed bug #62081: constructor of IntlDateFormatter would leak if called twice.
+- Fixed bug #62082: buffer overflow in internal function
+  get_icu_disp_value_src_php().
+- Fixed bug #62083: memory leak in grapheme_extract().
+- Fixed bug #62564/#62565: call to object_properties_init() missing.</n>
+ <f>149430</f>
+ <g>http://pecl.php.net/get/intl-2.0.1</g>
+ <x xlink:href="package.2.0.1.xml"/>
+</r>

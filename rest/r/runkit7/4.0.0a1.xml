@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/runkit7">runkit7</p>
+ <c>pecl.php.net</c>
+ <v>4.0.0a1</v>
+ <st>alpha</st>
+ <l>BSD License (3 Clause)</l>
+ <m>tandre</m>
+ <s>Runkit7 : For all those things you.... probably shouldn't have been doing anyway.... but surely do!</s>
+ <d>Replace, rename, and remove user defined functions, methods, and constants.
+Define customized superglobal variables for general purpose use.</d>
+ <da>2020-10-08 03:54:30</da>
+ <n>- Remove `runkit7_import()`. This had known crashes/segfaults in php 7.3+ that have not been straightforward to fix (after multiple attempts)
+  due to changes to PHP's internals and changes to late static binding, and offered an incomplete set of functionality.
+  (e.g. could not override properties)
+
+  This was also not integrated with runkit7's tracking of manipulated methods/functions/properties.
+- Drop support for php 7.1. Security support for php 7.1 from php-src ended in December 2019
+  and runkit7 requires a lot of work to verify that changes or new features work correctly with the internals of php in all PHP versions.
+- Remove disabled code, constants, and ini settings related to the sandbox feature.
+  Runkit7 has never supported sandboxes or runkit_lint due to changes to internals in php7 making it impractical.
+- Remove runkit7_object_id() - PHP 7.2 adds spl_object_id() to do the same thing.
+- Fix build failure in php 8.0-dev - this extension's support for php 8 is still incomplete and experimental.
+- Add parameter default constant names to reflection (php 8 only).</n>
+ <f>100235</f>
+ <g>https://pecl.php.net/get/runkit7-4.0.0a1</g>
+ <x xlink:href="package.4.0.0a1.xml"/>
+</r>

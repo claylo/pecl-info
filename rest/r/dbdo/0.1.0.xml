@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/dbdo">DBDO</p>
+ <c>pecl.php.net</c>
+ <v>0.1.0</v>
+ <st>alpha</st>
+ <l>PHP</l>
+ <m>alan_k</m>
+ <s>Database DataObjects</s>
+ <d>DBDO performs 2 tasks:
+1. Builds SQL statements based on the objects vars and the builder methods.
+2. acts as a datastore for a table row. (ORM)
+The core class is designed to be extended for each of your tables so 
+that you put the data logic inside the data classes.
+
+For the most part, refer to this for documentation
+http://pear.php.net/manual/en/package.database.db-dataobject.php
+and the project home page for any changes in method names.
+ 
+The key differences between DataObjects and DBDO are:
+- PHP5 only
+- query() / with no arguments replaces find()
+- assignFrom replaces setFrom
+- DBDO::factory('dbalias','table') has 2 arguments, first being the db alias
+- Configuration done using static methods.
+  DBDO::config('dbalias', 'provider','Mysql');
+  DBDO::config('dbalias', 'cnc','database=XYZ');
+- Addition of FetchAll
+  $do-&gt;fetchAll(DBDO::SINGLE | DBDO::OBJECTS | DBDO::KEY_VALUE | DBDO::VALUE) 
+- Error handling 
+ * Throws exceptions for database errors / unusual stuff
+ * E_ERROR's and dies if you use it incorrectly (eg. fixable at code level)
+- No support for joins yet.. (On the TODO list) 
+
+Building it Requires libgda (www.gnome-db.org), currently from CVS, which can be a pain.
+
+- Win32 support is theoretically possible, it just requires someone to spend time working
+out how to build libgda (which has windows makefiles) and this library.
+ 
+</d>
+ <da>2005-04-18 23:33:29</da>
+ <n>- Initial Packaged Release
+ 
+At this point, DBDO is working on at least one web site, so it is undergoing
+testing, and needs more people to come up with ideas to improve it, or just 
+find more reproducable bugs..</n>
+ <f>40511</f>
+ <g>http://pecl.php.net/get/DBDO-0.1.0</g>
+ <x xlink:href="package.0.1.0.xml"/>
+</r>

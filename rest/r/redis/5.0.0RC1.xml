@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/redis">redis</p>
+ <c>pecl.php.net</c>
+ <v>5.0.0RC1</v>
+ <st>alpha</st>
+ <l>PHP</l>
+ <m>yatsukhnenko</m>
+ <s>PHP extension for interfacing with Redis</s>
+ <d>This extension provides an API for communicating with Redis servers.</d>
+ <da>2019-06-20 09:38:02</da>
+ <n>phpredis 5.0.0RC1
+
+This release contains important improvements and breaking changes.
+The most interesting are: drop PHP5 support, RedisCluster slots caching,
+JSON and msgpack serializers, soft deprecation of non-Redis commands.
+
+* Enable connection pooling by default [8206b147] (Pavlo Yatsukhnenko)
+* Soft deprecate methods that aren't actually Redis commands [a81b4f2d, 95c8aab9] (Pavlo Yatsukhnenko, Michael Grunder)
+* Enable pooling for cluster slave nodes [17600dd1] (Michael Grunder)
+* xInfo response format [4852a510, ac9dca0a] (Pavlo Yatsukhnenko)
+* Make the XREADGROUP optional COUNT and BLOCK arguments nullable [0c17bd27] (Michael Grunder)
+* Allow PING to take an optional argument [6e494170] (Michael Grunder)
+* Allow ZRANGE to be called either with `true` or `['withscores' =&gt; true]` [19f3efcf] (Michael Grunder)
+* Allow to specify server address as schema://host [418428fa] (Pavlo Yatsukhnenko)
+* Allow persistent_id to be passed as NULL with strict_types enabled [60223762] (Michael Grunder)
+* Add server address to exception message [e8fb49be, 34d6403d] (Pavlo Yatsukhnenko)
+* Adds OPT_REPLY_LITERAL for rawCommand and EVAL [5cb30fb2] (Michael Grunder)
+* JSON serializer [98bd2886, 96c57139] (Pavlo Yatsukhnenko, Michael Grunder)
+* Add support for STREAM to the type command [d7450b2f, 068ce978, 8a45d18c] (Michael Grunder, Pavlo Yatsukhnenko)
+* Fix TypeError when using built-in constants in `setOption` [4c7643ee] (@JoyceBabu)
+* Handle references in MGET [60d8b679] (Michael Grunder)
+* msgpack serializer [d5b8f833, 545250f3, 52bae8ab] (@bgort, Pavlo Yatsukhnenko, Michael Grunder)
+* Add Cluster slots caching [9f0d7bc0, ea081e05] (Michael Grunder)
+* Drop PHP5 support [f9928642, 46a50c12, 4601887d, 6ebb36ce, fdbe9d29] (Michael Grunder)
+* Documentation improvements (@alexander-schranz, @cookieguru, Pavlo Yatsukhnenko, Michael Grunder)</n>
+ <f>243237</f>
+ <g>https://pecl.php.net/get/redis-5.0.0RC1</g>
+ <x xlink:href="package.5.0.0RC1.xml"/>
+</r>

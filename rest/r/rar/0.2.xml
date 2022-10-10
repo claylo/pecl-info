@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/rar">rar</p>
+ <c>pecl.php.net</c>
+ <v>0.2</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>tony2001</m>
+ <s>rar extension</s>
+ <d>Rar is a powerful and effective archiver, which was 
+created by Eugene Roshal and became rather popular quite fast. 
+This extension gives you possibility to read Rar archives.
+</d>
+ <da>2004-12-02 13:02:00</da>
+ <n>1) Added open_basedir and safe_mode checks.
+2) Fixed Win32 build issues (thanks to Edin).
+Currently only 5.x builds are available.
+3) Added OS constants.
+4) Fixed 0 bugs. There are no bugs, wee =)</n>
+ <f>117634</f>
+ <g>http://pecl.php.net/get/rar-0.2</g>
+ <x xlink:href="package.0.2.xml"/>
+</r>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/imagick">imagick</p>
+ <c>pecl.php.net</c>
+ <v>2.1.0RC1</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>mkoppanen</m>
+ <s>Provides a wrapper to the ImageMagick library.</s>
+ <d>Imagick is a native php extension to create and modify images using the ImageMagick API.
+This extension requires ImageMagick version 6.2.4+ and PHP 5.1.3+.
+
+IMPORTANT: Version 2.x API is not compatible with earlier versions.</d>
+ <da>2007-11-14 14:39:29</da>
+ <n>+ All methods that expect ImagickPixel now allow a string representing the color
++ Added support for pixeliterator in all supported ImageMagick versions.
++ ImagickPixelIterator now implements the iterator interface
++ It is now possible to set the row with region iterator
++ Added MAXPATHLEN checks for image reads/writes
++ Added a fix to Imagick::cropThumbnailImage() to check if images are already at the desired size
++ Fixed a memory leak in Imagick::getImageHistogram()
++ Speed improvements to Imagick::cropThumbnailImage()
++ Added interpolate constants
++ Fixed ImagickPixel::getColor()
++ Marked ImagickDraw::__construct() with ZEND_ACC_CTOR
++ Added fit parameter and proportional scaling to:
+  - Imagick::adaptiveResizeImage() 
+  - Imagick::scaleImage()
+  - Imagick::resizeImage()
++ Added imagick.locale_fix ini setting to fix drawing bug on some locale
++ Suppressed warnings in readImageFile and pingImageFile (PECL Bug #12367)
++ Added methods: 
+  - ImagickPixel::clone()
+  - ImagickPixel::getColorAsString()
+  - Imagick::mergeImageLayers()
+  - Imagick::paintFloodfillImage()
+  - Imagick::setFont()
+  - Imagick::getFont()
+  - Imagick::setPointsize()
+  - Imagick::getPointsize()</n>
+ <f>74884</f>
+ <g>http://pecl.php.net/get/imagick-2.1.0RC1</g>
+ <x xlink:href="package.2.1.0RC1.xml"/>
+</r>

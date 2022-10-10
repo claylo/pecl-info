@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/var_representation">var_representation</p>
+ <c>pecl.php.net</c>
+ <v>0.1.1</v>
+ <st>stable</st>
+ <l>BSD-3-Clause</l>
+ <m>tandre</m>
+ <s>var_representation extension</s>
+ <d>var_representation is a compact alternative to var_export that properly escapes control characters</d>
+ <da>2021-08-14 18:23:04</da>
+ <n>* Optimize escaping single quoted strings
+* Add a new flag VAR_REPRESENTATION_UNESCAPED to always encode strings as single quoted strings without escaping control characters.
+  This may be useful when the result of var_representation is escaped again before being rendered (e.g. json encoding),
+  or when a short representation is desired.</n>
+ <f>13378</f>
+ <g>https://pecl.php.net/get/var_representation-0.1.1</g>
+ <x xlink:href="package.0.1.1.xml"/>
+</r>

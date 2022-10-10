@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/docblock">docblock</p>
+ <c>pecl.php.net</c>
+ <v>0.1.0</v>
+ <st>alpha</st>
+ <l>PHP License</l>
+ <m>cellog</m>
+ <s>phpDocumentor-style DocBlock (T_DOC_COMMENT token) tokenizer</s>
+ <d>This extension is like the tokenizer extension for PHP.
+It takes a document comment (docblock) like this one:
+
+/**
+ * information {@inlinetag}
+ * @tags
+ */
+
+and parses it into tokens.
+
+The primary function is docblock_tokenize(), which accepts a
+string, and returns an array of arrays of array(TOKEN, &quot;token&quot;).
+TOKEN is one of DOCBLOCK_* constants.
+
+docblock_tokenize() has an optional second bool parameter that
+determine whether to output non-essential tokens like
+the /** * stuff.
+
+docblock_token_name() takes a DOCBLOCK_* constant and returns its name</d>
+ <da>2005-11-22 02:01:43</da>
+ <n>Initial release.  This release supports all docblock features that
+phpDocumentor supports.</n>
+ <f>27414</f>
+ <g>http://pecl.php.net/get/docblock-0.1.0</g>
+ <x xlink:href="package.0.1.0.xml"/>
+</r>

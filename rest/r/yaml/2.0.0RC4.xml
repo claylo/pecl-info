@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/yaml">yaml</p>
+ <c>pecl.php.net</c>
+ <v>2.0.0RC4</v>
+ <st>beta</st>
+ <l>MIT</l>
+ <m>bd808</m>
+ <s>YAML-1.1 parser and emitter</s>
+ <d>Support for YAML 1.1 (YAML Ain't Markup Language) serialization using the
+  LibYAML library.</d>
+ <da>2015-10-17 16:58:56</da>
+ <n>Bugs Fixed:
+- Use zend_* datatypes (weltling)
+- Fix handling of optional encoding argument to yaml_emit_file (weltling)
+- Removed PHP6 compat IS_UNICODE support (bd808)</n>
+ <f>37703</f>
+ <g>http://pecl.php.net/get/yaml-2.0.0RC4</g>
+ <x xlink:href="package.2.0.0RC4.xml"/>
+</r>

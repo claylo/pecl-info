@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/rpminfo">rpminfo</p>
+ <c>pecl.php.net</c>
+ <v>0.5.1</v>
+ <st>stable</st>
+ <l>PHP 3.01</l>
+ <m>remi</m>
+ <s>RPM information</s>
+ <d>Retrieve RPM information using librpm, from local RPM file or from installed packages database.
+
+Documentation: https://www.php.net/rpminfo</d>
+ <da>2020-09-23 09:42:45</da>
+ <n>- split tests for PHP 7/8
+- improve librpm example</n>
+ <f>17722</f>
+ <g>https://pecl.php.net/get/rpminfo-0.5.1</g>
+ <x xlink:href="package.0.5.1.xml"/>
+</r>

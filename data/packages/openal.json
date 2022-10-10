@@ -1,0 +1,28 @@
+{
+    "category": "Streams",
+    "deprecated": false,
+    "description": "OpenAL - Platform independent sound bindings",
+    "latestReleaseDate": "2019-08-19T20:08:21+00:00",
+    "latestVersion": "0.9.0",
+    "license": "PHP",
+    "name": "openal",
+    "php8Mentioned": false,
+    "releases": {
+        "0.9.0": {
+            "version": "0.9.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "santiagolizardo",
+            "releaseDate": "2019-08-19T20:08:21+00:00",
+            "releaseNotes": "Extension ported to PHP7",
+            "get": "https://pecl.php.net/get/openal-0.9.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1": {
+            "version": "0.1",
+            "state": "beta"
+        }
+    },
+    "summary": "OpenAL Bindings",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

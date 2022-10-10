@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/htscanner">htscanner</p>
+ <c>pecl.php.net</c>
+ <v>0.5.0</v>
+ <st>alpha</st>
+ <l>PHP License</l>
+ <m>pajoye</m>
+ <s>htaccess support for PHP</s>
+ <d>Allow one to use htaccess-like file to configure PHP
+per directory, just like apache's htaccess. It is especially usefull with fastcgi.
+This package was originally developed by Bart Vanbrabant. Old versions are available
+ from: http://files.zoeloelip.be/htscanne</d>
+ <da>2006-11-29 22:32:55</da>
+ <n>- Initial PECL relase
+- Added safe mode and openbasedir checks
+- use PHP streams instead of std IO
+- Fixed segfault in the parsing routines
+- Fixed CWD detections in threaded environments</n>
+ <f>6032</f>
+ <g>http://pecl.php.net/get/htscanner-0.5.0</g>
+ <x xlink:href="package.0.5.0.xml"/>
+</r>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.6.0alpha2</v>
+ <st>alpha</st>
+ <l>Apache License</l>
+ <m>jmikola</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2019-06-03 19:43:05</da>
+ <n>** Bug
+    * [PHPC-1331] - Fix typos in ReadPreference::__set_state() errors
+    * [PHPC-1332] - PHP array API downcasts 64-bit integers to 32-bit values on Windows
+    * [PHPC-1341] - Remove XFAIL for unacknowledged write concern test
+
+** Epic
+    * [PHPC-837] - Update PHP driver to test in Evergreen
+    * [PHPC-1329] - Fix Windows build failures on AppVeyor
+
+** Task
+    * [PHPC-691] - Test that Server command/query execute methods send read preference to mongos
+    * [PHPC-857] - Create Evergreen matrix for various test configurations
+    * [PHPC-858] - Add authentication axis to Evergreen matrix
+    * [PHPC-859] - Add SSL axis to Evergreen matrix
+    * [PHPC-860] - Add PHP runtime axis to Evergreen matrix
+    * [PHPC-861] - Add MongoDB version axis to Evergreen matrix
+    * [PHPC-862] - Add Evergreen matrix to run against nightly server builds
+    * [PHPC-863] - Add RHEL 7.1/Power 8 to the operating system axis
+    * [PHPC-864] - Add storage engines to Evergreen matrix
+    * [PHPC-1180] - Fix peer certificate verification errors for SSL clusters
+    * [PHPC-1240] - Remove noprealloc, nssize and smallfiles from MO configurations
+    * [PHPC-1271] - Add (only) RHEL on zSeries to Evergreen Matrix
+    * [PHPC-1276] - Create tool chain for PHP binaries
+    * [PHPC-1299] - Add Ubuntu 16.04/ARM64 to the operating system axis
+    * [PHPC-1333] - Revert to virtualized Travis CI environments
+    * [PHPC-1345] - Revise fragile session ID assertions
+    * [PHPC-1364] - Upgrade libmongoc to 1.14.0
+    * [PHPC-1370] - Revise test assertion for unknown modifier error message
+
+** Improvement
+    * [PHPC-1301] - php_phongo_cursor_t.got_iterator should use bool type
+    * [PHPC-1307] - Exception interface should extend Throwable on PHP 7+
+    * [PHPC-1373] - WriteResult is inaccessible if executeBulkWrite() encounters socket error</n>
+ <f>1077194</f>
+ <g>https://pecl.php.net/get/mongodb-1.6.0alpha2</g>
+ <x xlink:href="package.1.6.0alpha2.xml"/>
+</r>

@@ -1,0 +1,34 @@
+{
+    "category": "Networking",
+    "deprecated": false,
+    "description": "Implements IMS Connect protocol to execute transactions on Mainframe platforms :\n \n- Most connection parameters available (host, user, clientid, lterm, datastore, RACF security, ...)\n- Input/Output messages processed as associative arrays in PHP scripts\n- Data fields processed accordingly to Close Copy description (from separate XML files).\n- Automatic character conversion ASCII/EBCDIC\n- Data communication tracing (through HTML display)\n\nTechnical considerations :\n\n- Compatibility with both PHP 4 and PHP 5\n- Requires a Z/OS server with IMS Connect for testing\n- Supported IMS Connect Exits :\n  o HWSJAVA0 Java module (default)\n  o HWSIMSO0 Simple module\n- No documentation published yet",
+    "latestReleaseDate": "2007-05-31T11:12:38+00:00",
+    "latestVersion": "0.1.1",
+    "license": "PHP 3.01",
+    "name": "IMS",
+    "php8Mentioned": false,
+    "releases": {
+        "0.1.1": {
+            "version": "0.1.1",
+            "state": "alpha",
+            "license": "PHP 3.01",
+            "releasedBy": "doury",
+            "releaseDate": "2007-05-31T11:12:38+00:00",
+            "releaseNotes": "Added extension details to phpinfo().",
+            "get": "http://pecl.php.net/get/IMS-0.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.0": {
+            "version": "0.1.0",
+            "state": "alpha",
+            "license": "PHP 3.01",
+            "releasedBy": "doury",
+            "releaseDate": "2007-03-30T09:15:49+00:00",
+            "releaseNotes": "- Initial Packaged Release.\n- This alpha version is experimental, it requires upgrades but it does work fine\n- Sources are kind of clean... a few TODO tasks still remain though\n- This extension is presently used by a demonstration web 2.0 site which allows\n  access to DB2 access running on Z/OS\n- Questions, comments and suggestions are more than welcome...",
+            "get": "http://pecl.php.net/get/IMS-0.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "Communication with IBM Z/OS through IMS Connect",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

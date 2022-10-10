@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/simdjson">simdjson</p>
+ <c>pecl.php.net</c>
+ <v>2.0.3</v>
+ <st>stable</st>
+ <l>Apache 2.0</l>
+ <m>tandre</m>
+ <s>Provides faster json decoding through simdjson bindings for PHP</s>
+ <d>Provides faster json decoding through simdjson bindings for PHP (Single Instruction, Multiple Data)</d>
+ <da>2022-08-30 16:09:37</da>
+ <n>* Fix error validating package.xml when uploading to PECL due to blank username of lead without a PECL account.</n>
+ <f>415765</f>
+ <g>https://pecl.php.net/get/simdjson-2.0.3</g>
+ <x xlink:href="package.2.0.3.xml"/>
+</r>

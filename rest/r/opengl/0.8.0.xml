@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/opengl">opengl</p>
+ <c>pecl.php.net</c>
+ <v>0.8.0</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>santiagolizardo</m>
+ <s>OpenGL (3D graphics library) for PHP</s>
+ <d>This extension allows you to develop 3D multimedia applications with PHP using the complete OpenGL library API.</d>
+ <da>2014-04-20 17:48:51</da>
+ <n>- Initial PECL package release.</n>
+ <f>30054</f>
+ <g>http://pecl.php.net/get/opengl-0.8.0</g>
+ <x xlink:href="package.0.8.0.xml"/>
+</r>

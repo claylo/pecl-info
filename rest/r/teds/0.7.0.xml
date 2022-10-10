@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/teds">teds</p>
+ <c>pecl.php.net</c>
+ <v>0.7.0</v>
+ <st>stable</st>
+ <l>BSD-3-Clause</l>
+ <m>tandre</m>
+ <s>Provides extra data structures and iterable/array functionality.</s>
+ <d>teds (Tentative Extra Data Structures) is a collection of data structures and iterable functionality</d>
+ <da>2022-01-22 17:41:46</da>
+ <n>* Make `Teds\strict_hash` ignore recursion caused by unrelated functions (e.g. var_dump calling `__debugInfo` calling `strict_hash`)
+* Add `Teds\binary_search(array $values, mixed $target, callable $comparer = null, bool $useKey=false)`
+* Change parent class of `Teds\StableMaxHeap` and `Teds\StableMinHeap` to `SplHeap`.
+* Fix deduplication when constructing `StrictSet` from `iterable`, `StrictMap` from `Traversable`.
+* Add `Teds\unique_values(iterable): array` using `strict_hash` to check for duplicates.</n>
+ <f>128197</f>
+ <g>https://pecl.php.net/get/teds-0.7.0</g>
+ <x xlink:href="package.0.7.0.xml"/>
+</r>

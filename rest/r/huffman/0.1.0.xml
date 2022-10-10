@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/huffman">huffman</p>
+ <c>pecl.php.net</c>
+ <v>0.1.0</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>mnx</m>
+ <s>Huffman compression is a lossless compression algorithm that is ideal for compressing textual data.</s>
+ <d>Huffman compression belongs into a family of algorithms with a variable codeword length. That means that individual symbols (characters in a text file for instance) are replaced by bit sequences that have a distinct length. So symbols that occur a lot in a file are given a short sequence while other that are used seldom get a longer bit sequence.
+</d>
+ <da>2004-08-23 08:35:00</da>
+ <n>Initial Release.</n>
+ <f>13303</f>
+ <g>http://pecl.php.net/get/huffman-0.1.0</g>
+ <x xlink:href="package.0.1.0.xml"/>
+</r>

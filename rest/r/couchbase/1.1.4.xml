@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/couchbase">couchbase</p>
+ <c>pecl.php.net</c>
+ <v>1.1.4</v>
+ <st>snapshot</st>
+ <l>Apache V2</l>
+ <m>trondn</m>
+ <s>Couchbase Server PHP extension</s>
+ <d>The PHP client library provides fast access to documents stored in
+    a Couchbase Server.</d>
+ <da>2013-04-12 05:44:56</da>
+ <n>- Prototype trying to get the thing working for PECL
+- Reset the error code between each request of a persistent connection
+- Report libcouchbase version in phpinfo
+- Remove gettimeofday implementation for win32
+- PCBC-206: Prototype for configuration caching
+- Fixup memory allocation for URL path
+- PCBC-186: Add method to list all design docs
+- PCBC-178: Add support for connection_timeout
+- Update GetReplica test
+- PCBC-218: Detect invalid characters in CAS
+- Add bucket manipulation example
+- PCBC-172: Add design document examples
+- PCBC-191 Don't coredump for invalid argument
+- Update the list of supported PHP versions</n>
+ <f>77740</f>
+ <g>http://pecl.php.net/get/couchbase-1.1.4</g>
+ <x xlink:href="package.1.1.4.xml"/>
+</r>

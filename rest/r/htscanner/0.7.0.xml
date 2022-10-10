@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/htscanner">htscanner</p>
+ <c>pecl.php.net</c>
+ <v>0.7.0</v>
+ <st>alpha</st>
+ <l>PHP License</l>
+ <m>pajoye</m>
+ <s>htaccess support for PHP</s>
+ <d>Allow one to use htaccess-like file to configure PHP
+per directory, just like apache's htaccess. It is especially useful with fastcgi.
+This package was originally developed by Bart Vanbrabant. Old versions are available
+ from: http://files.zoeloelip.be/htscanner</d>
+ <da>2007-02-17 15:50:04</da>
+ <n>- Request #10017, added a new ini option to disable RINIT errors:
+  htscanner.stop_on_error
+  When set to 1 htscanner returns a failure when an error occured 
+	internally (cache, doc_root missing, etc.). If it is et to 0 (the default)
+	it will simply return SUCCESS and do nothing. It is useful if you have only
+	one php.ini for cli and cgi or if you compiled it staticaly.</n>
+ <f>8258</f>
+ <g>http://pecl.php.net/get/htscanner-0.7.0</g>
+ <x xlink:href="package.0.7.0.xml"/>
+</r>

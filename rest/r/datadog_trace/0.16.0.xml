@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.16.0</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>sammyk</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2019-03-19 18:35:56</da>
+ <n>### Changed
+- When shutdown hook is executed we disable all tracing to avoid creating unnecessary spans #361
+- Inside request init hook we disable all function tracing when we decide not to trace #361
+
+### Added
+- Disable request_init_hook functionality in presence of blacklisted modules via `ddtrace.internal_blacklisted_modules_list=some_module,some_other_module` #345 &amp; #370
+- Integration-level configuration #354
+- `dd_trace_disable_in_request` function which disables all function tracing until request ends #361
+
+### Fixed
+- Symfony template rendering spans #359
+- Laravel integration user ID errors #363
+- Non-success HTTP response codes aren't properly categorized as errors in the APM UI #366</n>
+ <f>28780</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.16.0</g>
+ <x xlink:href="package.0.16.0.xml"/>
+</r>

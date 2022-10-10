@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mailparse">mailparse</p>
+ <c>pecl.php.net</c>
+ <v>0.9.1</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>wez</m>
+ <s>Email message manipulation</s>
+ <d>Mailparse is an extension for parsing and working with email messages.
+It can deal with rfc822 and rfc2045 (MIME) compliant messages.
+</d>
+ <da>2003-01-03 23:54:00</da>
+ <n>Bugfixes:
+ - mailparse_msg_parse_file() no longer returns true instead of the mime resource.</n>
+ <f>33443</f>
+ <g>http://pecl.php.net/get/mailparse-0.9.1</g>
+ <x xlink:href="package.0.9.1.xml"/>
+</r>

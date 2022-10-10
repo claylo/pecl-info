@@ -1,0 +1,44 @@
+{
+    "category": "File System",
+    "deprecated": false,
+    "description": "phdfs is using PHP to manipulate Hadoop HDFS.Extension is an interface to HDFS.Currently in use in the phone business consulting system",
+    "latestReleaseDate": "2014-09-11T13:44:31+00:00",
+    "latestVersion": "0.1.2",
+    "license": "PHP License",
+    "name": "phdfs",
+    "summary": "PHP client library to communicate with the hadoop hdfs",
+    "php8Mentioned": false,
+    "releases": {
+        "0.1.2": {
+            "version": "0.1.2",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "yumin1985",
+            "releaseDate": "2014-09-11T13:44:31+00:00",
+            "releaseNotes": "-  Modify the config.W32",
+            "get": "http://pecl.php.net/get/phdfs-0.1.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.1": {
+            "version": "0.1.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "yumin1985",
+            "releaseDate": "2014-09-11T13:19:47+00:00",
+            "releaseNotes": "- Fix package",
+            "get": "http://pecl.php.net/get/phdfs-0.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.0": {
+            "version": "0.1.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "yumin1985",
+            "releaseDate": "2014-09-11T10:59:37+00:00",
+            "releaseNotes": "First release",
+            "get": "http://pecl.php.net/get/phdfs-0.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

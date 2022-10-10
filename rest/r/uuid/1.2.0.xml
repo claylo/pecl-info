@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/uuid">uuid</p>
+ <c>pecl.php.net</c>
+ <v>1.2.0</v>
+ <st>stable</st>
+ <l>LGPL</l>
+ <m>remi</m>
+ <s>UUID extension</s>
+ <d>A wrapper around libuuid from the ext2utils project.</d>
+ <da>2020-10-06 12:42:47</da>
+ <n>- raise warnings on bad input value with PHP 7
+- promote warnings to ValueError with PHP 8
+- add type hinting with PHP 8
+- fix bug #66982 uuid_mac checks wrong bit/byte for valid MAC address</n>
+ <f>16270</f>
+ <g>https://pecl.php.net/get/uuid-1.2.0</g>
+ <x xlink:href="package.1.2.0.xml"/>
+</r>

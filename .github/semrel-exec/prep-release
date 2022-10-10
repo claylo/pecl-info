@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+#
+# Simple script for use with @semantic-release/exec
+#
+# (OPTIONAL) If you want any files modified by this process
+# checked back in to the repository prior to release,
+# add those files to the list of assets for the
+# @semantic-release/git plugin.
+#
+# shellcheck disable=SC2154
+
+NEXT_VERSION=${1:-}
+if [[ -z ${NEXT_VERSION} ]]; then
+  echo "Version missing. expected version as first argument."
+  exit 1
+fi
+
+PKG="pecl-info"
+
+mkdir -p "build/${PKG}-${NEXT_VERSION}"
+cp -R data "build/${PKG}-${NEXT_VERSION}/data"
+cp -R assets "build/${PKG}-${NEXT_VERSION}/assets"
+cp LICENSE "build/${PKG}-${NEXT_VERSION}"
+cp README.md "build/${PKG}-${NEXT_VERSION}"
+
+cd build || exit
+
+echo "creating .tar.gz archive of ${PKG}-${NEXT_VERSION}" >>"${GITHUB_STEP_SUMMARY}"
+tar -zcf "${PKG}-${NEXT_VERSION}.tar.gz" "${PKG}-${NEXT_VERSION}"
+
+echo "creating .zip archive of ${PKG}-${NEXT_VERSION}" >>"${GITHUB_STEP_SUMMARY}"
+zip -r "${PKG}-${NEXT_VERSION}.zip" "${PKG}-${NEXT_VERSION}"

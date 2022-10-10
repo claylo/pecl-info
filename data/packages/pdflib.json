@@ -1,0 +1,304 @@
+{
+    "category": "Text",
+    "deprecated": false,
+    "description": "This extension wraps the PDFlib programming library\nfor processing PDF on the fly, available from PDFlib GmbH\nat https://www.pdflib.com. \n\nMore info on how to use PDFlib with PHP can be found at\nhttps://www.pdflib.com/documentation/howtos/",
+    "latestReleaseDate": "2019-12-18T16:21:46+00:00",
+    "latestVersion": "4.1.4",
+    "license": "PHP",
+    "name": "pdflib",
+    "summary": "Creating PDF on the fly with the PDFlib library",
+    "php8Mentioned": false,
+    "releases": {
+        "4.1.4": {
+            "version": "4.1.4",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rjs",
+            "releaseDate": "2019-12-18T16:21:46+00:00",
+            "releaseNotes": "- add LICENSE file (bug #78947)",
+            "get": "https://pecl.php.net/get/pdflib-4.1.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "4.1.3": {
+            "version": "4.1.3",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rjs",
+            "releaseDate": "2019-09-16T12:25:19+00:00",
+            "releaseNotes": "- improve phpinfo() output",
+            "get": "https://pecl.php.net/get/pdflib-4.1.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "4.1.2": {
+            "version": "4.1.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rjs",
+            "releaseDate": "2017-07-28T21:14:41+00:00",
+            "releaseNotes": "- fix problem in PHP 7 that when extending the PDFlib class it was not possible to access any members of the extended class.",
+            "get": "http://pecl.php.net/get/pdflib-4.1.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "4.1.1": {
+            "version": "4.1.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rjs",
+            "releaseDate": "2016-12-28T11:17:22+00:00",
+            "releaseNotes": "- fix build problem when compiling statically into PHP",
+            "get": "http://pecl.php.net/get/pdflib-4.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "4.1.0": {
+            "version": "4.1.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rjs",
+            "releaseDate": "2016-12-21T10:19:12+00:00",
+            "releaseNotes": "- add support for PDFlib 9.1",
+            "get": "http://pecl.php.net/get/pdflib-4.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "4.0.1": {
+            "version": "4.0.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rjs",
+            "releaseDate": "2016-10-26T15:04:57+00:00",
+            "releaseNotes": "- fix bug #73249\n- improve PHP7 wrapper (fixed crash when extending PDFlib class)",
+            "get": "http://pecl.php.net/get/pdflib-4.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "4.0.0": {
+            "version": "4.0.0",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "rjs",
+            "releaseDate": "2016-09-22T09:19:55+00:00",
+            "releaseNotes": "- add support for PHP7",
+            "get": "http://pecl.php.net/get/pdflib-4.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.4": {
+            "version": "3.0.4",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rjs",
+            "releaseDate": "2014-01-15T14:29:56+00:00",
+            "releaseNotes": "- avoid deprecated warnings for API's which are not yet deprecated\n  when building against an older PDFlib Version.",
+            "get": "http://pecl.php.net/get/pdflib-3.0.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.3": {
+            "version": "3.0.3",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rjs",
+            "releaseDate": "2013-12-30T11:06:55+00:00",
+            "releaseNotes": "- fixed bug #66346 (undefined reference to `pdf_begin_pattern_ext')",
+            "get": "http://pecl.php.net/get/pdflib-3.0.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.2": {
+            "version": "3.0.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rjs",
+            "releaseDate": "2013-12-19T05:17:19+00:00",
+            "releaseNotes": "- support PDFlib 9.0.2",
+            "get": "http://pecl.php.net/get/pdflib-3.0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.1": {
+            "version": "3.0.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rjs",
+            "releaseDate": "2013-07-25T09:37:35+00:00",
+            "releaseNotes": "- support PDFlib 9.0.1\n- fix bug https://bugs.php.net/bug.php?id=64455\n- support for PDFlib 7/8/9 and PDFlib Light\n- dropped support for PDFlib 6 and earlier",
+            "get": "http://pecl.php.net/get/pdflib-3.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.10": {
+            "version": "2.1.10",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rjs",
+            "releaseDate": "2013-04-08T10:19:53+00:00",
+            "releaseNotes": "- fixed https://bugs.php.net/bug.php?id=64455",
+            "get": "http://pecl.php.net/get/pdflib-2.1.10",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.9": {
+            "version": "2.1.9",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rjs",
+            "releaseDate": "2012-06-06T07:29:07+00:00",
+            "releaseNotes": "- added support for PHP 5.4",
+            "get": "http://pecl.php.net/get/pdflib-2.1.9",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.8": {
+            "version": "2.1.8",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rjs",
+            "releaseDate": "2010-05-05T10:16:21+00:00",
+            "releaseNotes": "PDFlib 7.0.5\n - support PHP 5.3 (don't use deprecated functions)\n - added php_check_open_basedir\n - added missing functions to oo php wrapper",
+            "get": "http://pecl.php.net/get/pdflib-2.1.8",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.7": {
+            "version": "2.1.7",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rjs",
+            "releaseDate": "2009-03-21T14:16:56+00:00",
+            "releaseNotes": "- fixed [PECL-BUG] Bug #16066 [NEW]: Missing php_pdflib.h in archive.",
+            "get": "http://pecl.php.net/get/pdflib-2.1.7",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.6": {
+            "version": "2.1.6",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rjs",
+            "releaseDate": "2009-03-19T06:33:40+00:00",
+            "releaseNotes": "- added PDF_utf32_to_utf16()\n - improved show_boxed() function\n - fixed GD_SUPPORT (not supported)",
+            "get": "http://pecl.php.net/get/pdflib-2.1.6",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.5": {
+            "version": "2.1.5",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rjs",
+            "releaseDate": "2008-03-11T05:33:08+00:00",
+            "releaseNotes": "- switched to package.xml 2.0 Format\n- improved exception handling",
+            "get": "http://pecl.php.net/get/pdflib-2.1.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.4": {
+            "version": "2.1.4",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rjs",
+            "releaseDate": "2007-09-25T05:50:14+00:00",
+            "releaseNotes": "- fixed wrong handling of int parameters which on some 64bit platforms caused problems.",
+            "get": "http://pecl.php.net/get/pdflib-2.1.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.3": {
+            "version": "2.1.3",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rjs",
+            "releaseDate": "2007-03-08T18:10:49+00:00",
+            "releaseNotes": "- fixed potential crash after exceptions\n- show_boxed was missing in the OO-Wrapper",
+            "get": "http://pecl.php.net/get/pdflib-2.1.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.2": {
+            "version": "2.1.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rjs",
+            "releaseDate": "2006-11-02T09:39:13+00:00",
+            "releaseNotes": "- fixed: Bug #9216  \tDon't build with PHP 5.2 (again)",
+            "get": "http://pecl.php.net/get/pdflib-2.1.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.1": {
+            "version": "2.1.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rjs",
+            "releaseDate": "2006-10-31T13:12:21+00:00",
+            "releaseNotes": "- utf16_to_utf8() adn utf8_to_utf16() was missing in the OO-Wrapper",
+            "get": "http://pecl.php.net/get/pdflib-2.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.0": {
+            "version": "2.1.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rjs",
+            "releaseDate": "2006-10-05T08:06:49+00:00",
+            "releaseNotes": "- added support for PDFlib 7\n- prepaired for build with PHP 5.2 (API of PHP_ME_MAPPING changed)",
+            "get": "http://pecl.php.net/get/pdflib-2.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.5": {
+            "version": "2.0.5",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rjs",
+            "releaseDate": "2006-02-23T05:49:43+00:00",
+            "releaseNotes": "Bugfixes:\n- fixed Bug http://pecl.php.net/bugs/bug.php?id=3554",
+            "get": "http://pecl.php.net/get/pdflib-2.0.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.4": {
+            "version": "2.0.4",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rjs",
+            "releaseDate": "2004-12-03T14:58:00+00:00",
+            "releaseNotes": "Bugfixes:\n- fixed buildproblems when used link PDFLib statically into PHP.",
+            "get": "http://pecl.php.net/get/pdflib-2.0.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.3": {
+            "version": "2.0.3",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rjs",
+            "releaseDate": "2004-11-24T12:30:00+00:00",
+            "releaseNotes": "Bugfixes:\n- PDF_get_parameter crashed when called with only 2 parameters.\nEnhancements:\n- added pdf_utf8_to_utf16() and pdf_utf16_to_utf8() API's.\n- included support for PDFlib4 again",
+            "get": "http://pecl.php.net/get/pdflib-2.0.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.2": {
+            "version": "2.0.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rjs",
+            "releaseDate": "2004-07-29T14:03:00+00:00",
+            "releaseNotes": "Bugfixes:\n- did not work with PHP versions before PHP-4.3.x\n  (php_error_docref is used but not defined).\n  build somtimes works fine, but the problem may\n  appear during runtime.\n- pear install will work on Mac OS X now",
+            "get": "http://pecl.php.net/get/pdflib-2.0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.1": {
+            "version": "2.0.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rjs",
+            "releaseDate": "2004-07-20T12:08:00+00:00",
+            "releaseNotes": "some Bugfixes\n string, and the subsequent parameters were wrong.",
+            "get": "http://pecl.php.net/get/pdflib-2.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0": {
+            "version": "2.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "steinm",
+            "releaseDate": "2004-06-21T14:14:00+00:00",
+            "releaseNotes": "A major rework\n- supports PDFlib 5 and PDFlib 6\n- adds an Object Oriented API to PDFlib (for PHP 5 only)\n- uses PHP exceptions (for PHP 5 only)\n- only official PDFlib API's are included (plus pdf_open_memory_image)\n- changed old API's with varargs to only accept all args now\n- disables VIRTUAL_DIR support (use SerachPath instead)\n- disables CHECK_OPEN_BASEDIR checks",
+            "get": "http://pecl.php.net/get/pdflib-2.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0": {
+            "version": "1.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rjs",
+            "releaseDate": "2004-06-16T18:53:00+00:00",
+            "releaseNotes": "transfered pdflib extension to pecl.",
+            "get": "http://pecl.php.net/get/pdflib-1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

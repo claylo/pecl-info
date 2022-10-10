@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.50.0</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>sammyk</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2020-11-05 22:03:23</da>
+ <n>### Added
+- Experimental support for PHP 8.0.0 RC 2 &amp; RC 3 (Provided for testing only and not intended for use on production) #1039 #1053 #1054 #1076
+- Trace Symfony controller and more #1048
+- Add example for long running processes #1049
+- Add tests and support for WordPress 5 on PHP 7 #1058 #1059 #1081
+- Add tests for Symfony 5 #1060 #1062
+
+### Changed
+- Build alpine packages on alpine and add e2e package verification #774
+- Add fatal error info to `DDTrace\Tracer` made root spans on PHP 7 #1040</n>
+ <f>304877</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.50.0</g>
+ <x xlink:href="package.0.50.0.xml"/>
+</r>

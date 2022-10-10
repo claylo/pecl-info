@@ -1,0 +1,994 @@
+{
+    "category": "Benchmarking",
+    "deprecated": false,
+    "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
+    "latestReleaseDate": "2022-09-29T06:06:56+00:00",
+    "latestVersion": "0.80.0",
+    "license": "BSD 3-Clause",
+    "name": "datadog_trace",
+    "php8Mentioned": true,
+    "releases": {
+        "0.80.0": {
+            "version": "0.80.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "krakjoe",
+            "releaseDate": "2022-09-29T06:06:56+00:00",
+            "releaseNotes": "### Added\n\n### Changed\n-  Make sampling priorities public API again #1742\n\n### Fixed\n- Fix behaviour of return false in trace hooks #1749\n- Handle non-binaries in installer #1743\n- Fix mishandling of payload size limit #1750\n\n### Internal changes\n\n\n## Profiling (v0.10.1)\n\n### Fixed\n- Match the service names of the tracer when unset or empty #1733\n- Avoid crashing when pcntl_fork is called #1745\n\n## Application Security Monitoring (v0.4.3)\n\n### Fixed\n- Return error response in helper when incoming message can't be unpacked DataDog/dd-appsec-php#120 \n- Avoid creating a log file during MINIT/MSHUTDOWN DataDog/dd-appsec-php#124 \n- Handle helper errors gracefully DataDog/dd-appsec-php#127 \n- Reset context on shutdown DataDog/dd-appsec-php#130\n- Handle errors on request shutdown DataDog/dd-appsec-php#132 \n\n### Internal changes\n- Enable CI on all relevant branches DataDog/dd-appsec-php#123",
+            "get": "https://pecl.php.net/get/datadog_trace-0.80.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.79.0": {
+            "version": "0.79.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "labbati",
+            "releaseDate": "2022-09-09T14:11:27+00:00",
+            "releaseNotes": "### Added\n- Integrate with Symfony console commands #1724\n\n### Changed\n\n### Fixed\n- Fix #1709 appsec attempting to load erroneously #1711\n- Fix symfony service and root span name #1723 (Thanks @numyx)\n- Initialize hooks and config early to prevent conflicts with code executed in early startup #1726\n- Fix hook dynamic data zeroing when new hooks are added during hook execution #1730\n\n### Internal changes\n- Fix compilation on MacOS #1716\n- Deduplicate PHP 7 and PHP 8 source files #1722\n\n\n## Profiling (v0.10.0)\n\n#### Added\n- Add Endpoint Profiling #1720\n\n#### Internal changes\n- Extract C API module; refactor Uuid #1710",
+            "get": "https://pecl.php.net/get/datadog_trace-0.79.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.78.0": {
+            "version": "0.78.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "krakjoe",
+            "releaseDate": "2022-08-24T12:00:07+00:00",
+            "releaseNotes": "### Added\n- Instrument pcntl_fork and reset tracing when it is called #1633 (Thanks @jlesueur)\n- ARM64 support (Build arm images in CI) #1701\n\n### Changed\n- Accept pseudonym on via header as specified by rfc7230 #1696\n- Add agent target URL to flush-message to help with debugging #1705\n- Add IPv6 support to DD_AGENT_HOST #1707\n\n### Fixed\n- Fix span memory leak and packaging #1697\n- Fix datadog-setup.php failing in environments without scan directory #1702\n- Fix random number generator usage #1704\n- Set root span name only in HttpKernel::boot() to avoid side effects on CLI #1706\n- Fix meta information loss in PDOIntegration #1708\n\n### Internal changes\n- Update artifact URL for v0.77.0 gitlab deployments #1686\n- Update relenv to use datadog-setup.php #1689\n- Add arm support to docker images #1699\n\n## Application Security Monitoring (v0.4.0)\n\n#### Fixed\n- Fix interned string invalidation on PHP <= 7.2 DataDog/dd-appsec-php#99\n- Replace `php_error_docref` with `php_log_err` DataDog/dd-appsec-php#101\n\n#### Changed\n- Log helper communication DataDog/dd-appsec-php#97\n- Set environment values at rinit on php-fpm DataDog/dd-appsec-php#105\n\n#### Internal changes\n- Update development documentation DataDog/dd-appsec-php#98\n- Update system tests with new variants DataDog/dd-appsec-php#102\n- Add helper test for config DataDog/dd-appsec-php#108\n- Fix missing helper header coverage DataDog/dd-appsec-php#109\n- Upgrade integration test tracer version to 0.76.1 DataDog/dd-appsec-php#110\n- Add a way to include local changes to the cmake build process DataDog/dd-appsec-php#111\n- libddwaf upgraded to 1.4.0 DataDog/dd-appsec-php#116\n\n## Profiling (v0.9.0)\n\n#### Added\n - Add Unix Domain Socket (UDS) support #1698\n\n#### Fixed\n - Avoid PHP per-request interning #1700\n\n#### Internal changes\n - Add phpt tests for profiling #1690",
+            "get": "https://pecl.php.net/get/datadog_trace-0.78.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.77.0": {
+            "version": "0.77.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "labbati",
+            "releaseDate": "2022-08-03T01:33:55+00:00",
+            "releaseNotes": "?? The tracer and profiling packages for PHP 7 and 8 are built on CentOS 7. These packages will not run on older GNU Linux versions like CentOS 6, Debian 7, and Ubuntu 12.04.\n\n### Added\n- Add single span ingestion mechanism #1628\n- Add \"recurse\" => true option to hook/trace config array #1677\n\n### Changed\n- Allow Symfony EventDispatcher::dispatch hooks to recurse #1678\n\n### Fixed\n- Fix JIT compatibility under macOS #1661\n- Fix -Werror=address-of-packed-member #1664\n- Add support for ports on x-forwarded-for header #1675. Thanks, @estringana!\n\n### Internal changes\n- Move to CentOS 7; begin adding profiling deps #1660\n- Add profiling sources #1606\n- Build and package datadog-profiling in CI #1663\n- Fix profiler config in randomized tests #1682\n\n## Profiling (v0.8.0)\n\n### Added\n - Add `process_id` and `runtime_version` tags #1606.\n - Add support for changing env vars per request, such as per-directory env var settings in Apache #1606.\n - Add fake frame when truncating stacks #1679. This way users can tell when the stack is truncated.\n\n### Changed\n - Switch <php> to <?php #1680\n - Raise max stack depth to 512 #1681\n - Enable CPU Time profile by default #1663. This can disabled by setting the environment variable `DD_PROFILING_EXPERIMENTAL_CPU_TIME_ENABLED` to `0`, `off`, or `no`.\n - Change logging format #1606. Add a new log level `trace`, which is even more verbose than `debug`.\n - Stop sending a profile on every `phpinfo()` (or the equivalent command line option `--ri datadog-profiling`) #1606",
+            "get": "https://pecl.php.net/get/datadog_trace-0.77.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.76.2": {
+            "version": "0.76.2",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "krakjoe",
+            "releaseDate": "2022-07-28T14:56:44+00:00",
+            "releaseNotes": "### Fixed\n- Check for datadog-profiling in startup only instead of inside a message_handler #1670. This fixes a possible crash when all of tracer, profiler and appsec are loaded.\n- Add opcode shutdown handlers, fix integrations after repeated minit #1669. This fixes a crash when using reload on apache (sending SIGUSR1).\n- (PHP 7) Fix curl wrapper use after free #1662. This fixes a possible crash when curl handles are manually released within destructors inside the PHP shutdown sequence.\n- Fix -Werror=address-of-packed-member (#1664).\n\n### Internal changes\n- Skip curl test if curl is not loaded #1668\n\n## Profiling (v0.7.2)\n- Fix crash with SAPI env vars DataDog/dd-prof-php#46\n- Avoid .message_handler due to upstream bug DataDog/dd-prof-php#47",
+            "get": "https://pecl.php.net/get/datadog_trace-0.76.2",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.76.1": {
+            "version": "0.76.1",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "krakjoe",
+            "releaseDate": "2022-07-14T19:43:57+00:00",
+            "releaseNotes": "### Fixed\n\n- Bump PHP minimum version in PECL #1652\n- PHP 7.3+ Fix compatibility with opcache #1656\n\n### Internal changes\n\n- %d resource ids in language tests #1657",
+            "get": "https://pecl.php.net/get/datadog_trace-0.76.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.76.0": {
+            "version": "0.76.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "labbati",
+            "releaseDate": "2022-07-08T14:28:41+00:00",
+            "releaseNotes": "### Added\n- Add B3 headers injection and extraction #1629\n- Collect http.client_ip #1621\n\n### Changed\n- Filter x-datadog-tags for _dd.p. prefix and add DDTrace\\add_distributed_tag #1618\n- Rename query string obfuscation variable #1630\n- Collect query string by default and obfuscate #1615\n- Update regex to account for URL encoding #1622\n- Update library versions used in tests + support plesk paths #1632\n- Remove service name propagation #1635, #1636\n- Add integration loaded output for deferred integrations on DD_TRACE_DEBUG=1 #1639\n- Reduce memory footprint of strpprintf #1640\n- New implementation for hooks #1617\n- (PHP 5) Add g1a/composer-test-scenarios and symfony/flex to composer allow-plugin list #1647\n\n### Fixed\n- Fix crash with numerical value in $_SERVER array #1634\n- Fix missing query string on http.url from integrations #1642\n\n### Internal changes\n- Add link to compatibility requirements in README.md #1610\n- Manually build PHP for randomized tests images #1616\n- Eliminate PHP 5 references from master #1626\n- Remove PHP 5 from CI and fetch it instead from the latest PHP-5 branch build #1624\n- Fix test_web on PHP 8.0 #1631\n- Add g1a/composer-test-scenarios and symfony/flex to composer allow-plugin list #1637\n- (PHP 5) Run Wordpress testsuite actually against PHP 5 #1638\n- Test debian bullseye instead of stretch in CI #1644\n- Update rel env to use 0.75.0 (#1620)\n- Disable clang format check in CI #1619\n- Add one more allow-plugins in root composer.json #1646\n- (PHP 5) Add g1a/composer-test-scenarios and symfony/flex to composer allow-plugin list #1647\n\n## Profiling (v0.7.0)\n# Changed\n- Do not upload empty profiles. See DataDog/dd-prof-php@e03ff23e5216f863061285e13170d011d0c04bc8 for details.\n\n# Fixed\n- Fix a small memory leak with env var handling.\n\n# Added\n- Add SAPI as profile tag.\n- Add support for `DD_PROFILING_EXPERIMENTAL_CPU_TIME_ENABLED` env var. It previously supported this functionality under a different, undocumented name.",
+            "get": "https://pecl.php.net/get/datadog_trace-0.76.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.75.0": {
+            "version": "0.75.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "labbati",
+            "releaseDate": "2022-06-10T17:39:51+00:00",
+            "releaseNotes": "## Tracer\n### Added\n- Add a new decision maker mechanism #1598\n- Rename DD_TRACE_X_DATADOG_TAGS_PROPAGATE_SERVICE to DD_TRACE_PROPAGATE_SERVICE #1612, #1613\n- Add support for unix domain sockets #1601\n- Add RedisCluster split by host #1602 (Thanks to @radykal-com)\n- Add http.useragent to root span #1607\n\n### Fixed\n- Fix #1582: *_id keys in meta and metrics are wrongly encoded #1599\n- Fix dlerror logging format #1605\n- Fix DD_TRACE_URL_AS_RESOURCE_NAMES_ENABLED accidentally guarding http.method and http.url as well #1608\n\n### Internal changes\n- Fix downstream job trigger for deployments to rel-env #1597\n- Update dd-trace-php link for reliability environment #1595\n- Move request-replayer from our internal deprecated repository to dd-trace-php #1600\n- Support restricting PHP versions while running randomized tests #1604\n- Transition to non-legacy circleci images #1609",
+            "get": "https://pecl.php.net/get/datadog_trace-0.75.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.74.0": {
+            "version": "0.74.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "labbati",
+            "releaseDate": "2022-05-12T13:12:17+00:00",
+            "releaseNotes": "## Tracer\n### Added\n- Add configurations for retaining select query string parameters in resources and http.url #1566\n\n### Changed\n- Respect autofinish on flush(), add warnings in debug mode when having unbalanced spans #1564, #1569\n- Loose restrictions around distributed tracing context setting #1571\n\n### Fixed\n- Fix dispatch resetting #1570\n- Fix run_time_cache initialization for closure calls with foreign scope on PHP 7.4-8.1 #1578\n- Eliminate the separate span id stack, fix distributed tracing trace_id #1586\n- Fix handling of INI and ENV changes post minit, pre runtime #1593\n- Fix inconsistent module load and unload sequence #1585\n- Fix installer setting check for extensions #1584\n\n### Internal changes\n- Pin composer on PHP 7 docker containers to version 2.2 #1565\n- Disable flaky test on PHP 5.4 #1583\n- Remove Symfony 4.2 from PHP 7.4 web tests #1587\n- Add the scenario name to the randomized test docker name #1590\n- Fix ownership of files within release artifact tars #1591\n\n## Profiling (v0.6.1)\n### Fixed\n- Bump profiling to v0.6.1 #1588. This re-initializes static variables on startup/minit which may help prevent Apache reload from crashing.\n- Enable profiling installation on PHP 8.1 #1576\n\n## Application Security Monitoring (v0.3.2)\n### Fixed\n- Fix hybrid extension initialisation [#92](https://github.com/DataDog/dd-appsec-php/pull/92)",
+            "get": "https://pecl.php.net/get/datadog_trace-0.74.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.73.0": {
+            "version": "0.73.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "labbati",
+            "releaseDate": "2022-04-28T08:48:17+00:00",
+            "releaseNotes": "## Application Security Monitoring\n### v0.3.1\n#### Fixes\n- Fix relative module order with ddtrace on PHP 7.3 issue [#88](https://github.com/DataDog/dd-appsec-php/issues/88) -  [#86](https://github.com/DataDog/dd-appsec-php/pull/86)\n\n### v0.3.0\n#### Breaking Changes\n- Rename ini settings from `datadog.appsec.rules_path` to `datadog.appsec.rules` [#74](https://github.com/DataDog/dd-appsec-php/pull/74)\n- Interpret `datadog.appsec.waf_timeout` as microseconds rather than milliseconds [#74](https://github.com/DataDog/dd-appsec-php/pull/74)\n\n### Fixes\n- Add obfuscator strings when initialising WAF from client settings [#83](https://github.com/DataDog/dd-appsec-php/pull/83)\n\n#### Additions\n- Add WAF metrics and errors to traces [#79](https://github.com/DataDog/dd-appsec-php/pull/79)\n- Actor IP resolution from request headers [#80](https://github.com/DataDog/dd-appsec-php/pull/80)\n- Add support for WAF event obfuscator [#82](https://github.com/DataDog/dd-appsec-php/pull/82)\n- Add obfuscator regex for values [#84](https://github.com/DataDog/dd-appsec-php/pull/84)\n\n#### Miscellaneous Changes\n- Update installer links in documentation and tests [#76](https://github.com/DataDog/dd-appsec-php/pull/76)\n- Add `parameter_view` for non-ownership of WAF parameters [#78](https://github.com/DataDog/dd-appsec-php/pull/78)\n- Accept IP list on `X-Cluster-Client-IP` header [#81](https://github.com/DataDog/dd-appsec-php/pull/81)\n- Update ruleset to v1.3.1 [#82](https://github.com/DataDog/dd-appsec-php/pull/82)\n- libddwaf upgraded to v1.3.0 [#82](https://github.com/DataDog/dd-appsec-php/pull/82)\n- Update installation instructions [#84](https://github.com/DataDog/dd-appsec-php/pull/84)",
+            "get": "https://pecl.php.net/get/datadog_trace-0.73.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.72.0": {
+            "version": "0.72.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "labbati",
+            "releaseDate": "2022-04-07T12:21:44+00:00",
+            "releaseNotes": "### Added\n- Add support for memcached on PHP 8 #1558\n\n### Fixed\n- Fix #1544: Handle hook dummy span hack when assigning parent #1557\n\n### Internal changes\n- Add gdbinit files for php 8.0 and 8.1 #1556\n- Add system tests in CI #1552\n- Use latest 8.0.17 in buster images #1559\n- Update flex to v1.18.5 in composer.lock files for Symfony 4.0 and 5.0 #1560\n- Add a single test to xfail after upgrade of docker image to 8.0.18 #1561\n- Update link to download 0.71.1 in the reliability environment #1555",
+            "get": "https://pecl.php.net/get/datadog_trace-0.72.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.71.1": {
+            "version": "0.71.1",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "labbati",
+            "releaseDate": "2022-03-31T15:02:52+00:00",
+            "releaseNotes": "### Fixed\n\n- Use -1 as uninitialized op_array_extension marker #1550\n\n### Internal changes\n\n- Use latest ubuntu images in CI #1543\n- Use 8.1.4 in development buster images #1553\n- Add randomized tests for PHP 8.1 and make buster containers arm64 ready #1551\n- Remove regressions from randomized tests #1547",
+            "get": "https://pecl.php.net/get/datadog_trace-0.71.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.71.0": {
+            "version": "0.71.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "labbati",
+            "releaseDate": "2022-03-15T11:22:15+00:00",
+            "releaseNotes": "### Changed\n- Do not disable tracing when ionCube loader is detected #1520\n\n### Added\n- Added ES integration support for newer PHP and ES versions #1516\n- Add support for wordpress on PHP 8 and use a different hook #1522\n- Add Code Hotspots #1517\n- Implement split by instance in PDO #1498\n\n### Fixed\n- Trigger profiling interrupt function before internal observer_end #1499\n- Fix compatibility with PHP 8.2 (master) #1521\n\n### Internal changes\n- Clean up Tea SAPI and allow ddtrace to run there #1502\n- Use a new curl session for each writer iteration and clear it after #1504\n- Increase bgs backlog by 20% #1506\n- Always include the Tea SAPI Catch2 test header #1507\n- Add is_nil function to UUID component #1515\n- Fix randomized testsuite memory limits and background sender curl handling #1525\n- Run cmake-format on TEA's CMakeLists.txt #1527\n- Simplify calls (zai symbols), add support for generators #1529\n- Update profiling to v0.5.0 #1537\n- Update profiling to v0.5.1 #1541\n- Move from checking status code reported by vegeta to check error logs #1540\n- Fix ZAI symbols on PHP 7.3+ (randomized tests failures) #1536\n- ??Add a test case for guzzle url no schema + split by domain #1534\n- Point rel-env deployment to GH release 0.70.1 #1531\n- Tea ZE Suppport #1526\n- Show curl response status code in tests #1524\n- Add long running script memory check to randomized tests #1356\n- Add a test for sub path and wildcards normalization #1505",
+            "get": "https://pecl.php.net/get/datadog_trace-0.71.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.70.1": {
+            "version": "0.70.1",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "labbati",
+            "releaseDate": "2022-03-02T16:11:15+00:00",
+            "releaseNotes": "### Changed\n- Disable x-datadog-tags header propagation #1528\n### Fixed\n- Fix Laravel exceptions being over-reported #1361\n- Fix too aggressive symbol exporting #1523\n- Hide the dummy span during trace hooks away #1519\n- (PHP 5) Remove empty multi_curl handles hashtables #1513\n- Do not mess with the span duration in curl integration #1512\n- Fix #1510 post-install not detecting required extension #1511\n- ??Explicitly depend on ext/standard and fix in-tree builds #1509",
+            "get": "https://pecl.php.net/get/datadog_trace-0.70.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.70.0": {
+            "version": "0.70.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "labbati",
+            "releaseDate": "2022-02-07T08:45:29+00:00",
+            "releaseNotes": "### Changed\n- Make the legacy API a pure proxy to internal spans #1471\n- Load the legacy tracer only when actually used #1449\n- Update profiling to v0.4.0 #1495\n\n### Added\n- Add appsec library to the release bundle #1469\n- Add appsec installation #1470\n\n### Fixed\n- Always emit NoopSpans if the tracer extension is disabled #1475\n- fix dd_update_upstream_services on php5 #1476\n- Setup: Error if profiling is given but unavailable #1477\n- Ensure dropped spans are distinguishable from unfinished spans #1480\n- Fix Span::setError docblock #1481\n- Fix invalid reads in background sender #1483\n- Restore support for manual distributed tracing #1484\n- Remove version number from datadog-setup.php's help output #1487\n- Improve error detection for datadog-setup.php #1489\n\n### Internal changes\n- Add parallelism to makefile for builds and test runs #1382\n- Add profiling module to randomized tests #1412\n- Run randomized internal API stress testing in CI #1445\n- Switch to Symbols interface, cleanup tests #1465\n- Improve Symbol Call interface, introduce closure support #1467\n- Support in-tree builds of Tea #1472\n- Sandbox Bailout #1473\n- Patch zend_alloc.c to not crash in CI for PHP 7.0 to 7.2 #1478\n- build tea once during development #1479\n- Update PHP 8.1 dependencies, include laravel testing #1482\n- Inline queue function pointers #1490\n- Adjust stack sample max stack depth #1491\n- Remove unused profiling components #1492",
+            "get": "https://pecl.php.net/get/datadog_trace-0.70.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.69.0": {
+            "version": "0.69.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "labbati",
+            "releaseDate": "2022-01-24T16:57:30+00:00",
+            "releaseNotes": "### Breaking changes\n- Query string is now not included in `http.url` in Nette integration and in generic web frameworks tracing.\n\n### Added\n- Implement x-datadog-tag propagation and _dd.p.upstream_services #1405\n\n### Changed\n- Get rid of ini-ignoring and redundant checking of ddtrace being enabled #1448\n- Strip query string from http.url in generic web tracing #1454\n- Use internal root spans in Integrations in place of using the legacy API #1383\n- Hard-code version in installer, remove --url option, rename it #1463\n- Remove generator support on PHP 7 #1464\n\n### Fixed\n- Ensure a proper sampling decision is also evaluated when distributed tracing is used #1450\n- Fix ObjectKVStore compatibility with throwing autoloaders #1451\n- Properly report error for artisan command in Laravel 7+ #1456 (thank you @ls-paul-julien-vauthier)\n\n### Internal changes\n- Migrate ZAI tests to use ZAI SAPI harness #1457\n- Move ZAI SAPI to root directory #1411 #1443\n- ZAI methods on PHP 5: Args and retval #1401\n- Implement ZAI Value interface #1453\n- Implement ZAI SAPI test harness (catch2) #1455\n- Implement ZAI SAPI test fixture (catch2) #1458\n- Refactor ZAI SAPI into Tea SAPI, brings various improvements #1462\n- Implement ZAI Symbols interface #1452\n- Address Sanitizer check for ZAI SAPI - 1459\n- Fix ZaiSapi_ROOT path in Makefile #1443",
+            "get": "https://pecl.php.net/get/datadog_trace-0.69.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.68.2": {
+            "version": "0.68.2",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2022-01-07T20:02:57+00:00",
+            "releaseNotes": "### Changed\n- Clean up generate-final-artifact.sh #1442\n\n### Fixed\n- Replace direct access of meta/metrics zvals by safe array access in most places #1440\n- Always separate meta and metrics arrays on access #1441\n- Bump profiling to v0.3.0-rc.6 (fixes some linking bugs) #1444",
+            "get": "https://pecl.php.net/get/datadog_trace-0.68.2",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.68.1": {
+            "version": "0.68.1",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "labbati",
+            "releaseDate": "2021-12-30T17:03:17+00:00",
+            "releaseNotes": "### Fixed\n- Do not diagnostics when ddtrace is disabled #1434\n- Fix json symbol address resolving logic #1432\n- Disable tracing when PHP is executed during RINIT #1429\n- Change Predis integration type to \"redis\" #1427",
+            "get": "https://pecl.php.net/get/datadog_trace-0.68.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.68.0": {
+            "version": "0.68.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "labbati",
+            "releaseDate": "2021-12-22T18:29:07+00:00",
+            "releaseNotes": "### Added\n- Bring priority sampling to internal #1366\n- SpanData::$parent property #1369\n- Add queue and channel components #1388\n- Add log component #1390\n- Add arena component #1391\n- Add stack sample component #1392\n- Add uuid component #1393\n- Add time component #1394, #1408\n- Add profiler installation #1422\n- Zai/json #1378, #1397\n- Add Code Coverage #1389\n\n### Changed\n- (PHP 8) Migrate ObjectKVStore to WeakMap internally #1362\n- Adjust components #1387\n- Export only specific symbols #1407\n- Sanitize user information from urls #1396\n- Split INI setting in installer so they can be added separately when missing #1415\n- Use the new targz bundle format with the new PHP installer #1421\n- Have both legacy and new installer to fail when json PHP extension is not enabled #1410\n\n### Fixed\n- Fix Laravel unnamed route with caching and domain specification #1364\n- Fix http.url of internal root span #1360\n- Add small framework to stress test our internal API with bogus inputs #1365\n- PDOIntegration::parseDSN fails to parse some DSN #1373\n- Fix constructor of OpenTracing wrapper when no Datadog tracer is provided #1406 - thanks @OGKevin for the reproduction case\n- Fix parsing of urls without schema into host name #1385",
+            "get": "https://pecl.php.net/get/datadog_trace-0.68.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.67.0": {
+            "version": "0.67.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "labbati",
+            "releaseDate": "2021-11-02T09:58:28+00:00",
+            "releaseNotes": "### Added\n- (PHP 5) Add zai config, internal spans, and exception handling (#1339)\n- (PHP 7, 8) Add mongodb instrumentation (#1345)\n- PHP installation script (beta) (#1335)\n\n### Changed\n- (PHP 5, 7) Move _dd.origin handling to internal #1347\n\n### Fixed\n- (PHP 7, 8) Fix exception handling with opcache cfg optimization enabled (#1344)\n- (PHP 7, 8) Fix memory leaks in curl and error handling (#1350)\n- Use ObjectKVStore in place of internal registry to store PDO connection parameters (#1355)",
+            "get": "https://pecl.php.net/get/datadog_trace-0.67.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.66.0": {
+            "version": "0.66.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "labbati",
+            "releaseDate": "2021-10-11T14:56:30+00:00",
+            "releaseNotes": "### Breaking changes\n* Global tags are now assigned early. This means that users have to make sure to not overwrite `meta`, but only add to it instead, if they don't want to lose global tags. Wrong: `$span->meta = [ 'some' => 'tag' ]`. Correct `$span->meta['some'] = 'tag'`.\n* Support for legacy param `DD_TRACE_RESOURCE_URI_MAPPING` has been dropped with the migration to C code, after more than a year of deprecation. Use `DD_TRACE_RESOURCE_URI_FRAGMENT_REGEX`, `DD_TRACE_RESOURCE_URI_MAPPING_INCOMING`, and `DD_TRACE_RESOURCE_URI_MAPPING_OUTGOING ` instead. See [resource mapping](https://docs.datadoghq.com/tracing/setup_overview/setup/php/?tab=containers#map-resource-names-to-normalized-uri) for more details.\n\n### Added\n\n- (PHP 8) Migrate _dd.origin and distributed header sending to internal (#1267)\n- (PHP 5) Add headers ZAI implementation (#1308)\n- Add support for PHP 8.1 (#1297)\n\n### Changed\n- (PHP 7, 8) Internal (root) span initialization (#1329)\n\n### Fixed\n\n- (PHP 5, 7, 8) Remove all lines containing zai_sapi from config.m4 (#1333)\n- (PHP 7, 8) Fix unnamed service spans caused by improper handling of `DD_TRACE_ENABLED` (#1332)",
+            "get": "https://pecl.php.net/get/datadog_trace-0.66.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.65.1": {
+            "version": "0.65.1",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "labbati",
+            "releaseDate": "2021-09-21T16:37:16+00:00",
+            "releaseNotes": "### Fixed\n- Prevent flushing traces of requests without actual PHP code #1327",
+            "get": "https://pecl.php.net/get/datadog_trace-0.65.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.65.0": {
+            "version": "0.65.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "labbati",
+            "releaseDate": "2021-09-20T16:13:26+00:00",
+            "releaseNotes": "**WARNING**: Resource names for ?Lumen? applications will change by default to `GET /actual/uri/path` from the previous format `GET action_name` or `GET App\\Controller@action_method`. You might need to adjust your monitors and filters for the change. In order to go back to the previous behavior, instead, you can temporarily set `DD_TRACE_URL_AS_RESOURCE_NAMES_ENABLED=false`\n\n### Added\n- Add functions ZAI support for PHP 5 and 7 #1300\n- Add properties and exceptions ZAI implementations for PHP 5 #1306\n- Enhance exception reporting on Laravel 5+ #1322\n\n### Changed\n- Remove src/dd-doctor.php #1316\n- Honor DD_TRACE_URL_AS_RESOURCE_NAMES_ENABLED in Lumen resource naming #1318\n\n### Fixed\n-  Fix CLI processes emitting empty root spans when CLI tracing is not enabled #1320",
+            "get": "https://pecl.php.net/get/datadog_trace-0.65.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.64.1": {
+            "version": "0.64.1",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "labbati",
+            "releaseDate": "2021-09-08T13:55:42+00:00",
+            "releaseNotes": "**WARNING**: Users doing manual instrumentation using the `GlobalTracer::get()->startActiveSpan()` api should update to this version from 0.63.0 and 0.64.0.\n\n### Fixed\n- Fix span start times of userland spans (#1312)",
+            "get": "https://pecl.php.net/get/datadog_trace-0.64.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.64.0": {
+            "version": "0.64.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "labbati",
+            "releaseDate": "2021-09-03T14:07:21+00:00",
+            "releaseNotes": "**WARNING**: With this release the file `_generated.php` is not used anymore and files `_generated_api.php` and `_generated_internal.php` are generated instead. This only impacts users having a very custom installation procedure that requires custom builds and manual copy of files.\n\n### Added\n- Bring ZAI config, internal spans, and improved exception handling to PHP 7 #1293\n\n### Fixed\n- Disable flaky ext/ftp tests on PHP <8.1 #1296\n- Compatibility with PHP 7.4+ preloading #1298 (thank you @olsavmic for the investigation and reproduction case)\n- Check for php8 binary in package/post-install.sh script #1301 (thank you for the contribution @daiwai)\n- Support userland spans with custom root spans created internally #1303\n- Fix memory leak of already defined global tags #1304",
+            "get": "https://pecl.php.net/get/datadog_trace-0.64.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.63.0": {
+            "version": "0.63.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "labbati",
+            "releaseDate": "2021-08-18T16:04:30+00:00",
+            "releaseNotes": "### Added\n\n- ZAI config (#1260)\n- Use exceptions ZAI for PHP 7 as well (#1283)\n\n### Fixed\n\n- Fix arginfo of error & exception handler (#1291)",
+            "get": "https://pecl.php.net/get/datadog_trace-0.63.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.62.1": {
+            "version": "0.62.1",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "bwoebi",
+            "releaseDate": "2021-07-28T17:05:48+00:00",
+            "releaseNotes": "### Fixed\n- Add linux/securebits.h to CentOS docker container, to have it present in linux build artifacts #1286\n- Handle an additional case of capabilities being dropped within our background sender #1287",
+            "get": "https://pecl.php.net/get/datadog_trace-0.62.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.62.0": {
+            "version": "0.62.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "labbati",
+            "releaseDate": "2021-07-21T14:28:59+00:00",
+            "releaseNotes": "### Added\n- ZAI env #1250\n- Add ZAI component for reading headers #1256\n- (PHP 8) Add proper exception and error reporting #1272\n- (PHP 8) Register SpanData->exception property and store exception info there instead of internally #1281\n### Changed\n- Refactor internal span objects to be allocated together with their internal data #1254\n- Enforce metrics to be floats in internal serializer #1258\n- Allow for global debug mode, add zai testing to Makefile and more minor testing improvements #1265\n- Move DDTrace\\Format to src/api #1271\n- Moving spans from userland to extension #1262\n### Fixed\n- Fix msgpack serialization of empty arrays #1259\n- Set SECBIT_NO_SETUID_FIXUP to prevent crashes after setuid() calls #1276\n- Apply original curl headers when curl_setopt_array() fails #1279\n- Fix owner of files included in the distributed .tar.gz archive #1280\n- Fix tests: Pin Symfony 4 tests to laminas/laminas-code < 4.4 #1266",
+            "get": "https://pecl.php.net/get/datadog_trace-0.62.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.61.0": {
+            "version": "0.61.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "labbati",
+            "releaseDate": "2021-07-13T09:33:50+00:00",
+            "releaseNotes": "### Added\n- Add \\DDTrace\\get_current_context #1227\n- Create property ZAI seam for PHP 8 #1246\n- Create exceptions ZAI seam for PHP 8 #1248\n- Run mongodb-driver testsuite in CI with and without the tracer #1255\n### Changed\n- Move mapping-settings to be deserialized as a zend_array * #1253\n### Fixed\n- Remove TSRMLS_C from \\DDTrace\\current_context #1249",
+            "get": "https://pecl.php.net/get/datadog_trace-0.61.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.60.0": {
+            "version": "0.60.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "labbati",
+            "releaseDate": "2021-05-28T13:31:55+00:00",
+            "releaseNotes": "**Breaking change**: Users that are not explicitly setting or using json encoding are not impacted but this breaking change. Users either requiring json encoding for special purposes to send traces to their own custom targets or relying on the Stream class (that was not part of the public api in src/api) will have to manually clone the classes from the previous release SHA and register themselves. This is discouraged because as of today, json causes a fallback to blocking sync transmission to the Datadog agent, while using messagepack we support the unblocking async transport to our agent.\n\n### Added\n- Zend Abstract Interface: Method call seam (PHP 5) #1186\n- ZAI Sandbox #1213\n- Auto-flushing (PHP 5) #1189\n- Nette integration (v2 and v3) #504 #1220 (thanks @kozaktomas for the original contribution and thanks @Anilm3 for reviving the original PR)\n- Begin documenting architecture #1225\n- Detect ZAI ZMM leaks #1229\n- ZAI function-call seam (PHP 8) #1234\n### Changed\n- Update Docker ci docs #1202\n- Remove Json encoder and Stream transport #1235\n- Move from uint63 to uint64 for trace_id span_id and parent_id #1237\n- Remove redundant dd_trace_tracer_is_limited() calls #1239\n- Change config.m4 to allow in-tree build #1238\n- Eliminate \"innerhook\" from trace_method and trace_function #1240\n- Remove TSRMLS_* macros from PHP 7 and PHP 8 #1241\n- Deferred loading with ZAI function-call seam (PHP 8) #1243\n- Speed up randomized testing using a post #1192 version #1245\n- Self update composer in the image we use to prepare the code in CI (#1221)\n### Fixed\n- Fix meta header name for language version in BGS agent request #1244\n- Fix flaky PCNTL tests (#1232)",
+            "get": "https://pecl.php.net/get/datadog_trace-0.60.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.59.0": {
+            "version": "0.59.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "labbati",
+            "releaseDate": "2021-05-06T17:24:02+00:00",
+            "releaseNotes": "### Added\n- [ZAI SAPI] Zai\\trigger_error() SAPI function #1212\n- Autocomplete Makefile target names in buster dev images #1224\n\n### Changed\n- Use new buster containers in CI #1210\n- remove _tmp suffix from development buster images #1217\n- Tidy the components/ #1216\n- Tidy up the docker-compose file a bit #1223\n\n### Fixed\n- Disable PCNTL in forked processes #1196\n- Updated contributing and fixed typo on Makefile::test_all #1218\n- Fix ingestion control reporting #1222\n- Skip tests that have development environment dependencies #1215 (thanks for the report @remicollet)\n- Always resolve curl class entry symbols at runtime (PHP 8) #1209 (thanks for the report @metaxy)",
+            "get": "https://pecl.php.net/get/datadog_trace-0.59.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.58.0": {
+            "version": "0.58.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "labbati",
+            "releaseDate": "2021-04-21T18:40:49+00:00",
+            "releaseNotes": "### Added\n- ZAI SAPI #1204\n- [ZAI SAPI] Add test helpers #1208\n- Add a Kubernetes example to container tagging tests #1206\n- Add Buster containers for PHP 5.4 through 7.4 #1201\n### Changed\n- Remove PHP version prefix from buster development containers #1203\n### Fixed\n- handle laravel 7+ generated:: prefix for unnamed routes #1198",
+            "get": "https://pecl.php.net/get/datadog_trace-0.58.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.56.0": {
+            "version": "0.56.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "labbati",
+            "releaseDate": "2021-03-04T16:52:34+00:00",
+            "releaseNotes": "### Added\n- Add randomized testing to test hundreds of different scenarios #1131\n- Add configured http headers to root span #1154\n- Add the possibility to freeze a regression in a specific randomized tests scenario #1153\n### Changed\n- Remove non php7 code from ext/php7 folder #1162\n- Remove non php5 code from ext/php5 folder #1164\n### Fixed\n- Add missing dependency on curl extension for PHP 8 #1144 (Thanks @remicollet!)\n- Fix initialization of `curl_multi_init()` for distributed tracing #1159\n- Add comment to long running example for method instead of function #1149\n- Fix linting + xfail a flaky test #1147\n- Update links in README.md to configuration and OT docs #1069\n- Fix clang-format installation after circleci image update to buster #1141",
+            "get": "https://pecl.php.net/get/datadog_trace-0.56.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.55.0": {
+            "version": "0.55.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "labbati",
+            "releaseDate": "2021-02-04T19:35:19+00:00",
+            "releaseNotes": "### Added\n- Slim 4 integration #1136\n- Add support for redis cluster #1137",
+            "get": "https://pecl.php.net/get/datadog_trace-0.55.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.54.0": {
+            "version": "0.54.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "labbati",
+            "releaseDate": "2021-01-20T16:59:04+00:00",
+            "releaseNotes": "### Added\n- Support distributed tracing for calls to curl_multi_exec() #1119\n### Changed\n- Refactor PHP 7 curl distributed tracing #1123\n- Real package verification on nginx, cli, apache #1129",
+            "get": "https://pecl.php.net/get/datadog_trace-0.54.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.53.0": {
+            "version": "0.53.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2020-12-30T21:32:47+00:00",
+            "releaseNotes": "### Added\n- Add function to correctly extract trace id in all contexts #1125\n### Fixed\n- Attach fatal errors to userland root span on PHP 5.6 + PHP 5.5 #1109\n- Rebuild CentOS 6 containers #1116\n- NullLogger is essential, not optional #1113\n- Make Uri to resource name normalization case insensitive #1120\n- Avoid empty resource names in Yii in case of root `/` paths #1122\n- Fix multiple deferred integration loading on PHP from 7.0 to 7.2 #1121\n- Fix error in case of x-datadog-origin header in distributed tracing on PHP 7.0-7.2 #1124",
+            "get": "https://pecl.php.net/get/datadog_trace-0.53.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.52.0": {
+            "version": "0.52.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2020-11-30T22:25:43+00:00",
+            "releaseNotes": "### Added\n- Laravel 8 support #1100 #1102\n- Enable Yii 2 on PHP 8 #1106\n- Add PHP 8 asan tests #1108\n\n### Changed\n- Use the observer API on PHP 8 #1089\n- Remove integrations that do not yet support PHP 8 #1103\n- Update containers to PHP 8.0.0 #1111\n\n### Fixed\n- Fix distributed tracing on PHP 8 #1099",
+            "get": "https://pecl.php.net/get/datadog_trace-0.52.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.51.0": {
+            "version": "0.51.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "labbati",
+            "releaseDate": "2020-11-17T18:00:23+00:00",
+            "releaseNotes": "### Added\n- Support service split by host in PHPRedis integration #1084\n- Support service split by host in Predis integration #1094\n- Load WordPress 5 integration on PHP 5 #1086\n- Custom pre-RC5 build #1093\n- Second custom pre-RC5 build #1096\n\n\n### Changed\n- Consolidate 3rd party code into vendor directory #1082\n- Separate extension code by PHP major version #1085\n- Make include paths relative to ext/ #1087\n- Copy PHP 7 extension code to php8 directory #1088\n- Upgrade to composer 2 #1075\n- Fix composer self-update on master properly handling cached directories #1092\n- Make execution of ext tests locally faster and easier #1091",
+            "get": "https://pecl.php.net/get/datadog_trace-0.51.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.50.0": {
+            "version": "0.50.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2020-11-05T22:03:23+00:00",
+            "releaseNotes": "### Added\n- Experimental support for PHP 8.0.0 RC 2 & RC 3 (Provided for testing only and not intended for use on production) #1039 #1053 #1054 #1076\n- Trace Symfony controller and more #1048\n- Add example for long running processes #1049\n- Add tests and support for WordPress 5 on PHP 7 #1058 #1059 #1081\n- Add tests for Symfony 5 #1060 #1062\n\n### Changed\n- Build alpine packages on alpine and add e2e package verification #774\n- Add fatal error info to `DDTrace\\Tracer` made root spans on PHP 7 #1040",
+            "get": "https://pecl.php.net/get/datadog_trace-0.50.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.49.0": {
+            "version": "0.49.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2020-10-14T23:04:08+00:00",
+            "releaseNotes": "### Added\n- Add .gdbinit files from released PHP versions #996\n- Support PHP 5.5 #1008, #1018, #1020, #1030, #1032\n- Add PHP 5.4 support to PECL package #1019\n- Add Levi and Luca as lead developers to package.xml #1025\n- Close open spans on fatal errors #1028\n- Attach fatal errors to all open internal spans #1034\n- Experimental PHP 8.0.0 RC 1 support (Provided for testing only and not intended for use on production) #1027 #1036 #1041\n\n### Changed\n- Enable the background sender by default on PHP 5.4 #991\n- Remove userland references to sandboxing #1003\n- Sandbox flush in limited mode on PHP 5.4 #1009\n- Defer loading of PDO, Memcached, Slim, WordPress, and Yii integrations until first usage #1006\n- Clear separation in testing of src/api vs src/DDTrace #1017\n- Harden curl integration #1024\n- Compile src/DDTrace/version.php into _generated.php to avoid loading it at runtime #1026\n- Disable instrumenting generators on PHP 5 #1050\n\n### Fixed\n- Fix pecl-build for real releases #998\n- Properly group traces sent in batch during long running scripts #1029\n- Add back support for trace analytics to curl integration #1031",
+            "get": "https://pecl.php.net/get/datadog_trace-0.49.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.48.3": {
+            "version": "0.48.3",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2020-09-21T18:08:50+00:00",
+            "releaseNotes": "### Fixed\n- Fix sigsegv in deferred loading #1022",
+            "get": "https://pecl.php.net/get/datadog_trace-0.48.3",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.48.2": {
+            "version": "0.48.2",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2020-09-10T20:40:25+00:00",
+            "releaseNotes": "### Changed\n- Update excluded modules #1011\n- Deprecate dd-doctor.php #1014\n\n### Fixed\n- PHP 5.4 build in ZTS mode #1011\n- Call ddtrace_engine_hooks_{rinit,rshutdown} #1013",
+            "get": "https://pecl.php.net/get/datadog_trace-0.48.2",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.48.1": {
+            "version": "0.48.1",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2020-08-31T20:25:53+00:00",
+            "releaseNotes": "### Fixed\n- Symfony HttpException with status less than 500 should not be considered an error #995, #1002 (thanks, @franek!)\n- Block Zend signals from background sender thread #1000\n- Fix out-of-sync issue if span stack is closed while a closure is running #1001",
+            "get": "https://pecl.php.net/get/datadog_trace-0.48.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.48.0": {
+            "version": "0.48.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2020-08-25T23:10:26+00:00",
+            "releaseNotes": "## Important!\nThe legacy API for custom instrumentation `dd_trace()` is now a no-op in this release. See the [upgrade guide](https://docs.datadoghq.com/tracing/custom_instrumentation/php/?tab=tracingfunctioncalls#legacy-api-upgrade-guide) for instructions on upgrading.\n\nThe way PHP 5.4 and 5.6 hook into the engine has changed. Please read [deep call stacks on PHP 5](https://docs.datadoghq.com/tracing/troubleshooting/php_5_deep_call_stacks/) for more information on potential issues.\n\nAll calls to `DDTrace\\trace_function` or `DDTrace\\trace_method` functions need to happen before the first invocation of the target e.g. `DDTrace\\trace_function('foo', ...)` should be done before `foo` is called for the first time. In the future this may need to be done before the target is even defined. This was previously noted in 0.45.0, but is now enforced for all PHP versions.\n\n\n### Added\n\n- Deferred initialization of integrations, and matching integration to a callable at compile time #891 #972\n- Test for non-zero durations #950\n- Add support for PHPRedis 3 extension on PHP 7 #948\n- Add support for PHPRedis 4 extension on PHP 7 #982\n- Add support for PHPRedis 5 extension on PHP 7 #983\n- Add non-tracing API (hook_function/hook_method) #984\n\n### Changed\n\n- Improve CGI usage in test suite #952 (thank you @remicollet!)\n- Remove `ddtrace.strict_mode` INI setting #955\n- Sandbox PHP 5.6 using `zend_execute_ex` + `zend_execute_internal` #970\n- Package `_generated.php` with PECL #980\n- Move startup logs behind debug mode #986\n- Split PHP 7's opcode handlers for previous case #987\n- Sandbox PHP 5.4, cache negative lookups on PHP 5, and delete integrations using dd_trace #988\n- Cleanup PHP 7 curl handlers #989\n- Update dd_trace warning for being a no-op #990\n- Defer loading of PHPRedis #992\n- Defer loading of Predis #994\n\n### Fixed\n\n- Compatibility issues with PECL #845 (thank you @remicollet!)\n- Fix package.xml validation for PECL #954\n- Removed obsolete pre-integrations loading check from dd-doctor.php #956\n- Fix off-by-one error with longest config name for integrations #985",
+            "get": "https://pecl.php.net/get/datadog_trace-0.48.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.47.1": {
+            "version": "0.47.1",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2020-07-30T19:35:55+00:00",
+            "releaseNotes": "**Deprecation notice**: The following environment variable names have changed. The old names are deprecated. See #969 for more details.\n\n| Old Name                                       | New Name                                             |\n| ---------------------------------------------- | ---------------------------------------------------- |\n| `DD_<INTEGRATION>_ANALYTICS_ENABLED`     | `DD_TRACE_<INTEGRATION>_ANALYTICS_ENABLED`     |\n| `DD_<INTEGRATION>_ANALYTICS_SAMPLE_RATE` | `DD_TRACE_<INTEGRATION>_ANALYTICS_SAMPLE_RATE` |\n| `DD_INTEGRATIONS_DISABLED`                     | `DD_TRACE_<INTEGRATION>_ENABLED`               |\n\n### Added\n\n- Add `DD_TRACE_AGENT_URL` environment support #926 (thank you @nurcahyo!) #962\n- Support for `DD_TRACE_<INTEGRATION>_<SUFFIX>` env vars #969\n- Deeper instrumentation of Symfony 4.4 #967\n\n### Fixed\n\n- Move startup logging to first RINIT #961\n- Fix propagation of `DD_ENV` and `DD_VERSION` to children spans #963\n- Remove query string when new resource mapper is used #973",
+            "get": "https://pecl.php.net/get/datadog_trace-0.47.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.47.0": {
+            "version": "0.47.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2020-07-08T19:55:44+00:00",
+            "releaseNotes": "**Deprecation notice**:\n- Setting service name via `DD_SERVICE_NAME` is now deprecated and will be removed in a future release. Use `DD_SERVICE` instead for consistency with other Datadog tracers and services.\n- Setting global tags via `DD_TRACE_GLOBAL_TAGS` is now deprecated and will be removed in a future release. Use `DD_TAGS` instead (with the same format) for consistency with other Datadog tracers and services.\n- `DD_TRACE_RESOURCE_URI_MAPPING` is deprecated now that it has been split into `DD_TRACE_RESOURCE_URI_MAPPING_INCOMING` and `DD_TRACE_RESOURCE_URI_MAPPING_OUTGOING`.\n- The functions `dd_trace` and `dd_trace_forward_call` are deprecated and will be made a no-op in the next release. See #924 for how to migrate.\n\n### Added\n\n- Apply new uri to resource normalization rules #928\n- Add DDTrace namespace for internal functions #930\n- Startup logging (can be disabled by setting `DD_TRACE_STARTUP_LOGS=0`) #935\n\n### Changed\n\n- Sandboxed cURL (PHP 5) #911, #938\n- Sandbox Lumen (PHP 5) #945\n- Sandboxed Symfony (PHP 5) #946\n- Add support for service name configuration via DD_SERVICE #919\n- Add support for DD_TAGS, fallback to DD_TRACE_GLOBAL_TAGS #920\n- Add support for DD_VERSION and DD_ENV variables #803 - thanks @brettlangdon\n- Enable OpenTracing test suite in CI #921\n- Defaults for name and resource on SpanData #923\n- Refactor dispatch.{c,h} #932\n- Extract ddtrace_sandbox_begin/ddtrace_sandbox_end helpers #940\n- Warn on dd_trace usage if DD_TRACE_WARN_LEGACY_DD_TRACE #941\n\n### Fixed\n\n- Only build on 64-bit platforms #929 (thanks for the report @remicollet)\n- (PHP 5.4) Make compilation to single file compatible with `include __DIR__ . '...'` in files #943",
+            "get": "https://pecl.php.net/get/datadog_trace-0.47.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.46.0": {
+            "version": "0.46.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2020-06-02T22:15:21+00:00",
+            "releaseNotes": "## Important behavior changes in this release\nIf you use the OpenTracing API, the OpenTracing compatible tracer will no longer be returned from `OpenTracing\\GlobalTracer::get` automatically. See #899 or [the documentation](https://docs.datadoghq.com/tracing/opentracing/php/) for more details.\n\nOn PHP 7, `dd_trace` will no longer work on internal functions e.g. `curl_exec`; use `dd_trace_method` or `dd_trace_function` instead. Additionally, when targeting internal functions they also need to be added to the environment variable `DD_TRACE_TRACED_INTERNAL_FUNCTIONS` which is a comma separated list e.g. `DD_TRACE_TRACED_INTERNAL_FUNCTIONS=array_sum,mt_rand,DateTime::add`. These two changes enable a significant performance optimization.\n\n### Changed\n- Avoid usage of spl_autoload_register while still allowing noop manual instrumentation without ext installed #877\n- Sandbox Slim integration #878\n- Sandbox Lumen integration #884\n- Sandbox CakePHP integration #898\n- Remove legacy hook for OpenTracing #899\n- Noop the legacy API when a potentially conflicting module detected #900, #905\n- Move the request init hook to `auto_prepend_file` #907\n- Optimize internal functions handlers at startup (PHP 7) #895\n\n### Fixed\n- Fix early return in dd-doctor #894 (thank @tatsuo48!)\n- Fix opcache check in dd-doctor #896 - thanks @tatsuo48\n- Update CONTRIBUTING.md #897 - thanks @askkaz",
+            "get": "https://pecl.php.net/get/datadog_trace-0.46.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.45.1": {
+            "version": "0.45.1",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2020-05-18T21:07:54+00:00",
+            "releaseNotes": "### Fixed\n\n- Fix uncaught exceptions with auto flushing enabled #882\n- Prevent curl and guzzle from inheriting top level app name #885\n- Change PDO service name to lowercase #886",
+            "get": "https://pecl.php.net/get/datadog_trace-0.45.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.45.0": {
+            "version": "0.45.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2020-05-12T19:00:20+00:00",
+            "releaseNotes": "## Important behavior changes in this release\nIf you are using `dd_trace`, `dd_trace_function`, or `dd_trace_method` then you need to call these functions before the first invocation of the target e.g. `dd_trace('foo', ...)` should be done before `foo` is called for the first time.\n\n### Changed\n\n- Compile to one single file #840, #874\n- Simplify configuration #833, #870\n- Refactor module blacklist #852\n- Cache that a function is not traced #854, #863\n- Simplify spl_autoload_register instrumentation #867\n- Use normalized URL as the resource name for curl #869 (thanks, @akdh!)\n- Sandbox header and http_response_code #875\n\n### Fixed\n\n- Fix variadic args with empty function signature #872\n- Bump phpstan to 0.12 and fix issues #841",
+            "get": "https://pecl.php.net/get/datadog_trace-0.45.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.44.1": {
+            "version": "0.44.1",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2020-04-29T23:01:19+00:00",
+            "releaseNotes": "### Fixed\n\n- Revert \"Merge pull request #815 from DataDog/levi/ddtrace_moment\" #859\nThis fixes issue #855.",
+            "get": "https://pecl.php.net/get/datadog_trace-0.44.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.44.0": {
+            "version": "0.44.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2020-04-28T18:26:00+00:00",
+            "releaseNotes": "### Fixed\n\n- Fix ddtrace_config_* functions to use sapi_getenv #848\n- Fix curl integrations #851\n\n### Changed\n\n- Whitelist the `cgi-fcgi` SAPI #835\n- Add ddtrace_hash_find_ptr_lc which stack-allocates small strings #839",
+            "get": "https://pecl.php.net/get/datadog_trace-0.44.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.43.0": {
+            "version": "0.43.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2020-04-22T18:14:51+00:00",
+            "releaseNotes": "**Note: This release comes with minor behavior changes for tracing closures on PHP 7. Please see [the PR for details](https://github.com/DataDog/dd-trace-php/pull/762).**\n\n### Added\n\n- Service mapping with `DD_SERVICE_MAPPING=pdo:payments-db,mysqli:orders-db` #801, #817\n- Auto flushing with `DD_TRACE_AUTO_FLUSH_ENABLED=1` (PHP 7) #819, #826\n- Disable automatic root-span creation with `DD_TRACE_GENERATE_ROOT_SPAN=0` #834\n\n### Changed\n\n- Always return unaltered VM dispatch (PHP 7) #762\n- Uri to resource name ON by default #798\n- Sandbox Guzzle #809, #816\n- Sandbox predis integration #813\n- Sandbox curl (PHP 7) #814, #817, #831\n- Convert pid from long to string for internal spans #825\n- Move some Configuration methods to functions written at the C level #829",
+            "get": "https://pecl.php.net/get/datadog_trace-0.43.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.42.0": {
+            "version": "0.42.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2020-04-01T18:05:06+00:00",
+            "releaseNotes": "### Added\n\n- Close open sandboxed spans on exit (PHP 5) #780\n- Prehook feature to run tracing closures before the original call #784\n\n### Changed\n\n- Enable background sender (BGS) by default #796, #800\n- Improves alpine extensions build/verify process #774\n- Refactor Symfony integration #786\n- Let curl calculate Content-Length header value when sending requests to the agent #804\n\n### Fixed\n\n- Pass return value as null to tracing closure when value IS_UNDEF #791 (thanks for the report @wajdisawaf!)\n- Set a sane memory limit when running php from inside post-install hook #792",
+            "get": "https://pecl.php.net/get/datadog_trace-0.42.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.41.1": {
+            "version": "0.41.1",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2020-03-10T18:05:21+00:00",
+            "releaseNotes": "### Fixed\n- Fix pecl installs #781\n- Fix background sender logging for ZTS #783",
+            "get": "https://pecl.php.net/get/datadog_trace-0.41.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.41.0": {
+            "version": "0.41.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2020-03-02T18:56:30+00:00",
+            "releaseNotes": "### Added\n- Put compile_file hook behind a feature flag, default on #757\n\n### Changed\n- Require curl at configuration time #766\n- Log background sender messages to error_log #776\n- Deprecate manual usage of legacy Symfony bundles and Laravel provider #772\n- Separate background sender timeout env vars from userland #773\n\n### Fixed\n- Gracefully handle a dropped span on exit #765\n- Update contribution guidelines #769\n- Trace http response code when set via function 'http_response_code' #755 - thanks @aderiyenko\n- Fix execinfo on builds from source in Alpine containers #752",
+            "get": "https://pecl.php.net/get/datadog_trace-0.41.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.40.0": {
+            "version": "0.40.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2020-02-19T18:52:10+00:00",
+            "releaseNotes": "### Added\n- Background sender debug info in dd-doctor #758\n\n### Changed\n- Run neighboring extension's opcode handlers before instrumenting #754\n\n### Fixed\n- Circuit breaker should not prevent background sender #760",
+            "get": "https://pecl.php.net/get/datadog_trace-0.40.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.39.0": {
+            "version": "0.39.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2020-01-31T19:40:22+00:00",
+            "releaseNotes": "### Changed:\n - Bring background sender to feature parity #738",
+            "get": "https://pecl.php.net/get/datadog_trace-0.39.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.38.1": {
+            "version": "0.38.1",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2020-01-28T23:29:02+00:00",
+            "releaseNotes": "### Fixed\n- MessagePack serialization with a reference #730",
+            "get": "https://pecl.php.net/get/datadog_trace-0.38.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.38.0": {
+            "version": "0.38.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2020-01-27T20:27:19+00:00",
+            "releaseNotes": "### Added\n- Official support for PHP 7.4 #723\n- Tools to measure memory overhead #718\n\n### Changed\n- Move Laravel to sanboxed api #700\n- Remove the sandbox API for PHP 5.4 #719\n- Dual-licensed under Apache 2.0 or BSD3 #727\n\n### Fixed\n- README reference to RELEASING.md was removed #720 (thanks @v1v!)\n- MessagePack serialization with a reference #730",
+            "get": "https://pecl.php.net/get/datadog_trace-0.38.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.37.0": {
+            "version": "0.37.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2020-01-08T16:54:29+00:00",
+            "releaseNotes": "### Added\n- Target a specific PHP version during install by setting `DD_TRACE_PHP_BIN` #604\n- Curl Integration: Add all available information from `curl_getinfo()` as span tags #642\n\n### Changed\n- Move dogstatsd client init to rinit #703\n\n### Fixed\n- Issues related to limited tracing #689\n- Backup and restore last error (related to `error_get_last()` issue) #694\n- Handle out-of-sync spans #702\n- Sandbox tracer flushing #707\n- Enhance OpenTracing StartSpanOptions support #708\n- Ensure errors raised in request init hook do not affect `error_get_last()` #709",
+            "get": "https://pecl.php.net/get/datadog_trace-0.37.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.36.0": {
+            "version": "0.36.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-12-19T14:18:59+00:00",
+            "releaseNotes": "**Note** environment variable `DD_SAMPLING_RATE` as been deprecated. Use `DD_TRACE_SAMPLE_RATE` instead.\n\n### Added\n\n- Close open sandboxed spans on exit on PHP 7 #679\n- Support for tracing without limits #686\n- Add extra info to curl errors #688\n\n### Changed\n\n- Enable Sandboxed Symfony Integration #682\n- Migrate Mongo library integration to sandboxed api #669\n- Rename env DD_SAMPLING_RATE to DD_TRACE_SAMPLE_RATE #687",
+            "get": "https://pecl.php.net/get/datadog_trace-0.36.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.35.0": {
+            "version": "0.35.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-12-06T02:23:33+00:00",
+            "releaseNotes": "### Added\n\n- Compile-time metric #648\n- Health metrics: track segmentation faults  #621\n\n### Changed\n\n- Migrate Mysqli integration to sandboxed api #635\n- Migrate Zend framework integration to sandboxed api #655\n- Migrate Symfony framework integration to sandboxed api #667\n- Migrate Mongo library integration to sandboxed api #669\n- Refactor opcode hooks #659\n\n### Fixed\n\n- CodeIgniter namespace definition #650\n- Error reporting in case of fatal errors #671\n- Mutation of Memcached result code #663",
+            "get": "https://pecl.php.net/get/datadog_trace-0.35.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.34.1": {
+            "version": "0.34.1",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-11-11T22:15:24+00:00",
+            "releaseNotes": "### Fixed\n\n- PHP notice of undefined indexes `REQUEST_METHOD` and `REQUEST_URI` when running the request init hook on unsupported SAPI's #637\n- Distributed trace ID handling #645",
+            "get": "https://pecl.php.net/get/datadog_trace-0.34.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.34.0": {
+            "version": "0.34.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-10-29T17:58:18+00:00",
+            "releaseNotes": "### Added\n\n- Yii 2 support #624, #630\n- Enable tracing when no autoloaders used by setting `DD_TRACE_NO_AUTOLOADER=true` #627\n- Safe to-string conversion for all datatypes on `DDTrace\\SpanData` #613\n\n### Changed\n\n- Improve dd-doctor with and container tagging detector when open_basedir is set #629",
+            "get": "https://pecl.php.net/get/datadog_trace-0.34.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.33.0": {
+            "version": "0.33.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-10-17T10:29:11+00:00",
+            "releaseNotes": "### Added\n- Trace origin support (Synthetics support) #615",
+            "get": "https://pecl.php.net/get/datadog_trace-0.33.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.32.1": {
+            "version": "0.32.1",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-10-10T10:46:58+00:00",
+            "releaseNotes": "### Added\n\n- Preview CodeIgniter v2 integration #588\n- Preview WordPress v4 integration #570\n\nPlease report any issues you encounter with these two preview integrations.\n\n### Fixed\n\n- ZF1 integration response after loading #609\n- Prevent `mysqli_connect()` span from closing twice #610\n- Support mysqli usage when using real_connect approach #607",
+            "get": "https://pecl.php.net/get/datadog_trace-0.32.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.31.0": {
+            "version": "0.31.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-10-03T16:47:06+00:00",
+            "releaseNotes": "### Added\n- Add container id header to http transport (Container Tagging) - #552\n- Attach exceptions to spans in new API #548\n\n### Changed\n- Migrate PDO integration to sandbox API #538\n- Migrate Eloquent integration to sandbox API #559\n- Migrate memcached integration to sandbox API #578\n- Migrate elasticsearch integration to sandbox API #562\n\n### Fixed\n- Predis integration for clusters #574 (thank you @RaoulMeyer!)\n- Avoid reserved word \"fn\" #543\n- Fix ZTS builds, remove COMPAT_CTX_* #544\n- Curl headers are overwritten when using `curl_copy_handle` function #502\n- Correctly treat class names as case insensitive #571\n- Static keyword handling #576\n- Improve sandboxing of request init hook #583\n- Make PHP API check more specific #590 (thank you @iedsapala!)",
+            "get": "https://pecl.php.net/get/datadog_trace-0.31.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.30.2": {
+            "version": "0.30.2",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-09-19T00:35:22+00:00",
+            "releaseNotes": "### Fixed\n- Ensure the request init hook is bound by the `open_basedir` INI directive #579",
+            "get": "https://pecl.php.net/get/datadog_trace-0.30.2",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.30.0": {
+            "version": "0.30.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-08-08T17:08:50+00:00",
+            "releaseNotes": "### Fixed\n- Shutdown span flushing blocking the process when forked #493\n- Memory access errors in cases when PHP code was run after extension data was freed on request shutdown #505\n- Request init hook working when open_basedir restriction is in effect #505\n- Ensure global resources are freed in shutdown #521 #523\n- Http transport not setting required `X-Datadog-Trace-Count` header #525\n\n### Changed\n- Remove `zend_execute_ex` override and trace `ZEND_DO_UCALL` #519",
+            "get": "https://pecl.php.net/get/datadog_trace-0.30.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.29.0": {
+            "version": "0.29.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-07-02T16:54:27+00:00",
+            "releaseNotes": "### Fixed\n- Edge case where the extension version and userland version can get out of sync #488\n\n### Changed\n- Prefix hostnames as service names with `host-` to ensure compatibility with the Agent #490",
+            "get": "https://pecl.php.net/get/datadog_trace-0.29.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.28.1": {
+            "version": "0.28.1",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-06-24T20:58:49+00:00",
+            "releaseNotes": "### Fixed\n- Race condition when reading configuration from within writer thread context #486",
+            "get": "https://pecl.php.net/get/datadog_trace-0.28.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.28.0": {
+            "version": "0.28.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-06-20T16:27:57+00:00",
+            "releaseNotes": "### Added\n- Officially support Symfony 3.0 and 4.0 #475\n\n### Fixed\n- Stack level too deep error due to changes in how PHP interprets Opcodes caused by the extension #477\n\n### Changed\n- Backtrace handler will be run only once and will display information about maximum stack size being reached #478",
+            "get": "https://pecl.php.net/get/datadog_trace-0.28.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.27.2": {
+            "version": "0.27.2",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-06-06T15:44:32+00:00",
+            "releaseNotes": "### Changed\n- Valgrind configuration to perform more thorough memory consistency verification #472\n\n### Fixed\n- Memory leak detected in tests #472",
+            "get": "https://pecl.php.net/get/datadog_trace-0.27.2",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.27.1": {
+            "version": "0.27.1",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-06-05T17:22:23+00:00",
+            "releaseNotes": "### Fixed\n- Memory leak when garbage collecting span stacks #469",
+            "get": "https://pecl.php.net/get/datadog_trace-0.27.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.26.0": {
+            "version": "0.26.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-05-31T16:43:39+00:00",
+            "releaseNotes": "### Added\n- Initial implementation of flushing spans via background thread #450\n\n### Changed\n- URL-normalization rule boundaries #457",
+            "get": "https://pecl.php.net/get/datadog_trace-0.26.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.23.0": {
+            "version": "0.23.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-05-09T15:14:36+00:00",
+            "releaseNotes": "**NOTE: We changed the way the service name can be configured. Now you must use `DD_SERVICE_NAME` instead of `DD_TRACE_APP_NAME` for consistency with other tracers. Usage of `DD_TRACE_APP_NAME` is now deprecated and will be removed in a future release.**\n\n### Added\n- Support for Lumen 5.2+ #416\n- Tracing support from the CLI SAPI #422\n- Support for Laravel Artisan #422\n\n### Changed\n- Now the way to configure service name is through `DD_SERVICE_NAME` instead of `DD_TRACE_APP_NAME` #432",
+            "get": "https://pecl.php.net/get/datadog_trace-0.23.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.22.0": {
+            "version": "0.22.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-05-07T15:27:07+00:00",
+            "releaseNotes": "### Added\n- Official support for PHP 7.3 #429\n- Tracer limited mode where spans are not created to preserve resources #417\n\n### Fixed\n- Error when a subclassed integration returns an object that cannot be cast as a string #423",
+            "get": "https://pecl.php.net/get/datadog_trace-0.22.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.21.0": {
+            "version": "0.21.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-05-01T17:41:37+00:00",
+            "releaseNotes": "### Added\n- `dd_trace_forward_call()` to forward the original call from within a tracing closure #284\n\n### Fixed\n- `parent::` keyword not honored from a subclass when forwarding a call from a tracing closure #284\n- Private and protected callable strings not resolved properly from a tracing closure #303",
+            "get": "https://pecl.php.net/get/datadog_trace-0.21.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.20.0": {
+            "version": "0.20.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-04-25T17:33:54+00:00",
+            "releaseNotes": "### Added\n- Force tracing or discarding trace via special Span tag (manual.keep and manual.drop) #409\n\n### Fixed\n- Resource use by caching configuration values instead of processing data on every access #406",
+            "get": "https://pecl.php.net/get/datadog_trace-0.20.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.19.0": {
+            "version": "0.19.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-04-12T16:34:50+00:00",
+            "releaseNotes": "### Changed\n- Span and SpanContext main implementation uses public fields to share data to allow faster serialization and overall Span overhead #398\n- `DDTrace\\Encoders\\SpanEncoder::encode()` now takes an instance of `DDTrace\\Data\\Span` instead of `DDTrace\\Contracts\\Span` #398\n- `DDTrace\\Processing\\TraceAnalyticsProcessor::process()` now takes an instance of `DDTrace\\Data\\Span` instead of `DDTrace\\Contracts\\Span` #398\n- Improve performance of setTag and setResource #398\n- Load required PHP files in one go #387\n- Load optional PHP files without filesystem check #387",
+            "get": "https://pecl.php.net/get/datadog_trace-0.19.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.18.0": {
+            "version": "0.18.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-04-08T18:44:02+00:00",
+            "releaseNotes": "**NOTE: THIS IS A BREAKING CHANGE RELEASE**\n\nThis change should not impact most users.\n\n### Added\n- MessagePack serialization for traces sent to the Agent with a new function `dd_trace_serialize_msgpack()` #378\n\n### Changed\n- Request init hook module blacklist now avoids miss matching partial matches #372\n- Add 10MB cap to payloads sent to the Agent #388\n- Added an `getTracesAsArray()` method to `DDTrace/Contracts/Tracer` which returns an array of spans (which are also encoded as an array.) To encode an instance of `DDTrace\\Contracts\\Span` as an array, use `DDTrace/Encoders/SpanEncoder::encode($span)` #378\n- `DDTrace/Transport::send()` now takes an instance of `DDTrace/Contracts/Tracer` instead of an `array` #378\n- `DDTrace/Encoder::encodeTraces()` now takes an instance of `DDTrace/Contracts/Tracer` instead of an `array` #378\n- The default encoder is now `DDTrace/Encoders/MessagePack`. You can still use the JSON encoder by setting the environment variable `DD_TRACE_ENCODER=json`. It is generally not recommended to use the JSON encoder as parsing JSON payloads at the Agent level is more CPU & memory intensive.",
+            "get": "https://pecl.php.net/get/datadog_trace-0.18.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.17.0": {
+            "version": "0.17.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-03-27T14:46:24+00:00",
+            "releaseNotes": "### Added\n  - Integration aware spans #360\n  - Trace Analytics Client Configuration #367",
+            "get": "https://pecl.php.net/get/datadog_trace-0.17.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.16.1": {
+            "version": "0.16.1",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-03-21T14:13:42+00:00",
+            "releaseNotes": "### Fixed\n\n- Error traces don't appear in \"Total Errors\" panel #375",
+            "get": "https://pecl.php.net/get/datadog_trace-0.16.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.16.0": {
+            "version": "0.16.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-03-19T18:35:56+00:00",
+            "releaseNotes": "### Changed\n- When shutdown hook is executed we disable all tracing to avoid creating unnecessary spans #361\n- Inside request init hook we disable all function tracing when we decide not to trace #361\n\n### Added\n- Disable request_init_hook functionality in presence of blacklisted modules via `ddtrace.internal_blacklisted_modules_list=some_module,some_other_module` #345 & #370\n- Integration-level configuration #354\n- `dd_trace_disable_in_request` function which disables all function tracing until request ends #361\n\n### Fixed\n- Symfony template rendering spans #359\n- Laravel integration user ID errors #363\n- Non-success HTTP response codes aren't properly categorized as errors in the APM UI #366",
+            "get": "https://pecl.php.net/get/datadog_trace-0.16.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.15.1": {
+            "version": "0.15.1",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-03-11T16:52:16+00:00",
+            "releaseNotes": "### Added\n- Symfony 2.3 web tests for resource name #349\n- Update images and enable leak detection, split tests in CI to Unit, Integration and Web #299\n\n### Fixed\n- Resource name on Symfony 2.x requests served through controllers #341\n- Sanitize url in web spans #344\n- Laravel 5.8 compatibility #351",
+            "get": "https://pecl.php.net/get/datadog_trace-0.15.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.14.1": {
+            "version": "0.14.1",
+            "state": "beta",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-02-27T15:24:34+00:00",
+            "releaseNotes": "### Fixed\n- Large number of mysqli spans not containing relevant information #330",
+            "get": "https://pecl.php.net/get/datadog_trace-0.14.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.14.0": {
+            "version": "0.14.0",
+            "state": "beta",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-02-26T20:40:57+00:00",
+            "releaseNotes": "### Added\n- Loading of integrations before knowing if the library will be actually used #319\n- Ability to define tracing for not yet defined methods and classes #325",
+            "get": "https://pecl.php.net/get/datadog_trace-0.14.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.13.4": {
+            "version": "0.13.4",
+            "state": "beta",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-02-25T11:48:17+00:00",
+            "releaseNotes": "Special thanks to @stayallive for helping us debugging the memory issues in his environment! His help and\nguidance were of paramount importance.\n\n### Fixed\n- Accessing freed memory when instrumentation code un/instrumented itself #314\n- Freeing `$this` object prematurely in PHP-FPM VM #317",
+            "get": "https://pecl.php.net/get/datadog_trace-0.13.4",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.13.3": {
+            "version": "0.13.3",
+            "state": "beta",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-02-19T17:16:29+00:00",
+            "releaseNotes": "### Fixed\n- 7.x handling of `$this` pointer passed to the closure causing errors in PHP VM #311",
+            "get": "https://pecl.php.net/get/datadog_trace-0.13.3",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.13.2": {
+            "version": "0.13.2",
+            "state": "beta",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-02-19T16:56:52+00:00",
+            "releaseNotes": "### Added\n- Optional extension .so files compiled with \"-g\" flag #306\n- Log backtrace on segmentation fault, enabled via ddtrace.log_backtrace=1 #300\n\n### Fixed\n- Auto-instrumentation when user's autoloader throws exception on not found #305",
+            "get": "https://pecl.php.net/get/datadog_trace-0.13.2",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.13.1": {
+            "version": "0.13.1",
+            "state": "beta",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-02-13T15:28:42+00:00",
+            "releaseNotes": "### Fixed\n- Honor ddtrace provided by composer if user provided one #276\n- Remove unused function that was moved to dispatch_table_dtor() (#291)\n- PHP 5.4 incorrectly handling nested internal functions #295",
+            "get": "https://pecl.php.net/get/datadog_trace-0.13.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.13.0": {
+            "version": "0.13.0",
+            "state": "beta",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-02-12T20:06:08+00:00",
+            "releaseNotes": "### Added\n- Span::setResource as a legit method # 287\n- Logging more span's info when in debug mode # 292\n\n### Fixed\n- Symfony 4.2 traces generation #280\n- Memory leak and misshandling of return value in PHP 5.4 #281\n- Drupal crashes (temporary workaround) #285\n- Tracing of http status code in generic web requests #288\n- Route not set in symfony 3.4 when user calls exit() #289\n- Fix hash table dtor for PHP 7 #290",
+            "get": "https://pecl.php.net/get/datadog_trace-0.13.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.12.0": {
+            "version": "0.12.0",
+            "state": "beta",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-02-01T18:19:50+00:00",
+            "releaseNotes": "### Added\n- Support for global tags via the environment variable `DD_TRACE_GLOBAL_TAGS=key1:value1,key2:value2` #273\n\n### Fixed\n- Memory leaks in `$this` object and return value handling in PHP 5.6 and 7.x #268\n- Alpine APK package file being badly formatted when some file paths were over 100 character long #274\n- Extension being compatible with CentOS 6 and other distributions using old Glibc #265",
+            "get": "https://pecl.php.net/get/datadog_trace-0.12.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.11.0": {
+            "version": "0.11.0",
+            "state": "beta",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-01-29T18:30:24+00:00",
+            "releaseNotes": "**WARNING: THIS IS A BREAKING CHANGE RELEASE**\n\nThis change should not impact most of the users as starting from `0.10.0` it is not required (and not recommended) to\nmanually set the transport. `DDtrace\\Transport\\Http` no longer accepts a logger as the second argument as it uses\nthe globally registered logger. If you are using the `Http` class, just remove the second argument from the constructor\ninvocation.\n\n### Added\n- Support for guzzle 6 #254\n- Configurable Sampler #260\n- Debug mode for logging #261\n- Support for symfony 3.3 #266 and #243\n- Build php 5.4 extension locally #267\n- Basic tracing for unsupported and custom frameworks #264\n\n### Fixed\n- Composer PHP compatibility declaration #247\n- Release notes for PECL and fix type-os in CHANGELOG #248\n- Add missing files to PECL releases #252\n- PHP 5.4 installation and build #255\n- Trigger of autoloader un-tracing did not respect object #256\n- docker-compose based packages verification #257\n- Incorrect tar command in one-liner example from getting_started.md #258 - thanks @danielkay\n- Auto-instrumentation in Symfony 3.4 and PHP 5.6 #262\n- Type-o in command to install .deb packages #263",
+            "get": "https://pecl.php.net/get/datadog_trace-0.11.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.10.0": {
+            "version": "0.10.0",
+            "state": "beta",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-01-22T15:06:08+00:00",
+            "releaseNotes": "**WARNING: THIS IS A BREAKING CHANGE RELEASE**\n\nRefer to the migration guide (/UPGRADE-0.10.md) for a detailed description.\n\nAt an high level here are the breaking changes we introduced:\n\n- We removed OpenTracing as a required dependency. We still support OpenTracing, so you can do `OpenTracing\\GlobalTracer::get()` in your code and still retrieve a OpenTracing compliant tracer, but OpenTracing dependency is now optional.\n- We introduced auto-instrumentation and 1-step installation in place of manual registration of providers/bundles. Before, in order to see traces, you had to install our extension, add two dependencies to the composer file and add a provider (Laravel) or a bundle (Symfony). Starting from now you will only have to install the extension. You still have freedom to manually instrument the code, but only for advanced usage.\n\n### Added\n- Request init hook configuration allowing running arbitrary code before actual request execution #175\n- Support OpenTracing without depending on it #193\n- Initial C extension PHP 5.4 support #205\n- Removal of external dependencies to support auto-instrumentation #206\n- Migration from namespace based constants to class based constants for tags, formats and types #207\n- Track integration loading to avoid re-loading unnecessary ones #211\n- Documenting release steps #223\n- Ability to run web framework tests in external web server #232\n- Support for auto-instrumentation #237\n- Support for Zend Framework 1 #238\n- `Tracer::startRootSpan()` to track the root `Scope` instance which can be accessed with `Tracer::getRootScope()` #241\n\n### Fixed\n- The INI settings now appear in `phpinfo()` and when running `$ php -i` #242",
+            "get": "https://pecl.php.net/get/datadog_trace-0.10.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.9.1": {
+            "version": "0.9.1",
+            "state": "beta",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-01-11T21:26:54+00:00",
+            "releaseNotes": "### Added\n- Ability to reset all overrides via `dd_trace_reset`\n\n### Changed\n- By default do not throw an exception when method or function doesn't exist\n\n### Fixed\n- Eloquent integration calling protected `performInsert` method",
+            "get": "https://pecl.php.net/get/datadog_trace-0.9.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.9.0": {
+            "version": "0.9.0",
+            "state": "beta",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-01-07T17:59:02+00:00",
+            "releaseNotes": "### Added\n- PHP code compatibility with PHP 5.4 #194\n- Move framework tests to tests root folder #198\n- Move integrations tests to tests root folder #200\n- Allow testing of multiple library versions #203\n- Downgrade of phpunit to 4.* in order to prepare for php 5.4 #208\n- Configurable autofinishing of unfinished spans on tracer flush #217\n\n### Fixed\n- Predis integration supporting constructor options as an object #187 - thanks @raffaellopaletta\n- Properly set http status code tag in Laravel 4 integration #195\n- Agent calls traced when using Symfony 3 integration #197\n- Fix for trace and span ID's that were improperly serialized on the wire in distributed tracing contexts #204\n- Fix noop tracer issues with Laravel integration #220",
+            "get": "https://pecl.php.net/get/datadog_trace-0.9.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.8.1": {
+            "version": "0.8.1",
+            "state": "beta",
+            "license": "BSD 3-Clause",
+            "releasedBy": "sammyk",
+            "releaseDate": "2019-01-04T15:41:13+00:00",
+            "releaseNotes": "-",
+            "get": "https://pecl.php.net/get/datadog_trace-0.8.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        }
+    },
+    "summary": "APM and distributed tracing for PHP",
+    "SPDX-License-Identifier": "BSD-3-Clause"
+}

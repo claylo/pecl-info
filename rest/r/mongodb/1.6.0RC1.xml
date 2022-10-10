@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.6.0RC1</v>
+ <st>beta</st>
+ <l>Apache License</l>
+ <m>alcaeus</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2019-09-02 15:00:08</da>
+ <n>** Bug
+* [PHPC-1419] - Error label from server error is not exposed in ServerException
+* [PHPC-1432] - Fix documentation for Session::startTransaction() options parameter
+* [PHPC-1435] - Fix Session::startTransaction() arginfo
+
+** Epic
+* [PHPC-1235] - PHPC MongoDB 4.2 Support
+
+** New Feature
+* [PHPC-1254] - Implement ObjectID spec
+* [PHPC-1288] - Implement Unified URI Options
+* [PHPC-1290] - Support mongos pinning for sharded transactions
+
+** Task
+* [PHPC-1428] - Bump libmongoc to 1.15.1
+
+** Improvement
+* [PHPC-1346] - Do not allow empty string for username
+* [PHPC-1431] - Session::startTransaction() should accept null for options</n>
+ <f>1095076</f>
+ <g>https://pecl.php.net/get/mongodb-1.6.0RC1</g>
+ <x xlink:href="package.1.6.0RC1.xml"/>
+</r>

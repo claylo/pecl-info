@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/radius">radius</p>
+ <c>pecl.php.net</c>
+ <v>1.2.7</v>
+ <st>stable</st>
+ <l>BSD</l>
+ <m>aharvey</m>
+ <s>Radius client library</s>
+ <d>This package is based on the libradius of FreeBSD, with some modifications and extensions. 
+This PECL provides full support for RADIUS authentication (RFC 2865) and RADIUS accounting (RFC 2866), 
+works on Unix and on Windows. Its an easy way to authenticate your users against the user-database of your 
+OS (for example against Windows Active-Directory via IAS).</d>
+ <da>2013-06-27 17:18:46</da>
+ <n>This release fixes a security issue in radius_get_vendor_attr(). It is strongly
+recommended that users using vendor specific attributes upgrade immediately,
+with other users encouraged to upgrade when practical.
+
+- Fix a security issue in radius_get_vendor_attr() by enforcing checks of the
+  VSA length field against the buffer size. (Adam)</n>
+ <f>35779</f>
+ <g>http://pecl.php.net/get/radius-1.2.7</g>
+ <x xlink:href="package.1.2.7.xml"/>
+</r>

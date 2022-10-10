@@ -1,0 +1,94 @@
+{
+    "category": "Languages",
+    "deprecated": false,
+    "description": "This extension allow you to embed Mozilla's Javascript engine Spidermonkey in PHP.",
+    "latestReleaseDate": "2012-04-19T00:09:08+00:00",
+    "latestVersion": "1.0.0",
+    "license": "PHP License",
+    "name": "spidermonkey",
+    "summary": "JavaScript engine for PHP",
+    "php8Mentioned": false,
+    "releases": {
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "crobin",
+            "releaseDate": "2012-04-19T00:09:08+00:00",
+            "releaseNotes": "* Fixed package\n* Fixed compilation issue on 5.3\n* Bumped version to 1.0.0 to prevent PECL from complaining about the version",
+            "get": "http://pecl.php.net/get/spidermonkey-1.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.1": {
+            "version": "0.2.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "crobin",
+            "releaseDate": "2012-04-17T06:07:45+00:00",
+            "releaseNotes": "* Fixed compilation for 5.4",
+            "get": "http://pecl.php.net/get/spidermonkey-0.2.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.0": {
+            "version": "0.2.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "crobin",
+            "releaseDate": "2012-03-09T01:48:53+00:00",
+            "releaseNotes": "* Added support for spidermonkey 1.8.5",
+            "get": "http://pecl.php.net/get/spidermonkey-0.2.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.4": {
+            "version": "0.1.4",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "crobin",
+            "releaseDate": "2010-02-23T07:22:28+00:00",
+            "releaseNotes": "* Fixed bugs 16866, 16876, 16890, 16983:\n  * Bug 16866: Returning empty string from static function causes segmentation fault\n  * Bug 16876: Empty string as a parameter causes segfault ( same as 16866 )\n  * Bug 16890: Variable is cleaned while being used in JS\n  * Bug 16983: Problems with registering classes containing __get()\n* Added compatibility with spidermonkey 1.9",
+            "get": "http://pecl.php.net/get/spidermonkey-0.1.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.3": {
+            "version": "0.1.3",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "crobin",
+            "releaseDate": "2009-10-05T05:04:01+00:00",
+            "releaseNotes": "* Fixed several segfault ( thanks to clay and rrichards )",
+            "get": "http://pecl.php.net/get/spidermonkey-0.1.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.2": {
+            "version": "0.1.2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "crobin",
+            "releaseDate": "2009-03-13T10:29:13+00:00",
+            "releaseNotes": "* Allow the extension to compile on Ubuntu/Debian\n* Removed a cyclic reference bug when converting values from Javascript",
+            "get": "http://pecl.php.net/get/spidermonkey-0.1.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.1": {
+            "version": "0.1.1",
+            "state": "alpha",
+            "license": "PHP License",
+            "releasedBy": "crobin",
+            "releaseDate": "2009-02-27T05:42:21+00:00",
+            "releaseNotes": "* Bug correction on NULL values that would make the app segfault\n* Several optimisations on types conversion\n* Added tell() function on streams\n* Created tests for \"make test\"",
+            "get": "http://pecl.php.net/get/spidermonkey-0.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.0": {
+            "version": "0.1.0",
+            "state": "alpha",
+            "license": "PHP License",
+            "releasedBy": "crobin",
+            "releaseDate": "2009-02-24T10:33:55+00:00",
+            "releaseNotes": "- First public release\n- Compile in ZTS mode\n- JSRuntime removed for easier usage\n- Properties works on objects\n- Allow to export classes",
+            "get": "http://pecl.php.net/get/spidermonkey-0.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

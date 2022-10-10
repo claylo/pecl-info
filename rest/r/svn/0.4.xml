@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/svn">svn</p>
+ <c>pecl.php.net</c>
+ <v>0.4</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>scottmac</m>
+ <s>PHP Bindings for the Subversion Revision control system.</s>
+ <d>Bindings for the Subversion revision control system, providing a method for manipulating
+	a working copy or repository with PHP.</d>
+ <da>2008-06-03 21:05:40</da>
+ <n>- Fix bug #13414 - Crash when SVN environment fails to initialise.
+- Fix bug #13677,#13162 - Several functions fail to canonicalized resulting in an abort() call.
+- Revert change that prevented libsvn 1.3 from being used.
+- Add check during configure for minimum libsvn version.
+- Add support for svn_delete(), svn_mkdir(), svn_move(), svn_proplist() and svn_propget().
+- Allow svn_commit() to take a string instead of an array for paths.
+- Revert backwards compatible break with svn_log()</n>
+ <f>22108</f>
+ <g>http://pecl.php.net/get/svn-0.4</g>
+ <x xlink:href="package.0.4.xml"/>
+</r>

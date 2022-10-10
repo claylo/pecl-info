@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/dbus">dbus</p>
+ <c>pecl.php.net</c>
+ <v>0.1.0</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>derick</m>
+ <s>Extension for interaction with DBUS busses</s>
+ <d>This extension allows you to talk to DBUS services on a system, and also act
+  as a DBUS service.</d>
+ <da>2010-04-03 20:06:22</da>
+ <n>- First release.</n>
+ <f>16901</f>
+ <g>http://pecl.php.net/get/dbus-0.1.0</g>
+ <x xlink:href="package.0.1.0.xml"/>
+</r>

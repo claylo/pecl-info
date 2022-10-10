@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/cubrid">CUBRID</p>
+ <c>pecl.php.net</c>
+ <v>8.3.1.0004</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>cubrid</m>
+ <s>This is the official PHP Extension to connect to CUBRID Database.</s>
+ <d>CUBRID is an open source database management system highly optimized for Web applications (http://www.cubrid.org). The current PHP extension is fully compatibly with the latest stable version of CUBRID Database. To post issues and report bugs, please use CUBRID Official Forum at http://forum.cubrid.org.</d>
+ <da>2011-01-24 21:30:41</da>
+ <n>- zend_long64 don't exist in php-5.2.x, use size_t for LOB size instead.</n>
+ <f>35173</f>
+ <g>http://pecl.php.net/get/CUBRID-8.3.1.0004</g>
+ <x xlink:href="package.8.3.1.0004.xml"/>
+</r>

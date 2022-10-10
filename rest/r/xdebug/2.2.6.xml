@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xdebug">xdebug</p>
+ <c>pecl.php.net</c>
+ <v>2.2.6</v>
+ <st>stable</st>
+ <l>BSD style</l>
+ <m>derick</m>
+ <s>Provides functions for function traces and profiling</s>
+ <d>The Xdebug extension helps you debugging your script by providing a lot of
+valuable debug information. The debug information that Xdebug can provide
+includes the following:
+
+    * stack and function traces in error messages with:
+          o full parameter display for user defined functions
+          o function name, file name and line indications
+          o support for member functions
+    * memory allocation
+    * protection for infinite recursions
+
+Xdebug also provides:
+
+    * profiling information for PHP scripts
+    * code coverage analysis
+    * capabilities to debug your scripts interactively with a debug client</d>
+ <da>2014-11-15 15:16:20</da>
+ <n>Fri, Nov 14, 2014 - xdebug 2.2.6
+
+= Fixed bugs:
+
+ - Fixed bug #1048: Can not get $GLOBAL variable by property_value on function
+   context.
+ - Fixed bug #1073 and #1075: Segmentation fault with internal functions
+   calling internal functions.
+ - Fixed bug #1085: Fixed the tracefile analyser as the format version had been
+   bumbed.
+ - Fixed memory leaks</n>
+ <f>256161</f>
+ <g>http://pecl.php.net/get/xdebug-2.2.6</g>
+ <x xlink:href="package.2.2.6.xml"/>
+</r>

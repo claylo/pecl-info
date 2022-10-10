@@ -1,0 +1,78 @@
+{
+    "category": "Database",
+    "deprecated": false,
+    "description": "Paradox is an extension to read and write Paradox .DB and .PX files.\nIt can handle almost all field types and binary large objects stored\nin .MB files.",
+    "latestReleaseDate": "2007-10-24T09:53:35+00:00",
+    "latestVersion": "1.4.3",
+    "license": "PHP License",
+    "name": "Paradox",
+    "summary": "An extension to read and write Paradox files",
+    "php8Mentioned": false,
+    "releases": {
+        "1.4.3": {
+            "version": "1.4.3",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "steinm",
+            "releaseDate": "2007-10-24T09:53:35+00:00",
+            "releaseNotes": "Fixed build problems on win32",
+            "get": "http://pecl.php.net/get/paradox-1.4.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.4.2": {
+            "version": "1.4.2",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "steinm",
+            "releaseDate": "2007-10-04T10:43:18+00:00",
+            "releaseNotes": "Array returned PX_get_info() contains new key 'recordsize'. Added config.w32. Pass TSRMLS_CC to non api functions.",
+            "get": "http://pecl.php.net/get/paradox-1.4.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.4.1": {
+            "version": "1.4.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "steinm",
+            "releaseDate": "2006-02-13T11:12:39+00:00",
+            "releaseNotes": "PX_insert_record() inserts null values if the record array has less elements than expected. Added test for automatic incrementation of autoinc fields.",
+            "get": "http://pecl.php.net/get/paradox-1.4.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.4.0": {
+            "version": "1.4.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "steinm",
+            "releaseDate": "2006-02-10T07:26:44+00:00",
+            "releaseNotes": "New functions px_delete_record(), px_insert_record(),",
+            "get": "http://pecl.php.net/get/paradox-1.4.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.3.0": {
+            "version": "1.3.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "steinm",
+            "releaseDate": "2004-07-21T14:54:00+00:00",
+            "releaseNotes": "Fields of type BCD and BLOB can be read. New function",
+            "get": "http://pecl.php.net/get/paradox-1.3.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.1.0": {
+            "version": "1.1.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "steinm",
+            "releaseDate": "2004-05-14T10:30:00+00:00",
+            "releaseNotes": "Major overhaul of extension",
+            "get": "http://pecl.php.net/get/paradox-1.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0": {
+            "version": "1.0",
+            "state": "stable"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

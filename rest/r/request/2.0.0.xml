@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/request">request</p>
+ <c>pecl.php.net</c>
+ <v>2.0.0</v>
+ <st>stable</st>
+ <l>MIT</l>
+ <m>pmjones</m>
+ <s>Provides server-side request and response objects.</s>
+ <d>This extension provides server-side request and response objects for PHP.
+
+These are *not* HTTP message objects proper. They are more like wrappers for existing global PHP variables and functions.
+
+Four classes and one interface are defined in the global namespace:
+
+- _SapiRequest_, composed of read-only copies of PHP superglobals and some other commonly-used values.
+
+- _SapiUpload_, a value-object style descriptor of each uploaded file.
+
+- _SapiResponse_ and _SapiResponseInterface_, essentially a wrapper around (and buffer for) response-related PHP functions.
+
+- _SapiResponseSender_, for sending a _SapiResponse_.</d>
+ <da>2020-04-08 12:30:34</da>
+ <n>First 2.0 release, updated for PHP 7.3, 7.4, 8.0, and later.</n>
+ <f>43183</f>
+ <g>https://pecl.php.net/get/request-2.0.0</g>
+ <x xlink:href="package.2.0.0.xml"/>
+</r>

@@ -1,0 +1,24 @@
+{
+    "category": "Tools and Utilities",
+    "deprecated": false,
+    "description": "CLIPS is a tool for building expert systems. This extension is an interface to the CLIPS C library. A CLIPS environment is initialized upon each page request. Most of the common CLIPS commands are available as functions. Additional functions are available to create facts and instances from associative arrays in PHP.",
+    "latestReleaseDate": "2004-11-29T18:24:00+00:00",
+    "latestVersion": "0.5.0",
+    "license": "PHP License 3.0",
+    "name": "clips",
+    "php8Mentioned": false,
+    "releases": {
+        "0.5.0": {
+            "version": "0.5.0",
+            "state": "beta",
+            "license": "PHP License 3.0",
+            "releasedBy": "bmoen",
+            "releaseDate": "2004-11-29T18:24:00+00:00",
+            "releaseNotes": "Initial release",
+            "get": "http://pecl.php.net/get/clips-0.5.0",
+            "SPDX-License-Identifier": "PHP-3.0"
+        }
+    },
+    "summary": "Integrated CLIPS environment for deployment of expert systems",
+    "SPDX-License-Identifier": "PHP-3.0"
+}

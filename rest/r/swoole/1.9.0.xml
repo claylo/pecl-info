@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>1.9.0</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+- event-driven
+- asynchronous non-blocking
+- multi-thread reactor
+- multi-process worker
+- multi-protocol
+- millisecond timer
+- async mysql client
+- built-in http/websocket/http2 server
+- async http/websocket client
+- async redis client
+- async task
+- async read/write file system
+- async dns lookup
+- support IPv4/IPv6/UnixSocket/TCP/UDP
+- support SSL/TLS encrypted transmission</d>
+ <da>2016-11-22 03:37:09</da>
+ <n>- Added Swoole\Redis\Server, redis compatible protocol server framework
+- Added Swoole\Mmap, high-performance disk read and write function
+- Added Swoole\Client::pipe method
+- Added onBufferEmpty and onBufferFull event callback for Swoole\Server
+- Added buffer_high_watermark and buffer_low_watermark option for Swoole\Server
+- Added swoole_clear_dns_cache function
+- Added Swoole\Channel, high performance shared memory queue
+- Fixed redis client type method could not return a string
+- Fixed an issue when the sync client length protocol package_max_length was invalid
+- Fixed low-level version of gcc running under the long-term crash happened
+- Fixed invalid websocket_mask for asynchronous WebSocket client
+- Fixed a problem where the MySQL client crashed accidentally when there were too many records
+- Fixed Mac platform task more than 8K to create a temporary file failed to lead to the problem of undeliverable tasks
+- Fixed taskWaitMulti When the process returns more than 8K receive timeout problem
+- Fixed atmoic add and sub return value exists data synchronization problems</n>
+ <f>534738</f>
+ <g>http://pecl.php.net/get/swoole-1.9.0</g>
+ <x xlink:href="package.1.9.0.xml"/>
+</r>

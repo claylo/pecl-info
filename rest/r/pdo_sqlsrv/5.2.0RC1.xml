@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pdo_sqlsrv">pdo_sqlsrv</p>
+ <c>pecl.php.net</c>
+ <v>5.2.0RC1</v>
+ <st>devel</st>
+ <l>The MIT License (MIT)</l>
+ <m>mbar</m>
+ <s>Microsoft Drivers for PHP for SQL Server (PDO_SQLSRV)</s>
+ <d>The Microsoft Drivers for PHP for SQL Server are PHP extensions that allow for the reading and writing of SQL Server data from within PHP scripts. The SQLSRV extension provides a procedural interface while the PDO_SQLSRV extension implements PDO for accessing data in all editions of SQL Server 2008 R2 and later (including Azure SQL DB). These drivers rely on the Microsoft ODBC Driver for SQL Server to handle the low-level communication with SQL Server.
+*This package contains only the PDO_SQLSRV driver.*</d>
+ <da>2017-12-21 23:25:29</da>
+ <n>[Added]
+- Added support for Ubuntu 17 (requires ODBC 17 preview)
+- Added support for Debian 9 (requires ODBC 17 preview)
+[Fixed]
+- Adjusted precisions for numeric/decimal inputs with Always Encrypted
+- Fixed bugs when binding parameters with Always Encrypted
+- Fixed warnings as per Prefast code analysis
+[Limitations]
+- In Linux and macOS, setlocale() only takes effect if it is invoked before the first connection. The subsequent locale setting will not work
+- Always Encrypted functionalities are only supported using MSODBC 17 preview
+  - ODBC binaries for macOS available upon request
+- MSODBC 17 preview msodbcsql.msi only works for Windows10
+- Always Encrypted limitations
+- No support for inout / output params when using sql_variant type
+- Does not support non-UTF8 locales in Linux and macOS with Always Encrypted
+[Known Issues]
+- Connection pooling on Linux doesn't work properly when using the MSODBC17 preview
+- When pooling is enabled in Linux or macOS
+  - unixODBC &lt;= 2.3.4 (Linux and macOS) might not return proper diagnostics information, such as error messages, warnings and informative messages
+  - due to this unixODBC bug, fetch large data (such as xml, binary) as streams as a workaround. See the examples [here](https://github.com/Microsoft/msphpsql/wiki/Connection-Pooling-on-Linux-and-Mac)</n>
+ <f>166090</f>
+ <g>http://pecl.php.net/get/pdo_sqlsrv-5.2.0RC1</g>
+ <x xlink:href="package.5.2.0RC1.xml"/>
+</r>

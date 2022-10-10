@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/maxdb">maxdb</p>
+ <c>pecl.php.net</c>
+ <v>7.6.00.12</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>simenec</m>
+ <s>An extension to access MaxDB databases</s>
+ <d>MaxDB PHP is an extension which provides access to the MySQL MaxDB databases. It is compatible
+with MySQL's mysqli extension.
+</d>
+ <da>2005-10-06 11:25:09</da>
+ <n>MaxDB PHP with object oriented extensions</n>
+ <f>65465</f>
+ <g>http://pecl.php.net/get/maxdb-7.6.00.12</g>
+ <x xlink:href="package.7.6.00.12.xml"/>
+</r>

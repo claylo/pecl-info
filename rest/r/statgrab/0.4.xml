@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/statgrab">Statgrab</p>
+ <c>pecl.php.net</c>
+ <v>0.4</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>iliaa</m>
+ <s>libstatgab bindings</s>
+ <d>libstatgrab is a library that provides a common interface for retrieving
+a variety of system statistics on a number of *NIX like systems. 
+
+This extension allows you to call the functions made available by
+libstatgrab library.
+</d>
+ <da>2005-04-05 11:24:01</da>
+ <n>1) Fixed config.m4, which caused the statgrab library not to be detected
+   on some systems.</n>
+ <f>5763</f>
+ <g>http://pecl.php.net/get/Statgrab-0.4</g>
+ <x xlink:href="package.0.4.xml"/>
+</r>

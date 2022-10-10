@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.6.0alpha1</v>
+ <st>alpha</st>
+ <l>Apache License</l>
+ <m>derick</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2018-12-03 13:55:09</da>
+ <n>** Epic
+    * [PHPC-1112] - Test suite improvements
+    * [PHPC-1233] - FY2019Q3 Quick Wins
+
+** New Feature
+    * [PHPC-1123] - Create interface for Cursor class
+    * [PHPC-1222] - Implement accessor for error labels on exception classes
+    * [PHPC-1231] - Add Session::isInTransaction to indicate whether a transaction is active
+
+** Task
+    * [PHPC-1122] - Check whether we still need SUPPRESS_UNUSED_WARNING
+    * [PHPC-1173] - Reimplement replica set seedlist tests
+    * [PHPC-1219] - Relax requirement for replica set tagsets assertions
+    * [PHPC-1250] - Document the order in which skip_ifs in tests need to be done
+
+** Improvement
+    * [PHPC-1206] - Add __set_state() support for ReadConcern, ReadPreference, and WriteConcern
+    * [PHPC-1229] - Populate error labels for bulk write exceptions</n>
+ <f>1064377</f>
+ <g>https://pecl.php.net/get/mongodb-1.6.0alpha1</g>
+ <x xlink:href="package.1.6.0alpha1.xml"/>
+</r>

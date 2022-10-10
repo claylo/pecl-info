@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pdflib">pdflib</p>
+ <c>pecl.php.net</c>
+ <v>2.0.2</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>rjs</m>
+ <s>Creating PDF on the fly with the PDFlib library</s>
+ <d>This extension wraps the PDFlib programming library
+for processing PDF on the fly, created by Thomas Merz. 
+
+PDFlib is available under the PDFlib Lite License
+(http://www.pdflib.com/pdffiles/PDFlib-Lite-License.pdf)
+and for commercial licensing.
+</d>
+ <da>2004-07-29 14:03:00</da>
+ <n>Bugfixes:
+- did not work with PHP versions before PHP-4.3.x
+  (php_error_docref is used but not defined).
+  build somtimes works fine, but the problem may
+  appear during runtime.
+- pear install will work on Mac OS X now</n>
+ <f>23053</f>
+ <g>http://pecl.php.net/get/pdflib-2.0.2</g>
+ <x xlink:href="package.2.0.2.xml"/>
+</r>

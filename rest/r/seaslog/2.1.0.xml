@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/seaslog">SeasLog</p>
+ <c>pecl.php.net</c>
+ <v>2.1.0</v>
+ <st>stable</st>
+ <l>PHP3.01</l>
+ <m>neeke</m>
+ <s>An effective,fast,stable log extension for PHP.</s>
+ <d>An effective,fast,stable log extension for PHP.
+        - In the PHP project, for convenient record log.
+        - The default log directory and module configuration.
+        - Specify the log directory and get the current configuration.
+        - Analysis of early warning framework preliminary.
+        - Buffer debug efficient log buffer, convenient.
+        - With PSR-3 Logger interface.
+        - Error and exception automatic logging.
+        - Support appender with File,TCP,UDP.
+        - Send to Rsyslog(TCP/UDP) with RFC5424.
+        - Support RequestId differentiated requests.
+        - Support for log template customizations.
+        - Support trace performance automatic logging.</d>
+ <da>2020-01-01 19:28:54</da>
+ <n>- Support PHP7.4
+- Support getBufferCount function and modify flushBuffer function.
+- Support `%B` in log template, support BasePath.
+- Enhancement trim_wrap.
+- Fixed issue #265.
+- Fixed bug trace_performance core dump by performance_frames init.
+- Fixed ignore php errors before module initialized.
+- Fixed php-stream use update in php7.
+- Fixed can`t append to file after stream changed in php7.</n>
+ <f>114938</f>
+ <g>https://pecl.php.net/get/SeasLog-2.1.0</g>
+ <x xlink:href="package.2.1.0.xml"/>
+</r>

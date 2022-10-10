@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/sca_sdo">SCA_SDO</p>
+ <c>pecl.php.net</c>
+ <v>1.1.1</v>
+ <st>stable</st>
+ <l>Apache 2.0</l>
+ <m>cem</m>
+ <s>Service Component Architecture (SCA) and Service Data Objects (SDO) for PHP</s>
+ <d>Service Data Objects (SDOs) enable PHP applications to work with data from different sources (like a database query, an XML file, or a spreadsheet) using a single interface. SCA for PHP allows a PHP programmer to write reusable components (classes) in PHP, which can be called either locally, or remotely via Web Services, with an identical interface.
+ 
+</d>
+ <da>2006-12-08 09:28:27</da>
+ <n>Fix for bug #9498 - invalid WSDL generation
+Fix for bug 9426 - printing open types
+Update to Apache Tuscany C++ SDO revision level 483149 - includes various fixes for sequenced and open data types.</n>
+ <f>359393</f>
+ <g>http://pecl.php.net/get/SCA_SDO-1.1.1</g>
+ <x xlink:href="package.1.1.1.xml"/>
+</r>

@@ -1,0 +1,44 @@
+{
+    "category": "Multimedia",
+    "deprecated": false,
+    "description": "SDL_mixer extension for PHP provides the binding of functions for audio loading, playing and mixing.",
+    "latestReleaseDate": "2022-03-15T13:41:58+00:00",
+    "latestVersion": "0.4.0",
+    "license": "ZLIB",
+    "name": "sdl_mixer",
+    "php8Mentioned": false,
+    "releases": {
+        "0.4.0": {
+            "version": "0.4.0",
+            "state": "devel",
+            "license": "ZLib",
+            "releasedBy": "kea",
+            "releaseDate": "2022-03-15T13:41:58+00:00",
+            "releaseNotes": "- Fix SDL extension dependency (remicollet)\n- Add workaround for Mix_HasMusicDecoder where not available (remicollet)\n- Properly init/quit sdl_mixer library (remicollet)\n- Improve phpinfo with Mix_Init supported flags (remicollet)\n- Add missing 'src' build directory in config.m4 (kea)",
+            "get": "https://pecl.php.net/get/sdl_mixer-0.4.0",
+            "SPDX-License-Identifier": "Zlib"
+        },
+        "0.3.0": {
+            "version": "0.3.0",
+            "state": "devel",
+            "license": "ZLIB",
+            "releasedBy": "kea",
+            "releaseDate": "2022-03-12T07:11:27+00:00",
+            "releaseNotes": "- Fix wrong file added to pecl package",
+            "get": "https://pecl.php.net/get/sdl_mixer-0.3.0",
+            "SPDX-License-Identifier": "Zlib"
+        },
+        "0.2.0": {
+            "version": "0.2.0",
+            "state": "devel",
+            "license": "ZLIB",
+            "releasedBy": "kea",
+            "releaseDate": "2022-03-11T21:15:08+00:00",
+            "releaseNotes": "- Initial release",
+            "get": "https://pecl.php.net/get/sdl_mixer-0.2.0",
+            "SPDX-License-Identifier": "Zlib"
+        }
+    },
+    "summary": "Binding of SDL_mixer for PHP",
+    "SPDX-License-Identifier": "Zlib"
+}

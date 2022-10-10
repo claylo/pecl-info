@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>1.7.22</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Asynchronous and concurrent and distributed networking	framework for PHP.</s>
+ <d>Asynchronous and concurrent and distributed networking framework for PHP.
+- event-driven
+- full asynchronous non-blocking
+- multi-thread reactor
+- multi-process worker
+- millisecond timer
+- async MySQL
+- async task
+- async read/write file system
+- async dns lookup
+- support IPv4/IPv6/UnixSocket/TCP/UDP
+- SSL/TLS encrypted transmission</d>
+ <da>2015-12-31 09:22:50</da>
+ <n>- Fixed memory leak in PHP7
+- Fixed core dump in PHP7
+- Added swoole_mysql_query
+- Fixed swoole_table-&gt;del damage the memory
+- Added swoole_websocket_server-&gt;exist
+- Added swoole_server ssl_client_cert_file settings
+- Fixed timer exec_time overflow cause stop</n>
+ <f>487337</f>
+ <g>http://pecl.php.net/get/swoole-1.7.22</g>
+ <x xlink:href="package.1.7.22.xml"/>
+</r>

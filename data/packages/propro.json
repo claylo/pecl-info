@@ -1,0 +1,94 @@
+{
+    "category": "PHP",
+    "deprecated": false,
+    "description": "A reusable split-off of pecl_http's property proxy API.",
+    "latestReleaseDate": "2018-04-09T10:32:42+00:00",
+    "latestVersion": "2.1.0",
+    "license": "BSD-2-Clause",
+    "name": "propro",
+    "php8Mentioned": false,
+    "releases": {
+        "2.1.0": {
+            "version": "2.1.0",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2018-04-09T10:32:42+00:00",
+            "releaseNotes": "* PHP-7.2 compatibility",
+            "get": "http://pecl.php.net/get/propro-2.1.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.1": {
+            "version": "2.0.1",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2016-05-25T11:55:47+00:00",
+            "releaseNotes": "* Fixed leak in write_dimension",
+            "get": "http://pecl.php.net/get/propro-2.0.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.0": {
+            "version": "2.0.0",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2016-01-19T09:42:33+00:00",
+            "releaseNotes": "* Internals documentation at http://m6w6.github.io/ext-propro/master/\n* Travis support\n* PHP7 compatible version",
+            "get": "http://pecl.php.net/get/propro-2.0.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.0.2": {
+            "version": "1.0.2",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2016-01-19T08:47:29+00:00",
+            "releaseNotes": "* Internals documentation at http://m6w6.github.io/ext-propro/v1.0.x/\n* Travis support\n* Fix package.xml's maximum and minimum PHP version",
+            "get": "http://pecl.php.net/get/propro-1.0.2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "2.0.0RC1": {
+            "version": "2.0.0RC1",
+            "state": "beta",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2015-12-07T08:25:03+00:00",
+            "releaseNotes": "* Internals documentation at http://m6w6.github.io/ext-propro/master/\n* Travis support\n* PHP7 compatible version",
+            "get": "http://pecl.php.net/get/propro-2.0.0RC1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.0.2RC1": {
+            "version": "1.0.2RC1",
+            "state": "beta",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2015-12-07T08:17:27+00:00",
+            "releaseNotes": "* Internals documentation at http://m6w6.github.io/ext-propro/v1.0.x/\n* Travis support\n* Fix package.xml's maximum and minumum PHP version",
+            "get": "http://pecl.php.net/get/propro-1.0.2RC1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2013-08-12T09:35:38+00:00",
+            "releaseNotes": "* Stable release",
+            "get": "http://pecl.php.net/get/propro-1.0.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.1.0": {
+            "version": "0.1.0",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2013-02-16T18:14:08+00:00",
+            "releaseNotes": "* Initial split-off release",
+            "get": "http://pecl.php.net/get/propro-0.1.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        }
+    },
+    "summary": "Property proxy",
+    "SPDX-License-Identifier": "BSD-2-Clause"
+}

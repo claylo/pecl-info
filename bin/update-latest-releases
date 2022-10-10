@@ -1,0 +1,93 @@
+#!/usr/bin/env php -d display_errors=0
+<?php
+// PECL RSS feeds don't use/respect eTags
+$xml = file_get_contents('https://pecl.php.net/feeds/latest.rss');
+// just to be safe
+$xml = mb_convert_encoding($xml, 'UTF-8');
+
+// make the date easier to access
+function adjustNamespaces($el) {
+    foreach ($el->getNamespaces(true) as $prefix => $ns) {
+        if ($prefix === '') {
+            continue;
+        }
+        $children = $el->children($ns);
+        foreach ($children as $tag => $content) {
+            $el->{$prefix . ':' . $tag} = $content;
+        }
+    }
+}
+
+$feed = new SimpleXMLElement(
+    $xml,
+    LIBXML_NOWARNING | LIBXML_NOERROR | LIBXML_NOCDATA
+);
+
+$date = 'dc:date';
+
+$releases = [];
+
+foreach ($feed->item as $item) {
+    adjustNamespaces($item);
+    // var_dump($item);
+    // echo "{$item->title}\n";
+    $link = (string) $item->link;
+    $qs = parse_url(html_entity_decode($link), PHP_URL_QUERY);
+    $q = [];
+    parse_str($qs, $q);
+    // echo "  package: {$q['package']}\n";
+    // echo "  version: {$q['release']}\n";
+    $reldate = $item->{$date};
+    // echo "  releaseDate: $reldate\n";
+    // UTC dates shouldn't be hard-coded to -05:00!!
+    // @see https://github.com/php/web-pecl/blob/0498405985171c00613fd8572b79a02ac2ca550f/templates/pages/feeds/feeds.php#L33
+    // ... but we know that everything input/output in pecl is UTC!
+    // @see https://github.com/php/web-pecl/blob/0498405985171c00613fd8572b79a02ac2ca550f/include/bootstrap.php#L94
+    $reldate = str_replace('-05:00', '+00:00', $reldate);
+    $d = DateTimeImmutable::createFromFormat(DATE_ATOM, $reldate, new DateTimeZone('UTC'));
+    $releases[] = [
+        'package' => strtolower($q['package']),
+        'version' => $q['release'],
+        'releaseDate' => $d->format(DATE_ATOM)
+    ];
+}
+
+// print_r($releases);
+$commitmsg = '';
+if (sizeof($releases) > 0) {
+    $packages = json_decode(file_get_contents('data/packages.json'), true);
+    // have we seen this release?
+    foreach ($releases as $rel) {
+        $pkg = $rel['package'];
+        $v = $rel['version'];
+        // is it a new package?
+        if (! array_key_exists($pkg, $packages)) {
+            $output = [];
+            echo "adding new package $pkg with $v\n";
+            $commitmsg .= " * add :sparkles: new package {$packages[$pkg]['name']} with version {$v}\n";
+            exec("bin/refresh-package \"$pkg\" \"$v\"", $output);
+            if (sizeof($output) > 0) {
+                echo join("\n", $output);
+                echo "\n";
+            }
+        } else {
+            $pkgReleases = $packages[$pkg]['releases'];
+            if (! array_key_exists($v, $pkgReleases)) {
+                $output = [];
+                echo "refreshing $pkg with $v\n";
+                $commitmsg .= " * update {$packages[$pkg]['name']} with release {$v}\n";
+                exec("bin/refresh-package \"$pkg\" \"$v\"", $output);
+                if (sizeof($output) > 0) {
+                    echo join("\n", $output);
+                    echo "\n";
+                }
+            } else {
+                echo "skipping known release $pkg $v\n";
+            }
+        }
+    }
+}
+if (! empty($commitmsg)) {
+    $commitmsg = "feat: new releases\n\n" . $commitmsg;
+    file_put_contents('commit.txt', $commitmsg);
+}

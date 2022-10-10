@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.2.11</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>jmikola</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundemental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2017-09-19 19:16:32</da>
+ <n>** Bug
+    * [PHPC-875] - Allow compiling without SSL
+
+** Task
+    * [PHPC-1008] - Use SETUP_OPENSSL() in config.w32 if available</n>
+ <f>786669</f>
+ <g>http://pecl.php.net/get/mongodb-1.2.11</g>
+ <x xlink:href="package.1.2.11.xml"/>
+</r>

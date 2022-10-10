@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/stomp">stomp</p>
+ <c>pecl.php.net</c>
+ <v>1.0.5</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>pierrick</m>
+ <s>Stomp client extension</s>
+ <d>This extension allows php applications to communicate with any Stomp compliant Message Brokers through easy object oriented and procedural interfaces.</d>
+ <da>2012-11-18 17:36:40</da>
+ <n>- Fix memory leak when Stomp can't write the message on the queue. (Pierrick)
+- Add a buffer for receipts. (Pierrick)
+- Fixed bug #62831 (Stomp module seems not initializing SSL library first).
+  (Patch by lwhsu at lwhsu dot org)
+- Fixed bug #59972 (Message body are not binary safe). (Pierrick)</n>
+ <f>18798</f>
+ <g>http://pecl.php.net/get/stomp-1.0.5</g>
+ <x xlink:href="package.1.0.5.xml"/>
+</r>

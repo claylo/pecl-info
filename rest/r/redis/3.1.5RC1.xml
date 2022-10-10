@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/redis">redis</p>
+ <c>pecl.php.net</c>
+ <v>3.1.5RC1</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>yatsukhnenko</m>
+ <s>PHP extension for interfacing with Redis</s>
+ <d>This extension provides an API for communicating with Redis servers.</d>
+ <da>2017-12-01 08:18:38</da>
+ <n>phpredis 3.1.5RC1
+
+This is interim release which contains only bug fixes.
+
+* Fix segfault when extending Redis class in PHP 5 [d23eff] (Pavlo Yatsukhnenko)
+* Fix RedisCluster constructor with PHP 7 strict scalar type [5c21d7] (Pavlo Yatsukhnenko)
+* Allow to use empty string as persistant_id [344de5] (Pavlo Yatsukhnenko)
+* Fix cluster_init_seeds. [db1347] (@adlagares)</n>
+ <f>199718</f>
+ <g>http://pecl.php.net/get/redis-3.1.5RC1</g>
+ <x xlink:href="package.3.1.5RC1.xml"/>
+</r>

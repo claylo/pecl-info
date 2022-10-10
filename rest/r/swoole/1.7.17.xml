@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>1.7.17</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Asynchronous and concurrent and distributed networking	framework for PHP.</s>
+ <d>Asynchronous and concurrent and distributed networking framework for PHP.
+- event-driven
+- full asynchronous non-blocking
+- multi-thread reactor
+- multi-process worker
+- millisecond timer
+- async MySQL
+- async task
+- async read/write file system
+- async dns lookup
+- support IPv4/IPv6/UnixSocket/TCP/UDP
+- SSL/TLS encrypted transmission</d>
+ <da>2015-06-01 01:31:24</da>
+ <n>- Fixed async swoole_client send data incomplete
+- Removed task_dispatch_mode server configuration 
+- Added pipe_buffer_size server configuration  
+- Pipeline memory buffer default size is adjusted to 32M
+- Http Server Header adjust the maximum length of 128 to 8192
+- Fixed swoole_process-&gt;pop cannot use
+- Fixed taskwait error in MacOS and CygWin
+- Added swoole_table-&gt;exist</n>
+ <f>459493</f>
+ <g>http://pecl.php.net/get/swoole-1.7.17</g>
+ <x xlink:href="package.1.7.17.xml"/>
+</r>

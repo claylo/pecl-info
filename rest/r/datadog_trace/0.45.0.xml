@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.45.0</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>sammyk</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2020-05-12 19:00:20</da>
+ <n>## Important behavior changes in this release
+If you are using `dd_trace`, `dd_trace_function`, or `dd_trace_method` then you need to call these functions before the first invocation of the target e.g. `dd_trace('foo', ...)` should be done before `foo` is called for the first time.
+
+### Changed
+
+- Compile to one single file #840, #874
+- Simplify configuration #833, #870
+- Refactor module blacklist #852
+- Cache that a function is not traced #854, #863
+- Simplify spl_autoload_register instrumentation #867
+- Use normalized URL as the resource name for curl #869 (thanks, @akdh!)
+- Sandbox header and http_response_code #875
+
+### Fixed
+
+- Fix variadic args with empty function signature #872
+- Bump phpstan to 0.12 and fix issues #841</n>
+ <f>220526</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.45.0</g>
+ <x xlink:href="package.0.45.0.xml"/>
+</r>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.2.7</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>jmikola</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundemental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2017-03-15 17:53:31</da>
+ <n>** Bug
+    * [PHPC-500] - Resolve PHP 7 memory leaks
+    * [PHPC-931] - php_phongo_pclient_t is leaked during MSHUTDOWN
+    * [PHPC-933] - Unnecessary zend_string_release() in phongo_zval_to_bson() for PHP 7
+
+** Task
+    * [PHPC-411] - Drop system.profile collection before tests</n>
+ <f>785238</f>
+ <g>http://pecl.php.net/get/mongodb-1.2.7</g>
+ <x xlink:href="package.1.2.7.xml"/>
+</r>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xdebug">xdebug</p>
+ <c>pecl.php.net</c>
+ <v>2.9.2</v>
+ <st>stable</st>
+ <l>BSD style</l>
+ <m>derick</m>
+ <s>Provides functions for function traces and profiling</s>
+ <d>The Xdebug extension helps you debugging your script by providing a lot of
+valuable debug information. The debug information that Xdebug can provide
+includes the following:
+
+    * stack and function traces in error messages with:
+          o full parameter display for user defined functions
+          o function name, file name and line indications
+          o support for member functions
+    * memory allocation
+    * protection for infinite recursions
+
+Xdebug also provides:
+
+    * profiling information for PHP scripts
+    * code coverage analysis
+    * capabilities to debug your scripts interactively with a debug client</d>
+ <da>2020-01-31 11:36:37</da>
+ <n>Fri, Jan 31, 2020 - xdebug 2.9.2
+
+= Fixed bugs:
+
+Fixed issue #1735: DBGp eval warning promoted to Exception can cause out-of-sync responses
+Fixed issue #1736: Segmentation fault when other extensions run PHP in RINIT
+Fixed issue #1739: Tracing footer not written</n>
+ <f>242959</f>
+ <g>https://pecl.php.net/get/xdebug-2.9.2</g>
+ <x xlink:href="package.2.9.2.xml"/>
+</r>

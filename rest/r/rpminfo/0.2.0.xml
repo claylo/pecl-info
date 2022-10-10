@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/rpminfo">rpminfo</p>
+ <c>pecl.php.net</c>
+ <v>0.2.0</v>
+ <st>beta</st>
+ <l>PHP 3.01</l>
+ <m>remi</m>
+ <s>RPM information</s>
+ <d>Retrieve RPM information using librpm.
+Available functions:
+- rpmvercmp to compare 2 EVRs
+- rpminfo to retrieve information from a RPM file
+- rpmdbinfo to rerieve information from an installed RPM</d>
+ <da>2018-02-08 12:56:22</da>
+ <n>- new function:
+  array rpmdbinfo(string name [, bool full]);</n>
+ <f>12539</f>
+ <g>http://pecl.php.net/get/rpminfo-0.2.0</g>
+ <x xlink:href="package.0.2.0.xml"/>
+</r>

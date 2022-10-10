@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/protobuf">protobuf</p>
+ <c>pecl.php.net</c>
+ <v>3.9.2</v>
+ <st>stable</st>
+ <l>3-Clause BSD License</l>
+ <m>stanleycheung</m>
+ <s>Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data.</s>
+ <d>https://developers.google.com/protocol-buffers/</d>
+ <da>2019-09-23 17:56:32</da>
+ <n>GA release.</n>
+ <f>217108</f>
+ <g>https://pecl.php.net/get/protobuf-3.9.2</g>
+ <x xlink:href="package.3.9.2.xml"/>
+</r>

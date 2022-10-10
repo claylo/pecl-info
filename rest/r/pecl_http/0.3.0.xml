@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pecl_http">pecl_http</p>
+ <c>pecl.php.net</c>
+ <v>0.3.0</v>
+ <st>alpha</st>
+ <l>PHP License 3.0</l>
+ <m>mike</m>
+ <s>Extended HTTP support</s>
+ <d>* Building absolute URIs
+* RCF compliant HTTP redirects
+* RFC compliant HTTP date handling
+* Parsing of HTTP headers and responses
+* Caching by &quot;Last-Modified&quot; and/or ETag
+  (with 'on the fly' option for ETag generation from buffered output)
+* Sending data/files/streams with (multiple) ranges support
+* Negotiating user preferred language/charset
+* Convenient request functions to HEAD/GET/POST if libcurl is available
+* HTTP auth hooks (Basic)
+</d>
+ <da>2005-02-10 18:56:00</da>
+ <n>* ctype is now mandatory
+* implemented additional third/fourth informational parameter to http_(get|head|post*)
+  which will be filled with an associative array containing request/response information
+* removed http_accept_ranges()
+* output &quot;Redirecting to &lt;a&gt;URI&lt;/a&gt;.&quot; in http_redirect() for full RFC compliance
+* fixed http_cache_last_modified(): if parameter was omitted, would have always sent 304 Not Modified
+* added http_parse_headers()</n>
+ <f>27101</f>
+ <g>http://pecl.php.net/get/pecl_http-0.3.0</g>
+ <x xlink:href="package.0.3.0.xml"/>
+</r>

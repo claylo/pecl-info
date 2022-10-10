@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ssh2">ssh2</p>
+ <c>pecl.php.net</c>
+ <v>0.11.1</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>pajoye</m>
+ <s>Bindings for the libssh2 library</s>
+ <d>Provides bindings to the functions of libssh2 which implements the SSH2 protocol.
+    libssh2 is available from http:/libssh2.org/</d>
+ <da>2010-11-03 17:20:47</da>
+ <n>- Fixed bug #9500, SSH2 sockets not being closed properly because of close vs closesocket difference
+- Fixed Windows support 
+- Support for latest libssh2 release
+- Fix build with PHP 5.3
+- Fixed incorrect return values for rename/unlink/mkdir/rmdir with sftp functions/streams
+- Fixed various memory leaks and segfaults</n>
+ <f>22692</f>
+ <g>http://pecl.php.net/get/ssh2-0.11.1</g>
+ <x xlink:href="package.0.11.1.xml"/>
+</r>

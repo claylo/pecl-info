@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pecl_http">pecl_http</p>
+ <c>pecl.php.net</c>
+ <v>0.17.0</v>
+ <st>beta</st>
+ <l>BSD, revised</l>
+ <m>mike</m>
+ <s>Extended HTTP Support</s>
+ <d>* Building absolute URLs
+* RFC compliant HTTP redirects
+* RFC compliant HTTP date handling
+* Parsing of HTTP headers and messages
+* Caching by &quot;Last-Modified&quot; and/or ETag
+  (with 'on the fly' option for ETag generation from buffered output)
+* Sending data/files/streams with (multiple) ranges support
+* Negotiating user preferred language/charset
+* Convenient request functionality built upon libcurl
+* PHP5 classes: HttpUtil, HttpResponse (PHP-5.1), HttpRequest, HttpRequestPool, HttpMessage</d>
+ <da>2005-11-04 07:03:02</da>
+ <n>+ Added experimental thread safety for builds linking against libcurl-gnutls
++ Improved the chunked decoder
++ Added clone support to HttpRequest objects
+
+- License changed from PHP license to revised BSD license!
+- HttpMessage properties are not accessible by reference or array index/key!
+- HttpRequest history logging is disabled by default!
+- HttpRequestPool is not clonable!
+
+* Fixed a bug where HttpRequest warnings were hidden within the HttpRequestPool
+* Fixed shared build within the PHP source tree
+* Fixed parallel build with ext/zlib on Win32
+* Fixed object deallocation
+* Fixed http_support() pretending no support for SSL in non-threadsafe builds
+* Fixed the message parser to not choke on headers containing HTTP/1.x
+* Fixed access to protected HttpMessage properties in extending classes
+* Fixed lots of tests for the changed HTTP header order in PHP-5.1</n>
+ <f>137014</f>
+ <g>http://pecl.php.net/get/pecl_http-0.17.0</g>
+ <x xlink:href="package.0.17.0.xml"/>
+</r>

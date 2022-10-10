@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pecl_http">pecl_http</p>
+ <c>pecl.php.net</c>
+ <v>2.1.2</v>
+ <st>stable</st>
+ <l>BSD, revised</l>
+ <m>mike</m>
+ <s>Extended HTTP Support</s>
+ <d>This HTTP extension aims to provide a convenient and powerful 
+set of functionality for one of PHPs major applications.
+
+It eases handling of HTTP urls, headers and messages, provides 
+means for negotiation of a client's preferred content type, 
+language and charset, as well as a convenient way to send any 
+arbitrary data with caching and resuming capabilities.
+
+It provides powerful request functionality with support for
+parallel requests.
+
+Documentation:
+v1: http://php.net/http
+v2: http://devel-m6w6.rhcloud.com/mdref/http
+
+Code Coverage:
+v1: http://dev.iworks.at/ext-http/lcov_html/ext/http/
+v2: http://dev.iworks.at/ext-http/lcov/ext/http/</d>
+ <da>2014-09-25 03:28:41</da>
+ <n>+ Added missing request option constants:
+  POSTREDIR_303, AUTH_SPNEGO (libcurl &gt;= 7.38.0), SSL_VERSION_TLSv1_{0,1,2} (libcurl &gt;= 7.34)
+* Fixed bug #68083 (PUT method not working after DELETE)
+* Fixed bug #68009 (Segmentation fault after calling exit(0) after a request)
+* Fixed bug #68000 (Extension does not build on FreeBSD)</n>
+ <f>158684</f>
+ <g>http://pecl.php.net/get/pecl_http-2.1.2</g>
+ <x xlink:href="package.2.1.2.xml"/>
+</r>

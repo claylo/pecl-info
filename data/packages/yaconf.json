@@ -1,0 +1,134 @@
+{
+    "category": "Configuration",
+    "deprecated": false,
+    "description": "Yaconf is a configurations container, it parses ini files, and store the result in PHP when PHP is started",
+    "latestReleaseDate": "2022-05-19T03:07:44+00:00",
+    "latestVersion": "1.1.2",
+    "license": "PHP",
+    "name": "yaconf",
+    "php8Mentioned": true,
+    "releases": {
+        "1.1.2": {
+            "version": "1.1.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2022-05-19T03:07:44+00:00",
+            "releaseNotes": "- Fixed ISSUE #67 (parsing bug with PHP8.1)",
+            "get": "https://pecl.php.net/get/yaconf-1.1.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.1.1": {
+            "version": "1.1.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2021-12-16T04:21:44+00:00",
+            "releaseNotes": "- Fixed build with PHP8.1\n- Change to using stub.php generated arginfos",
+            "get": "https://pecl.php.net/get/yaconf-1.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.1.0": {
+            "version": "1.1.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2020-03-12T06:36:52+00:00",
+            "releaseNotes": "- Refactor Yaconf for performance\n- Around 40% time reduced according to benchmark",
+            "get": "https://pecl.php.net/get/yaconf-1.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.8": {
+            "version": "1.0.8",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2019-12-23T07:32:29+00:00",
+            "releaseNotes": "- Fixed PHP-7.4 build\n- Added Yaconf::__debug_info method for debug purpose",
+            "get": "https://pecl.php.net/get/yaconf-1.0.8",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.7": {
+            "version": "1.0.7",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2017-12-31T04:24:04+00:00",
+            "releaseNotes": "- Fixed PHP-7.2 build\n- Fixed HT flags",
+            "get": "http://pecl.php.net/get/yaconf-1.0.7",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.6": {
+            "version": "1.0.6",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2017-07-27T09:55:20+00:00",
+            "releaseNotes": "- Fixed PHP-7.2 Compatiblity",
+            "get": "http://pecl.php.net/get/yaconf-1.0.6",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.5": {
+            "version": "1.0.5",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2017-04-27T02:28:00+00:00",
+            "releaseNotes": "- Fixed issue #26 (Segmentation fault $php_fpm_BIN --daemonize $php_opts)",
+            "get": "http://pecl.php.net/get/yaconf-1.0.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.4": {
+            "version": "1.0.4",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2016-12-07T04:23:11+00:00",
+            "releaseNotes": "- Fixed issue #20 (Segfault during test suite with 7.1.0GA (TS))",
+            "get": "http://pecl.php.net/get/yaconf-1.0.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.3": {
+            "version": "1.0.3",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2016-11-30T04:00:15+00:00",
+            "releaseNotes": "- Fixed ISSUE #19 (Memory leak on foreach and reference)",
+            "get": "http://pecl.php.net/get/yaconf-1.0.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.2": {
+            "version": "1.0.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2016-05-26T09:18:28+00:00",
+            "releaseNotes": "- Fixed ISSUE #14 (segfault with pop entry)",
+            "get": "http://pecl.php.net/get/yaconf-1.0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2015-12-12T13:43:42+00:00",
+            "releaseNotes": "- Fixed various bugs",
+            "get": "http://pecl.php.net/get/yaconf-1.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2015-10-27T05:46:33+00:00",
+            "releaseNotes": "- Release yaconf for PHP7",
+            "get": "http://pecl.php.net/get/yaconf-1.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "PHP Persistent Configurations Container",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

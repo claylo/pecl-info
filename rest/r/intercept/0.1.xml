@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/intercept">intercept</p>
+ <c>pecl.php.net</c>
+ <v>0.1</v>
+ <st>alpha</st>
+ <l>PHP</l>
+ <m>gabe</m>
+ <s>Intercept function/method calls</s>
+ <d>Allows the user to have a user-space function called 
+  when the specified function is called. Support for class/object
+  methods will be added later.
+</d>
+ <da>2005-02-26 12:15:49</da>
+ <n>First release.
+This version can only intercept user-space functions
+with user-space callbacks.</n>
+ <f>5012</f>
+ <g>http://pecl.php.net/get/intercept-0.1</g>
+ <x xlink:href="package.0.1.xml"/>
+</r>

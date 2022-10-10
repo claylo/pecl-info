@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/clips">clips</p>
+ <c>pecl.php.net</c>
+ <v>0.5.0</v>
+ <st>beta</st>
+ <l>PHP License 3.0</l>
+ <m>bmoen</m>
+ <s>Integrated CLIPS environment for deployment of expert systems</s>
+ <d>CLIPS is a tool for building expert systems. This extension is an interface to the CLIPS C library. A CLIPS environment is initialized upon each page request. Most of the common CLIPS commands are available as functions. Additional functions are available to create facts and instances from associative arrays in PHP.
+</d>
+ <da>2004-11-29 18:24:00</da>
+ <n>Initial release</n>
+ <f>863185</f>
+ <g>http://pecl.php.net/get/clips-0.5.0</g>
+ <x xlink:href="package.0.5.0.xml"/>
+</r>

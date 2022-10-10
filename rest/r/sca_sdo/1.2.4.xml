@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/sca_sdo">SCA_SDO</p>
+ <c>pecl.php.net</c>
+ <v>1.2.4</v>
+ <st>stable</st>
+ <l>Apache 2.0</l>
+ <m>mfp</m>
+ <s>Service Component Architecture (SCA) and Service Data Objects (SDO) for PHP</s>
+ <d>Service Data Objects (SDOs) enable PHP applications to work with data from different sources (typically a database query or an XML file) using a single interface. SCA for PHP allows a PHP programmer to write reusable components (classes) in PHP, which can be called either locally, or in a a variety of ways remotely (soap web services, xml-rpc, json-rpc, REST, etc), but always with the same interface.
+ 
+</d>
+ <da>2008-03-04 05:54:09</da>
+ <n># The ability to control the operations on a service interface through a PHP interface 
+     by specifying the PHP interface on the @service annotation - e.g. @service MyServiceInterface
+ # PECL bug 11997 - don't remove xsi:type (except on top level soap message or response)
+ # PECL bug 11996 - not showing LIBXML2 parse errors
+ # PECL bug 12193 - alphabetical order of namespaces causes failure
+ # PECL bug 12103 - saveString doesn't encode entities 
+ # PECL bug 12443 - unable to access an XSD property containing a hyphen (-) 
+ # PECL bug 13101 - Repeated nill elements of extended type cause &quot;Parser found unknown element&quot; exception
+ # Fix to add wsdl namespace prefix to &lt;types&gt; element in WSDL, without which it will not validate. 
+ # Fix for Tuscany AccessViolation problem when serializing a DO
+ # Backward-compatible updates to SDO extension so that it will work with PHP 5.3
+ # Backward-compatible updates to SCA so that it will work with PHP 5.3. 
+ # Fix for failures that occur when using the soap extension - see thread &quot;SCA Webservice in WSDL mode&quot;
+ # Substantial rework of the examples to illustrate more bindings - see examples/SCA/index.html</n>
+ <f>576531</f>
+ <g>http://pecl.php.net/get/SCA_SDO-1.2.4</g>
+ <x xlink:href="package.1.2.4.xml"/>
+</r>

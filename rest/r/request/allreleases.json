@@ -1,0 +1,22 @@
+{
+    "2.0.0": {
+        "version": "2.0.0",
+        "state": "stable"
+    },
+    "1.0.0b2": {
+        "version": "1.0.0b2",
+        "state": "beta"
+    },
+    "1.0.0b1": {
+        "version": "1.0.0b1",
+        "state": "beta"
+    },
+    "1.0.0a2": {
+        "version": "1.0.0a2",
+        "state": "alpha"
+    },
+    "1.0.0a1": {
+        "version": "1.0.0a1",
+        "state": "alpha"
+    }
+}

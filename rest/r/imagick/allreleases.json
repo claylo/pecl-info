@@ -1,0 +1,398 @@
+{
+    "3.7.0": {
+        "version": "3.7.0",
+        "state": "stable"
+    },
+    "3.7.0RC1": {
+        "version": "3.7.0RC1",
+        "state": "beta"
+    },
+    "3.6.0": {
+        "version": "3.6.0",
+        "state": "stable"
+    },
+    "3.6.0RC2": {
+        "version": "3.6.0RC2",
+        "state": "beta"
+    },
+    "3.6.0RC1": {
+        "version": "3.6.0RC1",
+        "state": "beta"
+    },
+    "3.5.1": {
+        "version": "3.5.1",
+        "state": "stable"
+    },
+    "3.5.1RC1": {
+        "version": "3.5.1RC1",
+        "state": "beta"
+    },
+    "3.5.0": {
+        "version": "3.5.0",
+        "state": "stable"
+    },
+    "3.5.0RC2": {
+        "version": "3.5.0RC2",
+        "state": "beta"
+    },
+    "3.5.0RC1": {
+        "version": "3.5.0RC1",
+        "state": "beta"
+    },
+    "3.4.4": {
+        "version": "3.4.4",
+        "state": "stable"
+    },
+    "3.4.4RC2": {
+        "version": "3.4.4RC2",
+        "state": "beta"
+    },
+    "3.4.3": {
+        "version": "3.4.3",
+        "state": "stable"
+    },
+    "3.4.3RC4": {
+        "version": "3.4.3RC4",
+        "state": "stable"
+    },
+    "3.4.3RC3": {
+        "version": "3.4.3RC3",
+        "state": "stable"
+    },
+    "3.4.3RC2": {
+        "version": "3.4.3RC2",
+        "state": "stable"
+    },
+    "3.4.3RC1": {
+        "version": "3.4.3RC1",
+        "state": "stable"
+    },
+    "3.4.2": {
+        "version": "3.4.2",
+        "state": "beta"
+    },
+    "3.4.1": {
+        "version": "3.4.1",
+        "state": "stable"
+    },
+    "3.4.0": {
+        "version": "3.4.0",
+        "state": "stable"
+    },
+    "3.4.0RC6": {
+        "version": "3.4.0RC6",
+        "state": "beta"
+    },
+    "3.4.0RC5": {
+        "version": "3.4.0RC5",
+        "state": "beta"
+    },
+    "3.4.0RC4": {
+        "version": "3.4.0RC4",
+        "state": "beta"
+    },
+    "3.4.0RC3": {
+        "version": "3.4.0RC3",
+        "state": "beta"
+    },
+    "3.4.0RC2": {
+        "version": "3.4.0RC2",
+        "state": "beta"
+    },
+    "3.4.0RC1": {
+        "version": "3.4.0RC1",
+        "state": "beta"
+    },
+    "3.3.0": {
+        "version": "3.3.0",
+        "state": "stable"
+    },
+    "3.3.0RC2": {
+        "version": "3.3.0RC2",
+        "state": "beta"
+    },
+    "3.3.0RC1": {
+        "version": "3.3.0RC1",
+        "state": "beta"
+    },
+    "3.2.0RC1": {
+        "version": "3.2.0RC1",
+        "state": "beta"
+    },
+    "3.2.0b2": {
+        "version": "3.2.0b2",
+        "state": "beta"
+    },
+    "3.2.0b1": {
+        "version": "3.2.0b1",
+        "state": "beta"
+    },
+    "3.1.2": {
+        "version": "3.1.2",
+        "state": "stable"
+    },
+    "3.1.1": {
+        "version": "3.1.1",
+        "state": "stable"
+    },
+    "3.1.0": {
+        "version": "3.1.0",
+        "state": "beta"
+    },
+    "3.1.0RC3": {
+        "version": "3.1.0RC3",
+        "state": "beta"
+    },
+    "3.1.0RC2": {
+        "version": "3.1.0RC2",
+        "state": "beta"
+    },
+    "3.1.0RC1": {
+        "version": "3.1.0RC1",
+        "state": "beta"
+    },
+    "3.1.0b1": {
+        "version": "3.1.0b1",
+        "state": "beta"
+    },
+    "3.0.1": {
+        "version": "3.0.1",
+        "state": "stable"
+    },
+    "3.0.1RC2": {
+        "version": "3.0.1RC2",
+        "state": "beta"
+    },
+    "3.0.1RC1": {
+        "version": "3.0.1RC1",
+        "state": "beta"
+    },
+    "3.0.0": {
+        "version": "3.0.0",
+        "state": "stable"
+    },
+    "3.0.0RC2": {
+        "version": "3.0.0RC2",
+        "state": "beta"
+    },
+    "3.0.0RC1": {
+        "version": "3.0.0RC1",
+        "state": "beta"
+    },
+    "3.0.0b2": {
+        "version": "3.0.0b2",
+        "state": "beta"
+    },
+    "3.0.0b1": {
+        "version": "3.0.0b1",
+        "state": "beta"
+    },
+    "2.3.0": {
+        "version": "2.3.0",
+        "state": "stable"
+    },
+    "2.3.0RC3": {
+        "version": "2.3.0RC3",
+        "state": "beta"
+    },
+    "2.3.0RC2": {
+        "version": "2.3.0RC2",
+        "state": "beta"
+    },
+    "2.3.0RC1": {
+        "version": "2.3.0RC1",
+        "state": "beta"
+    },
+    "2.3.0b1": {
+        "version": "2.3.0b1",
+        "state": "beta"
+    },
+    "2.2.2": {
+        "version": "2.2.2",
+        "state": "stable"
+    },
+    "2.2.2RC4": {
+        "version": "2.2.2RC4",
+        "state": "beta"
+    },
+    "2.2.2RC3": {
+        "version": "2.2.2RC3",
+        "state": "beta"
+    },
+    "2.2.2RC2": {
+        "version": "2.2.2RC2",
+        "state": "beta"
+    },
+    "2.2.2RC1": {
+        "version": "2.2.2RC1",
+        "state": "beta"
+    },
+    "2.2.1": {
+        "version": "2.2.1",
+        "state": "stable"
+    },
+    "2.2.1RC2": {
+        "version": "2.2.1RC2",
+        "state": "beta"
+    },
+    "2.2.1RC1": {
+        "version": "2.2.1RC1",
+        "state": "beta"
+    },
+    "2.2.0": {
+        "version": "2.2.0",
+        "state": "stable"
+    },
+    "2.2.0RC1": {
+        "version": "2.2.0RC1",
+        "state": "beta"
+    },
+    "2.2.0b2": {
+        "version": "2.2.0b2",
+        "state": "beta"
+    },
+    "2.2.0b1": {
+        "version": "2.2.0b1",
+        "state": "beta"
+    },
+    "2.1.1": {
+        "version": "2.1.1",
+        "state": "stable"
+    },
+    "2.1.1RC1": {
+        "version": "2.1.1RC1",
+        "state": "stable"
+    },
+    "2.1.0": {
+        "version": "2.1.0",
+        "state": "stable"
+    },
+    "2.1.0RC3": {
+        "version": "2.1.0RC3",
+        "state": "beta"
+    },
+    "2.1.0RC2": {
+        "version": "2.1.0RC2",
+        "state": "beta"
+    },
+    "2.1.0RC1": {
+        "version": "2.1.0RC1",
+        "state": "beta"
+    },
+    "2.0.1": {
+        "version": "2.0.1",
+        "state": "stable"
+    },
+    "2.0.1RC1": {
+        "version": "2.0.1RC1",
+        "state": "beta"
+    },
+    "2.0.0": {
+        "version": "2.0.0",
+        "state": "stable"
+    },
+    "2.0.0RC4": {
+        "version": "2.0.0RC4",
+        "state": "beta"
+    },
+    "2.0.0RC3": {
+        "version": "2.0.0RC3",
+        "state": "beta"
+    },
+    "2.0.0RC2": {
+        "version": "2.0.0RC2",
+        "state": "beta"
+    },
+    "2.0.0RC1": {
+        "version": "2.0.0RC1",
+        "state": "beta"
+    },
+    "2.0.0b3": {
+        "version": "2.0.0b3",
+        "state": "beta"
+    },
+    "2.0.0b2": {
+        "version": "2.0.0b2",
+        "state": "beta"
+    },
+    "2.0.0b1": {
+        "version": "2.0.0b1",
+        "state": "beta"
+    },
+    "2.0.0a3": {
+        "version": "2.0.0a3",
+        "state": "alpha"
+    },
+    "2.0.0a2": {
+        "version": "2.0.0a2",
+        "state": "alpha"
+    },
+    "2.0.0a1": {
+        "version": "2.0.0a1",
+        "state": "alpha"
+    },
+    "0.9.13": {
+        "version": "0.9.13",
+        "state": "beta"
+    },
+    "0.9.11": {
+        "version": "0.9.11",
+        "state": "beta"
+    },
+    "0.9.10": {
+        "version": "0.9.10",
+        "state": "beta"
+    },
+    "0.9.9": {
+        "version": "0.9.9",
+        "state": "beta"
+    },
+    "0.9.8": {
+        "version": "0.9.8",
+        "state": "beta"
+    },
+    "0.9.7": {
+        "version": "0.9.7",
+        "state": "beta"
+    },
+    "0.9.6": {
+        "version": "0.9.6",
+        "state": "beta"
+    },
+    "0.9.5": {
+        "version": "0.9.5",
+        "state": "beta"
+    },
+    "0.9.4": {
+        "version": "0.9.4",
+        "state": "beta"
+    },
+    "0.9.3": {
+        "version": "0.9.3",
+        "state": "beta"
+    },
+    "0.9.2": {
+        "version": "0.9.2",
+        "state": "beta"
+    },
+    "0.9.1": {
+        "version": "0.9.1",
+        "state": "beta"
+    },
+    "0.9.0.1": {
+        "version": "0.9.0.1",
+        "state": "beta"
+    },
+    "0.9": {
+        "version": "0.9",
+        "state": "beta"
+    },
+    "0.1.2": {
+        "version": "0.1.2",
+        "state": "alpha"
+    },
+    "0.1.1": {
+        "version": "0.1.1",
+        "state": "alpha"
+    }
+}

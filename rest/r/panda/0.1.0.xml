@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/panda">panda</p>
+ <c>pecl.php.net</c>
+ <v>0.1.0</v>
+ <st>devel</st>
+ <l>PHP</l>
+ <m>enemerson</m>
+ <s>Panda PDF library</s>
+ <d>Panda is a free PDF library that can be used to create PDF documents.
+</d>
+ <da>2004-04-29 01:37:00</da>
+ <n>Initial release, requires panda-0.5.4</n>
+ <f>12435</f>
+ <g>http://pecl.php.net/get/panda-0.1.0</g>
+ <x xlink:href="package.0.1.0.xml"/>
+</r>

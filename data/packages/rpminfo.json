@@ -1,0 +1,144 @@
+{
+    "category": "File Formats",
+    "deprecated": false,
+    "description": "Retrieve RPM information using librpm, from local RPM file or from installed packages database.\n\nDocumentation: https://www.php.net/rpminfo",
+    "latestReleaseDate": "2021-06-18T13:59:54+00:00",
+    "latestVersion": "0.6.0",
+    "license": "PHP 3.01",
+    "name": "rpminfo",
+    "php8Mentioned": true,
+    "releases": {
+        "0.6.0": {
+            "version": "0.6.0",
+            "state": "stable",
+            "license": "PHP 3.01",
+            "releasedBy": "remi",
+            "releaseDate": "2021-06-18T13:59:54+00:00",
+            "releaseNotes": "- generate arginfo from stub and add missing default values\n- raise dependency on PHP 7.2\n- raise exception on bad parameter value with PHP 8",
+            "get": "https://pecl.php.net/get/rpminfo-0.6.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.5.1": {
+            "version": "0.5.1",
+            "state": "stable",
+            "license": "PHP 3.01",
+            "releasedBy": "remi",
+            "releaseDate": "2020-09-23T09:42:45+00:00",
+            "releaseNotes": "- split tests for PHP 7/8\n- improve librpm example",
+            "get": "https://pecl.php.net/get/rpminfo-0.5.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.5.0": {
+            "version": "0.5.0",
+            "state": "stable",
+            "license": "PHP 3.01",
+            "releasedBy": "remi",
+            "releaseDate": "2020-04-07T07:45:58+00:00",
+            "releaseNotes": "- add rpmaddtag() function",
+            "get": "https://pecl.php.net/get/rpminfo-0.5.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.4.2": {
+            "version": "0.4.2",
+            "state": "stable",
+            "license": "PHP 3.01",
+            "releasedBy": "remi",
+            "releaseDate": "2020-03-25T08:46:18+00:00",
+            "releaseNotes": "- improve reflection with better parameter names\n- speed optimization: open DB only once per request",
+            "get": "https://pecl.php.net/get/rpminfo-0.4.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.4.1": {
+            "version": "0.4.1",
+            "state": "stable",
+            "license": "PHP 3.01",
+            "releasedBy": "remi",
+            "releaseDate": "2020-03-18T14:48:42+00:00",
+            "releaseNotes": "- fix build with RPM 4.12 (Fedora 21-22 only)\n- add type hinting in reflection\n- return NULL instead of FALSE on failure",
+            "get": "https://pecl.php.net/get/rpminfo-0.4.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.4.0": {
+            "version": "0.4.0",
+            "state": "stable",
+            "license": "PHP 3.01",
+            "releasedBy": "remi",
+            "releaseDate": "2020-03-13T09:58:14+00:00",
+            "releaseNotes": "- improve search logic, use index when exists and no search mode\n- add 'full' parameter to rpmdbsearch\n- allow 'rpmdbinfo' to search on NEVR (instead of name only)\n- first \"stable\" release",
+            "get": "https://pecl.php.net/get/rpminfo-0.4.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.3.1": {
+            "version": "0.3.1",
+            "state": "beta",
+            "license": "PHP 3.01",
+            "releasedBy": "remi",
+            "releaseDate": "2020-03-12T14:24:25+00:00",
+            "releaseNotes": "- allow search by Pkgid, Hdrid, Installtid with specific input\n- fix search with various other tags (Version, ...)",
+            "get": "https://pecl.php.net/get/rpminfo-0.3.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.3.0": {
+            "version": "0.3.0",
+            "state": "beta",
+            "license": "PHP 3.01",
+            "releasedBy": "remi",
+            "releaseDate": "2020-03-12T10:06:55+00:00",
+            "releaseNotes": "- add rpmdbsearch function to search packages using\n  name, installed files, requires, provides...",
+            "get": "https://pecl.php.net/get/rpminfo-0.3.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.3": {
+            "version": "0.2.3",
+            "state": "beta",
+            "license": "PHP 3.01",
+            "releasedBy": "remi",
+            "releaseDate": "2020-03-11T09:46:34+00:00",
+            "releaseNotes": "- fix gh#2 free allocated iterators to avoid \"DB2053 Freeing read locks...\" messages",
+            "get": "https://pecl.php.net/get/rpminfo-0.2.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.2": {
+            "version": "0.2.2",
+            "state": "beta",
+            "license": "PHP 3.01",
+            "releasedBy": "remi",
+            "releaseDate": "2020-03-11T07:58:19+00:00",
+            "releaseNotes": "- Fix gh#1 rpmvercmp() incorrect comparison result",
+            "get": "https://pecl.php.net/get/rpminfo-0.2.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.1": {
+            "version": "0.2.1",
+            "state": "beta",
+            "license": "PHP 3.01",
+            "releasedBy": "remi",
+            "releaseDate": "2018-02-12T16:02:46+00:00",
+            "releaseNotes": "- add summary in minimal information set\n- retrieve array from metadata\n- add RPMSENSE_* macros",
+            "get": "http://pecl.php.net/get/rpminfo-0.2.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.0": {
+            "version": "0.2.0",
+            "state": "beta",
+            "license": "PHP 3.01",
+            "releasedBy": "remi",
+            "releaseDate": "2018-02-08T12:56:22+00:00",
+            "releaseNotes": "- new function:\n  array rpmdbinfo(string name [, bool full]);",
+            "get": "http://pecl.php.net/get/rpminfo-0.2.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.2": {
+            "version": "0.1.2",
+            "state": "alpha",
+            "license": "PHP 3.01",
+            "releasedBy": "remi",
+            "releaseDate": "2018-02-08T07:21:07+00:00",
+            "releaseNotes": "- first pecl release\n- rpminfo(): add option to retrieve error message instead of raising a warning",
+            "get": "http://pecl.php.net/get/rpminfo-0.1.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "RPM information",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.1.1</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+- event-driven
+- asynchronous non-blocking
+- multi-thread reactor
+- multi-process worker
+- multi-protocol
+- millisecond timer
+- async mysql client
+- built-in http/websocket/http2 server
+- async http/websocket client
+- async redis client
+- async task
+- async read/write file system
+- async dns lookup
+- support IPv4/IPv6/UnixSocket/TCP/UDP
+- support SSL/TLS encrypted transmission</d>
+ <da>2018-08-31 12:14:57</da>
+ <n>+ **Support `Redis`, `PDO`, `MySQLi`**, use `Swoole\Runtime::enableCoroutine()` to make them become Async IO by coroutine scheduler
++ **Coroutine tracking**: `Coroutine::listCoroutines()` can list all current coroutines, `Coroutine::getBackTrace($cid)` gets the function call stack of a coroutine
++ Refactoring `Co\Channel` C code to C++, solving unintended consequences of complex scenes and achieving high stability
++ Refactoring `Co\Http\Client` C code to C++ coroutine mode, solving asynchronous timing problems and achieving high stability
++ Support for using `exit` in coroutines and Servers, which will throw a catchable `\Swoole\ExitException` exception.
++ Remove PCRE dependency limits for all iterators (table/connection/coroutine_list)
++ Add the `open_websocket_close_frame` configuration to receive close frames in the onMessage event
++ Remove the `Http\Response-&gt;gzip()` method and use the `http_compression` configuration item instead. The bottom layer will automatically determine the client's incoming `Accept-Encoding` to select the appropriate compression method, add Google BR compression support
++ Add `Co\Http\Client-&gt;addData()` method to send the data in the memory as the content of the uploaded file.
++ `Solaris` system support
++ Http2 supports `MAX_FRAME_SIZE` framing transmission and `MAX_HEADER_LIST_SIZE` processing. The client adds `isStreamExist` method to detect whether there is a corresponding stream.
++ `swoole_http_response-&gt;status` increases the `reason` parameter
+* Fixed an issue where unsigned arguments in MySQL prepare used signed values ​​to cause numeric overflows
+* Fixed an issue with no coroutine in the `onRequest` callback for HTTP2
+* Fixed the problem that `tasking_num` became `-1` in some special cases
+* Fixed HTTP2-server window-update frame construction error
+* Fix all levels of compile warning under all PHP versions
+* Compile error will occur when GCC version is less than 4.8
+* Fixed MySQL's memory allocation caused by the use of prepare statement without parameter binding
+* Fixed old stream memory loss leak when HTTP2 client reconnect
+* Fixed wrong package info by version 4.1.0</n>
+ <f>930623</f>
+ <g>http://pecl.php.net/get/swoole-4.1.1</g>
+ <x xlink:href="package.4.1.1.xml"/>
+</r>

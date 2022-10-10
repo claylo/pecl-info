@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/igbinary">igbinary</p>
+ <c>pecl.php.net</c>
+ <v>3.2.2RC1</v>
+ <st>beta</st>
+ <l>BSD-3-Clause</l>
+ <m>tandre</m>
+ <s>igbinary extension</s>
+ <d>Igbinary is a drop in replacement for the standard php serializer. Instead of
+	time and space consuming textual representation, igbinary stores php data
+	structures in a compact binary form. Savings are significant when using
+	memcached or similar memory based storages for serialized data.</d>
+ <da>2021-01-12 00:17:39</da>
+ <n>* Update php version check to allow igbinary to be statically built in PHP 8.0+
+* Fix bug in out of memory error handling in __sleep, slightly speed up serializing with __sleep.
+* Continue serializing remaining properties if a missing property name is returned from __sleep.
+* Speed up serializing by optimizing for the case where there is no memory manager override.
+  When there is a memory manager override, only use that for allocating the string to return.
+  (benchmarks/serialize-scalar-int.b.php showed a speedup from 0.22 to 0.18 seconds for repeated serialization of a single scalar,
+  and from 0.186 to 0.180 seconds for benchmarks/serialize-stringarray.b.php for an array of strings)
+* Speed up unserializing arrays in php 7.2-8.0 by adding optimized code for finding the hash bucket of
+  a string/integer key of an array, or creating a placeholder if it does not already exist.</n>
+ <f>87813</f>
+ <g>https://pecl.php.net/get/igbinary-3.2.2RC1</g>
+ <x xlink:href="package.3.2.2RC1.xml"/>
+</r>

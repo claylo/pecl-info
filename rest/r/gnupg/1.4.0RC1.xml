@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/gnupg">gnupg</p>
+ <c>pecl.php.net</c>
+ <v>1.4.0RC1</v>
+ <st>beta</st>
+ <l>BSD, revised</l>
+ <m>bukka</m>
+ <s>wrapper around the gpgme library</s>
+ <d>This extension provides methods to interact with gnupg</d>
+ <da>2016-06-15 19:08:05</da>
+ <n>* Added support for PHP 7
+* Fixed various compilation issues</n>
+ <f>27969</f>
+ <g>http://pecl.php.net/get/gnupg-1.4.0RC1</g>
+ <x xlink:href="package.1.4.0RC1.xml"/>
+</r>

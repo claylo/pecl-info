@@ -1,0 +1,13 @@
+{
+    "category": "Database",
+    "deprecated": false,
+    "description": "This is a PECL package of the interbase extension, which was previously apart of the PHP distribution.\n\nThis extension enables connectivity to an InterBase or FireBird based database system.",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "PHP License",
+    "name": "interbase",
+    "summary": "InterBase/FireBird extension",
+    "php8Mentioned": false,
+    "releases": [],
+    "SPDX-License-Identifier": "PHP-3.01"
+}

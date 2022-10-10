@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/redis">redis</p>
+ <c>pecl.php.net</c>
+ <v>5.1.1</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>yatsukhnenko</m>
+ <s>PHP extension for interfacing with Redis</s>
+ <d>This extension provides an API for communicating with Redis servers.</d>
+ <da>2019-11-11 07:44:11</da>
+ <n>phpredis 5.1.1
+
+This release contains only bugfix for unix-socket connection.
+
+* Fix fail to connect to redis through unix socket [2bae8010, 9f4ededa] (Pavlo Yatsukhnenko, Michael Grunder)
+* Documentation improvements (@fitztrev)</n>
+ <f>245205</f>
+ <g>https://pecl.php.net/get/redis-5.1.1</g>
+ <x xlink:href="package.5.1.1.xml"/>
+</r>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/jsond">jsond</p>
+ <c>pecl.php.net</c>
+ <v>1.4.0</v>
+ <st>stable</st>
+ <l>PHP 3.01</l>
+ <m>bukka</m>
+ <s>JavaScript Object Notation</s>
+ <d>This is a drop-in alternative to the standard PHP JSON extension.</d>
+ <da>2017-04-14 18:45:08</da>
+ <n>* No changes since 1.4.0RC1</n>
+ <f>86142</f>
+ <g>http://pecl.php.net/get/jsond-1.4.0</g>
+ <x xlink:href="package.1.4.0.xml"/>
+</r>

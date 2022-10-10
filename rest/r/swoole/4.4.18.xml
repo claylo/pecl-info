@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.4.18</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in tcp/http/websocket/http2 server
+        - coroutine tcp/http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2020-04-25 09:54:48</da>
+ <n>Enhancement
+---
++ Resolve the domain name when use udp coroutine client (#3236) (#3239) (@huanghantao)
++ Do not close stdout and stderr (show error logs after shutdown) (#3249) (@twose)
++ Support some common options for Coroutine\Http\Server (#3257) (@twose)
++ Support set cookies when websocket handshake (#3270) (#3272) (@twose)
++ Support CURLOPT_FAILONERROR (swoole/library#20) (@sy-records)
++ Support CURLOPT_SSLCERTTYPE, CURLOPT_SSLCERT, CURLOPT_SSLKEYTYPE, CURLOPT_SSLKEY (swoole/library#22) (@sy-records)
++ Support CURLOPT_HTTPGET (swoole/library@d730bd08) (@shiguangqi)
++ Compatible with different versions of Redis extension as much as possible (swoole/library#24) (@twose)
++ Disable Cloning of Database Proxy Objects (swoole/library#23) (@deminy)
+
+Fixed
+---
+* Fixed SSL handshake failure (dc5ac29a) (@twose)
+* Fixed memory error when generate error message (#3229) (@twose)
+* Fixed empty proxy authorization info (#3243) (@twose)
+* Fixed channel unreal memory leak (#3260) (@twose)
+* Fixed memory leak of Co\Http\Server (#3271) (@twose)
+* Fixed `ConnectionPool-&gt;fill` (swoole/library#18) (@NHZEX)
+* Fixed use new client for the redirection requests (swoole/library#21) (@doubaokun)
+* Fixed null socket error in ioException (swoole/library@4d15a4c3) (@twose)
+* Fixed ConnectionPool@put when error happens (swoole/library#25) (@Sinute)
+* Fixed mysqli write_property error (swoole/library#26) (@twose)</n>
+ <f>1467590</f>
+ <g>https://pecl.php.net/get/swoole-4.4.18</g>
+ <x xlink:href="package.4.4.18.xml"/>
+</r>

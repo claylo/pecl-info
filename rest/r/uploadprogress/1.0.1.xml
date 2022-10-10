@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/uploadprogress">uploadprogress</p>
+ <c>pecl.php.net</c>
+ <v>1.0.1</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>chregu</m>
+ <s>An extension to track progress of a file upload.</s>
+ <d>See http://cvs.php.net/viewvc.cgi/pecl/uploadprogress/examples/ for a little example. 
+ It is only known to work on Apache with mod_php, other SAPI implementations unfortunately still have issues.
+ At least PHP 5.2 is needed.</d>
+ <da>2009-06-16 03:20:47</da>
+ <n>- Default temporary directory is taken from system settings during compile time (guenter).
+- Fix a while loop error in removing preceding whitespace (terralith).
+- Example: Added a check, if the extension is installed at all.
+- Example: Added checks for a valid uploadprogress.file.filename_template setting.</n>
+ <f>8536</f>
+ <g>http://pecl.php.net/get/uploadprogress-1.0.1</g>
+ <x xlink:href="package.1.0.1.xml"/>
+</r>

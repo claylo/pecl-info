@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.5.5</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in tcp/http/websocket/http2 server
+        - coroutine tcp/http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2020-10-15 02:54:10</da>
+ <n>New APIs
+---
++ Added Process\Manager and alias Process\ProcessManager (swoole/library#eac1ac5) (@matyhtf)
++ Support HTTP2 server-side GOAWAY (#3710) (@doubaokun)
++ Added Co\map() function (swoole/library#57) (@leocavalcante)
+
+Enhancement
+---
++ Support http2 client unix socket (#3668) (@sy-records)
++ Set the worker status to SW_WORKER_EXIT when the worker process exits (#3724) (@matyhtf)
++ Add send_queued_bytes and recv_queued_bytes in Server::getClientInfo() (#3721) (#3731) (@matyhtf) (@Yurunsoft)
++ Support option of stats_file (#3725) (@matyhtf) (@Yurunsoft)
+
+Fixed
+---
+* Fixed PHP8 build (zend_compile_string change) (#3670) (@twose)
+* Fixed PHP8 build (ext/sockets compatibility) (#3684) (@twose)
+* Fixed PHP8 build (php_url_encode_hash_ex change) (#3713) (@remicollet)
+* Fixed invalid conversion from 'const char*' to 'char*' for build (#3686) (@remicollet)
+* Fixed HTTP2 client over HTTP proxy is not working (#3677) (@matyhtf) (@twose)
+* Fixed PDO context data confusion (swoole/library#54) (@sy-records)
+
+Kernel
+---
+* Code optimization (#3671) (#3689) (#3700) (#3701) (#3708) (#3718) (#3722) (#3723) (@matyhtf)</n>
+ <f>1567342</f>
+ <g>https://pecl.php.net/get/swoole-4.5.5</g>
+ <x xlink:href="package.4.5.5.xml"/>
+</r>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/oauth">oauth</p>
+ <c>pecl.php.net</c>
+ <v>0.99.1</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>jawed</m>
+ <s>oauth consumer extension</s>
+ <d>OAuth is a specification for exchanging private user data between providers and 3rd parties, without using usernames or passwords. This extension provides a thread safe, simple, and updated interface to consumers (3rd parties) for working with OAuth.
+
+Requirements: ext/hash and libcurl (with https support if you plan to access resources over https).</d>
+ <da>2008-11-21 02:30:07</da>
+ <n>- Initial release.</n>
+ <f>12517</f>
+ <g>http://pecl.php.net/get/oauth-0.99.1</g>
+ <x xlink:href="package.0.99.1.xml"/>
+</r>

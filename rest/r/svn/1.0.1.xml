@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/svn">svn</p>
+ <c>pecl.php.net</c>
+ <v>1.0.1</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>alan_k</m>
+ <s>PHP Bindings for the Subversion Revision control system.</s>
+ <d>Bindings for the Subversion revision control system, providing a method for manipulating
+	a working copy or repository with PHP.</d>
+ <da>2010-12-08 22:30:49</da>
+ <n>Minor bug fix release
+
+   #18513 - svn_info( working_copy, false, SVN_REVISION_UNSPECIFIED ) gives you a svn_info on the local copy
+   #20440 - svn_mkdir on working copy log message is optional</n>
+ <f>24716</f>
+ <g>http://pecl.php.net/get/svn-1.0.1</g>
+ <x xlink:href="package.1.0.1.xml"/>
+</r>

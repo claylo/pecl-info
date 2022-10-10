@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/couchbase">couchbase</p>
+ <c>pecl.php.net</c>
+ <v>3.1.1</v>
+ <st>stable</st>
+ <l>Apache V2</l>
+ <m>avsej</m>
+ <s>Couchbase Server PHP extension</s>
+ <d>The PHP client library provides fast access to documents stored in a Couchbase Server.</d>
+ <da>2021-03-04 20:10:02</da>
+ <n>PCBC-745: throw BadInputException when string cannot be used as CAS
+PCBC-746: add tests for transcoding empty value
+PCBC-748: fix *Option#expiry() return value in documentation stubs</n>
+ <f>144302</f>
+ <g>https://pecl.php.net/get/couchbase-3.1.1</g>
+ <x xlink:href="package.3.1.1.xml"/>
+</r>

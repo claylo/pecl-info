@@ -1,0 +1,64 @@
+{
+    "category": "Benchmarking",
+    "deprecated": false,
+    "description": "Calls a user-defined callback when a one-shot or periodic timer expires. Also a sampling profiler backend, which aggregates backtraces collected by a periodic timer.",
+    "latestReleaseDate": "2022-05-07T15:23:16+00:00",
+    "latestVersion": "1.0.4",
+    "license": "Apache 2.0",
+    "name": "excimer",
+    "php8Mentioned": true,
+    "releases": {
+        "1.0.4": {
+            "version": "1.0.4",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "krinkle",
+            "releaseDate": "2022-05-07T15:23:16+00:00",
+            "releaseNotes": "- Fix arginfo error for PHP 7.1",
+            "get": "https://pecl.php.net/get/excimer-1.0.4",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.0.3": {
+            "version": "1.0.3",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "krinkle",
+            "releaseDate": "2022-05-04T13:47:39+00:00",
+            "releaseNotes": "- Set return type on ExcimerLog::aggregateByFunction\n- Set return type on ExcimerProfiler::getLog",
+            "get": "https://pecl.php.net/get/excimer-1.0.3",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.0.2": {
+            "version": "1.0.2",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "legoktm",
+            "releaseDate": "2021-10-18T15:44:40+00:00",
+            "releaseNotes": "- Fix Iterator prototypes for PHP 8.1\n- Add extension version in phpinfo()",
+            "get": "https://pecl.php.net/get/excimer-1.0.2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "legoktm",
+            "releaseDate": "2021-10-05T23:32:20+00:00",
+            "releaseNotes": "- Filter null bytes out of the collapsed output\n- Fix segfault in ZTS mode\n- Fix [-Wincompatible-pointer-types] with PHP 8",
+            "get": "https://pecl.php.net/get/excimer-1.0.1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "tstarling",
+            "releaseDate": "2021-03-01T23:52:11+00:00",
+            "releaseNotes": "- Initial PECL release",
+            "get": "https://pecl.php.net/get/excimer-1.0.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        }
+    },
+    "summary": "Interrupting timer and low-overhead sampling profiler",
+    "SPDX-License-Identifier": "Apache-2.0"
+}

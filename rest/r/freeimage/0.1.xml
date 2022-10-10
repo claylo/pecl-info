@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/freeimage">FreeImage</p>
+ <c>pecl.php.net</c>
+ <v>0.1</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>wenlong</m>
+ <s>Provides a wrapper to the FreeImage library.</s>
+ <d>This extension is a wrapper for the FreeImage (http://freeimage.sourceforge.net)
+library that allows PHP to support popular graphics image fromats like GIF, PNG,
+BMP, JPEG, TIFF, PSD, XPM and others as needed by today's multimedia application.
+See the examples in the examples/ directory for some hints on how to use it.
+</d>
+ <da>2004-08-04 10:50:00</da>
+ <n>- Rewritten all code.
+- Both a procedural and an OO API is provided.
+- Upgraded FreeImage library to version 3.4.0.
+- Added stream support.
+- Added PHP5 support.
+- First Release in PECL.</n>
+ <f>170062</f>
+ <g>http://pecl.php.net/get/FreeImage-0.1</g>
+ <x xlink:href="package.0.1.xml"/>
+</r>

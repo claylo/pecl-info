@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/apcu">apcu</p>
+ <c>pecl.php.net</c>
+ <v>5.1.12</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>remi</m>
+ <s>APCu - APC User Cache</s>
+ <d>APC User Caching</d>
+ <da>2018-07-09 10:24:05</da>
+ <n>- gh#307: Fix 'Timout' sort option (apc.php).
+- gh#308: Keep search parameter on cache entry detail link (apc.php).
+- Fix --enable-apcu-clear-signal support.
+- Show entries with expired global TTL in APCuIterator.
+- Respect TTL when calculating APCuIterator totals.
+- The per-entry TTL now always takes precedence over the global TTL.
+- The global TTL is now always relative to the access time.
+- apcu_inc() and apcu_dec() no longer update hard-expired entries. Instead a new entry is created.
+- Added optional $ttl argument to apcu_inc() and apcu_dec(), used when creating a new entry.
+- PHP bug #76145: Fix use of APCu inside Serializer::(un)serialize().
+- gh#304: If apcu_cas() is used on a non-existing entry, don't insert it.
+- gh#295: Improve APCuIterator performance by using PCRE JIT and preallocating key strings.
+- Reduce the memory overhead of cache entries.
+- Prevent potential memory corruption in the cache slam defense implementation.
+- Ensure cache entry references are released on bailout during unserialization.
+- Make support for atomic operations a hard requirement for building APCu.
+- Check write-lock acquisition for failure, to help debugging deadlock situations.
+- Make sure apcu_inc/dec are atomic when working on a non-existing entry.
+- Many changes to internal C APIs.</n>
+ <f>105890</f>
+ <g>http://pecl.php.net/get/apcu-5.1.12</g>
+ <x xlink:href="package.5.1.12.xml"/>
+</r>

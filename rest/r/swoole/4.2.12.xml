@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.2.12</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in http/websocket/http2 server
+        - coroutine http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2019-01-05 11:07:22</da>
+ <n>+ Implement RFC-1014, add `task_enable_coroutine`, remove `task_async` (13ab0f8)
++ Support `gethostbyname` timeout, add async task thread pool (#2256)
++ `Co\PostgreSQL` supports process-oriented prepare (#2223) (#2258)
++ `Co\Redis` client adds getOptions method (#2279)
+* Fixed non-coroutine after server reload (#2262) (3ac2337)
+* Fixed wrong data in `Table` (#2263) (872e99d)
+* Fixed `Co\Http\Client:addFile` error when optional parameter is null (#2270)
+* Fixed optional parameter problem for `Co::getaddrinfo` (#2273)
+* Fixed  timers in user processes (#2274)
+* Fixed the availability of gdb debugging tools in C++ (90d148b) (b12f62f)</n>
+ <f>1272589</f>
+ <g>https://pecl.php.net/get/swoole-4.2.12</g>
+ <x xlink:href="package.4.2.12.xml"/>
+</r>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/redis">redis</p>
+ <c>pecl.php.net</c>
+ <v>4.1.0RC2</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>yatsukhnenko</m>
+ <s>PHP extension for interfacing with Redis</s>
+ <d>This extension provides an API for communicating with Redis servers.</d>
+ <da>2018-06-22 07:37:30</da>
+ <n>phpredis 4.1.0RC2
+
+The primary new feature of this release is session locking functionality. Thanks to @SkydiveMarius!
+
+* Add callbacks validate_sid and update_timestamp to session handler [aaaf0f23] (@hongboliu)
+* Call cluster_disconnect before destroying cluster object. [28ec4322] (Pavlo Yatsukhnenko)
+* Bulk strings can be zero length. (Michael Grunder)
+* Handle async parameter for flushDb and flushAll [beb6e8f3,acd10409,742cdd05] (Pavlo Yatsukhnenko)
+* Split INSTALL and add more instructions [43613d9e,80d2a917] (@remicollet, Pavlo Yatsukhnenko)
+* Only the first arg of connect and pconnect is required [063b5c1a] (@mathroc)
+* Add session locking functionality [300c7251] (@SkydiveMarius, Michael Grunder, Pavlo Yatsukhnenko)
+* Refactor geo* commands + documentation improvements (Michael Grunder)</n>
+ <f>220589</f>
+ <g>http://pecl.php.net/get/redis-4.1.0RC2</g>
+ <x xlink:href="package.4.1.0RC2.xml"/>
+</r>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ffi">ffi</p>
+ <c>pecl.php.net</c>
+ <v>0.1</v>
+ <st>alpha</st>
+ <l>PHP</l>
+ <m>wez</m>
+ <s>Foreign Function Interface</s>
+ <d>FFI is a multi-platform extension for PHP 5 that allows you to bind to functions from arbitrary shared libraries and call them.
+</d>
+ <da>2004-01-11 23:23:00</da>
+ <n>Initial release</n>
+ <f>105931</f>
+ <g>http://pecl.php.net/get/ffi-0.1</g>
+ <x xlink:href="package.0.1.xml"/>
+</r>

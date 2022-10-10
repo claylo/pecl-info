@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/cairo_wrapper">cairo_wrapper</p>
+ <c>pecl.php.net</c>
+ <v>0.2.4</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>hholzgra</m>
+ <s>Cairo Wrapper Extension</s>
+ <d>A cairo API wrapper. For details about cairo see http://cairographics.org/.</d>
+ <da>2008-03-28 17:20:33</da>
+ <n>- added various cairo 1.4 specific functions
+- fixed build if cairo installation has no SVG support (PECL Bug #13521)</n>
+ <f>36312</f>
+ <g>http://pecl.php.net/get/cairo_wrapper-0.2.4</g>
+ <x xlink:href="package.0.2.4.xml"/>
+</r>

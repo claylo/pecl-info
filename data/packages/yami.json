@@ -1,0 +1,44 @@
+{
+    "category": "Networking",
+    "deprecated": false,
+    "description": "This binding allows PHP programs to communicate with servers\n    written using YAMI, opening up a wide range of possibilities.\n\n    YAMI (http://msobczak.com/prog/yami/concept/) is a tiny library\n    that provides lightweight inter-object communication infrastructure.\n    There are only three concepts that one need to understand (Domain,\n    Agent,Message) in order to write high performance servers (and clients)\n    in C/C++.",
+    "latestReleaseDate": "2007-07-24T09:52:15+00:00",
+    "latestVersion": "1.0.1",
+    "license": "PHP License",
+    "name": "yami",
+    "summary": "Lightweight inter-object communication infrastructure",
+    "php8Mentioned": false,
+    "releases": {
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "va",
+            "releaseDate": "2007-07-24T09:52:15+00:00",
+            "releaseNotes": "- First release to PECL\n- This build was compiled for PHP version 5.2.1\n- The extension should compile for PHP 4.x as well",
+            "get": "http://pecl.php.net/get/yami-1.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0": {
+            "version": "1.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "va",
+            "releaseDate": "2007-07-23T03:19:46+00:00",
+            "releaseNotes": "- First release to PECL\n- This build was compiled for PHP version 5.2.1\n- The extension should compile for PHP 4.x as well",
+            "get": "http://pecl.php.net/get/yami-1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "200707230007": {
+            "version": "200707230007",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "va",
+            "releaseDate": "2007-07-23T03:19:16+00:00",
+            "releaseNotes": "- First release to PECL\n- This build was compiled for PHP version 5.2.1\n- The extension should compile for PHP 4.x as well",
+            "get": "http://pecl.php.net/get/yami-200707230007",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

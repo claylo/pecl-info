@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/tensor">tensor</p>
+ <c>pecl.php.net</c>
+ <v>2.2.3</v>
+ <st>stable</st>
+ <l>MIT</l>
+ <m>andrewdalpino</m>
+ <s>A library and extension that provides objects for scientific computing in PHP.</s>
+ <d>A library and extension that provides objects for scientific computing in PHP.</d>
+ <da>2021-05-25 05:38:49</da>
+ <n>- Remove dependency on pthreads</n>
+ <f>129524</f>
+ <g>https://pecl.php.net/get/tensor-2.2.3</g>
+ <x xlink:href="package.2.2.3.xml"/>
+</r>

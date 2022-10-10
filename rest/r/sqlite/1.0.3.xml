@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/sqlite">SQLite</p>
+ <c>pecl.php.net</c>
+ <v>1.0.3</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>wez</m>
+ <s>SQLite database bindings</s>
+ <d>SQLite is a C library that implements an embeddable SQL database engine.
+Programs that link with the SQLite library can have SQL database access
+without running a separate RDBMS process.
+This extension allows you to access SQLite databases from within PHP.
+Windows binary for PHP 4.3 is available from:
+http://snaps.php.net/win32/PECL_4_3/php_sqlite.dll
+**Note that this extension is built into PHP 5 by default**
+</d>
+ <da>2004-07-18 10:32:00</da>
+ <n>Upgraded libsqlite to version 2.8.14
+
+&quot;Fixed&quot; the bug where calling sqlite_query() with multiple SQL statements in a
+single string would not work if you looked at the return value.  The fix for
+this case is to use the new sqlite_exec() function instead. (Stas)</n>
+ <f>371189</f>
+ <g>http://pecl.php.net/get/SQLite-1.0.3</g>
+ <x xlink:href="package.1.0.3.xml"/>
+</r>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ingres">ingres</p>
+ <c>pecl.php.net</c>
+ <v>1.4.3</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>grant</m>
+ <s>Extension for the Ingres Relational Database System.</s>
+ <d>This extension supports the Ingres Relational Database System.</d>
+ <da>2007-03-07 07:32:25</da>
+ <n>This release incorporates a single change that stablizes the Ingres PECL extension under multi-threaded webservers such as Apache worker or Microsoft IIS. Users of these web servers are strongly recommended to install this update.
+
+The following changes were submitted:
+    - Wait for disconnect to complete to prevent thread terminating uncleanly [grantc 07-03-07]</n>
+ <f>40736</f>
+ <g>http://pecl.php.net/get/ingres-1.4.3</g>
+ <x xlink:href="package.1.4.3.xml"/>
+</r>

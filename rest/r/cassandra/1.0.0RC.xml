@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/cassandra">cassandra</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0RC</v>
+ <st>beta</st>
+ <l>Apache License 2.0</l>
+ <m>avalanche123</m>
+ <s>DataStax PHP Driver for Apache Cassandra</s>
+ <d>A modern, feature-rich and highly tunable PHP client library for Apache
+Cassandra and DataStax Enterprise using exclusively Cassandra's binary
+protocol and Cassandra Query Language v3.</d>
+ <da>2015-08-13 16:39:25</da>
+ <n># 1.0.0-rc
+
+Features:
+
+* Added `Cassandra\Collection::remove()`.
+* Added `Cassandra\Blob::toBinaryString()`.
+* Added ability to configure io threads and connections per host.
+* Enabled latency aware routing by default and added a way of disabling it.
+* Enabled TCP nodelay, added a way of disabling it.
+* Added configuration for TCP keepalive.
+
+Bug Fixes:
+
+* [PHP-30] Segfault when using FutureRows
+* [PHP-31] Segfault during deserialization of NULL values
+* [PHP-33] Fixed timestamps generation on 32bit systems
+* [PHP-37] Removed extra null byte when `Cassandra\Blob` created from string
+* [PHP-41] Fix memory leak when using batch statements</n>
+ <f>74672</f>
+ <g>http://pecl.php.net/get/cassandra-1.0.0RC</g>
+ <x xlink:href="package.1.0.0RC.xml"/>
+</r>

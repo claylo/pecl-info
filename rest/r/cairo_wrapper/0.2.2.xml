@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/cairo_wrapper">cairo_wrapper</p>
+ <c>pecl.php.net</c>
+ <v>0.2.2</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>hholzgra</m>
+ <s>Cairo Wrapper Extension</s>
+ <d>A cairo API wrapper. For details about cairo see http://cairographics.org/.</d>
+ <da>2007-01-25 15:32:16</da>
+ <n>Stuff added since 0.2.1:
+- reflection fix by disabling inclusion of
+  cairo backwards compatibility macros
+- package regenerated using latest CodeGen_PECL
+  to resolve phpize problems on systems with
+  older autoconf installations
+- added comments to more constants
+- *_create_* functions never return NULL, 
+  error states need to be checked for using 
+  *_status_* functions</n>
+ <f>34612</f>
+ <g>http://pecl.php.net/get/cairo_wrapper-0.2.2</g>
+ <x xlink:href="package.0.2.2.xml"/>
+</r>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/expect">expect</p>
+ <c>pecl.php.net</c>
+ <v>0.2.6</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>michael</m>
+ <s>PHP extension for expect library</s>
+ <d>This extension allows to interact with processes through PTY, using expect library.
+ 
+</d>
+ <da>2009-05-20 13:09:20</da>
+ <n>Fixed bug #16552	(does not build with php-5.3.x)</n>
+ <f>6077</f>
+ <g>http://pecl.php.net/get/expect-0.2.6</g>
+ <x xlink:href="package.0.2.6.xml"/>
+</r>

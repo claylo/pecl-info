@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/redis">redis</p>
+ <c>pecl.php.net</c>
+ <v>3.1.1</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>yatsukhnenko</m>
+ <s>PHP extension for interfacing with Redis</s>
+ <d>This extension provides an API for communicating with Redis servers.</d>
+ <da>2017-02-01 08:18:57</da>
+ <n>phpredis 3.1.1
+
+* Additional test updates for 32 bit systems (@remicollet)
+* ARM rounding issue in tests (@remicollet)
+* Use new zend_list_close instead of zend_list_delete when reconnecting.
+* Refactoring of redis_boolean_response_impl and redis_sock_write (@yatsukhnenko)
+
+phpredis 3.1.1
+
+This release contains mostly fixes for issues introduced when merging
+the php 5 and 7 codebase into a single branch.
+
+* Fixed a segfault in igbinary serialization (@yatsukhnenko)
+* Restore 2.2.8/3.0.0 functionality to distinguish between an error
+  and simply empty session data. (@remicollet)
+* Fix double to string conversion function (@yatsukhnenko)
+* Use PHP_FE_END definition when available (@remicollet)
+* Fixed various 'static function declared but not used' warnings
+* Fixes to various calls which were typecasting pointers to the
+  wrong size. (@remicollet)
+
+* Added php session unit test (@yatsukhnenko)
+* Added explicit module dependancy for igbinary (@remicollet)
+* Added phpinfo serialization information (@remicollet)</n>
+ <f>198597</f>
+ <g>http://pecl.php.net/get/redis-3.1.1</g>
+ <x xlink:href="package.3.1.1.xml"/>
+</r>

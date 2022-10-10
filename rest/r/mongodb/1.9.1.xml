@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.9.1</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>jmikola</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2021-04-07 17:45:33</da>
+ <n>** Bug
+    * [PHPC-1713] - Ensure Cursor::current returns null on invalid positions
+    * [PHPC-1748] - Cursor::key returns valid values on invalid positions
+    * [PHPC-1774] - platform field in connection meta data cuts off PHP version
+    * [PHPC-1775] - php_phongo_dbpointer_init uses incorrect size for strncpy
+    * [PHPC-1793] - Compile failure with PHP's master branch (8.1-dev)
+    * [PHPC-1801] - Fix arginfo for Manager::selectServer
+
+** Task
+    * [PHPC-1739] - Move CI from travis-ci to GitHub Actions
+    * [PHPC-1808] - Upgrade libbson and libmongoc to 1.17.4
+
+** Improvement
+    * [PHPC-1795] - Remove usages of xtrace in shell scripts</n>
+ <f>1285984</f>
+ <g>https://pecl.php.net/get/mongodb-1.9.1</g>
+ <x xlink:href="package.1.9.1.xml"/>
+</r>

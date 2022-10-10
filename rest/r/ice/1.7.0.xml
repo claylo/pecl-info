@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ice">ice</p>
+ <c>pecl.php.net</c>
+ <v>1.7.0</v>
+ <st>stable</st>
+ <l>BSD-3-Clause</l>
+ <m>mruz</m>
+ <s>Simple and fast PHP framework</s>
+ <d>Ice is a PHP framework frozen in C extension.</d>
+ <da>2020-09-26 15:47:58</da>
+ <n>- Url, add href and rel, deprecate getStatic, fix #231
+- Arr, add merge, deprecate replace, fix #228
+- View, set engine options, sleet compile fix #288
+- Validation, add exists validator #274
+- Db, count elements #277
+- Router, set routes must be explicitly called #282
+- Db, skip settings if not provided, fix #286
+- Auth file, fetch users from the options, fix #285
+- Sqlite, row count returns zero all the time, fix #283</n>
+ <f>348154</f>
+ <g>https://pecl.php.net/get/ice-1.7.0</g>
+ <x xlink:href="package.1.7.0.xml"/>
+</r>

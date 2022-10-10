@@ -1,0 +1,24 @@
+{
+    "category": "Search Engine",
+    "deprecated": false,
+    "description": "This is an extension for CLucene. CLucene is a C++ port of the popular Apache Lucene text search engine.",
+    "latestReleaseDate": "2005-11-26T13:15:08+00:00",
+    "latestVersion": "0.0.9",
+    "license": "PHP",
+    "name": "clucene",
+    "php8Mentioned": false,
+    "releases": {
+        "0.0.9": {
+            "version": "0.0.9",
+            "state": "alpha",
+            "license": "PHP",
+            "releasedBy": "cvubrugier",
+            "releaseDate": "2005-11-26T13:15:08+00:00",
+            "releaseNotes": "First alpha version",
+            "get": "http://pecl.php.net/get/clucene-0.0.9",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "Extension for CLucene",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

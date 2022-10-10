@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xdebug">xdebug</p>
+ <c>pecl.php.net</c>
+ <v>3.0.1</v>
+ <st>stable</st>
+ <l>BSD style</l>
+ <m>derick</m>
+ <s>Provides functions for function traces and profiling</s>
+ <d>The Xdebug extension helps you debugging your script by providing a lot of
+valuable debug information. The debug information that Xdebug can provide
+includes the following:
+
+    * stack and function traces in error messages with:
+          o full parameter display for user defined functions
+          o function name, file name and line indications
+          o support for member functions
+    * memory allocation
+    * protection for infinite recursions
+
+Xdebug also provides:
+
+    * profiling information for PHP scripts
+    * code coverage analysis
+    * capabilities to debug your scripts interactively with a debug client</d>
+ <da>2020-12-04 17:04:53</da>
+ <n>Fri, Dec  4, 2020 - xdebug 3.0.1
+
+= Fixed bugs:
+
+  - Fixed issue #1893: Crash with ext-fiber and xdebug.mode=coverage
+  - Fixed issue #1896: Segfault with closures that are not created from user code
+  - Fixed issue #1897: Crash when removing a breakpoint
+  - Fixed issue #1900: Update README and add run-xdebug-tests.php to package
+  - Fixed issue #1901: Stack traces are shown (with a broken time) when Xdebug's mode includes 'debug' but not 'develop' or 'trace'
+  - Fixed issue #1902: Compillation failure on AIX
+  - Fixed issue #1903: Constants should always be available, regardless of which mode Xdebug is in
+  - Fixed issue #1904: Profile and trace files using %t or %u do not get the right names
+  - Fixed issue #1905: Debugger does not disable request timeouts</n>
+ <f>214467</f>
+ <g>https://pecl.php.net/get/xdebug-3.0.1</g>
+ <x xlink:href="package.3.0.1.xml"/>
+</r>

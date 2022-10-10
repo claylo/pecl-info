@@ -1,0 +1,34 @@
+{
+    "category": "Networking",
+    "deprecated": false,
+    "description": "This extension allows you to talk to DBUS services on a system, and also act\n  as a DBUS service.",
+    "latestReleaseDate": "2011-06-15T07:38:06+00:00",
+    "latestVersion": "0.1.1",
+    "license": "PHP",
+    "name": "DBus",
+    "summary": "Extension for interaction with DBUS busses",
+    "php8Mentioned": false,
+    "releases": {
+        "0.1.1": {
+            "version": "0.1.1",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2011-06-15T07:38:06+00:00",
+            "releaseNotes": "- Compile fix for PHP 5.4/trunk.",
+            "get": "http://pecl.php.net/get/dbus-0.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.0": {
+            "version": "0.1.0",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2010-04-03T20:06:22+00:00",
+            "releaseNotes": "- First release.",
+            "get": "http://pecl.php.net/get/dbus-0.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

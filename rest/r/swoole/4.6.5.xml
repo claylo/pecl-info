@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.6.5</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in tcp/http/websocket/http2 server
+        - coroutine tcp/http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2021-04-09 10:46:55</da>
+ <n>New APIs
+---
+* Add count method to WaitGroup (swoole/library#100) (@sy-records) (@deminy)
+
+Enhancement
+---
+* Supported native curl multi (#4093) (#4099) (#4101) (#4105) (#4113) (#4121) (swoole/swoole-src@cd7f51c) (#4147) (@matyhtf) (@sy-records) (@huanghantao)
+* Allow array HTTP/2 headers, Bug fixed for #4133 (#4140)
+
+Fixed
+---
+* Fixed NetBSD build (#4080) (@devnexen)
+* Fixed OpenBSD build. (#4108) (@devnexen)
+* Fixed illumos/solaris build, member aliases only (#4109) (@devnexen)
+* Fixed heartbeat detection of SSL connection does not take effect when handshake is not completed (#4114) (@matyhtf)
+* Fixed httpclient proxy with host and port (#4124) (@Yurunsoft)
+* Fixed Swoole\Coroutine\Http::request, correct array to the client setting (swoole/library#103) (@leocavalcante) (@deminy)
+
+Kernel
+---
+* Supported asm context on BSD (#4082) (@devnexen)
+* Used arc4random_buf to implement getrandom under FreeBSD (#4096) (@devnexen)
+* Make context darwin arm64: removes workaround and uses the label (#4127) (@devnexen)
+
+Test
+---
+* Added build job for alpine (#4104) (@limingxinleo)</n>
+ <f>1642233</f>
+ <g>https://pecl.php.net/get/swoole-4.6.5</g>
+ <x xlink:href="package.4.6.5.xml"/>
+</r>

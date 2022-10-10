@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mysqlnd_ms">mysqlnd_ms</p>
+ <c>pecl.php.net</c>
+ <v>1.3.0</v>
+ <st>alpha</st>
+ <l>PHP License</l>
+ <m>andrey</m>
+ <s>A replication and load balancing plugin for mysqlnd</s>
+ <d>The replication and load balancing plugin is a plugin for the mysqlnd library. It can be used with PHP MySQL extensions (ext/mysql, ext/mysqli, PDO_MySQL). if they are compiled to use mysqlnd. The plugin inspects queries to do read-write splitting. Read-only queries are send to configured MySQL replication slave servers all other queries are redirected to the MySQL replication master server. Very little, if any, application changes required, dependent on the usage scenario required.</d>
+ <da>2012-04-12 08:58:46</da>
+ <n>new features release</n>
+ <f>342233</f>
+ <g>http://pecl.php.net/get/mysqlnd_ms-1.3.0</g>
+ <x xlink:href="package.1.3.0.xml"/>
+</r>

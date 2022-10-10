@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pdo_cubrid">PDO_CUBRID</p>
+ <c>pecl.php.net</c>
+ <v>8.4.3.0001</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>cubrid</m>
+ <s>CUBRID driver for PDO</s>
+ <d>This extension provides a CUBRID driver for PDO.</d>
+ <da>2012-11-16 04:17:51</da>
+ <n>Changed and Enhanced Features:
+
+1) APIS-287: Use cci_connect_ex instead of cci_connect in PDO driver.
+2) APIS-288: Use CCI funciton cci_escape_string() to implement PDO::quote</n>
+ <f>21870</f>
+ <g>http://pecl.php.net/get/PDO_CUBRID-8.4.3.0001</g>
+ <x xlink:href="package.8.4.3.0001.xml"/>
+</r>

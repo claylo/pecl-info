@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/oci8">oci8</p>
+ <c>pecl.php.net</c>
+ <v>1.2.1</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>tony2001</m>
+ <s>OCI8 functions</s>
+ <d>These functions allow you to access Oracle database servers using 
+the Oracle Call Interface (OCI8).
+ 
+</d>
+ <da>2006-05-02 06:24:37</da>
+ <n>Added support for BINARY_DOUBLE and BINARY_FLOAT (see #36764)
+Changed oci_field_type() to return VARCHAR2 instead of VARCHAR (according to feature request #36800)
+Fixed bug #37059 (oci_bind_by_name() doesn't support RAW and LONG RAW fields)
+Fixed bug #37055 (incorrect reference counting for persistent OCI8 connections)
+Fixed bug #36934 (OCILob-&gt;read() doesn't move internal pointer when reading 0's)
+Fixed bug #36851 (Documentation and code discrepancies for NULL data)
+Fixed bug #36820 (Privileged connection with an Oracle password file fails)</n>
+ <f>67874</f>
+ <g>http://pecl.php.net/get/oci8-1.2.1</g>
+ <x xlink:href="package.1.2.1.xml"/>
+</r>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pdo_sqlsrv">pdo_sqlsrv</p>
+ <c>pecl.php.net</c>
+ <v>4.0.6</v>
+ <st>devel</st>
+ <l>The MIT License (MIT)</l>
+ <m>mbar</m>
+ <s>Microsoft Drivers for PHP for SQL Server (PDO_SQLSRV)</s>
+ <d>The Microsoft Drivers for PHP for SQL Server are PHP extensions that allow for the reading and writing of SQL Server data from within PHP scripts. The SQLSRV extension provides a procedural interface while the PDO_SQLSRV extension implements PDO for accessing data in all editions of SQL Server 2005 and later (including Azure SQL DB). These drivers rely on the Microsoft ODBC Driver for SQL Server to handle the low-level communication with SQL Server.
+*This package contains only the PDO_SQLSRV driver.*</d>
+ <da>2016-10-22 00:38:52</da>
+ <n>This version is for PHP 7 only.
+This preview contains the PDO_SQLSRV drivers for PHP 7 (64-bit) with limitations. Upcoming release(s) will contain more functionality, bug fixes, and more.</n>
+ <f>178822</f>
+ <g>http://pecl.php.net/get/pdo_sqlsrv-4.0.6</g>
+ <x xlink:href="package.4.0.6.xml"/>
+</r>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/hidef">hidef</p>
+ <c>pecl.php.net</c>
+ <v>0.1.10</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>gopalv</m>
+ <s>Constants for real</s>
+ <d>Allow definition of user defined constants in simple ini files, 
+  which are then processed like internal constants, without any 
+  of the usual performance penalties.</d>
+ <da>2011-11-25 07:46:47</da>
+ <n>- Throw exceptions on serialize and do not segfault on unserialize 
+- hidef_wrap to make dev work easier without restarting apache (hidef_wrap(unserialize(...)) to get a FrozenArray</n>
+ <f>19892</f>
+ <g>http://pecl.php.net/get/hidef-0.1.10</g>
+ <x xlink:href="package.0.1.10.xml"/>
+</r>

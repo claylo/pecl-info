@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/memcached">memcached</p>
+ <c>pecl.php.net</c>
+ <v>3.0.0</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>sodabrew</m>
+ <s>PHP extension for interfacing with memcached via libmemcached library</s>
+ <d>This extension uses libmemcached library to provide API for communicating with memcached servers.</d>
+ <da>2017-02-08 18:02:51</da>
+ <n>PHP7 release of memcached extension. Note that support for libmemcached 0.x series has been discontinued
+and the oldest actively tested version is 1.0.2. It is highly recommended to use version 1.0.18 of
+libmemcached.
+
+API
+ * The method signature of get, getByKey, getMulti, and getMultiByKey changed.
+ * get* and getMulti* commands no longer take cas or user flags parameters.
+ * get* and getMulti* commands now take the Memcached::GET_EXTENDED flag to retrieve user flags and cas tokens.
+ * Fixes getStats command to return all stats from all servers
+ * Fixes allKeys command behaviour
+ * Fixes error where cache callback for get command was not setting expiration time properly
+ * Added server type to server list
+ * Remove use_sasl ini-variable and initialise sasl as needed
+ * CAS tokens are returned as integers and they overflow to strings as needed
+
+Session handler
+ * The session memcached protocol config name was changed, and the default protocol was changed from text to binary protocol. If your memcached setup does not support the binary protocol(e.g. if using twemproxy), then set memcached.sess_binary_protocol = Off. (Previously called memcached.sess_binary)
+ * Session lock algorithm updated (new ini-values memcached.sess_lock_wait_min, memcached.sess_lock_wait_max and memcached.sess_lock_retries)
+ * Session extension uses PHP allocators (still some work to do on the rest of the extension)
+ * Ini-values take effect during session_start or session_regenerate_id
+ * Fixes crash with session_regenerate_id (work-around for PHP bug)
+
+Tests
+ * Fix several problematic tests</n>
+ <f>75024</f>
+ <g>http://pecl.php.net/get/memcached-3.0.0</g>
+ <x xlink:href="package.3.0.0.xml"/>
+</r>

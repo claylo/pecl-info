@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/cubrid">CUBRID</p>
+ <c>pecl.php.net</c>
+ <v>8.3.0.0001</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>cubrid</m>
+ <s>This is the official PHP Extension to connect to CUBRID Database.</s>
+ <d>CUBRID is an open source database management system highly optimized for Web applications (http://www.cubrid.org). The current PHP extension is fully compatibly with the latest stable version of CUBRID Database. To post issues and report bugs, please use CUBRID Official Forum at http://forum.cubrid.org.</d>
+ <da>2010-10-18 03:59:39</da>
+ <n>This release is a major release. All codes has been reviewed, and totally rewritten with latest Zend Engine 2 API.
+
+- Added more than 20 new APIs, see release-notes.html in package for more details.
+- Added two new schema types for cubrid_schema: CUBRID_SCH_DIRECT_SUPER_CLASS and CUBRID_SCH_PRIMARY_KEY.
+- More data types support for cubrid_bind, the following types are added: CHAR, VARCHAR, BIGINT, MONETARY, VARBIT and DATETIME.
+- Fix a bug in cubrid_get: If parameter attr is given and its type is string, and the function returns successfully, then there will be memory leak.</n>
+ <f>36934</f>
+ <g>http://pecl.php.net/get/CUBRID-8.3.0.0001</g>
+ <x xlink:href="package.8.3.0.0001.xml"/>
+</r>

@@ -1,0 +1,24 @@
+{
+    "category": "Database",
+    "deprecated": false,
+    "description": "db++, made by the German company Concept asa, is a relational database\nsystem with high performance and low memory and disk usage in\nmind. While providing SQL as an additional language interface, it is\nnot really a SQL database in the first place but provides its own AQL\nquery language which is much more influenced by the relational algebra\nthen SQL is.",
+    "latestReleaseDate": "2003-06-24T09:10:00+00:00",
+    "latestVersion": "0.9",
+    "license": "PHP License",
+    "name": "dbplus",
+    "summary": "db++ database functions",
+    "php8Mentioned": false,
+    "releases": {
+        "0.9": {
+            "version": "0.9",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "hholzgra",
+            "releaseDate": "2003-06-24T09:10:00+00:00",
+            "releaseNotes": "Initial 'official' beta release.",
+            "get": "http://pecl.php.net/get/dbplus-0.9",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

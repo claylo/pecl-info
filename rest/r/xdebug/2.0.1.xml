@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xdebug">xdebug</p>
+ <c>pecl.php.net</c>
+ <v>2.0.1</v>
+ <st>stable</st>
+ <l>BSD style</l>
+ <m>derick</m>
+ <s>Provides functions for function traces and profiling</s>
+ <d>The Xdebug extension helps you debugging your script by providing a lot of
+valuable debug information. The debug information that Xdebug can provide
+includes the following:
+
+    * stack and function traces in error messages with:
+          o full parameter display for user defined functions
+          o function name, file name and line indications
+          o support for member functions
+    * memory allocation
+    * protection for infinite recursions
+
+Xdebug also provides:
+
+    * profiling information for PHP scripts
+    * code coverage analysis
+    * capabilities to debug your scripts interactively with a debug client</d>
+ <da>2007-10-21 07:56:54</da>
+ <n>Sat, Oct 20, 2007 - xdebug 2.0.1
+
++ Changes:
+	- Improved code coverage performance dramatically.
+	- PHP 5.3 compatibility (no namespaces yet though).
+	
+= Fixed bugs:
+	- Fixed bug #301: Loading would cause SIGBUS on Solaris 10 SPARC. (Patch by
+	  Sean Chalmers)
+	- Fixed bug #300: Xdebug does not force LTR rendering for its tables.
+	- Fixed bug #299: Computerized traces don't have a newline for return
+	  entries if memory limit is not enabled.
+	- Fixed bug #298: xdebug_var_dump() doesn't handle entity replacements
+	  correctly concerning string length.
+	- Fixed a memory free error related to remote debugging conditions.
+	  (Related to bug #297).</n>
+ <f>279058</f>
+ <g>http://pecl.php.net/get/xdebug-2.0.1</g>
+ <x xlink:href="package.2.0.1.xml"/>
+</r>

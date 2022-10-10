@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/couchbase">couchbase</p>
+ <c>pecl.php.net</c>
+ <v>2.3.1</v>
+ <st>stable</st>
+ <l>Apache V2</l>
+ <m>avsej</m>
+ <s>Couchbase Server PHP extension</s>
+ <d>The PHP client library provides fast access to documents stored in a Couchbase Server.</d>
+ <da>2017-04-05 11:45:27</da>
+ <n>* PCBC-459: restore \Couchbase\Bucket::unlock() method, which has been
+  lost in refactoring
+* PCBC-460: prefer managed strings to persistent when storing document
+  values.
+* PCBC-461: deallocate intermediate results when using encoder compression
+* PCBC-462: replace new lines in log entries with space
+* PCBC-464: fix NumericRangeFacet with NULL boundary on PHP 5.4
+* PCBC-463: fix incorrect reference counting on Search API. (might lead to
+  segfaults and leaks)
+* PCBC-465: check encoded ViewQuery before sending to libcouchbase
+* PCBC-467: intermediate values in Datastructures API might leak.
+  (e.g. result of internal &quot;get&quot; to find out size of the list)
+* PCBC-469: implement SearchQuery-&gt;sort() function to support sorting FTS
+  results, which is accessible in Couchbase Server 4.6+
+* PCBC-471: fixed issue, when the library always use credentials for the
+  first bucket in Authenticator.
+* PCBC-441: add experimental support of Analytics query.
+  https://developer.couchbase.com/documentation/server/4.5/analytics/introduction.html</n>
+ <f>139623</f>
+ <g>http://pecl.php.net/get/couchbase-2.3.1</g>
+ <x xlink:href="package.2.3.1.xml"/>
+</r>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ingres">ingres</p>
+ <c>pecl.php.net</c>
+ <v>2.0.2</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>grant</m>
+ <s>Extension for the Ingres Relational Database System.</s>
+ <d>This extension supports the Ingres Relational Database System.</d>
+ <da>2009-01-23 11:11:30</da>
+ <n>This release fixes a number problems discovered since 2.0.1 was released. See below for the list of changes made:
+    - Fix corrupt Ingres MONEY to PHP DOUBLE conversions
+    - Eliminate memory leak when ingres_free_result() is not called
+    - Fix ingres_field_name() so it returns the correct column name
+    - Fix SEGV in php_ii_convert_data() when converting DATE to STRING
+    - Enable the extension to build on Mac OS X and HP-UX
+    - Reduce the number of emalloc calls in php_ii_fetch()
+    - Clean up proto entries in ingres.c
+    - Make ingres_conn_*() and ingres_stmt_* aliases for their ingres_err*() counterparts</n>
+ <f>66721</f>
+ <g>http://pecl.php.net/get/ingres-2.0.2</g>
+ <x xlink:href="package.2.0.2.xml"/>
+</r>

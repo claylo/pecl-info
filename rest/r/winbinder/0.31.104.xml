@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/winbinder">WinBinder</p>
+ <c>pecl.php.net</c>
+ <v>0.31.104</v>
+ <st>alpha</st>
+ <l>BSD</l>
+ <m>rubs</m>
+ <s>A Native Windows binding for PHP</s>
+ <d>WinBinder is an extension that allows PHP programmers to build native Windows applications. It wraps a limited but important subset of the Windows API in a lightweight, easy-to-use library so that program creation is quick and straightforward.
+</d>
+ <da>2004-11-23 13:20:00</da>
+ <n>This release has many bug fixes and more enhancements. the main ones are:
+
+- Fixed bug that made some classes appear 'wrong' over tab pages in Windows XP
+- New style options: grid lines and check boxes in ListViews; tick marks in Sliders; sunken borders in various classes; wrap lines in labels
+- Consistent processing of focus and double-click notification messages
+- New functionalities and fixes to low-level functions
+- Several enhancements to the example and test applications
+- Several other enhancements and various bugs corrected
+- Some enhancements to web site
+
+Some fixes werw quite major and may be still unstable, so please report any bugs you find.</n>
+ <f>453420</f>
+ <g>http://pecl.php.net/get/WinBinder-0.31.104</g>
+ <x xlink:href="package.0.31.104.xml"/>
+</r>

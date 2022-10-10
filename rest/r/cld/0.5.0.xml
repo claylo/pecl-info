@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/cld">cld</p>
+ <c>pecl.php.net</c>
+ <v>0.5.0</v>
+ <st>stable</st>
+ <l>BSD License</l>
+ <m>lstrojny</m>
+ <s>PHP Bindings for Chromium Compact Language Detector</s>
+ <d>Exposes Chromium Compact Language Detector to PHP to find out what language a text is</d>
+ <da>2011-11-14 20:37:05</da>
+ <n>- Fixing linking on Linux causing the error &quot;undefined symbol _ZNSs4_Rep20_S_empty_rep_storageE&quot;
+- Reflection test case for CLD\InvalidArgumentException, CLD\InvalidLanguageException, CLD\InvalidEncodingException
+- Reflection test case for CLD\Detector
+- Use cld_encodings.h from upstream library instead of our own</n>
+ <f>12367</f>
+ <g>http://pecl.php.net/get/cld-0.5.0</g>
+ <x xlink:href="package.0.5.0.xml"/>
+</r>

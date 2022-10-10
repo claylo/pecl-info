@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.1.0</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>jmikola</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundemental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2015-12-15 16:00:54</da>
+ <n>* PHPC-509: Default Manager URI to &quot;mongodb://localhost:27017/&quot;
+* PHPC-448: Fix arginfo for ReadConcern constructor
+* PHPC-514: Fix --with-mongodb-sasl flag
+* PHPC-512: Disable async stream connections
+* PHPC-508: Construct valid stream URI for IPv6 literals
+* PHPC-448: Manager::getReadConcern() and URI test
+* PHPC-448: Support readConcern option on Query
+* PHPC-448: Implement ReadConcern class
+* PHPC-443: Support &quot;bypassDocumentValidation&quot; option in BulkWrite
+* PHPC-450: failReceivedGetmore does not support getMore commands
+* PHPC-450: Don't assert exact isMaster response when dumping Servers
+* PHPC-450: Split query tests for OP_QUERY and find command
+* PHPC-450: Profiled aggregate commands log the collection NS in 3.2
+* PHPC-450: Update open cursor check for MongoDB 3.2
+* Fixed PHPC-502: bson_init_static(): precondition failed: data
+* PHPC-450: Enable majority read concern by default in MO
+* PHPC-450: Use MongoDB 3.2 final for testing</n>
+ <f>630585</f>
+ <g>http://pecl.php.net/get/mongodb-1.1.0</g>
+ <x xlink:href="package.1.1.0.xml"/>
+</r>

@@ -1,0 +1,64 @@
+{
+    "category": "System",
+    "deprecated": false,
+    "description": "This extension provides server-side request and response objects for PHP 7.\nThese are *not* HTTP message objects proper. They are more like wrappers\nfor existing global PHP variables and functions, with some limited\nadditional convenience functionality.\n\nThis extension defines two classes in the global namespace:\n\n- ServerRequest, composed of read-only copies of PHP superglobals and some\n  other commonly-used values, with methods for adding application-specific\n  request information in immutable fashion.\n\n- ServerResponse, essentially a wrapper around (and buffer for) response-\n  related PHP functions, with some additional convenience methods, and self-\n  sending capability.\n\nDocumentation: https://github.com/pmjones/ext-request\n\nA PHP 5 userland implementation that tracks this extension is available at\nhttps://packagist.org/packages/pmjones/request .",
+    "latestReleaseDate": "2020-04-08T12:30:34+00:00",
+    "latestVersion": "2.0.0",
+    "license": "MIT",
+    "name": "request",
+    "php8Mentioned": false,
+    "releases": {
+        "2.0.0": {
+            "version": "2.0.0",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "pmjones",
+            "releaseDate": "2020-04-08T12:30:34+00:00",
+            "releaseNotes": "First 2.0 release, updated for PHP 7.3, 7.4, 8.0, and later.",
+            "get": "https://pecl.php.net/get/request-2.0.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.0.0b2": {
+            "version": "1.0.0b2",
+            "state": "beta",
+            "license": "MIT",
+            "releasedBy": "pmjones",
+            "releaseDate": "2017-07-25T17:43:02+00:00",
+            "releaseNotes": "Added:\n\n- Support for multiple header callbacks, a la header_register_callback, with\n  new methods ServerResponse::setHeaderCallbacks(), addHeaderCallback(), and\n  getHeaderCallbacks().",
+            "get": "http://pecl.php.net/get/request-1.0.0b2",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.0.0b1": {
+            "version": "1.0.0b1",
+            "state": "beta",
+            "license": "MIT",
+            "releasedBy": "pmjones",
+            "releaseDate": "2016-12-18T16:54:04+00:00",
+            "releaseNotes": "Added:\n\n- ServerRequest::$forwarded property, computed from\n  $_SERVER['HTTP_FORWARDED']\n\n- ServerRequest::$forwarded(For|Host|Proto), computed from\n  $_SERVER['HTTP_X_FORWARDED(FOR|HOST|PROTO)']",
+            "get": "http://pecl.php.net/get/request-1.0.0b1",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.0.0a2": {
+            "version": "1.0.0a2",
+            "state": "alpha",
+            "license": "MIT",
+            "releasedBy": "pmjones",
+            "releaseDate": "2016-11-21T15:47:12+00:00",
+            "releaseNotes": "Please see CHANGELOG.md for release notes.",
+            "get": "http://pecl.php.net/get/request-1.0.0a2",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.0.0a1": {
+            "version": "1.0.0a1",
+            "state": "alpha",
+            "license": "MIT",
+            "releasedBy": "pmjones",
+            "releaseDate": "2016-11-17T21:05:53+00:00",
+            "releaseNotes": "Please see CHANGELOG.md for release notes.",
+            "get": "http://pecl.php.net/get/request-1.0.0a1",
+            "SPDX-License-Identifier": "MIT"
+        }
+    },
+    "summary": "Provides server-side request and response objects.",
+    "SPDX-License-Identifier": "MIT"
+}

@@ -1,0 +1,164 @@
+{
+    "category": "Text",
+    "deprecated": false,
+    "description": "This extension creates and applies patches to both text and binary files.",
+    "latestReleaseDate": "2022-05-24T13:47:49+00:00",
+    "latestVersion": "2.1.1",
+    "license": "PHP License",
+    "name": "xdiff",
+    "php8Mentioned": true,
+    "releases": {
+        "2.1.1": {
+            "version": "2.1.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2022-05-24T13:47:49+00:00",
+            "releaseNotes": "- Fixed bug #81552 xdiff_string_bpatch() and others missing (Kevin Israel)\n- Fixed bug #77826 xdiff_string_bpatch wrong return value on error (SATO Kentaro)",
+            "get": "https://pecl.php.net/get/xdiff-2.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.0": {
+            "version": "2.1.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2021-05-18T08:57:43+00:00",
+            "releaseNotes": "- PHP 8 support\n- Drop PHP 5 support",
+            "get": "https://pecl.php.net/get/xdiff-2.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.1": {
+            "version": "2.0.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "seander",
+            "releaseDate": "2016-05-16T06:38:58+00:00",
+            "releaseNotes": "- Update License to PHP 3.1",
+            "get": "http://pecl.php.net/get/xdiff-2.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.0": {
+            "version": "2.0.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "seander",
+            "releaseDate": "2015-12-23T06:06:08+00:00",
+            "releaseNotes": "- PHP 7 Release",
+            "get": "http://pecl.php.net/get/xdiff-2.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.5.2": {
+            "version": "1.5.2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "felipe",
+            "releaseDate": "2012-06-11T20:20:13+00:00",
+            "releaseNotes": "- Fixed bug #61358 (\"Warning: String is not zero-terminated\" failing tests w/PHP 5.3.10)\n- Fixed build on PHP 5.4+",
+            "get": "http://pecl.php.net/get/xdiff-1.5.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.5.1": {
+            "version": "1.5.1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mg",
+            "releaseDate": "2009-10-18T10:34:28+00:00",
+            "releaseNotes": "Fix for #16566.",
+            "get": "http://pecl.php.net/get/xdiff-1.5.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.5.0": {
+            "version": "1.5.0",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mg",
+            "releaseDate": "2008-07-03T12:48:53+00:00",
+            "releaseNotes": "New functions added. Memory optimizations. Better handling of out of memory situations.",
+            "get": "http://pecl.php.net/get/xdiff-1.5.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.4.1": {
+            "version": "1.4.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "mg",
+            "releaseDate": "2008-07-01T12:24:40+00:00",
+            "releaseNotes": "Fixes for #7215, #7422 and #8227.",
+            "get": "http://pecl.php.net/get/xdiff-1.4.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.4": {
+            "version": "1.4",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "mg",
+            "releaseDate": "2005-12-10T22:02:48+00:00",
+            "releaseNotes": "Fixed bug #5064.",
+            "get": "http://pecl.php.net/get/xdiff-1.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.3": {
+            "version": "1.3",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "mg",
+            "releaseDate": "2005-05-09T15:30:17+00:00",
+            "releaseNotes": "Fix compile error.",
+            "get": "http://pecl.php.net/get/xdiff-1.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.2": {
+            "version": "1.2",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "mg",
+            "releaseDate": "2004-11-09T12:44:00+00:00",
+            "releaseNotes": "Fix libxdiff 0.9 crash. Force last parameters of xdiff_string_patch and xdiff_string_merge3 to be passed by reference.",
+            "get": "http://pecl.php.net/get/xdiff-1.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.1": {
+            "version": "1.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "mg",
+            "releaseDate": "2004-03-21T15:09:00+00:00",
+            "releaseNotes": "Fix FreeBSD build.",
+            "get": "http://pecl.php.net/get/xdiff-1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0": {
+            "version": "1.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "mg",
+            "releaseDate": "2004-02-09T16:28:00+00:00",
+            "releaseNotes": "Add support to memory_limit (libxdiff >= 0.6 required).",
+            "get": "http://pecl.php.net/get/xdiff-1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.3": {
+            "version": "0.3",
+            "state": "alpha",
+            "license": "PHP License",
+            "releasedBy": "mg",
+            "releaseDate": "2004-01-10T17:50:00+00:00",
+            "releaseNotes": "Win32 build fixes.",
+            "get": "http://pecl.php.net/get/xdiff-0.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2": {
+            "version": "0.2",
+            "state": "alpha",
+            "license": "PHP License",
+            "releasedBy": "mg",
+            "releaseDate": "2004-01-08T14:02:00+00:00",
+            "releaseNotes": "Initial release.",
+            "get": "http://pecl.php.net/get/xdiff-0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "File differences/patches.",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

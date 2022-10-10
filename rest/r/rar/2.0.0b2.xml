@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/rar">rar</p>
+ <c>pecl.php.net</c>
+ <v>2.0.0b2</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>cataphract</m>
+ <s>rar extension</s>
+ <d>PHP extension for reading RAR archives using bundled unRAR library.</d>
+ <da>2009-12-08 13:56:26</da>
+ <n>- Updated bundled UnRAR library to version 3.9.6.
+- Added OOP interface for rar_* functions with the RarArchive class.
+- Changed bundled UnRAR library to allow partial file extraction.
+- Fixed bug in UnRAR library that could cause a read out of buffer bounds on some corrupted RAR files.
+- Added a bunch of constants to RarEntry.
+- Added RarEntry::__toString() and RarEntry::isDirectory methods.
+- All RarEntry properties are now private. This doesn't change the API because those properties were never part of the contract.
+- Supports streaming from RAR archives.
+- Extensio now uses extended UnRAR library structures.
+- rar_open gives more detailed error messages on failure.
+- Fixed pecl bug #9470 (wrong CRC on multi-volume archives).
+- Added rar_comment_get.
+- Fixed by pecl bug #8821 (relative paths not working).
+- Handles unicode filenames (uses UTF-8 external encoding).
+- Fixed PECL bug #9649, resource is now destroyed regardless of the le-&gt;refcount.
+- Fixed volumes opened with middle volumes showing files continued from previous volume with incorrect packed and unpacked sizes.
+- Added arginfo.
+- Added a bunch of tests.
+- A lot of refactoring and compilation as C, not C++.</n>
+ <f>187582</f>
+ <g>http://pecl.php.net/get/rar-2.0.0b2</g>
+ <x xlink:href="package.2.0.0b2.xml"/>
+</r>

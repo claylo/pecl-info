@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/oci8">oci8</p>
+ <c>pecl.php.net</c>
+ <v>1.2.5</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>sixd</m>
+ <s>OCI8 functions</s>
+ <d>This extension allows you to access Oracle databases using the Oracle Call Interface (OCI8). It can be built using Oracle 9.2, 10.2 or 11.1 client libraries, and allows Oracle's standard cross-version connectivity.</d>
+ <da>2008-05-13 01:22:15</da>
+ <n>This release is based on the OCI8 included in PHP 5.2.6, with the addition of the fix for  http://pecl.php.net/bugs/bug.php?id=13523.
+--------
+Fixed bug #42496 (cursor leak selecting LOBs http://bugs.php.net/bug.php?id=42496
+Fixed bug #42841 (crash with REF CURSORS when statement caching enabled) http://bugs.php.net/bug.php?id=42841
+Fixed bug #43497 (Temporary LOB leak) http://bugs.php.net/bug.php?id=43497
+Fixed bug #44206 (OCI8 selecting ref cursors leads to ORA-1000 maximum open cursors reached).
+Fixed bug #44008 (OCI8 incorrect usage of OCI-Lob-&gt;close crashes PHP).
+Fixed bug #44113 (new collection creation can fail with OCI-22303) http://bugs.php.net/bug.php?id=44113
+Enhancement - make -with-oci8=instantclient with no directory specified look for RPM install
+Enhancement - compile with 64bit Instant Client RPMs (bug http://bugs.php.net/bug.php?id=41941, http://pecl.php.net/bugs/bug.php?id=13523)</n>
+ <f>113651</f>
+ <g>http://pecl.php.net/get/oci8-1.2.5</g>
+ <x xlink:href="package.1.2.5.xml"/>
+</r>

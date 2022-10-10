@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/stomp">stomp</p>
+ <c>pecl.php.net</c>
+ <v>0.3.0</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>pierrick</m>
+ <s>Stomp client extension</s>
+ <d>This extension allows php applications to communicate with any Stomp compliant Message Brokers through easy object oriented and procedural interfaces.</d>
+ <da>2009-11-06 23:08:02</da>
+ <n>* new stomp_connect_error() function (pierrick)
+* stomp_begin, stomp_abort and stomp_commit now accept additional headers (pierrick)
+* new connection timeout and read timeout ini configuration (pierrick)
+* Fix a memory leak in stomp_read_line (pierrick)    
+* Better set of test (Pierrick and Anis)</n>
+ <f>16322</f>
+ <g>http://pecl.php.net/get/stomp-0.3.0</g>
+ <x xlink:href="package.0.3.0.xml"/>
+</r>

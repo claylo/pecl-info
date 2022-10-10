@@ -1,0 +1,104 @@
+{
+    "category": "Text",
+    "deprecated": false,
+    "description": "This is a quick and efficient BBCode Parsing Library.\n  It provides various tag types, high speed tree based parsing,\n  callback system, tag position restriction, Smiley Handling,\n  Subparsing\n  \n  It will force closing BBCode tags in the good order, and closing\n  terminating tags at the end of the string this is in order to ensure\n  HTML Validity in all case.",
+    "latestReleaseDate": "2010-11-14T09:54:28+00:00",
+    "latestVersion": "1.0.3b1",
+    "license": "PHP / BSD",
+    "name": "bbcode",
+    "summary": "BBCode parsing Extension",
+    "php8Mentioned": false,
+    "releases": {
+        "1.0.3b1": {
+            "version": "1.0.3b1",
+            "state": "beta",
+            "license": "PHP / BSD",
+            "releasedBy": "void",
+            "releaseDate": "2010-11-14T09:54:28+00:00",
+            "releaseNotes": "* Release of changes in svn\n* Fixed Bug #16821 - PHP 5.3 Compat (lstrojny)\n* Fixed Win Build (pajoye)\n* Fixed Bug In quote Handling (jani)\n* Code cleanup (jani)\n* zend_error() was used instead of php_error_docref() (tony2001)\n* Added 2 tests",
+            "get": "http://pecl.php.net/get/bbcode-1.0.3b1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.2": {
+            "version": "1.0.2",
+            "state": "stable",
+            "license": "PHP / BSD",
+            "releasedBy": "void",
+            "releaseDate": "2008-08-18T14:38:45+00:00",
+            "releaseNotes": "* Corrected 64bit issues, long were used on too many places (#14517) thanks tony for the doc\n* Corrected a segfault when quotes were not closed properly.\n* Corrected errors given by scripts/dev/check_parameters.php. \n* Added quote escaping (BBCODE_ARG_QUOTE_ESCAPING).\n* Changed behaviour when a tag as an unclosed quoted argument. \n  Before 1.0.2 it would stop treating datas, now the parser continues just after the opening quote character.\n* Added an escaping test case",
+            "get": "http://pecl.php.net/get/bbcode-1.0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "stable",
+            "license": "PHP / BSD",
+            "releasedBy": "void",
+            "releaseDate": "2008-08-17T07:38:57+00:00",
+            "releaseNotes": "* Corrected a 64bit issue, int were used in place of long\n* Minor optimisations\n* Corrected Thread safe error when compiling (#14333)\n* Corrected MacOSX Header error (#14197)\n* Corrected PHP 5.3 ZVAL_ADDREF change\n* Corrected Callbacks where not freed when using object it was causing a segfault(#13603)\n* Updated bstrlib",
+            "get": "http://pecl.php.net/get/bbcode-1.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable",
+            "license": "PHP / BSD",
+            "releasedBy": "void",
+            "releaseDate": "2008-02-11T06:38:23+00:00",
+            "releaseNotes": "* No code Change - only released as stable",
+            "get": "http://pecl.php.net/get/bbcode-1.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.10.4": {
+            "version": "0.10.4",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "void",
+            "releaseDate": "2007-10-25T09:09:37+00:00",
+            "releaseNotes": "* Corrected bug 12240\n* Corrected bug 12241\n* Added test case in order to cover the function bbcode_add_element",
+            "get": "http://pecl.php.net/get/bbcode-0.10.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.10.3": {
+            "version": "0.10.3",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "void",
+            "releaseDate": "2007-10-08T07:58:31+00:00",
+            "releaseNotes": "* Corrected a possible Double Free off tag arguments.\n* Corrected a possible Segmentation Fault on incorrect close tags.\n** Corrected incorrect detection of close tags when ] was missing at the end of the string.\n* Added efree for smileys initialisation that was leading to runtime leaking.\n* Make the DISABLE_TREE_BUILD work +added test\n* Added BBCODE_FLAGS_DENY_REOPEN_CHILD to permits some tags to Deny child reopening\n* Added BBCODE_SMILEYS_CASE_INSENSITIVE to permits case insensitive smileys detection\n* Corrected Memory leaking of smileys strings.\n* Makes bbcode_set_flags work correctly.",
+            "get": "http://pecl.php.net/get/bbcode-0.10.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.10.2": {
+            "version": "0.10.2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "void",
+            "releaseDate": "2007-10-05T18:26:50+00:00",
+            "releaseNotes": "* Corrected Segfault when unpaired Tags where found\n\n* Exposed smiley API\n* Exposed Argument Parser API\n* Exposed parser option API\n  ** Added the ability to alter parser behaviour at run time\n\n* Exposed more flags for tag options\n  ** Added REMOVE_TAG_IF_EMPTY option on tag level\n\n* Fixed some weird behaviour on special parse method",
+            "get": "http://pecl.php.net/get/bbcode-0.10.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.9.1": {
+            "version": "0.9.1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "void",
+            "releaseDate": "2007-10-05T06:25:04+00:00",
+            "releaseNotes": "Corrected config.m4 - build problem",
+            "get": "http://pecl.php.net/get/bbcode-0.9.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.10.1": {
+            "version": "0.10.1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "void",
+            "releaseDate": "2007-10-05T05:52:12+00:00",
+            "releaseNotes": "* Added Tests\n* Corrected Callbacks Seg-Faults\n* Removed Double Free\n* Corrected Incorrect Results\n* Corrected Arg Parsing\n* Corrected Arg Quoting",
+            "get": "http://pecl.php.net/get/bbcode-0.10.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

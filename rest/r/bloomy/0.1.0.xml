@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/bloomy">bloomy</p>
+ <c>pecl.php.net</c>
+ <v>0.1.0</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>andrei</m>
+ <s>Extension implementing a Bloom filter</s>
+ <d>This extension implements a Bloom filter, which is a space-efficient
+  probabilistic data structure that is used to test whether an element is a
+  member of a set.</d>
+ <da>2009-03-23 18:00:30</da>
+ <n>- Initial PECL release</n>
+ <f>15682</f>
+ <g>http://pecl.php.net/get/bloomy-0.1.0</g>
+ <x xlink:href="package.0.1.0.xml"/>
+</r>

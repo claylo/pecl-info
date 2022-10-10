@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/uploadprogress">uploadprogress</p>
+ <c>pecl.php.net</c>
+ <v>2.0.1</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>ramsey</m>
+ <s>An extension to track progress of a file upload.</s>
+ <d>A PHP extension to track progress of a file upload, including details on the speed of the upload, estimated time remaining, and access to the contents of the file as it is being uploaded.
+
+        The uploadprogress extension works on PHP 7.2+ and PHP 8. It requires the use of the Apache HTTP Server with mod_php. Other web servers and PHP-FPM are not yet supported.
+
+        See https://github.com/php/pecl-php-uploadprogress for documentation and examples.</d>
+ <da>2021-09-29 13:58:11</da>
+ <n>- Fix parameter and return type declarations for PHP 7 and PHP 8</n>
+ <f>19459</f>
+ <g>https://pecl.php.net/get/uploadprogress-2.0.1</g>
+ <x xlink:href="package.2.0.1.xml"/>
+</r>

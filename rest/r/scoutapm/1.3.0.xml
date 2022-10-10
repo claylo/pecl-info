@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/scoutapm">scoutapm</p>
+ <c>pecl.php.net</c>
+ <v>1.3.0</v>
+ <st>stable</st>
+ <l>MIT</l>
+ <m>asgrim</m>
+ <s>Native Extension Component for ScoutAPM's PHP Agent</s>
+ <d>ScoutAPM's extension for PHP provides additional capabilities to application monitoring over just using the base PHP userland library.</d>
+ <da>2021-06-17 07:32:46</da>
+ <n>- Userland function recording for PHP 7 with zend_execute_ex (#77)
+- Userland function recording for PHP 8 with improved Zend Observer API (#79)
+- Added Predis library function instrumentation (#80)
+- Add support for phpredis Redis extension instrumentation (#82)
+- Add instrumentation for Memcached (#84)
+- Add instrumentation for Elasticsearch PHP library (#85)
+- Change CI from Circle to GitHub Actions (#78)
+- Fix SKIP block for phpredis test (#83)</n>
+ <f>23811</f>
+ <g>https://pecl.php.net/get/scoutapm-1.3.0</g>
+ <x xlink:href="package.1.3.0.xml"/>
+</r>

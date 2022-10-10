@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/apm">APM</p>
+ <c>pecl.php.net</c>
+ <v>2.0.0</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>patrickallaert</m>
+ <s>Alternative PHP Monitor</s>
+ <d>Monitoring extension for PHP, collects error events and statistics and send them to one of his drivers.
+SQLite and MariaDB/MySQL drivers are storing those in a database.
+StatsD driver sends them to StatsD using UDP.
+Socket driver sends them via UDP or TCP socket using its dedicated protocol.
+More drivers to come (SNMP, e-mail, Hadoop,...).</d>
+ <da>2015-02-20 07:45:43</da>
+ <n>New drivers:
+- StatsD
+- Socket
+
+Added:
+- Per-driver option 'apm.&lt;storage driver&gt;_store_silenced_events that lets you toggle whether to store silenced (@-ed) errors (thanks Mathieu Kooiman (@mathieuk))
+- apm.*_exception_mode configuration to control exception collection
+- Auto creation of SQLite and MariaDB/MySQL schemas
+- Stats:
+  - User and System CPU time
+  - Memory Peak Usage
+  - HTTP response code
+- 'application_id' field to categorize the issues per application/server/environment/...
+- Support for compilation on Ubuntu (thanks Olivier Garcia (@0livier))
+
+Changed:
+- Deep refactoring:
+  - New DB schema
+  - No more native functions, retrieval of data is directly made in PHP
+- SQLite drivder attempts to create the directory structure by himself
+- Renamed 'slow request' to 'stats'
+- Connect to MySQL once and reconnect if needed
+- Small UI improvements
+- Avoiding int / uint conversion
+- MariaDB/MySQL driver activated by default
+
+Fixed:
+- Parse error test failing on PHP 5.4
+- Possible segfault with APM_DEBUG used outside RINIT/RSHUTDOWN phases
+- Missing disconnect from SQLite DB if changed with ini_set()
+- Too few arguments to sprintf() with MariaDB/MySQL backend
+- Possible segfault with PHP 5.5
+- Segmentation fault with &quot;zend_mm_heap corrupted&quot; message.
+- Missing zval reference incrementing
+- Out of memory error in backtrace generation
+- Removed hard-coded limit of 64kB json data
+- Do not activate silence handler if APM is not enabled
+- Some compiler warnings
+- Incorrect status propagation for PHP_RSHUTDOWN_FUNCTION
+- Several memory leaks
+
+Removed:
+- Deffered processing (can't be easily implemented in a generic and driver
+  agnostic way. Depending on the drivers, some deffered processing will
+  happen inside them.)
+- Reference SQL files, see source code for that ;-)</n>
+ <f>274118</f>
+ <g>http://pecl.php.net/get/APM-2.0.0</g>
+ <x xlink:href="package.2.0.0.xml"/>
+</r>

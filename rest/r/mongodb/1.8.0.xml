@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.8.0</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>alcaeus</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2020-07-31 05:53:50</da>
+ <n>** Bug
+* [PHPC-1598] - Objects with get_properties handlers should have get_gc delegate to zend_std_get_properties
+* [PHPC-1648] - Ensure directConnection is validated when specified in URI options array
+
+** Epic
+* [PHPC-1547] - PHPC MongoDB 4.4 Support
+
+** New Feature
+* [PHPC-1313] - Add support for Zstandard compression
+* [PHPC-1483] - MONGODB-AWS Support
+* [PHPC-1484] - Support for allowDiskUse on find operations
+* [PHPC-1494] - Add client metadata support for wrapping libraries
+* [PHPC-1533] - OCSP Support
+* [PHPC-1554] - Unify behavior around configuration for replica set discovery
+* [PHPC-1561] - Allow hinting the delete command
+* [PHPC-1571] - Driver support for server Hedged Reads
+* [PHPC-1575] - Add URI option to disable certificate revocation checking
+
+** Task
+* [PHPC-1060] - Automate Atlas connectivity tests
+* [PHPC-1131] - Do not compile php.exe for Appveyor builds
+* [PHPC-1384] - Specify behavior where connection string contain auth database but no credentials
+* [PHPC-1401] - Add mongodb+srv URIs to Atlas Connectivity tests
+* [PHPC-1440] - Bump wire protocol version for 4.4
+* [PHPC-1442] - Remove support for PHP 5.6
+* [PHPC-1525] - Deprecate oplogReplay find command option from CRUD spec
+* [PHPC-1616] - Remove PHP 7.1 from AppVeyor build config
+* [PHPC-1621] - Bundled libmongocrypt emits compiler warning
+* [PHPC-1635] - Ensure OCSP and AWS auth are tested on both 4.4 and latest
+
+** Improvement
+* [PHPC-1478] - Support shorter SCRAM conversation
+* [PHPC-1510] - Expand use of error labels for RetryableWrites
+* [PHPC-1530] - Make ExceededTimeLimit retryable writes error
+* [PHPC-1556] - Reduce Client Time To Recovery On Topology Changes
+* [PHPC-1566] - Support speculative authentication attempts in isMaster
+* [PHPC-1591] - Add tests for allowed cases when authSource is given but username is not
+* [PHPC-1614] - Consult SIZEOF_ZEND_LONG instead of SIZEOF_LONG
+* [PHPC-1615] - Specify obj_dir when adding sources in config.w32
+* [PHPC-1628] - Clarify return type for WriteConcernError and WriteError getInfo() methods
+* [PHPC-1629] - Call libmongoc is_valid functions before completing WriteConcern and ReadPreference initialization
+* [PHPC-1632] - Reduce default keepalive time to align with Azure defaults</n>
+ <f>1292928</f>
+ <g>https://pecl.php.net/get/mongodb-1.8.0</g>
+ <x xlink:href="package.1.8.0.xml"/>
+</r>

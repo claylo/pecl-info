@@ -1,0 +1,24 @@
+{
+    "category": "Tools and Utilities",
+    "deprecated": false,
+    "description": "the fastest and smallest serialize fucntion bound for php7",
+    "latestReleaseDate": "2017-02-09T04:45:23+00:00",
+    "latestVersion": "0.1.1",
+    "license": "Apache2.0",
+    "name": "swoole_serialize",
+    "php8Mentioned": false,
+    "releases": {
+        "0.1.1": {
+            "version": "0.1.1",
+            "state": "beta",
+            "license": "Apache2.0",
+            "releasedBy": "woshiguo35",
+            "releaseDate": "2017-02-09T04:45:23+00:00",
+            "releaseNotes": "- new extension",
+            "get": "http://pecl.php.net/get/swoole_serialize-0.1.1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        }
+    },
+    "summary": "the fastest and smallest serialize fucntion bound for php7",
+    "SPDX-License-Identifier": "Apache-2.0"
+}

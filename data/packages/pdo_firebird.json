@@ -1,0 +1,34 @@
+{
+    "category": "Database",
+    "deprecated": false,
+    "description": "This extension provides a Firebird/InterBase driver for PDO. It supports\nall versions of Firebird and InterBase versions 6 and up.",
+    "latestReleaseDate": "2005-02-09T05:27:00+00:00",
+    "latestVersion": "0.2",
+    "license": "PHP",
+    "name": "PDO_FIREBIRD",
+    "summary": "Firebird/InterBase 6 driver for PDO",
+    "php8Mentioned": false,
+    "releases": {
+        "0.2": {
+            "version": "0.2",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "wez",
+            "releaseDate": "2005-02-09T05:27:00+00:00",
+            "releaseNotes": "To compile and run this module, you will need to have the main PDO module and Firebird's\nor InterBase's client library installed on your system.\nHope it works!",
+            "get": "http://pecl.php.net/get/PDO_FIREBIRD-0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1": {
+            "version": "0.1",
+            "state": "alpha",
+            "license": "PHP",
+            "releasedBy": "abies",
+            "releaseDate": "2004-06-23T13:44:00+00:00",
+            "releaseNotes": "To compile and run this module, you will need to have the main PDO module and Firebird's\nor InterBase's client library installed on your system.",
+            "get": "http://pecl.php.net/get/PDO_FIREBIRD-0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

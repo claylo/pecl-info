@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xrange">xrange</p>
+ <c>pecl.php.net</c>
+ <v>1.3</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>pestilence</m>
+ <s>Numeric iterator primitives</s>
+ <d>xrange is a compiled extension that provides numeric iteration primitives to PHP on top of SPL. It includes a lean numeric range generator / iterator, modeled after Python's xrange() function. It's intended to provide an alternative for all numeric iteration and looping.</d>
+ <da>2008-02-26 00:20:38</da>
+ <n>- PECL migration
+- Added three new filter iterators</n>
+ <f>8421</f>
+ <g>http://pecl.php.net/get/xrange-1.3</g>
+ <x xlink:href="package.1.3.xml"/>
+</r>

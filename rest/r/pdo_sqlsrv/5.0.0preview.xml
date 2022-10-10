@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pdo_sqlsrv">pdo_sqlsrv</p>
+ <c>pecl.php.net</c>
+ <v>5.0.0preview</v>
+ <st>devel</st>
+ <l>The MIT License (MIT)</l>
+ <m>mbar</m>
+ <s>Microsoft Drivers for PHP for SQL Server (PDO_SQLSRV)</s>
+ <d>The Microsoft Drivers for PHP for SQL Server are PHP extensions that allow for the reading and writing of SQL Server data from within PHP scripts. The SQLSRV extension provides a procedural interface while the PDO_SQLSRV extension implements PDO for accessing data in all editions of SQL Server 2008 R2 and later (including Azure SQL DB). These drivers rely on the Microsoft ODBC Driver for SQL Server to handle the low-level communication with SQL Server.
+*This package contains only the PDO_SQLSRV driver.*</d>
+ <da>2017-07-31 22:11:41</da>
+ <n>[Added]
+- Added support for PHP 7.2 Beta 1
+[Changed]
+- Implementation of PDO::lastInsertId($name) to return the last inserted sequence number if the sequence name is supplied to the function ([lastInsertId](https://github.com/Microsoft/msphpsql/wiki/Features#lastinsertid))
+[Removed]
+- No longer support Ubuntu 15
+- Supplying tablename into PDO::lastInsertId($name) no longer return the last inserted row ([lastInsertId](https://github.com/Microsoft/msphpsql/wiki/Features#lastinsertid))
+[Limitation]
+- No support for inout / output params when using sql_variant type
+[Known Issues]
+- When pooling is enabled in Linux or MAC
+  - unixODBC 2.3.4 or prior (Linux and MAC) might not return proper diagnostics information, such as error messages, warnings and informative messages
+  - due to this unixODBC bug, fetch large data (such as xml, binary) as streams as a workaround. See the examples (https://github.com/Microsoft/msphpsql/wiki/Connection-Pooling-on-Linux-and-Mac)</n>
+ <f>157377</f>
+ <g>http://pecl.php.net/get/pdo_sqlsrv-5.0.0preview</g>
+ <x xlink:href="package.5.0.0preview.xml"/>
+</r>

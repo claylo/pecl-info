@@ -1,0 +1,24 @@
+{
+    "category": "Tools and Utilities",
+    "deprecated": false,
+    "description": "udis86 is an easy-to-use minimalistic disassembler library (libudis86) for the x86 and x86-64 class of instruction set architectures",
+    "latestReleaseDate": "2012-12-08T08:33:30+00:00",
+    "latestVersion": "0.1.0",
+    "license": "PHP License",
+    "name": "udis86",
+    "summary": "PHP bindings for udis86 library",
+    "php8Mentioned": false,
+    "releases": {
+        "0.1.0": {
+            "version": "0.1.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "felipe",
+            "releaseDate": "2012-12-08T08:33:30+00:00",
+            "releaseNotes": "- First release",
+            "get": "http://pecl.php.net/get/udis86-0.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

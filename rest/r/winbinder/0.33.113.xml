@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/winbinder">WinBinder</p>
+ <c>pecl.php.net</c>
+ <v>0.33.113</v>
+ <st>alpha</st>
+ <l>BSD</l>
+ <m>rubs</m>
+ <s>A Native Windows binding for PHP</s>
+ <d>WinBinder is an extension that allows PHP programmers to build native Windows applications. It wraps a limited but important subset of the Windows API in a lightweight, easy-to-use library so that program creation is quick and straightforward.
+</d>
+ <da>2004-12-10 00:33:00</da>
+ <n>- New functions to change fonts
+- New functions to draw lines and rectangles (filled and hollow)
+- Callback functions can handle left/middle/right mouse buttons, mouse movement, double-click, down/up mouse buttons, Ctrl/Shift/Alt key modifiers
+- StatusBar width and position are automatically updated when main window is resized
+- New and updated OOi interface (by Alexandre) with new Minesweeper clone example
+- Several fixes and updates in manual
+- Several bug fixes, other enhancements
+
+Make sure you check the changelog for the complete list.</n>
+ <f>478366</f>
+ <g>http://pecl.php.net/get/WinBinder-0.33.113</g>
+ <x xlink:href="package.0.33.113.xml"/>
+</r>

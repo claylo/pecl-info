@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/sqlite3">sqlite3</p>
+ <c>pecl.php.net</c>
+ <v>0.5</v>
+ <st>alpha</st>
+ <l>PHP License</l>
+ <m>scottmac</m>
+ <s>SQLite v3 Database Bindings.</s>
+ <d>SQLite3 is a PHP extension for use with the SQLite database system.
+	This extension bundles SQLite 3.5.7 though the minimum requirement is 3.3.9.</d>
+ <da>2008-04-10 20:55:46</da>
+ <n>- Upgraded bundled SQLite to 3.5.7
+- Added SQLite3::lastErrorCode and SQLite3::lastErrorMsg
+- Added SQLite3_result::columnType to get type of a column in a result set
+- Added flags to SQLite3::open to allow databases to be opened read only. (PHP 5.3+ for now)
+- Fixed incorrect column count being returned on a non executed statement
+- Fixed lack of library when using the shared sqlite3</n>
+ <f>744852</f>
+ <g>http://pecl.php.net/get/sqlite3-0.5</g>
+ <x xlink:href="package.0.5.xml"/>
+</r>

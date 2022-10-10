@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/oci8">oci8</p>
+ <c>pecl.php.net</c>
+ <v>1.3.5</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>sixd</m>
+ <s>Extension for Oracle Database</s>
+ <d>This extension allows you to access Oracle databases using the Oracle Call Interface (OCI8). It can be built with PHP 4.3.9 to 5.x.  It can be linked with Oracle 9.2, 10.2 or 11.1 client libraries.</d>
+ <da>2009-03-16 17:40:47</da>
+ <n>Fixed Bug #47243 (Crash at end of request shutdown on Windows)
+Fixed Bug #46994 (CLOB size does not update when using CLOB IN OUT param in stored procedure)
+Fixed Bug #46623 (phpinfo doesn't show compile time ORACLE_HOME with phpize)
+Fixed bug #45458 (Numeric keys for associative arrays are not handled properly) Note: not fixed when building with PHP 4 due to lack of PHP internal helper.
+Fixed PECL Bug #16035 (oci_connect without ORACLE_HOME defined causes segfault)
+Fixed PECL Bug #15988 (sqlnet.ora isn't read with older Oracle libraries)
+Fixed PECL Bug #14268 (Allow &quot;pecl install oci8&quot; command to &quot;autodetect&quot; an Instant Client RPM install)</n>
+ <f>137987</f>
+ <g>http://pecl.php.net/get/oci8-1.3.5</g>
+ <x xlink:href="package.1.3.5.xml"/>
+</r>

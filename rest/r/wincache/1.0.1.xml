@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/wincache">WINCACHE</p>
+ <c>pecl.php.net</c>
+ <v>1.0.1</v>
+ <st>stable</st>
+ <l>BSD License</l>
+ <m>ruslany</m>
+ <s>Windows Cache Extension for PHP</s>
+ <d>Windows Cache Extension for PHP is a PHP accelerator that is used to increase the speed of PHP applications running on Windows and Windows Server. Once the Windows Cache Extension for PHP is enabled and loaded by the PHP engine, PHP applications can take advantage of the functionality without any code modifications. The extension includes PHP opcode cache, file system cache and relative path cache.</d>
+ <da>2010-01-26 14:00:37</da>
+ <n>- Fixed require_once on PHP5.3. If the files were absolute and similar files were included in different case, require_once was including it twice.
+- Changed relative path cache to act as resolve path cache. Incremented refcounts under aplist lock. Did comparison using InterlockedCompareExchange.
+- Fixed crashes which were happening because aplist refcount and opcode cache refcount can get out of sync due to local cache.
+- Exposed is_local_cache property from ocache_fileinfo and fcache_fileinfo. Stats page will use this to indicate when local opcode data is shown.
+- Updated the wincache.php to pass chart data on query string to ensure that the charts show the same data that is displayed in tables
+- Updated the wincache.php to show whether information about a global or local cache instance is being displayed
+- Changed variable names and comments to indicate rplist is resolve path cache and not just relative path cache
+- Changed wincache.php to use resolve_path instead of relative_path</n>
+ <f>93334</f>
+ <g>http://pecl.php.net/get/WINCACHE-1.0.1</g>
+ <x xlink:href="package.1.0.1.xml"/>
+</r>

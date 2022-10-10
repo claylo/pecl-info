@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/solr">solr</p>
+ <c>pecl.php.net</c>
+ <v>2.0.0b</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>omars</m>
+ <s>The Apache Solr PHP extension is an extremely fast, light-weight, feature-rich library that allows PHP applications to communicate easily and efficiently with Apache Solr server instances using an object-oriented API.</s>
+ <d>It effectively simplifies the process of interacting with Apache Solr using PHP5 and it already comes with built-in readiness for the latest features. 
+
+The extension has features such as built-in, serializable query string builder objects which effectively simplifies the manipulation of name-value pair request parameters across repeated requests. 
+The response from the Solr server is also automatically parsed into native php objects whose properties can be accessed as array keys or object properties without any additional configuration on the client-side. 
+
+Its advanced HTTP client reuses the same connection across multiple requests and provides built-in support for connecting to Solr servers secured behind HTTP Authentication or HTTP proxy servers. It is also able to connect to SSL-enabled containers. 
+
+Please consult the documentation for more details on features. Included in the source code are phpdoc stubs that enable autocomplete of Solr classes and methods in IDE during development in userland.
+
+Please use PECL Solr Extension 1.x for Solr Server 3.x, or use PECL Solr 2.x for Solr Server 4.0+</d>
+ <da>2014-02-28 12:25:24</da>
+ <n>- Support Solr version 4.0+
+- Added support for retreiving Solr Server system information through SolrClient
+    SolrClient::system()
+- Support for softCommit
+- Suppport for expungeDeletes
+- maxSegments for commit is deprecated
+- Added escape character / as per Solr 4 it is reserved for REGEX
+- Disabled warnings for connection errors, SolrClientException is thrown
+- SolrClientException messages for connection errors are more meaningful indicating error messages and codes
+- API changes for:
+    SolrClient::commit($maxSegments = 0, $softCommit = false, $waitSearcher = true, $expungeDeletes = false)
+    SolrClient::optimize($maxSegments = 1, $softCommit = false, $waitSearcher = true)
+    SolrClient::addDocument(SolrInputDocument &amp;$doc, $overwrite = true, $commitWithin = 0) 
+    SolrClient::addDocuments(array &amp;$docs, $overwrite = true, $commitWithin = 0)
+- Several Bug Fixes
+Warning: PECL Solr &gt;= 2 is not compatible with Solr Server &lt; 4.0</n>
+ <f>108267</f>
+ <g>http://pecl.php.net/get/solr-2.0.0b</g>
+ <x xlink:href="package.2.0.0b.xml"/>
+</r>

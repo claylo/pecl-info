@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/winbinder">WinBinder</p>
+ <c>pecl.php.net</c>
+ <v>0.38.133</v>
+ <st>alpha</st>
+ <l>BSD</l>
+ <m>rubs</m>
+ <s>A Native Windows binding for PHP</s>
+ <d>WinBinder is a new extension that allows PHP programmers to build native Windows applications. It wraps the Windows API in a lightweight, easy-to-use library so that program creation is quick and straightforward.
+</d>
+ <da>2005-03-07 17:12:03</da>
+ <n>- Applications can be made single instance
+- Implemented Always on Top windows
+- Windows with no border, no title bar and draggable
+- New and improved PHP database library (thanks to Hans) with several enhancements and new documentation
+- Programatically minimize / maximize / restore application windows
+- New control class for bimapped buttons with automatic tooltips
+- Change icons in the taskbar
+- wb_get_system_info(&quot;DiskDrives&quot;) now returns the list of available disk drives
+- wb_get_image_size() removed, merged with wb_get_size() which now returns icon sizes too
+- Some odd constant names changed at last
+- In most (but not all) errors, the warning message will now display the name of the function where the error occurred
+- New, smaller php-win.exe does not need php.exe anymore
+- Fixed: Closing modeless dialogs terminates applications
+- Fixed: Persistent icon bug in ListViews
+- Fixed: After switching to another program and back, wb_destroy_window() destroyed the main window instead of the dialog
+- Fixed: Modeless dialogs did not always pass the focus to the calling window when closed
+- As always, many other fixes and enhancements, several new sample scripts and many additions and corrections to the documentation.
+
+Please make sure you see the changelog.txt and db_changelog.txt for details.</n>
+ <f>549074</f>
+ <g>http://pecl.php.net/get/WinBinder-0.38.133</g>
+ <x xlink:href="package.0.38.133.xml"/>
+</r>

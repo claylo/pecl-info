@@ -1,0 +1,74 @@
+{
+    "category": "PHP",
+    "deprecated": false,
+    "description": "This extension adds Soft and Weak references support to PHP 7 and may serve as a ground for other data structures that require advanced referencing model.",
+    "latestReleaseDate": "2018-03-08T14:17:50+00:00",
+    "latestVersion": "0.6.0",
+    "license": "The MIT License (MIT)",
+    "name": "ref",
+    "php8Mentioned": false,
+    "releases": {
+        "0.6.0": {
+            "version": "0.6.0",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "pinepain",
+            "releaseDate": "2018-03-08T14:17:50+00:00",
+            "releaseNotes": "Changelist:\n - Drop PHP < 7.2 support (BC-breaking);\n - Enforce object typehint (BC-breaking);\n - Drop windows support (BC-breaking);",
+            "get": "http://pecl.php.net/get/ref-0.6.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.5.0": {
+            "version": "0.5.0",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "pinepain",
+            "releaseDate": "2017-08-27T14:32:11+00:00",
+            "releaseNotes": "This release fix bugs, drop unused feature and soon to be EOL PHP 7.0 (see http://php.net/supported-versions.php for details).\n\nChangelist:\n - Drop PHP < 7.1 support (BC-breaking);\n - Remove array notifier in a favor of callback (BC-breaking);\n - Remove references comparison (BC-breaking);\n - Fix bug when object handle reused but previous state was not clean;\n - Fix wrong behavior when reference get deleted during notifier call;\n - Fix memleaks;",
+            "get": "http://pecl.php.net/get/ref-0.5.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.4.4": {
+            "version": "0.4.4",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "pinepain",
+            "releaseDate": "2017-07-22T11:45:25+00:00",
+            "releaseNotes": "This release improves PHP 7.2 compatibility support\n\nChangelist:\n - Restore original referent obj handler when it is no longer tracked",
+            "get": "http://pecl.php.net/get/ref-0.4.4",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.4.3": {
+            "version": "0.4.3",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "pinepain",
+            "releaseDate": "2017-06-30T17:56:11+00:00",
+            "releaseNotes": "- add PHP 7.2 compatibility support (Remi Collet <remi@remirepo.net>)",
+            "get": "http://pecl.php.net/get/ref-0.4.3",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.4.2": {
+            "version": "0.4.2",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "pinepain",
+            "releaseDate": "2017-03-05T22:30:24+00:00",
+            "releaseNotes": "This is a maintenance release which drops PHP < 7.0.3 support.",
+            "get": "http://pecl.php.net/get/ref-0.4.2",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.4.1": {
+            "version": "0.4.1",
+            "state": "stable",
+            "license": "The MIT License (MIT)",
+            "releasedBy": "pinepain",
+            "releaseDate": "2017-01-15T21:10:20+00:00",
+            "releaseNotes": "- fixes problem when false Ref\\NotifierException thrown during object destruction if non-caught exception\n  was thrown before such destruction (outside notifiers and referent object destructor) (#17);\n- do not call soft notifiers if original object was prevented from being destroyed in one of notifiers (#18).",
+            "get": "http://pecl.php.net/get/ref-0.4.1",
+            "SPDX-License-Identifier": "MIT"
+        }
+    },
+    "summary": "Soft and Weak references support in PHP",
+    "SPDX-License-Identifier": "MIT"
+}

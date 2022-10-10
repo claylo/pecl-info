@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/tdb">tdb</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>tony2001</m>
+ <s>Trivial DB bindings</s>
+ <d>This extension provides bindings for Trivial DB.</d>
+ <da>2008-04-18 03:39:34</da>
+ <n>- Fixed PECL bug #13684 (tdb fails to configure on FreeBSD)
+- Improved configure checks in order to detect wrong TDB version.</n>
+ <f>11205</f>
+ <g>http://pecl.php.net/get/tdb-1.0.0</g>
+ <x xlink:href="package.1.0.0.xml"/>
+</r>

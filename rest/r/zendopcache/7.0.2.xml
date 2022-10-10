@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/zendopcache">zendopcache</p>
+ <c>pecl.php.net</c>
+ <v>7.0.2</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>laruence</m>
+ <s>The Zend OPcache provides faster PHP execution through opcode caching and optimization.</s>
+ <d>The Zend OPcache provides faster PHP execution through opcode caching and
+  optimization. It improves PHP performance by storing precompiled script
+  bytecode in the shared memory. This eliminates the stages of reading code from
+  the disk and compiling it on future access. In addition, it applies a few
+  bytecode optimization patterns that make code execution faster.</d>
+ <da>2013-06-05 02:33:56</da>
+ <n>- Fixed issue #26 (added opcache_invalidate(string $filename [, bool $force = false]) function)
+- Fixed issue #74 (Allowed per request OPcache disabling)
+- Fixed issue #76 (actually we don't need zend_shared_meory_block_header at all)
+- Fixed issue #78 (incorrect file path validation)
+- Fixed issue #79 (Optimization Problem/Bug)
+- Fixed issue #82 (allow comments in blacklist file, lines started with &quot;;&quot;)
+- Fixed issue #91 (fix x64 fixed addresses)
+- Fxied issue #92 (Compilation warnings)
+- Fixed issue #97 (Use size_t instead of int to support a cache larger than 2G)
+- Fixed bug (Avoid possible conditional jump depended on uninitialised value)</n>
+ <f>87858</f>
+ <g>http://pecl.php.net/get/zendopcache-7.0.2</g>
+ <x xlink:href="package.7.0.2.xml"/>
+</r>

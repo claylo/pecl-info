@@ -1,0 +1,34 @@
+{
+    "category": "GUI",
+    "deprecated": false,
+    "description": "Wraps the wxWidgets library, which allows to write \n multi-platform desktop applications that make use of the native \n graphical components available to the different platforms.",
+    "latestReleaseDate": "2014-04-05T09:51:36+00:00",
+    "latestVersion": "3.0.0.2",
+    "license": "PHP",
+    "name": "wxwidgets",
+    "summary": "Cross-platform widget toolkit.",
+    "php8Mentioned": false,
+    "releases": {
+        "3.0.0.2": {
+            "version": "3.0.0.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "jgmdev",
+            "releaseDate": "2014-04-05T09:51:36+00:00",
+            "releaseNotes": "* Fixed wxInputStream::OnSysRead thanks to johannes from pecl. This \n  functionality should be enough for loading images from phar files \n  as described on issue #35.\n* Moving mac process transformation code to wxEntry (chrisnharvey).\n* Enabled some MacOSX specific wxApp virtual methods as requested by ydk2.\n* Modified bool wxApp::OSXIsGUIApplication() to return true by \n  default if no user space side function is found.\n* Improved config.m4 and added initial support for macosx.\n* Fixed some segfaults on macosx due to newly introduced wxApp \n  virtual methods which may be called with an uninitialized phpobj.\n* Added curl as another option to download wxWidgets from config.m4.\n* Improved wxExecute function.\n* Added macosx bundle icon.\n* also search for wx-config-3.0 (remicollet)\n* Type casted to void* on memcpy calls.\n* Added tool to generate Mac OSX bundles of wxphp.\n* Fixed mac osx segfault caused by incrementing the refcount on \n  objects returned by static methods.\n* Renamed xml_parser.php to json_generator.php.\n* added the way to work with conflicting mode_t declaration needs \n  some header in wx distro to be patched (weltling)\n* Removed template.rc (weltling)",
+            "get": "http://pecl.php.net/get/wxwidgets-3.0.0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.0.1": {
+            "version": "3.0.0.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "jgmdev",
+            "releaseDate": "2014-03-09T17:46:40+00:00",
+            "releaseNotes": "* Added missing wxScrolledWindow methods by enabling wxScrolled, \n  this fixes issue #30 and #32.\n* Enabled wxClipBoard::Get() and disabled gargbage collection of \n  native_object on wxDataObject and its childs as wxClipBoard itself, \n  which partially fixes issue #34.\n* Added verification of object parameter child types to allow method \n  calls which where failing as described on issue #36. This also \n  completely fixes issue #34, testing may be needed.\n* Updated README_MSW adding changes needed to prevent windows xp \n  crashes as described on issue #37.\n* Enabled wxNonOwnedWindow::SetShape and fixed wxPrintDialog, \n  wxPageSetupDialog inheritage.\n* Removed error messages that appeared when failing to call \n  wxApp::OnInit and wxApp:OnExit.\n* Added proper type casting to wxMouseState.\n* Should fix and close #44 by doing proper type casting when calling \n  wxKeyboarState methods from child classes.\n* Binded the missing wxAuiNotebookEvent event constants which closes #45.\n* Enabled more wxStyledTextCtrl methods. \n* Enabled inheritance of wxStyledTextCtrl from wxTextEntry as \n  enabled some more methods.\n* Some fixes to the reference and interface generator as \n  simplification of chdir() calls.\n* Initial work to support wxInputStream::OnSysRead in order to be \n  able to load images with the wxImage(wxInputStream) constructor.\n* Fixed 2 memory leaks, one related to wxEvtHandler::OnEvent and the \n  other related to the creation of new objects.\n* Fixed memory leak caused by not uninitializing the properties \n  member of classes like wxPoint when they were destroyed which \n  closes #48, also modified code generator to only add the properties \n  code when needed which made the source and library more clean.",
+            "get": "http://pecl.php.net/get/wxwidgets-3.0.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

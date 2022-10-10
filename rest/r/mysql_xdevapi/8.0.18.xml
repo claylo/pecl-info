@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mysql_xdevapi">mysql_xdevapi</p>
+ <c>pecl.php.net</c>
+ <v>8.0.18</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>mysqlre</m>
+ <s>MySQL X DevAPI for PHP</s>
+ <d>The X DevAPI is the new common API for MySQL Connectors built on the X Protocol introduced in MySQL 5.7.12.
+
+The X DevAPI wraps powerful concepts in a simple API.
+* A new high-level session concept enables you to write code that can transparently scale from single MySQL Server to a multiple server environment.
+* Read operations are simple and easy to understand.
+
+The X DevAPI introduces a new, modern and easy-to-learn way to work with your data.
+* Documents are stored in Collections and have their dedicated CRUD operation set.
+* Work with your existing domain objects or generate code based on structure definitions for strictly typed languages.
+* Focus is put on working with data via CRUD operations. See Section 3.1, “CRUD Operations Overview”.
+* Modern practices and syntax styles are used to get away from traditional SQL-String-Building. See Chapter 10, Building Expressions.</d>
+ <da>2019-10-14 19:43:18</da>
+ <n>WL#12732: DevAPI: Specify TLS ciphers to be used by a client or session
+orabug #29421446: fixes for secure connections
+orabug #30226250: some of Collection.Modify ops don't support JSON documents properly
+orabug #30093227: mysql_xdevapi\CollectionFind::fields() path fails when ends in number
+orabug #30226232: incorrect behaviour of chained CRUD ops in webserver mode
+orabug #30258670: CollectionModify.arrayInsert vs bind: cannot use bindings for arrayInsert
+orabug #30088118: clean up XSession leavings
+orabug #30088150: remove messages
+orabug #30084547: improve zval wrapper
+orabug #29998874: fix tests to pass with default auth_plugin=caching_sha2_password
+orabug #30096952: add support for building in static mode
+orabug #30084593: get rid of vim &quot;decorators&quot;
+fixes for building with PHP-7.4+</n>
+ <f>574470</f>
+ <g>https://pecl.php.net/get/mysql_xdevapi-8.0.18</g>
+ <x xlink:href="package.8.0.18.xml"/>
+</r>

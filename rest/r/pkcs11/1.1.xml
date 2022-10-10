@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pkcs11">pkcs11</p>
+ <c>pecl.php.net</c>
+ <v>1.1</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>gamr</m>
+ <s>PHP Bindings for PKCS11 modules</s>
+ <d>This extension provides an Object Oriented API for PKCS11 C_* functions to interact with a Hardware Security Module.</d>
+ <da>2022-05-17 01:11:13</da>
+ <n>- Added Yubico vendor definitions
+- Fixed compatibility with PHP 8.1
+- Token and slot info is now trimmed
+- Attributes are now returned in types consistant with the defined constants
+- Added support to retrieve objects by URI from a Pkcs11\Session object</n>
+ <f>72705</f>
+ <g>https://pecl.php.net/get/pkcs11-1.1</g>
+ <x xlink:href="package.1.1.xml"/>
+</r>

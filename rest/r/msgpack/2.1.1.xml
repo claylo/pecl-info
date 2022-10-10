@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/msgpack">msgpack</p>
+ <c>pecl.php.net</c>
+ <v>2.1.1</v>
+ <st>stable</st>
+ <l>3-Clause-BSD</l>
+ <m>mike</m>
+ <s>PHP extension for interfacing with MessagePack</s>
+ <d>This extension provide API for communicating with MessagePack serialization.</d>
+ <da>2020-07-27 11:44:58</da>
+ <n>* Fixed issue #149: msgpack unpack error</n>
+ <f>126154</f>
+ <g>https://pecl.php.net/get/msgpack-2.1.1</g>
+ <x xlink:href="package.2.1.1.xml"/>
+</r>

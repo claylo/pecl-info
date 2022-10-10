@@ -1,0 +1,44 @@
+{
+    "category": "Tools and Utilities",
+    "deprecated": false,
+    "description": "This PHP extension  provides support for the Amazon ION serialization format.\nhttps://awesomized.github.io/ext-ion/",
+    "latestReleaseDate": "2022-05-31T10:31:02+00:00",
+    "latestVersion": "0.2.1",
+    "license": "BSD-2-Clause",
+    "name": "ion",
+    "php8Mentioned": false,
+    "releases": {
+        "0.2.1": {
+            "version": "0.2.1",
+            "state": "alpha",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2022-05-31T10:31:02+00:00",
+            "releaseNotes": "* Fix possible crash on unserializing uninitialized properties.",
+            "get": "https://pecl.php.net/get/ion-0.2.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.2.0": {
+            "version": "0.2.0",
+            "state": "alpha",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2022-05-13T07:44:26+00:00",
+            "releaseNotes": "* Improved documentation.\n* Upgrade bundled ion-c library.\n* Fix gh-issue #5: ion\\Timestamp crashes with string timezones.\n* Add ion\\Exception.\n* Refactor (un)serialization facilities:\n  * Removed ion\\Reader\\Options class and moved the options to the ion\\Reader constructor.\n  * Removed ion\\Writer\\Options class and moved the options to the ion\\Writer constructor.\n  * Renamed ion\\Serializer\\PHP to ion\\Serializer\\Serializer.\n  * Renamed ion\\Unserializer\\PHP to ion\\Unserializer\\Unserializer.\n  * Changed ion\\Serializer::serialize(mixed $data) to\n    ion\\Serializer::serialize(mixed $data, ion\\Writer|array|null $writer = null).\n  * Changed ion\\Unserializer::unserialize(string|resource $data) to\n    ion\\Unserializer::unserialize(ion\\Reader|string|resource $data)\n* Add support for custom (un)serializers.",
+            "get": "https://pecl.php.net/get/ion-0.2.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.1.0": {
+            "version": "0.1.0",
+            "state": "alpha",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2022-02-01T11:49:36+00:00",
+            "releaseNotes": "* Initial release.",
+            "get": "https://pecl.php.net/get/ion-0.1.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        }
+    },
+    "summary": "Amazon ION support",
+    "SPDX-License-Identifier": "BSD-2-Clause"
+}

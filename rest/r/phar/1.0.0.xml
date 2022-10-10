@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/phar">phar</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>cellog</m>
+ <s>allows running of complete applications out of .phar files (like Java .jar files)</s>
+ <d>This is the extension version of PEAR's PHP_Archive package. Support for
+zlib, bz2 and crc32 is achieved without any dependency other than the external
+zlib or bz2 extension.
+
+.phar files can be read using the phar stream, or with the Phar class.  If the SPL extension
+is available, a Phar object can be used as an array to iterate over a phar's contents
+or to read files directly from the phar.
+
+Phar archives can be created using the streams API or with the Phar class, if
+the phar.readonly ini variable is set to false.
+
+Full support for MD5 and SHA1 signatures is possible. Signatures can be required 
+if the ini variable phar.require_hash is set to true.</d>
+ <da>2007-03-28 00:27:14</da>
+ <n>*BACKWARDS COMPATIBILITY BREAK*
+Rename Phar-&gt;begin/isFlushingToPhar/commit to startBuffering/isBuffering/stopBuffering
+Note that isBuffering() returns the opposite value to isFlushingToPhar()</n>
+ <f>50474</f>
+ <g>http://pecl.php.net/get/phar-1.0.0</g>
+ <x xlink:href="package.1.0.0.xml"/>
+</r>

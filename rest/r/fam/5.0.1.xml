@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/fam">fam</p>
+ <c>pecl.php.net</c>
+ <v>5.0.1</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>thierry</m>
+ <s>File Alteration Monitor Functions</s>
+ <d>FAM monitors files and directories, notifying interested 
+    applications of changes.
+    A PHP script may specify a list of files for FAM to monitor 
+    using the functions provided by this extension.
+    The FAM process is started when the first connection from 
+    any application to it is opened. It exits after all 
+    connections to it have been closed.</d>
+ <da>2008-04-28 11:59:11</da>
+ <n>package.xml added to support intallation using pear installer</n>
+ <f>5295</f>
+ <g>http://pecl.php.net/get/fam-5.0.1</g>
+ <x xlink:href="package.5.0.1.xml"/>
+</r>

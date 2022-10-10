@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/memcached">memcached</p>
+ <c>pecl.php.net</c>
+ <v>2.0.0</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>andrei</m>
+ <s>PHP extension for interfacing with memcached via libmemcached library</s>
+ <d>This extension uses libmemcached library to provide API for communicating with memcached servers.</d>
+ <da>2012-03-02 15:26:49</da>
+ <n>- Add touch() and touchByKey() methods
+- Add resetServerList() and quit() methods
+- Support binary protocol in sessions
+- Make it work with libmemcached up to 1.0.4
+- Test against PHP 5.4.0</n>
+ <f>39060</f>
+ <g>http://pecl.php.net/get/memcached-2.0.0</g>
+ <x xlink:href="package.2.0.0.xml"/>
+</r>

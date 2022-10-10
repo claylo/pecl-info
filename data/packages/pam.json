@@ -1,0 +1,94 @@
+{
+    "category": "Authentication",
+    "deprecated": false,
+    "description": "This extension provides PAM (Pluggable Authentication Modules) integration. PAM is a system of libraries that handle the authentication tasks of applications and services. The library provides a stable API for applications to defer to for authentication tasks.",
+    "latestReleaseDate": "2022-01-19T14:46:22+00:00",
+    "latestVersion": "2.2.4",
+    "license": "PHP",
+    "name": "PAM",
+    "php8Mentioned": true,
+    "releases": {
+        "2.2.4": {
+            "version": "2.2.4",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "anonamish",
+            "releaseDate": "2022-01-19T14:46:22+00:00",
+            "releaseNotes": "Update TSRMLS_CACHE in RINIT_FUNCTION and MINIT_FUNCTION",
+            "get": "https://pecl.php.net/get/pam-2.2.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.2.3": {
+            "version": "2.2.3",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "anonamish",
+            "releaseDate": "2021-06-08T06:32:03+00:00",
+            "releaseNotes": "Fix minimum version of php and pear installer",
+            "get": "https://pecl.php.net/get/pam-2.2.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.2.2": {
+            "version": "2.2.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "anonamish",
+            "releaseDate": "2021-06-08T05:01:57+00:00",
+            "releaseNotes": "Add missing globals init and other minor fixes",
+            "get": "https://pecl.php.net/get/pam-2.2.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.2.1": {
+            "version": "2.2.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "anonamish",
+            "releaseDate": "2021-06-07T10:47:05+00:00",
+            "releaseNotes": "PHP 8.0 support with other features",
+            "get": "https://pecl.php.net/get/pam-2.2.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.3": {
+            "version": "1.0.3",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "mikl",
+            "releaseDate": "2009-11-29T05:50:04+00:00",
+            "releaseNotes": "Added checkacctmgmt parameter to enable skipping the pam_acct_mgmt() call (which might require root access)",
+            "get": "http://pecl.php.net/get/pam-1.0.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.2": {
+            "version": "1.0.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "mikl",
+            "releaseDate": "2007-11-28T14:20:34+00:00",
+            "releaseNotes": "Added PAM_RHOST param to facilitate RHOST auth (using $_SERVER['REMOTE_ADDR'])",
+            "get": "http://pecl.php.net/get/pam-1.0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "mikl",
+            "releaseDate": "2007-09-22T03:31:57+00:00",
+            "releaseNotes": "Error messages specify which pam_* function failed\nFixed build on lib64 type systems",
+            "get": "http://pecl.php.net/get/pam-1.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "mikl",
+            "releaseDate": "2006-11-13T03:27:23+00:00",
+            "releaseNotes": "Initial PECL release",
+            "get": "http://pecl.php.net/get/pam-1.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "PAM integration",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

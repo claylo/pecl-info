@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/csv">CSV</p>
+ <c>pecl.php.net</c>
+ <v>0.4.0</v>
+ <st>alpha</st>
+ <l>PHP V3.01</l>
+ <m>girgias</m>
+ <s>CSV PHP extension</s>
+ <d>A new and improved CSV file PHP extension which follows RFC 4180 instead of using a custom escape mechanism.
+
+        Supports multi-bytes delimiters, enclosures, and providing a custom EOL sequence.
+
+        Sponsor me via GitHub sponsors: https://github.com/sponsors/Girgias</d>
+ <da>2021-02-22 22:28:36</da>
+ <n>Minimum PHP version is now 8.0 due to the usage of new Zend APIs.
+All functions have been moved to static methods of a new CSV class.
+Function names now refer to &quot;buffer&quot; instead of &quot;file&quot; as a string is used.
+CSV::collectionToBuffer() now supports iterable collections, not just arrays.
+In case of field number miss-match a ValueError is thrown instead of an Error.
+A new CSV::bufferToCollectionLax() has been introduced which doesn't throw a ValueError in case of field number miss-match.
+
+Sponsor me via GitHub sponsors: https://github.com/sponsors/Girgias</n>
+ <f>15219</f>
+ <g>https://pecl.php.net/get/CSV-0.4.0</g>
+ <x xlink:href="package.0.4.0.xml"/>
+</r>

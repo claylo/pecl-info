@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ssh2">ssh2</p>
+ <c>pecl.php.net</c>
+ <v>0.5</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>pollita</m>
+ <s>Bindings for the libssh2 library</s>
+ <d>Provides bindings to the functions of libssh2 which implements the SSH2 protocol.
+libssh2 is available from http://www.sourceforge.net/projects/libssh2
+</d>
+ <da>2005-01-11 00:55:00</da>
+ <n>Added port forwarding support (requires libssh2-0.5) and
+modified ssh2_methods_negotiated() to work with modified libssh2 prototype.
+Note: Version PECL/ssh2 0.4.1 is incompatable with libssh2 &gt;= 0.5
+Both should be upgraded in tandem, though PECL/ssh2 0.5 will work with libssh2 &gt;= 0.4</n>
+ <f>17756</f>
+ <g>http://pecl.php.net/get/ssh2-0.5</g>
+ <x xlink:href="package.0.5.xml"/>
+</r>

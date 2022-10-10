@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/rar">rar</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>tony2001</m>
+ <s>rar extension</s>
+ <d>PHP extension for reading Rar archives using bundled unRAR library.</d>
+ <da>2008-02-26 08:33:33</da>
+ <n>- Upgraded bundled UnRar to version 3.7.8.
+- Updated source code to use new parameter parsing API.
+- Fixed PECL bug #9002 (rar_list invalidates rar resource)
+- Fixed PECL bug #11430 (rar_extract() doesn't close handles gracefully)
+- rar_open() now throws an error when failed to open the specified file.</n>
+ <f>134904</f>
+ <g>http://pecl.php.net/get/rar-1.0.0</g>
+ <x xlink:href="package.1.0.0.xml"/>
+</r>

@@ -1,0 +1,1 @@
+a:1:{s:8:"required";a:2:{s:3:"php";a:2:{s:3:"min";s:5:"7.1.0";s:3:"max";s:6:"8.0.99";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.9.1";}}}

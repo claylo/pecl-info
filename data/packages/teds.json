@@ -1,0 +1,304 @@
+{
+    "category": "Structures",
+    "deprecated": false,
+    "description": "teds (Tentative Extra Data Structures) is a collection of data structures and iterable functionality",
+    "latestReleaseDate": "2022-08-14T18:35:50+00:00",
+    "latestVersion": "1.2.4",
+    "license": "BSD-3-Clause",
+    "name": "teds",
+    "php8Mentioned": true,
+    "releases": {
+        "1.2.4": {
+            "version": "1.2.4",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "tandre",
+            "releaseDate": "2022-08-14T18:35:50+00:00",
+            "releaseNotes": "* Fix test failures/deprecation notices seen in PHP 8.2.",
+            "get": "https://pecl.php.net/get/teds-1.2.4",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "1.2.3": {
+            "version": "1.2.3",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "tandre",
+            "releaseDate": "2022-03-06T21:37:28+00:00",
+            "releaseNotes": "* Make pop() on Sequences affect iterators the same way that `$o->offsetUnset(count($o) - 1)` would.\n  (Move iterators pointing to the removed entry backwards by 1)\n* Make pop() on MutableIterable move iterators pointing to that entry backwards.\n* Properly convert references to non-references in some Collection constructors/unserializers and `Teds\\unique_values()`",
+            "get": "https://pecl.php.net/get/teds-1.2.3",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "1.2.2": {
+            "version": "1.2.2",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "tandre",
+            "releaseDate": "2022-03-06T17:38:32+00:00",
+            "releaseNotes": "* Fix bugs in Teds\\StrictHashSet/Teds\\StrictHashMap iteration behavior.\n* Fix bug constructing balanced tree in Teds\\StrictTreeSet/Teds\\StrictTreeMap from array/unserializing, where certain sizes resulted in trees not maintaining the balancing invariant.\n* Fix bug when constructing Teds\\IntVector from array when promoting type but not keeping reserved capacity.\n* Fix bugs in Teds\\StrictSortedVectorSet::__construct",
+            "get": "https://pecl.php.net/get/teds-1.2.2",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "1.2.1": {
+            "version": "1.2.1",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "tandre",
+            "releaseDate": "2022-03-05T16:34:04+00:00",
+            "releaseNotes": "* Update documentation\n* Make iteration of Teds\\StrictSortedVectorSet and Teds\\StrictSortedVectorMap account for removals and additions.\n* Make removal in Teds\\StrictTreeSet and Teds\\StrictTreeMap move iterators to the previous node if the iterator pointed to the removed node.\n  Add a state for iterators being prior to the start of the tree.\n  Use the state of being before the first value of the tree when calling InternalIterator::rewind on an empty tree or removing an iterator pointing to the first value in a tree.\n* Make repacking/removals in Teds\\StrictHashSet and Teds\\StrictHashMap move InternalIterator positions.\n* Change iteration behavior of Teds\\Deque to be like Vector, make shift/pop behave the same way as offsetUnset with respect to iteration.\n  (If the iterator is moved to be before the start of the deque, calling next will move it to the front, and other changes to the Deque will have no effect)",
+            "get": "https://pecl.php.net/get/teds-1.2.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "1.2.0": {
+            "version": "1.2.0",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "tandre",
+            "releaseDate": "2022-03-04T02:20:48+00:00",
+            "releaseNotes": "* Add `Teds\\SortedIntVectorSet` - a Set implementation represented in a way similar to an `Teds\\IntVector` with unique sorted integers.\n  (This may be useful for reducing memory usage and speeding up unserialization, when unserializing large Sets of integers which change infrequently. See benchmarks/benchmark_vector_unserialize.php)\n* Add `Teds\\ImmutableSortedStringSet` - an immutable Set implementation containing a list of unique strings sorted with strcmp.\n  (This may be useful for reducing memory usage and speeding up unserialization, when unserializing large Sets of strings which change infrequently to check values for membership in a Set. See benchmarks/benchmark_string_set.php)\n* Add `Teds\\ImmutableSortedIntSet` - an immutable Set implementation containing a list of unique integers sorted by increasing value.\n  (This may be useful for reducing memory usage and speeding up unserialization, when unserializing large Sets of integers which change infrequently to check values for membership in a Set.)\n* Rename `Teds\\BitSet` to `Teds\\BitVector`\n* Add `Teds\\Sequence::insert(int $offset, mixed ...$values)` to the Sequence interfaces and implementations\n* Add first/last to the `Teds\\Sequence` interface.\n* Fix edge cases with var_export/var_dump/debug_zval_dump and cyclic data structures in debug builds and php 8.2.0-dev.\n* Make iteration account for offsetUnset/insert/shift/unshift in Sequences.",
+            "get": "https://pecl.php.net/get/teds-1.2.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "1.1.2": {
+            "version": "1.1.2",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "tandre",
+            "releaseDate": "2022-02-20T00:58:45+00:00",
+            "releaseNotes": "* Fix big-endian builds (#160)\n* Make `teds\\stable_compare` consistently 1/0/-1 for arrays with different keys on all platforms.",
+            "get": "https://pecl.php.net/get/teds-1.1.2",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "1.1.1": {
+            "version": "1.1.1",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "tandre",
+            "releaseDate": "2022-02-19T23:43:35+00:00",
+            "releaseNotes": "* Fix bugs in Teds\\Map array access shorthand.",
+            "get": "https://pecl.php.net/get/teds-1.1.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "1.1.0": {
+            "version": "1.1.0",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "tandre",
+            "releaseDate": "2022-02-19T19:18:44+00:00",
+            "releaseNotes": "* Fix ImmutableSequence throwing for ArrayAccess shorthand read syntax.\n* Add CachedIterable as an alternative to ImmutableIterable that lazily evaluates Traversable objects passed into the constructor. (e.g. only runs Generators up to the most recently requested offset)\n* Change exception type to `Teds\\UnsupportedOperationException` in a few places.\n* Add `Teds\\is_same_array_handle(array $array1, array $array2): bool` for infinite recursion detection when processing arrays.\n* Fix memory leak when initializing `Teds\\StrictMinHeap`/`Teds\\StrictMaxHeap` from Traversables.\n* Fix memory leak when constructing collections from Traversable where rewind throws\n* Use first/last as method names for getting the first and last method names. Keep bottom/top as aliases to be deprecated later.\n* Add first/last helper methods to more collection types\n* Optimize implementations of `$map[$x]` array access shorthand in `Teds\\Map` implementations.\n* Throw for `$map[] = $value` instead of setting the key for null in `Teds\\Map` implementations.\n* Fix Teds\\IntVector and Teds\\LowMemoryVector shift implementation for integers\n* Add more methods to Teds\\BitSet to read/write bytes/integers, convert to/from strings.",
+            "get": "https://pecl.php.net/get/teds-1.1.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "tandre",
+            "releaseDate": "2022-02-17T00:20:52+00:00",
+            "releaseNotes": "* Regenerate arginfo for method aliases, update test expectations",
+            "get": "https://pecl.php.net/get/teds-1.0.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "tandre",
+            "releaseDate": "2022-02-17T00:03:35+00:00",
+            "releaseNotes": "* BREAKING CHANGES: Fix incorrect serialization/unserialization result of LowMemoryVector for boolean/null. Incompatible with older releases.\n* BUGFIX: Fix converting LowMemoryVector of floats to an array (they were unintentionally converted to integers).\n* BREAKING CHANGES: Rename datastructures and interfaces for consistency. Change definitions of interfaces/remove interfaces.\n  Rename Teds\\ImmutableKeyValueSequence to Teds\\ImmutableIterable and add an alias for the old name. Aliases will be removed in a future release.\n  Rename Teds\\KeyValueSequence to Teds\\MutableIterable and add an alias.\n  Rename Teds\\SortedStrictMap to Teds\\StrictTreeMap and add an alias.\n  Rename Teds\\StrictMap to Teds\\StrictHashMap and add an alias.\n  Rename Teds\\SortedStrictSet to Teds\\StrictTreeSet and add an alias.\n  Rename Teds\\StrictSet to Teds\\StrictHashSet and add an alias.\n  Rename Teds\\StableMinHeap to Teds\\StrictMinHeap and add an alias.\n  Rename Teds\\StableMaxHeap to Teds\\StrictMaxHeap and add an alias.\n  Change the definition of Teds\\Collection to be just a Collection of **values**. Make Teds\\Values an alias of Teds\\Collection.\n  Add the interfaces `Teds\\Sequence`, `Teds\\Map`, `Teds\\Set`.",
+            "get": "https://pecl.php.net/get/teds-1.0.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.14.0": {
+            "version": "0.14.0",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "tandre",
+            "releaseDate": "2022-02-13T13:54:49+00:00",
+            "releaseNotes": "* Make `strict_hash` deterministic for `NAN`\n* Make `strict_hash` return the same value for signed positive and negative zero. (In php, `0.0 === -0.0`, though var_export/print/var_dump output differ.)\n* Fix StrictMap/StrictSet handling of NAN. Make StrictMap/StrictSet treat positive and negative zero floats as the same key, like SortedStrictSet/stable_compare.\n* Add bitset source files to package.xml",
+            "get": "https://pecl.php.net/get/teds-0.14.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.13.0": {
+            "version": "0.13.0",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "tandre",
+            "releaseDate": "2022-02-12T17:43:03+00:00",
+            "releaseNotes": "* Add Teds\\BitSet providing similar functionality to a Vector of booleans, using a single bit per boolean.\n* Fix stub documentation and qualify `\\Iterator` for StableMinHeap/StableMaxHeap in documentation.",
+            "get": "https://pecl.php.net/get/teds-0.13.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.12.0": {
+            "version": "0.12.0",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "tandre",
+            "releaseDate": "2022-02-10T15:00:54+00:00",
+            "releaseNotes": "* Breaking changes.\n* Fix serialization/unserialization in StableMinHeap/StableMaxHeap.\n* Add interfaces for `Teds\\Values` (e.g. Heap/Set), Teds\\Collection(e.g. StrictMap, StableSortedMap), ListInterface(Vector, Deque, etc.) (the keyword list is reserved)\n* Implement ->values() in classes implementing `Teds\\Values`.\n* Make offsetExists consistently return false when the value of the given key is null across all data structures.\n* Add Teds\\Collection->containsKey to return true if a key exists without coercing types, and returning true regardless of whether the corresponding key is null.\n* Change signature of IntVector::set() and ::push() to match ListInterface\n* Add Collection::toArray() (behaves like iterator_to_array).\n* Check for exceeding 64-bit capacity limits in more collections to avoid hitting gc size limits\n  and to avoid unpredictable behavior (e.g. it'd be surprising to have this throw/fatal error only if var_export/var_dump/json_encode was called and PHP's array size limits(2147483648 elements, or at least 32GB) were hit).",
+            "get": "https://pecl.php.net/get/teds-0.12.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.11.0": {
+            "version": "0.11.0",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "tandre",
+            "releaseDate": "2022-02-09T04:06:31+00:00",
+            "releaseNotes": "* Breaking change: Make StableMinHeap/StableMaxHeap stop inheriting from SplHeap to be more memory efficient.\n* Properly sort in StableSortedListSet::__construct and __set_state\n* Deduplicate code.\n* Reduce size/capacity limits to the same limits as array for Deque.\n* Add ImmutableSequence::map(), filter()\n* Fix bug in Deque::contains(), Deque::indexOf()",
+            "get": "https://pecl.php.net/get/teds-0.11.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.10.0": {
+            "version": "0.10.0",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "tandre",
+            "releaseDate": "2022-02-07T01:03:57+00:00",
+            "releaseNotes": "* Speed up unserializing SortedStrictSet/SortedStrictMap when the input data is already sorted. (If the data is not sorted, then build the binary tree the slow but correct way)\n* Add a LowMemoryVector type and IntVector type, supporting reduced memory usage.\n* Deduplicate code.\n* Fix garbage collection in some classes.",
+            "get": "https://pecl.php.net/get/teds-0.10.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.9.2": {
+            "version": "0.9.2",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "tandre",
+            "releaseDate": "2022-01-30T17:47:33+00:00",
+            "releaseNotes": "* Make SortedStrictSet/SortedStrictMap use a red-black tree that is rebalanced on insertions and removals, guaranteeing worst-case logarithmic time for insertions/removals/lookups.",
+            "get": "https://pecl.php.net/get/teds-0.9.2",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.9.1": {
+            "version": "0.9.1",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "tandre",
+            "releaseDate": "2022-01-29T21:10:45+00:00",
+            "releaseNotes": "* Make SortedStrictSet/SortedStrictMap use a binary search tree (not yet a balanced tree).\n* Associate iterators on SortedStrictSet/SortedStrictMap with nodes of the tree.\n  Invalidate iterators pointing to a node when that node of the set/map is removed.\n* Fix sorting order when instantiating StableSortedListSet/SortedStrictSet/SortedStrictMap from unsorted arrays.",
+            "get": "https://pecl.php.net/get/teds-0.9.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.9.0": {
+            "version": "0.9.0",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "tandre",
+            "releaseDate": "2022-01-27T14:34:45+00:00",
+            "releaseNotes": "* Migrate `Teds\\StrictSet`, `Teds\\StrictMap`, and `Teds\\unique_values` implementation to use an actual hash table instead of a list of unique values.",
+            "get": "https://pecl.php.net/get/teds-0.9.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.8.0": {
+            "version": "0.8.0",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "tandre",
+            "releaseDate": "2022-01-23T13:26:18+00:00",
+            "releaseNotes": "* Add `StableSortedListSet` and `StableSortedListMap` as memory-efficient alternatives to `SortedStrictSet`/`SortedStrictMap`.\n* Speed up `SortedStrictSet::__unserialize` and `SortedStrictMap::__unserialize` when data is already sorted.\n* Fix crash in `StrictSet` and `SortedStrictSet` during cyclic garbage collection.",
+            "get": "https://pecl.php.net/get/teds-0.8.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.7.0": {
+            "version": "0.7.0",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "tandre",
+            "releaseDate": "2022-01-22T17:41:46+00:00",
+            "releaseNotes": "* Make `Teds\\strict_hash` ignore recursion caused by unrelated functions (e.g. var_dump calling `__debugInfo` calling `strict_hash`)\n* Add `Teds\\binary_search(array $values, mixed $target, callable $comparer = null, bool $useKey=false)`\n* Change parent class of `Teds\\StableMaxHeap` and `Teds\\StableMinHeap` to `SplHeap`.\n* Fix deduplication when constructing `StrictSet` from `iterable`, `StrictMap` from `Traversable`.\n* Add `Teds\\unique_values(iterable): array` using `strict_hash` to check for duplicates.",
+            "get": "https://pecl.php.net/get/teds-0.7.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.6.0": {
+            "version": "0.6.0",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "tandre",
+            "releaseDate": "2022-01-18T14:34:34+00:00",
+            "releaseNotes": "* Make `Teds\\stable_compare` sort objects by class name with strcmp before sorting by spl_object_id.\n* Add a hash map `StrictMap` using `Teds\\stable_hash` as a hash algorithm.\n  Keys are returned in order of insertion.\n* Add a hash set `StrictSet` using `Teds\\stable_hash` as a hash algorithm.\n* Add a sorted map `SortedStrictMap` using `Teds\\stable_compare` as a comparison function.\n  Keys are returned ordered by `Teds\\stable_compare` and no two keys have `stable_compare` return 0 (i.e. no two keys are equivalent).\n* Add a sorted set `SortedStrictSet` using `Teds\\stable_compare` as a comparison function.\n* Add StableMinHeap/StableMaxHeap extending SplMinHeap/SplMaxHeap, using `Teds\\stable_compare` as a comparison function.",
+            "get": "https://pecl.php.net/get/teds-0.6.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.5.1": {
+            "version": "0.5.1",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "tandre",
+            "releaseDate": "2022-01-15T15:25:17+00:00",
+            "releaseNotes": "* Add Teds\\array_value_first(), Teds\\array_value_last()\n* Add `Teds\\stable_compare($v1, $v2): int` for a stable comparison function of arbitrary values. (see tests/misc/stable_compare.phpt).\n  Like strcmp, this returns a negative value for less than, and positive for greater than, and 0 for equality.\n  Note that php's `<` operator is not stable. `'10' < '0a' < '1b' < '9' < '10'`.\n  stable_compare fixes that by strictly ordering:\n  `null < false < true < int,float < string < array < object < resource`.\n  (objects and resources are compared by id, and arrays are compared recursively. Numbers are compared numerically. If an int is equal to a float, then the int is first)\n  (strings use strcmp)\n* Make Deque iteration account for calls to shift/unshift tracking the position of the front of the Deque.\n  Calls to shift/unshift will do the following:\n  - Increase/Decrease the value returned by the iterator's key() by the number of elements added/removed to/from the front of the Deque. (`$deque[$iteratorKey] === $iteratorValue` at the time the key and value are returned).\n  - Repeated calls to shift will cause valid() to return false if the iterator's position ends up before the start of the Deque at the time iteration resumes.\n  - They will not cause the remaining values to be iterated over more than once or skipped.",
+            "get": "https://pecl.php.net/get/teds-0.5.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.4.1": {
+            "version": "0.4.1",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "tandre",
+            "releaseDate": "2021-09-27T00:22:23+00:00",
+            "releaseNotes": "* Fix computation of next power of 2 for sizes of `2 ** 32` or larger.",
+            "get": "https://pecl.php.net/get/teds-0.4.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.4.0": {
+            "version": "0.4.0",
+            "state": "alpha",
+            "license": "BSD-3-Clause",
+            "releasedBy": "tandre",
+            "releaseDate": "2021-09-26T20:55:19+00:00",
+            "releaseNotes": "* Backwards incompatible change: Change `Deque` APIs to be consistent with SplDoublyLinkedList and `array_push`: change pushBack/popBack/pushFront/popFront to push/pop/unshift/shift\n* Backwards incompatible change: Remove `$preserve_keys` flag from `Vector::__construct` (Always reindex keys in order of iteration instead).\n* Add isEmpty() method to datastructures\n* Make exceeding the capacity limit for a vector a fatal error.\n* Make Deque::push() and unshift() variadic.",
+            "get": "https://pecl.php.net/get/teds-0.4.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.3.0": {
+            "version": "0.3.0",
+            "state": "alpha",
+            "license": "BSD-3-Clause",
+            "releasedBy": "tandre",
+            "releaseDate": "2021-09-19T13:12:29+00:00",
+            "releaseNotes": "* Backwards incompatible change: Change `Vector::indexOf` return type from `int|false` to `?int` (and all other `indexOf*` methods in other data structures)\n* Backwards incompatible change: Change `valueAt`/`setValueAt` to get/set in Deque, Vector, and ImmutableSequence\n* Add optional parameter `$value = null` to `Vector::setSize()` to allow overriding the value used for padding when lengthening an array.\n* Change exception handling for sizes/capacities that are definitely too large to allocate.\n* Make Vector::push() variadic and accept 0 or more arguments, like `array_push` does.\n* Reclaim unused memory in Deque when roughly a quarter or less of the internal buffer is used.\n* Optimize performance of Deque, always use powers of 2 for the capacity of Deque to speed up reads/writes.",
+            "get": "https://pecl.php.net/get/teds-0.3.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.2.1": {
+            "version": "0.2.1",
+            "state": "alpha",
+            "license": "BSD-3-Clause",
+            "releasedBy": "tandre",
+            "releaseDate": "2021-09-17T01:44:10+00:00",
+            "releaseNotes": "* Support `$vector[] = $value` and `$deque[] = $value` assignments to append to Vector/Deque.\n* Add map() and filter() functions to Vector.",
+            "get": "https://pecl.php.net/get/teds-0.2.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.2.0": {
+            "version": "0.2.0",
+            "state": "alpha",
+            "license": "BSD-3-Clause",
+            "releasedBy": "tandre",
+            "releaseDate": "2021-09-12T15:42:51+00:00",
+            "releaseNotes": "* Breaking change: Change `Teds\\Vector::__construct` to add an additional parameter `bool $preserveKeys = true`,\n  and use the original keys of arrays/Traversables by default, throwing for non-integers and invalid integer offsets.\n  (Similar to the behavior of SplFixedArray::fromArray)\n* Convert references to non-references when creating values from iterables.\n* Minor performance improvements of `Teds\\Vector`",
+            "get": "https://pecl.php.net/get/teds-0.2.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.1.1": {
+            "version": "0.1.1",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "tandre",
+            "releaseDate": "2021-09-11T00:27:45+00:00",
+            "releaseNotes": "* Add Teds\\KeyValueVector\n* Fix edge cases in Teds\\Vector setSize",
+            "get": "https://pecl.php.net/get/teds-0.1.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.1.0a1": {
+            "version": "0.1.0a1",
+            "state": "alpha",
+            "license": "BSD-3-Clause",
+            "releasedBy": "tandre",
+            "releaseDate": "2021-08-25T02:04:39+00:00",
+            "releaseNotes": "* Initial commit",
+            "get": "https://pecl.php.net/get/teds-0.1.0a1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        }
+    },
+    "summary": "Provides extra data structures and iterable/array functionality.",
+    "SPDX-License-Identifier": "BSD-3-Clause"
+}

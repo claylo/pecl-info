@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/tclink">TCLink</p>
+ <c>pecl.php.net</c>
+ <v>3.3.1</v>
+ <st>stable</st>
+ <l>LGPL</l>
+ <m>witten</m>
+ <s>Enables credit card processing via the TrustCommerce payment gateway</s>
+ <d>This package provides a module for using TCLink directly from PHP scripts.
+TCLink is a thin client library to allow your e-commerce servers to connect
+to the TrustCommerce payment gateway.
+</d>
+ <da>2003-01-14 23:02:00</da>
+ <n>initial pear/PECL release</n>
+ <f>58025</f>
+ <g>http://pecl.php.net/get/TCLink-3.3.1</g>
+ <x xlink:href="package.3.3.1.xml"/>
+</r>

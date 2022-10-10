@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/lua">lua</p>
+ <c>pecl.php.net</c>
+ <v>2.0.3</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>laruence</m>
+ <s>Embedded lua interpreter</s>
+ <d>&quot;Lua is a powerful, fast, light-weight, embeddable scripting language.&quot; 
+ This extension embeds the lua interpreter and offers an OO-API to lua variables and functions.</d>
+ <da>2017-02-10 11:14:57</da>
+ <n>- Fixed issue #20 (PHP 7: Lua::eval(): unsupported type `unknown' for lua)</n>
+ <f>14463</f>
+ <g>http://pecl.php.net/get/lua-2.0.3</g>
+ <x xlink:href="package.2.0.3.xml"/>
+</r>

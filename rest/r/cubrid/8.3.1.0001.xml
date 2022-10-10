@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/cubrid">CUBRID</p>
+ <c>pecl.php.net</c>
+ <v>8.3.1.0001</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>cubrid</m>
+ <s>This is the official PHP Extension to connect to CUBRID Database.</s>
+ <d>CUBRID is an open source database management system highly optimized for Web applications (http://www.cubrid.org). The current PHP extension is fully compatibly with the latest stable version of CUBRID Database. To post issues and report bugs, please use CUBRID Official Forum at http://forum.cubrid.org.</d>
+ <da>2011-01-05 04:12:23</da>
+ <n>2008 R3.1 Release
+
+This release is a major release. CUBRID 3.1 Stable has been released. Several new 
+features have been added to this version including new BLOB and CLOB data types and 
+new APIs in JDBC/CCI which can get foreign key information. Accordingly new functions 
+and features are added in this CUBRID PHP version, and some bugs have been fixed.
+
+Functionality added:
+
+- Add more CUBRID-MySQL Compatibility functions:
+
+  cubrid_query
+  cubrid_close
+  cubrid_error
+  cubrid_errno
+  cubrid_client_encoding
+  cubrid_fetch_array
+  cubrid_db_name
+  cubrid_ping
+
+- Add Lob related functions:
+
+  cubrid_lob_get
+  cubrid_lob_close
+  cubrid_lob_size
+  cubrid_lob_export
+  cubrid_lob_send
+
+Functionality removed:
+
+Glo data type has been removed from CUBRID 3.1, BLOB/CLOB can be used to replace it. So 
+removed Glo related functions:
+
+  cubrid_new_glo
+  cubrid_save_to_glo
+  cubrid_load_from_glo
+  cubrid_send_glo
+
+Changed and Enhanced Features:
+
+- Add three new schema type integer constants for cubrid_schema: 
+
+  CUBRID_SCH_IMPORTED_KEYS
+  CUBRID_SCH_EXPORTED_KEYS
+  CUBRID_SCH_CROSS_REFERENCE
+
+  They can be used to get foreign key information. 
+
+- cubrid_bind support BLOB and CLOB data types.
+
+- cubrid_unbuffered_query now is worthy of its name. It won't need to wait 
+  for that all query results have been complete. It will return when the 
+  results are being generated, so you can't use cubrid_num_rows and 
+  cubrid_data_seek on a result set returned from cubrid_unbuffered_query.
+
+- cubrid_fetch_object: Add new parameters class_name and params, which can 
+  pass the name of class to instantiate and the constructor for class_name objects.
+
+- When cubrid_schema and cubrid_col_size fails, return false instead of -1.
+
+Fixed bugs:
+
+- last db connetion/request resource management: If there is no variable to refer these resources, they will be removed by garbage collector.
+- cubrid_execute: If cubrid fails to get result info after executing sql statement, there may be memory leak.
+- cubrid_disconnect: When disconnecting any db connection, it will always reset the last request and connection info.
+- cubrid_unbuffered_query: When query execution fails, it don't free the allocated request resource.</n>
+ <f>34942</f>
+ <g>http://pecl.php.net/get/CUBRID-8.3.1.0001</g>
+ <x xlink:href="package.8.3.1.0001.xml"/>
+</r>

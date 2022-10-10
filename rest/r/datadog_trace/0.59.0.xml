@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.59.0</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>labbati</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2021-05-06 17:24:02</da>
+ <n>### Added
+- [ZAI SAPI] Zai\trigger_error() SAPI function #1212
+- Autocomplete Makefile target names in buster dev images #1224
+
+### Changed
+- Use new buster containers in CI #1210
+- remove _tmp suffix from development buster images #1217
+- Tidy the components/ #1216
+- Tidy up the docker-compose file a bit #1223
+
+### Fixed
+- Disable PCNTL in forked processes #1196
+- Updated contributing and fixed typo on Makefile::test_all #1218
+- Fix ingestion control reporting #1222
+- Skip tests that have development environment dependencies #1215 (thanks for the report @remicollet)
+- Always resolve curl class entry symbols at runtime (PHP 8) #1209 (thanks for the report @metaxy)</n>
+ <f>440790</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.59.0</g>
+ <x xlink:href="package.0.59.0.xml"/>
+</r>

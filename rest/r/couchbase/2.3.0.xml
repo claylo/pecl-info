@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/couchbase">couchbase</p>
+ <c>pecl.php.net</c>
+ <v>2.3.0</v>
+ <st>stable</st>
+ <l>Apache V2</l>
+ <m>avsej</m>
+ <s>Couchbase Server PHP extension</s>
+ <d>The PHP client library provides fast access to documents stored in
+        a Couchbase Server.</d>
+ <da>2017-03-07 22:18:55</da>
+ <n>* PCBC-443: Remove PCS dependency and rewrite PHP stubs using Zend C API
+* PCBC-382: Implement cluster-level authorization using ClassicAuthenticator
+* Migrate API to \Couchbase namespace (old API still available on toplevel as aliases,
+  see tests/AliasesTest.php)
+* PCBC-383: Cross-bucket joins for N1QL (see examples/api/couchbase.N1qlQuery.crossBucket.php)
+* Refresh API documentation, describe all input options, put everything into single file
+  (see api/*.php), and prepare them for PHPStorm (https://github.com/JetBrains/phpstorm-stubs/pull/180)
+* PCBC-386: Implement Datastructures API: List, Set, Map and Queue (see tests/DatastructuresTest.php)
+* Improve connection management, persistent connections by default, track and close idle connections.</n>
+ <f>135849</f>
+ <g>http://pecl.php.net/get/couchbase-2.3.0</g>
+ <x xlink:href="package.2.3.0.xml"/>
+</r>

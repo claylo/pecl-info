@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/v8js">v8js</p>
+ <c>pecl.php.net</c>
+ <v>2.0.0</v>
+ <st>stable</st>
+ <l>The MIT License (MIT)</l>
+ <m>stesie</m>
+ <s>V8 Javascript Engine for PHP</s>
+ <d>This extension embeds Google's V8 Javascript Engine into PHP.</d>
+ <da>2017-11-26 14:25:25</da>
+ <n>Backward-incompatible changes
+-----------------------------
+
+- normal script execution shares its context with modules now (like on Node.js)
+- expose a &quot;global&quot; symbol that references the global scope (like on Node.js)
+- modules may return arbitrary values (not just objects; now like on Node.js)
+- pick up exports from &quot;module.exports&quot; also (like on Node.js)
+- handle exceptions thrown in module loader/normaliser like in other PHP scopes called from JS
+  (i.e. by default terminate execution, optionally propagate to JS side)
+
+V8Js' modules vastly behave like Node.js modules now \o/
+
+- php.ini option v8js.compat_php_exceptions has been removed
+
+Deprecations
+------------
+- V8Js::registerExtension and V8Js::getExtensions are now deprecated, use snapshots instead
+- likewise passing $extensions to V8Js::__construct
+- V8Js::getPendingException and and V8Js::clearPendingException are deprecated, use try/catch
+- likewise passing $report_uncaught_exceptions !== true to V8Js::__construct
+
+Improvements
+------------
+- add documentation on heap snapshots
+
+Bugfixes
+--------
+
+- fix build on Windows with VS2017 (thanks @Jan-E)
+- fix enumeration of methods on V8 6.3</n>
+ <f>101564</f>
+ <g>http://pecl.php.net/get/v8js-2.0.0</g>
+ <x xlink:href="package.2.0.0.xml"/>
+</r>

@@ -1,0 +1,34 @@
+{
+    "category": "Multimedia",
+    "deprecated": false,
+    "description": "SDL_ttf bindings for the PHP language",
+    "latestReleaseDate": "2022-08-02T21:46:43+00:00",
+    "latestVersion": "0.3.0",
+    "license": "PHP License",
+    "name": "sdl_ttf",
+    "php8Mentioned": false,
+    "releases": {
+        "0.3.0": {
+            "version": "0.3.0",
+            "state": "alpha",
+            "license": "PHP License",
+            "releasedBy": "santiagolizardo",
+            "releaseDate": "2022-08-02T21:46:43+00:00",
+            "releaseNotes": "Add TTF_WasInit, TTF_RenderText_Blended and TTF_RenderText_Shaded functions.\nAdd dependency on SDL extension on package.xml file (Remi Collet)",
+            "get": "https://pecl.php.net/get/sdl_ttf-0.3.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.0": {
+            "version": "0.2.0",
+            "state": "alpha",
+            "license": "PHP License",
+            "releasedBy": "santiagolizardo",
+            "releaseDate": "2022-07-24T17:14:47+00:00",
+            "releaseNotes": "Initial release with basic Init/Quit Open and Close Font and render solid text",
+            "get": "https://pecl.php.net/get/sdl_ttf-0.2.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "SDL_ttf bindings for the PHP language",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

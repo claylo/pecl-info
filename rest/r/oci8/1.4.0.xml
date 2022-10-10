@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/oci8">oci8</p>
+ <c>pecl.php.net</c>
+ <v>1.4.0</v>
+ <st>alpha</st>
+ <l>PHP</l>
+ <m>sixd</m>
+ <s>Extension for Oracle Database</s>
+ <d>This extension allows you to access Oracle databases using the Oracle Call Interface (OCI8). It can be built with PHP 4.3.9 to 5.x.  It can be linked with Oracle 9.2, 10.2, 11.1, or 11.2 client libraries.</d>
+ <da>2009-10-06 18:39:14</da>
+ <n>1. Introduce connection attribute functions:
+
+     oci_set_module_name
+     oci_set_action
+     oci_set_client_info
+     oci_set_client_identifier
+  
+   These set values that are visible/used by the database.  They
+   are useful for tracing, authentication and auditing.
+
+2. Introduce connection attribute function:
+
+     oci_set_edition
+
+   Oracle 11g R2 &quot;editions&quot; allow multiple versions of DB objects
+   to exist at one time.  By setting different editions, two
+   different versions of an application can run concurrently,
+   making upgrading easier and faster.
+
+3. Set the DRIVER_NAME attribute of Oracle Database 11gR2
+   connections to aid application tracing.  The value used is to
+   &quot;PHP OCI8&quot; followed by the OCI8 version number.  Note the
+   version number may get truncated in DB views such as
+   v$session_connect_info.
+
+4. Allow the oci_set_prefetch value to be 0.  This is important in
+   some cases using REF CURSORS in Oracle 11gR2.
+
+5. Introduce OCI_NO_AUTO_COMMIT as an alias for the OCI_DEFAULT
+   constant (which is not the default value) used by oci_execute().
+
+6. Generate an error if an invalid resource type is used in
+   oci_bind_by_name</n>
+ <f>151384</f>
+ <g>http://pecl.php.net/get/oci8-1.4.0</g>
+ <x xlink:href="package.1.4.0.xml"/>
+</r>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/redis">redis</p>
+ <c>pecl.php.net</c>
+ <v>2.2.7</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>mgrunder</m>
+ <s>PHP extension for interfacing with Redis</s>
+ <d>This extension provides an API for communicating with Redis servers.</d>
+ <da>2015-03-03 11:05:57</da>
+ <n>phpredis 2.2.7
+
+-- Improvements ---
+
+* Implemented PFADD, PFMERGE, and PFCOUNT command handling
+* Implemented ZRANGEBYLEX command (holding off on ZREVRANGEBYLEX
+  as that won't be out until 3.0)
+* Implemented getMode() so clients can detect whether we're in
+  ATOMIC/MULTI/PIPELINE mode.
+* Implemented rawCommand() so clients can send arbitrary things to
+  the redis server
+* Implemented DEBUG OBJECT (@michael-grunder, @isage)
+* Added/abide by connect timeout for RedisArray
+* Select to the last selected DB when phpredis reconnects
+
+-- Fixes ---
+
+* Fix a possible invalid free in _serialize
+* Added SAVE and BGSAVE to &quot;distributable&quot; commands for RedisArray
+* @welting -- Fixed invalid &quot;argc&quot; calculation re HLL commands
+* Allow clients to break out of the subscribe loop and return context.
+* Fixes a memory leak in SCAN when OPT_SCAN_RETRY id.
+* @remicollet -- Fix possible segfault when igbinary is enabled.
+* Add a couple of cases where we throw on an error (LOADING/NOAUTH/MASTERDOWN)
+* Fix several issues with serialization NARY
+* @itcom -- Fix missing TSRMLS_CC and a TSRMLS_DC/TSRMLS_CC typo</n>
+ <f>134340</f>
+ <g>http://pecl.php.net/get/redis-2.2.7</g>
+ <x xlink:href="package.2.2.7.xml"/>
+</r>

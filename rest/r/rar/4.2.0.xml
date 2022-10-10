@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/rar">rar</p>
+ <c>pecl.php.net</c>
+ <v>4.2.0</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>cataphract</m>
+ <s>rar extension</s>
+ <d>PHP extension for reading RAR archives using bundled unRAR library.</d>
+ <da>2020-12-06 19:56:54</da>
+ <n>- Support PHP 8.
+- Merge unrar 6.0.2.
+- RarArchive implements IteratorAggregate (PHP 8 only).</n>
+ <f>428258</f>
+ <g>https://pecl.php.net/get/rar-4.2.0</g>
+ <x xlink:href="package.4.2.0.xml"/>
+</r>

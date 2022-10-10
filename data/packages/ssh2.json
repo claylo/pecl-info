@@ -1,0 +1,204 @@
+{
+    "category": "Networking",
+    "deprecated": false,
+    "description": "Provides bindings to the functions of libssh2 which implements the SSH2 protocol.\n        libssh2 is available from http://libssh2.org/",
+    "latestReleaseDate": "2021-03-02T11:02:24+00:00",
+    "latestVersion": "1.3.1",
+    "license": "PHP License",
+    "name": "ssh2",
+    "php8Mentioned": false,
+    "releases": {
+        "1.3.1": {
+            "version": "1.3.1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "langemeijer",
+            "releaseDate": "2021-03-02T11:02:24+00:00",
+            "releaseNotes": "- 1.3.1 release only fixed the PHP >= 8.0 requirement in the package.xml. No code changes.\n\nChanges in 1.3:\n\n- Add ssh2_send_eof() [PR #45] (Calvin Buckley)\n- PHP stream cast function for SSH channel objects for stream_select() support. [PR #38] (Robert Wolf)\n- Fix for PHP 7.4 and 8 [PR #44] (Andy Postnikov and Remi Collet)\n- Fixed debug and disconnected callback [PR #37] (Piotr Rogowski)\n- Various stability and memory issue fixes [PR #39, #41] (Robert Wolf)\n- Segfault fix for bug #79757 [PR #43] (Konrad K)\n- Various stability and bug fixes #79631, #63480, #80294, #75523, #80729 [PR #46, #47, #48, #49, #50 and #51] (Christoph M. Becker)",
+            "get": "https://pecl.php.net/get/ssh2-1.3.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.3": {
+            "version": "1.3",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "langemeijer",
+            "releaseDate": "2021-03-01T20:36:16+00:00",
+            "releaseNotes": "- Add ssh2_send_eof() [PR #45] (Calvin Buckley)\n- PHP stream cast function for SSH channel objects for stream_select() support. [PR #38] (Robert Wolf)\n- Fix for PHP 7.4 and 8 [PR #44] (Andy Postnikov and Remi Collet)\n- Fixed debug and disconnected callback [PR #37] (Piotr Rogowski)\n- Various stability and memory issue fixes [PR #39, #41] (Robert Wolf)\n- Segfault fix for bug #79757 [PR #43] (Konrad K)\n- Various stability and bug fixes #79631, #63480, #80294, #75523, #80729 [PR #46, #47, #48, #49, #50 and #51] (Christoph M. Becker)",
+            "get": "https://pecl.php.net/get/ssh2-1.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.2": {
+            "version": "1.2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "langemeijer",
+            "releaseDate": "2019-09-18T08:38:27+00:00",
+            "releaseNotes": "- Fix multiple reflection/documentation disparities [PR #29] (Michael Moravec)\n- Fix PHP7 port. Restored commented reference counting. [Dmitry Stogov]\n- Updates for php_url structure changes [Daniel Ciochiu]\n- Make the PR generic for all PHP7 versions [Jan Ehrhardt]\n- Fix compatibility with PHP 7.3 [Jan Ehrhardt]\n- Fix config.w32 for compatibility with OpenSSL 1.1.x [Anatol]\n- Make static inline for php_ssh2_sftp_attr2ssb [Andy Postnikov]\n- Enable 7.1-7.3 on Travis CI [Andy Postnikov]",
+            "get": "https://pecl.php.net/get/ssh2-1.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.1.2": {
+            "version": "1.1.2",
+            "state": "alpha",
+            "license": "PHP License",
+            "releasedBy": "langemeijer",
+            "releaseDate": "2017-07-23T15:22:14+00:00",
+            "releaseNotes": "- Version 1.1.2 is same as 1.1 except this release contains this changelog\n- Fixed bug #72988 (Libor M.)\n- Fixed bug #73198 (Langemeijer)\n- Fixed php_url_parse issue (Remi Collet)\n- fix Invalid write of size 1 (Remi Collet)\n- Fixed bug #73819 (Mitch Hagstrand)\n- Fixed bug #73410 (Mitch Hagstrand)\n- Travis CI (Mitch Hagstrand)\n- Various other fixes on PHP 7 code and code cleanup (Mitch Hagstrand, Libor M., Anatol Belski)",
+            "get": "http://pecl.php.net/get/ssh2-1.1.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.1.1": {
+            "version": "1.1.1",
+            "state": "alpha",
+            "license": "PHP License",
+            "releasedBy": "langemeijer",
+            "releaseDate": "2017-06-25T10:04:56+00:00",
+            "releaseNotes": "- Version 1.1.1 is same as 1.1 except this release contains this changelog\n- Fixed bug #72988 (Libor M.)\n- Fixed bug #73198 (Langemeijer)\n- Fixed php_url_parse issue (Remi Collet)\n- fix Invalid write of size 1 (Remi Collet)\n- Fixed bug #73819 (Mitch Hagstrand)\n- Fixed bug #73410 (Mitch Hagstrand)\n- Travis CI (Mitch Hagstrand)\n- Various other fixes on PHP 7 code and code cleanup (Mitch Hagstrand, Libor M., Anatol Belski)",
+            "get": "http://pecl.php.net/get/ssh2-1.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.1": {
+            "version": "1.1",
+            "state": "alpha",
+            "license": "PHP License",
+            "releasedBy": "langemeijer",
+            "releaseDate": "2017-06-14T13:18:43+00:00",
+            "releaseNotes": "-",
+            "get": "http://pecl.php.net/get/ssh2-1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0": {
+            "version": "1.0",
+            "state": "alpha",
+            "license": "PHP License",
+            "releasedBy": "langemeijer",
+            "releaseDate": "2016-06-12T15:06:09+00:00",
+            "releaseNotes": "- Release for PHP 7 (Sean DuBois)\n- Made win32 builds depend on zlib and openssl extensions (Credomane Evonguard)\n- Add blocking call to php_ssh2_direct_tcpip (Credomane Evonguard)\n- Added explicit ssh2_disconnect function (Credomane Evonguard)\n- Fixed bug #72150 - Fixing segfault when passing env variables (Krakjoe)",
+            "get": "http://pecl.php.net/get/ssh2-1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.13": {
+            "version": "0.13",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "langemeijer",
+            "releaseDate": "2016-06-12T14:27:39+00:00",
+            "releaseNotes": "- Fixed bug #63660 php_ssh2_fopen_wrapper_parse_path segfaults\n- Fixed bug #63855 compilation fails on windows (patch from Erez H)\n- Fixed bug #64535 php_ssh2_sftp_dirstream_read segfault on error (Matt Pelmear)\n- Add reflection API support (Fr\u00e9d\u00e9ric Hardy)\n- Add exit-status support for ssh2 file wrappers (Vladimir Zidar)\n- Fixed bug #58893 Unable to request a channel from remote host (Vladimir Zidar)\n- Fix segfault when trying to authenticate in servers that do not support authentication (none) (Felipe Weckx)",
+            "get": "http://pecl.php.net/get/ssh2-0.13",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.12": {
+            "version": "0.12",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "langemeijer",
+            "releaseDate": "2012-10-15T15:21:41+00:00",
+            "releaseNotes": "- Bumped libssh2 version requirement to 1.2 (aug 2009)\n- Added ssh2_auth_agent() - SSH agent authentication support (with libssh >= 1.2.3)\n- Added ssh2_sftp_chmod() (fixed bug #59880)\n- Added support for stream_set_timeout() to channel streams (fixed bug #56377) (with libssh >= 1.2.9)\n- Added keyboard-interactive to ssh2_auth_password() (fixed bugs #61760 and #54916)\n- Add license file as requested in bug #59980\n- Allow for tilde (~) in public and private keyfile paths\n- Be more verbose about any errors within ssh2_scp_send\n- Fixed bug #56425 - Problem with ssh2_scp_send\n- Fixed bug #59794 - ssh2.sftp protocol wrapper works incorrectly for paths which contain a '#'\n- Fixed bug #63192 - Check if connection is authenticated.\n- Fixed bug #58576 - Handle error values from reads and writes to a channel.",
+            "get": "http://pecl.php.net/get/ssh2-0.12",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.11.3": {
+            "version": "0.11.3",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "pajoye",
+            "releaseDate": "2011-09-27T16:10:20+00:00",
+            "releaseNotes": "- Fixed bug#24349 (ssh2_sftp_mkdir fails with trailing slash)\n- Fixed bug#22729 (using ssh2.sftp stream on 64bit vs. 32bit)\n- Fixed bug#22671 (trailing spaces trimmed from filenames)\n- Fixed bug#17142 (Missing EOF detection in ssh2.sftp:// streams)\n- Fixed bug#16944 (Segmentation fault SIGSEGV with protected variable with ssh2)",
+            "get": "http://pecl.php.net/get/ssh2-0.11.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.11.2": {
+            "version": "0.11.2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "pajoye",
+            "releaseDate": "2010-11-03T17:25:12+00:00",
+            "releaseNotes": "- Fixed the extension version info \n  . no other changes since 0.11.1",
+            "get": "http://pecl.php.net/get/ssh2-0.11.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.11.1": {
+            "version": "0.11.1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "pajoye",
+            "releaseDate": "2010-11-03T17:20:47+00:00",
+            "releaseNotes": "- Fixed bug #9500, SSH2 sockets not being closed properly because of close vs closesocket difference\n- Fixed Windows support \n- Support for latest libssh2 release\n- Fix build with PHP 5.3\n- Fixed incorrect return values for rename/unlink/mkdir/rmdir with sftp functions/streams\n- Fixed various memory leaks and segfaults",
+            "get": "http://pecl.php.net/get/ssh2-0.11.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.11.0": {
+            "version": "0.11.0",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "mikesul",
+            "releaseDate": "2008-12-08T14:36:44+00:00",
+            "releaseNotes": "- Support for latest libssh2 release\n- Fix build with PHP 5.3\n- Fixed incorrect return values for rename/unlink/mkdir/rmdir with sftp functions/streams\n- Fixed various memory leaks and segfaults",
+            "get": "http://pecl.php.net/get/ssh2-0.11.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.10": {
+            "version": "0.10",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "pollita",
+            "releaseDate": "2005-11-01T18:49:24+00:00",
+            "releaseNotes": "Added support for publickey subsystem.",
+            "get": "http://pecl.php.net/get/ssh2-0.10",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.9": {
+            "version": "0.9",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "pollita",
+            "releaseDate": "2005-07-04T22:09:30+00:00",
+            "releaseNotes": "Fix version check bugs found in release 0.8.\nAdd pty option to ssh2_exec().",
+            "get": "http://pecl.php.net/get/ssh2-0.9",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.8": {
+            "version": "0.8",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "pollita",
+            "releaseDate": "2005-05-17T15:57:45+00:00",
+            "releaseNotes": "Fixed feof() detection, removed unnecessary sleep() in channel shutdown, and simplified session detection.\nNote: All users are recommended to use libssh2 >= 0.10 as it contains important bugfixes (particularly in the SFTP layer).",
+            "get": "http://pecl.php.net/get/ssh2-0.8",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.7": {
+            "version": "0.7",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "pollita",
+            "releaseDate": "2005-02-24T16:38:35+00:00",
+            "releaseNotes": "Fixed socket leak bug.  Connections wern't being closed like they were supposed to.\nAdd ssh2_auth_hostbased_file() for hostkey authentication.",
+            "get": "http://pecl.php.net/get/ssh2-0.7",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.6": {
+            "version": "0.6",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "pollita",
+            "releaseDate": "2005-02-09T19:56:00+00:00",
+            "releaseNotes": "Minor fixes including some added error handling and more discriptive ./configure message.\nUsers of PHP/SSH2 are recommended to upgrade their installation of libssh2 to version 0.6\nwhether or not upgrading the PHP/SSH2 extension.",
+            "get": "http://pecl.php.net/get/ssh2-0.6",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.5": {
+            "version": "0.5",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "pollita",
+            "releaseDate": "2005-01-11T00:55:00+00:00",
+            "releaseNotes": "Added port forwarding support (requires libssh2-0.5) and\nmodified ssh2_methods_negotiated() to work with modified libssh2 prototype.\nNote: Version PECL/ssh2 0.4.1 is incompatable with libssh2 >= 0.5\nBoth should be upgraded in tandem, though PECL/ssh2 0.5 will work with libssh2 >= 0.4",
+            "get": "http://pecl.php.net/get/ssh2-0.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "Bindings for the libssh2 library",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

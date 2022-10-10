@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/teds">teds</p>
+ <c>pecl.php.net</c>
+ <v>0.6.0</v>
+ <st>stable</st>
+ <l>BSD-3-Clause</l>
+ <m>tandre</m>
+ <s>teds extension</s>
+ <d>teds (Tentative Extra Data Structures) is a collection of data structures and iterable functionality</d>
+ <da>2022-01-18 14:34:34</da>
+ <n>* Make `Teds\stable_compare` sort objects by class name with strcmp before sorting by spl_object_id.
+* Add a hash map `StrictMap` using `Teds\stable_hash` as a hash algorithm.
+  Keys are returned in order of insertion.
+* Add a hash set `StrictSet` using `Teds\stable_hash` as a hash algorithm.
+* Add a sorted map `SortedStrictMap` using `Teds\stable_compare` as a comparison function.
+  Keys are returned ordered by `Teds\stable_compare` and no two keys have `stable_compare` return 0 (i.e. no two keys are equivalent).
+* Add a sorted set `SortedStrictSet` using `Teds\stable_compare` as a comparison function.
+* Add StableMinHeap/StableMaxHeap extending SplMinHeap/SplMaxHeap, using `Teds\stable_compare` as a comparison function.</n>
+ <f>123095</f>
+ <g>https://pecl.php.net/get/teds-0.6.0</g>
+ <x xlink:href="package.0.6.0.xml"/>
+</r>

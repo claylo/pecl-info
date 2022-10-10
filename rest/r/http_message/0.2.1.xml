@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/http_message">http_message</p>
+ <c>pecl.php.net</c>
+ <v>0.2.1</v>
+ <st>beta</st>
+ <l>MIT License</l>
+ <m>jasny</m>
+ <s>PSR-7 HTTP Message implementation</s>
+ <d>PSR-7 compatible HTTP Message implementation as PHP extension</d>
+ <da>2019-11-07 01:47:35</da>
+ <n>Added `HttpMessage\Emitter`.
+Emitter outputs header and body.
+XDebug is needed to test emitter.
+
+Fixed segfault for `withHeader()` when using a non-string var.</n>
+ <f>47338</f>
+ <g>https://pecl.php.net/get/http_message-0.2.1</g>
+ <x xlink:href="package.0.2.1.xml"/>
+</r>

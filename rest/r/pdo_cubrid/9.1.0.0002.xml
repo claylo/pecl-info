@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pdo_cubrid">PDO_CUBRID</p>
+ <c>pecl.php.net</c>
+ <v>9.1.0.0002</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>cubrid</m>
+ <s>CUBRID driver for PDO</s>
+ <d>This extension provides a CUBRID driver for PDO.</d>
+ <da>2013-06-11 04:59:43</da>
+ <n>Fixed bugs:
+1) APIS-546: The PDO driver does not support for the connection between the PDO and CUBRID shard broker.
+2) APIS-550: The PDO driver does not support prepare and query function in CUBRID shard db.</n>
+ <f>2251790</f>
+ <g>http://pecl.php.net/get/PDO_CUBRID-9.1.0.0002</g>
+ <x xlink:href="package.9.1.0.0002.xml"/>
+</r>

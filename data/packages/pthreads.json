@@ -1,0 +1,15 @@
+{
+    "category": "System",
+    "deprecated": true,
+    "description": "A compatible Threading API for PHP",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "PHP License",
+    "name": "pthreads",
+    "summary": "Threading API",
+    "php8Mentioned": false,
+    "releases": [],
+    "new_channel": "",
+    "new_package": "parallel",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

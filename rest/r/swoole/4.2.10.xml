@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.2.10</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in http/websocket/http2 server
+        - coroutine http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2018-12-20 13:04:46</da>
+ <n>+ Refactor Coroutine Http Client, developers no longer need to care if the connection is broken unless the network is abnormal  (auto reconnect)
++ The coroutine switch adds some operations, because PDO changes the global error handler at IO request time
++ Support for creating coroutines using internal C functions
++ Allow closed sockets across coroutines
++ Improve server-side SSL certificate verification
++ Enhanced coroutine iterators and stack traces
+* swoole_event_wait is always in the first place in the shutdown function list (#2144)
+* Unset properties of built-in objects are not allowed, otherwise coredump may be raised
+* For most built-in classes, clone and serialization are not allowed.
+* Enhanced coroutine redis, now it can use setOption to adjust the configuration after connecting and auto-reconnect like phpredis
+* Fixed task wait memory leak
+* Fixed epoll error core dump when waiting for writable event on coroutine socket
+* Unified coroutine socket timeout (see: https://wiki.swoole.com/wiki/page/p-socket_timeout.html)
+* More friendly warning info
+* Fixed the enable coroutine bug in the task process
+* Fixed defer function not executed when meeting exception
+* Fixed a bug about the global buffer was not copied when the write yield
+* Fixed Http proxy (#2195) (#2205)
+* Fixed Channel push timeout bug (#2226)
+* Fixed Http Client websocket mask (#2206)
+* Fixed atomic wait in MacOS (#2198)
+* Fixed MySQL client recv huge data more than the max length of a single package (#2208) (57fc849) (76179fa)
+* Fixed swoole_get_local_mac not supported on macOS (#2199)
+* Fixed php_http_parser bug when meeting the wrong header name (5e91557)
+* The default sock property value is -1 (0 is STDIN)
+- Remove the short name of Co\Server, This name is reserved for future coroutine services
+- All asynchronous classes are marked as deprecated
+- Remove Timer maximum time limit
+- It is not allowed to fork a process in a coroutine</n>
+ <f>1257047</f>
+ <g>https://pecl.php.net/get/swoole-4.2.10</g>
+ <x xlink:href="package.4.2.10.xml"/>
+</r>

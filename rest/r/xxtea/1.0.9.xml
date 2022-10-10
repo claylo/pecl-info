@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xxtea">xxtea</p>
+ <c>pecl.php.net</c>
+ <v>1.0.9</v>
+ <st>stable</st>
+ <l>MIT</l>
+ <m>andot</m>
+ <s>XXTEA for PHP.</s>
+ <d>XXTEA encryption algorithm extension for PHP.
+XXTEA is a fast and secure encryption algorithm. This is a XXTEA extension for PHP.
+It is different from the original XXTEA encryption algorithm. It encrypts and decrypts string instead of uint32 array, and the key is also string.</d>
+ <da>2015-03-23 05:20:19</da>
+ <n>Added Changelog</n>
+ <f>7078</f>
+ <g>http://pecl.php.net/get/xxtea-1.0.9</g>
+ <x xlink:href="package.1.0.9.xml"/>
+</r>

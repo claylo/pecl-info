@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ibm_db2">ibm_db2</p>
+ <c>pecl.php.net</c>
+ <v>2.1.6</v>
+ <st>stable</st>
+ <l>Apache License 2.0</l>
+ <m>theprez</m>
+ <s>Extension for IBM Db2 (LUW/i/z) and other compatible databases</s>
+ <d>ibm_db2 provides access to DB2 and compatible databases on PHP.
+  It uses a procedural interface. (PDO users should use PDO_IBM instead.)
+  
+  The following software is supported without any additional licenses:
+  - IBM Db2 (Linux/Unix/Windows)
+  - IBM Db2 for i (running on IBM i)
+  - Apache Derby
+  
+  The following software may require additional licenses on the database:
+  - IBM Db2 Connect for i (for using Db2 for i from LUW)
+  - IBM Db2 Connect for z (for using Db2 for z from LUW)
+  
+  Note that for IBM i, IBM and Seiden Group recommend new applications use ODBC instead.</d>
+ <da>2022-08-25 02:58:36</da>
+ <n>* 2022-08-24: 2.1.6
+- Allows fetching the current naming mode with db2_get_option on IBM i.
+- Uses the password (obfuscated in memory) as part of the persistent resource hash key. This means the password must be the same to reuse a persistent connection.
+- Fixes build issues with 64-bit Windows.
+- Fixes crashes with level 4 i5_check_pconnect.
+- Cleans up CI for modern IBM i and PHP 8.1.</n>
+ <f>191956</f>
+ <g>https://pecl.php.net/get/ibm_db2-2.1.6</g>
+ <x xlink:href="package.2.1.6.xml"/>
+</r>

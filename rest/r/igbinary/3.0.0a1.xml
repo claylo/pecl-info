@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/igbinary">igbinary</p>
+ <c>pecl.php.net</c>
+ <v>3.0.0a1</v>
+ <st>alpha</st>
+ <l>BSD-3-Clause</l>
+ <m>tandre</m>
+ <s>igbinary extension</s>
+ <d>Igbinary is a drop in replacement for the standard php serializer. Instead of
+	time and space consuming textual representation, igbinary stores php data
+	structures in a compact binary form. Savings are significant when using
+	memcached or similar memory based storages for serialized data.</d>
+ <da>2019-02-09 00:42:08</da>
+ <n>* Drop support for PHP 5.
+* Drop support for APC (APC was only available for PHP5 - It is the predecessor of APCu)
+* Emit a warning and return null if igbinary_unserialize() is passed more data to unserialize than expected.
+* Fix compilation against PHP 7.4-dev. Igbinary does NOT yet properly serialize/unserialize all classes with PHP 7.4-dev's typed properties.
+* The serialization format is exactly the same as igbinary 2.x</n>
+ <f>57612</f>
+ <g>https://pecl.php.net/get/igbinary-3.0.0a1</g>
+ <x xlink:href="package.3.0.0a1.xml"/>
+</r>

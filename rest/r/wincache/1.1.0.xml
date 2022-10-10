@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/wincache">WINCACHE</p>
+ <c>pecl.php.net</c>
+ <v>1.1.0</v>
+ <st>beta</st>
+ <l>BSD License</l>
+ <m>ruslany</m>
+ <s>Windows Cache Extension for PHP</s>
+ <d>Windows Cache Extension for PHP is a PHP accelerator that is used to increase the speed of PHP applications running on Windows and Windows Server. Once the Windows Cache Extension for PHP is enabled and loaded by the PHP engine, PHP applications can take advantage of the functionality without any code modifications. The extension includes PHP opcode cache, file system cache and relative path cache.</d>
+ <da>2010-03-04 15:26:54</da>
+ <n>1.1.0-Beta release:
+- Added wincache user cache which can be used to store php values in cache.
+- Added wincache session handler. Now wincache user cache can be used to store session data.
+- Made behavior of user cache functions handle arrays and other key types.\
+- Fixed a bug in session handler to make it work for SugarCRM.
+- Fixed inconsistencies in wincache_ucache APIs. Included session entries lookups in hit/miss counts.
+- Updated the wincache.php page to show the informaiton about user and session cache.</n>
+ <f>110441</f>
+ <g>http://pecl.php.net/get/WINCACHE-1.1.0</g>
+ <x xlink:href="package.1.1.0.xml"/>
+</r>

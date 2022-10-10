@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/apm">APM</p>
+ <c>pecl.php.net</c>
+ <v>1.1.0beta4</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>patrickallaert</m>
+ <s>Alternative PHP Monitor</s>
+ <d>Monitoring extension for PHP, collects error events and send them to one of the drivers.
+SQLite and MySQL drivers are storing those in a database.
+More drivers to come (SNMP, e-mail, Hadoop,...).</d>
+ <da>2012-06-07 17:43:55</da>
+ <n>Added:
+- Referer
+
+Changed:
+- Storing all ts in SQLite as integers
+
+Fixed:
+- Bug #62187: The MySQL driver does not store a timestamp for an event (Thanks to mathieu at mollie dot nl, HMWiesinger at gmx dot at).
+- Bug #62012: No data collected
+- Missing post_vars column definition in SQL creation scripts.</n>
+ <f>115585</f>
+ <g>http://pecl.php.net/get/APM-1.1.0beta4</g>
+ <x xlink:href="package.1.1.0beta4.xml"/>
+</r>

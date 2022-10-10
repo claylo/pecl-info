@@ -1,0 +1,44 @@
+{
+    "category": "Tools and Utilities",
+    "deprecated": false,
+    "description": "A number of functional primitives like map(), select(), each() for the PHP language",
+    "latestReleaseDate": "2011-12-17T17:10:33+00:00",
+    "latestVersion": "0.6.0",
+    "license": "BSD License",
+    "name": "functional",
+    "php8Mentioned": false,
+    "releases": {
+        "0.6.0": {
+            "version": "0.6.0",
+            "state": "alpha",
+            "license": "BSD License",
+            "releasedBy": "lstrojny",
+            "releaseDate": "2011-12-17T17:10:33+00:00",
+            "releaseNotes": "- Adding average()\n- Changing behavior of sum()/product()/difference()/ratio() to ignore booleans\n- Fixed critical bug in Functional\\pluck() that made the current scope unavailable to the caller",
+            "get": "http://pecl.php.net/get/functional-0.6.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.0.5": {
+            "version": "0.0.5",
+            "state": "alpha",
+            "license": "BSD License",
+            "releasedBy": "lstrojny",
+            "releaseDate": "2011-12-04T14:34:06+00:00",
+            "releaseNotes": "- Renamed all() to every() and any() to some()\n- Added drop_first() and drop_last()\n- Fixed property access with pluck()\n- pluck() now works with associative arrays\n- Added partition()\n- Added group()\n- Added flatten()\n- Added first() and last()\n- Added product(), sum(), ratio(), difference()\n- Added unique()\n- Fixed a lot of memory leaks",
+            "get": "http://pecl.php.net/get/functional-0.0.5",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.0.1": {
+            "version": "0.0.1",
+            "state": "alpha",
+            "license": "BSD License",
+            "releasedBy": "lstrojny",
+            "releaseDate": "2011-06-11T10:51:03+00:00",
+            "releaseNotes": "- Initial release",
+            "get": "http://pecl.php.net/get/functional-0.0.1",
+            "SPDX-License-Identifier": "MIT"
+        }
+    },
+    "summary": "Functional primitives for PHP",
+    "SPDX-License-Identifier": "MIT"
+}

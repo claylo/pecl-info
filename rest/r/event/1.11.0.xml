@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/event">event</p>
+ <c>pecl.php.net</c>
+ <v>1.11.0</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>osmanov</m>
+ <s>Provides interface to libevent library</s>
+ <d>This is an extension to efficiently schedule I/O, time and signal based
+  events using the best I/O notification mechanism available for specific platform.
+  This is a port of libevent to the PHP infrastructure.
+
+  Version 1.0.0 introduces:
+  * new OO API breaking backwards compatibility
+  * support of libevent 2+ including HTTP, DNS, OpenSSL and the event listener.
+
+  Note, event-1.0.0 and greater is not compatible with previous versions.</d>
+ <da>2014-11-13 11:26:31</da>
+ <n>Fix: exceptions thrown from EventHttp and EventBufferEvent userspace callbacks were not passed through back to user.
+Now the event loop will break and re-throw the exception.
+Add: EventBase::free method
+Add: EventBufferEvent methods:
+  - close
+  - sslGetCipherInfo
+  - sslGetCipherName
+  - sslGetCipherVersion
+  - sslGetProtocol
+Add: EventSslContext options:
+  - OPT_NO_SSLv2
+  - OPT_NO_SSLv3
+  - OPT_NO_TLSv1
+  - OPT_NO_TLSv1_1
+  - OPT_NO_TLSv1_2
+  - OPT_CIPHER_SERVER_PREFERENCE
+  - TLSv11_CLIENT_METHOD
+  - TLSv11_SERVER_METHOD
+  - TLSv12_CLIENT_METHOD
+  - TLSv12_SERVER_METHOD
+(Thanks to Mathieu CARBONNEAUX @ bitbucket.org)
+Issue #13: EventBufferEvent::__construct failed to accept a persistent
+socket client(STREAM_CLIENT_PERSISTENT)</n>
+ <f>78856</f>
+ <g>http://pecl.php.net/get/event-1.11.0</g>
+ <x xlink:href="package.1.11.0.xml"/>
+</r>

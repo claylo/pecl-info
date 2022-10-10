@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/funcall">funcall</p>
+ <c>pecl.php.net</c>
+ <v>0.2.5</v>
+ <st>stable</st>
+ <l>New BSD</l>
+ <m>surfchen</m>
+ <s>Add callbacks for any function/method</s>
+ <d>Call callbacks before or after specified functions/methods being called.</d>
+ <da>2008-11-24 11:06:51</da>
+ <n>add eval support
+fixed bugs about include*/require*</n>
+ <f>9109</f>
+ <g>http://pecl.php.net/get/funcall-0.2.5</g>
+ <x xlink:href="package.0.2.5.xml"/>
+</r>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ref">ref</p>
+ <c>pecl.php.net</c>
+ <v>0.4.1</v>
+ <st>stable</st>
+ <l>The MIT License (MIT)</l>
+ <m>pinepain</m>
+ <s>Soft and Weak references support in PHP</s>
+ <d>This extension adds Soft and Weak references support to PHP 7 and may serve as a ground
+        for other data structures that require advanced referencing model.</d>
+ <da>2017-01-15 21:10:20</da>
+ <n>- fixes problem when false Ref\NotifierException thrown during object destruction if non-caught exception
+  was thrown before such destruction (outside notifiers and referent object destructor) (#17);
+- do not call soft notifiers if original object was prevented from being destroyed in one of notifiers (#18).</n>
+ <f>36546</f>
+ <g>http://pecl.php.net/get/ref-0.4.1</g>
+ <x xlink:href="package.0.4.1.xml"/>
+</r>

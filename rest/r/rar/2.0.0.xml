@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/rar">rar</p>
+ <c>pecl.php.net</c>
+ <v>2.0.0</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>cataphract</m>
+ <s>rar extension</s>
+ <d>PHP extension for reading RAR archives using bundled unRAR library.</d>
+ <da>2010-04-20 08:49:57</da>
+ <n>Changes with respect to release 2.0.0RC1:
+- Fixed infinite loop when opening RAR archive missing a volume (later report in bug #17177).
+- Fixed bug #17025 (changed the name of method RarArchive::list into RarArchive::getEntries). If backwards compatibility with the release candidate is required, RarArchive::list can be reintroduced by defining RAR_ARCHIVE_LIST_ALIAS.
+Incompatible changes with respect to release 1.0.0:
+PHP Support:
+- Support for PHP 4.3 dropped. PHP 5.2.x or 5.3.x is required.
+API backwards incompatible changes:
+- Handles unicode filenames (uses UTF-8 external encoding). The file names inside the RAR archives are always returned in UTF-8. This will probably break your scripts.
+- Calling rar_close/RarArchive::close() invalidates RarEntry objects (actually, only extraction is forbidden, but don't rely on it).
+For the other changes, see the changelog for version 2.0.0RC1.</n>
+ <f>189885</f>
+ <g>http://pecl.php.net/get/rar-2.0.0</g>
+ <x xlink:href="package.2.0.0.xml"/>
+</r>

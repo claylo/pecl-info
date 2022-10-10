@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/apm">APM</p>
+ <c>pecl.php.net</c>
+ <v>2.0.3</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>patrickallaert</m>
+ <s>Alternative PHP Monitor</s>
+ <d>Monitoring extension for PHP, collects error events and statistics and send them to one of his drivers:
+SQLite and MariaDB/MySQL drivers are storing those in a database.
+StatsD driver sends them to StatsD using UDP.
+Socket driver sends them via UDP or TCP socket using its dedicated protocol.
+More drivers to come (SNMP, e-mail, Hadoop,...).
+
+A web frontend exists for manipulating the data stored in database at: https://github.com/patrickallaert/php-apm-web</d>
+ <da>2015-05-18 11:20:04</da>
+ <n>Fixed:
+- Double initialization of request data.
+  This could lead to data being present twice in DBs (reproducible with both SQLite and MySQL enabled).
+Changed:
+- Default value of apm.dump_max_depth decreased to 1.
+  With today's application complexity, the amount of data collected in stacktraces
+  including arguments can lead to several thousands of MiB of memory consumed.
+  We recommend increasing this value with care.
+- Weird things could happen when changing 'apm.enabled' during a request. It doesn't make much sense to support
+  in request activation/deactivation. 'apm.enabled' is therefor now PHP_INI_SYSTEM.</n>
+ <f>30589</f>
+ <g>http://pecl.php.net/get/APM-2.0.3</g>
+ <x xlink:href="package.2.0.3.xml"/>
+</r>

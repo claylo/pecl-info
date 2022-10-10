@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/trader">trader</p>
+ <c>pecl.php.net</c>
+ <v>0.3.0</v>
+ <st>stable</st>
+ <l>BSD 2-clause</l>
+ <m>ab</m>
+ <s>Technical Analysis for traders.</s>
+ <d>The trader extension is dedicated for trading software developers requiring to perform technical analysis of financial market data.</d>
+ <da>2012-08-12 13:10:49</da>
+ <n>- fixed bugs #62720, #62612 large numbers causing rounding errors
+- added ini trader.real_round_mode, valid values are HALF_UP, HALF_DOWN, HALF_EVEN, HALF_ODD
+- implemented trader_errno() to get the last TA-Lib error code
+
+Special thanks to Michael for helping to chase the bugs down, trader is marked stable now.</n>
+ <f>295748</f>
+ <g>http://pecl.php.net/get/trader-0.3.0</g>
+ <x xlink:href="package.0.3.0.xml"/>
+</r>

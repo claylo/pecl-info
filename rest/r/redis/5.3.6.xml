@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/redis">redis</p>
+ <c>pecl.php.net</c>
+ <v>5.3.6</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>mgrunder</m>
+ <s>PHP extension for interfacing with Redis</s>
+ <d>This extension provides an API for communicating with Redis servers.</d>
+ <da>2022-01-17 18:30:54</da>
+ <n>--- Sponsors ---
+
+Audiomack - https://audiomack.com
+Open LMS - https://openlms.net
+BlueHost - https://bluehost.com
+Object Cache Pro for WordPress - https://objectcache.pro
+Avtandil Kikabidze - https://github.com/akalongman
+Zaher Ghaibeh - https://github.com/zaherg
+BatchLabs - https://batch.com
+Luis Zarate - https://github.com/jlzaratec
+
+---
+
+phpredis 5.3.6
+
+- Fix a segfault in RedisArray::del [d2f2a7d9] (Pavlo Yatsukhnenko)</n>
+ <f>274235</f>
+ <g>https://pecl.php.net/get/redis-5.3.6</g>
+ <x xlink:href="package.5.3.6.xml"/>
+</r>

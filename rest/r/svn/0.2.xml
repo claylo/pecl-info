@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/svn">svn</p>
+ <c>pecl.php.net</c>
+ <v>0.2</v>
+ <st>beta</st>
+ <l>PHP Licence</l>
+ <m>alan_k</m>
+ <s>PHP Bindings for the Subversion Revision control system.</s>
+ <d>Bindings for libsvn, 
+  
+  - for more details, have a look at the examples, or google for FlexySvn</d>
+ <da>2006-03-20 01:15:50</da>
+ <n>- Compiles on Win32 + Netware (Thanks to Guenter Knauf)
+- dependancy on svn-config removed (as recommended by Subversion developers)
+- Pretty complete implementation.
+
+Bugs 
+    #6893 - correct types for strict compilers
+Known issues:
+    There are bug reports about commit / checkout functionality. Any help 
+    reproducing and fixing these is welcome.</n>
+ <f>16843</f>
+ <g>http://pecl.php.net/get/svn-0.2</g>
+ <x xlink:href="package.0.2.xml"/>
+</r>

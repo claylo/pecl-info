@@ -1,0 +1,164 @@
+{
+    "category": "PHP",
+    "deprecated": false,
+    "description": "The package is the PHP instrumentation agent, which is compatible with Apache SkyWalking backend and others compatible agents/SDKs.",
+    "latestReleaseDate": "2022-06-30T11:07:38+00:00",
+    "latestVersion": "5.0.1",
+    "license": "Apache2.0",
+    "name": "skywalking",
+    "php8Mentioned": false,
+    "releases": {
+        "5.0.1": {
+            "version": "5.0.1",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "yanlong",
+            "releaseDate": "2022-06-30T11:07:38+00:00",
+            "releaseNotes": "Support Skywalking 9.0.0",
+            "get": "https://pecl.php.net/get/skywalking-5.0.1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "5.0.0": {
+            "version": "5.0.0",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "yanlong",
+            "releaseDate": "2022-06-27T07:01:53+00:00",
+            "releaseNotes": "Support Skywalking 9.0.0",
+            "get": "https://pecl.php.net/get/skywalking-5.0.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "4.2.0": {
+            "version": "4.2.0",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "yanlong",
+            "releaseDate": "2021-11-03T01:33:16+00:00",
+            "releaseNotes": "Fix bugs",
+            "get": "https://pecl.php.net/get/skywalking-4.2.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "4.1.3": {
+            "version": "4.1.3",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "yanlong",
+            "releaseDate": "2021-08-26T06:51:39+00:00",
+            "releaseNotes": "Fix bugs",
+            "get": "https://pecl.php.net/get/skywalking-4.1.3",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "4.1.2": {
+            "version": "4.1.2",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "yanlong",
+            "releaseDate": "2021-04-30T04:51:42+00:00",
+            "releaseNotes": "Add mysqli",
+            "get": "https://pecl.php.net/get/skywalking-4.1.2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "4.1.1": {
+            "version": "4.1.1",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "yanlong",
+            "releaseDate": "2020-11-19T09:21:55+00:00",
+            "releaseNotes": "Fix bugs",
+            "get": "https://pecl.php.net/get/skywalking-4.1.1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "4.1.0": {
+            "version": "4.1.0",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "yanlong",
+            "releaseDate": "2020-11-13T06:45:19+00:00",
+            "releaseNotes": "Fix bugs, Support swoole",
+            "get": "https://pecl.php.net/get/skywalking-4.1.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "4.0.0": {
+            "version": "4.0.0",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "yanlong",
+            "releaseDate": "2020-10-15T08:31:22+00:00",
+            "releaseNotes": "newly designed agent, modular design",
+            "get": "https://pecl.php.net/get/skywalking-4.0.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "3.3.2": {
+            "version": "3.3.2",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "yanlong",
+            "releaseDate": "2020-06-05T09:27:16+00:00",
+            "releaseNotes": "Fix bugs",
+            "get": "https://pecl.php.net/get/skywalking-3.3.2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "3.3.1": {
+            "version": "3.3.1",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "yanlong",
+            "releaseDate": "2020-06-03T06:15:25+00:00",
+            "releaseNotes": "Fix bugs",
+            "get": "https://pecl.php.net/get/skywalking-3.3.1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "3.3.0": {
+            "version": "3.3.0",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "yanlong",
+            "releaseDate": "2020-05-13T05:50:32+00:00",
+            "releaseNotes": "Added memcache collection and skywalking 8.0 support",
+            "get": "https://pecl.php.net/get/skywalking-3.3.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "3.2.8": {
+            "version": "3.2.8",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "yanlong",
+            "releaseDate": "2020-03-23T06:27:28+00:00",
+            "releaseNotes": "Fix the mistake of field entryOperationName in sw6 header.",
+            "get": "https://pecl.php.net/get/skywalking-3.2.8",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "3.2.6": {
+            "version": "3.2.6",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "yanlong",
+            "releaseDate": "2020-02-13T11:22:34+00:00",
+            "releaseNotes": "Fix the mistake of field entryOperationName in sw6 header.",
+            "get": "https://pecl.php.net/get/skywalking-3.2.6",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "3.2.5": {
+            "version": "3.2.5",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "yanlong",
+            "releaseDate": "2020-02-11T04:36:58+00:00",
+            "releaseNotes": "Fix the empty field bug in span refs for skywalking v6.",
+            "get": "https://pecl.php.net/get/skywalking-3.2.5",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "3.2.4": {
+            "version": "3.2.4",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "yanlong",
+            "releaseDate": "2019-12-09T05:55:50+00:00",
+            "releaseNotes": "Support php7.4",
+            "get": "https://pecl.php.net/get/skywalking-3.2.4",
+            "SPDX-License-Identifier": "Apache-2.0"
+        }
+    },
+    "summary": "The PHP instrument agent for Apache SkyWalking.",
+    "SPDX-License-Identifier": "Apache-2.0"
+}

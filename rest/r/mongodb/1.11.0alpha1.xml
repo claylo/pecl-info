@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.11.0alpha1</v>
+ <st>alpha</st>
+ <l>Apache License</l>
+ <m>jmikola</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2021-09-13 18:14:58</da>
+ <n>** New Feature
+    * [PHPC-1849] - Handle deprecation of Serializable in PHP 8.1
+    * [PHPC-1889] - Support snapshot session option
+    * [PHPC-1890] - Create constant for snapshot read concern level
+
+** Task
+    * [PHPC-1918] - BSON corpus code and symbol tests are partially testing the wrong types
+    * [PHPC-1922] - Update PHONGO_CE_DISABLE_SERIALIZATION for PHP 8.1
+    * [PHPC-1930] - Removed disabled __wakeup() function in CursorId
+    * [PHPC-1935] - Add .dep files to .gitignore
+    * [PHPC-1961] - Regex decoding error tests in top.json have unexpected, invalid syntax
+    * [PHPC-1965] - Re-enable and stabilise PHP 8.1 build on GitHub actions
+
+** Improvement
+    * [PHPC-1538] - Lift restriction on authSource without credentials
+    * [PHPC-1858] - Add return type to arginfo for JsonSerializable::jsonSerialize() in PHP 8.1
+    * [PHPC-1875] - Disable writes on snapshot sessions
+    * [PHPC-1876] - Raise client error for snapshot sessions on pre-5.0 servers
+    * [PHPC-1933] - Add return type to arginfo for Iterator and Countable methods in PHP 8.1</n>
+ <f>1347934</f>
+ <g>https://pecl.php.net/get/mongodb-1.11.0alpha1</g>
+ <x xlink:href="package.1.11.0alpha1.xml"/>
+</r>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/fuse">fuse</p>
+ <c>pecl.php.net</c>
+ <v>0.1</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>rjcarroll</m>
+ <s>File system in user space package</s>
+ <d>FUSE is a loadable kernel module that provides 
+support for creating POSIX file system drivers that run in user 
+space. This library is intended to work with the PHP 
+command-line interpreter.</d>
+ <da>2010-07-17 18:45:27</da>
+ <n>Basic read support works.</n>
+ <f>7788</f>
+ <g>http://pecl.php.net/get/fuse-0.1</g>
+ <x xlink:href="package.0.1.xml"/>
+</r>

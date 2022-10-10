@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ibm_db2">ibm_db2</p>
+ <c>pecl.php.net</c>
+ <v>1.9.2</v>
+ <st>stable</st>
+ <l>Apache License 2.0</l>
+ <m>ambrish</m>
+ <s>Extension for IBM DB2 Universal Database, IBM Cloudscape, and
+        Apache Derby</s>
+ <d>This extension supports IBM DB2 Universal Database, IBM
+Cloudscape, and Apache Derby databases.</d>
+ <da>2011-08-24 05:33:52</da>
+ <n>Added execute_many() API to execute batch.
+Fixed: Connection hanging issue.
+Fixed: Defect #20281 (Improve error reporting)</n>
+ <f>155991</f>
+ <g>http://pecl.php.net/get/ibm_db2-1.9.2</g>
+ <x xlink:href="package.1.9.2.xml"/>
+</r>

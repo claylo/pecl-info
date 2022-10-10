@@ -1,0 +1,15 @@
+{
+    "category": "PHP",
+    "deprecated": true,
+    "description": "Allows a running script to add, remove, rename, and redefine class methods without reloading.\nNOTICE: This package has been discontinued.  Please refer to the runkit package which is fully BC with classkit and contains additional functionality.",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "PHP",
+    "name": "classkit",
+    "summary": "Runtime redefinition of class methods",
+    "php8Mentioned": false,
+    "releases": [],
+    "new_channel": "pecl.php.net",
+    "new_package": "runkit",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

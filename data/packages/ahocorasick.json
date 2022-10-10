@@ -1,0 +1,84 @@
+{
+    "category": "Text",
+    "deprecated": false,
+    "description": "PHP extension implementing Aho-Corasick pattern matching algorithm (more on wiki).\n\n        Is especially effective if there is a large database of needles (=strings to be searched, for example virus\n        signatures). Another advantage is that built search structure is initialized before search in separate call thus\n        it can be called more times with different haystack, saving time.\n\n        Computing Aho-Corasick in th native code (PHP extension) rather than in a pure PHP manner gives this\n        implementation significant performance boost.",
+    "latestReleaseDate": "2019-07-08T08:44:39+00:00",
+    "latestVersion": "0.0.7",
+    "license": "PHP License",
+    "name": "ahocorasick",
+    "php8Mentioned": false,
+    "releases": {
+        "0.0.7": {
+            "version": "0.0.7",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "ph4r05sk",
+            "releaseDate": "2019-07-08T08:44:39+00:00",
+            "releaseNotes": "Issue #21 fixed. Problem with buffering all previous searches in the trie.",
+            "get": "https://pecl.php.net/get/ahocorasick-0.0.7",
+            "SPDX-License-Identifier": "PHP-3.01 OR LGPL-3.0-only"
+        },
+        "0.0.6": {
+            "version": "0.0.6",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "ph4r05sk",
+            "releaseDate": "2019-03-15T09:44:58+00:00",
+            "releaseNotes": "Version fixes",
+            "get": "https://pecl.php.net/get/ahocorasick-0.0.6",
+            "SPDX-License-Identifier": "PHP-3.01 OR LGPL-3.0-only"
+        },
+        "0.0.5": {
+            "version": "0.0.5",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "ph4r05sk",
+            "releaseDate": "2019-03-15T09:33:28+00:00",
+            "releaseNotes": "Memory handling fixes in the match result fixes.\nMinor test and code fixes.\nPHP 7.3, 7.4 support added.",
+            "get": "https://pecl.php.net/get/ahocorasick-0.0.5",
+            "SPDX-License-Identifier": "PHP-3.01 OR LGPL-3.0-only"
+        },
+        "0.0.4": {
+            "version": "0.0.4",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "ph4r05sk",
+            "releaseDate": "2019-03-14T20:28:23+00:00",
+            "releaseNotes": "Initial release",
+            "get": "https://pecl.php.net/get/ahocorasick-0.0.4",
+            "SPDX-License-Identifier": "PHP-3.01 OR LGPL-3.0-only"
+        },
+        "0.0.3": {
+            "version": "0.0.3",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "ph4r05sk",
+            "releaseDate": "2019-03-14T14:25:44+00:00",
+            "releaseNotes": "Initial release",
+            "get": "https://pecl.php.net/get/ahocorasick-0.0.3",
+            "SPDX-License-Identifier": "PHP-3.01 OR LGPL-3.0-only"
+        },
+        "0.0.2": {
+            "version": "0.0.2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "ph4r05sk",
+            "releaseDate": "2019-02-13T17:10:26+00:00",
+            "releaseNotes": "Initial release",
+            "get": "https://pecl.php.net/get/ahocorasick-0.0.2",
+            "SPDX-License-Identifier": "PHP-3.01 OR LGPL-3.0-only"
+        },
+        "0.0.1": {
+            "version": "0.0.1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "ph4r05sk",
+            "releaseDate": "2018-07-31T15:40:39+00:00",
+            "releaseNotes": "Initial release",
+            "get": "http://pecl.php.net/get/ahocorasick-0.0.1",
+            "SPDX-License-Identifier": "PHP-3.01 OR LGPL-3.0-only"
+        }
+    },
+    "summary": "Effective Aho-Corasick string pattern matching algorithm",
+    "SPDX-License-Identifier": "PHP-3.01 OR LGPL-3.0-only"
+}

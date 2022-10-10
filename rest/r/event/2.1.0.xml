@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/event">event</p>
+ <c>pecl.php.net</c>
+ <v>2.1.0</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>osmanov</m>
+ <s>Provides interface to libevent library</s>
+ <d>This is an extension to efficiently schedule I/O, time and signal based
+  events using the best I/O notification mechanism available for specific platform.
+  This is a port of libevent to the PHP infrastructure.
+
+  Version 1.0.0 introduces:
+  * new OO API breaking backwards compatibility
+  * support of libevent 2+ including HTTP, DNS, OpenSSL and the event listener.
+
+  Note, event-1.0.0 and greater is not compatible with previous versions.</d>
+ <da>2016-06-08 14:30:29</da>
+ <n>Add: EventUtil::SOCK_RAW constant
+Add: EventSslContext option constants: OPT_REQUIRE_CLIENT_CERT and OPT_VERIFY_CLIENT_ONCE
+Fix: EventBufferEvent::createPair caused segmentation fault in PHP7
+SSL Fixes:
+- chained self-signed certificate failed to pass with EventSslContext::OPT_ALLOW_SELF_SIGNED = TRUE
+- the server didn't set the list of CAs to be sent to the client when requesting a client certificate for underlying SSL structure
+- EventSslContext::OPT_ALLOW_SELF_SIGNED = TRUE accepted any self-signed certificate without regard to OPT_CA_FILE/OPT_CA_PATH
+Fix: PHP 7.1.0alpha1 build errors</n>
+ <f>132147</f>
+ <g>http://pecl.php.net/get/event-2.1.0</g>
+ <x xlink:href="package.2.1.0.xml"/>
+</r>

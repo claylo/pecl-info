@@ -1,0 +1,54 @@
+{
+    "category": "Date and Time",
+    "deprecated": false,
+    "description": "The extension implements a high resolution StopWatch class. It uses the the best possible APIs on different platforms. It also makes possible to implement a custom stopwatch using low level ticks delivered by the underlaying APIs.",
+    "latestReleaseDate": "2017-01-05T21:41:13+00:00",
+    "latestVersion": "0.6.0",
+    "license": "BSD",
+    "name": "hrtime",
+    "php8Mentioned": false,
+    "releases": {
+        "0.6.0": {
+            "version": "0.6.0",
+            "state": "stable",
+            "license": "BSD",
+            "releasedBy": "ab",
+            "releaseDate": "2017-01-05T21:41:13+00:00",
+            "releaseNotes": "- Major refactoring of the class structure, as described below\n- HRTime\\PerformanceCounter::getFrequency() is now static\n- add HRTime\\PerformanceCounter::getTicks()\n- add HRTime\\PerformanceCounter::getTicksSince()\n- moved HRTime\\PerformanceCounter::start() to HRTime\\StopWatch::start()\n- moved HRTime\\PerformanceCounter::stop() to HRTime\\StopWatch::stop()\n- moved HRTime\\PerformanceCounter::getElapsedTicks() to HRTime\\StopWatch::getElapsedTicks()\n- moved HRTime\\PerformanceCounter::getLastElapsedTicks() to HRTime\\StopWatch::getLastElapsedTicks()\n- moved HRTime\\PerformanceCounter::isRunning() to HRTime\\StopWatch::isRunning()",
+            "get": "http://pecl.php.net/get/hrtime-0.6.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.5.1": {
+            "version": "0.5.1",
+            "state": "stable",
+            "license": "BSD",
+            "releasedBy": "ab",
+            "releaseDate": "2015-02-03T13:08:14+00:00",
+            "releaseNotes": "- fixed invalid free under PHP7",
+            "get": "http://pecl.php.net/get/hrtime-0.5.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.5.0": {
+            "version": "0.5.0",
+            "state": "stable",
+            "license": "BSD",
+            "releasedBy": "ab",
+            "releaseDate": "2015-02-01T14:58:01+00:00",
+            "releaseNotes": "- PHP7 compatibility\n- marked stable",
+            "get": "http://pecl.php.net/get/hrtime-0.5.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.4.3": {
+            "version": "0.4.3",
+            "state": "beta",
+            "license": "BSD",
+            "releasedBy": "ab",
+            "releaseDate": "2014-04-18T12:44:41+00:00",
+            "releaseNotes": "- first public release",
+            "get": "http://pecl.php.net/get/hrtime-0.4.3",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        }
+    },
+    "summary": "High resolution timing",
+    "SPDX-License-Identifier": "BSD-2-Clause"
+}

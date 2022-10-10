@@ -1,0 +1,1004 @@
+{
+    "category": "Images",
+    "deprecated": false,
+    "description": "Imagick is a native php extension to create and modify images using the ImageMagick API.\nThis extension requires ImageMagick version 6.5.3-10+ and PHP 5.4.0+.",
+    "latestReleaseDate": "2022-01-11T15:24:41+00:00",
+    "latestVersion": "3.7.0",
+    "license": "PHP License",
+    "name": "imagick",
+    "php8Mentioned": true,
+    "releases": {
+        "3.7.0": {
+            "version": "3.7.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "danack",
+            "releaseDate": "2022-01-11T15:24:41+00:00",
+            "releaseNotes": "- Added:\n\t* Imagick::COMPOSITE_SALIENCY_BLEND",
+            "get": "https://pecl.php.net/get/imagick-3.7.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.7.0RC1": {
+            "version": "3.7.0RC1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "danack",
+            "releaseDate": "2022-01-04T18:40:32+00:00",
+            "releaseNotes": "- Added:\n  * function Imagick::deleteOption(string $option): bool {}\n  * function Imagick::getBackgroundColor(): ImagickPixel {}\n  * function Imagick::getImageArtifacts(string $pattern = \"*\"): array {}\n  * function Imagick::getImageKurtosis(): array {}\n  * function Imagick::getImageMean(): array {}\n  * function Imagick::getImageRange(): array {}\n  * function Imagick::getInterpolateMethod(): int {}\n  * function Imagick::getOptions(string $pattern = \"*\"): array {}\n  * function Imagick::getOrientation(): int {}\n  * function Imagick::getResolution(): array {}\n  * function Imagick::getType(): int {}\n  * function Imagick::implodeImageWithMethod(float $radius, int $pixel_interpolate_method): bool  {}\n  * function Imagick::oilPaintImageWithSigma(float $radius, float $sigma)\n  * function Imagick::polaroidWithTextAndMethod(ImagickDraw $settings, float $angle, string $caption, int $method): bool {}\n  * function Imagick::polynomialImage(array $terms): bool {}\n  * function Imagick::setDepth(int $depth): bool {}\n  * function Imagick::setExtract(string $geometry): bool {}\n  * function Imagick::setInterpolateMethod(int $method): bool{}\n  * function Imagick::setOrientation(int $orientation): bool {}\n  * function Imagick::spreadImageWithMethod(float $radius, int $interpolate_method): bool  {}\n  * function Imagick::swirlImageWithMethod(float $degrees, int $interpolate_method): bool  {}\n  * function Imagick::waveImageWithMethod(float $amplitude, float $length, int $interpolate_method): bool {}\n  * Imagick::IMAGE_TYPE_BILEVEL\n  * Imagick::IMAGE_TYPE_GRAYSCALE\n  * Imagick::IMAGE_TYPE_GRAYSCALE_ALPHA\n  * Imagick::IMAGE_TYPE_PALETTE\n  * Imagick::IMAGE_TYPE_PALETTE_ALPHA\n  * Imagick::IMAGE_TYPE_TRUE_COLOR\n  * Imagick::IMAGE_TYPE_TRUE_COLOR_ALPHA\n  * Imagick::IMAGE_TYPE_COLOR_SEPARATION\n  * Imagick::IMAGE_TYPE_COLOR_SEPARATION_ALPHA\n  * Imagick::IMAGE_TYPE_OPTIMIZE\n  * Imagick::IMAGE_TYPE_PALETTE_BILEVEL_ALPHA\n  * Imagick::COMPOSITE_SEAMLESS_BLEND\n- Changed:\n  * Imagick::setImageArtifact can now take null for the string value.\n  * Return type for Imagick::getImageArtifact is string|null instead of string.",
+            "get": "https://pecl.php.net/get/imagick-3.7.0RC1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.6.0": {
+            "version": "3.6.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "danack",
+            "releaseDate": "2021-11-17T14:52:30+00:00",
+            "releaseNotes": "- No change from 3.6.0RC2",
+            "get": "https://pecl.php.net/get/imagick-3.6.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.6.0RC2": {
+            "version": "3.6.0RC2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "danack",
+            "releaseDate": "2021-11-11T15:06:12+00:00",
+            "releaseNotes": "- Fixes:\n  * Remove deprecated message from Imagick::roundCorners()\n- Added:\n  * Imagick::addNoiseImageWithAttenuate()",
+            "get": "https://pecl.php.net/get/imagick-3.6.0RC2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.6.0RC1": {
+            "version": "3.6.0RC1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "danack",
+            "releaseDate": "2021-11-10T12:23:13+00:00",
+            "releaseNotes": "- Imagick::getImageInterlaceScheme is undeprecated. It's the appropriate function to call to get the image interlace setting.\n- Image formats are now normalised to lower case.\n- Imagick::getImageIndex and Imagick::setImageIndex are undeprecated and work on ImageMagick 7. They call MagickGetIteratorIndex and MagickSetIteratorIndex internally.\n- Imagick::averageImages is undeprecated. For IM 7 it now calls EvaluateImages(wand->images,MeanEvaluateOperator).\n- Imagick::flattenImages is undeprecated. For IM 7 it now calls MagickMergeImageLayers(intern->magick_wand, FlattenLayer); internally.\n- Imagick::getImageSize is undeprecated. For IM 7 it now calls MagickGetImageLength internally.\n- Imagick::roundCornersImage is undeprecated and available on IM7.\n- Fixes:\n* Imagick::borderImage() changed internally to use OverCompositeOp rather than AtopCompositeOp for ImageMagick > 7. If you need the old behaviour, please use Imagick::borderImageWithComposite() instead, which allows you to set the composite method.\n* Imagick::frameImage() changed internally to use OverCompositeOp rather than AtopCompositeOp for ImageMagick > 7. If you need the old behaviour, please use Imagick::frameImageWithComposite() instead, which allows you to set the composite method.\n* Imagick::profileImage() fixed to allow null as second paramter again. If you can't upgrade to this version yet, pass in \"\", which has the same effect.\n* Imagick::ALPHACHANNEL_COPY and Imagick::ALPHACHANNEL_OPAQUE should be available on IM7.\n* Imagick::setImageMatteColor() should be available on IM7.\n- Added:\n* Imagick::borderImageWithComposite() same as Imagick::borderImage() but allows user to set composite operator used.\n* Imagick::frameImageWithComposite() same as Imagick::frameImage() but allows user to set composite operator used.\n* function Imagick::cannyEdgeImage\n* function Imagick::setSeed\n* function Imagick::waveletDenoiseImage\n* function Imagick::meanShiftImage\n* function Imagick::kmeansImage\n* function Imagick::rangeThresholdImage\n* function Imagick::autoThresholdImage\n* function Imagick::bilateralBlurImage\n* function Imagick::claheImage\n* function Imagick::channelFxImage\n* function Imagick::colorThresholdImage\n* function Imagick::complexImages\n* function Imagick::interpolativeResizeImage\n* function Imagick::levelImageColors\n* function Imagick::levelizeImage\n* function Imagick::orderedDitherImage\n* function Imagick::whiteBalanceImage",
+            "get": "https://pecl.php.net/get/imagick-3.6.0RC1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.5.1": {
+            "version": "3.5.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "danack",
+            "releaseDate": "2021-07-22T17:44:24+00:00",
+            "releaseNotes": "- Better detection of appropriate OpenMP library to use, i.e. GCC or Clang.",
+            "get": "https://pecl.php.net/get/imagick-3.5.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.5.1RC1": {
+            "version": "3.5.1RC1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "danack",
+            "releaseDate": "2021-07-20T17:04:07+00:00",
+            "releaseNotes": "- Better detection of appropriate OpenMP library to use, i.e. GCC or Clang.",
+            "get": "https://pecl.php.net/get/imagick-3.5.1RC1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.5.0": {
+            "version": "3.5.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "danack",
+            "releaseDate": "2021-06-17T16:51:29+00:00",
+            "releaseNotes": "- Fixed multiple parameter information issues found in 3.5.0RC1.\n- ImageMagick 7 is still not widely available on systems. So contrary to previous plans, ImageMagick 6 support will continue for now. But users are recommeded to use ImageMagick 7 if possible.\n- Method names have been changed to not be all lower case. Both method names and parameter information is built from the Imagick*.stub.php files.\n- Prevent accidental creation of zero dimension images. ImageMagick doesn't prevent creation of zero dimension images, but will give an error when that image is used. I don't think this will affect any correctly program, but if it does, and you need to re-enable zero dimension images, please open an issue at https://phpimagick.com/issues\n- Various pieces of work have been done to make GOMP not segfault including:\n* Call omp_pause_resource_all when available during shutdown.\n* Added the 'imagick.shutdown_sleep_count' (default 10) and 'imagick.set_single_thread' (default On). Both of these exist to mitigate the segaults on shutdown.\n- Fixes:\n* Correct version check to make RemoveAlphaChannel and FlattenAlphaChannel be available when using Imagick with ImageMagick version 6.7.8-x\n* Imagick::morphology now no longer ignores channel parameter\n* ImagickPixel::setIndex() takes a Quantum value (aka float in HDRI mode, int in non-HDRI mode).\n* ImagickPixel::getColorValue() always returns an int value.\n- Added:\n* PHP 8.0 support.\n* Location check for ImageMagick 7 for NixOS and Brew.\n* Imagick::houghLineImage(int $width, int $height, float $threshold): bool {}\n* Imagick::setImagePixelColor(int $x, int $y, ImagickPixel|string $color)\n* Imagick::setImageMask(Imagick $clip_mask, int $pixelmask_type)\n* Imagick::getImageMask(int $pixelmask_type)\n* Imagick::VIRTUALPIXELMETHOD_DITHER\n* Imagick::VIRTUALPIXELMETHOD_RANDOM\n* Imagick::COMPOSITE_FREEZE\n* Imagick::COMPOSITE_INTERPOLATE\n* Imagick::COMPOSITE_NEGATE\n* Imagick::COMPOSITE_REFLECT\n* Imagick::COMPOSITE_SOFTBURN\n* Imagick::COMPOSITE_SOFTDODGE\n* Imagick::COMPOSITE_STAMP\n* Imagick::COMPOSITE_RMSE\n* Imagick::COMPRESSION_DWAA\n* Imagick::COMPRESSION_DWAB\n* Imagick::EVALUATE_INVERSE_LOG\n* Imagick::COLORSPACE_DISPLAYP3\n* Imagick::COLORSPACE_ADOBE98\n* Imagick::COLORSPACE_PROPHOTO\n* Imagick::COLORSPACE_JZAZBZ\n* Imagick::DISTORTION_RIGID_AFFINE\n* Imagick::DISTORTION_BARRELINVERSE\n* Imagick::STATISTIC_ROOT_MEAN_SQUARE",
+            "get": "https://pecl.php.net/get/imagick-3.5.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.5.0RC2": {
+            "version": "3.5.0RC2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "danack",
+            "releaseDate": "2021-06-16T12:51:58+00:00",
+            "releaseNotes": "- Fixed multiple parameter information issues found in 3.5.0RC1.\n- ImageMagick 7 is still not widely available on systems. So contrary to previous plans, ImageMagick 6 support will continue for now. But users are recommeded to use ImageMagick 7 if possible.\n- Method names have been changed to not be all lower case. Both method names and parameter information is built from the Imagick*.stub.php files.\n- Prevent accidental creation of zero dimension images. ImageMagick doesn't prevent creation of zero dimension images, but will give an error when that image is used. I don't think this will affect any correctly program, but if it does, and you need to re-enable zero dimension images, please open an issue at https://phpimagick.com/issues\n- Various pieces of work have been done to make GOMP not segfault including:\n* Call omp_pause_resource_all when available during shutdown.\n* Added the 'imagick.shutdown_sleep_count' (default 10) and 'imagick.set_single_thread' (default On). Both of these exist to mitigate the segaults on shutdown.\n- Fixes:\n* Correct version check to make RemoveAlphaChannel and FlattenAlphaChannel be available when using Imagick with ImageMagick version 6.7.8-x\n* Imagick::morphology now no longer ignores channel parameter\n- Added:\n* PHP 8.0 support.\n* Location check for ImageMagick 7 for NixOS and Brew.\n* Imagick::houghLineImage(int $width, int $height, float $threshold): bool {}\n* Imagick::setImagePixelColor(int $x, int $y, ImagickPixel|string $color)\n* Imagick::setImageMask(Imagick $clip_mask, int $pixelmask_type)\n* Imagick::getImageMask(int $pixelmask_type)\n* Imagick::VIRTUALPIXELMETHOD_DITHER\n* Imagick::VIRTUALPIXELMETHOD_RANDOM\n* Imagick::COMPOSITE_FREEZE\n* Imagick::COMPOSITE_INTERPOLATE\n* Imagick::COMPOSITE_NEGATE\n* Imagick::COMPOSITE_REFLECT\n* Imagick::COMPOSITE_SOFTBURN\n* Imagick::COMPOSITE_SOFTDODGE\n* Imagick::COMPOSITE_STAMP\n* Imagick::COMPOSITE_RMSE\n* Imagick::COMPRESSION_DWAA\n* Imagick::COMPRESSION_DWAB\n* Imagick::EVALUATE_INVERSE_LOG\n* Imagick::COLORSPACE_DISPLAYP3\n* Imagick::COLORSPACE_ADOBE98\n* Imagick::COLORSPACE_PROPHOTO\n* Imagick::COLORSPACE_JZAZBZ\n* Imagick::DISTORTION_RIGID_AFFINE\n* Imagick::DISTORTION_BARRELINVERSE\n* Imagick::STATISTIC_ROOT_MEAN_SQUARE",
+            "get": "https://pecl.php.net/get/imagick-3.5.0RC2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.5.0RC1": {
+            "version": "3.5.0RC1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "danack",
+            "releaseDate": "2021-06-14T19:41:56+00:00",
+            "releaseNotes": "- ImageMagick 7 is still not widely available on systems. So contrary to previous plans, ImageMagick 6 support will continue for now. But users are recommeded to use ImageMagick 7 if possible.\n- Method names have been changed to not be all lower case. Both method names and parameter information is built from the Imagick*.stub.php files.\n- Prevent accidental creation of zero dimension images. ImageMagick doesn't prevent creation of zero dimension images, but will give an error when that image is used. I don't think this will affect any correctly program, but if it does, and you need to re-enable zero dimension images, please open an issue at https://phpimagick.com/issues\n- Various pieces of work have been done to make GOMP not segfault including:\n* Call omp_pause_resource_all when available during shutdown.\n* Added the 'imagick.shutdown_sleep_count' (default 10) and 'imagick.set_single_thread' (default On). Both of these exist to mitigate the segaults on shutdown.\n- Fixes:\n* Correct version check to make RemoveAlphaChannel and FlattenAlphaChannel be available when using Imagick with ImageMagick version 6.7.8-x\n* Imagick::morphology now no longer ignores channel parameter\n- Added:\n* PHP 8.0 support.\n* Location check for ImageMagick 7 for NixOS and Brew.\n* Imagick::houghLineImage(int $width, int $height, float $threshold): bool {}\n* Imagick::setImagePixelColor(int $x, int $y, ImagickPixel|string $color)\n* Imagick::setImageMask(Imagick $clip_mask, int $pixelmask_type)\n* Imagick::getImageMask(int $pixelmask_type)\n* Imagick::VIRTUALPIXELMETHOD_DITHER\n* Imagick::VIRTUALPIXELMETHOD_RANDOM\n* Imagick::COMPOSITE_FREEZE\n* Imagick::COMPOSITE_INTERPOLATE\n* Imagick::COMPOSITE_NEGATE\n* Imagick::COMPOSITE_REFLECT\n* Imagick::COMPOSITE_SOFTBURN\n* Imagick::COMPOSITE_SOFTDODGE\n* Imagick::COMPOSITE_STAMP\n* Imagick::COMPOSITE_RMSE\n* Imagick::COMPRESSION_DWAA\n* Imagick::COMPRESSION_DWAB\n* Imagick::EVALUATE_INVERSE_LOG\n* Imagick::COLORSPACE_DISPLAYP3\n* Imagick::COLORSPACE_ADOBE98\n* Imagick::COLORSPACE_PROPHOTO\n* Imagick::COLORSPACE_JZAZBZ\n* Imagick::DISTORTION_RIGID_AFFINE\n* Imagick::DISTORTION_BARRELINVERSE\n* Imagick::STATISTIC_ROOT_MEAN_SQUARE",
+            "get": "https://pecl.php.net/get/imagick-3.5.0RC1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.4.4": {
+            "version": "3.4.4",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "danack",
+            "releaseDate": "2019-05-02T15:29:43+00:00",
+            "releaseNotes": "- The 3.4.4 release is intended to be the last release (other than small bug fixes) that will support either PHP 5.x, or ImageMagick 6.x. The next planned release will be PHP > 7.0 and ImageMagick > 7.0 at least, if not higher.\n- Added:\n* function Imagick::optimizeImageTransparency()\n* METRIC_STRUCTURAL_SIMILARITY_ERROR\n* METRIC_STRUCTURAL_DISSIMILARITY_ERROR\n* COMPRESSION_ZSTD - https://github.com/facebook/zstd\n* COMPRESSION_WEBP\n* CHANNEL_COMPOSITE_MASK\n* FILTER_CUBIC_SPLINE - \"Define the lobes with the -define filter:lobes={2,3,4} (reference https://imagemagick.org/discourse-server/viewtopic.php?f=2&t=32506).\"\n* Imagick now explicitly conflicts with the Gmagick extension.\n- Fixes:\n* Correct version check to make RemoveAlphaChannel and FlattenAlphaChannel be available when using Imagick with ImageMagick version 6.7.8-x\n* Bug 77128 - Imagick::setImageInterpolateMethod() not available on Windows\n* Prevent memory leak when ImagickPixel::__construct called after object instantiation.\n* Prevent segfault when ImagickPixel internal constructor not called.\n* Imagick::setResourceLimit support for values larger than 2GB (2^31) on 32bit platforms.\n* Corrected memory overwrite in Imagick::colorDecisionListImage()\n* Bug 77791 - ImagickKernel::fromMatrix() out of bounds write.\n- Deprecated:\n* The following functions have been deprecated:\nImagickDraw, matte\nImagick::averageimages\nImagick::colorfloodfillimage\nImagick::filter\nImagick::flattenimages\nImagick::getimageattribute\nImagick::getimagechannelextrema\nImagick::getimageclipmask\nImagick::getimageextrema\nImagick::getimageindex\nImagick::getimagematte\nImagick::getimagemattecolor\nImagick::getimagesize\nImagick::mapimage\nImagick::mattefloodfillimage\nImagick::medianfilterimage\nImagick::mosaicimages\nImagick::orderedposterizeimage\nImagick::paintfloodfillimage\nImagick::paintopaqueimage\nImagick::painttransparentimage\nImagick::radialblurimage\nImagick::recolorimage\nImagick::reducenoiseimage\nImagick::roundcornersimage\nImagick::roundcorners\nImagick::setimageattribute\nImagick::setimagebias\nImagick::setimageclipmask\nImagick::setimageindex\nImagick::setimagemattecolor\nImagick::setimagebiasquantum\nImagick::setimageopacity\nImagick::transformimage",
+            "get": "https://pecl.php.net/get/imagick-3.4.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.4.4RC2": {
+            "version": "3.4.4RC2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "danack",
+            "releaseDate": "2019-04-16T17:00:15+00:00",
+            "releaseNotes": "- The 3.4.4 release is intended to be the last release (other than small bug fixes) that will support either PHP 5.x, or ImageMagick 6.x. The next planned release will be PHP > 7.0 and ImageMagick > 7.0 at least, if not higher.\n- Added:\n* function Imagick::optimizeImageTransparency()\n* METRIC_STRUCTURAL_SIMILARITY_ERROR\n* METRIC_STRUCTURAL_DISSIMILARITY_ERROR\n* COMPRESSION_ZSTD - https://github.com/facebook/zstd\n* COMPRESSION_WEBP\n* CHANNEL_COMPOSITE_MASK\n* FILTER_CUBIC_SPLINE - \"Define the lobes with the -define filter:lobes={2,3,4} (reference https://imagemagick.org/discourse-server/viewtopic.php?f=2&t=32506).\"\n* Imagick now explicitly conflicts with the Gmagick extension.\n- Fixes:\n* Bug 77128 - Imagick::setImageInterpolateMethod() not available on Windows\n* Prevent memory leak when ImagickPixel::__construct called after object instantiation.\n* Prevent segfault when ImagickPixel internal constructor not called.\n* Imagick::setResourceLimit support for values larger than 2GB (2^31) on 32bit platforms.\n* Corrected memory overwrite in Imagick::colorDecisionListImage()\n* Bug 77791 - ImagickKernel::fromMatrix() out of bounds write.\n- Deprecated:\n* The following functions have been deprecated:\nImagickDraw, matte\nImagick::averageimages\nImagick::colorfloodfillimage\nImagick::filter\nImagick::flattenimages\nImagick::getimageattribute\nImagick::getimagechannelextrema\nImagick::getimageclipmask\nImagick::getimageextrema\nImagick::getimageindex\nImagick::getimagematte\nImagick::getimagemattecolor\nImagick::getimagesize\nImagick::mapimage\nImagick::mattefloodfillimage\nImagick::medianfilterimage\nImagick::mosaicimages\nImagick::orderedposterizeimage\nImagick::paintfloodfillimage\nImagick::paintopaqueimage\nImagick::painttransparentimage\nImagick::radialblurimage\nImagick::recolorimage\nImagick::reducenoiseimage\nImagick::roundcornersimage\nImagick::roundcorners\nImagick::setimageattribute\nImagick::setimagebias\nImagick::setimageclipmask\nImagick::setimageindex\nImagick::setimagemattecolor\nImagick::setimagebiasquantum\nImagick::setimageopacity\nImagick::transformimage",
+            "get": "https://pecl.php.net/get/imagick-3.4.4RC2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.4.3": {
+            "version": "3.4.3",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "danack",
+            "releaseDate": "2017-02-01T23:11:05+00:00",
+            "releaseNotes": "No changes from 3.4.3RC4.",
+            "get": "http://pecl.php.net/get/imagick-3.4.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.4.3RC4": {
+            "version": "3.4.3RC4",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "danack",
+            "releaseDate": "2017-01-25T22:49:52+00:00",
+            "releaseNotes": "- Fixes:\n  * Avoid internal segfault.",
+            "get": "http://pecl.php.net/get/imagick-3.4.3RC4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.4.3RC3": {
+            "version": "3.4.3RC3",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "danack",
+            "releaseDate": "2017-01-23T21:07:01+00:00",
+            "releaseNotes": "- Fixes:\n  * Correct file permissions in built package.",
+            "get": "http://pecl.php.net/get/imagick-3.4.3RC3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.4.3RC2": {
+            "version": "3.4.3RC2",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "danack",
+            "releaseDate": "2017-01-17T20:19:45+00:00",
+            "releaseNotes": "- Fixes:\n  * Imagick::getRegistry() now throws an exception if the key does not exist, rather than terminating the program.\n  * Prevent attempts to resize image to zero width or height, which is not supported by ImageMagick.\n  * Fix compiling on Windows issue.\n- Added:\n  * function Imagick::setImageAlpha() which replaces Imagick::setOpacity()",
+            "get": "http://pecl.php.net/get/imagick-3.4.3RC2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.4.3RC1": {
+            "version": "3.4.3RC1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "danack",
+            "releaseDate": "2016-06-09T20:14:39+00:00",
+            "releaseNotes": "- Fixes:\n  * Imagick::transformImage and Imagick::orderedPosterizeImage now correctly excluded from\n  * Bug 72311 - compiling against PHP 7.1.\n  * Bug 72226 - regression for Imagick Exception classes being final on 7.x\n  * Corrected reference of constants. Imagick::METRIC_MEANERRORPERPIXELMETRIC from MeanErrorPerPixelMetric to MeanErrorPerPixelErrorMetric. Imagick::METRIC_PEAKSIGNALTONOISERATIO from PeakSignalToNoiseRatioMetric to PeakSignalToNoiseRatioErrorMetric\n- Added:\n  * function Imagick::identifyImageType() : int returns one of the Imagick::IMGTYPE_* constants\n  * Imagick::INTERPOLATE_NEAREST_PIXEL for ImageMagick >= 7\n  * In ImageMagick, the names of two filter constants were corrected to the standard spelling. Support for the new spelling has been added. The old constants are left in place for legacy support.\n    Legacy: FILTER_HANNING, new name: FILTER_HANN\n    Legacy: FILTER_WELSH,  new name: FILTER_WELCH\n  * The Imagick::IMGTYPE_*MATTE* constants are deprecated for ImageMagick 7. Instead an appropriate Imagick::IMGTYPE_*MATTE* should be used.\n    IMGTYPE_GRAYSCALEMATTE => IMGTYPE_GRAYSCALEALPHA\n    IMGTYPE_PALETTEMATTE => IMGTYPE_PALETTEALPHA\n    IMGTYPE_TRUECOLORALPHA => IMGTYPE_TRUECOLORMATTE\n    IMGTYPE_COLORSEPARATIONALPHA =>  IMGTYPE_COLORSEPARATIONMATTE\n    IMGTYPE_PALETTEBILEVELALPHA => IMGTYPE_PALETTEBILEVELMATTE\n  * Several ALPHACHANNEL_* constants are only available in ImageMagick < 7 \n    IMAGICK_REGISTER_CONST_LONG(\"ALPHACHANNEL_RESET\", ResetAlphaChannel);\n    IMAGICK_REGISTER_CONST_LONG(\"ALPHACHANNEL_COPY\", CopyAlphaChannel);\n    IMAGICK_REGISTER_CONST_LONG(\"ALPHACHANNEL_OPAQUE\", OpaqueAlphaChannel);\n  * Several ALPHACHANNEL_* constants are only available in ImageMagick >= 7. These constants re-use the values of the constants removed.\n    IMAGICK_REGISTER_CONST_LONG(\"ALPHACHANNEL_ON\", OnAlphaChannel);\n    IMAGICK_REGISTER_CONST_LONG(\"ALPHACHANNEL_OFF\", OffAlphaChannel);\n    IMAGICK_REGISTER_CONST_LONG(\"ALPHACHANNEL_DISCRETE\", DiscreteAlphaChannel);",
+            "get": "http://pecl.php.net/get/imagick-3.4.3RC1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.4.2": {
+            "version": "3.4.2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "danack",
+            "releaseDate": "2016-04-24T22:53:32+00:00",
+            "releaseNotes": "- Fixes:\n  * Bug: IM143 Correct ifdef around setOpacity and localContrastImage.\n  * Bug: IM147 Imagick was Borging PHP's error handler.",
+            "get": "http://pecl.php.net/get/imagick-3.4.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.4.1": {
+            "version": "3.4.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "danack",
+            "releaseDate": "2016-03-09T17:32:26+00:00",
+            "releaseNotes": "- Fixes:\n  * Bug 71742 - arrays that contain data that is held by reference gives error.\n- Added:\n  * Imagick::autoGammaImage([int channel = CHANNEL_ALL])\n  * Imagick::autoOrient()\n  * Imagick::compositeImageGravity(Imagick $image, int COMPOSITE_CONSTANT, int GRAVITY_CONSTANT)\n  * Imagick::localContrastImage(float radius, float strength)\n  * Imagick::DIRECTION_LEFT_TO_RIGHT\n  * Imagick::DIRECTION_RIGHT_TO_LEFT\n  * Imagick::SPARSECOLORMETHOD_MANHATTAN\n  * ImagickDraw::getOpacity() : float\n  * ImagickDraw::setOpacity(float opacity) :bool \n  * ImagickDraw::getFontResolution() : array\n  * ImagickDraw::setFontResolution(float x, float y) : bool\n  * ImagickDraw::getTextDirection() : bool\n  * ImagickDraw::setTextDirection(int direction) : bool\n  * ImagickDraw::getBorderColor() : ImagickPixel\n  * ImagickDraw::setBorderColor(ImagickPixel color) : bool\n  * ImagickDraw::getDensity() : string|null\n  * ImagickDraw::setDensity(string density_string) : bool\n  * ImagickPixel::setColorFromPixel(ImagickPixel $srcPixel) : bool",
+            "get": "http://pecl.php.net/get/imagick-3.4.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.4.0": {
+            "version": "3.4.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "danack",
+            "releaseDate": "2016-03-04T15:28:35+00:00",
+            "releaseNotes": "No changes from 3.4.0RC6.",
+            "get": "http://pecl.php.net/get/imagick-3.4.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.4.0RC6": {
+            "version": "3.4.0RC6",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "danack",
+            "releaseDate": "2016-01-30T01:49:50+00:00",
+            "releaseNotes": "- Added:\n  * Imagick::evaluateImages(int EVALUATE_CONSTANT) : Imagick\n- Fixes:\n  * Imagick::setImageWhitePoint, Imagick::setImageRedPrimary, Imagick::setImageGreenPrimary,\n  Imagick::setImageBluePrimary now take 3 params when compiled against IM7.\n  * Imagick::getImageWhitePoint, Imagick::getImageRedPrimary, Imagick::getImageGreenPrimary,\n   Imagick::getImageBluePrimary now return 3 values when compiled against IM7.",
+            "get": "http://pecl.php.net/get/imagick-3.4.0RC6",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.4.0RC5": {
+            "version": "3.4.0RC5",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "danack",
+            "releaseDate": "2016-01-11T23:21:55+00:00",
+            "releaseNotes": "- Added:\n  * Imagick::subImageMatch() added parameters. The signature is now: \n    Imagick::subimagematch(Imagick subimage[, array &$bestMatch[, float &similarity[, \n      float $similarity_threshold = 0[, int $metric = ]]]])\n    These parameters are only used when compiled against ImageMagick 7.\n- Fixes:\n  * wrong type for zend_parse_parameters.",
+            "get": "http://pecl.php.net/get/imagick-3.4.0RC5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.4.0RC4": {
+            "version": "3.4.0RC4",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "danack",
+            "releaseDate": "2015-12-22T14:00:31+00:00",
+            "releaseNotes": "- Fixes:\n  * Remove duplicated definitions of class constants.",
+            "get": "http://pecl.php.net/get/imagick-3.4.0RC4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.4.0RC3": {
+            "version": "3.4.0RC3",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "danack",
+            "releaseDate": "2015-12-12T16:45:45+00:00",
+            "releaseNotes": "- Fixes:\n  * Imagick::adaptiveResizeImage, Imagick::cropThumbnailImage Imagick::resizeImage, \n    Imagick::scaleImage, and Imagick::thumbnailImage have all had a rounding bug fixed. \n    An additional parameter has been added to each of them, 'bool $legacy'. If legacy \n    is true, the calculations are done with the small rounding bug that existed in\n    Imagick before 3.4.0. If false, the calculations should produce the same results as \n    ImageMagick CLI does.\n  * Imagick::colorizeImage() and Imagick::tintImage were using the wrong behaviour. \n    It is now fixed and the legacy behaviour can still be used by passing a 3rd \n    parameter of `true` to the function to indicate that the legacy behaviour is \n    desired.\n  * Imagick::importImagePixels regression fixed.\n  * Imagick::subImageMatch use correct error metric in IM7\n- Added methods:\n  * Imagick::similarityImage() which is an alias to Imagick::subImageMatch()",
+            "get": "http://pecl.php.net/get/imagick-3.4.0RC3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.4.0RC2": {
+            "version": "3.4.0RC2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "danack",
+            "releaseDate": "2015-12-04T18:31:24+00:00",
+            "releaseNotes": "- Added support:\n  * PHP 7\n  * ImageMagick 7. Imagick can be compiled against either ImageMagick 6 or ImageMagick 7\n    However it must be run with the exact same version it was compiled against. Trying\n    to run Imagick with a different version of ImageMagick than it was compiled against \n    is not supported. Please see http://nextgen.imagemagick.org/script/porting.php for\n    more information about ImageMagick 7.\n- Minimum versions supported are now PHP >= 5.4.0 and ImageMagick >= 6.5.3-10.\n    Earlier versions may continue to work, but they are no longer supported.\n- Added methods:\n  * Imagick::getConfigureOptions\n  * Imagick::getFeatures\n  * Imagick::getHDRIEnabled\n  * Imagick::setImageChannelMask (IM7 only)\n- Added IM7 constants:\n  * Imagick::CHANNEL_READ_MASK\n  * Imagick::CHANNEL_WRITE_MASK\n  * Imagick::CHANNEL_META\n- Fixes:\n  * ImagickPixel::getColorQuantum, ImagickPixel::getColorValueQuantum and \n    ImagickPixel::setColorValueQuantum now correctly use floats when Imagick \n    was compiled against a HDRI version of ImageMagick\n  * Imagick::exportImagePixels works for all storage types\n  * Version number in extension header",
+            "get": "http://pecl.php.net/get/imagick-3.4.0RC2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.4.0RC1": {
+            "version": "3.4.0RC1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "danack",
+            "releaseDate": "2015-12-04T17:56:31+00:00",
+            "releaseNotes": "- Added support:\n  * PHP 7\n  * ImageMagick 7. Imagick can be compiled against either ImageMagick 6 or ImageMagick 7\n    However it must be run with the exact same version it was compiled against. Trying\n    to run Imagick with a different version of ImageMagick than it was compiled against \n    is not supported. Please see http://nextgen.imagemagick.org/script/porting.php for\n    more information about ImageMagick 7.\n- Minimum versions supported are now PHP >= 5.4.0 and ImageMagick >= 6.5.3-10.\n    Earlier versions may continue to work, but they are no longer supported.\n- Added methods:\n  * Imagick::getConfigureOptions\n  * Imagick::getFeatures\n  * Imagick::getHDRIEnabled\n  * Imagick::setImageChannelMask (IM7 only)\n- Added IM7 constants:\n  * Imagick::CHANNEL_READ_MASK\n  * Imagick::CHANNEL_WRITE_MASK\n  * Imagick::CHANNEL_META\n- Fixes:\n  * ImagickPixel::getColorQuantum, ImagickPixel::getColorValueQuantum and \n    ImagickPixel::setColorValueQuantum now correctly use floats when Imagick \n    was compiled against a HDRI version of ImageMagick\n  * Imagick::exportImagePixels works for all storage types",
+            "get": "http://pecl.php.net/get/imagick-3.4.0RC1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.3.0": {
+            "version": "3.3.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "danack",
+            "releaseDate": "2015-12-04T14:27:18+00:00",
+            "releaseNotes": "- Added ImagickKernel class. These can be used with the Imagick::morphology or\nImagick::filter functions.\n- Added methods:\n* Imagick::brightnessContrastImage()\n* Imagick::colorMatrixImage()\n* Imagick::deleteImageProperty()\n* Imagick::filter()\n* Imagick::forwardFourierTransformImage()\n* Imagick::getAntiAlias()\n* Imagick::getImageCompression()\n* Imagick::getRegistry()\n* Imagick::getQuantum()\n* Imagick::identifyFormat()\n* Imagick::inverseFourierTransformImage()\n* Imagick::isPixelSimilarQuantum()\n* Imagick::listRegistry()\n* Imagick::morphology()\n* Imagick::rotationalBlurImage()\n* Imagick::selectiveBlurImage()\n* Imagick::setAntiAlias()\n* Imagick::setImageBiasQuantum()\n* Imagick::setProgressMonitor()\n* Imagick::setRegistry() - which allows setting the \"temporary-path\" used by ImageMagick\n* Imagick::statisticImage()\n* Imagick::subImageMatch()\n* ImagickPixel::getColorQuantum()\n- Added constants:\n* Imagick::RESOURCETYPE_TIME\n* Imagick::RESOURCETYPE_THROTTLE\n* Imagick::CHANNEL_RGBA\n* Imagick::ALPHACHANNEL_BACKGROUND\n* Imagick::FUNCTION_ARCSIN\n* Imagick::FUNCTION_ARCTAN\n- Fixed Imagick::clutImage() parameter parsing\n- Fixed tint image bug\n- Fixed ImageMagick compiled with HDRI having quantum values as floats\n- Fixed memory leaks in:\n* Imagick::getImageBlob()\n* Imagick::getImagesBlob()\n* Imagick::getImageChannelStatistics()\n* Imagick::getImageFormat()\n* Imagick::getImageMimetype()\n* Imagick::getSamplingFactors()\n* Imagick::identifyImage()\n* Imagick::tintImage\n- Fixed segfault when compiling statically\n- ImagickDraw::setFontFamily no longer checks whether the font is available. This allows a\nfont family to be set where the family name is not the same as the font name. However it also\nmeans an invalid family name can be set, leading to the default font being used, instead of an\nexception being thrown. See https://github.com/mkoppanen/imagick/issues/77\n- Removed Zend MM support\n- Excluded deprecated methods:\n* Imagick::getImageMatte()\n* Imagick::colorFloodfillImage()\n* Imagick::matteFloodfillImage()\n* Imagick::paintFloodfillImage()\n* Imagick::paintOpaqueImage()\n* Imagick::paintTransparentImage()\n* Imagick::mapImage()\n* Imagick::recolorImage()\n* Imagick::setImageIndex()\n* Imagick::getImageIndex()\n* Imagick::getImageSize()\n* Imagick::setImageAttribute()\n* Imagick::getImageAttribute()\n* Imagick::mosaicImages()\n* Imagick::averageImages()\n* Imagick::flattenImages()\nThis is replaced by $im = $im->mergeImageLayers(\\Imagick::LAYERMETHOD_FLATTEN)\n* Imagick::getImageChannelExtrema()\n* Imagick::getImageExtrema()\n- Ini file changes\n* Added imagick.skip_version_check. Imagick now checks that it was compiled against the same version of\nImageMagick that it is being run with, and will give a warning if it was compiled against a different\nversion of ImageMagick. The skip_version_check setting allows you to suppress this warning. However\nit is strongly recommended to use the version of ImageMagick that Imagick was compiled against.\n- Misc:\n* CI now compiles with CFLAGS=\"-Wno-deprecated-declarations -Wdeclaration-after-statement -Werror\"",
+            "get": "http://pecl.php.net/get/imagick-3.3.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.3.0RC2": {
+            "version": "3.3.0RC2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "danack",
+            "releaseDate": "2015-06-01T16:47:06+00:00",
+            "releaseNotes": "- Added ImagickKernel class. These can be used with the Imagick::morphology or\nImagick::filter functions.\n- Added methods:\n* Imagick::brightnessContrastImage()\n* Imagick::colorMatrixImage()\n* Imagick::deleteImageProperty()\n* Imagick::filter()\n* Imagick::forwardFourierTransformImage()\n* Imagick::getAntiAlias()\n* Imagick::getImageCompression()\n* Imagick::getRegistry()\n* Imagick::getQuantum()\n* Imagick::identifyFormat()\n* Imagick::inverseFourierTransformImage()\n* Imagick::isPixelSimilarQuantum()\n* Imagick::listRegistry()\n* Imagick::morphology()\n* Imagick::rotationalBlurImage()\n* Imagick::selectiveBlurImage()\n* Imagick::setAntiAlias()\n* Imagick::setImageBiasQuantum()\n* Imagick::setProgressMonitor()\n* Imagick::setRegistry() - which allows setting the \"temporary-path\" used by ImageMagick\n* Imagick::statisticImage()\n* Imagick::subImageMatch()\n* ImagickPixel::getColorQuantum()\n- Added constants:\n* Imagick::RESOURCETYPE_TIME\n* Imagick::RESOURCETYPE_THROTTLE\n* Imagick::CHANNEL_RGBA\n* Imagick::ALPHACHANNEL_BACKGROUND\n* Imagick::FUNCTION_ARCSIN\n* Imagick::FUNCTION_ARCTAN\n- Fixed Imagick::clutImage() parameter parsing\n- Fixed tint image bug\n- Fixed ImageMagick compiled with HDRI having quantum values as floats\n- Fixed memory leaks in:\n* Imagick::getImageBlob()\n* Imagick::getImagesBlob()\n* Imagick::getImageChannelStatistics()\n* Imagick::getImageFormat()\n* Imagick::getImageMimetype()\n* Imagick::getSamplingFactors()\n* Imagick::identifyImage()\n* Imagick::tintImage\n- Fixed segfault when compiling statically\n- ImagickDraw::setFontFamily no longer checks whether the font is available. This allows a\nfont family to be set where the family name is not the same as the font name. However it also\nmeans an invalid family name can be set, leading to the default font being used, instead of an\nexception being thrown. See https://github.com/mkoppanen/imagick/issues/77\n- Removed Zend MM support\n- Excluded deprecated methods:\n* Imagick::getImageMatte()\n* Imagick::colorFloodfillImage()\n* Imagick::matteFloodfillImage()\n* Imagick::paintFloodfillImage()\n* Imagick::paintOpaqueImage()\n* Imagick::paintTransparentImage()\n* Imagick::mapImage()\n* Imagick::recolorImage()\n* Imagick::setImageIndex()\n* Imagick::getImageIndex()\n* Imagick::getImageSize()\n* Imagick::setImageAttribute()\n* Imagick::getImageAttribute()\n* Imagick::mosaicImages()\n* Imagick::averageImages()\n* Imagick::flattenImages()\nThis is replaced by $im = $im->mergeImageLayers(\\Imagick::LAYERMETHOD_FLATTEN)\n* Imagick::getImageChannelExtrema()\n* Imagick::getImageExtrema()\n- Ini file changes\n* Added imagick.skip_version_check. Imagick now checks that it was compiled against the same version of\nImageMagick that it is being run with, and will give a warning if it was compiled against a different\nversion of ImageMagick. The skip_version_check setting allows you to suppress this warning. However\nit is strongly recommended to use the version of ImageMagick that Imagick was compiled against.\n- Misc:\n* CI now compiles with CFLAGS=\"-Wno-deprecated-declarations -Wdeclaration-after-statement -Werror\"",
+            "get": "http://pecl.php.net/get/imagick-3.3.0RC2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.3.0RC1": {
+            "version": "3.3.0RC1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "danack",
+            "releaseDate": "2015-03-29T14:35:23+00:00",
+            "releaseNotes": "- Added ImagickKernel class. These can be used with the Imagick::morphology or\nImagick::filter functions.\n- Added methods:\n* Imagick::brightnessContrastImage()\n* Imagick::colorMatrixImage()\n* Imagick::deleteImageProperty()\n* Imagick::filter()\n* Imagick::forwardFourierTransformImage()\n* Imagick::getAntiAlias()\n* Imagick::getImageCompression()\n* Imagick::getRegistry()\n* Imagick::getQuantum()\n* Imagick::identifyFormat()\n* Imagick::inverseFourierTransformImage()\n* Imagick::isPixelSimilarQuantum()\n* Imagick::listRegistry()\n* Imagick::morphology()\n* Imagick::rotationalBlurImage()\n* Imagick::selectiveBlurImage()\n* Imagick::setAntiAlias()\n* Imagick::setImageBiasQuantum()\n* Imagick::setProgressMonitor()\n* Imagick::setRegistry() - which allows setting the \"temporary-path\" used by ImageMagick\n* Imagick::statisticImage()\n* Imagick::subImageMatch()\n* ImagickPixel::getColorQuantum()\n- Added constants:\n* Imagick::RESOURCETYPE_TIME\n* Imagick::RESOURCETYPE_THROTTLE\n* Imagick::CHANNEL_RGBA\n* Imagick::ALPHACHANNEL_BACKGROUND\n* Imagick::FUNCTION_ARCSIN\n* Imagick::FUNCTION_ARCTAN\n- Fixed Imagick::clutImage() parameter parsing\n- Fixed tint image bug\n- Fixed ImageMagick compiled with HDRI having quantum values as floats\n- Fixed memory leaks in:\n* Imagick::getImageBlob()\n* Imagick::getImagesBlob()\n* Imagick::getImageChannelStatistics()\n* Imagick::getImageFormat()\n* Imagick::getImageMimetype()\n* Imagick::getSamplingFactors()\n* Imagick::identifyImage()\n* Imagick::tintImage\n- Fixed segfault when compiling statically\n- ImagickDraw::setFontFamily no longer checks whether the font is available. This allows a\nfont family to be set where the family name is not the same as the font name. However it also\nmeans an invalid family name can be set, leading to the default font being used, instead of an\nexception being thrown. See https://github.com/mkoppanen/imagick/issues/77\n- Removed Zend MM support\n- Excluded deprecated methods:\n* Imagick::getImageMatte()\n* Imagick::colorFloodfillImage()\n* Imagick::matteFloodfillImage()\n* Imagick::paintFloodfillImage()\n* Imagick::paintOpaqueImage()\n* Imagick::paintTransparentImage()\n* Imagick::mapImage()\n* Imagick::recolorImage()\n* Imagick::setImageIndex()\n* Imagick::getImageIndex()\n* Imagick::getImageSize()\n* Imagick::setImageAttribute()\n* Imagick::getImageAttribute()\n* Imagick::mosaicImages()\n* Imagick::averageImages()\n* Imagick::flattenImages()\nThis is replaced by $im = $im->mergeImageLayers(\\Imagick::LAYERMETHOD_FLATTEN)\n* Imagick::getImageChannelExtrema()\n* Imagick::getImageExtrema()\n- Ini file changes\n* Added imagick.skip_version_check. Imagick now checks that it was compiled against the same version of\nImageMagick that it is being run with, and will give a warning if it was compiled against a different\nversion of ImageMagick. The skip_version_check setting allows you to suppress this warning. However\nit is strongly recommended to use the version of ImageMagick that Imagick was compiled against.\n- Misc:\n* CI now compiles with CFLAGS=\"-Wno-deprecated-declarations -Wdeclaration-after-statement -Werror\"",
+            "get": "http://pecl.php.net/get/imagick-3.3.0RC1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.2.0RC1": {
+            "version": "3.2.0RC1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2013-11-25T23:47:43+00:00",
+            "releaseNotes": "- Fix bug #66098: Segfault in zval_addref_p",
+            "get": "http://pecl.php.net/get/imagick-3.2.0RC1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.2.0b2": {
+            "version": "3.2.0b2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2013-10-20T05:50:53+00:00",
+            "releaseNotes": "- A lot of internal improvements on the code\n- Added ImagickPixel::isPixelSimilar and deprecate ImagickPixel::isSimilar #10\n- Added imagick::smushimages\n- Added imagick::blueshiftimage and imagick::clampimage\n- Added Imagick::autolevelimage\n- Added constants:\n    Imagick::ALPHACHANNEL_REMOVE\n    Imagick::ALPHACHANNEL_FLATTEN\n    Imagick::RESOURCETYPE_THREAD\n    Imagick::COMPOSITE_CHANGEMASK\n    Imagick::COMPOSITE_LINEARLIGHT\n    Imagick::COMPOSITE_DIVIDE\n    Imagick::COMPOSITE_DISTORT\n    Imagick::COMPOSITE_BLUR\n    Imagick::COMPOSITE_PEGTOPLIGHT\n    Imagick::COMPOSITE_VIVIDLIGHT\n    Imagick::COMPOSITE_PINLIGHT\n    Imagick::COMPOSITE_LINEARDODGE\n    Imagick::COMPOSITE_LINEARBURN\n    Imagick::COMPOSITE_MATHEMATICS\n    Imagick::COMPOSITE_MODULUSADD\n    Imagick::COMPOSITE_MODULUSSUBTRACT\n    Imagick::COMPOSITE_MINUSDST\n    Imagick::COMPOSITE_DIVIDEDST\n    Imagick::COMPOSITE_DIVIDESRC\n    Imagick::COMPOSITE_MINUSSRC\n    Imagick::COMPOSITE_DARKENINTENSITY\n    Imagick::COMPOSITE_LIGHTENINTENSITY\n    Imagick::FILTER_KAISER\n    Imagick::FILTER_WELSH\n    Imagick::FILTER_PARZEN\n    Imagick::FILTER_LAGRANGE\n    Imagick::FILTER_SENTINEL\n    Imagick::FILTER_BOHMAN\n    Imagick::FILTER_BARTLETT\n    Imagick::FILTER_JINC\n    Imagick::FILTER_SINCFAST\n    Imagick::FILTER_ROBIDOUX\n    Imagick::FILTER_LANCZOSSHARP\n    Imagick::FILTER_LANCZOS2\n    Imagick::FILTER_LANCZOS2SHARP\n    Imagick::FILTER_ROBIDOUXSHARP\n    Imagick::FILTER_COSINE\n    Imagick::FILTER_SPLINE\n    Imagick::FILTER_LANCZOSRADIUS\n    Imagick::COMPRESSION_ZIPS\n    Imagick::COMPRESSION_PIZ\n    Imagick::COMPRESSION_PXR24\n    Imagick::COMPRESSION_B44\n    Imagick::COMPRESSION_B44A\n    Imagick::COMPRESSION_LZMA\n    Imagick::COMPRESSION_JBIG1\n    Imagick::COMPRESSION_JBIG2",
+            "get": "http://pecl.php.net/get/imagick-3.2.0b2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.2.0b1": {
+            "version": "3.2.0b1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2013-10-05T09:09:10+00:00",
+            "releaseNotes": "- Added Countable interface to Imagick class\n- Added experimental support for Zend MM. If compiled with --enable-imagick-zend-mm\n  Imagick will respect PHP memory limits\n- Added additional parameter to writeImageFile to allow setting format\n- Distribute tests as part of the release\n- Fixed Bug #65043: Destroy and clear method do the same things\n- Fixed Bug #64945: ZEND_ACC_ALLOW_STATIC vs ZEND_ACC_STATIC\n- A lot of internal refactoring: rewrite macros as functions, clean up naming etc",
+            "get": "http://pecl.php.net/get/imagick-3.2.0b1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.1.2": {
+            "version": "3.1.2",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2013-09-25T01:46:16+00:00",
+            "releaseNotes": "- Fix ZTS build\n- Fix small memory leak in identifyImage\n- Added LICENSE\n- Added mimetype to identify image as per PECL bug 65037\n- Fixed type conversion error in newpseudoimage",
+            "get": "http://pecl.php.net/get/imagick-3.1.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.1.1": {
+            "version": "3.1.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2013-09-22T08:03:35+00:00",
+            "releaseNotes": "- Reworked identifyImage method",
+            "get": "http://pecl.php.net/get/imagick-3.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.1.0": {
+            "version": "3.1.0",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2013-09-06T01:44:37+00:00",
+            "releaseNotes": "- Releasing RC3 as is",
+            "get": "http://pecl.php.net/get/imagick-3.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.1.0RC3": {
+            "version": "3.1.0RC3",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2013-09-04T05:52:38+00:00",
+            "releaseNotes": "- Fixed building against latest ImageMagick versions (#GH-2)\n- Fixed thumbnail resize bug (#GH-1)\n- Fixed building against latest PHP versions",
+            "get": "http://pecl.php.net/get/imagick-3.1.0RC3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.1.0RC2": {
+            "version": "3.1.0RC2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2012-05-30T16:23:37+00:00",
+            "releaseNotes": "- Fixed PHP bug #61879 (Imagick writeImages no longer works with PHP5.4)",
+            "get": "http://pecl.php.net/get/imagick-3.1.0RC2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.1.0RC1": {
+            "version": "3.1.0RC1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2011-09-03T20:59:59+00:00",
+            "releaseNotes": "- Fixed PECL Bug #22722\n- Fixed possible memory leaks in error scenarios\n- Added PHP 5.4 support",
+            "get": "http://pecl.php.net/get/imagick-3.1.0RC1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.1.0b1": {
+            "version": "3.1.0b1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2011-02-19T11:26:44+00:00",
+            "releaseNotes": "- Fixed PECL Bug #21229\n- Fixed PECL Bug #20636\n- Deprecated clone() method in favour of clone keyword \n- Added ImagickDraw::setResolution\n- Internal refactoring on read/write code",
+            "get": "http://pecl.php.net/get/imagick-3.1.0b1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.1": {
+            "version": "3.0.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2010-11-18T16:18:44+00:00",
+            "releaseNotes": "- Fixed PECL bug #17244",
+            "get": "http://pecl.php.net/get/imagick-3.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.1RC2": {
+            "version": "3.0.1RC2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2010-08-20T17:31:19+00:00",
+            "releaseNotes": "- Fixed a bug which caused failure in writing files with format prefix (such as png:test.jpg)",
+            "get": "http://pecl.php.net/get/imagick-3.0.1RC2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.1RC1": {
+            "version": "3.0.1RC1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2010-08-13T03:51:48+00:00",
+            "releaseNotes": "- Fixed building against PHP 5.1.x\n- Fixed PECL bug #17892",
+            "get": "http://pecl.php.net/get/imagick-3.0.1RC1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.0": {
+            "version": "3.0.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2010-07-20T04:34:18+00:00",
+            "releaseNotes": "- No bugs reported against RC2 so releasing as stable",
+            "get": "http://pecl.php.net/get/imagick-3.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.0RC2": {
+            "version": "3.0.0RC2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2010-07-12T09:37:03+00:00",
+            "releaseNotes": "- Added set/getColorspace\n- Added transformImageColorspace (Patrick Durold)\n- Fix writeImage logic error in filename_len checking. \n- Fix conversion to double in affine matrices\n- s,function_entry,zend_function_entry, (Johannes)",
+            "get": "http://pecl.php.net/get/imagick-3.0.0RC2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.0RC1": {
+            "version": "3.0.0RC1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2010-02-28T07:29:18+00:00",
+            "releaseNotes": "- Fixes a crash when setResourceLimit is called statically\n- Fixes PECL bug #16932 Unable to read image from the filehandle\n- Return empty string if original value is empty in: \n  * ImagickDraw::getClipPath\n  * ImagickDraw::getEncoding\n  * ImagickDraw::getFont\n  * ImagickDraw::getFontFamily\n- More relaxed validation on affinematrices\n- Initialize the counter properly in polygons. Thanks to Etienne Kneus",
+            "get": "http://pecl.php.net/get/imagick-3.0.0RC1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.0b2": {
+            "version": "3.0.0b2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2010-01-21T20:17:29+00:00",
+            "releaseNotes": "- Fixes building against PHP 5.2.x",
+            "get": "http://pecl.php.net/get/imagick-3.0.0b2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.0b1": {
+            "version": "3.0.0b1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2009-12-12T06:50:29+00:00",
+            "releaseNotes": "- Fixes incorrect error message \"wand contains no images\"\n- Change cropthumbnailimage behavior to actually do what it is supposed to do\n- setimageartifact, getimageartifact, deleteimageartifact\n- added fill param to thumbnailImage\n- Added support for using imagick objects in other extensions",
+            "get": "http://pecl.php.net/get/imagick-3.0.0b1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.3.0": {
+            "version": "2.3.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2009-07-29T04:06:55+00:00",
+            "releaseNotes": "- imagick::setImageVirtualPixelMethod not deprecated anymore\n- fixed windows build",
+            "get": "http://pecl.php.net/get/imagick-2.3.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.3.0RC3": {
+            "version": "2.3.0RC3",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2009-07-02T18:27:34+00:00",
+            "releaseNotes": "- Closed bug reports and pushing out RC just in case before stable.",
+            "get": "http://pecl.php.net/get/imagick-2.3.0RC3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.3.0RC2": {
+            "version": "2.3.0RC2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2009-05-20T16:53:59+00:00",
+            "releaseNotes": "- Fixed image reading routines. Page defitions (test.pdf[0]) were broken on RC1\n- Fixed imagick::colorizeImage, it had no effect on images",
+            "get": "http://pecl.php.net/get/imagick-2.3.0RC2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.3.0RC1": {
+            "version": "2.3.0RC1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2009-05-01T18:32:02+00:00",
+            "releaseNotes": "- Fixes PECL bug #16085 (Twice crop returns invalid result)\n- Removed unnecessary checks",
+            "get": "http://pecl.php.net/get/imagick-2.3.0RC1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.3.0b1": {
+            "version": "2.3.0b1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2009-03-21T18:35:59+00:00",
+            "releaseNotes": "- Fixed compilation against older ImageMagick versions (Patch by Tim Herzog)\n- Fixed getImageMatte to actually return boolean instead of int\n\n- Added methods:\n  * Imagick::getImageMimeType\n  * Imagick::writeimagefile\n  * Imagick::writeimagesfile\n  * Imagick::resetimagepage\n  * Imagick::setimageclipmask\n  * Imagick::getimageclipmask\n  * Imagick::animateimages\n  * Imagick::recolorimage\n  * Imagick::floodfillpaintimage\n  * Imagick::opaquepaintimage\n  * Imagick::transparentpaintimage\n  * Imagick::decipherimage\n  * Imagick::encipherimage\n  * Imagick::getimagealphachannel \n  * Imagick::getimagechanneldistortions\n  * Imagick::getimagegravity\n  * Imagick::setimagegravity\n  * Imagick::remapimage\n  * Imagick::exportimagepixels\n  * Imagick::getimagechannelkurtosis\n  * Imagick::functionimage\n  * Imagick::importImagePixels\n  * Imagick::sparseColorImage\n  * Imagick::deskewImage\n  * Imagick::segmentImage\n\n  * Imagickdraw::gettextkerning\n  * Imagickdraw::settextkerning\n  * Imagickdraw::gettextinterwordspacing\n  * Imagickdraw::gettextinterwordspacing\n\n  * ImagickPixel::getColorValueQuantum\n  * ImagickPixel::setColorValueQuamtum\n  * ImagickPixel::getIndex\n  * ImagickPixel::setIndex",
+            "get": "http://pecl.php.net/get/imagick-2.3.0b1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.2.2": {
+            "version": "2.2.2",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2009-02-06T17:13:15+00:00",
+            "releaseNotes": "- No bugs reported against RC4 so releasing it as is",
+            "get": "http://pecl.php.net/get/imagick-2.2.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.2.2RC4": {
+            "version": "2.2.2RC4",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2009-02-03T15:50:53+00:00",
+            "releaseNotes": "- Check for ImageMagick version in config.m4 before trying to search for headers\n- Fixed memory leak where pointinfo is used\n- Fixed incorrect memory handling of array where php array is converted to array of doubles\n- Cleaned up image writing routines\n- Added missing semicolon on constant registration\n- Added distortion and alphachannel constants",
+            "get": "http://pecl.php.net/get/imagick-2.2.2RC4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.2.2RC3": {
+            "version": "2.2.2RC3",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2009-01-17T15:55:14+00:00",
+            "releaseNotes": "- Fixed clone keyword to actually clone the wand ptr\n- Imagick progress monitor name is now correctly cloned\n- Fixes PECL Bug #15614",
+            "get": "http://pecl.php.net/get/imagick-2.2.2RC3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.2.2RC2": {
+            "version": "2.2.2RC2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2009-01-11T12:27:07+00:00",
+            "releaseNotes": "+ Added Imagick::setImageProgressmonitor and Imagick::orderedPosterizeImage\n- Fixes http://imagemagick.org/discourse-server/viewtopic.php?f=18&t=12828\n- Fixes error with empty exception messages\n- Fixes PECL Bug #15332\n- Fixed a possible memory leak in Imagick::convolveImage",
+            "get": "http://pecl.php.net/get/imagick-2.2.2RC2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.2.2RC1": {
+            "version": "2.2.2RC1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2008-12-17T06:25:03+00:00",
+            "releaseNotes": "- Fixes Pecl bug #15321 \n- Added getImageCompressionQuality\n- Fixes building against PHP 5.3",
+            "get": "http://pecl.php.net/get/imagick-2.2.2RC1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.2.1": {
+            "version": "2.2.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2008-10-26T17:22:01+00:00",
+            "releaseNotes": "- No bugs reported against RC2 so releasing it as is",
+            "get": "http://pecl.php.net/get/imagick-2.2.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.2.1RC2": {
+            "version": "2.2.1RC2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2008-09-05T10:47:21+00:00",
+            "releaseNotes": "- Fixed ZTS build",
+            "get": "http://pecl.php.net/get/imagick-2.2.1RC2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.2.1RC1": {
+            "version": "2.2.1RC1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2008-08-22T11:46:24+00:00",
+            "releaseNotes": "- Fixes a small memory leak when casting a string to ImagickPixel object\n- Added new constants\n- Added getImageChannelRange method\n- Some cleaning up on the syntax",
+            "get": "http://pecl.php.net/get/imagick-2.2.1RC1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.2.0": {
+            "version": "2.2.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2008-07-09T11:07:23+00:00",
+            "releaseNotes": "- Changes since 2.1.1: \n  * Major refactoring of the file structure\n  * Fixes bugs related to the refactoring",
+            "get": "http://pecl.php.net/get/imagick-2.2.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.2.0RC1": {
+            "version": "2.2.0RC1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2008-06-13T05:46:50+00:00",
+            "releaseNotes": "Fix build on Mac related to duplicate symbols",
+            "get": "http://pecl.php.net/get/imagick-2.2.0RC1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.2.0b2": {
+            "version": "2.2.0b2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2008-05-06T11:26:00+00:00",
+            "releaseNotes": "Closes PECL Bugs #13841 and #13787",
+            "get": "http://pecl.php.net/get/imagick-2.2.0b2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.2.0b1": {
+            "version": "2.2.0b1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2008-04-28T08:25:18+00:00",
+            "releaseNotes": "- Major refactoring of the internal file structure",
+            "get": "http://pecl.php.net/get/imagick-2.2.0b1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.1": {
+            "version": "2.1.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2008-03-09T14:09:37+00:00",
+            "releaseNotes": "- Fixed a bug with fit parameter when scaling images with scaling ratio 1:1\n  * This is a minor BWC break. Scripts relying on incorrect behavior might need revisiting.",
+            "get": "http://pecl.php.net/get/imagick-2.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.1RC1": {
+            "version": "2.1.1RC1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2008-02-24T11:28:32+00:00",
+            "releaseNotes": "Fixed building against ImageMagick 6.3.8-x",
+            "get": "http://pecl.php.net/get/imagick-2.1.1RC1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.0": {
+            "version": "2.1.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2008-02-09T10:43:38+00:00",
+            "releaseNotes": "- Addded setImageAlphaChannel method\n- Fixed sharpenImage parameters being reversed\n- Fixed building with pre 5.2 versions",
+            "get": "http://pecl.php.net/get/imagick-2.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.0RC3": {
+            "version": "2.1.0RC3",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2008-01-12T22:05:58+00:00",
+            "releaseNotes": "- Fixes PECL Bug #12851\n- Some major housekeeping changing numeral values to constants",
+            "get": "http://pecl.php.net/get/imagick-2.1.0RC3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.0RC2": {
+            "version": "2.1.0RC2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2007-12-25T12:51:46+00:00",
+            "releaseNotes": "- Closes PECL Bugs #12463 and #12479\n- Fixes the behavior of flattenImages and fximage\n- Fixes incorrect thumbnail behavior\n- Fixes a bug in Imagick::cropThumbnailImage\n- Added new constant Imagick::NOISE_RANDOM",
+            "get": "http://pecl.php.net/get/imagick-2.1.0RC2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.0RC1": {
+            "version": "2.1.0RC1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2007-11-14T14:39:29+00:00",
+            "releaseNotes": "+ All methods that expect ImagickPixel now allow a string representing the color\n+ Added support for pixeliterator in all supported ImageMagick versions.\n+ ImagickPixelIterator now implements the iterator interface\n+ It is now possible to set the row with region iterator\n+ Added MAXPATHLEN checks for image reads/writes\n+ Added a fix to Imagick::cropThumbnailImage() to check if images are already at the desired size\n+ Fixed a memory leak in Imagick::getImageHistogram()\n+ Speed improvements to Imagick::cropThumbnailImage()\n+ Added interpolate constants\n+ Fixed ImagickPixel::getColor()\n+ Marked ImagickDraw::__construct() with ZEND_ACC_CTOR\n+ Added fit parameter and proportional scaling to:\n  - Imagick::adaptiveResizeImage() \n  - Imagick::scaleImage()\n  - Imagick::resizeImage()\n+ Added imagick.locale_fix ini setting to fix drawing bug on some locale\n+ Suppressed warnings in readImageFile and pingImageFile (PECL Bug #12367)\n+ Added methods: \n  - ImagickPixel::clone()\n  - ImagickPixel::getColorAsString()\n  - Imagick::mergeImageLayers()\n  - Imagick::paintFloodfillImage()\n  - Imagick::setFont()\n  - Imagick::getFont()\n  - Imagick::setPointsize()\n  - Imagick::getPointsize()",
+            "get": "http://pecl.php.net/get/imagick-2.1.0RC1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.1": {
+            "version": "2.0.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2007-10-24T17:17:26+00:00",
+            "releaseNotes": "+ ImagickDraw::setFont and ImagickDraw::setFontFamily now allow only valid fonts\n+ Added IMAGICK_EXTVER and IMAGICK_EXTNUM constants\n+ Added check for empty or invalid pseudo format string in Imagick::newPseudoImage\n+ Fixed incorrect arg hinting for Imagick::compareImageChannels",
+            "get": "http://pecl.php.net/get/imagick-2.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.1RC1": {
+            "version": "2.0.1RC1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2007-10-17T08:30:21+00:00",
+            "releaseNotes": "+ Added Imagick::distortImage and Imagick::setlastiterator\n+ Added optional fourth parameter to newImage to set the format when creating a new canvas\n+ Fixed fitting to zero size image in Imagick::thumbnailImage\n+ Fixed the destroy methods.\n+ Most of the operations that read / add images to the stack move the iterator position to the last element\n+ Fixed memleaks in methods that replace the internal MagickWand* pointer",
+            "get": "http://pecl.php.net/get/imagick-2.0.1RC1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.0": {
+            "version": "2.0.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2007-10-02T11:30:35+00:00",
+            "releaseNotes": "+ Added Imagick::extentImage\n+ Added Imagick::IMAGICK_VERSION_NUMBER and Imagick::IMAGICK_VERSION_STRING constants\n+ Fixed a possible crash in Imagick::newPseudoImage",
+            "get": "http://pecl.php.net/get/imagick-2.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.0RC4": {
+            "version": "2.0.0RC4",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2007-09-25T14:20:23+00:00",
+            "releaseNotes": "+ Moved getimagelength into #if block\n+ Added optional third parameter to thumbnailImage\n+ Added second optional parameter to getImageProperties and getImageProfiles to return just the available properties. \n+ Closes PECL Bug #12006",
+            "get": "http://pecl.php.net/get/imagick-2.0.0RC4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.0RC3": {
+            "version": "2.0.0RC3",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2007-09-18T06:34:32+00:00",
+            "releaseNotes": "+ Closes PECL Bug #12006\n+ Fixes a possible crash in queryFontMetrics\n+ New methods:\n  + Imagick::clutImage\n  + Imagick::setImage\n  + Imagick::getImageLength\n  + Imagick::getImageOrientation \n  + Imagick::setImageOrientation\n  + Imagick::getImageProperties\n  + Imagick::getImageProfiles",
+            "get": "http://pecl.php.net/get/imagick-2.0.0RC3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.0RC2": {
+            "version": "2.0.0RC2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2007-09-07T19:38:52+00:00",
+            "releaseNotes": "+ Added support for forcing image format during write operations.\n+ Added more interlace constants. They are present if imagick is compiled against ImagickMagick 6.3.4 or newer.\n+ Added Imagick::getImageAttribute.\n+ Added LAYERMETHOD constants. Available if compiled against ImageMagick 6.2.8 or later.\n+ Closes PECL Bug #11934 - setImageVirtualPixelMethod triggers exception\n+ Fixed safe_mode and open_basedir bypass for __construct, readImage, readImages and pingImage",
+            "get": "http://pecl.php.net/get/imagick-2.0.0RC2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.0RC1": {
+            "version": "2.0.0RC1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "scottmac",
+            "releaseDate": "2007-08-15T13:04:33+00:00",
+            "releaseNotes": "+ Suppress error when reading image from a stream.\n+ Fixed allow_url_fopen bypass in Imagick::newPseudoImage().\n+ Fixed imagick::__tostring to return empty string if the object doesnt contain images.\n+ Fixed a problem with Imagick::getImagesBlob() when an older version of ImageMagick is used.\n+ Fixed a crash on Windows when no arguments are passed to the Imagick constructor.\n+ Fixed a crash when using a threaded SAPI under Windows.\n+ Fixed a bug in ImagickDraw::affine().\n+ Added Imagick::getIteratorIndex() and Imagick::setIteratorIndex().\n+ Added Imagick::readImages()",
+            "get": "http://pecl.php.net/get/imagick-2.0.0RC1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.0b3": {
+            "version": "2.0.0b3",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2007-07-16T06:16:23+00:00",
+            "releaseNotes": "+ Closes PECL Request #11513\n+ Fixes ImagickPixel bug reported by Imran Nazar.\n+ Fixed Imagick::setImageDispose and Imagick::setImageUnits.\n+ Fixed Imagick::queryFontMetrics to autodetect multiline text if multiline argument is not passed or is null.\n+ Fixed open_basedir bypasses in Imagick::newPseudoImage\n+ Fixed \"Undefined Exception\" error messages\n\nNOTE: Using threaded SAPI in Windows is not currently recommended.",
+            "get": "http://pecl.php.net/get/imagick-2.0.0b3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.0b2": {
+            "version": "2.0.0b2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2007-06-29T13:50:24+00:00",
+            "releaseNotes": "+ Fixed open_basedir bypasses.\n+ Fixed PECL Bug #11328\n+ Added methods:\n  - Imagick::queryFonts()\n  - Imagick::queryFontMetrics()\n\nNOTE: Using threaded SAPI in Windows is not currently recommended.",
+            "get": "http://pecl.php.net/get/imagick-2.0.0b2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.0b1": {
+            "version": "2.0.0b1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2007-06-18T09:58:00+00:00",
+            "releaseNotes": "- fix PECL bug #10967 - supplied path fails to compile\n- Added new methods\n  + Imagick::displayImage()\n  + Imagick::displayImages()\n  + Imagick::cropThumbnailImage()\n  + Imagick::roundCorners()\n  + Imagick::polaroidImage()\n  + Imagick::getImageProperty()\n  + Imagick::setImageProperty()\n  + Imagick::newPseudoImage()\n  + Imagick::__toString()\n  + ImagickPixel::setColorCount()\n- Added missing DisposeType constants.\n- Merged ImagickPixel::getColorAsString and ImagickPixel::getColorAsNormalizedString into ImagickPixel::getColor( [bool normalized] )\n- Fixed wrong exception type in Imagick::setSamplingFactors\n- Removed useless check from ImagickPixelIterator::syncIterator\n- Renamed ImagickDraw::pushDrawingWand to ImagickDraw::push\n- Renamed ImagickDraw::popDrawingWand to ImagickDraw::pop",
+            "get": "http://pecl.php.net/get/imagick-2.0.0b1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.0a3": {
+            "version": "2.0.0a3",
+            "state": "alpha",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2007-05-29T06:06:14+00:00",
+            "releaseNotes": "- Removed support for ImagickPixelIterator if compiled against older version of ImageMagick (below 6.2.8)\n- Fixed a lot of functions which were not present in older ImageMagick versions. (below 6.2.8)\n- Added support for passing color name as parameter for ImagickPixel constructor\n- Added support for passing a filename or an array of filenames to Imagick constructor\n- Fixed anomalies with ImagickPixelIterator exceptions\n- Fixed a possible segfault in Imagick::appendImages\n- Fixed double-free errors in some Imagick methods\n- Added composite operator constants.\n- Fixed ImagickPixelIterator::__construct to accept Imagick object as parameter.\n\n+ Some of the changes are a bit experimental so please report bugs.",
+            "get": "http://pecl.php.net/get/imagick-2.0.0a3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.0a2": {
+            "version": "2.0.0a2",
+            "state": "alpha",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2007-05-04T14:10:18+00:00",
+            "releaseNotes": "- Fixed segfaults in ImagickDraw::getFont(), ImagickDraw::getFontFamily(), ImagickDraw::getTextEncoding() and ImagickDraw::getClipPath()\n- Added a PHP version check to config.m4",
+            "get": "http://pecl.php.net/get/imagick-2.0.0a2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.0a1": {
+            "version": "2.0.0a1",
+            "state": "alpha",
+            "license": "PHP License",
+            "releasedBy": "mkoppanen",
+            "releaseDate": "2007-05-02T09:17:10+00:00",
+            "releaseNotes": "- Initial Release",
+            "get": "http://pecl.php.net/get/imagick-2.0.0a1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.9.13": {
+            "version": "0.9.13",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "scottmac",
+            "releaseDate": "2007-04-13T10:30:48+00:00",
+            "releaseNotes": "- Fixed compile error with newer versions of GraphicsMagick and ImageMagick\n- Fixed assertion when using imagick_setfillcolor\n- Fixed segfault when an empty blob is loaded\n- Use new API for fetching support image formats / fonts",
+            "get": "http://pecl.php.net/get/imagick-0.9.13",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.9.11": {
+            "version": "0.9.11",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "chregu",
+            "releaseDate": "2004-06-28T13:23:00+00:00",
+            "releaseNotes": "- Fix some segfaults on errors  (by Andrei Nigmatulin)\n- EXPERIMENTAL support for ImageMagick >= 6.0.0 (hint by Stanislav Yadykin). Please report successes or failures.",
+            "get": "http://pecl.php.net/get/imagick-0.9.11",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.9.10": {
+            "version": "0.9.10",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "chregu",
+            "releaseDate": "2004-06-06T08:29:00+00:00",
+            "releaseNotes": "- A ./configure change release only. \n- Changed config.m4 for checking for correct ImageMagick Version.\n  ImageMagick >= 5.5.3 and < 6.6.0  or\n  GraphicsMagick >= 1.0.0\n  are needed.\n- ImageMagick >= 6.0.0 does not work currently. Patches are welcome ;)",
+            "get": "http://pecl.php.net/get/imagick-0.9.10",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.9.9": {
+            "version": "0.9.9",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "chregu",
+            "releaseDate": "2004-04-01T15:10:00+00:00",
+            "releaseNotes": "- added function imagick_set_image_comment() for setting the comment attribute\n  of an image.\n- function imagick_setcompressiontype() was not setting the correct structure.\n  This was identified and tested by Sergio Salvatore (sergio@cucinalogica.com).\n- added function imagick_transparent() for setting a particular color to be\n  transparent within an image.\n- changed how certain errors are handled in _php_imagick_is_error() to be\n  less restrictive.  This apparently helps fix issues with certain types\n  of images that otherwise appear corrupt.  Thanks to Hien Duy Nguyenxi\n  (hdn@umich.edu) for finding this, recommending the change and testing it.\n- added imagick_set_image_quality() for manipulating the quality of the\n  resultant image.\n- added examples/set_image_quality.php for testing the\n  imagick_set_image_quality() function.  Thanks to Derrick DeLoreno Threatt\n  (dthreatt@digitalcreations.net) for bringing up the need for this function\n  and testing it.",
+            "get": "http://pecl.php.net/get/imagick-0.9.9",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.9.8": {
+            "version": "0.9.8",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "chregu",
+            "releaseDate": "2003-09-10T20:36:00+00:00",
+            "releaseNotes": "- fixed critical error in call to strlen() in _php_imagick_set_last_error().\n  I strongly recommend you upgrade.",
+            "get": "http://pecl.php.net/get/imagick-0.9.8",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.9.7": {
+            "version": "0.9.7",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "chregu",
+            "releaseDate": "2003-07-18T04:57:00+00:00",
+            "releaseNotes": "- fixed bug in imagick_free() that would cause it to SEGFAULT everytime\n  it's called.\n- fixed to work with versions of ImageMagick >= 5.5.7  - special thanks to\n  James Huston (hustonjs@itadevelopment.com) for helping make this happen.\n- test compiled against ImageMagick 5.5.3, 5.5.6 and 5.5.7 with success.\n- test compiled against GraphicsMagick 1.0.1 with success.",
+            "get": "http://pecl.php.net/get/imagick-0.9.7",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.9.6": {
+            "version": "0.9.6",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "chregu",
+            "releaseDate": "2003-04-11T16:08:00+00:00",
+            "releaseNotes": "- functions added:\n\timagick_getcolorspace()\n\timagick_error()\n- added a new example called transparent_1x1.html and some explanatory text.\n  I can think of many uses for this code.\n- thanks to James Huston (hustonjs@itadevelopment.com) for suggesting\n  imagick_getcolorspace() and testing it out.\n- added GraphicsMagick (http://www.graphicsmagick.org) support to configure \n  script (enable it with --with-imagick-gm)\n- imagick_readimage() now returns false if ImageMagick ReadImage() fails.\n- imagick_error() returns 1 string representing any errors that have occurred\n  on an operation.  IT IS LARGELY UNTESTED!  Beware!  However, you can now\n  do things like:\n          $handle = imagick_readimage( \"image.jpg\" ) or die( imagick_error() ) ;\n- fixed configure script. It honours now values returned by Magick-config.",
+            "get": "http://pecl.php.net/get/imagick-0.9.6",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.9.5": {
+            "version": "0.9.5",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "chregu",
+            "releaseDate": "2003-02-19T06:09:00+00:00",
+            "releaseNotes": "- functions added:\n        imagick_newimagelist()\n        imagick_pushlist()\n        imagick_poplist()\n        imagick_mosaic()\n        imagick_setcompressiontype()\n        imagick_setcompressionquality()\n- modified how all functions check to see if ImageMagick has been initialized.\n- added a number of new examples for demonstrating how to use image lists.\n- fixed bugs in _php_imagick_alloc_handle() and _php_imagick_clear_errors()\n  causing core dump when working with image lists.  I wasn't checking to make\n  sure the structures I was examining were allocated.\n- thanks to James Huston (hustonjs@itadevelopment.com) for suggesting\n  imagick_setcompressiontype() and imagick_setcompressionquality() and\n  testing them.\n- added supporting IMAGICK_COMPRESSION_* constants for use with\n  imagick_setcompressiontype().\n- renamed imagick_setcompression() to imagick_setcompressiontype().\n  (note: this was done before the new version was released so no users should\n   be impacted.)",
+            "get": "http://pecl.php.net/get/imagick-0.9.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.9.4": {
+            "version": "0.9.4",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "chregu",
+            "releaseDate": "2003-01-24T14:22:00+00:00",
+            "releaseNotes": "- functions added:\n\timagick_flatten()\n\timagick_getmagick()\n\timagick_setfillopacity()\n- fixed bad code in these functions:\n\timagick_despeckle()\n\timagick_edge()\n\timagick_emboss()\n\timagick_enhance()\n\timagick_gaussianblur()\n\timagick_medianfilter()\n\timagick_motionblur()\n\timagick_reducenoise()\n\timagick_shade()\n\timagick_sharpen()\n\timagick_spread()\n\timagick_unsharpmask()\n- for the above functions, if call to corresponding ImageMagick\n  function the module would probably core dump.  If it didn't the\n  results would be really buddy and weird.\n- setfillopacity() thanks to Allen Condit, condit@isri.unlv.edu.",
+            "get": "http://pecl.php.net/get/imagick-0.9.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.9.3": {
+            "version": "0.9.3",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "chregu",
+            "releaseDate": "2003-01-03T15:41:00+00:00",
+            "releaseNotes": "- functions added:\n        imagick_zoom()\n- the difference between imagick_zoom() and imagick_resize() is\n  that zoom applies the blur and filter that are defined by\n  the image.  It is a much simpler way of resizing an image.\n- added imagick.dsp and modifications for compiling under Windows.\n- changed all instances of le_handle to le_imagick_handle to avoid\n  future conflicts.",
+            "get": "http://pecl.php.net/get/imagick-0.9.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.9.2": {
+            "version": "0.9.2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "chregu",
+            "releaseDate": "2002-12-09T19:12:00+00:00",
+            "releaseNotes": "- functions added:\n\timagick_profile()\n- created IMAGICK_PROFILE_* to support imagick_profile().\n- this release is significant because of the issue with Microsoft IE\n  where the image's profile causes the browser to not properly render\n  images (you only get red X's).  See this posting:\n\thttp://studio.imagemagick.org/pipermail/magick-users/2002-September/005072.html\n- added this filter IMAGICK_FILTER_UNKNOWN.  If the user specifies\n  this filter to imagick_resize(), the resize function will take\n  whatever filter is defined by the image.\n- modified imagick_resize() to take 6th optional parameter that is\n  the modifier to the geometry to facility building geometries such\n  as 800x600+200+200! or 450x230>.\n- modified imagick_scale() to take 4th optional parameter that is\n  the modifier to the geometry to facility building geometries such\n  as 800x600+200+200! or 450x230>.\n- modified imagick_sample() to take 4th optional parameter that is\n  the modifier to the geometry to facility building geometries such\n  as 800x600+200+200! or 450x230>.",
+            "get": "http://pecl.php.net/get/imagick-0.9.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.9.1": {
+            "version": "0.9.1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "chregu",
+            "releaseDate": "2002-12-07T09:25:00+00:00",
+            "releaseNotes": "- functions added:\n\timagick_chop()\n\timagick_crop()\n\timagick_flip()\n\timagick_flop()\n\timagick_roll()\n\timagick_getimagedepth()\n\timagick_getnumbercolors()\n\timagick_isgrayimage()\n\timagick_ismonochromeimage()\n\timagick_isopaqueimage()\n\timagick_ispaletteimage()\n\timagick_ordereddither()\n\timagick_composite()\n- Added IMAGICK_COMPOSITE_OP_* for use with imagick_composite().",
+            "get": "http://pecl.php.net/get/imagick-0.9.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.9.0.1": {
+            "version": "0.9.0.1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "chregu",
+            "releaseDate": "2002-12-03T16:29:00+00:00",
+            "releaseNotes": "IMPORTANT!!!\nThis release breaks Backwards Compatibility with the 0.1.x series of ext/imagick. read the examples for more information (in $doc_dir/imagick/examples).\n\nBig Credits go to Michael C. Montero, who wrote the whole extension from scratch. Without him, we would still be at 0.1.x. He will be the future lead for this package (as soon as he has an account on pear).\n\n0.2-0.5 were never released within PEAR.\n\nversion 0.9.0.1:\n    - more appropriate changelog/notes, no changes in code.\n\nversion 0.9:        \n    - functions added:\n         imagick_next()\n         imagick_prev()\n         imagick_first()\n         imagick_goto()\n         imagick_getlistsize()\n         imagick_getlistindex()\n         imagick_getimagefromlist()\n         imagick_blob2image()\n         imagick_reducenoise()\n         imagick_shade()\n         imagick_sharpen()\n         imagick_spread()\n         imagick_threshold()\n         imagick_unsharpmask()\n     - cut over deprecation reporting to a more standized and easier to use method\n    - cut over all php_error calls to standard method\n    - added Christian's code to info function for displaying a list of supported image formats\n    - rewrote all code to use proper parameter parsing function\n    - fixed minor issue with a number of example files; was nothing critical\n  \n    version: 0.5a\n        - functions added:\n            imagick_getcanvas()\n            imagick_blur()\n            imagick_despeckle()\n            imagick_edge()\n            imagick_emboss()\n            imagick_enhance()\n            imagick_gaussianblur()\n            imagick_medianfilter()\n            imagick_motionblur()\n        - one major change - renamed everything to imagick*; I've joined my efforts with Christian Stocker who had a previously written but smaller extension\n        - magick_getcanvas() allows you to create a blank image to draw on\n        - changed comment header in imagick.h to match the one in imagick.c\n        - added Christian Stocker to credits\n        - moved over to Christian Stocker's config.m4, removed the need for gen_configm4\n        - rewrote INSTALL to reflect new config.m4\n        - slight modifications to config.m4 to get it to work properly\n        - added package.xml\n        - removed ChangeLog, everything is now in package.xml\n        - removed imagick_free_reason() and imagick_free_description() since they are no longer necessary\n        - preceded all internal functions with _php_\n        - created imagick_read() for backward compatibility with old extension\n        - created imagick_write() for backward compatibility with old extension\n    \n        version 0.4a\n        - functions added:\n            magick_writeimages()\n            magick_destroyhandle()\n            magick_image2blob()\n            magick_drawarc()\n            magick_drawcircle()\n            magick_drawpoint()\n            magick_border()\n            magick_frame()\n            magick_raise()\n            magick_getwidth()\n            magick_getheight()\n            magick_getmimetype()\n            magick_setfillcolor()\n            magick_setfontface()\n            magick_charcoal()\n            magick_implode()\n            magick_oilpaint()\n            magick_solarize()\n            magick_swirl()\n            magick_wave()\n        - more preparation for image lists\n        - fixed incorrect comments in some examples\n        - fixed incorrect calls to magick_failedreason() and magick_faileddescription() in most examples\n        - a number of examples weren't exiting properly on errors, that's been fixed\n        - phpinfo() now displays available font family and font names\n        - coolest function so far: magick_oilpaint().  The output is awesome!\n        - added MaxRGB to phpinfo() section\n    \n        version 0.2a\n        - functions added:\n            magick_rotate()\n            magick_shear()\n            magick_contrast()\n            magick_equalize()\n            magick_gamma()\n            magick_level()\n            magick_modulate()\n            magick_negate()\n            magick_normalize()\n            magick_drawellipse()\n        - slight changes to output of gen_configm4\n        - fixed comments in all examples after the initial magick_readimage(), they were wrong\n        - fixed all examples so they exit properly on errors\n        - fixed all examples so they work as either standalone script or web page; they do better output as well\n        - fixed output of magick info. when calling phpinfo()\n        - more commenting\n        - significantly better error handling",
+            "get": "http://pecl.php.net/get/imagick-0.9.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.9": {
+            "version": "0.9",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "chregu",
+            "releaseDate": "2002-12-03T16:01:00+00:00",
+            "releaseNotes": "IMPORTANT!!!\nThis release breaks BC with the 0.1.x series of ext/imagick.\nread the examples for more information (in $doc_dir/imagick/examples)\n\n0.2-0.5 were never released within PEAR.\n\n    - functions added:\n         imagick_next()\n         imagick_prev()\n         imagick_first()\n         imagick_goto()\n         imagick_getlistsize()\n         imagick_getlistindex()\n         imagick_getimagefromlist()\n         imagick_blob2image()\n         imagick_reducenoise()\n         imagick_shade()\n         imagick_sharpen()\n         imagick_spread()\n         imagick_threshold()\n         imagick_unsharpmask()\n     - cut over deprecation reporting to a more standized and easier\n       to use method\n    - cut over all php_error calls to standard method\n    - added Christian's code to info function for displaying a list of\n      supported image formats\n    - rewrote all code to use proper parameter parsing function\n    - fixed minor issue with a number of example files; was nothing\n      critical",
+            "get": "http://pecl.php.net/get/imagick-0.9",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.2": {
+            "version": "0.1.2",
+            "state": "alpha",
+            "license": "PHP License",
+            "releasedBy": "chregu",
+            "releaseDate": "2002-09-01T13:58:00+00:00",
+            "releaseNotes": "- Added imagick_border(). (pierre-alain joye)\n      - Fixed return of annotate and rotate (true on success). (pierre-alain joye)",
+            "get": "http://pecl.php.net/get/imagick-0.1.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.1": {
+            "version": "0.1.1",
+            "state": "alpha",
+            "license": "PHP License",
+            "releasedBy": "chregu",
+            "releaseDate": "2002-06-14T07:46:00+00:00",
+            "releaseNotes": "- Make it compatible with ImageMagick 5.4.5 (and this is also the needed version now)\n- adjust package.xml to the new \"pear build\" command",
+            "get": "http://pecl.php.net/get/imagick-0.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "Provides a wrapper to the ImageMagick library.",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

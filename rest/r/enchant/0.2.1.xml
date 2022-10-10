@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/enchant">enchant</p>
+ <c>pecl.php.net</c>
+ <v>0.2.1</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>pajoye</m>
+ <s>libenchant binder, support near all spelling tools</s>
+ <d>Enchant is a binder for libenchant. Libenchant provides a common
+API for many spell libraries:
+- aspell/pspell (intended to replace ispell)
+- hspell (hebrew)
+- ispell 
+- myspell (OpenOffice project, mozilla)
+- uspell (primarily Yiddish, Hebrew, and Eastern European languages)
+A plugin system allows to add custom spell support.
+see www.abisource.com/enchant/
+</d>
+ <da>2004-03-11 11:32:00</da>
+ <n>- Fix possible leak in suggestions result
+- Move to beta status</n>
+ <f>6565</f>
+ <g>http://pecl.php.net/get/enchant-0.2.1</g>
+ <x xlink:href="package.0.2.1.xml"/>
+</r>

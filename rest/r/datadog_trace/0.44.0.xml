@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.44.0</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>sammyk</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2020-04-28 18:26:00</da>
+ <n>### Fixed
+
+- Fix ddtrace_config_* functions to use sapi_getenv #848
+- Fix curl integrations #851
+
+### Changed
+
+- Whitelist the `cgi-fcgi` SAPI #835
+- Add ddtrace_hash_find_ptr_lc which stack-allocates small strings #839</n>
+ <f>217253</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.44.0</g>
+ <x xlink:href="package.0.44.0.xml"/>
+</r>

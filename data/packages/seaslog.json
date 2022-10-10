@@ -1,0 +1,314 @@
+{
+    "category": "Logging",
+    "deprecated": false,
+    "description": "An effective,fast,stable log extension for PHP.\n        - In the PHP project, for convenient record log.\n        - The default log directory and module configuration.\n        - Specify the log directory and get the current configuration.\n        - Analysis of early warning framework preliminary.\n        - Buffer debug efficient log buffer, convenient.\n        - With PSR-3 Logger interface.\n        - Error and exception automatic logging.\n        - Support appender with File,TCP,UDP.\n        - Send to Rsyslog(TCP/UDP) with RFC5424.\n        - Support RequestId differentiated requests.\n        - Support for log template customizations.\n        - Support trace performance automatic logging.",
+    "latestReleaseDate": "2021-01-19T07:48:59+00:00",
+    "latestVersion": "2.2.0",
+    "license": "PHP3.01",
+    "name": "SeasLog",
+    "php8Mentioned": true,
+    "releases": {
+        "2.2.0": {
+            "version": "2.2.0",
+            "state": "stable",
+            "license": "PHP3.01",
+            "releasedBy": "neeke",
+            "releaseDate": "2021-01-19T07:48:59+00:00",
+            "releaseNotes": "- Support PHP8\n- Support s390x and mips64 platform\n- Fixed ulong conflicting\n- Fixed test case dependence on INI setting (seaslog.default_template)\n- Fixed memory leak on `get_code_filename_line`",
+            "get": "https://pecl.php.net/get/SeasLog-2.2.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.0": {
+            "version": "2.1.0",
+            "state": "stable",
+            "license": "PHP3.01",
+            "releasedBy": "neeke",
+            "releaseDate": "2020-01-01T19:28:54+00:00",
+            "releaseNotes": "- Support PHP7.4\n- Support getBufferCount function and modify flushBuffer function.\n- Support `%B` in log template, support BasePath.\n- Enhancement trim_wrap.\n- Fixed issue #265.\n- Fixed bug trace_performance core dump by performance_frames init.\n- Fixed ignore php errors before module initialized.\n- Fixed php-stream use update in php7.\n- Fixed can`t append to file after stream changed in php7.",
+            "get": "https://pecl.php.net/get/SeasLog-2.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.2": {
+            "version": "2.0.2",
+            "state": "stable",
+            "license": "PHP3.01",
+            "releasedBy": "neeke",
+            "releaseDate": "2019-02-12T09:09:27+00:00",
+            "releaseNotes": "- Fixed issue #175 support trace_performance automatic logging.\n- Fixed `%C` in log template, support Class::Action.",
+            "get": "https://pecl.php.net/get/SeasLog-2.0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.9.1": {
+            "version": "1.9.1",
+            "state": "stable",
+            "license": "PHP3.01",
+            "releasedBy": "neeke",
+            "releaseDate": "2018-12-17T11:54:51+00:00",
+            "releaseNotes": "- Fixed issue #249 add unit test and fixed setLogger bug.\n- Fixed build error with mac osx.",
+            "get": "https://pecl.php.net/get/SeasLog-1.9.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.9.0": {
+            "version": "1.9.0",
+            "state": "stable",
+            "license": "PHP3.01",
+            "releasedBy": "neeke",
+            "releaseDate": "2018-11-25T09:27:51+00:00",
+            "releaseNotes": "- New Feature #240 add SeasLog::setRequestVariable(key,value).\n- New Feature #243 support first parameter use array, such as SeasLog::debug(array).\n- Fixed issue #110 support New SeasLog().\n- Fixed issue #234 #236 SeasLog::analyzerDetail function bug.\n- Fixed issue #245 add unit test to analyzerCount and analyzerDetail.",
+            "get": "https://pecl.php.net/get/SeasLog-1.9.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.8.6": {
+            "version": "1.8.6",
+            "state": "stable",
+            "license": "PHP3.01",
+            "releasedBy": "neeke",
+            "releaseDate": "2018-09-07T11:01:27+00:00",
+            "releaseNotes": "- New Feature Add log message collection recommendations docs.\n- New Feature Add bench_mark.php\n- New Feature #218 add SeasLog::closeLoggerStream()\n- Fixed check_log_level:log level should lower than setting 'seaslog.level'\n- Fixed core dump in phpdbg.\n- Fixed smtp_secure and smtp_mailer.\n- Fixed issue #125 #203 Add seaslog.buffer_disabled_in_cli to config, default false.\n- Fixed issue #196 php5.3.x undefined symbol: expand_filepath_with_mode.\n- Fixed issue #195 rsyslog recive log with RFC5424.\n- Fixed issue #200 error warning when tcp/udp error.\n- Fixed issue #202 Add unit tests.\n- Fixed issue #210 add seaslog.remote_timeout to config, default 1 second.\n- Fixed issue #215 analyzerCount error.\n- Fixed issue #228 analyzerDetail error.",
+            "get": "http://pecl.php.net/get/SeasLog-1.8.6",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.8.4": {
+            "version": "1.8.4",
+            "state": "stable",
+            "license": "PHP3.01",
+            "releasedBy": "neeke",
+            "releaseDate": "2018-03-23T11:11:57+00:00",
+            "releaseNotes": "- New Feature #162 Configure seaslog.recall_depth support for filename and code line.\n- New Feature #170 Configure seaslog.trace_notice and seaslog.trace_warning support trace notice and warning.\n- New Feature #172 Configure seaslog.disting_folder support switch {Logger}/{Time}[.Type].log or {Logger}_{Time}[.Type].log.\n- New Feature #174 Add %U(MemoryUsage) and %u(PeakMemoryUsage) into default variable table.\n- New Feature #186 Use seaslog_throw_exception replace zend_error.\n- Fixed issue #65 Message template content match error.\n- Fixed issue #153 Disting_by_hour and disting_type can not use together.\n- Fixed issue #156 Log template format error with %L and %M.\n- Fixed issue #158 SeasLog::setRequestID intercepted error.\n- Fixed issue #165 Phpdbg seg fault.\n- Fixed issue #184 SeasLog::analyzerCount seg fault at PHP7-nts.\n- Fixed issue #181 Perfect when stream's connection was broken.",
+            "get": "http://pecl.php.net/get/SeasLog-1.8.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.7.6": {
+            "version": "1.7.6",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "neeke",
+            "releaseDate": "2017-09-19T09:05:11+00:00",
+            "releaseNotes": "- Fixed analyzerDetail bug, use grep -ai key_words.\n- Fixed issue #152. Segfault in cli.",
+            "get": "http://pecl.php.net/get/SeasLog-1.7.6",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.7.5": {
+            "version": "1.7.5",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "neeke",
+            "releaseDate": "2017-09-19T05:29:56+00:00",
+            "releaseNotes": "- Update license from Apache License 2.0 to PHP License 3.01.\n- Support send to Rsyslog(TCP/UDP) with RFC5424.\n- Support RequestId differentiated requests to fixed issue #134.\n- Support for log template customizations to fixed issue #12 #143.\n- Update SeasLog Analyzer scripts version to 1.1.0, to fixed issue #139.\n- Optimization of analyzerCount and analyzerDetail to fixed issue #133.\n- Fixed issue #138. Error by file exists.\n- Fixed issue #140. Error by setDatetimeFormat.\n- Fixed issue #142. Error by too many open files.\n- Fixed issue #144. Error by read log detail order desc.\n- Fixed issue #145. Error by analyzerDetail.\n- Fixed issue #146. Segfault at php-fpm.",
+            "get": "http://pecl.php.net/get/SeasLog-1.7.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.6.9": {
+            "version": "1.6.9",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "neeke",
+            "releaseDate": "2017-01-23T13:26:56+00:00",
+            "releaseNotes": "- Fixed issue #113 setBastPath.\n- Fixed PHP --re seaslog result.",
+            "get": "http://pecl.php.net/get/SeasLog-1.6.9",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.6.8": {
+            "version": "1.6.8",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "neeke",
+            "releaseDate": "2016-10-17T07:51:10+00:00",
+            "releaseNotes": "- Fixed issue #100 #102 #103 memory leak.\n- Fixed Dir chmod 0755 and File chmod 0666.",
+            "get": "http://pecl.php.net/get/SeasLog-1.6.8",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.6.2": {
+            "version": "1.6.2",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "neeke",
+            "releaseDate": "2016-07-08T14:55:08+00:00",
+            "releaseNotes": "- Fixed issue #97 PHP5.* Cached Block.\n- Fixed issue #98 SeasLog::analyzerDetail(NULL).",
+            "get": "http://pecl.php.net/get/SeasLog-1.6.2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.6.0": {
+            "version": "1.6.0",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "neeke",
+            "releaseDate": "2016-07-05T15:45:06+00:00",
+            "releaseNotes": "- Fixed issue #90 #92 Date format.\n- Fixed issue #96 Clear memory leaks.\n- Fixed issue #91 Support TCP UDP appender.\n- Support appender with config, switch File TCP UDP; config the remote_host and remote_port.",
+            "get": "http://pecl.php.net/get/SeasLog-1.6.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.5.6": {
+            "version": "1.5.6",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "neeke",
+            "releaseDate": "2016-05-19T03:35:51+00:00",
+            "releaseNotes": "- Fixed issue #76 #80 #86 Fixed segment fault with PHP7.\n- Make memory usage more stable, and clear memory leaks with PHP5.* and PHP7.*.",
+            "get": "http://pecl.php.net/get/SeasLog-1.5.6",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.5.3": {
+            "version": "1.5.3",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "neeke",
+            "releaseDate": "2016-04-07T08:30:47+00:00",
+            "releaseNotes": "- Fixed zval_ptr_dtor bug with PHP7.\n- Fixed issue #68 Fixed _ to . with getDetail function.\n- Fixed issue #73 Fixed segment fault with setBasePath function.\n- Support Datetime Format Config.",
+            "get": "http://pecl.php.net/get/SeasLog-1.5.3",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.5.0": {
+            "version": "1.5.0",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "neeke",
+            "releaseDate": "2015-12-06T16:33:58+00:00",
+            "releaseNotes": "- Support PHP 7.\n- Fixed issue #63 Fixed trace_exception and trace_error recovery;",
+            "get": "http://pecl.php.net/get/SeasLog-1.5.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.4.8": {
+            "version": "1.4.8",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "neeke",
+            "releaseDate": "2015-11-10T07:09:18+00:00",
+            "releaseNotes": "- Fixed issue #60 Fixed use_buffer and buffer_size in config error;\n- Fixed issue #61 Fixed trace_exception where exception code get error.",
+            "get": "http://pecl.php.net/get/SeasLog-1.4.8",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.4.6": {
+            "version": "1.4.6",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "neeke",
+            "releaseDate": "2015-10-23T12:15:38+00:00",
+            "releaseNotes": "- Fixed issue #52 update README fixed SEASLOG_ERRO and company list from.\n- Fixed issue #53 Add function flushBuffer,support independent refresh by manual.\n- Fixed issue #57 and #58 Update analyzerDetail by desc and fixed limit value.",
+            "get": "http://pecl.php.net/get/SeasLog-1.4.6",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.4.4": {
+            "version": "1.4.4",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "neeke",
+            "releaseDate": "2015-09-23T11:28:46+00:00",
+            "releaseNotes": "- Fixed issue #50 Fix error and exception hook dead loop.\n- Fixed support windows with new version.\n- Fixed trace_error default enable and trace_exception default disable.",
+            "get": "http://pecl.php.net/get/SeasLog-1.4.4",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.4.2": {
+            "version": "1.4.2",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "neeke",
+            "releaseDate": "2015-09-15T14:29:55+00:00",
+            "releaseNotes": "- Fixed issue #47 support trace_error and trace_exception switch.\n- Fixed issue #48 Ignore notice or warning, but error automatic logging.",
+            "get": "http://pecl.php.net/get/SeasLog-1.4.2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.4.0": {
+            "version": "1.4.0",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "neeke",
+            "releaseDate": "2015-09-14T16:07:54+00:00",
+            "releaseNotes": "- Fixed issue #42 support error and exception automatic logging.\n- Optimization performance, update is_dir with access.",
+            "get": "http://pecl.php.net/get/SeasLog-1.4.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.2.3": {
+            "version": "1.2.3",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "neeke",
+            "releaseDate": "2015-07-02T02:38:54+00:00",
+            "releaseNotes": "- Fixed issue #44 Seaslog::analyzerDetail([with out 'all'])\n- Support CONST SEASLOG_ALL",
+            "get": "http://pecl.php.net/get/SeasLog-1.2.3",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.2.2": {
+            "version": "1.2.2",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "neeke",
+            "releaseDate": "2015-06-30T08:48:47+00:00",
+            "releaseNotes": "- Fixed Logger bug with PHP-Version -ge 5.4\n- Fixed SeasLog::log('level','message','content',['logger']) bug\n- Support SeasLog::analyzerDetail(\"all\")\n- Support SeasLog::analyzerCount(\"all\")",
+            "get": "http://pecl.php.net/get/SeasLog-1.2.2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.2.0": {
+            "version": "1.2.0",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "neeke",
+            "releaseDate": "2015-06-29T03:48:40+00:00",
+            "releaseNotes": "- Fixed SeasLog::analyzerDetail() function compatible with MAC\n- Fixed memory leak\n- Support windows",
+            "get": "http://pecl.php.net/get/SeasLog-1.2.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.1.8": {
+            "version": "1.1.8",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "neeke",
+            "releaseDate": "2015-03-20T04:25:22+00:00",
+            "releaseNotes": "- Fixed init config error with ZTS\n- Fixed SeasLog::analyzerDetail() function compatible with CentOS",
+            "get": "http://pecl.php.net/get/SeasLog-1.1.8",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.1.6": {
+            "version": "1.1.6",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "neeke",
+            "releaseDate": "2014-12-30T01:54:39+00:00",
+            "releaseNotes": "- Fixed SeasLog::analyzerCount() function add query by key_word\n- Fixed SeasLog::analyzerDetail() function add query by key_word,paging by start,limit",
+            "get": "http://pecl.php.net/get/SeasLog-1.1.6",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.1.4": {
+            "version": "1.1.4",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "neeke",
+            "releaseDate": "2014-08-20T02:13:07+00:00",
+            "releaseNotes": "- Define some function at header for C99 Standard\n- Remove some superfluous comment\n- Fixed SeasLog::log() function warning\n- Fixed config \"seaslog.level = 0\" in Readme",
+            "get": "http://pecl.php.net/get/SeasLog-1.1.4",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.1.0": {
+            "version": "1.1.0",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "neeke",
+            "releaseDate": "2014-08-17T04:10:22+00:00",
+            "releaseNotes": "- fixed Mac under the compiler error\n- Buffer optimization methods, improve operation efficiency\n- Optimization of the internal structure, concurrent fault",
+            "get": "http://pecl.php.net/get/SeasLog-1.1.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.0.2": {
+            "version": "1.0.2",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "neeke",
+            "releaseDate": "2014-08-13T00:27:14+00:00",
+            "releaseNotes": "- Add buffer_size config bar,when buffer_size full will write log\n- Code format remove tab to 4space",
+            "get": "http://pecl.php.net/get/SeasLog-1.0.2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "neeke",
+            "releaseDate": "2014-07-28T11:04:17+00:00",
+            "releaseNotes": "- First version for pecl.net",
+            "get": "http://pecl.php.net/get/SeasLog-1.0.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        }
+    },
+    "summary": "An effective,fast,stable log extension for PHP.",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>1.8.6</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+- event-driven
+- asynchronous non-blocking
+- multi-thread reactor
+- multi-process worker
+- multi-protocol
+- millisecond timer
+- async mysql client
+- built-in http/websocket/http2 server
+- async http/websocket client
+- async redis client
+- async task
+- async read/write file system
+- async dns lookup
+- support IPv4/IPv6/UnixSocket/TCP/UDP
+- support SSL/TLS encrypted transmission</d>
+ <da>2016-06-16 10:40:44</da>
+ <n>- Added `swoole_mysql` real async mysql client
+- Fixed swoole_client/swoole_http_client/swoole_redis memory leak and crash bug on PHP7
+- Remove gcc_aio.c
+- Remove swoole_mysqli_get_socket and swoole_mysql_query
+- Remove swoole_http_server-&gt;setGlobal
+- Added swoole_async_dns_lookup result cache
+- Optimize websocket server performance
+- Added swoole_server-&gt;task complete callback parameter</n>
+ <f>511021</f>
+ <g>http://pecl.php.net/get/swoole-1.8.6</g>
+ <x xlink:href="package.1.8.6.xml"/>
+</r>

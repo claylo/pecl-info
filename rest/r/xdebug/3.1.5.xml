@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xdebug">xdebug</p>
+ <c>pecl.php.net</c>
+ <v>3.1.5</v>
+ <st>stable</st>
+ <l>BSD style</l>
+ <m>derick</m>
+ <s>Xdebug is a debugging and productivity extension for PHP</s>
+ <d>Xdebug and provides a range of features to improve the PHP development
+experience.
+
+Step Debugging
+    A way to step through your code in your IDE or editor while the script is
+    executing.
+
+Improvements to PHP's error reporting
+    An improved var_dump() function, stack traces for Notices, Warnings, Errors
+    and Exceptions to highlight the code path to the error
+
+Tracing
+    Writes every function call, with arguments and invocation location to disk.
+    Optionally also includes every variable assignment and return value for
+    each function.
+
+Profiling
+    Allows you, with the help of visualisation tools, to analyse the
+    performance of your PHP application and find bottlenecks.
+
+Code Coverage Analysis
+    To show which parts of your code base are executed when running unit tests
+    with PHP Unit.</d>
+ <da>2022-06-06 16:05:34</da>
+ <n>Mon, Jun 06, 2022 - Xdebug 3.1.5
+
+= Fixed bugs:
+
+  - Fixed issue #2056: Install documentation gives wrong arch for installation on M1 Macs
+  - Fixed issue #2082: phpize --clean removes required clocks.m4 file
+  - Fixed issue #2083: Constant defined with an enum case produce double &quot;facet&quot; attribute in context_get response
+  - Fixed issue #2085: Crash when used with source guardian encoded files
+  - Fixed issue #2090: Segfault in __callStatic() after FFI initialization</n>
+ <f>232070</f>
+ <g>https://pecl.php.net/get/xdebug-3.1.5</g>
+ <x xlink:href="package.3.1.5.xml"/>
+</r>

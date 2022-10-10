@@ -1,0 +1,174 @@
+{
+    "category": "Internationalization",
+    "deprecated": false,
+    "description": "pecl/intl is not mainained anymore. Use the version bundled with PHP.\n\n The Internationalization extension exposes functionality of the ICU library to PHP.  <br>  <br>  This extension has been bundled with PHP since version 5.3. This PECL version backports improvements made in the development version of PHP to PHP 5.2-5.4.  <br>  Version 3.0 is in sync with PHP 5.5.",
+    "latestReleaseDate": "2013-06-02T14:11:45+00:00",
+    "latestVersion": "3.0.0",
+    "license": "PHP License",
+    "name": "intl",
+    "summary": "Internationalization extension",
+    "php8Mentioned": false,
+    "releases": {
+        "3.0.0": {
+            "version": "3.0.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "cataphract",
+            "releaseDate": "2013-06-02T14:11:45+00:00",
+            "releaseNotes": "- Fixed build on PHP 5.5+.\n- Bring error reporting in converter more in line with the rest.\n- Fix parameter parsing in Uconverter::convert() for PHP 5.5.\n- Fix intlcal_get_time_zone() not setting local error.\n- Fix arginfo for BreakIterator::getLocale().\n- Fixed compiler warnings.",
+            "get": "http://pecl.php.net/get/intl-3.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.0b1": {
+            "version": "3.0.0b1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "cataphract",
+            "releaseDate": "2012-12-26T13:42:09+00:00",
+            "releaseNotes": "- Add UConverter class (ICU's UConverter API).\n   See RFC at http://wiki.php.net/rfc/uconverter\n- Fixed defective cloning of subclassed intl classes. See also bug #62915.\n- Allow Spoofchecker to be registered on ICU versions with .1 minor numbers like\n  ICU 49.1.\n- Fix SPOOFCHECKER_METHOD_FETCH_OBJECT definition.\n- Fix handling of several uinitialized intl objects.\n- Added the intl tests extracted from Symfony.\n- Fixed several tests.",
+            "get": "http://pecl.php.net/get/intl-3.0.0b1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.0a2": {
+            "version": "3.0.0a2",
+            "state": "alpha",
+            "license": "PHP License",
+            "releasedBy": "cataphract",
+            "releaseDate": "2012-07-24T19:41:55+00:00",
+            "releaseNotes": "- Added IntlBreakIterator, IntlRuleBasedBreakiterator and\n  IntlCodePointBreakIterator.\n- Added IntlDateFormatter::formatObject().\n- Implememented FR #61871: named Argument support for MessageFormatter.\n- Accepted numeric strings for dates (when a timestamp is expected).\n- Better error messages in MessageFormatter::format().\n- Number of arguments in MessageFormatter::format() is not checked anymore.\n- Kept subsecond date precision in MessageFormatter.\n- Changed ResourceBundle constructor behavior: null is now accepted for two\n  first (mandatory arguments).\n- Accept DateTimeZone where time zones are expected.\n- Added IntlCalendar::fromDateTime().\n- Added IntlTimeZone::fromDateTimeZone() and ::toDateTimeZone.\n- MessageFormatter accepts IntlCalendar arguments.\n- Added IntlCalendar::toDateTime().\n- Made IntlDateFormatter constructor accept NULL, IntlTimeZone and DateTimeZone\n  objects in the timezone argument.\n- When NULL is passed to IntlDateFormatter, the time zone specified in\n  date.timezone is used instead of the ICU default, except if an IntlCalendar is\n  also passed, in which its time zone is used instead.\n- The IntlDateFormatter constructor now accepts for the $calendar argument also\n  an IntlCalendar. In this case, IntlDateFormatter::getCalendar() will return\n  false.\n- Added IntlDateFormatter::getCalendarObject(), which always returns the\n  IntlCalendar object that backs the DateFormat, even if a constant was passed\n  to the constructor, i.e., if an IntlCalendar was not passed to the\n  constructor.\n- Added IntlDateFormatter::setTimeZone() and IntlDateFormatter::getTimeZone().\n- Do not fetch default locale on minit or rinit\n- Deprecated IntlDateFormatter::setTimeZoneId() and made it an alias for\n  IntlDateFormatter::setTimeZone(), as the new ::setTimeZone() also accepts\n  plain identifiers, besides other types.\n- Fixed bug #55610: ResourceBundle not marked Traversable.\n- Fixed bug #58756: IntlDateFormatter and MessageFormatter do not respect\n  date.timezone INI setting w.r.t MessageFormatter (partial fix)\n- Fixed bug #59597: NumberFormatter::parse() with TYPE_INT64 results in a 32 bit\n  integer.\n- Fixed bug #60785: memory leak in IntlDateFormatter constructor.\n- Fixed bug #61829: memory leak when calling MessageFormatter's constructor\n  twice.\n- Fixed bug #62017: datefmt_create with incorrectly encoded timezone leaks\n  pattern.\n- Fixed bug #62070: Collator::getSortKey() was returning an unterminated string\n  due the length given to RETURN_STRINGL being off by one.\n- Fixed bug #62081: constructor of IntlDateFormatter would leak if called twice.\n- Fixed bug #62082: buffer overflow in internal function\n  get_icu_disp_value_src_php().\n- Fixed bug #62083: memory leak in grapheme_extract().\n- Fixed bug #62564/#62565: call to object_properties_init() missing.\n- Fixed problem in IntlCalendar debug handler.\n- Fixed write in constant memory.\n- Added private constructor to IntlTimeZone.\n- Fixed IntlDateFormatter::setCalendar() with a constant passed.",
+            "get": "http://pecl.php.net/get/intl-3.0.0a2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.1": {
+            "version": "2.0.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "cataphract",
+            "releaseDate": "2012-07-24T12:14:13+00:00",
+            "releaseNotes": "- Changed ResourceBundle constructor behavior: null is now accepted for two\n  first (mandatory arguments).\n- Optimization in ext/intl/msgformat: don't transform the string to make it\n  apostrophe friendly in ICU 4.8+.\n- Fixed bug #55610: ResourceBundle not marked Traversable.\n- Fixed bug #59597: NumberFormatter::parse() with TYPE_INT64 results in a 32 bit\n  integer.\n- Fixed bug #60785: memory leak in IntlDateFormatter constructor.\n- Fixed bug #61829: memory leak when calling MessageFormatter's constructor\n  twice.\n- Fixed bug #62017: datefmt_create with incorrectly encoded timezone leaks\n  pattern.\n- Fixed bug #62070: Collator::getSortKey() was returning an unterminated string\n  due the length given to RETURN_STRINGL being off by one.\n- Fixed bug #62081: constructor of IntlDateFormatter would leak if called twice.\n- Fixed bug #62082: buffer overflow in internal function\n  get_icu_disp_value_src_php().\n- Fixed bug #62083: memory leak in grapheme_extract().\n- Fixed bug #62564/#62565: call to object_properties_init() missing.",
+            "get": "http://pecl.php.net/get/intl-2.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.0a1": {
+            "version": "3.0.0a1",
+            "state": "alpha",
+            "license": "PHP License",
+            "releasedBy": "cataphract",
+            "releaseDate": "2012-04-07T18:48:22+00:00",
+            "releaseNotes": "- Added classes IntlCalendar, IntlGregorianCalendar and IntlTimeZone.\n- Added the ability for the intl exception to throw exceptions when a\n  global error is set.",
+            "get": "http://pecl.php.net/get/intl-3.0.0a1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.0": {
+            "version": "2.0.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "cataphract",
+            "releaseDate": "2012-04-07T16:30:56+00:00",
+            "releaseNotes": "- Fixed bug #61487 - bad bounds check in grapheme_strpos.\n- Fixed several tests.",
+            "get": "http://pecl.php.net/get/intl-2.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.0b1": {
+            "version": "2.0.0b1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "cataphract",
+            "releaseDate": "2011-11-29T12:12:46+00:00",
+            "releaseNotes": "Synchronized with PHP 5.4 ext/intl",
+            "get": "http://pecl.php.net/get/intl-2.0.0b1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.1.2": {
+            "version": "1.1.2",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "stas",
+            "releaseDate": "2010-11-19T18:36:36+00:00",
+            "releaseNotes": "* Bugfixes",
+            "get": "http://pecl.php.net/get/intl-1.1.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.1.1": {
+            "version": "1.1.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "stas",
+            "releaseDate": "2010-03-15T17:05:24+00:00",
+            "releaseNotes": "* Fix 5.3-only code in ResourceBundle",
+            "get": "http://pecl.php.net/get/intl-1.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.1.0": {
+            "version": "1.1.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "stas",
+            "releaseDate": "2010-01-08T19:53:44+00:00",
+            "releaseNotes": "* Add ResourceBundle APIs\n* Bugfixes and error handling cleanups",
+            "get": "http://pecl.php.net/get/intl-1.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.3": {
+            "version": "1.0.3",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "stas",
+            "releaseDate": "2009-10-26T18:16:56+00:00",
+            "releaseNotes": "* Add collator_get_sort_key()\n* Bugfixes",
+            "get": "http://pecl.php.net/get/intl-1.0.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.2": {
+            "version": "1.0.2",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "stas",
+            "releaseDate": "2009-04-09T19:25:03+00:00",
+            "releaseNotes": "* Add IDN functions\n* Bugfixes",
+            "get": "http://pecl.php.net/get/intl-1.0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "stas",
+            "releaseDate": "2008-09-12T20:25:20+00:00",
+            "releaseNotes": "* Bugfix release\n* Tests work now with ICU 3.6 and 3.8",
+            "get": "http://pecl.php.net/get/intl-1.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "stas",
+            "releaseDate": "2008-06-27T17:15:31+00:00",
+            "releaseNotes": "* Release Candidate for first release of the intl extension\n* Added: date formatter, graphemes",
+            "get": "http://pecl.php.net/get/intl-1.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.0RC1": {
+            "version": "1.0.0RC1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "stas",
+            "releaseDate": "2008-05-27T17:22:45+00:00",
+            "releaseNotes": "* Release Candidate for first release of the intl extension\n* Added: date formatter, graphemes",
+            "get": "http://pecl.php.net/get/intl-1.0.0RC1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.0beta": {
+            "version": "1.0.0beta",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "stas",
+            "releaseDate": "2007-12-06T19:09:29+00:00",
+            "releaseNotes": "* First beta release of the intl extension",
+            "get": "http://pecl.php.net/get/intl-1.0.0beta",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

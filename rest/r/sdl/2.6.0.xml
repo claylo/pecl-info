@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/sdl">sdl</p>
+ <c>pecl.php.net</c>
+ <v>2.6.0</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>santiagolizardo</m>
+ <s>SDL for PHP</s>
+ <d>Bindings of the SDL2 (Simple DirectMedia Layer) library for PHP.</d>
+ <da>2022-03-17 21:41:24</da>
+ <n>- Add float rect and float point render functions (Manuel Baldassarri)
+- Add config file for Windows (Zorobabel)
+- Fix PECL build (Manuel Baldassarri)
+- Rename width parameter in SDL_Rect constructor (Manuel Baldassarri)</n>
+ <f>104978</f>
+ <g>https://pecl.php.net/get/sdl-2.6.0</g>
+ <x xlink:href="package.2.6.0.xml"/>
+</r>

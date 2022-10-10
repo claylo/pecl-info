@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pecl_http">pecl_http</p>
+ <c>pecl.php.net</c>
+ <v>2.5.0RC1</v>
+ <st>beta</st>
+ <l>BSD, revised</l>
+ <m>mike</m>
+ <s>Extended HTTP Support</s>
+ <d>This HTTP extension aims to provide a convenient and powerful 
+set of functionality for one of PHPs major applications.
+
+It eases handling of HTTP urls, headers and messages, provides 
+means for negotiation of a client's preferred content type, 
+language and charset, as well as a convenient way to send any 
+arbitrary data with caching and resuming capabilities.
+
+It provides powerful request functionality with support for
+parallel requests.
+
+Documentation:
+http://devel-m6w6.rhcloud.com/mdref/http
+
+Code Coverage:
+http://dev.iworks.at/ext-http/lcov/ext/http/</d>
+ <da>2015-05-21 12:47:27</da>
+ <n>* Added RFC5988 (Web Linking) support to http\Params
+* Added http\Url::SANITIZE_PATH to default flags of http\Url::mod()
+* Fixed overly aggressive response chaching to only consider 2xx cachable</n>
+ <f>189829</f>
+ <g>http://pecl.php.net/get/pecl_http-2.5.0RC1</g>
+ <x xlink:href="package.2.5.0RC1.xml"/>
+</r>

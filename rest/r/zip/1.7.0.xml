@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/zip">zip</p>
+ <c>pecl.php.net</c>
+ <v>1.7.0</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>pajoye</m>
+ <s>A zip management extension</s>
+ <d>Zip is an extension to create, modify and read zip files.</d>
+ <da>2006-08-13 19:59:45</da>
+ <n>- Add ZIPARCHIVE::OVERWRITE mode for ::open(), creates a new 
+archive and write over an existing file
+- locateName do not change anymore the state, it can now be used to test an entry
+- fix possilbe crashes when two entries with the same name have been added
+- Enhanced safemode support
+- fix builds against php 6.0 (HEAD)
+- fix compiler warning (Ilia, Tony)
+- cleanup phpinfo() output (Ilia)</n>
+ <f>55591</f>
+ <g>http://pecl.php.net/get/zip-1.7.0</g>
+ <x xlink:href="package.1.7.0.xml"/>
+</r>

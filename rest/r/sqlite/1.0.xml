@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/sqlite">SQLite</p>
+ <c>pecl.php.net</c>
+ <v>1.0</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>wez</m>
+ <s>SQLite database bindings</s>
+ <d>SQLite is a C library that implements an embeddable SQL database engine.
+Programs that link with the SQLite library can have SQL database access
+without running a separate RDBMS process.
+This extension allows you to access SQLite databases from within PHP.
+Windows binary available from:
+http://snaps.php.net/win32/PECL_STABLE/php_sqlite.dll
+</d>
+ <da>2003-06-21 14:52:00</da>
+ <n>Added:
+	sqlite_udf_encode_binary() and sqlite_udf_decode_binary() for
+	handling binary data in UDF callbacks.
+	sqlite_popen() for persistent db connections.
+	sqlite_unbuffered_query() for high performance queries.
+	sqlite_last_error() returns error code from last operation.
+	sqlite_error_string() returns description of error.
+	sqlite_create_aggregate() for registering aggregating SQL functions.
+	sqlite_create_function() for registering regular SQL functions.
+	sqlite_fetch_string() for speedy access to first column of result sets.
+	sqlite_fetch_all() to receive all rowsets from a query as an array.
+	iteration interface
+	sqlite_query() functions accept resource/query string in either order,
+	for compatibility with mysql and postgresql extensions.
+Fixed some build issues for thread-safe builds.
+Increase the default busy timeout interval to 60 seconds.</n>
+ <f>354024</f>
+ <g>http://pecl.php.net/get/SQLite-1.0</g>
+ <x xlink:href="package.1.0.xml"/>
+</r>

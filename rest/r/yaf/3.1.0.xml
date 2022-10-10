@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/yaf">yaf</p>
+ <c>pecl.php.net</c>
+ <v>3.1.0</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>laruence</m>
+ <s>PHP Framework in PHP extension</s>
+ <d>Yaf is a PHP framework similar to zend framework, which is written in c and built as PHP extension</d>
+ <da>2020-03-15 11:45:46</da>
+ <n>- Refactor Yaf_Loader for performance
+- Refactor lots of codes to avoiding memory allocation
+- Yaf_Loader::getNameSpaces() now return array instead of comma separated string
+- Yaf_Route_Rewrite now process multiple repeated bach slashes as one
+- Removed --enable-yaf-debug, now yaf allows user to moditify variables in $_POST etc 
+- Fixed bug while stripping base_uri</n>
+ <f>100744</f>
+ <g>https://pecl.php.net/get/yaf-3.1.0</g>
+ <x xlink:href="package.3.1.0.xml"/>
+</r>

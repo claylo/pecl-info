@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ev">ev</p>
+ <c>pecl.php.net</c>
+ <v>1.1.1</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>osmanov</m>
+ <s>Provides interface to libev library</s>
+ <d>ev provides interface to libev library - high performance
+  full-featured event loop written in C.</d>
+ <da>2021-02-04 09:27:40</da>
+ <n>- Fixed #39: tests/bug33.phpt is slow on s390x
+- Fixed tests/10_signal.phpt which failed on mips64 Alpinelinux due to a different value of SIGUSR1</n>
+ <f>168639</f>
+ <g>https://pecl.php.net/get/ev-1.1.1</g>
+ <x xlink:href="package.1.1.1.xml"/>
+</r>

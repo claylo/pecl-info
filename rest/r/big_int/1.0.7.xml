@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/big_int">big_int</p>
+ <c>pecl.php.net</c>
+ <v>1.0.7</v>
+ <st>stable</st>
+ <l>see LICENSE</l>
+ <m>valyala</m>
+ <s>big_int library provides a set of functions for calculations with arbitrary length integers and bitsets</s>
+ <d>Functions from this package are useful for number theory
+applications. For example, in two-keys cryptography.
+
+See /tests/RSA.php in the package for example of simple
+implementation of RSA-like cryptoalgorithm.
+See http://pear.php.net/packages/Crypt_RSA/ project for
+more complex implementation of RSA-like crypto, which
+supports key generating, encrypting/decrypting, generating
+and validating of digital sign.
+
+The package has many bitset functions, which allow to work
+with arbitrary length bitsets.
+
+This package is much faster than bundled into PHP BCMath
+and consists almost all functions, which are implemented
+in PHP GMP extension, but it needn't any external libraries.
+</d>
+ <da>2005-05-30 08:18:48</da>
+ <n>+ improved memory management in big_int library (see big_int_create() and big_int_realloc() functions)
+* fixed bug int big_int_or(), big_int_add(), big_int_xor() and big_int_andnot(). These functions returns wrong result if start position != 0
+* fixed bug in big_int_rand() function. Sometimes it returns unexpected (negative) numbers
+* fixed number overflow bug in big_int_create() and big_int_realloc() functions
+* fixed compilation bug under FreeBSD 4 (it doesn't have ANSI C99 stdint.h header file) ( thanks to HitMan http://webpark.ru )
+* fixed compilation bug under unix, which fails building bundled into PHP package
+* windows-style carriage returns \r\n replaced by unix-style \n in all files, except MSVC-related *.dsp, *.dsw, *.sln &amp; *.vcproj</n>
+ <f>48248</f>
+ <g>http://pecl.php.net/get/big_int-1.0.7</g>
+ <x xlink:href="package.1.0.7.xml"/>
+</r>

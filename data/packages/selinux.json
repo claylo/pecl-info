@@ -1,0 +1,84 @@
+{
+    "category": "Security",
+    "deprecated": false,
+    "description": "This extension provides a set of interfaces to communicate between\n    SELinux and PHP script language. It contains functions to get/set\n    security context of processes and other objects, to get/set system\n    booleans, to make a query for in-kernel security server and so on.",
+    "latestReleaseDate": "2021-12-23T08:25:57+00:00",
+    "latestVersion": "0.6.0",
+    "license": "PHP License",
+    "name": "selinux",
+    "php8Mentioned": true,
+    "releases": {
+        "0.6.0": {
+            "version": "0.6.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2021-12-23T08:25:57+00:00",
+            "releaseNotes": "- add type hinting with PHP 8",
+            "get": "https://pecl.php.net/get/selinux-0.6.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.5.0": {
+            "version": "0.5.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2020-04-22T14:03:26+00:00",
+            "releaseNotes": "- drop support for PHP 5\n- preliminary support for PHP 8",
+            "get": "https://pecl.php.net/get/selinux-0.5.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.4.2": {
+            "version": "0.4.2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2018-08-20T12:46:25+00:00",
+            "releaseNotes": "- missing libselinux in link command\n- The selinux_deny_unknown() was added\n- PHP 7 compatibility (Remi)\n- fix build woth libselinux 2.0 (RHEL-6)",
+            "get": "http://pecl.php.net/get/selinux-0.4.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.4.1": {
+            "version": "0.4.1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2015-05-24T05:48:21+00:00",
+            "releaseNotes": "- The \"permissive\" tag was added to selinux_compute_av\n- The selinux_deny_unknown() was added\n- PHP 7 compatibility (Remi)\n- fix build woth libselinux 2.0 (RHEL-6)",
+            "get": "http://pecl.php.net/get/selinux-0.4.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.3.1": {
+            "version": "0.3.1",
+            "state": "devel",
+            "license": "PHP License",
+            "releasedBy": "kaigai",
+            "releaseDate": "2009-04-15T20:06:18+00:00",
+            "releaseNotes": "- The \"permissive\" tag was added to selinux_compute_av\n- The selinux_deny_unknown() was added",
+            "get": "http://pecl.php.net/get/selinux-0.3.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.1": {
+            "version": "0.2.1",
+            "state": "devel",
+            "license": "PHP License",
+            "releasedBy": "kaigai",
+            "releaseDate": "2009-03-12T02:17:56+00:00",
+            "releaseNotes": "- Specfile to build RPM package is added.",
+            "get": "http://pecl.php.net/get/selinux-0.2.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.2": {
+            "version": "0.1.2",
+            "state": "devel",
+            "license": "PHP License",
+            "releasedBy": "kaigai",
+            "releaseDate": "2009-03-02T20:10:48+00:00",
+            "releaseNotes": "- The initial release of SELinux binding for PHP script language.",
+            "get": "http://pecl.php.net/get/selinux-0.1.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "SELinux binding for PHP script language",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

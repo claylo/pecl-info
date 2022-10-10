@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pdo_sqlsrv">pdo_sqlsrv</p>
+ <c>pecl.php.net</c>
+ <v>5.2.0RC</v>
+ <st>devel</st>
+ <l>The MIT License (MIT)</l>
+ <m>mbar</m>
+ <s>Microsoft Drivers for PHP for SQL Server (PDO_SQLSRV)</s>
+ <d>The Microsoft Drivers for PHP for SQL Server are PHP extensions that allow for the reading and writing of SQL Server data from within PHP scripts. The SQLSRV extension provides a procedural interface while the PDO_SQLSRV extension implements PDO for accessing data in all editions of SQL Server 2005 and later (including Azure SQL DB). These drivers rely on the Microsoft ODBC Driver for SQL Server to handle the low-level communication with SQL Server.
+*This package contains only the PDO_SQLSRV driver.*</d>
+ <da>2017-12-20 20:32:08</da>
+ <n>[Added]
+- Azure Active Directory Authentication with ActiveDirectoryPassword and SqlPassword
+[Fixed]
+- Fixed output parameter returning garbage when the parameter is initialized to a type that is different from the output type (issue #378)
+- Fixed incorrectly binding of unicode parameter when emulate prepare is on and the encoding is set at the statement level (issue #92)
+- Fixed binary column binding when emulate prepare is on (issue #140)
+[Known Issues]
+- User defined data types and SQL_VARIANT ([issue #127]
+- When pooling is enabled in Linux or MAC
+  - unixODBC 2.3.1 (Linux) and unixODBC 2.3.4 (MAC) might not return proper diagnostics information, such as error messages, warnings and informative messages
+  - due to this unixODBC bug, fetch large data (such as xml, binary) as streams as a workaround. See the examples (https://github.com/Microsoft/msphpsql/wiki/Connection-Pooling-on-Linux-and-Mac)</n>
+ <f>165931</f>
+ <g>http://pecl.php.net/get/pdo_sqlsrv-5.2.0RC</g>
+ <x xlink:href="package.5.2.0RC.xml"/>
+</r>

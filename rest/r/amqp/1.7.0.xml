@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/amqp">amqp</p>
+ <c>pecl.php.net</c>
+ <v>1.7.0</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>lstrojny</m>
+ <s>Communicate with any AMQP compliant server</s>
+ <d>This extension can communicate with any AMQP spec 0-9-1 compatible server, such as RabbitMQ, OpenAMQP and Qpid, giving you the ability to create and delete exchanges and queues, as well as publish to any exchange and consume from any queue.</d>
+ <da>2016-04-26 14:01:30</da>
+ <n>* Add PHP7 support (Bogdan Padalko, Steffen Hanikel)
+* Add AMQPEnvelope::hasHeader(), AMQPExchange::hasArgument() and AMQPQueue::hasArgument() to check whether specific header exists (Bogdan Padalko)
+* Fix AMQPConnection::setPort() writes to wrong property (Bogdan Padalko)
+* Add compiled librabbitmq version early check (Bogdan Padalko)
+* Fix segfault when channel zval type != IS_OBJECT (Bogdan Padalko)
+* Fix API breakage when rabbitmq-c &lt; 0.6.0 used (Bogdan Padalko)
+* Close connection on library errors (Bogdan Padalko)
+* Do not store connection resource ID string (Bogdan Padalko)
+* Explicitly cleanup references on connection on cleanup (Bogdan Padalko)
+* Show effective connection values when connection is active and passed values otherwise (Bogdad Padalko)
+* Completely move to zend object custom objects (AMQPEnvelope, AMQPExchange and AMQPQueue) (Bogdan Padalko)
+* Use zend object on custom objects for properties storing (AMQPConnection and AMQPChannel) (Bogdan Padalko)
+* Fix not properly deleted connection resource. (Bogdan Padalko, Steffen Hanikel)
+* Fix not properly allocated and freed amqp_table_t arguments table memory. (Bogdan Padalko, Steffen Hanikel)
+* Upgrade vagrant box to Ubuntu 15.10 Wily Werwof (Bogdan Padalko)
+* Fix various grammar and spelling mistakes (Artem Gordinsky)
+* Update stubs (Sascha-Oliver Prolic)
+
+For a complete list of changes see:
+https://github.com/pdezwart/php-amqp/compare/v1.6.0...v1.7.0</n>
+ <f>79665</f>
+ <g>http://pecl.php.net/get/amqp-1.7.0</g>
+ <x xlink:href="package.1.7.0.xml"/>
+</r>

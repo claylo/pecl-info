@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mysqlnd_ms">mysqlnd_ms</p>
+ <c>pecl.php.net</c>
+ <v>1.6.0</v>
+ <st>alpha</st>
+ <l>PHP License</l>
+ <m>johannes</m>
+ <s>A replication and load balancing plugin for mysqlnd</s>
+ <d>The mysqlnd_ms replication and load balancing plugin can be used with PHP MySQL extensions (ext/mysql, ext/mysqli, ext/pdo_mysql) if they are compiled to use mysqlnd. The plugin inspects queries and does read-write splitting. Read-only queries are sent to MySQL replication slave servers while all other queries are redirected to the MySQL replication master server. Very few, if any, application changes are required, depending on the usage scenario.</d>
+ <da>2013-09-26 12:22:39</da>
+ <n>Add initial MySQL Fabric support and automatic retry for transient errors</n>
+ <f>410453</f>
+ <g>http://pecl.php.net/get/mysqlnd_ms-1.6.0</g>
+ <x xlink:href="package.1.6.0.xml"/>
+</r>

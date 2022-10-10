@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ingres">ingres</p>
+ <c>pecl.php.net</c>
+ <v>2.1.0</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>grant</m>
+ <s>Extension for the Ingres Relational Database System.</s>
+ <d>This extension supports the Ingres Relational Database System.</d>
+ <da>2009-02-27 07:10:09</da>
+ <n>This is a minor release that introduces the following new functionality:
+    - Add ingres.fetch_buffer_size to configure to the number of rows ingres_query() will fetch.
+    - Add ingres_charset() to fetch the installation II_CHARSETxx value
+    - Add ingres.describe ini setting to allow disabling of DESCRIBE INPUT if desired
+    - Add support for DESCRIBE INPUT
+    - Add ingres_escape_string()
+    - Add ingres_result_seek() to support row positioning</n>
+ <f>73835</f>
+ <g>http://pecl.php.net/get/ingres-2.1.0</g>
+ <x xlink:href="package.2.1.0.xml"/>
+</r>

@@ -1,0 +1,158 @@
+{
+    "5.10.1": {
+        "version": "5.10.1",
+        "state": "stable"
+    },
+    "5.10.0": {
+        "version": "5.10.0",
+        "state": "stable"
+    },
+    "5.10.0beta2": {
+        "version": "5.10.0beta2",
+        "state": "beta"
+    },
+    "5.10.0beta1": {
+        "version": "5.10.0beta1",
+        "state": "beta"
+    },
+    "5.9.0": {
+        "version": "5.9.0",
+        "state": "stable"
+    },
+    "5.9.0beta2": {
+        "version": "5.9.0beta2",
+        "state": "beta"
+    },
+    "5.9.0preview1": {
+        "version": "5.9.0preview1",
+        "state": "devel"
+    },
+    "5.8.1": {
+        "version": "5.8.1",
+        "state": "stable"
+    },
+    "5.8.0": {
+        "version": "5.8.0",
+        "state": "stable"
+    },
+    "5.7.1preview": {
+        "version": "5.7.1preview",
+        "state": "devel"
+    },
+    "5.7.0preview": {
+        "version": "5.7.0preview",
+        "state": "devel"
+    },
+    "5.6.1": {
+        "version": "5.6.1",
+        "state": "stable"
+    },
+    "5.6.0": {
+        "version": "5.6.0",
+        "state": "stable"
+    },
+    "5.5.0preview": {
+        "version": "5.5.0preview",
+        "state": "devel"
+    },
+    "5.4.0preview": {
+        "version": "5.4.0preview",
+        "state": "devel"
+    },
+    "5.3.0": {
+        "version": "5.3.0",
+        "state": "stable"
+    },
+    "5.2.1preview": {
+        "version": "5.2.1preview",
+        "state": "devel"
+    },
+    "5.2.0": {
+        "version": "5.2.0",
+        "state": "stable"
+    },
+    "5.2.0RC1": {
+        "version": "5.2.0RC1",
+        "state": "devel"
+    },
+    "5.2.0RC": {
+        "version": "5.2.0RC",
+        "state": "devel"
+    },
+    "5.1.2preview": {
+        "version": "5.1.2preview",
+        "state": "devel"
+    },
+    "5.1.1preview": {
+        "version": "5.1.1preview",
+        "state": "devel"
+    },
+    "5.1.0preview": {
+        "version": "5.1.0preview",
+        "state": "devel"
+    },
+    "5.0.0preview": {
+        "version": "5.0.0preview",
+        "state": "devel"
+    },
+    "4.3.0": {
+        "version": "4.3.0",
+        "state": "stable"
+    },
+    "4.3.0RC1": {
+        "version": "4.3.0RC1",
+        "state": "devel"
+    },
+    "4.2.0preview": {
+        "version": "4.2.0preview",
+        "state": "devel"
+    },
+    "4.1.9preview": {
+        "version": "4.1.9preview",
+        "state": "devel"
+    },
+    "4.1.8preview": {
+        "version": "4.1.8preview",
+        "state": "devel"
+    },
+    "4.1.7preview": {
+        "version": "4.1.7preview",
+        "state": "devel"
+    },
+    "4.1.6.1": {
+        "version": "4.1.6.1",
+        "state": "devel"
+    },
+    "4.1.6": {
+        "version": "4.1.6",
+        "state": "devel"
+    },
+    "4.0.8": {
+        "version": "4.0.8",
+        "state": "stable"
+    },
+    "4.0.7": {
+        "version": "4.0.7",
+        "state": "devel"
+    },
+    "4.0.6": {
+        "version": "4.0.6",
+        "state": "devel"
+    },
+    "4.0.5": {
+        "version": "4.0.5",
+        "state": "devel"
+    },
+    "4.0.4": {
+        "version": "4.0.4",
+        "state": "devel"
+    },
+    "3.0.1": {
+        "version": "3.0.1",
+        "state": "stable"
+    },
+    "2.0.1": {
+        "version": "2.0.1",
+        "state": "stable"
+    }
+}

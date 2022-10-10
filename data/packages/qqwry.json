@@ -1,0 +1,24 @@
+{
+    "category": "File Formats",
+    "deprecated": false,
+    "description": "QQWry is a file that contains IP geo locations information. This ext can be used to look for the geo locations in the QQWry file with IPs",
+    "latestReleaseDate": "2008-11-25T09:08:50+00:00",
+    "latestVersion": "0.1.0",
+    "license": "New BSD",
+    "name": "qqwry",
+    "php8Mentioned": false,
+    "releases": {
+        "0.1.0": {
+            "version": "0.1.0",
+            "state": "beta",
+            "license": "New BSD",
+            "releasedBy": "surfchen",
+            "releaseDate": "2008-11-25T09:08:50+00:00",
+            "releaseNotes": "Initial release.",
+            "get": "http://pecl.php.net/get/qqwry-0.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "Get IP location from QQWry file",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/excimer">excimer</p>
+ <c>pecl.php.net</c>
+ <v>1.0.3</v>
+ <st>stable</st>
+ <l>Apache 2.0</l>
+ <m>krinkle</m>
+ <s>Interrupting timer and low-overhead sampling profiler</s>
+ <d>Calls a user-defined callback when a one-shot or periodic timer expires. Also a sampling profiler backend, which aggregates backtraces collected by a periodic timer.</d>
+ <da>2022-05-04 13:47:39</da>
+ <n>- Set return type on ExcimerLog::aggregateByFunction
+- Set return type on ExcimerProfiler::getLog</n>
+ <f>27632</f>
+ <g>https://pecl.php.net/get/excimer-1.0.3</g>
+ <x xlink:href="package.1.0.3.xml"/>
+</r>

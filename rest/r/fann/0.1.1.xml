@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/fann">fann</p>
+ <c>pecl.php.net</c>
+ <v>0.1.1</v>
+ <st>devel</st>
+ <l>PHP</l>
+ <m>enemerson</m>
+ <s>Artificial neural networks</s>
+ <d>Fann (fast artificial neural network library) implements multilayer
+feedforward networks with support for both fully connected and sparse
+connected networks.
+</d>
+ <da>2004-06-17 05:13:00</da>
+ <n>Fix all known bugs, supporting fann-1.1.0</n>
+ <f>9509</f>
+ <g>http://pecl.php.net/get/fann-0.1.1</g>
+ <x xlink:href="package.0.1.1.xml"/>
+</r>

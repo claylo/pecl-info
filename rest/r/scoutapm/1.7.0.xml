@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/scoutapm">scoutapm</p>
+ <c>pecl.php.net</c>
+ <v>1.7.0</v>
+ <st>stable</st>
+ <l>MIT</l>
+ <m>asgrim</m>
+ <s>Native Extension Component for ScoutAPM's PHP Agent</s>
+ <d>ScoutAPM's extension for PHP provides additional capabilities to application monitoring over just using the base PHP userland library.</d>
+ <da>2022-04-21 09:23:26</da>
+ <n>- Pinned Elasticsearch to ^7.0 as ^8.0 has major BC breaks (#105)
+- Elasticsearch 8 support (#106)
+- Added release automation (#103)</n>
+ <f>27581</f>
+ <g>https://pecl.php.net/get/scoutapm-1.7.0</g>
+ <x xlink:href="package.1.7.0.xml"/>
+</r>

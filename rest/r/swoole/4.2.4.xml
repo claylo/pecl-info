@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.2.4</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+- event-driven
+- asynchronous non-blocking
+- multi-thread reactor
+- multi-process worker
+- multi-protocol
+- millisecond timer
+- async mysql client
+- built-in http/websocket/http2 server
+- async http/websocket client
+- async redis client
+- async task
+- async read/write file system
+- async dns lookup
+- support IPv4/IPv6/UnixSocket/TCP/UDP
+- support SSL/TLS encrypted transmission</d>
+ <da>2018-10-26 12:30:20</da>
+ <n>+ Refactor HTTP2 client, fix disconnection reconnection problem, fix cookie problem
++ Added coroutine binding detection and friendly error prompts
++ Runtime stream hook adds error_text support
+* Increase asynchronous redis callback function type detection
+* Fixed http client unable to execute other requests after using the download API
+* Fixed `swoole_http_response-&gt;detach` cross-function memory error
+* Fixed coroutine PDO connection abnormal disconnection
+* parameter parsing errors return FALSE (instead of null)
+* Fixed `Exception` loss after coroutine switchover
+* Fixed `task_max_request` does not work
+* Optimize MySQL response packet integrity detection
+* Fix coroutine flock deadlock problem
+* Fixed the error that the underlying swoole_buffer did not release the object
+* Fixed bugs caused by multiple `Content-Length` headers
+* Enhanced zval type check, defensive programming
+* Fixed the bug of the HTTP coroutine client setData using the object (stream), refactoring the properties parser of the HTTP coroutine
+* openssl error cleanup optimization
+* `co::fread` optimized for fseek and non-normal file reading
+* swoole_server TCP and UDP mode separation
+* Fixed the problem caused by passing invalid parameters when creating a server
+* Fixed the bug by `addProcess` in BASE mode
+* Fixed the problem that the task process uses `reload_async` (asynchronous safe restart feature)
+* Improve `package_eof` illegal empty string check
+- Remove code for deprecated multi-threaded mode</n>
+ <f>1134805</f>
+ <g>http://pecl.php.net/get/swoole-4.2.4</g>
+ <x xlink:href="package.4.2.4.xml"/>
+</r>

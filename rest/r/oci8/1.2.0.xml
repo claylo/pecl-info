@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/oci8">oci8</p>
+ <c>pecl.php.net</c>
+ <v>1.2.0</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>tony2001</m>
+ <s>OCI8 functions</s>
+ <d>These functions allow you to access Oracle database servers using 
+the Oracle Call Interface (OCI8).
+ 
+</d>
+ <da>2006-03-16 02:35:35</da>
+ <n>Changed OCI8 code to use OCIServerVersion() instead of OCIPing(), which may crash Oracle server of version &lt; 10.2
+Fixed bug #36235 (ocicolumnname returns false before a succesfull fetch)
+Fixed bug #36096 (oci_result() returns garbage after oci_fetch() failed)
+Fixed bug #36055 (possible OCI8 crash in multithreaded environment)
+Fixed bug #36010 (Segfault when re-creating and re-executing statements with bound parameters)
+Fixed PECL bug #5571 (oci_new_connect() not closed by oci_close())
+Fixed bug #33383 (crash when retrieving empty BLOBs)</n>
+ <f>63305</f>
+ <g>http://pecl.php.net/get/oci8-1.2.0</g>
+ <x xlink:href="package.1.2.0.xml"/>
+</r>

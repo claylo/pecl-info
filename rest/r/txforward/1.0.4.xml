@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/txforward">txforward</p>
+ <c>pecl.php.net</c>
+ <v>1.0.4</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>fcartegnie</m>
+ <s>Reverse Proxy (web accelerator) PHP compatibility layer</s>
+ <d>Makes reverse-proxing (web accelerator) totally invisible for php applications. Doesn't require php code modifications to handle X-Forwarded-IP.
+* Stills allows proxy-aware applications to work with X-Forwarded headers and proxy IP address.
+* Should work with any web server
+* Should work with any proxy server
+
+Using this extension with on a non reverse proxied system will result in a security issue.</d>
+ <da>2008-11-30 13:53:13</da>
+ <n>pecl channel fix</n>
+ <f>4178</f>
+ <g>http://pecl.php.net/get/txforward-1.0.4</g>
+ <x xlink:href="package.1.0.4.xml"/>
+</r>

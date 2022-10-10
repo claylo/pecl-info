@@ -1,0 +1,94 @@
+{
+    "category": "Benchmarking",
+    "deprecated": false,
+    "description": "Memprof is a fast and accurate memory profiler that can be used to find the cause of memory leaks in PHP applications.",
+    "latestReleaseDate": "2022-01-07T14:28:30+00:00",
+    "latestVersion": "3.0.2",
+    "license": "BSD",
+    "name": "memprof",
+    "php8Mentioned": true,
+    "releases": {
+        "3.0.2": {
+            "version": "3.0.2",
+            "state": "stable",
+            "license": "BSD",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2022-01-07T14:28:30+00:00",
+            "releaseNotes": "## Improvements\n- PHP 8.1 support (@remicollet)\n- Added parameter types and return types (@remicollet)\n- dump_on_limit: Append the profile filename to the \"Allowed memory size of %d\n  bytes exhausted\" error message (@arnaud-lb)\n- Added memprof_version() function (@arnaud-lb)\n\n## Bugfixes\n- Fixed compatibility issue with xdebug (@arnaud-lb)",
+            "get": "https://pecl.php.net/get/memprof-3.0.2",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "3.0.1": {
+            "version": "3.0.1",
+            "state": "stable",
+            "license": "BSD",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2021-07-02T12:25:42+00:00",
+            "releaseNotes": "* Fix build",
+            "get": "https://pecl.php.net/get/memprof-3.0.1",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "3.0.0": {
+            "version": "3.0.0",
+            "state": "stable",
+            "license": "BSD",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2021-03-29T15:44:02+00:00",
+            "releaseNotes": "* Added ability to dump profile when the memory limit is exceeded\n* Profiling of non-php allocations is disabled by default (can be enabled at runtime)",
+            "get": "https://pecl.php.net/get/memprof-3.0.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "2.1.2": {
+            "version": "2.1.2",
+            "state": "stable",
+            "license": "BSD",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2020-11-19T11:15:39+00:00",
+            "releaseNotes": "* Updated minimal PHP version requirement to 7.1.0",
+            "get": "https://pecl.php.net/get/memprof-2.1.2",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "2.1.1": {
+            "version": "2.1.1",
+            "state": "stable",
+            "license": "BSD",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2020-11-18T13:56:17+00:00",
+            "releaseNotes": "* Fix crash on zend_pass_function",
+            "get": "https://pecl.php.net/get/memprof-2.1.1",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "2.1.0": {
+            "version": "2.1.0",
+            "state": "stable",
+            "license": "BSD",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2020-07-04T14:36:35+00:00",
+            "releaseNotes": "* Added a way to trigger profiling from the environment\n* Stability improvements",
+            "get": "https://pecl.php.net/get/memprof-2.1.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "2.0.0": {
+            "version": "2.0.0",
+            "state": "stable",
+            "license": "BSD",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2017-01-28T12:51:49+00:00",
+            "releaseNotes": "* PHP 7 version",
+            "get": "http://pecl.php.net/get/memprof-2.0.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable",
+            "license": "BSD",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2013-05-21T13:08:44+00:00",
+            "releaseNotes": "PECL release",
+            "get": "http://pecl.php.net/get/memprof-1.0.0",
+            "SPDX-License-Identifier": "MIT"
+        }
+    },
+    "summary": "Memory profiler",
+    "SPDX-License-Identifier": "MIT"
+}

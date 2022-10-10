@@ -59,6 +59,7 @@ jobs:
       - name: Prepend Repository semrel-exec directories to PATH
         run: |
           echo "$GITHUB_WORKSPACE/.github/semrel-exec" >> $GITHUB_PATH
+          echo "$GITHUB_WORKSPACE/bin" >> $GITHUB_PATH
 
       - name: Update GITHUB_ENV and set git global config
         run: |

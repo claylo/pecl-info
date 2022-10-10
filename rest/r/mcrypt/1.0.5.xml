@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mcrypt">mcrypt</p>
+ <c>pecl.php.net</c>
+ <v>1.0.5</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>derick</m>
+ <s>Bindings for the libmcrypt library</s>
+ <d>Provides bindings for the unmaintained libmcrypt.</d>
+ <da>2022-05-23 10:41:11</da>
+ <n>- Make release to advertise PHP 8 support, which it already had.</n>
+ <f>27056</f>
+ <g>https://pecl.php.net/get/mcrypt-1.0.5</g>
+ <x xlink:href="package.1.0.5.xml"/>
+</r>

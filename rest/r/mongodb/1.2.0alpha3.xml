@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.2.0alpha3</v>
+ <st>alpha</st>
+ <l>Apache License</l>
+ <m>jmikola</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundemental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2016-09-21 21:22:35</da>
+ <n>** Bug
+    * [PHPC-794] - BulkWrite::update() silently ignores invalid arguments
+
+** Improvement
+    * [PHPC-424] - Validate that read preference tag set is an array of documents
+    * [PHPC-705] - Do not unnecessarily wrap filters in $query
+
+** New Feature
+    * [PHPC-498] - ReadPreference, ReadConcern, and WriteConcern should serialize to BSON
+    * [PHPC-734] - Support providing collation per operation
+    * [PHPC-752] - Allow users to set a limit on acceptable staleness
+
+** Task
+    * [PHPC-783] - Use mongoc_collection_find_with_opts() for Query execution
+    * [PHPC-796] - Use flexible opts for BulkWrite update and delete</n>
+ <f>841402</f>
+ <g>http://pecl.php.net/get/mongodb-1.2.0alpha3</g>
+ <x xlink:href="package.1.2.0alpha3.xml"/>
+</r>

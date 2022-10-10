@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xdebug">xdebug</p>
+ <c>pecl.php.net</c>
+ <v>2.0.0beta2</v>
+ <st>beta</st>
+ <l>BSD style</l>
+ <m>derick</m>
+ <s>Provides functions for function traces and profiling</s>
+ <d>The Xdebug extension helps you debugging your script by providing a lot of
+valuable debug information. The debug information that Xdebug can provide
+includes the following:
+
+    * stack and function traces in error messages with:
+          o full parameter display for user defined functions
+          o function name, file name and line indications
+          o support for member functions
+    * memory allocation
+    * protection for infinite recursions
+
+Xdebug also provides:
+
+    * profiling information for PHP scripts
+    * script execution analysis
+    * capabilities to debug your scripts interactively with a debug client
+</d>
+ <da>2004-11-28 22:19:00</da>
+ <n>+ Added new features:
+	- DBGP: Added error messages to returned errors (in most cases)
+  
++ Added new functions:
+	- Added a function &quot;xdebug_debug_zval&quot; to debug zvals by printing its
+	  refcounts and is_ref values.
+  
+= Changed features:
+	- xdebug_code_coverage_stop() will now clean up the code coverage array,
+	  unless you specify FALSE as parameter.
+	- The proper Xdebug type is &quot;hash&quot; for associative arrays.
+	- Extended the code-coverage functionality by returning lines with
+	  executable code on them, but where not executed with a count value of -1.
+
+= Fixed bugs:
+	- DBGP: Make property_get and property_value finally work as they should,
+	  including retrieving information from different depths then the most top
+	  stack frame.
+	- DBGP: Fix eval'ed $varnames in property_get.
+	- DBGP: Support the -d option for property_get.
+	- Fixed the exit handler hook to use the new &quot;5.1&quot; way of handling it;
+	  which fortunately also works with PHP 5.0.
+	- Fixed bug #102: Problems with configure for automake 1.8.
+	- Fixed bug #101: crash with set_exeception_handler() and uncatched exceptions.
+	- Fixed bug #99: unset variables return the name as a string with property_get.
+	- Fixed bug #98: 'longname' attribute not returned for unintialized
+	  property in context_get request.
+	- Fixed bug #94: xdebug_sprintf misbehaves with x86_64/glibc-2.3.3
+	- Fixed bug #93: Crash in lookup_hostname on x86_64
+	- Fixed bug #92: xdebug_disable() doesn't disable the exception handler.
+	- Fixed bug #68: Summary not written when script ended with &quot;exit()&quot;.</n>
+ <f>195568</f>
+ <g>http://pecl.php.net/get/xdebug-2.0.0beta2</g>
+ <x xlink:href="package.2.0.0beta2.xml"/>
+</r>

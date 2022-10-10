@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/nsq">nsq</p>
+ <c>pecl.php.net</c>
+ <v>2.3.2</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>rick</m>
+ <s>PHP extension for NSQ client</s>
+ <d>This extension is a NSQ client .NSQ is a message queue system which like Kafka .</d>
+ <da>2018-03-22 12:01:46</da>
+ <n>* Add function which use of  pub connection close
+* Fix sub coredump
+* pecl init</n>
+ <f>16312</f>
+ <g>http://pecl.php.net/get/nsq-2.3.2</g>
+ <x xlink:href="package.2.3.2.xml"/>
+</r>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.36.0</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>sammyk</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2019-12-19 14:18:59</da>
+ <n>**Note** environment variable `DD_SAMPLING_RATE` as been deprecated. Use `DD_TRACE_SAMPLE_RATE` instead.
+
+### Added
+
+- Close open sandboxed spans on exit on PHP 7 #679
+- Support for tracing without limits #686
+- Add extra info to curl errors #688
+
+### Changed
+
+- Enable Sandboxed Symfony Integration #682
+- Migrate Mongo library integration to sandboxed api #669
+- Rename env DD_SAMPLING_RATE to DD_TRACE_SAMPLE_RATE #687</n>
+ <f>176164</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.36.0</g>
+ <x xlink:href="package.0.36.0.xml"/>
+</r>

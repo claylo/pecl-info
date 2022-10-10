@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ast">ast</p>
+ <c>pecl.php.net</c>
+ <v>1.0.6</v>
+ <st>stable</st>
+ <l>BSD-3-Clause</l>
+ <m>tandre</m>
+ <s>Extension exposing PHP 7 abstract syntax tree</s>
+ <d>php-ast exports the AST internally used by PHP 7.
+     php-ast is significantly faster than PHP-Parser, because the AST construction is implemented in C.
+     However, php-ast may only parse code that is syntactically valid on the version of PHP it runs on.</d>
+ <da>2020-02-22 18:01:32</da>
+ <n>- Support TYPE_STATIC for the php 8.0 static return type.</n>
+ <f>41041</f>
+ <g>https://pecl.php.net/get/ast-1.0.6</g>
+ <x xlink:href="package.1.0.6.xml"/>
+</r>

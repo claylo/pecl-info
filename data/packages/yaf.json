@@ -1,0 +1,634 @@
+{
+    "category": "System",
+    "deprecated": false,
+    "description": "Yaf is a PHP framework similar to zend framework, which is written in c and built as PHP extension",
+    "latestReleaseDate": "2022-05-20T02:36:03+00:00",
+    "latestVersion": "3.3.5",
+    "license": "PHP",
+    "name": "yaf",
+    "php8Mentioned": true,
+    "releases": {
+        "3.3.5": {
+            "version": "3.3.5",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2022-05-20T02:36:03+00:00",
+            "releaseNotes": "- Fixed ISSUE #566 (bootstrap method named \"_init\" is not be called)\n- Fixed ISSUE #569 (Yaf_Application::getInstance is not static)\n- Fixed ISSUE #570 (call_args parsing error in static_route)\n- Fixed ISSUE #571 (Yaf_Request::setController failed if format arg is false)",
+            "get": "https://pecl.php.net/get/yaf-3.3.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.3.4": {
+            "version": "3.3.4",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2021-12-16T04:11:08+00:00",
+            "releaseNotes": "- Fixed build with PHP8.1\n- change to using stub.php generated arginfos",
+            "get": "https://pecl.php.net/get/yaf-3.3.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.3.3": {
+            "version": "3.3.3",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2021-07-01T05:42:05+00:00",
+            "releaseNotes": "- Fixed issue #546 (Segfault due to get_gc handler changed)\n- Use interned strings\n- Fixed Issue #545 segfault in yaf_route_simple::construct\n- Optimized Yaf_Route_Map::route",
+            "get": "https://pecl.php.net/get/yaf-3.3.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.3.2": {
+            "version": "3.3.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2021-03-05T04:52:15+00:00",
+            "releaseNotes": "- Fixed Memory leak in yaf_loader\n- Fixed issue #537 (segfault in macos with 4 bytes length controller name)\n- Fixed issue #536 (application.bootstrap not used)",
+            "get": "https://pecl.php.net/get/yaf-3.3.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.3.1": {
+            "version": "3.3.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2021-02-20T09:17:11+00:00",
+            "releaseNotes": "- Fixed Issue #535 (segfault due to double free on platform without alloca)\n- Fixed issue #530 (segfault while exiting in action)",
+            "get": "https://pecl.php.net/get/yaf-3.3.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.3.0": {
+            "version": "3.3.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2021-01-06T05:05:28+00:00",
+            "releaseNotes": "- PHP8 Supported\n- Fixed issue #508 (Route::addConfig take action as module wrongly)\n- Fixed issue #509 (getViewpath return NULL)\n- Fixed issue #513 (supports of custom camel MVC name)\n- Fixed issue #518 (setRediect not working)",
+            "get": "https://pecl.php.net/get/yaf-3.3.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.2.5": {
+            "version": "3.2.5",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2020-06-11T08:36:50+00:00",
+            "releaseNotes": "- Fixed issue #492 (init method could be protected)\n- Fixed issue #492 (plugins maybe changed in controller execution)\n- Fixed issue #492 (empty names shoud not be set to request)\n- Fixed cow_violation conflicts",
+            "get": "https://pecl.php.net/get/yaf-3.2.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.2.4": {
+            "version": "3.2.4",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2020-06-04T10:00:48+00:00",
+            "releaseNotes": "- Fixed issue #489 (global library is not used if namespace is not set)\n- Fixed issue #490 (segfault with repeated call arguments)",
+            "get": "https://pecl.php.net/get/yaf-3.2.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.2.3": {
+            "version": "3.2.3",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2020-05-15T14:50:45+00:00",
+            "releaseNotes": "- Fixed issue #482 (segfault if plugin doesn't defines all hooks)\n- Fixed issue #481 (application.system.yaf.directory has no effect)",
+            "get": "https://pecl.php.net/get/yaf-3.2.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.2.2": {
+            "version": "3.2.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2020-05-11T09:48:08+00:00",
+            "releaseNotes": "- Added Yaf_Dispatcher::setResponse\n- Removed FINAL flags of Yaf_Request_*, Yaf_Response_*\n- Fixed bug that ErrorController doesn't respect returnResponse",
+            "get": "https://pecl.php.net/get/yaf-3.2.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.2.1": {
+            "version": "3.2.1",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2020-04-20T08:57:21+00:00",
+            "releaseNotes": "- Fixed Namespace resgister unexpected overridden\n- Fixed yaf_slip_equal fails on 4-bytes string\n- Added Yaf_Dispatcher::getResponse()",
+            "get": "https://pecl.php.net/get/yaf-3.2.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.2.0": {
+            "version": "3.2.0",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2020-04-18T14:11:16+00:00",
+            "releaseNotes": "- Refactor core data structs for performance, 20% speed up according to demo created by tool/cg/yaf_cg\n- Implemented PSR-4 autoloading, user now can specific a path for a namespace by Yaf_Loader::registerNamespace(name, path)\n- Added Yaf_Loader::registerNamespace(), Yaf_Loader::getNamespaces(), Yaf_Loader::getNamespacePath()\n- Added Yaf_Request::clearParams()\n- Added Yaf_Controller::getName(), Yaf_Action::getControllerName()\n- Added Yaf_Dispatcher::getDefaultModule(), Yaf_Dispatcher::getDefaultController() and Yaf_Dispatcher::getDefaultAction()\n- Added Yaf_Application::getInstance(), which is alias of Yaf_Application:app()\n- Added optional $format_name argument to Yaf_Request::setModule/Controller/actionName\n   if it set to false, Yaf will set original input as name,\n   default it true, which means Yaf will format the name(camel/lowercase) before set it to Request\n- Yaf_Controller::__construct now accpet no parameters, it now requires Yaf_Application is initialized.\n- Rmoved all lead underline for fake protected property name(examing by var_dump)\n- Fixed bug that protected method of Bootstrap get executed\n- Yaf_View_Simple is final class now, custom view engin should implements Yaf_View_Interface\n- Yaf_Route_* now routes valid Module/Controller/action name directly\n- Yaf_Controller action's arguments will be set even if there are gaps now (see test/issue420.phpt)",
+            "get": "https://pecl.php.net/get/yaf-3.2.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.1.4": {
+            "version": "3.1.4",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2020-04-01T07:07:12+00:00",
+            "releaseNotes": "- Fixed issue #469 (treat autocontroller as Controller mistakenly)\n- Fixed issue #468 (abort if same key assigned to view)\n- minor optimization to avoding memory allocations",
+            "get": "https://pecl.php.net/get/yaf-3.1.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.1.3": {
+            "version": "3.1.3",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2020-03-20T08:31:33+00:00",
+            "releaseNotes": "- Fixed issue #466 (segfault if getRequest without name)\n- Fixed bug (unexpected path too long error)\n- Fixed valgrind warning about access to uninitilized value while memcmp",
+            "get": "https://pecl.php.net/get/yaf-3.1.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.1.2": {
+            "version": "3.1.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2020-03-16T17:13:28+00:00",
+            "releaseNotes": "- Fixed bug (Yaf detecting base_uri failed)",
+            "get": "https://pecl.php.net/get/yaf-3.1.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.1.1": {
+            "version": "3.1.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2020-03-16T01:38:26+00:00",
+            "releaseNotes": "- Fixed memrchr missed in windows",
+            "get": "https://pecl.php.net/get/yaf-3.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.1.0": {
+            "version": "3.1.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2020-03-15T11:45:46+00:00",
+            "releaseNotes": "- Refactor Yaf_Loader for performance\n- Refactor lots of codes to avoiding memory allocation\n- Yaf_Loader::getNameSpaces() now return array instead of comma separated string\n- Yaf_Route_Rewrite now process multiple repeated bach slashes as one\n- Removed --enable-yaf-debug, now yaf allows user to moditify variables in $_POST etc \n- Fixed bug while stripping base_uri",
+            "get": "https://pecl.php.net/get/yaf-3.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.9": {
+            "version": "3.0.9",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2019-12-19T08:03:39+00:00",
+            "releaseNotes": "- Fixed build with PHP-7.4",
+            "get": "https://pecl.php.net/get/yaf-3.0.9",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.8": {
+            "version": "3.0.8",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2019-03-19T03:21:05+00:00",
+            "releaseNotes": "- Fixed build with PHP-7.3",
+            "get": "https://pecl.php.net/get/yaf-3.0.8",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.7": {
+            "version": "3.0.7",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2018-03-22T05:25:12+00:00",
+            "releaseNotes": "- Fixed issue #389 (segfault in debug mode while running with phpunit)",
+            "get": "http://pecl.php.net/get/yaf-3.0.7",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.6": {
+            "version": "3.0.6",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2017-12-31T04:18:46+00:00",
+            "releaseNotes": "- PHP-7.2 Support\n- Fixed assertion faile (potential unexpected write to immutable array)",
+            "get": "http://pecl.php.net/get/yaf-3.0.6",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.5": {
+            "version": "3.0.5",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2017-06-29T09:11:11+00:00",
+            "releaseNotes": "- PHP-7.2 Support\n- Fixed issue #360 (class not found in high traffice server)",
+            "get": "http://pecl.php.net/get/yaf-3.0.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.4": {
+            "version": "3.0.4",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2016-08-18T04:56:02+00:00",
+            "releaseNotes": "- Fixed bug wrong variables scope in tpl\n- Minor optimizations",
+            "get": "http://pecl.php.net/get/yaf-3.0.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.3": {
+            "version": "3.0.3",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2016-07-02T06:57:42+00:00",
+            "releaseNotes": "- Fixed issue #273 (segfault if stdclass passed to dispatch)\n- PHP-7.1 compatible fixes",
+            "get": "http://pecl.php.net/get/yaf-3.0.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.2": {
+            "version": "3.0.2",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2015-12-28T11:54:23+00:00",
+            "releaseNotes": "- Fixed issue #231 (php-fpm worker core dump BUG)\n- Attempt to fix issue #226 (Segfault on windows7 64bits)\n- Fixed issue #232 (segfault with Yaf_Route_Simple)",
+            "get": "http://pecl.php.net/get/yaf-3.0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.1": {
+            "version": "3.0.1",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2015-12-12T13:52:28+00:00",
+            "releaseNotes": "- Fixed auto_render bug\n- Fixed issue #220 (segfault on read_property)\n- Fixed bug of baseuri setting\n- Fixed issue #163 (forward from init controller)\n- Fixed Bug #70913 (Segfault while new Yaf_Controller)",
+            "get": "http://pecl.php.net/get/yaf-3.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.0": {
+            "version": "3.0.0",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2015-10-27T02:30:03+00:00",
+            "releaseNotes": "- Release Yaf for PHP7",
+            "get": "http://pecl.php.net/get/yaf-3.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.3.5": {
+            "version": "2.3.5",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2015-09-06T09:51:05+00:00",
+            "releaseNotes": "- Fixed bug (redirect doesn't work)",
+            "get": "http://pecl.php.net/get/yaf-2.3.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.3.4": {
+            "version": "2.3.4",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2015-08-13T08:47:25+00:00",
+            "releaseNotes": "- Fixed ISSUE #134\n- Fixed ISSUE #181\n- Fixed invalid read(segfault) with php-5.4\n- Fixed bug (Exception in preDispatch is not caught)",
+            "get": "http://pecl.php.net/get/yaf-2.3.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.3.3": {
+            "version": "2.3.3",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2014-10-22T09:59:13+00:00",
+            "releaseNotes": "- Fixed build with PHP-5.6",
+            "get": "http://pecl.php.net/get/yaf-2.3.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.3.2": {
+            "version": "2.3.2",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2014-01-09T01:07:24+00:00",
+            "releaseNotes": "- Fixed windows build\n- Changelog 2.3.0:\n  - Added Yaf_Response::setHeader, getHeahder, setAllHeader, clearHeaders Methods\n  - Added Yaf_Route::assemble. (Now you can assemble url via routes)\n  - Fixed Segfault if a empty application.directory is set",
+            "get": "http://pecl.php.net/get/yaf-2.3.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.3.1": {
+            "version": "2.3.1",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2014-01-08T08:51:06+00:00",
+            "releaseNotes": "- Fix package",
+            "get": "http://pecl.php.net/get/yaf-2.3.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.2.9": {
+            "version": "2.2.9",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2013-01-04T05:52:39+00:00",
+            "releaseNotes": "- Fixed bug #63900 (Segfault if separated action executes failed)\n- Fixed some compiler warnings (Remi)",
+            "get": "http://pecl.php.net/get/yaf-2.2.9",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.2.8": {
+            "version": "2.2.8",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2012-12-18T00:32:02+00:00",
+            "releaseNotes": "- Fixed bug that partial module name taken",
+            "get": "http://pecl.php.net/get/yaf-2.2.8",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.2.7": {
+            "version": "2.2.7",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2012-11-19T01:16:54+00:00",
+            "releaseNotes": "- Improve the templates directory handling\n- Fixed bug #63438 (Strange behavior with nested rendering)",
+            "get": "http://pecl.php.net/get/yaf-2.2.7",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.2.6": {
+            "version": "2.2.6",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2012-11-01T00:30:58+00:00",
+            "releaseNotes": "- Fixed bug #63381 ($_SERVER['SCRIPT_NAME'] changed by yaf)",
+            "get": "http://pecl.php.net/get/yaf-2.2.6",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.2.5": {
+            "version": "2.2.5",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2012-10-21T23:22:05+00:00",
+            "releaseNotes": "- Release stable version\n- Fixed bug empty template file interrupts forwarding chain\n- Add LICENSE file according to FR #63239",
+            "get": "http://pecl.php.net/get/yaf-2.2.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.2.4": {
+            "version": "2.2.4",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2012-10-07T22:26:03+00:00",
+            "releaseNotes": "- Improving warning info while failed opening template script\n- Fixed bug that $this is not Yaf_View_Simple in render method which was introduced in 2.2.3\n- Fixed memleak in Yaf_View_Simple::display()",
+            "get": "http://pecl.php.net/get/yaf-2.2.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.2.3": {
+            "version": "2.2.3",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2012-09-25T23:49:36+00:00",
+            "releaseNotes": "- Call autoRender, flushInstantly, returnResponse of Yaf_Dispatcher without args return current state now (Demon)\n- Fixed bug that Yaf_Application::environ is undefined on windows\n- Improve warning message while script can not be loaded",
+            "get": "http://pecl.php.net/get/yaf-2.2.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.2.2": {
+            "version": "2.2.2",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2012-09-13T22:41:32+00:00",
+            "releaseNotes": "- Yaf_Controller's methods are not final anymore\n- Yaf_View_Simple is not final anymore\n- Memleaks fixed in various place",
+            "get": "http://pecl.php.net/get/yaf-2.2.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.2.1": {
+            "version": "2.2.1",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2012-09-07T04:06:19+00:00",
+            "releaseNotes": "- (Repackage, previous one missed one fix)\n- Implemented Yaf_Response::setBody with key(which will make the layout easier to implement)\n- New method Yaf_View_Simple::eval, Yaf_View_Simple::clear\n- Support short open tag in view templates regardless of php.short_open_tag\n- Make Yaf_Autoload faster(30%)\n- Controller of default module can be autoloaded now\n- Single class can be local class now (previous is a design issue)\n- Performance improve in various place\n- Compatible with php5.5, which droped PHP logo guid\n- Fixed bug that Supervar should not respect the base_uri\n- Implemented FR #62702 (Make baseuri case-insensitive)\n- Implemented FR #62638 (Supports set yaf runtime configuration via application.ini)",
+            "get": "http://pecl.php.net/get/yaf-2.2.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.18": {
+            "version": "2.1.18",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2012-07-12T05:11:18+00:00",
+            "releaseNotes": "- Fixed bug that Yaf_View_Simple::eval doesn't accept short open tag\n- Fixed bug that Yaf_View_Simple::eval doesn't allow tpl be wrapped by PHP opening tag",
+            "get": "http://pecl.php.net/get/yaf-2.1.18",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.17": {
+            "version": "2.1.17",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2012-06-23T05:44:06+00:00",
+            "releaseNotes": "- Fixed bug config will not re-loaded even it was modified\n- Fixed bug segfault occurred if uncaught exception in Yaf_Controller::init\n- If action return false, dispatch loop will go on with no auto-renderring\n- Remove inline declarations (-fgnu-c89 on MacOS)",
+            "get": "http://pecl.php.net/get/yaf-2.1.17",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.16": {
+            "version": "2.1.16",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2012-05-21T02:13:40+00:00",
+            "releaseNotes": "- Fixed bug that if fatal error occurred in template, Yaf_View_Simple doesn't output the error message\n- Fixed bug that segv in Yaf_View_Simple::render if the tpl directory parameter is not a string\n- Fixed one invalid read in Yaf_Route_Static\n- Fixed bug that segv occurred while using a custom view engine\n- Fixed one memleak",
+            "get": "http://pecl.php.net/get/yaf-2.1.16",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.15": {
+            "version": "2.1.15",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2012-05-07T04:29:21+00:00",
+            "releaseNotes": "- Fixed typo variable name in static route(affect 2.1.14)",
+            "get": "http://pecl.php.net/get/yaf-2.1.15",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.14": {
+            "version": "2.1.14",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2012-05-05T00:06:57+00:00",
+            "releaseNotes": "- Fixed Bug that if no routes success router will throw exception(since 2.1.13 Yaf supports configure default route by application.ini)\n- Fixed Bug that 'foo/index' router result as c => index a => foo(affected 2.1.13)",
+            "get": "http://pecl.php.net/get/yaf-2.1.14",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.13": {
+            "version": "2.1.13",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2012-04-24T05:25:12+00:00",
+            "releaseNotes": "- Added Yaf_View_Simple::eval\n- Supported short_open_tag in Yaf_View_Simple\n- Fixed a potential segfault while alternately access two yaf application host in one machine\n- Improve the Yaf_Route_Static/Supervar::route logic\n- Fixed bug that 404 occurred if the request is prefix with more than one slash\n- Fixed bug that free NULL pointer in Yaf_Loader::registerLocalNameSpace",
+            "get": "http://pecl.php.net/get/yaf-2.1.13",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.12": {
+            "version": "2.1.12",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2012-04-18T05:13:16+00:00",
+            "releaseNotes": "- Fixed bug that baseUri set to wrong value (affected version: 2.1.10, 2.1.11)\n- Fixed bug Yaf_View_Simple crash while calling assign if construct it with no tpl_dir\n- Fixed bug that Yaf_View_Simple::display doesn't convert controller name",
+            "get": "http://pecl.php.net/get/yaf-2.1.12",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.11": {
+            "version": "2.1.11",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2012-04-10T23:11:52+00:00",
+            "releaseNotes": "- Improve Yaf_Config parsing performance,  if the wanted section was parsed, then overpass the rest sections\n- Now catchException will failover to the default moudle error handler\n- Added Yaf_View_Simple::clear\n- Support set default route by config(appliation.dispatcher.defaultRoute)\n- Support adding Yaf_Route_Map by config\n- Allow Yaf_View_Simple::get(void)\n- Fixed Bug that Yaf_Config_Ini will take part of the section\n- Fixed bug that yaf_config_ini_deep_copy is not much deepy.\n- Fixed bug Yaf_Route_Simple dont respect application.modules configure\n- Fixed some memory leaks",
+            "get": "http://pecl.php.net/get/yaf-2.1.11",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.10": {
+            "version": "2.1.10",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2012-04-04T01:10:17+00:00",
+            "releaseNotes": "- Improved Yaf_Config_Ini::__Construct performance, and reduce memory consumption\n- Fixed bug #61493 (Can't remove item when using unset() with a Yaf_Config_Simple instance)\n- Support controller autoloading(Only default module)\n- Fixed bug that the controller name could be lowercase in routeShutdown hook\n- Fixed bug that segfault while attempt to free owrite_handler\n- Added Yaf_Controller::$yafAutoRender to controller render\n- Fixed some memory leaks",
+            "get": "http://pecl.php.net/get/yaf-2.1.10",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.9": {
+            "version": "2.1.9",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2012-03-20T05:39:19+00:00",
+            "releaseNotes": "- Fixed Bug that Yaf_Response::setBody cause invalid read",
+            "get": "http://pecl.php.net/get/yaf-2.1.9",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.8": {
+            "version": "2.1.8",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2012-03-12T09:22:29+00:00",
+            "releaseNotes": "- Fixed bug Yaf_Response::setBody act the same as Yaf_Response::prependBody",
+            "get": "http://pecl.php.net/get/yaf-2.1.8",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.7": {
+            "version": "2.1.7",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2012-02-04T22:43:45+00:00",
+            "releaseNotes": "- Release 2.1.7 stable",
+            "get": "http://pecl.php.net/get/yaf-2.1.7",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.6": {
+            "version": "2.1.6",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2012-01-06T01:17:41+00:00",
+            "releaseNotes": "- Fix Bug that classname with namespace can not be auto loaded",
+            "get": "http://pecl.php.net/get/yaf-2.1.6",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.5": {
+            "version": "2.1.5",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2011-12-25T21:48:50+00:00",
+            "releaseNotes": "Fix Bug #60608",
+            "get": "http://pecl.php.net/get/yaf-2.1.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.4": {
+            "version": "2.1.4",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2011-12-20T11:19:23+00:00",
+            "releaseNotes": "- Improve the Yaf_Loader::getInstance, make the Yaf_Loader can be used independently\n- Implemented Yaf_View::assignRef, which didn't work as expect before.",
+            "get": "http://pecl.php.net/get/yaf-2.1.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.3": {
+            "version": "2.1.3",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2011-10-08T09:38:23+00:00",
+            "releaseNotes": "-Fixed Bug that Yaf still call to Yaf_View_Simple although a custom view engine was setted",
+            "get": "http://pecl.php.net/get/yaf-2.1.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.2": {
+            "version": "2.1.2",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2011-09-01T06:15:54+00:00",
+            "releaseNotes": "-Added Yaf_Application::getLastErrorNo\n-Added Yaf_Application::getLastErrorMsg\n-Added Yaf_Application::clearLastError\n-Changed trigger ERROR to E_RECOVERABLE_ERROR, then people can use set_error_handler to catch it",
+            "get": "http://pecl.php.net/get/yaf-2.1.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.1": {
+            "version": "2.1.1",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2011-08-30T22:56:31+00:00",
+            "releaseNotes": "-Fixed Yaf_View_Simple::render flush output instantly in PHP5.4\n-Fixed Yaf_Session crash in PHP5.4",
+            "get": "http://pecl.php.net/get/yaf-2.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.0": {
+            "version": "2.1.0",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2011-08-30T06:57:31+00:00",
+            "releaseNotes": "- Avoided calling to get_class_entry for higher performance\n- Remove unnecessary stack variable initialization\n- Fixed mem leak reproted by test scripts\n- Added arginfo for all methods\n- Standardize error message\n- Add Yaf_Request::setRequstUri\n- Fixed build broken with PHP 5.4\n- many other litte improvements",
+            "get": "http://pecl.php.net/get/yaf-2.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.1": {
+            "version": "2.0.1",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2011-06-27T23:53:52+00:00",
+            "releaseNotes": "- Fixed Bug that when call to Yaf_Config_Ini/Yaf_Config_Simple with freaky paramters then invoke its methods cause crash (thanks to Felipe Pena)\n- Yaf_Application::execute call Zend_API call_user_func instead of call zif_call_user_func, since zif_call_user_func was not declared with dllexport\n- Built on windows with PHP-5.3.6 and PHP-5.2.15 (you can download the dll on Yaf Google Code)\n- Corrected some broken C89 statements",
+            "get": "http://pecl.php.net/get/yaf-2.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.0": {
+            "version": "2.0.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2011-06-25T15:28:13+00:00",
+            "releaseNotes": "- First release version",
+            "get": "http://pecl.php.net/get/yaf-2.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "PHP Framework in PHP extension",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

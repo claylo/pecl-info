@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.13.0</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>jmikola</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2022-03-23 16:53:00</da>
+ <n>** Bug
+    * [PHPC-2013] - RHEL 7.0 and 7.1 builds fail due to incompatible pointer warnings
+    * [PHPC-2020] - Validate loadBalanced URI array option
+
+** Epic
+    * [PHPC-1150] - Support SDAM Monitoring
+
+** New Feature
+    * [PHPC-1805] - Implement ServerDescription class
+    * [PHPC-1891] - Implement TopologyDescription class
+    * [PHPC-1892] - Define SDAMSubscriber interface
+    * [PHPC-1893] - Define SDAM event classes
+    * [PHPC-1900] - Allow custom service names with srvServiceName URI option
+    * [PHPC-1908] - Allow limiting mongos servers with srvMaxHosts option
+
+** Task
+    * [PHPC-1342] - Add documentation warning against the use of duplicate key names
+    * [PHPC-1909] - Set minWireVersion to 6 (MongoDB 3.6)
+    * [PHPC-1953] - Create tests for event object debug handlers
+    * [PHPC-1958] - Ensure that getTopologyId() gives the same result for all SDAM events
+    * [PHPC-1959] - Change SDAM event tests to use Manager::addSubscriber()
+    * [PHPC-1973] - Bump maxWireVersion to 14 for MongoDB 5.1
+    * [PHPC-2008] - writeresult-getserver-002 fails to drop collection in local db on replicaset-auth
+    * [PHPC-2012] - Remove extra AX_CHECK_COMPILE_FLAG args
+    * [PHPC-2019] - Remove Solaris checks in m4 build scripts
+    * [PHPC-2022] - Use mongoc_host_list in event structs
+    * [PHPC-2023] - Allow observation of TopologyClosedEvent
+    * [PHPC-2028] - Replace PHONGO_ALLOC_OBJECT_T macro with zend_object_alloc
+    * [PHPC-2031] - Upgrade libmongoc to 1.21.1 and libmongocrypt to 1.3.2
+    * [PHPC-2034] - Bump maxWireVersion for MongoDB 5.2
+    * [PHPC-2036] - Remove outdated prose test in causal consistency spec
+    * [PHPC-2037] - Remove vim modeline comments
+    * [PHPC-2038] - Initialize zval in phongo_clientencryption_init
+    * [PHPC-2039] - Remove disabled debugging code in bson.c
+    * [PHPC-2040] - Break down php_phongo.c into smaller files
+    * [PHPC-2042] - Remove conditional win32/time.h include in UTCDateTime.c
+    * [PHPC-2047] - Update load balancer tests to support dedicated load balancer port
+    * [PHPC-2073] - Remove test environments and checks for pre-3.6 server versions
+    * [PHPC-2074] - Clarify in contributing docs that mongo-orchestration is not required to run tests
+
+** Improvement
+    * [PHPC-1647] - Defer to libmongoc for cross-option URI validation
+    * [PHPC-1910] - Implement Server::getServerDescription
+    * [PHPC-1925] - ServerDescription::getType() should return a string
+    * [PHPC-1934] - Check for uninitialized intern in ServerDescription get_properties_hash
+    * [PHPC-1950] - Lift restriction on authSource without credentials when set in URI options array
+    * [PHPC-2003] - Expose whether a client session is dirty
+    * [PHPC-2025] - Support load balancer in ServerDescription and TopologyDescription
+    * [PHPC-2026] - Warn if ServerDescription::getLastUpdateTime() must be truncated
+    * [PHPC-2030] - Allow observation of commands issued during mongoc_client_destroy()
+    * [PHPC-2032] - Report more concise debug info for ended sessions</n>
+ <f>1440287</f>
+ <g>https://pecl.php.net/get/mongodb-1.13.0</g>
+ <x xlink:href="package.1.13.0.xml"/>
+</r>

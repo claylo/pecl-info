@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.31.0</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>sammyk</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2019-10-03 16:47:06</da>
+ <n>### Added
+- Add container id header to http transport (Container Tagging) - #552
+- Attach exceptions to spans in new API #548
+
+### Changed
+- Migrate PDO integration to sandbox API #538
+- Migrate Eloquent integration to sandbox API #559
+- Migrate memcached integration to sandbox API #578
+- Migrate elasticsearch integration to sandbox API #562
+
+### Fixed
+- Predis integration for clusters #574 (thank you @RaoulMeyer!)
+- Avoid reserved word &quot;fn&quot; #543
+- Fix ZTS builds, remove COMPAT_CTX_* #544
+- Curl headers are overwritten when using `curl_copy_handle` function #502
+- Correctly treat class names as case insensitive #571
+- Static keyword handling #576
+- Improve sandboxing of request init hook #583
+- Make PHP API check more specific #590 (thank you @iedsapala!)</n>
+ <f>165971</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.31.0</g>
+ <x xlink:href="package.0.31.0.xml"/>
+</r>

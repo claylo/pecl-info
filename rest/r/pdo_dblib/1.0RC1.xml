@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pdo_dblib">PDO_DBLIB</p>
+ <c>pecl.php.net</c>
+ <v>1.0RC1</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>wez</m>
+ <s>FreeTDS/Sybase/MSSQL driver for PDO</s>
+ <d>This extension provides a FreeTDS/Sybase driver for PDO.
+ 
+</d>
+ <da>2005-09-11 01:56:14</da>
+ <n>Update code for API changes in PDO; no actual changes have been made to this driver.</n>
+ <f>7953</f>
+ <g>http://pecl.php.net/get/PDO_DBLIB-1.0RC1</g>
+ <x xlink:href="package.1.0RC1.xml"/>
+</r>

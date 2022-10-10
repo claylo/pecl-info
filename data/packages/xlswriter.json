@@ -1,0 +1,224 @@
+{
+    "category": "File Formats",
+    "deprecated": false,
+    "description": "xlswriter is a PHP C Extension that can be used to write text, numbers, formulas and hyperlinks to multiple worksheets in an Excel 2007+ XLSX file.\n\n  Writer\n\n  - 100% compatible Excel XLSX files.\n  - Full Excel formatting.\n  - Merged cells.\n  - Defined names.\n  - Autofilters.\n  - Charts.\n  - Data validation and drop down lists.\n  - Worksheet PNG/JPEG images.\n  - Memory optimization mode for writing large files.\n  - Works on Linux, FreeBSD, OpenBSD, OS X, Windows.\n  - Compiles for 32 and 64 bit.\n  - FreeBSD License.\n  - The only dependency is on zlib.\n\n  Reader\n\n  - Full read data\n  - Cursor read data\n  - Read by data type\n  - Xlsx to csv",
+    "latestReleaseDate": "2022-04-28T13:52:50+00:00",
+    "latestVersion": "1.5.2",
+    "license": "BSD license",
+    "name": "xlswriter",
+    "php8Mentioned": true,
+    "releases": {
+        "1.5.2": {
+            "version": "1.5.2",
+            "state": "stable",
+            "license": "BSD license",
+            "releasedBy": "wjx",
+            "releaseDate": "2022-04-28T13:52:50+00:00",
+            "releaseNotes": "- Fix: Write failure on data reference.\n- Fix: String is not zero-terminatedpage.",
+            "get": "https://pecl.php.net/get/xlswriter-1.5.2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.5.1": {
+            "version": "1.5.1",
+            "state": "stable",
+            "license": "BSD license",
+            "releasedBy": "wjx",
+            "releaseDate": "2021-10-26T14:26:49+00:00",
+            "releaseNotes": "- Feat customize to enable or disable zip64.",
+            "get": "https://pecl.php.net/get/xlswriter-1.5.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.5.0": {
+            "version": "1.5.0",
+            "state": "stable",
+            "license": "BSD license",
+            "releasedBy": "wjx",
+            "releaseDate": "2021-10-07T05:26:57+00:00",
+            "releaseNotes": "- Feat set current line.\n- Feat get current line.\n- Feat rich string.",
+            "get": "https://pecl.php.net/get/xlswriter-1.5.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.4.0": {
+            "version": "1.4.0",
+            "state": "stable",
+            "license": "BSD license",
+            "releasedBy": "wjx",
+            "releaseDate": "2021-07-18T06:58:51+00:00",
+            "releaseNotes": "- Fix disable reader build failed.\n- Fix insertDate use curtom format segmentation fault.\n- Feat custom free resource.\n- Feat writer validation.\n- Feat writer data validation can be applied to a single cell or a range of cells.\n- Feat reader add file path in open file exception message.\n- Feat exit worksheet.\n- Feat set paper.\n- Feat set margins.\n- Build read module is enabled by default.\n- Perfect exception message.\n- Compatible PHP 8.1 API.\n- Destructive rename method setPrintedLandscape to setLandscape\n- Destructive rename method setPrintedPortrait to setPortrait",
+            "get": "https://pecl.php.net/get/xlswriter-1.4.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.3.7": {
+            "version": "1.3.7",
+            "state": "stable",
+            "license": "BSD license",
+            "releasedBy": "wjx",
+            "releaseDate": "2021-01-01T14:33:34+00:00",
+            "releaseNotes": "- Fix IBM s390x.\n- Fix header line no and sheet checkout not init line no.\n- Fix single instance opens multiple files, but the file handle is not released.\n- Feat worksheet printed.\n- Feat worksheet hidden.\n- Feat workbook custom first worksheet.\n- Feat custom skip hidden rows.\n- Feat skip empty rows.\n- Feat set global type.\n- Feat url text and tool tip.\n- Feat work sheet protection.\n- Helper xlswriter_get_version and xlswriter_get_author",
+            "get": "https://pecl.php.net/get/xlswriter-1.3.7",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.3.6": {
+            "version": "1.3.6",
+            "state": "stable",
+            "license": "BSD license",
+            "releasedBy": "wjx",
+            "releaseDate": "2020-06-17T02:56:01+00:00",
+            "releaseNotes": "- Fix musllibc.\n- Fix null in cell callback.\n- Feat cell comment.\n- Feat timestampFromDateDouble static method.\n- Feat Check for existence before opening file.",
+            "get": "https://pecl.php.net/get/xlswriter-1.3.6",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.3.5": {
+            "version": "1.3.5",
+            "state": "stable",
+            "license": "BSD license",
+            "releasedBy": "wjx",
+            "releaseDate": "2020-05-25T15:03:36+00:00",
+            "releaseNotes": "- Feat activate sheet.\n- Feat mergeCells type writer.",
+            "get": "https://pecl.php.net/get/xlswriter-1.3.5",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.3.4.1": {
+            "version": "1.3.4.1",
+            "state": "stable",
+            "license": "BSD license",
+            "releasedBy": "wjx",
+            "releaseDate": "2020-04-12T12:45:38+00:00",
+            "releaseNotes": "- Feat directory not exist error change to exception.\n- Windows full function support.",
+            "get": "https://pecl.php.net/get/xlswriter-1.3.4.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.3.4": {
+            "version": "1.3.4",
+            "state": "stable",
+            "license": "BSD license",
+            "releasedBy": "wjx",
+            "releaseDate": "2020-03-19T13:29:21+00:00",
+            "releaseNotes": "- FEAT header support custom format.\n- FEAT putcsv custom delimiter.\n- FEAT ead skip cells,rows,empty value.\n- FIX read data method, the offset of the array index and the row of the cell.\n- FIX insertDate leaked.",
+            "get": "https://pecl.php.net/get/xlswriter-1.3.4",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.3.3.2": {
+            "version": "1.3.3.2",
+            "state": "stable",
+            "license": "BSD license",
+            "releasedBy": "wjx",
+            "releaseDate": "2019-12-31T14:16:32+00:00",
+            "releaseNotes": "- FIX free up stale sheets.",
+            "get": "https://pecl.php.net/get/xlswriter-1.3.3.2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.3.3.1": {
+            "version": "1.3.3.1",
+            "state": "stable",
+            "license": "BSD license",
+            "releasedBy": "wjx",
+            "releaseDate": "2019-12-26T13:10:23+00:00",
+            "releaseNotes": "- FIX merge cells.",
+            "get": "https://pecl.php.net/get/xlswriter-1.3.3.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.3.3": {
+            "version": "1.3.3",
+            "state": "stable",
+            "license": "BSD license",
+            "releasedBy": "wjx",
+            "releaseDate": "2019-12-23T15:32:40+00:00",
+            "releaseNotes": "- FEAT mergeCells and insertFormula support format.\n- FEAT put csv with callback.\n- FEAT global default format.\n- FIX READ turning data into custom types.",
+            "get": "https://pecl.php.net/get/xlswriter-1.3.3",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.3.2": {
+            "version": "1.3.2",
+            "state": "stable",
+            "license": "BSD license",
+            "releasedBy": "wjx",
+            "releaseDate": "2019-11-21T14:44:11+00:00",
+            "releaseNotes": "- FEAT display or hide screen and print gridlines.\n- FEAT worksheet zoom.\n- FEAT data method is written by default from the file header.\n- FEAT returns null if the type is specified and the cell is empty.\n- FEAT sheet list.\n- FEAT xlsx to csv.",
+            "get": "https://pecl.php.net/get/xlswriter-1.3.2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.3.1": {
+            "version": "1.3.1",
+            "state": "stable",
+            "license": "BSD license",
+            "releasedBy": "wjx",
+            "releaseDate": "2019-10-12T02:45:22+00:00",
+            "releaseNotes": "- FEAT freeze panes\n- FEAT set font\n- Refactor format background",
+            "get": "https://pecl.php.net/get/xlswriter-1.3.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.3.0": {
+            "version": "1.3.0",
+            "state": "stable",
+            "license": "BSD license",
+            "releasedBy": "wjx",
+            "releaseDate": "2019-09-25T13:53:27+00:00",
+            "releaseNotes": "- FEAT read numeric\n- FEAT column index from string and string from column index",
+            "get": "https://pecl.php.net/get/xlswriter-1.3.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.2.9": {
+            "version": "1.2.9",
+            "state": "stable",
+            "license": "BSD license",
+            "releasedBy": "wjx",
+            "releaseDate": "2019-09-20T07:18:11+00:00",
+            "releaseNotes": "- FEAT read skip empty cell\n- FEAT read skip empty row\n- FEAT read data with type array index\n- FEAT read global cell data type\n- FEAT read new read handler, nextCallback",
+            "get": "https://pecl.php.net/get/xlswriter-1.2.9",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.2.8": {
+            "version": "1.2.8",
+            "state": "stable",
+            "license": "BSD license",
+            "releasedBy": "wjx",
+            "releaseDate": "2019-09-14T10:51:53+00:00",
+            "releaseNotes": "- FEAT insert date.\n- FEAT read data with type\n- FEAT work book is not initialized exception\n- FIX: minizip multiple definition",
+            "get": "https://pecl.php.net/get/xlswriter-1.2.8",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.2.7": {
+            "version": "1.2.7",
+            "state": "stable",
+            "license": "BSD license",
+            "releasedBy": "wjx",
+            "releaseDate": "2019-09-06T14:26:26+00:00",
+            "releaseNotes": "- FEAT read xlsx file.\n- FIX  multiple file segmentation fault.",
+            "get": "https://pecl.php.net/get/xlswriter-1.2.7",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.2.6": {
+            "version": "1.2.6",
+            "state": "stable",
+            "license": "BSD license",
+            "releasedBy": "wjx",
+            "releaseDate": "2019-07-10T05:53:14+00:00",
+            "releaseNotes": "- FIX CentOS6 Build.\n- FIX InsertText memory leaks.",
+            "get": "https://pecl.php.net/get/xlswriter-1.2.6",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.2.5": {
+            "version": "1.2.5",
+            "state": "stable",
+            "license": "BSD license",
+            "releasedBy": "wjx",
+            "releaseDate": "2019-07-01T05:43:16+00:00",
+            "releaseNotes": "- FEAT cells background color.\n- FEAT checkout sheet.\n- FEAT format new font size.\n- FEAT format new strikeout.\n- FEAT insertText support resource format.",
+            "get": "https://pecl.php.net/get/xlswriter-1.2.5",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.2.4": {
+            "version": "1.2.4",
+            "state": "stable",
+            "license": "BSD license",
+            "releasedBy": "wjx",
+            "releaseDate": "2019-05-03T09:54:51+00:00",
+            "releaseNotes": "- FEAT format multiple style overlays.\n- FEAT format text color.\n- FEAT image scale.\n- FEAT chart.",
+            "get": "https://pecl.php.net/get/xlswriter-1.2.4",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        }
+    },
+    "summary": "Efficient and fast xlsx file extension.",
+    "SPDX-License-Identifier": "BSD-2-Clause"
+}

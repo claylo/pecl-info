@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/couchbase">couchbase</p>
+ <c>pecl.php.net</c>
+ <v>2.0.3</v>
+ <st>stable</st>
+ <l>Apache V2</l>
+ <m>brett19</m>
+ <s>Couchbase Server PHP extension</s>
+ <d>The PHP client library provides fast access to documents stored in
+        a Couchbase Server.</d>
+ <da>2015-01-06 22:39:33</da>
+ <n>This is a patch update to the PHP 2.0 SDK.
+
+Changes:
+* PCBC-318: Fix append/prepend operations failing on new libcouchbase.
+* PCBC-319: Correct segfault when using persist_to/replicate_to.
+* Corrected typo in N1QL query interface.</n>
+ <f>29182</f>
+ <g>http://pecl.php.net/get/couchbase-2.0.3</g>
+ <x xlink:href="package.2.0.3.xml"/>
+</r>

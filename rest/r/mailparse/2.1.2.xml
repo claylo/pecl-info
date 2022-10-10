@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mailparse">mailparse</p>
+ <c>pecl.php.net</c>
+ <v>2.1.2</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>wez</m>
+ <s>Email message manipulation</s>
+ <d>Mailparse is an extension for parsing and working with email messages.
+It can deal with rfc822 and rfc2045 (MIME) compliant messages.</d>
+ <da>2007-11-07 16:46:33</da>
+ <n>Fixed memory leaks and depricated code in tests.  
+Patch for rfc2231 support by Jakub Klos.  
+Fix incorrect handling of header continuation lines per RFC2822, patch by Jakub Klos.  
+Initialize variable to prevent segfaults in cases where postion=0.</n>
+ <f>36348</f>
+ <g>http://pecl.php.net/get/mailparse-2.1.2</g>
+ <x xlink:href="package.2.1.2.xml"/>
+</r>

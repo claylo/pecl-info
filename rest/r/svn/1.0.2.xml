@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/svn">svn</p>
+ <c>pecl.php.net</c>
+ <v>1.0.2</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>alan_k</m>
+ <s>PHP Bindings for the Subversion Revision control system.</s>
+ <d>Bindings for the Subversion revision control system, providing a method for manipulating
+	a working copy or repository with PHP.</d>
+ <da>2012-03-27 21:23:34</da>
+ <n>Minor bug fix / feature release
+
+        Changes:
+        #60583 - compile failing due to missing definition of svn_version_t in newer releases of libsvn
+        #59976 (svn build fails on PHP5.4)
+        #15505 - warning on errors
+        ------  support for peg revisions in checkout, ls, log, blame, info, proplist, propget
+                extra error checks in checkout - thanks to Hyung-Hwan Chung
+        #22758 - support specifying revision in svn_copy (he dot chen at zte dot com dot cn)
+        #23649 - allow deletion of properties by using NULL as value (patch by Jonas Zeiger)
+        #22754 - add support for svn_delete
+        #22100 - segfault on shutdown when using multiple repositories - patch by jimmy at velsoft</n>
+ <f>25226</f>
+ <g>http://pecl.php.net/get/svn-1.0.2</g>
+ <x xlink:href="package.1.0.2.xml"/>
+</r>

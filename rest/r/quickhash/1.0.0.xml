@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/quickhash">quickhash</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0</v>
+ <st>stable</st>
+ <l>The PHP License</l>
+ <m>derick</m>
+ <s>Provides a set of specific strongly-typed classes for sets and hashing</s>
+ <d>This extension contains four classes for managing: an integer set, an integer
+hash, integer to string hash and a string to integer hash. The main features
+are low memory consumption and fast serialization and deserialization of
+the sets and hashes.</d>
+ <da>2012-09-02 17:47:09</da>
+ <n>Implemented ArrayAccess for QuickHashIntSet</n>
+ <f>22829</f>
+ <g>http://pecl.php.net/get/quickhash-1.0.0</g>
+ <x xlink:href="package.1.0.0.xml"/>
+</r>

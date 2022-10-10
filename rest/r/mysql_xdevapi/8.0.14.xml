@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mysql_xdevapi">mysql_xdevapi</p>
+ <c>pecl.php.net</c>
+ <v>8.0.14</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>mysqlre</m>
+ <s>MySQL X DevAPI for PHP</s>
+ <d>The X DevAPI is the new common API for MySQL Connectors built on the X Protocol introduced in MySQL 5.7.12.
+
+The X DevAPI wraps powerful concepts in a simple API.
+* A new high-level session concept enables you to write code that can transparently scale from single MySQL Server to a multiple server environment.
+* Read operations are simple and easy to understand.
+
+The X DevAPI introduces a new, modern and easy-to-learn way to work with your data.
+* Documents are stored in Collections and have their dedicated CRUD operation set.
+* Work with your existing domain objects or generate code based on structure definitions for strictly typed languages.
+* Focus is put on working with data via CRUD operations. See Section 3.1, “CRUD Operations Overview”.
+* Modern practices and syntax styles are used to get away from traditional SQL-String-Building. See Chapter 10, Building Expressions.</d>
+ <da>2019-01-23 03:17:59</da>
+ <n>WL#12593: DevAPI: Handling of Default Schema
+WL#12457: Be prepared for initial notice on connection
+WL#12291: automagically resolve path to preferred version of boost on pb2
+orabug #28803092 the offset() method requires limit()
+orabug #28802524 always use sql()-&gt;execute() instead of executeSql()
+orabug #27441854 fetchAll should return an empty array when the result is empty, not (bool)false
+orabug #28804413 containers methods
+orabug #28802453 TableDelete: offset does not seem useful
+orabug #29011588 execute more than once for crud ops with bind causes crash at releasing
+orabug #28605347 CollectionFind::offset() without limit() error is unclear
+orabug #28803201 FieldMetadata and ColumnResult are returning different information about columns
+orabug #28804447 remove client functions
+orabug #28802551 Collection::createIndex() create an index on multiple fields
+orabug #28804461 ensure groupBy() functionality
+orabug #28838435 PHPT tests - make checking results more precise</n>
+ <f>443712</f>
+ <g>https://pecl.php.net/get/mysql_xdevapi-8.0.14</g>
+ <x xlink:href="package.8.0.14.xml"/>
+</r>

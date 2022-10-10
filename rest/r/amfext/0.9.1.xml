@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/amfext">amfext</p>
+ <c>pecl.php.net</c>
+ <v>0.9.1</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>sankazim</m>
+ <s>ActionScript Message Format extension</s>
+ <d>Allows to encode and decode PHP data in ActionScript Message Format (AMF) version 0 and 3
+ 
+</d>
+ <da>2007-06-06 18:27:53</da>
+ <n>Initial PECL Release</n>
+ <f>37026</f>
+ <g>http://pecl.php.net/get/amfext-0.9.1</g>
+ <x xlink:href="package.0.9.1.xml"/>
+</r>

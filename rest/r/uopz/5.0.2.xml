@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/uopz">uopz</p>
+ <c>pecl.php.net</c>
+ <v>5.0.2</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>remi</m>
+ <s>User Operations for Zend</s>
+ <d>The uopz extension is focused on providing utilities to aid with unit testing PHP code.
+
+It supports the following activities:
+
+* Intercepting function execution
+* Intercepting object creation
+* Hooking into function execution
+* Manipulation of function statics
+* Manipulation of function flags
+* Redefinition of constants
+* Deletion of constants
+* Runtime creation of functions and methods</d>
+ <da>2017-08-03 12:57:37</da>
+ <n>- add uopz.disable ini switch (default 0)
+- fix gh#43: setting hook on __invoke method doesn't work on call_user_func
+- fix gh#48: segmentation fault (uopz_set_return)
+- add 4 new functions:
+    - uopz_call_user_func(callable function, ... args)
+    - uopz_get_exit_status()
+    - uopz_allow_exit(bool allow)
+    - uopz_call_user_func_array(callable function, array args)
+- fix PHP 7.1 compatibility
+- fix PHP 7.2 compatibility</n>
+ <f>24931</f>
+ <g>http://pecl.php.net/get/uopz-5.0.2</g>
+ <x xlink:href="package.5.0.2.xml"/>
+</r>

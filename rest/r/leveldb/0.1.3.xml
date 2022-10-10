@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/leveldb">leveldb</p>
+ <c>pecl.php.net</c>
+ <v>0.1.3</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>reeze</m>
+ <s>LevelDB PHP bindings</s>
+ <d>This extension is a PHP binding for Google LevelDB</d>
+ <da>2013-02-24 02:13:41</da>
+ <n>2013-02-24 - leveldb 0.1.3:
+- 0.1.3 is a version number fix upon 0.1.2 which forgot to
+  remove '-dev' suffix before release</n>
+ <f>17677</f>
+ <g>http://pecl.php.net/get/leveldb-0.1.3</g>
+ <x xlink:href="package.0.1.3.xml"/>
+</r>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/vips">vips</p>
+ <c>pecl.php.net</c>
+ <v>1.0.10</v>
+ <st>stable</st>
+ <l>MIT</l>
+ <m>jcupitt</m>
+ <s>PHP extension for interfacing with libvips</s>
+ <d>This extension uses libvips to provide image processing facilities.</d>
+ <da>2019-09-26 15:12:23</da>
+ <n>* Add vips_image_write_to_array() [jcupitt]
+* Update links for new home [jcupitt]
+* Fix win32 build [TBK]</n>
+ <f>558528</f>
+ <g>https://pecl.php.net/get/vips-1.0.10</g>
+ <x xlink:href="package.1.0.10.xml"/>
+</r>

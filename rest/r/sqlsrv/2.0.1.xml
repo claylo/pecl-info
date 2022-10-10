@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/sqlsrv">sqlsrv</p>
+ <c>pecl.php.net</c>
+ <v>2.0.1</v>
+ <st>stable</st>
+ <l>Apache 2.0</l>
+ <m>jguerin</m>
+ <s>Microsoft Drivers for PHP for SQL Server (SQLSRV)</s>
+ <d>The Microsoft Drivers for PHP for SQL Server are PHP 5 extensions that allows for the reading and writing of SQL Server data from within PHP scripts. The SQLSRV extension provides a procedural interface while the PDO_SQLSRV extension implements PDO for accessing data in all editions of SQL Server 2005 and later (including SQL Azure).
+
+*This package contains only the SQLSRV driver*
+
+These drivers rely on the Microsoft SQL Server 2008 R2 Native Client's ODBC driver to handle the low-level communication with SQL Server.</d>
+ <da>2011-06-02 18:02:39</da>
+ <n>Introduction into PECL repository</n>
+ <f>114549</f>
+ <g>http://pecl.php.net/get/sqlsrv-2.0.1</g>
+ <x xlink:href="package.2.0.1.xml"/>
+</r>

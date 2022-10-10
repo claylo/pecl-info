@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.7.0</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>alcaeus</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2020-02-04 15:06:58</da>
+ <n>** Bug
+* [PHPC-348] - Check for errors after calling bson_to_zval()
+* [PHPC-889] - BSON decoding errors for Javascript scopes only thrown at access time
+* [PHPC-1446] - Always enable TLS when any TLS option is specified
+* [PHPC-1453] - SRV record lookup fails if DNS response exceeds 1024 characters
+* [PHPC-1520] - Windows compiler warnings building extension with libmongocrypt
+* [PHPC-1526] - Forking session test has intermittent failures on SHARDED_CLUSTER_RS
+* [PHPC-1540] - Investigate segmentation fault when using keyVaultClient in AutoEncryptionOpts
+
+** Epic
+* [PHPC-1293] - Support Client-side Field Level Encryption (FLE)
+
+** New Feature
+* [PHPC-1230] - Support object cloning for BSON classes
+* [PHPC-1462] - Support ability to pass hint to update
+* [PHPC-1491] - Add ReadPreference::getModeString
+* [PHPC-1496] - Support compiling with libmongocrypt
+* [PHPC-1497] - Introduce new configure switch to use system libraries
+* [PHPC-1498] - Handle autoEncryptionOpts in MongoDB\Driver\Manager
+* [PHPC-1499] - Add clientEncryption API
+* [PHPC-1500] - Change serialisation of objects for client hash
+* [PHPC-1539] - Create new exception classes for FLE
+
+** Task
+* [PHPC-952] - Refactor BSON type initiators for unserialization visitors
+* [PHPC-1002] - Test regularly with C Driver release or release candidate
+* [PHPC-1073] - Remove superfluous php_array_exists calls where possible
+* [PHPC-1074] - Refactor php_phongo_bson_state struct initialization for debug output
+* [PHPC-1269] - Document that BulkWrite instances may only be executed once
+* [PHPC-1279] - Improve documentation for Cursor::isDead()
+* [PHPC-1312] - Advise users to use 64-bit environments if possible
+* [PHPC-1314] - Document that users may need to copy libsasl.dll to lib path for Windows installs
+* [PHPC-1343] - Add test to catch inaccessible server when running tests
+* [PHPC-1372] - Re-enable ARM64 builds in Evergreen matrix
+* [PHPC-1424] - Inform users that mongodb.debug output contains sensitive information
+* [PHPC-1426] - Update stubs for PhpStorm
+* [PHPC-1430] - Deprecate obsolete driver options
+* [PHPC-1438] - Expose more precise session state
+* [PHPC-1445] - Make find commands for collecting libmongoc sources portable between Linux and macOS
+* [PHPC-1449] - Resync bson-corpus array.json to fix duplicate test names
+* [PHPC-1450] - Document rules by which TLS is implicitly enabled
+* [PHPC-1461] - Remove Community zSeries From 4.0 testing
+* [PHPC-1470] - Remove unnecessary timezone settings in tests
+* [PHPC-1471] - Clean up reference handling in Javascript scope serialisation
+* [PHPC-1472] - Prevent multiple exceptions from being thrown during manager serialisation
+* [PHPC-1492] - Remove conditional EXPECTF patterns in UTCDateTime tests
+* [PHPC-1532] - Document client-side encryption functionality
+* [PHPC-1546] - Ensure Windows builds enable SASL and FLE
+
+** Improvement
+* [PHPC-870] - Consider using ZEND_HASH_FOREACH indirect macros for iteration
+* [PHPC-966] - Explicitly initialize fields for internal class structs
+* [PHPC-991] - Handle duplicates in URI options array
+* [PHPC-1274] - Reset libmongoc client after forking to avoid interacting with parent resources in child processes
+* [PHPC-1281] - Serialization support for ReadConcern, ReadPreference, and WriteConcern
+* [PHPC-1284] - Driver session pools must be cleared after forking
+* [PHPC-1347] - Do not allow empty string for replicaSet
+* [PHPC-1391] - Prohibit starting a transaction for maxWireVersion &lt; 7
+* [PHPC-1411] - Accept 64-bit integers for wTimeoutMS
+* [PHPC-1418] - Test PHP 7.3 in Evergreen
+* [PHPC-1439] - Expose transaction options on session object
+* [PHPC-1459] - Add serialisation support for CursorId
+* [PHPC-1521] - Only warn in config.w32 if SASL is enabled but not available
+* [PHPC-1545] - Require object or array type for &quot;kmsProviders&quot; option</n>
+ <f>1225137</f>
+ <g>https://pecl.php.net/get/mongodb-1.7.0</g>
+ <x xlink:href="package.1.7.0.xml"/>
+</r>

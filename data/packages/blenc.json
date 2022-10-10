@@ -1,0 +1,74 @@
+{
+    "category": "PHP",
+    "deprecated": false,
+    "description": "BLENC is an extension that permit to protect PHP source scripts with Blowfish Encription.\nBLENC hooks into the Zend Engine, allowing for transparent execution of PHP scripts previously encoded with BLENC.\nIt is not designed for complete security (it is still possible to disassemble the script into op codes using a package such as XDebug), however it does keep people out of your code and make reverse engineering difficult.",
+    "latestReleaseDate": "2014-04-27T10:26:45+00:00",
+    "latestVersion": "1.1.4b",
+    "license": "PHP",
+    "name": "BLENC",
+    "summary": "BLowfish ENCryption for PHP Scripts",
+    "php8Mentioned": false,
+    "releases": {
+        "1.1.4b": {
+            "version": "1.1.4b",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "gchiesa",
+            "releaseDate": "2014-04-27T10:26:45+00:00",
+            "releaseNotes": "Upgraded to works with latest PHP version",
+            "get": "http://pecl.php.net/get/blenc-1.1.4b",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.1.3b": {
+            "version": "1.1.3b",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "gchiesa",
+            "releaseDate": "2013-10-03T13:22:39+00:00",
+            "releaseNotes": "New package.xml description, BLENC now display version in phpinfo.",
+            "get": "http://pecl.php.net/get/blenc-1.1.3b",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.1.2b": {
+            "version": "1.1.2b",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "gchiesa",
+            "releaseDate": "2013-06-12T13:59:05+00:00",
+            "releaseNotes": "New package.xml description, BLENC now display version in phpinfo.",
+            "get": "http://pecl.php.net/get/blenc-1.1.2b",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.1.1b": {
+            "version": "1.1.1b",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "gchiesa",
+            "releaseDate": "2013-05-31T05:30:22+00:00",
+            "releaseNotes": "Upgraded to works with latest PHP version",
+            "get": "http://pecl.php.net/get/blenc-1.1.1b",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.1.0b": {
+            "version": "1.1.0b",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "gchiesa",
+            "releaseDate": "2013-05-30T12:58:15+00:00",
+            "releaseNotes": "Upgraded to works with latest PHP version",
+            "get": "http://pecl.php.net/get/blenc-1.1.0b",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0alpha": {
+            "version": "1.0alpha",
+            "state": "alpha",
+            "license": "PHP",
+            "releasedBy": "john",
+            "releaseDate": "2004-06-03T03:30:00+00:00",
+            "releaseNotes": "Initial Release.",
+            "get": "http://pecl.php.net/get/blenc-1.0alpha",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

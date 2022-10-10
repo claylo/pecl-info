@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pdo_sqlanywhere">PDO_SQLANYWHERE</p>
+ <c>pecl.php.net</c>
+ <v>0.1.0</v>
+ <st>beta</st>
+ <l>Apache License 2.0</l>
+ <m>mabouzou</m>
+ <s>Sybase iAnywhere SqlAnywhere driver for PDO</s>
+ <d>An extension to enable PDO to access SqlAnywhere databases.</d>
+ <da>2011-06-23 17:07:28</da>
+ <n>Initial beta.</n>
+ <f>31718</f>
+ <g>http://pecl.php.net/get/PDO_SQLANYWHERE-0.1.0</g>
+ <x xlink:href="package.0.1.0.xml"/>
+</r>

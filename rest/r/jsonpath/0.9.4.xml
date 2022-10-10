@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/jsonpath">jsonpath</p>
+ <c>pecl.php.net</c>
+ <v>0.9.4</v>
+ <st>alpha</st>
+ <l>PHP License</l>
+ <m>viktor</m>
+ <s>Extract data using JSONPath notation</s>
+ <d>This extension allows you to use the versatile JSONPath query language to extract the properties that you want from a decoded JSON document.</d>
+ <da>2021-08-19 21:00:44</da>
+ <n>## Changes
+- missing file and license uri @remicollet (#137)
+
+## Bug fixes
+- Add missing config.w32 entry to package.xml to make PECL builds on Windows possible @crocodele (#138)
+- Add required email tag to lead details @crocodele (#140)
+
+## Maintenance
+- Add Mike to list of PECL extension developers, release version 0.9.4 @crocodele (#139)</n>
+ <f>49440</f>
+ <g>https://pecl.php.net/get/jsonpath-0.9.4</g>
+ <x xlink:href="package.0.9.4.xml"/>
+</r>

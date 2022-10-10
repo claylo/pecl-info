@@ -1,0 +1,108 @@
+{
+    "category": "Math",
+    "deprecated": false,
+    "description": "Functions from this package are useful for number theory\napplications. For example, in two-keys cryptography.\n\nSee /tests/RSA.php in the package for example of simple\nimplementation of RSA-like cryptoalgorithm.\nSee http://pear.php.net/packages/Crypt_RSA/ project for\nmore complex implementation of RSA-like crypto, which\nsupports key generating, encrypting/decrypting, generating\nand validating of digital sign.\n\nThe package has many bitset functions, which allow to work\nwith arbitrary length bitsets.\n\nThis package is much faster than bundled into PHP BCMath\nand consists almost all functions, which are implemented\nin PHP GMP extension, but it needn't any external libraries.",
+    "latestReleaseDate": "2005-05-30T08:18:48+00:00",
+    "latestVersion": "1.0.7",
+    "license": "see LICENSE",
+    "name": "big_int",
+    "summary": "big_int library provides a set of functions for calculations with arbitrary length integers and bitsets",
+    "php8Mentioned": false,
+    "releases": {
+        "1.0.7": {
+            "version": "1.0.7",
+            "state": "stable",
+            "license": "see LICENSE",
+            "releasedBy": "valyala",
+            "releaseDate": "2005-05-30T08:18:48+00:00",
+            "releaseNotes": "+ improved memory management in big_int library (see big_int_create() and big_int_realloc() functions)\n* fixed bug int big_int_or(), big_int_add(), big_int_xor() and big_int_andnot(). These functions returns wrong result if start position != 0\n* fixed bug in big_int_rand() function. Sometimes it returns unexpected (negative) numbers\n* fixed number overflow bug in big_int_create() and big_int_realloc() functions\n* fixed compilation bug under FreeBSD 4 (it doesn't have ANSI C99 stdint.h header file) ( thanks to HitMan http://webpark.ru )\n* fixed compilation bug under unix, which fails building bundled into PHP package\n* windows-style carriage returns \\r\\n replaced by unix-style \\n in all files, except MSVC-related *.dsp, *.dsw, *.sln & *.vcproj",
+            "get": "http://pecl.php.net/get/big_int-1.0.7",
+            "SPDX-License-Identifier": false
+        },
+        "1.0.6": {
+            "version": "1.0.6",
+            "state": "stable",
+            "license": "see LICENSE",
+            "releasedBy": "valyala",
+            "releaseDate": "2005-05-17T07:52:07+00:00",
+            "releaseNotes": "+ added frequently requested function bi_is_one(), which compares number with 1\n+ added php_big_int.dsw and php_big_int.dsp files. Now it is possible to build big_int extension on MSVC6\n* updated documentation (/docs/index.html, INSTALL, README) and tests (/tests folder)\n* significantly improved speed of bi_from_str() function (up to 30 times for base = 2)",
+            "get": "http://pecl.php.net/get/big_int-1.0.6",
+            "SPDX-License-Identifier": false
+        },
+        "1.0.5": {
+            "version": "1.0.5",
+            "state": "stable",
+            "license": "see LICENSE",
+            "releasedBy": "valyala",
+            "releaseDate": "2005-05-11T11:17:53+00:00",
+            "releaseNotes": "* significantly improved speed of bi_to_str() function (up to 30 times for base = 2)\n* fixed bug in big_int_to_str() function, which sometimes returned wrong result for negative numbers",
+            "get": "http://pecl.php.net/get/big_int-1.0.5",
+            "SPDX-License-Identifier": false
+        },
+        "1.0.4": {
+            "version": "1.0.4",
+            "state": "stable",
+            "license": "see LICENSE",
+            "releasedBy": "valyala",
+            "releaseDate": "2005-04-19T11:50:48+00:00",
+            "releaseNotes": "* fixed bugs in php_big_int.vcproj and php_big_int.c, which fails package building under MSVC.NET.\n+ fresh binaries of the package were uploaded on http://chat.finalcombat.com/valyala/big_int/ . It is available to download unix and windows binaries for PHP4.3.10, PHP4.3.11, PHP5.0.3 and PHP5.0.4.",
+            "get": "http://pecl.php.net/get/big_int-1.0.4",
+            "SPDX-License-Identifier": false
+        },
+        "1.0.3": {
+            "version": "1.0.3",
+            "state": "stable",
+            "license": "see LICENSE",
+            "releasedBy": "valyala",
+            "releaseDate": "2005-04-18T11:29:36+00:00",
+            "releaseNotes": "* fixed the bug in big_int_create() function, which does not actually return the big_int it created. Thanks to Paul Vincent Craven (paul at cravenfamily.com)\n* fixed wrong include path in /tests/bitset.php\n* fixed possible bug in bin_op() function in /libbig_int/src/bitset_funcs.c, when parameter [a] or [b] points to the same address as [answer]\n- removed unnesessary /PEAR folder, which contained of Crypt_RSA package. This package is available at http://chat.finalcombat.com/valyala/big_int/ page.",
+            "get": "http://pecl.php.net/get/big_int-1.0.3",
+            "SPDX-License-Identifier": false
+        },
+        "1.0.2": {
+            "version": "1.0.2",
+            "state": "stable",
+            "license": "see LICENSE",
+            "releasedBy": "valyala",
+            "releaseDate": "2005-04-12T18:49:17+00:00",
+            "releaseNotes": "+ added optional parameter to functions bi_or(), bi_and(), bi_xor() and bi_andnot(), which allows to set start position for bitwise operations. See /tests/bitset.php for details\n+ added new function: bi_info(), which returns useful information, related to the package. See documentation for details\n+ added flexible and extensible set of PHP classes, which allow to work with RSA-like two-key cryptography. See contents of /PEAR folder\n+ updated documentation. Now it has pretty look. See /docs/index.html\n+ added missing /tests/std_header.php and /test/rand.php scripts\n+ updated BIG_INT library to new version\n* fixed several bugs in /php_big_int.c",
+            "get": "http://pecl.php.net/get/big_int-1.0.2",
+            "SPDX-License-Identifier": false
+        },
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "stable"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable",
+            "license": "see LICENSE",
+            "releasedBy": "valyala",
+            "releaseDate": "2005-03-01T11:22:04+00:00",
+            "releaseNotes": "+ first stable release\n* fixed installation bug during execution of 'pear install big_int' command\n- removed unnesessary files from package: regression tests and calc application, based on BIG_INT library.\n  These files are still avaible at BIG_INT homepage http://chat.finalcombat.com/valyala/big_int/",
+            "get": "http://pecl.php.net/get/big_int-1.0.0",
+            "SPDX-License-Identifier": false
+        },
+        "0.0.5": {
+            "version": "0.0.5",
+            "state": "beta",
+            "license": "see LICENSE",
+            "releasedBy": "valyala",
+            "releaseDate": "2005-02-15T13:19:00+00:00",
+            "releaseNotes": "+ added /docs/index.html with brief description of all functions of the big_int extension\n* fixed bug in /msvc7/php_big_int.vcproj , which fails compilation of extension under MSVC7\n* added set_time_limit(0) into /tests/RSA.php",
+            "get": "http://pecl.php.net/get/big_int-0.0.5",
+            "SPDX-License-Identifier": false
+        },
+        "0.0.4": {
+            "version": "0.0.4",
+            "state": "beta",
+            "license": "see LICENSE",
+            "releasedBy": "valyala",
+            "releaseDate": "2005-02-14T17:58:00+00:00",
+            "releaseNotes": "package.xml added to support intallation using pear installer",
+            "get": "http://pecl.php.net/get/big_int-0.0.4",
+            "SPDX-License-Identifier": false
+        }
+    },
+    "SPDX-License-Identifier": false
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ibm_db2">ibm_db2</p>
+ <c>pecl.php.net</c>
+ <v>1.9.3</v>
+ <st>stable</st>
+ <l>Apache License 2.0</l>
+ <m>rahulpriyadarshi</m>
+ <s>Extension for IBM DB2 Universal Database, IBM Cloudscape, and
+        Apache Derby</s>
+ <d>This extension supports IBM DB2 Universal Database, IBM
+Cloudscape, and Apache Derby databases.</d>
+ <da>2012-03-12 01:03:19</da>
+ <n>Fixed: Garbage value for VARCHAR type OUT variable of stored-procedure
+Fixed: Compilation error with php-5.4.x
+i5/OS: Remove compile errors during IBM i compiles due to chaining support
+i5/OS: Allow use of V6+ (SQL_ATTR_INFO_ACCTSTR, SQL_ATTR_INFO_APPLNAME, SQL_ATTR_INFO_PROGRAMID, SQL_ATTR_INFO_USERID, SQL_ATTR_INFO_WRKSTNNAME connection attributes)</n>
+ <f>156494</f>
+ <g>http://pecl.php.net/get/ibm_db2-1.9.3</g>
+ <x xlink:href="package.1.9.3.xml"/>
+</r>

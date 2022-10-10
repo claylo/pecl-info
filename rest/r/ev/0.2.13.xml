@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ev">ev</p>
+ <c>pecl.php.net</c>
+ <v>0.2.13</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>osmanov</m>
+ <s>Provides interface to libev library</s>
+ <d>ev provides interface to libev library - high performance
+  full-featured event loop written in C.</d>
+ <da>2014-12-08 12:21:29</da>
+ <n>Issue #11: pecl install ev command fails with non-standard PHP installation prefix.</n>
+ <f>96909</f>
+ <g>http://pecl.php.net/get/ev-0.2.13</g>
+ <x xlink:href="package.0.2.13.xml"/>
+</r>

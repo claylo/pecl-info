@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mailparse">mailparse</p>
+ <c>pecl.php.net</c>
+ <v>2.1</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>wez</m>
+ <s>Email message manipulation</s>
+ <d>Mailparse is an extension for parsing and working with email messages.
+It can deal with rfc822 and rfc2045 (MIME) compliant messages.
+</d>
+ <da>2005-01-01 23:00:00</da>
+ <n>Avoid possible unterminated loops when parsing malformed email addresses.
+Fix a crash bug when not using the OO API.
+  
+Add hack to provide &quot;binary&quot; transfer encoding, which is not supported
+by mbstring.
+
+Go &quot;stable&quot; at long last; the procedural interface is stable, but not the
+OO API.  (Despite the version number jump, no need features have been added)
+
+---
+
+Fix build problem with PHP 4.3.4 - mbstring extension was rearranged.
+
+Fix potential build problem.
+
+mailparse_msg_parse_file() no longer returns true instead of the mime resource.        
+
+Improved uu-decoder to be more robust when dealing with strange line endings.
+Fix silly bug introduced by that fix...
+
+Fixed some memory leaks and problems when multiple uue attachments appear
+inline in a single mime part.</n>
+ <f>33915</f>
+ <g>http://pecl.php.net/get/mailparse-2.1</g>
+ <x xlink:href="package.2.1.xml"/>
+</r>

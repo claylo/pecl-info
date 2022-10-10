@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/simple_kafka_client">simple_kafka_client</p>
+ <c>pecl.php.net</c>
+ <v>0.1.1</v>
+ <st>stable</st>
+ <l>BSD-3 License</l>
+ <m>nickzh</m>
+ <s>Kafka client based on librdkafka</s>
+ <d>This extension is a librdkafka binding providing a working client for Kafka</d>
+ <da>2021-04-11 08:04:04</da>
+ <n>## Bugfixes
+- fix Consumer:assign argument type (#33)
+- fix Producer:getTopicHandle return type (#33)</n>
+ <f>32550</f>
+ <g>https://pecl.php.net/get/simple_kafka_client-0.1.1</g>
+ <x xlink:href="package.0.1.1.xml"/>
+</r>

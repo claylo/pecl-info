@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/zip">zip</p>
+ <c>pecl.php.net</c>
+ <v>1.7.2</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>pajoye</m>
+ <s>A zip management extension</s>
+ <d>Zip is an extension to create, modify and read zip files.</d>
+ <da>2006-08-27 11:42:29</da>
+ <n>- Previous release was broken in non threaded environment.
+This release works smoothly in threaded and non threaded.
+Thanks to &quot;FamilleCollet dot com&quot; (Fedora-Extra maintainer for the 
+head up)</n>
+ <f>55782</f>
+ <g>http://pecl.php.net/get/zip-1.7.2</g>
+ <x xlink:href="package.1.7.2.xml"/>
+</r>

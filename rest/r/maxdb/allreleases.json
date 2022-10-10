@@ -1,0 +1,42 @@
+{
+    "7.6.00.38": {
+        "version": "7.6.00.38",
+        "state": "stable"
+    },
+    "7.6.00.37": {
+        "version": "7.6.00.37",
+        "state": "stable"
+    },
+    "7.6.00.34": {
+        "version": "7.6.00.34",
+        "state": "stable"
+    },
+    "7.6.00.32": {
+        "version": "7.6.00.32",
+        "state": "stable"
+    },
+    "7.6.00.27": {
+        "version": "7.6.00.27",
+        "state": "stable"
+    },
+    "7.6.00.16": {
+        "version": "7.6.00.16",
+        "state": "stable"
+    },
+    "7.6.00.12": {
+        "version": "7.6.00.12",
+        "state": "stable"
+    },
+    "7.5.00.26": {
+        "version": "7.5.00.26",
+        "state": "stable"
+    },
+    "7.5.00.24": {
+        "version": "7.5.00.24",
+        "state": "stable"
+    },
+    "1.0": {
+        "version": "1.0",
+        "state": "stable"
+    }
+}

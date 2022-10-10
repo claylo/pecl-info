@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/couchbase">couchbase</p>
+ <c>pecl.php.net</c>
+ <v>2.1.0</v>
+ <st>stable</st>
+ <l>Apache V2</l>
+ <m>brett19</m>
+ <s>Couchbase Server PHP extension</s>
+ <d>The PHP client library provides fast access to documents stored in
+        a Couchbase Server.</d>
+ <da>2015-11-04 20:48:26</da>
+ <n>This is a minor update to the PHP 2.1 SDK.
+    
+Changes:
+* PCBC-356: Added support for N1QL prepared statements.
+* PCBC-363: Fix issue related to passing invalid ID arguments.
+* PCBC-366: Correct issue with legacy transcoder compression.
+* Various minor changes</n>
+ <f>36670</f>
+ <g>http://pecl.php.net/get/couchbase-2.1.0</g>
+ <x xlink:href="package.2.1.0.xml"/>
+</r>

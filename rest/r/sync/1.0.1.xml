@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/sync">sync</p>
+ <c>pecl.php.net</c>
+ <v>1.0.1</v>
+ <st>stable</st>
+ <l>MIT License</l>
+ <m>cubic</m>
+ <s>Named and unnamed synchronization objects</s>
+ <d>The 'sync' extension introduces synchronization objects into PHP.  Named and unnamed Mutex, Semaphore, Event, and Reader-Writer objects provide OS-level synchronization on both *NIX (POSIX semaphores required) and Windows platforms.</d>
+ <da>2014-07-25 10:32:06</da>
+ <n>- Fixed Reader-Writer objects.
+- Removed a lead from package maintainers list.</n>
+ <f>11597</f>
+ <g>http://pecl.php.net/get/sync-1.0.1</g>
+ <x xlink:href="package.1.0.1.xml"/>
+</r>

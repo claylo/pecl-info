@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/trace">trace</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0</v>
+ <st>beta</st>
+ <l>Apache 2.0</l>
+ <m>silkcut</m>
+ <s>Trace is a low-overhead tracing tool for PHP</s>
+ <d>Trace is a low-overhead tracing tool for PHP.
+    It can trace all PHP executing, function calls, request information during
+    run-time. And provides features like Filter, Statistics, Current Status and
+    so on.
+    It is very useful to locate blocking, heavy-load problems and debug in all
+    environments, especially in production environments.</d>
+ <da>2017-01-19 06:13:21</da>
+ <n>### Added
+
+- Add support for Linux environment ptrace
+- Add support for MacOS
+- Add filter by url/class/function name
+- Add limit ouput count
+
+### Changed
+
+- Refactoring extensions and tool-side information interaction
+- Optimize format and color of the output
+- Remove unused messages such as wall_time?memory records
+- Improve display status module</n>
+ <f>63928</f>
+ <g>http://pecl.php.net/get/trace-1.0.0</g>
+ <x xlink:href="package.1.0.0.xml"/>
+</r>

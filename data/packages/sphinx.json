@@ -1,0 +1,144 @@
+{
+    "category": "Search Engine",
+    "deprecated": false,
+    "description": "This extension provides bindings for libsphinxclient, client library for Sphinx.",
+    "latestReleaseDate": "2015-05-21T15:34:01+00:00",
+    "latestVersion": "1.3.3",
+    "license": "PHP",
+    "name": "sphinx",
+    "summary": "Client extension for Sphinx - opensource SQL full-text search engine",
+    "php8Mentioned": false,
+    "releases": {
+        "1.3.3": {
+            "version": "1.3.3",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "tony2001",
+            "releaseDate": "2015-05-21T15:34:01+00:00",
+            "releaseNotes": "- Added setFilterString() method, available only when built with sphinxclient lib >= 2.2.3.\n- Fixed bug #67669 (SphinxClient::escapeString() is missing several symbols)\n- Fixed bug #69675 (crash when accessing properties of subclass)",
+            "get": "http://pecl.php.net/get/sphinx-1.3.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.3.2": {
+            "version": "1.3.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "tony2001",
+            "releaseDate": "2014-05-06T12:28:36+00:00",
+            "releaseNotes": "- Fixed build with older libsphinxclient versions (Dmitry Saprykin)\n- Added LICENSE to the package.",
+            "get": "http://pecl.php.net/get/sphinx-1.3.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.3.1": {
+            "version": "1.3.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "tony2001",
+            "releaseDate": "2014-05-06T09:25:07+00:00",
+            "releaseNotes": "- Fixed bug #67216 (segfault on setGroupBy()) (Dmitry Saprykin)\n- Fixed bug #66272 (Some constants are not defined)",
+            "get": "http://pecl.php.net/get/sphinx-1.3.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.3.0": {
+            "version": "1.3.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "tony2001",
+            "releaseDate": "2013-04-04T06:59:12+00:00",
+            "releaseNotes": "- Fixed setRankingMode's proto and add new ranking mode constants (patch by Michael Squires)\n- Fixed segfault when reading object properties.\n- Fixed bug #62026 (Second param in setRankingMode should be optional)",
+            "get": "http://pecl.php.net/get/sphinx-1.3.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.2.0": {
+            "version": "1.2.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "tony2001",
+            "releaseDate": "2012-04-03T05:35:22+00:00",
+            "releaseNotes": "- Added mva support to updateAttributes().\n- Fixed build with 5_4.\n- Fixed bug #61392 (build failure with new version of libsphinxclient)",
+            "get": "http://pecl.php.net/get/sphinx-1.2.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.1.0": {
+            "version": "1.1.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "santiago",
+            "releaseDate": "2010-09-17T08:47:32+00:00",
+            "releaseNotes": "- Added support for new API in sphinx 1.10\n - Fixed PECL bug #18325 (support 1.10-beta string attributes)\n - Fixed PECL bug #17558 (time taken in search result was incorrect)",
+            "get": "http://pecl.php.net/get/sphinx-1.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.4": {
+            "version": "1.0.4",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "santiago",
+            "releaseDate": "2010-02-26T11:04:54+00:00",
+            "releaseNotes": "- Fixed PECL bug #17007 (incorrect query causes SEGFAULT)",
+            "get": "http://pecl.php.net/get/sphinx-1.0.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.3": {
+            "version": "1.0.3",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "santiago",
+            "releaseDate": "2010-01-12T12:17:29+00:00",
+            "releaseNotes": "- Added support for open(), close(), status() and setOverride() available in sphinx 0.9.9 new API",
+            "get": "http://pecl.php.net/get/sphinx-1.0.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.2": {
+            "version": "1.0.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "tony2001",
+            "releaseDate": "2009-12-03T07:41:41+00:00",
+            "releaseNotes": "- Fixed crash when extending class doesn't call parent constructor.",
+            "get": "http://pecl.php.net/get/sphinx-1.0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "tony2001",
+            "releaseDate": "2009-12-03T07:12:21+00:00",
+            "releaseNotes": "- Fixed build failure with PHP 5.1.x.\n- Added support for setSelect(), available in sphinx 0.9.9 new API (patch by Olivier Poitrey)",
+            "get": "http://pecl.php.net/get/sphinx-1.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "tony2001",
+            "releaseDate": "2009-01-29T03:30:59+00:00",
+            "releaseNotes": "- Added __sleep() and __wakeup() methods to prevent (un)serialization of SphinxClient instances.\n- Fixed PECL bug #15033 (segfaults on SPARC because of unaligned read).\n- Fixed PECL bug #14930 (configure fails on freebsd). (patch by nobleclem at fatalexception dot us)\n- Fixed PECL bug #14752 (32-bit Client does not work with 64-bit ids). (nobleclem at fatalexception dot us, Tony)",
+            "get": "http://pecl.php.net/get/sphinx-1.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.0": {
+            "version": "0.2.0",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "tony2001",
+            "releaseDate": "2008-07-31T09:33:36+00:00",
+            "releaseNotes": "- Updated SphinxClient::updateAttributes() to return number of updated attributes on success.\n- Updated SphinxClient::setIDRange() to accept integers, not floats.\n- Updated SphinxClient::addQuery() to return integer on success.",
+            "get": "http://pecl.php.net/get/sphinx-0.2.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.0": {
+            "version": "0.1.0",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "tony2001",
+            "releaseDate": "2008-07-21T10:19:02+00:00",
+            "releaseNotes": "- Initial PECL release.",
+            "get": "http://pecl.php.net/get/sphinx-0.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

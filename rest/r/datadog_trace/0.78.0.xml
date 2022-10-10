@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.78.0</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>krakjoe</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2022-08-24 12:00:07</da>
+ <n>### Added
+- Instrument pcntl_fork and reset tracing when it is called #1633 (Thanks @jlesueur)
+- ARM64 support (Build arm images in CI) #1701
+
+### Changed
+- Accept pseudonym on via header as specified by rfc7230 #1696
+- Add agent target URL to flush-message to help with debugging #1705
+- Add IPv6 support to DD_AGENT_HOST #1707
+
+### Fixed
+- Fix span memory leak and packaging #1697
+- Fix datadog-setup.php failing in environments without scan directory #1702
+- Fix random number generator usage #1704
+- Set root span name only in HttpKernel::boot() to avoid side effects on CLI #1706
+- Fix meta information loss in PDOIntegration #1708
+
+### Internal changes
+- Update artifact URL for v0.77.0 gitlab deployments #1686
+- Update relenv to use datadog-setup.php #1689
+- Add arm support to docker images #1699
+
+## Application Security Monitoring (v0.4.0)
+
+#### Fixed
+- Fix interned string invalidation on PHP &lt;= 7.2 DataDog/dd-appsec-php#99
+- Replace `php_error_docref` with `php_log_err` DataDog/dd-appsec-php#101
+
+#### Changed
+- Log helper communication DataDog/dd-appsec-php#97
+- Set environment values at rinit on php-fpm DataDog/dd-appsec-php#105
+
+#### Internal changes
+- Update development documentation DataDog/dd-appsec-php#98
+- Update system tests with new variants DataDog/dd-appsec-php#102
+- Add helper test for config DataDog/dd-appsec-php#108
+- Fix missing helper header coverage DataDog/dd-appsec-php#109
+- Upgrade integration test tracer version to 0.76.1 DataDog/dd-appsec-php#110
+- Add a way to include local changes to the cmake build process DataDog/dd-appsec-php#111
+- libddwaf upgraded to 1.4.0 DataDog/dd-appsec-php#116
+
+## Profiling (v0.9.0)
+
+#### Added
+ - Add Unix Domain Socket (UDS) support #1698
+
+#### Fixed
+ - Avoid PHP per-request interning #1700
+
+#### Internal changes
+ - Add phpt tests for profiling #1690</n>
+ <f>469576</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.78.0</g>
+ <x xlink:href="package.0.78.0.xml"/>
+</r>

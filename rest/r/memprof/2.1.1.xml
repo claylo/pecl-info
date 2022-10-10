@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/memprof">memprof</p>
+ <c>pecl.php.net</c>
+ <v>2.1.1</v>
+ <st>stable</st>
+ <l>BSD</l>
+ <m>lbarnaud</m>
+ <s>Memory profiler</s>
+ <d>Memprof is a fast and accurate memory profiler that can be used to find the cause of memory leaks in PHP applications.</d>
+ <da>2020-11-18 13:56:17</da>
+ <n>* Fix crash on zend_pass_function</n>
+ <f>16009</f>
+ <g>https://pecl.php.net/get/memprof-2.1.1</g>
+ <x xlink:href="package.2.1.1.xml"/>
+</r>

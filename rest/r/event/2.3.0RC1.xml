@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/event">event</p>
+ <c>pecl.php.net</c>
+ <v>2.3.0RC1</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>osmanov</m>
+ <s>Provides interface to libevent library</s>
+ <d>This is an extension to efficiently schedule I/O, time and signal based
+  events using the best I/O notification mechanism available for specific platform.
+  This is a port of libevent to the PHP infrastructure.
+
+  Version 1.0.0 introduces:
+  * new OO API breaking backwards compatibility
+  * support of libevent 2+ including HTTP, DNS, OpenSSL and the event listener.
+
+  Note, event-1.0.0 and greater is not compatible with previous versions.</d>
+ <da>2016-11-10 16:48:20</da>
+ <n>Add: EventSslContext methods: setMinProtoVersion and setMaxProtoVersion for OpenSSL &gt;= 1.1.0.
+Add: EventSslContext constants: OPENSSL_VERSION_NUMBER and OPENSSL_VERSION_TEXT.
+Fix: compilation warnings regarding OpenSSL features deprecated in version 1.0.0 and newer.
+Deprecated: EventSslContext protocol version options are deprecated for OpenSSL &gt;= 1.1.0.
+  Use the new setMinProtoVersion and setMaxProtoVersion methods instead.
+Fix: build failed with custom openssl setup (non-standard --with-openssl-dir)</n>
+ <f>135125</f>
+ <g>http://pecl.php.net/get/event-2.3.0RC1</g>
+ <x xlink:href="package.2.3.0RC1.xml"/>
+</r>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ui">UI</p>
+ <c>pecl.php.net</c>
+ <v>1.0.3</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>krakjoe</m>
+ <s>UI API</s>
+ <d>An OO wrapper around libui</d>
+ <da>2016-10-30 06:23:08</da>
+ <n>UI\Draw\Text\Font\Descriptor::getFamily
+UI\Draw\Text\Font\Descriptor::getSize
+UI\Draw\Text\Font\Descriptor::getWeight
+UI\Draw\Text\Font\Descriptor::getItalic
+UI\Draw\Text\Font\Descriptor::getStretch
+UI\Draw\Text\Font::getAscent
+UI\Draw\Text\Font::getDescent
+UI\Draw\Text\Font::getLeading
+UI\Draw\Text\Font::getUnderlinePosition
+UI\Draw\Text\Font::getUnderlineThickness
+Radial and Linear Gradients
+UI\Draw\Brush::addStop
+UI\Draw\Brush::delStop
+UI\Draw\Brush::setStop
+Exceptions
+Arrangement controls child list
+Arrangement controls API improvements</n>
+ <f>46984</f>
+ <g>http://pecl.php.net/get/UI-1.0.3</g>
+ <x xlink:href="package.1.0.3.xml"/>
+</r>

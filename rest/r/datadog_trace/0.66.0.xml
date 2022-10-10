@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.66.0</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>labbati</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2021-10-11 14:56:30</da>
+ <n>### Breaking changes
+* Global tags are now assigned early. This means that users have to make sure to not overwrite `meta`, but only add to it instead, if they don't want to lose global tags. Wrong: `$span-&gt;meta = [ 'some' =&gt; 'tag' ]`. Correct `$span-&gt;meta['some'] = 'tag'`.
+* Support for legacy param `DD_TRACE_RESOURCE_URI_MAPPING` has been dropped with the migration to C code, after more than a year of deprecation. Use `DD_TRACE_RESOURCE_URI_FRAGMENT_REGEX`, `DD_TRACE_RESOURCE_URI_MAPPING_INCOMING`, and `DD_TRACE_RESOURCE_URI_MAPPING_OUTGOING ` instead. See [resource mapping](https://docs.datadoghq.com/tracing/setup_overview/setup/php/?tab=containers#map-resource-names-to-normalized-uri) for more details.
+
+### Added
+
+- (PHP 8) Migrate _dd.origin and distributed header sending to internal (#1267)
+- (PHP 5) Add headers ZAI implementation (#1308)
+- Add support for PHP 8.1 (#1297)
+
+### Changed
+- (PHP 7, 8) Internal (root) span initialization (#1329)
+
+### Fixed
+
+- (PHP 5, 7, 8) Remove all lines containing zai_sapi from config.m4 (#1333)
+- (PHP 7, 8) Fix unnamed service spans caused by improper handling of `DD_TRACE_ENABLED` (#1332)</n>
+ <f>497486</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.66.0</g>
+ <x xlink:href="package.0.66.0.xml"/>
+</r>

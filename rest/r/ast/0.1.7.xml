@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ast">ast</p>
+ <c>pecl.php.net</c>
+ <v>0.1.7</v>
+ <st>stable</st>
+ <l>BSD-3-Clause</l>
+ <m>nikic</m>
+ <s>Extension exposing PHP 7 abstract syntax tree</s>
+ <d>php-ast exports the AST internally used by PHP 7.
+     php-ast is significantly faster than PHP-Parser, because the AST construction is implemented in C.
+     However, php-ast may only parse code that is syntactically valid on the version of PHP it runs on.</d>
+ <da>2018-10-06 19:28:05</da>
+ <n>- Added AST version 60 with the following changes:
+  - `AST_FUNC_DECL` and `AST_METHOD` no longer generate a `uses` child. Previously this child was
+    always `null`.
+  - `AST_FUNC_CONST_ELEM` now always has a `docComment` child. Previously it was absent on PHP 7.0.
+    On PHP 7.0 the value is always `null`.
+- Added `ARRAY_ELEM_REF` flag, which is used by `AST_ARRAY_ELEM` for by-reference array elements
+  and (since PHP 7.3) for by-reference destructuring. Previously this flag was represented simply
+  by the value `1`.
+- Deprecated AST versions 40 and 45.
+- Fix build against PHP 7.4-dev.</n>
+ <f>37813</f>
+ <g>http://pecl.php.net/get/ast-0.1.7</g>
+ <x xlink:href="package.0.1.7.xml"/>
+</r>

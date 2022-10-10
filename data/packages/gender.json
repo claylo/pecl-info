@@ -1,0 +1,84 @@
+{
+    "category": "Internationalization",
+    "deprecated": false,
+    "description": "Gender PHP extension is a port of the gender.c program originally written by Joerg Michael. The main purpose is to find out the gender of firstnames. The name dictionary contains >40000 firstnames from 54 countries.",
+    "latestReleaseDate": "2015-02-03T12:53:37+00:00",
+    "latestVersion": "1.1.0",
+    "license": "PHP",
+    "name": "gender",
+    "php8Mentioned": false,
+    "releases": {
+        "1.1.0": {
+            "version": "1.1.0",
+            "state": "stable",
+            "license": "BSD 2-clause",
+            "releasedBy": "ab",
+            "releaseDate": "2015-02-03T12:53:37+00:00",
+            "releaseNotes": "* PHP7 compatibility",
+            "get": "http://pecl.php.net/get/gender-1.1.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "ab",
+            "releaseDate": "2013-06-02T03:24:52+00:00",
+            "releaseNotes": "* fixed clone breakage of other objects\n* fixed thread unsafety in country data handling\n* fixed bug\u00a0#64740 Gender ignores country for some names",
+            "get": "http://pecl.php.net/get/gender-1.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.9.0": {
+            "version": "0.9.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "ab",
+            "releaseDate": "2013-04-04T13:16:30+00:00",
+            "releaseNotes": "* implemented Gender::similarNames()\n* implemented Gender::isNick()",
+            "get": "http://pecl.php.net/get/gender-0.9.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.8.0": {
+            "version": "0.8.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "ab",
+            "releaseDate": "2012-08-26T15:31:58+00:00",
+            "releaseNotes": "* made name dict to be compiled in\n* added Gender::country() for getting string representation of countries\n* fixed multiple object usage\n* PHP 5.3 and 5.4 compatibility",
+            "get": "http://pecl.php.net/get/gender-0.8.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.7.0": {
+            "version": "0.7.0",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "weltling",
+            "releaseDate": "2009-07-04T08:52:44+00:00",
+            "releaseNotes": "* ported new api version with partial unicode support \n* updated dictionary file (need to run the postinstall script)\n* several community bugfixes (many thanks rrichards, johannes, kalle)\n* Gender class is now in the Gender namespace on PHP v5.3+",
+            "get": "http://pecl.php.net/get/gender-0.7.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.6.1": {
+            "version": "0.6.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "weltling",
+            "releaseDate": "2008-12-31T11:17:04+00:00",
+            "releaseNotes": "* fixed package.xml",
+            "get": "http://pecl.php.net/get/gender-0.6.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.6.0": {
+            "version": "0.6.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "weltling",
+            "releaseDate": "2008-12-17T16:36:06+00:00",
+            "releaseNotes": "* first pecl release with basic functionality\n         * do not forget to run postinstall script, which copies the names dictionary file",
+            "get": "http://pecl.php.net/get/gender-0.6.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "Gender Extension",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

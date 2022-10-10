@@ -1,0 +1,134 @@
+{
+    "category": "PHP",
+    "deprecated": false,
+    "description": "Replace, rename, and remove user defined functions, methods, and constants.\nDefine customized superglobal variables for general purpose use.",
+    "latestReleaseDate": "2022-08-14T01:06:20+00:00",
+    "latestVersion": "4.0.0a6",
+    "license": "BSD License (3 Clause)",
+    "name": "runkit7",
+    "php8Mentioned": true,
+    "releases": {
+        "4.0.0a6": {
+            "version": "4.0.0a6",
+            "state": "alpha",
+            "license": "BSD License (3 Clause)",
+            "releasedBy": "tandre",
+            "releaseDate": "2022-08-14T01:06:20+00:00",
+            "releaseNotes": "- Fix test failures for manipulating ReflectionMethod instances in 32-bit i386 builds in php 8.2+.",
+            "get": "https://pecl.php.net/get/runkit7-4.0.0a6",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "4.0.0a5": {
+            "version": "4.0.0a5",
+            "state": "alpha",
+            "license": "BSD License (3 Clause)",
+            "releasedBy": "tandre",
+            "releaseDate": "2022-08-13T17:08:04+00:00",
+            "releaseNotes": "- Make version of runkit7 in reflection match PECL version.",
+            "get": "https://pecl.php.net/get/runkit7-4.0.0a5",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "4.0.0a3": {
+            "version": "4.0.0a3",
+            "state": "alpha",
+            "license": "BSD License (3 Clause)",
+            "releasedBy": "tandre",
+            "releaseDate": "2021-07-17T18:47:15+00:00",
+            "releaseNotes": "- Fix edge case copying internal functions in runkit7_function_redefine\n- Avoid conflicts with other extensions that use reserved memory slots for internal function definitions.\n- Fix compilation and test errors in php 8.1\n- Allow using objects in global constants and class constants in php 8.1+ (https://wiki.php.net/rfc/new_in_initializers)\n- Make runkit_constant_redefine fail if the constant does not already exist\n- Make runkit_constant_remove/redefine fail on enum cases (support for modifying enum cases is not implemented)",
+            "get": "https://pecl.php.net/get/runkit7-4.0.0a3",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "4.0.0a2": {
+            "version": "4.0.0a2",
+            "state": "alpha",
+            "license": "BSD License (3 Clause)",
+            "releasedBy": "tandre",
+            "releaseDate": "2020-10-08T13:15:35+00:00",
+            "releaseNotes": "- Fix build failure in PECL releases due to missing files in the 4.0.0a1 archive.\n- Properly reference count references to file names in php 8.0 when copying functions",
+            "get": "https://pecl.php.net/get/runkit7-4.0.0a2",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "4.0.0a1": {
+            "version": "4.0.0a1",
+            "state": "alpha",
+            "license": "BSD License (3 Clause)",
+            "releasedBy": "tandre",
+            "releaseDate": "2020-10-08T03:54:30+00:00",
+            "releaseNotes": "- Remove `runkit7_import()`. This had known crashes/segfaults in php 7.3+ that have not been straightforward to fix (after multiple attempts)\n  due to changes to PHP's internals and changes to late static binding, and offered an incomplete set of functionality.\n  (e.g. could not override properties)\n\n  This was also not integrated with runkit7's tracking of manipulated methods/functions/properties.\n- Drop support for php 7.1. Security support for php 7.1 from php-src ended in December 2019\n  and runkit7 requires a lot of work to verify that changes or new features work correctly with the internals of php in all PHP versions.\n- Remove disabled code, constants, and ini settings related to the sandbox feature.\n  Runkit7 has never supported sandboxes or runkit_lint due to changes to internals in php7 making it impractical.\n- Remove runkit7_object_id() - PHP 7.2 adds spl_object_id() to do the same thing.\n- Fix build failure in php 8.0-dev - this extension's support for php 8 is still incomplete and experimental.\n- Add parameter default constant names to reflection (php 8 only).",
+            "get": "https://pecl.php.net/get/runkit7-4.0.0a1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "3.1.0a1": {
+            "version": "3.1.0a1",
+            "state": "alpha",
+            "license": "BSD License (3 Clause)",
+            "releasedBy": "tandre",
+            "releaseDate": "2019-12-27T21:18:04+00:00",
+            "releaseNotes": "- Support php 7.4.",
+            "get": "https://pecl.php.net/get/runkit7-3.1.0a1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "3.0.0": {
+            "version": "3.0.0",
+            "state": "alpha",
+            "license": "BSD License (3 Clause)",
+            "releasedBy": "tandre",
+            "releaseDate": "2019-06-15T19:32:45+00:00",
+            "releaseNotes": "Runkit7 3.0 finishes changing this extension's name from \"runkit\" to \"runkit7\".\nTHIS WILL REQUIRE CHANGES TO YOUR BUILD SCRIPTS AND PHP.INI FILES.\nThis change was made at the request of PECL admins, to comply with naming and packaging standards.\n\n- The compiled shared object name has been changed from `runkit.so` to `runkit7.so` (Mac/Linux) and `php_runkit.dll` to `php_runkit7.dll` (Windows)\n  (php.ini files should be changed to reference `extension=runkit7.so` or `extension=php_runkit7.dll`)\n- The configure flag names have been changed from flags such as `--enable-runkit` / `--enable-runkit-modify` to `--enable-runkit7` / `--enable-runkit7-modify`\n- Code using `extension_loaded('runkit')` should be changed to `extension_loaded('runkit7')` (as well as uses of ReflectionExtension, etc.)\n- The ini options `runkit.superglobal` and `runkit.internal_override` are unaffected.\n\nChanges in 3.0.0\n- Update documentation\n- Remove RUNKIT_VERSION\n- It is now possible to disable superglobal support (--disable-runkit7-super was fixed)\n- Classkit compatibility functions/constants have been removed.",
+            "get": "https://pecl.php.net/get/runkit7-3.0.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "3.0.0RC1": {
+            "version": "3.0.0RC1",
+            "state": "alpha",
+            "license": "BSD License (3 Clause)",
+            "releasedBy": "tandre",
+            "releaseDate": "2019-06-01T00:23:25+00:00",
+            "releaseNotes": "Runkit7 3.0 finishes changing this extension's name from \"runkit\" to \"runkit7\".\nTHIS WILL REQUIRE CHANGES TO YOUR BUILD SCRIPTS AND PHP.INI FILES.\nThis change was made at the request of PECL admins, to comply with naming and packaging standards.\n\n- The compiled shared object name has been changed from `runkit.so` to `runkit7.so` (Mac/Linux) and `php_runkit.dll` to `php_runkit7.dll` (Windows)\n  (php.ini files should be changed to reference `extension=runkit7.so` or `extension=php_runkit7.dll`)\n- The configure flag names have been changed from flags such as `--enable-runkit` / `--enable-runkit-modify` to `--enable-runkit7` / `--enable-runkit7-modify`\n- Code using `extension_loaded('runkit')` should be changed to `extension_loaded('runkit7')` (as well as uses of ReflectionExtension, etc.)\n- The ini options `runkit.superglobal` and `runkit.internal_override` are unaffected.\n\nChanges in 3.0.0RC1\n- Update documentation\n- Remove RUNKIT_VERSION",
+            "get": "https://pecl.php.net/get/runkit7-3.0.0RC1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "3.0.0a1": {
+            "version": "3.0.0a1",
+            "state": "alpha",
+            "license": "BSD License (3 Clause)",
+            "releasedBy": "tandre",
+            "releaseDate": "2019-05-30T00:14:11+00:00",
+            "releaseNotes": "Runkit7 3.0 finishes changing this extension's name from \"runkit\" to \"runkit7\".\nTHIS WILL REQUIRE CHANGES TO YOUR BUILD SCRIPTS AND PHP.INI FILES.\nThis change was made at the request of PECL admins, to comply with naming and packaging standards.\n\n- The compiled shared object name has been changed from `runkit.so` to `runkit7.so` (Mac/Linux) and `php_runkit.dll` to `php_runkit7.dll` (Windows)\n  (php.ini files should be changed to reference `extension=runkit7.so` or `extension=php_runkit7.dll`)\n- The configure flag names have been changed from flags such as `--enable-runkit` / `--enable-runkit-modify` to `--enable-runkit7` / `--enable-runkit7-modify`\n- Code using `extension_loaded('runkit')` should be changed to `extension_loaded('runkit7')` (as well as uses of ReflectionExtension, etc.)\n- The ini options `runkit.superglobal` and `runkit.internal_override` are unaffected.\n\nOther changes:\n- It is now possible to disable superglobal support (--disable-runkit7-super was fixed)\n- Classkit compatibility functions/constants have been removed.",
+            "get": "https://pecl.php.net/get/runkit7-3.0.0a1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "2.1.0": {
+            "version": "2.1.0",
+            "state": "alpha",
+            "license": "BSD License (3 Clause)",
+            "releasedBy": "tandre",
+            "releaseDate": "2019-05-29T13:14:28+00:00",
+            "releaseNotes": "- Add runkit7_*() aliases for runkit_*() global functions.\n- Add RUNKIT7_* aliases for RUNKIT_* global constants.",
+            "get": "https://pecl.php.net/get/runkit7-2.1.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "2.0.3": {
+            "version": "2.0.3",
+            "state": "alpha",
+            "license": "BSD License (3 Clause)",
+            "releasedBy": "tandre",
+            "releaseDate": "2019-04-18T19:34:38+00:00",
+            "releaseNotes": "- Add missing Reflection parameter information of runkit_import().\n- Remove php_runkit_sandbox.h from installed headers on Windows.",
+            "get": "https://pecl.php.net/get/runkit7-2.0.3",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "2.0.2": {
+            "version": "2.0.2",
+            "state": "alpha",
+            "license": "BSD License (3 Clause)",
+            "releasedBy": "tandre",
+            "releaseDate": "2019-04-04T23:12:58+00:00",
+            "releaseNotes": "- Fix the package version seen in reflection APIs.",
+            "get": "https://pecl.php.net/get/runkit7-2.0.2",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        }
+    },
+    "summary": "Runkit7 : For all those things you.... probably shouldn't have been doing anyway.... but surely do!",
+    "SPDX-License-Identifier": "BSD-3-Clause"
+}

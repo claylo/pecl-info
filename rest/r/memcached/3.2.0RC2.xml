@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/memcached">memcached</p>
+ <c>pecl.php.net</c>
+ <v>3.2.0RC2</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>remi</m>
+ <s>PHP extension for interfacing with memcached via libmemcached library</s>
+ <d>This extension uses libmemcached library to provide API for communicating with memcached servers.</d>
+ <da>2022-03-09 13:58:31</da>
+ <n>- PHP 8.0 and 8.1 support
+- store_retry_count is no more set explicitly (#452)
+- fix MemcachedServer (libmemcached-awesome is recommended)
+- code cleanup
+- fix windows build</n>
+ <f>90731</f>
+ <g>https://pecl.php.net/get/memcached-3.2.0RC2</g>
+ <x xlink:href="package.3.2.0RC2.xml"/>
+</r>

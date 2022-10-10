@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/imagick">imagick</p>
+ <c>pecl.php.net</c>
+ <v>0.9</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>chregu</m>
+ <s>Provides a wrapper to the Image Magick Library.</s>
+ <d>It's a native php-extension. 
+        See the examples in the examples/ directory for some hints on how to use it.
+</d>
+ <da>2002-12-03 16:01:00</da>
+ <n>IMPORTANT!!!
+This release breaks BC with the 0.1.x series of ext/imagick.
+read the examples for more information (in $doc_dir/imagick/examples)
+
+0.2-0.5 were never released within PEAR.
+
+    - functions added:
+         imagick_next()
+         imagick_prev()
+         imagick_first()
+         imagick_goto()
+         imagick_getlistsize()
+         imagick_getlistindex()
+         imagick_getimagefromlist()
+         imagick_blob2image()
+         imagick_reducenoise()
+         imagick_shade()
+         imagick_sharpen()
+         imagick_spread()
+         imagick_threshold()
+         imagick_unsharpmask()
+     - cut over deprecation reporting to a more standized and easier
+       to use method
+    - cut over all php_error calls to standard method
+    - added Christian's code to info function for displaying a list of
+      supported image formats
+    - rewrote all code to use proper parameter parsing function
+    - fixed minor issue with a number of example files; was nothing
+      critical</n>
+ <f>63758</f>
+ <g>http://pecl.php.net/get/imagick-0.9</g>
+ <x xlink:href="package.0.9.xml"/>
+</r>

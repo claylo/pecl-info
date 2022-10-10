@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/sam">SAM</p>
+ <c>pecl.php.net</c>
+ <v>1.1.0</v>
+ <st>stable</st>
+ <l>Apache 2.0</l>
+ <m>dsr</m>
+ <s>SAM - Simple Asynchronous Messaging for PHP</s>
+ <d>Simple Asynchronous Messaging (SAM) allows PHP applications to send and receive messages to a number of different Messaging and Queuing middleware systems through a very simple interface.
+ 
+</d>
+ <da>2007-02-06 10:15:40</da>
+ <n>Update and restructure to add MQTT protocol support, without XMS dependancy, and generic extension mechanism.</n>
+ <f>43788</f>
+ <g>http://pecl.php.net/get/SAM-1.1.0</g>
+ <x xlink:href="package.1.1.0.xml"/>
+</r>

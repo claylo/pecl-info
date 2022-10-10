@@ -20,11 +20,25 @@
       "changelogFile": "CHANGELOG.md",
       "changelogTitle": "# Changelog\n\nAll notable changes to this project will be documented in this file.\n\nThe format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html)."
     }],
-    "@semantic-release/exec",
-    ["@semantic-release/git", {
-      "assets": "CHANGELOG.md"
+    ["@semantic-release/exec", {
+      "prepareCmd": "prep-release ${nextRelease.version}"
     }],
-    "@semantic-release/github"
+    ["@semantic-release/git", {
+      "assets": [
+        "CHANGELOG.md",
+        "README.md",
+        "data/packages.json",
+        "data/packages/*.json",
+        "rest",
+        ".etags"
+      ]
+    }],
+    ["@semantic-release/github", {
+      "assets": [
+        {"path": "build/pecl-info-*.zip", "name": "pecl-info-${nextRelease.version}.zip", "label": "pecl-info ${nextRelease.version} (zip)"},
+        {"path": "build/pecl-info-*.tar.gz", "name": "pecl-info-${nextRelease.version}.tar.gz", "label": "pecl-info ${nextRelease.version} (tar.gz)"}
+      ]
+    }]
   ],
 
   "preset": "conventionalcommits",

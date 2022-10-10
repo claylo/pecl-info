@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/dom_varimport">dom_varimport</p>
+ <c>pecl.php.net</c>
+ <v>1.11.2</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>dmitrykoterov</m>
+ <s>Convert nested arrays into DOMDocument</s>
+ <d>The extension converts nested PHP arrays and objects into DOMDocument.
+  Some of projects use XSLT as a templating engine. To build XML for such engines,
+  we need a very fast and memory efficient way to convert PHP nested arrays and
+  objects into DOMDocument object. Also, produced XML should be straight-forward
+  and as simple as it could be (BTW XMLRPC, SOAP and other XML-based formats are quite
+  sloppy in this case). So dom_varimport has been introduced: it produces DOMDocument
+  from a nested array near 20 times faster than a hand-made code in native PHP
+  (1 MB XML with thousands of nodes could be generated in 1-2 ms).</d>
+ <da>2015-08-04 12:29:53</da>
+ <n>** Bug
+    * @attribute: rare bug with numeric keys processing, more errors checks and tests</n>
+ <f>11435</f>
+ <g>http://pecl.php.net/get/dom_varimport-1.11.2</g>
+ <x xlink:href="package.1.11.2.xml"/>
+</r>

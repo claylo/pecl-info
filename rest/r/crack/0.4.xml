@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/crack">crack</p>
+ <c>pecl.php.net</c>
+ <v>0.4</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>skettler</m>
+ <s>&quot;Good Password&quot; Checking Utility: Keep your users' passwords reasonably safe from dictionary based attacks</s>
+ <d>This package provides an interface to the cracklib (libcrack) libraries that come standard on most unix-like distributions. This allows you to check passwords against dictionaries of words to ensure some minimal level of password security.
+
+From the cracklib README
+CrackLib makes literally hundreds of tests to determine whether you've
+chosen a bad password.
+
+* It tries to generate words from your username and gecos entry to tries
+to match them against what you've chosen.
+
+* It checks for simplistic patterns.
+
+* It then tries to reverse-engineer your password into a dictionary
+word, and searches for it in your dictionary.
+
+- after all that, it's PROBABLY a safe(-ish) password. 8-)</d>
+ <da>2005-09-21 05:13:20</da>
+ <n>Updated to PEAR 1.4 (package2.xml format), added binary package for Win32, fixed compatibility with PHP 4.1</n>
+ <f>25524</f>
+ <g>http://pecl.php.net/get/crack-0.4</g>
+ <x xlink:href="package.0.4.xml"/>
+</r>

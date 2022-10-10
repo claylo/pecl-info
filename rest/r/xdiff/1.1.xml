@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xdiff">xdiff</p>
+ <c>pecl.php.net</c>
+ <v>1.1</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>mg</m>
+ <s>File differences/patches.</s>
+ <d>This extension creates and applies patches to both text and binary files.
+</d>
+ <da>2004-03-21 15:09:00</da>
+ <n>Fix FreeBSD build.</n>
+ <f>8108</f>
+ <g>http://pecl.php.net/get/xdiff-1.1</g>
+ <x xlink:href="package.1.1.xml"/>
+</r>

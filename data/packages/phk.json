@@ -1,0 +1,24 @@
+{
+    "category": "PHP",
+    "deprecated": false,
+    "description": "An optional accelerator for Automap and PHK.\n\nAutomap (http://automap.tekwire.net) is a fast map-based autoloader.\n\nPHK (http://phk.tekwire.net) is a PHP-oriented package/archive system.\n\nThis extension does not provide any new feature, it just provides a dramatic\nincrease in performance when using Automap and/or PHK.\n\nNote that there is no 'Automap' PECL extension anymore. The PHK extension now\nincludes it. So, this is the one you need, even if using Automap out of PHK\npackages.",
+    "latestReleaseDate": "2015-06-01T15:56:52+00:00",
+    "latestVersion": "3.0.1",
+    "license": "PHP License",
+    "name": "phk",
+    "summary": "An optional accelerator for Automap and PHK",
+    "php8Mentioned": false,
+    "releases": {
+        "3.0.1": {
+            "version": "3.0.1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "francois",
+            "releaseDate": "2015-06-01T15:56:52+00:00",
+            "releaseNotes": "PHP 5.x only",
+            "get": "http://pecl.php.net/get/phk-3.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

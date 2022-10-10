@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/protobuf">protobuf</p>
+ <c>pecl.php.net</c>
+ <v>3.15.1</v>
+ <st>stable</st>
+ <l>3-Clause BSD License</l>
+ <m>stanleycheung</m>
+ <s>Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data.</s>
+ <d>https://developers.google.com/protocol-buffers/</d>
+ <da>2021-02-20 01:53:38</da>
+ <n>New changes in 3.15.0:
+ * unregister INI entries and fix invalid read on shutdown (#8042)
+ * Fix PhpDoc comments for message accessors to include &quot;|null&quot;. (#8136)
+ * fix: convert native PHP floats to single precision (#8187)
+ * Fixed PHP to support field numbers &gt;=2**28. (#8235)
+ * feat: add support for deprecated fields to PHP compiler (#8223)
+ * Protect against stack overflow if the user derives from Message. (#8248)
+ * Fixed clone for Message, RepeatedField, and MapField. (#8245)
+ * Updated upb to allow nonzero offset minutes in JSON timestamps. (#8258)</n>
+ <f>144979</f>
+ <g>https://pecl.php.net/get/protobuf-3.15.1</g>
+ <x xlink:href="package.3.15.1.xml"/>
+</r>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/drizzle">drizzle</p>
+ <c>pecl.php.net</c>
+ <v>0.4.2</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>jluedke</m>
+ <s>PHP wrapper to libdrizzle</s>
+ <d>This extension uses libdrizzle library to provide API for communicating with drizzle and mysql databases.</d>
+ <da>2010-04-03 19:59:47</da>
+ <n>- applied patch from eday
+- added contex_free calls where needed
+- updated a few methods</n>
+ <f>24106</f>
+ <g>http://pecl.php.net/get/drizzle-0.4.2</g>
+ <x xlink:href="package.0.4.2.xml"/>
+</r>

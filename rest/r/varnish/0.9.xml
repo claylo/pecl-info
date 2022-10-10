@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/varnish">varnish</p>
+ <c>pecl.php.net</c>
+ <v>0.9</v>
+ <st>beta</st>
+ <l>BSD</l>
+ <m>ab</m>
+ <s>Varnish Cache bindings</s>
+ <d>Varnish Cache is an open source, state of the art web application accelerator. The extension makes it possible to interact with a running varnish instance through TCP socket or shared memory.</d>
+ <da>2011-09-23 14:55:54</da>
+ <n>- more exceptions on appropriate places
+- minor fixes
+- beta documentation is available</n>
+ <f>27763</f>
+ <g>http://pecl.php.net/get/varnish-0.9</g>
+ <x xlink:href="package.0.9.xml"/>
+</r>

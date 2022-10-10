@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>1.7.20</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Asynchronous and concurrent and distributed networking	framework for PHP.</s>
+ <d>Asynchronous and concurrent and distributed networking framework for PHP.
+- event-driven
+- full asynchronous non-blocking
+- multi-thread reactor
+- multi-process worker
+- millisecond timer
+- async MySQL
+- async task
+- async read/write file system
+- async dns lookup
+- support IPv4/IPv6/UnixSocket/TCP/UDP
+- SSL/TLS encrypted transmission</d>
+ <da>2015-10-21 03:24:27</da>
+ <n>- Added swoole_http_server HTTP DELETE entity supports
+- Added swoole_client support for SSL/TLS tunnel encryption
+- Optimized RINIT/RSHUTDOWN
+- Fixed the problem of coredump when swoole_websocket_server is not set up onRequest
+- Added swoole_server-&gt;getClientInfo/getClientList alias
+- Fixed swoole_server-&gt;finish cannot use in BASE mode
+- Added swoole_client ssl certificate supports
+- Fixed swoole_http_server memory leak</n>
+ <f>469962</f>
+ <g>http://pecl.php.net/get/swoole-1.7.20</g>
+ <x xlink:href="package.1.7.20.xml"/>
+</r>

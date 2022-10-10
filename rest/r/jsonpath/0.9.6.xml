@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/jsonpath">jsonpath</p>
+ <c>pecl.php.net</c>
+ <v>0.9.6</v>
+ <st>alpha</st>
+ <l>PHP License</l>
+ <m>viktor</m>
+ <s>Extract data using JSONPath notation</s>
+ <d>This extension allows you to use the versatile JSONPath query language to extract the properties that you want from a decoded JSON document.</d>
+ <da>2022-01-13 11:06:42</da>
+ <n>## Changes
+- Basic Windows CI (build and test) @cmb69 (#154)
+- Fix Windows builds @cmb69 (#153)
+- Revert &quot;Issue #150 - pass AST\_RECURSE token to exec\_recursive\_descent()&quot; @mkaminski1988 (#152)
+
+## Bug fixes
+- Dereference values to always get the underlying value @crocodele (#151)</n>
+ <f>50794</f>
+ <g>https://pecl.php.net/get/jsonpath-0.9.6</g>
+ <x xlink:href="package.0.9.6.xml"/>
+</r>

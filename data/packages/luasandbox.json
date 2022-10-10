@@ -1,0 +1,74 @@
+{
+    "category": "Languages",
+    "deprecated": false,
+    "description": "LuaSandbox is an extension for running untrusted Lua code within a PHP web request. Code is run in a stripped-down, safe environment. Time and memory limits can be set.",
+    "latestReleaseDate": "2022-09-23T04:59:03+00:00",
+    "latestVersion": "4.1.0",
+    "license": "MIT",
+    "name": "LuaSandbox",
+    "php8Mentioned": true,
+    "releases": {
+        "4.1.0": {
+            "version": "4.1.0",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "legoktm",
+            "releaseDate": "2022-09-23T04:59:03+00:00",
+            "releaseNotes": "- Add PHP 8.2 support",
+            "get": "https://pecl.php.net/get/LuaSandbox-4.1.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "4.0.2": {
+            "version": "4.0.2",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "legoktm",
+            "releaseDate": "2021-05-19T04:10:35+00:00",
+            "releaseNotes": "- Add config.w32 package.xml tarball (Closes #80850)",
+            "get": "https://pecl.php.net/get/LuaSandbox-4.0.2",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "4.0.1": {
+            "version": "4.0.1",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "legoktm",
+            "releaseDate": "2021-03-10T07:12:19+00:00",
+            "releaseNotes": "- Add missing file to package.xml tarball",
+            "get": "https://pecl.php.net/get/LuaSandbox-4.0.1",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "4.0.0": {
+            "version": "4.0.0",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "legoktm",
+            "releaseDate": "2021-03-04T06:16:03+00:00",
+            "releaseNotes": "- Add docbook documentation (for php.net)\n- Flag optional and variadic parameters properly for PHP reflection\n- Remove memory leaks in data_conversion.c\n- Drop PHP5 and HHVM compatibility\n- Add PHP 8 support\n- Windows compilation fixes",
+            "get": "https://pecl.php.net/get/LuaSandbox-4.0.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "3.0.3": {
+            "version": "3.0.3",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "tstarling",
+            "releaseDate": "2018-10-11T02:48:27+00:00",
+            "releaseNotes": "- Fix ZTS build on PHP 7+ (Patch by Remi Collet)",
+            "get": "http://pecl.php.net/get/LuaSandbox-3.0.3",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "3.0.2": {
+            "version": "3.0.2",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "tstarling",
+            "releaseDate": "2018-10-09T05:37:23+00:00",
+            "releaseNotes": "- Fix PHP 7 object layout\n- Initial PECL release",
+            "get": "http://pecl.php.net/get/LuaSandbox-3.0.2",
+            "SPDX-License-Identifier": "MIT"
+        }
+    },
+    "summary": "Lua interpreter with limits and safe environment",
+    "SPDX-License-Identifier": "MIT"
+}

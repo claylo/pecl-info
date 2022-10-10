@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/gearman">gearman</p>
+ <c>pecl.php.net</c>
+ <v>0.8.1</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>hradtke</m>
+ <s>PHP wrapper to libgearman</s>
+ <d>This extension uses libgearman library to provide API for communicating with gearmand, and writing clients and workers.</d>
+ <da>2011-12-08 18:53:20</da>
+ <n>- Fixed PECL Bug #18658 (GearmanWorker::wait and GearmanWorker::work are spamming the log with warnings.)</n>
+ <f>29819</f>
+ <g>http://pecl.php.net/get/gearman-0.8.1</g>
+ <x xlink:href="package.0.8.1.xml"/>
+</r>

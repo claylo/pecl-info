@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/framegrab">framegrab</p>
+ <c>pecl.php.net</c>
+ <v>0.1.0</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>cyberspice</m>
+ <s>A video frame grabber extension</s>
+ <d>Provides a set of classes and functions for grabbing video frames from video capture devices.</d>
+ <da>2010-02-28 10:05:58</da>
+ <n>- Changed the --enable-framegrab option to --with-framegrab since you specify the PNG library path on the configure line.
+- Changed FrameGrabImage::writePNG() to FrameGrabImage::writeAsPNG().  
+- Added FrameGrabImage::toStringAsPNG() which returns the image as PNG data as a string.  This allows the output to be fed straight in to GD without requiring an intermediate file.</n>
+ <f>12516</f>
+ <g>http://pecl.php.net/get/framegrab-0.1.0</g>
+ <x xlink:href="package.0.1.0.xml"/>
+</r>

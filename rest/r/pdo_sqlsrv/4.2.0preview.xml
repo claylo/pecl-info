@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pdo_sqlsrv">pdo_sqlsrv</p>
+ <c>pecl.php.net</c>
+ <v>4.2.0preview</v>
+ <st>devel</st>
+ <l>The MIT License (MIT)</l>
+ <m>mbar</m>
+ <s>Microsoft Drivers for PHP for SQL Server (PDO_SQLSRV)</s>
+ <d>The Microsoft Drivers for PHP for SQL Server are PHP extensions that allow for the reading and writing of SQL Server data from within PHP scripts. The SQLSRV extension provides a procedural interface while the PDO_SQLSRV extension implements PDO for accessing data in all editions of SQL Server 2005 and later (including Azure SQL DB). These drivers rely on the Microsoft ODBC Driver for SQL Server to handle the low-level communication with SQL Server.
+*This package contains only the PDO_SQLSRV driver.*</d>
+ <da>2017-05-19 19:32:37</da>
+ <n>[Added]
+- Added support for sql_variant data type with limitation ([issue #51] and [issue #127])
+- This is a preview for Debian Jessie (tested on Debian 8.7)
+[Fixed]
+- Increased Test Coverage
+- General bug fixes after running static analyses
+[Limitation]
+- Limited support for input / output params when using sql_variant 
+[Known Issues]
+- User defined data types 
+- When pooling is enabled in Linux or MAC
+  - unixODBC 2.3.4 or prior (Linux and MAC) might not return proper diagnostics information, such as error messages, warnings and informative messages
+  - due to this unixODBC bug, fetch large data (such as xml, binary) as streams as a workaround. See the examples (https://github.com/Microsoft/msphpsql/wiki/Connection-Pooling-on-Linux-and-Mac)</n>
+ <f>153628</f>
+ <g>http://pecl.php.net/get/pdo_sqlsrv-4.2.0preview</g>
+ <x xlink:href="package.4.2.0preview.xml"/>
+</r>

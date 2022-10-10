@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/memtrack">memtrack</p>
+ <c>pecl.php.net</c>
+ <v>0.1.0</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>tony2001</m>
+ <s>PHP extension to watch (unusually high) memory consumption in PHP scripts</s>
+ <d>memtrack is a PHP extension that tracks memory consumption in PHP scripts
+  and produces reports (warnings) when memory usage reaches certain levels
+  set by the user.</d>
+ <da>2009-01-23 09:01:32</da>
+ <n>- Initial PECL release</n>
+ <f>5311</f>
+ <g>http://pecl.php.net/get/memtrack-0.1.0</g>
+ <x xlink:href="package.0.1.0.xml"/>
+</r>

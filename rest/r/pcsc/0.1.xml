@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pcsc">pcsc</p>
+ <c>pecl.php.net</c>
+ <v>0.1</v>
+ <st>alpha</st>
+ <l>PHP</l>
+ <m>hanez</m>
+ <s>An extension for PHP using the winscard PC/SC API</s>
+ <d>This is an extension for using PC/SC based smart cards with PHP. 
+It is a wrapper to the wonderfull and free project PCSC-Lite which is the 
+middleware to access a smart card using SCard API (PC/SC). Since PCSC-Lite is 
+compatible to the winscard API it should be possible to compile this extension 
+using a Windows® operating system. Currently I only take focus on Linux 
+environments.</d>
+ <da>2011-12-13 18:26:40</da>
+ <n>Initial release</n>
+ <f>7131</f>
+ <g>http://pecl.php.net/get/pcsc-0.1</g>
+ <x xlink:href="package.0.1.xml"/>
+</r>

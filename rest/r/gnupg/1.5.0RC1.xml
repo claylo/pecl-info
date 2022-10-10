@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/gnupg">gnupg</p>
+ <c>pecl.php.net</c>
+ <v>1.5.0RC1</v>
+ <st>beta</st>
+ <l>BSD, revised</l>
+ <m>bukka</m>
+ <s>wrapper around the gpgme library</s>
+ <d>This extension provides methods to interact with gnupg</d>
+ <da>2021-02-14 19:44:35</da>
+ <n>* Added support for PHP 8
+* Added support for GnuPG 2.1+
+* Added argument info for all functions and methods (reflection support)
+* Added new function `gnupg_getengineinfo`
+* Added new function `gnupg_geterrorinfo`
+* Added init array argument for setting home dir and gpg binary file name
+* Added additional fields to `gnupg_keyinfo` returned array
+* Added parameter to `gnupg_keyinfo` to use `secret_only`
+* Fixed `gnupg_deletekey` to use boolean for `allow_secret` parameter</n>
+ <f>32109</f>
+ <g>https://pecl.php.net/get/gnupg-1.5.0RC1</g>
+ <x xlink:href="package.1.5.0RC1.xml"/>
+</r>

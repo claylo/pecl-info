@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/dio">dio</p>
+ <c>pecl.php.net</c>
+ <v>0.0.2</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>alan_k</m>
+ <s>Direct I/O functions</s>
+ <d>PHP supports the direct io functions as described in the 
+Posix Standard (Section 6) for performing I/O functions at 
+a lower level than the C-Language stream I/O functions 
+(fopen(), fread(),..). The use of the DIO functions should 
+be considered only when direct control of a device is needed. 
+In all other cases, the standard filesystem functions are 
+more than adequate.
+ 
+</d>
+ <da>2008-12-07 23:04:35</da>
+ <n>package.xml added to support intallation using pear installer
+Packaged so it can be used.</n>
+ <f>5709</f>
+ <g>http://pecl.php.net/get/dio-0.0.2</g>
+ <x xlink:href="package.0.0.2.xml"/>
+</r>

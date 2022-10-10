@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/cubrid">CUBRID</p>
+ <c>pecl.php.net</c>
+ <v>9.0.0.0001</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>cubrid</m>
+ <s>This is the official PHP Extension to connect to CUBRID Database.</s>
+ <d>CUBRID is an open source database management system highly optimized for Web applications (http://www.cubrid.org). The current PHP extension is fully compatibly with the latest stable version of CUBRID Database. To post issues and report bugs, please use CUBRID Official Forum at http://forum.cubrid.org.</d>
+ <da>2012-10-15 06:05:51</da>
+ <n>Fixed bugs:
+
+1) APIS-285: Modify cubrid_real_escape_string function
+2) APIS-338: When execute the sql statement containing &quot;prepare&quot;, the error info is not right.
+3) APIS-293: fix the bug of the default PUBLIC user when there is only one argument in cubrid_connect_with_url()
+4) APIS-353: cubrid_schema dosen't support to query all triggers with CUBRID_SCH_TRIGGER type. Fixed the PHP driver part.
+5) NOISSUE: not use two connect_ex and new excape_string functions in Windows platform, because the cascci.lib doesn't export these functions.</n>
+ <f>47023</f>
+ <g>http://pecl.php.net/get/CUBRID-9.0.0.0001</g>
+ <x xlink:href="package.9.0.0.0001.xml"/>
+</r>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.18.0</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>sammyk</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2019-04-08 18:44:02</da>
+ <n>**NOTE: THIS IS A BREAKING CHANGE RELEASE**
+
+This change should not impact most users.
+
+### Added
+- MessagePack serialization for traces sent to the Agent with a new function `dd_trace_serialize_msgpack()` #378
+
+### Changed
+- Request init hook module blacklist now avoids miss matching partial matches #372
+- Add 10MB cap to payloads sent to the Agent #388
+- Added an `getTracesAsArray()` method to `DDTrace/Contracts/Tracer` which returns an array of spans (which are also encoded as an array.) To encode an instance of `DDTrace\Contracts\Span` as an array, use `DDTrace/Encoders/SpanEncoder::encode($span)` #378
+- `DDTrace/Transport::send()` now takes an instance of `DDTrace/Contracts/Tracer` instead of an `array` #378
+- `DDTrace/Encoder::encodeTraces()` now takes an instance of `DDTrace/Contracts/Tracer` instead of an `array` #378
+- The default encoder is now `DDTrace/Encoders/MessagePack`. You can still use the JSON encoder by setting the environment variable `DD_TRACE_ENCODER=json`. It is generally not recommended to use the JSON encoder as parsing JSON payloads at the Agent level is more CPU &amp; memory intensive.</n>
+ <f>31391</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.18.0</g>
+ <x xlink:href="package.0.18.0.xml"/>
+</r>

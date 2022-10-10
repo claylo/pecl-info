@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mogilefs">mogilefs</p>
+ <c>pecl.php.net</c>
+ <v>0.7.5b4</v>
+ <st>beta</st>
+ <l>BSD License</l>
+ <m>lstrojny</m>
+ <s>PHP client library to communicate with the MogileFS storage</s>
+ <d>PHP MogileFS is a client library to communicate with MogileFS trackers.
+		Those trackers are part of the distributed filesystem MogileFS created
+		by Danga Interactive (http://www.danga.com/) and used in serveral large
+		scale projects like LiveJournal.</d>
+ <da>2008-12-08 22:18:55</da>
+ <n>- Moved to pecl.php.net
+- Fixed a bunch of ugly memory leaks
+- Fixed bug in MogileFS::connect()
+- Renamed MogileFsClient back to MogileFS</n>
+ <f>14972</f>
+ <g>http://pecl.php.net/get/mogilefs-0.7.5b4</g>
+ <x xlink:href="package.0.7.5b4.xml"/>
+</r>

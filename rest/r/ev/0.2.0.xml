@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ev">ev</p>
+ <c>pecl.php.net</c>
+ <v>0.2.0</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>osmanov</m>
+ <s>Provides interface to libev library</s>
+ <d>ev provides inteface to libev library - high performance
+  full-featured event loop written in C.</d>
+ <da>2012-12-27 05:17:02</da>
+ <n>Change: moved ev_* functions to Ev singleton(due to some issues with reflection)
+Change: renamed EvLoop::break to EvLoop::stop, and ev_break to Ev::stop
+Change: moved all constants to Ev class
+Fix: release version
+Del: callback parameter from EvLoop constructor/factories
+Change: watcher createStopped methods made final
+Change: watcher factory methods made final</n>
+ <f>92803</f>
+ <g>http://pecl.php.net/get/ev-0.2.0</g>
+ <x xlink:href="package.0.2.0.xml"/>
+</r>

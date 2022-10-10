@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xcommerce">xcommerce</p>
+ <c>pecl.php.net</c>
+ <v>1.0.4</v>
+ <st>stable</st>
+ <l>BSD</l>
+ <m>jawed</m>
+ <s>X.commerce bindings and helper methods</s>
+ <d>This extension provides functionality for building and
+   consuming API's in the X.commerce ecosystem.</d>
+ <da>2012-09-27 23:52:18</da>
+ <n>- [new] support NULL-able unions</n>
+ <f>11651</f>
+ <g>http://pecl.php.net/get/xcommerce-1.0.4</g>
+ <x xlink:href="package.1.0.4.xml"/>
+</r>

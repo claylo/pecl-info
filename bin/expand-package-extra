@@ -1,0 +1,139 @@
+#!/usr/bin/env php -d display_errors=0
+<?php
+$packages = json_decode(file_get_contents('data/packages.json'), true);
+
+$extra = json_decode(file_get_contents('data/packages-extra.json'), true);
+
+// TODO check/validate/standardize doc links
+
+$limit = false;
+// limit to one package?
+if (isset($argv[1])) {
+    $limit = $argv[1];
+    echo "  expand-package-extra for: $limit\n";
+    // but don't limit if there's no matching package info
+    if (! file_exists("rest/p/$limit/info.xml")) {
+        echo "no package info for $limit\n";
+        exit;
+    }
+}
+
+$doclinks = [];
+$ch = curl_init();
+curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'HEAD');
+
+foreach ($packages as $pkg => $info) {
+    if ($limit !== false) {
+        if ($limit !== $pkg) {
+            continue;
+        }
+    }
+
+    // do we already know it is not maintained?
+    if (array_key_exists($pkg, $extra)) {
+        $pextra = $extra[$pkg];
+        if ($pextra['maintained'] === false) {
+            ksort($extra[$pkg]);
+            continue;
+        }
+    }
+    $maintained = true;
+    $repo = '';
+    $bugs = '';
+    $stats = '';
+    $homepage = '';
+    $docs = '';
+
+    if (! file_exists("pkg-pages/$pkg.html")) {
+        $html = file_get_contents("https://pecl.php.net/package/$pkg");
+        // file_put_contents("pkg-pages/$pkg.html", $html);
+    } else {
+        $html = file_get_contents("pkg-pages/$pkg.html");
+    }
+
+    if (strpos($html, 'This package is not maintained') !== false) {
+        $maintained = false;
+    }
+
+    if (preg_match('/\[ <a href="(.*)" target="_blank">Browse Source<\/a> \]/U', $html, $matches)) {
+        $repo = html_entity_decode($matches[1]);
+    }
+
+    if (preg_match('/\[ <a href="(.*)">Package Bugs<\/a> \]/U', $html, $matches)) {
+        $bugs = html_entity_decode($matches[1]);
+    }
+
+    if (preg_match('/<a href="(\/package-stats\.php?.*)">/U', $html, $matches)) {
+        $stats = 'https://pecl.php.net' . html_entity_decode($matches[1]);
+    }
+
+    if (preg_match('/<th.*>Homepage<\/th>\W+<td.*>\W+<a href="(.*)">/U', $html, $matches)) {
+        $homepage = html_entity_decode($matches[1]);
+    }
+
+    if (preg_match('/\[ <a href="(.*)">\W+View Documentation\W+<\/a> \]/U', $html, $matches)) {
+        $docs = html_entity_decode($matches[1]);
+    }
+
+    $extra[$pkg] = [
+        'bugs' => $bugs,
+        'docs' => $docs,
+        'home' => $homepage,
+        'maintained' => $maintained,
+        'repo' => $repo,
+        'stats' => $stats,
+        'verified' => false
+    ];
+
+    if (! empty($docs) && $pextra['verified'] !== true) {
+        $doclinks[] = $docs;
+
+        // basic fixes
+        $parts = parse_url($docs);
+        $newdoc = '';
+        // if (str_ends_with($parts['host'], 'php.net')) {
+            // $newdoc = 'https://www.php.net';
+            // // is it maybe just this easy?
+            // $newdoc .= "/$pkg";
+            // curl_setopt($ch, CURLOPT_URL, $newdoc);
+            // curl_exec($ch);
+            // $curlinfo = curl_getinfo($ch);
+            // if ($curlinfo['http_code'] == 200) {
+            //     $extra[$pkg]['docs'] = "https://php.net/$pkg";
+            //     $extra[$pkg]['docsfixed'] = true;
+            //     echo "$pkg: updated & verified docs\n";
+            // }
+
+
+            // echo "$pkg\n";
+            // echo "    docs: $docs\n";
+            // echo "    docs-fixed: $newdoc\n\n";
+        // }
+        if ($parts['scheme'] == 'http') {
+            // does https work?
+            $newdoc = str_replace('http://', 'https://', $docs);
+            $newdoc = str_replace('https://php.net/', 'https://www.php.net/', $newdoc);
+            curl_setopt($ch, CURLOPT_URL, $newdoc);
+            echo "$pkg: checking $newdoc ...\n";
+            curl_exec($ch);
+            $curlinfo = curl_getinfo($ch);
+            if ($curlinfo['http_code'] == 200) {
+                $newdoc = str_replace("https://www.php.net/", "https://php.net/", $newdoc);
+                $extra[$pkg]['docs'] = $newdoc;
+                $extra[$pkg]['verified'] = true;
+                echo " switched to https\n\n";
+            } else {
+                echo " nope\n\n";
+            }
+        }
+    }
+    ksort($extra[$pkg]);
+}
+
+file_put_contents(
+    'data/packages-extra.json',
+    json_encode($extra, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES)
+);
+
+// $doclinks = array_values(array_unique($doclinks));
+// print_r($doclinks);

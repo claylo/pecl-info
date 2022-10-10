@@ -1,0 +1,114 @@
+{
+    "category": "Math",
+    "deprecated": false,
+    "description": "Adds support for correctly-rounded arbitrary precision decimal floating-point arithmetic in PHP 7",
+    "latestReleaseDate": "2021-02-17T04:35:45+00:00",
+    "latestVersion": "1.4.0",
+    "license": "MIT License",
+    "name": "decimal",
+    "php8Mentioned": true,
+    "releases": {
+        "1.4.0": {
+            "version": "1.4.0",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "rtheunissen",
+            "releaseDate": "2021-02-17T04:35:45+00:00",
+            "releaseNotes": "- Added support for PHP 8 (thank you @zlodes)\n- Added support for mpdecimal 2.5+ \n- Fixed internal exception when passing negative decimal places to toFixed",
+            "get": "https://pecl.php.net/get/decimal-1.4.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "2.0.0": {
+            "version": "2.0.0",
+            "state": "alpha",
+            "license": "MIT License",
+            "releasedBy": "rtheunissen",
+            "releaseDate": "2020-02-03T21:34:25+00:00",
+            "releaseNotes": "- Default decimal precision changed from 28 to 34.\n- Decimal operations now use the **minimum** precision of all operands.\n- Added `Decimal\\Rational` implementation for rational numbers (fractions).\n- Added `Decimal\\Number` abstract class.\n- Performance improvements, reduced object allocations.\n- Private constructors, static initializers via `valueOf`.",
+            "get": "https://pecl.php.net/get/decimal-2.0.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.3.1": {
+            "version": "1.3.1",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "rtheunissen",
+            "releaseDate": "2020-02-03T21:17:02+00:00",
+            "releaseNotes": "- Fixed abs affected by precision.",
+            "get": "https://pecl.php.net/get/decimal-1.3.1",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.3.0": {
+            "version": "1.3.0",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "rtheunissen",
+            "releaseDate": "2019-02-11T22:01:59+00:00",
+            "releaseNotes": "- Fixed sqrt of -INF returning -INF rather than NAN. #13\n- Disable opcache pass 2 due to numeric string to float casts. Thanks @krakjoe",
+            "get": "https://pecl.php.net/get/decimal-1.3.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.2.0": {
+            "version": "1.2.0",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "rtheunissen",
+            "releaseDate": "2019-02-09T11:19:25+00:00",
+            "releaseNotes": "- Change signum of NAN returning 1, now throws RuntimeException. #10\n- Change toInt of NAN and INF returning 0, now throws RuntimeException. #11\n- Fix pthreads incompatibility (properly). #12",
+            "get": "https://pecl.php.net/get/decimal-1.2.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.1.2": {
+            "version": "1.1.2",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "rtheunissen",
+            "releaseDate": "2019-02-07T19:56:47+00:00",
+            "releaseNotes": "Fix incompatibility with pthreads. #12 @krakjoe",
+            "get": "https://pecl.php.net/get/decimal-1.1.2",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.1.1": {
+            "version": "1.1.1",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "rtheunissen",
+            "releaseDate": "2019-01-24T18:16:55+00:00",
+            "releaseNotes": "Fix \"signum\" returning 1 for zero, instead of 0.",
+            "get": "https://pecl.php.net/get/decimal-1.1.1",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.1.0": {
+            "version": "1.1.0",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "rtheunissen",
+            "releaseDate": "2018-11-20T21:11:17+00:00",
+            "releaseNotes": "Added \"trim\" method, to remove trailing zeroes.",
+            "get": "https://pecl.php.net/get/decimal-1.1.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "rtheunissen",
+            "releaseDate": "2018-10-29T18:58:32+00:00",
+            "releaseNotes": "Package content updates, smarter .m4 @remicollet",
+            "get": "http://pecl.php.net/get/decimal-1.0.1",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "rtheunissen",
+            "releaseDate": "2018-10-28T18:49:00+00:00",
+            "releaseNotes": "Initial release, request for comments.",
+            "get": "http://pecl.php.net/get/decimal-1.0.0",
+            "SPDX-License-Identifier": "MIT"
+        }
+    },
+    "summary": "Arbitrary precision floating-point decimal",
+    "SPDX-License-Identifier": "MIT"
+}

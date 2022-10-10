@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/winbinder">WinBinder</p>
+ <c>pecl.php.net</c>
+ <v>0.43.164</v>
+ <st>alpha</st>
+ <l>BSD</l>
+ <m>sfrausch</m>
+ <s>A Native Windows binding for PHP</s>
+ <d>WinBinder is a new extension that allows PHP programmers to build native Windows applications. It wraps the Windows API in a lightweight, easy-to-use library so that program creation is quick and straightforward.
+</d>
+ <da>2005-11-24 15:19:58</da>
+ <n>- New installer includes PHP version 4.4.1, SQLite, FreeImage, HTML sources for manual and other files. Server for downloading PHP 5.0.5 is selectable
+- New, much better folder structure (thanks Techtonik, Stefano)
+- wb_load_image() and wb_set_image() can load/set small icons (thanks EK)
+- wb_get_size() can also return the dimensions of a text in pixels
+- wb_sys_dlg_save() now allows a default extension to be added to file names
+- wb_set_selected() allows selection of root node in treeviews
+- Treeviews now keep the selected item highlighted (usually in gray) when focus is lost
+- Implemented non-read-only (editable) combo boxes
+- New function: wb_draw_ellipse()
+- Included parameter for dashed line styles in some drawing functions
+- Lots of changes and fixes in the PHP scripts, as well as a couple of new ones
+
+... and many other fixes and changes as usual. Please make sure you read the changelog for the complete list!</n>
+ <f>755037</f>
+ <g>http://pecl.php.net/get/WinBinder-0.43.164</g>
+ <x xlink:href="package.0.43.164.xml"/>
+</r>

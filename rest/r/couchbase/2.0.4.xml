@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/couchbase">couchbase</p>
+ <c>pecl.php.net</c>
+ <v>2.0.4</v>
+ <st>stable</st>
+ <l>Apache V2</l>
+ <m>brett19</m>
+ <s>Couchbase Server PHP extension</s>
+ <d>The PHP client library provides fast access to documents stored in
+        a Couchbase Server.</d>
+ <da>2015-02-03 13:29:40</da>
+ <n>This is a patch update to the PHP 2.0 SDK.
+
+Changes:
+* PCBC-321: Corrected issue when passing incorrect option parameter type.
+* Corrected issue related to setting timeouts.
+* PCBC-317: Updated N1QL querying to support DP4.
+* Fixed issue with design document management methods.</n>
+ <f>29380</f>
+ <g>http://pecl.php.net/get/couchbase-2.0.4</g>
+ <x xlink:href="package.2.0.4.xml"/>
+</r>

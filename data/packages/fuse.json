@@ -1,0 +1,24 @@
+{
+    "category": "File System",
+    "deprecated": false,
+    "description": "FUSE is a loadable kernel module that provides support for creating POSIX file system drivers that run in user space. This library is intended to work with the PHP command-line interpreter.",
+    "latestReleaseDate": "2010-07-17T18:45:27+00:00",
+    "latestVersion": "0.1",
+    "license": "PHP",
+    "name": "fuse",
+    "summary": "File system in user space package",
+    "php8Mentioned": false,
+    "releases": {
+        "0.1": {
+            "version": "0.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rjcarroll",
+            "releaseDate": "2010-07-17T18:45:27+00:00",
+            "releaseNotes": "Basic read support works.",
+            "get": "http://pecl.php.net/get/fuse-0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

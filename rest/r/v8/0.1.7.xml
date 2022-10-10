@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/v8">v8</p>
+ <c>pecl.php.net</c>
+ <v>0.1.7</v>
+ <st>stable</st>
+ <l>The MIT License (MIT)</l>
+ <m>pinepain</m>
+ <s>V8 JavaScript engine API for PHP</s>
+ <d>This extension brings V8 JavaScript engine API to PHP with some abstraction in mind and provides an accurate native V8 C++ API implementation available from PHP.</d>
+ <da>2017-06-30 18:57:47</da>
+ <n>Changes to public API and other important changes which may affect end-user:
+
+ - Require v8 &gt;= 6.1.170;
+ - Fix segfaults on unclean shutdown;</n>
+ <f>177631</f>
+ <g>http://pecl.php.net/get/v8-0.1.7</g>
+ <x xlink:href="package.0.1.7.xml"/>
+</r>
