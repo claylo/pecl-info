@@ -1,0 +1,15 @@
+{
+    "category": "XML",
+    "deprecated": true,
+    "description": "This extension wraps the libxml xmlWriter API. Represents a writer that provides a non-cached, forward-only means of generating streams or files containing XML data.",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "PHP",
+    "name": "xmlwriter",
+    "summary": "Provides fast, non-cached, forward-only means to write XML data.\n\nThis PECL extension is dead, instead use XMLWriter that comes with core (as of PHP 5.1.2)",
+    "php8Mentioned": false,
+    "releases": [],
+    "new_channel": "http://www.php.net/xmlwriter",
+    "new_package": "XmlWriter in Core",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

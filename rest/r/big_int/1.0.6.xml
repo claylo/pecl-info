@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/big_int">big_int</p>
+ <c>pecl.php.net</c>
+ <v>1.0.6</v>
+ <st>stable</st>
+ <l>see LICENSE</l>
+ <m>valyala</m>
+ <s>big_int library provides a set of functions for calculations with arbitrary length integers and bitsets</s>
+ <d>Functions from this package are useful for number theory
+applications. For example, in two-keys cryptography.
+
+See /tests/RSA.php in the package for example of simple
+implementation of RSA-like cryptoalgorithm.
+See http://pear.php.net/packages/Crypt_RSA/ project for
+more complex implementation of RSA-like crypto, which
+supports key generating, encrypting/decrypting, generating
+and validating of digital sign.
+
+The package has many bitset functions, which allow to work
+with arbitrary length bitsets.
+
+This package is much faster than bundled into PHP BCMath
+and consists almost all functions, which are implemented
+in PHP GMP extension, but it needn't any external libraries.
+</d>
+ <da>2005-05-17 07:52:07</da>
+ <n>+ added frequently requested function bi_is_one(), which compares number with 1
++ added php_big_int.dsw and php_big_int.dsp files. Now it is possible to build big_int extension on MSVC6
+* updated documentation (/docs/index.html, INSTALL, README) and tests (/tests folder)
+* significantly improved speed of bi_from_str() function (up to 30 times for base = 2)</n>
+ <f>48100</f>
+ <g>http://pecl.php.net/get/big_int-1.0.6</g>
+ <x xlink:href="package.1.0.6.xml"/>
+</r>

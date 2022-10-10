@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/v8">v8</p>
+ <c>pecl.php.net</c>
+ <v>0.2.2</v>
+ <st>stable</st>
+ <l>The MIT License (MIT)</l>
+ <m>pinepain</m>
+ <s>V8 JavaScript engine API for PHP</s>
+ <d>This extension brings V8 JavaScript engine API to PHP with some abstraction in mind and provides an accurate native V8 C++ API implementation available from PHP.</d>
+ <da>2018-03-01 15:40:51</da>
+ <n>I'm excited to announce that starting from this release documentation is available at
+https://php-v8.readthedocs.io.
+
+Read The Docs is awesome place to host documentation and Sphinx would help to create decent documentation.
+Contributors welcomed!
+
+This is the last version that supports PHP 7.1. Nex versions wil reqiure PHP &gt;= 7.2 unless further notice.
+
+BC-breaking changes:
+
+ - Upgrade v8 version to 6.6.313
+ - Remove deprecated and non-working ScriptCompiler cache options
+ - Rework PromiseObject
+ - Add ValueObject::isBigInt64Array() and ValueObject::isBigUint64Array methods
+
+Non-breaking changes:
+
+ - Add number of native and detached contexts to HeapStatistics
+ - Add support to produce code cache
+ - Add ScriptCompiler::OPTION_EAGER_COMPILE option
+ - Add support for integer-&lt;strings for ObjectValue::GetOwnPropertyNames and `ObjectValue::GetPropertyNames
+ - Add {Template,ObjectValue}:setLazyDataProperty() method</n>
+ <f>199055</f>
+ <g>http://pecl.php.net/get/v8-0.2.2</g>
+ <x xlink:href="package.0.2.2.xml"/>
+</r>

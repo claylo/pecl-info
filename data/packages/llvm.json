@@ -1,0 +1,13 @@
+{
+    "category": "PHP",
+    "deprecated": false,
+    "description": "Compiles Zend bytecode to LLVM assembly and then into optimized machine code.",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "PHP License",
+    "name": "llvm",
+    "php8Mentioned": false,
+    "releases": [],
+    "summary": "Zend bytecode to LLVM assembly compiler",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

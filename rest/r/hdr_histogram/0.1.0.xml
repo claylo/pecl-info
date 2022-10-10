@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/hdr_histogram">hdr_histogram</p>
+ <c>pecl.php.net</c>
+ <v>0.1.0</v>
+ <st>beta</st>
+ <l>New BSD</l>
+ <m>beberlei</m>
+ <s>A PHP extension wrapper for the C hdrhistogram API</s>
+ <d>HdrHistogram: A High Dynamic Range Histogram. A Histogram that supports recording and analyzing sampled data value counts across a configurable integer value range with configurable value precision within the range. Value precision is expressed as the number of significant digits in the value recording, and provides control over value quantization behavior across the value range and the subsequent value resolution at any given level.</d>
+ <da>2015-12-31 16:01:21</da>
+ <n>- First release</n>
+ <f>9830</f>
+ <g>http://pecl.php.net/get/hdr_histogram-0.1.0</g>
+ <x xlink:href="package.0.1.0.xml"/>
+</r>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pq">pq</p>
+ <c>pecl.php.net</c>
+ <v>0.1.0</v>
+ <st>beta</st>
+ <l>BSD, revised</l>
+ <m>mike</m>
+ <s>libpq binding</s>
+ <d>Binding for libpq (PostgreSQL client library)</d>
+ <da>2013-03-22 09:49:30</da>
+ <n>* Initial release</n>
+ <f>39734</f>
+ <g>http://pecl.php.net/get/pq-0.1.0</g>
+ <x xlink:href="package.0.1.0.xml"/>
+</r>

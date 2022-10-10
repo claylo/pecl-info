@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mqseries">mqseries</p>
+ <c>pecl.php.net</c>
+ <v>0.14.0</v>
+ <st>beta</st>
+ <l>BSD</l>
+ <m>pierrick</m>
+ <s>mqseries client library</s>
+ <d>This package provides support for IBM Websphere MQ (MQSeries).</d>
+ <da>2014-03-07 10:41:55</da>
+ <n>- Add support for the MQFMT_MD_EXTENSION Format to remove the MQMDE from the message. (Pierrick)
+- Add support for the SSLCipherSpec and OCSPResponderURL. (Dieter Devlieghere, Pierrick)
+- Update all implemented mqseries_* functions to expose WebSphere v7 parameters (Pierrick)
+- Add mqseries_sub and mqseries_stat functions from WebSphere v7 (Pierrick)</n>
+ <f>72358</f>
+ <g>http://pecl.php.net/get/mqseries-0.14.0</g>
+ <x xlink:href="package.0.14.0.xml"/>
+</r>

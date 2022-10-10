@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>1.7.8</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Asynchronous and concurrent and distributed networking framework for PHP.</s>
+ <d>Asynchronous and concurrent and distributed networking framework for PHP.
+- event-driven
+- full asynchronous non-blocking
+- multi-thread reactor
+- multi-process worker
+- millisecond timer
+- async MySQL
+- async task
+- async read/write file system
+- async dns lookup
+- support IPv4/IPv6/UnixSocket/TCP/UDP
+- SSL/TLS encrypted transmission</d>
+ <da>2014-11-26 02:42:01</da>
+ <n>- Fixed swoole_http_server::on no implementation parent class methods
+- Fixed cannot read cookie in swoole_http_server
+- Added swoole_http_server support to POST RawContent
+- swoole_timer_after interface can pass a user parameter
+- swoole_client-&gt;recv and onReceive zero copy
+- Fixed swoole_table-&gt;set cannot be set more than 64K string
+- Fixed open_length_check connection memory buffer is not reset bug
+- Added dispatch_mode=4/5, dispatch data by client ip and uid
+- Event callback function exception error level changed from E_WARNING to E_ERROR</n>
+ <f>412906</f>
+ <g>http://pecl.php.net/get/swoole-1.7.8</g>
+ <x xlink:href="package.1.7.8.xml"/>
+</r>

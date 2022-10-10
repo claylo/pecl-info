@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/redis">redis</p>
+ <c>pecl.php.net</c>
+ <v>5.0.1</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>yatsukhnenko</m>
+ <s>PHP extension for interfacing with Redis</s>
+ <d>This extension provides an API for communicating with Redis servers.</d>
+ <da>2019-07-12 06:23:50</da>
+ <n>This release contains only bugfix for one critical issue
+
+* RedisCluster segfaults after second connection with cache_slots enabled [327cf0bd] (Pavlo Yatsukhnenko)</n>
+ <f>243524</f>
+ <g>https://pecl.php.net/get/redis-5.0.1</g>
+ <x xlink:href="package.5.0.1.xml"/>
+</r>

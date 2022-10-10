@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ev">ev</p>
+ <c>pecl.php.net</c>
+ <v>0.2.5</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>osmanov</m>
+ <s>Provides interface to libev library</s>
+ <d>ev provides interface to libev library - high performance
+  full-featured event loop written in C.</d>
+ <da>2013-07-16 14:18:19</da>
+ <n>Fix: bug #64788 where var_dump() of EvIo watcher caused disfunction of whole event loop
+Fix: build error due to return (void) from function returning int on Mac OS X</n>
+ <f>93261</f>
+ <g>http://pecl.php.net/get/ev-0.2.5</g>
+ <x xlink:href="package.0.2.5.xml"/>
+</r>

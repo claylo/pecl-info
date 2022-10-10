@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/gmagick">gmagick</p>
+ <c>pecl.php.net</c>
+ <v>1.1.2RC1</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>vito</m>
+ <s>Provides a wrapper to the GraphicsMagick library.</s>
+ <d>Gmagick is a php extension to create, modify and obtain meta information of images using the GraphicsMagick API.
+This extension requires GraphicsMagick version 1.2.6+ and PHP 5.1.3+.</d>
+ <da>2012-12-27 03:35:19</da>
+ <n>1. Version number updated.
+
+2. levelImage() will now choose between MagickLevelImage and MagickLevelImageChannel depending on whether the channel is provided (the former if it isn't). To adjust  the levels of an image by scaling the colours falling between specified white and black points to the full available quantum range, leave out the channel or use Gmagick::CHANNEL_DEFAULT. The range of applicable  channels for this method can be seen here:
+
+http://www.graphicsmagick.org/wand/magick_wand.html#magicklevelimagechannel
+
+Constants available here:
+
+http://www.php.net/manual/en/gmagick.constants.php
+Method interface is preserved. 
+
+3. coalesceImage() method added.
+
+4. sharpenImage() method added.</n>
+ <f>92862</f>
+ <g>http://pecl.php.net/get/gmagick-1.1.2RC1</g>
+ <x xlink:href="package.1.1.2RC1.xml"/>
+</r>

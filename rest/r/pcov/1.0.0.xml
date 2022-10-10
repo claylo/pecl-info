@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pcov">pcov</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>remi</m>
+ <s>Code coverage driver</s>
+ <d>A self contained php-code-coverage compatible driver for PHP7.</d>
+ <da>2019-01-30 13:28:26</da>
+ <n>- initial pecl release</n>
+ <f>23017</f>
+ <g>https://pecl.php.net/get/pcov-1.0.0</g>
+ <x xlink:href="package.1.0.0.xml"/>
+</r>

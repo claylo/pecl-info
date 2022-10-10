@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.4.3</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in http/websocket/http2 server
+        - coroutine http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2019-08-03 02:26:57</da>
+ <n>Enhancement
+---
++ Continue to maintain the Lock module (@matyhtf)
++ Add zpopmin and zpopmax for Redis 5 (#2684) (@ruesin)
++ Remove Http\Client global buffer in kernel (@twose)
++ Support ppc arch (#2692) (@matyhtf)
++ Support SSL context options for php_stream (#2717) (@twose)
++ Support multi-threading (libswoole) (@matyhtf)
++ Support SSL shutdown (#2717) (@twose)
+
+Fixed
+---
+* Fixed bug: call Request-&gt;rawContent/getData after Response-&gt;end (b989ba9) (@twose)
+* Fixed OpenSSL protocol version check (c89e56f) (@twose)
+* Fixed bug: MySQL double free when io error occurred (d62d543) (@twose)
+* Fixed Http2 Client null pointer (537557d) (@twose)
+* Fixed HTTP2 SSL settings (#2725) (@twose)
+* Fixed DNS errno (@matyhtf)
+* Fixed mem invalid read with fgets (5dc0670) (@matyhtf)
+* Fixed swoole_async_dns_lookup_coro (b9caf5d) (@matyhtf)
++ Fixed ManagerStop failed (7977fab) (@matyhtf)</n>
+ <f>1421403</f>
+ <g>https://pecl.php.net/get/swoole-4.4.3</g>
+ <x xlink:href="package.4.4.3.xml"/>
+</r>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/memcache">memcache</p>
+ <c>pecl.php.net</c>
+ <v>2.0.2</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>mikl</m>
+ <s>memcached extension</s>
+ <d>Memcached is a caching daemon designed especially for 
+dynamic web applications to decrease database load by 
+storing objects in memory.
+This extension allows you to work with memcached through
+handy OO and procedural interfaces.
+ 
+</d>
+ <da>2006-05-14 07:42:08</da>
+ <n>- Added &quot;memcache.default_port&quot; ini directive (default 11211)
+- Added &quot;memcache.allow_failover&quot; ini directive (default On)
+- Added &quot;memcache.chunk_size&quot; ini directive (default 8192 bytes)
+- Setting retry_interval parameter to -1 disables automatic reconnect
+- Fixed PECL bug #7331 (NULL pointer freeing causes memcache to segfault)</n>
+ <f>17613</f>
+ <g>http://pecl.php.net/get/memcache-2.0.2</g>
+ <x xlink:href="package.2.0.2.xml"/>
+</r>

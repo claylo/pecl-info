@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/event">event</p>
+ <c>pecl.php.net</c>
+ <v>1.5.0</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>osmanov</m>
+ <s>Provides interface to libevent library</s>
+ <d>This is an extension to efficiently schedule I/O, time and signal based
+  events using the best I/O notification mechanism available for specific platform.
+  This is a port of libevent to the PHP infrastructure.
+  
+  Version 1.0.0 introduces:
+  * new OO API breaking backwards compatibility
+  * support of libevent 2+ including HTTP, DNS, OpenSSL and the event listener.
+
+  Note, event-1.0.0 and greater is not compatible with previous versions.</d>
+ <da>2013-03-22 12:56:47</da>
+ <n>Fix: uninitialized socket caused segmentation fault in EventBufferEvent methods
+Del: EventBufferPosition class removed, EventBuffer::search now accepts and returns integers
+Add: EventBuffer::searchEol method
+Add: EventUtil::getSocketName method
+Add: EventListener::getSocketName method
+Fix: memory leak due to lack of zend_hash_destroy on the ssl context options
+Add: support of UNIX domain sockets in EventListener::__construct, EventBufferEvent::connect methods</n>
+ <f>62294</f>
+ <g>http://pecl.php.net/get/event-1.5.0</g>
+ <x xlink:href="package.1.5.0.xml"/>
+</r>

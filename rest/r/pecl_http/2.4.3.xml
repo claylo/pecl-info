@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pecl_http">pecl_http</p>
+ <c>pecl.php.net</c>
+ <v>2.4.3</v>
+ <st>stable</st>
+ <l>BSD, revised</l>
+ <m>mike</m>
+ <s>Extended HTTP Support</s>
+ <d>This HTTP extension aims to provide a convenient and powerful 
+set of functionality for one of PHPs major applications.
+
+It eases handling of HTTP urls, headers and messages, provides 
+means for negotiation of a client's preferred content type, 
+language and charset, as well as a convenient way to send any 
+arbitrary data with caching and resuming capabilities.
+
+It provides powerful request functionality with support for
+parallel requests.
+
+Documentation:
+http://devel-m6w6.rhcloud.com/mdref/http
+
+Code Coverage:
+http://dev.iworks.at/ext-http/lcov/ext/http/</d>
+ <da>2015-04-08 10:16:23</da>
+ <n>* Fixed bug #69357 (HTTP/1.1 100 Continue overriding subsequent 200 response code with PUT request)</n>
+ <f>188540</f>
+ <g>http://pecl.php.net/get/pecl_http-2.4.3</g>
+ <x xlink:href="package.2.4.3.xml"/>
+</r>

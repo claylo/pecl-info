@@ -1,0 +1,124 @@
+{
+    "category": "Networking",
+    "deprecated": false,
+    "description": "This PHP extension allows you to find the location of an IP address - City, State, Country, Longitude, Latitude, and other information as all, such as ISP and connection type. For more info, please visit Maxmind's website.",
+    "latestReleaseDate": "2016-08-19T00:21:53+00:00",
+    "latestVersion": "1.1.1",
+    "license": "PHP License",
+    "name": "geoip",
+    "php8Mentioned": false,
+    "releases": {
+        "1.1.1": {
+            "version": "1.1.1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "ohill",
+            "releaseDate": "2016-08-19T00:21:53+00:00",
+            "releaseNotes": "* Add IPv6 support (geoip_country_code_by_*_v6)\n* PHP7 support (thanks to Adam and Dan Ackroyd)",
+            "get": "http://pecl.php.net/get/geoip-1.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.1.0": {
+            "version": "1.1.0",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "ohill",
+            "releaseDate": "2014-05-01T13:46:35+00:00",
+            "releaseNotes": "* Add geoip_setup_custom_directory() to setup custom directories per request.\n* Remove E_NOTICES for IPs not found in database.\n* Fix a segfault with geoip_db_get_all_info() on newer libs (bug #64692).\n* Add support for geoip_netspeedcell_by_name(), geoip_asnum_by_name() and geoip_domain_by_name() (bug #67121).\n* Fix memory leak with custom directories (bug #67138).\n* Support changing custom directory via ini_set() (bug #61607).",
+            "get": "http://pecl.php.net/get/geoip-1.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.8": {
+            "version": "1.0.8",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "ohill",
+            "releaseDate": "2011-10-23T20:38:33+00:00",
+            "releaseNotes": "* Windows support\n* Fix segfault with newer geoip libraries and geoip_db_get_all_info() (bug #60066)\n* Use X-Macros for repeated code\n* Updated tests",
+            "get": "http://pecl.php.net/get/geoip-1.0.8",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.7": {
+            "version": "1.0.7",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "ohill",
+            "releaseDate": "2009-03-11T12:58:25+00:00",
+            "releaseNotes": "* Do not issue a NOTICE when values don't exist for timezone and region name (as added in 1.0.4)\n* Fix a compile issue on FreeBSD\n* Try to be bulletproof on library features detection.",
+            "get": "http://pecl.php.net/get/geoip-1.0.7",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.6": {
+            "version": "1.0.6",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "ohill",
+            "releaseDate": "2009-01-20T11:15:16+00:00",
+            "releaseNotes": "* Fixing compile bug when multiple GeoIP libs are installed, bug #15372.",
+            "get": "http://pecl.php.net/get/geoip-1.0.6",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.5": {
+            "version": "1.0.5",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "ohill",
+            "releaseDate": "2008-12-19T14:31:51+00:00",
+            "releaseNotes": "* Small bug in phpinfo() when printing version number could crash PHP.",
+            "get": "http://pecl.php.net/get/geoip-1.0.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.3": {
+            "version": "1.0.3",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "ohill",
+            "releaseDate": "2008-06-12T14:07:23+00:00",
+            "releaseNotes": "* Change license from PHP 3.0 to PHP 3.01 for Debian?\n* Added geoip_continent_code_by_name() to get continent instead of country\n* Fixing a small casting issue (compiler warning)\n* Fixing missing entries in geoip_record_by_name(), bug #14131",
+            "get": "http://pecl.php.net/get/geoip-1.0.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.2": {
+            "version": "1.0.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "ohill",
+            "releaseDate": "2007-11-20T10:50:47+00:00",
+            "releaseNotes": "* Added geoip_isp_by_name (patch by Yannick Gard)",
+            "get": "http://pecl.php.net/get/geoip-1.0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "ohill",
+            "releaseDate": "2007-08-22T09:49:43+00:00",
+            "releaseNotes": "* Added geoip_db_avail() to check for DB availability (file found)\n* Added geoip_db_filename() to get the internal file name of the library\n* Added geoip_db_get_all_info() to fetch all info about all database types\n* Added some tests so that make test can crunch something.\n* Added database file path and name in warning when DB is not found.\n* Added geoip.custom_directory php.ini option to change default path for DBs",
+            "get": "http://pecl.php.net/get/geoip-1.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "ohill",
+            "releaseDate": "2007-08-14T14:00:02+00:00",
+            "releaseNotes": "* Marked as stable\n* Fixing wrong version number inside extension",
+            "get": "http://pecl.php.net/get/geoip-1.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.0": {
+            "version": "0.2.0",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "ohill",
+            "releaseDate": "2006-08-22T14:40:14+00:00",
+            "releaseNotes": "Initial PECL release",
+            "get": "http://pecl.php.net/get/geoip-0.2.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "Map IP address to geographic places",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

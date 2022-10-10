@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/couchbase">couchbase</p>
+ <c>pecl.php.net</c>
+ <v>2.4.3</v>
+ <st>stable</st>
+ <l>Apache V2</l>
+ <m>avsej</m>
+ <s>Couchbase Server PHP extension</s>
+ <d>The PHP client library provides fast access to documents stored in a Couchbase Server.</d>
+ <da>2018-01-04 19:56:34</da>
+ <n>* PCBC-518: Detect and cleanup connections left in bad state
+* PCBC-525: Fix memory leak for schemaless connspec
+* PCBC-497: Add health check functions
+* PCBC-524: Fix memory leak when using authenticateAs()
+* PCBC-520: Add example for authentication with x.509 certificate
+* PCBC-522: Check username/password for NULL in Classic Authenticator
+* PCBC-516: Append information about runtime to HELLO string</n>
+ <f>159580</f>
+ <g>http://pecl.php.net/get/couchbase-2.4.3</g>
+ <x xlink:href="package.2.4.3.xml"/>
+</r>

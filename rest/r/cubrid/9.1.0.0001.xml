@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/cubrid">CUBRID</p>
+ <c>pecl.php.net</c>
+ <v>9.1.0.0001</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>cubrid</m>
+ <s>This is the official PHP Extension to connect to CUBRID Database.</s>
+ <d>CUBRID is an open source database management system highly optimized for Web applications (http://www.cubrid.org). The current PHP extension is fully compatibly with the latest stable version of CUBRID Database. To post issues and report bugs, please use CUBRID Official Forum at http://forum.cubrid.org.</d>
+ <da>2013-03-15 06:06:43</da>
+ <n>Changed and Enhanced Features:
+
+1) APIS-417: Add the support of binding ENUM type data in CUBRID PHP driver.
+2) Enable cci_connect_ex(), cci_connect_with_url_ex(), escape_string() APIs for Windows platform.
+3) Update the urls infomation in README.
+
+Fixed bugs:
+
+1) APIS-397: fix the NULL type support in PHP driver.
+2) APIS-434: fix memory leak when using cubrid_insert_id() in Windows platform.
+3) APIS-185: Update the error message when the connection is failed.
+4) APIS-459: When querying the column info, return &quot;unknown&quot; instead of error for unknown type.</n>
+ <f>48090</f>
+ <g>http://pecl.php.net/get/CUBRID-9.1.0.0001</g>
+ <x xlink:href="package.9.1.0.0001.xml"/>
+</r>

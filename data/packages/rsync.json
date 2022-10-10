@@ -1,0 +1,24 @@
+{
+    "category": "Tools and Utilities",
+    "deprecated": false,
+    "description": "The librsync library itself can be found at http://librsync.sourceforge.net/ and implements rsync remote-delta algorithm (http://rsync.samba.org/tech_report).\n\nThis algorithm is using a rolling check-sum and a md4 check-sum for\nblocks of the file to generate a signature file. The signature file is used\nto generate a diff from the file on the remote site. This diff can be\nused on the local site to patch the file.\nThe Algorithm is from rsync 1.x and not compatible with rsync 2.x.",
+    "latestReleaseDate": "2011-06-07T03:01:49+00:00",
+    "latestVersion": "0.1.0",
+    "license": "Modified BSD License",
+    "name": "rsync",
+    "summary": "Wrapper for librsync library",
+    "php8Mentioned": false,
+    "releases": {
+        "0.1.0": {
+            "version": "0.1.0",
+            "state": "beta",
+            "license": "Modified BSD License",
+            "releasedBy": "ironpinguin",
+            "releaseDate": "2011-06-07T03:01:49+00:00",
+            "releaseNotes": "0.1.0 release",
+            "get": "http://pecl.php.net/get/rsync-0.1.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        }
+    },
+    "SPDX-License-Identifier": "BSD-2-Clause"
+}

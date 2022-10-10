@@ -1,0 +1,28 @@
+{
+    "category": "Streams",
+    "deprecated": false,
+    "description": "bzip2 compress/decompress stream filter implementation.  Performs inline compression/decompression using the bzip2 algorythm on any PHP I/O stream.  The data produced by this filter, while compatable with the payload portion of a bz2 file, does not include headers or tailers for full bz2 file compatability.  To achieve this format, use the compress.bzip2:// fopen wrapper built directly into PHP.",
+    "latestReleaseDate": "2005-02-28T21:03:57+00:00",
+    "latestVersion": "1.1.0",
+    "license": "PHP",
+    "name": "bz2_filter",
+    "php8Mentioned": false,
+    "releases": {
+        "1.1.0": {
+            "version": "1.1.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "pollita",
+            "releaseDate": "2005-02-28T21:03:57+00:00",
+            "releaseNotes": "Port bugfixes and persistency safety from core",
+            "get": "http://pecl.php.net/get/bz2_filter-1.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0": {
+            "version": "1.0",
+            "state": "beta"
+        }
+    },
+    "summary": "bz2 filter implementation backport for PHP 5.0",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

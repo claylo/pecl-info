@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/apm">APM</p>
+ <c>pecl.php.net</c>
+ <v>1.1.0beta2</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>patrickallaert</m>
+ <s>Alternative PHP Monitor</s>
+ <d>Monitoring extension for PHP, collects error events and send them to one of the drivers.
+SQLite and MySQL drivers are storing those in a database.
+More drivers to come (SNMP, e-mail, Hadoop,...).</d>
+ <da>2012-05-06 17:32:25</da>
+ <n>Fixed:
+- Version 1.1.0beta* should be marked as &quot;beta&quot; and not as &quot;stable&quot;
+- APM-1.1.0beta1.tgz file contains only package.xml (#61937)
+- Some GCC warnings when built with PHP 5.4
+- Error callback arguments must be copied in every cases
+- Prevent calling the original error handler if Xdebug is loaded
+- Possible segfault if MySQL server connection link is gone</n>
+ <f>115121</f>
+ <g>http://pecl.php.net/get/APM-1.1.0beta2</g>
+ <x xlink:href="package.1.1.0beta2.xml"/>
+</r>

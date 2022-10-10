@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>0.5.1</v>
+ <st>alpha</st>
+ <l>New BSD License</l>
+ <m>bjori</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundemental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2015-04-24 22:07:03</da>
+ <n>* PHPC-241: Don't try to use local timezone
+* PHPC-241: mongodb.debug improvements
+* PHPC-270: Several test fail because of missing enableTestCommands
+* PHPC-270: add TESTCOMMANDS() skipif to confirm mongod is running with required options
+* PHPC-269: Fix travis setup
+* PHPC-268: Update tests to declare which environments they need
+* PHPC-268: Add NEEDS() function to check if that environment is available
+* PHPC-247: Remove 'faker' as prerequisite from running our full test suite
+* PHPC-247: Remove on-the-fly composer generated fixtures
+* PHPC-247: Use the bundled pregenerated fixtures
+* PHPC-89: Bundle generated fixtures and make them easily loadable
+* PHPC-260: Allow/use &quot;object&quot; in setTypeMap() as alias/preferred for &quot;stdclass&quot;
+* PHPC-267; _id generated on embedded document
+* PHPC-265: BSON encoding unsupoprted types (Resource) should fail
+* PHPC-266: Add MongoDB\Driver\UnexpectedValueException
+* PHPC-75: Improve code coverage
+* PHPC-258: make all filed needed for test as role=&quot;test&quot;
+* PHPC-259: add --with-libbson option</n>
+ <f>700907</f>
+ <g>http://pecl.php.net/get/mongodb-0.5.1</g>
+ <x xlink:href="package.0.5.1.xml"/>
+</r>

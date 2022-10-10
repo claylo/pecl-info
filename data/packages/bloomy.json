@@ -1,0 +1,24 @@
+{
+    "category": "Structures",
+    "deprecated": false,
+    "description": "This extension implements a Bloom filter, which is a space-efficient\n  probabilistic data structure that is used to test whether an element is a\n  member of a set.",
+    "latestReleaseDate": "2009-03-23T18:00:30+00:00",
+    "latestVersion": "0.1.0",
+    "license": "PHP",
+    "name": "bloomy",
+    "php8Mentioned": false,
+    "releases": {
+        "0.1.0": {
+            "version": "0.1.0",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "andrei",
+            "releaseDate": "2009-03-23T18:00:30+00:00",
+            "releaseNotes": "- Initial PECL release",
+            "get": "http://pecl.php.net/get/bloomy-0.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "Extension implementing a Bloom filter",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

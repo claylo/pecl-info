@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/apm">APM</p>
+ <c>pecl.php.net</c>
+ <v>2.0.5</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>patrickallaert</m>
+ <s>Alternative PHP Monitor</s>
+ <d>Monitoring extension for PHP, collects error events and statistics and send them to one of his drivers:
+SQLite and MariaDB/MySQL drivers are storing those in a database.
+StatsD driver sends them to StatsD using UDP.
+Socket driver sends them via UDP or TCP socket using its dedicated protocol.
+More drivers to come (SNMP, e-mail, Hadoop,...).
+
+A web frontend exists for manipulating the data stored in database at: https://github.com/patrickallaert/php-apm-web</d>
+ <da>2015-06-17 16:07:35</da>
+ <n>Fixed:
+- missing apm.statsd_exception_mode and apm.socket_exception_mode
+- sqlite3.h file not found in Windows build
+
+Improved:
+- Minor optimizations in stacktrace creation</n>
+ <f>31484</f>
+ <g>http://pecl.php.net/get/APM-2.0.5</g>
+ <x xlink:href="package.2.0.5.xml"/>
+</r>

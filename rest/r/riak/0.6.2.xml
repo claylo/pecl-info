@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/riak">riak</p>
+ <c>pecl.php.net</c>
+ <v>0.6.2</v>
+ <st>beta</st>
+ <l>Apache 2</l>
+ <m>kasparp</m>
+ <s>Riak database PHP extension</s>
+ <d>Fast protocol buffers client for Riak database and session module.</d>
+ <da>2013-10-26 07:27:35</da>
+ <n>- Fixed potential bug in map reduce function
+- Restructured extension sources so php FQN can be mapped directly to source.
+- Changed get output from array to collection, which implements ArrayAccess so it maintains compatability</n>
+ <f>119993</f>
+ <g>http://pecl.php.net/get/riak-0.6.2</g>
+ <x xlink:href="package.0.6.2.xml"/>
+</r>

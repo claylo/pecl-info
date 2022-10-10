@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/couchbase">couchbase</p>
+ <c>pecl.php.net</c>
+ <v>2.3.2</v>
+ <st>stable</st>
+ <l>Apache V2</l>
+ <m>avsej</m>
+ <s>Couchbase Server PHP extension</s>
+ <d>The PHP client library provides fast access to documents stored in a Couchbase Server.</d>
+ <da>2017-05-02 14:00:22</da>
+ <n>* PCBC-473: fix incorrect bucket reference copy in subdocument
+  mutation/lookup builders, which might lead to segfault.
+* PCBC-474: fix segfault when using ViewQuery::keys()
+* PCBC-476: do not call destructors on unintialized ZVALs. Fixes possible
+  segfaults with view queries on PHP 5.x.
+* PCBC-477: lookup JsonSerializable interface in run time, instead of compile time
+  using php_json_serializable_ce symbol. This fixes support on some 5.4-5.5 builds.
+* PCBC-479: do not allow to create objects in invalid state. For example Cluster
+  might return an instance, and only show PHP warning on invalid arguments.
+* PCBC-481: Bucket-&gt;counter() without specifying delta value results in
+  null pointer dereference.
+* PCBC-482: mapSize/setExists/setRemove methods of Bucket did not check if 'get'
+  sub-request had thrown exception. This cause segfault, if operation executed on
+  keys which do not exist.
+* PCBC-453: verify that ClusterManager supports ephemeral buckets
+* PCBC-451: add RBAC support in \Couchbase\PasswordAuthenticator class (Couchbase
+  Server 5.x feature).
+* PCBC-440: add experimental support of extended attributes for subdocument operations.</n>
+ <f>142614</f>
+ <g>http://pecl.php.net/get/couchbase-2.3.2</g>
+ <x xlink:href="package.2.3.2.xml"/>
+</r>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/selinux">selinux</p>
+ <c>pecl.php.net</c>
+ <v>0.4.1</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>remi</m>
+ <s>SELinux binding for PHP script language</s>
+ <d>This extension provides a set of interfaces to communicate between
+    SELinux and PHP script language. It contains functions to get/set
+    security context of processes and other objects, to get/set system
+    booleans, to make a query for in-kernel security server and so on.</d>
+ <da>2015-05-24 05:48:21</da>
+ <n>- The &quot;permissive&quot; tag was added to selinux_compute_av
+- The selinux_deny_unknown() was added
+- PHP 7 compatibility (Remi)
+- fix build woth libselinux 2.0 (RHEL-6)</n>
+ <f>14169</f>
+ <g>http://pecl.php.net/get/selinux-0.4.1</g>
+ <x xlink:href="package.0.4.1.xml"/>
+</r>

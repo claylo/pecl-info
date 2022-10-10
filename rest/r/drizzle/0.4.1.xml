@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/drizzle">drizzle</p>
+ <c>pecl.php.net</c>
+ <v>0.4.1</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>jluedke</m>
+ <s>PHP wrapper to libdrizzle</s>
+ <d>This extension uses libdrizzle library to provide API for communicating with drizzle and mysql databases.</d>
+ <da>2009-07-02 02:13:10</da>
+ <n>- Fixed php 5.3 compile issue
+- there was a bug in libdrizzle v0.3 had to regen const of 0.4
+- renamed $obj-&gt;errno to $obj-&gt;getErrno will likely change back at some point
+- renamed $drizzle-&gt;escape() to $drizzle-&gt;escapeString()</n>
+ <f>24325</f>
+ <g>http://pecl.php.net/get/drizzle-0.4.1</g>
+ <x xlink:href="package.0.4.1.xml"/>
+</r>

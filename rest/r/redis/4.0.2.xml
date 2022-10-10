@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/redis">redis</p>
+ <c>pecl.php.net</c>
+ <v>4.0.2</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>yatsukhnenko</m>
+ <s>PHP extension for interfacing with Redis</s>
+ <d>This extension provides an API for communicating with Redis servers.</d>
+ <da>2018-04-25 11:37:51</da>
+ <n>phpredis 4.0.2
+
+This release contains only fix of exists method to take multiple keys
+and return integer value (was broken in 4.0.1) Thanks @RanjanRohit!</n>
+ <f>212617</f>
+ <g>http://pecl.php.net/get/redis-4.0.2</g>
+ <x xlink:href="package.4.0.2.xml"/>
+</r>

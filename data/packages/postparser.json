@@ -1,0 +1,13 @@
+{
+    "category": "PHP",
+    "deprecated": false,
+    "description": "This extension give the ability to authenticate users before actually downloading a file from the client (saving bandwidth), provide progress bars of downloaded files, stream files directly to disk (for example to encrypt a file directly to disk).",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "PHP",
+    "name": "postparser",
+    "php8Mentioned": false,
+    "releases": [],
+    "summary": "Handle file file uploads within a php script",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

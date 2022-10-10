@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ssh2">ssh2</p>
+ <c>pecl.php.net</c>
+ <v>0.13</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>langemeijer</m>
+ <s>Bindings for the libssh2 library</s>
+ <d>Provides bindings to the functions of libssh2 which implements the SSH2 protocol.
+    libssh2 is available from http:/libssh2.org/</d>
+ <da>2016-06-12 14:27:39</da>
+ <n>- Fixed bug #63660 php_ssh2_fopen_wrapper_parse_path segfaults
+- Fixed bug #63855 compilation fails on windows (patch from Erez H)
+- Fixed bug #64535 php_ssh2_sftp_dirstream_read segfault on error (Matt Pelmear)
+- Add reflection API support (Frédéric Hardy)
+- Add exit-status support for ssh2 file wrappers (Vladimir Zidar)
+- Fixed bug #58893 Unable to request a channel from remote host (Vladimir Zidar)
+- Fix segfault when trying to authenticate in servers that do not support authentication (none) (Felipe Weckx)</n>
+ <f>28984</f>
+ <g>http://pecl.php.net/get/ssh2-0.13</g>
+ <x xlink:href="package.0.13.xml"/>
+</r>

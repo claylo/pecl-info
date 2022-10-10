@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/proctitle">proctitle</p>
+ <c>pecl.php.net</c>
+ <v>0.1.2</v>
+ <st>alpha</st>
+ <l>PHP License</l>
+ <m>magicaltux</m>
+ <s>Allows setting the current process name on Linux and BSD</s>
+ <d>This extension allows changing the current process' name on Linux and *BSD systems. This is useful when using pcntl_fork() to identify running processes in process list</d>
+ <da>2012-05-11 04:50:33</da>
+ <n>- Fixed package version by using a define (suggested by rza)
+- Added setthreadtitle() (bjori)
+- Fixed compatibility for PHP 5.4+ (johannes)</n>
+ <f>4812</f>
+ <g>http://pecl.php.net/get/proctitle-0.1.2</g>
+ <x xlink:href="package.0.1.2.xml"/>
+</r>

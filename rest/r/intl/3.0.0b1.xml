@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/intl">intl</p>
+ <c>pecl.php.net</c>
+ <v>3.0.0b1</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>cataphract</m>
+ <s>Internationalization extension</s>
+ <d>Internationalization extension implements ICU library functionality in PHP.</d>
+ <da>2012-12-26 13:42:09</da>
+ <n>- Add UConverter class (ICU's UConverter API).
+   See RFC at http://wiki.php.net/rfc/uconverter
+- Fixed defective cloning of subclassed intl classes. See also bug #62915.
+- Allow Spoofchecker to be registered on ICU versions with .1 minor numbers like
+  ICU 49.1.
+- Fix SPOOFCHECKER_METHOD_FETCH_OBJECT definition.
+- Fix handling of several uinitialized intl objects.
+- Added the intl tests extracted from Symfony.
+- Fixed several tests.</n>
+ <f>246772</f>
+ <g>http://pecl.php.net/get/intl-3.0.0b1</g>
+ <x xlink:href="package.3.0.0b1.xml"/>
+</r>

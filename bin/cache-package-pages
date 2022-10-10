@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+# shellcheck disable=SC2312,SC2129
+set -o pipefail
+
+REPODIR="$(dirname "$(cd "$(dirname "$0")" && pwd -P)")"
+PATH="${REPODIR}/bin:${PATH}"
+
+PAGEDIR="${REPODIR}/pkg-pages"
+
+mkdir -p "${PAGEDIR}"
+
+# it's too bad these pages are dynamically generated, have no eTags, and have
+# super-aggressive no-caching Cache-Control header values.
+
+jq -r 'keys | .[] | ascii_downcase' "${REPODIR}/data/packages.json" | while read -r pkg; do
+
+  echo "url = \"https://pecl.php.net/package/${pkg}\"" >>"${REPODIR}/pkg-pages.txt"
+  echo "output = \"${PAGEDIR}/${pkg}.html\"" >>"${REPODIR}/pkg-pages.txt"
+  echo "" >>"${REPODIR}/pkg-pages.txt"
+
+done
+
+curl -K "${REPODIR}/pkg-pages.txt" \
+  --compressed \
+  --silent \
+  --retry 3 \
+  --retry-delay 3 \
+  --parallel \
+  --parallel-max 20 && rm "${REPODIR}/pkg-pages.txt"

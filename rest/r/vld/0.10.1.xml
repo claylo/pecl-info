@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/vld">vld</p>
+ <c>pecl.php.net</c>
+ <v>0.10.1</v>
+ <st>beta</st>
+ <l>BSD style</l>
+ <m>derick</m>
+ <s>Provides functionality to dump the internal representation of PHP scripts</s>
+ <d>The Vulcan Logic Disassembler hooks into the Zend Engine and
+dumps all the opcodes (execution units) of a script.</d>
+ <da>2010-04-13 05:53:31</da>
+ <n>- SEND_VAR_NO_REF needs to use extended value (Patch by Graham K.)
+- Fix build with 5.3 and trunk.
+- Added Zoë's patch for CVS style formatting.
+- Added the closures opcode
+- Added a path finding algorithm.
+- Added an option (vld.dump_paths) that dumps branch and paths when turned on.
+- Added two options (vld.save_dir and vld.save_paths) that allows you to 
+  dump path information has a graphviz .dot file.
+- TSRM fixes (by Wojciech Meler &lt;wmeler@wp-sa.pl&gt;).</n>
+ <f>16932</f>
+ <g>http://pecl.php.net/get/vld-0.10.1</g>
+ <x xlink:href="package.0.10.1.xml"/>
+</r>

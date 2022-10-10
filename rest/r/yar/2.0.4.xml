@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/yar">yar</p>
+ <c>pecl.php.net</c>
+ <v>2.0.4</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>laruence</m>
+ <s>Light, concurrent RPC framework</s>
+ <d>Yar(Yet another RPC framework) is a light, concurrent RPC framework, supports multi package protocols (json, msgpack)</d>
+ <da>2017-12-31 04:28:23</da>
+ <n>- Implemented FR #108 (Allow setting custom headers)
+- Clenup for 7.2</n>
+ <f>37895</f>
+ <g>http://pecl.php.net/get/yar-2.0.4</g>
+ <x xlink:href="package.2.0.4.xml"/>
+</r>

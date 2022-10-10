@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.77.0</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>labbati</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2022-08-03 01:33:55</da>
+ <n>?? The tracer and profiling packages for PHP 7 and 8 are built on CentOS 7. These packages will not run on older GNU Linux versions like CentOS 6, Debian 7, and Ubuntu 12.04.
+
+### Added
+- Add single span ingestion mechanism #1628
+- Add &quot;recurse&quot; =&gt; true option to hook/trace config array #1677
+
+### Changed
+- Allow Symfony EventDispatcher::dispatch hooks to recurse #1678
+
+### Fixed
+- Fix JIT compatibility under macOS #1661
+- Fix -Werror=address-of-packed-member #1664
+- Add support for ports on x-forwarded-for header #1675. Thanks, @estringana!
+
+### Internal changes
+- Move to CentOS 7; begin adding profiling deps #1660
+- Add profiling sources #1606
+- Build and package datadog-profiling in CI #1663
+- Fix profiler config in randomized tests #1682
+
+## Profiling (v0.8.0)
+
+### Added
+ - Add `process_id` and `runtime_version` tags #1606.
+ - Add support for changing env vars per request, such as per-directory env var settings in Apache #1606.
+ - Add fake frame when truncating stacks #1679. This way users can tell when the stack is truncated.
+
+### Changed
+ - Switch &lt;php&gt; to &lt;?php #1680
+ - Raise max stack depth to 512 #1681
+ - Enable CPU Time profile by default #1663. This can disabled by setting the environment variable `DD_PROFILING_EXPERIMENTAL_CPU_TIME_ENABLED` to `0`, `off`, or `no`.
+ - Change logging format #1606. Add a new log level `trace`, which is even more verbose than `debug`.
+ - Stop sending a profile on every `phpinfo()` (or the equivalent command line option `--ri datadog-profiling`) #1606</n>
+ <f>467509</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.77.0</g>
+ <x xlink:href="package.0.77.0.xml"/>
+</r>

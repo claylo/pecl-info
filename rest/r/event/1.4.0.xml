@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/event">event</p>
+ <c>pecl.php.net</c>
+ <v>1.4.0</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>osmanov</m>
+ <s>Provides interface to libevent library</s>
+ <d>This is an extension to efficiently schedule I/O, time and signal based
+  events using the best I/O notification mechanism available for specific platform.
+  This is a port of libevent to the PHP infrastructure.
+  
+  Version 1.0.0 introduces:
+  * new OO API breaking backwards compatibility
+  * support of libevent 2+ including HTTP, DNS, OpenSSL and the event listener.
+
+  Note, event-1.0.0 and greater is not compatible with previous versions.</d>
+ <da>2013-03-13 13:04:07</da>
+ <n>Add: HTTP server support:
+  * EventHttp methods: setMaxBodySize, setMaxHeadersSize, setTimeout,
+    addServerAlias, removeServerAlias setCallback, setDefaultCallback,
+    setAllowedMethods, setMaxBodySize, setMaxHeadersSize, setTimeout,
+    addServerAlias, removeServerAlias;
+  * EventHttpRequest class, callback and custom data can be bound to the
+    request for future use with EventHttpConnection
+  * New EventHttpConnection::makeRequest method allows to make custom HTTP
+    requests by means of EventHttpRequest class
+Change: make EventDnsBase parameter optional in EventHttpConnection::__construct
+Fix: classes/buffer_event.c: possible memory access violation in bufferevent callback
+Fix: turn off buggy libevent thread lock debugging when built with --enable-event-debug</n>
+ <f>60172</f>
+ <g>http://pecl.php.net/get/event-1.4.0</g>
+ <x xlink:href="package.1.4.0.xml"/>
+</r>

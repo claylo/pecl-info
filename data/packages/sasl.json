@@ -1,0 +1,24 @@
+{
+    "category": "Authentication",
+    "deprecated": false,
+    "description": "SASL is the Simple Authentication and Security Layer (as defined by RFC 2222).  It provides a system for adding plugable authenticating support to connection-based protocols.  The SASL Extension for PHP makes the Cyrus SASL library functions available to PHP. It aims to provide a 1-to-1 wrapper around the SASL library to provide the greatest amount of implementation flexibility.  To that end, it is possible to build both a client-side and server-side SASL implementation entirely in PHP.",
+    "latestReleaseDate": "2004-01-27T08:58:00+00:00",
+    "latestVersion": "0.1.0",
+    "license": "PHP License",
+    "name": "sasl",
+    "php8Mentioned": false,
+    "releases": {
+        "0.1.0": {
+            "version": "0.1.0",
+            "state": "alpha",
+            "license": "PHP License",
+            "releasedBy": "jon",
+            "releaseDate": "2004-01-27T08:58:00+00:00",
+            "releaseNotes": "Initial preview release.",
+            "get": "http://pecl.php.net/get/sasl-0.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "Cyrus SASL Extension",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

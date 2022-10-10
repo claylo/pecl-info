@@ -1,0 +1,24 @@
+{
+    "category": "Languages",
+    "deprecated": false,
+    "description": "WebAssembly (abbreviated Wasm) is a binary instruction format for\n    a stack-based virtual machine. Wasm is designed as a portable target\n    for compilation of high-level languages like C/C++/Rust, enabling\n    deployment on the web for client and server applications.\n\n    This extension allows to run Wasm binaries inside PHP.",
+    "latestReleaseDate": "2019-08-22T15:24:30+00:00",
+    "latestVersion": "0.5.0",
+    "license": "MIT",
+    "name": "wasm",
+    "php8Mentioned": false,
+    "releases": {
+        "0.5.0": {
+            "version": "0.5.0",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "hywan",
+            "releaseDate": "2019-08-22T15:24:30+00:00",
+            "releaseNotes": "# Features\n\n## Extension\n\n* #71 Use pre-build dynamic libraries (@Hywan)\n* #70 Improve function invocation time by 77% (@Hywan)\n* #69 Introduce the `wasm_instance` structure (@Hywan)\n* #68 Add the `WasmArrayBuffer::grow` method (@Hywan)\n\n## Runtime\n\n* #72 Update Wasmer to 0.5.5 (@Hywan)\n\n# Bug/security fixes\n\n* #67 Update smallvec (@Hywan)\n* #48 Fix the extension compilation on CentOS (@Hywan)\n\n# Documentation\n\n* Many improvements related to the new features and bug fixes.\n\n# Chore\n\n* #59 Tweak Bors (@Hywan)",
+            "get": "https://pecl.php.net/get/wasm-0.5.0",
+            "SPDX-License-Identifier": "MIT"
+        }
+    },
+    "summary": "Run WebAssembly binaries in PHP",
+    "SPDX-License-Identifier": "MIT"
+}

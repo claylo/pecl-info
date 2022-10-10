@@ -1,0 +1,64 @@
+{
+    "category": "System",
+    "deprecated": false,
+    "description": "The 'sync' extension introduces synchronization objects into PHP.  Named and unnamed Mutex, Semaphore, Event, Reader-Writer, and named Shared Memory objects provide OS-level synchronization mechanisms on both *NIX (POSIX shared memory and pthread shared memory synchronization required) and Windows platforms.  This extension is a direct port of and compatible with the cross platform 'sync' library:  https://github.com/cubiclesoft/cross-platform-cpp",
+    "latestReleaseDate": "2021-04-09T15:47:06+00:00",
+    "latestVersion": "1.1.2",
+    "license": "MIT License",
+    "name": "sync",
+    "php8Mentioned": true,
+    "releases": {
+        "1.1.2": {
+            "version": "1.1.2",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "cubic",
+            "releaseDate": "2021-04-09T15:47:06+00:00",
+            "releaseNotes": "- Fixed missing macros for PHP 8 (thanks Remi).",
+            "get": "https://pecl.php.net/get/sync-1.1.2",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.1.1": {
+            "version": "1.1.1",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "cubic",
+            "releaseDate": "2017-02-20T05:15:45+00:00",
+            "releaseNotes": "- Fixed *NIX event object sync_WaitForUnixEvent() issues.",
+            "get": "http://pecl.php.net/get/sync-1.1.1",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.1.0": {
+            "version": "1.1.0",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "cubic",
+            "releaseDate": "2016-11-27T02:23:50+00:00",
+            "releaseNotes": "- Added cross-platform named shared memory objects.\n- Rewrote *NIX objects to be much lighter on shared resources.\n- Fixed null name issue.\n- Fixed object memory leak issue.\n- Now works on Mac OSX.\n- Now works on PHP 7.  The same code base also works on PHP 5.",
+            "get": "http://pecl.php.net/get/sync-1.1.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "cubic",
+            "releaseDate": "2014-07-25T10:32:06+00:00",
+            "releaseNotes": "- Fixed Reader-Writer objects.\n- Removed a lead from package maintainers list.",
+            "get": "http://pecl.php.net/get/sync-1.0.1",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "cubic",
+            "releaseDate": "2014-07-05T12:35:51+00:00",
+            "releaseNotes": "- Initial release.",
+            "get": "http://pecl.php.net/get/sync-1.0.0",
+            "SPDX-License-Identifier": "MIT"
+        }
+    },
+    "summary": "Named and unnamed synchronization objects",
+    "SPDX-License-Identifier": "MIT"
+}

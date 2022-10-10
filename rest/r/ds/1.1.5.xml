@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ds">ds</p>
+ <c>pecl.php.net</c>
+ <v>1.1.5</v>
+ <st>stable</st>
+ <l>MIT License</l>
+ <m>rtheunissen</m>
+ <s>Data Structures</s>
+ <d>Data Structures for PHP 7</d>
+ <da>2016-08-31 20:51:28</da>
+ <n>- phpinfo header
+- ds_htable_put_distinct wasn't rehashing the correct bucket pointer
+- Memory leaks</n>
+ <f>50023</f>
+ <g>http://pecl.php.net/get/ds-1.1.5</g>
+ <x xlink:href="package.1.1.5.xml"/>
+</r>

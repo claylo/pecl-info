@@ -1,0 +1,106 @@
+#!/usr/bin/env php -d display_errors=0
+<?php
+$packages = json_decode(file_get_contents('data/packages.json'), true);
+
+$limit = false;
+// limit to one package?
+if (isset($argv[1])) {
+    $limit = $argv[1];
+    echo "limiting to: $limit\n";
+    // but don't limit if there's no matching package info
+    if (! file_exists("rest/p/$limit/info.xml")) {
+        echo "no package info for $limit\n";
+        exit;
+    }
+}
+
+foreach ($packages as $pkg => $info) {
+    if ($limit !== false) {
+        if ($limit !== $pkg) {
+            continue;
+        }
+    }
+    /**
+     * Expand Package Info
+     */
+    $xml = file_get_contents("rest/p/$pkg/info.xml");
+    $doc = new DOMDocument();
+    $doc->loadXML($xml);
+
+    $p = [];
+    $elements = $doc->getElementsByTagNameNS('http://pear.php.net/dtd/rest.package', '*');
+    foreach ($elements as $element) {
+        $p[$element->localName] = trim($element->nodeValue);
+    }
+    unset($p['p'], $p['c'], $p['r']);
+    $info = [
+        'category' => $p['ca'],
+        'deprecated' => false,
+        'description' => $p['d'],
+        'latestReleaseDate' => '',
+        'latestVersion' => '',
+        'license' => $p['l'],
+        'name' => $p['n'],
+        'summary' => $p['s'],
+        'php8Mentioned' => false,
+        'releases' => [],
+    ];
+    if (isset($p['pa'])) {
+        $info['parent'] = $p['pa'];
+    }
+    if (isset($p['dc'])) {
+        $info['deprecated'] = true;
+        $info['new_channel'] = $p['dc'];
+        $info['new_package'] = $p['dp'];
+    }
+
+    if ($info['deprecated'] == true) {
+        // don't care about deprecated packages
+        ksort($info);
+        $packages[$pkg] = $info;
+        continue;
+    }
+
+    /**
+     * Expand Releases List
+     */
+    $xml = file_get_contents("rest/r/$pkg/allreleases.xml");
+    if (strpos($xml, 'PECL :: Error 404') !== false) {
+        // 404 page -- no releases
+        file_put_contents("rest/r/$pkg/allreleases.json", '[]');
+    } else {
+        $all = new DOMDocument();
+        $all->loadXML($xml);
+        $rel = [];
+        $releases = $all->getElementsByTagNameNS('http://pear.php.net/dtd/rest.allreleases', 'r');
+        $i = 0;
+        foreach ($releases as $element) {
+            $v = $element->getElementsByTagName('v')[0]->nodeValue;
+            $s = $element->getElementsByTagName('s')[0]->nodeValue;
+            if ($i == 0) {
+                $info['latestVersion'] = $v;
+            }
+            $i++;
+            $rel[$v] = [
+                'version' => $v,
+                'state' => $s
+            ];
+            // check the package 2.0 stuff
+            $compat = $element->getElementsByTagName('co');
+            if ($compat->length > 0) {
+                echo "$pkg has compat stuff\n";
+            }
+        }
+        $info['releases'] = $rel;
+        file_put_contents("rest/r/$pkg/allreleases.json", json_encode($rel, JSON_PRETTY_PRINT));
+    }
+    ksort($info);
+    $packages[$pkg] = $info;
+}
+
+ksort($packages);
+
+file_put_contents(
+    'data/packages.json',
+    json_encode($packages, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES)
+);

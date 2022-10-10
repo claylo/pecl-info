@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xdebug">xdebug</p>
+ <c>pecl.php.net</c>
+ <v>2.1.0</v>
+ <st>stable</st>
+ <l>BSD style</l>
+ <m>derick</m>
+ <s>Provides functions for function traces and profiling</s>
+ <d>The Xdebug extension helps you debugging your script by providing a lot of
+valuable debug information. The debug information that Xdebug can provide
+includes the following:
+
+    * stack and function traces in error messages with:
+          o full parameter display for user defined functions
+          o function name, file name and line indications
+          o support for member functions
+    * memory allocation
+    * protection for infinite recursions
+
+Xdebug also provides:
+
+    * profiling information for PHP scripts
+    * code coverage analysis
+    * capabilities to debug your scripts interactively with a debug client</d>
+ <da>2010-06-29 12:11:10</da>
+ <n>Tue, Jun 29, 2010 - xdebug 2.1.0
+
+= Fixed bugs:
+
+	- Fixed bug #562: Incorrect coverage information for closure function
+	  headers.
+	- Fixed bug #566: Xdebug crashes when using conditional breakpoints.
+	- Fixed bug #567: xdebug_debug_zval and xdebug_debug_zval_stdout don't work
+	  with PHP 5.3. (Patch by Endo Hiroaki).
+	- Fixed bug #570: undefined symbol: zend_memrchr.</n>
+ <f>301354</f>
+ <g>http://pecl.php.net/get/xdebug-2.1.0</g>
+ <x xlink:href="package.2.1.0.xml"/>
+</r>

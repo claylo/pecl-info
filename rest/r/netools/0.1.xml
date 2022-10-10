@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/netools">netools</p>
+ <c>pecl.php.net</c>
+ <v>0.1</v>
+ <st>alpha</st>
+ <l>PHP</l>
+ <m>tal</m>
+ <s>Networking tools</s>
+ <d>Netools provides tools to deal with devices, TCP and UDP clients/servers, etc.
+</d>
+ <da>2002-12-10 16:40:00</da>
+ <n>Initial release</n>
+ <f>4104</f>
+ <g>http://pecl.php.net/get/netools-0.1</g>
+ <x xlink:href="package.0.1.xml"/>
+</r>

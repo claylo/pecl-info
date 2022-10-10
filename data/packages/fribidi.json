@@ -1,0 +1,44 @@
+{
+    "category": "Internationalization",
+    "deprecated": false,
+    "description": "A PHP frontend to the GNU FriBidi library: an implementation of the Unicode Bidirectional Algorithm (UBA), provides means for handling right-to-left text.",
+    "latestReleaseDate": "2013-05-27T03:08:51+00:00",
+    "latestVersion": "1.2",
+    "license": "PHP",
+    "name": "fribidi",
+    "summary": "Implementation of the Unicode Bidirectional Algorithm (bidi)",
+    "php8Mentioned": false,
+    "releases": {
+        "1.2": {
+            "version": "1.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "behnam",
+            "releaseDate": "2013-05-27T03:08:51+00:00",
+            "releaseNotes": "Requires GNU FriBidi version 0.19.1 or later.",
+            "get": "http://pecl.php.net/get/fribidi-1.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.1": {
+            "version": "1.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "behnam",
+            "releaseDate": "2013-05-15T02:20:01+00:00",
+            "releaseNotes": "Requires GNU FriBidi version 0.19.1 or later.",
+            "get": "http://pecl.php.net/get/fribidi-1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0": {
+            "version": "1.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "tal",
+            "releaseDate": "2003-04-08T11:50:00+00:00",
+            "releaseNotes": "Initial release.",
+            "get": "http://pecl.php.net/get/fribidi-1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

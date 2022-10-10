@@ -1,0 +1,44 @@
+{
+    "category": "HTML",
+    "deprecated": false,
+    "description": "Tidy is a binding for the Tidy HTML clean and repair utility which\nallows you to clean and manipluate HTML documents.\n\nNOTE: This is the PHP4 version!",
+    "latestReleaseDate": "2005-11-07T11:39:51+00:00",
+    "latestVersion": "1.2",
+    "license": "PHP",
+    "name": "tidy",
+    "summary": "Tidy HTML Repairing and Parsing",
+    "php8Mentioned": false,
+    "releases": {
+        "1.2": {
+            "version": "1.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "mike",
+            "releaseDate": "2005-11-07T11:39:51+00:00",
+            "releaseNotes": "Fixed bug #4202 tidy is not binary safe",
+            "get": "http://pecl.php.net/get/tidy-1.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.1": {
+            "version": "1.1",
+            "state": "stable"
+        },
+        "1.0": {
+            "version": "1.0",
+            "state": "stable"
+        },
+        "0.7": {
+            "version": "0.7",
+            "state": "beta"
+        },
+        "0.5.3": {
+            "version": "0.5.3",
+            "state": "beta"
+        },
+        "0.5.2": {
+            "version": "0.5.2",
+            "state": "beta"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

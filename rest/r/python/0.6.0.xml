@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/python">python</p>
+ <c>pecl.php.net</c>
+ <v>0.6.0</v>
+ <st>alpha</st>
+ <l>PHP</l>
+ <m>jon</m>
+ <s>Embedded Python</s>
+ <d>This extension allows the Python interpreter to be embedded inside of PHP, allowing for the instantiate and manipulation of Python objects from within PHP.
+</d>
+ <da>2002-11-05 17:55:00</da>
+ <n>Updated alpha release that includes a number of improvements over the existing alpha preview.  PEAR (PECL) support is now working, too.</n>
+ <f>12439</f>
+ <g>http://pecl.php.net/get/python-0.6.0</g>
+ <x xlink:href="package.0.6.0.xml"/>
+</r>

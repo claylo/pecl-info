@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/componere">componere</p>
+ <c>pecl.php.net</c>
+ <v>3.1.2</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>remi</m>
+ <s>Composing PHP classes at runtime</s>
+ <d>Componere is able to compose classes at runtime, and monkey patch objects.</d>
+ <da>2020-10-08 06:30:57</da>
+ <n>- Fix #25 Segfault with OpCache and abstract classes
+- Fix #26 Error: Class 0x01 not found&quot; if Definition( 'MyDerived', 'MyClass' )
+- Fix #29 Protected and Private properties not working as expected
+- Fix #30 Can NOT addProperty in extending class
+- Compatibility with PHP 8</n>
+ <f>32305</f>
+ <g>https://pecl.php.net/get/componere-3.1.2</g>
+ <x xlink:href="package.3.1.2.xml"/>
+</r>

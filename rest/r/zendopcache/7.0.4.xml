@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/zendopcache">zendopcache</p>
+ <c>pecl.php.net</c>
+ <v>7.0.4</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>laruence</m>
+ <s>The Zend OPcache provides faster PHP execution through opcode caching and optimization.</s>
+ <d>The Zend OPcache provides faster PHP execution through opcode caching and
+  optimization. It improves PHP performance by storing precompiled script
+  bytecode in the shared memory. This eliminates the stages of reading code from
+  the disk and compiling it on future access. In addition, it applies a few
+  bytecode optimization patterns that make code execution faster.</d>
+ <da>2015-01-12 02:16:03</da>
+ <n>- Added function opcache_is_script_cached()
+- Fix bug #67111 (Loop variables need to be freed for both &quot;break&quot; and &quot;continue&quot;)
+- Fix opcache.revalidate_freq per-request behavior
+- Fixed bug #67215 (php-cgi work with opcache, may be segmentation fault happen)
+- Fixed issue #183 (TMP_VAR is not only used once)</n>
+ <f>96340</f>
+ <g>http://pecl.php.net/get/zendopcache-7.0.4</g>
+ <x xlink:href="package.7.0.4.xml"/>
+</r>

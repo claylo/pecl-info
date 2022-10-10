@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/openal">openal</p>
+ <c>pecl.php.net</c>
+ <v>0.9.0</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>santiagolizardo</m>
+ <s>OpenAL Bindings</s>
+ <d>OpenAL - Platform independent sound bindings</d>
+ <da>2019-08-19 20:08:21</da>
+ <n>Extension ported to PHP7</n>
+ <f>7961</f>
+ <g>https://pecl.php.net/get/openal-0.9.0</g>
+ <x xlink:href="package.0.9.0.xml"/>
+</r>

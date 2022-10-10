@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.6.0alpha3</v>
+ <st>alpha</st>
+ <l>Apache License</l>
+ <m>alcaeus</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2019-08-21 18:06:39</da>
+ <n>** New Feature
+    * [PHPC-1291] - Retryable Reads 
+    * [PHPC-1292] - Support polling SRV records for mongos discovery
+    * [PHPC-1297] - Support sharded transactions recovery token
+    * [PHPC-1319] - Drivers should use majority write concern when retrying commitTransaction
+    * [PHPC-1324] - Support Retryable Writes on by Default
+    * [PHPC-1355] - Add the ability to specify a pipeline to an update command
+    * [PHPC-1371] - Drivers send recoveryToken on abortTransaction
+    * [PHPC-1382] - Allow applications to set maxTimeMS for commitTransaction
+
+** Task
+    * [PHPC-1275] - Bump wire protocol version for 4.2
+    * [PHPC-1320] - Regenerate test certificates with SHA256 signatures
+    * [PHPC-1369] - Upgrade libmongoc to 1.15.0
+    * [PHPC-1377] - Remove support for PHP 5.5
+    * [PHPC-1390] - Remove 7.0 and add 7.3 on AppVeyor
+    * [PHPC-1392] - Avoid spurious failure in ConnectionTimeoutException test due to slow auth
+    * [PHPC-1399] - Test MongoDB 4.2 in Evergreen
+    * [PHPC-1412] - Fix test failures when retryable writes are enabled
+    * [PHPC-1413] - Fix test failures executing insert on secondary
+    * [PHPC-1414] - Skip tests when mongo orchestration is not available
+    * [PHPC-1415] - Fix test failures for sharded cluster without replica set
+
+** Improvement
+    * [PHPC-1394] - Don't send $readPreference to standalone servers
+    * [PHPC-1422] - Raise an actionable error message when retryWrites fails due to using an unsupported storage engine</n>
+ <f>1089313</f>
+ <g>https://pecl.php.net/get/mongodb-1.6.0alpha3</g>
+ <x xlink:href="package.1.6.0alpha3.xml"/>
+</r>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ion">ion</p>
+ <c>pecl.php.net</c>
+ <v>0.2.1</v>
+ <st>alpha</st>
+ <l>BSD-2-Clause</l>
+ <m>mike</m>
+ <s>Amazon ION support</s>
+ <d>This PHP extension  provides support for the Amazon ION serialization format.
+https://awesomized.github.io/ext-ion/</d>
+ <da>2022-05-31 10:31:02</da>
+ <n>* Fix possible crash on unserializing uninitialized properties.</n>
+ <f>63087</f>
+ <g>https://pecl.php.net/get/ion-0.2.1</g>
+ <x xlink:href="package.0.2.1.xml"/>
+</r>

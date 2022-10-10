@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pop3">pop3</p>
+ <c>pecl.php.net</c>
+ <v>1.0.2</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>iliaa</m>
+ <s>POP3 Client Library</s>
+ <d>The POP3 extension makes it possible for a PHP 
+ script to connect to and interact with a POP3 mail server.
+ It is based on the PHP streams interface and requires no
+ external library.
+</d>
+ <da>2005-07-25 17:48:18</da>
+ <n>Minor release -- Fixed PHP 4.3.X build.</n>
+ <f>9185</f>
+ <g>http://pecl.php.net/get/pop3-1.0.2</g>
+ <x xlink:href="package.1.0.2.xml"/>
+</r>

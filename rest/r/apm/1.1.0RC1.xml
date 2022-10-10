@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/apm">APM</p>
+ <c>pecl.php.net</c>
+ <v>1.1.0RC1</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>patrickallaert</m>
+ <s>Alternative PHP Monitor</s>
+ <d>Monitoring extension for PHP, collects error events and send them to one of the drivers.
+SQLite and MySQL drivers are storing those in a database.
+More drivers to come (SNMP, e-mail, Hadoop,...).</d>
+ <da>2012-10-19 08:05:35</da>
+ <n>Added:
+- --with-debugfile[=FILE] option to permit debugging of APM
+
+Changed:
+- Lazy loading the connection to the SQLite database
+
+Fixed:
+- Ordering by URL not working
+- Decouple mysql backend from sqlite3 (#62288)
+- Invalid UTF-8 may cause backtrace to be truncated in MySQL driver (#62244)</n>
+ <f>116917</f>
+ <g>http://pecl.php.net/get/APM-1.1.0RC1</g>
+ <x xlink:href="package.1.1.0RC1.xml"/>
+</r>

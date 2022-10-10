@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/dtrace">dtrace</p>
+ <c>pecl.php.net</c>
+ <v>1.0.3</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>wez</m>
+ <s>A Solaris Dtrace provider</s>
+ <d>Allows dtrace to instrument PHP
+</d>
+ <da>2005-09-05 21:19:44</da>
+ <n>Added .map file to workaround a bug in dtrace.
+Tested only with gcc; it may not build with the SUN cc.
+Both probes have the following signatures:
+arg0 = the function name
+arg1 = the filename
+arg2 = the line number
+
+arg3 = classname (or an empty string)
+arg4 = object/class operator (::, -&gt;, or an empty string)</n>
+ <f>3335</f>
+ <g>http://pecl.php.net/get/dtrace-1.0.3</g>
+ <x xlink:href="package.1.0.3.xml"/>
+</r>

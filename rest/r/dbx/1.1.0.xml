@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/dbx">dbx</p>
+ <c>pecl.php.net</c>
+ <v>1.1.0</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>pajoye</m>
+ <s>Database abstraction functions.</s>
+ <d>The dbx module is a database abstraction layer (db 'X', where 'X' 
+is a supported database). The dbx functions allow you to access all 
+supported databases using a single calling convention. The 
+dbx-functions themselves do not interface directly to the databases, 
+but interface to the modules that are used to support these databases.</d>
+ <da>2005-08-07 12:15:43</da>
+ <n>Promote to stable
+ Add package(2).xml to allow pear installation</n>
+ <f>30872</f>
+ <g>http://pecl.php.net/get/dbx-1.1.0</g>
+ <x xlink:href="package.1.1.0.xml"/>
+</r>

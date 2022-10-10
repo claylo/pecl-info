@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/framegrab">framegrab</p>
+ <c>pecl.php.net</c>
+ <v>0.0.1</v>
+ <st>alpha</st>
+ <l>PHP</l>
+ <m>cyberspice</m>
+ <s>A video frame grabber extension</s>
+ <d>Provides a set of classes and functions for grabbing video frames from video capture devices.</d>
+ <da>2010-02-26 10:01:27</da>
+ <n>Initial version</n>
+ <f>11645</f>
+ <g>http://pecl.php.net/get/framegrab-0.0.1</g>
+ <x xlink:href="package.0.0.1.xml"/>
+</r>

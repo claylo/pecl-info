@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mqseries">mqseries</p>
+ <c>pecl.php.net</c>
+ <v>0.13.0</v>
+ <st>beta</st>
+ <l>BSD</l>
+ <m>pierrick</m>
+ <s>mqseries client library</s>
+ <d>This package provides support for IBM Websphere MQ (MQSeries).</d>
+ <da>2012-08-31 00:12:21</da>
+ <n>- Add the mqseries_bytes_val() function. (Pierrick)
+- Add support for msg_desc-&gt;GroupId. (Pierrick)
+- Add Version support within the msg_desc support. (Pierrick)</n>
+ <f>38403</f>
+ <g>http://pecl.php.net/get/mqseries-0.13.0</g>
+ <x xlink:href="package.0.13.0.xml"/>
+</r>

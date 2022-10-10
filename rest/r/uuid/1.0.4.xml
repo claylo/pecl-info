@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/uuid">uuid</p>
+ <c>pecl.php.net</c>
+ <v>1.0.4</v>
+ <st>stable</st>
+ <l>LGPL</l>
+ <m>remi</m>
+ <s>UUID extension</s>
+ <d>A wrapper around libuuid from the ext2utils project.</d>
+ <da>2015-05-08 15:14:36</da>
+ <n>- PHP 7 compatibility
+- add LICENSE in documentation
+- various build fix</n>
+ <f>14900</f>
+ <g>http://pecl.php.net/get/uuid-1.0.4</g>
+ <x xlink:href="package.1.0.4.xml"/>
+</r>

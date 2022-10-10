@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xdiff">xdiff</p>
+ <c>pecl.php.net</c>
+ <v>2.1.1</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>remi</m>
+ <s>File differences/patches.</s>
+ <d>This extension creates and applies patches to both text and binary files.</d>
+ <da>2022-05-24 13:47:49</da>
+ <n>- Fixed bug #81552 xdiff_string_bpatch() and others missing (Kevin Israel)
+- Fixed bug #77826 xdiff_string_bpatch wrong return value on error (SATO Kentaro)</n>
+ <f>25842</f>
+ <g>https://pecl.php.net/get/xdiff-2.1.1</g>
+ <x xlink:href="package.2.1.1.xml"/>
+</r>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.51.0</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>labbati</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2020-11-17 18:00:23</da>
+ <n>### Added
+- Support service split by host in PHPRedis integration #1084
+- Support service split by host in Predis integration #1094
+- Load WordPress 5 integration on PHP 5 #1086
+- Custom pre-RC5 build #1093
+- Second custom pre-RC5 build #1096
+
+
+### Changed
+- Consolidate 3rd party code into vendor directory #1082
+- Separate extension code by PHP major version #1085
+- Make include paths relative to ext/ #1087
+- Copy PHP 7 extension code to php8 directory #1088
+- Upgrade to composer 2 #1075
+- Fix composer self-update on master properly handling cached directories #1092
+- Make execution of ext tests locally faster and easier #1091</n>
+ <f>432037</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.51.0</g>
+ <x xlink:href="package.0.51.0.xml"/>
+</r>

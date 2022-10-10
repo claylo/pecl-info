@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.1.1</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>jmikola</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundemental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2015-12-22 20:51:41</da>
+ <n>* PHPC-285: Allow for PHP 7.x support in package.xml
+* PHPC-285: VC14 needs timezone defined for SSL function
+* PHPC-285: Fix syntax for empty struct initializer
+* PHPC-400: Compare WriteConcern journal arg with IS_TRUE
+* PHPC-405: Additional zval* to zval changes
+* PHPC-397: Additional RETURN_STRING updates
+* PHPC-393: Don't BSON-encode non-public properties in PHP 7
+* PHPC-390: Fix OnUpdateString calls within OnUpdateDebug
+* PHPC-373: Additional MAKE_STD_ZVAL() cleanup
+* PHPC-374: zend_string updates for OnUpdateDebug
+* PHPC-404: Additional hash API changes
+* PHPC-370: Additionally return_value_ptr and return_value_used suppressions
+* PHPC-369: Additional Z_&lt;CLASSNAME&gt;_OBJ_P() macros
+* PHPC-399: Additional zval_used_for_init cleanup
+* PHPC-431: Add the testcase from the report
+* PHPC-431: Segfault when using Manager through singleton class
+* PHPC-391 &amp; PHPC-389: Stream and SSL API changes
+* PHPC-387: Properly init the iterator, and don't free it on dtor
+* PHPC-405: zval drop a level; zval*-&gt;zval, zval**-&gt;zval*
+* PHPC-404: off-by-one hash api changes
+* PHPC-390: php.ini updates
+* PHPC-380: Use the compatability macros to get the object
+* PHPC-400: Handle IS_TRUE and IS_FALSE
+* PHPC-373: MAKE_STD_ZVAL() and zval* -&gt; zval upgrades
+* PHPC-397: RETURN_*() should RETURN ! :)
+* PHPC-399: zval_used_for_init is no longer needed (or defined)
+* PHPC-398: zend_parse_parameter 's' expects a char* and size_t now
+* PHPC-373: MAKE_STD_ZVAL() is gone
+* PHPC-397: RETURN_STRING() duplicate argument removed
+* PHPC-387: get_current_data() API changes
+* PHPC-397: dup argument in most string macros removed
+* PHPC-380: Use our bc type for free_object argument
+* PHPC-397: dup argument in most string macros removed
+* PHPC-396: HashTable no longer contains nApplyCount
+* PHPC-394: Fix issue with WriteException and zend_read_property
+* PHPC-380: PHP7 create/free object changes
+* PHPC-380: create/free object handlers for PHP7
+* PHPC-385: Remove leftover braces
+* PHPC-374: php_stream_xport_create() now wants zend_string
+* PHPC-388 - dtor on bson_to_zval() failure
+* PHPC-387: Iterator API changes
+* PHPC-386: Forward port Z_PHPDATE_P() to get php_date_obj
+* PHPC-385: add_assoc_string_ex() doesn't have a duplicate param in PHP7
+* PHPC-384: php_stream's no longer have resource ids
+* PHPC-383: Simplify getting the current exception zval*
+* PHPC-376: Cursor var_dump() is weird
+* PHPC-373: Remove MAKE_STD_ZVAL() usage
+* PHPC-374: zend_string* vs char* PHP API changes (1/many)
+* PHPC-375: TSRMLS_FETCH_FROM_CTX() not applicable in PHP7
+* PHPC-372: zend_throw_exception() return value changes
+* PHPC-371: Prep for PHP7 resource changes
+* PHPC-370: Hardcode return_value_used to 1 in PHP7
+* PHPC-370: return_value_ptr and return_value_used removed in PHP7
+* PHPC-369: Use the new Z_&lt;CLASSNAME&gt;_OBJ_P() macros
+* PHPC-369: Split PHP5 and PHP7 style custom object struct declrations
+* PHPC-368: Refactor MongoDB\Driver\Manager ctor
+* PHPC-285: Allow for PHP 7.x support in package.xml
+* PHPC-285: VC14 needs timezone defined for SSL function
+* PHPC-285: Fix syntax for empty struct initializer
+* PHPC-400: Compare WriteConcern journal arg with IS_TRUE
+* PHPC-405: Additional zval* to zval changes
+* PHPC-397: Additional RETURN_STRING updates
+* PHPC-393: Don't BSON-encode non-public properties in PHP 7
+* PHPC-390: Fix OnUpdateString calls within OnUpdateDebug
+* PHPC-373: Additional MAKE_STD_ZVAL() cleanup
+* PHPC-374: zend_string updates for OnUpdateDebug
+* PHPC-404: Additional hash API changes
+* PHPC-370: Additionally return_value_ptr and return_value_used suppressions
+* PHPC-369: Additional Z_&lt;CLASSNAME&gt;_OBJ_P() macros
+* PHPC-399: Additional zval_used_for_init cleanup
+* PHPC-431: Add the testcase from the report
+* PHPC-431: Segfault when using Manager through singleton class
+* PHPC-391 &amp; PHPC-389: Stream and SSL API changes
+* PHPC-387: Properly init the iterator, and don't free it on dtor
+* PHPC-405: zval drop a level; zval*-&gt;zval, zval**-&gt;zval*
+* PHPC-404: off-by-one hash api changes
+* PHPC-390: php.ini updates
+* PHPC-380: Use the compatability macros to get the object
+* PHPC-400: Handle IS_TRUE and IS_FALSE
+* PHPC-373: MAKE_STD_ZVAL() and zval* -&gt; zval upgrades
+* PHPC-397: RETURN_*() should RETURN ! :)
+* PHPC-399: zval_used_for_init is no longer needed (or defined)
+* PHPC-398: zend_parse_parameter 's' expects a char* and size_t now
+* PHPC-373: MAKE_STD_ZVAL() is gone
+* PHPC-397: RETURN_STRING() duplicate argument removed
+* PHPC-387: get_current_data() API changes
+* PHPC-397: dup argument in most string macros removed
+* PHPC-380: Use our bc type for free_object argument
+* PHPC-397: dup argument in most string macros removed
+* PHPC-396: HashTable no longer contains nApplyCount
+* PHPC-394: Fix issue with WriteException and zend_read_property
+* PHPC-380: PHP7 create/free object changes
+* PHPC-380: create/free object handlers for PHP7
+* PHPC-385: Remove leftover braces
+* PHPC-374: php_stream_xport_create() now wants zend_string
+* PHPC-388 - dtor on bson_to_zval() failure
+* PHPC-387: Iterator API changes
+* PHPC-386: Forward port Z_PHPDATE_P() to get php_date_obj
+* PHPC-385: add_assoc_string_ex() doesn't have a duplicate param in PHP7
+* PHPC-384: php_stream's no longer have resource ids
+* PHPC-383: Simplify getting the current exception zval*
+* PHPC-376: Cursor var_dump() is weird
+* PHPC-373: Remove MAKE_STD_ZVAL() usage
+* PHPC-374: zend_string* vs char* PHP API changes (1/many)
+* PHPC-375: TSRMLS_FETCH_FROM_CTX() not applicable in PHP7
+* PHPC-372: zend_throw_exception() return value changes
+* PHPC-371: Prep for PHP7 resource changes
+* PHPC-370: Hardcode return_value_used to 1 in PHP7
+* PHPC-370: return_value_ptr and return_value_used removed in PHP7
+* PHPC-369: Use the new Z_&lt;CLASSNAME&gt;_OBJ_P() macros
+* PHPC-369: Split PHP5 and PHP7 style custom object struct declrations
+* PHPC-368: Refactor MongoDB\Driver\Manager ctor</n>
+ <f>642977</f>
+ <g>http://pecl.php.net/get/mongodb-1.1.1</g>
+ <x xlink:href="package.1.1.1.xml"/>
+</r>

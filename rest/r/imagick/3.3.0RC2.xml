@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/imagick">imagick</p>
+ <c>pecl.php.net</c>
+ <v>3.3.0RC2</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>danack</m>
+ <s>Provides a wrapper to the ImageMagick library.</s>
+ <d>Imagick is a native php extension to create and modify images using the ImageMagick API.
+This extension requires ImageMagick version 6.2.4+ and PHP 5.1.3+.
+
+IMPORTANT: Version 2.x API is not compatible with earlier versions.</d>
+ <da>2015-06-01 16:47:06</da>
+ <n>- Added ImagickKernel class. These can be used with the Imagick::morphology or
+Imagick::filter functions.
+- Added methods:
+* Imagick::brightnessContrastImage()
+* Imagick::colorMatrixImage()
+* Imagick::deleteImageProperty()
+* Imagick::filter()
+* Imagick::forwardFourierTransformImage()
+* Imagick::getAntiAlias()
+* Imagick::getImageCompression()
+* Imagick::getRegistry()
+* Imagick::getQuantum()
+* Imagick::identifyFormat()
+* Imagick::inverseFourierTransformImage()
+* Imagick::isPixelSimilarQuantum()
+* Imagick::listRegistry()
+* Imagick::morphology()
+* Imagick::rotationalBlurImage()
+* Imagick::selectiveBlurImage()
+* Imagick::setAntiAlias()
+* Imagick::setImageBiasQuantum()
+* Imagick::setProgressMonitor()
+* Imagick::setRegistry() - which allows setting the &quot;temporary-path&quot; used by ImageMagick
+* Imagick::statisticImage()
+* Imagick::subImageMatch()
+* ImagickPixel::getColorQuantum()
+- Added constants:
+* Imagick::RESOURCETYPE_TIME
+* Imagick::RESOURCETYPE_THROTTLE
+* Imagick::CHANNEL_RGBA
+* Imagick::ALPHACHANNEL_BACKGROUND
+* Imagick::FUNCTION_ARCSIN
+* Imagick::FUNCTION_ARCTAN
+- Fixed Imagick::clutImage() parameter parsing
+- Fixed tint image bug
+- Fixed ImageMagick compiled with HDRI having quantum values as floats
+- Fixed memory leaks in:
+* Imagick::getImageBlob()
+* Imagick::getImagesBlob()
+* Imagick::getImageChannelStatistics()
+* Imagick::getImageFormat()
+* Imagick::getImageMimetype()
+* Imagick::getSamplingFactors()
+* Imagick::identifyImage()
+* Imagick::tintImage
+- Fixed segfault when compiling statically
+- ImagickDraw::setFontFamily no longer checks whether the font is available. This allows a
+font family to be set where the family name is not the same as the font name. However it also
+means an invalid family name can be set, leading to the default font being used, instead of an
+exception being thrown. See https://github.com/mkoppanen/imagick/issues/77
+- Removed Zend MM support
+- Excluded deprecated methods:
+* Imagick::getImageMatte()
+* Imagick::colorFloodfillImage()
+* Imagick::matteFloodfillImage()
+* Imagick::paintFloodfillImage()
+* Imagick::paintOpaqueImage()
+* Imagick::paintTransparentImage()
+* Imagick::mapImage()
+* Imagick::recolorImage()
+* Imagick::setImageIndex()
+* Imagick::getImageIndex()
+* Imagick::getImageSize()
+* Imagick::setImageAttribute()
+* Imagick::getImageAttribute()
+* Imagick::mosaicImages()
+* Imagick::averageImages()
+* Imagick::flattenImages()
+This is replaced by $im = $im-&gt;mergeImageLayers(\Imagick::LAYERMETHOD_FLATTEN)
+* Imagick::getImageChannelExtrema()
+* Imagick::getImageExtrema()
+- Ini file changes
+* Added imagick.skip_version_check. Imagick now checks that it was compiled against the same version of
+ImageMagick that it is being run with, and will give a warning if it was compiled against a different
+version of ImageMagick. The skip_version_check setting allows you to suppress this warning. However
+it is strongly recommended to use the version of ImageMagick that Imagick was compiled against.
+- Misc:
+* CI now compiles with CFLAGS=&quot;-Wno-deprecated-declarations -Wdeclaration-after-statement -Werror&quot;</n>
+ <f>180037</f>
+ <g>http://pecl.php.net/get/imagick-3.3.0RC2</g>
+ <x xlink:href="package.3.3.0RC2.xml"/>
+</r>

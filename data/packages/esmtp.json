@@ -1,0 +1,34 @@
+{
+    "category": "Networking",
+    "deprecated": false,
+    "description": "Esmtp is a wrapper for SMTP client library based on the libESMTP library \n(http://www.stafford.uklinux.net/libesmtp/). You can use it to send messages\nusing internal SASL, and external/openssl SSL support.",
+    "latestReleaseDate": "2004-10-19T06:28:00+00:00",
+    "latestVersion": "0.3.1",
+    "license": "PHP License",
+    "name": "esmtp",
+    "php8Mentioned": false,
+    "releases": {
+        "0.3.1": {
+            "version": "0.3.1",
+            "state": "alpha",
+            "license": "PHP License",
+            "releasedBy": "makler",
+            "releaseDate": "2004-10-19T06:28:00+00:00",
+            "releaseNotes": "add checks for libESMTP (and PHP) version",
+            "get": "http://pecl.php.net/get/esmtp-0.3.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.3.0": {
+            "version": "0.3.0",
+            "state": "alpha",
+            "license": "PHP License",
+            "releasedBy": "makler",
+            "releaseDate": "2004-09-01T12:30:00+00:00",
+            "releaseNotes": "- release for both PHP 5.x and 4.x",
+            "get": "http://pecl.php.net/get/esmtp-0.3.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "ESMTP client extenion",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

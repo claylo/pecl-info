@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ev">ev</p>
+ <c>pecl.php.net</c>
+ <v>1.1.5</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>osmanov</m>
+ <s>Provides interface to libev library</s>
+ <d>ev provides interface to libev library - high performance
+  full-featured event loop written in C.</d>
+ <da>2021-09-17 21:18:14</da>
+ <n>Fixed #44: segmentation fault when the watcher is destroyed in its callback and an exception is thrown.
+Issue #40: Fixed PHP 8 Windows build: the list of source files in config.w32 was incorrect for PHP 8.</n>
+ <f>169887</f>
+ <g>https://pecl.php.net/get/ev-1.1.5</g>
+ <x xlink:href="package.1.1.5.xml"/>
+</r>

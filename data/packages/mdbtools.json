@@ -1,0 +1,44 @@
+{
+    "category": "Database",
+    "deprecated": false,
+    "description": "mdbtools provides read access to MDB data files\n  as used by Microsoft Access and its underlying\n  JetEngine.\n\n  It is based on libmdb from the mdbtools package\n  available at http://mdbtools.sourceforge.net/",
+    "latestReleaseDate": "2007-11-27T10:15:33+00:00",
+    "latestVersion": "1.0.0",
+    "license": "LGPL",
+    "name": "mdbtools",
+    "summary": "MDB data file access library",
+    "php8Mentioned": false,
+    "releases": {
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable",
+            "license": "LGPL",
+            "releasedBy": "hholzgra",
+            "releaseDate": "2007-11-27T10:15:33+00:00",
+            "releaseNotes": "First stable release",
+            "get": "http://pecl.php.net/get/mdbtools-1.0.0",
+            "SPDX-License-Identifier": "LGPL-2.1-or-later"
+        },
+        "0.6.0": {
+            "version": "0.6.0",
+            "state": "beta",
+            "license": "LGPL",
+            "releasedBy": "hholzgra",
+            "releaseDate": "2006-02-20T13:52:40+00:00",
+            "releaseNotes": "- preparing for stable release",
+            "get": "http://pecl.php.net/get/mdbtools-0.6.0",
+            "SPDX-License-Identifier": "LGPL-2.1-or-later"
+        },
+        "0.1": {
+            "version": "0.1",
+            "state": "alpha",
+            "license": "LGPL",
+            "releasedBy": "hholzgra",
+            "releaseDate": "2004-03-30T20:31:00+00:00",
+            "releaseNotes": "first tests",
+            "get": "http://pecl.php.net/get/mdbtools-0.1",
+            "SPDX-License-Identifier": "LGPL-2.1-or-later"
+        }
+    },
+    "SPDX-License-Identifier": "LGPL-2.1-or-later"
+}

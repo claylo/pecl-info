@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/opencensus">opencensus</p>
+ <c>pecl.php.net</c>
+ <v>0.1.4</v>
+ <st>alpha</st>
+ <l>Apache 2.0</l>
+ <m>chingor</m>
+ <s>A stats collection and distributed tracing framework</s>
+ <d>OpenCensus is a open source, distributed tracing system that allows you to collect latency data and report it to any trace aggregation system such as Zipkin or Stackdriver Trace.
+
+This extension allows you to easily gather latency and other metadata by watching for targeted function and method invocations without needing to inject code into the libraries.</d>
+ <da>2018-03-05 21:35:45</da>
+ <n>Fix handling startTime when passed to opencensus_trace_begin (#135)</n>
+ <f>26682</f>
+ <g>http://pecl.php.net/get/opencensus-0.1.4</g>
+ <x xlink:href="package.0.1.4.xml"/>
+</r>

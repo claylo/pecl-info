@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>0.4.0</v>
+ <st>alpha</st>
+ <l>New BSD License</l>
+ <m>bjori</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundemental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2015-04-10 21:43:00</da>
+ <n>* PHPC-234: Run test suite automatically on FreeBSD 10.1
+* PHPC-235: Fix out-of-src builds on FreeBSD
+* PHPC-213: Disable extra bson type alignment
+* PHPC-233: Mark the ctor as private for internally created value objects
+* PHPC-80: Create distcheck target
+* PHPC-231: Manager instances should not free streams that are still in use
+* bump dependencies for PHPC-231 &amp; PHPC-213
+* PHPC-232: Fix capitalization for WriteResult::getWriteConcern()
+* PHPC-231: Regression test for Manager destruct stream freeing
+* PHPC-215: Fix Cursor iteration through IteratorIterator
+* PHPC-225: Test Cursor::isDead() and kill on destruct
+* PHPC-224: Consolidate Result and Cursor classes into one
+* PHPC-224: Remove Cursor class, which implements Iterator
+* PHPC-207: Correct serialized data examples for ODS documentation
+* PHPC-210 &amp; PHPC-209 &amp; PHPC-207 Fix BSON ODM/ODS
+* PHPC-208: Restrict ODS to &quot;__pclass&quot; fieldnames
+* PHPC-194: Implement Manager::selectServer() method to wrap SDAM server selection
+* PHPC-190: Provide __wakeUp() to disable unserialize()
+* PHPC-191 &amp;&amp; PHPC-192: Add verify_expiry &amp;&amp; verify_peer_name certificate verify options
+* PHPC-223: Use explicit SSL options rather then stream context
+* PHPC-222: WriteConcernError can cause segfaults on Ubuntu Precise 32bit
+* PHPC-220: BSON\UTCDatetime broken on 32bit
+* PHPC-221: Add Ubuntu Precise (12.04.5) 32bit image
+* PHPC-219 - BSON\Javascript segfaults on Ubuntu Precise 32bit
+* PHPC-221: Rename the identifier to precise64 as we'll be adding 32bit soon
+* PHPC-204: Result::toArray() should respect type map configuration
+* PHPC-203: Result::toArray() should proxy iterator_to_array($this)
+* PHPC-214: Result does not need custom iterator classes
+* PHPC-216: PHP5.5 change the prototype of get_current_key leading to
+* PHPC-216: Include our pem files in the pecl archive
+* PHPC-216: Use array(), not [], for PHP5.3 compatibility
+* PHPC-218: Provision ubuntu image and install &amp; run the test suite
+* PHPC-216: PHP5.3 test suite fixes
+* PHPC-217: Include the connection tests in pecl package
+* PHPC-213: Memory alignment issues on FreeBSD
+* PHPC-216: PHP5.3 test suite fixes
+* PHPC-212: undefined symbol: _mongoc_sasl_set_service_host - patch by remi@php.net</n>
+ <f>470559</f>
+ <g>http://pecl.php.net/get/mongodb-0.4.0</g>
+ <x xlink:href="package.0.4.0.xml"/>
+</r>

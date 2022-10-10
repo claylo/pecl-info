@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.5.0</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>derick</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2018-06-26 13:16:22</da>
+ <n>** Epic
+    * [PHPC-1075] - Import libbson and libmongoc Autotools configuration
+    * [PHPC-1086] - Improve exception hierarchy for RuntimeException
+    * [PHPC-1102] - PHPC MongoDB 4.0 Support
+
+** New Feature
+    * [PHPC-314] - Implement type map syntax for documents within field paths
+    * [PHPC-578] - Expose result document for failed commands
+    * [PHPC-1076] - Expose result document for failed commands via CommandFailedEvent
+    * [PHPC-1087] - Introduce ServerException class
+    * [PHPC-1089] - Introduce CommandException class
+    * [PHPC-1105] - Implement SASLPrep
+    * [PHPC-1108] - SCRAM-SHA-256 Support
+    * [PHPC-1140] - Implement Transactions spec
+    * [PHPC-1153] - Handshake changes for SDAM and Auth
+    * [PHPC-1181] - Retryable writes should consider more errors retryable
+    * [PHPC-1211] - Create Int64 class to wrap 64-bit integers on 32-bit platforms
+
+** Bug
+    * [PHPC-332] - Test that server selection throws ConnectionTimeoutException
+    * [PHPC-355] - Connection timeouts should throw ConnectionTimeoutException, and not RuntimeException
+    * [PHPC-1022] - Sporadic SCRAM-SHA-1 authentication failures due to &quot;storedKey mismatch&quot;
+    * [PHPC-1158] - Segfault during OpenSSL cleanup routines
+    * [PHPC-1166] - Update zend array recursion protection for PHP 7.3
+    * [PHPC-1169] - TLS renegotiation errors during heartbeat when using Secure Transport
+    * [PHPC-1195] - BulkWrite::update() should append arrayFilters option as array
+    * [PHPC-1196] - Raise client error if arrayFilters option is used when unsupported
+    * [PHPC-1198] - Ensure bundled libraries set CFLAGS correctly
+
+** Task
+    * [PHPC-585] - Document maxTimeMS example for executeCommand and executeQuery
+    * [PHPC-759] - Ensure that the driver can be compiled as a built-in PHP extension
+    * [PHPC-1083] - Change &quot;available&quot; RP constant to use libmongoc's constant instead of hard coding it
+    * [PHPC-1088] - Deprecate SSLConnectionException
+    * [PHPC-1107] - Resync tests to update handling of inconsistent write concern
+    * [PHPC-1113] - Migrate tests to use a common URI environment variable
+    * [PHPC-1114] - Add template.rc file to embed the right MongoDB version in the Windows binary
+    * [PHPC-1118] - Create clang-format file and Makefile targets
+    * [PHPC-1121] - Test Windows builds on Appveyor
+    * [PHPC-1126] - Prohibit using unacknowledged writes with explicit sessions
+    * [PHPC-1132] - Remove HHVM checks in test suite
+    * [PHPC-1133] - Remove unused includes in SKIPIF and FILE sections
+    * [PHPC-1137] - Deprecate maxScan query option
+    * [PHPC-1138] - Deprecate snapshot option
+    * [PHPC-1143] - Select ServerException for MONGOC_ERROR_WRITE_CONCERN domain
+    * [PHPC-1144] - Use server-side error code for BulkWriteException
+    * [PHPC-1145] - Fix development build warnings for numeric type conversions
+    * [PHPC-1148] - Throw InvalidArgumentException if BulkWrite is executed multiple times
+    * [PHPC-1160] - Initialize bson_error_t structs to zero
+    * [PHPC-1174] - Upgrade bundled libbson and libmongoc to 1.10
+    * [PHPC-1185] - Remove support for Cyrus SASL search path
+    * [PHPC-1186] - Consolidate libbson and libmongoc build configs
+    * [PHPC-1188] - Use --coverage compiler/linker option for code coverage builds
+    * [PHPC-1191] - Don't allow coverage for static builds 
+    * [PHPC-1193] - Upgrade bundled libbson and libmongoc to 1.11
+
+** Improvement
+    * [PHPC-850] - Add var_export() support for ReadConcern, ReadPreference, and WriteConcern
+    * [PHPC-922] - Improve specificity in generic corrupt BSON exception message
+    * [PHPC-1090] - Clean up switch statements for exception class selection
+    * [PHPC-1091] - Ensure ExecutionTimeoutException selection only considers server error code
+    * [PHPC-1120] - Decrease likelihood of implicit session leaks
+    * [PHPC-1127] - Remove old Mongo Orchestration cluster tests
+    * [PHPC-1139] - Update algorithm for Kerberos hostname canonicalization
+    * [PHPC-1149] - php_phongo_dispatch_handlers() should break if exception is thrown
+    * [PHPC-1154] - Implement wild card syntax for typemap field paths
+    * [PHPC-1189] - Prefix maintainer/coverage configure options with &quot;mongodb&quot;
+    * [PHPC-1200] - Remove MD5 from ObjectID generation 
+    * [PHPC-1216] - Always validate and apply wtimeoutMS in URI options array</n>
+ <f>1054840</f>
+ <g>http://pecl.php.net/get/mongodb-1.5.0</g>
+ <x xlink:href="package.1.5.0.xml"/>
+</r>

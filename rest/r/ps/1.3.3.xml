@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ps">ps</p>
+ <c>pecl.php.net</c>
+ <v>1.3.3</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>steinm</m>
+ <s>An extension to create PostScript files</s>
+ <d>ps is an extension similar to the pdf extension but for creating PostScript files. Its api is modelled after the pdf extension.
+</d>
+ <da>2005-12-06 10:59:16</da>
+ <n>fixed stupid compile warning.</n>
+ <f>155545</f>
+ <g>http://pecl.php.net/get/ps-1.3.3</g>
+ <x xlink:href="package.1.3.3.xml"/>
+</r>

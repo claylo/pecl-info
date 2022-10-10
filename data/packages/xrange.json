@@ -1,0 +1,44 @@
+{
+    "category": "Tools and Utilities",
+    "deprecated": false,
+    "description": "xrange is a compiled extension that provides numeric iteration primitives to PHP on top of SPL. It includes a lean numeric range generator / iterator, modeled after Python's xrange() function. It's intended to provide an alternative for all numeric iteration and looping.",
+    "latestReleaseDate": "2012-07-28T19:42:01+00:00",
+    "latestVersion": "1.3.2",
+    "license": "PHP License",
+    "name": "xrange",
+    "summary": "Numeric iterator primitives",
+    "php8Mentioned": false,
+    "releases": {
+        "1.3.2": {
+            "version": "1.3.2",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "felipe",
+            "releaseDate": "2012-07-28T19:42:01+00:00",
+            "releaseNotes": "- Fixed build on PHP 5.3+\n- Fixed memory leaks",
+            "get": "http://pecl.php.net/get/xrange-1.3.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.3.1": {
+            "version": "1.3.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "pestilence",
+            "releaseDate": "2008-03-01T16:08:14+00:00",
+            "releaseNotes": "- Fixed version numbering scheme (x.y.z)\n- Added missing classes to php_info output\n- Fix for bug #13225 - implicit declaration warnings",
+            "get": "http://pecl.php.net/get/xrange-1.3.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.3": {
+            "version": "1.3",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "pestilence",
+            "releaseDate": "2008-02-26T00:20:38+00:00",
+            "releaseNotes": "- PECL migration\n- Added three new filter iterators",
+            "get": "http://pecl.php.net/get/xrange-1.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

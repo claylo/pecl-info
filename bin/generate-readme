@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# shellcheck disable=SC2312
+set -o pipefail
+
+REPODIR="$(dirname "$(cd "$(dirname "$0")" && pwd -P)")"
+PATH="${REPODIR}/bin:${PATH}"
+
+cat "${REPODIR}/partials/readme-header.md" >"${REPODIR}/README.md"
+
+apply-opinions >>"${REPODIR}/README.md"
+
+cat "${REPODIR}/partials/readme-footer.md" >>"${REPODIR}/README.md"

@@ -1,0 +1,46 @@
+{
+    "category": "Networking",
+    "deprecated": false,
+    "description": "Provides an interface for browsing and publishing network services \n  via ZeroConf using Apple's Rendezvous/OpenTalk library. You can browse the network for specific \n  services like database servers (PostgreSQL, Sybase, InterBase), Apple File \n  Sharing, web services via Apache's mod_rendezvous, etc. and discover the IP \n  address and port for each found service.",
+    "latestReleaseDate": "2005-09-24T17:25:19+00:00",
+    "latestVersion": "1.0",
+    "license": "PHP",
+    "name": "zeroconf",
+    "php8Mentioned": false,
+    "releases": {
+        "1.0": {
+            "version": "1.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "gabe",
+            "releaseDate": "2005-09-24T17:25:19+00:00",
+            "releaseNotes": "Stable release.",
+            "get": "http://pecl.php.net/get/zeroconf-1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.5.0": {
+            "version": "0.5.0",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "gabe",
+            "releaseDate": "2005-06-01T19:44:18+00:00",
+            "releaseNotes": "Fixed build for Mac OS X 10.3 and earlier.",
+            "get": "http://pecl.php.net/get/zeroconf-0.5.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.2": {
+            "version": "0.1.2",
+            "state": "alpha"
+        },
+        "0.1.1": {
+            "version": "0.1.1",
+            "state": "alpha"
+        },
+        "0.1": {
+            "version": "0.1",
+            "state": "alpha"
+        }
+    },
+    "summary": "A PHP interface for browsing network services using ZeroConf",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

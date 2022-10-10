@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xlswriter">xlswriter</p>
+ <c>pecl.php.net</c>
+ <v>1.2.5</v>
+ <st>stable</st>
+ <l>BSD license</l>
+ <m>wjx</m>
+ <s>An efficient and fast xlsx file export extension.</s>
+ <d>An efficient and fast xlsx file export extension for PHP.
+        - Quickly export xlsx files in php projects.
+        - Export xlsx files under fixed memory.
+        - Insert a calculation formula in an xlsx file.
+        - Insert a local picture in an xlsx file.
+        - Merging cells and cell styles.</d>
+ <da>2019-07-01 05:43:16</da>
+ <n>- FEAT cells background color.
+- FEAT checkout sheet.
+- FEAT format new font size.
+- FEAT format new strikeout.
+- FEAT insertText support resource format.</n>
+ <f>404796</f>
+ <g>https://pecl.php.net/get/xlswriter-1.2.5</g>
+ <x xlink:href="package.1.2.5.xml"/>
+</r>

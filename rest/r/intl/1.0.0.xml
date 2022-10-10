@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/intl">intl</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>stas</m>
+ <s>Internationalization extension</s>
+ <d>Internationalization extension implements ICU library functionality in PHP.</d>
+ <da>2008-06-27 17:15:31</da>
+ <n>* Release Candidate for first release of the intl extension
+* Added: date formatter, graphemes</n>
+ <f>130386</f>
+ <g>http://pecl.php.net/get/intl-1.0.0</g>
+ <x xlink:href="package.1.0.0.xml"/>
+</r>

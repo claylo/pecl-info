@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/tcc">tcc</p>
+ <c>pecl.php.net</c>
+ <v>0.1.2</v>
+ <st>devel</st>
+ <l>PHP</l>
+ <m>hamano</m>
+ <s>TCC Extension</s>
+ <d>This PHP Extension provides an interface to the TCC(Tiny C Compiler)
+See http://fabrice.bellard.free.fr/tcc/ for more information on TCC.</d>
+ <da>2008-04-25 00:14:31</da>
+ <n>This module requires tcc-0.9.23 or later</n>
+ <f>6212</f>
+ <g>http://pecl.php.net/get/tcc-0.1.2</g>
+ <x xlink:href="package.0.1.2.xml"/>
+</r>

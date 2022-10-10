@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/memcached">memcached</p>
+ <c>pecl.php.net</c>
+ <v>0.1.1</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>andrei</m>
+ <s>PHP extension for interfacing with memcached via libmemcached library</s>
+ <d>This extension uses libmemcached library to provide API for communicating with memcached servers.</d>
+ <da>2009-02-02 17:12:25</da>
+ <n>- Add OPT_LIBKETAMA_COMPATIBLE option.
+- Implement addServers() method.
+- Swap internal compressed and serialized flags to be compatible with other clients.</n>
+ <f>19113</f>
+ <g>http://pecl.php.net/get/memcached-0.1.1</g>
+ <x xlink:href="package.0.1.1.xml"/>
+</r>

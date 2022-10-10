@@ -1,0 +1,134 @@
+{
+    "category": "Networking",
+    "deprecated": false,
+    "description": "This package provides support for IBM Websphere MQ (MQSeries).",
+    "latestReleaseDate": "2017-07-14T15:02:03+00:00",
+    "latestVersion": "0.15.0",
+    "license": "BSD",
+    "name": "mqseries",
+    "php8Mentioned": false,
+    "releases": {
+        "0.15.0": {
+            "version": "0.15.0",
+            "state": "beta",
+            "license": "BSD",
+            "releasedBy": "pierrick",
+            "releaseDate": "2017-07-14T15:02:03+00:00",
+            "releaseNotes": "- PHP7 compliance.",
+            "get": "http://pecl.php.net/get/mqseries-0.15.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.14.2": {
+            "version": "0.14.2",
+            "state": "beta",
+            "license": "BSD",
+            "releasedBy": "pierrick",
+            "releaseDate": "2015-07-28T19:31:40+00:00",
+            "releaseNotes": "- Fixed bug. (Segfault in mqseries_inq)",
+            "get": "http://pecl.php.net/get/mqseries-0.14.2",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.14.1": {
+            "version": "0.14.1",
+            "state": "beta",
+            "license": "BSD",
+            "releasedBy": "pierrick",
+            "releaseDate": "2014-12-05T16:58:16+00:00",
+            "releaseNotes": "- Fixed bug #63563. (Segfault when using lib64)",
+            "get": "http://pecl.php.net/get/mqseries-0.14.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.14.0": {
+            "version": "0.14.0",
+            "state": "beta",
+            "license": "BSD",
+            "releasedBy": "pierrick",
+            "releaseDate": "2014-03-07T10:41:55+00:00",
+            "releaseNotes": "- Add support for the MQFMT_MD_EXTENSION Format to remove the MQMDE from the message. (Pierrick)\n- Add support for the SSLCipherSpec and OCSPResponderURL. (Dieter Devlieghere, Pierrick)\n- Update all implemented mqseries_* functions to expose WebSphere v7 parameters (Pierrick)\n- Add mqseries_sub and mqseries_stat functions from WebSphere v7 (Pierrick)",
+            "get": "http://pecl.php.net/get/mqseries-0.14.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.13.0": {
+            "version": "0.13.0",
+            "state": "beta",
+            "license": "BSD",
+            "releasedBy": "pierrick",
+            "releaseDate": "2012-08-31T00:12:21+00:00",
+            "releaseNotes": "- Add the mqseries_bytes_val() function. (Pierrick)\n- Add support for msg_desc->GroupId. (Pierrick)\n- Add Version support within the msg_desc support. (Pierrick)",
+            "get": "http://pecl.php.net/get/mqseries-0.13.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.12.1": {
+            "version": "0.12.1",
+            "state": "beta",
+            "license": "BSD",
+            "releasedBy": "pierrick",
+            "releaseDate": "2012-08-22T11:23:02+00:00",
+            "releaseNotes": "- Fixed segfault when using correlId in MQPUT",
+            "get": "http://pecl.php.net/get/mqseries-0.12.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.12.0": {
+            "version": "0.12.0",
+            "state": "beta",
+            "license": "BSD",
+            "releasedBy": "pierrick",
+            "releaseDate": "2012-05-25T23:37:17+00:00",
+            "releaseNotes": "- Add the possibility to use --with-libdir to compile the extension in 64-bit\n- PHP5.3 and PHP5.4 Compatibilty\n- Fixed bug #59577. (mqseries_strerror causes server to drop connection)\n- Fixed several memory leaks\n- Fixed several function signatures\n- Fixed segfault when non array variables are passed in array parameters\n- Fixed segfault when unexpected variables are in options array\n- Removed compilation warnings",
+            "get": "http://pecl.php.net/get/mqseries-0.12.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.11.0": {
+            "version": "0.11.0",
+            "state": "beta",
+            "license": "BSD",
+            "releasedBy": "philippe",
+            "releaseDate": "2008-01-19T15:25:12+00:00",
+            "releaseNotes": "Fixed php function calling deprication warnings.\n\t\t tested agains MQ6.",
+            "get": "http://pecl.php.net/get/mqseries-0.11.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.10.0": {
+            "version": "0.10.0",
+            "state": "alpha",
+            "license": "BSD",
+            "releasedBy": "philippe",
+            "releaseDate": "2006-04-20T15:28:03+00:00",
+            "releaseNotes": "Made some changes to the config.m4 configuration file.\n\t\t\t It shoud now be possible to build the extention without the MQ Client libraries.\n\t\t\t This would enable the transaction posibilities of MQ.\n\t\t\t The MQBegin, MQCMit and MQBack function wil now work.\n\t\t\t Check the README file for additional build instructions.",
+            "get": "http://pecl.php.net/get/mqseries-0.10.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.9.0": {
+            "version": "0.9.0",
+            "state": "alpha",
+            "license": "BSD",
+            "releasedBy": "philippe",
+            "releaseDate": "2006-04-16T08:16:08+00:00",
+            "releaseNotes": "Fixed some issues",
+            "get": "http://pecl.php.net/get/mqseries-0.9.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.8.0": {
+            "version": "0.8.0",
+            "state": "alpha",
+            "license": "BSD",
+            "releasedBy": "philippe",
+            "releaseDate": "2005-04-29T14:58:03+00:00",
+            "releaseNotes": "- Release 0.8.0\n- Rework Release",
+            "get": "http://pecl.php.net/get/mqseries-0.8.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.7.0": {
+            "version": "0.7.0",
+            "state": "alpha",
+            "license": "BSD",
+            "releasedBy": "mbretter",
+            "releaseDate": "2003-05-19T19:55:00+00:00",
+            "releaseNotes": "- Release 0.7.0\n- Initial Release",
+            "get": "http://pecl.php.net/get/mqseries-0.7.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        }
+    },
+    "summary": "mqseries client library",
+    "SPDX-License-Identifier": "BSD-3-Clause"
+}

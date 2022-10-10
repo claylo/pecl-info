@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/igbinary">igbinary</p>
+ <c>pecl.php.net</c>
+ <v>3.2.5</v>
+ <st>stable</st>
+ <l>BSD-3-Clause</l>
+ <m>tandre</m>
+ <s>igbinary extension</s>
+ <d>Igbinary is a drop in replacement for the standard php serializer. Instead of
+the time and space consuming textual representation used by PHP's serialize(), igbinary stores php data
+structures in a compact binary form. Savings are significant when using
+memcached or similar memory based storages for serialized data.</d>
+ <da>2021-08-07 14:42:12</da>
+ <n>* Fix change in behavior introduced in 3.2.2RC1 when unserializing arrays - the internal array pointer (for `next()`, `key()`, etc) pointed past the end of the array in php 7.0-7.2.</n>
+ <f>95784</f>
+ <g>https://pecl.php.net/get/igbinary-3.2.5</g>
+ <x xlink:href="package.3.2.5.xml"/>
+</r>

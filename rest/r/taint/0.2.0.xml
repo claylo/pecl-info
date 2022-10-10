@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/taint">taint</p>
+ <c>pecl.php.net</c>
+ <v>0.2.0</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>laruence</m>
+ <s>XSS code sniffer</s>
+ <d>extension used for detecting XSS codes(tainted string)</d>
+ <da>2012-02-18 02:42:03</da>
+ <n>- Support separation caused by send_ref
+- Support separation caused by send_var
+- Support checking for method
+- Support more functions (sqlite, oci, etc)</n>
+ <f>11380</f>
+ <g>http://pecl.php.net/get/taint-0.2.0</g>
+ <x xlink:href="package.0.2.0.xml"/>
+</r>

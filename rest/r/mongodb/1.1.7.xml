@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.1.7</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>jmikola</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundemental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2016-06-02 15:53:15</da>
+ <n>* PHPC-572: Keep stream context options alive for Manager's lifetime
+* PHPC-671: Avoid mongoc_client_t use-after-free by Cursor and Server
+* PHPC-698: Check HAVE_OPENSSL_EXT before calling php-ssl.c functions
+* PHPC-699: Rename &quot;php_mongo&quot; functions to not conflict with legacy driver
+* Fix expected exception message for PHPC-487 test case
+* PHPC-677: Keep pem_file valid for life of mongoc_client_t
+* PHPC-550: Remove XFAIL ODS tests for removed functionality
+* PHPC-672: Fix zend_str_tolower usage</n>
+ <f>806777</f>
+ <g>http://pecl.php.net/get/mongodb-1.1.7</g>
+ <x xlink:href="package.1.1.7.xml"/>
+</r>

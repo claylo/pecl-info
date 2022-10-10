@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/zip">zip</p>
+ <c>pecl.php.net</c>
+ <v>1.4.0</v>
+ <st>alpha</st>
+ <l>PHP License</l>
+ <m>pajoye</m>
+ <s>A zip management extension</s>
+ <d>Zip is an extension to create, modify and read zip files.</d>
+ <da>2006-06-27 19:23:12</da>
+ <n>- Add write mode to the archive comment (zip::comment property)
+- Add zip::setCommentName and ::setCommentIndex, add or remove entrie comment
+- Add zip::getCommentName and ::getCommentIndex, get an entrie comment
+- Add zip::setArchiveComment
+- Full sync with zip-0.7.1
+- #8009, modify archives on windows cannot be closed</n>
+ <f>43569</f>
+ <g>http://pecl.php.net/get/zip-1.4.0</g>
+ <x xlink:href="package.1.4.0.xml"/>
+</r>

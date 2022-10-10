@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/sca_sdo">SCA_SDO</p>
+ <c>pecl.php.net</c>
+ <v>1.2.1</v>
+ <st>stable</st>
+ <l>Apache 2.0</l>
+ <m>mfp</m>
+ <s>Service Component Architecture (SCA) and Service Data Objects (SDO) for PHP</s>
+ <d>Service Data Objects (SDOs) enable PHP applications to work with data from different sources (typically a database query or an XML file) using a single interface. SCA for PHP allows a PHP programmer to write reusable components (classes) in PHP, which can be called either locally, or in a a variety of ways remotely (soap web services, xml-rpc, json-rpc, REST, etc), but always with the same interface.
+ 
+</d>
+ <da>2007-05-11 13:39:47</da>
+ <n>* Fix for spaces in service description URLs (pecl defect #11006).
+ * Experimental support for service names following the PEAR coding standard
+ * Experimental support for a manual service request dispatching interface on SCA.php</n>
+ <f>470049</f>
+ <g>http://pecl.php.net/get/SCA_SDO-1.2.1</g>
+ <x xlink:href="package.1.2.1.xml"/>
+</r>

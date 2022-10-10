@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/hash">hash</p>
+ <c>pecl.php.net</c>
+ <v>1.1</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>mike</m>
+ <s>pHASH Message Digest Framework</s>
+ <d>Native implementations of common message digest algorithms using a generic factory method
+ 
+</d>
+ <da>2005-12-07 14:58:06</da>
+ <n>Fixed PECL bug #6183 - haval source file entries missing in package.xml
+
+Supported Algorithms:
+ * md4, md5
+ * sha1, sha256, sha384, sha512
+ * ripemd128, ripemd160
+ * tiger128, tiger160, tiger192 (3 and 4 passes)
+ * haval128, haval160, haval192, haval224, haval256 (3, 4 and 5 passes)
+ * crc32, crc32b, adler32, gost, snefru, whirlpool</n>
+ <f>100713</f>
+ <g>http://pecl.php.net/get/hash-1.1</g>
+ <x xlink:href="package.1.1.xml"/>
+</r>

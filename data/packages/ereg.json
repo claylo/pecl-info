@@ -1,0 +1,13 @@
+{
+    "category": "Text",
+    "deprecated": false,
+    "description": "This extension provides the ereg family of functions that were provided with PHP 3-5. These functions have been superseded by the preg family of functions provided by the PCRE extension: http://php.net/pcre\n\nAlthough it should be possible to build this extension with PHP 7.0, you are strongly encouraged to port your code to use PCRE, as this extension is not maintained and is available for historical reasons only.",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "PHP",
+    "name": "ereg",
+    "summary": "POSIX Regex Functions",
+    "php8Mentioned": false,
+    "releases": [],
+    "SPDX-License-Identifier": "PHP-3.01"
+}

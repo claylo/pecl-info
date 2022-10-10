@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/componere">componere</p>
+ <c>pecl.php.net</c>
+ <v>3.1.1</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>remi</m>
+ <s>Composing PHP classes at runtime</s>
+ <d>Componere is able to compose classes at runtime, and monkey patch objects.</d>
+ <da>2019-09-18 13:10:54</da>
+ <n>- Fix compatibility with 7.4.0RC1</n>
+ <f>28492</f>
+ <g>https://pecl.php.net/get/componere-3.1.1</g>
+ <x xlink:href="package.3.1.1.xml"/>
+</r>

@@ -1,0 +1,164 @@
+{
+    "category": "Caching",
+    "deprecated": false,
+    "description": "yac is a fast, lock-free, shared memory user data cache for PHP. it can be used to replace APC or local memcached.",
+    "latestReleaseDate": "2021-12-18T09:22:30+00:00",
+    "latestVersion": "2.3.1",
+    "license": "PHP",
+    "name": "yac",
+    "php8Mentioned": true,
+    "releases": {
+        "2.3.1": {
+            "version": "2.3.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2021-12-18T09:22:30+00:00",
+            "releaseNotes": "- PHP8.1 Supports",
+            "get": "https://pecl.php.net/get/yac-2.3.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.3.0": {
+            "version": "2.3.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2021-01-06T05:58:24+00:00",
+            "releaseNotes": "- PHP8 Supported",
+            "get": "https://pecl.php.net/get/yac-2.3.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.2.1": {
+            "version": "2.2.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2020-05-15T04:23:29+00:00",
+            "releaseNotes": "- Refactor key manipulation, avoding memory allocation\n- Refactor Yac::__set/__get by using native objects_handler",
+            "get": "https://pecl.php.net/get/yac-2.2.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.2.0": {
+            "version": "2.2.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2020-03-31T08:11:40+00:00",
+            "releaseNotes": "- Added json serializer\n- Added igbinary serializer\n- change yac.serilalizer to string, \"php\", \"json\" etc",
+            "get": "https://pecl.php.net/get/yac-2.2.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.2": {
+            "version": "2.1.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2020-03-27T02:49:16+00:00",
+            "releaseNotes": "- Also use crc32_u32 in 64 bits\n- Fixed crc32c only pick the first byte",
+            "get": "https://pecl.php.net/get/yac-2.1.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.1": {
+            "version": "2.1.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2020-03-25T06:12:28+00:00",
+            "releaseNotes": "- Implemnented CAS based lock-free protection\n- Use SSE4.2 _mm_crc32 instead of normal crc32 to make speedup\n- Some optimization to avoding memory usage\n- Fixed PECL package (missed yac_atomic.h)",
+            "get": "https://pecl.php.net/get/yac-2.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.0": {
+            "version": "2.1.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2020-03-25T03:45:25+00:00",
+            "releaseNotes": "- Implemnented CAS based lock-free protection\n- Some optimization to avoding memory usage",
+            "get": "https://pecl.php.net/get/yac-2.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.4": {
+            "version": "2.0.4",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2020-03-19T04:43:14+00:00",
+            "releaseNotes": "- Fixed PHP-7.4 windows build",
+            "get": "https://pecl.php.net/get/yac-2.0.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.3": {
+            "version": "2.0.3",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2020-01-06T12:13:14+00:00",
+            "releaseNotes": "- Fixed PHP-7.4 Compatiblity",
+            "get": "https://pecl.php.net/get/yac-2.0.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.2": {
+            "version": "2.0.2",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2017-07-27T09:58:44+00:00",
+            "releaseNotes": "- Fixed PHP-7.2 Compatiblity",
+            "get": "http://pecl.php.net/get/yac-2.0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.1": {
+            "version": "2.0.1",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2016-07-02T07:03:08+00:00",
+            "releaseNotes": "- Fixed issue #63 (include smart_str.h)",
+            "get": "http://pecl.php.net/get/yac-2.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.0": {
+            "version": "2.0.0",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2015-10-27T03:02:35+00:00",
+            "releaseNotes": "- Release yac for PHP7",
+            "get": "http://pecl.php.net/get/yac-2.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.9.2": {
+            "version": "0.9.2",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2014-10-22T10:04:50+00:00",
+            "releaseNotes": "- Add --with-system-fastlz option",
+            "get": "http://pecl.php.net/get/yac-0.9.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.9.1": {
+            "version": "0.9.1",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2014-07-25T03:50:31+00:00",
+            "releaseNotes": "- Try to fix windows build",
+            "get": "http://pecl.php.net/get/yac-0.9.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.9.0": {
+            "version": "0.9.0",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2014-07-23T23:29:01+00:00",
+            "releaseNotes": "- first release",
+            "get": "http://pecl.php.net/get/yac-0.9.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "lockless user data cache",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

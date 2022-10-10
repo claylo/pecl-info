@@ -1,0 +1,160 @@
+#!/usr/bin/env php -d display_errors=0
+<?php
+$packages = json_decode(file_get_contents('data/packages.json'), true);
+$extra = json_decode(file_get_contents('data/packages-extra.json'), true);
+
+$opinion = [
+    'active' => [],         // less than 180 days
+    'recent' => [],         // >180 days, <= 1095 days (3 years)
+    'unmaintained' => [],
+    'stale' => [],          // >1095 days
+    'zero-releases' => [],
+];
+
+$php8 = [];
+
+$now = new DateTimeImmutable('now', new DateTimeZone('UTC'));
+
+foreach ($packages as $pkg => $info) {
+
+    if (empty($info['latestReleaseDate']) && empty($info['releases'])) {
+        $opinion['zero-releases'][$pkg] = -1;
+        continue;
+    }
+
+    $e = $extra[$pkg];
+
+    if (! empty($info['latestReleaseDate'])) {
+        $updated = DateTimeImmutable::createFromFormat(DATE_ATOM, $info['latestReleaseDate'], new DateTimeZone('UTC'));
+        $interval = $now->diff($updated);
+        $days = $interval->days;
+    } else {
+        $days = -1;
+    }
+
+    if ($e['maintained'] === false) {
+        $opinion['unmaintained'][$pkg] = $days;
+        continue;
+    }
+
+    if ($info['php8Mentioned'] === true) {
+        $php8[] = $pkg;
+    }
+
+    if ($days > 0 && $days <= 180) {
+        $opinion['active'][$pkg] = $days;
+        continue;
+    }
+    if ($days > 180 && $days <= 1095) {
+        $opinion['recent'][$pkg] = $days;
+        continue;
+    }
+    // all that's left now is stale.
+    $opinion['stale'][$pkg] = $days;
+}
+
+$stats = [];
+
+$total = 0;
+
+foreach ($opinion as $key => $pkgs) {
+    $total += sizeof($pkgs);
+    $stats[$key] = sizeof($pkgs);
+}
+$stats['php8'] = sizeof($php8);
+ksort($stats);
+$stats['total'] = $total;
+
+$relevant = [];
+foreach ($opinion['active'] as $pkg => $days) {
+    $p = $packages[$pkg];
+    $e = $extra[$pkg];
+    $cat = $p['category'];
+    if (! array_key_exists($cat, $relevant)) {
+        $relevant[$cat] = [];
+    }
+    $info = $p + $e;
+    $info['daysSinceLastRelease'] = $days;
+    $info['opinion'] = 'active';
+    $relevant[$cat][$pkg] = $info;
+}
+foreach ($opinion['recent'] as $pkg => $days) {
+    $p = $packages[$pkg];
+    $e = $extra[$pkg];
+    $cat = $p['category'];
+    if (! array_key_exists($cat, $relevant)) {
+        $relevant[$cat] = [];
+    }
+    $info = $p + $e;
+    $info['daysSinceLastRelease'] = $days;
+    $info['opinion'] = 'recent';
+    $relevant[$cat][$pkg] = $info;
+}
+
+// print_r($stats);
+
+// print_r($opinion);
+// print_r($php8);
+
+// print_r($relevant);
+ksort($relevant);
+$relcount = $stats['active'] + $stats['recent'];
+$c = 0;
+echo "\n\n## Relevant Extensions ($relcount)\n\n";
+foreach ($relevant as $cat => $pkglist) {
+    ksort($pkglist);
+    $children = sizeof($pkglist);
+    if ($c !== 0) {
+        echo "***\n";
+    }
+    $c++;
+    echo "### $cat ($children)\n\n";
+
+    foreach ($pkglist as $pkg => $info) {
+        $d = DateTimeImmutable::createFromFormat(DATE_ATOM, $info['latestReleaseDate'], new DateTimeZone('UTC'));
+        $niceRelDate = $d->format('d M Y');
+        $eight = '';
+        if ($info['php8Mentioned'] == true) {
+            $eight = "&nbsp; :eight:";
+        }
+        echo "<details><summary>{$info['name']}{$eight}</summary>\n";
+        echo "<p>{$info['summary']}</p>\n";
+        if (! empty($info['description'])) {
+            $desc = trim($info['description']);
+            if (! empty($desc)) {
+                // no linebreaks? wrap it
+                if (strpos($desc, "\n") === false) {
+                    $desc = wordwrap($desc, 90);
+                }
+                echo "\n```\n{$desc}\n```\n";
+            }
+        }
+        echo "<p><ul>\n";
+        echo "<li>License: {$info['SPDX-License-Identifier']}</li>\n";
+        echo "<li>Latest Release: <a href=\"https://pecl.php.net/get/{$info['name']}-{$info['latestVersion']}\">{$info['latestVersion']}</a> on $niceRelDate</li>\n";
+        echo "<li>Release data in JSON: <a href=\"data/packages/{$pkg}.json\">{$pkg}.json</a></li>\n";
+        echo "<li><a href=\"https://pecl.php.net/packages/{$info['name']}\">{$info['name']} on PECL</a></li>\n";
+
+        $links = '';
+        if (! empty($extra[$pkg]['docs'])) {
+            $links .= "<a href=\"{$extra[$pkg]['docs']}\">:book: Documentation</a> &nbsp; ";
+        }
+        if (! empty($extra[$pkg]['home'])) {
+            $links .= "<a href=\"{$extra[$pkg]['home']}\">:house: Home</a> &nbsp; ";
+        }
+        if (! empty($extra[$pkg]['repo'])) {
+            $links .= "<a href=\"{$extra[$pkg]['repo']}\">:sparkles: Source</a> &nbsp; ";
+        }
+        if (! empty($extra[$pkg]['bugs'])) {
+            $links .= "<a href=\"{$extra[$pkg]['bugs']}\">:lady_beetle: Issues</a> &nbsp; ";
+        }
+        if (! empty($extra[$pkg]['stats'])) {
+            $links .= "<a href=\"{$extra[$pkg]['stats']}\">:bar_chart: Stats</a>";
+        }
+        echo "<li>$links</li>\n";
+        echo "</ul></p><hr />\n";
+
+        echo "</details>\n";
+    }
+    echo "\n";
+}

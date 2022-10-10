@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/rdkafka">rdkafka</p>
+ <c>pecl.php.net</c>
+ <v>6.0.0</v>
+ <st>stable</st>
+ <l>MIT License</l>
+ <m>lbarnaud</m>
+ <s>Kafka client based on librdkafka</s>
+ <d>PHP-rdkafka is a stable Kafka client for PHP based on librdkafka</d>
+ <da>2022-01-07 13:39:45</da>
+ <n># Changes since 5.x
+
+## Improvements
+- PHP 8.1 support (@remicollet, @ruudk, @nick-zh)
+- Added parameter types (when built with PHP&gt;=8.0) (@arnaud-lb)
+- Added tentative return types (when built with PHP&gt;=8.1) (@arnaud-lb)
+
+## Deprecations
+- PHP 8.1: Overloading php-rdkafka methods without specifying a return type
+  will trigger a deprecation message unless annotated with
+  #[\ReturnTypeWillChange]
+
+# Changes since 6.0.0RC2
+
+## Bugfixes
+- Fix newTopic() arginfo (#502, @arnaud-lb)</n>
+ <f>54461</f>
+ <g>https://pecl.php.net/get/rdkafka-6.0.0</g>
+ <x xlink:href="package.6.0.0.xml"/>
+</r>

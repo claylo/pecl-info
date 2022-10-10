@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/oauth">oauth</p>
+ <c>pecl.php.net</c>
+ <v>2.0.6</v>
+ <st>stable</st>
+ <l>BSD</l>
+ <m>mike</m>
+ <s>oauth consumer extension</s>
+ <d>OAuth is an authorization protocol built on top of HTTP which allows applications to securely access data without having to store usernames and passwords.
+
+Requirements: ext/hash (now a part of PHP core)</d>
+ <da>2020-09-09 05:34:52</da>
+ <n>* Fix github issue #14 (Fixes for 7.3/7.4 and opcache)
+  * Fix PHP-7.4 compatibility of object handler
+  * Fix memory leaks in OAuthProvider
+  * Fix crash in OAuthProvider's handler registration methods due to unconditional addref
+  * Fix crash in OAuth::fetch() due to modifying hash tables with a refcount&gt;1</n>
+ <f>78706</f>
+ <g>https://pecl.php.net/get/oauth-2.0.6</g>
+ <x xlink:href="package.2.0.6.xml"/>
+</r>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/crypto">crypto</p>
+ <c>pecl.php.net</c>
+ <v>0.3.0</v>
+ <st>devel</st>
+ <l>PHP 3.01</l>
+ <m>bukka</m>
+ <s>Wrapper for OpenSSL Crypto Library</s>
+ <d>This package provides an objective wrapper for OpenSSL Crypto Library</d>
+ <da>2016-12-14 18:30:04</da>
+ <n>* Fixed compilation with OpenSSL 1.1 and PHP 7.1
+* Added KDF abstract class to be a parent for all key derivation function classes
+* Added PBKDF2 class extending KDF class and implementing PBKDF2
+* Renamed HashException code ALGORITHM_NOT_FOUND to HASH_ALGORITHM_NOT_FOUND
+* Renamed MACException code ALGORITHM_NOT_FOUND to MAC_ALGORITHM_NOT_FOUND</n>
+ <f>72836</f>
+ <g>http://pecl.php.net/get/crypto-0.3.0</g>
+ <x xlink:href="package.0.3.0.xml"/>
+</r>

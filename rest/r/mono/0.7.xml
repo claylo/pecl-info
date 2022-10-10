@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mono">mono</p>
+ <c>pecl.php.net</c>
+ <v>0.7</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>sterling</m>
+ <s>Allows you to access .NET assemblies from PHP</s>
+ <d>A C extension that interfaces with the mono library to allow
+	access to .NET assemblies.
+</d>
+ <da>2003-06-05 16:56:00</da>
+ <n>- Update for newer versions of php5.  Extension is now feature complete.</n>
+ <f>9505</f>
+ <g>http://pecl.php.net/get/mono-0.7</g>
+ <x xlink:href="package.0.7.xml"/>
+</r>

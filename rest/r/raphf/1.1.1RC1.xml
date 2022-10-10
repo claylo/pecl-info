@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/raphf">raphf</p>
+ <c>pecl.php.net</c>
+ <v>1.1.1RC1</v>
+ <st>beta</st>
+ <l>BSD, revised</l>
+ <m>mike</m>
+ <s>Resource and persistent handles factory</s>
+ <d>A reusable split-off of pecl_http's persistent handle and resource factory API.</d>
+ <da>2015-12-07 08:16:14</da>
+ <n>* Source code documentation available at http://m6w6.github.io/ext-raphf/v1.1.x
+* Travis support
+* Fix package.xml's maximum and minimum PHP version</n>
+ <f>15977</f>
+ <g>http://pecl.php.net/get/raphf-1.1.1RC1</g>
+ <x xlink:href="package.1.1.1RC1.xml"/>
+</r>

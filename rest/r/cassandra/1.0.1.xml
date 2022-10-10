@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/cassandra">cassandra</p>
+ <c>pecl.php.net</c>
+ <v>1.0.1</v>
+ <st>stable</st>
+ <l>Apache License 2.0</l>
+ <m>avalanche123</m>
+ <s>DataStax PHP Driver for Apache Cassandra</s>
+ <d>A modern, feature-rich and highly tunable PHP client library for Apache
+Cassandra and DataStax Enterprise using exclusively Cassandra's binary
+protocol and Cassandra Query Language v3.</d>
+ <da>2015-11-20 22:43:29</da>
+ <n># 1.0.1
+
+Features:
+
+* Added support for the 2.2.x release of the C/C++ driver
+
+Bug Fixes:
+
+* [PHP-53] Error when inserting a &quot;0&quot; Decimal</n>
+ <f>93748</f>
+ <g>http://pecl.php.net/get/cassandra-1.0.1</g>
+ <x xlink:href="package.1.0.1.xml"/>
+</r>

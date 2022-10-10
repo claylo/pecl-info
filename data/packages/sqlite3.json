@@ -1,0 +1,54 @@
+{
+    "category": "Database",
+    "deprecated": false,
+    "description": "SQLite3 is a PHP extension for use with the SQLite database system.\n\tThis extension bundles SQLite 3.5.9 though the minimum requirement is 3.3.9.",
+    "latestReleaseDate": "2008-06-14T05:52:37+00:00",
+    "latestVersion": "0.6",
+    "license": "PHP License",
+    "name": "sqlite3",
+    "summary": "SQLite v3 Database Bindings.",
+    "php8Mentioned": false,
+    "releases": {
+        "0.6": {
+            "version": "0.6",
+            "state": "alpha",
+            "license": "PHP License",
+            "releasedBy": "scottmac",
+            "releaseDate": "2008-06-14T05:52:37+00:00",
+            "releaseNotes": "- Upgraded bundled SQLite to 3.5.9\n- Implicitly free resource statements on SQLite3d destruction rather than throw an error\n- Added arginfo data for all methods for reflection\n- Added SQLite3::querySingle() which can either return the first column or an entire row",
+            "get": "http://pecl.php.net/get/sqlite3-0.6",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.5": {
+            "version": "0.5",
+            "state": "alpha",
+            "license": "PHP License",
+            "releasedBy": "scottmac",
+            "releaseDate": "2008-04-10T20:55:46+00:00",
+            "releaseNotes": "- Upgraded bundled SQLite to 3.5.7\n- Added SQLite3::lastErrorCode and SQLite3::lastErrorMsg\n- Added SQLite3_result::columnType to get type of a column in a result set\n- Added flags to SQLite3::open to allow databases to be opened read only. (PHP 5.3+ for now)\n- Fixed incorrect column count being returned on a non executed statement\n- Fixed lack of library when using the shared sqlite3",
+            "get": "http://pecl.php.net/get/sqlite3-0.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.4": {
+            "version": "0.4",
+            "state": "alpha",
+            "license": "PHP License",
+            "releasedBy": "scottmac",
+            "releaseDate": "2008-02-29T19:45:08+00:00",
+            "releaseNotes": "- Upgraded bundled SQLite to 3.5.6\n- Added Fulltext Searching by default\n- Fixed crash when a prepared statement failed\n- Fixed overflow with 64bit numbers\n- Fixed building with thread safety enabled",
+            "get": "http://pecl.php.net/get/sqlite3-0.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.3": {
+            "version": "0.3",
+            "state": "alpha",
+            "license": "PHP License",
+            "releasedBy": "scottmac",
+            "releaseDate": "2008-01-31T07:31:51+00:00",
+            "releaseNotes": "- Upgraded bundled SQLite to 3.5.4\n- Added\n  . SQLITE3_NUM, SQLITE3_NUM and SQLITE3_BOTH constants for fetch_array\n  . SQLITE3_INTEGER, SQLITE3_FLOAT, SQLITE3_TEXT, SQLITE3_BLOB, SQLITE3_NULL constants for parameter binding\n  . Added columnName method\n  . Added encryption support if the library supports it\n  . Added stream support for blob datatype\n- Changed\n  . numColumn to numColumns for consistency\n  . Cast values to prepared statements prior to execution\n- Removed\n  . Unused case from SQLite authorizer\n  . sqlite3.enable_extensions INI option in favour of sqlite3.extension_dir\n- Performance\n  . Check if a return value is used before allocating zvals\n  . Fix memory leaks in non prepared statements\n- Building\n  . Check for SQLite 3.3.9+ in external versions\n  . Build debug version of libsqlite when using debug build of PHP\n- Added unit tests\n- Fixed PHP 5.3 support",
+            "get": "http://pecl.php.net/get/sqlite3-0.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

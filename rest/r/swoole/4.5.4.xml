@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.5.4</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in tcp/http/websocket/http2 server
+        - coroutine tcp/http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2020-09-18 14:25:49</da>
+ <n>Backward compatibility Break
+---
+* Modify SWOOLE_HOOK_ALL to contain SWOOlE_HOOK_CURL (#3606) (@matyhtf)
+* Remove ssl_method and Support ssl_protocols (#3639) (@Yurunsoft)
+
+New APIs
+---
++ Added firstKey and lastKey (swoole/library#51) (@sy-records)
+
+Enhancement
+---
++ Added open_websocket_ping_frame, open_websocket_pong_frame (#3600) (@Yurunsoft)
+
+Fixed
+---
+* Fixed fseek ftell file larger than 2G bug (#3619) (@Yurunsoft)
+* Fixed Socket barrier bug (#3627) (@matyhtf)
+* Fixed http proxy handshake bug (#3630) (@matyhtf)
+* Fixed a problem with parsing the HTTP header when send chunk data (#3633) (@matyhtf)
+* Fixed zend_hash_clean assertion failure (#3634) (@twose)
+* Fixed can't remove broken fd from event loop (#3650) (@matyhtf)
+* Fixed crash when receiving invalid packet (#3653) (@matyhtf)
+* Fixed array_key_last (swoole/library#46) (@sy-records)
+
+Kernel
+---
+* Code optimization (#3615) (#3617) (#3622) (#3635) (#3640) (#3641) (#3642) (#3645) (#3658) (@matyhtf)
+* Reduce unnecessary memory operation to improve write performance (#3620) (@matyhtf)
+* Refactor aio (#3624) (@Yurunsoft)
+* Added readlink/opendir/readdir/closedir hook (#3628) (@matyhtf)
+* Improve swMutex_create, add SW_MUTEX_ROBUST (#3646) (@matyhtf)</n>
+ <f>1563795</f>
+ <g>https://pecl.php.net/get/swoole-4.5.4</g>
+ <x xlink:href="package.4.5.4.xml"/>
+</r>

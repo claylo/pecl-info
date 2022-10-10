@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/cassandra">cassandra</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0</v>
+ <st>stable</st>
+ <l>Apache License 2.0</l>
+ <m>avalanche123</m>
+ <s>DataStax PHP Driver for Apache Cassandra</s>
+ <d>A modern, feature-rich and highly tunable PHP client library for Apache
+Cassandra and DataStax Enterprise using exclusively Cassandra's binary
+protocol and Cassandra Query Language v3.</d>
+ <da>2015-09-14 18:24:10</da>
+ <n># 1.0.0
+
+Features:
+
+* Added schema metadata support (via `Cassandra\Session::schema()`).
+* Added types API (via `Cassandra\Type` static methods).
+
+Bug Fixes:
+
+* [PHP-40] Fixed invalid pointer being free'd
+* [PHP-43] Fixed timeout handling in `Cassandra\ExecutionOptions`
+* [PHP-44] Fixed memory leak</n>
+ <f>92826</f>
+ <g>http://pecl.php.net/get/cassandra-1.0.0</g>
+ <x xlink:href="package.1.0.0.xml"/>
+</r>

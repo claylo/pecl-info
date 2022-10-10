@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PECL :: Error 404 not found</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="alternate" type="application/rss+xml" title="RSS feed" href="https://pecl.php.net/feeds/latest.rss">
+    <link rel="stylesheet" href="/css/style.css">
+    </head>
+
+<body >
+
+<div><a id="TOP"></a></div>
+
+<table class="head" cellspacing="0" cellpadding="0" width="100%">
+    <tr>
+        <td class="head-logo">
+            <a href="/"><img src="/img/peclsmall.gif" alt="PECL :: The PHP Extension Community Library" width="106" height="55" style="margin: 5px;"></a><br>
+        </td>
+
+        <td class="head-menu">
+
+                            <a href="/login.php" class="menuBlack">Login</a>
+            
+            &nbsp;|&nbsp;
+            <a href="/packages.php" class="menuBlack">Packages</a>
+            &nbsp;|&nbsp;
+            <a href="/support.php" class="menuBlack">Support</a>
+            &nbsp;|&nbsp;
+            <a href="/bugs/" class="menuBlack">Bugs</a>
+
+        </td>
+    </tr>
+
+    <tr>
+        <td class="head-search" colspan="2">
+            <form method="post" action="/search.php">
+                <p class="head-search"><span class="accesskey">S</span>earch for
+                    <input class="small" type="text" name="search_string" value="" size="20" accesskey="s">
+                    in the
+                    <select name="search_in" class="small">
+                        <option value="packages">Packages</option>
+                        <option value="site">This site (using Google)</option>
+                        <option value="developers">Developers</option>
+                        <option value="pecl-dev">Developer mailing list</option>
+                        <option value="pecl-cvs">SVN commits mailing list</option>
+                    </select>
+                    <input type="image" src="/img/small_submit_white.gif" alt="search" style="vertical-align: middle;">&nbsp;<br>
+                </p>
+            </form>
+        </td>
+    </tr>
+</table>
+
+<table class="middle" cellspacing="0" cellpadding="0">
+    <tr>
+        <td class="sidebar_left">
+            <ul class="side_pages">
+    <li class="side_page"><a href="/" >Home</a></li>
+    <li class="side_page"><a href="/news/" >News</a></li>
+</ul>
+
+            <strong>Documentation:</strong>
+
+<ul class="side_pages">
+    <li class="side_page"><a href="/support.php" >Support</a></li>
+</ul>
+
+            <strong>Downloads:</strong>
+
+<ul class="side_pages">
+    <li class="side_page">
+        <a href="/packages.php" >Browse Packages</a>
+    </li>
+
+    <li class="side_page">
+        <a href="/package-search.php" >Search Packages</a>
+    </li>
+
+    <li class="side_page">
+        <a href="/package-stats.php" >Download Statistics</a>
+    </li>
+</ul>
+
+            
+                    </td>
+
+        <td class="content">
+            
+<h1>Error 404 not found</h1>
+
+<p>The requested page <i>/rest/r/mailparse/0.9.4.xml</i> was not
+found on this server.</p>
+
+
+<p>If you think that this error message is caused by an error in the
+configuration of the server, please contact
+<a href="mailto:pecl-dev@lists.php.net">pecl-dev@lists.php.net</a>.
+
+        </td>
+
+        
+    </tr>
+</table>
+
+<table class="foot" cellspacing="0" cellpadding="0">
+    <tr>
+        <td class="foot-bar" colspan="2">
+            <a href="/about/privacy.php" class="menuBlack">PRIVACY POLICY</a>
+            &nbsp;|&nbsp;
+            <a href="/credits.php" class="menuBlack">CREDITS</a>
+            <br>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="foot-copy">
+            <small>
+                <a href="/copyright.php">Copyright &copy; 2001-2022 The PHP Group</a><br>
+                All rights reserved.<br>
+            </small>
+        </td>
+        <td class="foot-source">
+            <small>
+                Last updated: Mon Jun 01 07:05:01 2020 UTC<br>
+                Bandwidth and hardware provided by: <a href="https://www.pair.com/">pair Networks</a>
+            </small>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>

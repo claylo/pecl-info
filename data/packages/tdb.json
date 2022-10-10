@@ -1,0 +1,34 @@
+{
+    "category": "Database",
+    "deprecated": false,
+    "description": "This extension provides bindings for Trivial DB.",
+    "latestReleaseDate": "2008-04-18T03:39:34+00:00",
+    "latestVersion": "1.0.0",
+    "license": "PHP",
+    "name": "tdb",
+    "php8Mentioned": false,
+    "releases": {
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "tony2001",
+            "releaseDate": "2008-04-18T03:39:34+00:00",
+            "releaseNotes": "- Fixed PECL bug #13684 (tdb fails to configure on FreeBSD)\n- Improved configure checks in order to detect wrong TDB version.",
+            "get": "http://pecl.php.net/get/tdb-1.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.0": {
+            "version": "0.1.0",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "tony2001",
+            "releaseDate": "2007-08-06T10:32:11+00:00",
+            "releaseNotes": "- Initial release.",
+            "get": "http://pecl.php.net/get/tdb-0.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "Trivial DB bindings",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

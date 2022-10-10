@@ -1,0 +1,13 @@
+{
+    "category": "PHP",
+    "deprecated": false,
+    "description": "PHP Macro Preprocessor should provide functionality similar to the C++ preprocessor facilities, e.g. allow user to make some manipulation with code before interpretation starts.\nC++ macro preprocessing is widely used by almost all C++ developers, though it is often considered a C-like feature. It proved itself helpful in practice, so PHP as a very practical language should have similar feature. The main idea is to modify code in certain way even before interpretation starts, and do it more efficiently then it will be done with plain PHP features.\n\nThe scope is to enable users to work with macro-names in all possible means. So, the #define, #undef, #ifdef, #ifndef, #else, #endif statements will be implemented.",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "PHP",
+    "name": "PreProcessor",
+    "php8Mentioned": false,
+    "releases": [],
+    "summary": "PHP Macro Preprocessor",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.10.0</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>jmikola</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2021-07-13 18:52:37</da>
+ <n>** Bug
+    * [PHPC-1420] - Using replicaSet triggers __fortify_fail() from /lib64/libc.so.6
+    * [PHPC-1529] - Reset libmongocrypt's key vault client after forking
+    * [PHPC-1720] - Move mongoc_client_set_error_api after check for null client pointer
+    * [PHPC-1721] - Fix argument order for some ecalloc function calls
+    * [PHPC-1722] - Persistent clients and their HashTable should be destroyed in GSHUTDOWN
+    * [PHPC-1870] - Fix zSeries build failure due to redefinition of WORDS_BIGENDIAN
+    * [PHPC-1879] - Session::getTransactionOptions() leaks mongoc_transaction_opt_t
+
+** Epic
+    * [PHPC-1666] - Allow per-client event subscribers
+    * [PHPC-1731] - Versioned MongoDB API for Drivers
+    * [PHPC-1756] - Remove all oppressive and unnecessarily gendered language from driver projects
+
+** New Feature
+    * [PHPC-1645] - Allow disabling of libmongoc client persistence
+    * [PHPC-1684] - Support Azure and GCP keystores in FLE
+    * [PHPC-1716] - Allow configuring ServerApi in Manager class
+    * [PHPC-1804] - Implement Manager::addSubscriber and removeSubscriber
+
+** Task
+    * [PHPC-1513] - Remove php_phongo_cursor_to_zval
+    * [PHPC-1685] - Drop support for PHP 7.0
+    * [PHPC-1782] - Support Removal of Several Platform Builds
+    * [PHPC-1792] - Update copyright years in file headers
+    * [PHPC-1835] - Rotate credentials and environment vars for Atlas connectivity tests
+    * [PHPC-1841] - Remove oppressive language from the documentation
+    * [PHPC-1842] - Remove oppressive language from the source code
+    * [PHPC-1848] - Test against 5.0 servers
+    * [PHPC-1864] - Cut 5.0 Compat. GA Release
+    * [PHPC-1866] - Specify 5.0 cursor behaviour
+    * [PHPC-1872] - Fix server-executeQuery-008.phpt for RS config with arbiter
+    * [PHPC-1877] - MongoDB 5.0.0-rc2 cannot be downloaded on rhel71-power8
+
+** Improvement
+    * [PHPC-1366] - Declare libbson vtable in MINIT instead of using a global
+    * [PHPC-1367] - Move libmongoc init/cleanup within scope of custom libbson vtable
+    * [PHPC-1474] - Expose transaction information in debug info for session
+    * [PHPC-1490] - Add support for var_export() and __set_state() in CursorId.c
+    * [PHPC-1681] - Support parsing $uuid as extended JSON representation for subtype 4 binary
+    * [PHPC-1737] - Use zend_hash_graceful_reverse_destroy to free persistent client HashTable
+    * [PHPC-1753] - Define error handling behavior of writeErrors and writeConcernError on Mongos
+    * [PHPC-1754] - Drivers should not inspect error messages for &quot;not master&quot; or &quot;node is recovering&quot;
+    * [PHPC-1762] - Expose the Reason an Operation Fails Document Validation
+    * [PHPC-1765] - Mitigate pain of using field names with dots and dollars
+    * [PHPC-1791] - Specify correct return type in __set_state protos
+    * [PHPC-1798] - Update serverSelectionTimeoutMS of MongoClient to mongocryptd
+    * [PHPC-1803] - Use &quot;hello&quot; command when API Version is declared
+    * [PHPC-1813] - Unpin session after aborting a transaction
+    * [PHPC-1821] - Driver Handling of DBRefs
+    * [PHPC-1836] - Remove slaveOK connection string option from URI parsing
+    * [PHPC-1840] - Use &quot;hello&quot; command for monitoring if supported
+    * [PHPC-1855] - Bump maxWireVersion for MongoDB 5.0</n>
+ <f>1331177</f>
+ <g>https://pecl.php.net/get/mongodb-1.10.0</g>
+ <x xlink:href="package.1.10.0.xml"/>
+</r>

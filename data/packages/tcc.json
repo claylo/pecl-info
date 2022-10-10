@@ -1,0 +1,24 @@
+{
+    "category": "PHP",
+    "deprecated": false,
+    "description": "This PHP Extension provides an interface to the TCC(Tiny C Compiler)\nSee http://fabrice.bellard.free.fr/tcc/ for more information on TCC.",
+    "latestReleaseDate": "2008-04-25T00:14:31+00:00",
+    "latestVersion": "0.1.2",
+    "license": "PHP",
+    "name": "tcc",
+    "php8Mentioned": false,
+    "releases": {
+        "0.1.2": {
+            "version": "0.1.2",
+            "state": "devel",
+            "license": "PHP",
+            "releasedBy": "hamano",
+            "releaseDate": "2008-04-25T00:14:31+00:00",
+            "releaseNotes": "This module requires tcc-0.9.23 or later",
+            "get": "http://pecl.php.net/get/tcc-0.1.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "TCC Extension",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/coin_acceptor">coin_acceptor</p>
+ <c>pecl.php.net</c>
+ <v>0.2</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>areaz2</m>
+ <s>Interface for serial coin acceptors</s>
+ <d>This module let you control your local coin acceptor, using
+  a serial connection and the simple management protocol. This module
+  supports 4 slot coin acceptors using the ABCD method to control them.
+</d>
+ <da>2004-11-18 18:15:00</da>
+ <n>Code rewritten, added ca_lock(), ca_unlock(), ca_accept_coins(), changed init model</n>
+ <f>7061</f>
+ <g>http://pecl.php.net/get/coin_acceptor-0.2</g>
+ <x xlink:href="package.0.2.xml"/>
+</r>

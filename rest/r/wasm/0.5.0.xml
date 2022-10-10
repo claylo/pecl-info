@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/wasm">wasm</p>
+ <c>pecl.php.net</c>
+ <v>0.5.0</v>
+ <st>stable</st>
+ <l>MIT</l>
+ <m>hywan</m>
+ <s>Run WebAssembly binaries in PHP</s>
+ <d>WebAssembly (abbreviated Wasm) is a binary instruction format for
+    a stack-based virtual machine. Wasm is designed as a portable target
+    for compilation of high-level languages like C/C++/Rust, enabling
+    deployment on the web for client and server applications.
+
+    This extension allows to run Wasm binaries inside PHP.</d>
+ <da>2019-08-22 15:24:30</da>
+ <n># Features
+
+## Extension
+
+* #71 Use pre-build dynamic libraries (@Hywan)
+* #70 Improve function invocation time by 77% (@Hywan)
+* #69 Introduce the `wasm_instance` structure (@Hywan)
+* #68 Add the `WasmArrayBuffer::grow` method (@Hywan)
+
+## Runtime
+
+* #72 Update Wasmer to 0.5.5 (@Hywan)
+
+# Bug/security fixes
+
+* #67 Update smallvec (@Hywan)
+* #48 Fix the extension compilation on CentOS (@Hywan)
+
+# Documentation
+
+* Many improvements related to the new features and bug fixes.
+
+# Chore
+
+* #59 Tweak Bors (@Hywan)</n>
+ <f>2633292</f>
+ <g>https://pecl.php.net/get/wasm-0.5.0</g>
+ <x xlink:href="package.0.5.0.xml"/>
+</r>

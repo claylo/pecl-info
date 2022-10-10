@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/libsodium">libsodium</p>
+ <c>pecl.php.net</c>
+ <v>0.2.0</v>
+ <st>beta</st>
+ <l>BSD 2-Clause License</l>
+ <m>jedisct1</m>
+ <s>Wrapper for the Sodium cryptographic library</s>
+ <d>A simple, low-level PHP extension for libsodium.</d>
+ <da>2015-07-26 18:32:46</da>
+ <n>- Methods were moved to functions in a \Sodium\ namespace.
+- PHP 7 is now fully supported.
+- crypto_aead_chacha20poly1305_decrypt() now returns FALSE instead of a PHP error if verification fails.
+- multi-part hashing was implemented (crypto_generichash_{init|update|final})
+- sealed boxes have been implemented (crypto_seal)</n>
+ <f>167833</f>
+ <g>http://pecl.php.net/get/libsodium-0.2.0</g>
+ <x xlink:href="package.0.2.0.xml"/>
+</r>

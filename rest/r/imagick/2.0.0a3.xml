@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/imagick">imagick</p>
+ <c>pecl.php.net</c>
+ <v>2.0.0a3</v>
+ <st>alpha</st>
+ <l>PHP License</l>
+ <m>mkoppanen</m>
+ <s>Provides a wrapper to the ImageMagick library.</s>
+ <d>Imagick is a native php extension to create and modify images using the ImageMagick API.
+This extension requires ImageMagick version 6.2.4+ and PHP 5.1.3+.
+
+IMPORTANT: Version 2.x API is not compatible with earlier versions.</d>
+ <da>2007-05-29 06:06:14</da>
+ <n>- Removed support for ImagickPixelIterator if compiled against older version of ImageMagick (below 6.2.8)
+- Fixed a lot of functions which were not present in older ImageMagick versions. (below 6.2.8)
+- Added support for passing color name as parameter for ImagickPixel constructor
+- Added support for passing a filename or an array of filenames to Imagick constructor
+- Fixed anomalies with ImagickPixelIterator exceptions
+- Fixed a possible segfault in Imagick::appendImages
+- Fixed double-free errors in some Imagick methods
+- Added composite operator constants.
+- Fixed ImagickPixelIterator::__construct to accept Imagick object as parameter.
+
++ Some of the changes are a bit experimental so please report bugs.</n>
+ <f>60419</f>
+ <g>http://pecl.php.net/get/imagick-2.0.0a3</g>
+ <x xlink:href="package.2.0.0a3.xml"/>
+</r>

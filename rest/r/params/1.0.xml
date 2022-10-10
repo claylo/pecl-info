@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/params">params</p>
+ <c>pecl.php.net</c>
+ <v>1.0</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>pollita</m>
+ <s>Parameter Parsing Utility</s>
+ <d>Userspace equivalent of zend_parse_parameters()</d>
+ <da>2007-11-13 06:50:35</da>
+ <n>Initial Release</n>
+ <f>6040</f>
+ <g>http://pecl.php.net/get/params-1.0</g>
+ <x xlink:href="package.1.0.xml"/>
+</r>

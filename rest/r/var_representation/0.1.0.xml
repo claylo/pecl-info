@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/var_representation">var_representation</p>
+ <c>pecl.php.net</c>
+ <v>0.1.0</v>
+ <st>stable</st>
+ <l>BSD-3-Clause</l>
+ <m>tandre</m>
+ <s>var_representation extension</s>
+ <d>var_representation is a compact alternative to var_export that properly escapes control characters</d>
+ <da>2021-06-24 13:30:57</da>
+ <n>* Fix handling of dumping arrays created from $GLOBALS in php versions prior to 8.1
+* Move the C var_representation_ex API to var_representation.h</n>
+ <f>12790</f>
+ <g>https://pecl.php.net/get/var_representation-0.1.0</g>
+ <x xlink:href="package.0.1.0.xml"/>
+</r>

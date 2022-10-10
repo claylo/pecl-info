@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xdebug">xdebug</p>
+ <c>pecl.php.net</c>
+ <v>2.0.0RC4</v>
+ <st>beta</st>
+ <l>BSD style</l>
+ <m>derick</m>
+ <s>Provides functions for function traces and profiling</s>
+ <d>The Xdebug extension helps you debugging your script by providing a lot of
+valuable debug information. The debug information that Xdebug can provide
+includes the following:
+
+    * stack and function traces in error messages with:
+          o full parameter display for user defined functions
+          o function name, file name and line indications
+          o support for member functions
+    * memory allocation
+    * protection for infinite recursions
+
+Xdebug also provides:
+
+    * profiling information for PHP scripts
+    * script execution analysis
+    * capabilities to debug your scripts interactively with a debug client</d>
+ <da>2007-05-17 11:29:02</da>
+ <n>Wed, May 17, 2007 - xdebug 2.0.0rc4
++ Changes:
+	- Use Âµ seconds instead of a tenths of Âµ seconds to avoid confusion in
+	  profile information.
+	- Changed xdebug.profiler_output_name and xdebug.trace_output_name to use
+	  modifier tags:
+	  %c = crc32 of the current working directory
+	  %p = pid
+	  %r = random number
+	  %s = script name
+	  %t = timestamp (seconds)
+	  %u = timestamp (microseconds)
+	  %H = $_SERVER['HTTP_HOST']
+	  %R = $_SERVER['REQUEST_URI']
+	  %S = session_id (from $_COOKIE if set)
+	  %% = literal %
+
+= Fixed bugs:
+	- Fixed bug #255: Call Stack Table doesn't show Location on Windows.
+	- Fixed bug #251: Using the source command with an invalid filename returns
+	  unexpected result.
+	- Fixed bug #243: show_exception_trace=&quot;0&quot; ignored.
+	- Fixed bug #241: Crash in xdebug_get_function_stack().
+	- Fixed bug #240: Crash with xdebug.remote_log on Windows.
+	- Fixed a segfault in rendering stack traces to error logs.
+	- Fixed a bug that prevented variable names from being recorded for remote
+	  debug session while xdebug.collect_vars was turned off.
+	- Fixed xdebug_dump_superglobals() in case no super globals were
+	  configured.
+
+- Removed functions:
+	- Removed support for Memory profiling as that didn't work properly.
+	- Get rid of xdebug.default_enable setting and associated functions:
+	  xdebug_disable() and xdebug_enable().
+
++ Added features:
+	- Implemented support for four different xdebug.collect_params settings for
+	  stack traces and function traces.
+	- Allow to trigger profiling by the XDEBUG_PROFILE cookie.
+
++ DBGP:
+	- Correctly add namespace definitions to XML.
+	- Added the xdebug namespace that adds extra information to breakpoints if
+	  available.
+	- Stopped the use of &gt;error&gt; elements for exception breakpoints, as that
+	  violates the protocol.</n>
+ <f>269219</f>
+ <g>http://pecl.php.net/get/xdebug-2.0.0RC4</g>
+ <x xlink:href="package.2.0.0RC4.xml"/>
+</r>

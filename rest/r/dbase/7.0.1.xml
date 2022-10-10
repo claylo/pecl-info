@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/dbase">dbase</p>
+ <c>pecl.php.net</c>
+ <v>7.0.1</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>cmb</m>
+ <s>dBase database file access functions</s>
+ <d>These functions allow you to access records stored 
+in dBase-format (dbf) databases.
+
+There is no support for indexes or memo fields. 
+The databases are automatically locked with blocking flock()s.
+
+dBase files are simple sequential files of fixed length records. 
+Records are appended to the end of the file and deleted records 
+are kept until you call dbase_pack().</d>
+ <da>2019-10-20 13:12:09</da>
+ <n>Security Fixes
+
+  - Fixed #78668 (Out-of-bounds Read in dbase.c)
+
+Bug Fixes
+
+  - Fixed #78070 (dbase functions may modify passed array)
+  - Fixed #78594 (compile error: 'LOCK_EX' undeclared)</n>
+ <f>33588</f>
+ <g>https://pecl.php.net/get/dbase-7.0.1</g>
+ <x xlink:href="package.7.0.1.xml"/>
+</r>

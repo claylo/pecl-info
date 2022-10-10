@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.63.0</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>labbati</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2021-08-18 16:04:30</da>
+ <n>### Added
+
+- ZAI config (#1260)
+- Use exceptions ZAI for PHP 7 as well (#1283)
+
+### Fixed
+
+- Fix arginfo of error &amp; exception handler (#1291)</n>
+ <f>481384</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.63.0</g>
+ <x xlink:href="package.0.63.0.xml"/>
+</r>

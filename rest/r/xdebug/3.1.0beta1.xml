@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xdebug">xdebug</p>
+ <c>pecl.php.net</c>
+ <v>3.1.0beta1</v>
+ <st>beta</st>
+ <l>BSD style</l>
+ <m>derick</m>
+ <s>Xdebug is a debugging and productivity extension for PHP</s>
+ <d>Xdebug and provides a range of features to improve the PHP development
+experience.
+
+Step Debugging
+    A way to step through your code in your IDE or editor while the script is
+    executing.
+
+Improvements to PHP's error reporting
+    An improved var_dump() function, stack traces for Notices, Warnings, Errors
+    and Exceptions to highlight the code path to the error
+
+Tracing
+    Writes every function call, with arguments and invocation location to disk.
+    Optionally also includes every variable assignment and return value for
+    each function.
+
+Profiling
+    Allows you, with the help of visualisation tools, to analyse the
+    performance of your PHP application and find bottlenecks.
+
+Code Coverage Analysis
+    To show which parts of your code base are executed when running unit tests
+    with PHP Unit.</d>
+ <da>2021-09-06 14:16:32</da>
+ <n>Sun, Sep 05, 2021 - Xdebug 3.1.0beta1
+
++ New features:
+  
+  - Fixed issue #1738: Add xdebug_notify() function to send data through DBGp to a debugging client
+  - Fixed issue #1853: Enable profile compression for cachegrind files
+  - Fixed issue #1898: API for querying the currently active mode(s)
+  - Fixed issue #1972: Add support for PHP 8.1 Fibers
+  - Fixed issue #1974: Add gzip support to trace files
+  - Fixed issue #1997: Added xdebug_connect_to_client() to attempt a debugging connect while running code
+  - Fixed issue #2001: Add 'xdebug.use_compression' setting to turn on/off compression for profiling files
+  - Fixed issue #2013: Support PHP 8.1
+
++ Improvements:
+
+  - Fixed issue #1472: Add assignments to computer readable trace format
+  - Fixed issue #1890: Add connected client and protocol features to diagnostic page
+  - Fixed issue #1933: Allow for cloud ID to be set through the trigger
+  - Fixed issue #1969: Provide breakpoint ID / info in DBGp run command responses
+  - Fixed issue #1976: Switch debug session cookie to Lax, and remove expiry time
+  - Fixed issue #1980: PHP 8.1: Mark enum classes as &quot;enum&quot;
+  - Fixed issue #1986: Add support for multiple trigger values
+  - Fixed issue #1996: Add support for Closure visualisation in traces, debugging, and Xdebug's var_dump
+  - Fixed issue #1999: Add &quot;readonly&quot; facet to PHP 8.1 readonly properties
+
+= Fixed bugs:
+
+  - Fixed issue #1938: Branches in traits aren’t marked as executed
+  - Fixed issue #1948: Do not redirect warning and error messages to PHP's error log if an Xdebug log is active
+  - Fixed issue #1949: private properties for internal classes can't be fetched for debugging
+  - Fixed issue #1963: php exit code = -1073741819 when xdebug.mode = off (Windows Thread Safe Only)
+  - Fixed issue #1970: xdebug_get_function_stack with unnamed (internal) parameters have wrong index
+  - Fixed issue #1978: Xdebug's log messages are cut off at 512 bytes
+  - Fixed issue #1989: Profiling does not output correct class when parent keyword is used
+  - Fixed issue #1992: Code Coverage with filter produces Segmentation fault on xdebug_stop_code_coverage()
+  - Fixed issue #1993: eval-ing broken code causes stepping to break
+  - Fixed issue #1998: Double facet attribute generated for enums that are stored in properties
+  - Fixed issue #2004: Figure out what &quot;XDEBUG_SHOW_FNAME_TODO&quot; define is for
+  - Fixed issue #2008: Using the XDEBUG_SESSION cookie could bypass shared-secret checks
+  - Fixed issue #2009: xdebug_stop_code_coverage's argument has type mismatch
+  - Fixed issue #2011: Closures as protected properties have double facet XML attribute
+
++ Documentation
+  
+  - Fixed issue #1537: Add links to documentation to various different &quot;features&quot; after wizard has run</n>
+ <f>227775</f>
+ <g>https://pecl.php.net/get/xdebug-3.1.0beta1</g>
+ <x xlink:href="package.3.1.0beta1.xml"/>
+</r>

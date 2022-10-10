@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.2.0</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+- event-driven
+- asynchronous non-blocking
+- multi-thread reactor
+- multi-process worker
+- multi-protocol
+- millisecond timer
+- async mysql client
+- built-in http/websocket/http2 server
+- async http/websocket client
+- async redis client
+- async task
+- async read/write file system
+- async dns lookup
+- support IPv4/IPv6/UnixSocket/TCP/UDP
+- support SSL/TLS encrypted transmission</d>
+ <da>2018-09-18 11:11:24</da>
+ <n>+ Add new coroutine hooks, `tcp`, `udp`, `ssl`, `tls`, `sleep`, `usleep`, and file read and write, `mkdir`...etc, be async automatically
++ New ability of the server/client to send the `swoole_websocket_frame` object directly, support any type of `frame` construction, send and receive, support `__toString`
++ Better `AIO`
++ Add the `Process\Pool::getProcess` method
++ Support `--with-hiredis-dir`, `--with-nghttp2-dir` compiling parameters
+* Enhanced `send_yield`, automatic retry within the timeout
+* Enhanced timer round detection, repaired millisecond-level ultra-short timer execution error
+* Enable `TCP_NODELAY` by default, turn off `Nagle algorithm`, reduce latency
+* More standardized PECL package
+* Re-support the sending of HTTP-header with custom `content-length` of 0
+* Fixed an issue that can not access the Private/Protect properties in the class after coroutine yield caused by `EG(scope)` not switched in PHP7.0.x
+* Fixed the error opcode and finish status in `websocket_server`
+* Fixed the `async_dns_lookup` bug
+* Completed the code about `channel.c` overflow space handling
+* Fixed the bug of `channel-&gt;close`
+* Fixed the bug of coroutine `socket-&gt;recv_package`
+* Repair MySQL Statement-&gt;execute does not support null parameters
+* Support for identifying `form-data` encoding with a semicolon-separated `boundary`
+* Add many high-quality unit tests, greater stability
+- Remove useless time wheel algorithm</n>
+ <f>1007394</f>
+ <g>http://pecl.php.net/get/swoole-4.2.0</g>
+ <x xlink:href="package.4.2.0.xml"/>
+</r>

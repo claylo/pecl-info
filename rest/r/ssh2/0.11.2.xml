@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ssh2">ssh2</p>
+ <c>pecl.php.net</c>
+ <v>0.11.2</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>pajoye</m>
+ <s>Bindings for the libssh2 library</s>
+ <d>Provides bindings to the functions of libssh2 which implements the SSH2 protocol.
+    libssh2 is available from http:/libssh2.org/</d>
+ <da>2010-11-03 17:25:12</da>
+ <n>- Fixed the extension version info 
+  . no other changes since 0.11.1</n>
+ <f>22740</f>
+ <g>http://pecl.php.net/get/ssh2-0.11.2</g>
+ <x xlink:href="package.0.11.2.xml"/>
+</r>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pdo_cubrid">PDO_CUBRID</p>
+ <c>pecl.php.net</c>
+ <v>9.1.0.0003</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>cubrid</m>
+ <s>CUBRID driver for PDO</s>
+ <d>This extension provides a CUBRID driver for PDO.</d>
+ <da>2013-07-23 02:26:59</da>
+ <n>Fixed bugs:
+1)[APIS-120] - [PHP]Return value is not correct when passing a date parameter to cubrid_bind method
+2)[APIS-121] - [PHP]Return value is not false when passing a invalid time to cubrid_bind method
+3)[APIS-358] - [PHP] Create table failed when using default timestamp '2038-01-19 12:14:07'
+4)[APIS-364] - [PHP][Windows] the export lob file from db is not correct after import the lob fie into db successfully
+5)[APIS-513] - [PHP Static] Cas error code is not expected in Windows
+6)[APIS-553] - Manual page for cubrid_close_request() should be edited
+7)[APIS-554] - cubrid_connect_with_url example does not have updated connection url
+8)[APIS-556] - cubrid_fetch CUBRID_LOB tries to allocate 4 billion bytes
+9)[APIS-557] - cubrid_lob2_seek64 example does not work properly
+10)[APIS-558] - [PHP]some bug about document
+11)[APIS-560] - Cannot load PHP API 9.1.0.0003 in CentOS 5.6: undefined symbol: pthread_create in Unknown on line 0
+12)[APIS-562] - Cannot execute DELETE query in CUBRID SHARD via PHP API
+13)[APIS-583] - [PHP] The cubrid_get_class_name() function throws a warning if select data from a system table
+14)[APIS-586] - [PHP] cubrid_bind() doesn't work properly when insert bit data
+15)[APIS-587] - [PHP] cubrid_bind() doesn't support select bit data from a prepared statement
+16)[APIS-596] - [PHP][Manual] The 'test_lob' table which is not created initially may lead some misunderstandings
+Changed and Enhanced Features:
+1)[APIS-549] - Warnings during PHP/PDO API build via PECL
+2)[APIS-555] - support Collection Data Types in Pdo driver
+3)[APIS-559] - Compile PHP/PDO drivers from together with CCI source code instead of including the entire CCI binary.
+4)[APIS-584] - [PHP][Manual] Some 'Example' codes about the driver in php.net are somewhat confused
+5)[APIS-580] - Support CCI connection string parameters like altHosts, loadBalance in PHP/PDO</n>
+ <f>936088</f>
+ <g>http://pecl.php.net/get/PDO_CUBRID-9.1.0.0003</g>
+ <x xlink:href="package.9.1.0.0003.xml"/>
+</r>

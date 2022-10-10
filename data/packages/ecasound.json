@@ -1,0 +1,34 @@
+{
+    "category": "Multimedia",
+    "deprecated": false,
+    "description": "This extension wraps the Ecasound libraries to provide advanced audio processing capabilities.",
+    "latestReleaseDate": "2003-01-18T18:32:00+00:00",
+    "latestVersion": "0.2",
+    "license": "PHP",
+    "name": "ecasound",
+    "php8Mentioned": false,
+    "releases": {
+        "0.2": {
+            "version": "0.2",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "tony",
+            "releaseDate": "2003-01-18T18:32:00+00:00",
+            "releaseNotes": "Updated to work with ecasound 2.2.0",
+            "get": "http://pecl.php.net/get/Ecasound-0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1": {
+            "version": "0.1",
+            "state": "alpha",
+            "license": "PHP",
+            "releasedBy": "tony",
+            "releaseDate": "2002-10-03T06:56:00+00:00",
+            "releaseNotes": "First release",
+            "get": "http://pecl.php.net/get/Ecasound-0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "Ecasound provides audio recording and processing functions",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

@@ -1,0 +1,44 @@
+{
+    "category": "Database",
+    "deprecated": false,
+    "description": "This extension provides a Userspace interface for PDO drivers",
+    "latestReleaseDate": "2007-10-30T14:14:52+00:00",
+    "latestVersion": "0.3.0",
+    "license": "PHP",
+    "name": "pdo_user",
+    "summary": "Userspace driver for PDO",
+    "php8Mentioned": false,
+    "releases": {
+        "0.3.0": {
+            "version": "0.3.0",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "pollita",
+            "releaseDate": "2007-10-30T14:14:52+00:00",
+            "releaseNotes": "Improvements to SQL Parser:\n\nAdded support for * wildcard field\nAdded support for :123 and :label style placeholders\nAdded support for IN conditionals",
+            "get": "http://pecl.php.net/get/PDO_USER-0.3.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.0": {
+            "version": "0.2.0",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "pollita",
+            "releaseDate": "2006-05-10T14:29:31+00:00",
+            "releaseNotes": "Added generic SQL Tokenizer and Parser",
+            "get": "http://pecl.php.net/get/PDO_USER-0.2.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.0": {
+            "version": "0.1.0",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "pollita",
+            "releaseDate": "2006-05-03T19:17:15+00:00",
+            "releaseNotes": "Initial Release",
+            "get": "http://pecl.php.net/get/PDO_USER-0.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

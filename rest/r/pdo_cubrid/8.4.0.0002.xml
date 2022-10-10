@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pdo_cubrid">PDO_CUBRID</p>
+ <c>pecl.php.net</c>
+ <v>8.4.0.0002</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>cubrid</m>
+ <s>CUBRID driver for PDO</s>
+ <d>This extension provides a CUBRID driver for PDO.</d>
+ <da>2011-06-30 04:42:07</da>
+ <n>Fixed bugs:
+
+- Fix a bug in cubrid_stmt_next_rowset: new version cci_next_result will reuse the request handle, so do not close it before calling cci_next_result. 
+- Fix a bug about life cycle management of pdo_cubrid_stmt: when database connection is closed, all request handle will be closed in CCI too. So the handle in pdo_cubrid_stmt must be set to invalid value.</n>
+ <f>21026</f>
+ <g>http://pecl.php.net/get/PDO_CUBRID-8.4.0.0002</g>
+ <x xlink:href="package.8.4.0.0002.xml"/>
+</r>

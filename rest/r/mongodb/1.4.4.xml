@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.4.4</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>derick</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2018-06-06 16:00:33</da>
+ <n>** Bug
+    * [PHPC-1163] - Do not allow a session to be used with an unacknowledged write concern
+
+** Task
+    * [PHPC-1168] - Advise macOS users to install using PECL
+    * [PHPC-1197] - Check for unistd.h when compiling bundled zLib</n>
+ <f>1043458</f>
+ <g>http://pecl.php.net/get/mongodb-1.4.4</g>
+ <x xlink:href="package.1.4.4.xml"/>
+</r>

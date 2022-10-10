@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/svn">svn</p>
+ <c>pecl.php.net</c>
+ <v>0.1</v>
+ <st>beta</st>
+ <l>PHP Licence</l>
+ <m>alan_k</m>
+ <s>PHP Bindings for the Subversion Revision control system.</s>
+ <d>Bindings for libsvn, 
+  
+  - for more details, have a look at the examples, or google for FlexySvn</d>
+ <da>2005-05-29 20:02:35</da>
+ <n>- First working release (works ok here!)</n>
+ <f>14801</f>
+ <g>http://pecl.php.net/get/svn-0.1</g>
+ <x xlink:href="package.0.1.xml"/>
+</r>

@@ -1,0 +1,54 @@
+{
+    "category": "Console",
+    "deprecated": false,
+    "description": "termbox is a robust, minimal alternative to ncurses. termbox-php is a wrapper\nextension that provides termbox functionality in PHP land.\n\nSee https://github.com/adsr/termbox-php for the source distribution.\nSee https://github.com/nsf/termbox for the underlying library.",
+    "latestReleaseDate": "2016-09-01T00:58:24+00:00",
+    "latestVersion": "0.1.3",
+    "license": "Apache",
+    "name": "termbox",
+    "php8Mentioned": false,
+    "releases": {
+        "0.1.3": {
+            "version": "0.1.3",
+            "state": "beta",
+            "license": "Apache",
+            "releasedBy": "as",
+            "releaseDate": "2016-09-01T00:58:24+00:00",
+            "releaseNotes": "php7 compat",
+            "get": "http://pecl.php.net/get/termbox-0.1.3",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "0.1.2": {
+            "version": "0.1.2",
+            "state": "beta",
+            "license": "Apache",
+            "releasedBy": "as",
+            "releaseDate": "2014-11-20T20:24:32+00:00",
+            "releaseNotes": "fix termbox_peek_event return value",
+            "get": "http://pecl.php.net/get/termbox-0.1.2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "0.1.1": {
+            "version": "0.1.1",
+            "state": "beta",
+            "license": "Apache",
+            "releasedBy": "as",
+            "releaseDate": "2014-09-13T13:45:58+00:00",
+            "releaseNotes": "build fixes; arginfo",
+            "get": "http://pecl.php.net/get/termbox-0.1.1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "0.1.0": {
+            "version": "0.1.0",
+            "state": "beta",
+            "license": "Apache",
+            "releasedBy": "as",
+            "releaseDate": "2014-09-12T00:09:32+00:00",
+            "releaseNotes": "initial release",
+            "get": "http://pecl.php.net/get/termbox-0.1.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        }
+    },
+    "summary": "a termbox wrapper for PHP",
+    "SPDX-License-Identifier": "Apache-2.0"
+}

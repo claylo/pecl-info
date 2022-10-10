@@ -1,0 +1,50 @@
+{
+    "1.0.1": {
+        "version": "1.0.1",
+        "state": "stable"
+    },
+    "0.9.2": {
+        "version": "0.9.2",
+        "state": "stable"
+    },
+    "1.0": {
+        "version": "1.0",
+        "state": "stable"
+    },
+    "0.9.1": {
+        "version": "0.9.1",
+        "state": "stable"
+    },
+    "0.9": {
+        "version": "0.9",
+        "state": "stable"
+    },
+    "0.4p2": {
+        "version": "0.4p2",
+        "state": "stable"
+    },
+    "0.4p1": {
+        "version": "0.4p1",
+        "state": "stable"
+    },
+    "0.4": {
+        "version": "0.4",
+        "state": "stable"
+    },
+    "0.3p2": {
+        "version": "0.3p2",
+        "state": "beta"
+    },
+    "0.3p1": {
+        "version": "0.3p1",
+        "state": "beta"
+    },
+    "0.3": {
+        "version": "0.3",
+        "state": "beta"
+    },
+    "0.2": {
+        "version": "0.2",
+        "state": "stable"
+    }
+}

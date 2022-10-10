@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/bitset">bitset</p>
+ <c>pecl.php.net</c>
+ <v>2.0</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>willfitch</m>
+ <s>BITSET library</s>
+ <d>Bitsets manipulation library</d>
+ <da>2012-10-19 09:56:29</da>
+ <n>- Added new BitSet class
+- Deprecated bitset_* functions
+- Fixed tests with incorrect EXPECTs
+- Removed support for PHP versions less than 5.3</n>
+ <f>17871</f>
+ <g>http://pecl.php.net/get/bitset-2.0</g>
+ <x xlink:href="package.2.0.xml"/>
+</r>

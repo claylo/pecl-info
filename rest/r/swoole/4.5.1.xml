@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.5.1</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in tcp/http/websocket/http2 server
+        - coroutine tcp/http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2020-05-11 07:17:49</da>
+ <n>Enhancement
+---
++ Support socket context bindto in hook (#3275) (#3278) (@codinghuang)
++ Support dns resolve in client::sendto (#3292) (@codinghuang)
++ Process-&gt;exit(0) will call os.exit directly (a732fe56) (@matyhtf)
++ Support `log_date_format` to change format of log date, `log_date_with_microseconds` to show micro-time in log (baf895bc) (@matyhtf)
++ Support CURLOPT_CAINFO and CURLOPT_CAPATH (swoole/library#32) (@sy-records)
++ Support CURLOPT_FORBID_REUSE (swoole/library#33) (@sy-records)
+
+Fixed
+---
+* Fixed 32-bit build (#3276) (#3277) (@remicollet) (@twose)
+* Fixed missing error info (#3280) (@codinghuang)
+* Fixed potential bugs in Table (d7b87b65) (@matyhtf)
+* Fixed null ptr error in Server (defensive programming) (#3304) (#3305) (@twose)
+* Fixed heartbeat timeout null ptr error (#3307) (@twose)
+* Fixed mysqli options error (swoole/library#35)
+* Fixed response header parsing when there is no space after the colon in the response header (swoole/library#27) (@Yurunsoft)
+
+Deprecated
+---
+- Mark Coroutine\System::(fread/fgets/fwrite) as deprecated, please use runtime hook instead (it should have been included in v4.5.0) (c7c9bb40) (@twose)
+
+Kernel
+---
++ Use zend_object_alloc (cf1afb25) (@twose)
++ Add more options for log (#3296) (@matyhtf)
++ Improve code and add more tests (swoole/library) (@deminy)</n>
+ <f>1491368</f>
+ <g>https://pecl.php.net/get/swoole-4.5.1</g>
+ <x xlink:href="package.4.5.1.xml"/>
+</r>

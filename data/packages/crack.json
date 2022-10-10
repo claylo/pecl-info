@@ -1,0 +1,54 @@
+{
+    "category": "Tools and Utilities",
+    "deprecated": false,
+    "description": "This package provides an interface to the cracklib (libcrack) libraries that come standard on most unix-like distributions. This allows you to check passwords against dictionaries of words to ensure some minimal level of password security.\n\nFrom the cracklib README\nCrackLib makes literally hundreds of tests to determine whether you've\nchosen a bad password.\n\n* It tries to generate words from your username and gecos entry to tries\nto match them against what you've chosen.\n\n* It checks for simplistic patterns.\n\n* It then tries to reverse-engineer your password into a dictionary\nword, and searches for it in your dictionary.\n\n- after all that, it's PROBABLY a safe(-ish) password. 8-)",
+    "latestReleaseDate": "2005-09-21T05:13:20+00:00",
+    "latestVersion": "0.4",
+    "license": "PHP",
+    "name": "crack",
+    "summary": "\"Good Password\" Checking Utility: Keep your users' passwords reasonably safe from dictionary based attacks",
+    "php8Mentioned": false,
+    "releases": {
+        "0.4": {
+            "version": "0.4",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "skettler",
+            "releaseDate": "2005-09-21T05:13:20+00:00",
+            "releaseNotes": "Updated to PEAR 1.4 (package2.xml format), added binary package for Win32, fixed compatibility with PHP 4.1",
+            "get": "http://pecl.php.net/get/crack-0.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.3": {
+            "version": "0.3",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "skettler",
+            "releaseDate": "2005-09-05T08:31:32+00:00",
+            "releaseNotes": "Bundled with cracklib, removed static variables for thread safety, new functionality",
+            "get": "http://pecl.php.net/get/crack-0.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2": {
+            "version": "0.2",
+            "state": "stable",
+            "license": "Artistic",
+            "releasedBy": "skettler",
+            "releaseDate": "2005-03-17T04:27:01+00:00",
+            "releaseNotes": "Fixes PHP bug #28905",
+            "get": "http://pecl.php.net/get/crack-0.2",
+            "SPDX-License-Identifier": "PHP-3.0"
+        },
+        "0.1": {
+            "version": "0.1",
+            "state": "stable",
+            "license": "Artistic",
+            "releasedBy": "skettler",
+            "releaseDate": "2004-07-21T14:16:00+00:00",
+            "releaseNotes": "Extension moved from PHP source to PECL",
+            "get": "http://pecl.php.net/get/crack-0.1",
+            "SPDX-License-Identifier": "PHP-3.0"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

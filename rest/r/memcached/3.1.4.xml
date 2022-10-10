@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/memcached">memcached</p>
+ <c>pecl.php.net</c>
+ <v>3.1.4</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>sodabrew</m>
+ <s>PHP extension for interfacing with memcached via libmemcached library</s>
+ <d>This extension uses libmemcached library to provide API for communicating with memcached servers.</d>
+ <da>2019-10-06 16:05:06</da>
+ <n>PHP 7.0 - 7.1 - 7.2 - 7.3 - 7.4 release of memcached extension. Note that support for
+libmemcached 0.x series has been discontinued and the oldest actively tested
+version is 1.0.8. It is highly recommended to use version 1.0.18 of
+libmemcached.
+
+Fixes
+  * Test on PHP 7.4 as well as 8.0 (#440)
+  * Fix segfault for unknown memcached flags (#431)
+  * Update documented defaults for sess_lock_retries (#432)
+  * Remove stray instances of the TSRMLS_CC macro for PHP 8 compatibility (#444)</n>
+ <f>82920</f>
+ <g>https://pecl.php.net/get/memcached-3.1.4</g>
+ <x xlink:href="package.3.1.4.xml"/>
+</r>

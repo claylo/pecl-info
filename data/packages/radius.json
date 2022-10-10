@@ -1,0 +1,134 @@
+{
+    "category": "Authentication",
+    "deprecated": false,
+    "description": "This package is based on the libradius of FreeBSD, with some modifications and extensions. \nThis PECL provides full support for RADIUS authentication (RFC 2865) and RADIUS accounting (RFC 2866), \nworks on Unix and on Windows. Its an easy way to authenticate your users against the user-database of your \nOS (for example against Windows Active-Directory via IAS).",
+    "latestReleaseDate": "2016-02-15T15:13:31+00:00",
+    "latestVersion": "1.4.0b1",
+    "license": "BSD",
+    "name": "radius",
+    "php8Mentioned": false,
+    "releases": {
+        "1.4.0b1": {
+            "version": "1.4.0b1",
+            "state": "beta",
+            "license": "BSD",
+            "releasedBy": "aharvey",
+            "releaseDate": "2016-02-15T15:13:31+00:00",
+            "releaseNotes": "- Add PHP 7.0 support. (Adam)\n- Drop support for PHP < 5.3.",
+            "get": "http://pecl.php.net/get/radius-1.4.0b1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "1.3.0": {
+            "version": "1.3.0",
+            "state": "stable",
+            "license": "BSD",
+            "releasedBy": "aharvey",
+            "releaseDate": "2016-02-15T15:01:39+00:00",
+            "releaseNotes": "- Fixed bug #65156 (Please provide LICENSE file). (Adam)\n- Fixed bug #65378 (radius.c:706: error: too many arguments to function \u2018rad_salt_value\u2019). (Adam)\n- Fixed bug #65599 (Fix compiling for VC11 x64). (Jan Ehrhardt)",
+            "get": "http://pecl.php.net/get/radius-1.3.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "1.3.0b1": {
+            "version": "1.3.0b1",
+            "state": "beta",
+            "license": "BSD",
+            "releasedBy": "aharvey",
+            "releaseDate": "2013-07-05T02:11:40+00:00",
+            "releaseNotes": "This release adds several new features:\n\n- Support for CoA and disconnect packets.\n- Support for tagged attributes.\n- Support for salt-encrypted attributes.\n- Support for Juniper vendor specific attributes.\n\nThese features are based on code written by Gabriel Blanchard in his fork of\nPECL radius: https://github.com/gblanchard/pecl-radius.\n\nThree new functions have been added to handle these features:\n\n- radius_get_tagged_attr_data(string attr)\n  This function returns the data from a tagged attribute.\n- radius_get_tagged_attr_tag(string attr)\n  This function returns the tag from a tagged attribute.\n- radius_salt_encrypt_attr(resource radius_handle, string attr)\n  This function salt-encrypts the given attribute. This shouldn't normally need\n  to be called manually, but is available for unusual use cases.\n\nSalt encryption is generally achieved through the use of the new\nRADIUS_OPTION_SALT option. All put functions have been extended to accept an\noptional options bitfield and an optional tag value, which will be used to tag\nan attribute if the RADIUS_OPTION_TAGGED option is set.\n\nThere should be no backward compatibility breaks with this release; however\nexisting users are encouraged to test their code against this release and to\nreport any issues that they find.\n\nThe next beta is expected in around two weeks from today (approximately July\n18, 2013).",
+            "get": "http://pecl.php.net/get/radius-1.3.0b1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "1.2.7": {
+            "version": "1.2.7",
+            "state": "stable",
+            "license": "BSD",
+            "releasedBy": "aharvey",
+            "releaseDate": "2013-06-27T17:18:46+00:00",
+            "releaseNotes": "This release fixes a security issue in radius_get_vendor_attr(). It is strongly\nrecommended that users using vendor specific attributes upgrade immediately,\nwith other users encouraged to upgrade when practical.\n\n- Fix a security issue in radius_get_vendor_attr() by enforcing checks of the\n  VSA length field against the buffer size. (Adam)",
+            "get": "http://pecl.php.net/get/radius-1.2.7",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "1.2.6": {
+            "version": "1.2.6",
+            "state": "stable",
+            "license": "BSD",
+            "releasedBy": "aharvey",
+            "releaseDate": "2013-06-20T13:53:05+00:00",
+            "releaseNotes": "- Support added for PHP 5.4 and 5.5. (Johannes)\n- Fixed bug #60885 (Radius module causing Apache segmentation fault). (Adam)\n- Fixed a crash when calling radius_server_secret() with no servers configured.\n  (Adam)",
+            "get": "http://pecl.php.net/get/radius-1.2.6",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "1.2.5": {
+            "version": "1.2.5",
+            "state": "stable",
+            "license": "BSD",
+            "releasedBy": "mbretter",
+            "releaseDate": "2007-03-18T17:02:49+00:00",
+            "releaseNotes": "- amd64 arch fixes",
+            "get": "http://pecl.php.net/get/radius-1.2.5",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "1.2.4": {
+            "version": "1.2.4",
+            "state": "stable",
+            "license": "BSD",
+            "releasedBy": "mbretter",
+            "releaseDate": "2003-11-17T19:44:00+00:00",
+            "releaseNotes": "- Release 1.2.4\n- Forgot including updated radius_init_const.h",
+            "get": "http://pecl.php.net/get/radius-1.2.4",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "1.2.3": {
+            "version": "1.2.3",
+            "state": "stable",
+            "license": "BSD",
+            "releasedBy": "mbretter",
+            "releaseDate": "2003-11-04T19:17:00+00:00",
+            "releaseNotes": "- Release 1.2.3\n- Fixed a typo in radius_init_const wich caused RADIUS_ACCT_STATUS_TYPE to be undefined.\n- Re-added Makefile.in",
+            "get": "http://pecl.php.net/get/radius-1.2.3",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "1.2.2": {
+            "version": "1.2.2",
+            "state": "stable",
+            "license": "BSD",
+            "releasedBy": "mbretter",
+            "releaseDate": "2003-07-17T18:49:00+00:00",
+            "releaseNotes": "- Release 1.2.2 \n- Changed role for example-files to doc\n- Removed deprecated files\n- Added IPv6 related attributes defined in RFC3162",
+            "get": "http://pecl.php.net/get/radius-1.2.2",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "1.2.1": {
+            "version": "1.2.1",
+            "state": "stable",
+            "license": "BSD",
+            "releasedBy": "mbretter",
+            "releaseDate": "2003-05-02T10:22:00+00:00",
+            "releaseNotes": "- Release 1.2.1   \n- Change License to BSD\n- BugFix: The MS-CHAPv2 Authenticator-Challenge has 16 Bytes and not 8 Bytes\n- BugFix: build under Solaris\n- Generate better challenges\n- Many source-code-style fixes\n- Removed unneeded sources\n- Some cleanup's",
+            "get": "http://pecl.php.net/get/radius-1.2.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "1.2": {
+            "version": "1.2",
+            "state": "stable",
+            "license": "PHP, BSD",
+            "releasedBy": "mbretter",
+            "releaseDate": "2003-01-11T21:18:00+00:00",
+            "releaseNotes": "- Release 1.2    \n- BugFix: a to short challenge was generated sometimes (MS-CHAPv1, MS-CHAPv2)\n- New functions:\n    radius_demangle: demangles radius passwords and mppe MS-CHAPv1 Keys\n    radius_demangle_mppe_key: demangles mppe send- and recvkey (MS-CHAPv2)\n- Added examples for radius-accounting\n- Replaced mcrypt-functions with own des-ecb-encryption function\n- Some minor changes in radius-auth.php\n- Added php-script for testing MS-CHAP functions",
+            "get": "http://pecl.php.net/get/radius-1.2",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "1.1": {
+            "version": "1.1",
+            "state": "stable",
+            "license": "PHP, BSD",
+            "releasedBy": "mbretter",
+            "releaseDate": "2002-12-22T18:14:00+00:00",
+            "releaseNotes": "- Release 1.1",
+            "get": "http://pecl.php.net/get/radius-1.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        }
+    },
+    "summary": "Radius client library",
+    "SPDX-License-Identifier": "BSD-3-Clause"
+}

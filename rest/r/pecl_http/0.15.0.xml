@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pecl_http">pecl_http</p>
+ <c>pecl.php.net</c>
+ <v>0.15.0</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>mike</m>
+ <s>Extended HTTP Support</s>
+ <d>* Building absolute URIs
+* RFC compliant HTTP redirects
+* RFC compliant HTTP date handling
+* Parsing of HTTP headers and messages
+* Caching by &quot;Last-Modified&quot; and/or ETag
+  (with 'on the fly' option for ETag generation from buffered output)
+* Sending data/files/streams with (multiple) ranges support
+* Negotiating user preferred language/charset
+* Convenient request functionality built upon libcurl
+* PHP5 classes: HttpUtil, HttpResponse (PHP-5.1), HttpRequest, HttpRequestPool, HttpMessage</d>
+ <da>2005-10-11 09:50:01</da>
+ <n>+ Updated documentation (a lot)
++ Added optional third parameter to HttpRequest::__construct() accepting an array with options
++ Added compression functions gzencode/gzdecode, deflate/inflate, compress/uncompress
++ Added http_support() for probing features that depend on external libraries
+
+- Renamed http_absolute_uri() to http_build_uri() (complements with http_build_query())
+- Changed the signature of the negotiator to fill the second parameter with the results array
+
+* Fixed several ETag issues
+* Fixed HttpRequestPools detach() and attach() methods when the iterator is active
+* Fixed parsing messages with Content-Range headers
+* Fixed parsing messages with another Transfer-Encoding header value than chunked</n>
+ <f>124936</f>
+ <g>http://pecl.php.net/get/pecl_http-0.15.0</g>
+ <x xlink:href="package.0.15.0.xml"/>
+</r>

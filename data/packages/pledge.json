@@ -1,0 +1,54 @@
+{
+    "category": "Security",
+    "deprecated": false,
+    "description": "This is a PHP extension that adds support for OpenBSD's pledge and unveil system calls.",
+    "latestReleaseDate": "2018-10-13T07:04:57+00:00",
+    "latestVersion": "2.0.2",
+    "license": "ISC License",
+    "name": "pledge",
+    "php8Mentioned": false,
+    "releases": {
+        "2.0.2": {
+            "version": "2.0.2",
+            "state": "stable",
+            "license": "ISC License",
+            "releasedBy": "tvlooy",
+            "releaseDate": "2018-10-13T07:04:57+00:00",
+            "releaseNotes": "- correct reflection information",
+            "get": "http://pecl.php.net/get/pledge-2.0.2",
+            "SPDX-License-Identifier": "ISC"
+        },
+        "2.0.1": {
+            "version": "2.0.1",
+            "state": "stable",
+            "license": "ISC License",
+            "releasedBy": "tvlooy",
+            "releaseDate": "2018-10-12T21:44:34+00:00",
+            "releaseNotes": "- add unveil tests",
+            "get": "http://pecl.php.net/get/pledge-2.0.1",
+            "SPDX-License-Identifier": "ISC"
+        },
+        "2.0.0": {
+            "version": "2.0.0",
+            "state": "stable",
+            "license": "ISC License",
+            "releasedBy": "tvlooy",
+            "releaseDate": "2018-10-04T09:58:40+00:00",
+            "releaseNotes": "- add promises support to pledge()\n- add unveil()",
+            "get": "http://pecl.php.net/get/pledge-2.0.0",
+            "SPDX-License-Identifier": "ISC"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable",
+            "license": "ISC License",
+            "releasedBy": "tvlooy",
+            "releaseDate": "2018-10-04T09:58:04+00:00",
+            "releaseNotes": "- add pledge()",
+            "get": "http://pecl.php.net/get/pledge-1.0.0",
+            "SPDX-License-Identifier": "ISC"
+        }
+    },
+    "summary": "OpenBSD's pledge / unveil support",
+    "SPDX-License-Identifier": "ISC"
+}

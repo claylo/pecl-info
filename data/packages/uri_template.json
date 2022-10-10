@@ -1,0 +1,44 @@
+{
+    "category": "HTTP",
+    "deprecated": false,
+    "description": "Implementation of URI Template(RFC6570) specification for PHP.",
+    "latestReleaseDate": "2013-10-14T18:17:17+00:00",
+    "latestVersion": "1.0",
+    "license": "PHP License",
+    "name": "uri_template",
+    "summary": "uri_template extension",
+    "php8Mentioned": false,
+    "releases": {
+        "1.0": {
+            "version": "1.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "ioseb",
+            "releaseDate": "2013-10-14T18:17:17+00:00",
+            "releaseNotes": "- Fixed extended version: https://github.com/ioseb/uri-template/issues/6\n- Package includes LICENSE and README.md files\n- Windows fix by Anatol Belski: https://github.com/ioseb/uri-template/pull/4",
+            "get": "http://pecl.php.net/get/uri_template-1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.99.2": {
+            "version": "0.99.2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "ioseb",
+            "releaseDate": "2012-10-31T15:35:09+00:00",
+            "releaseNotes": "- Fixed bug: pct-encoded literals outside of varspecs must be copied directly, https://github.com/ioseb/uri-template/issues/1\n- Fixed bug: encoding and copying of utf8 literals outside of varspecs",
+            "get": "http://pecl.php.net/get/uri_template-0.99.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.99.1": {
+            "version": "0.99.1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "ioseb",
+            "releaseDate": "2012-07-31T17:28:09+00:00",
+            "releaseNotes": "- Initial release",
+            "get": "http://pecl.php.net/get/uri_template-0.99.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

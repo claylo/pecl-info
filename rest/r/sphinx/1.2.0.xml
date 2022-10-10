@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/sphinx">sphinx</p>
+ <c>pecl.php.net</c>
+ <v>1.2.0</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>tony2001</m>
+ <s>Client extension for Sphinx - opensource SQL full-text search engine</s>
+ <d>This extension provides bindings for libsphinxclient, client library for Sphinx.</d>
+ <da>2012-04-03 05:35:22</da>
+ <n>- Added mva support to updateAttributes().
+- Fixed build with 5_4.
+- Fixed bug #61392 (build failure with new version of libsphinxclient)</n>
+ <f>13392</f>
+ <g>http://pecl.php.net/get/sphinx-1.2.0</g>
+ <x xlink:href="package.1.2.0.xml"/>
+</r>

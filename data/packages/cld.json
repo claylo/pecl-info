@@ -1,0 +1,64 @@
+{
+    "category": "Internationalization",
+    "deprecated": false,
+    "description": "Exposes Chromium Compact Language Detector to PHP to find out what language a text is",
+    "latestReleaseDate": "2011-11-14T20:37:05+00:00",
+    "latestVersion": "0.5.0",
+    "license": "BSD License",
+    "name": "cld",
+    "php8Mentioned": false,
+    "releases": {
+        "0.5.0": {
+            "version": "0.5.0",
+            "state": "stable",
+            "license": "BSD License",
+            "releasedBy": "lstrojny",
+            "releaseDate": "2011-11-14T20:37:05+00:00",
+            "releaseNotes": "- Fixing linking on Linux causing the error \"undefined symbol _ZNSs4_Rep20_S_empty_rep_storageE\"\n- Reflection test case for CLD\\InvalidArgumentException, CLD\\InvalidLanguageException, CLD\\InvalidEncodingException\n- Reflection test case for CLD\\Detector\n- Use cld_encodings.h from upstream library instead of our own",
+            "get": "http://pecl.php.net/get/cld-0.5.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.4.0": {
+            "version": "0.4.0",
+            "state": "beta",
+            "license": "BSD License",
+            "releasedBy": "lstrojny",
+            "releaseDate": "2011-10-30T09:28:09+00:00",
+            "releaseNotes": "- New OOP API\n- Better error handling\n- More tests",
+            "get": "http://pecl.php.net/get/cld-0.4.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.3.0": {
+            "version": "0.3.0",
+            "state": "beta",
+            "license": "BSD License",
+            "releasedBy": "lstrojny",
+            "releaseDate": "2011-10-25T10:27:02+00:00",
+            "releaseNotes": "- Cleanup to use internal APIs (Pierre Joye)\n- Windows build support (Pierre Joye)",
+            "get": "http://pecl.php.net/get/cld-0.3.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.2.0": {
+            "version": "0.2.0",
+            "state": "beta",
+            "license": "BSD License",
+            "releasedBy": "lstrojny",
+            "releaseDate": "2011-10-24T06:04:35+00:00",
+            "releaseNotes": "- Compatibility with latest HEAD of libcld",
+            "get": "http://pecl.php.net/get/cld-0.2.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.1.0": {
+            "version": "0.1.0",
+            "state": "beta",
+            "license": "BSD License",
+            "releasedBy": "lstrojny",
+            "releaseDate": "2011-10-23T17:00:08+00:00",
+            "releaseNotes": "- Initial release",
+            "get": "http://pecl.php.net/get/cld-0.1.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        }
+    },
+    "summary": "PHP Bindings for Chromium Compact Language Detector",
+    "SPDX-License-Identifier": "BSD-2-Clause"
+}

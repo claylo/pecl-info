@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/gnupg">gnupg</p>
+ <c>pecl.php.net</c>
+ <v>0.4</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>traufeisen</m>
+ <s>wrapper around the gpgme library</s>
+ <d>This extension provides methods to interact with gnupg.
+So you can sign, encrypt, verify directly from php</d>
+ <da>2005-10-18 09:55:01</da>
+ <n>added procedural usage and lowered min PHP Version to 4.3</n>
+ <f>17475</f>
+ <g>http://pecl.php.net/get/gnupg-0.4</g>
+ <x xlink:href="package.0.4.xml"/>
+</r>

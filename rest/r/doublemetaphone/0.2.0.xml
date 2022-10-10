@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/doublemetaphone">doublemetaphone</p>
+ <c>pecl.php.net</c>
+ <v>0.2.0</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>ohill</m>
+ <s>Provide Double Metaphone functionality</s>
+ <d>The Double Metaphone algorithm by Lawrence Philips allows a word to be broken down into its phonemes.</d>
+ <da>2008-04-03 11:33:48</da>
+ <n>- Some internal changes in headers to comply with PECL standards
+- Pushed this as beta, since no bugs were filed with the previous alpha</n>
+ <f>7911</f>
+ <g>http://pecl.php.net/get/doublemetaphone-0.2.0</g>
+ <x xlink:href="package.0.2.0.xml"/>
+</r>

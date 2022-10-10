@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ip2location">ip2location</p>
+ <c>pecl.php.net</c>
+ <v>6.0.0</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>ip2location</m>
+ <s>Get geo location information of an IP address</s>
+ <d>This PECL extension enables you to get the geo location information of an IP address, such as country, region or state, city, latitude and longitude, US ZIP code, time zone, Internet Service Provider (ISP) or company name, domain name, net speed, area code, weather station code, weather station name, mobile country code (MCC), mobile network code (MNC) and carrier brand, elevation, and usage type.</d>
+ <da>2013-09-17 02:52:16</da>
+ <n>* new release</n>
+ <f>318421</f>
+ <g>http://pecl.php.net/get/ip2location-6.0.0</g>
+ <x xlink:href="package.6.0.0.xml"/>
+</r>

@@ -1,0 +1,15 @@
+{
+    "category": "Database",
+    "deprecated": true,
+    "description": "This extension provides an Oracle driver for PDO.",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "PHP",
+    "name": "PDO_OCI",
+    "summary": "Oracle Call Interface driver for PDO",
+    "php8Mentioned": false,
+    "releases": [],
+    "new_channel": "http://www.php.net/pdo_oci",
+    "new_package": "ext/pdo_oci",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

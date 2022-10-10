@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/openswoole">openswoole</p>
+ <c>pecl.php.net</c>
+ <v>4.7.2</v>
+ <st>stable</st>
+ <l>Apache 2.0</l>
+ <m>doubaokun</m>
+ <s>High Performance Programmatic Server for PHP with Async IO, Coroutines and Fibers</s>
+ <d>Build high-performance, scalable, concurrent TCP, UDP, Unix Socket, HTTP, WebSocket services with PHP and easy to use coroutine, fibers API.</d>
+ <da>2021-10-24 19:46:18</da>
+ <n>1. Extension name changed to be openswoole
+2. Bug fixed: PHP8.0 compatible issues
+3. Bug fixed: PHP8.0 and Symfony HTTP client compatible issues
+4. Added SW_ERROR_WEBSOCKET_PACK_FAILED error code
+5. Updated Server id to be OpenSwoole-v4.x.x, Client id to be OpenSwoole/v4.x.x
+6. Bug fixed: HTTP2 flow control bugs
+7. Support ssl_ciphers in Swoole Client
+8. Bug fixed: curl_multi_select CURL_SOCKET_TIMEOUT bug
+9. Bug fixed: openswoole_postgresql compile issues on MacOS</n>
+ <f>1557773</f>
+ <g>https://pecl.php.net/get/openswoole-4.7.2</g>
+ <x xlink:href="package.4.7.2.xml"/>
+</r>

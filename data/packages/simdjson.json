@@ -1,0 +1,34 @@
+{
+    "category": "Tools and Utilities",
+    "deprecated": false,
+    "description": "Provides faster json decoding through simdjson bindings for PHP (Single Instruction, Multiple Data)",
+    "latestReleaseDate": "2022-10-01T15:37:38+00:00",
+    "latestVersion": "2.0.4",
+    "license": "Apache 2.0",
+    "name": "simdjson",
+    "php8Mentioned": false,
+    "releases": {
+        "2.0.4": {
+            "version": "2.0.4",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "tandre",
+            "releaseDate": "2022-10-01T15:37:38+00:00",
+            "releaseNotes": "* Add `-fvisibility=hidden` to compiler options to reduce compiled extension size by avoiding exporting symbols by default.\n* If the requested json parsing $depth is excessively large when reallocating larger buffers for the C simdjson parser,\n  then internally use a smaller $depth that would behave identically with lower memory usage. (#66)\n* Update simdjson to properly reject surrogate pairs with an invalid low surrogate. (https://en.wikipedia.org/wiki/UTF-16)",
+            "get": "https://pecl.php.net/get/simdjson-2.0.4",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.0.3": {
+            "version": "2.0.3",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "tandre",
+            "releaseDate": "2022-08-30T16:09:37+00:00",
+            "releaseNotes": "* Fix error validating package.xml when uploading to PECL due to blank username of lead without a PECL account.",
+            "get": "https://pecl.php.net/get/simdjson-2.0.3",
+            "SPDX-License-Identifier": "Apache-2.0"
+        }
+    },
+    "summary": "Provides faster json decoding through simdjson bindings for PHP",
+    "SPDX-License-Identifier": "Apache-2.0"
+}

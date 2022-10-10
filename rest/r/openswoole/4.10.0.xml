@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/openswoole">openswoole</p>
+ <c>pecl.php.net</c>
+ <v>4.10.0</v>
+ <st>stable</st>
+ <l>Apache 2.0</l>
+ <m>doubaokun</m>
+ <s>High Performance Programmatic Server for PHP with Async IO, Coroutines and Fibers</s>
+ <d>Build high-performance, scalable, concurrent TCP, UDP, Unix Socket, HTTP, WebSocket services with PHP and easy to use coroutine, fibers API.</d>
+ <da>2022-01-24 22:51:51</da>
+ <n>- New feature: Co::select, the non-blocking coroutine channel selector
+- New feature: HTTP2 SSE server-sent events
+- New feature: Improved channel stats
+- Bug fixed: Argument data type fixed at sleep() and usleep() API by @Hailong
+- Bug fixed: HTTP2 and TLS bug fixes</n>
+ <f>1627513</f>
+ <g>https://pecl.php.net/get/openswoole-4.10.0</g>
+ <x xlink:href="package.4.10.0.xml"/>
+</r>

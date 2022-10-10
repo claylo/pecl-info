@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.72.0</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>labbati</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2022-04-07 12:21:44</da>
+ <n>### Added
+- Add support for memcached on PHP 8 #1558
+
+### Fixed
+- Fix #1544: Handle hook dummy span hack when assigning parent #1557
+
+### Internal changes
+- Add gdbinit files for php 8.0 and 8.1 #1556
+- Add system tests in CI #1552
+- Use latest 8.0.17 in buster images #1559
+- Update flex to v1.18.5 in composer.lock files for Symfony 4.0 and 5.0 #1560
+- Add a single test to xfail after upgrade of docker image to 8.0.18 #1561
+- Update link to download 0.71.1 in the reliability environment #1555</n>
+ <f>526466</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.72.0</g>
+ <x xlink:href="package.0.72.0.xml"/>
+</r>

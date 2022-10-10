@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pdo_informix">PDO_INFORMIX</p>
+ <c>pecl.php.net</c>
+ <v>1.0.1</v>
+ <st>alpha</st>
+ <l>Apache License 2.0</l>
+ <m>kfbombar</m>
+ <s>PDO driver for IBM Informix INFORMIX databases</s>
+ <d>This extension provides an IBM Informix Dynamic Server driver for PDO. To build and run
+PDO_INFORMIX, you must install the Informix Client Software Development Kit (CSDK)
+from http://ibm.com/informix/downloads.html.
+ 
+</d>
+ <da>2006-05-16 15:52:42</da>
+ <n>Added LOB Stream implementation to comply with PDO spec. (Currently only supports text/byte columns)
+Fixed a segfault that occured when more than one stream was bound to prepared statement.
+Bugfix PECL#6717: PHP segfaults when trying execute prepared, parameterized SQL.
+Fixed issue where error codes were not being cleared. 
+Fixed segfault caused by trying to report a PHP exception using a stale connection handle.</n>
+ <f>62464</f>
+ <g>http://pecl.php.net/get/PDO_INFORMIX-1.0.1</g>
+ <x xlink:href="package.1.0.1.xml"/>
+</r>

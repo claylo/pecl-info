@@ -1,0 +1,24 @@
+{
+    "category": "Caching",
+    "deprecated": false,
+    "description": "Memoize is an extension which transparently caches PHP functions, much like Perl&#039;s Memoize module.\n\nIt can use APC or memcached for storage, so values persist between requests.",
+    "latestReleaseDate": "2013-06-19T18:16:54+00:00",
+    "latestVersion": "0.2.0",
+    "license": "http://www.php.net/license/3_01.txt",
+    "name": "memoize",
+    "php8Mentioned": false,
+    "releases": {
+        "0.2.0": {
+            "version": "0.2.0",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "arpad",
+            "releaseDate": "2013-06-19T18:16:54+00:00",
+            "releaseNotes": "- bundled storage modules are no longer separate extensions\n\t- memcached module now requires libmemcached 1.0.x\n\t- added support for TTL by function (optional argument to memoize())\n\t- win32 fixes",
+            "get": "http://pecl.php.net/get/memoize-0.2.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "Transparently cache PHP functions",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

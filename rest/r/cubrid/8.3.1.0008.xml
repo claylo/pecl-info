@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/cubrid">CUBRID</p>
+ <c>pecl.php.net</c>
+ <v>8.3.1.0008</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>cubrid</m>
+ <s>This is the official PHP Extension to connect to CUBRID Database.</s>
+ <d>CUBRID is an open source database management system highly optimized for Web applications (http://www.cubrid.org). The current PHP extension is fully compatibly with the latest stable version of CUBRID Database. To post issues and report bugs, please use CUBRID Official Forum at http://forum.cubrid.org.</d>
+ <da>2011-11-23 03:52:54</da>
+ <n>Changed and Enhanced Features:
+
+- According to mysql_fetch_field, Add 4 properties(primary_key blob unsigned zerofill) in cubrid_fetch_field
+- Add two functions, cubrid_pconnect and cubrid_pconnect_with_url, to support the persistent connection like mysql_pconnect
+- Add a form of the url argument in cubrid_connect_with_url function</n>
+ <f>40628</f>
+ <g>http://pecl.php.net/get/CUBRID-8.3.1.0008</g>
+ <x xlink:href="package.8.3.1.0008.xml"/>
+</r>

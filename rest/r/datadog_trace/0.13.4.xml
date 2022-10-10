@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.13.4</v>
+ <st>beta</st>
+ <l>BSD 3-Clause</l>
+ <m>sammyk</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2019-02-25 11:48:17</da>
+ <n>Special thanks to @stayallive for helping us debugging the memory issues in his environment! His help and
+guidance were of paramount importance.
+
+### Fixed
+- Accessing freed memory when instrumentation code un/instrumented itself #314
+- Freeing `$this` object prematurely in PHP-FPM VM #317</n>
+ <f>26668</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.13.4</g>
+ <x xlink:href="package.0.13.4.xml"/>
+</r>

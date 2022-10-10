@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/parallel">parallel</p>
+ <c>pecl.php.net</c>
+ <v>1.0.1</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>remi</m>
+ <s>Parallel concurrency API</s>
+ <d>A succinct parallel concurrency API for PHP 7.</d>
+ <da>2019-05-21 08:29:15</da>
+ <n>- Fix #42 \parallel\run will choose wrong thread for scheduling
+- Fix #41 buffered channel could not be drained after close
+- Fix #40 class in FQN stops stubs being generated</n>
+ <f>53032</f>
+ <g>https://pecl.php.net/get/parallel-1.0.1</g>
+ <x xlink:href="package.1.0.1.xml"/>
+</r>

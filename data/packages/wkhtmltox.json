@@ -1,0 +1,13 @@
+{
+    "category": "File Formats",
+    "deprecated": false,
+    "description": "libwkhtmltox is an open source shared library for converting HTML into PDF and various image formats.",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "PHP v3.01",
+    "name": "wkhtmltox",
+    "php8Mentioned": false,
+    "releases": [],
+    "summary": "Converting HTML to X since 2017",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

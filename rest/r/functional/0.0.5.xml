@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/functional">functional</p>
+ <c>pecl.php.net</c>
+ <v>0.0.5</v>
+ <st>alpha</st>
+ <l>BSD License</l>
+ <m>lstrojny</m>
+ <s>Functional primitives for PHP</s>
+ <d>A number of functional primitives like map(), select(), each() for the PHP language</d>
+ <da>2011-12-04 14:34:06</da>
+ <n>- Renamed all() to every() and any() to some()
+- Added drop_first() and drop_last()
+- Fixed property access with pluck()
+- pluck() now works with associative arrays
+- Added partition()
+- Added group()
+- Added flatten()
+- Added first() and last()
+- Added product(), sum(), ratio(), difference()
+- Added unique()
+- Fixed a lot of memory leaks</n>
+ <f>9827</f>
+ <g>http://pecl.php.net/get/functional-0.0.5</g>
+ <x xlink:href="package.0.0.5.xml"/>
+</r>

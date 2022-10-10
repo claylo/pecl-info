@@ -1,0 +1,24 @@
+{
+    "category": "Authentication",
+    "deprecated": false,
+    "description": "Provides means for authentication against any courier authdaemond backends.",
+    "latestReleaseDate": "2006-12-11T08:39:43+00:00",
+    "latestVersion": "0.1.0",
+    "license": "BSD-2-Clause",
+    "name": "courierauth",
+    "php8Mentioned": false,
+    "releases": {
+        "0.1.0": {
+            "version": "0.1.0",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2006-12-11T08:39:43+00:00",
+            "releaseNotes": "* Initial release",
+            "get": "http://pecl.php.net/get/courierauth-0.1.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        }
+    },
+    "summary": "courierauth binding",
+    "SPDX-License-Identifier": "BSD-2-Clause"
+}

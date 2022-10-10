@@ -1,0 +1,64 @@
+{
+    "category": "HTTP",
+    "deprecated": false,
+    "description": "This tiny extension lets PHP's post handler parse `multipart/form-data` and\n`application/x-www-form-urlencoded` (or any other customly registered form data\nhandler, like \"json_post\") without regard to the request's request method.\n\nThis extension does not provide any INI entries, constants, functions or classes.",
+    "latestReleaseDate": "2021-10-04T16:36:47+00:00",
+    "latestVersion": "1.0.3",
+    "license": "BSD-2-Clause",
+    "name": "apfd",
+    "php8Mentioned": true,
+    "releases": {
+        "1.0.3": {
+            "version": "1.0.3",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2021-10-04T16:36:47+00:00",
+            "releaseNotes": "* Fix tests for PHP-8.1\n* Improve phpinfo() output",
+            "get": "https://pecl.php.net/get/apfd-1.0.3",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.0.2": {
+            "version": "1.0.2",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2020-09-21T15:04:56+00:00",
+            "releaseNotes": "* PHP-7.2+ compatibility\n* PHP-8.0 compatiblity",
+            "get": "https://pecl.php.net/get/apfd-1.0.2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2015-04-24T20:19:31+00:00",
+            "releaseNotes": "* Fix bug where non-POST payloads with mixed case boundaries would not be parsed",
+            "get": "http://pecl.php.net/get/apfd-1.0.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2015-03-18T01:46:59+00:00",
+            "releaseNotes": "* Split off pecl_http",
+            "get": "http://pecl.php.net/get/apfd-1.0.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.0.0RC1": {
+            "version": "1.0.0RC1",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2015-03-10T07:28:25+00:00",
+            "releaseNotes": "* Split off pecl_http",
+            "get": "http://pecl.php.net/get/apfd-1.0.0RC1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        }
+    },
+    "summary": "Always Populate Form Data",
+    "SPDX-License-Identifier": "BSD-2-Clause"
+}

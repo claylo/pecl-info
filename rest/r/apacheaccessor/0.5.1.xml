@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/apacheaccessor">apacheaccessor</p>
+ <c>pecl.php.net</c>
+ <v>0.5.1</v>
+ <st>stable</st>
+ <l>PHP 3.01</l>
+ <m>yorambh</m>
+ <s>simple API to Apache runtime configuration</s>
+ <d>ApacheAccessor lets you retrieve Apache configuration (at runtime of current proccess) as PHP array or dump it as HTML table.</d>
+ <da>2012-04-01 03:09:09</da>
+ <n>First stable release.
+please report bugs</n>
+ <f>7121</f>
+ <g>http://pecl.php.net/get/apacheaccessor-0.5.1</g>
+ <x xlink:href="package.0.5.1.xml"/>
+</r>

@@ -1,0 +1,40 @@
+#!/usr/bin/env bash
+# shellcheck disable=SC2312
+set -o pipefail
+
+REPODIR="$(dirname "$(cd "$(dirname "$0")" && pwd -P)")"
+PATH="${REPODIR}/bin:${PATH}"
+
+usage() {
+  echo "refresh-package [package] [release-version]"
+}
+
+pkg=${1:-}
+if [[ -z ${pkg} ]]; then
+  echo "pass lowercase package name to update"
+  exit 1
+fi
+rel=${2:-}
+if [[ -z ${rel} ]]; then
+  echo "pass release version to update"
+  exit 1
+fi
+
+if [[ ! -f "p/${pkg}/info.xml" ]]; then
+  # new package
+  cache-req "p/packages.xml"
+  # insert placeholder so expand-package-* scripts will find it
+  jq -r --arg PKG "${pkg}" '. + {($PKG): {}}' data/packages.json >data/packages-tmp.json
+  mv data/packages-tmp.json data/packages.json
+fi
+
+cache-req "p/${pkg}/info.xml"
+cache-req "r/${pkg}/allreleases.xml"
+
+expand-package-info "${pkg}"
+
+cache-req "r/${pkg}/${rel}.xml"
+cache-req "r/${pkg}/package.${rel}.xml"
+cache-req "r/${pkg}/deps.${rel}.txt"
+
+expand-package-releases "${pkg}"

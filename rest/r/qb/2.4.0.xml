@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/qb">qb</p>
+ <c>pecl.php.net</c>
+ <v>2.4.0</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>cleong728</m>
+ <s>Accelerator designed mainly for graphic work</s>
+ <d>QB stands for &quot;Quick Binary.&quot; It's a PHP extension designed to enable faster handling of binary data. It takes a function written in PHP and translate it for a specialized virtual machine. The use of static type information leads significantly higher performance than under PHP's regular dynamic type system. A PHP+QB function can run anywhere from five to twenty times faster than regular PHP code. For even higher level of performance, one can compile PHP+QB functions to native code (on supported platforms).
+
+QB performs code translation on a per-function basis. It does not affect in anyway code not specially marked. Interaction between PHP+QB functions and regular PHP code is basically seamless. A key design objective of QB is to let developers harness greater processing power than what baseline PHP offers without the risk involved in adopting a brand new platform.</d>
+ <da>2014-07-20 21:53:30</da>
+ <n>Added option to emit errors as exceptions
+Fixed issue #36 - Incorrect cast to int
+Fixed issue #39 - Incompatibility with namespace usage
+Fixed issue #40 - Incompatibility with namespace usage
+Fixed issue #42 - Inability to append to array
+Fixed issue #43 - Segfault when opcache is used
+Fixed issue #46 - Incorrect array size when initialized with empty array
+Fixed issue #48 - Memory-mapped file don't get released on function exit
+Fixed issue #49 - Multiple static arrays cause failure to compile to native code
+Fixed issue #50 - Cannot pass GD image as int8[][4]
+Fixed issue $51 - Multithreading fails when pcntl_fork() is used</n>
+ <f>930521</f>
+ <g>http://pecl.php.net/get/qb-2.4.0</g>
+ <x xlink:href="package.2.4.0.xml"/>
+</r>

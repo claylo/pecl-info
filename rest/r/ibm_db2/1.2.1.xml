@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ibm_db2">ibm_db2</p>
+ <c>pecl.php.net</c>
+ <v>1.2.1</v>
+ <st>stable</st>
+ <l>Apache License 2.0</l>
+ <m>kfbombar</m>
+ <s>Extension for IBM DB2 Universal Database, IBM Cloudscape, and Apache Derby</s>
+ <d>This extension supports IBM DB2 Universal Database, IBM Cloudscape, and
+Apache Derby databases.
+ 
+</d>
+ <da>2006-04-05 14:56:01</da>
+ <n>Use strlcpy() rather than strncpy() to comply with PECL standards.
+Stricter type-matching, initialize all allocated memory.
+Improve unit test implementation.
+Enable SUCCESS_WITH_INFO to return results successfully (bug 6561).
+Handle null characters within SQL values (bug 6572).
+Avoid appending a null character to CLOB values (bug 6755).
+Enable default cursor type to be set as a connection attribute.
+Provide initial support and testing for native XML data type.
+Improve variable scope binding</n>
+ <f>144278</f>
+ <g>http://pecl.php.net/get/ibm_db2-1.2.1</g>
+ <x xlink:href="package.1.2.1.xml"/>
+</r>

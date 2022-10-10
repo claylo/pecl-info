@@ -1,0 +1,20 @@
+#!/usr/bin/env php -d display_errors=0
+<?php
+$xml = file_get_contents('rest/c/categories.xml');
+$doc = new DOMDocument();
+$doc->loadXML($xml);
+$xpath = new DOMXpath($doc);
+$xpath->registerNamespace('c', 'http://pear.php.net/dtd/rest.allcategories');
+$xpath->registerNamespace('xlink', 'http://www.w3.org/1999/xlink');
+
+$cateogry_info_map = [];
+
+$links = $xpath->query('/c:a/c:c');
+foreach ($links as $link) {
+    $category_info_map[$link->nodeValue] = $link->attributes->getNamedItem('href')->value;
+}
+
+file_put_contents(
+    'data/categories.json',
+    json_encode($category_info_map, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES)
+);

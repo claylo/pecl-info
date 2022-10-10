@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/uopz">uopz</p>
+ <c>pecl.php.net</c>
+ <v>2.0.0</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>krakjoe</m>
+ <s>User Operations for Zend</s>
+ <d>Doing things you probably shouldn't since 2014</d>
+ <da>2014-03-31 01:01:33</da>
+ <n>API finalized, no moar changes
+fix logical error in uopz_extend
+fix logical errors in uopz_compose
+enforce using correct handlers (stability++)
+fix scope issue in global functions created with uopz_function
+take modifiers to uopz_function for global functions
+fix bug in uopz_delete on magic methods</n>
+ <f>27304</f>
+ <g>http://pecl.php.net/get/uopz-2.0.0</g>
+ <x xlink:href="package.2.0.0.xml"/>
+</r>

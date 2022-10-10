@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/haru">haru</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>tony2001</m>
+ <s>Haru PDF functions</s>
+ <d>These functions allow you to create PDF documents using the Haru Free PDF Library.</d>
+ <da>2008-11-19 03:50:56</da>
+ <n>- Fixed build with PHP 5.3.x.
+- Fixed possible issue in HaruDoc::output() (thanks to Matt Underwood)</n>
+ <f>23336</f>
+ <g>http://pecl.php.net/get/haru-1.0.0</g>
+ <x xlink:href="package.1.0.0.xml"/>
+</r>

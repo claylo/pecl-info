@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/oci8">oci8</p>
+ <c>pecl.php.net</c>
+ <v>1.1.1</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>tony2001</m>
+ <s>OCI8 functions</s>
+ <d>These functions allow you to access Oracle database servers using 
+the Oracle Call Interface (OCI8).
+</d>
+ <da>2005-09-22 08:17:33</da>
+ <n>Fixed segfault when binding empty values.
+Fixed problem with oci_error() without arguments.</n>
+ <f>60970</f>
+ <g>http://pecl.php.net/get/oci8-1.1.1</g>
+ <x xlink:href="package.1.1.1.xml"/>
+</r>

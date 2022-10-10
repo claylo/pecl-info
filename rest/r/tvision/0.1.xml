@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/tvision">tvision</p>
+ <c>pecl.php.net</c>
+ <v>0.1</v>
+ <st>alpha</st>
+ <l>BSD License</l>
+ <m>blindman</m>
+ <s>Turbo Vision wrapper</s>
+ <d>Turbo Vision is a framework for creating text-mode user interfaces in MS-DOS,
+developed by Borland. Borland shipped Turbo Vision with their Turbo Pascal and
+Turbo C++ compilers. This extension is based on  Unix port of Turbo Vision
+written by Sergio Sigala (http://www.sigala.it/sergio/tvision/).
+</d>
+ <da>2005-04-22 21:50:57</da>
+ <n>First release</n>
+ <f>28348</f>
+ <g>http://pecl.php.net/get/tvision-0.1</g>
+ <x xlink:href="package.0.1.xml"/>
+</r>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.3.4</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in http/websocket/http2 server
+        - coroutine http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2019-05-17 03:29:14</da>
+ <n>Fixed
+---
+* Fixed SSL certificate configuration failure (#2573) (@twose)
+* Fixed onReceive callback null pointer (#2568) (@twose)
+* Fixed ssl-&gt;ciphers null pointer (#2553) (@matyhtf)
+* Fixed document_root can't be a relative path (#2513) (@windrunner)
+* Fixed HTTP proxy that does not need to handshake (16ea176f) (@matyhtf)</n>
+ <f>1348870</f>
+ <g>https://pecl.php.net/get/swoole-4.3.4</g>
+ <x xlink:href="package.4.3.4.xml"/>
+</r>

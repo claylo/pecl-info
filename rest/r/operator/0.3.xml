@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/operator">operator</p>
+ <c>pecl.php.net</c>
+ <v>0.3</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>pollita</m>
+ <s>Operator overloading for Objects</s>
+ <d>Operator overloading for: +, -, *, /, %, &lt;&lt;, &gt;&gt;, ., |, &amp;, ^, ~, !, ++, --,
++=, -=, *=, /=, %=, &lt;&lt;=, &gt;&gt;=, .=, |=, &amp;=, ^=, ~=,
+==, !=, ===, !==, &lt;, and &lt;= operators.
+Conditional support for &gt; and &gt;= available with application of a patch.
+ 
+</d>
+ <da>2006-02-08 16:30:41</da>
+ <n>* Added support for comparator ops
+
+Note: ZE treats &gt; style comparisons as backwards &lt; comparisons, so what looks like a left-associative greater than becomes a right-associative less-than.
+Because of this, overloading the &gt; and &gt;= operators for left-association requires application of a parser patch.</n>
+ <f>8328</f>
+ <g>http://pecl.php.net/get/operator-0.3</g>
+ <x xlink:href="package.0.3.xml"/>
+</r>

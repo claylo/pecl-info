@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/apm">APM</p>
+ <c>pecl.php.net</c>
+ <v>1.1.0RC2</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>patrickallaert</m>
+ <s>Alternative PHP Monitor</s>
+ <d>Monitoring extension for PHP, collects error events and send them to one of the drivers.
+SQLite and MySQL drivers are storing those in a database.
+More drivers to come (SNMP, e-mail, Hadoop,...).</d>
+ <da>2013-05-11 13:13:54</da>
+ <n>Changed:
+- upgraded UI by using tweeter boostrap and upgrading jqGrid</n>
+ <f>265441</f>
+ <g>http://pecl.php.net/get/APM-1.1.0RC2</g>
+ <x xlink:href="package.1.1.0RC2.xml"/>
+</r>

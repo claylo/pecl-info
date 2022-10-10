@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pdo_sqlsrv">pdo_sqlsrv</p>
+ <c>pecl.php.net</c>
+ <v>4.1.6.1</v>
+ <st>devel</st>
+ <l>The MIT License (MIT)</l>
+ <m>mbar</m>
+ <s>Microsoft Drivers for PHP for SQL Server (PDO_SQLSRV)</s>
+ <d>The Microsoft Drivers for PHP for SQL Server are PHP extensions that allow for the reading and writing of SQL Server data from within PHP scripts. The SQLSRV extension provides a procedural interface while the PDO_SQLSRV extension implements PDO for accessing data in all editions of SQL Server 2005 and later (including Azure SQL DB). These drivers rely on the Microsoft ODBC Driver for SQL Server to handle the low-level communication with SQL Server.
+*This package contains only the PDO_SQLSRV driver.*</d>
+ <da>2017-02-08 19:13:44</da>
+ <n>[Added]
+- Merged Windows and Linux source code.
+- Enabled connection pooling with unixODBC in Linux.
+[Fixed]
+- Fixed segmentation fault with PDOStatement::getColumnMeta() when the supplied column index is out of range.
+- Fixed the assertion error (Linux) when fetching data from a binary column using the binary encoding.
+- Fixed PECL installation errors when PHP was installed from source.</n>
+ <f>181014</f>
+ <g>http://pecl.php.net/get/pdo_sqlsrv-4.1.6.1</g>
+ <x xlink:href="package.4.1.6.1.xml"/>
+</r>

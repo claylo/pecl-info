@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ast">ast</p>
+ <c>pecl.php.net</c>
+ <v>1.1.0</v>
+ <st>stable</st>
+ <l>BSD-3-Clause</l>
+ <m>tandre</m>
+ <s>Extension exposing PHP 7 abstract syntax tree</s>
+ <d>php-ast exports the AST internally used by PHP 7.
+     php-ast is significantly faster than PHP-Parser, because the AST construction is implemented in C.
+     However, php-ast may only parse code that is syntactically valid on the version of PHP it runs on.</d>
+ <da>2022-08-09 21:45:05</da>
+ <n>- Change documentation files to properly namespace attributes as `#[\AllowDynamicProperties]`. The reflection attributes are already correct.
+- Deprecated AST versions 50 and 60.
+- Drop support for php &lt;= 7.1
+- Fix test failures seen in php 8.2.0beta2 due to change to var_export's output format.
+- Add support for php 8.2 readonly classes. Add `ast\flags\CLASS_READONLY` constant.
+- Add support for php 8.2 `true` type. Add `ast\flags\TYPE_TRUE` constant.
+- Fix bug in php 8.2 where ZEND_AST_ARROW_FUNC output did not include the stub `AST_RETURN` node that was included in php 8.1 and below.</n>
+ <f>51676</f>
+ <g>https://pecl.php.net/get/ast-1.1.0</g>
+ <x xlink:href="package.1.1.0.xml"/>
+</r>

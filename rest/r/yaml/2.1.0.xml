@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/yaml">yaml</p>
+ <c>pecl.php.net</c>
+ <v>2.1.0</v>
+ <st>stable</st>
+ <l>MIT</l>
+ <m>bd808</m>
+ <s>YAML-1.1 parser and emitter</s>
+ <d>Support for YAML 1.1 (YAML Ain't Markup Language) serialization using the
+  LibYAML library.</d>
+ <da>2020-04-23 00:58:02</da>
+ <n>New Features:
+- Basic PHP8 (master branch) compatiblity
+Bugs Fixed:
+- #79494: The 64-bit YAML ext uses 32-bit signed integer arithmetics (cmb69)
+- Use ZEND_LONG_FMT to fix -Wformat warnings (carusogabriel)
+- Fix memory leaks when writing timestamps (cmb69)
+- Update tests/yaml_parse_file_002.phpt for PHP8 (carusogabriel)
+- #78353: Remove deprecated TSRM macros (a.dankovtsev)</n>
+ <f>39439</f>
+ <g>https://pecl.php.net/get/yaml-2.1.0</g>
+ <x xlink:href="package.2.1.0.xml"/>
+</r>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/trader">trader</p>
+ <c>pecl.php.net</c>
+ <v>0.2</v>
+ <st>alpha</st>
+ <l>BSD 2-clause</l>
+ <m>ab</m>
+ <s>Technical Analysis for traders.</s>
+ <d>The trader extension is dedicated for trading software developers requiring to perform technical analysis of financial market data.</d>
+ <da>2012-05-27 18:47:56</da>
+ <n>Initial TA-Lib wrapper implementation</n>
+ <f>266344</f>
+ <g>http://pecl.php.net/get/trader-0.2</g>
+ <x xlink:href="package.0.2.xml"/>
+</r>

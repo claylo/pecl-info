@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pdo_ibm">PDO_IBM</p>
+ <c>pecl.php.net</c>
+ <v>1.5.0</v>
+ <st>stable</st>
+ <l>Apache License 2.0</l>
+ <m>theprez</m>
+ <s>PDO driver for IBM databases</s>
+ <d>This extension provides an IBM database driver for PDO. This driver supports IBM DB2
+Universal Database, IBM Cloudscape, Apache Derby databases and IDS (Informix Data Server).</d>
+ <da>2022-03-21 20:34:26</da>
+ <n>* 2022-03-21: 1.5.0
+- PHP 8.1 support
+- On IBM i, support INI option for CCSID override
+- On IBM i, support INI option for pessimistic DBCS alloc
+- Resolve crash with LOBs
+- Fix build issues with MSVC
+- Fix detecting CLI driver on 64-bit Windows
+- Use modern PDO includes check (resolves compatibility with i.e. Ubuntu, MacPorts)
+- Fix tests for PHP 8.1 and modern Db2 LUW
+- Clean up IBM i command helpers
+- Fix improper return types and declarations</n>
+ <f>97173</f>
+ <g>https://pecl.php.net/get/PDO_IBM-1.5.0</g>
+ <x xlink:href="package.1.5.0.xml"/>
+</r>

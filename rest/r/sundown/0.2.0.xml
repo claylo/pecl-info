@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/sundown">sundown</p>
+ <c>pecl.php.net</c>
+ <v>0.2.0</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>chobieeee</m>
+ <s>Sundown is a fast, robust Markdown parsing library for PHP5</s>
+ <d>Sundown is a fast, robust Markdown parsing library, originally created
+by Natacha PortÃ© and improved Vicent Marti.
+this extension inspired Redcarpet ruby extension which created by Vicent.
+
+PECL Sundown provides straight forward object oriented Markdown API and customizable Renders.</d>
+ <da>2012-02-21 18:10:15</da>
+ <n>* checks extensions and render flags value.
+
+0.1.0b release only checks specified key exist. Now, it also checks their value.
+
+* added useful methods.
+
+array Sundown\Render\Base::getRenderFlags()
+void Sundown\Render\Base::setRenderFlags(array $render_flags)
+
+array Sundown\Markdown::getExtensions()
+void Sundown\Markdown::setExtensions(array $extensions)
+Sundown\Render\Base Sundown\Markdown::getRender()
+
+* update bundled Sundown library
+
+[summary]
+  * Fix segfault on empty link refs
+  * Escape html inside table of contents.
+  * hanging whitespace breaks tables</n>
+ <f>45203</f>
+ <g>http://pecl.php.net/get/sundown-0.2.0</g>
+ <x xlink:href="package.0.2.0.xml"/>
+</r>

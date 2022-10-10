@@ -1,0 +1,13 @@
+{
+    "category": "Images",
+    "deprecated": false,
+    "description": "An OpenCV binding for PHP",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "PHP License",
+    "name": "opencv",
+    "php8Mentioned": false,
+    "releases": [],
+    "summary": "An OpenCV binding for PHP",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

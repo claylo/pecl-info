@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/v8">v8</p>
+ <c>pecl.php.net</c>
+ <v>0.1.4</v>
+ <st>stable</st>
+ <l>The MIT License (MIT)</l>
+ <m>pinepain</m>
+ <s>V8 JavaScript engine API for PHP</s>
+ <d>This extension brings V8 JavaScript engine API to PHP with some abstraction in mind and provides an accurate native V8 C++ API implementation available from PHP.</d>
+ <da>2017-04-22 19:04:36</da>
+ <n>This release adds low-level optimizations, simplify some internal methods and fix few bugs. For more details see change list below.
+
+As of this release, V8 &gt;= 6.0.45 required.
+
+* - BC-breaking or potentially BC-breaking changes
+
+Changes to public API and other important changes which may affect end-user:
+
+    - Raise libv8 required version to 6.0.45;
+    - Add V8\Value::InstanceOf() method;
+    - Add V8\ObjectValue::SetNativeDataProperty() method;
+    - Add V8\PropertyFilter, V8\KeyCollectionMode and V8\IndexFilter enums;
+    - Add property filtering support to V8\ObjectValue::Get{Property,OwnProperty}Names();
+    - Consistently expose all well-known symbols on V8\SymbolValue;
+    - Setting boolean props on StackFrame with valid type;
+    - Remove non-working and non-supporting $attributes argument from V8\StringValue constructor in stubs;
+    - * Add V8\ConstructorBehavior and support for it in V8\FunctionTemplate constructor;
+    - * Add signature support in V8\FunctionTemplate constructor via $receiver;
+    - * Add signature support to Template:SetNativeDataProperty() and ObjectTemplate::SetAccessor() via $receiver;
+    - * Remove require $isolate parameter from V8\Value::TypeOf();
+    - * Remove deprecated V8\Context::EstimatedSize() method;
+    - * Remove deprecated V8\StackTrace\StackTraceOptions;
+    - * Remove deprecated V8\StackTrace::AsArray();
+    - * Require Context explicitly in V8\Isolate::ThrowException();
+    - * Rename V8\Exceptions\GenericException to V8\Exceptions\Exception;
+    - * Rename V8\Exceptions\AbstractResourceLimitException to V8\Exceptions\ResourceLimitException;
+    - internal: Check whether returned context is empty in V8\Isolate\GetEnteredContext() instead of checking InContext();</n>
+ <f>178166</f>
+ <g>http://pecl.php.net/get/v8-0.1.4</g>
+ <x xlink:href="package.0.1.4.xml"/>
+</r>

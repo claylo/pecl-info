@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ingres">ingres</p>
+ <c>pecl.php.net</c>
+ <v>2.0.1</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>grant</m>
+ <s>Extension for the Ingres Relational Database System.</s>
+ <d>This extension supports the Ingres Relational Database System.</d>
+ <da>2008-12-20 04:19:52</da>
+ <n>This release fixes a number problems discovered since 2.0.0 was released. See below for the list of changes made:
+ - Improved performance by batch fetching rows
+ - Improved interoperability when working with older Ingres releases
+ - Improved cleanup when a transaction/session is prematurely aborted
+ - Replaced &quot;long long int&quot; with &quot;__int64&quot; to allow the extension to build with VC6
+ - Use PZVAL_ISREF instead of pointing at (*val)-&gt;is_ref
+ - Added --enable-ingres2 to generate php_ingres2.dll for Windows
+ - Fixed regression with IIAPI_CP_LOGIN_LOCAL being used at the wrong API level
+ - Revised PECL_INGRES_VERSION to take in to consideration --enable-ingres2
+ - Fixed LOB retrieval when used with scollable cursors with Ingres 9.2.0</n>
+ <f>65715</f>
+ <g>http://pecl.php.net/get/ingres-2.0.1</g>
+ <x xlink:href="package.2.0.1.xml"/>
+</r>

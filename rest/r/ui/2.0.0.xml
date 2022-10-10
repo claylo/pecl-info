@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ui">UI</p>
+ <c>pecl.php.net</c>
+ <v>2.0.0</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>krakjoe</m>
+ <s>UI API</s>
+ <d>An OO wrapper around libui</d>
+ <da>2016-11-02 06:10:49</da>
+ <n>Refactor of Brushes:
+  UI\Draw\Brush
+  abstract UI\Draw\Brush\Gradient
+  UI\Draw\Brush\LinearGradient
+  UI\Draw\Brush\RadialGradient
+UI\Draw\Color Improvements:
+  Direct access to channels by name (r, g, b, a) as properties, (case insensitive)
+  Allow the use of RRGGBBAA integers in place of UI\Draw\Color
+UI\Draw\Path Improvements:
+  Use Path::Winding as default mode
+UI\Draw\Pen Improvements:
+  Allow UI\Draw\Color (or RRGGBBAA integer) in place of UI\Draw\Brush (fill, stroke)
+UI\Executor:
+  Scheduled executor service for animations superceeds and replaces App::onTick mechanism
+UI\App:
+  Removed, it should be obvious that run/quit are global functions
+UI\Window:
+  Fixed onClosing</n>
+ <f>49498</f>
+ <g>http://pecl.php.net/get/UI-2.0.0</g>
+ <x xlink:href="package.2.0.0.xml"/>
+</r>

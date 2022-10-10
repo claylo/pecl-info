@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/stomp">stomp</p>
+ <c>pecl.php.net</c>
+ <v>1.0.1</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>pierrick</m>
+ <s>Stomp client extension</s>
+ <d>This extension allows php applications to communicate with any Stomp compliant Message Brokers through easy object oriented and procedural interfaces.</d>
+ <da>2010-08-03 09:22:10</da>
+ <n>- Add new parameter to the constructor to allow client to send extra informations
+- Add zend engine runtime cache support (introduced into trunk) 
+- Add new details property in the StompException class
+- Add new StompException::getDetails() method
+- Add the frame body content in the Stomp::Error() method 
+- Fixed bug #17262 (Server is not responding on win32).</n>
+ <f>18205</f>
+ <g>http://pecl.php.net/get/stomp-1.0.1</g>
+ <x xlink:href="package.1.0.1.xml"/>
+</r>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/oci8">oci8</p>
+ <c>pecl.php.net</c>
+ <v>1.3.1</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>sixd</m>
+ <s>OCI8 functions</s>
+ <d>These functions allow you to access Oracle database servers using 
+the Oracle Call Interface (OCI8).</d>
+ <da>2008-02-19 17:22:10</da>
+ <n>Fixed bug #44113 (New collection creation can fail with OCI-22303)
+Fixed bug #42841 (Crash with REF CURSORS when statement caching enabled)
+Fixed bug #42496 (Cursor leak selecting LOBs
+Fixed bug #43497 (Temporary LOB leak)
+Fixed PECL bug #12431 (ping functionality is broken)
+Allow compilation with 64bit Instant Client RPMs
+Allow -with-oci8=instantclient with no directory specified look for RPM install
+Refine DRCP connection pooling functionality</n>
+ <f>117722</f>
+ <g>http://pecl.php.net/get/oci8-1.3.1</g>
+ <x xlink:href="package.1.3.1.xml"/>
+</r>

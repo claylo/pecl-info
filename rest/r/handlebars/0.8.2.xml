@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/handlebars">handlebars</p>
+ <c>pecl.php.net</c>
+ <v>0.8.2</v>
+ <st>stable</st>
+ <l>BSD-2-Clause</l>
+ <m>jbboehr</m>
+ <s>Handlebars templating language</s>
+ <d>This extension embeds a Handlebars interpreter into PHP, allowing the execution of Handlebars templates.</d>
+ <da>2018-03-05 23:17:21</da>
+ <n>- Mustache delimiter preprocessing support behind the compat flag
+- Property lookup now generates a closure from a method if the value of the property is null or does not exist to emulate the behaviour of javascript where functions and properties share a symbol table - only supported for PHP 7 or greater
+- Changed target handlebars.c version to 0.6.4</n>
+ <f>190510</f>
+ <g>http://pecl.php.net/get/handlebars-0.8.2</g>
+ <x xlink:href="package.0.8.2.xml"/>
+</r>

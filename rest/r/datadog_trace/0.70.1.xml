@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.70.1</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>labbati</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2022-03-02 16:11:15</da>
+ <n>### Changed
+- Disable x-datadog-tags header propagation #1528
+### Fixed
+- Fix Laravel exceptions being over-reported #1361
+- Fix too aggressive symbol exporting #1523
+- Hide the dummy span during trace hooks away #1519
+- (PHP 5) Remove empty multi_curl handles hashtables #1513
+- Do not mess with the span duration in curl integration #1512
+- Fix #1510 post-install not detecting required extension #1511
+- ??Explicitly depend on ext/standard and fix in-tree builds #1509</n>
+ <f>518458</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.70.1</g>
+ <x xlink:href="package.0.70.1.xml"/>
+</r>

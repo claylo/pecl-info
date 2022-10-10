@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/apcu">apcu</p>
+ <c>pecl.php.net</c>
+ <v>5.1.21</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>remi</m>
+ <s>APCu - APC User Cache</s>
+ <d>APC User Caching</d>
+ <da>2021-10-07 09:19:37</da>
+ <n>- Fixed compatibility with PHP 8.1 by adding return types to APCUIterator.
+- APCUIterator::current() and ::key() can no longer be called on an invalid iterator.</n>
+ <f>92516</f>
+ <g>https://pecl.php.net/get/apcu-5.1.21</g>
+ <x xlink:href="package.5.1.21.xml"/>
+</r>

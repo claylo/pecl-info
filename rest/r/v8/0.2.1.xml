@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/v8">v8</p>
+ <c>pecl.php.net</c>
+ <v>0.2.1</v>
+ <st>stable</st>
+ <l>The MIT License (MIT)</l>
+ <m>pinepain</m>
+ <s>V8 JavaScript engine API for PHP</s>
+ <d>This extension brings V8 JavaScript engine API to PHP with some abstraction in mind and provides an accurate native V8 C++ API implementation available from PHP.</d>
+ <da>2017-10-23 20:27:44</da>
+ <n>This release brings stability and improvements. It contains some minor BC-breaking changes which should not affect general public. See full change log below for details
+
+Changelog:
+
+BC-breaking changes:
+
+- require libv8 &gt;= 6.4.6;
+- remove UnboundScript::kNoScriptId const and return null in getId() on no data
+- change ScriptCompiler::cachedDataVersionTag(): int method name and return type to be ScriptCompiler::getCachedDataVersionTag(): float;
+- remove StartupData::getRawSize() method;
+
+Non-breaking changes:
+
+- fix segfault when invalid startup data passed to isolate;
+- fix external exception lost when it has refcount 1;
+- change script compiler version tag generation to take into account changes to extension internals;
+- add CallbackInfoInterface;
+- add support for ScriptCompiler::kProduceFullCodeCache;
+- add {Isolate,Context}::within() as optimization solution;
+- add StartupData::isRejected();
+- add docs skeleton.</n>
+ <f>196263</f>
+ <g>http://pecl.php.net/get/v8-0.2.1</g>
+ <x xlink:href="package.0.2.1.xml"/>
+</r>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/memcached">memcached</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>andrei</m>
+ <s>PHP extension for interfacing with memcached via libmemcached library</s>
+ <d>This extension uses libmemcached library to provide API for communicating with memcached servers.</d>
+ <da>2009-07-07 15:23:18</da>
+ <n>- First stable release.
+- Add getResultMessage() method.
+- Fix OPT_RECV_TIMEOUT definition.
+- Initialize Session lock wait to max execution time (if max execution
+  time is unlimited, default to 30 seconds).</n>
+ <f>22281</f>
+ <g>http://pecl.php.net/get/memcached-1.0.0</g>
+ <x xlink:href="package.1.0.0.xml"/>
+</r>

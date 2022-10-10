@@ -1,0 +1,74 @@
+{
+    "category": "File System",
+    "deprecated": false,
+    "description": "Dazuko (in german: (Da)tei (Zu)griffs (Ko)ntrolle)\nfile-access-control allows you to communicate with the dazuko-kernel module\n(See: http://www.dazuko.org for details). \n\nIt is used to allow or disallow access to a file or directory, based upon\nthe event, the file or directory was accessed. So it is possible to use\ndazuko to code virus scanners and other security frameworks.",
+    "latestReleaseDate": "2004-10-05T16:38:00+00:00",
+    "latestVersion": "0.42",
+    "license": "PHP",
+    "name": "dazuko",
+    "php8Mentioned": false,
+    "releases": {
+        "0.42": {
+            "version": "0.42",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "areaz2",
+            "releaseDate": "2004-10-05T16:38:00+00:00",
+            "releaseNotes": "Removed event_counter and fixed event_id. Fixed multi threaded api.",
+            "get": "http://pecl.php.net/get/dazuko-0.42",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.41": {
+            "version": "0.41",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "areaz2",
+            "releaseDate": "2004-10-05T16:13:00+00:00",
+            "releaseNotes": "Some structure updates. Added examples and readme file. Added event_counter to result resource.",
+            "get": "http://pecl.php.net/get/dazuko-0.41",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.4": {
+            "version": "0.4",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "areaz2",
+            "releaseDate": "2004-09-11T14:22:00+00:00",
+            "releaseNotes": "Fixed Makefile.frag directory bug",
+            "get": "http://pecl.php.net/get/dazuko-0.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.3": {
+            "version": "0.3",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "areaz2",
+            "releaseDate": "2004-09-11T13:37:00+00:00",
+            "releaseNotes": "Removed dazuko sources. Added dynamic source download.",
+            "get": "http://pecl.php.net/get/dazuko-0.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2": {
+            "version": "0.2",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "areaz2",
+            "releaseDate": "2004-09-11T11:00:00+00:00",
+            "releaseNotes": "Updated dazuko sources to version 2.0.3",
+            "get": "http://pecl.php.net/get/dazuko-0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1": {
+            "version": "0.1",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "areaz2",
+            "releaseDate": "2004-09-11T10:44:00+00:00",
+            "releaseNotes": "Initial release",
+            "get": "http://pecl.php.net/get/dazuko-0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "Dazuko file-access-control",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

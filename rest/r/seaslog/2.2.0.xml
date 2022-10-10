@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/seaslog">SeasLog</p>
+ <c>pecl.php.net</c>
+ <v>2.2.0</v>
+ <st>stable</st>
+ <l>PHP3.01</l>
+ <m>neeke</m>
+ <s>An effective,fast,stable log extension for PHP.</s>
+ <d>An effective,fast,stable log extension for PHP.
+        - In the PHP project, for convenient record log.
+        - The default log directory and module configuration.
+        - Specify the log directory and get the current configuration.
+        - Analysis of early warning framework preliminary.
+        - Buffer debug efficient log buffer, convenient.
+        - With PSR-3 Logger interface.
+        - Error and exception automatic logging.
+        - Support appender with File,TCP,UDP.
+        - Send to Rsyslog(TCP/UDP) with RFC5424.
+        - Support RequestId differentiated requests.
+        - Support for log template customizations.
+        - Support trace performance automatic logging.</d>
+ <da>2021-01-19 07:48:59</da>
+ <n>- Support PHP8
+- Support s390x and mips64 platform
+- Fixed ulong conflicting
+- Fixed test case dependence on INI setting (seaslog.default_template)
+- Fixed memory leak on `get_code_filename_line`</n>
+ <f>115374</f>
+ <g>https://pecl.php.net/get/SeasLog-2.2.0</g>
+ <x xlink:href="package.2.2.0.xml"/>
+</r>

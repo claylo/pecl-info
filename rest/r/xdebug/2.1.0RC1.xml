@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xdebug">xdebug</p>
+ <c>pecl.php.net</c>
+ <v>2.1.0RC1</v>
+ <st>beta</st>
+ <l>BSD style</l>
+ <m>derick</m>
+ <s>Provides functions for function traces and profiling</s>
+ <d>The Xdebug extension helps you debugging your script by providing a lot of
+valuable debug information. The debug information that Xdebug can provide
+includes the following:
+
+    * stack and function traces in error messages with:
+          o full parameter display for user defined functions
+          o function name, file name and line indications
+          o support for member functions
+    * memory allocation
+    * protection for infinite recursions
+
+Xdebug also provides:
+
+    * profiling information for PHP scripts
+    * code coverage analysis
+    * capabilities to debug your scripts interactively with a debug client</d>
+ <da>2010-04-06 06:04:40</da>
+ <n>Thu, Apr 06, 2010 - xdebug 2.1.0RC1
+
+= Fixed bugs:
+	- Fixed bug #494: Private attributes of parent class unavailable when
+	  inheriting.
+	- Fixed bug #400: Xdebug shows errors, even when PHP is request startup
+	  mode.
+	- Fixed bug #421: xdebug sends back invalid characters in xml sometimes.
+	- Fixed bug #475: Property names with null chars are not sent fully to the
+	  client.
+	- Fixed bug #480: Issues with the reserved resource in multi threaded
+	  environments (Patch by Francis.Grolemund@netapp.com).
+	- Fixed bug #558: PHP segfaults when running a nested eval.</n>
+ <f>299030</f>
+ <g>http://pecl.php.net/get/xdebug-2.1.0RC1</g>
+ <x xlink:href="package.2.1.0RC1.xml"/>
+</r>

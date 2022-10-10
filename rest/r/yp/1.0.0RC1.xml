@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/yp">yp</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0RC1</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>gasolwu</m>
+ <s>YP/NIS functions</s>
+ <d>NIS (formerly called Yellow Pages) allows network management 
+of important administrative files (e.g. the password file).</d>
+ <da>2014-02-21 23:43:45</da>
+ <n>Initial beta release
+
+ - Fix build with modern PHP including PHP 5.3, 5.4 and 5.5 [gasolwu]
+ - Build testing environment with vagrants [gasolwu]
+ - Add tests for all public funcctions [gasolwu]</n>
+ <f>8397</f>
+ <g>http://pecl.php.net/get/yp-1.0.0RC1</g>
+ <x xlink:href="package.1.0.0RC1.xml"/>
+</r>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/teds">teds</p>
+ <c>pecl.php.net</c>
+ <v>1.1.0</v>
+ <st>stable</st>
+ <l>BSD-3-Clause</l>
+ <m>tandre</m>
+ <s>Provides extra data structures and iterable/array functionality.</s>
+ <d>teds (Tentative Extra Data Structures) is a collection of data structures and iterable functionality</d>
+ <da>2022-02-19 19:18:44</da>
+ <n>* Fix ImmutableSequence throwing for ArrayAccess shorthand read syntax.
+* Add CachedIterable as an alternative to ImmutableIterable that lazily evaluates Traversable objects passed into the constructor. (e.g. only runs Generators up to the most recently requested offset)
+* Change exception type to `Teds\UnsupportedOperationException` in a few places.
+* Add `Teds\is_same_array_handle(array $array1, array $array2): bool` for infinite recursion detection when processing arrays.
+* Fix memory leak when initializing `Teds\StrictMinHeap`/`Teds\StrictMaxHeap` from Traversables.
+* Fix memory leak when constructing collections from Traversable where rewind throws
+* Use first/last as method names for getting the first and last method names. Keep bottom/top as aliases to be deprecated later.
+* Add first/last helper methods to more collection types
+* Optimize implementations of `$map[$x]` array access shorthand in `Teds\Map` implementations.
+* Throw for `$map[] = $value` instead of setting the key for null in `Teds\Map` implementations.
+* Fix Teds\IntVector and Teds\LowMemoryVector shift implementation for integers
+* Add more methods to Teds\BitSet to read/write bytes/integers, convert to/from strings.</n>
+ <f>258740</f>
+ <g>https://pecl.php.net/get/teds-1.1.0</g>
+ <x xlink:href="package.1.1.0.xml"/>
+</r>

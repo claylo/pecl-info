@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/runkit7">runkit7</p>
+ <c>pecl.php.net</c>
+ <v>4.0.0a3</v>
+ <st>alpha</st>
+ <l>BSD License (3 Clause)</l>
+ <m>tandre</m>
+ <s>Runkit7 : For all those things you.... probably shouldn't have been doing anyway.... but surely do!</s>
+ <d>Replace, rename, and remove user defined functions, methods, and constants.
+Define customized superglobal variables for general purpose use.</d>
+ <da>2021-07-17 18:47:15</da>
+ <n>- Fix edge case copying internal functions in runkit7_function_redefine
+- Avoid conflicts with other extensions that use reserved memory slots for internal function definitions.
+- Fix compilation and test errors in php 8.1
+- Allow using objects in global constants and class constants in php 8.1+ (https://wiki.php.net/rfc/new_in_initializers)
+- Make runkit_constant_redefine fail if the constant does not already exist
+- Make runkit_constant_remove/redefine fail on enum cases (support for modifying enum cases is not implemented)</n>
+ <f>107108</f>
+ <g>https://pecl.php.net/get/runkit7-4.0.0a3</g>
+ <x xlink:href="package.4.0.0a3.xml"/>
+</r>

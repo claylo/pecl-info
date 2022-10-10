@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/apcu">apcu</p>
+ <c>pecl.php.net</c>
+ <v>5.1.20</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>remi</m>
+ <s>APCu - APC User Cache</s>
+ <d>APC User Caching</d>
+ <da>2021-03-04 09:27:53</da>
+ <n>- Fix deadlocks when other apcu_* functions are used inside apcu_entry(). It should now be safe to use any functions inside the apcu_entry() callback.
+- Fix division by zero exception in apc.php.
+- Fix handling of references in PHP 8 if &quot;default&quot; serializer is used (which is not the default).
+- Fix string reuse handling if &quot;default&quot; serializer is used (which is not the default).
+- Check for failures when acquiring read locks to report problems earlier (write locks were already checked previously).
+- Adjust tests for current PHP 8.1 development branch.
+- Remove *_api.h headers. Use apc_cache.h instead of apc_cache_api.h etc.</n>
+ <f>96727</f>
+ <g>https://pecl.php.net/get/apcu-5.1.20</g>
+ <x xlink:href="package.5.1.20.xml"/>
+</r>

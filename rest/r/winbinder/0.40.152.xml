@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/winbinder">WinBinder</p>
+ <c>pecl.php.net</c>
+ <v>0.40.152</v>
+ <st>alpha</st>
+ <l>BSD</l>
+ <m>rubs</m>
+ <s>A Native Windows binding for PHP</s>
+ <d>WinBinder is a new extension that allows PHP programmers to build native Windows applications. It wraps the Windows API in a lightweight, easy-to-use library so that program creation is quick and straightforward.
+</d>
+ <da>2005-05-03 17:40:40</da>
+ <n>******************************************************************************
+*           WARNING: THIS VERSION IS NOT 100% BACKWARDS COMPATIBLE.          *
+*                 SOME CHANGES WILL AFFECT EXISTING CODE!                    *
+******************************************************************************
+
+This release has many advanced features and contains the biggest set of changes since the beginning of the WinBinder project.
+
+New controls: InvisibleArea, Calendar, HyperLink (thanks to Davide)
+Treeviews learned lots of new tricks: associate variables to treeview nodes, expand/collapse nodes, create and delete nodes at will, and more
+Associate integer values to combo boxes and list boxes
+Maximum/minimum window size, resize and reposition controls when main window changes size, fake split windows
+Big changes and enhancements to the documentation and example scripts
+Persistent window drawing mechanism
+Nested tab controls possible
+Several new functions
+New tool for easier script execution
+Lots of fixes and new functionalities
+
+Please make sure you see the changelog.txt and db_changelog.txt for details.
+
+******************************************************************************
+*           WARNING: THIS VERSION IS NOT 100% BACKWARDS COMPATIBLE.          *
+*                 SOME CHANGES WILL AFFECT EXISTING CODE!                    *
+******************************************************************************</n>
+ <f>522770</f>
+ <g>http://pecl.php.net/get/WinBinder-0.40.152</g>
+ <x xlink:href="package.0.40.152.xml"/>
+</r>

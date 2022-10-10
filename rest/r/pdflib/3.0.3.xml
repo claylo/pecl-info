@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pdflib">pdflib</p>
+ <c>pecl.php.net</c>
+ <v>3.0.3</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>rjs</m>
+ <s>Creating PDF on the fly with the PDFlib library</s>
+ <d>This extension wraps the PDFlib programming library
+for processing PDF on the fly, available from PDFlib GmbH
+at http://www.pdflib.com. 
+
+More info on how to use PDFlib with PHP can be found at
+http://www.pdflib.com/developer-center/technical-documentation/php-howto</d>
+ <da>2013-12-30 11:06:55</da>
+ <n>- fixed bug #66346 (undefined reference to `pdf_begin_pattern_ext')</n>
+ <f>26953</f>
+ <g>http://pecl.php.net/get/pdflib-3.0.3</g>
+ <x xlink:href="package.3.0.3.xml"/>
+</r>

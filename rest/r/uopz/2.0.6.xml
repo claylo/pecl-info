@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/uopz">uopz</p>
+ <c>pecl.php.net</c>
+ <v>2.0.6</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>krakjoe</m>
+ <s>User Operations for Zend</s>
+ <d>Doing things you probably shouldn't since 2014</d>
+ <da>2014-10-15 07:48:28</da>
+ <n>fix builds with &gt;= 50600 (zend_is_true changes)</n>
+ <f>28078</f>
+ <g>http://pecl.php.net/get/uopz-2.0.6</g>
+ <x xlink:href="package.2.0.6.xml"/>
+</r>

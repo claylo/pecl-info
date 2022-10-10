@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pdo_ibm">PDO_IBM</p>
+ <c>pecl.php.net</c>
+ <v>1.2.0</v>
+ <st>stable</st>
+ <l>Apache License 2.0</l>
+ <m>kfbombar</m>
+ <s>PDO driver for IBM databases</s>
+ <d>This extension provides an IBM database driver for PDO. This driver supports IBM DB2
+Universal Database, IBM Cloudscape, and Apache Derby databases.
+ 
+</d>
+ <da>2007-08-03 19:24:17</da>
+ <n>New Feature: Added support for lastInsertId() method
+New Feature: Added support for PDO::ATTR_SERVER_INFO connection attribute
+Improved unit test coverage for DB2 and IDS 11</n>
+ <f>66779</f>
+ <g>http://pecl.php.net/get/PDO_IBM-1.2.0</g>
+ <x xlink:href="package.1.2.0.xml"/>
+</r>

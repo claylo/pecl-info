@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/imagick">imagick</p>
+ <c>pecl.php.net</c>
+ <v>0.9.13</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>scottmac</m>
+ <s>Provides a wrapper to the ImageMagick/GraphicsMagick library.</s>
+ <d>It's a native php-extension. 
+        See the examples in the examples/ directory for some hints on how to use it.
+        A compiled windows extension is available at http://pecl4win.php.net/.
+        You need the ImageMagick libraries from www.imagemagick.org or GraphicsMagick libraries from
+        http://www.graphicsmagick.org/ to get it running.
+ 
+</d>
+ <da>2007-04-13 10:30:48</da>
+ <n>- Fixed compile error with newer versions of GraphicsMagick and ImageMagick
+- Fixed assertion when using imagick_setfillcolor
+- Fixed segfault when an empty blob is loaded
+- Use new API for fetching support image formats / fonts</n>
+ <f>71869</f>
+ <g>http://pecl.php.net/get/imagick-0.9.13</g>
+ <x xlink:href="package.0.9.13.xml"/>
+</r>

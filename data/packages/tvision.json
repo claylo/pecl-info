@@ -1,0 +1,24 @@
+{
+    "category": "Console",
+    "deprecated": false,
+    "description": "Turbo Vision is a framework for creating text-mode user interfaces in MS-DOS,\ndeveloped by Borland. Borland shipped Turbo Vision with their Turbo Pascal and\nTurbo C++ compilers. This extension is based on  Unix port of Turbo Vision\nwritten by Sergio Sigala (http://www.sigala.it/sergio/tvision/).",
+    "latestReleaseDate": "2005-04-22T21:50:57+00:00",
+    "latestVersion": "0.1",
+    "license": "BSD License",
+    "name": "tvision",
+    "php8Mentioned": false,
+    "releases": {
+        "0.1": {
+            "version": "0.1",
+            "state": "alpha",
+            "license": "BSD License",
+            "releasedBy": "blindman",
+            "releaseDate": "2005-04-22T21:50:57+00:00",
+            "releaseNotes": "First release",
+            "get": "http://pecl.php.net/get/tvision-0.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        }
+    },
+    "summary": "Turbo Vision wrapper",
+    "SPDX-License-Identifier": "BSD-2-Clause"
+}

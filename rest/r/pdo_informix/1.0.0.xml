@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pdo_informix">PDO_INFORMIX</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0</v>
+ <st>stable</st>
+ <l>Apache License 2.0</l>
+ <m>dbs</m>
+ <s>PDO driver for IBM Informix INFORMIX databases</s>
+ <d>This extension provides an IBM Informix Dynamic Server driver for PDO. To build and run
+PDO_INFORMIX, you must install the Informix Client Software Development Kit (CSDK)
+from http://ibm.com/informix/downloads.html.
+ 
+</d>
+ <da>2005-12-14 14:37:55</da>
+ <n>First stable version of PDO_INFORMIX driver for PDO.
+Note that on Windows, large objects (LOBs) are currently returned as long strings instead of streams.
+Fixed issue where re-executing a statement would crash because column descriptors were being released at the wrong time.
+Fixed the behavior of PDO transactions to comply with PDO spec.
+Fixed bug where PDO::PARAM_LOB was not processed properly causing an exception when binding a string value to a varchar using PDO::PARAM_LOB
+Fixed a bug which caused a crash when binding multiple stream based LOB parameters.
+Fixed how text,binary,clob,blob fields are bound to columns.
+Added feature to allow bound lob columns to return a stream.</n>
+ <f>27771</f>
+ <g>http://pecl.php.net/get/PDO_INFORMIX-1.0.0</g>
+ <x xlink:href="package.1.0.0.xml"/>
+</r>

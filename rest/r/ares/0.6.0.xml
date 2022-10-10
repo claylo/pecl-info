@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ares">ares</p>
+ <c>pecl.php.net</c>
+ <v>0.6.0</v>
+ <st>beta</st>
+ <l>BSD, revised</l>
+ <m>mike</m>
+ <s>Asynchronous Resolver</s>
+ <d>Binding for the ares (MIT) or c-ares (CURL) library.</d>
+ <da>2006-11-07 04:47:59</da>
+ <n>+ Added missing ARES_AF_{INET|INET6} constants
+- Removed useless ARES_OPT_* constants
+* Fixed unrecogized &quot;domains&quot; options entry
+* Fixed byte order of ports: &quot;udp_port&quot;/&quot;tcp_port&quot; options, &quot;port&quot; argument of ares_getaddrinfo()</n>
+ <f>14574</f>
+ <g>http://pecl.php.net/get/ares-0.6.0</g>
+ <x xlink:href="package.0.6.0.xml"/>
+</r>

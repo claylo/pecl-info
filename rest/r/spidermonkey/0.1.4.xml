@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/spidermonkey">spidermonkey</p>
+ <c>pecl.php.net</c>
+ <v>0.1.4</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>crobin</m>
+ <s>JavaScript engine for PHP</s>
+ <d>This extension allow you to embed Mozilla's Javascript engine Spidermonkey in PHP.</d>
+ <da>2010-02-23 07:22:28</da>
+ <n>* Fixed bugs 16866, 16876, 16890, 16983:
+  * Bug 16866: Returning empty string from static function causes segmentation fault
+  * Bug 16876: Empty string as a parameter causes segfault ( same as 16866 )
+  * Bug 16890: Variable is cleaned while being used in JS
+  * Bug 16983: Problems with registering classes containing __get()
+* Added compatibility with spidermonkey 1.9</n>
+ <f>15859</f>
+ <g>http://pecl.php.net/get/spidermonkey-0.1.4</g>
+ <x xlink:href="package.0.1.4.xml"/>
+</r>

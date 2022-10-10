@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/rar">rar</p>
+ <c>pecl.php.net</c>
+ <v>2.0.0RC1</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>cataphract</m>
+ <s>rar extension</s>
+ <d>PHP extension for reading RAR archives using bundled unRAR library.</d>
+ <da>2010-01-17 23:25:05</da>
+ <n>Changes in respect to release 1.0.0:
+PHP SUPPORT:
+- Support for PHP 4.3 dropped. PHP 5.2.x or 5.3.x is required.
+API BACKWARDS INCOMPATIBLE CHANGES:
+- Handles unicode filenames (uses UTF-8 external encoding). The file names inside the RAR archives are always returned in UTF-8. This will probably break your scripts.
+- Calling rar_close/RarArchive::close() invalidates RarEntry objects (actually, only extraction is forbidden, but don't rely on it).
+API backwards compatible changes:
+- Supports streaming from RAR archives. See RarEntry::getStream() method.
+- Added a bunch of constants to RarEntry.
+- Added RarEntry::__toString() method.
+- Added RarEntry::isDirectory() method.
+- Added RarEntry::isEncrypted() method.
+- Added OOP interface for rar_* functions with the RarArchive class.
+- Added rar_comment_get/RarArchive::getComment().
+- Added RarArchive::isSolid()/rar_solid_is().
+- Added RarArchive::__toString() method.
+- Added RarException class.
+- Exception throwing for expectable errors can be turned on by calling RarException::setUsingExceptions(). To check whether exception throwing is turned on, RarException::isUsingExceptions() can be used.
+Bug fixes:
+- Fixed by PECL bug #8821 (relative paths not working).
+- Fixed PECL bug #9470 (wrong CRC on multi-volume archives).
+- Fixed PECL bug #9649 (rar_close() not closing file descriptors if there were undestroyed RarEntry objects)
+- Fixed volumes opened with middle volumes showing files continued from previous volume with incorrect packed and unpacked sizes.
+- Fixed bug in UnRAR library that could cause a read out of buffer bounds on some corrupted RAR files.
+- Fixed RarEntry::getPackedSize() and RarEntry::getUnpackedSize() giving incorrect results for files &gt; 2 GiB. Still, on platforms with 32-bit integers, MAX_INT will be returned for such files, othwerwise the correct value is given.
+Other changes:
+- Updated bundled UnRAR library to version 3.9.7 (RAR 3.9.1).
+- Changed bundled UnRAR library to allow partial file extraction.
+- All RarEntry properties are now private. This doesn't break the API because those properties were never part of the contract.
+- rar_open gives more detailed error messages on failure.
+- Extension now uses extended UnRAR library structures.
+- Added arginfo.
+- Added a bunch of tests.
+- A lot of refactoring and compilation as C, not C++.</n>
+ <f>189411</f>
+ <g>http://pecl.php.net/get/rar-2.0.0RC1</g>
+ <x xlink:href="package.2.0.0RC1.xml"/>
+</r>

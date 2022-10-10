@@ -1,0 +1,54 @@
+{
+    "category": "Networking",
+    "deprecated": false,
+    "description": "Mosquitto provides support for the MQTT protocol, including publishing, subscribing, and an event loop.",
+    "latestReleaseDate": "2017-03-13T21:17:34+00:00",
+    "latestVersion": "0.4.0",
+    "license": "BSD 3-Clause License",
+    "name": "Mosquitto",
+    "php8Mentioned": false,
+    "releases": {
+        "0.4.0": {
+            "version": "0.4.0",
+            "state": "beta",
+            "license": "BSD 3-Clause License",
+            "releasedBy": "mgdm",
+            "releaseDate": "2017-03-13T21:17:34+00:00",
+            "releaseNotes": "* PHP 7 support thanks to Sara Golemon\n* Improved docs hosted on ReadTheDocs\n* Some memory usage fixes",
+            "get": "http://pecl.php.net/get/Mosquitto-0.4.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.3.0": {
+            "version": "0.3.0",
+            "state": "beta",
+            "license": "BSD 3-Clause License",
+            "releasedBy": "mgdm",
+            "releaseDate": "2015-09-02T21:04:50+00:00",
+            "releaseNotes": "* Add missing onPublish callback\n* Improve error handling\n* Better PHPT tests\n* add exitLoop() method to break out of the event loop without disconnecting\n* Move to beta stability",
+            "get": "http://pecl.php.net/get/Mosquitto-0.3.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.2.2": {
+            "version": "0.2.2",
+            "state": "alpha",
+            "license": "BSD 3-Clause License",
+            "releasedBy": "mgdm",
+            "releaseDate": "2014-05-12T10:28:02+00:00",
+            "releaseNotes": "* Add missing unsubscribe method",
+            "get": "http://pecl.php.net/get/Mosquitto-0.2.2",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.2.1": {
+            "version": "0.2.1",
+            "state": "alpha",
+            "license": "BSD 3-Clause License",
+            "releasedBy": "mgdm",
+            "releaseDate": "2013-12-09T15:21:34+00:00",
+            "releaseNotes": "* Fix compatibility with PHP 5.3",
+            "get": "http://pecl.php.net/get/Mosquitto-0.2.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        }
+    },
+    "summary": "Extension for libmosquitto",
+    "SPDX-License-Identifier": "BSD-3-Clause"
+}

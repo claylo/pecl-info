@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/tensor">tensor</p>
+ <c>pecl.php.net</c>
+ <v>2.1.3</v>
+ <st>stable</st>
+ <l>MIT</l>
+ <m>andrewdalpino</m>
+ <s>Tensor is a library and extension that provides objects for scientific computing in PHP.</s>
+ <d>Tensor is a library and extension that provides objects for scientific computing in PHP.</d>
+ <da>2021-02-14 05:22:38</da>
+ <n>No notes</n>
+ <f>5984</f>
+ <g>https://pecl.php.net/get/tensor-2.1.3</g>
+ <x xlink:href="package.2.1.3.xml"/>
+</r>

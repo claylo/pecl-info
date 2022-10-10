@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/molten">Molten</p>
+ <c>pecl.php.net</c>
+ <v>0.1.2beta</v>
+ <st>beta</st>
+ <l>Apache 2.0</l>
+ <m>silkcut</m>
+ <s>molten is transparency tool for application tracing it self module call</s>
+ <d>molten is transparency tool for application tracing it self module call.
+
+     It trace php app core call and output zipkin/opentracing format trace log.
+
+     Provides features about muliti trace sapi, multi sampling type, upload tracing status, module control and muliti sink type.
+
+     It very easy to build a distributed systems tracing infrastructure base on php, already run on thousand instance on production env.</d>
+ <da>2017-08-17 06:35:39</da>
+ <n>molten 0.1.2 beta
+* remove RTLD_NOW build error.</n>
+ <f>68183</f>
+ <g>http://pecl.php.net/get/Molten-0.1.2beta</g>
+ <x xlink:href="package.0.1.2beta.xml"/>
+</r>

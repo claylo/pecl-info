@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ssdeep">ssdeep</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0</v>
+ <st>stable</st>
+ <l>New BSD License</l>
+ <m>treffynnon</m>
+ <s>ssdeep fuzzy hashing for php</s>
+ <d>====================
+
+Requirements
+-------
+
+  - Linux (tested on Ubuntu)
+  - ssdeep (tested with 2.5 built from source)
+  - PHP (tested on 5.3)
+  
+
+Usage
+-------
+
+Three functions are exposed:
+
+  - ssdeep_fuzzy_hash_filename()
+  - ssdeep_fuzzy_hash()
+  - ssdeep_fuzzy_compare()
+
+ssdeep_fuzzy_hash_filename() allows you to supply a path to a file you would like to get a hash of:
+
+    $hash1 = ssdeep_fuzzy_hash_filename('/home/simon/text.text');
+
+
+ssdeep_fuzzy_hash() will return a hash when it is supplied a string:
+
+    $hash2 = ssdeep_fuzzy_hash('A piece of text would go here!');
+
+ssdeep_fuzzy_compare() compares two hashes and returns their match percentage:
+
+    $match = ssdeep_fuzzy_compare($hash1, $hash2);
+
+Also see the test.php file for more examples of how this can be used.
+
+
+Installing the ssdeep package
+-------
+
+I would recommend building ssdeep from source using the [instructions][1] from it's [project site][2]. Once done **you need** to copy `.libs/*` to `/usr/lib` so that the php_ssdeep extension can see the ssdeep libraries.
+
+    sudo cp .libs/* /usr/lib
+
+You can use the packages supplied with Ubuntu or Debian, but they are not yet updated to the latest version of ssdeep.
+
+If you are having trouble building or running the php_ssdeep extension it expects to see the following directory structure:
+
+&gt; /usr/bin/ssdeep
+&gt;
+&gt; /usr/include/fuzzy.h
+&gt;
+&gt; /usr/lib/libfuzzy.a
+&gt;
+&gt; /usr/lib/libfuzzy.la
+&gt;
+&gt; /usr/lib/libfuzzy.so
+&gt;
+&gt; /usr/lib/libfuzzy.so.2
+&gt;
+&gt; /usr/lib/libfuzzy.so.2.0.0
+
+Source: [Ubuntu Karmic file list][3]
+
+
+ssdeep Licensing Exemption
+-------
+
+Although ssdeep and the fuzzy hashing API are usually licensed under GNU GPLv2 Jesse Kornblum has licenced them to PECL under the terms of the Perl Artistic Licence with the following declaration:
+&quot;I hereby license ssdeep, the current version and all subsequent versions, under the terms of the Perl Artistic License, for inclusion into the PECL.&quot;
+See http://news.php.net/php.pecl.dev/7625 for the verbatim email.
+
+
+  [1]: http://ssdeep.sourceforge.net/usage.html#install &quot;ssdeep Installation Instructions&quot;
+  [2]: http://ssdeep.sourceforge.net/ &quot;ssdeep Project Site&quot;
+  [3]: http://packages.ubuntu.com/en/karmic/i386/ssdeep/filelist &quot;Ubuntu Karmic file list for ssdeep&quot;</d>
+ <da>2010-09-15 07:39:03</da>
+ <n>Initial PECL compatible release.</n>
+ <f>13122</f>
+ <g>http://pecl.php.net/get/ssdeep-1.0.0</g>
+ <x xlink:href="package.1.0.0.xml"/>
+</r>

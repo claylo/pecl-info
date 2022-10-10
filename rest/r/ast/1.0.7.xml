@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ast">ast</p>
+ <c>pecl.php.net</c>
+ <v>1.0.7</v>
+ <st>stable</st>
+ <l>BSD-3-Clause</l>
+ <m>tandre</m>
+ <s>Extension exposing PHP 7 abstract syntax tree</s>
+ <d>php-ast exports the AST internally used by PHP 7.
+     php-ast is significantly faster than PHP-Parser, because the AST construction is implemented in C.
+     However, php-ast may only parse code that is syntactically valid on the version of PHP it runs on.</d>
+ <da>2020-07-11 20:51:21</da>
+ <n>- Add the experimental AST version 80
+- In AST version 80, support returning `mixed` types as an `AST_TYPE` with type `TYPE_MIXED` instead of an `AST_NAME`.
+- In AST version 80, support PHP 8.0 attributes for declarations.
+- Support PHP 8.0's Match expressions.
+- Support PHP 8.0 constructor property promotion, and allow indicating visibility on AST nodes.
+  Note that `MODIFIER_PUBLIC` and `ast\AST_PARAM` modifiers had overlap in php 7.4,
+  so the `MODIFIER_*` modifiers are only included in the provided metadata for php 8.0+</n>
+ <f>44524</f>
+ <g>https://pecl.php.net/get/ast-1.0.7</g>
+ <x xlink:href="package.1.0.7.xml"/>
+</r>

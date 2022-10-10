@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ds">ds</p>
+ <c>pecl.php.net</c>
+ <v>1.1.8</v>
+ <st>stable</st>
+ <l>MIT License</l>
+ <m>rtheunissen</m>
+ <s>Data Structures</s>
+ <d>Data Structures for PHP 7</d>
+ <da>2017-03-23 21:13:47</da>
+ <n>- PriorityQueue automatic truncate bug #78
+- Bugs related to unserialization. #77</n>
+ <f>50406</f>
+ <g>http://pecl.php.net/get/ds-1.1.8</g>
+ <x xlink:href="package.1.1.8.xml"/>
+</r>

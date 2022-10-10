@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.37.0</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>sammyk</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2020-01-08 16:54:29</da>
+ <n>### Added
+- Target a specific PHP version during install by setting `DD_TRACE_PHP_BIN` #604
+- Curl Integration: Add all available information from `curl_getinfo()` as span tags #642
+
+### Changed
+- Move dogstatsd client init to rinit #703
+
+### Fixed
+- Issues related to limited tracing #689
+- Backup and restore last error (related to `error_get_last()` issue) #694
+- Handle out-of-sync spans #702
+- Sandbox tracer flushing #707
+- Enhance OpenTracing StartSpanOptions support #708
+- Ensure errors raised in request init hook do not affect `error_get_last()` #709</n>
+ <f>184461</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.37.0</g>
+ <x xlink:href="package.0.37.0.xml"/>
+</r>

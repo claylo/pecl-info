@@ -1,0 +1,24 @@
+{
+    "category": "PHP",
+    "deprecated": false,
+    "description": "A PHP module for generating the AST tree of a PHP source code, useful for\nuserland tools for static code analysis, a preprocessor, meta programming.\n\nSee README.md for further details.",
+    "latestReleaseDate": "2011-09-05T14:23:04+00:00",
+    "latestVersion": "0.0.1",
+    "license": "PHP",
+    "name": "meta",
+    "php8Mentioned": false,
+    "releases": {
+        "0.0.1": {
+            "version": "0.0.1",
+            "state": "alpha",
+            "license": "New BSD License",
+            "releasedBy": "flavius",
+            "releaseDate": "2011-09-05T14:23:04+00:00",
+            "releaseNotes": "Initial import into the PECL directory.",
+            "get": "http://pecl.php.net/get/meta-0.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "Build ASTs and CSTs from PHP source code",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

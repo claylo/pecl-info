@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/riak">riak</p>
+ <c>pecl.php.net</c>
+ <v>0.6.0</v>
+ <st>beta</st>
+ <l>Apache 2</l>
+ <m>kasparp</m>
+ <s>Riak database PHP extension</s>
+ <d>Fast protocol buffers client for Riak database and session module.</d>
+ <da>2013-10-09 14:10:40</da>
+ <n>Improvements:
+    - Added extended bucket properties that can be set and read on riak 1.4 and later.
+    - Enable keep-alive on sockets.
+
+    - New .ini options added:
+     ; Keep sockets alive (recommended)
+     riak.socket.keep_alive=1
+     ; Socket receive timeout [ms]
+     riak.socket.recv_timeout=10000
+     ; Socket send timeout [ms]
+     riak.socket.send_timeout=10000
+
+    - default connection timeout is changed to 1800 seconds.
+
+Bug fixes:
+    - Issue38: Windows build failing</n>
+ <f>110437</f>
+ <g>http://pecl.php.net/get/riak-0.6.0</g>
+ <x xlink:href="package.0.6.0.xml"/>
+</r>

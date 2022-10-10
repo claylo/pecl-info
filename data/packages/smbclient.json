@@ -1,0 +1,114 @@
+{
+    "category": "File System",
+    "deprecated": false,
+    "description": "smbclient is a PHP extension that uses Samba's libsmbclient library to provide\n  Samba related functions and 'smb' streams to PHP programs.",
+    "latestReleaseDate": "2021-02-28T22:46:38+00:00",
+    "latestVersion": "1.0.6",
+    "license": "BSD 2-clause",
+    "name": "smbclient",
+    "php8Mentioned": false,
+    "releases": {
+        "1.0.6": {
+            "version": "1.0.6",
+            "state": "stable",
+            "license": "BSD 2-clause",
+            "releasedBy": "eduardo",
+            "releaseDate": "2021-02-28T22:46:38+00:00",
+            "releaseNotes": "ftruncate implemented on smb_streams by Remi.",
+            "get": "https://pecl.php.net/get/smbclient-1.0.6",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.0.5": {
+            "version": "1.0.5",
+            "state": "stable",
+            "license": "BSD 2-clause",
+            "releasedBy": "eduardo",
+            "releaseDate": "2021-02-11T04:53:23+00:00",
+            "releaseNotes": "Fixes possible segfault in php_smb_ops_close.",
+            "get": "https://pecl.php.net/get/smbclient-1.0.5",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.0.4": {
+            "version": "1.0.4",
+            "state": "stable",
+            "license": "BSD 2-clause",
+            "releasedBy": "eduardo",
+            "releaseDate": "2021-01-22T00:26:32+00:00",
+            "releaseNotes": "Check if smbc_setOptionProtocols is available, as at least one distro might have a libsmbclient that is too old.",
+            "get": "https://pecl.php.net/get/smbclient-1.0.4",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.0.3": {
+            "version": "1.0.3",
+            "state": "stable",
+            "license": "BSD 2-clause",
+            "releasedBy": "eduardo",
+            "releaseDate": "2021-01-21T13:45:13+00:00",
+            "releaseNotes": "Add client min/max protocol to streams, and make either min/max optional.",
+            "get": "https://pecl.php.net/get/smbclient-1.0.3",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.0.2": {
+            "version": "1.0.2",
+            "state": "stable",
+            "license": "BSD 2-clause",
+            "releasedBy": "eduardo",
+            "releaseDate": "2021-01-20T23:23:15+00:00",
+            "releaseNotes": "--- Introduces smbclient_client_protocols() to set min and max protocol for negotiation.",
+            "get": "https://pecl.php.net/get/smbclient-1.0.2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "stable",
+            "license": "BSD 2-clause",
+            "releasedBy": "eduardo",
+            "releaseDate": "2020-12-29T01:06:48+00:00",
+            "releaseNotes": "-- Code fixes for PHP 7.4/8, and memory free, ReadTest added, Travis build updated, and smbclient_state_init documentation fixed.",
+            "get": "https://pecl.php.net/get/smbclient-1.0.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable",
+            "license": "BSD 2-clause",
+            "releasedBy": "eduardo",
+            "releaseDate": "2018-12-24T15:25:52+00:00",
+            "releaseNotes": "- stream optimization: reuse previous connections (Remi)",
+            "get": "https://pecl.php.net/get/smbclient-1.0.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.9.0": {
+            "version": "0.9.0",
+            "state": "stable",
+            "license": "BSD 2-clause",
+            "releasedBy": "eduardo",
+            "releaseDate": "2017-02-10T17:05:16+00:00",
+            "releaseNotes": "- fix gh#47 Incorrect function definition for smbclient_read\n- optimization: enable stream wrapper reusing connections",
+            "get": "http://pecl.php.net/get/smbclient-0.9.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.8.0": {
+            "version": "0.8.0",
+            "state": "stable",
+            "license": "BSD 2-clause",
+            "releasedBy": "eduardo",
+            "releaseDate": "2016-03-01T15:31:27+00:00",
+            "releaseNotes": "- Promoting to stable after almost 3 months with no commits needed.",
+            "get": "http://pecl.php.net/get/smbclient-0.8.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.8.0RC1": {
+            "version": "0.8.0RC1",
+            "state": "beta",
+            "license": "BSD 2-clause",
+            "releasedBy": "eduardo",
+            "releaseDate": "2015-12-08T16:39:25+00:00",
+            "releaseNotes": "- initial PECL release\n- add 'smb' streams support\n- rename extension to smbclient\n- PHP 7 compatibility",
+            "get": "http://pecl.php.net/get/smbclient-0.8.0RC1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        }
+    },
+    "summary": "A PHP wrapper for libsmbclient",
+    "SPDX-License-Identifier": "BSD-2-Clause"
+}

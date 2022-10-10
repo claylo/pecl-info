@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.4.3</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>jmikola</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2018-04-19 14:38:05</da>
+ <n>** Bug
+    * [PHPC-1151] - Possible segfault is Session object is freed before Cursor
+    * [PHPC-1152] - Aggregate may fail to use the same session for getMore commands
+    * [PHPC-1162] - Dumping cursor while iterating with IteratorIterator may segfault
+
+** Task
+    * [PHPC-1136] - Add Appveyor build status badge to readme
+    * [PHPC-1156] - Default to Secure Transport on macOS before OpenSSL
+    * [PHPC-1157] - Upgrade bundled libmongoc and libbson to 1.9.4
+    * [PHPC-1159] - Test on specific server versions in Travis CI
+
+** Improvement
+    * [PHPC-1161] - Free reference to Session once Cursor is exhausted</n>
+ <f>1042883</f>
+ <g>http://pecl.php.net/get/mongodb-1.4.3</g>
+ <x xlink:href="package.1.4.3.xml"/>
+</r>

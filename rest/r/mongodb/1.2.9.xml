@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.2.9</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>jmikola</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundemental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2017-05-04 16:34:49</da>
+ <n>** Bug
+    * [PHPC-940] - php_phongo_free_ssl_opt() attempts to free interned strings
+    * [PHPC-948] - BSON encoding should throw on circular references
+    * [PHPC-949] - Memory leak if Serializable::bsonSerialize() returns keys with null bytes</n>
+ <f>786049</f>
+ <g>http://pecl.php.net/get/mongodb-1.2.9</g>
+ <x xlink:href="package.1.2.9.xml"/>
+</r>

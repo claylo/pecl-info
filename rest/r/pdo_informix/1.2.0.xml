@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pdo_informix">PDO_INFORMIX</p>
+ <c>pecl.php.net</c>
+ <v>1.2.0</v>
+ <st>stable</st>
+ <l>Apache License 2.0</l>
+ <m>kfbombar</m>
+ <s>PDO driver for IBM Informix INFORMIX databases</s>
+ <d>This extension provides an IBM Informix Dynamic Server driver for PDO. To build and run
+PDO_INFORMIX, you must install the Informix Client Software Development Kit (CSDK)
+from http://ibm.com/informix/downloads.html.
+ 
+</d>
+ <da>2008-03-12 15:41:40</da>
+ <n>Added feature to allow set attribute and quote.
+Problem with LOBs has been fixed.
+Segfault when using invalid query with deferred prepare has been fixed.
+Fixed PDO exec API. It return succuss/failure if no rows need to be returned.
+Fixed PDO_INFORMIX variable declarations location problem on Windows.
+Fixed problem with Statement execution (Not throwing an exception).</n>
+ <f>65579</f>
+ <g>http://pecl.php.net/get/PDO_INFORMIX-1.2.0</g>
+ <x xlink:href="package.1.2.0.xml"/>
+</r>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.8.0beta1</v>
+ <st>beta</st>
+ <l>Apache License</l>
+ <m>alcaeus</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2020-04-14 08:01:09</da>
+ <n>** New Feature
+* [PHPC-1483] - MONGODB-AWS Support
+* [PHPC-1484] - Support for allowDiskUse on find operations
+* [PHPC-1494] - Add client metadata support for wrapping libraries
+
+** Task
+* [PHPC-1060] - Automate Atlas connectivity tests
+* [PHPC-1401] - Add mongodb+srv URIs to Atlas Connectivity tests
+* [PHPC-1440] - Bump wire protocol version for 4.4
+* [PHPC-1442] - Remove support for PHP 5.6
+* [PHPC-1478] - Support shorter SCRAM conversation
+* [PHPC-1510] - Expand use of error labels for RetryableWrites
+* [PHPC-1525] - Deprecate oplogReplay find command option from CRUD spec
+
+** Improvement
+* [PHPC-1530] - Make ExceededTimeLimit retryable writes error
+* [PHPC-1561] - Allow hinting the delete command</n>
+ <f>1252716</f>
+ <g>https://pecl.php.net/get/mongodb-1.8.0beta1</g>
+ <x xlink:href="package.1.8.0beta1.xml"/>
+</r>

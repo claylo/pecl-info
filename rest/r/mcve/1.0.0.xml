@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mcve">mcve</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>pajoye</m>
+ <s>libmcve interface</s>
+ <d>Interface the MCVE API (libmcve), allowing you to work directly with MCVE from your PHP scripts. MCVE is Main Street Softworks' solution to direct credit card processing for Unix.</d>
+ <da>2005-09-03 21:23:20</da>
+ <n>Initial PECL release
+No change done, same codebase as in the latest
+PHP release.</n>
+ <f>18552</f>
+ <g>http://pecl.php.net/get/mcve-1.0.0</g>
+ <x xlink:href="package.1.0.0.xml"/>
+</r>

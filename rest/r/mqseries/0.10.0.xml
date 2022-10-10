@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mqseries">mqseries</p>
+ <c>pecl.php.net</c>
+ <v>0.10.0</v>
+ <st>alpha</st>
+ <l>BSD</l>
+ <m>philippe</m>
+ <s>mqseries client library</s>
+ <d>This package provides support for IBM Websphere MQ (MQSeries).</d>
+ <da>2006-04-20 15:28:03</da>
+ <n>Made some changes to the config.m4 configuration file.
+			 It shoud now be possible to build the extention without the MQ Client libraries.
+			 This would enable the transaction posibilities of MQ.
+			 The MQBegin, MQCMit and MQBack function wil now work.
+			 Check the README file for additional build instructions.</n>
+ <f>34168</f>
+ <g>http://pecl.php.net/get/mqseries-0.10.0</g>
+ <x xlink:href="package.0.10.0.xml"/>
+</r>

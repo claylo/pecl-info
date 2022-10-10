@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/bbcode">bbcode</p>
+ <c>pecl.php.net</c>
+ <v>1.0.1</v>
+ <st>stable</st>
+ <l>PHP / BSD</l>
+ <m>void</m>
+ <s>BBCode parsing Extension</s>
+ <d>This is a quick and efficient BBCode Parsing Library.
+  It provides various tag types, high speed tree based parsing,
+  callback system, tag position restriction, Smiley Handling,
+  Subparsing
+  
+  It will force closing BBCode tags in the good order, and closing
+  terminating tags at the end of the string this is in order to ensure
+  HTML Validity in all case.</d>
+ <da>2008-08-17 07:38:57</da>
+ <n>* Corrected a 64bit issue, int were used in place of long
+* Minor optimisations
+* Corrected Thread safe error when compiling (#14333)
+* Corrected MacOSX Header error (#14197)
+* Corrected PHP 5.3 ZVAL_ADDREF change
+* Corrected Callbacks where not freed when using object it was causing a segfault(#13603)
+* Updated bstrlib</n>
+ <f>46302</f>
+ <g>http://pecl.php.net/get/bbcode-1.0.1</g>
+ <x xlink:href="package.1.0.1.xml"/>
+</r>

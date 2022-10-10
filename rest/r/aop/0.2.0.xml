@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/aop">AOP</p>
+ <c>pecl.php.net</c>
+ <v>0.2.0</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>juliens</m>
+ <s>Aspect Oriented Programming On PHP</s>
+ <d>AOP is a PECL extension that enables you to use Aspect Oriented Programming in PHP, without the need to compile or proceed to any other intermediate step before publishing your code.
+
+The AOP extension is designed to be the easiest way you can think of for integrating AOP to PHP.
+
+AOP aims to allow separation of cross-cutting concerns (cache, log, security, transactions, ...)</d>
+ <da>2012-10-11 08:12:42</da>
+ <n>AopTriggeredJoinPoint was renamed AopJoinPoint
+AopJoinPoint-&gt;getTriggering* was renamed AopJoinPoint-&gt;get*
+Updated error messages to be more explicit
+lots of bug fixes
+performances improvements</n>
+ <f>35355</f>
+ <g>http://pecl.php.net/get/AOP-0.2.0</g>
+ <x xlink:href="package.0.2.0.xml"/>
+</r>

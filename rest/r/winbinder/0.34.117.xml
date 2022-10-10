@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/winbinder">WinBinder</p>
+ <c>pecl.php.net</c>
+ <v>0.34.117</v>
+ <st>alpha</st>
+ <l>BSD</l>
+ <m>rubs</m>
+ <s>A Native Windows binding for PHP</s>
+ <d>WinBinder is a new extension that allows PHP programmers to build native Windows applications. It wraps the Windows API in a lightweight, easy-to-use library so that program creation is quick and straightforward.
+</d>
+ <da>2005-01-05 21:25:00</da>
+ <n>- New setup application for easy installation
+- New functions to directly access Windows API
+- Many changes and enhancements to the manual and new overviews
+- New / enhanced PHP code samples
+- New DLLs for PHP versions 5.0.3 and 4.3.10
+- Bug fixes
+- Other changes
+
+Please be sure to check the changelog for the complete list.</n>
+ <f>494060</f>
+ <g>http://pecl.php.net/get/WinBinder-0.34.117</g>
+ <x xlink:href="package.0.34.117.xml"/>
+</r>

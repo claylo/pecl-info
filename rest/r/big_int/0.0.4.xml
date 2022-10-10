@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/big_int">big_int</p>
+ <c>pecl.php.net</c>
+ <v>0.0.4</v>
+ <st>beta</st>
+ <l>see LICENSE</l>
+ <m>valyala</m>
+ <s>big_int library provides a set of functions for calculations with arbitrary length integers</s>
+ <d>This package is useful for number theory applications.
+For example, in two-keys cryptography.
+Ses tests/RSA.php in the package for example of implementation of RSA-like cryptoalgorithm.
+
+Also the package has many bitset functions, which allow to work with arbitrary length bitsets.
+
+This package is much faster than bundled into PHP BCMath.
+It implements almost all functions as in GMP extension,
+but it needn't any additional external libraries.
+</d>
+ <da>2005-02-14 17:58:00</da>
+ <n>package.xml added to support intallation using pear installer</n>
+ <f>60902</f>
+ <g>http://pecl.php.net/get/big_int-0.0.4</g>
+ <x xlink:href="package.0.0.4.xml"/>
+</r>

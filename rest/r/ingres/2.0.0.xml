@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ingres">ingres</p>
+ <c>pecl.php.net</c>
+ <v>2.0.0</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>grant</m>
+ <s>Extension for the Ingres Relational Database System.</s>
+ <d>This extension supports the Ingres Relational Database System.</d>
+ <da>2008-03-11 10:42:40</da>
+ <n>A major overhall for the Ingres extension including the following changes
+ - Support for multiple concurrent result-sets
+ - Automatic coercion between UTF-8 and UTF-16 
+ - Bi-directional scrolling cursors
+ - New functions:
+    - ingres_free_results() - free the memory associated with a given result set
+    - ingres_autocommit_state() - return the current auto-commit state
+    - ingres_next_error() - fetch additional errors if any
+ - Support for building on OpenVMS using HP's CSWS PHP source, README.VMS for
+   more information
+ 
+ As previously noted in the ingres-1.x README(.html) file, the implementation
+ of concurrent resultsets requred a backwards compatibility (bc) break. See 
+ the updated README(.html) for more information regarding this change.</n>
+ <f>58457</f>
+ <g>http://pecl.php.net/get/ingres-2.0.0</g>
+ <x xlink:href="package.2.0.0.xml"/>
+</r>

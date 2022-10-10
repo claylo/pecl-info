@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/sdl_ttf">sdl_ttf</p>
+ <c>pecl.php.net</c>
+ <v>0.3.0</v>
+ <st>alpha</st>
+ <l>PHP License</l>
+ <m>santiagolizardo</m>
+ <s>SDL_ttf bindings for the PHP language</s>
+ <d>SDL_ttf bindings for the PHP language</d>
+ <da>2022-08-02 21:46:43</da>
+ <n>Add TTF_WasInit, TTF_RenderText_Blended and TTF_RenderText_Shaded functions.
+Add dependency on SDL extension on package.xml file (Remi Collet)</n>
+ <f>5864</f>
+ <g>https://pecl.php.net/get/sdl_ttf-0.3.0</g>
+ <x xlink:href="package.0.3.0.xml"/>
+</r>

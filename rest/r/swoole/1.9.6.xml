@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>1.9.6</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+- event-driven
+- asynchronous non-blocking
+- multi-thread reactor
+- multi-process worker
+- multi-protocol
+- millisecond timer
+- async mysql client
+- built-in http/websocket/http2 server
+- async http/websocket client
+- async redis client
+- async task
+- async read/write file system
+- async dns lookup
+- support IPv4/IPv6/UnixSocket/TCP/UDP
+- support SSL/TLS encrypted transmission</d>
+ <da>2017-02-24 07:21:56</da>
+ <n>- Added swoole_mysql::escape method to escape special characters in SQL statements
+- Added support for openssl-1.1
+- Fixed timer crash when more than 10,000 timers were added
+- Added swoole_serialize module, PHP7 under high performance serialization library
+- Fixed swoole_client-&gt;enableSSL method ssl_cert_file and ssl_key_file invalid parameters
+- Added swoole_http_server support for POST multi-level KEY
+- Fixed listening on UDP port setting onPacket invalid issue</n>
+ <f>550874</f>
+ <g>http://pecl.php.net/get/swoole-1.9.6</g>
+ <x xlink:href="package.1.9.6.xml"/>
+</r>

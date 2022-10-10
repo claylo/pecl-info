@@ -1,0 +1,94 @@
+{
+    "category": "Database",
+    "deprecated": false,
+    "description": "This extension is a PHP binding for Google LevelDB",
+    "latestReleaseDate": "2021-02-18T14:15:58+00:00",
+    "latestVersion": "0.3.0",
+    "license": "PHP",
+    "name": "leveldb",
+    "php8Mentioned": false,
+    "releases": {
+        "0.3.0": {
+            "version": "0.3.0",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "dktapps",
+            "releaseDate": "2021-02-18T14:15:58+00:00",
+            "releaseNotes": "- Add support for PHP 7.3, 7.4 and 8.0\n- Fixed assert failures and possible faults involving comparators\n- Deprecate LevelDB->close() (use unset($db) instead, allows more consistent behaviour of iterators and snapshots, and fixes leveldb asserts)\n- Fix wrong arginfo of LevelDBWriteBatch\n- Fix memory errors when google/leveldb was compiled with different compiler options than php-leveldb",
+            "get": "https://pecl.php.net/get/leveldb-0.3.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.1": {
+            "version": "0.2.1",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "reeze",
+            "releaseDate": "2018-03-06T05:47:17+00:00",
+            "releaseNotes": "- PHP7+ compatible release",
+            "get": "http://pecl.php.net/get/leveldb-0.2.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.5": {
+            "version": "0.1.5",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "reeze",
+            "releaseDate": "2015-05-09T11:59:05+00:00",
+            "releaseNotes": "- Fixed pecl installation",
+            "get": "http://pecl.php.net/get/leveldb-0.1.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.4": {
+            "version": "0.1.4",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "reeze",
+            "releaseDate": "2013-08-24T10:20:34+00:00",
+            "releaseNotes": "- Fixed build on some linux for issue #6, pecl bug #65353\n- Compatible with PHP5.5\n- Fixed build break for PHP5.2",
+            "get": "http://pecl.php.net/get/leveldb-0.1.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.3": {
+            "version": "0.1.3",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "reeze",
+            "releaseDate": "2013-02-24T02:13:41+00:00",
+            "releaseNotes": "2013-02-24 - leveldb 0.1.3:\n- 0.1.3 is a version number fix upon 0.1.2 which forgot to\n  remove '-dev' suffix before release",
+            "get": "http://pecl.php.net/get/leveldb-0.1.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.2": {
+            "version": "0.1.2",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "reeze",
+            "releaseDate": "2013-02-24T01:42:29+00:00",
+            "releaseNotes": "2013-02-24 - leveldb 0.1.2\n- Fixed bug when explict specify NULL comparator/snapshot raises exception\n- Fixed memory leaks when sepecify invalid snapshot\n- Fixed memory leaks of LevelDB::get()",
+            "get": "http://pecl.php.net/get/leveldb-0.1.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.1": {
+            "version": "0.1.1",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "reeze",
+            "releaseDate": "2012-11-02T12:06:19+00:00",
+            "releaseNotes": "2012-11-03 - leveldb 0.1.1\n\n+ Fixed bugs:\n\t- Fixed #3 Iterator leaks.",
+            "get": "http://pecl.php.net/get/leveldb-0.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.0": {
+            "version": "0.1.0",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "reeze",
+            "releaseDate": "2012-09-12T09:59:38+00:00",
+            "releaseNotes": "First release",
+            "get": "http://pecl.php.net/get/leveldb-0.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "LevelDB PHP bindings",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

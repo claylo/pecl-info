@@ -1,0 +1,44 @@
+{
+    "category": "Images",
+    "deprecated": false,
+    "description": "Provides a set of classes and functions for grabbing video frames from video capture devices.",
+    "latestReleaseDate": "2010-03-01T07:27:05+00:00",
+    "latestVersion": "0.1.1",
+    "license": "PHP",
+    "name": "framegrab",
+    "php8Mentioned": false,
+    "releases": {
+        "0.1.1": {
+            "version": "0.1.1",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "cyberspice",
+            "releaseDate": "2010-03-01T07:27:05+00:00",
+            "releaseNotes": "Fixed to build on PHP 5.3",
+            "get": "http://pecl.php.net/get/framegrab-0.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1.0": {
+            "version": "0.1.0",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "cyberspice",
+            "releaseDate": "2010-02-28T10:05:58+00:00",
+            "releaseNotes": "- Changed the --enable-framegrab option to --with-framegrab since you specify the PNG library path on the configure line.\n- Changed FrameGrabImage::writePNG() to FrameGrabImage::writeAsPNG().  \n- Added FrameGrabImage::toStringAsPNG() which returns the image as PNG data as a string.  This allows the output to be fed straight in to GD without requiring an intermediate file.",
+            "get": "http://pecl.php.net/get/framegrab-0.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.0.1": {
+            "version": "0.0.1",
+            "state": "alpha",
+            "license": "PHP",
+            "releasedBy": "cyberspice",
+            "releaseDate": "2010-02-26T10:01:27+00:00",
+            "releaseNotes": "Initial version",
+            "get": "http://pecl.php.net/get/framegrab-0.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "A video frame grabber extension",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

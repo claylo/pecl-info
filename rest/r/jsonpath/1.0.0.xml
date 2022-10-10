@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/jsonpath">jsonpath</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>viktor</m>
+ <s>Extract data using JSONPath notation</s>
+ <d>This extension allows you to use the versatile JSONPath query language to extract the properties that you want from a decoded JSON document.</d>
+ <da>2022-03-20 09:52:28</da>
+ <n>## Changes
+
+## Bug fixes
+- Issue #158 - Skip child filter check on non-arrays @mkaminski1988 (#159)
+- Issue #156 - Bubble up filter parsing error @mkaminski1988 (#157)
+
+## Maintenance
+- Remove alpha suffix from PECL install command as we release version 1.0.0 @crocodele (#162)
+- Add documentation to describe the notation, along with more examples @crocodele (#160)
+- Include PHP 8.2 nightly as a version for test runs on Linux @crocodele (#161)</n>
+ <f>52173</f>
+ <g>https://pecl.php.net/get/jsonpath-1.0.0</g>
+ <x xlink:href="package.1.0.0.xml"/>
+</r>

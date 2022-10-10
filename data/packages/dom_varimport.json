@@ -1,0 +1,54 @@
+{
+    "category": "XML",
+    "deprecated": false,
+    "description": "The extension converts nested PHP arrays and objects into DOMDocument.\n  Some of projects use XSLT as a templating engine. To build XML for such engines,\n  we need a very fast and memory efficient way to convert PHP nested arrays and\n  objects into DOMDocument object. Also, produced XML should be straight-forward\n  and as simple as it could be (BTW XMLRPC, SOAP and other XML-based formats are quite\n  sloppy in this case). So dom_varimport has been introduced: it produces DOMDocument\n  from a nested array near 20 times faster than a hand-made code in native PHP\n  (1 MB XML with thousands of nodes could be generated in 1-2 ms).",
+    "latestReleaseDate": "2015-08-05T14:15:18+00:00",
+    "latestVersion": "1.11.3",
+    "license": "PHP",
+    "name": "dom_varimport",
+    "summary": "Convert nested arrays into DOMDocument",
+    "php8Mentioned": false,
+    "releases": {
+        "1.11.3": {
+            "version": "1.11.3",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "dmitrykoterov",
+            "releaseDate": "2015-08-05T14:15:18+00:00",
+            "releaseNotes": "** Minor\n    * Typos in config.m4, fix test files role [remicollet]\n    * Relax a little test 003 - may help with tests \"false-negatives\" [remicollet]\n    * Update README, link to TravisCI integration",
+            "get": "http://pecl.php.net/get/dom_varimport-1.11.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.11.2": {
+            "version": "1.11.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "dmitrykoterov",
+            "releaseDate": "2015-08-04T12:29:53+00:00",
+            "releaseNotes": "** Bug\n    * @attribute: rare bug with numeric keys processing, more errors checks and tests",
+            "get": "http://pecl.php.net/get/dom_varimport-1.11.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.11.1": {
+            "version": "1.11.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "dmitrykoterov",
+            "releaseDate": "2015-08-04T10:12:38+00:00",
+            "releaseNotes": "** Typo\n    * Remove an outdated test (expired after the version is migrated from README to package.xml)",
+            "get": "http://pecl.php.net/get/dom_varimport-1.11.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.11.0": {
+            "version": "1.11.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "dmitrykoterov",
+            "releaseDate": "2015-08-04T09:47:17+00:00",
+            "releaseNotes": "** New Feature\n    * Special key @attributes to set predefined attributes, ability to populate DOMElement [Dimasik]\n    * Support for different types in @attributes array [Dimasik]\n    * Tests for special attribute and DOMElement [Dimasik]\n    * Enable Win32 build (ZTS support)",
+            "get": "http://pecl.php.net/get/dom_varimport-1.11.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

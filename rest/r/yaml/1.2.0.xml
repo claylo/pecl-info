@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/yaml">yaml</p>
+ <c>pecl.php.net</c>
+ <v>1.2.0</v>
+ <st>stable</st>
+ <l>MIT</l>
+ <m>bd808</m>
+ <s>YAML-1.1 parser and emitter</s>
+ <d>Support for YAML 1.1 (YAML Ain't Markup Language) serialization using the
+  LibYAML library.</d>
+ <da>2015-05-18 15:05:22</da>
+ <n>New Features:
+- #69617 Allow unserialize for !php/object to be disabled
+
+  New yaml.decode_php ini setting to enable/disable serialized php object
+  processing. Deployments relying on !php/object are encouraged to
+  explicitly set yaml.decode_php=1 as default will change to disabled in
+  a future release.
+
+Bugs Fixed:
+- Honour --with-libdir
+- Fix package.xml schema validation
+- Add const for pointers where possible
+- Explicitly cast emalloc returns
+- #69465 Resolve quoted and non-specific scalars as strings
+- #69616 Fix double free when unserialize fails</n>
+ <f>38606</f>
+ <g>http://pecl.php.net/get/yaml-1.2.0</g>
+ <x xlink:href="package.1.2.0.xml"/>
+</r>

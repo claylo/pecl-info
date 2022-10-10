@@ -1,0 +1,13 @@
+{
+    "category": "PHP",
+    "deprecated": false,
+    "description": "this ActiveScript SAPI allows you to embed PHP into your Windows applications via the MS Scripting control, Windows Scripting Host or any other ActiveScript aware host application.",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "PHP",
+    "name": "PHPScript",
+    "summary": "Allows you to use PHP as an ActiveScript engine from within other applications",
+    "php8Mentioned": false,
+    "releases": [],
+    "SPDX-License-Identifier": "PHP-3.01"
+}

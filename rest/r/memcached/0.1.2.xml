@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/memcached">memcached</p>
+ <c>pecl.php.net</c>
+ <v>0.1.2</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>andrei</m>
+ <s>PHP extension for interfacing with memcached via libmemcached library</s>
+ <d>This extension uses libmemcached library to provide API for communicating with memcached servers.</d>
+ <da>2009-02-06 14:19:23</da>
+ <n>- Fix bug #15896 (Memcached setMulti error).
+- Check for empty key in getServerByKey().
+- Allow passing 'null' for callbacks.
+- get() with cas token fetching wasn't erroring out properly.
+- Rename certain parameters in the API to be more clear.
+- Allow only strings as the append/prepend value.
+- Remove expiration parameter from append/prepend.</n>
+ <f>19588</f>
+ <g>http://pecl.php.net/get/memcached-0.1.2</g>
+ <x xlink:href="package.0.1.2.xml"/>
+</r>

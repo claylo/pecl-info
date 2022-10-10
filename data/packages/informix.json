@@ -1,0 +1,13 @@
+{
+    "category": "Database",
+    "deprecated": false,
+    "description": "Informix driver",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "PHP License 3.01",
+    "name": "informix",
+    "summary": "Informix driver",
+    "php8Mentioned": false,
+    "releases": [],
+    "SPDX-License-Identifier": "PHP-3.01"
+}

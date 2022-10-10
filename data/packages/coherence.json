@@ -1,0 +1,13 @@
+{
+    "category": "Caching",
+    "deprecated": false,
+    "description": "Provides native access to Coherence caches for PHP applications and out-of-the-box support for resilient in-memory HTTP session caching",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "PHP",
+    "name": "coherence",
+    "php8Mentioned": false,
+    "releases": [],
+    "summary": "Extension for Oracle Coherence",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

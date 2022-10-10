@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.4.15</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in tcp/http/websocket/http2 server
+        - coroutine tcp/http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2020-01-15 10:30:33</da>
+ <n>Enhancement
+---
++ Bad websocket handshake request will respond 400 (fdc1cb67) (@twose)
++ Disable accept when have too many connections (dd9fbf2f) (@matyhtf)
++ Binary security of package_eof (#3054) (@twose)
++ Support HTTP chunked request (#3055) (@twose)
++ Unified naming style and improve accessibility of Curl\Handler properties (library/curl) (@twose)
+
+Fixed
+---
+* Fixed Http\Response-&gt;close (d30e3269) (@twose)
+* Fixed possible memory overflow (2212e091) (@twose)
+* Fixed memory error when MSHUTDOWN (undestroyed reactor) (78d6dd73) (@twose)
+* Fixed handler of event HUP (#3046) (@matyhtf) (@twose)
+* Fixed exit code 1 (f982b817) (@matyhtf) (@twose) (@qiqizjl)
+* Fixed missing &quot;unhook curl_multi_getcontent&quot; (7b2e960e) (@twose)
+* Fixed Coroutine HTTP2 Server memory error (d90eebe6) (@twose)
+* Fixed http_context_send_data (#3059) (@twose)
+* Fixed send_yield in BASE mode (edbb654d) (1b8096e9) (@twose)
+* Refactor HTTP2 Server to fix some bugs (#3061) (@twose)
+* Fixed behaviour of CURLOPT_POSTFIELDS, CURLOPT_HTTPHEADER, curl_close (library/curl) (@twose)</n>
+ <f>1454897</f>
+ <g>https://pecl.php.net/get/swoole-4.4.15</g>
+ <x xlink:href="package.4.4.15.xml"/>
+</r>

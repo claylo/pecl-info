@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/crypto">crypto</p>
+ <c>pecl.php.net</c>
+ <v>0.2.0</v>
+ <st>devel</st>
+ <l>PHP 3.01</l>
+ <m>bukka</m>
+ <s>Wrapper for OpenSSL Crypto Library</s>
+ <d>This package provides an objective wrapper for OpenSSL Crypto Library</d>
+ <da>2015-11-15 18:44:39</da>
+ <n>* Support for PHP 7
+* Added Crypto stream BIO wrapper
+* Improved error handling
+* Added an integer overflow checking
+* Removed Algorithm class and AlogirithmException class
+* Introduced a MAC class as a subclass of Hash and parent of HMAC and CMAC
+* Added MACException class subclassing HashException
+* Fixed HMAC and CMAC implementation and added key param to constructor
+* Fixed and tested CCM mode
+* Added new error code for failed tag verification (TAG_VERIFY_FAILED)
+* Add setTagLength Cipher method replacing length param in getTag
+* Removed Rand::egd
+* Created a complete API documentation</n>
+ <f>66235</f>
+ <g>http://pecl.php.net/get/crypto-0.2.0</g>
+ <x xlink:href="package.0.2.0.xml"/>
+</r>

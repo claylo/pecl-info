@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ev">ev</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0RC2</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>osmanov</m>
+ <s>Provides interface to libev library</s>
+ <d>ev provides interface to libev library - high performance
+  full-featured event loop written in C.</d>
+ <da>2015-11-22 12:08:32</da>
+ <n>Fix: EvChild::set() parameter parsing (thanks to Remi)
+Fix: issue #16 where get_properties handler failed with segmentation fault
+Fix: issue #17 where EgSignal::$signum property always returned NULL
+Fix: EvStat::$path property always returned NULL</n>
+ <f>124873</f>
+ <g>http://pecl.php.net/get/ev-1.0.0RC2</g>
+ <x xlink:href="package.1.0.0RC2.xml"/>
+</r>

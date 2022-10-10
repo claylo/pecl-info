@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pdo_cubrid">PDO_CUBRID</p>
+ <c>pecl.php.net</c>
+ <v>8.3.1.0003</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>cubrid</m>
+ <s>CUBRID driver for PDO</s>
+ <d>This extension provides a CUBRID driver for PDO.</d>
+ <da>2011-04-08 03:49:04</da>
+ <n>Fixed bugs:
+
+- fix a bug about BLOB/CLOB: When inserting LOB data, if the data size is large
+enough, it will fails. If the LOB data is in a file, and it is too large to be
+put into memory, you can bind a file path name when binding the LOB data.</n>
+ <f>19335</f>
+ <g>http://pecl.php.net/get/PDO_CUBRID-8.3.1.0003</g>
+ <x xlink:href="package.8.3.1.0003.xml"/>
+</r>

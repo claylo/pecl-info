@@ -1,0 +1,84 @@
+{
+    "category": "PHP",
+    "deprecated": false,
+    "description": "Call callbacks before or after specified functions/methods being called.\n\nFor PHP 5.3, use version 0.3.0alpha\nFor PHP 5.2 and 5.1, use version 0.2.5",
+    "latestReleaseDate": "2010-11-08T10:37:40+00:00",
+    "latestVersion": "0.3.0alpha",
+    "license": "New BSD",
+    "name": "funcall",
+    "summary": "Add callbacks for any function/method",
+    "php8Mentioned": false,
+    "releases": {
+        "0.3.0alpha": {
+            "version": "0.3.0alpha",
+            "state": "alpha",
+            "license": "New BSD",
+            "releasedBy": "surfchen",
+            "releaseDate": "2010-11-08T10:37:40+00:00",
+            "releaseNotes": "Added PHP 5.3 support\nfixed bug #14849\nfixed bug #16553\nfixed bug #16999",
+            "get": "http://pecl.php.net/get/funcall-0.3.0alpha",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.2.5": {
+            "version": "0.2.5",
+            "state": "stable",
+            "license": "New BSD",
+            "releasedBy": "surfchen",
+            "releaseDate": "2008-11-24T11:06:51+00:00",
+            "releaseNotes": "add eval support\nfixed bugs about include*/require*",
+            "get": "http://pecl.php.net/get/funcall-0.2.5",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.2.4": {
+            "version": "0.2.4",
+            "state": "stable",
+            "license": "New BSD",
+            "releasedBy": "surfchen",
+            "releaseDate": "2008-11-02T21:31:30+00:00",
+            "releaseNotes": "fixed memory leaks",
+            "get": "http://pecl.php.net/get/funcall-0.2.4",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.2.3": {
+            "version": "0.2.3",
+            "state": "stable",
+            "license": "New BSD",
+            "releasedBy": "surfchen",
+            "releaseDate": "2008-10-17T07:28:45+00:00",
+            "releaseNotes": "add include*/require* support\n    fixed bug",
+            "get": "http://pecl.php.net/get/funcall-0.2.3",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.2.2": {
+            "version": "0.2.2",
+            "state": "stable",
+            "license": "New BSD",
+            "releasedBy": "surfchen",
+            "releaseDate": "2008-09-11T22:18:18+00:00",
+            "releaseNotes": "add ZTS support",
+            "get": "http://pecl.php.net/get/funcall-0.2.2",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.2.1": {
+            "version": "0.2.1",
+            "state": "stable",
+            "license": "New BSD",
+            "releasedBy": "surfchen",
+            "releaseDate": "2008-04-07T23:49:13+00:00",
+            "releaseNotes": "Bug fixed release",
+            "get": "http://pecl.php.net/get/funcall-0.2.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "0.2": {
+            "version": "0.2",
+            "state": "stable",
+            "license": "New BSD",
+            "releasedBy": "surfchen",
+            "releaseDate": "2008-04-03T14:01:35+00:00",
+            "releaseNotes": "First stable release",
+            "get": "http://pecl.php.net/get/funcall-0.2",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        }
+    },
+    "SPDX-License-Identifier": "BSD-3-Clause"
+}

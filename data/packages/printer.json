@@ -1,0 +1,13 @@
+{
+    "category": "System",
+    "deprecated": false,
+    "description": "Printer allows drawing (text, lines, ellipse, paging, etc.) and spool controlling operation using a printer device on Windows.",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "PHP License 2.02",
+    "name": "printer",
+    "summary": "Extension to control a printer or or draw to printer device on Windows",
+    "php8Mentioned": false,
+    "releases": [],
+    "SPDX-License-Identifier": "verify"
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/rdkafka">rdkafka</p>
+ <c>pecl.php.net</c>
+ <v>4.0.1</v>
+ <st>stable</st>
+ <l>MIT License</l>
+ <m>lbarnaud</m>
+ <s>Kafka client based on librdkafka</s>
+ <d>This extension is a librdkafka binding providing a working client for Kafka</d>
+ <da>2019-12-08 10:07:26</da>
+ <n>BREAKING CHANGE: Since version 4.0, the client no longer polls for network
+events at shutdown (during object destructor). This behaviour didn't give
+enough control to the user in case of server issue, and could cause the script
+to hang while terminating.
+
+Starting from 4.0, programs MUST call flush() before shutting down, otherwise
+some messages and callbacks may be lost.
+
+## Features
+
+* Added RdKafka\ConsumerTopic::consumeCallback() (#310, @nick-zh)
+
+## Enhancements
+
+* Run integration tests in CI (#223, @Steveb-p)
+* Improved README (#295 #297 #298, #307 @Steveb-p @sndsgd @nick-zh)
+* Fix windows test cases (#296, @cmb69)
+* Add testsuite in pecl archive (#291, @remicollet)
+* Add editor config (#308, @Steveb-p)
+
+## Bugfixes
+
+* Fix build (#290, @nick-zh)
+* Fix segfault during module shutdown (#293, @arnaud-lb @nick-zh)
+* Fix RdKafka\Topic visibility in PHP 7.4 (#316, @nick-zh)
+* Fix headers memory management in producev (#318 , @nick-zh)
+* Fix partition number in error (#321, @nick-zh)</n>
+ <f>39253</f>
+ <g>https://pecl.php.net/get/rdkafka-4.0.1</g>
+ <x xlink:href="package.4.0.1.xml"/>
+</r>

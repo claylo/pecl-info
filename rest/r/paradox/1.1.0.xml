@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/paradox">paradox</p>
+ <c>pecl.php.net</c>
+ <v>1.1.0</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>steinm</m>
+ <s>An extension to read Paradox files</s>
+ <d>Paradox is an extension to read Paradox .DB and .PX files.
+It has experimental write support which should be handled
+with care.
+</d>
+ <da>2004-05-14 10:30:00</da>
+ <n>Major overhaul of extension</n>
+ <f>10647</f>
+ <g>http://pecl.php.net/get/paradox-1.1.0</g>
+ <x xlink:href="package.1.1.0.xml"/>
+</r>

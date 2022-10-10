@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/memcached">memcached</p>
+ <c>pecl.php.net</c>
+ <v>0.2.0</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>andrei</m>
+ <s>PHP extension for interfacing with memcached via libmemcached library</s>
+ <d>This extension uses libmemcached library to provide API for communicating with memcached servers.</d>
+ <da>2009-06-04 19:51:31</da>
+ <n>- Refactor the way payload types are stored in memcached flags to optimize the structure
+  and allow for future expansion. WARNING! You have to flush the cache when upgrading from
+  an older version.
+- Add JSON serializer support, requires PHP 5.2.10+.
+- Add HAVE_JSON and HAVE_IGBINARY class constants that indicate whether the respective
+  serializers are available.
+- Add 'flags' parameter to getMulti() and getMultiByKey().
+- Add GET_PRESERVE_ORDER class constant that can be used with abovementioned flags
+  parameter to make the order of the keys in the response match the request.
+- Fix an issue with retrieving 0-length payloads (FALSE boolean value).
+- Add several tests.</n>
+ <f>21910</f>
+ <g>http://pecl.php.net/get/memcached-0.2.0</g>
+ <x xlink:href="package.0.2.0.xml"/>
+</r>

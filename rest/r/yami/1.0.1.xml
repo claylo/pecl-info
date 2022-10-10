@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/yami">yami</p>
+ <c>pecl.php.net</c>
+ <v>1.0.1</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>va</m>
+ <s>Lightweight inter-object communication infrastructure</s>
+ <d>This binding allows PHP programs to communicate with servers
+    written using YAMI, opening up a wide range of possibilities.
+
+    YAMI (http://msobczak.com/prog/yami/concept/) is a tiny library
+    that provides lightweight inter-object communication infrastructure.
+    There are only three concepts that one need to understand (Domain,
+    Agent,Message) in order to write high performance servers (and clients)
+    in C/C++.</d>
+ <da>2007-07-24 09:52:15</da>
+ <n>- First release to PECL
+- This build was compiled for PHP version 5.2.1
+- The extension should compile for PHP 4.x as well</n>
+ <f>68173</f>
+ <g>http://pecl.php.net/get/yami-1.0.1</g>
+ <x xlink:href="package.1.0.1.xml"/>
+</r>

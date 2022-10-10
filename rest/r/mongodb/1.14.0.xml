@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.14.0</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>jmikola</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2022-07-16 21:04:49</da>
+ <n>** Bug
+    * [PHPC-2088] - Memory leak in php_phongo_zval_to_bson_value
+    * [PHPC-2089] - Various bson_value_t memory leaks in ClientEncryption methods
+    * [PHPC-2098] - phongo_clientencryption_init uses wrong signature when compiling without CSFLE
+
+** Epic
+    * [PHPC-2045] - FLE 1.0 Shared Library
+    * [PHPC-2091] - Queryable Encryption Support
+
+** New Feature
+    * [PHPC-1899] - getServerConnectionId for command monitoring events
+    * [PHPC-2005] - Support 'let' option for multiple CRUD commands
+    * [PHPC-2049] - BulkWrite and Query support comment option of any type
+    * [PHPC-2085] - autoEncryption options for queryable encryption
+    * [PHPC-2092] - ClientEncryption options for queryable encryption
+    * [PHPC-2096] - Implement Manager::getEncryptedFieldsMap()
+    * [PHPC-2097] - Enable ClientEncryption constructor
+
+** Task
+    * [PHPC-2053] - Remove mongodb.mock_service_id INI option
+    * [PHPC-2078] - Allow PECL release-upload.php to verify version constants
+    * [PHPC-2086] - Test against MongoDB 6.0
+    * [PHPC-2090] - Add MongoDB 5.0 to load balancer CI matrix
+    * [PHPC-2099] - Add crypt_shared to CI matrix as an alternative to mongocryptd
+    * [PHPC-2109] - Document Queryable Encryption API as &quot;Public Technical Preview&quot;
+
+** Improvement
+    * [PHPC-2087] - Bump maxWireVersion for MongoDB 6.0
+    * [PHPC-2094] - Relay command comment when constructing a cursor
+    * [PHPC-2104] - EncryptOpts queryType should accept a string consistent with queryType in encryptedFields</n>
+ <f>1712383</f>
+ <g>https://pecl.php.net/get/mongodb-1.14.0</g>
+ <x xlink:href="package.1.14.0.xml"/>
+</r>

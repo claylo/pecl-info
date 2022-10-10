@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pecl_http">pecl_http</p>
+ <c>pecl.php.net</c>
+ <v>2.1.0RC1</v>
+ <st>beta</st>
+ <l>BSD, revised</l>
+ <m>mike</m>
+ <s>Extended HTTP Support</s>
+ <d>This HTTP extension aims to provide a convenient and powerful 
+set of functionality for one of PHPs major applications.
+
+It eases handling of HTTP urls, headers and messages, provides 
+means for negotiation of a client's preferred content type, 
+language and charset, as well as a convenient way to send any 
+arbitrary data with caching and resuming capabilities.
+
+It provides powerful request functionality with support for
+parallel requests.
+
+Documentation:
+v1: http://php.net/http
+v2: http://devel-m6w6.rhcloud.com/mdref/http
+
+Code Coverage:
+v1: http://dev.iworks.at/ext-http/lcov_html/ext/http/
+v2: http://dev.iworks.at/ext-http/lcov/ext/http/</d>
+ <da>2014-08-01 04:52:56</da>
+ <n>* Fixed bug #67733 (Compile error with libevent 2.x)
++ Added RFC5987 support in http\Params
++ Improved synthetic HTTP message parsing performace for ~20%
++ Added request options if libcurl has builtin c-ares support:
+  dns_interface, dns_local_ip4, dns_local_ip6 (all libcurl &gt;= 7.33.0)
++ Added request options:
+  expect_100_timeout (libcurl &gt;= 7.36.0)
+  tcp_nodelay
++ Added transfer info:
+  tls_session (libcurl &gt;= 7.34.0), only available during transfer</n>
+ <f>158884</f>
+ <g>http://pecl.php.net/get/pecl_http-2.1.0RC1</g>
+ <x xlink:href="package.2.1.0RC1.xml"/>
+</r>

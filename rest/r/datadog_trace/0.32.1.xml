@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.32.1</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>sammyk</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2019-10-10 10:46:58</da>
+ <n>### Added
+
+- Preview CodeIgniter v2 integration #588
+- Preview WordPress v4 integration #570
+
+Please report any issues you encounter with these two preview integrations.
+
+### Fixed
+
+- ZF1 integration response after loading #609
+- Prevent `mysqli_connect()` span from closing twice #610
+- Support mysqli usage when using real_connect approach #607</n>
+ <f>165775</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.32.1</g>
+ <x xlink:href="package.0.32.1.xml"/>
+</r>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/runkit7">runkit7</p>
+ <c>pecl.php.net</c>
+ <v>3.0.0RC1</v>
+ <st>alpha</st>
+ <l>BSD License (3 Clause)</l>
+ <m>tandre</m>
+ <s>Runkit7 : For all those things you.... probably shouldn't have been doing anyway.... but surely do!</s>
+ <d>Replace, rename, and remove user defined functions, methods, and constants.
+Define customized superglobal variables for general purpose use.</d>
+ <da>2019-06-01 00:23:25</da>
+ <n>Runkit7 3.0 finishes changing this extension's name from &quot;runkit&quot; to &quot;runkit7&quot;.
+THIS WILL REQUIRE CHANGES TO YOUR BUILD SCRIPTS AND PHP.INI FILES.
+This change was made at the request of PECL admins, to comply with naming and packaging standards.
+
+- The compiled shared object name has been changed from `runkit.so` to `runkit7.so` (Mac/Linux) and `php_runkit.dll` to `php_runkit7.dll` (Windows)
+  (php.ini files should be changed to reference `extension=runkit7.so` or `extension=php_runkit7.dll`)
+- The configure flag names have been changed from flags such as `--enable-runkit` / `--enable-runkit-modify` to `--enable-runkit7` / `--enable-runkit7-modify`
+- Code using `extension_loaded('runkit')` should be changed to `extension_loaded('runkit7')` (as well as uses of ReflectionExtension, etc.)
+- The ini options `runkit.superglobal` and `runkit.internal_override` are unaffected.
+
+Changes in 3.0.0RC1
+- Update documentation
+- Remove RUNKIT_VERSION</n>
+ <f>114885</f>
+ <g>https://pecl.php.net/get/runkit7-3.0.0RC1</g>
+ <x xlink:href="package.3.0.0RC1.xml"/>
+</r>

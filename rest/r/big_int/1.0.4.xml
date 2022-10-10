@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/big_int">big_int</p>
+ <c>pecl.php.net</c>
+ <v>1.0.4</v>
+ <st>stable</st>
+ <l>see LICENSE</l>
+ <m>valyala</m>
+ <s>big_int library provides a set of functions for calculations with arbitrary length integers and bitsets</s>
+ <d>Functions from this package are useful for number theory
+applications. For example, in two-keys cryptography.
+
+See /tests/RSA.php in the package for example of simple
+implementation of RSA-like cryptoalgorithm.
+See http://chat.finalcombat.com/vayala/big_int/ page for
+more complex implementation of RSA-like crypto, which
+supports key generating, encrypting/decrypting, signing
+and validating of sign.
+
+The package has many bitset functions, which allow to work
+with arbitrary length bitsets.
+
+This package is much faster than bundled into PHP BCMath
+and consists almost all functions, which are implemented
+in PHP GMP extension, but it needn't any external libraries.
+</d>
+ <da>2005-04-19 11:50:48</da>
+ <n>* fixed bugs in php_big_int.vcproj and php_big_int.c, which fails package building under MSVC.NET.
++ fresh binaries of the package were uploaded on http://chat.finalcombat.com/valyala/big_int/ . It is available to download unix and windows binaries for PHP4.3.10, PHP4.3.11, PHP5.0.3 and PHP5.0.4.</n>
+ <f>45631</f>
+ <g>http://pecl.php.net/get/big_int-1.0.4</g>
+ <x xlink:href="package.1.0.4.xml"/>
+</r>

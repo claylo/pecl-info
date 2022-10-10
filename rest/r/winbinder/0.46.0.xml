@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/winbinder">WinBinder</p>
+ <c>pecl.php.net</c>
+ <v>0.46.0</v>
+ <st>alpha</st>
+ <l>BSD License</l>
+ <m>sfrausch</m>
+ <s>A Native Windows Binding for PHP</s>
+ <d>WinBinder is a new extension that allows PHP programmers to build native Window applications. It wraps the Windows API in a lightweight, easy-to-use library, so that program creation is quick and straightforward.</d>
+ <da>2006-06-08 19:49:48</da>
+ <n>This is the last maintenance release of the alpha branch. WinBinder now does fully support the following PHP versions: 4.3.10 up to 4.4.2 and 5.0.3 up to 5.1.4.
+
+HIGHLIGHTS:
+
+- added the new Form Editor (FE) developed by Rubem and removed the old Layout Editor (LE)
+
+ENHANCEMENTS:
+
+- improved PHP version checking in winbinder.php
+
+- In PHP.INI for version 5.0 and 5.1: added E_STRICT flag to entry error_reporting
+
+- created PHP 5.1.1 path and project files for lcc-win32
+
+- added and optional extra parameter (usually called $lparam3) to window callback functions. This was done via wbCallUserFunction()
+
+- on windows that have the WBC_RESIZE style, $lparam3 (in the callback function) now receives the size of the client area as a LONG. Usually a call to wb_get_size($window, true) would produce the same effect, but it's there anyway to take advantage of the new $lparam3
+
+- Changes in make_release.phpw:
+
+. even less &quot;USER PARAMETERS&quot; to set up (7 strings only)
+. force DEBUG = False in wb_setup.pas
+. slight adjustments in screen layout
+. more adjustments to include PHP 5.1.1 files
+. checks if zip file was actually generated
+. other changes
+
+- small changes in welcome.phpw
+
+- examples/hyperlink.phpw: changed to show &quot;finger&quot; cursor and underlined text
+
+- examples/printer.phpw: added example how to print directly from a WinBinder enabled application
+
+- resources/wb.ico: added new WinBinder icon
+
+BUG FIXES:
+
+- wb_generic.inc.php: functions generate_ini and parse_ini do now handle double quotes correctly; fixed missing escaping of the '$' character
+
+- wb_windows.inc.php: function wb_set_selected now processes check boxes in menu items as it should; wb_get_text() now returns an array with the whole contents of a ListView control, as stated in the manual - did return null instead
+
+- solved memory leak that occurred on every function call: added some extra calls to efree() in function wbCallUserFunction() in module phpwb_wb_lib.c
+
+- wb_control.c: Rectified wb_set_range() slider TBM_SETRANGEMAX action and other aspects of this function
+
+- WBC_MOUSEMOVE messages were not being sent in certain situations
+
+- InvisibleArea was subclassed to process and send WM_MOUSEMOVE messages to the callback
+
+- wb_refresh() (and wbRefreshControl()):
+
+. completely rewrote the whole function
+. default value of parameter 'now' was changed to TRUE
+. now it invalidates and redraws only a part of the screen or control when (still undocumented) xpos/ypos/width/height parameters are passed to it. Was buggy prior to this release.
+. probably a bit faster for most operations
+. if the wb_refresh() command is issued and the xpos/ypos/width/height are set, the window callback function (in PHP) receives a pointer to rectangle (About to change! Should be the area instead, and an array would be great.) as $lparam3. If wb_refresh() acts on the whole window, $lparam3 is zero.
+
+  Dimensions should be obtained from $lparam3
+  as follows:
+
+  $address = wb_peek($lparam3, 16);
+  $num = unpack('L4n', $address);
+  $xpos = $num['n1'];
+  $ypos = $num['n2'];
+  $width = $num['n3'] - $xpos;
+  $height = $num['n4'] - $ypos;
+
+- Added handling of the official PHP 4.4.2 bug reported at http://bugs.php.net/bug.php?id=36671 and regarding the function file_get_contents in examples/welcome.phpw
+
+- Changes in make_release.phpw:
+
+. now correctly handles/saves the new version no. structure
+
+- Changes in setup:
+
+. many changes and corrections to wb_setup.iss (PHP 5.0 and 5.1, freeimage.dll, etc.)
+. separated the script section from wb.iss into wb_setup.pas. A separate file allows correct syntax highlighting in a code editor and allows testing script changes without leaving ISTool (Inno Setup UI)
+. other changes
+
+OTHER ACTIVITIES
+
+- updated the PHP 4 engine and the respective extensions to 4.4.2
+
+- removed the redundant PHP binaries and accompanying files (not the extensions) for 5.0.5 and 5.1.2
+
+- uploaded new &quot;minimal&quot; PHP 4.4.2, 5.0.5 and 5.1.2 versions as well as the respective extensions to SF
+
+For further enhancements and bug fixes since the last official release 0.43.164 see the change log.</n>
+ <f>1079790</f>
+ <g>http://pecl.php.net/get/WinBinder-0.46.0</g>
+ <x xlink:href="package.0.46.0.xml"/>
+</r>

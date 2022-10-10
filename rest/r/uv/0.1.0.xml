@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/uv">uv</p>
+ <c>pecl.php.net</c>
+ <v>0.1.0</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>bwoebi</m>
+ <s>libuv wrapper</s>
+ <d>uv provides access to underlying libuv functions</d>
+ <da>2016-11-01 17:30:51</da>
+ <n>- initial pecl release</n>
+ <f>50883</f>
+ <g>http://pecl.php.net/get/uv-0.1.0</g>
+ <x xlink:href="package.0.1.0.xml"/>
+</r>

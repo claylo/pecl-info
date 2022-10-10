@@ -1,0 +1,142 @@
+{
+    "category": "Web Services",
+    "deprecated": false,
+    "description": "Service Data Objects (SDOs) enable PHP applications to work with data from different sources (typically a database query or an XML file) using a single interface. SCA for PHP allows a PHP programmer to write reusable components (classes) in PHP, which can be called either locally, or in a a variety of ways remotely (soap web services, xml-rpc, json-rpc, REST, etc), but always with the same interface.",
+    "latestReleaseDate": "2008-03-04T05:54:09+00:00",
+    "latestVersion": "1.2.4",
+    "license": "Apache 2.0",
+    "name": "SCA_SDO",
+    "summary": "Service Component Architecture (SCA) and Service Data Objects (SDO) for PHP",
+    "php8Mentioned": false,
+    "releases": {
+        "1.2.4": {
+            "version": "1.2.4",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "mfp",
+            "releaseDate": "2008-03-04T05:54:09+00:00",
+            "releaseNotes": "# The ability to control the operations on a service interface through a PHP interface \n     by specifying the PHP interface on the @service annotation - e.g. @service MyServiceInterface\n # PECL bug 11997 - don't remove xsi:type (except on top level soap message or response)\n # PECL bug 11996 - not showing LIBXML2 parse errors\n # PECL bug 12193 - alphabetical order of namespaces causes failure\n # PECL bug 12103 - saveString doesn't encode entities \n # PECL bug 12443 - unable to access an XSD property containing a hyphen (-) \n # PECL bug 13101 - Repeated nill elements of extended type cause \"Parser found unknown element\" exception\n # Fix to add wsdl namespace prefix to <types> element in WSDL, without which it will not validate. \n # Fix for Tuscany AccessViolation problem when serializing a DO\n # Backward-compatible updates to SDO extension so that it will work with PHP 5.3\n # Backward-compatible updates to SCA so that it will work with PHP 5.3. \n # Fix for failures that occur when using the soap extension - see thread \"SCA Webservice in WSDL mode\"\n # Substantial rework of the examples to illustrate more bindings - see examples/SCA/index.html",
+            "get": "http://pecl.php.net/get/SCA_SDO-1.2.4",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.2.3": {
+            "version": "1.2.3",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "mfp",
+            "releaseDate": "2007-08-24T11:00:08+00:00",
+            "releaseNotes": "* Fixes for PECL bugs:\n   - TUSCANY-1362 - Incorrect operation of code that checks whether schema is loaded before going out on the net to retrieve it.\n   - TUSCANY-1112 - (which is PECL 9867)  Incorrect namespaces in generated XML\n   - TUSCANY-1564 - (which is PECL 11774) xsi:type not always set for complexType\n   - TUSCANY-1566 - Elements coming out in wrong namespace (found by Caroline and reported in the phpsoa group under \"Experiences with Atompub\"\n * Other:\n   - Pick up revision 568244 of Tuscany SDO code.\n   - There is a new Rest Resource binding, with tests and examples.\n   - There is a new simpledb binding with examples",
+            "get": "http://pecl.php.net/get/SCA_SDO-1.2.3",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.2.2": {
+            "version": "1.2.2",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "mfp",
+            "releaseDate": "2007-06-22T11:16:25+00:00",
+            "releaseNotes": "* Fixes for PECL bugs:\n   - PECL#10925 - Don't treat magic PHP methods as service operations\n   - PECL#10989 - don't automatically make all types in the wsdl nillable\n   - PECL#10994 - Business Exceptions Data Returned to Client\n   - PECL#11004 - WSDL Generated Does Not Validate\n   - PECL#11012 - Visual Studio Consumption of SCA Generated WSDL\n * Other:\n   - Pick up revision 546761 of Tuscany SDO code.\n   - Include new eBay soap binding\n   - Tactical version of the in memory caching of the data model enabled for eBay binding\n   - Unit tests keep going to conclusion even when extensions are missing\n   - Added the eServiceStore example - shows several components which can be make local or\n     remote with only a swift change of the @binding annotations.",
+            "get": "http://pecl.php.net/get/SCA_SDO-1.2.2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.2.1": {
+            "version": "1.2.1",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "mfp",
+            "releaseDate": "2007-05-11T13:39:47+00:00",
+            "releaseNotes": "* Fix for spaces in service description URLs (pecl defect #11006).\n * Experimental support for service names following the PEAR coding standard\n * Experimental support for a manual service request dispatching interface on SCA.php",
+            "get": "http://pecl.php.net/get/SCA_SDO-1.2.1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.2.0": {
+            "version": "1.2.0",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "mfp",
+            "releaseDate": "2007-05-04T13:17:53+00:00",
+            "releaseNotes": "* Pluggable bindings support\n    This support is all in the core. There are now fewer files in the SCA directory and all code specific to a given binding (local, soap, jsonrpc etc.) goes in a subdirectory under the Bindings subdirectory. The SCA core code now just knows how to use the SCA_BindingsFactory object to pull in the classes it needs to service an incoming request. The names of the desired classes are derived from the annotations e.g. if a component has an @binding.soap annotation, the SCA core code will look in SCA/Bindings/soap for the classes it needs. This is probably of limited interest unless you plan to write a binding of your own. We plan an article to describe how this works.\n\n* Refactored bindings based on the pluggable binding support:\n    o jsonrpc\n    o local (php to php binding)\n    o restrpc (RPC based on HTTP GET or POST)\n    o soap (SOAP web services)\n    o xmlrpc \n\n* Latest drop of SDO code from Tuscany (currently revision level 532769) including:\n    o performance enhancements\n    o set of fixes to DataObject destructor to eliminate crashes when the graph is not freed in the default order\n\n* Updates to SDO extension:\n    o fix memory leak from SDO_DataObject (depends on Tuscany fixes above)\n    o add debug trace macros for debugging memory allocation\n    o new signature for SDO_DAS_XML::create() allows an array of schema files to be passed in\n\n* Bug fixes \n    o http://pecl.php.net/bugs/bug.php?id=8428\n    o http://pecl.php.net/bugs/bug.php?id=9243\n    o http://pecl.php.net/bugs/bug.php?id=9487\n    o http://pecl.php.net/bugs/bug.php?id=9991\n    o http://pecl.php.net/bugs/bug.php?id=10049\n             \n* Examples\n    o More SCA examples that exercise some of the new bindings, and some of the old, including HelloWorlds and Email scenarios.",
+            "get": "http://pecl.php.net/get/SCA_SDO-1.2.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.1.2": {
+            "version": "1.1.2",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "cem",
+            "releaseDate": "2007-02-07T05:20:42+00:00",
+            "releaseNotes": "Fix for bug #9845 - Relational DAS is failing when one parent and two children\nChanged from namespaceURI.type to namespaceURI#type (conform to spec)\nUpdate to Apache Tuscany C++ SDO revision level 495327 (namespace fixes, performance improvements)",
+            "get": "http://pecl.php.net/get/SCA_SDO-1.1.2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.1.1": {
+            "version": "1.1.1",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "cem",
+            "releaseDate": "2006-12-08T09:28:27+00:00",
+            "releaseNotes": "Fix for bug #9498 - invalid WSDL generation\nFix for bug 9426 - printing open types\nUpdate to Apache Tuscany C++ SDO revision level 483149 - includes various fixes for sequenced and open data types.",
+            "get": "http://pecl.php.net/get/SCA_SDO-1.1.1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.1.0": {
+            "version": "1.1.0",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "cem",
+            "releaseDate": "2006-11-24T09:41:31+00:00",
+            "releaseNotes": "This is the first release under the new project name SCA_SDO (renamed from SDO).\nThe rename reflects the fact that this project now implements the Service Component Architecture (SCA)\n(see http://osoa.org/display/PHP/SCA+with+PHP for more information).\nThe project's stable state refers to the SDO component.\nThe SCA component is currently alpha quality and experimental.\nThe main changes since 1.0.4 are:\n - inclusion of the Service Component Architecture (SCA) component\n - new PEAR packaging to install SCA and SDO as peer directories (PEAR/SCA and PEAR/SDO)\n - update to Apache Tuscany C++ SDO revision level 478193\n - new function in SDO_DAS_Relational to support multiple root data objects\n - new function in SDO_DAS_XML to support CDATA sections (not yet complete)\n - fixes for bugs #9287, #9289, #9339",
+            "get": "http://pecl.php.net/get/SCA_SDO-1.1.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.0.4": {
+            "version": "1.0.4",
+            "state": "stable"
+        },
+        "1.0.3": {
+            "version": "1.0.3",
+            "state": "stable"
+        },
+        "1.0.2": {
+            "version": "1.0.2",
+            "state": "stable"
+        },
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "stable"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable"
+        },
+        "0.9.0": {
+            "version": "0.9.0",
+            "state": "beta"
+        },
+        "0.7.1": {
+            "version": "0.7.1",
+            "state": "beta"
+        },
+        "0.7.0": {
+            "version": "0.7.0",
+            "state": "beta"
+        },
+        "0.6.1": {
+            "version": "0.6.1",
+            "state": "beta"
+        },
+        "0.5.2": {
+            "version": "0.5.2",
+            "state": "beta"
+        },
+        "0.5.1": {
+            "version": "0.5.1",
+            "state": "beta"
+        },
+        "0.5.0": {
+            "version": "0.5.0",
+            "state": "beta"
+        }
+    },
+    "SPDX-License-Identifier": "Apache-2.0"
+}

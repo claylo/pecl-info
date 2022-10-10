@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/bbcode">bbcode</p>
+ <c>pecl.php.net</c>
+ <v>0.10.3</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>void</m>
+ <s>BBCode parsing Extension</s>
+ <d>This is a quick and efficient BBCode Parsing Library.
+  It provides various tag types, high speed one pass parsing,
+  callback system, tag position restriction.
+  
+  It will force closing BBCode tags in the good order, and closing
+  terminating tags at the end of the string this is in order to ensure
+  HTML Validity in all case.</d>
+ <da>2007-10-08 07:58:31</da>
+ <n>* Corrected a possible Double Free off tag arguments.
+* Corrected a possible Segmentation Fault on incorrect close tags.
+** Corrected incorrect detection of close tags when ] was missing at the end of the string.
+* Added efree for smileys initialisation that was leading to runtime leaking.
+* Make the DISABLE_TREE_BUILD work +added test
+* Added BBCODE_FLAGS_DENY_REOPEN_CHILD to permits some tags to Deny child reopening
+* Added BBCODE_SMILEYS_CASE_INSENSITIVE to permits case insensitive smileys detection
+* Corrected Memory leaking of smileys strings.
+* Makes bbcode_set_flags work correctly.</n>
+ <f>44631</f>
+ <g>http://pecl.php.net/get/bbcode-0.10.3</g>
+ <x xlink:href="package.0.10.3.xml"/>
+</r>

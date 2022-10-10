@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/handlebars">handlebars</p>
+ <c>pecl.php.net</c>
+ <v>0.8.2RC1</v>
+ <st>beta</st>
+ <l>BSD-2-Clause</l>
+ <m>jbboehr</m>
+ <s>Handlebars templating language</s>
+ <d>This extension embeds a Handlebars interpreter into PHP, allowing the execution of Handlebars templates.</d>
+ <da>2017-06-07 22:02:59</da>
+ <n>Initial PECL release</n>
+ <f>36860</f>
+ <g>http://pecl.php.net/get/handlebars-0.8.2RC1</g>
+ <x xlink:href="package.0.8.2RC1.xml"/>
+</r>

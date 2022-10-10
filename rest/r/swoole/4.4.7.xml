@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.4.7</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in http/websocket/http2 server
+        - coroutine http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2019-09-25 07:58:58</da>
+ <n>Enhancement
+---
++ Support thread context (9214411c) (@matyhtf)
++ Generate a warning if the channel has producers or consumers when the program exits (b9f37d9c) (@twose)
+
+Fixed
+---
+* Fixed reactor send bug (a1dc95f5) (@matyhtf)
+* Fixed event init bug (907c84b3) (@matyhtf)
+* Fixed crash on Cygwin (cfb74793) (@matyhtf)
+* Fixed wrong length of string (c4f97993) (@twose)</n>
+ <f>1432871</f>
+ <g>https://pecl.php.net/get/swoole-4.4.7</g>
+ <x xlink:href="package.4.4.7.xml"/>
+</r>

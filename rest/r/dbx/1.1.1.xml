@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/dbx">dbx</p>
+ <c>pecl.php.net</c>
+ <v>1.1.1</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>hirokawa</m>
+ <s>Database abstraction functions</s>
+ <d>The dbx module is a database abstraction layer. The dbx functions allow
+you to access all supported databases using a single calling convention.
+The dbx-functions themselves do not interface directly to the databases,
+but interface to the modules that are used to support these databases.
+The currently supported databases are MySQL, ODBC, Oracle (oci8), MS SQL
+Server, PostgreSQL, FrontBase, Sybase-CT and SQLite. The
+module-dependencies are only for the databases you wish to use.</d>
+ <da>2011-08-11 09:54:41</da>
+ <n>- fixed build error on PHP 5.x.</n>
+ <f>31315</f>
+ <g>http://pecl.php.net/get/dbx-1.1.1</g>
+ <x xlink:href="package.1.1.1.xml"/>
+</r>

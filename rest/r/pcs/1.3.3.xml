@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pcs">pcs</p>
+ <c>pecl.php.net</c>
+ <v>1.3.3</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>francois</m>
+ <s>PHP Code Service</s>
+ <d>PCS provides a fast and easy way to mix C and PHP code in your PHP extension.
+
+PHP code can be embedded in the compiled module or distributed as a separate file tree.
+
+Compatibility : PHP 5 (5.3+) and 7</d>
+ <da>2017-01-20 14:31:48</da>
+ <n>* Fix issue #8 : 1.3.2 missing file in archive
+* Fix compile warning in PHP 5.x</n>
+ <f>53574</f>
+ <g>http://pecl.php.net/get/pcs-1.3.3</g>
+ <x xlink:href="package.1.3.3.xml"/>
+</r>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ev">ev</p>
+ <c>pecl.php.net</c>
+ <v>0.2.8</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>osmanov</m>
+ <s>Provides interface to libev library</s>
+ <d>ev provides interface to libev library - high performance
+  full-featured event loop written in C.</d>
+ <da>2013-07-21 08:22:56</da>
+ <n>Fix: segmentation fault in EvLoop/EvWatcher dtors caused by reference variables stored in 'data' property
+Fix: EvLoop/EvWatcher object dtors sometimes didn't free the 'data' member until the script shutdown phase
+Fix: get_properties property handler was not implemented for PHP &gt;= 5.4.0</n>
+ <f>94349</f>
+ <g>http://pecl.php.net/get/ev-0.2.8</g>
+ <x xlink:href="package.0.2.8.xml"/>
+</r>

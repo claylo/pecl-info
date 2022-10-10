@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/amqp">amqp</p>
+ <c>pecl.php.net</c>
+ <v>1.9.4</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>lstrojny</m>
+ <s>Communicate with any AMQP compliant server</s>
+ <d>This extension can communicate with any AMQP spec 0-9-1 compatible server, such as RabbitMQ, OpenAMQP and Qpid, giving you the ability to create and delete exchanges and queues, as well as publish to any exchange and consume from any queue.</d>
+ <da>2019-01-02 13:41:51</da>
+ <n>* Improved build environment (Olivier Dolbeau)
+* Various bug fixes and improvements (Bogdan Padalko, yjqg6666)
+* Support for PHP 7.3 (Remi Collet)
+
+For a complete list of changes see:
+https://github.com/pdezwart/php-amqp/compare/v1.9.3...v1.9.4</n>
+ <f>102604</f>
+ <g>https://pecl.php.net/get/amqp-1.9.4</g>
+ <x xlink:href="package.1.9.4.xml"/>
+</r>

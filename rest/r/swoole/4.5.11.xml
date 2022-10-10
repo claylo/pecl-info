@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.5.11</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in tcp/http/websocket/http2 server
+        - coroutine tcp/http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2021-01-11 10:51:08</da>
+ <n>Enhancement
+---
+* Optimize table (#3959) (@matyhtf)
+* Enhancement CURLOPT_PROXY (swoole/library#87) (@sy-records)
+
+Fixed
+---
+* Clear all columns when incr and decr (#3956) (@matyhtf)
+* Fixed compile error (49fea171) (@matyhtf)
+* Fixed fread bugs (#3972) (@matyhtf)
+* Fixed openssl thread safety issue (7ee2c1a0) (@matyhtf)
+* Fixed Invalid argument supplied for foreach (swoole/library#80) (@sy-records)
+* Fixed trigger_error param error (swoole/library#86) (@sy-records)</n>
+ <f>1554142</f>
+ <g>https://pecl.php.net/get/swoole-4.5.11</g>
+ <x xlink:href="package.4.5.11.xml"/>
+</r>

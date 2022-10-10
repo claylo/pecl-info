@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE package SYSTEM "http://pear.php.net/dtd/package-1.0">
+<package version="1.0" packagerversion="1.4.4">
+ <name>operator</name>
+ <summary>Operator overloading for Objects</summary>
+ <description>Operator overloading for +, -, *, /, %, &lt;&lt;, &gt;&gt;, ., |, &amp;, ^, ~, !, ++, -- += -= *= /= %= &lt;&lt;= &gt;&gt;= .= |= &amp;= ^= and ~= operators.
+ </description>
+ <maintainers>
+  <maintainer>
+   <user>pollita</user>
+   <name>Sara Golemon</name>
+   <email>pollita@php.net</email>
+   <role>lead</role>
+  </maintainer>
+  </maintainers>
+ <release>
+  <version>0.2</version>
+  <date>2006-01-25</date>
+  <license>PHP</license>
+  <state>beta</state>
+  <notes>* Added support for pre/post inc/dec operators
+* Added support for assignment operators
+* Refactored opline-&gt;result handling
+* Refactored opcode handlers
+  </notes>
+  <filelist>
+   <file role="doc" md5sum="484a9936718663d13ae88d23228c6fdb" name="CREDITS"/>
+   <file role="doc" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="EXPERIMENTAL"/>
+   <file role="src" md5sum="9b5262c94a62ae6c057a9170a1f475db" name="config.m4"/>
+   <file role="src" md5sum="0fac1f0bf8938228d2f506e60869db59" name="config.w32"/>
+   <file role="src" md5sum="b9443589c811d840f7f44f6d342fe3c7" name="operator.c"/>
+   <file role="src" md5sum="27b9a7c900b6ed6291a13b27f2088fa0" name="php_operator.h"/>
+   <file role="test" md5sum="fa163fd1da77bf6f9a80c9850ff3b8ed" name="tests/unary.phpt"/>
+   <file role="test" md5sum="daf9869f9adda1653dd31d784b2adeb4" name="tests/binary.phpt"/>
+   <file role="test" md5sum="3b363f38aa94c901f5bab09a7099b351" name="tests/incdec.phpt"/>
+   <file role="test" md5sum="8c20811a85133fb817c0cbf851a3c4da" name="tests/binary_assign.phpt"/>
+   <file role="test" md5sum="b918477d16a65a7f0d90d5638ed0e764" name="tests/binary_assign_objdim.phpt"/>
+  </filelist>
+ </release>
+ <changelog>
+   <release>
+    <version>0.1</version>
+    <date>2006-01-12</date>
+    <state>beta</state>
+    <notes>Initial Release
+    </notes>
+   </release>
+ </changelog>
+</package>

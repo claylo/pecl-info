@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/varnish">varnish</p>
+ <c>pecl.php.net</c>
+ <v>0.6</v>
+ <st>alpha</st>
+ <l>BSD</l>
+ <m>ab</m>
+ <s>Varnish Cache bindings</s>
+ <d>Varnish Cache is an open source, state of the art web application accelerator. The extension makes it possible to interact with a running varnish instance through TCP socket or shared memory.</d>
+ <da>2011-08-28 11:55:22</da>
+ <n>- VarnishAdmin
+	* VarnishAdmin:ban() bases on the vcl ban commando
+	* VarnishAdmin::banUrl() bases on the vcl ban.url commando
+	* Arguments are passed to the varnish as given, which is probably a better idea than parsing
+                	them on the php side one more time. The return status value can be used to check if the command
+	was successful.
+	* improved VarnishAdmin::isRunning()
+- added VarnishLog class
+	* VarnishLog::getLine()
+	* VarnishLog::getTagName()
+	* Varnish log tag list
+	* Can now read log records from a running varnishd SHM. Not sure, whether more functionality would be sensible, as it requires to run as daemon.</n>
+ <f>26555</f>
+ <g>http://pecl.php.net/get/varnish-0.6</g>
+ <x xlink:href="package.0.6.xml"/>
+</r>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/v8">v8</p>
+ <c>pecl.php.net</c>
+ <v>0.1.2</v>
+ <st>stable</st>
+ <l>The MIT License (MIT)</l>
+ <m>pinepain</m>
+ <s>V8 JavaScript engine API for PHP</s>
+ <d>This extension brings V8 JavaScript engine API to PHP with some abstraction in mind and provides an accurate native V8 C++ API implementation available from PHP.</d>
+ <da>2017-02-18 15:04:23</da>
+ <n>This release adds script compilation and caching. Also more new methods added and some internal logic refactored.
+See detailed changes below.
+
+As of this release, V8 &gt;= 5.8.168 required.
+
+* - BC-breaking or potentially BC-breaking changes.
+
+Changes to public API and other important changes which may affect end-user:
+
+    - * Add $is_wasm and $is_module options to V8\ScriptOriginOptions and V8\ScriptOrigin;
+    - * Remove non-standard V8\Scrip::{getSource,getOrigin};
+    - * Remove V8\ObjectValue::{Get,Set,Has,Delete,CreateDataProperty}Indexed methods;
+    - * Remove non-working V8\Context extensions support;
+    - * Handle V8\IntegerValue sub-types when returning values from V8, fixes #19;
+    - Add V8\UnboundScript class;
+    - Add V8\ScriptCompiler\CachedData class;
+    - Add V8\ScriptCompiler\CompileOptions class;
+    - Add V8\ScriptCompiler\Source class;
+    - Add V8\ScriptCompiler;
+    - Add V8\SymbolValue::GetToPrimitive() method;
+    - Add V8\Value::IsNullOrUndefinedl() method;
+    - Add more V8\Value::Is*() methods;
+    - Add V8\MapObject;
+    - Add V8\SetObject;
+    - Fix obj and func templates external memory adjusting.</n>
+ <f>183064</f>
+ <g>http://pecl.php.net/get/v8-0.1.2</g>
+ <x xlink:href="package.0.1.2.xml"/>
+</r>

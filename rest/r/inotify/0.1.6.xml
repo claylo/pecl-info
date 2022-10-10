@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/inotify">inotify</p>
+ <c>pecl.php.net</c>
+ <v>0.1.6</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>lbarnaud2</m>
+ <s>Inotify</s>
+ <d>The inotify extension allows to use inotify functions in a PHP script.</d>
+ <da>2012-05-04 05:52:09</da>
+ <n>* Repackage
+* Stable</n>
+ <f>8568</f>
+ <g>http://pecl.php.net/get/inotify-0.1.6</g>
+ <x xlink:href="package.0.1.6.xml"/>
+</r>

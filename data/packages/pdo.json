@@ -1,0 +1,15 @@
+{
+    "category": "Database",
+    "deprecated": true,
+    "description": "Do not use this, as PDO has been moved into core (the php source) so this pecl extension is dead.\n\nPDO provides a uniform data access interface, sporting advanced features such\nas prepared statements and bound parameters.  PDO drivers are dynamically\nloadable and may be developed independently from the core, but still accessed\nusing the same API.",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "PHP",
+    "name": "PDO",
+    "summary": "PHP Data Objects Interface.",
+    "php8Mentioned": false,
+    "releases": [],
+    "new_channel": "http://svn.php.net/viewvc/php/php-src/trunk/ext/pdo/",
+    "new_package": "ext/PDO",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

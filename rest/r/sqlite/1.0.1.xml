@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/sqlite">SQLite</p>
+ <c>pecl.php.net</c>
+ <v>1.0.1</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>wez</m>
+ <s>SQLite database bindings</s>
+ <d>SQLite is a C library that implements an embeddable SQL database engine.
+Programs that link with the SQLite library can have SQL database access
+without running a separate RDBMS process.
+This extension allows you to access SQLite databases from within PHP.
+Windows binary available from:
+http://snaps.php.net/win32/PECL_STABLE/php_sqlite.dll
+</d>
+ <da>2004-01-17 00:52:00</da>
+ <n>Upgraded libsqlite to version 2.9.11
+Fixed crash bug in module shutdown
+Fixed crash with empty queries
+Fixed column name mangling bug</n>
+ <f>358366</f>
+ <g>http://pecl.php.net/get/SQLite-1.0.1</g>
+ <x xlink:href="package.1.0.1.xml"/>
+</r>

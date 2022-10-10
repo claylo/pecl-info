@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/imagick">imagick</p>
+ <c>pecl.php.net</c>
+ <v>3.6.0RC2</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>danack</m>
+ <s>Provides a wrapper to the ImageMagick library.</s>
+ <d>Imagick is a native php extension to create and modify images using the ImageMagick API.
+This extension requires ImageMagick version 6.5.3-10+ and PHP 5.4.0+.</d>
+ <da>2021-11-11 15:06:12</da>
+ <n>- Fixes:
+  * Remove deprecated message from Imagick::roundCorners()
+- Added:
+  * Imagick::addNoiseImageWithAttenuate()</n>
+ <f>351447</f>
+ <g>https://pecl.php.net/get/imagick-3.6.0RC2</g>
+ <x xlink:href="package.3.6.0RC2.xml"/>
+</r>

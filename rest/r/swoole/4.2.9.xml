@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.2.9</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in http/websocket/http2 server
+        - coroutine http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2018-11-26 06:58:05</da>
+ <n>+ Add Coroutine defer feature
+* Fixed max_connection can not be bigger than 10k bug (#2134)
+* Fixed prepare bug after query 'CALL' (#2132)
+* Fixed sendfile EAGAIN bug in MacOS (60023b7)
+* Improve onReceive/onPacket callback check
+* Use fast call info cache always
+* Remove cidmap, cid will never be reused again
+* Fixed socket construct failed core dump
+* Fixed process wait bug
+* Fixed swServer_signal_handler (#2145)
+* Fixed typo on Swoole\\MsgQueue::destroy
+* Fixed http2 huge headers bug
+* Fixed hiredis error msg buffer overflow (#2149)</n>
+ <f>1220045</f>
+ <g>https://pecl.php.net/get/swoole-4.2.9</g>
+ <x xlink:href="package.4.2.9.xml"/>
+</r>

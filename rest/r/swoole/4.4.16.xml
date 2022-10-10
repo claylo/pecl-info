@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.4.16</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in tcp/http/websocket/http2 server
+        - coroutine tcp/http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2020-02-19 06:48:14</da>
+ <n>Enhancement
+---
++ Now you can get [Supported Versions of Swoole](https://github.com/swoole/swoole-src/blob/master/SUPPORTED.md) (@twose)
++ More friendly error messages (0412f442) (09a48835) (@twose)
++ Prevent endless loops that may occur in some special systems (069a0092) (@matyhtf)
++ Add driver in PDOConfig (swoole/library#8) (@jcheron)
+
+Fixed
+---
+* Fixed http2_session.default_ctx double free (bddbb9b1) (@twose)
+* Fixed uninitialized http_context (ce77c641) (@twose)
+* Fixed typo in Table (may lead to memory errors) (db4eec17) (@twose)
+* Fixed status error when kill USR2 and no set task_num (e4378278) (@GXhua)
+* Fixed incomplete raw-content of HTTP request (#3079) (#3085) (@hantaohuang)
+* Fixed static handler (when the file content is empty, server should respond 404) (#3084) (@Yurunsoft)
+* Fixed http_compression_level not work (16f9274e) (@twose)
+* Fixed null pointer error of Coroutine HTTP2 Server caused by no handle (ed680989) (@twose)
+* Fixed option socket_dontwait not work (27589376) (@matyhtf)
+* Fixed double zend::eval (#3099) (@GXhua)
+* Fixed HTTP2 Server null pointer error (respond after connection is closed) (#3110) (@twose)
+* Fixed PDOStatementProxy::setFetchMode missing arguments (swoole/library#13) (@jcheron)</n>
+ <f>1457270</f>
+ <g>https://pecl.php.net/get/swoole-4.4.16</g>
+ <x xlink:href="package.4.4.16.xml"/>
+</r>

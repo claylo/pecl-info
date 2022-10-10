@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/htscanner">htscanner</p>
+ <c>pecl.php.net</c>
+ <v>0.9.0</v>
+ <st>alpha</st>
+ <l>PHP License</l>
+ <m>pajoye</m>
+ <s>htaccess support for PHP</s>
+ <d>Allow one to use htaccess-like file to configure PHP
+per directory, just like apache's htaccess. It is especially useful with fastcgi (ISS5/6/7, lighttpd, etc.).
+This package was originally developed by Bart Vanbrabant. Old versions are available
+ from: http://files.zoeloelip.be/htscanner</d>
+ <da>2009-03-03 19:54:34</da>
+ <n>- allow all configuration options by using the SAPI hook
+- #11959, fix value parsing when other empty chars are used than space (tabs)
+- #13190, Setting a value with php_value strips the last character
+- #14487, quotes and double quotes not parsed correctly
+Thanks to m dot kurzyna at crystalpoint dot pl, manuel at mausz dot at for 
+their patches and patience :)</n>
+ <f>8896</f>
+ <g>http://pecl.php.net/get/htscanner-0.9.0</g>
+ <x xlink:href="package.0.9.0.xml"/>
+</r>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/zookeeper">zookeeper</p>
+ <c>pecl.php.net</c>
+ <v>0.3.1</v>
+ <st>alpha</st>
+ <l>PHP</l>
+ <m>timandes</m>
+ <s>PHP extension for interfacing with Apache ZooKeeper</s>
+ <d>This extension provides API for communicating with ZooKeeper service.</d>
+ <da>2017-01-23 08:38:42</da>
+ <n>Bugs:
+- Fix memory leak in method getChildren (Thanks to hulk&lt;hulk.website@gmail.com&gt;, PR #5)
+- Fix memory leak in method create (Thanks to Lin Huang, PR #6)</n>
+ <f>24087</f>
+ <g>http://pecl.php.net/get/zookeeper-0.3.1</g>
+ <x xlink:href="package.0.3.1.xml"/>
+</r>

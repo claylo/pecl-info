@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.3.1</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in http/websocket/http2 server
+        - coroutine http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2019-03-13 06:46:35</da>
+ <n>Enhancement
+---
+* After `Server` enabled `ssl_verify_peer`, the client without the certificate will be forcibly disconnected (31a038f) (@shiguangqi)
+* `MySQL\Statement::execute` can accept null arguments (0207ebc) (@twose)
+* Now part of the fatal error message caused by illegal code will show the call stack trace, the warning will be more friendly (such as calling the coroutine method outside the coroutine)  (@twose)
+
+Fixed
+---
+* Fixed`swSignalfd_set` unexpected result (#2397) (@junwei-qu)
+* Fixed `Socks5`proxy memory error  (9dd0b7c) (@twose)
+* Fixed`Redis` backward compatibility (connect timeou configuration does not work) (21f34cc) (@twose)
+* Fixed `Server` reload BUG (31a038f) (@shiguangqi)
+* Fixed `Co\Http\Client` with defer mode and call `recv` with the timeout agrument but timeout does not work (2c1cd83) (@twose)
+* Fixed call the coroutine method out side the coroutine core dump  (2bf6b09) (@twose)
+* Fixed Swoole + PHP73 with `pcre.jit` on MacOS core dump (17ccaf3) (@twose)
+* Fixed build failed on 32-bit env (#2411) (@twose)
+* Fixed `Co\Socket` construct failed (@twose)
+* Fixed`Process\Pool` system msg queue not work (#2424) (@matyhtf)
+* Fixed `user` and `group` configurations not work in `Server` with BASE mode (#2402) (@matyhtf)
+* Fixed `Co\MySQL` connect timeout coredump on low version of Linux (d6736e4) (@twose)</n>
+ <f>1311706</f>
+ <g>https://pecl.php.net/get/swoole-4.3.1</g>
+ <x xlink:href="package.4.3.1.xml"/>
+</r>

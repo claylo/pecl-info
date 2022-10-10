@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/eio">eio</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0</v>
+ <st>stable</st>
+ <l>php</l>
+ <m>osmanov</m>
+ <s>Provides interface to the libeio library</s>
+ <d>This extension provides interface to the libeio library written by Marc Lehmann
+    &lt;libeio at schmorp dot de&gt;(see http://software.schmorp.de/pkg/libeio.html).
+
+    Libeio is a an asynchronous I/O library. Features basically include
+    asynchronous versions of POSIX API(read, write, open, close, stat, unlink,
+    fdatasync, mknod, readdir etc.); sendfile (native on Solaris, Linux, HP-UX,
+    FreeBSD); readahead. libeio itself emulates the system calls, if they are not
+    available on specific(UNIX-like) platform.
+
+    Currently this extension supports Linux platforms only.</d>
+ <da>2012-07-01 13:43:50</da>
+ <n>Fix: eio_write() wrote garbage when 'str' arg passed by ref in a nested call with 'use' keyword
+Fix: eio_write() wrote garbage when 'str' arg passed by value
+Add: eio_init(). You must call eio_init() before using Eio in a forked child process.
+Change: Cut 'st_' prefix in result of eio_*stat for the sake of simplicity and better 'compatability' with stat()
+Change: Cut 'f_' prefix in result of eio_*statvfs
+Add: eio_get_last_error()
+Add: eio_req resource argument as the third optional callback argument
+Add: phpt tests for the changes since 0.5.0b
+Removed: warnings having no much sense even in debug mode
+Refact: no separation for callbacks</n>
+ <f>55546</f>
+ <g>http://pecl.php.net/get/eio-1.0.0</g>
+ <x xlink:href="package.1.0.0.xml"/>
+</r>

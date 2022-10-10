@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/phar">phar</p>
+ <c>pecl.php.net</c>
+ <v>1.2.1</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>cellog</m>
+ <s>allows running of complete applications out of .phar files (like Java .jar files)</s>
+ <d>This is the extension version of PEAR's PHP_Archive package. Support for
+zlib, bz2 and crc32 is achieved without any dependency other than the external
+zlib or bz2 extension.
+
+.phar files can be read using the phar stream, or with the Phar class.  If the SPL extension
+is available, a Phar object can be used as an array to iterate over a phar's contents
+or to read files directly from the phar.
+
+Phar archives can be created using the streams API or with the Phar class, if
+the phar.readonly ini variable is set to false.
+
+Full support for MD5 and SHA1 signatures is possible. Signatures can be required 
+if the ini variable phar.require_hash is set to true. When PECL extension hash is
+avaiable then SHA-256 and SHA-512 signatures are supported as well.</d>
+ <da>2007-08-29 23:32:22</da>
+ <n>* improve speed of uncompressed phars used readonly by 2x [Greg]
+* improve speed of phars with signatures 2x [Greg]
+* add Phar::setAlias() [Greg]
+* fix too many open file handles issue [Greg]
+* fix rename [Greg]
+* add Phar::getAlias() [Marcus]
+* Made -a optional in pack subcommand of phar.phar [Marcus]
+* Fix issue with apache module and extracted archives [Marcus]
+* Send all error messages to stderr in phar.phar [Marcus]
+* Added new subcommands add and delete to phar.phar [Marcus]
+* Made Phar::loadPhar() and Phar::mapPhar() ignore extracted archives [Marcus]
+* Fix issue with compressed entries and uncompressing entries [Marcus]
+* Verify stubs before writing [Marcus]
+* Always use longest stub end to avoid issues with length field [Marcus]</n>
+ <f>94944</f>
+ <g>http://pecl.php.net/get/phar-1.2.1</g>
+ <x xlink:href="package.1.2.1.xml"/>
+</r>

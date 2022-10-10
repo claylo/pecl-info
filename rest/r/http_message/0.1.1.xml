@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/http_message">http_message</p>
+ <c>pecl.php.net</c>
+ <v>0.1.1</v>
+ <st>beta</st>
+ <l>MIT License</l>
+ <m>jasny</m>
+ <s>PSR-7 HTTP Message implementation</s>
+ <d>PSR-7 compatible HTTP Message implementation as PHP extension</d>
+ <da>2019-07-28 12:58:58</da>
+ <n>Fixed default value issue with ServerRequest::getAttribute(). The method only accepted one argument.</n>
+ <f>35944</f>
+ <g>https://pecl.php.net/get/http_message-0.1.1</g>
+ <x xlink:href="package.0.1.1.xml"/>
+</r>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ast">ast</p>
+ <c>pecl.php.net</c>
+ <v>1.0.13</v>
+ <st>stable</st>
+ <l>BSD-3-Clause</l>
+ <m>tandre</m>
+ <s>Extension exposing PHP 7 abstract syntax tree</s>
+ <d>php-ast exports the AST internally used by PHP 7.
+     php-ast is significantly faster than PHP-Parser, because the AST construction is implemented in C.
+     However, php-ast may only parse code that is syntactically valid on the version of PHP it runs on.</d>
+ <da>2021-07-08 15:40:05</da>
+ <n>- Indicate in metadata that 'AST_CLASS_CONST_GROUP' and 'AST_CLASS_CONST_DECL' can have MODIFIER_FINAL
+  (and any modifier a class element can have, to reflect what the parser can actually parse)
+- Support php 8.1 intersection types, add node kind 'AST_TYPE_INTERSECTION'</n>
+ <f>48998</f>
+ <g>https://pecl.php.net/get/ast-1.0.13</g>
+ <x xlink:href="package.1.0.13.xml"/>
+</r>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pdo_firebird">PDO_FIREBIRD</p>
+ <c>pecl.php.net</c>
+ <v>0.2</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>wez</m>
+ <s>Firebird/InterBase 6 driver for PDO</s>
+ <d>This extension provides a Firebird/InterBase driver for PDO. It supports
+all versions of Firebird and InterBase versions 6 and up.
+</d>
+ <da>2005-02-09 05:27:00</da>
+ <n>To compile and run this module, you will need to have the main PDO module and Firebird's
+or InterBase's client library installed on your system.
+Hope it works!</n>
+ <f>13380</f>
+ <g>http://pecl.php.net/get/PDO_FIREBIRD-0.2</g>
+ <x xlink:href="package.0.2.xml"/>
+</r>

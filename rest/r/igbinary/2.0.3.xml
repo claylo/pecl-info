@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/igbinary">igbinary</p>
+ <c>pecl.php.net</c>
+ <v>2.0.3</v>
+ <st>stable</st>
+ <l>BSD-3-Clause</l>
+ <m>tandre</m>
+ <s>igbinary extension</s>
+ <d>Igbinary is a drop in replacement for the standard php serializer. Instead of
+	time and space consuming textual representation, igbinary stores php data
+	structures in a compact binary form. Savings are significant when using
+	memcached or similar memory based storages for serialized data.</d>
+ <da>2017-09-25 00:45:01</da>
+ <n>- Fixes bug #126: Fatal error: &quot;igbinary_serialize_zval: zval has unknown type 0&quot; (IS_UNDEF)
+  Make this a warning instead of a fatal error (and serialize as null instead), since IS_UNDEF is a known type.
+  Later releases will fix the root cause of the warning, and consistently omit array/object/other entries for IS_UNDEF.</n>
+ <f>67819</f>
+ <g>http://pecl.php.net/get/igbinary-2.0.3</g>
+ <x xlink:href="package.2.0.3.xml"/>
+</r>

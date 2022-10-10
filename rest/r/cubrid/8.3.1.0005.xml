@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/cubrid">CUBRID</p>
+ <c>pecl.php.net</c>
+ <v>8.3.1.0005</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>cubrid</m>
+ <s>This is the official PHP Extension to connect to CUBRID Database.</s>
+ <d>CUBRID is an open source database management system highly optimized for Web applications (http://www.cubrid.org). The current PHP extension is fully compatibly with the latest stable version of CUBRID Database. To post issues and report bugs, please use CUBRID Official Forum at http://forum.cubrid.org.</d>
+ <da>2011-02-22 21:08:46</da>
+ <n>- Use long long to store lob size. 
+     
+The data type of BLOB/CLOB size is long long, but it can't return long long
+from PHP extension function. After tring serveral methods, I find that
+cubrid_lob_size should return a string just as PDO does. I will fix this
+problem in CUBRID PHP R4.0 release.
+
+- Fix a bug which may casue memory leak: After calling array_init(return_value), if error occures, it should destroy the array before returning false;
+- Fix a bug in cubrid_bind: When the value of binding parameter is NULL, it will covert the value to empty string;
+- Fix a bug in cubrid_real_escape string: When escaping single quote in string, it should use double single quotes, not backslash.</n>
+ <f>35780</f>
+ <g>http://pecl.php.net/get/CUBRID-8.3.1.0005</g>
+ <x xlink:href="package.8.3.1.0005.xml"/>
+</r>

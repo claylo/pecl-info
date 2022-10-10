@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/winbinder">WinBinder</p>
+ <c>pecl.php.net</c>
+ <v>0.32.108</v>
+ <st>alpha</st>
+ <l>BSD</l>
+ <m>rubs</m>
+ <s>A Native Windows binding for PHP</s>
+ <d>WinBinder is an extension that allows PHP programmers to build native Windows applications. It wraps a limited but important subset of the Windows API in a lightweight, easy-to-use library so that program creation is quick and straightforward.
+</d>
+ <da>2004-12-03 01:04:00</da>
+ <n>This release has several enhancements and fixes. Here are the main ones:
+
+- A working concept of a visual form editor for WinBinder
+- New functions: wb_get_position(), wb_get_size(), wb_get_id(), wb_get_item_list()
+- Fixes in wb_get_text() and wb_set_item()
+- Reviewed and updated object-oriented interface
+- Independent radio button groups now possible within the same window
+- New interface for the make_release application
+- Many small improvements and other bug fixes
+
+Make sure you check the changelog for the complete list.</n>
+ <f>458492</f>
+ <g>http://pecl.php.net/get/WinBinder-0.32.108</g>
+ <x xlink:href="package.0.32.108.xml"/>
+</r>

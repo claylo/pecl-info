@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/event">event</p>
+ <c>pecl.php.net</c>
+ <v>1.7.0</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>osmanov</m>
+ <s>Provides interface to libevent library</s>
+ <d>This is an extension to efficiently schedule I/O, time and signal based
+  events using the best I/O notification mechanism available for specific platform.
+  This is a port of libevent to the PHP infrastructure.
+  
+  Version 1.0.0 introduces:
+  * new OO API breaking backwards compatibility
+  * support of libevent 2+ including HTTP, DNS, OpenSSL and the event listener.
+
+  Note, event-1.0.0 and greater is not compatible with previous versions.</d>
+ <da>2013-07-18 10:36:47</da>
+ <n>Merged in 5lava/pecl-event (pull request #1) @bitbucket:
+Fix: EventBufferEvent::setTimeouts() didn't work with double values
+Fix: EventBuffer::copyout() didn't work in some cases
+Add: EventBuffer::readFrom() method (corresponds to evbuffer_read())
+Add: EventUtil::getSocketFD() method</n>
+ <f>67217</f>
+ <g>http://pecl.php.net/get/event-1.7.0</g>
+ <x xlink:href="package.1.7.0.xml"/>
+</r>

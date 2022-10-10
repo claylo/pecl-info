@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/amqp">amqp</p>
+ <c>pecl.php.net</c>
+ <v>1.11.0beta</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>lstrojny</m>
+ <s>Communicate with any AMQP compliant server</s>
+ <d>This extension can communicate with any AMQP spec 0-9-1 compatible server, such as RabbitMQ, OpenAMQP and Qpid, giving you the ability to create and delete exchanges and queues, as well as publish to any exchange and consume from any queue.</d>
+ <da>2021-03-10 08:57:30</da>
+ <n>- PHP 8 support (Remi Collet &lt;remi@remirepo.net&gt;, mmokhi &lt;mokhi64@gmail.com&gt;) (https://github.com/php-amqp/php-amqp/issues/383, https://github.com/php-amqp/php-amqp/issues/381)
+ - Windows build: alternatively check \include\librabbitmq for amqp.h (Jan Ehrhardt &lt;github@ehrhardt.nl&gt;) (https://github.com/php-amqp/php-amqp/issues/375)
+ - Use latests PHP versions for AppVeyor instead of .0 (Christoph M. Becker &lt;cmbecker69@gmx.de&gt;) (https://github.com/php-amqp/php-amqp/issues/374)
+ - Various AppVeyor Windows build enhancements and fixes (Christoph M. Becker &lt;cmbecker69@gmx.de&gt;) (https://github.com/php-amqp/php-amqp/issues/373, https://github.com/php-amqp/php-amqp/issues/370)
+ - Better test suite isolation, ignore local ini settings (Lars Strojny &lt;lars.strojny@internations.org&gt;) (https://github.com/php-amqp/php-amqp/issues/371)
+
+For a complete list of changes see:
+https://github.com/php-amqp/php-amqp/compare/v1.10.2...v1.11.0beta</n>
+ <f>108054</f>
+ <g>https://pecl.php.net/get/amqp-1.11.0beta</g>
+ <x xlink:href="package.1.11.0beta.xml"/>
+</r>

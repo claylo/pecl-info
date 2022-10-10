@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/gnupg">gnupg</p>
+ <c>pecl.php.net</c>
+ <v>1.4.0RC2</v>
+ <st>beta</st>
+ <l>BSD, revised</l>
+ <m>bukka</m>
+ <s>wrapper around the gpgme library</s>
+ <d>This extension provides methods to interact with gnupg</d>
+ <da>2016-07-24 18:12:12</da>
+ <n>* Fixed ZTS issue with invalid context for a password callback</n>
+ <f>28335</f>
+ <g>http://pecl.php.net/get/gnupg-1.4.0RC2</g>
+ <x xlink:href="package.1.4.0RC2.xml"/>
+</r>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/syck">syck</p>
+ <c>pecl.php.net</c>
+ <v>0.9</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>indeyets</m>
+ <s>YAML-1.0 parser and emitter</s>
+ <d>A binding to the Syck library. 
+YAML(tm) (rhymes with &quot;camel&quot;) is a straightforward machine parsable data serialization format designed for human readability and interaction with scripting languages such as Perl and Python. YAML is optimized for data serialization, configuration settings, log files, Internet messaging and filtering.</d>
+ <da>2007-07-10 17:41:57</da>
+ <n>- this is the first release in PECL
+- added several unit-tests
+- fixed a bunch of vartype-errors
+- added support for sexagesimal numbers</n>
+ <f>7651</f>
+ <g>http://pecl.php.net/get/syck-0.9</g>
+ <x xlink:href="package.0.9.xml"/>
+</r>

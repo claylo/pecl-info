@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.2.8</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in http/websocket/http2 server
+        - coroutine http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2018-11-19 10:38:41</da>
+ <n>+ Better PHP stack coroutine switcher and Channel implementation
++ GDB Debugging Tool for Coroutine
+* MySQL Module Optimization (#2124)
+* Postgre Module Optimization (#2069)
+* Fixed bugs in MySQL client using Stored Procedure (#2117)
+* Fixed HTTP client large file upload BUG
+* Fixed bug in the wait process of `co::exec`
+* Coroutine nesting detection</n>
+ <f>7229611</f>
+ <g>https://pecl.php.net/get/swoole-4.2.8</g>
+ <x xlink:href="package.4.2.8.xml"/>
+</r>

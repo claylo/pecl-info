@@ -1,0 +1,74 @@
+{
+    "category": "HTTP",
+    "deprecated": false,
+    "description": "This extension provides a PHP content type handler for \"application/json\" and\n\"text/json\" to PHP's form data parser. If the `Content-Type` of an incoming\nrequest is `text/json`, the JSON contents of the request body will by parsed\ninto `$_POST`.\n\nThis extension does not provide any constants, functions or classes.",
+    "latestReleaseDate": "2021-09-23T05:57:22+00:00",
+    "latestVersion": "1.1.0",
+    "license": "BSD-2-Clause",
+    "name": "json_post",
+    "php8Mentioned": false,
+    "releases": {
+        "1.1.0": {
+            "version": "1.1.0",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2021-09-23T05:57:22+00:00",
+            "releaseNotes": "* Fix gh-issue #3:\n    * Add json_post.onerror.response INI entry, specifying whether and which\n      response code to send when `json_decode` fails.\n    * Add json_post.onerror.exit INI entry, specifying whether to exit PHP\n      without running the script when `json_decode` fails.\n    * Add json_post.onerror.warning INI entry, specifying whether to raise\n      a WARNING when `json_decode` fails.",
+            "get": "https://pecl.php.net/get/json_post-1.1.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.0.2": {
+            "version": "1.0.2",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2020-05-25T08:42:31+00:00",
+            "releaseNotes": "* Fix gh-issue #1: segfault on 7.4 with empty array (Mark Rigby-Jones)",
+            "get": "https://pecl.php.net/get/json_post-1.0.2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2015-07-28T08:24:48+00:00",
+            "releaseNotes": "* Fix: json_post.flags=2 ignored with php7 (Remi)",
+            "get": "http://pecl.php.net/get/json_post-1.0.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2015-03-18T01:47:28+00:00",
+            "releaseNotes": "* Split off pecl_http",
+            "get": "http://pecl.php.net/get/json_post-1.0.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.0.0RC2": {
+            "version": "1.0.0RC2",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2015-03-12T01:40:20+00:00",
+            "releaseNotes": "* Split off pecl_http",
+            "get": "http://pecl.php.net/get/json_post-1.0.0RC2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.0.0RC1": {
+            "version": "1.0.0RC1",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2015-03-10T07:31:12+00:00",
+            "releaseNotes": "* Split off pecl_http",
+            "get": "http://pecl.php.net/get/json_post-1.0.0RC1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        }
+    },
+    "summary": "JSON POST handler",
+    "SPDX-License-Identifier": "BSD-2-Clause"
+}

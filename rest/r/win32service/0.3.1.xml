@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/win32service">win32service</p>
+ <c>pecl.php.net</c>
+ <v>0.3.1</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>macintoshplus</m>
+ <s>A Windows specific extension to allow PHP to interact with Windows Services.</s>
+ <d>The win32service extension is a Windows specific extension that allows PHP to communicate with the Service Control Manager to start, stop, register and unregister services, and even allows your PHP scripts to run as a service.</d>
+ <da>2018-12-10 08:16:00</da>
+ <n>The reporitory has been transfered to an independent GitHub organisation.
+The new website is https://win32service.github.io
+
+* Removing the PHP version check for not working versions
+* Add support for PHP 7.3.
+* Fix bugs.
+The binary is also available here: https://github.com/win32service/win32service/releases/tag/v0.3.1</n>
+ <f>15739</f>
+ <g>https://pecl.php.net/get/win32service-0.3.1</g>
+ <x xlink:href="package.0.3.1.xml"/>
+</r>

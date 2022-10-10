@@ -1,0 +1,26 @@
+{
+    "1.1.4b": {
+        "version": "1.1.4b",
+        "state": "beta"
+    },
+    "1.1.3b": {
+        "version": "1.1.3b",
+        "state": "beta"
+    },
+    "1.1.2b": {
+        "version": "1.1.2b",
+        "state": "beta"
+    },
+    "1.1.1b": {
+        "version": "1.1.1b",
+        "state": "beta"
+    },
+    "1.1.0b": {
+        "version": "1.1.0b",
+        "state": "beta"
+    },
+    "1.0alpha": {
+        "version": "1.0alpha",
+        "state": "alpha"
+    }
+}

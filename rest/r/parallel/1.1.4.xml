@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/parallel">parallel</p>
+ <c>pecl.php.net</c>
+ <v>1.1.4</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>remi</m>
+ <s>Parallel concurrency API</s>
+ <d>A succinct parallel concurrency API for PHP 7.</d>
+ <da>2020-09-17 09:45:45</da>
+ <n>- Fix #103: memory leaks in Sync
+- Fix #112: broken type hinting and instanceof operator
+- Fix #139: crash with opcache enabled</n>
+ <f>58783</f>
+ <g>https://pecl.php.net/get/parallel-1.1.4</g>
+ <x xlink:href="package.1.1.4.xml"/>
+</r>

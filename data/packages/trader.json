@@ -1,0 +1,94 @@
+{
+    "category": "Math",
+    "deprecated": false,
+    "description": "The trader extension is a free open source stock library based on TA-Lib. It's dedicated to trading software developers requiring to perform technical analysis of financial market data. Alongside many indicators like ADX, MACD, RSI, Stochastic, TRIX the candlestick pattern recognition and several vector arithmetic and algebraic functions are present.",
+    "latestReleaseDate": "2021-01-17T18:15:57+00:00",
+    "latestVersion": "0.5.1",
+    "license": "BSD 2-clause",
+    "name": "trader",
+    "php8Mentioned": true,
+    "releases": {
+        "0.5.1": {
+            "version": "0.5.1",
+            "state": "stable",
+            "license": "BSD 2-clause",
+            "releasedBy": "ab",
+            "releaseDate": "2021-01-17T18:15:57+00:00",
+            "releaseNotes": "- Fixed PHP 8.0 support",
+            "get": "https://pecl.php.net/get/trader-0.5.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.5.0": {
+            "version": "0.5.0",
+            "state": "stable",
+            "license": "BSD 2-clause",
+            "releasedBy": "ab",
+            "releaseDate": "2018-07-01T11:39:04+00:00",
+            "releaseNotes": "- Added fast ZPP support for builds with PHP 7",
+            "get": "http://pecl.php.net/get/trader-0.5.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.4.1": {
+            "version": "0.4.1",
+            "state": "stable",
+            "license": "BSD 2-clause",
+            "releasedBy": "ab",
+            "releaseDate": "2018-02-11T23:09:36+00:00",
+            "releaseNotes": "- trader_ht_phasor and trader_ht_sine expect one argument, fixes bugs #72882, #72967",
+            "get": "http://pecl.php.net/get/trader-0.4.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.4.0": {
+            "version": "0.4.0",
+            "state": "stable",
+            "license": "BSD 2-clause",
+            "releasedBy": "ab",
+            "releaseDate": "2015-02-06T15:26:54+00:00",
+            "releaseNotes": "- PHP7 compatibility\n- Optimized output data allocation\n- Fixed bug #62832 PHP_FE_END undefined on PHP lower than 5.3.10",
+            "get": "http://pecl.php.net/get/trader-0.4.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.3.0": {
+            "version": "0.3.0",
+            "state": "stable",
+            "license": "BSD 2-clause",
+            "releasedBy": "ab",
+            "releaseDate": "2012-08-12T13:10:49+00:00",
+            "releaseNotes": "- fixed bugs #62720, #62612 large numbers causing rounding errors\n- added ini trader.real_round_mode, valid values are HALF_UP, HALF_DOWN, HALF_EVEN, HALF_ODD\n- implemented trader_errno() to get the last TA-Lib error code\n\nSpecial thanks to Michael for helping to chase the bugs down, trader is marked stable now.",
+            "get": "http://pecl.php.net/get/trader-0.3.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.2.2": {
+            "version": "0.2.2",
+            "state": "beta",
+            "license": "BSD 2-clause",
+            "releasedBy": "ab",
+            "releaseDate": "2012-07-31T15:52:42+00:00",
+            "releaseNotes": "- better check for bounded incoming argument values\n- added Windows compatibility, check for Windows versions under http://windows.php.net/downloads/pecl/releases/trader/ (thanks tomkrawc)\n- fixed pecl package build on Mac OS X\n- fixed element number in out arrays\n- implemented TA-Lib utility functions to set compatibility mode and unstable period",
+            "get": "http://pecl.php.net/get/trader-0.2.2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.2.1": {
+            "version": "0.2.1",
+            "state": "beta",
+            "license": "BSD 2-clause",
+            "releasedBy": "ab",
+            "releaseDate": "2012-06-03T06:24:49+00:00",
+            "releaseNotes": "- Fixed type hints and related runtime errors\n- Added MA type checks\n- Addded integer min and max constants\n- Added more tests",
+            "get": "http://pecl.php.net/get/trader-0.2.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.2": {
+            "version": "0.2",
+            "state": "alpha",
+            "license": "BSD 2-clause",
+            "releasedBy": "ab",
+            "releaseDate": "2012-05-27T18:47:56+00:00",
+            "releaseNotes": "Initial TA-Lib wrapper implementation",
+            "get": "http://pecl.php.net/get/trader-0.2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        }
+    },
+    "summary": "Technical Analysis for traders.",
+    "SPDX-License-Identifier": "BSD-2-Clause"
+}

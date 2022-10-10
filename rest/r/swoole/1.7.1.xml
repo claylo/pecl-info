@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>1.7.1</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>PHP's asynchronous concurrent distributed networking framework</s>
+ <d>PHP's asynchronous concurrent distributed networking framework.
+- event-driven
+- full asynchronous non-blocking
+- multi-thread reactor
+- multi-process worker
+- millisecond timer
+- async MySQL
+- async task
+- async read/write file system
+- async dns lookup
+- support IPv4/IPv6/UnixSocket/TCP/UDP</d>
+ <da>2014-04-30 01:08:34</da>
+ <n>- Check close fd is not timer_fd
+- TCP_DEFER_ACCEPT option
+- socket LINGER option
+- Fixed eof_check memory error
+- Added swoole_event_set
+- Added swoole_client out_buffer
+- Added socket linger option
+- Fixed the swoole_server-&gt;close destroy out_buffer bug
+- Using php_error_docref
+- Fixed swoole_async_dns_lookup warning</n>
+ <f>342967</f>
+ <g>http://pecl.php.net/get/swoole-1.7.1</g>
+ <x xlink:href="package.1.7.1.xml"/>
+</r>

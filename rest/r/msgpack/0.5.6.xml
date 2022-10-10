@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/msgpack">msgpack</p>
+ <c>pecl.php.net</c>
+ <v>0.5.6</v>
+ <st>beta</st>
+ <l>New BSD</l>
+ <m>laruence</m>
+ <s>PHP extension for interfacing with MessagePack</s>
+ <d>This extension provide API for communicating with MessagePack serialization.</d>
+ <da>2015-04-27 03:36:15</da>
+ <n>- support str8 type (wudikua)
+- Fix a warning and a possible crash (Mike)
+- Fix crash with memcached (Mike)</n>
+ <f>56455</f>
+ <g>http://pecl.php.net/get/msgpack-0.5.6</g>
+ <x xlink:href="package.0.5.6.xml"/>
+</r>

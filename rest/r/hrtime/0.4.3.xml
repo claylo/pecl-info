@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/hrtime">hrtime</p>
+ <c>pecl.php.net</c>
+ <v>0.4.3</v>
+ <st>beta</st>
+ <l>BSD</l>
+ <m>ab</m>
+ <s>High resolution timing</s>
+ <d>The extension implements a high resolution StopWatch class. It uses the the best possible APIs on different platforms. It also makes possible to implement a custom stopwatch using low level ticks delivered by the underlaying APIs.</d>
+ <da>2014-04-18 12:44:41</da>
+ <n>- first public release</n>
+ <f>8474</f>
+ <g>http://pecl.php.net/get/hrtime-0.4.3</g>
+ <x xlink:href="package.0.4.3.xml"/>
+</r>

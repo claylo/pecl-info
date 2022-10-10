@@ -1,0 +1,84 @@
+{
+    "category": "Encryption",
+    "deprecated": false,
+    "description": "XXTEA encryption algorithm extension for PHP.\nXXTEA is a fast and secure encryption algorithm. This is a XXTEA extension for PHP.\nIt is different from the original XXTEA encryption algorithm. It encrypts and decrypts string instead of uint32 array, and the key is also string.",
+    "latestReleaseDate": "2016-01-05T15:53:22+00:00",
+    "latestVersion": "1.0.11",
+    "license": "MIT",
+    "name": "xxtea",
+    "php8Mentioned": false,
+    "releases": {
+        "1.0.11": {
+            "version": "1.0.11",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "andot",
+            "releaseDate": "2016-01-05T15:53:22+00:00",
+            "releaseNotes": "Moved include php.h from .c to .h",
+            "get": "http://pecl.php.net/get/xxtea-1.0.11",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.0.10": {
+            "version": "1.0.10",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "andot",
+            "releaseDate": "2015-03-27T23:05:45+00:00",
+            "releaseNotes": "Fixed typo in configure output",
+            "get": "http://pecl.php.net/get/xxtea-1.0.10",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.0.9": {
+            "version": "1.0.9",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "andot",
+            "releaseDate": "2015-03-23T05:20:19+00:00",
+            "releaseNotes": "Added Changelog",
+            "get": "http://pecl.php.net/get/xxtea-1.0.9",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.0.8": {
+            "version": "1.0.8",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "andot",
+            "releaseDate": "2015-03-23T04:55:41+00:00",
+            "releaseNotes": "Initial release to PECL",
+            "get": "http://pecl.php.net/get/xxtea-1.0.8",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.0.7": {
+            "version": "1.0.7",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "andot",
+            "releaseDate": "2015-03-23T04:27:56+00:00",
+            "releaseNotes": "Initial release to PECL",
+            "get": "http://pecl.php.net/get/xxtea-1.0.7",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.0.6": {
+            "version": "1.0.6",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "andot",
+            "releaseDate": "2015-03-23T02:52:29+00:00",
+            "releaseNotes": "Initial release to PECL",
+            "get": "http://pecl.php.net/get/xxtea-1.0.6",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "1.0.5": {
+            "version": "1.0.5",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "andot",
+            "releaseDate": "2015-03-23T01:36:06+00:00",
+            "releaseNotes": "Initial release to PECL",
+            "get": "http://pecl.php.net/get/xxtea-1.0.5",
+            "SPDX-License-Identifier": "MIT"
+        }
+    },
+    "summary": "XXTEA encryption algorithm extension for PHP.",
+    "SPDX-License-Identifier": "MIT"
+}

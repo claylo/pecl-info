@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/memcache">memcache</p>
+ <c>pecl.php.net</c>
+ <v>3.0.3</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>mikl</m>
+ <s>memcached extension</s>
+ <d>Memcached is a caching daemon designed especially for 
+    dynamic web applications to decrease database load by 
+    storing objects in memory.
+    This extension allows you to work with memcached through
+    handy OO and procedural interfaces.</d>
+ <da>2009-01-13 11:39:34</da>
+ <n>- Enabled compression by default for values larger than 20kb
+- Scalar data types (int, bool, double) are preserved by get/set
+- Reserved the lowest 2 bytes of the flags for internal use 
+- Fixed PECL bug #14157 (Segmentation fault with errorcallback handler)
+- Fixed PECL bug #15342 (memcache keys whitespaces replace issue)
+- Fixed PECL bug #15447 (Persistent Connections Cause Segfaults if One Server Drops)
+- Fixed PECL bug #15529 (memcache object loses port information)
+- Fixed PECL bug #14730 (Types lost during get/set)
+- Fixed PECL request #14801 (Session handler and large sessions)
+- Added REPORT_ERRORS to php stream open
+- New INI directive
+   memcache.compress_threshold = 20000</n>
+ <f>52257</f>
+ <g>http://pecl.php.net/get/memcache-3.0.3</g>
+ <x xlink:href="package.3.0.3.xml"/>
+</r>

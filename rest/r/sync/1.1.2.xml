@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/sync">sync</p>
+ <c>pecl.php.net</c>
+ <v>1.1.2</v>
+ <st>stable</st>
+ <l>MIT License</l>
+ <m>cubic</m>
+ <s>Named and unnamed synchronization objects</s>
+ <d>The 'sync' extension introduces synchronization objects into PHP.  Named and unnamed Mutex, Semaphore, Event, Reader-Writer, and named Shared Memory objects provide OS-level synchronization mechanisms on both *NIX (POSIX shared memory and pthread shared memory synchronization required) and Windows platforms.  This extension is a direct port of and compatible with the cross platform 'sync' library:  https://github.com/cubiclesoft/cross-platform-cpp</d>
+ <da>2021-04-09 15:47:06</da>
+ <n>- Fixed missing macros for PHP 8 (thanks Remi).</n>
+ <f>16785</f>
+ <g>https://pecl.php.net/get/sync-1.1.2</g>
+ <x xlink:href="package.1.1.2.xml"/>
+</r>

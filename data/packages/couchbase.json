@@ -1,0 +1,548 @@
+{
+    "category": "Database",
+    "deprecated": false,
+    "description": "The PHP client library provides fast access to documents stored in a Couchbase Server.",
+    "latestReleaseDate": "2022-05-11T10:14:56+00:00",
+    "latestVersion": "4.0.0",
+    "license": "Apache V2",
+    "name": "couchbase",
+    "php8Mentioned": true,
+    "releases": {
+        "4.0.0": {
+            "version": "4.0.0",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2022-05-11T10:14:56+00:00",
+            "releaseNotes": "* Migrate core to C++ SDK\n* Update query index management API to accept collections\n* PCBC-836: implemented Transactions API",
+            "get": "https://pecl.php.net/get/couchbase-4.0.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "3.2.2": {
+            "version": "3.2.2",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2021-12-08T19:25:29+00:00",
+            "releaseNotes": "PCBC-796: add storage backend option for bucket manager\nPCBC-788: handle rate/quota limit error codes\nPCBC-799: implement {get,upsert,remove}Multi\nUpdate jsonSerialize methods to stop deprecations errors in php 8.1",
+            "get": "https://pecl.php.net/get/couchbase-3.2.2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "3.2.1": {
+            "version": "3.2.1",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2021-10-14T12:14:27+00:00",
+            "releaseNotes": "PCBC-770: Fixed memory leak while decoding subdoc JSON.\nPCBC-782: Updated minimal requirement for libcouchbase to 3.2.2.\nOther memory fixes and improvements.",
+            "get": "https://pecl.php.net/get/couchbase-3.2.1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "3.2.0": {
+            "version": "3.2.0",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2021-07-27T17:05:38+00:00",
+            "releaseNotes": "PCBC-750: Deprecate `getScope` in collections manager.\nPCBC-725: Add support for collections to Full Text Search.\nPCBC-764: Serialize `BooleanSearchQuery->mustNot` to `\"must_not\"`.\nPCBC-709: Add scope level analytics queries.\nPCBC-732: Expose partition information for query indexes.\nPCBC-733: Add analytics index manager.\nPCBC-769: Do not allow using CAS with counter operations, which are always atomic.\nPCBC-767: Fix URL for collection create method.\nPCBC-738: Add `preserveExpiry` support for mutations (`replace`, `upsert` and `mutateIn`).\nPCBC-700: Manage remote links for analytics service.\nPCBC-706: Provide tracing interface.\nPCBC-743: Provide metrics interface.",
+            "get": "https://pecl.php.net/get/couchbase-3.2.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "3.1.2": {
+            "version": "3.1.2",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2021-05-13T12:54:26+00:00",
+            "releaseNotes": "PCBC-761: fix return interface for expiryTime methods.\nPCBC-760: expose error messages in query exceptions.\nPCBC-759: take into account 'decoder.json_arrays' INI setting when decoding Query rows.\nPCBC-758: raise exception if invalid CAS passed to unlock.\nPCBC-729: update URLs for Collections management API.",
+            "get": "https://pecl.php.net/get/couchbase-3.1.2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "3.1.1": {
+            "version": "3.1.1",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2021-03-04T20:10:02+00:00",
+            "releaseNotes": "PCBC-745: throw BadInputException when string cannot be used as CAS\nPCBC-746: add tests for transcoding empty value\nPCBC-748: fix *Option#expiry() return value in documentation stubs",
+            "get": "https://pecl.php.net/get/couchbase-3.1.1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "3.1.0": {
+            "version": "3.1.0",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2021-01-20T19:22:09+00:00",
+            "releaseNotes": "PCBC-742: Propagate custom value transcoder to results\nPCBC-707: Add scope-level query and scope qualifier support for QueryOptions.\nPCBC-741: Fix memory leak in Bucket::viewQuery()\nPCBC-734: Fix destruction of SearchOptions.\nPCBC-591: KeyNotFoundException is an alias for DocumentNotFoundException",
+            "get": "https://pecl.php.net/get/couchbase-3.1.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "3.0.5": {
+            "version": "3.0.5",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2020-12-06T13:09:24+00:00",
+            "releaseNotes": "* PCBC-699: Add support for minimal durability settings for bucket manager\n* PCBC-718: Deprecate expiry() on GetResult and LookupInResult. expiry() is deprecated in favour to expiryTime()\n  which returns DateTimeInterface\n* PCBC-715: refactor document expiry duration\n    - allow to specify DateTimeInterface objects as expiry value in mutation options\n    - when expiration is set as long in seconds, treat the value as relative if it is less than 50 years in\n      seconds. In this case take current time and add to the expiration value\n* PCBC-733: Add missing fields for SearchFacet results\n* PCBC-720: allow to disable FTS scoring\n* Support PHP 8. Drop support for PHP older than 7.2",
+            "get": "https://pecl.php.net/get/couchbase-3.0.5",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "3.0.4": {
+            "version": "3.0.4",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2020-11-11T14:27:16+00:00",
+            "releaseNotes": "* PCBC-722: Fix boolean search query encoding\n* PCBC-703: Add support for query with FlexIndex (FTS)\n* PCBC-719: Enhance user management for collections\n* PCBC-702: Implement geopolygon FTS query\n* PCBC-705: Update eviction policy types. Now it covers ephemeral buckets\n* PCBC-721: Allow to fallback to bucket connection for older servers",
+            "get": "https://pecl.php.net/get/couchbase-3.0.4",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.6.2": {
+            "version": "2.6.2",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2020-02-04T15:45:51+00:00",
+            "releaseNotes": "* fixed possible segfault in N1QL request\n* fixed windows build for PHP 7.4\n* PCBC-646: Fixed issue with blank string decoding.",
+            "get": "https://pecl.php.net/get/couchbase-2.6.2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "3.0.0beta1": {
+            "version": "3.0.0beta1",
+            "state": "beta",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2019-10-23T15:00:41+00:00",
+            "releaseNotes": "* First beta release",
+            "get": "https://pecl.php.net/get/couchbase-3.0.0beta1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "3.0.0alpha4": {
+            "version": "3.0.0alpha4",
+            "state": "alpha",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2019-07-18T08:35:17+00:00",
+            "releaseNotes": "* fourth alpha release",
+            "get": "https://pecl.php.net/get/couchbase-3.0.0alpha4",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.6.1": {
+            "version": "2.6.1",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2019-06-03T07:20:10+00:00",
+            "releaseNotes": "* documentation updates\n* improved test integration with CouchbaseMock",
+            "get": "https://pecl.php.net/get/couchbase-2.6.1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "3.0.0alpha3": {
+            "version": "3.0.0alpha3",
+            "state": "alpha",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2019-05-30T15:54:53+00:00",
+            "releaseNotes": "* third alpha release",
+            "get": "https://pecl.php.net/get/couchbase-3.0.0alpha3",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "3.0.0alpha2": {
+            "version": "3.0.0alpha2",
+            "state": "alpha",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2019-05-29T13:19:56+00:00",
+            "releaseNotes": "* second alpha release",
+            "get": "https://pecl.php.net/get/couchbase-3.0.0alpha2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "3.0.0alpha1": {
+            "version": "3.0.0alpha1",
+            "state": "alpha",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2019-05-22T18:15:19+00:00",
+            "releaseNotes": "* first alpha release",
+            "get": "https://pecl.php.net/get/couchbase-3.0.0alpha1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.6.0": {
+            "version": "2.6.0",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2018-10-05T16:29:43+00:00",
+            "releaseNotes": "* PCBC-562: Allow disabling caching (persistent) connections by setting couchbase.pool.max_idle_time_sec to zero.\n* PCBC-560: Positional, named and raw parameters for Analytics",
+            "get": "http://pecl.php.net/get/couchbase-2.6.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.5.0": {
+            "version": "2.5.0",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2018-07-05T11:32:50+00:00",
+            "releaseNotes": "* PCBC-551: Do not complain about missing igbinary on start\n* PCBC-552: Pass logger to lcb_create to catch all log messages\n* PCBC-553: Check if crypto provider implements IV and signatures\n* PCBC-554: Fix search query descending order to use \"desc\"\n* PCBC-544: Implement CertAuthenticator for extra checks\n* Fixes for PHP 7.3",
+            "get": "http://pecl.php.net/get/couchbase-2.5.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.4.7": {
+            "version": "2.4.7",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2018-06-07T19:52:07+00:00",
+            "releaseNotes": "* PCBC-534: Add profile N1QL query parameter.\n* PCBC-538: do not dereference NULL values after encoding.\n* PCBC-549, PCBC-541: Update crypto interfaces.",
+            "get": "http://pecl.php.net/get/couchbase-2.4.7",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.4.6": {
+            "version": "2.4.6",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2018-04-13T17:41:47+00:00",
+            "releaseNotes": "* PCBC-523: Add tracing support for queries and the rest of KV commands.\n* PCBC-536: Make it clear that timeout properties use microseconds.\n* PCBC-531: Field encryption (See https://packagist.org/packages/couchbase/couchbase-encryption).\n* PCBC-537: Implement Bucket#getName() returning bucket name.",
+            "get": "http://pecl.php.net/get/couchbase-2.4.6",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.4.5": {
+            "version": "2.4.5",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2018-03-09T21:33:32+00:00",
+            "releaseNotes": "* PCBC-527: Initial tracing implementation. The extension checks if libcouchbase has tracing support, and sets up hooks for fetch/persist operations to report encoding/decoding times. This functionality is preview and is not enabled by default.\n* PCBC-519: Implement log redaction. When `log_redaction=on` is specified in the connection string, the library will wrap sensitive data in the logs in special tags, which can be processed by the `cblogredaction` tool from the server distribution.",
+            "get": "http://pecl.php.net/get/couchbase-2.4.5",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.4.4": {
+            "version": "2.4.4",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2018-02-12T20:51:53+00:00",
+            "releaseNotes": "* PCBC-508: Add support for FTS advanced sorting",
+            "get": "http://pecl.php.net/get/couchbase-2.4.4",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.4.3": {
+            "version": "2.4.3",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2018-01-04T19:56:34+00:00",
+            "releaseNotes": "* PCBC-518: Detect and cleanup connections left in bad state\n* PCBC-525: Fix memory leak for schemaless connspec\n* PCBC-497: Add health check functions\n* PCBC-524: Fix memory leak when using authenticateAs()\n* PCBC-520: Add example for authentication with x.509 certificate\n* PCBC-522: Check username/password for NULL in Classic Authenticator\n* PCBC-516: Append information about runtime to HELLO string",
+            "get": "http://pecl.php.net/get/couchbase-2.4.3",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.4.2": {
+            "version": "2.4.2",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2017-11-13T21:32:05+00:00",
+            "releaseNotes": "* PCBC-515: allow to specify expiration for subdocument mutations\n* PCBC-509: implement fulldoc operations for subdoc API\n* PCBC-442: fail fast view requests on ephemeral buckets\n* PCBC-513: make public API non-final (remove final attribute from classes and methods)",
+            "get": "http://pecl.php.net/get/couchbase-2.4.2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.4.1": {
+            "version": "2.4.1",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2017-10-05T09:52:03+00:00",
+            "releaseNotes": "* PCBC-493: Implement subdoc GET_COUNT API.\n* Update AnalyticsQuery API: removed experimental hostname() method as it derived from cluster config now.\n* Allow to override default pool connectime idle time with `couchbase.pool.max_idle_time_sec` INI setting.\n* PCBC-503, PCBC-504: Improve running tests.",
+            "get": "http://pecl.php.net/get/couchbase-2.4.1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.4.0": {
+            "version": "2.4.0",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2017-09-05T09:32:30+00:00",
+            "releaseNotes": "* Add more examples (XATTRs and RBAC user management).\n* PCBC-505: Enable error maps for libcouchbase 2.8.0. For higher versions it will be enabled by libcouchbase.\n* PCBC-499: Expose more query options on N1QL query for advanced tuning query performance\n* PCBC-485: Expose enhanced error message. The server might fill properties \"context\" and \"ref\" of the error.",
+            "get": "http://pecl.php.net/get/couchbase-2.4.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.3.4": {
+            "version": "2.3.4",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2017-07-19T22:38:15+00:00",
+            "releaseNotes": "* PCBC-495: update user management APIs\n* PCBC-478: add tests for Error Map using CouchbaseMock",
+            "get": "http://pecl.php.net/get/couchbase-2.3.4",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.3.3": {
+            "version": "2.3.3",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2017-05-31T20:39:05+00:00",
+            "releaseNotes": "* PCBC-487: Fix adhoc vs prepared query logic. It should be inversed manually before 2.3.3.\n* PCBC-494: Fix double free error in passthruEncoder\n* PCBC-475: Add support for Term Range Query (full text search).\n* PCBC-475: Add support for geo search queries.\n* PCBC-468: Add support for user CRUD in ClusterManager\n* PCBC-489: Add shortcut for PasswordAuthenticator as Cluster->authenticateAs($username, $password)",
+            "get": "http://pecl.php.net/get/couchbase-2.3.3",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.3.2": {
+            "version": "2.3.2",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2017-05-02T14:00:22+00:00",
+            "releaseNotes": "* PCBC-473: fix incorrect bucket reference copy in subdocument\n  mutation/lookup builders, which might lead to segfault.\n* PCBC-474: fix segfault when using ViewQuery::keys()\n* PCBC-476: do not call destructors on unintialized ZVALs. Fixes possible\n  segfaults with view queries on PHP 5.x.\n* PCBC-477: lookup JsonSerializable interface in run time, instead of compile time\n  using php_json_serializable_ce symbol. This fixes support on some 5.4-5.5 builds.\n* PCBC-479: do not allow to create objects in invalid state. For example Cluster\n  might return an instance, and only show PHP warning on invalid arguments.\n* PCBC-481: Bucket->counter() without specifying delta value results in\n  null pointer dereference.\n* PCBC-482: mapSize/setExists/setRemove methods of Bucket did not check if 'get'\n  sub-request had thrown exception. This cause segfault, if operation executed on\n  keys which do not exist.\n* PCBC-453: verify that ClusterManager supports ephemeral buckets\n* PCBC-451: add RBAC support in \\Couchbase\\PasswordAuthenticator class (Couchbase\n  Server 5.x feature).\n* PCBC-440: add experimental support of extended attributes for subdocument operations.",
+            "get": "http://pecl.php.net/get/couchbase-2.3.2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.3.1": {
+            "version": "2.3.1",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2017-04-05T11:45:27+00:00",
+            "releaseNotes": "* PCBC-459: restore \\Couchbase\\Bucket::unlock() method, which has been\n  lost in refactoring\n* PCBC-460: prefer managed strings to persistent when storing document\n  values.\n* PCBC-461: deallocate intermediate results when using encoder compression\n* PCBC-462: replace new lines in log entries with space\n* PCBC-464: fix NumericRangeFacet with NULL boundary on PHP 5.4\n* PCBC-463: fix incorrect reference counting on Search API. (might lead to\n  segfaults and leaks)\n* PCBC-465: check encoded ViewQuery before sending to libcouchbase\n* PCBC-467: intermediate values in Datastructures API might leak.\n  (e.g. result of internal \"get\" to find out size of the list)\n* PCBC-469: implement SearchQuery->sort() function to support sorting FTS\n  results, which is accessible in Couchbase Server 4.6+\n* PCBC-471: fixed issue, when the library always use credentials for the\n  first bucket in Authenticator.\n* PCBC-441: add experimental support of Analytics query.\n  https://developer.couchbase.com/documentation/server/4.5/analytics/introduction.html",
+            "get": "http://pecl.php.net/get/couchbase-2.3.1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.3.0": {
+            "version": "2.3.0",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2017-03-07T22:18:55+00:00",
+            "releaseNotes": "* PCBC-443: Remove PCS dependency and rewrite PHP stubs using Zend C API\n* PCBC-382: Implement cluster-level authorization using ClassicAuthenticator\n* Migrate API to \\Couchbase namespace (old API still available on toplevel as aliases,\n  see tests/AliasesTest.php)\n* PCBC-383: Cross-bucket joins for N1QL (see examples/api/couchbase.N1qlQuery.crossBucket.php)\n* Refresh API documentation, describe all input options, put everything into single file\n  (see api/*.php), and prepare them for PHPStorm (https://github.com/JetBrains/phpstorm-stubs/pull/180)\n* PCBC-386: Implement Datastructures API: List, Set, Map and Queue (see tests/DatastructuresTest.php)\n* Improve connection management, persistent connections by default, track and close idle connections.",
+            "get": "http://pecl.php.net/get/couchbase-2.3.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.2.4": {
+            "version": "2.2.4",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2016-12-26T20:05:15+00:00",
+            "releaseNotes": "This is the GA release of the 2.2.4 SDK. It is a maitenance release\nwith several fixes:\n\nChanges:\n* PCBC-401: embed PHP classes using pcs. This fixes performance issue,\n  where the extension spending time during each request to evaluate\n  and load Couchbase classes written in PHP. The pecl/pcs extension\n  have to be installed and loaded before loading couchbase SDK.\n* PCBC-439: reset MCISCOMPRESSED before type detection.\n  This fixes decoding compressed values.\n* PCBC-438: install callback for replica read command.\n  This fixes getFromReplica() returning NULL.\n* Documentation updates and bug fixes",
+            "get": "http://pecl.php.net/get/couchbase-2.2.4",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.2.3": {
+            "version": "2.2.3",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2016-10-04T17:41:23+00:00",
+            "releaseNotes": "This is the GA release of the 2.2.3 SDK. It is a maitenance release\nwith several fixes:\n\nChanges:\n* PCBC-389: deserialize legacy docs as JSON with falling back to old behaviour\n* PCBC-428: use correct exception when credentials missing for CouchbaseClusterManager\n* Documentation updates and bug fixes",
+            "get": "http://pecl.php.net/get/couchbase-2.2.3",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.2.2": {
+            "version": "2.2.2",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2016-09-07T00:22:16+00:00",
+            "releaseNotes": "This is the GA release of the 2.2.2 SDK. It is a maitenance release\nwith several fixes:\n\nChanges:\n* PCBC-410: consolidate libcouchbase and extension loggers, and expose them through PHP logger\n* PCBC-409: bubble errors from server on view upsert\n* PCBC-417: do not send duplicated requests for multi-get\n* PCBC-423: report N1QL error details via logger\n* Documentation updates and bug fixes",
+            "get": "http://pecl.php.net/get/couchbase-2.2.2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.2.1": {
+            "version": "2.2.1",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2016-08-08T12:23:59+00:00",
+            "releaseNotes": "This is the GA release of the 2.2.1 SDK. It is a maitenance release\nwith several fixes:\n\nChanges:\n* PCBC-416: fix segfault on multi-get for duplicated keys.\n* PCBC-414: return $this from N1qlQuery methods\n* Documentation updates and bug fixes",
+            "get": "http://pecl.php.net/get/couchbase-2.2.1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.2.0": {
+            "version": "2.2.0",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2016-07-06T20:57:01+00:00",
+            "releaseNotes": "This is the GA release of the 2.2.0 SDK. It includes more features\nto support new Couchbase Server 4.5 release and bug fixes.\n\nChanges:\n* PCBC-393: Support for enhanced durability\n* PCBC-398: expose methods for parameterized N1QL queries\n* PCBC-382: cluster level authentication\n* Expose meta for N1QL and Search queries\n* Documentation updates and bug fixes",
+            "get": "http://pecl.php.net/get/couchbase-2.2.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.2.0beta4": {
+            "version": "2.2.0beta4",
+            "state": "beta",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2016-06-29T16:09:37+00:00",
+            "releaseNotes": "This is fourth beta release of 2.2.0 SDK. It includes more features\nto support new Couchbase Server 4.5 release and bug fixes.\n\nChanges:\n* PCBC-380: support AT_PLUS consistency\n* PCBC-381: support for Full Text Search queries\n* Various minor fixes and improvements",
+            "get": "http://pecl.php.net/get/couchbase-2.2.0beta4",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.2.0beta3": {
+            "version": "2.2.0beta3",
+            "state": "beta",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2016-05-25T14:19:04+00:00",
+            "releaseNotes": "This is third beta release of 2.2.0 SDK. It includes more features\nto support upcoming Couchbase Server release, stability fixes and\nsmaller improvements.\n\nChanges:\n* PCBC-379: Support for Subdocument API\n* PCBC-385: Support for Index Management\n* PCBC-394: Expose CAS as a bytestring\n* PCBC-392: Client announce its version in the server logs\n* PCBC-397: Additive connection string options are not clobbered anymore\n* PCBC-395: Type checks properly enforced for booleans\n* Various minor changes",
+            "get": "http://pecl.php.net/get/couchbase-2.2.0beta3",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.2.0beta2": {
+            "version": "2.2.0beta2",
+            "state": "beta",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2016-04-19T20:39:14+00:00",
+            "releaseNotes": "This is a minor update to the PHP 2.2.0 Beta SDK.\n\nIt includes fixes in package manifest and build script.",
+            "get": "http://pecl.php.net/get/couchbase-2.2.0beta2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.2.0beta1": {
+            "version": "2.2.0beta1",
+            "state": "beta",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2016-04-19T18:34:47+00:00",
+            "releaseNotes": "This is a major update to the PHP 2.2 SDK.\n\nChanges:\n* PCBC-360: refactoring to support PHP 7\n* PCBC-376: reentrant transcoders\n* PCBC-369: allow to use system fastlz\n* PCBC-373: ensure view query values are properly url encoded\n* Various minor changes",
+            "get": "http://pecl.php.net/get/couchbase-2.2.0beta1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.1.0": {
+            "version": "2.1.0",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "brett19",
+            "releaseDate": "2015-11-04T20:48:26+00:00",
+            "releaseNotes": "This is a minor update to the PHP 2.1 SDK.\n    \nChanges:\n* PCBC-356: Added support for N1QL prepared statements.\n* PCBC-363: Fix issue related to passing invalid ID arguments.\n* PCBC-366: Correct issue with legacy transcoder compression.\n* Various minor changes",
+            "get": "http://pecl.php.net/get/couchbase-2.1.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.0.7": {
+            "version": "2.0.7",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "brett19",
+            "releaseDate": "2015-04-22T14:18:42+00:00",
+            "releaseNotes": "This is a patch update to the PHP 2.0 SDK.\n    \nChanges:\n* PCBC-339: Add support for using N1QL with CB Server 4.0.0.\n* PCBC-343: Added missing touch method to CouchbaseBucket.",
+            "get": "http://pecl.php.net/get/couchbase-2.0.7",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.0.6": {
+            "version": "2.0.6",
+            "state": "stable"
+        },
+        "2.0.5": {
+            "version": "2.0.5",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "brett19",
+            "releaseDate": "2015-03-03T21:01:44+00:00",
+            "releaseNotes": "This is a patch update to the PHP 2.0 SDK.\n\nChanges:\n* Orphan: Corrected issue where durability checking may not propagate errors.\n* PCBC-327: group_level semantics now support server 3.x.\n* Orphan: Corrected issue with some ViewQuery methods.\n* PCBC-326: Zero-length strings no longer decode as NULL.",
+            "get": "http://pecl.php.net/get/couchbase-2.0.5",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.0.4": {
+            "version": "2.0.4",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "brett19",
+            "releaseDate": "2015-02-03T13:29:40+00:00",
+            "releaseNotes": "This is a patch update to the PHP 2.0 SDK.\n\nChanges:\n* PCBC-321: Corrected issue when passing incorrect option parameter type.\n* Corrected issue related to setting timeouts.\n* PCBC-317: Updated N1QL querying to support DP4.\n* Fixed issue with design document management methods.",
+            "get": "http://pecl.php.net/get/couchbase-2.0.4",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.0.3": {
+            "version": "2.0.3",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "brett19",
+            "releaseDate": "2015-01-06T22:39:33+00:00",
+            "releaseNotes": "This is a patch update to the PHP 2.0 SDK.\n\nChanges:\n* PCBC-318: Fix append/prepend operations failing on new libcouchbase.\n* PCBC-319: Correct segfault when using persist_to/replicate_to.\n* Corrected typo in N1QL query interface.",
+            "get": "http://pecl.php.net/get/couchbase-2.0.3",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.0.2": {
+            "version": "2.0.2",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "brett19",
+            "releaseDate": "2014-12-02T23:10:50+00:00",
+            "releaseNotes": "This is a patch update to the PHP 2.0 SDK.\n\nChanges:\n* PCBC-310: Corrected segfault occuring in some cases when\n    running under Apache and IIS.\n* Updated PHP script executer to provide accurate error\n    information in Exception stack traces.\n* Refactored code base for better maintainability.",
+            "get": "http://pecl.php.net/get/couchbase-2.0.2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.0.1": {
+            "version": "2.0.1",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "brett19",
+            "releaseDate": "2014-11-04T19:39:55+00:00",
+            "releaseNotes": "This is a patch update to the PHP 2.0 SDK.\n\nChanges:\n* PCBC-303: Allow JSON decoding as associative array.\n* Added missing append/prepend forwarders.\n* Fixed various issues with query creation and execution.\n* Corrected various build issues.",
+            "get": "http://pecl.php.net/get/couchbase-2.0.1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.0.0": {
+            "version": "2.0.0",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "brett19",
+            "releaseDate": "2014-09-20T02:43:55+00:00",
+            "releaseNotes": "This is the first GA release of the new 2.0 PHP SDK.\n\nNo changes since release 2.0.0beta2.",
+            "get": "http://pecl.php.net/get/couchbase-2.0.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.2.2": {
+            "version": "1.2.2",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "brett19",
+            "releaseDate": "2014-05-11T20:14:34+00:00",
+            "releaseNotes": "- PCBC-219: Fixed bad access.\n- PCBC-256: Corrected missing connect for management operations.\n- Fixed minor documentation issues.",
+            "get": "http://pecl.php.net/get/couchbase-1.2.2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.2.1": {
+            "version": "1.2.1",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "brett19",
+            "releaseDate": "2013-10-03T17:56:15+00:00",
+            "releaseNotes": "- PCBC-251 Fix missing prefix from incr/decr/delete and unlock\n- Fixup observe test failure\n- Updated create function to include error message with lcb_create failures.\n- PCBC-226 Use HTTP POST if \"keys\" are specified\n- PCBC-246 Add support for LCB_CNTL_SKIP_CONFIGURATION_ERRORS_ON_CONNECT\n- PCBC-240: Fixup API descr of return value for touch\n- PCBC-241: Fix compile warnings\n- Added example of a Client wrapper for complete & partial updates\n- Updated support for getReplica\n- PCBC-236: Throw exceptions from constructor\n- PCBC-229: Fix --with-couchbase help text\n- PCBC-231: Remove obsolete version string\n- PCBC-228: Preserve extra error information",
+            "get": "http://pecl.php.net/get/couchbase-1.2.1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.2.0": {
+            "version": "1.2.0",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "trondn",
+            "releaseDate": "2013-10-03T13:14:45+00:00",
+            "releaseNotes": "- PCBC-251 Fix missing prefix from incr/decr/delete and unlock\n- Fixup observe test failure\n- Updated create function to include error message with lcb_create failures.\n- PCBC-226 Use HTTP POST if \"keys\" are specified\n- PCBC-246 Add support for LCB_CNTL_SKIP_CONFIGURATION_ERRORS_ON_CONNECT\n- PCBC-240: Fixup API descr of return value for touch\n- PCBC-241: Fix compile warnings\n- Added example of a Client wrapper for complete & partial updates\n- Updated support for getReplica\n- PCBC-236: Throw exceptions from constructor\n- PCBC-229: Fix --with-couchbase help text\n- PCBC-231: Remove obsolete version string\n- PCBC-228: Preserve extra error information",
+            "get": "http://pecl.php.net/get/couchbase-1.2.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.1.5": {
+            "version": "1.1.5",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "pajoye",
+            "releaseDate": "2013-05-08T18:51:46+00:00",
+            "releaseNotes": "Same release as 1.1.4, fixed pecl package:\n- Don't check for JSON. It's part of the php core\n- Adjust parameter names in reflection to match couchbase-api.php\n- Prototype trying to get the thing working for PECL\n- Reset the error code between each request of a persistent connection\n- Report libcouchbase version in phpinfo\n- Remove gettimeofday implementation for win32\n- PCBC-206: Prototype for configuration caching\n- Fixup memory allocation for URL path\n- PCBC-186: Add method to list all design docs\n- PCBC-178: Add support for connection_timeout\n- Update GetReplica test\n- PCBC-218: Detect invalid characters in CAS\n- Add bucket manipulation example\n- PCBC-172: Add design document examples\n- PCBC-191 Don't coredump for invalid argument\n- Update the list of supported PHP versions",
+            "get": "http://pecl.php.net/get/couchbase-1.1.5",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.1.4": {
+            "version": "1.1.4",
+            "state": "snapshot",
+            "license": "Apache V2",
+            "releasedBy": "trondn",
+            "releaseDate": "2013-04-12T05:44:56+00:00",
+            "releaseNotes": "- Prototype trying to get the thing working for PECL\n- Reset the error code between each request of a persistent connection\n- Report libcouchbase version in phpinfo\n- Remove gettimeofday implementation for win32\n- PCBC-206: Prototype for configuration caching\n- Fixup memory allocation for URL path\n- PCBC-186: Add method to list all design docs\n- PCBC-178: Add support for connection_timeout\n- Update GetReplica test\n- PCBC-218: Detect invalid characters in CAS\n- Add bucket manipulation example\n- PCBC-172: Add design document examples\n- PCBC-191 Don't coredump for invalid argument\n- Update the list of supported PHP versions",
+            "get": "http://pecl.php.net/get/couchbase-1.1.4",
+            "SPDX-License-Identifier": "Apache-2.0"
+        }
+    },
+    "summary": "Couchbase Server PHP extension",
+    "SPDX-License-Identifier": "Apache-2.0"
+}

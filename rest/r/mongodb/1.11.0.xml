@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.11.0</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>jmikola</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2021-10-29 20:13:02</da>
+ <n>** Bug
+    * [PHPC-1982] - Use bson_gettimeofday for Windows compatibility
+    * [PHPC-1983] - php_phongo_write_concern_to_zval uses invalid type for 32-bit platform
+    * [PHPC-1984] - Incorrect return type in Server::getLatency() documentation
+    * [PHPC-1989] - CommandSucceededEvent debug info omits fields
+
+** Epic
+    * [PHPC-1752] - Load Balancer Support
+
+** New Feature
+    * [PHPC-1849] - Handle deprecation of Serializable in PHP 8.1
+    * [PHPC-1889] - Support snapshot session option
+    * [PHPC-1890] - Create constant for snapshot read concern level
+    * [PHPC-1976] - Add load balancer serviceId to command monitoring events
+    * [PHPC-1978] - Expose libmongoc service ID mocking via INI option
+    * [PHPC-1980] - Create Server::TYPE_LOAD_BALANCER constant for use with Server::getType
+
+** Task
+    * [PHPC-1897] - Test serialization of BSON with embedded null bytes in strings
+    * [PHPC-1918] - BSON corpus code and symbol tests are partially testing the wrong types
+    * [PHPC-1922] - Update PHONGO_CE_DISABLE_SERIALIZATION for PHP 8.1
+    * [PHPC-1930] - Remove disabled __wakeup() function in CursorId
+    * [PHPC-1935] - Add .dep files to .gitignore
+    * [PHPC-1961] - Regex decoding error tests in top.json have unexpected, invalid syntax
+    * [PHPC-1965] - Re-enable and stabilise PHP 8.1 build on GitHub actions
+    * [PHPC-1968] - Migrate Atlas testing from server 3.4 to 4.0
+    * [PHPC-1975] - Disable SKIPIF caching for skip_if_not_clean on PHP 8.1
+    * [PHPC-1977] - Add load balancer topology to Evergreen matrix
+    * [PHPC-1992] - Add load balanced serverless connectivity tests
+
+** Improvement
+    * [PHPC-1538] - Lift restriction on authSource without credentials
+    * [PHPC-1858] - Add return type to arginfo for JsonSerializable::jsonSerialize() in PHP 8.1
+    * [PHPC-1875] - Disable writes on snapshot sessions
+    * [PHPC-1876] - Raise client error for snapshot sessions on pre-5.0 servers
+    * [PHPC-1933] - Add return type to arginfo for Iterator and Countable methods in PHP 8.1
+    * [PHPC-1937] - ReadPreference for Manager::selectServer() should be optional and default to primary
+    * [PHPC-1979] - Use mongoc_client_get_handshake_description for LoadBalancer server types
+    * [PHPC-1985] - Server::getLatency() should return null if unset</n>
+ <f>1352810</f>
+ <g>https://pecl.php.net/get/mongodb-1.11.0</g>
+ <x xlink:href="package.1.11.0.xml"/>
+</r>

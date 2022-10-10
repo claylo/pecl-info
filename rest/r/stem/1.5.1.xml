@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/stem">stem</p>
+ <c>pecl.php.net</c>
+ <v>1.5.1</v>
+ <st>stable</st>
+ <l>BSD</l>
+ <m>ohill</m>
+ <s>a PHP extension that provides word stemming</s>
+ <d>This stem extension for PHP provides stemming capability for a variety of languages using Dr. M.F. Porter's Snowball API, which can be found at: http://snowball.tartarus.org</d>
+ <da>2012-03-25 13:36:26</da>
+ <n>* PHP 5.4 Compatibility</n>
+ <f>82665</f>
+ <g>http://pecl.php.net/get/stem-1.5.1</g>
+ <x xlink:href="package.1.5.1.xml"/>
+</r>

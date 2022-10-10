@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/memcache">memcache</p>
+ <c>pecl.php.net</c>
+ <v>3.0.5</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>hradtke</m>
+ <s>memcached extension</s>
+ <d>Memcached is a caching daemon designed especially for 
+    dynamic web applications to decrease database load by 
+    storing objects in memory.
+    This extension allows you to work with memcached through
+    handy OO and procedural interfaces.</d>
+ <da>2010-10-03 17:41:38</da>
+ <n>- Fixed PECL bug #16059 (Build error: 'MSG_NOSIGNAL' undeclared)
+- Added method MemcachePool::findServer(key) which returns the server a key hashes to
+- Changed MemcachePool::findServer() to return only &quot;hostname:port&quot; since tcp port is significant
+- Fixed PECL bug #16536 (Weight of 0 causes SegFault on memcache_add_server)
+- Fixed PECL bug #17566 (3.0.4 cache delete bug)
+- Fixed PECL Bug #16442 (memcache_set fail with integer value)</n>
+ <f>54242</f>
+ <g>http://pecl.php.net/get/memcache-3.0.5</g>
+ <x xlink:href="package.3.0.5.xml"/>
+</r>

@@ -1,0 +1,13 @@
+{
+    "category": "Audio",
+    "deprecated": false,
+    "description": "FliteTTS is an extension built upon the Flite voice synthesis library. Flite was developed at Carnegie Mellon University and is a small, fast run-time voice synthesis engine which is designed to run in embedded systems and/or large scale server deployments (aka memory/processor efficient). The PHP extension uses the Flite library to transform text strings into spoken audio via both RIFF and raw formatted wave files. For more information please see the included README and or the documentation.",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "PHP License 3.01",
+    "name": "FliteTTS",
+    "php8Mentioned": false,
+    "releases": [],
+    "summary": "Text to speech voice synthesis for PHP",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

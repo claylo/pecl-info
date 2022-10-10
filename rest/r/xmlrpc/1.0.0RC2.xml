@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xmlrpc">xmlrpc</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0RC2</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>cmb</m>
+ <s>Functions to write XML-RPC servers and clients</s>
+ <d>These functions can be used to write XML-RPC servers and clients. You can find
+  more information about XML-RPC at http://www.xmlrpc.com/, and more documentation
+  on this extension and its functions at http://xmlrpc-epi.sourceforge.net/.
+
+  The extension is unbundled from php-src as of PHP 8.0.0, because the underlying
+  libxmlrpc has obviously been abandoned. It is recommended to reevaluate using
+  this extension.</d>
+ <da>2021-01-15 10:56:20</da>
+ <n>This is the snapshot of ext/xmlrpc just before it was unbundled from php-src.
+Only minimal modifications have been made thereafter.</n>
+ <f>79410</f>
+ <g>https://pecl.php.net/get/xmlrpc-1.0.0RC2</g>
+ <x xlink:href="package.1.0.0RC2.xml"/>
+</r>

@@ -1,0 +1,374 @@
+{
+    "category": "Caching",
+    "deprecated": false,
+    "description": "Memcached is a caching daemon designed especially for \n    dynamic web applications to decrease database load by \n    storing objects in memory.\n    This extension allows you to work with memcached through\n    handy OO and procedural interfaces.\n    The extension allows use to store sessions in memcached via memcache.",
+    "latestReleaseDate": "2020-12-06T15:07:41+00:00",
+    "latestVersion": "8.0",
+    "license": "PHP License",
+    "name": "memcache",
+    "php8Mentioned": true,
+    "releases": {
+        "8.0": {
+            "version": "8.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "tomassrnka",
+            "releaseDate": "2020-12-06T15:07:41+00:00",
+            "releaseNotes": "- Version 8.x support PHP 8.x\n- Version 4.x supports PHP 7.0-7.4. \n- Version 4.x is considered to be stable for production usage. \n- Support for PHP 5.x has been removed, please use memcache extension ver. 3.x \n- Special thanks to Frantisek Drojak - thesource93 (github) and Zaffy (github) for making this happen",
+            "get": "https://pecl.php.net/get/memcache-8.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "4.0.5.2": {
+            "version": "4.0.5.2",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "tomassrnka",
+            "releaseDate": "2019-12-20T15:07:40+00:00",
+            "releaseNotes": "- Version 4.x supports PHP 7.0-7.4. \n- Version 4.x is considered to be stable for production usage. \n- Support for PHP 5.x has been removed, please use memcache extension ver. 3.x \n- Special thanks to Frantisek Drojak - thesource93 (github) for making this happen",
+            "get": "https://pecl.php.net/get/memcache-4.0.5.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "4.0.5.1": {
+            "version": "4.0.5.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "tomassrnka",
+            "releaseDate": "2019-12-19T11:13:34+00:00",
+            "releaseNotes": "- Version 4.x supports PHP 7.0-7.4. \n- Version 4.x is considered to be stable for production usage. \n- Support for PHP 5.x has been removed, please use memcache extension ver. 3.x \n- Special thanks to Frantisek Drojak - thesource93 (github) for making this happen",
+            "get": "https://pecl.php.net/get/memcache-4.0.5.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.8": {
+            "version": "3.0.8",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "hradtke",
+            "releaseDate": "2013-04-07T22:14:15+00:00",
+            "releaseNotes": "- Fix Bug #63142 - memcache client Segmentation fault\n- Fix Bug #63272 - Explicitly reserve range of flags in php_memcache.h so application code can use\n- Fix Bug #59602 - getExtendedStats fails on the host intermittently after restarting memcache\n- Fix Bug #63141 - Added LICENSE file and include tests folder in package",
+            "get": "http://pecl.php.net/get/memcache-3.0.8",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.2.7": {
+            "version": "2.2.7",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "hradtke",
+            "releaseDate": "2012-09-22T21:51:33+00:00",
+            "releaseNotes": "- PHP 5.4 compatibility\n- Fixed return value error get_host_port_from_server().\n- Fixed PECL Bug #16672 (memcache.php doesn't support unix socket)\n- Fixed pecl bug #19374 (memcache.php throws Notice: Undefined index: VALUE when viewing expired items)",
+            "get": "http://pecl.php.net/get/memcache-2.2.7",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.7": {
+            "version": "3.0.7",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "hradtke",
+            "releaseDate": "2012-09-22T21:17:24+00:00",
+            "releaseNotes": "- Fixed bug #62589 - missing \"$\" in memcache.php\n- Fix php_stream_cast() usage.\n- fixes for windows build and php 5.4 compat",
+            "get": "http://pecl.php.net/get/memcache-3.0.7",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.6": {
+            "version": "3.0.6",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "hradtke",
+            "releaseDate": "2011-04-11T00:58:49+00:00",
+            "releaseNotes": "- Fixed PECL Bug #16672 (memcache.php doesn't support unix socket)\n- Fixed PECL Bug #19374 (memcache.php throws Notice: Undefined index: VALUE when viewing expired items)\n- Fixed PECL Bug #17518 (Strange behavior in increment on non integer and after)\n- Fixed potential segfault in memcache queue.\n- Fixed various tests",
+            "get": "http://pecl.php.net/get/memcache-3.0.6",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.5": {
+            "version": "3.0.5",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "hradtke",
+            "releaseDate": "2010-10-03T17:41:38+00:00",
+            "releaseNotes": "- Fixed PECL bug #16059 (Build error: 'MSG_NOSIGNAL' undeclared)\n- Added method MemcachePool::findServer(key) which returns the server a key hashes to\n- Changed MemcachePool::findServer() to return only \"hostname:port\" since tcp port is significant\n- Fixed PECL bug #16536 (Weight of 0 causes SegFault on memcache_add_server)\n- Fixed PECL bug #17566 (3.0.4 cache delete bug)\n- Fixed PECL Bug #16442 (memcache_set fail with integer value)",
+            "get": "http://pecl.php.net/get/memcache-3.0.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.2.6": {
+            "version": "2.2.6",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "hradtke",
+            "releaseDate": "2010-10-03T17:12:25+00:00",
+            "releaseNotes": "- Fixed pecl bug #16536 (Weight of 0 causes SegFault on memcache_add_server)\n- Fixed pecl bug #17130 (Uninitialized tv.tv_usec causing PHP to loop endlessly)\n- Fixed pecl bug #13623 (Memcache-client makes php segfault in semi-related code)",
+            "get": "http://pecl.php.net/get/memcache-2.2.6",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.2.5": {
+            "version": "2.2.5",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "mikl",
+            "releaseDate": "2009-02-27T12:47:00+00:00",
+            "releaseNotes": "- Improved performance of consistent hash strategy\n- Fixed PECL request #13758 (Failed to extract 'connection' variable from object)",
+            "get": "http://pecl.php.net/get/memcache-2.2.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.4": {
+            "version": "3.0.4",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mikl",
+            "releaseDate": "2009-02-22T11:04:08+00:00",
+            "releaseNotes": "- Improved performance of consistent hash strategy\n- Accept timeout parameter as float to enable microsecond timeouts, param is still \n  given in seconds but with a microsecond fraction.\n- Added session locking to avoid concurrency problems with AJAX apps\n- Fixed PECL bug #14642 (3.0.x breaks BC with 2.2.x)\n- Fixed PECL request #13758 (Failed to extract 'connection' variable from object)\n- Fixed PECL request #14658 (Allow connection timeouts in ms, not seconds)\n- New INI directive\n   memcache.lock_timeout = 15",
+            "get": "http://pecl.php.net/get/memcache-3.0.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.3": {
+            "version": "3.0.3",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mikl",
+            "releaseDate": "2009-01-13T11:39:34+00:00",
+            "releaseNotes": "- Enabled compression by default for values larger than 20kb\n- Scalar data types (int, bool, double) are preserved by get/set\n- Reserved the lowest 2 bytes of the flags for internal use \n- Fixed PECL bug #14157 (Segmentation fault with errorcallback handler)\n- Fixed PECL bug #15342 (memcache keys whitespaces replace issue)\n- Fixed PECL bug #15447 (Persistent Connections Cause Segfaults if One Server Drops)\n- Fixed PECL bug #15529 (memcache object loses port information)\n- Fixed PECL bug #14730 (Types lost during get/set)\n- Fixed PECL request #14801 (Session handler and large sessions)\n- Added REPORT_ERRORS to php stream open\n- New INI directive\n   memcache.compress_threshold = 20000",
+            "get": "http://pecl.php.net/get/memcache-3.0.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.2": {
+            "version": "3.0.2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mikl",
+            "releaseDate": "2008-09-11T16:04:10+00:00",
+            "releaseNotes": "- Updated binary protocol to be compatible with memcached 1.3.0\n- Added memcached stats script from Harun Yayli (http://livebookmark.net/memcachephp)\n- Fixed server weight not being used in the session handler\n- Fixed PECL bug #13343 (compilation breaks with CodeWarrior compiler)\n- Fixed PECL bug #13546 (Session handler through unix socket)\n- Fixed PECL bug #13592 (error in opcode)\n- Fixed PECL req #13588 (minor inefficiency in binary protocol implementation)\n- Fixed PECL bug #14044 (send of 32768 bytes failed with errno=11 Resource temporarily unavailable)\n- Fixed PECL bug #14239 (Memcache::set() modifies value parameter)\n- Fixed PECL bug #14156 (No check for parameter count in php_mmc_store)\n- Fixed PECL bug #14458 (off-by-one causes corrupted arrays in 3.0.x)\n- Fixed PECL bug #14104 (Malformed VALUE header (0))\n- Fixed PECL request #13725 (unnecessary allocations in mmc_consistent_add_server)\n- Changed behaviour when unserialize/uncompress fail to return false instead of failing the server",
+            "get": "http://pecl.php.net/get/memcache-3.0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.2.4": {
+            "version": "2.2.4",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "mikl",
+            "releaseDate": "2008-09-11T16:03:43+00:00",
+            "releaseNotes": "- Added memcached stats script from Harun Yayli (http://livebookmark.net/memcachephp)\n- Fixed server weight not being used in the session handler\n- Fixed PECL bug #13343 (compilation breaks with CodeWarrior compiler)\n- Fixed PECL bug #13546 (Session handler through unix socket)\n- Fixed PECL bug #14239 (Memcache::set() modifies value parameter)\n- Fixed PECL request #13725 (unnecessary allocations in mmc_consistent_add_server)\n- Changed behaviour when unserialize/uncompress fail to return false instead of failing the server",
+            "get": "http://pecl.php.net/get/memcache-2.2.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.1": {
+            "version": "3.0.1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "mikl",
+            "releaseDate": "2008-02-05T15:00:32+00:00",
+            "releaseNotes": "- Fixed PECL bug #12866 (Ignore memcache.default_port in memcache_connect)\n- Fixed PECL bug #12883 (Breaks UTF-8 in keys)\n- Fixed PECL bug #13060 (make problems, due to role=\"doc\" instead of role=\"src\")\n- Changed behaviour of close() to actually remove all servers from pool (PECL bug #12555)\n- Added configure option for PEAR installer to disable session handler support\n- Added package version to phpinfo()",
+            "get": "http://pecl.php.net/get/memcache-3.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.2.3": {
+            "version": "2.2.3",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "mikl",
+            "releaseDate": "2008-02-05T14:48:00+00:00",
+            "releaseNotes": "- Fixed PECL bug #12883 (Breaks UTF-8 in keys)\n- Fixed PECL bug #13060 (make problems, due to role=\"doc\" instead of role=\"src\")\n- Added package version to phpinfo()",
+            "get": "http://pecl.php.net/get/memcache-2.2.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.2.2": {
+            "version": "2.2.2",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "mikl",
+            "releaseDate": "2008-01-10T13:31:16+00:00",
+            "releaseNotes": "- Fixed PECL bug 12494 (Segmentation fault when Exception thrown in the callback function)\n- Fixed PECL bug #12834 (segfault when getting duplicate array values on 64-bit system)\n- Changed behaviour of close() to actually remove all servers from pool (PECL bug #12555)\n- Added configure option for PEAR installer to disable session handler support",
+            "get": "http://pecl.php.net/get/memcache-2.2.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.0": {
+            "version": "3.0.0",
+            "state": "alpha",
+            "license": "PHP License",
+            "releasedBy": "mikl",
+            "releaseDate": "2007-11-26T13:14:48+00:00",
+            "releaseNotes": "See README for details on new API and INI directives.\n\n- UDP support\n- Binary protocol support \n- Non-blocking IO using select()\n- Pipelined multi-set/delete/increment/decrement\n- CAS (Compare-And-Swap) support\n- Append/prepend support\n- Key and session redundancy (values are written to N mirrors)\n- Improved error reporting and failover handling\n- Added class \"MemcachePool\" implementing the new API\n- New INI directives\n   memcache.protocol = {ascii, binary}\n   memcache.redundancy = 1\n   memcache.session_redundancy = 2\n- Changed INI defaults \n   memcache.hash_strategy = consistent\n   memcache.chunk_size = 32768",
+            "get": "http://pecl.php.net/get/memcache-3.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.2.1": {
+            "version": "2.2.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "mikl",
+            "releaseDate": "2007-11-01T11:01:40+00:00",
+            "releaseNotes": "- Added argument to Memcache::get() that receives the flags for retrieved value(s)\n- Fixed PECL bug 11369 (\"nested\" get calls in __wakeup() functions breaks)\n- Fixed problem with keys being modified in-place and empty keys (PECL Bug #11236)\n- Fixed incompatibility with standard hash strategy in previous versions",
+            "get": "http://pecl.php.net/get/memcache-2.2.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.2.0": {
+            "version": "2.2.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "mikl",
+            "releaseDate": "2007-09-21T12:14:40+00:00",
+            "releaseNotes": "- Added support for consistent hash strategy\n- New INI directives \n    \"memcache.hash_strategy\" = {standard, consistent}\n    \"memcache.hash_function\" = {crc32, fnv}\n- PHP6 support\n- Fixed PECL bug #11221 (Double free when returning cached object with __sleep)\n- Fixed PECL bug #10607 (Segfault on array key retrieval when array key is not IS_STRING)\n- Don't failover on \"object to large\" errors\n- Use $phpincludedir for finding php_session.h",
+            "get": "http://pecl.php.net/get/memcache-2.2.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.2": {
+            "version": "2.1.2",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "tony2001",
+            "releaseDate": "2007-03-26T18:18:32+00:00",
+            "releaseNotes": "- Added missing files to the package.",
+            "get": "http://pecl.php.net/get/memcache-2.1.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.1": {
+            "version": "2.1.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "tony2001",
+            "releaseDate": "2007-03-26T16:16:53+00:00",
+            "releaseNotes": "- Added experimental session storage support. You can use memcached as session storage.\n- Fixed PECL bug #9486 (empty keys should not be allowed in memcache_set/add())\n- Fixed PECL bug #9854 (get() changes the datatype of variable of given as key)",
+            "get": "http://pecl.php.net/get/memcache-2.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.1.0": {
+            "version": "2.1.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "mikl",
+            "releaseDate": "2006-10-09T12:35:36+00:00",
+            "releaseNotes": "- Servers may be flagged up/down and the user may specify a error callback\n- Individual server params and up/down status may be changed at runtime\n- New methods: setServerParams(), getServerStatus()\n- Statistics methods support fetching other kinds of stats (slabs, items, cachedump, ...)\n- Fixed PECL bugs #7631, #8117 (erroneous line feeds in config.m4)\n- Added memcache.max_failover_attempts ini directive, which can be used to configure max number of \n  servers to try when setting and getting data.",
+            "get": "http://pecl.php.net/get/memcache-2.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.4": {
+            "version": "2.0.4",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "mikl",
+            "releaseDate": "2006-05-16T15:17:24+00:00",
+            "releaseNotes": "- Redefined retry_interval as long to fix no-automatic-reconnect behaviour\n- Fixed PECL bugs #7635, #7637 (OnUpdateInt: referenced symbol not found)",
+            "get": "http://pecl.php.net/get/memcache-2.0.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.3": {
+            "version": "2.0.3",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "mikl",
+            "releaseDate": "2006-05-15T11:51:14+00:00",
+            "releaseNotes": "- Display ini entries in phpinfo() output\n- Fixed Zend2 compat",
+            "get": "http://pecl.php.net/get/memcache-2.0.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.2": {
+            "version": "2.0.2",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "mikl",
+            "releaseDate": "2006-05-14T07:42:08+00:00",
+            "releaseNotes": "- Added \"memcache.default_port\" ini directive (default 11211)\n- Added \"memcache.allow_failover\" ini directive (default On)\n- Added \"memcache.chunk_size\" ini directive (default 8192 bytes)\n- Setting retry_interval parameter to -1 disables automatic reconnect\n- Fixed PECL bug #7331 (NULL pointer freeing causes memcache to segfault)",
+            "get": "http://pecl.php.net/get/memcache-2.0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.1": {
+            "version": "2.0.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "mikl",
+            "releaseDate": "2006-02-01T14:07:19+00:00",
+            "releaseNotes": "- Fixed PECL bug #6595 (segfault in addServer())\n- Fixed PECL bug #6512 (buffer overrun in getVersion())\n- Fixed PECL bug #6460 (lacking include of php_smart_str_public.h)\n- Fixed PECL bug #6370 (incorrect failover on out-of-memory server errors)\n- Improved zlib detection",
+            "get": "http://pecl.php.net/get/memcache-2.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.0": {
+            "version": "2.0.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "mikl",
+            "releaseDate": "2005-12-23T10:50:10+00:00",
+            "releaseNotes": "- Multiple servers with loadbalancing and failover\n- Automatic compress threshold setting\n- New methods: addServer(), getExtendedStats(), setCompressThreshold()",
+            "get": "http://pecl.php.net/get/memcache-2.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.5": {
+            "version": "1.5",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "tony2001",
+            "releaseDate": "2005-08-05T07:42:01+00:00",
+            "releaseNotes": "1) Fixed minor leak.\n2) Class Memcache made inheritable.",
+            "get": "http://pecl.php.net/get/memcache-1.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.4": {
+            "version": "1.4",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "tony2001",
+            "releaseDate": "2004-12-02T13:07:00+00:00",
+            "releaseNotes": "1) Added multi get support (i.e. you're now able to get multiple items with one get() call, \njust pass array of keys to get() and it will return associative array of found items).",
+            "get": "http://pecl.php.net/get/memcache-1.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.3": {
+            "version": "1.3",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "tony2001",
+            "releaseDate": "2004-08-29T06:57:00+00:00",
+            "releaseNotes": "1) Fixed potential problem with empty datasets (yet another patch from Andrey Nigmatulin [anight at monamour dot ru]).\n2) Fixed bug #2167 (thanks to [pbnadeau at gmail dot com] for noticing, testing and patching).",
+            "get": "http://pecl.php.net/get/memcache-1.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.2": {
+            "version": "1.2",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "tony2001",
+            "releaseDate": "2004-07-20T12:56:00+00:00",
+            "releaseNotes": "1) Fixed typo, preventing to use set() with flags and expire in the same time (thanks to Troy Hakala [troy at recipezaar dot com] for noticing).\n2) Added possibility to store objects and arrays compressed.\n3) Hopefully fixed all possible problems with persistent connections (thanks to [anight at monamour dot ru]).\n4) Some uncritical impovements.",
+            "get": "http://pecl.php.net/get/memcache-1.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.1": {
+            "version": "1.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "tony2001",
+            "releaseDate": "2004-06-08T13:19:00+00:00",
+            "releaseNotes": "1) Fixed couple of possible segfaults and one error (many thanks to Anight).\n2) Minor improvements.",
+            "get": "http://pecl.php.net/get/memcache-1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.0": {
+            "version": "1.0",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "tony2001",
+            "releaseDate": "2004-05-21T05:31:00+00:00",
+            "releaseNotes": "1) Ifdef'ed debug routines, so they are available only in debug mode.\nThis should add more speed to extension. \n2) Minor code decorations.",
+            "get": "http://pecl.php.net/get/memcache-1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.4": {
+            "version": "0.4",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "tony2001",
+            "releaseDate": "2004-03-26T09:05:00+00:00",
+            "releaseNotes": "1) Added on-the-fly data (de)compression support.\n2) Added procedural API.\n3) Extension was fairly refactored and accelerated.",
+            "get": "http://pecl.php.net/get/memcache-0.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2": {
+            "version": "0.2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "tony2001",
+            "releaseDate": "2004-02-26T09:30:00+00:00",
+            "releaseNotes": "1) Added new methods: getStats(), increment(), decrement().\n2) Keys are processed to keep syntax consistency.\nExtension should be stable enough since this version.",
+            "get": "http://pecl.php.net/get/memcache-0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "memcached extension",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

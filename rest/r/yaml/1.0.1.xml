@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/yaml">yaml</p>
+ <c>pecl.php.net</c>
+ <v>1.0.1</v>
+ <st>stable</st>
+ <l>MIT</l>
+ <m>bd808</m>
+ <s>YAML-1.1 parser and emitter</s>
+ <d>Support for YAML 1.1 (YAML Ain't Markup Language) serialization using the
+  LibYAML library.</d>
+ <da>2011-02-20 19:37:06</da>
+ <n>- Bug #21995: fixed double free bug when a callback mapping is provided
+- corrected string length issue with callback &quot;tag&quot; argument
+- added &quot;tag&quot; and &quot;flags&quot; arguments to sequence and map callbacks</n>
+ <f>33774</f>
+ <g>http://pecl.php.net/get/yaml-1.0.1</g>
+ <x xlink:href="package.1.0.1.xml"/>
+</r>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/couchbase">couchbase</p>
+ <c>pecl.php.net</c>
+ <v>2.2.0beta3</v>
+ <st>beta</st>
+ <l>Apache V2</l>
+ <m>avsej</m>
+ <s>Couchbase Server PHP extension</s>
+ <d>The PHP client library provides fast access to documents stored in
+        a Couchbase Server.</d>
+ <da>2016-05-25 14:19:04</da>
+ <n>This is third beta release of 2.2.0 SDK. It includes more features
+to support upcoming Couchbase Server release, stability fixes and
+smaller improvements.
+
+Changes:
+* PCBC-379: Support for Subdocument API
+* PCBC-385: Support for Index Management
+* PCBC-394: Expose CAS as a bytestring
+* PCBC-392: Client announce its version in the server logs
+* PCBC-397: Additive connection string options are not clobbered anymore
+* PCBC-395: Type checks properly enforced for booleans
+* Various minor changes</n>
+ <f>51041</f>
+ <g>http://pecl.php.net/get/couchbase-2.2.0beta3</g>
+ <x xlink:href="package.2.2.0beta3.xml"/>
+</r>

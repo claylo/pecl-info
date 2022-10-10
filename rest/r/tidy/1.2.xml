@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/tidy">tidy</p>
+ <c>pecl.php.net</c>
+ <v>1.2</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>mike</m>
+ <s>Tidy HTML Repairing and Parsing</s>
+ <d>Tidy is a binding for the Tidy HTML clean and repair utility which
+allows you to clean and manipluate HTML documents.
+
+NOTE: This is the PHP4 version!
+ 
+</d>
+ <da>2005-11-07 11:39:51</da>
+ <n>Fixed bug #4202 tidy is not binary safe</n>
+ <f>9602</f>
+ <g>http://pecl.php.net/get/tidy-1.2</g>
+ <x xlink:href="package.1.2.xml"/>
+</r>

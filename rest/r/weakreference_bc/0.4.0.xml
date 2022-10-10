@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/weakreference_bc">weakreference_bc</p>
+ <c>pecl.php.net</c>
+ <v>0.4.0</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>tandre</m>
+ <s>Polyfill of WeakMap/WeakReference for older PHP versions. This is a fork of the abandoned &quot;weakref&quot; PECL.</s>
+ <d>A weak reference provides a gateway to an object without preventing that object from being collected by the garbage collector (GC).</d>
+ <da>2022-01-06 03:03:05</da>
+ <n>- Fork this from the abandoned &quot;weakref&quot; PECL to provide WeakMap for php 7.0-7.4 and WeakReference for php 7.0-7.3
+- Fix compilation errors for WeakMap in php 7.4
+- Rename WeakRef to WeakReference to act as a polyfill for WeakReference in php before php 7.4.
+- Make WeakReference constructor throw and require the use of WeakReference::create, like php 7.4
+- Fix edge cases when destructor of an old value modifies the weakmap during an update.
+- Strictly prevent the creation of dynamic properties on a WeakReference.</n>
+ <f>16298</f>
+ <g>https://pecl.php.net/get/weakreference_bc-0.4.0</g>
+ <x xlink:href="package.0.4.0.xml"/>
+</r>

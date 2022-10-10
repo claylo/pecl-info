@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/v8js">v8js</p>
+ <c>pecl.php.net</c>
+ <v>0.2.1</v>
+ <st>beta</st>
+ <l>The MIT License (MIT)</l>
+ <m>stesie</m>
+ <s>V8 Javascript Engine for PHP</s>
+ <d>This extension embeds Google's V8 Javascript Engine into PHP.</d>
+ <da>2015-07-25 22:21:24</da>
+ <n>- adapt to latest v8 API (v8 versions from 3.24.6 up to latest 4.6 branch supported now)
+- fixed FLAG_FORCE_ARRAY behaviour regarding property assignments
+- properly stop (and restart) timer thread (for memory &amp; cpu limits)
+- fixed crash on failed module bootstrapping</n>
+ <f>88884</f>
+ <g>http://pecl.php.net/get/v8js-0.2.1</g>
+ <x xlink:href="package.0.2.1.xml"/>
+</r>

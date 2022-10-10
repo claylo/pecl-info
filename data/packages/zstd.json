@@ -1,0 +1,104 @@
+{
+    "category": "File Formats",
+    "deprecated": false,
+    "description": "PHP extension for compression and decompression with Zstandard library.",
+    "latestReleaseDate": "2021-10-03T22:12:46+00:00",
+    "latestVersion": "0.11.0",
+    "license": "MIT",
+    "name": "zstd",
+    "php8Mentioned": false,
+    "releases": {
+        "0.11.0": {
+            "version": "0.11.0",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "kjdev",
+            "releaseDate": "2021-10-03T22:12:46+00:00",
+            "releaseNotes": "- change response when compression level 0 of zstd_compress()\n- add compression level arguments to zstd_compress_dict()\n- change second argument of dictionary function to mandatory\n- update built-in zstd library to 1.5.0",
+            "get": "https://pecl.php.net/get/zstd-0.11.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.10.0": {
+            "version": "0.10.0",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "kjdev",
+            "releaseDate": "2021-01-22T02:33:02+00:00",
+            "releaseNotes": "- Added APCu serialization support\n- Updated built-in zstd library to 1.4.8",
+            "get": "https://pecl.php.net/get/zstd-0.10.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.9.0": {
+            "version": "0.9.0",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "kjdev",
+            "releaseDate": "2020-06-04T05:29:50+00:00",
+            "releaseNotes": "- Windows build support",
+            "get": "https://pecl.php.net/get/zstd-0.9.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.9.0RC1": {
+            "version": "0.9.0RC1",
+            "state": "beta",
+            "license": "MIT",
+            "releasedBy": "kjdev",
+            "releaseDate": "2020-06-04T01:59:53+00:00",
+            "releaseNotes": "- Windows build support",
+            "get": "https://pecl.php.net/get/zstd-0.9.0RC1",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.8.1": {
+            "version": "0.8.1",
+            "state": "alpha",
+            "license": "MIT",
+            "releasedBy": "kjdev",
+            "releaseDate": "2020-05-29T02:33:39+00:00",
+            "releaseNotes": "- Updated built-in zstd library to 1.4.5",
+            "get": "https://pecl.php.net/get/zstd-0.8.1",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.8.0": {
+            "version": "0.8.0",
+            "state": "alpha",
+            "license": "MIT",
+            "releasedBy": "kjdev",
+            "releaseDate": "2020-02-06T23:22:48+00:00",
+            "releaseNotes": "- ztsd_uncompress may return a empty string",
+            "get": "https://pecl.php.net/get/zstd-0.8.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.7.7": {
+            "version": "0.7.7",
+            "state": "alpha",
+            "license": "MIT",
+            "releasedBy": "kjdev",
+            "releaseDate": "2019-12-22T23:55:29+00:00",
+            "releaseNotes": "- Fixed PHP_ADD_BUILD_DIR in config.m4",
+            "get": "https://pecl.php.net/get/zstd-0.7.7",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.7.6": {
+            "version": "0.7.6",
+            "state": "alpha",
+            "license": "MIT",
+            "releasedBy": "kjdev",
+            "releaseDate": "2019-12-22T23:05:37+00:00",
+            "releaseNotes": "- Fixed PHP_ADD_INCLUDE in config.m4",
+            "get": "https://pecl.php.net/get/zstd-0.7.6",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.7.5": {
+            "version": "0.7.5",
+            "state": "alpha",
+            "license": "MIT",
+            "releasedBy": "kjdev",
+            "releaseDate": "2019-12-22T22:39:43+00:00",
+            "releaseNotes": "First alpha release",
+            "get": "https://pecl.php.net/get/zstd-0.7.5",
+            "SPDX-License-Identifier": "MIT"
+        }
+    },
+    "summary": "Zstandard extension",
+    "SPDX-License-Identifier": "MIT"
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/zlib_filter">zlib_filter</p>
+ <c>pecl.php.net</c>
+ <v>1.1</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>pollita</m>
+ <s>zlib filter implementation backport for PHP 5.0</s>
+ <d>RFC 1951 inflate/deflate stream filter implementation.  Performs inline compression/decompression using the deflate method on any PHP I/O stream.  The data produced by this filter, while compatable with the payload portion of an RFC 1952 gzip file, does not include headers or tailers for full RFC 1952 gzip compatability.  To achieve this format, use the compress.zlib:// fopen wrapper built directly into PHP.
+</d>
+ <da>2004-07-21 03:58:00</da>
+ <n>Backport fixes from PHP 5.1.0 and add persistence safety</n>
+ <f>5109</f>
+ <g>http://pecl.php.net/get/zlib_filter-1.1</g>
+ <x xlink:href="package.1.1.xml"/>
+</r>

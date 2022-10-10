@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/yar">yar</p>
+ <c>pecl.php.net</c>
+ <v>1.2.2</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>laruence</m>
+ <s>Light, concurrent RPC framework</s>
+ <d>Yar(Yet another RPC framework) is a light, concurrent RPC framework, supports multi package protocols (json, msgpack)</d>
+ <da>2013-12-31 05:05:01</da>
+ <n>- Fixed Issue #9 (Yar Server will response in the same package as client packaged)
+- Fixed Bug (Unterminatable select)
+- Add debug tool (A PHP implemented Yar debug client)</n>
+ <f>37509</f>
+ <g>http://pecl.php.net/get/yar-1.2.2</g>
+ <x xlink:href="package.1.2.2.xml"/>
+</r>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/teds">teds</p>
+ <c>pecl.php.net</c>
+ <v>0.9.2</v>
+ <st>stable</st>
+ <l>BSD-3-Clause</l>
+ <m>tandre</m>
+ <s>Provides extra data structures and iterable/array functionality.</s>
+ <d>teds (Tentative Extra Data Structures) is a collection of data structures and iterable functionality</d>
+ <da>2022-01-30 17:47:33</da>
+ <n>* Make SortedStrictSet/SortedStrictMap use a red-black tree that is rebalanced on insertions and removals, guaranteeing worst-case logarithmic time for insertions/removals/lookups.</n>
+ <f>167058</f>
+ <g>https://pecl.php.net/get/teds-0.9.2</g>
+ <x xlink:href="package.0.9.2.xml"/>
+</r>

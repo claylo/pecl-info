@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pq">pq</p>
+ <c>pecl.php.net</c>
+ <v>0.2.0</v>
+ <st>beta</st>
+ <l>BSD, revised</l>
+ <m>mike</m>
+ <s>libpq binding</s>
+ <d>Binding for libpq (PostgreSQL client library)
+ Documents: https://bitbucket.org/mike_php_net/ext-pq/wiki
+ 
+ Highlights:
+ * Nearly 100% support for using asynchronously:
+   https://bitbucket.org/mike_php_net/ext-pq/wiki/AsyncOperations
+ * Extended type support by pg_type:
+   https://bitbucket.org/mike_php_net/ext-pq/wiki/UsingTypes
+ * Fetching simple multi-dimensional array maps:
+   https://bitbucket.org/mike_php_net/ext-pq/wiki/FetchingResults#markdown-header-fetching-simple-maps
+ * Working Gateway implementation: 
+   https://bitbucket.org/mike_php_net/pq-gateway/src/</d>
+ <da>2013-04-25 04:21:47</da>
+ <n>* Fixed pq\Result::fetchCol()
+* Fixed type handling of boolean/double input parameters.
+* Added extented type handling of result parameters if PostgreSQL server headers are present.
+* Implemented get_properties() object handler.</n>
+ <f>42075</f>
+ <g>http://pecl.php.net/get/pq-0.2.0</g>
+ <x xlink:href="package.0.2.0.xml"/>
+</r>

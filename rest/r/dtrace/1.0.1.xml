@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/dtrace">dtrace</p>
+ <c>pecl.php.net</c>
+ <v>1.0.1</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>wez</m>
+ <s>A Solaris Dtrace provider</s>
+ <d>Allows dtrace to instrument PHP
+</d>
+ <da>2005-08-05 03:24:57</da>
+ <n>Seems to have problems instrumenting when run under apache.
+Offers two probes: function-entry and function-return.</n>
+ <f>3049</f>
+ <g>http://pecl.php.net/get/dtrace-1.0.1</g>
+ <x xlink:href="package.1.0.1.xml"/>
+</r>

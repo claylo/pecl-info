@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/yaml">yaml</p>
+ <c>pecl.php.net</c>
+ <v>2.0.0RC1</v>
+ <st>beta</st>
+ <l>MIT</l>
+ <m>bd808</m>
+ <s>YAML-1.1 parser and emitter</s>
+ <d>Support for YAML 1.1 (YAML Ain't Markup Language) serialization using the
+  LibYAML library.</d>
+ <da>2015-10-17 05:18:10</da>
+ <n>New Features:
+- PHP7 compatible
+- 2.x series will no longer support PHP5</n>
+ <f>37781</f>
+ <g>http://pecl.php.net/get/yaml-2.0.0RC1</g>
+ <x xlink:href="package.2.0.0RC1.xml"/>
+</r>

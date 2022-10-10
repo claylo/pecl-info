@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mcve">mcve</p>
+ <c>pecl.php.net</c>
+ <v>5.2.2</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>bradmssw</m>
+ <s>libmonetra/libmcve interface</s>
+ <d>Interface the MCVE/Monetra API (libmonetra [formerly libmcve]), allowing you to work directly with MCVE/Monetra from your PHP scripts. Monetra is Main Street Softworks' solution to direct credit 
+card processing for Unix.</d>
+ <da>2007-02-07 13:27:58</da>
+ <n>64bit truncation fix</n>
+ <f>19360</f>
+ <g>http://pecl.php.net/get/mcve-5.2.2</g>
+ <x xlink:href="package.5.2.2.xml"/>
+</r>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/meta">meta</p>
+ <c>pecl.php.net</c>
+ <v>0.0.1</v>
+ <st>alpha</st>
+ <l>New BSD License</l>
+ <m>flavius</m>
+ <s>Build ASTs and CSTs from PHP source code</s>
+ <d>A PHP module for generating the AST tree of a PHP source code, useful for
+userland tools for static code analysis, a preprocessor, meta programming.
+
+See README.md for further details.</d>
+ <da>2011-09-05 14:23:04</da>
+ <n>Initial import into the PECL directory.</n>
+ <f>299520</f>
+ <g>http://pecl.php.net/get/meta-0.0.1</g>
+ <x xlink:href="package.0.0.1.xml"/>
+</r>

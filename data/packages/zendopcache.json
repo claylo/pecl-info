@@ -1,0 +1,68 @@
+{
+    "category": "Caching",
+    "deprecated": false,
+    "description": "The Zend OPcache provides faster PHP execution through opcode caching and\n  optimization. It improves PHP performance by storing precompiled script\n  bytecode in the shared memory. This eliminates the stages of reading code from\n  the disk and compiling it on future access. In addition, it applies a few\n  bytecode optimization patterns that make code execution faster.",
+    "latestReleaseDate": "2015-04-14T05:32:27+00:00",
+    "latestVersion": "7.0.5",
+    "license": "PHP License",
+    "name": "ZendOpcache",
+    "summary": "The Zend OPcache provides faster PHP execution through opcode caching and optimization.",
+    "php8Mentioned": false,
+    "releases": {
+        "7.0.5": {
+            "version": "7.0.5",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "laruence",
+            "releaseDate": "2015-04-14T05:32:27+00:00",
+            "releaseNotes": "- Fixed bug #69281 (opcache_is_script_cached no longer works)\n- Fixed bug #68677 (Use After Free in OPcache)\n- Make killing a locker an ERROR event\n- Fixed bug #69125 (Array numeric string as key)\n- Fixed bug #69038 (switch(SOMECONSTANT) misbehaves)\n- Fixed segfault while running with moodle",
+            "get": "http://pecl.php.net/get/zendopcache-7.0.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "7.0.4": {
+            "version": "7.0.4",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "laruence",
+            "releaseDate": "2015-01-12T02:16:03+00:00",
+            "releaseNotes": "- Added function opcache_is_script_cached()\n- Fix bug #67111 (Loop variables need to be freed for both \"break\" and \"continue\")\n- Fix opcache.revalidate_freq per-request behavior\n- Fixed bug #67215 (php-cgi work with opcache, may be segmentation fault happen)\n- Fixed issue #183 (TMP_VAR is not only used once)",
+            "get": "http://pecl.php.net/get/zendopcache-7.0.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "7.0.3": {
+            "version": "7.0.3",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "laruence",
+            "releaseDate": "2014-01-20T08:38:12+00:00",
+            "releaseNotes": "- Fixed bug #66298 (ext/opcache/Optimizer/zend_optimizer.c has dos-style ^M as lineend)\n- Added suggestion about opcache.revalidate_freq setting in development environmento\n- Fixed Issue #140: \"opcache.enable_file_override\" doesn't respect \"opcache.revalidate_freq\"\n- Fixed reavlidate_path=1 behavior to avoid caching of symlinks values.\n- Fixed opcahce_reset() crash when opcache.protect_memory is set\n- Fixed bug #66176 (Invalid constant substitution)\n- Fixed bug #65559 (Opcache: cache not cleared if changes occur while running)\n- Fixed compatibility with old PHP versions\n- Fixed bug #65915 (Inconsistent results with require return value)\n- Fixed issue #115 (path issue when using phar)\n- Fixed issue #149 (Phar mount points not working with OPcache enabled)\n- Fixed bug #65845 (Error when Zend Opcache Optimizer is fully enabled).\n- Added function opcache_compile_file() to load PHP scripts into cache without execution.\n- Fixed issue #135 (segfault in interned strings if initial memory is too low)\n- Fixed bug #65665 (Exception not properly caught when opcache enabled)\n- Fixed issue #128 (opcache_invalidate segmentation fault)\n- Fixed bug #65510 (5.5.2 crashes in _get_zval_ptr_ptr_var)\n- Fixed bug #65561 (Zend Opcache on Solaris 11 x86 needs ZEND_MM_ALIGNMENT=4)\n- Replce ZEND_FETCH_* instructions with IS_CV if possible\n- Added opcache.restrict_api configuration directive that may limit usage of OPcahce API functions only to patricular script(s)\n- Added support for glob symbols in blacklist entries (?, *, **)\n- Improved implementation of NOP removal pass from O(n^2) to O(n)\n- Fixed bug #65338 (Enabling both php_opcache and php_wincache AVs on shutdown).\n- Fixed bug #64827 Segfault in zval_mark_grey (zend_gc.c)",
+            "get": "http://pecl.php.net/get/zendopcache-7.0.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "7.0.2": {
+            "version": "7.0.2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "laruence",
+            "releaseDate": "2013-06-05T02:33:56+00:00",
+            "releaseNotes": "- Fixed issue #26 (added opcache_invalidate(string $filename [, bool $force = false]) function)\n- Fixed issue #74 (Allowed per request OPcache disabling)\n- Fixed issue #76 (actually we don't need zend_shared_meory_block_header at all)\n- Fixed issue #78 (incorrect file path validation)\n- Fixed issue #79 (Optimization Problem/Bug)\n- Fixed issue #82 (allow comments in blacklist file, lines started with \";\")\n- Fixed issue #91 (fix x64 fixed addresses)\n- Fxied issue #92 (Compilation warnings)\n- Fixed issue #97 (Use size_t instead of int to support a cache larger than 2G)\n- Fixed bug (Avoid possible conditional jump depended on uninitialised value)",
+            "get": "http://pecl.php.net/get/zendopcache-7.0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "7.0.1": {
+            "version": "7.0.1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "laruence",
+            "releaseDate": "2013-03-25T04:49:10+00:00",
+            "releaseNotes": "- Fixed Bug #64490 (add __FreeBSD_kernel__ to allowed FreeBSD defs)\n- Fixed Bug #64482 (Opcodes for dynamic includes should not be cached)\n- Fixed Bug #64353 (Built-in classes can be unavailable with dynamic includes and Optimizer+)\n- Fixed compatibility with ext/phar\n- Fixed Issue #58 (PHP-5.2 compatibility)\n- Fixed Issue #57 (segfaults in drupal7)\n- Fixed Issue #54 (PECL install adds extension= instead of zend_extension= to php.ini)-iii\n- Allows exclusion of large files from being cached\n- Save a stat() call by calling sapi_module.get_stat()\n- Add optional flag to opcache_get_status()\n- Separate \"start_time\" from \"last_restart_time\"",
+            "get": "http://pecl.php.net/get/zendopcache-7.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "7.0.0": {
+            "version": "7.0.0",
+            "state": "beta"
+        }
+    },
+    "SPDX-License-Identifier": "PHP-3.01"
+}

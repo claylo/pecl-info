@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/cassandra">cassandra</p>
+ <c>pecl.php.net</c>
+ <v>1.2.2</v>
+ <st>stable</st>
+ <l>Apache License 2.0</l>
+ <m>mpenick</m>
+ <s>DataStax PHP Driver for Apache Cassandra</s>
+ <d>A modern, feature-rich and highly tunable PHP client library for Apache
+Cassandra and DataStax Enterprise using exclusively Cassandra's binary
+protocol and Cassandra Query Language v3.</d>
+ <da>2016-08-08 18:35:15</da>
+ <n># 1.2.2
+
+Bug Fixes:
+
+* [PHP-88] \Cassandra\Timestamp::toDateTime segfault with PHP7
+* [PHP-112] Freeing a null future as result of a failure in \Cassandra\DefaultSession::executeAsync()
+* [PHP-115] \Cassandra\UUID returning duplicate UUIDs</n>
+ <f>153553</f>
+ <g>http://pecl.php.net/get/cassandra-1.2.2</g>
+ <x xlink:href="package.1.2.2.xml"/>
+</r>

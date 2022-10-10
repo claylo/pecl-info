@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/env">env</p>
+ <c>pecl.php.net</c>
+ <v>0.2.0</v>
+ <st>beta</st>
+ <l>MIT</l>
+ <m>beberlei</m>
+ <s>Load environment variables into PHP from a global configuration file</s>
+ <d>Based on 12Factor Application rules this extension allows you to load environment variables into every PHP request, in every SAPI using a global configuration file with key value pairs of environment variables.</d>
+ <da>2016-01-01 14:57:33</da>
+ <n>- Reset env variables before every RINIT to allow usage in PHP-FPM</n>
+ <f>6327</f>
+ <g>http://pecl.php.net/get/env-0.2.0</g>
+ <x xlink:href="package.0.2.0.xml"/>
+</r>

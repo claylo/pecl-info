@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/sphinx">sphinx</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>tony2001</m>
+ <s>Client extension for Sphinx - opensource SQL full-text search engine</s>
+ <d>This extension provides bindings for libsphinxclient, client library for Sphinx.</d>
+ <da>2009-01-29 03:30:59</da>
+ <n>- Added __sleep() and __wakeup() methods to prevent (un)serialization of SphinxClient instances.
+- Fixed PECL bug #15033 (segfaults on SPARC because of unaligned read).
+- Fixed PECL bug #14930 (configure fails on freebsd). (patch by nobleclem at fatalexception dot us)
+- Fixed PECL bug #14752 (32-bit Client does not work with 64-bit ids). (nobleclem at fatalexception dot us, Tony)</n>
+ <f>11117</f>
+ <g>http://pecl.php.net/get/sphinx-1.0.0</g>
+ <x xlink:href="package.1.0.0.xml"/>
+</r>

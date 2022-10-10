@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/redis">redis</p>
+ <c>pecl.php.net</c>
+ <v>4.1.1</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>yatsukhnenko</m>
+ <s>PHP extension for interfacing with Redis</s>
+ <d>This extension provides an API for communicating with Redis servers.</d>
+ <da>2018-08-01 06:44:50</da>
+ <n>phpredis 4.1.1
+
+This release contains only bugfixes and documentation improvements
+
+* Fix arginfo for Redis::set method [0c5e7f4d] (Pavlo Yatsukhnenko)
+* Fix compression in RedisCluster [a53e1a34] (Pavlo Yatsukhnenko)
+* Fix TravisCI builds [9bf32d30] (@jrchamp)
+* Highlight php codes in documentation [c3b023b0] (@ackintosh)</n>
+ <f>220894</f>
+ <g>http://pecl.php.net/get/redis-4.1.1</g>
+ <x xlink:href="package.4.1.1.xml"/>
+</r>

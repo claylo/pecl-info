@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ibm_db2">ibm_db2</p>
+ <c>pecl.php.net</c>
+ <v>1.9.4</v>
+ <st>stable</st>
+ <l>Apache License 2.0</l>
+ <m>rahulpriyadarshi</m>
+ <s>Extension for IBM DB2 Universal Database, IBM Cloudscape, and
+        Apache Derby</s>
+ <d>This extension supports IBM DB2 Universal Database, IBM
+Cloudscape, and Apache Derby databases.</d>
+ <da>2012-10-08 08:04:56</da>
+ <n>Fixed: DB2 PHP driver does not work as expected with values in BIGINT column
+Added: test case test_bigint.phpt for BIGINT datatype
+Fixed: Persistent connections takes up to 1 hour to reconnect on db2 TSA HA failover
+FIxed: Fixed: Allow trial license to connect ZOS/i5
+Added a environment variable IBM_DB_HOME to make the installation process easy and config script will automatically detect the architecure for which PHP is built and accordingly use the libraries under lib32/lib64.</n>
+ <f>157273</f>
+ <g>http://pecl.php.net/get/ibm_db2-1.9.4</g>
+ <x xlink:href="package.1.9.4.xml"/>
+</r>

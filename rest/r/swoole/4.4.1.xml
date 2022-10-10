@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.4.1</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in http/websocket/http2 server
+        - coroutine http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2019-07-16 06:28:32</da>
+ <n>Enhancement
+---
++ Support send response with non-zero Content-length without body for HEAD request (#2690) (@matyhtf)
++ Support `Coroutine::getPcid` by a random cid (#2669) (@huanghantao)
+
+Fixed
+---
+* Fixed `SSL_MODE_ACCEPT_MOVING_WRITE_BUFFER` (#2667) (@twose)
+* Fixed signal listener (#2675) (@matyhtf)
+* Fixed MySQL incompatibility changes (#2674) (@twose)
+* Fixed add event after server start (#2673) (@matyhtf)
+* Fixed `static_handler` can not decode url (#2676) (@twose)
+* Fixed task worker warning (#2689) (@Yurunsoft)
+* Fixed `Http\Request-&gt;rawContent` (#2682) (@twose)
+* Fixed invalid read when  `Timer::clearAll` (6b0263b) (@matyhtf)
+* Fixed `Coroutine\Http\Client` send failed (432259d) (@twose)</n>
+ <f>1412437</f>
+ <g>https://pecl.php.net/get/swoole-4.4.1</g>
+ <x xlink:href="package.4.4.1.xml"/>
+</r>

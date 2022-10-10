@@ -1,0 +1,22 @@
+#!/usr/bin/env php -d display_errors=0
+<?php
+$xml = file_get_contents('rest/p/packages.xml');
+$doc = new DOMDocument();
+$doc->loadXML($xml);
+$xpath = new DOMXpath($doc);
+$xpath->registerNamespace('p', 'http://pear.php.net/dtd/rest.allpackages');
+
+$package_list = [];
+
+$packages = $xpath->query('/p:a/p:p');
+foreach ($packages as $p) {
+    $pkg = strtolower($p->nodeValue);
+    $package_list[$pkg] = [];
+}
+
+ksort($package_list);
+
+file_put_contents(
+    'data/packages.json',
+    json_encode($package_list, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES)
+);

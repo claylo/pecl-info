@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.56.0</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>labbati</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2021-03-04 16:52:34</da>
+ <n>### Added
+- Add randomized testing to test hundreds of different scenarios #1131
+- Add configured http headers to root span #1154
+- Add the possibility to freeze a regression in a specific randomized tests scenario #1153
+### Changed
+- Remove non php7 code from ext/php7 folder #1162
+- Remove non php5 code from ext/php5 folder #1164
+### Fixed
+- Add missing dependency on curl extension for PHP 8 #1144 (Thanks @remicollet!)
+- Fix initialization of `curl_multi_init()` for distributed tracing #1159
+- Add comment to long running example for method instead of function #1149
+- Fix linting + xfail a flaky test #1147
+- Update links in README.md to configuration and OT docs #1069
+- Fix clang-format installation after circleci image update to buster #1141</n>
+ <f>426985</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.56.0</g>
+ <x xlink:href="package.0.56.0.xml"/>
+</r>

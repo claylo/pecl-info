@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ssh2">ssh2</p>
+ <c>pecl.php.net</c>
+ <v>1.0</v>
+ <st>alpha</st>
+ <l>PHP License</l>
+ <m>langemeijer</m>
+ <s>Bindings for the libssh2 library</s>
+ <d>Provides bindings to the functions of libssh2 which implements the SSH2 protocol.
+        libssh2 is available from http://libssh2.org/
+
+        ssh2 1.0 and above is PHP 7 only. To install a version that is PHP 5 compatible you can run 'pecl install ssh2-0.13'
+
+        Note that reaching version 1.0 does NOT indicate we've reached a stable release.</d>
+ <da>2016-06-12 15:06:09</da>
+ <n>- Release for PHP 7 (Sean DuBois)
+- Made win32 builds depend on zlib and openssl extensions (Credomane Evonguard)
+- Add blocking call to php_ssh2_direct_tcpip (Credomane Evonguard)
+- Added explicit ssh2_disconnect function (Credomane Evonguard)
+- Fixed bug #72150 - Fixing segfault when passing env variables (Krakjoe)</n>
+ <f>29013</f>
+ <g>http://pecl.php.net/get/ssh2-1.0</g>
+ <x xlink:href="package.1.0.xml"/>
+</r>

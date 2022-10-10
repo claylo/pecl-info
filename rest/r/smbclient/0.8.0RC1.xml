@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/smbclient">smbclient</p>
+ <c>pecl.php.net</c>
+ <v>0.8.0RC1</v>
+ <st>beta</st>
+ <l>BSD 2-clause</l>
+ <m>eduardo</m>
+ <s>A PHP wrapper for libsmbclient</s>
+ <d>smbclient is a PHP extension that uses Samba's libsmbclient library to provide
+  Samba related functions and 'smb' streams to PHP programs.</d>
+ <da>2015-12-08 16:39:25</da>
+ <n>- initial PECL release
+- add 'smb' streams support
+- rename extension to smbclient
+- PHP 7 compatibility</n>
+ <f>30812</f>
+ <g>http://pecl.php.net/get/smbclient-0.8.0RC1</g>
+ <x xlink:href="package.0.8.0RC1.xml"/>
+</r>

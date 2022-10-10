@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/lzf">LZF</p>
+ <c>pecl.php.net</c>
+ <v>1.6.5</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>remi</m>
+ <s>LZF compression.</s>
+ <d>This package handles LZF de/compression.</d>
+ <da>2016-04-03 08:01:38</da>
+ <n>- optimize lzf_decompress on large input (~20%)
+- use safe allocation to avoid integer overflow</n>
+ <f>16968</f>
+ <g>http://pecl.php.net/get/LZF-1.6.5</g>
+ <x xlink:href="package.1.6.5.xml"/>
+</r>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.76.2</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>krakjoe</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2022-07-28 14:56:44</da>
+ <n>### Fixed
+- Check for datadog-profiling in startup only instead of inside a message_handler #1670. This fixes a possible crash when all of tracer, profiler and appsec are loaded.
+- Add opcode shutdown handlers, fix integrations after repeated minit #1669. This fixes a crash when using reload on apache (sending SIGUSR1).
+- (PHP 7) Fix curl wrapper use after free #1662. This fixes a possible crash when curl handles are manually released within destructors inside the PHP shutdown sequence.
+- Fix -Werror=address-of-packed-member (#1664).
+
+### Internal changes
+- Skip curl test if curl is not loaded #1668
+
+## Profiling (v0.7.2)
+- Fix crash with SAPI env vars DataDog/dd-prof-php#46
+- Avoid .message_handler due to upstream bug DataDog/dd-prof-php#47</n>
+ <f>460575</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.76.2</g>
+ <x xlink:href="package.0.76.2.xml"/>
+</r>

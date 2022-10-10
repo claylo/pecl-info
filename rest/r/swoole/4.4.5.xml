@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.4.5</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in http/websocket/http2 server
+        - coroutine http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2019-08-30 13:06:50</da>
+ <n>Enhancement
+---
++ Better Reactor (@matyhtf)
++ Better AIO (@twose)
++ Better Redis (3608f4c2) (@twose)
++ Handle Empty upload files (#2779) (@sshymko)
++ Add File uploads array parser (#2773) (@sshymko)
++ Support PURGE (#2754) (#2764) (@sshymko)
++ Allow HTTP methods like GETX POSTX PUTX etc (#2772) (@doubaokun)
++ Reduce the default max_wait_time to 3 (ed5c838) (@twose)
+
+Fixed
+---
+* Fixed AIO memory error (@twose)
+* Fixed compilation without zlib (f5a03366) (@twose)
+* Fixed timeout param of stream (c8275989) (@twose)
+* Fixed missing http headers (#2789) (@doubaokun)
+* Fixed client type (#2771) (@doubaokun)</n>
+ <f>1426083</f>
+ <g>https://pecl.php.net/get/swoole-4.4.5</g>
+ <x xlink:href="package.4.4.5.xml"/>
+</r>

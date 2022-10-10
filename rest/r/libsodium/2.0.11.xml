@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/libsodium">libsodium</p>
+ <c>pecl.php.net</c>
+ <v>2.0.11</v>
+ <st>stable</st>
+ <l>BSD 2-Clause License</l>
+ <m>jedisct1</m>
+ <s>Wrapper for the Sodium cryptographic library</s>
+ <d>A simple, low-level PHP extension for libsodium.</d>
+ <da>2018-04-29 17:05:52</da>
+ <n>- Added a workaround for a PHP vulnerability affecting all PHP7 versions up to and including 7.2.5.
+- Bindings for crypto_aead_*_detached() functions have been added.</n>
+ <f>28951</f>
+ <g>http://pecl.php.net/get/libsodium-2.0.11</g>
+ <x xlink:href="package.2.0.11.xml"/>
+</r>

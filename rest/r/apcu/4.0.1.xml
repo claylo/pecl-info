@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/apcu">apcu</p>
+ <c>pecl.php.net</c>
+ <v>4.0.1</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>krakjoe</m>
+ <s>APCu - APC User Cache</s>
+ <d>APC User Caching</d>
+ <da>2013-04-30 03:30:12</da>
+ <n>- Fix crash in cli on apc_store where enable_cli=0
+- Testing eval serializers
+- Change apc_* to apcu_* in apc.php
+- Fix exports in API
+- Expose to userland whether APCu is compiled with the APC compatibility.
+  See the APCU_APC_FULL_BC constant. (Anatol)
+- Fixed bin dump producing garbage data in multithreaded env. (Anatol)</n>
+ <f>105861</f>
+ <g>http://pecl.php.net/get/apcu-4.0.1</g>
+ <x xlink:href="package.4.0.1.xml"/>
+</r>

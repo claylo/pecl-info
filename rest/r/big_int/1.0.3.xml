@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/big_int">big_int</p>
+ <c>pecl.php.net</c>
+ <v>1.0.3</v>
+ <st>stable</st>
+ <l>see LICENSE</l>
+ <m>valyala</m>
+ <s>big_int library provides a set of functions for calculations with arbitrary length integers and bitsets</s>
+ <d>Functions from this package are useful for number theory
+applications. For example, in two-keys cryptography.
+
+See /tests/RSA.php in the package for example of simple
+implementation of RSA-like cryptoalgorithm.
+See http://chat.finalcombat.com/vayala/big_int/ page for
+more complex implementation of RSA-like crypto, which
+supports key generating, encrypting/decrypting, signing
+and validating of sign.
+
+The package has many bitset functions, which allow to work
+with arbitrary length bitsets.
+
+This package is much faster than bundled into PHP BCMath
+and consists almost all functions, which are implemented
+in PHP GMP extension, but it needn't any external libraries.
+</d>
+ <da>2005-04-18 11:29:36</da>
+ <n>* fixed the bug in big_int_create() function, which does not actually return the big_int it created. Thanks to Paul Vincent Craven (paul at cravenfamily.com)
+* fixed wrong include path in /tests/bitset.php
+* fixed possible bug in bin_op() function in /libbig_int/src/bitset_funcs.c, when parameter [a] or [b] points to the same address as [answer]
+- removed unnesessary /PEAR folder, which contained of Crypt_RSA package. This package is available at http://chat.finalcombat.com/valyala/big_int/ page.</n>
+ <f>45549</f>
+ <g>http://pecl.php.net/get/big_int-1.0.3</g>
+ <x xlink:href="package.1.0.3.xml"/>
+</r>

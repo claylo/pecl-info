@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/eio">eio</p>
+ <c>pecl.php.net</c>
+ <v>0.3.0</v>
+ <st>alpha</st>
+ <l>php</l>
+ <m>osmanov</m>
+ <s>Provides interface to the libeio library</s>
+ <d>This extension provides interface to the libeio library written by Marc Lehmann
+  &lt;libeio at schmorp dot de&gt;(see http://software.schmorp.de/pkg/libeio.html).
+  
+  Libeio is a an asynchronous I/O library. Features basically include
+  asynchronous versions of POSIX API(read, write, open, close, stat, unlink,
+  fdatasync, mknod, readdir etc.); sendfile (native on Solaris, Linux, HP-UX,
+  FreeBSD); readahead. libeio itself emulates the system calls, if they are not
+  available on specific(UNIX-like) platform.
+  
+  Currently this extension supports Linux platforms only.</d>
+ <da>2011-10-27 16:00:37</da>
+ <n>Change: mutex switch that used in communications with libeio replaced with
+eventfd; the same descriptor exported to userspace to bind with existing
+event loops
+Add: eio_get_eventfd function to get eventfd descriptor
+Add: header checks in configuration 
+Change: libeio initialization moved to the MINIT phase, but unfinished
+requests are still handled in the RSHUTDOWN phase
+Change: simplified libeio callbacks</n>
+ <f>22486</f>
+ <g>http://pecl.php.net/get/eio-0.3.0</g>
+ <x xlink:href="package.0.3.0.xml"/>
+</r>

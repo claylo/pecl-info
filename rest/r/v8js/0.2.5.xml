@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/v8js">v8js</p>
+ <c>pecl.php.net</c>
+ <v>0.2.5</v>
+ <st>beta</st>
+ <l>The MIT License (MIT)</l>
+ <m>stesie</m>
+ <s>V8 Javascript Engine for PHP</s>
+ <d>This extension embeds Google's V8 Javascript Engine into PHP.</d>
+ <da>2015-09-23 20:27:35</da>
+ <n>- Stop JS execution on PHP exceptions (instead of continuing silently)
+- Allow propagation of PHP exceptions to JS context (disabled by default)
+- Add v8js.compat_php_exceptions php.ini switch to switch previous behaviour back on</n>
+ <f>93826</f>
+ <g>http://pecl.php.net/get/v8js-0.2.5</g>
+ <x xlink:href="package.0.2.5.xml"/>
+</r>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>0.2.0</v>
+ <st>alpha</st>
+ <l>New BSD License</l>
+ <m>bjori</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundemental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2015-03-23 19:07:10</da>
+ <n>* PHPC-174: Rename module registration, constants and so on to mongodb
+* PHPC-174: Rename phongo to mongodb
+* PHPC-174: Use consistent extension names for PHP and HHVM drivers
+* PHPC-195: Fix typo and couple of missing incldues
+* PHPC-195: Remove mongoc/bson header file workarounds
+* Test for PHPC-186
+* PHPC-183: Add -Wdeclaration-after-statement to --enable-developers-flags
+* PHPC-183: Fix compiler warnings with -Wdeclaration-after-statement
+* PHPC-189: Implement Manager-&gt;getServers()
+* PHPC-188: Populate MongoDB\Driver\Server
+* PHPC-24 PHPC-77 PHPC-69 Provide a functioning Server object
+* PHPC-106: Comment out var_dump() data for now
+* PHPC-106: Enable mongoc SDAM build
+* PHPC-106: Connect asynchronouslyish
+* PHPC-106: Implement the new poll callback
+* PHPC-181: Discard const qualifiers for PHP API
+* PHPC-181: Use const for pointer args where applicable
+* PHPC-180: Fix limited batch import
+* PHPC-180: No need to sleep anything, we get a fresh connection in next test
+* PHPC-180: We now load 1024 users
+* PHPC-180: We now generate 1024 users, only load the first 100
+* PHPC-180: Cache the fixtures
+* PHPC-180: Rename constant and pass the cleanup uri explicitly
+* PHPC-180: Replace this Orchestration wrapper with significantly simpler code
+* PHPC-168: Implement WriteResult::isAcknowledged()
+* PHPC-170: Don't set write concern on bulk unnecessarily
+* PHPC-177: Include all fields in WriteConcern debug output</n>
+ <f>448328</f>
+ <g>http://pecl.php.net/get/mongodb-0.2.0</g>
+ <x xlink:href="package.0.2.0.xml"/>
+</r>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.4.17</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in tcp/http/websocket/http2 server
+        - coroutine tcp/http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2020-04-01 04:58:42</da>
+ <n>Enhancement
+---
++ Improve SSL Server performance (#3077) (85a9a595) (@matyhtf)
++ Remove SW_HTTP_HEADER_VALUE_SIZE, SW_HTTP_HEADER_BUFFER_SIZE (#3187) limitation (@twose)
++ Support MIPS (#3196) (@ekongyun)
++ Support CURLOPT_HTTPAUTH (swoole/library@570318be) (@twose)
+
+Fixed
+---
+* Fixed behavior of package_length_func and memory leak (#3111) (@twose)
+* Fixed HTTP 304 error (#3118) (#3120) (@twose)
+* Fixed incorrect macro expansion (#3142) (@twose)
+* Fixed OpenSSL function signature (#3154) (#3155) (@twose)
+* Fixed SSL error msg (#3172) (@matyhtf) (@twose)
+* Fixed PHP-7.4 compatibility (@twose) (@matyhtf)
+* Fixed HTTP chunk length parser (19a1c712) (@twose)
+* Fixed chunked multipart parser (3692d9de) (@twose)
+* Fixed ZEND_ASSUME failed (fc0982be) (@twose)
+* Fixed Socket address error (d72c5e3a) (@twose)
+* Fixed Socket get name #3177 (#3179) (@matyhtf)
+* Fixed static handler with empty file (#3182) (@twose)
+* Fixed upload file handler on Coroutine\Http\Client (#3189) (#3191) (@twose)
+* Fixed possible memory error on shutdown (44aef60a) (@matyhtf)
+* Fixed Server-&gt;heartbeat (#3203) (@matyhtf)
+* Fixed reactor defer task (only tasks of the current round will be called) (#3207) (@twose)
+* Fixed invalid write on immutable array (#3212) (@twose)
+* Fixed double wait, improve error message (swoole/library@537a82e1) (@twose)
+* Fixed empty header (keep same with cURL) (swoole/library@7c92ed5a) (@twose)
+* Fixed non-IO methods error handler (swoole/library@f6997394) (@twose)
+* Fixed wrong proxy header (swoole/library@5e94e5da) (@twose)</n>
+ <f>1459416</f>
+ <g>https://pecl.php.net/get/swoole-4.4.17</g>
+ <x xlink:href="package.4.4.17.xml"/>
+</r>

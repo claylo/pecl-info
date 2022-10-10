@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xdebug">xdebug</p>
+ <c>pecl.php.net</c>
+ <v>2.0.5</v>
+ <st>stable</st>
+ <l>BSD style</l>
+ <m>derick</m>
+ <s>Provides functions for function traces and profiling</s>
+ <d>The Xdebug extension helps you debugging your script by providing a lot of
+valuable debug information. The debug information that Xdebug can provide
+includes the following:
+
+    * stack and function traces in error messages with:
+          o full parameter display for user defined functions
+          o function name, file name and line indications
+          o support for member functions
+    * memory allocation
+    * protection for infinite recursions
+
+Xdebug also provides:
+
+    * profiling information for PHP scripts
+    * code coverage analysis
+    * capabilities to debug your scripts interactively with a debug client</d>
+ <da>2009-07-13 09:09:18</da>
+ <n>Fri, Jul 03, 2009 - xdebug 2.0.5
+
+= Fixed bugs:
+	- Fixed bug #425: memory leak (around 40MB for each request) when using
+	  xdebug_start_trace.
+	- Fixed bug #422: Segfaults when using code coverage with a parse error in
+	  the script.
+	- Fixed bug #418: compilation breaks with CodeWarrior for NetWare.
+	- Fixed bug #403: 'call' and 'return' breakpoints triggers both on call and
+	  return for class method breakpoints.
+	- Fixed TSRM issues for PHP 5.2 and PHP 5.3. (Original patch by Elizabeth
+	  M. Smith).
+	- Fixed odd crash bugs, due to GCC 4 sensitivity.</n>
+ <f>289234</f>
+ <g>http://pecl.php.net/get/xdebug-2.0.5</g>
+ <x xlink:href="package.2.0.5.xml"/>
+</r>

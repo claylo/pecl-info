@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/yaz">yaz</p>
+ <c>pecl.php.net</c>
+ <v>1.2.3</v>
+ <st>stable</st>
+ <l>revised BSD</l>
+ <m>dickmeiss</m>
+ <s>Z39.50/SRU client</s>
+ <d>This extension implements a Z39.50/SRU client for PHP using the YAZ toolkit and the ZOOM framework.
+
+Find more information at:
+  http://www.indexdata.com/phpyaz
+  http://www.indexdata.com/yaz</d>
+ <da>2018-12-11 10:42:09</da>
+ <n>Fix for PHP 7.3 API changes, and array_init always succeeds</n>
+ <f>20059</f>
+ <g>https://pecl.php.net/get/yaz-1.2.3</g>
+ <x xlink:href="package.1.2.3.xml"/>
+</r>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/expect">expect</p>
+ <c>pecl.php.net</c>
+ <v>0.2.8</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>michael</m>
+ <s>PHP extension for expect library</s>
+ <d>This extension allows to interact with processes through PTY, using expect library.</d>
+ <da>2011-01-09 03:50:42</da>
+ <n>Fixed bug #16836 (introduce expect.match_max .ini parameter for asterisk match buffer size)</n>
+ <f>6438</f>
+ <g>http://pecl.php.net/get/expect-0.2.8</g>
+ <x xlink:href="package.0.2.8.xml"/>
+</r>

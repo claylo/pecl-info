@@ -1,0 +1,41 @@
+#!/usr/bin/env bash
+# shellcheck disable=SC2312
+set -o pipefail
+
+REPODIR="$(dirname "$(cd "$(dirname "$0")" && pwd -P)")"
+CURL_ETAG_OPTIONS=""
+
+function setEtagOpts {
+  local tagfile=""
+  local dir=""
+  tagfile="${REPODIR}/.etags/$(dirname "${1}")/$(basename -s ".xml" "${1}").txt"
+  dir=$(dirname "${tagfile}")
+  if [[ ! -d ${dir} ]]; then
+    mkdir -p "${dir}"
+  fi
+  CURL_ETAG_OPTIONS=" --etag-save '${tagfile}'"
+  if [[ -f ${tagfile} ]]; then
+    CURL_ETAG_OPTIONS+=" --etag-compare '${tagfile}'"
+  fi
+}
+
+function checkRestDirPath {
+  local dir=""
+  dir=$(dirname "${REPODIR}/rest/${1}")
+  if [[ ! -d ${dir} ]]; then
+    mkdir -p "${dir}"
+  fi
+}
+
+function main {
+  local req="${1}"
+  local curlopts="-s --compressed"
+  setEtagOpts "${req}"
+  checkRestDirPath "${req}"
+
+  curlopts+="${CURL_ETAG_OPTIONS} --output '${REPODIR}/rest/${req}' https://pecl.php.net/rest/${req}"
+
+  eval curl "${curlopts}"
+}
+
+main "${1}"

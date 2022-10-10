@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/zstd">zstd</p>
+ <c>pecl.php.net</c>
+ <v>0.8.0</v>
+ <st>alpha</st>
+ <l>MIT</l>
+ <m>kjdev</m>
+ <s>Zstandard extension</s>
+ <d>PHP extension for compression and decompression with Zstandard library.</d>
+ <da>2020-02-06 23:22:48</da>
+ <n>- ztsd_uncompress may return a empty string</n>
+ <f>279793</f>
+ <g>https://pecl.php.net/get/zstd-0.8.0</g>
+ <x xlink:href="package.0.8.0.xml"/>
+</r>

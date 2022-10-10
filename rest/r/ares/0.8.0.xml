@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ares">ares</p>
+ <c>pecl.php.net</c>
+ <v>0.8.0</v>
+ <st>beta</st>
+ <l>BSD, revised</l>
+ <m>mike</m>
+ <s>Asynchronous Resolver</s>
+ <d>Binding for the ares (MIT) or c-ares (CURL) library.</d>
+ <da>2014-11-14 02:44:48</da>
+ <n>* Fixed bug #63131 (OSX support for PECL ares)
++ Added support for options and flags up to c-ares 1.10
++ Added ares_set_local_{dev,ip4,ip6} functions
++ Added support for AAAA answers</n>
+ <f>16715</f>
+ <g>http://pecl.php.net/get/ares-0.8.0</g>
+ <x xlink:href="package.0.8.0.xml"/>
+</r>

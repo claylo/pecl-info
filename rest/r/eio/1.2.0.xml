@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/eio">eio</p>
+ <c>pecl.php.net</c>
+ <v>1.2.0</v>
+ <st>stable</st>
+ <l>php</l>
+ <m>osmanov</m>
+ <s>Provides interface to the libeio library</s>
+ <d>This extension provides interface to the libeio library written by Marc Lehmann
+    &lt;libeio at schmorp dot de&gt;(see http://software.schmorp.de/pkg/libeio.html).
+
+    Libeio is a an asynchronous I/O library. Features basically include
+    asynchronous versions of POSIX API(read, write, open, close, stat, unlink,
+    fdatasync, mknod, readdir etc.); sendfile (native on Solaris, Linux, HP-UX,
+    FreeBSD); readahead. libeio itself emulates the system calls, if they are not
+    available on specific(UNIX-like) platform.
+
+    Currently this extension supports GNU/Linux and BSD platforms only. But you can
+    try it on any UNIX OS.</d>
+ <da>2012-07-30 15:14:58</da>
+ <n>Add: BSD support
+Change: internal event notification uses pipe() when eventfd() is not available.
+Del: some redundant code
+Fix: use libeio's EIO_FALLOC_FL_KEEP_SIZE instead of the system constant</n>
+ <f>55871</f>
+ <g>http://pecl.php.net/get/eio-1.2.0</g>
+ <x xlink:href="package.1.2.0.xml"/>
+</r>

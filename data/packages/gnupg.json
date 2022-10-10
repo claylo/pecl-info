@@ -1,0 +1,264 @@
+{
+    "category": "Encryption",
+    "deprecated": false,
+    "description": "This extension provides methods to interact with gnupg",
+    "latestReleaseDate": "2021-12-31T22:09:28+00:00",
+    "latestVersion": "1.5.1",
+    "license": "BSD, revised",
+    "name": "gnupg",
+    "php8Mentioned": true,
+    "releases": {
+        "1.5.1": {
+            "version": "1.5.1",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "bukka",
+            "releaseDate": "2021-12-31T22:09:28+00:00",
+            "releaseNotes": "* Fixed compilation with PHP 8.1\n* Fixed build with gpgme 1.4",
+            "get": "https://pecl.php.net/get/gnupg-1.5.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.5.0": {
+            "version": "1.5.0",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "bukka",
+            "releaseDate": "2021-04-10T20:05:38+00:00",
+            "releaseNotes": "* Added new README.md",
+            "get": "https://pecl.php.net/get/gnupg-1.5.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.5.0RC2": {
+            "version": "1.5.0RC2",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "bukka",
+            "releaseDate": "2021-03-07T17:20:52+00:00",
+            "releaseNotes": "* Fixed build with libgpgme 1.3\n* Fixed largefile support on 32-bit platforms\n* Fixed tests in PECL archive",
+            "get": "https://pecl.php.net/get/gnupg-1.5.0RC2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.5.0RC1": {
+            "version": "1.5.0RC1",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "bukka",
+            "releaseDate": "2021-02-14T19:44:35+00:00",
+            "releaseNotes": "* Added support for PHP 8\n* Added support for GnuPG 2.1+\n* Added argument info for all functions and methods (reflection support)\n* Added new function `gnupg_getengineinfo`\n* Added new function `gnupg_geterrorinfo`\n* Added init array argument for setting home dir and gpg binary file name\n* Added additional fields to `gnupg_keyinfo` returned array\n* Added parameter to `gnupg_keyinfo` to use `secret_only`\n* Fixed `gnupg_deletekey` to use boolean for `allow_secret` parameter",
+            "get": "https://pecl.php.net/get/gnupg-1.5.0RC1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.4.0": {
+            "version": "1.4.0",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "bukka",
+            "releaseDate": "2016-08-29T19:03:44+00:00",
+            "releaseNotes": "* No changes since 1.4.0RC2",
+            "get": "http://pecl.php.net/get/gnupg-1.4.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.4.0RC2": {
+            "version": "1.4.0RC2",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "bukka",
+            "releaseDate": "2016-07-24T18:12:12+00:00",
+            "releaseNotes": "* Fixed ZTS issue with invalid context for a password callback",
+            "get": "http://pecl.php.net/get/gnupg-1.4.0RC2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.4.0RC1": {
+            "version": "1.4.0RC1",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "bukka",
+            "releaseDate": "2016-06-15T19:08:05+00:00",
+            "releaseNotes": "* Added support for PHP 7\n* Fixed various compilation issues",
+            "get": "http://pecl.php.net/get/gnupg-1.4.0RC1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.3.6": {
+            "version": "1.3.6",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "jimjag",
+            "releaseDate": "2015-02-11T13:13:56+00:00",
+            "releaseNotes": "Compilation bug",
+            "get": "http://pecl.php.net/get/gnupg-1.3.6",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.3.5": {
+            "version": "1.3.5",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "jimjag",
+            "releaseDate": "2015-02-11T13:05:19+00:00",
+            "releaseNotes": "Fix compatibility with PHP 5.4, 5.5 and 5.6\n  iterator fix\n  bug #65342",
+            "get": "http://pecl.php.net/get/gnupg-1.3.5",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.3.3": {
+            "version": "1.3.3",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "jimjag",
+            "releaseDate": "2013-07-17T07:49:02+00:00",
+            "releaseNotes": "Fix compatibility with PHP 5.4 and 5.5",
+            "get": "http://pecl.php.net/get/gnupg-1.3.3",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.3.2": {
+            "version": "1.3.2",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "pajoye",
+            "releaseDate": "2010-07-20T16:29:12+00:00",
+            "releaseNotes": "Fix compatibility with gpgme >= 1.2.0 and crashes on 64-bit systems",
+            "get": "http://pecl.php.net/get/gnupg-1.3.2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.3.1": {
+            "version": "1.3.1",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "traufeisen",
+            "releaseDate": "2007-05-04T09:53:42+00:00",
+            "releaseNotes": "fixed double-free with recent gpgme-lib",
+            "get": "http://pecl.php.net/get/gnupg-1.3.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.3": {
+            "version": "1.3",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "traufeisen",
+            "releaseDate": "2006-11-06T09:58:34+00:00",
+            "releaseNotes": "PHP 5.2 compatibility\ngnupg_deletekey now allows deleting a secret key in procedural usage\nraised min version to 4.4",
+            "get": "http://pecl.php.net/get/gnupg-1.3",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.2": {
+            "version": "1.2",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "traufeisen",
+            "releaseDate": "2006-05-23T15:27:42+00:00",
+            "releaseNotes": "fixed bug #7587 (gnupg_verify fails with detached signature)\nadded \"summary\" into signature-array",
+            "get": "http://pecl.php.net/get/gnupg-1.2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.1": {
+            "version": "1.1",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "traufeisen",
+            "releaseDate": "2006-03-16T11:26:02+00:00",
+            "releaseNotes": "improved PHP4 compatibility\npassphrase-errors now takes care of the errormode",
+            "get": "http://pecl.php.net/get/gnupg-1.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.0": {
+            "version": "1.0",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "traufeisen",
+            "releaseDate": "2005-12-29T14:58:26+00:00",
+            "releaseNotes": "bump to stable",
+            "get": "http://pecl.php.net/get/gnupg-1.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.7.1": {
+            "version": "0.7.1",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "traufeisen",
+            "releaseDate": "2005-12-01T12:31:34+00:00",
+            "releaseNotes": "fixed PHP 5.1 build",
+            "get": "http://pecl.php.net/get/gnupg-0.7.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.7": {
+            "version": "0.7",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "traufeisen",
+            "releaseDate": "2005-11-29T16:00:53+00:00",
+            "releaseNotes": "changed licence to BSD, revised\nfixed error during keyimport when the keyring is not writeable\nfixed error when an invalid errormode is passed to seterrormode",
+            "get": "http://pecl.php.net/get/gnupg-0.7",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.6.1": {
+            "version": "0.6.1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "traufeisen",
+            "releaseDate": "2005-11-12T13:44:33+00:00",
+            "releaseNotes": "fixed zts build",
+            "get": "http://pecl.php.net/get/gnupg-0.6.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.6": {
+            "version": "0.6",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "traufeisen",
+            "releaseDate": "2005-11-12T11:58:46+00:00",
+            "releaseNotes": "+ added seterrormode\n- various memory optimizations",
+            "get": "http://pecl.php.net/get/gnupg-0.6",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.5": {
+            "version": "0.5",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "traufeisen",
+            "releaseDate": "2005-10-25T15:53:44+00:00",
+            "releaseNotes": "now supports multiple keys. added getsignatures. verify can now handle all signature types. therefore the API has changed.",
+            "get": "http://pecl.php.net/get/gnupg-0.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.4": {
+            "version": "0.4",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "traufeisen",
+            "releaseDate": "2005-10-18T09:55:01+00:00",
+            "releaseNotes": "added procedural usage and lowered min PHP Version to 4.3",
+            "get": "http://pecl.php.net/get/gnupg-0.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.3": {
+            "version": "0.3",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "traufeisen",
+            "releaseDate": "2005-10-15T11:07:55+00:00",
+            "releaseNotes": "added import/export methods and better errormessages",
+            "get": "http://pecl.php.net/get/gnupg-0.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2": {
+            "version": "0.2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "traufeisen",
+            "releaseDate": "2005-10-10T14:19:51+00:00",
+            "releaseNotes": "added keylistiterator, encryptsign and decryptverify",
+            "get": "http://pecl.php.net/get/gnupg-0.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.1": {
+            "version": "0.1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "traufeisen",
+            "releaseDate": "2005-10-09T08:11:31+00:00",
+            "releaseNotes": "First release and not feature complete. Don't use in production enviroments",
+            "get": "http://pecl.php.net/get/gnupg-0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "wrapper around the gpgme library",
+    "SPDX-License-Identifier": "BSD-2-Clause"
+}

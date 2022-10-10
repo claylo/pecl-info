@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ims">IMS</p>
+ <c>pecl.php.net</c>
+ <v>0.1.1</v>
+ <st>alpha</st>
+ <l>PHP 3.01</l>
+ <m>doury</m>
+ <s>Communication with IBM Z/OS through IMS Connect</s>
+ <d>Implements IMS Connect protocol to execute transactions on Mainframe platforms :
+ 
+- Most connection parameters available (host, user, clientid, lterm, datastore, RACF security, ...)
+- Input/Output messages processed as associative arrays in PHP scripts
+- Data fields processed accordingly to Close Copy description (from separate XML files).
+- Automatic character conversion ASCII/EBCDIC
+- Data communication tracing (through HTML display)
+
+Technical considerations :
+
+- Compatibility with both PHP 4 and PHP 5
+- Requires a Z/OS server with IMS Connect for testing
+- Supported IMS Connect Exits :
+  o HWSJAVA0 Java module (default)
+  o HWSIMSO0 Simple module
+- No documentation published yet
+ 
+</d>
+ <da>2007-05-31 11:12:38</da>
+ <n>Added extension details to phpinfo().</n>
+ <f>37133</f>
+ <g>http://pecl.php.net/get/IMS-0.1.1</g>
+ <x xlink:href="package.0.1.1.xml"/>
+</r>

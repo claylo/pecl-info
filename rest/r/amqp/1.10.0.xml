@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/amqp">amqp</p>
+ <c>pecl.php.net</c>
+ <v>1.10.0</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>lstrojny</m>
+ <s>Communicate with any AMQP compliant server</s>
+ <d>This extension can communicate with any AMQP spec 0-9-1 compatible server, such as RabbitMQ, OpenAMQP and Qpid, giving you the ability to create and delete exchanges and queues, as well as publish to any exchange and consume from any queue.</d>
+ <da>2020-04-03 17:18:03</da>
+ <n>- Adding global prefetch support (#366) (Terence Marks &lt;tezmarks@gmail.com&gt;) (https://github.com/pdezwart/php-amqp/issues/367)
+- Fix minimal librabbitmq in config.m4 and readme (Remi Collet &lt;remi@remirepo.net&gt;) (https://github.com/pdezwart/php-amqp/issues/347)
+- Support connection_name parameter for custom connection names in RabbitMQ (Alexandr Zolotukhin &lt;supersmile2009@gmail.com&gt;) (https://github.com/pdezwart/php-amqp/issues/363)
+- Fixed build on Travis CI (Alexandr Zolotukhin &lt;supersmile2009@gmail.com&gt;) (https://github.com/pdezwart/php-amqp/issues/365)
+- Make use of rpc_timeout in newer librabbitmq by introducing new constructor hash parameter (modulatix &lt;oleg.pereverzev@gmail.com&gt;) (https://github.com/pdezwart/php-amqp/issues/334)
+- Fix #355: Compile failure on php 7.4 (Christoph M. Becker &lt;cmbecker69@gmx.de&gt;) (https://github.com/pdezwart/php-amqp/issues/359)
+- Update amqp_type.c (Paweł Mikołajczuk &lt;pawel@mikolajczuk.in&gt;) (https://github.com/pdezwart/php-amqp/issues/360)
+- Build against PHP 7.4 (Carlos Barrero &lt;carlos.barrero@spotahome.com&gt;) (https://github.com/pdezwart/php-amqp/issues/361)
+- Pass params by value in AMQPConnection::__construct() (Sergei Karpov) (https://github.com/pdezwart/php-amqp/issues/346)
+- Fix explicit null-string for $routing_key in Queue::bind() and Exchange::publish() (Sergei Karpov) (https://github.com/pdezwart/php-amqp/issues/341)
+- No longer limited to PHP 5 (Lars Strojny &lt;lars.strojny@internations.org&gt;) (https://github.com/pdezwart/php-amqp/issues/0)
+- Fix minimal version to 5.6 (Remi Collet &lt;remi@famillecollet.com&gt;) (https://github.com/pdezwart/php-amqp/issues/338)
+- Back to dev (Lars Strojny &lt;lars.strojny@internations.org&gt;) (https://github.com/pdezwart/php-amqp/issues/1)
+
+For a complete list of changes see:
+https://github.com/pdezwart/php-amqp/compare/v1.9.4...v1.10.0</n>
+ <f>107318</f>
+ <g>https://pecl.php.net/get/amqp-1.10.0</g>
+ <x xlink:href="package.1.10.0.xml"/>
+</r>

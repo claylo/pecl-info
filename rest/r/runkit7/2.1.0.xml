@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/runkit7">runkit7</p>
+ <c>pecl.php.net</c>
+ <v>2.1.0</v>
+ <st>alpha</st>
+ <l>BSD License (3 Clause)</l>
+ <m>tandre</m>
+ <s>Runkit7 : For all those things you.... probably shouldn't have been doing anyway.... but surely do!</s>
+ <d>Replace, rename, and remove user defined functions, methods, and constants.
+Define customized superglobal variables for general purpose use.</d>
+ <da>2019-05-29 13:14:28</da>
+ <n>- Add runkit7_*() aliases for runkit_*() global functions.
+- Add RUNKIT7_* aliases for RUNKIT_* global constants.</n>
+ <f>113601</f>
+ <g>https://pecl.php.net/get/runkit7-2.1.0</g>
+ <x xlink:href="package.2.1.0.xml"/>
+</r>

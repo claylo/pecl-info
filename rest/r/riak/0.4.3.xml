@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/riak">riak</p>
+ <c>pecl.php.net</c>
+ <v>0.4.3</v>
+ <st>alpha</st>
+ <l>Apache 2</l>
+ <m>kasparp</m>
+ <s>Riak database PHP extension</s>
+ <d>Fast protocol buffers client for Riak database and session module.</d>
+ <da>2013-06-19 14:28:23</da>
+ <n>- Bugs
+    Issue9: riak.persistent.timeout now in seconds, and default changed to 5 seconds
+- Improvements
+    Issue3: Streaming mapreduce
+    Issue8: RiakBucket-&gt;listKey function added
+    Issue7: Return updated object after put
+    Issue11: Implement PBC head support
+    RiakBucket-&gt;streamKeys function added
+    RiakBucket-&gt;delete now accept a RiakObject or a string with the key to delete.
+- API Changes
+    Issue12: RiakMapreducePhase renamed to RiakMrPhase
+    RiakBucket-&gt;getObject renamed to RiakBucket-&gt;get
+    RiakBucket-&gt;deleteObject renamed to RiakBucket-&gt;delete
+    RiakBucket-&gt;putObject renamed to RiakBucket-&gt;put
+    RiakOBject-&gt;__constructor key is now optional (if none is set on put, riak will create a random key).
+    RiakBucket-&gt;put no longer accepts key as second parameter
+    RiakBucket-&gt;put/get now takes an optional RiakGetRequestConfiguration</n>
+ <f>83355</f>
+ <g>http://pecl.php.net/get/riak-0.4.3</g>
+ <x xlink:href="package.0.4.3.xml"/>
+</r>

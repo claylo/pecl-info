@@ -1,0 +1,148 @@
+{
+    "category": "PHP",
+    "deprecated": false,
+    "description": "This extension provides the accepted PSR interfaces, so they can be used in an extension.\n\n  See http://www.php-fig.org/psr/",
+    "latestReleaseDate": "2021-12-11T18:29:14+00:00",
+    "latestVersion": "1.2.0",
+    "license": "BSD-2-Clause",
+    "name": "psr",
+    "php8Mentioned": true,
+    "releases": {
+        "1.2.0": {
+            "version": "1.2.0",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "jbboehr",
+            "releaseDate": "2021-12-11T18:29:14+00:00",
+            "releaseNotes": "- PHP 8.1 compatibility (@Jeckerson)\n- All classes are now defined in a separate namespace `PsrExt` and aliased into the `Psr` namespace to aid in debuggging compatibility issues for framework maintainers",
+            "get": "https://pecl.php.net/get/psr-1.2.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.1.0": {
+            "version": "1.1.0",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "jbboehr",
+            "releaseDate": "2021-04-10T10:40:33+00:00",
+            "releaseNotes": "- Update psr/container to 1.1.1\n- Add version ID constants to each header\n- Use __dllspec(dllimport) where appropriate in php_psr.h on windows",
+            "get": "https://pecl.php.net/get/psr-1.1.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "jbboehr",
+            "releaseDate": "2020-11-13T02:38:10+00:00",
+            "releaseNotes": "- Test failures on PHP 8 in psr-http-client and psr-http-message due to changes in inheritance\n- Compile failures with clang\n- Compatibility with API changes to PHP 8 in psr-log (@remicollet)\n- Report proper default value in reflection for LoggerInterface - PHP 8 only",
+            "get": "https://pecl.php.net/get/psr-1.0.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "jbboehr",
+            "releaseDate": "2020-02-19T02:37:54+00:00",
+            "releaseNotes": "- Drop max PHP version constraint",
+            "get": "https://pecl.php.net/get/psr-1.0.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.7.0": {
+            "version": "0.7.0",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "jbboehr",
+            "releaseDate": "2019-08-13T01:32:54+00:00",
+            "releaseNotes": "- Preliminary PHP 7.4 and 8.0 (master) support\n- PSR-14 Event Dispatcher support (@flyinghail)\n- Removed PHP 5 support",
+            "get": "https://pecl.php.net/get/psr-0.7.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.6.1": {
+            "version": "0.6.1",
+            "state": "stable"
+        },
+        "0.6.0": {
+            "version": "0.6.0",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "jbboehr",
+            "releaseDate": "2018-11-11T06:47:37+00:00",
+            "releaseNotes": "- Added PSR-18 support (@flyinghail)\n- Documentation/CI improvements (@sergeyklay)\n- Set minimum PHP version to 5.6",
+            "get": "https://pecl.php.net/get/psr-0.6.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.5.1": {
+            "version": "0.5.1",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "jbboehr",
+            "releaseDate": "2018-10-29T20:57:25+00:00",
+            "releaseNotes": "- Fix Psr\\Http\\Message\\ServerRequestInterface not actually extending `Psr\\Http\\Message\\RequestInterface`",
+            "get": "http://pecl.php.net/get/psr-0.5.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.5.0": {
+            "version": "0.5.0",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "jbboehr",
+            "releaseDate": "2018-09-10T20:46:11+00:00",
+            "releaseNotes": "- PSR-17 HTTP Factories support\n- Whitelist PHP 7.3",
+            "get": "http://pecl.php.net/get/psr-0.5.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.4.0": {
+            "version": "0.4.0",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "jbboehr",
+            "releaseDate": "2018-03-05T23:27:32+00:00",
+            "releaseNotes": "- PSR-15 HTTP Handlers support",
+            "get": "http://pecl.php.net/get/psr-0.4.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.3.0": {
+            "version": "0.3.0",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "jbboehr",
+            "releaseDate": "2018-02-08T20:43:29+00:00",
+            "releaseNotes": "- Fix TypeError when no argument is passed to methods in AbstractLogger\n- PSR-11 Container support\n- PSR-13 Link support\n- PSR-16 Simple Cache support\n- Windows support",
+            "get": "http://pecl.php.net/get/psr-0.3.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.3.0RC4": {
+            "version": "0.3.0RC4",
+            "state": "beta",
+            "license": "BSD-2-Clause",
+            "releasedBy": "jbboehr",
+            "releaseDate": "2017-08-11T23:10:10+00:00",
+            "releaseNotes": "- Fix TypeError when no argument is passed to methods in AbstractLogger",
+            "get": "http://pecl.php.net/get/psr-0.3.0RC4",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.3.0RC3": {
+            "version": "0.3.0RC3",
+            "state": "beta",
+            "license": "BSD-2-Clause",
+            "releasedBy": "jbboehr",
+            "releaseDate": "2017-07-30T01:19:44+00:00",
+            "releaseNotes": "- Windows support",
+            "get": "http://pecl.php.net/get/psr-0.3.0RC3",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.3.0RC1": {
+            "version": "0.3.0RC1",
+            "state": "beta",
+            "license": "BSD-2-Clause",
+            "releasedBy": "jbboehr",
+            "releaseDate": "2017-07-29T01:57:00+00:00",
+            "releaseNotes": "- Initial PECL release",
+            "get": "http://pecl.php.net/get/psr-0.3.0RC1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        }
+    },
+    "summary": "PSR interfaces",
+    "SPDX-License-Identifier": "BSD-2-Clause"
+}

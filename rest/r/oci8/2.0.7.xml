@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/oci8">oci8</p>
+ <c>pecl.php.net</c>
+ <v>2.0.7</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>sixd</m>
+ <s>Extension for Oracle Database</s>
+ <d>Use the OCI8 extension to access Oracle Database.  The extension can
+be linked with Oracle client libraries from Oracle Database 10.2, 11,
+or 12.1.  These libraries are found in the database installation, or
+in the free Oracle Instant Client available from Oracle.  Oracle's
+standard cross-version connectivity applies.  For example, PHP OCI8
+linked with Instant Client 11.2 can connect to Oracle Database 9.2
+onward.  See Oracle's note &quot;Oracle Client / Server Interoperability
+Support&quot; (ID 207303.1) for details.  PHP OCI8 2.0 can be built with
+PHP 5.2 onward.  Use the older PHP OCI8 1.4.10 when using PHP 4.3.9
+through to PHP 5.1.x, or when only Oracle Database 9.2 client
+libraries are available.</d>
+ <da>2014-02-10 20:07:39</da>
+ <n>Added oci_bind_by_name() support for PL/SQL BOOLEAN type    
+Build change: Fix source variable definition for C89 compatibility</n>
+ <f>190723</f>
+ <g>http://pecl.php.net/get/oci8-2.0.7</g>
+ <x xlink:href="package.2.0.7.xml"/>
+</r>

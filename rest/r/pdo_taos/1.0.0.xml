@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pdo_taos">PDO_TAOS</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>bearlord</m>
+ <s>TDengine driver for PDO</s>
+ <d>This extension provides a TDengine database driver for PDO.
+        TDengine is a open-sourced time-series big data platform, designed and optimized for IoT, faster on insert/query speeds.
+        This extension can be used to develop IoT projects with Swoole extension.
+        This extension is compatible with PHP versions since 7.0.</d>
+ <da>2022-03-21 14:13:13</da>
+ <n>Compatible with PHP versions since 7.0.</n>
+ <f>31229</f>
+ <g>https://pecl.php.net/get/PDO_TAOS-1.0.0</g>
+ <x xlink:href="package.1.0.0.xml"/>
+</r>

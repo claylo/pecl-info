@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/sqlite">SQLite</p>
+ <c>pecl.php.net</c>
+ <v>0.9b</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>wez</m>
+ <s>SQLite database bindings</s>
+ <d>SQLite is a C library that implements an embeddable SQL database engine.
+Programs that link with the SQLite library can have SQL database access
+without running a separate RDBMS process.
+This extension allows you to access SQLite databases from within PHP.
+</d>
+ <da>2003-05-14 13:07:00</da>
+ <n>Added:
+	sqlite_popen() for persistent db connections.
+	sqlite_unbuffered_query() for high performance queries.
+	sqlite_last_error() returns error code from last operation.
+	sqlite_error_string() returns description of error.
+	sqlite_create_aggregate() for registering aggregating SQL functions.
+	sqlite_create_function() for registering regular SQL functions.
+	sqlite_fetch_string() for speedy access to first column of result sets.
+	iteration interface
+	sqlite_query() functions accept resource/query string in either order,
+	for compatibility with mysql and postgresql extensions.
+Fixed some build issues for thread-safe builds.
+API is considered stabilized for 4.3.x; this is a pre-release before
+announcing stable version 1.0.</n>
+ <f>310644</f>
+ <g>http://pecl.php.net/get/SQLite-0.9b</g>
+ <x xlink:href="package.0.9b.xml"/>
+</r>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/yaml">yaml</p>
+ <c>pecl.php.net</c>
+ <v>2.0.0</v>
+ <st>stable</st>
+ <l>MIT</l>
+ <m>bd808</m>
+ <s>YAML-1.1 parser and emitter</s>
+ <d>Support for YAML 1.1 (YAML Ain't Markup Language) serialization using the
+  LibYAML library.</d>
+ <da>2016-09-24 22:25:09</da>
+ <n>Breaking changes:
+- #69617 yaml.decode_php ini setting now defaults to false.
+New Features:
+- PHP7 compatible
+- 2.x series will no longer support PHP5
+Bugs Fixed:
+- Premature free in y_write_object (remicollet)
+- Uninitialized smart_str in convert_to_char (remicollet)
+- Missing free in convert_to_char (remicollet)
+- Use zend_* datatypes (weltling)
+- Fix handling of optional encoding argument to yaml_emit_file (weltling)
+- Removed PHP6 compat IS_UNICODE support (bd808)
+- Fixed parameter parsing for yaml_emit_file()
+- Fixed callback usage for yaml_emit_file()
+- Use smart_str_free() instead of smart_string_free() (remicollet)
+- #71045 zend_mm_alloc_small crashes with zend_string_alloc
+- Fix handling of tag callbacks for aliased values (ranvis)
+- Quick fix on handle_mapping. arrval should be used instead of retval (jabiinfante)
+- #71696 Bad datetime management (bocharov)
+- Fix memory leak in mapping with sequence (bocharov)
+- Fix anchor in anchor problemo (bocharov)
+- Fix tests bug_64019.phpt, bug_parsing_alias.phpt (bocharov)
+- #72204 Crash when try to parse yaml file</n>
+ <f>37960</f>
+ <g>http://pecl.php.net/get/yaml-2.0.0</g>
+ <x xlink:href="package.2.0.0.xml"/>
+</r>

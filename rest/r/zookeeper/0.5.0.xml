@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/zookeeper">zookeeper</p>
+ <c>pecl.php.net</c>
+ <v>0.5.0</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>timandes</m>
+ <s>PHP extension for interfacing with Apache ZooKeeper</s>
+ <d>This extension provides API for communicating with ZooKeeper service.</d>
+ <da>2018-05-14 13:43:01</da>
+ <n>Improvements:
+- Add method 'close'
+php-zookeeper-0.5.x will be the last series which supports PHP 5.x.</n>
+ <f>26780</f>
+ <g>http://pecl.php.net/get/zookeeper-0.5.0</g>
+ <x xlink:href="package.0.5.0.xml"/>
+</r>
