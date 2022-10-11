@@ -17,6 +17,8 @@ fi
 
 PKG="pecl-info"
 
+generate-readme
+
 mkdir -p "build/${PKG}-${NEXT_VERSION}"
 cp -R data "build/${PKG}-${NEXT_VERSION}/data"
 cp -R assets "build/${PKG}-${NEXT_VERSION}/assets"
