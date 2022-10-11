@@ -56,6 +56,7 @@ foreach ($feed->item as $item) {
 
 // print_r($releases);
 $commitmsg = '';
+$pkglist = [];
 if (sizeof($releases) > 0) {
     $packages = json_decode(file_get_contents('data/packages.json'), true);
     // have we seen this release?
@@ -66,6 +67,7 @@ if (sizeof($releases) > 0) {
         if (! array_key_exists($pkg, $packages)) {
             $output = [];
             echo "::notice::adding new package $pkg with $v\n";
+            $pkglist[] = $packages[$pkg]['name'];
             $commitmsg .= " * add :sparkles: new package {$packages[$pkg]['name']} with version {$v}\n";
             exec("bin/refresh-package \"$pkg\" \"$v\"", $output);
             if (sizeof($output) > 0) {
@@ -77,6 +79,7 @@ if (sizeof($releases) > 0) {
             $pkgReleases = $packages[$pkg]['releases'];
             if (! array_key_exists($v, $pkgReleases)) {
                 $output = [];
+                $pkglist[] = $packages[$pkg]['name'];
                 echo "::notice::refreshing $pkg with $v\n";
                 $commitmsg .= " * update {$packages[$pkg]['name']} with release {$v}\n";
                 exec("bin/refresh-package \"$pkg\" \"$v\"", $output);
@@ -92,7 +95,6 @@ if (sizeof($releases) > 0) {
     }
 }
 if (! empty($commitmsg)) {
-    $commitmsg = "feat: new releases\n\n" . $commitmsg;
-    file_put_contents('commit.txt', $commitmsg);
+    file_put_contents('commit.txt', "feat: add ".join(", ", $pkglist)." releases\n\n" . $commitmsg);
 }
 exit(0);
