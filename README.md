@@ -2,12 +2,14 @@
 
 > An opinionated cache of data from the PHP Extension Community Library
 
+![recent releases](https://github.com/claylo/pecl-info/actions/workflows/recent-pecl-releases.yaml/badge.svg?event=schedule)
+
 ![pecl info](assets/pecl-info-banner.png)
 
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (140)
+## Relevant Extensions (141)
 
 ### Authentication (2)
 
@@ -1527,7 +1529,7 @@ Find more information at:
 </details>
 
 ***
-### PHP (15)
+### PHP (14)
 
 <details><summary>ast&nbsp; :eight:</summary>
 <p>Extension exposing PHP 7 abstract syntax tree</p>
@@ -1755,42 +1757,6 @@ dumps all the opcodes (execution units) of a script.
 <li><a href="https://derickrethans.nl/projects.html#vld">:house: Home</a> &nbsp; <a href="https://github.com/derickr/vld">:sparkles: Source</a> &nbsp; <a href="https://github.com/derickr/vld/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=253&rid=&cid=25">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
-<details><summary>xdebug&nbsp; :eight:</summary>
-<p>Xdebug is a debugging and productivity extension for PHP</p>
-
-```
-Xdebug and provides a range of features to improve the PHP development
-experience.
-
-Step Debugging
-    A way to step through your code in your IDE or editor while the script is
-    executing.
-
-Improvements to PHP's error reporting
-    An improved var_dump() function, stack traces for Notices, Warnings, Errors
-    and Exceptions to highlight the code path to the error
-
-Tracing
-    Writes every function call, with arguments and invocation location to disk.
-    Optionally also includes every variable assignment and return value for
-    each function.
-
-Profiling
-    Allows you, with the help of visualisation tools, to analyse the
-    performance of your PHP application and find bottlenecks.
-
-Code Coverage Analysis
-    To show which parts of your code base are executed when running unit tests
-    with PHP Unit.
-```
-<p><ul>
-<li>License: Xdebug</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/xdebug-3.2.0alpha3">3.2.0alpha3</a> on 24 Aug 2022</li>
-<li>Release data in JSON: <a href="data/packages/xdebug.json">xdebug.json</a></li>
-<li><a href="https://pecl.php.net/packages/xdebug">xdebug on PECL</a></li>
-<li><a href="https://xdebug.org/docs/">:book: Documentation</a> &nbsp; <a href="https://xdebug.org/">:house: Home</a> &nbsp; <a href="https://github.com/xdebug/xdebug">:sparkles: Source</a> &nbsp; <a href="https://bugs.xdebug.org">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=214&rid=&cid=25">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
 
 ***
 ### Processing (1)
@@ -1844,8 +1810,22 @@ https://github.com/php/pecl-search_engine-solr
 </details>
 
 ***
-### Security (2)
+### Security (3)
 
+<details><summary>pledge</summary>
+<p>OpenBSD's pledge / unveil support</p>
+
+```
+This is a PHP extension that adds support for OpenBSD's pledge and unveil system calls.
+```
+<p><ul>
+<li>License: ISC</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/pledge-2.0.3">2.0.3</a> on 07 Oct 2022</li>
+<li>Release data in JSON: <a href="data/packages/pledge.json">pledge.json</a></li>
+<li><a href="https://pecl.php.net/packages/pledge">pledge on PECL</a></li>
+<li><a href="https://github.com/tvlooy/php-pledge">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1026&rid=&cid=54">:bar_chart: Stats</a></li>
+</ul></p><hr />
+</details>
 <details><summary>selinux&nbsp; :eight:</summary>
 <p>SELinux binding for PHP script language</p>
 
@@ -1880,7 +1860,7 @@ An extension used for detecting XSS codes(tainted string),
 </details>
 
 ***
-### Structures (5)
+### Structures (4)
 
 <details><summary>ds&nbsp; :eight:</summary>
 <p>Data Structures</p>
@@ -1925,21 +1905,6 @@ the sets and hashes.
 <li>Release data in JSON: <a href="data/packages/quickhash.json">quickhash.json</a></li>
 <li><a href="https://pecl.php.net/packages/quickhash">quickhash on PECL</a></li>
 <li><a href="https://github.com/derickr/quickhash">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=909&rid=&cid=27">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>teds&nbsp; :eight:</summary>
-<p>Provides extra data structures and iterable/array functionality.</p>
-
-```
-teds (Tentative Extra Data Structures) is a collection of data structures and iterable
-functionality
-```
-<p><ul>
-<li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/teds-1.2.4">1.2.4</a> on 14 Aug 2022</li>
-<li>Release data in JSON: <a href="data/packages/teds.json">teds.json</a></li>
-<li><a href="https://pecl.php.net/packages/teds">teds on PECL</a></li>
-<li><a href="https://github.com/TysonAndre/pecl-teds">:house: Home</a> &nbsp; <a href="https://github.com/TysonAndre/pecl-teds">:sparkles: Source</a> &nbsp; <a href="https://github.com/TysonAndre/pecl-teds/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1064&rid=&cid=27">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>weakreference_bc</summary>
@@ -2022,7 +1987,7 @@ Phalcon is an open source full stack framework for PHP, written as a C-extension
 ```
 <p><ul>
 <li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/phalcon-5.0.2">5.0.2</a> on 27 Sep 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/phalcon-5.0.3">5.0.3</a> on 06 Oct 2022</li>
 <li>Release data in JSON: <a href="data/packages/phalcon.json">phalcon.json</a></li>
 <li><a href="https://pecl.php.net/packages/phalcon">phalcon on PECL</a></li>
 <li><a href="https://docs.phalcon.io">:book: Documentation</a> &nbsp; <a href="https://phalcon.io">:house: Home</a> &nbsp; <a href="https://github.com/phalcon/cphalcon">:sparkles: Source</a> &nbsp; <a href="https://github.com/phalcon/cphalcon/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1042&rid=&cid=37">:bar_chart: Stats</a></li>
@@ -2174,7 +2139,7 @@ This extension creates and applies patches to both text and binary files.
 </details>
 
 ***
-### Tools and Utilities (13)
+### Tools and Utilities (15)
 
 <details><summary>awscrt</summary>
 <p>AWS Common Runtime PHP bindings</p>
@@ -2191,6 +2156,20 @@ AWS Common Runtime provides a set of low level tools
 <li>Release data in JSON: <a href="data/packages/awscrt.json">awscrt.json</a></li>
 <li><a href="https://pecl.php.net/packages/awscrt">awscrt on PECL</a></li>
 <li><a href="https://aws.amazon.com/sdk-for-php/">:house: Home</a> &nbsp; <a href="https://github.com/awslabs/aws-crt-php">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1060&rid=&cid=29">:bar_chart: Stats</a></li>
+</ul></p><hr />
+</details>
+<details><summary>bsdiff</summary>
+<p>The bsdiff extension for PHP</p>
+
+```
+A PHP extension to build and apply patches to binary files.
+```
+<p><ul>
+<li>License: PHP-3.01</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/bsdiff-0.1.1">0.1.1</a> on 07 Oct 2022</li>
+<li>Release data in JSON: <a href="data/packages/bsdiff.json">bsdiff.json</a></li>
+<li><a href="https://pecl.php.net/packages/bsdiff">bsdiff on PECL</a></li>
+<li><a href="https://github.com/deminy/php-bsdiff">:house: Home</a> &nbsp; <a href="https://github.com/deminy/php-bsdiff">:sparkles: Source</a> &nbsp; <a href="https://github.com/deminy/php-bsdiff/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1074&rid=&cid=29">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>crypto&nbsp; :eight:</summary>
@@ -2259,7 +2238,7 @@ This extension provide API for communicating with MessagePack serialization.
 ```
 <p><ul>
 <li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/msgpack-2.2.0RC1">2.2.0RC1</a> on 30 Aug 2021</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/msgpack-2.2.0RC2">2.2.0RC2</a> on 07 Oct 2022</li>
 <li>Release data in JSON: <a href="data/packages/msgpack.json">msgpack.json</a></li>
 <li><a href="https://pecl.php.net/packages/msgpack">msgpack on PECL</a></li>
 <li><a href="http://msgpack.org/">:house: Home</a> &nbsp; <a href="https://github.com/msgpack/msgpack-php">:sparkles: Source</a> &nbsp; <a href="https://github.com/msgpack/msgpack-php/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=930&rid=&cid=29">:bar_chart: Stats</a></li>
@@ -2323,6 +2302,21 @@ Multiple Data)
 <li>Release data in JSON: <a href="data/packages/simdjson.json">simdjson.json</a></li>
 <li><a href="https://pecl.php.net/packages/simdjson">simdjson on PECL</a></li>
 <li><a href="https://github.com/crazyxman/simdjson_php">:book: Documentation</a> &nbsp; <a href="https://github.com/crazyxman/simdjson_php">:house: Home</a> &nbsp; <a href="https://github.com/crazyxman/simdjson_php">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1072&rid=&cid=29">:bar_chart: Stats</a></li>
+</ul></p><hr />
+</details>
+<details><summary>skywalking_agent</summary>
+<p>Apache SkyWalking PHP Agent.</p>
+
+```
+The PHP Agent for Apache SkyWalking, which provides the native tracing abilities for PHP
+project.
+```
+<p><ul>
+<li>License: Apache-2.0</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/skywalking_agent-0.1.0">0.1.0</a> on 08 Oct 2022</li>
+<li>Release data in JSON: <a href="data/packages/skywalking_agent.json">skywalking_agent.json</a></li>
+<li><a href="https://pecl.php.net/packages/skywalking_agent">skywalking_agent on PECL</a></li>
+<li><a href="https://skywalking.apache.org/">:house: Home</a> &nbsp; <a href="https://github.com/apache/skywalking-php">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1073&rid=&cid=29">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>stomp&nbsp; :eight:</summary>
@@ -2504,15 +2498,15 @@ The PECL website, created many years before GitHub was created ... and still mor
 
 PHP is changing pretty rapidly these days. If a package hasn't had a release in over 3 years, I'm calling it stale.
 
-### Is everything from PECL cached here?
+## Is everything from PECL cached here?
 
 No. If a package is marked `abandoned` on the PECL website, or has not has a release within the last 3 years, the tools in this repository will ignore it. Basically, PECL listings have been sorted into "relevant" and "irrelevant" buckets. Irrelevant extensions are those that haven't been updated for life after PHP 5.
 
-### Is any data changed from the PECL website?
+## Is any data changed from the PECL website?
 
 Some, yes.
 
-#### SPDX License Identifiers
+### SPDX License Identifiers
 
 The PECL historically allowed free-form text for indicating software licenses. We've mapped all those onto SPDX license IDs and added a [SPDX-License-Identifier](https://spdx.dev/ids/) key to all packages and releases. (Note: we haven't modified any of the source, and obviously our mappings aren't binding, we're not lawyers, etc. etc. We're just trying to clean up some data.)
 
@@ -2520,24 +2514,23 @@ You can see the mapping we use in `data/spdx-map.json`. If we couldn't figure ou
 
 Dual-licensing decisions made were based on the [SPDX FAQ](https://wiki.spdx.org/view/SPDX_FAQ).
 
-#### Hyperlinks
+### Hyperlinks
 
 Some of the packages in PECL don't have up-to-date links in the PECL database, despite being actively maintained packages. Some of the hyperlinks for packages deemed "relevant" have been manually tweaked to point to the appropriate places.
 
-### Why is this repo useful?
+## Why is this repo useful?
 
-#### Filtered List
+### Filtered List
 
 The PECL website lists all extensions, regardless of whether or not they're active, whether they've had releases in the last decade, etc. That can make it difficult to find extensions that you might want to consider using *today*.
 
-#### JSON representation
+### JSON representation
 
 Much of the PECL website's data is available as XML data feeds, but these days, JSON is a little more convenient. This repository's `/data` directory has JSON representations of data from PECL releases.
 
-### How often is this repository updated?
+## How often is this repository updated?
 
 After assembling the initial data, we check the PECL latest releases RSS feed regularly and update the content here when new releases occur.
-
 
 ## What if my package's information is wrong?
 
@@ -2549,5 +2542,5 @@ Consider adding them to PECL. I may expand this repository to include non-PECL e
 
 ## Something wrong? Something right?
 
-Let me know via email or Twitter, or open a ticket on this repo.
+Let me know via email or [Twitter](https://twitter.com/claylo), or open a ticket on this repo.
 

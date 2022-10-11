@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/teds">teds</p>
+ <c>pecl.php.net</c>
+ <v>1.2.5</v>
+ <st>stable</st>
+ <l>BSD-3-Clause</l>
+ <m>tandre</m>
+ <s>Provides extra data structures and iterable/array functionality.</s>
+ <d>teds (Tentative Extra Data Structures) is a collection of data structures and iterable functionality</d>
+ <da>2022-10-10 20:31:27</da>
+ <n>* Reduce memory usage by refactoring the way properties/fields of data structures are returned, for var_export/var_dump/debug_zval_dump/array type casts/serialize.
+  In php 8.3+, this should reduce the impact of calling var_export/var_dump/debug_zval_dump on memory usage, and avoid the side effect of keeping around references to fields after those calls..
+  In all php versions, consistently return temporary arrays for remaining data structures in serialize() and array type casts that will be freed after being used.</n>
+ <f>303063</f>
+ <g>https://pecl.php.net/get/teds-1.2.5</g>
+ <x xlink:href="package.1.2.5.xml"/>
+</r>

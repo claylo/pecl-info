@@ -2,12 +2,22 @@
     "category": "PHP",
     "deprecated": false,
     "description": "Xdebug and provides a range of features to improve the PHP development\nexperience.\n\nStep Debugging\n    A way to step through your code in your IDE or editor while the script is\n    executing.\n\nImprovements to PHP's error reporting\n    An improved var_dump() function, stack traces for Notices, Warnings, Errors\n    and Exceptions to highlight the code path to the error\n\nTracing\n    Writes every function call, with arguments and invocation location to disk.\n    Optionally also includes every variable assignment and return value for\n    each function.\n\nProfiling\n    Allows you, with the help of visualisation tools, to analyse the\n    performance of your PHP application and find bottlenecks.\n\nCode Coverage Analysis\n    To show which parts of your code base are executed when running unit tests\n    with PHP Unit.",
-    "latestReleaseDate": "2022-08-24T09:34:12+00:00",
-    "latestVersion": "3.2.0alpha3",
+    "latestReleaseDate": "2022-10-10T16:42:13+00:00",
+    "latestVersion": "3.2.0RC1",
     "license": "BSD style",
     "name": "xdebug",
     "php8Mentioned": true,
     "releases": {
+        "3.2.0RC1": {
+            "version": "3.2.0RC1",
+            "state": "beta",
+            "license": "BSD style",
+            "releasedBy": "derick",
+            "releaseDate": "2022-10-10T16:42:13+00:00",
+            "releaseNotes": "Mon, Oct 10, 2022 - Xdebug 3.2.0RC1\n\n= Fixed bugs:\n\n  - Fixed issue #2113: Crash at step_into after thrown exception with return value debugging en\n  - Fixed issue #2117: Removed emulated properties for closures, as PHP 8.2 adds debug information for them\n  - Fixed issue #2121: Xdebug does not use local independent float-to-string functions\n  - Fixed issue #2122: Local variables are not available when using start_upon_error\n  - Fixed issue #2123: Add warning in log and diagnositics information when a breakpoint is set on a non-existing file\n  - Fixed issue #2124: Xdebug incorrectly reports that there are no children for static closure properties, even thought there are\n  - Fixed issue #2125: Crash with PHP 8.2 on 32-bit due to change in \"not set\" value with CATCH opcode",
+            "get": "https://pecl.php.net/get/xdebug-3.2.0RC1",
+            "SPDX-License-Identifier": "Xdebug"
+        },
         "3.2.0alpha3": {
             "version": "3.2.0alpha3",
             "state": "beta",

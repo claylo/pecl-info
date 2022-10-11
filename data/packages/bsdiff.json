@@ -1,0 +1,24 @@
+{
+    "category": "Tools and Utilities",
+    "deprecated": false,
+    "description": "A PHP extension to build and apply patches to binary files.",
+    "latestReleaseDate": "2022-10-07T22:30:11+00:00",
+    "latestVersion": "0.1.1",
+    "license": "PHP License",
+    "name": "bsdiff",
+    "php8Mentioned": false,
+    "releases": {
+        "0.1.1": {
+            "version": "0.1.1",
+            "state": "alpha",
+            "license": "PHP License",
+            "releasedBy": "deminy",
+            "releaseDate": "2022-10-07T22:30:11+00:00",
+            "releaseNotes": "First public release",
+            "get": "https://pecl.php.net/get/bsdiff-0.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "The bsdiff extension for PHP",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

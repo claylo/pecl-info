@@ -2,12 +2,23 @@
     "category": "Tools and Utilities",
     "deprecated": false,
     "description": "The PHP Agent for Apache SkyWalking, which provides the native tracing abilities for PHP project.",
-    "latestReleaseDate": "",
-    "latestVersion": "",
+    "latestReleaseDate": "2022-10-08T02:32:58+00:00",
+    "latestVersion": "0.1.0",
     "license": "Apache-2.0",
     "name": "skywalking_agent",
     "php8Mentioned": false,
-    "releases": [],
-    "summary": "PHP Agent for Apache SkyWalking",
+    "releases": {
+        "0.1.0": {
+            "version": "0.1.0",
+            "state": "stable",
+            "license": "Apache-2.0",
+            "releasedBy": "yanlong",
+            "releaseDate": "2022-10-08T02:32:58+00:00",
+            "releaseNotes": "## What's Changed\n* [docs] Update README by @heyanlong in https://github.com/apache/skywalking-php/pull/1\n* Remove the CI limit first, in order to run CI. by @jmjoy in https://github.com/apache/skywalking-php/pull/3\n* Setup CI. by @jmjoy in https://github.com/apache/skywalking-php/pull/5\n* Implementation, with curl support. By @jmjoy in https://github.com/apache/skywalking-php/pull/4\n* Turn off Swoole support, and fix Makefile. By @jmjoy in https://github.com/apache/skywalking-php/pull/6\n* Update docs by @heyanlong in https://github.com/apache/skywalking-php/pull/7\n* Add PECL support. By @jmjoy in https://github.com/apache/skywalking-php/pull/8\n* Support macOS by replace ipc-channel with socket pair, upgrade dependencies and improve CI. by @jmjoy in https://github.com/apache/skywalking-php/pull/9\n* Add compile and release docs. By @jmjoy in https://github.com/apache/skywalking-php/pull/10\n* Update official documentation link. By @jmjoy in https://github.com/apache/skywalking-php/pull/11\n\n## New Contributors\n* @heyanlong made their first contribution in https://github.com/apache/skywalking-php/pull/1\n* @jmjoy made their first contribution in https://github.com/apache/skywalking-php/pull/3\n\n**Full Changelog**: https://github.com/apache/skywalking-php/commits/v0.1.0",
+            "get": "https://pecl.php.net/get/skywalking_agent-0.1.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        }
+    },
+    "summary": "Apache SkyWalking PHP Agent.",
     "SPDX-License-Identifier": "Apache-2.0"
 }

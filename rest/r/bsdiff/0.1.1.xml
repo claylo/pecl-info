@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/bsdiff">bsdiff</p>
+ <c>pecl.php.net</c>
+ <v>0.1.1</v>
+ <st>alpha</st>
+ <l>PHP License</l>
+ <m>deminy</m>
+ <s>The bsdiff extension for PHP</s>
+ <d>A PHP extension to build and apply patches to binary files.</d>
+ <da>2022-10-07 22:30:11</da>
+ <n>First public release</n>
+ <f>12141</f>
+ <g>https://pecl.php.net/get/bsdiff-0.1.1</g>
+ <x xlink:href="package.0.1.1.xml"/>
+</r>

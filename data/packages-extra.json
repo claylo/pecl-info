@@ -2157,7 +2157,7 @@
         "maintained": true,
         "repo": "https://github.com/phalcon/cphalcon",
         "stats": "https://pecl.php.net/package-stats.php?pid=1042&rid=&cid=37",
-        "verified": true
+        "verified": false
     },
     "phar": {
         "bugs": "",
@@ -2694,7 +2694,7 @@
         "maintained": true,
         "repo": "https://github.com/apache/skywalking-php",
         "stats": "https://pecl.php.net/package-stats.php?pid=1073&rid=&cid=29",
-        "verified": true
+        "verified": false
     },
     "smbclient": {
         "bugs": "https://github.com/eduardok/libsmbclient-php/issues",
@@ -3404,7 +3404,7 @@
         "maintained": true,
         "repo": "https://github.com/xdebug/xdebug",
         "stats": "https://pecl.php.net/package-stats.php?pid=214&rid=&cid=25",
-        "verified": true
+        "verified": false
     },
     "xdiff": {
         "bugs": "https://github.com/php/pecl-text-xdiff/issues",
@@ -3656,6 +3656,15 @@
         "maintained": true,
         "repo": "https://github.com/kjdev/php-ext-zstd",
         "stats": "https://pecl.php.net/package-stats.php?pid=1045&rid=&cid=33",
+        "verified": false
+    },
+    "bsdiff": {
+        "bugs": "https://github.com/deminy/php-bsdiff/issues",
+        "docs": "",
+        "home": "https://github.com/deminy/php-bsdiff",
+        "maintained": true,
+        "repo": "https://github.com/deminy/php-bsdiff",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1074&rid=&cid=29",
         "verified": false
     }
 }

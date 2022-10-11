@@ -2454,6 +2454,30 @@
         "summary": "Extension implementing a Bloom filter",
         "SPDX-License-Identifier": "PHP-3.01"
     },
+    "bsdiff": {
+        "category": "Tools and Utilities",
+        "deprecated": false,
+        "description": "A PHP extension to build and apply patches to binary files.",
+        "latestReleaseDate": "2022-10-07T22:30:11+00:00",
+        "latestVersion": "0.1.1",
+        "license": "PHP License",
+        "name": "bsdiff",
+        "php8Mentioned": false,
+        "releases": {
+            "0.1.1": {
+                "version": "0.1.1",
+                "state": "alpha",
+                "license": "PHP License",
+                "releasedBy": "deminy",
+                "releaseDate": "2022-10-07T22:30:11+00:00",
+                "releaseNotes": "First public release",
+                "get": "https://pecl.php.net/get/bsdiff-0.1.1",
+                "SPDX-License-Identifier": "PHP-3.01"
+            }
+        },
+        "summary": "The bsdiff extension for PHP",
+        "SPDX-License-Identifier": "PHP-3.01"
+    },
     "bz2": {
         "category": "File Formats",
         "deprecated": true,
@@ -19598,12 +19622,22 @@
         "category": "Tools and Utilities",
         "deprecated": false,
         "description": "This extension provide API for communicating with MessagePack serialization.",
-        "latestReleaseDate": "2021-08-30T12:26:22+00:00",
-        "latestVersion": "2.2.0RC1",
+        "latestReleaseDate": "2022-10-07T09:05:44+00:00",
+        "latestVersion": "2.2.0RC2",
         "license": "3-Clause-BSD",
         "name": "msgpack",
         "php8Mentioned": true,
         "releases": {
+            "2.2.0RC2": {
+                "version": "2.2.0RC2",
+                "state": "beta",
+                "license": "3-Clause-BSD",
+                "releasedBy": "mike",
+                "releaseDate": "2022-10-07T09:05:44+00:00",
+                "releaseNotes": "* Fixed PHP-8.2 compatibility (see gh issue #165)\n* Fixed PHP-8.1 compatibility (see gh issues #161, #157, and #156)\n* Added support for ZEND_ACC_NOT_SERIALIZABLE and magic __{,un}serialize",
+                "get": "https://pecl.php.net/get/msgpack-2.2.0RC2",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "2.2.0RC1": {
                 "version": "2.2.0RC1",
                 "state": "beta",
@@ -26217,12 +26251,22 @@
         "category": "System",
         "deprecated": false,
         "description": "Phalcon is an open source full stack framework for PHP, written as a C-extension. Phalcon is optimized for high\n    performance. Its unique architecture allows the framework to always be memory resident, offering its functionality\n    whenever its needed, without expensive file stats and file reads that traditional PHP frameworks employ.",
-        "latestReleaseDate": "2022-09-27T15:42:08+00:00",
-        "latestVersion": "5.0.2",
+        "latestReleaseDate": "2022-10-06T21:04:54+00:00",
+        "latestVersion": "5.0.3",
         "license": "BSD 3-Clause License",
         "name": "phalcon",
         "php8Mentioned": true,
         "releases": {
+            "5.0.3": {
+                "version": "5.0.3",
+                "state": "stable",
+                "license": "BSD 3-Clause License",
+                "releasedBy": "niden",
+                "releaseDate": "2022-10-06T21:04:54+00:00",
+                "releaseNotes": "Full changelog can be found at: https://github.com/phalcon/cphalcon/blob/master/CHANGELOG-5.0.md\n\n## Changed\n- Fixed `Phalcon\\Filter\\Sanitize\\StringVal` to accept flags for `htmlspecialchars()` [#16135](https://github.com/phalcon/cphalcon/issues/16135)\n\n## Fixed\n- Fixed `Phalcon\\Html\\Escaper::attributes()` to honor the `$flags` set for `htmlspecialchars()` [#16134](https://github.com/phalcon/cphalcon/issues/16134)",
+                "get": "https://pecl.php.net/get/phalcon-5.0.3",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "5.0.2": {
                 "version": "5.0.2",
                 "state": "stable",
@@ -26681,12 +26725,22 @@
         "category": "Security",
         "deprecated": false,
         "description": "This is a PHP extension that adds support for OpenBSD's pledge and unveil system calls.",
-        "latestReleaseDate": "2018-10-13T07:04:57+00:00",
-        "latestVersion": "2.0.2",
+        "latestReleaseDate": "2022-10-07T14:55:49+00:00",
+        "latestVersion": "2.0.3",
         "license": "ISC License",
         "name": "pledge",
         "php8Mentioned": false,
         "releases": {
+            "2.0.3": {
+                "version": "2.0.3",
+                "state": "stable",
+                "license": "ISC License",
+                "releasedBy": "tvlooy",
+                "releaseDate": "2022-10-07T14:55:49+00:00",
+                "releaseNotes": "- handle EFAULT errors",
+                "get": "https://pecl.php.net/get/pledge-2.0.3",
+                "SPDX-License-Identifier": "ISC"
+            },
             "2.0.2": {
                 "version": "2.0.2",
                 "state": "stable",
@@ -32635,13 +32689,24 @@
         "category": "Tools and Utilities",
         "deprecated": false,
         "description": "The PHP Agent for Apache SkyWalking, which provides the native tracing abilities for PHP project.",
-        "latestReleaseDate": "",
-        "latestVersion": "",
+        "latestReleaseDate": "2022-10-08T02:32:58+00:00",
+        "latestVersion": "0.1.0",
         "license": "Apache-2.0",
         "name": "skywalking_agent",
         "php8Mentioned": false,
-        "releases": [],
-        "summary": "PHP Agent for Apache SkyWalking",
+        "releases": {
+            "0.1.0": {
+                "version": "0.1.0",
+                "state": "stable",
+                "license": "Apache-2.0",
+                "releasedBy": "yanlong",
+                "releaseDate": "2022-10-08T02:32:58+00:00",
+                "releaseNotes": "## What's Changed\n* [docs] Update README by @heyanlong in https://github.com/apache/skywalking-php/pull/1\n* Remove the CI limit first, in order to run CI. by @jmjoy in https://github.com/apache/skywalking-php/pull/3\n* Setup CI. by @jmjoy in https://github.com/apache/skywalking-php/pull/5\n* Implementation, with curl support. By @jmjoy in https://github.com/apache/skywalking-php/pull/4\n* Turn off Swoole support, and fix Makefile. By @jmjoy in https://github.com/apache/skywalking-php/pull/6\n* Update docs by @heyanlong in https://github.com/apache/skywalking-php/pull/7\n* Add PECL support. By @jmjoy in https://github.com/apache/skywalking-php/pull/8\n* Support macOS by replace ipc-channel with socket pair, upgrade dependencies and improve CI. by @jmjoy in https://github.com/apache/skywalking-php/pull/9\n* Add compile and release docs. By @jmjoy in https://github.com/apache/skywalking-php/pull/10\n* Update official documentation link. By @jmjoy in https://github.com/apache/skywalking-php/pull/11\n\n## New Contributors\n* @heyanlong made their first contribution in https://github.com/apache/skywalking-php/pull/1\n* @jmjoy made their first contribution in https://github.com/apache/skywalking-php/pull/3\n\n**Full Changelog**: https://github.com/apache/skywalking-php/commits/v0.1.0",
+                "get": "https://pecl.php.net/get/skywalking_agent-0.1.0",
+                "SPDX-License-Identifier": "Apache-2.0"
+            }
+        },
+        "summary": "Apache SkyWalking PHP Agent.",
         "SPDX-License-Identifier": "Apache-2.0"
     },
     "smbclient": {
@@ -37086,12 +37151,32 @@
         "category": "Structures",
         "deprecated": false,
         "description": "teds (Tentative Extra Data Structures) is a collection of data structures and iterable functionality",
-        "latestReleaseDate": "2022-08-14T18:35:50+00:00",
-        "latestVersion": "1.2.4",
+        "latestReleaseDate": "2022-10-11T00:18:56+00:00",
+        "latestVersion": "1.2.6",
         "license": "BSD-3-Clause",
         "name": "teds",
         "php8Mentioned": true,
         "releases": {
+            "1.2.6": {
+                "version": "1.2.6",
+                "state": "stable",
+                "license": "BSD-3-Clause",
+                "releasedBy": "tandre",
+                "releaseDate": "2022-10-11T00:18:56+00:00",
+                "releaseNotes": "* Fix a build warning in clang for placeholders indicating that a data structure was constructed/unserialized.\n* Fix a build warning after change to expected return type of `count_elements` object handler implementation.",
+                "get": "https://pecl.php.net/get/teds-1.2.6",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
+            "1.2.5": {
+                "version": "1.2.5",
+                "state": "stable",
+                "license": "BSD-3-Clause",
+                "releasedBy": "tandre",
+                "releaseDate": "2022-10-10T20:31:27+00:00",
+                "releaseNotes": "* Reduce memory usage by refactoring the way properties/fields of data structures are returned, for var_export/var_dump/debug_zval_dump/array type casts/serialize.\n  In php 8.3+, this should reduce the impact of calling var_export/var_dump/debug_zval_dump on memory usage, and avoid the side effect of keeping around references to fields after those calls..\n  In all php versions, consistently return temporary arrays for remaining data structures in serialize() and array type casts that will be freed after being used.",
+                "get": "https://pecl.php.net/get/teds-1.2.5",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "1.2.4": {
                 "version": "1.2.4",
                 "state": "stable",
@@ -42156,12 +42241,22 @@
         "category": "PHP",
         "deprecated": false,
         "description": "Xdebug and provides a range of features to improve the PHP development\nexperience.\n\nStep Debugging\n    A way to step through your code in your IDE or editor while the script is\n    executing.\n\nImprovements to PHP's error reporting\n    An improved var_dump() function, stack traces for Notices, Warnings, Errors\n    and Exceptions to highlight the code path to the error\n\nTracing\n    Writes every function call, with arguments and invocation location to disk.\n    Optionally also includes every variable assignment and return value for\n    each function.\n\nProfiling\n    Allows you, with the help of visualisation tools, to analyse the\n    performance of your PHP application and find bottlenecks.\n\nCode Coverage Analysis\n    To show which parts of your code base are executed when running unit tests\n    with PHP Unit.",
-        "latestReleaseDate": "2022-08-24T09:34:12+00:00",
-        "latestVersion": "3.2.0alpha3",
+        "latestReleaseDate": "2022-10-10T16:42:13+00:00",
+        "latestVersion": "3.2.0RC1",
         "license": "BSD style",
         "name": "xdebug",
         "php8Mentioned": true,
         "releases": {
+            "3.2.0RC1": {
+                "version": "3.2.0RC1",
+                "state": "beta",
+                "license": "BSD style",
+                "releasedBy": "derick",
+                "releaseDate": "2022-10-10T16:42:13+00:00",
+                "releaseNotes": "Mon, Oct 10, 2022 - Xdebug 3.2.0RC1\n\n= Fixed bugs:\n\n  - Fixed issue #2113: Crash at step_into after thrown exception with return value debugging en\n  - Fixed issue #2117: Removed emulated properties for closures, as PHP 8.2 adds debug information for them\n  - Fixed issue #2121: Xdebug does not use local independent float-to-string functions\n  - Fixed issue #2122: Local variables are not available when using start_upon_error\n  - Fixed issue #2123: Add warning in log and diagnositics information when a breakpoint is set on a non-existing file\n  - Fixed issue #2124: Xdebug incorrectly reports that there are no children for static closure properties, even thought there are\n  - Fixed issue #2125: Crash with PHP 8.2 on 32-bit due to change in \"not set\" value with CATCH opcode",
+                "get": "https://pecl.php.net/get/xdebug-3.2.0RC1",
+                "SPDX-License-Identifier": "Xdebug"
+            },
             "3.2.0alpha3": {
                 "version": "3.2.0alpha3",
                 "state": "beta",

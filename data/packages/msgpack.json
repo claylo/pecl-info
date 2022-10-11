@@ -2,12 +2,22 @@
     "category": "Tools and Utilities",
     "deprecated": false,
     "description": "This extension provide API for communicating with MessagePack serialization.",
-    "latestReleaseDate": "2021-08-30T12:26:22+00:00",
-    "latestVersion": "2.2.0RC1",
+    "latestReleaseDate": "2022-10-07T09:05:44+00:00",
+    "latestVersion": "2.2.0RC2",
     "license": "3-Clause-BSD",
     "name": "msgpack",
     "php8Mentioned": true,
     "releases": {
+        "2.2.0RC2": {
+            "version": "2.2.0RC2",
+            "state": "beta",
+            "license": "3-Clause-BSD",
+            "releasedBy": "mike",
+            "releaseDate": "2022-10-07T09:05:44+00:00",
+            "releaseNotes": "* Fixed PHP-8.2 compatibility (see gh issue #165)\n* Fixed PHP-8.1 compatibility (see gh issues #161, #157, and #156)\n* Added support for ZEND_ACC_NOT_SERIALIZABLE and magic __{,un}serialize",
+            "get": "https://pecl.php.net/get/msgpack-2.2.0RC2",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "2.2.0RC1": {
             "version": "2.2.0RC1",
             "state": "beta",

@@ -5,7 +5,7 @@
  <c>pecl.php.net</c>
  <ca xlink:href="/rest/c/Tools+and+Utilities">Tools and Utilities</ca>
  <l>Apache-2.0</l>
- <s>PHP Agent for Apache SkyWalking</s>
+ <s>Apache SkyWalking PHP Agent.</s>
  <d>The PHP Agent for Apache SkyWalking, which provides the native tracing abilities for PHP project.</d>
  <r xlink:href="/rest/r/skywalking_agent"/>
 </p>

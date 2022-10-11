@@ -2,12 +2,32 @@
     "category": "Structures",
     "deprecated": false,
     "description": "teds (Tentative Extra Data Structures) is a collection of data structures and iterable functionality",
-    "latestReleaseDate": "2022-08-14T18:35:50+00:00",
-    "latestVersion": "1.2.4",
+    "latestReleaseDate": "2022-10-11T00:18:56+00:00",
+    "latestVersion": "1.2.6",
     "license": "BSD-3-Clause",
     "name": "teds",
     "php8Mentioned": true,
     "releases": {
+        "1.2.6": {
+            "version": "1.2.6",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "tandre",
+            "releaseDate": "2022-10-11T00:18:56+00:00",
+            "releaseNotes": "* Fix a build warning in clang for placeholders indicating that a data structure was constructed/unserialized.\n* Fix a build warning after change to expected return type of `count_elements` object handler implementation.",
+            "get": "https://pecl.php.net/get/teds-1.2.6",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "1.2.5": {
+            "version": "1.2.5",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "tandre",
+            "releaseDate": "2022-10-10T20:31:27+00:00",
+            "releaseNotes": "* Reduce memory usage by refactoring the way properties/fields of data structures are returned, for var_export/var_dump/debug_zval_dump/array type casts/serialize.\n  In php 8.3+, this should reduce the impact of calling var_export/var_dump/debug_zval_dump on memory usage, and avoid the side effect of keeping around references to fields after those calls..\n  In all php versions, consistently return temporary arrays for remaining data structures in serialize() and array type casts that will be freed after being used.",
+            "get": "https://pecl.php.net/get/teds-1.2.5",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "1.2.4": {
             "version": "1.2.4",
             "state": "stable",
