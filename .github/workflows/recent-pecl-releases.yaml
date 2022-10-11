@@ -10,13 +10,12 @@ jobs:
   check_releases:
     runs-on: ubuntu-latest
     steps:
-      # GitHub runner already has stock PHP installed
-      # - name: Setup PHP with PECL extension
-      #   uses: shivammathur/setup-php@v2
-      #   with:
-      #     php-version: '8.1'
-      #     extensions: yaml
-      #     tools: none
+      - name: Setup PHP with PECL extension
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.1'
+          extensions: yaml
+          tools: none
 
       - name: Checkout
         uses: actions/checkout@v3
