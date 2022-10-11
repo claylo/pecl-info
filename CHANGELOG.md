@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.2](https://github.com/claylo/pecl-info/compare/v1.0.1...v1.0.2) (2022-10-11)
+
+
+### Fixed
+
+* explicit exit codes, no php flags ([002961c](https://github.com/claylo/pecl-info/commit/002961ca688b912735c0ea7c34b869c2adf1d6bd))
+
 ## [1.0.1](https://github.com/claylo/pecl-info/compare/v1.0.0...v1.0.1) (2022-10-11)
 
 
