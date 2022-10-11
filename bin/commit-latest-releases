@@ -5,6 +5,7 @@ PATH="${REPODIR}/bin:${PATH}"
 
 if [[ -f "commit.txt" ]]; then
   today=$(date '+%F')
+  git pull --rebase
   git config push.autoSetupRemote true
   git stash
   git checkout -b "releases-${today}"
