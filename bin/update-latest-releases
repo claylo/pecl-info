@@ -1,4 +1,4 @@
-#!/usr/bin/env php -d display_errors=0
+#!/usr/bin/env php
 <?php
 // PECL RSS feeds don't use/respect eTags, so we don't make an If-Modified-Since request.
 $xml = file_get_contents('https://pecl.php.net/feeds/latest.rss');

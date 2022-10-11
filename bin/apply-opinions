@@ -1,4 +1,4 @@
-#!/usr/bin/env php -d display_errors=0
+#!/usr/bin/env php
 <?php
 $packages = json_decode(file_get_contents('data/packages.json'), true);
 $extra = json_decode(file_get_contents('data/packages-extra.json'), true);
@@ -158,3 +158,4 @@ foreach ($relevant as $cat => $pkglist) {
     }
     echo "\n";
 }
+exit(0);

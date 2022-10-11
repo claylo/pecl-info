@@ -1,4 +1,4 @@
-#!/usr/bin/env php -d display_errors=0
+#!/usr/bin/env php
 <?php
 $packages = json_decode(file_get_contents('data/packages.json'), true);
 
@@ -104,3 +104,4 @@ file_put_contents(
     'data/packages.json',
     json_encode($packages, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES)
 );
+exit(0);

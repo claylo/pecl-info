@@ -1,4 +1,4 @@
-#!/usr/bin/env php -d display_errors=0
+#!/usr/bin/env php
 <?php
 $packages = json_decode(file_get_contents('data/packages.json'), true);
 
@@ -134,6 +134,6 @@ file_put_contents(
     'data/packages-extra.json',
     json_encode($extra, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES)
 );
-
+exit(0);
 // $doclinks = array_values(array_unique($doclinks));
 // print_r($doclinks);

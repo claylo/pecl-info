@@ -1,4 +1,4 @@
-#!/usr/bin/env php -d display_errors=0
+#!/usr/bin/env php
 <?php
 
 // TODO clean up & standardize licenses to a new spdx key
@@ -165,3 +165,4 @@ file_put_contents(
 // );
 
 // print_r($verify);
+exit(0);
