@@ -1,12 +1,16 @@
 #!/usr/bin/env bash
 
+REPODIR="$(dirname "$(cd "$(dirname "$0")" && pwd -P)")"
+PATH="${REPODIR}/bin:${PATH}"
+
 if [[ -f "commit.txt" ]]; then
   today=$(date '+%F')
   git config push.autoSetupRemote true
   git stash
   git checkout -b "releases-${today}"
   git stash pop
-  git add rest .etags data
+  generate-readme
+  git add rest .etags data README.md
   git commit -F commit.txt
   git push
   gh pr create --fill --base main
