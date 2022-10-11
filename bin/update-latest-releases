@@ -1,9 +1,11 @@
 #!/usr/bin/env php -d display_errors=0
 <?php
-// PECL RSS feeds don't use/respect eTags
+// PECL RSS feeds don't use/respect eTags, so we don't make an If-Modified-Since request.
 $xml = file_get_contents('https://pecl.php.net/feeds/latest.rss');
 // just to be safe
 $xml = mb_convert_encoding($xml, 'UTF-8');
+
+echo "::debug::latest.rss is ". strlen($xml) . " characters\n";
 
 // make the date easier to access
 function adjustNamespaces($el) {
@@ -30,7 +32,7 @@ $releases = [];
 foreach ($feed->item as $item) {
     adjustNamespaces($item);
     // var_dump($item);
-    // echo "{$item->title}\n";
+    echo "::notice::{$item->title}\n";
     $link = (string) $item->link;
     $qs = parse_url(html_entity_decode($link), PHP_URL_QUERY);
     $q = [];
@@ -63,26 +65,28 @@ if (sizeof($releases) > 0) {
         // is it a new package?
         if (! array_key_exists($pkg, $packages)) {
             $output = [];
-            echo "adding new package $pkg with $v\n";
+            echo "::notice::adding new package $pkg with $v\n";
             $commitmsg .= " * add :sparkles: new package {$packages[$pkg]['name']} with version {$v}\n";
             exec("bin/refresh-package \"$pkg\" \"$v\"", $output);
             if (sizeof($output) > 0) {
-                echo join("\n", $output);
-                echo "\n";
+                foreach ($output as $out) {
+                    echo "::notice::$out\n";
+                }
             }
         } else {
             $pkgReleases = $packages[$pkg]['releases'];
             if (! array_key_exists($v, $pkgReleases)) {
                 $output = [];
-                echo "refreshing $pkg with $v\n";
+                echo "::notice::refreshing $pkg with $v\n";
                 $commitmsg .= " * update {$packages[$pkg]['name']} with release {$v}\n";
                 exec("bin/refresh-package \"$pkg\" \"$v\"", $output);
                 if (sizeof($output) > 0) {
-                    echo join("\n", $output);
-                    echo "\n";
+                    foreach ($output as $out) {
+                        echo "::notice::$out\n";
+                    }
                 }
             } else {
-                echo "skipping known release $pkg $v\n";
+                echo "::notice::skipping known release $pkg $v\n";
             }
         }
     }
@@ -91,3 +95,4 @@ if (! empty($commitmsg)) {
     $commitmsg = "feat: new releases\n\n" . $commitmsg;
     file_put_contents('commit.txt', $commitmsg);
 }
+exit(0);

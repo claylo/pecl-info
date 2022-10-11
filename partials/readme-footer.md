@@ -13,15 +13,15 @@ The PECL website, created many years before GitHub was created ... and still mor
 
 PHP is changing pretty rapidly these days. If a package hasn't had a release in over 3 years, I'm calling it stale.
 
-### Is everything from PECL cached here?
+## Is everything from PECL cached here?
 
 No. If a package is marked `abandoned` on the PECL website, or has not has a release within the last 3 years, the tools in this repository will ignore it. Basically, PECL listings have been sorted into "relevant" and "irrelevant" buckets. Irrelevant extensions are those that haven't been updated for life after PHP 5.
 
-### Is any data changed from the PECL website?
+## Is any data changed from the PECL website?
 
 Some, yes.
 
-#### SPDX License Identifiers
+### SPDX License Identifiers
 
 The PECL historically allowed free-form text for indicating software licenses. We've mapped all those onto SPDX license IDs and added a [SPDX-License-Identifier](https://spdx.dev/ids/) key to all packages and releases. (Note: we haven't modified any of the source, and obviously our mappings aren't binding, we're not lawyers, etc. etc. We're just trying to clean up some data.)
 
@@ -29,24 +29,23 @@ You can see the mapping we use in `data/spdx-map.json`. If we couldn't figure ou
 
 Dual-licensing decisions made were based on the [SPDX FAQ](https://wiki.spdx.org/view/SPDX_FAQ).
 
-#### Hyperlinks
+### Hyperlinks
 
 Some of the packages in PECL don't have up-to-date links in the PECL database, despite being actively maintained packages. Some of the hyperlinks for packages deemed "relevant" have been manually tweaked to point to the appropriate places.
 
-### Why is this repo useful?
+## Why is this repo useful?
 
-#### Filtered List
+### Filtered List
 
 The PECL website lists all extensions, regardless of whether or not they're active, whether they've had releases in the last decade, etc. That can make it difficult to find extensions that you might want to consider using *today*.
 
-#### JSON representation
+### JSON representation
 
 Much of the PECL website's data is available as XML data feeds, but these days, JSON is a little more convenient. This repository's `/data` directory has JSON representations of data from PECL releases.
 
-### How often is this repository updated?
+## How often is this repository updated?
 
 After assembling the initial data, we check the PECL latest releases RSS feed regularly and update the content here when new releases occur.
-
 
 ## What if my package's information is wrong?
 
@@ -58,5 +57,5 @@ Consider adding them to PECL. I may expand this repository to include non-PECL e
 
 ## Something wrong? Something right?
 
-Let me know via email or Twitter, or open a ticket on this repo.
+Let me know via email or [Twitter](https://twitter.com/claylo), or open a ticket on this repo.
 
