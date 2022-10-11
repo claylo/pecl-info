@@ -36589,7 +36589,7 @@
         "category": "Tools and Utilities",
         "deprecated": false,
         "description": "the fastest and smallest serialize fucntion bound for php7",
-        "latestReleaseDate": "2017-02-09T04:45:23+00:00",
+        "latestReleaseDate": "",
         "latestVersion": "0.1.1",
         "license": "Apache2.0",
         "name": "swoole_serialize",
@@ -36597,17 +36597,10 @@
         "releases": {
             "0.1.1": {
                 "version": "0.1.1",
-                "state": "beta",
-                "license": "Apache2.0",
-                "releasedBy": "woshiguo35",
-                "releaseDate": "2017-02-09T04:45:23+00:00",
-                "releaseNotes": "- new extension",
-                "get": "http://pecl.php.net/get/swoole_serialize-0.1.1",
-                "SPDX-License-Identifier": "Apache-2.0"
+                "state": "beta"
             }
         },
-        "summary": "the fastest and smallest serialize fucntion bound for php7",
-        "SPDX-License-Identifier": "Apache-2.0"
+        "summary": "the fastest and smallest serialize fucntion bound for php7"
     },
     "syck": {
         "category": "File Formats",
@@ -41111,155 +41104,70 @@
         "category": "Images",
         "deprecated": false,
         "description": "This extension uses libvips to provide image processing facilities.",
-        "latestReleaseDate": "2022-02-16T13:30:26+00:00",
+        "latestReleaseDate": "",
         "latestVersion": "1.0.13",
         "license": "MIT",
         "name": "vips",
-        "php8Mentioned": true,
+        "php8Mentioned": false,
         "releases": {
             "1.0.13": {
                 "version": "1.0.13",
-                "state": "stable",
-                "license": "MIT",
-                "releasedBy": "jcupitt",
-                "releaseDate": "2022-02-16T13:30:26+00:00",
-                "releaseNotes": "* php8 compatibility [kleisauke]\n* improve module linking [kleisauke]\n* improve packaging [kleisauke]\n* add type hints [jcupitt, kleisauke]",
-                "get": "https://pecl.php.net/get/vips-1.0.13",
-                "SPDX-License-Identifier": "MIT"
+                "state": "stable"
             },
             "1.0.12": {
                 "version": "1.0.12",
-                "state": "stable",
-                "license": "MIT",
-                "releasedBy": "jcupitt",
-                "releaseDate": "2020-08-29T13:17:30+00:00",
-                "releaseNotes": "* vips_image_set_type() can be passed a type name",
-                "get": "https://pecl.php.net/get/vips-1.0.12",
-                "SPDX-License-Identifier": "MIT"
+                "state": "stable"
             },
             "1.0.11": {
                 "version": "1.0.11",
-                "state": "stable",
-                "license": "MIT",
-                "releasedBy": "jcupitt",
-                "releaseDate": "2020-08-28T02:37:24+00:00",
-                "releaseNotes": "* add vips_image_set_type()\n* More php_info() output [jcupitt]",
-                "get": "https://pecl.php.net/get/vips-1.0.11",
-                "SPDX-License-Identifier": "MIT"
+                "state": "stable"
             },
             "1.0.10": {
                 "version": "1.0.10",
-                "state": "stable",
-                "license": "MIT",
-                "releasedBy": "jcupitt",
-                "releaseDate": "2019-09-26T15:12:23+00:00",
-                "releaseNotes": "* Add vips_image_write_to_array() [jcupitt]\n* Update links for new home [jcupitt]\n* Fix win32 build [TBK]",
-                "get": "https://pecl.php.net/get/vips-1.0.10",
-                "SPDX-License-Identifier": "MIT"
+                "state": "stable"
             },
             "1.0.9": {
                 "version": "1.0.9",
-                "state": "stable",
-                "license": "MIT",
-                "releasedBy": "jcupitt",
-                "releaseDate": "2018-10-04T15:48:20+00:00",
-                "releaseNotes": "* Add cache and concurrency controls [chregu]",
-                "get": "http://pecl.php.net/get/vips-1.0.9",
-                "SPDX-License-Identifier": "MIT"
+                "state": "stable"
             },
             "1.0.8": {
                 "version": "1.0.8",
-                "state": "stable",
-                "license": "MIT",
-                "releasedBy": "jcupitt",
-                "releaseDate": "2017-11-23T15:09:15+00:00",
-                "releaseNotes": "* Add vips_version() [chregu]\n* Add vips_new_from_memory() / vips_write_to_memory() [kleisauke]",
-                "get": "http://pecl.php.net/get/vips-1.0.8",
-                "SPDX-License-Identifier": "MIT"
+                "state": "stable"
             },
             "1.0.7": {
                 "version": "1.0.7",
-                "state": "stable",
-                "license": "MIT",
-                "releasedBy": "jcupitt",
-                "releaseDate": "2017-06-06T08:54:24+00:00",
-                "releaseNotes": "* Add vips_interpolate_new()",
-                "get": "http://pecl.php.net/get/vips-1.0.7",
-                "SPDX-License-Identifier": "MIT"
+                "state": "stable"
             },
             "1.0.6": {
                 "version": "1.0.6",
-                "state": "stable",
-                "license": "MIT",
-                "releasedBy": "jcupitt",
-                "releaseDate": "2017-04-17T14:50:11+00:00",
-                "releaseNotes": "* Add vips_image_copy_memory()",
-                "get": "http://pecl.php.net/get/vips-1.0.6",
-                "SPDX-License-Identifier": "MIT"
+                "state": "stable"
             },
             "1.0.5": {
                 "version": "1.0.5",
-                "state": "stable",
-                "license": "MIT",
-                "releasedBy": "jcupitt",
-                "releaseDate": "2017-04-08T12:30:57+00:00",
-                "releaseNotes": "* Use VIPS_SONAME, if we can\n* More stuff in php_info(), see https://github.com/jcupitt/php-vips/issues/32\n* Add vips_foreign_find_load() and vips_foreign_find_load_buffer(), see https://github.com/jcupitt/php-vips/issues/37",
-                "get": "http://pecl.php.net/get/vips-1.0.5",
-                "SPDX-License-Identifier": "MIT"
+                "state": "stable"
             },
             "1.0.4": {
                 "version": "1.0.4",
-                "state": "stable",
-                "license": "MIT",
-                "releasedBy": "jcupitt",
-                "releaseDate": "2016-12-30T18:39:33+00:00",
-                "releaseNotes": "* Improve graceful fix from 1.0.3, see https://github.com/jcupitt/php-vips/issues/27\n* Better notes section in package.xml, see https://github.com/jcupitt/php-vips/issues/28",
-                "get": "http://pecl.php.net/get/vips-1.0.4",
-                "SPDX-License-Identifier": "MIT"
+                "state": "stable"
             },
             "1.0.3": {
                 "version": "1.0.3",
-                "state": "stable",
-                "license": "MIT",
-                "releasedBy": "jcupitt",
-                "releaseDate": "2016-12-29T16:02:49+00:00",
-                "releaseNotes": "- First stable release.",
-                "get": "http://pecl.php.net/get/vips-1.0.3",
-                "SPDX-License-Identifier": "MIT"
+                "state": "stable"
             },
             "1.0.2": {
                 "version": "1.0.2",
-                "state": "stable",
-                "license": "MIT",
-                "releasedBy": "jcupitt",
-                "releaseDate": "2016-12-06T10:13:20+00:00",
-                "releaseNotes": "- First stable release.",
-                "get": "http://pecl.php.net/get/vips-1.0.2",
-                "SPDX-License-Identifier": "MIT"
+                "state": "stable"
             },
             "1.0.1": {
                 "version": "1.0.1",
-                "state": "stable",
-                "license": "MIT",
-                "releasedBy": "jcupitt",
-                "releaseDate": "2016-11-25T16:53:49+00:00",
-                "releaseNotes": "- First stable release.",
-                "get": "http://pecl.php.net/get/vips-1.0.1",
-                "SPDX-License-Identifier": "MIT"
+                "state": "stable"
             },
             "1.0.0": {
                 "version": "1.0.0",
-                "state": "stable",
-                "license": "MIT",
-                "releasedBy": "jcupitt",
-                "releaseDate": "2016-11-24T07:51:33+00:00",
-                "releaseNotes": "- First stable release.",
-                "get": "http://pecl.php.net/get/vips-1.0.0",
-                "SPDX-License-Identifier": "MIT"
+                "state": "stable"
             }
         },
-        "summary": "PHP extension for interfacing with libvips",
-        "SPDX-License-Identifier": "MIT"
+        "summary": "PHP extension for interfacing with libvips"
     },
     "vld": {
         "category": "PHP",
@@ -44040,7 +43948,7 @@
         "category": "XML",
         "deprecated": false,
         "description": "A re-write of the old ext/xmlrpc extension for PHP 5 implmenting object overloading\nand built on top of the libxml2 library. It strives to be a completely backward\ncompatiable replacement to the ext/xmlrpc extension",
-        "latestReleaseDate": "2005-02-16T01:40:00+00:00",
+        "latestReleaseDate": "",
         "latestVersion": "1.0",
         "license": "PHP",
         "name": "XMLRPCi",
@@ -44048,17 +43956,10 @@
         "releases": {
             "1.0": {
                 "version": "1.0",
-                "state": "beta",
-                "license": "PHP",
-                "releasedBy": "john",
-                "releaseDate": "2005-02-16T01:40:00+00:00",
-                "releaseNotes": "Initial release",
-                "get": "http://pecl.php.net/get/xmlrpci-1.0",
-                "SPDX-License-Identifier": "PHP-3.01"
+                "state": "beta"
             }
         },
-        "summary": "Improved XML-RPC",
-        "SPDX-License-Identifier": "PHP-3.01"
+        "summary": "Improved XML-RPC"
     },
     "xmlwriter": {
         "category": "XML",
@@ -47146,7 +47047,7 @@
         "category": "Networking",
         "deprecated": false,
         "description": "ZeroMQ is a software library that lets you quickly design and implement a fast message-based applications.",
-        "latestReleaseDate": "",
+        "latestReleaseDate": "2016-02-01T01:51:40+00:00",
         "latestVersion": "1.1.3",
         "license": "BSD License",
         "name": "zmq",
@@ -47154,34 +47055,77 @@
         "releases": {
             "1.1.3": {
                 "version": "1.1.3",
-                "state": "beta"
+                "state": "beta",
+                "license": "BSD License",
+                "releasedBy": "mkoppanen",
+                "releaseDate": "2016-02-01T01:51:40+00:00",
+                "releaseNotes": "- Introduces PHP7 support. PHP5 compilation should work but receives no updates.\n- Added new methods:\n  * ZMQSocket::monitor (and related ZMQSocket::recvEvent)\n  * ZMQ::z85Encode/Decode\n  * ZMQ::has\n- Socket options are now restricted to their valid socket types\n- Usage pthreads extension is now better supported and tested",
+                "get": "http://pecl.php.net/get/zmq-1.1.3",
+                "SPDX-License-Identifier": "BSD-3-Clause"
             },
             "1.1.2": {
                 "version": "1.1.2",
-                "state": "beta"
+                "state": "beta",
+                "license": "BSD License",
+                "releasedBy": "mkoppanen",
+                "releaseDate": "2013-11-25T11:29:41+00:00",
+                "releaseNotes": "- Fixes a bug where device callback was invoked too early",
+                "get": "http://pecl.php.net/get/zmq-1.1.2",
+                "SPDX-License-Identifier": "BSD-3-Clause"
             },
             "1.1.1": {
                 "version": "1.1.1",
-                "state": "beta"
+                "state": "beta",
+                "license": "BSD License",
+                "releasedBy": "mkoppanen",
+                "releaseDate": "2013-11-02T04:28:43+00:00",
+                "releaseNotes": "- Missing zmq_clock.c from the archive",
+                "get": "http://pecl.php.net/get/zmq-1.1.1",
+                "SPDX-License-Identifier": "BSD-3-Clause"
             },
             "1.1.0": {
                 "version": "1.1.0",
-                "state": "beta"
+                "state": "beta",
+                "license": "BSD License",
+                "releasedBy": "mkoppanen",
+                "releaseDate": "2013-11-02T03:57:03+00:00",
+                "releaseNotes": "- Device related fixes and improvements:\n  * Added setTimerCallback to set a timer function\n  * Added getIdleTimeout/getTimerTimeout",
+                "get": "http://pecl.php.net/get/zmq-1.1.0",
+                "SPDX-License-Identifier": "BSD-3-Clause"
             },
             "1.0.9": {
                 "version": "1.0.9",
-                "state": "beta"
+                "state": "beta",
+                "license": "BSD License",
+                "releasedBy": "mkoppanen",
+                "releaseDate": "2013-10-25T10:18:44+00:00",
+                "releaseNotes": "- Windows build related fixes",
+                "get": "http://pecl.php.net/get/zmq-1.0.9",
+                "SPDX-License-Identifier": "BSD-3-Clause"
             },
             "1.0.8": {
                 "version": "1.0.8",
-                "state": "beta"
+                "state": "beta",
+                "license": "BSD License",
+                "releasedBy": "mkoppanen",
+                "releaseDate": "2013-10-24T06:11:11+00:00",
+                "releaseNotes": "- Added config.w32 for Windows builds\n- Removed unused variables and dead code (remicollet)\n- Package tests with the release (remicollet)",
+                "get": "http://pecl.php.net/get/zmq-1.0.8",
+                "SPDX-License-Identifier": "BSD-3-Clause"
             },
             "1.0.7": {
                 "version": "1.0.7",
-                "state": "beta"
+                "state": "beta",
+                "license": "BSD License",
+                "releasedBy": "mkoppanen",
+                "releaseDate": "2013-10-24T02:31:13+00:00",
+                "releaseNotes": "- Added optional listener socket to ZMQDevice\n- Added support for ZeroMQ 4.x",
+                "get": "http://pecl.php.net/get/zmq-1.0.7",
+                "SPDX-License-Identifier": "BSD-3-Clause"
             }
         },
-        "summary": "ZeroMQ messaging"
+        "summary": "ZeroMQ messaging",
+        "SPDX-License-Identifier": "BSD-3-Clause"
     },
     "zookeeper": {
         "category": "Configuration",

@@ -41,7 +41,7 @@ foreach ($packages as $pkg => $info) {
         $php8[] = $pkg;
     }
 
-    if ($days > 0 && $days <= 180) {
+    if ($days >= 0 && $days <= 180) {
         $opinion['active'][$pkg] = $days;
         continue;
     }
@@ -95,6 +95,15 @@ foreach ($opinion['recent'] as $pkg => $days) {
 
 // print_r($opinion);
 // print_r($php8);
+
+file_put_contents(
+    'data/stats.json',
+    json_encode($stats, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES)
+);
+file_put_contents(
+    'data/opinion.json',
+    json_encode($opinion, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES)
+);
 
 // print_r($relevant);
 ksort($relevant);

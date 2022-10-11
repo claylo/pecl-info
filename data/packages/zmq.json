@@ -6,7 +6,6 @@
     "latestVersion": "1.1.3",
     "license": "BSD License",
     "name": "zmq",
-    "summary": "ZeroMQ messaging",
     "php8Mentioned": false,
     "releases": {
         "1.1.3": {
@@ -80,5 +79,6 @@
             "SPDX-License-Identifier": "BSD-3-Clause"
         }
     },
+    "summary": "ZeroMQ messaging",
     "SPDX-License-Identifier": "BSD-3-Clause"
 }

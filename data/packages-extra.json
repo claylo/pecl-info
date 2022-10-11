@@ -53,12 +53,12 @@
     },
     "apcu": {
         "bugs": "https://github.com/krakjoe/apcu/issues",
-        "docs": "http://php.net/apcu",
+        "docs": "https://php.net/apcu",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/krakjoe/apcu",
         "stats": "https://pecl.php.net/package-stats.php?pid=944&rid=&cid=3",
-        "verified": false
+        "verified": true
     },
     "apcu_bc": {
         "bugs": "https://github.com/krakjoe/apcu-bc/issues",
@@ -79,12 +79,12 @@
     },
     "apfd": {
         "bugs": "https://github.com/m6w6/ext-apfd/issues",
-        "docs": "https://mdref.m6w6.name/apfd",
+        "docs": "http://mdref.m6w6.name/apfd",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/m6w6/ext-apfd",
         "stats": "https://pecl.php.net/package-stats.php?pid=977&rid=&cid=11",
-        "verified": true
+        "verified": false
     },
     "apm": {
         "bugs": "https://github.com/patrickallaert/php-apm/issues",
@@ -248,12 +248,12 @@
     },
     "bz2_filter": {
         "bugs": "",
-        "docs": "https://www.php.net/filters.compression",
+        "docs": "http://www.php.net/filters.compression",
         "home": "",
         "maintained": true,
         "repo": "http://svn.php.net/pecl/bz2_filter",
         "stats": "https://pecl.php.net/package-stats.php?pid=318&rid=&cid=35",
-        "verified": true
+        "verified": false
     },
     "cairo": {
         "bugs": "https://github.com/gtkforphp/cairo/issues",
@@ -274,12 +274,12 @@
     },
     "cassandra": {
         "bugs": "https://datastax-oss.atlassian.net/browse/PHP",
-        "docs": "https://datastax.github.io/php-driver/",
+        "docs": "http://datastax.github.io/php-driver/",
         "home": "http://datastax.github.io/php-driver/",
         "maintained": true,
         "repo": "https://github.com/datastax/php-driver",
         "stats": "https://pecl.php.net/package-stats.php?pid=987&rid=&cid=7",
-        "verified": true
+        "verified": false
     },
     "chdb": {
         "bugs": "https://github.com/lcastelli/chdb/issues",
@@ -326,12 +326,12 @@
     },
     "cmark": {
         "bugs": "https://github.com/krakjoe/cmark/issues",
-        "docs": "http://php.net/cmark",
+        "docs": "https://php.net/cmark",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/krakjoe/cmark",
         "stats": "https://pecl.php.net/package-stats.php?pid=1022&rid=&cid=36",
-        "verified": false
+        "verified": true
     },
     "coherence": {
         "bugs": "",
@@ -360,12 +360,12 @@
     },
     "componere": {
         "bugs": "https://github.com/krakjoe/componere/issues",
-        "docs": "http://php.net/componere",
+        "docs": "https://php.net/componere",
         "home": "https://github.com/krakjoe/componere",
         "maintained": true,
         "repo": "https://github.com/krakjoe/componere",
         "stats": "https://pecl.php.net/package-stats.php?pid=1020&rid=&cid=25",
-        "verified": false
+        "verified": true
     },
     "couchbase": {
         "bugs": "https://issues.couchbase.com/browse/PCBC",
@@ -430,12 +430,12 @@
     },
     "cubrid": {
         "bugs": "",
-        "docs": "http://php.net/manual/en/book.cubrid.php",
+        "docs": "https://php.net/manual/en/book.cubrid.php",
         "home": "http://www.cubrid.org/php_api_for_cubrid",
         "maintained": true,
         "repo": "http://svn.php.net/viewvc/pecl/cubrid/",
         "stats": "https://pecl.php.net/package-stats.php?pid=885&rid=&cid=7",
-        "verified": false
+        "verified": true
     },
     "cvsclient": {
         "bugs": "",
@@ -548,12 +548,12 @@
     },
     "decimal": {
         "bugs": "https://github.com/php-decimal/ext-decimal/issues",
-        "docs": "https://php-decimal.io/",
+        "docs": "http://php-decimal.io/",
         "home": "http://php-decimal.io",
         "maintained": true,
         "repo": "https://github.com/php-decimal/extension",
         "stats": "https://pecl.php.net/package-stats.php?pid=1028&rid=&cid=15",
-        "verified": true
+        "verified": false
     },
     "dio": {
         "bugs": "https://github.com/php/pecl-system-dio/issues",
@@ -730,12 +730,12 @@
     },
     "fann": {
         "bugs": "https://github.com/bukka/php-fann/issues",
-        "docs": "http://www.php.net/manual/en/book.fann.php",
+        "docs": "https://php.net/manual/en/book.fann.php",
         "home": "https://github.com/bukka/php-fann",
         "maintained": true,
         "repo": "https://github.com/bukka/php-fann",
         "stats": "https://pecl.php.net/package-stats.php?pid=314&rid=&cid=29",
-        "verified": false
+        "verified": true
     },
     "ffi": {
         "bugs": "",
@@ -747,12 +747,12 @@
     },
     "fileinfo": {
         "bugs": "",
-        "docs": "http://php.net/fileinfo",
+        "docs": "https://php.net/fileinfo",
         "home": "",
         "maintained": true,
         "repo": "http://svn.php.net/php/php-src/trunk/ext/fileinfo",
         "stats": "https://pecl.php.net/package-stats.php?pid=295&rid=&cid=33",
-        "verified": false
+        "verified": true
     },
     "filepro": {
         "bugs": "",
@@ -839,21 +839,21 @@
     },
     "gearman": {
         "bugs": "https://github.com/php/pecl-networking-gearman/issues",
-        "docs": "http://php.net/gearman",
+        "docs": "https://php.net/gearman",
         "home": "http://gearman.org",
         "maintained": true,
         "repo": "https://github.com/php/pecl-networking-gearman",
         "stats": "https://pecl.php.net/package-stats.php?pid=861&rid=&cid=16",
-        "verified": false
+        "verified": true
     },
     "gender": {
         "bugs": "",
-        "docs": "http://php.net/manual/en/book.gender.php",
+        "docs": "https://php.net/manual/en/book.gender.php",
         "home": "",
         "maintained": true,
         "repo": "http://svn.php.net/pecl/gender/",
         "stats": "https://pecl.php.net/package-stats.php?pid=832&rid=&cid=28",
-        "verified": false
+        "verified": true
     },
     "geoip": {
         "bugs": "https://github.com/php/pecl-networking-geoip/issues",
@@ -884,12 +884,12 @@
     },
     "gnupg": {
         "bugs": "https://github.com/php-gnupg/php-gnupg/issues",
-        "docs": "http://php.net/gnupg",
+        "docs": "https://php.net/gnupg",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/php-gnupg/php-gnupg",
         "stats": "https://pecl.php.net/package-stats.php?pid=543&rid=&cid=6",
-        "verified": false
+        "verified": true
     },
     "graphdat": {
         "bugs": "https://github.com/alphashack/graphdat-sdk-php/issues",
@@ -970,12 +970,12 @@
     },
     "hrtime": {
         "bugs": "",
-        "docs": "http://php.net/hrtime",
+        "docs": "https://php.net/hrtime",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/php/pecl-datetime-hrtime",
         "stats": "https://pecl.php.net/package-stats.php?pid=965&rid=&cid=8",
-        "verified": false
+        "verified": true
     },
     "html_parse": {
         "bugs": "",
@@ -1020,12 +1020,12 @@
     },
     "ibm_db2": {
         "bugs": "https://github.com/php/pecl-database-ibm_db2/issues",
-        "docs": "http://www.php.net/ibm_db2",
+        "docs": "https://php.net/ibm_db2",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/php/pecl-database-ibm_db2",
         "stats": "https://pecl.php.net/package-stats.php?pid=440&rid=&cid=7",
-        "verified": false
+        "verified": true
     },
     "ice": {
         "bugs": "https://github.com/ice/framework/issues",
@@ -1064,12 +1064,12 @@
     },
     "imagick": {
         "bugs": "https://github.com/Imagick/imagick/issues",
-        "docs": "http://php.net/imagick",
+        "docs": "https://php.net/imagick",
         "home": "https://phpimagick.com",
         "maintained": true,
         "repo": "https://github.com/Imagick/imagick",
         "stats": "https://pecl.php.net/package-stats.php?pid=76&rid=&cid=12",
-        "verified": false
+        "verified": true
     },
     "imlib2": {
         "bugs": "",
@@ -1201,12 +1201,12 @@
     },
     "json": {
         "bugs": "",
-        "docs": "http://php.net/json",
+        "docs": "https://php.net/json",
         "home": "",
         "maintained": true,
         "repo": "http://svn.php.net/viewvc/php/php-src/trunk/ext/json/",
         "stats": "https://pecl.php.net/package-stats.php?pid=587&rid=&cid=23",
-        "verified": false
+        "verified": true
     },
     "json_post": {
         "bugs": "https://github.com/m6w6/ext-json_post/issues",
@@ -1365,21 +1365,21 @@
     },
     "lzf": {
         "bugs": "https://github.com/php/pecl-file_formats-lzf/issues",
-        "docs": "http://php.net/lzf",
+        "docs": "https://php.net/lzf",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/php/pecl-file_formats-lzf",
         "stats": "https://pecl.php.net/package-stats.php?pid=262&rid=&cid=33",
-        "verified": false
+        "verified": true
     },
     "mailparse": {
         "bugs": "https://github.com/php/pecl-mail-mailparse/issues",
-        "docs": "http://php.net/mailparse",
+        "docs": "https://php.net/mailparse",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/php/pecl-mail-mailparse",
         "stats": "https://pecl.php.net/package-stats.php?pid=143&rid=&cid=14",
-        "verified": false
+        "verified": true
     },
     "markdown": {
         "bugs": "https://github.com/cataphract/php-discount/issues",
@@ -1443,21 +1443,21 @@
     },
     "memcache": {
         "bugs": "https://github.com/websupport-sk/pecl-memcache/issues",
-        "docs": "http://www.php.net/memcache",
+        "docs": "https://php.net/memcache",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/websupport-sk/pecl-memcache",
         "stats": "https://pecl.php.net/package-stats.php?pid=294&rid=&cid=3",
-        "verified": false
+        "verified": true
     },
     "memcached": {
         "bugs": "https://github.com/php-memcached-dev/php-memcached/issues",
-        "docs": "http://php.net/memcached",
+        "docs": "https://php.net/memcached",
         "home": "https://github.com/php-memcached-dev/php-memcached",
         "maintained": true,
         "repo": "https://github.com/php-memcached-dev/php-memcached",
         "stats": "https://pecl.php.net/package-stats.php?pid=847&rid=&cid=3",
-        "verified": false
+        "verified": true
     },
     "memoize": {
         "bugs": "",
@@ -1547,12 +1547,12 @@
     },
     "mongodb": {
         "bugs": "https://jira.mongodb.org/browse/PHPC",
-        "docs": "https://php.net/mongodb",
+        "docs": "http://php.net/mongodb",
         "home": "http://docs.mongodb.org/ecosystem/drivers/php/",
         "maintained": true,
         "repo": "https://github.com/mongodb/mongo-php-driver",
         "stats": "https://pecl.php.net/package-stats.php?pid=981&rid=&cid=7",
-        "verified": true
+        "verified": false
     },
     "mono": {
         "bugs": "",
@@ -1573,12 +1573,12 @@
     },
     "mqseries": {
         "bugs": "https://github.com/php/pecl-networking-mqseries/issues",
-        "docs": "http://www.php.net/mqseries",
+        "docs": "https://php.net/mqseries",
         "home": "http://www.tjonahen.nl/mqseries/",
         "maintained": true,
         "repo": "https://github.com/php/pecl-networking-mqseries",
         "stats": "https://pecl.php.net/package-stats.php?pid=204&rid=&cid=16",
-        "verified": false
+        "verified": true
     },
     "msession": {
         "bugs": "",
@@ -1733,30 +1733,30 @@
     },
     "oauth": {
         "bugs": "https://github.com/php/pecl-web_services-oauth/issues",
-        "docs": "https://php.net/oauth",
+        "docs": "http://php.net/oauth",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/php/pecl-web_services-oauth",
         "stats": "https://pecl.php.net/package-stats.php?pid=828&rid=&cid=23",
-        "verified": true
+        "verified": false
     },
     "ocal": {
         "bugs": "",
-        "docs": "https://svn.php.net/viewvc/pecl/ocal/trunk/README?view=markup",
+        "docs": "http://svn.php.net/viewvc/pecl/ocal/trunk/README?view=markup",
         "home": "http://www.synd.info/extensions/ocal/",
         "maintained": true,
         "repo": "http://svn.php.net/viewvc/pecl/ocal/trunk/",
         "stats": "https://pecl.php.net/package-stats.php?pid=643&rid=&cid=16",
-        "verified": true
+        "verified": false
     },
     "oci8": {
         "bugs": "https://github.com/php/php-src/issues",
-        "docs": "https://php.net/oci8",
+        "docs": "http://www.php.net/oci8",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/php/php-src/tree/master/ext/oci8",
         "stats": "https://pecl.php.net/package-stats.php?pid=277&rid=&cid=7",
-        "verified": true
+        "verified": false
     },
     "odbtp": {
         "bugs": "",
@@ -1776,12 +1776,12 @@
     },
     "openal": {
         "bugs": "https://github.com/Ponup/php-openal/issues",
-        "docs": "http://php.net/openal",
+        "docs": "https://php.net/openal",
         "home": "http://www.php.net/ref.openal",
         "maintained": true,
         "repo": "https://github.com/ponup/php-openal",
         "stats": "https://pecl.php.net/package-stats.php?pid=255&rid=&cid=35",
-        "verified": false
+        "verified": true
     },
     "opencensus": {
         "bugs": "https://github.com/census-instrumentation/opencensus-php/issues",
@@ -1820,12 +1820,12 @@
     },
     "openswoole": {
         "bugs": "https://github.com/openswoole/swoole-src/issues",
-        "docs": "https://openswoole.com/docs",
-        "home": "https://openswoole.com/",
+        "docs": "",
+        "home": "https://www.swoole.co.uk",
         "maintained": true,
         "repo": "https://github.com/openswoole",
         "stats": "https://pecl.php.net/package-stats.php?pid=1065&rid=&cid=44",
-        "verified": true
+        "verified": false
     },
     "operator": {
         "bugs": "https://github.com/php/pecl-php-operator/issues",
@@ -1915,12 +1915,12 @@
     },
     "parle": {
         "bugs": "https://github.com/weltling/parle/issues",
-        "docs": "http://php.net/parle",
+        "docs": "https://php.net/parle",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/weltling/parle",
         "stats": "https://pecl.php.net/package-stats.php?pid=1016&rid=&cid=36",
-        "verified": false
+        "verified": true
     },
     "parse_tree": {
         "bugs": "",
@@ -1991,12 +1991,12 @@
     },
     "pdo_cubrid": {
         "bugs": "",
-        "docs": "https://php.net/pdo-cubrid",
+        "docs": "http://php.net/manual/en/ref.pdo-cubrid.php",
         "home": "http://www.cubrid.org/php_cubrid_pdo",
         "maintained": true,
         "repo": "http://cubridinterface.svn.sourceforge.net/viewvc/cubridinterface/pdo/",
         "stats": "https://pecl.php.net/package-stats.php?pid=892&rid=&cid=7",
-        "verified": true
+        "verified": false
     },
     "pdo_dblib": {
         "bugs": "",
@@ -2016,21 +2016,21 @@
     },
     "pdo_ibm": {
         "bugs": "https://github.com/php/pecl-database-pdo_ibm/issues",
-        "docs": "https://php.net/pdo-ibm",
+        "docs": "http://php.net/pdo-ibm",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/php/pecl-database-pdo_ibm",
         "stats": "https://pecl.php.net/package-stats.php?pid=661&rid=&cid=7",
-        "verified": true
+        "verified": false
     },
     "pdo_informix": {
         "bugs": "",
-        "docs": "https://php.net/pdo-informix",
+        "docs": "http://php.net/pdo-informix",
         "home": "",
         "maintained": true,
         "repo": "",
         "stats": "https://pecl.php.net/package-stats.php?pid=549&rid=&cid=7",
-        "verified": true
+        "verified": false
     },
     "pdo_mysql": {
         "bugs": "",
@@ -2083,12 +2083,12 @@
     },
     "pdo_sqlsrv": {
         "bugs": "https://github.com/Microsoft/msphpsql/issues",
-        "docs": "https://php.net/pdo-sqlsrv",
+        "docs": "",
         "home": "https://github.com/Microsoft/msphpsql",
         "maintained": true,
         "repo": "https://github.com/Microsoft/msphpsql",
         "stats": "https://pecl.php.net/package-stats.php?pid=901&rid=&cid=7",
-        "verified": true
+        "verified": false
     },
     "pdo_taos": {
         "bugs": "https://github.com/bearlord/pdo_taos/issues",
@@ -2135,12 +2135,12 @@
     },
     "perforce": {
         "bugs": "",
-        "docs": "https://www.indelible.org/php/perforce/guide.html",
+        "docs": "http://www.indelible.org/php/perforce/guide.html",
         "home": "http://www.indelible.org/php/perforce/",
         "maintained": true,
         "repo": "http://public.perforce.com:8080/@md=d&cd=//guest/jon_parise/api/php/&ra=s&c=SI0@//guest/jon_parise/api/php/?ac=83",
         "stats": "https://pecl.php.net/package-stats.php?pid=334&rid=&cid=16",
-        "verified": true
+        "verified": false
     },
     "perl": {
         "bugs": "",
@@ -2289,12 +2289,12 @@
     },
     "protobuf": {
         "bugs": "https://github.com/protocolbuffers/protobuf/issues",
-        "docs": "https://github.com/protocolbuffers/protobuf/tree/main/php",
+        "docs": "",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/google/protobuf",
         "stats": "https://pecl.php.net/package-stats.php?pid=997&rid=&cid=29",
-        "verified": true
+        "verified": false
     },
     "protocolbuffers": {
         "bugs": "https://github.com/chobie/php-protocolbuffers/issues",
@@ -2306,12 +2306,12 @@
     },
     "ps": {
         "bugs": "https://github.com/steinm/ps/issues",
-        "docs": "https://php.net/ps",
+        "docs": "https://www.php.net/manual/en/book.ps.php",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/steinm/ps",
         "stats": "https://pecl.php.net/package-stats.php?pid=299&rid=&cid=36",
-        "verified": true
+        "verified": false
     },
     "psr": {
         "bugs": "https://github.com/jbboehr/php-psr/issues",
@@ -2320,7 +2320,7 @@
         "maintained": true,
         "repo": "https://github.com/jbboehr/php-psr",
         "stats": "https://pecl.php.net/package-stats.php?pid=1012&rid=&cid=25",
-        "verified": true
+        "verified": false
     },
     "pthreads": {
         "bugs": "https://github.com/krakjoe/pthreads/issues",
@@ -2366,12 +2366,12 @@
     },
     "radius": {
         "bugs": "https://github.com/LawnGnome/php-radius/issues",
-        "docs": "https://php.net/radius",
+        "docs": "http://php.net/radius",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/LawnGnome/php-radius",
         "stats": "https://pecl.php.net/package-stats.php?pid=149&rid=&cid=1",
-        "verified": true
+        "verified": false
     },
     "raphf": {
         "bugs": "https://github.com/m6w6/ext-raphf/issues",
@@ -2380,16 +2380,16 @@
         "maintained": true,
         "repo": "https://github.com/m6w6/ext-raphf",
         "stats": "https://pecl.php.net/package-stats.php?pid=940&rid=&cid=25",
-        "verified": true
+        "verified": false
     },
     "rar": {
         "bugs": "https://github.com/cataphract/php-rar",
-        "docs": "https://php.net/rar",
+        "docs": "http://www.php.net/rar",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/cataphract/php-rar",
         "stats": "https://pecl.php.net/package-stats.php?pid=349&rid=&cid=33",
-        "verified": true
+        "verified": false
     },
     "rdkafka": {
         "bugs": "https://github.com/arnaud-lb/php-rdkafka/issues",
@@ -2398,7 +2398,7 @@
         "maintained": true,
         "repo": "https://github.com/arnaud-lb/php-rdkafka",
         "stats": "https://pecl.php.net/package-stats.php?pid=984&rid=&cid=16",
-        "verified": true
+        "verified": false
     },
     "re2": {
         "bugs": "",
@@ -2453,12 +2453,12 @@
     },
     "rpminfo": {
         "bugs": "https://github.com/remicollet/rpminfo/issues",
-        "docs": "https://php.net/rpminfo",
+        "docs": "https://www.php.net/rpminfo",
         "home": "https://git.remirepo.net/cgit/tools/php-rpminfo.git/",
         "maintained": true,
         "repo": "https://git.remirepo.net/cgit/tools/php-rpminfo.git/",
         "stats": "https://pecl.php.net/package-stats.php?pid=1019&rid=&cid=33",
-        "verified": true
+        "verified": false
     },
     "rpmreader": {
         "bugs": "https://bugs.php.net/search.php?cmd=display&status=Open&package_name[]=rpmreader",
@@ -2470,12 +2470,12 @@
     },
     "rrd": {
         "bugs": "https://github.com/php/pecl-processing-rrd/issues",
-        "docs": "https://php.net/rrd",
+        "docs": "http://www.php.net/rrd",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/php/pecl-processing-rrd",
         "stats": "https://pecl.php.net/package-stats.php?pid=893&rid=&cid=31",
-        "verified": true
+        "verified": false
     },
     "rsvg": {
         "bugs": "",
@@ -2520,21 +2520,21 @@
     },
     "sandbox": {
         "bugs": "https://github.com/krakjoe/sandbox/issues",
-        "docs": "https://github.com/krakjoe/sandbox",
-        "home": "https://github.com/krakjoe/sandbox",
+        "docs": "",
+        "home": "",
         "maintained": true,
         "repo": "https://github.com/krakjoe/sandbox",
         "stats": "https://pecl.php.net/package-stats.php?pid=1030&rid=&cid=25",
-        "verified": true
+        "verified": false
     },
     "sasl": {
         "bugs": "",
-        "docs": "https://www.indelible.org/php/sasl/guide.html",
+        "docs": "http://www.indelible.org/php/sasl/guide.html",
         "home": "http://www.indelible.org/php/sasl/",
         "maintained": true,
         "repo": "http://svn.php.net/viewvc/pecl/sasl/",
         "stats": "https://pecl.php.net/package-stats.php?pid=290&rid=&cid=1",
-        "verified": true
+        "verified": false
     },
     "sca_sdo": {
         "bugs": "",
@@ -2613,7 +2613,7 @@
         "maintained": true,
         "repo": "https://github.com/SeasX/SeasClick.git",
         "stats": "https://pecl.php.net/package-stats.php?pid=1035&rid=&cid=7",
-        "verified": true
+        "verified": false
     },
     "seaslog": {
         "bugs": "https://github.com/SeasX/SeasLog/issues",
@@ -2622,25 +2622,25 @@
         "maintained": true,
         "repo": "https://github.com/SeasX/SeasLog",
         "stats": "https://pecl.php.net/package-stats.php?pid=968&rid=&cid=13",
-        "verified": true
+        "verified": false
     },
     "seassnowflake": {
         "bugs": "https://github.com/SeasX/SeasSnowflake/issues",
-        "docs": "https://github.com/SeasX/SeasSnowflake",
+        "docs": "",
         "home": "https://github.com/SeasX/SeasSnowflake",
         "maintained": true,
         "repo": "https://github.com/SeasX/SeasSnowflake",
         "stats": "https://pecl.php.net/package-stats.php?pid=1063&rid=&cid=29",
-        "verified": true
+        "verified": false
     },
     "selinux": {
         "bugs": "",
-        "docs": "https://github.com/php/pecl-security-selinux/blob/master/README",
+        "docs": "http://git.php.net/?p=pecl/security/selinux.git;a=blob;f=README",
         "home": "http://pecl.php.net/package/selinux",
         "maintained": true,
         "repo": "https://github.com/php/pecl-security-selinux",
         "stats": "https://pecl.php.net/package-stats.php?pid=854&rid=&cid=54",
-        "verified": true
+        "verified": false
     },
     "session_mysql": {
         "bugs": "",
@@ -2662,12 +2662,12 @@
     },
     "simdjson": {
         "bugs": "",
-        "docs": "https://github.com/crazyxman/simdjson_php",
+        "docs": "",
         "home": "https://github.com/crazyxman/simdjson_php",
         "maintained": true,
         "repo": "https://github.com/crazyxman/simdjson_php",
         "stats": "https://pecl.php.net/package-stats.php?pid=1072&rid=&cid=29",
-        "verified": true
+        "verified": false
     },
     "simple_kafka_client": {
         "bugs": "",
@@ -2681,11 +2681,11 @@
     "skywalking": {
         "bugs": "https://github.com/SkyAPM/SkyAPM-php-sdk/issues",
         "docs": "",
-        "home": "https://skywalking.apache.org/",
+        "home": "http://skywalking.apache.org/",
         "maintained": true,
         "repo": "https://github.com/SkyAPM/SkyAPM-php-sdk.git",
         "stats": "https://pecl.php.net/package-stats.php?pid=1044&rid=&cid=25",
-        "verified": true
+        "verified": false
     },
     "skywalking_agent": {
         "bugs": "",
@@ -2707,12 +2707,12 @@
     },
     "solr": {
         "bugs": "https://github.com/php/pecl-search_engine-solr/issues",
-        "docs": "https://php.net/solr",
+        "docs": "http://www.php.net/manual/en/book.solr.php",
         "home": "http://lucene.apache.org/solr/",
         "maintained": true,
         "repo": "https://github.com/php/pecl-search_engine-solr",
         "stats": "https://pecl.php.net/package-stats.php?pid=867&rid=&cid=57",
-        "verified": true
+        "verified": false
     },
     "sphinx": {
         "bugs": "",
@@ -2760,9 +2760,9 @@
         "docs": "",
         "home": "",
         "maintained": true,
-        "repo": "https://svn.php.net/pecl/spread",
+        "repo": "http://svn.php.net/pecl/spread",
         "stats": "https://pecl.php.net/package-stats.php?pid=119&rid=&cid=16",
-        "verified": true
+        "verified": false
     },
     "sqlanywhere": {
         "bugs": "",
@@ -2796,25 +2796,25 @@
         "maintained": true,
         "repo": "https://github.com/Microsoft/msphpsql",
         "stats": "https://pecl.php.net/package-stats.php?pid=900&rid=&cid=7",
-        "verified": true
+        "verified": false
     },
     "ssdeep": {
         "bugs": "https://github.com/php/pecl-text-ssdeep/issues",
-        "docs": "https://php.net/ssdeep",
+        "docs": "http://docs.php.net/manual/en/book.ssdeep.php",
         "home": "http://treffynnon.github.com/php_ssdeep/",
         "maintained": true,
         "repo": "https://github.com/php/pecl-text-ssdeep",
         "stats": "https://pecl.php.net/package-stats.php?pid=888&rid=&cid=36",
-        "verified": true
+        "verified": false
     },
     "ssh2": {
         "bugs": "https://github.com/php/pecl-networking-ssh2/issues",
-        "docs": "https://php.net/ssh2",
+        "docs": "http://www.php.net/ssh2",
         "home": "http://www.libssh2.org",
         "maintained": true,
         "repo": "https://github.com/php/pecl-networking-ssh2",
         "stats": "https://pecl.php.net/package-stats.php?pid=421&rid=&cid=16",
-        "verified": true
+        "verified": false
     },
     "stackdriver_debugger": {
         "bugs": "https://github.com/GoogleCloudPlatform/stackdriver-debugger-php-extension/issues",
@@ -2853,12 +2853,12 @@
     },
     "stomp": {
         "bugs": "https://github.com/php/pecl-tools-stomp/issues",
-        "docs": "https://php.net/stomp",
+        "docs": "http://www.php.net/manual/en/book.stomp.php",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/php/pecl-tools-stomp",
         "stats": "https://pecl.php.net/package-stats.php?pid=870&rid=&cid=29",
-        "verified": true
+        "verified": false
     },
     "strict": {
         "bugs": "",
@@ -2883,16 +2883,16 @@
         "maintained": true,
         "repo": "https://github.com/ianbarber/php-svm",
         "stats": "https://pecl.php.net/package-stats.php?pid=898&rid=&cid=29",
-        "verified": true
+        "verified": false
     },
     "svn": {
         "bugs": "https://github.com/php/pecl-tools-svn/issues",
-        "docs": "https://php.net/svn",
+        "docs": "http://www.php.net/manual/en/book.svn.php",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/php/pecl-tools-svn",
         "stats": "https://pecl.php.net/package-stats.php?pid=480&rid=&cid=40",
-        "verified": true
+        "verified": false
     },
     "swish": {
         "bugs": "",
@@ -2909,7 +2909,7 @@
         "maintained": true,
         "repo": "https://github.com/swoole/swoole-src",
         "stats": "https://pecl.php.net/package-stats.php?pid=957&rid=&cid=44",
-        "verified": true
+        "verified": false
     },
     "swoole_serialize": {
         "bugs": "https://github.com/swoole/swoole_serialize/issues",
@@ -2940,12 +2940,12 @@
     },
     "taint": {
         "bugs": "https://github.com/laruence/taint/issues",
-        "docs": "https://php.net/taint",
+        "docs": "http://www.php.net/manual/en/book.taint.php",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/laruence/taint",
         "stats": "https://pecl.php.net/package-stats.php?pid=918&rid=&cid=54",
-        "verified": true
+        "verified": false
     },
     "tcc": {
         "bugs": "",
@@ -3038,12 +3038,12 @@
     },
     "timecop": {
         "bugs": "https://github.com/hnw/php-timecop/issues",
-        "docs": "https://github.com/hnw/php-timecop",
+        "docs": "",
         "home": "https://github.com/hnw/php-timecop",
         "maintained": true,
         "repo": "https://github.com/hnw/php-timecop",
         "stats": "https://pecl.php.net/package-stats.php?pid=1011&rid=&cid=8",
-        "verified": true
+        "verified": false
     },
     "timezonedb": {
         "bugs": "https://github.com/php/pecl-datetime-timezonedb/issues",
@@ -3081,12 +3081,12 @@
     },
     "trader": {
         "bugs": "https://github.com/php/pecl-math-trader/issues",
-        "docs": "http://www.php.net/manual/en/book.trader.php",
+        "docs": "https://php.net/manual/en/book.trader.php",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/php/pecl-math-trader",
         "stats": "https://pecl.php.net/package-stats.php?pid=921&rid=&cid=15",
-        "verified": false
+        "verified": true
     },
     "translit": {
         "bugs": "https://github.com/derickr/pecl-translit/issues",
@@ -3124,12 +3124,12 @@
     },
     "ui": {
         "bugs": "https://github.com/krakjoe/ui/issues",
-        "docs": "https://php.net/ui",
+        "docs": "http://php.net/ui",
         "home": "https://github.com/krakjoe/ui",
         "maintained": true,
         "repo": "https://github.com/krakjoe/ui",
         "stats": "https://pecl.php.net/package-stats.php?pid=998&rid=&cid=45",
-        "verified": true
+        "verified": false
     },
     "unicode": {
         "bugs": "",
@@ -3182,7 +3182,7 @@
         "maintained": true,
         "repo": "https://github.com/php/pecl-networking-uuid",
         "stats": "https://pecl.php.net/package-stats.php?pid=216&rid=&cid=16",
-        "verified": true
+        "verified": false
     },
     "uv": {
         "bugs": "https://github.com/amphp/ext-uv/issues",
@@ -3191,7 +3191,7 @@
         "maintained": true,
         "repo": "https://github.com/amphp/ext-uv",
         "stats": "https://pecl.php.net/package-stats.php?pid=999&rid=&cid=44",
-        "verified": true
+        "verified": false
     },
     "v8": {
         "bugs": "https://github.com/phpv8/php-v8/issues",
@@ -3207,9 +3207,9 @@
         "docs": "http://php.net/v8js/",
         "home": "",
         "maintained": true,
-        "repo": "https://github.com/phpv8/v8js",
+        "repo": "https://github.com/preillyme/v8js/",
         "stats": "https://pecl.php.net/package-stats.php?pid=894&rid=&cid=59",
-        "verified": true
+        "verified": false
     },
     "valkyrie": {
         "bugs": "",
@@ -3221,21 +3221,21 @@
     },
     "var_representation": {
         "bugs": "",
-        "docs": "https://php.net/var_representation",
+        "docs": "",
         "home": "https://github.com/TysonAndre/var_representation",
         "maintained": true,
         "repo": "https://github.com/TysonAndre/var_representation",
         "stats": "https://pecl.php.net/package-stats.php?pid=1061&rid=&cid=25",
-        "verified": true
+        "verified": false
     },
     "varnish": {
         "bugs": "https://github.com/php/pecl-caching-varnish/issues",
-        "docs": "https://php.net/varnish",
+        "docs": "http://www.php.net/manual/en/book.varnish.php",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/php/pecl-caching-varnish",
         "stats": "https://pecl.php.net/package-stats.php?pid=911&rid=&cid=3",
-        "verified": true
+        "verified": false
     },
     "vips": {
         "bugs": "https://github.com/libvips/php-vips-ext/issues",
@@ -3249,11 +3249,11 @@
     "vld": {
         "bugs": "https://github.com/derickr/vld/issues",
         "docs": "",
-        "home": "https://derickrethans.nl/projects.html#vld",
+        "home": "http://derickrethans.nl/vld.php",
         "maintained": true,
         "repo": "https://github.com/derickr/vld",
         "stats": "https://pecl.php.net/package-stats.php?pid=253&rid=&cid=25",
-        "verified": true
+        "verified": false
     },
     "vpopmail": {
         "bugs": "",
@@ -3273,12 +3273,12 @@
     },
     "wasm": {
         "bugs": "",
-        "docs": "https://wasmerio.github.io/wasmer-php/",
-        "home": "https://github.com/wasmerio/wasmer-php",
+        "docs": "https://wasmerio.github.io/php-ext-wasm/wasm/",
+        "home": "https://github.com/wasmerio/php-ext-wasm",
         "maintained": true,
-        "repo": "https://github.com/wasmerio/wasmer-php",
+        "repo": "https://github.com/wasmerio/php-ext-wasm",
         "stats": "https://pecl.php.net/package-stats.php?pid=1040&rid=&cid=59",
-        "verified": true
+        "verified": false
     },
     "wbxml": {
         "bugs": "",
@@ -3306,12 +3306,12 @@
     },
     "weakreference_bc": {
         "bugs": "https://github.com/TysonAndre/pecl-weakreference_bc/issues",
-        "docs": "https://github.com/tysonandre/pecl-weakreference_bc",
+        "docs": "",
         "home": "https://github.com/tysonandre/pecl-weakreference_bc",
         "maintained": true,
         "repo": "https://github.com/tysonandre/pecl-weakreference_bc",
         "stats": "https://pecl.php.net/package-stats.php?pid=1066&rid=&cid=27",
-        "verified": true
+        "verified": false
     },
     "win32ps": {
         "bugs": "",
@@ -3382,12 +3382,12 @@
     },
     "xattr": {
         "bugs": "https://github.com/php/pecl-file_system-xattr/issues",
-        "docs": "https://php.net/xattr",
+        "docs": "http://php.net/xattr",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/php/pecl-file_system-xattr",
         "stats": "https://pecl.php.net/package-stats.php?pid=380&rid=&cid=9",
-        "verified": true
+        "verified": false
     },
     "xcommerce": {
         "bugs": "https://github.com/johnj/php5-xcom/issues",
@@ -3408,21 +3408,21 @@
     },
     "xdiff": {
         "bugs": "https://github.com/php/pecl-text-xdiff/issues",
-        "docs": "https://php.net/xdiff",
+        "docs": "http://php.net/xdiff",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/php/pecl-text-xdiff",
         "stats": "https://pecl.php.net/package-stats.php?pid=283&rid=&cid=36",
-        "verified": true
+        "verified": false
     },
     "xhprof": {
         "bugs": "https://github.com/longxinH/xhprof/issues",
-        "docs": "https://php.net/xhprof",
+        "docs": "http://php.net/xhprof",
         "home": "https://github.com/longxinH/xhprof",
         "maintained": true,
         "repo": "https://github.com/longxinH/xhprof",
         "stats": "https://pecl.php.net/package-stats.php?pid=856&rid=&cid=29",
-        "verified": true
+        "verified": false
     },
     "xlswriter": {
         "bugs": "https://github.com/viest/php-ext-xlswriter/issues",
@@ -3431,16 +3431,16 @@
         "maintained": true,
         "repo": "https://github.com/viest/php-ext-xlswriter",
         "stats": "https://pecl.php.net/package-stats.php?pid=1023&rid=&cid=33",
-        "verified": true
+        "verified": false
     },
     "xmldiff": {
         "bugs": "https://github.com/php/pecl-xml-xmldiff/issues",
-        "docs": "https://php.net/xmldiff",
+        "docs": "http://www.php.net/manual/en/book.xmldiff.php",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/php/pecl-xml-xmldiff",
         "stats": "https://pecl.php.net/package-stats.php?pid=953&rid=&cid=22",
-        "verified": true
+        "verified": false
     },
     "xmlreader": {
         "bugs": "http://bugs.php.net/",
@@ -3518,16 +3518,16 @@
     },
     "yac": {
         "bugs": "https://github.com/laruence/yac/issues",
-        "docs": "https://php.net/yac",
+        "docs": "https://www.php.net/manual/en/book.yac.php",
         "home": "https://github.com/laruence/yac",
         "maintained": true,
         "repo": "https://github.com/laruence/yac",
         "stats": "https://pecl.php.net/package-stats.php?pid=949&rid=&cid=3",
-        "verified": true
+        "verified": false
     },
     "yaconf": {
         "bugs": "https://github.com/laruence/yaconf/issues",
-        "docs": "https://php.net/yaconf",
+        "docs": "http://docs.php.net/manual/en/intro.yaconf.php",
         "home": "https://github.com/laruence/yaconf",
         "maintained": true,
         "repo": "https://github.com/laruence/yaconf",
@@ -3536,12 +3536,12 @@
     },
     "yaf": {
         "bugs": "https://github.com/laruence/yaf/issues",
-        "docs": "https://php.net/yaf",
+        "docs": "http://www.php.net/manual/book.yaf.php",
         "home": "https://github.com/laruence/yaf",
         "maintained": true,
         "repo": "https://github.com/laruence/yaf",
         "stats": "https://pecl.php.net/package-stats.php?pid=903&rid=&cid=37",
-        "verified": true
+        "verified": false
     },
     "yami": {
         "bugs": "",
@@ -3553,21 +3553,21 @@
     },
     "yaml": {
         "bugs": "https://github.com/php/pecl-file_formats-yaml/issues",
-        "docs": "https://php.net/yaml",
+        "docs": "http://php.net/yaml",
         "home": "http://bd808.com/pecl-file_formats-yaml/",
         "maintained": true,
         "repo": "https://github.com/php/pecl-file_formats-yaml",
         "stats": "https://pecl.php.net/package-stats.php?pid=876&rid=&cid=33",
-        "verified": true
+        "verified": false
     },
     "yar": {
         "bugs": "https://github.com/laruence/yar/issues",
-        "docs": "https://php.net/yar",
+        "docs": "http://www.php.net/manual/book.yar.php",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/laruence/yar",
         "stats": "https://pecl.php.net/package-stats.php?pid=924&rid=&cid=23",
-        "verified": true
+        "verified": false
     },
     "yaz": {
         "bugs": "https://github.com/indexdata/phpyaz/issues",
@@ -3615,39 +3615,39 @@
     },
     "zip": {
         "bugs": "https://github.com/pierrejoye/php_zip/issues",
-        "docs": "https://php.net/zip",
+        "docs": "http://www.php.net/zip",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/pierrejoye/php_zip",
         "stats": "https://pecl.php.net/package-stats.php?pid=208&rid=&cid=33",
-        "verified": true
+        "verified": false
     },
     "zlib_filter": {
         "bugs": "",
-        "docs": "https://www.php.net/filters.compression",
-        "home": "https://www.php.net/filters.compression",
+        "docs": "",
+        "home": "http://www.php.net/filters.compression",
         "maintained": true,
         "repo": "http://svn.php.net/pecl/zlib_filter",
         "stats": "https://pecl.php.net/package-stats.php?pid=315&rid=&cid=35",
-        "verified": true
+        "verified": false
     },
     "zmq": {
         "bugs": "https://github.com/zeromq/php-zmq/issues",
-        "docs": "https://php.net/zmq",
-        "home": "https://zeromq.org/",
-        "maintained": true,
+        "docs": "https://www.php.net/zmq",
+        "home": "",
+        "maintained": false,
         "repo": "https://github.com/zeromq/php-zmq",
         "stats": "https://pecl.php.net/package-stats.php?pid=954&rid=&cid=16",
-        "verified": true
+        "verified": false
     },
     "zookeeper": {
         "bugs": "https://github.com/php-zookeeper/php-zookeeper/issues",
-        "docs": "https://php.net/zookeeper",
+        "docs": "https://secure.php.net/manual/en/book.zookeeper.php",
         "home": "https://github.com/php-zookeeper/php-zookeeper",
         "maintained": true,
         "repo": "https://github.com/php-zookeeper/php-zookeeper",
         "stats": "https://pecl.php.net/package-stats.php?pid=868&rid=&cid=4",
-        "verified": true
+        "verified": false
     },
     "zstd": {
         "bugs": "https://github.com/kjdev/php-ext-zstd/issues",
