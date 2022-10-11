@@ -19,15 +19,21 @@ if [[ -z ${rel} ]]; then
   exit 1
 fi
 
-if [[ ! -f "p/${pkg}/info.xml" ]]; then
+echo "::group::refresh-package ${pkg} ${rel}"
+
+if [[ ! -f "rest/p/${pkg}/info.xml" ]]; then
   # new package
+  echo "::notice::fetching new PECL rest/p/packages.xml"
   cache-req "p/packages.xml"
   # insert placeholder so expand-package-* scripts will find it
-  jq -r --arg PKG "${pkg}" '. + {($PKG): {}}' data/packages.json >data/packages-tmp.json
-  mv data/packages-tmp.json data/packages.json
+  echo "::notice::adding ${pkg} to ${REPODIR}/data/packages.json"
+  jq -r --arg PKG "${pkg}" '. + {($PKG): {}}' "${REPODIR}/data/packages.json" >"${REPODIR}/data/packages-tmp.json"
+  mv "${REPODIR}/data/packages-tmp.json" "${REPODIR}/data/packages.json"
 fi
 
+echo "::notice::fetching PECL rest/p/${pkg}/info.xml"
 cache-req "p/${pkg}/info.xml"
+echo "::notice::fetching PECL rest/r/${pkg}/allreleases.xml"
 cache-req "r/${pkg}/allreleases.xml"
 
 expand-package-info "${pkg}"
@@ -37,3 +43,6 @@ cache-req "r/${pkg}/package.${rel}.xml"
 cache-req "r/${pkg}/deps.${rel}.txt"
 
 expand-package-releases "${pkg}"
+expand-package-extra "${pkg}"
+
+echo "::endgroup::"
