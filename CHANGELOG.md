@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.1](https://github.com/claylo/pecl-info/compare/v1.1.0...v1.1.1) (2022-10-11)
+
+
+### Fixed
+
+* include zero-days-since-release in active ([43b8856](https://github.com/claylo/pecl-info/commit/43b8856b6ab87ced6f1366ef6106e6cdc35266e9))
+
 ## [1.1.0](https://github.com/claylo/pecl-info/compare/v1.0.2...v1.1.0) (2022-10-11)
 
 
