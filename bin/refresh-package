@@ -23,17 +23,17 @@ echo "::group::refresh-package ${pkg} ${rel}"
 
 if [[ ! -f "rest/p/${pkg}/info.xml" ]]; then
   # new package
-  echo "::notice::fetching new PECL rest/p/packages.xml"
+  echo "fetching new PECL rest/p/packages.xml"
   cache-req "p/packages.xml"
   # insert placeholder so expand-package-* scripts will find it
-  echo "::notice::adding ${pkg} to ${REPODIR}/data/packages.json"
+  echo "adding ${pkg} to ${REPODIR}/data/packages.json"
   jq -r --arg PKG "${pkg}" '. + {($PKG): {}}' "${REPODIR}/data/packages.json" >"${REPODIR}/data/packages-tmp.json"
   mv "${REPODIR}/data/packages-tmp.json" "${REPODIR}/data/packages.json"
 fi
 
-echo "::notice::fetching PECL rest/p/${pkg}/info.xml"
+echo "fetching PECL rest/p/${pkg}/info.xml"
 cache-req "p/${pkg}/info.xml"
-echo "::notice::fetching PECL rest/r/${pkg}/allreleases.xml"
+echo "fetching PECL rest/r/${pkg}/allreleases.xml"
 cache-req "r/${pkg}/allreleases.xml"
 
 expand-package-info "${pkg}"

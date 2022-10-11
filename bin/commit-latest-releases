@@ -4,11 +4,11 @@ REPODIR="$(dirname "$(cd "$(dirname "$0")" && pwd -P)")"
 PATH="${REPODIR}/bin:${PATH}"
 
 if [[ -f "commit.txt" ]]; then
-  today=$(date '+%F')
+  rightnow=$(date '+%F_+%R')
   git pull --rebase
   git config push.autoSetupRemote true
   git stash
-  git checkout -b "releases-${today}"
+  git checkout -b "releases-${rightnow}"
   git stash pop
   generate-readme
   git add rest .etags data README.md
