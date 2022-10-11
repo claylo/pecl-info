@@ -1,4 +1,4 @@
-#!/usr/bin/env php -d display_errors=0
+#!/usr/bin/env php
 <?php
 $xml = file_get_contents('rest/c/categories.xml');
 $doc = new DOMDocument();
@@ -18,3 +18,4 @@ file_put_contents(
     'data/categories.json',
     json_encode($category_info_map, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES)
 );
+exit(0);
