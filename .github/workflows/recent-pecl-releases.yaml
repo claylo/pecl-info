@@ -32,9 +32,15 @@ jobs:
           git_user_signingkey: true
 
       - name: Fetch PECL releases
+        env:
+          GITHUB_TOKEN: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
         run: |
           bin/update-latest-releases
 
       - name: Commit latest releases
+        env:
+          GITHUB_TOKEN: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
         run: |
           bin/commit-latest-releases
