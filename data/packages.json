@@ -37744,12 +37744,22 @@
         "category": "Date and Time",
         "deprecated": false,
         "description": "This extension is a drop-in replacement for the builtin timezone database that\ncomes with PHP. You should only install this extension in case you need to get\na later version of the timezone database than the one that ships with PHP.\n\nThe data that this extension uses comes from the \"Olson\" database, which is\nlocated at http://www.iana.org/time-zones.",
-        "latestReleaseDate": "2022-08-11T14:50:37+00:00",
-        "latestVersion": "2022.2",
+        "latestReleaseDate": "2022-10-12T08:34:15+00:00",
+        "latestVersion": "2022.5",
         "license": "PHP",
         "name": "timezonedb",
         "php8Mentioned": false,
         "releases": {
+            "2022.5": {
+                "version": "2022.5",
+                "state": "stable",
+                "license": "PHP",
+                "releasedBy": "derick",
+                "releaseDate": "2022-10-12T08:34:15+00:00",
+                "releaseNotes": "Updated to version 2022.5 (2022e)",
+                "get": "https://pecl.php.net/get/timezonedb-2022.5",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
             "2022.2": {
                 "version": "2022.2",
                 "state": "stable",
