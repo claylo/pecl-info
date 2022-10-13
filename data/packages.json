@@ -32437,12 +32437,22 @@
         "category": "Tools and Utilities",
         "deprecated": false,
         "description": "Provides faster json decoding through simdjson bindings for PHP (Single Instruction, Multiple Data)",
-        "latestReleaseDate": "2022-10-01T15:37:38+00:00",
-        "latestVersion": "2.0.4",
+        "latestReleaseDate": "2022-10-12T23:09:08+00:00",
+        "latestVersion": "2.0.5",
         "license": "Apache 2.0",
         "name": "simdjson",
         "php8Mentioned": false,
         "releases": {
+            "2.0.5": {
+                "version": "2.0.5",
+                "state": "stable",
+                "license": "Apache 2.0",
+                "releasedBy": "tandre",
+                "releaseDate": "2022-10-12T23:09:08+00:00",
+                "releaseNotes": "* Reuse PHP's 1-byte and 0-byte interned strings in simdjson_decode, reducing memory usage for those strings. (e.g. for the key/value in '{\"x\":\"\"}')\n* Return correct count in simdjson_key_count. Properly return counts larger than 0xFFFFFF instead of returning 0xFFFFFF.",
+                "get": "https://pecl.php.net/get/simdjson-2.0.5",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "2.0.4": {
                 "version": "2.0.4",
                 "state": "stable",
