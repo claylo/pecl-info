@@ -18,9 +18,6 @@ jobs:
           extensions: yaml
           tools: none
 
-      - name: Checkout
-        uses: actions/checkout@v3
-
       # see https://github.com/marketplace/actions/import-gpg
       - name: Import GPG Key
         id: import_gpg
@@ -31,16 +28,35 @@ jobs:
           git_config_global: true
           git_user_signingkey: true
 
-      - name: Fetch PECL releases
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
+
+      - name: Fetch & Commit PECL releases
         env:
           GITHUB_TOKEN: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
           GH_TOKEN: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
         run: |
           bin/update-latest-releases
+          if [[ -f "commit.txt" ]]; then
+            git config push.autoSetupRemote true
+            git stash
+            rightnow=$(date '+%F_%R')
+            git checkout -b "releases-${rightnow}"
+            git stash pop
+            git add rest .etags data
+            git commit -F commit.txt
+            git push
+            gh pr create --fill --base main
+            rm commit.txt
+            sleep 3
+            gh pr merge --auto --merge
+          fi
 
       - name: Commit latest releases
         env:
           GITHUB_TOKEN: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
           GH_TOKEN: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
         run: |
-          bin/commit-latest-releases
+
