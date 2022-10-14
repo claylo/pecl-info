@@ -29,6 +29,8 @@
         "README.md",
         "data/packages.json",
         "data/packages/*.json",
+        "data/opinion.json",
+        "data/stats.json",
         "rest",
         ".etags"
       ]
