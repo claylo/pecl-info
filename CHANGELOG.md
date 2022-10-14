@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.2](https://github.com/claylo/pecl-info/compare/v1.2.1...v1.2.2) (2022-10-14)
+
+
+### Fixed
+
+* clean up branch management on recent releases check. ([ceff0de](https://github.com/claylo/pecl-info/commit/ceff0deb2f15af73827b640696318c21b22b1c4f))
+
 ## [1.2.1](https://github.com/claylo/pecl-info/compare/v1.2.0...v1.2.1) (2022-10-14)
 
 

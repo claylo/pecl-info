@@ -2549,6 +2549,8 @@ The PECL website, created many years before GitHub was created ... and still mor
 
 PHP is changing pretty rapidly these days. If a package hasn't had a release in over 3 years, I'm calling it stale.
 
+You can also look at the `bin/apply-opinions` script if you like, to see more details about how the README page is generated with those opinions.
+
 ## Is everything from PECL cached here?
 
 No. If a package is marked `abandoned` on the PECL website, or has not has a release within the last 3 years, the tools in this repository will ignore it. Basically, PECL listings have been sorted into "relevant" and "irrelevant" buckets. Irrelevant extensions are those that haven't been updated for life after PHP 5.
