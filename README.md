@@ -542,7 +542,7 @@ located at http://www.iana.org/time-zones.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/timezonedb-2022.2">2022.2</a> on 11 Aug 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/timezonedb-2022.5">2022.5</a> on 12 Oct 2022</li>
 <li>Release data in JSON: <a href="data/packages/timezonedb.json">timezonedb.json</a></li>
 <li><a href="https://pecl.php.net/packages/timezonedb">timezonedb on PECL</a></li>
 <li><a href="https://github.com/php/pecl-datetime-timezonedb">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-datetime-timezonedb/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=536&rid=&cid=8">:bar_chart: Stats</a></li>
@@ -1728,7 +1728,7 @@ A PHP extension to track progress of a file upload, including details on the spe
 </ul></p><hr />
 </details>
 <details><summary>var_representation&nbsp; :eight:</summary>
-<p>var_representation extension</p>
+<p>A compact, more readable alternative to var_export.</p>
 
 ```
 var_representation is a compact alternative to var_export that properly escapes control
@@ -1736,7 +1736,7 @@ characters
 ```
 <p><ul>
 <li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/var_representation-0.1.2">0.1.2</a> on 31 Aug 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/var_representation-0.1.3">0.1.3</a> on 14 Oct 2022</li>
 <li>Release data in JSON: <a href="data/packages/var_representation.json">var_representation.json</a></li>
 <li><a href="https://pecl.php.net/packages/var_representation">var_representation on PECL</a></li>
 <li><a href="https://github.com/TysonAndre/var_representation">:house: Home</a> &nbsp; <a href="https://github.com/TysonAndre/var_representation">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1061&rid=&cid=25">:bar_chart: Stats</a></li>
@@ -2217,7 +2217,7 @@ A PHP extension to build and apply patches to binary files.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/bsdiff-0.1.1">0.1.1</a> on 07 Oct 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/bsdiff-0.1.2">0.1.2</a> on 12 Oct 2022</li>
 <li>Release data in JSON: <a href="data/packages/bsdiff.json">bsdiff.json</a></li>
 <li><a href="https://pecl.php.net/packages/bsdiff">bsdiff on PECL</a></li>
 <li><a href="https://github.com/deminy/php-bsdiff">:house: Home</a> &nbsp; <a href="https://github.com/deminy/php-bsdiff">:sparkles: Source</a> &nbsp; <a href="https://github.com/deminy/php-bsdiff/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1074&rid=&cid=29">:bar_chart: Stats</a></li>
@@ -2349,7 +2349,7 @@ Multiple Data)
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/simdjson-2.0.4">2.0.4</a> on 01 Oct 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/simdjson-2.1.0">2.1.0</a> on 14 Oct 2022</li>
 <li>Release data in JSON: <a href="data/packages/simdjson.json">simdjson.json</a></li>
 <li><a href="https://pecl.php.net/packages/simdjson">simdjson on PECL</a></li>
 <li><a href="https://github.com/crazyxman/simdjson_php">:house: Home</a> &nbsp; <a href="https://github.com/crazyxman/simdjson_php">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1072&rid=&cid=29">:bar_chart: Stats</a></li>

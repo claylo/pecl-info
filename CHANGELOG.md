@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.0](https://github.com/claylo/pecl-info/compare/v1.1.1...v1.2.0) (2022-10-14)
+
+
+### Added
+
+* add --dry-run flag to update-latest-releases ([c887d4c](https://github.com/claylo/pecl-info/commit/c887d4c88b9dd98aa7785abac89918d0adcf6ec0))
+* add bsdiff releases ([4f1b966](https://github.com/claylo/pecl-info/commit/4f1b9668c58afc566d5b46c4f47d46e0e69986c5))
+* add simdjson releases ([a90396f](https://github.com/claylo/pecl-info/commit/a90396fa79212b2843e7915b51ef41ae9c29475d))
+* add simdjson, var_representation releases ([a72dfdb](https://github.com/claylo/pecl-info/commit/a72dfdb81ccea525a3b8e8188132d471afc5f21c))
+* add timezonedb releases ([24f713e](https://github.com/claylo/pecl-info/commit/24f713ecad0f203f152cbe5f8f82af485a1b00b5))
+
 ## [1.1.1](https://github.com/claylo/pecl-info/compare/v1.1.0...v1.1.1) (2022-10-11)
 
 
