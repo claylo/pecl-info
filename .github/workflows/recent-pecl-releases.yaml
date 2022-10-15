@@ -27,6 +27,8 @@ jobs:
           passphrase: ${{ secrets.GPG_PASSPHRASE }}
           git_config_global: true
           git_user_signingkey: true
+
+      - name: setup remote
         run: |
           git config --global push.autoSetupRemote true
 
