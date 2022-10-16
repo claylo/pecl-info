@@ -44,7 +44,7 @@ jobs:
         run: |
           bin/update-latest-releases
           if [[ -f "commit.txt" ]]; then
-            rightnow=$(date '+%F_%R')
+            rightnow=$(date '+%F_%H%M')
             git checkout -b "releases-${rightnow}"
             git add rest .etags data
             git commit -F commit.txt
