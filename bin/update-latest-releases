@@ -61,6 +61,7 @@ foreach ($feed->item as $item) {
 
 // print_r($releases);
 $commitmsg = '';
+$stepSummary = '';
 $pkglist = [];
 if (sizeof($releases) > 0) {
     $packages = json_decode(file_get_contents('data/packages.json'), true);
@@ -71,7 +72,9 @@ if (sizeof($releases) > 0) {
         // is it a new package?
         if (! array_key_exists($pkg, $packages)) {
             $output = [];
-            echo "adding new package $pkg with $v\n";
+            $msg = "adding new package $pkg with $v\n";
+            echo $msg;
+            $stepSummary .= "* $msg";
             $pkglist[] = $pkg;
             $commitmsg .= "  * add :sparkles: new package $pkg with version {$v}\n";
             if ($dry === false) {
@@ -87,7 +90,9 @@ if (sizeof($releases) > 0) {
             if (! array_key_exists($v, $pkgReleases)) {
                 $output = [];
                 $pkglist[] = $packages[$pkg]['name'];
-                echo "refreshing $pkg with $v\n";
+                $msg = "refreshing $pkg with $v\n";
+                echo $msg;
+                $stepSummary .= "* $msg";
                 $commitmsg .= "  * update {$packages[$pkg]['name']} with release {$v}\n";
                 if ($dry === false) {
                     exec("bin/refresh-package \"$pkg\" \"$v\"", $output);
@@ -98,7 +103,9 @@ if (sizeof($releases) > 0) {
                     }
                 }
             } else {
-                echo "skipping known release $pkg $v\n";
+                $msg = "skipping known release $pkg $v\n";
+                echo $msg;
+                $stepSummary .= "* $msg";
             }
         }
     }
@@ -117,4 +124,10 @@ if ($dry === false) {
 
 }
 echo "::endgroup::\n";
+
+$ghStepSummaryFile = getenv('GITHUB_STEP_SUMMARY');
+if ($ghStepSummaryFile !== false) {
+    file_put_contents($ghStepSummaryFile, $stepSummary, FILE_APPEND);
+}
+
 exit(0);
