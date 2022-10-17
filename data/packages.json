@@ -32457,12 +32457,22 @@
         "category": "Tools and Utilities",
         "deprecated": false,
         "description": "Provides faster json decoding through simdjson bindings for PHP (Single Instruction, Multiple Data)",
-        "latestReleaseDate": "2022-10-14T01:06:14+00:00",
-        "latestVersion": "2.1.0",
+        "latestReleaseDate": "2022-10-17T13:14:17+00:00",
+        "latestVersion": "3.0.0",
         "license": "Apache 2.0",
         "name": "simdjson",
-        "php8Mentioned": false,
+        "php8Mentioned": true,
         "releases": {
+            "3.0.0": {
+                "version": "3.0.0",
+                "state": "stable",
+                "license": "Apache 2.0",
+                "releasedBy": "tandre",
+                "releaseDate": "2022-10-17T13:14:17+00:00",
+                "releaseNotes": "* Add SimdJsonValueError. In php 8.0+, it extends ValueError, and it extends Error in older php versions.\n  This provides an API similar to the JSON module, which started throwing ValueError for invalid depths in php 8.0.\n* Throw SimdJsonValueError instead of emitting notices if $depth is too small or too large in all simdjson PHP functions.\n  simdjson_is_valid(), simdjson_key_count() and simdjson_key_exists() now have non-null return types.\n* Throw a SimdJsonException in simdjson_key_exists on error conditions such as invalid json, to be consistent with other simdjson PHP functions.\n* Add an optional boolean `$throw_if_uncountable = false` to simdjson_key_count.\n  When this is overridden to be true, simdjson_key_count will throw a SimdJsonException if the JSON pointer refers to a value that exists but is neither an array nor an object instead of returning 0.\n* Rename the parameter $assoc to $associative in simdjson_decode and simdjson_key_value, to match naming practices used in json_decode()",
+                "get": "https://pecl.php.net/get/simdjson-3.0.0",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "2.1.0": {
                 "version": "2.1.0",
                 "state": "stable",

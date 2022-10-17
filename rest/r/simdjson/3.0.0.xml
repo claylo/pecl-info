@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/simdjson">simdjson</p>
+ <c>pecl.php.net</c>
+ <v>3.0.0</v>
+ <st>stable</st>
+ <l>Apache 2.0</l>
+ <m>tandre</m>
+ <s>Provides faster json decoding through simdjson bindings for PHP</s>
+ <d>Provides faster json decoding through simdjson bindings for PHP (Single Instruction, Multiple Data)</d>
+ <da>2022-10-17 13:14:17</da>
+ <n>* Add SimdJsonValueError. In php 8.0+, it extends ValueError, and it extends Error in older php versions.
+  This provides an API similar to the JSON module, which started throwing ValueError for invalid depths in php 8.0.
+* Throw SimdJsonValueError instead of emitting notices if $depth is too small or too large in all simdjson PHP functions.
+  simdjson_is_valid(), simdjson_key_count() and simdjson_key_exists() now have non-null return types.
+* Throw a SimdJsonException in simdjson_key_exists on error conditions such as invalid json, to be consistent with other simdjson PHP functions.
+* Add an optional boolean `$throw_if_uncountable = false` to simdjson_key_count.
+  When this is overridden to be true, simdjson_key_count will throw a SimdJsonException if the JSON pointer refers to a value that exists but is neither an array nor an object instead of returning 0.
+* Rename the parameter $assoc to $associative in simdjson_decode and simdjson_key_value, to match naming practices used in json_decode()</n>
+ <f>437425</f>
+ <g>https://pecl.php.net/get/simdjson-3.0.0</g>
+ <x xlink:href="package.3.0.0.xml"/>
+</r>
