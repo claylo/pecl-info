@@ -2,12 +2,22 @@
     "category": "PHP",
     "deprecated": false,
     "description": "var_representation is a compact alternative to var_export that properly escapes control characters",
-    "latestReleaseDate": "2022-10-14T00:48:06+00:00",
-    "latestVersion": "0.1.3",
+    "latestReleaseDate": "2022-10-16T21:58:00+00:00",
+    "latestVersion": "0.1.4",
     "license": "BSD-3-Clause",
     "name": "var_representation",
     "php8Mentioned": true,
     "releases": {
+        "0.1.4": {
+            "version": "0.1.4",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "tandre",
+            "releaseDate": "2022-10-16T21:58:00+00:00",
+            "releaseNotes": "* No code changes.\n* Adds steps to build DLLs for Windows in CI.",
+            "get": "https://pecl.php.net/get/var_representation-0.1.4",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "0.1.3": {
             "version": "0.1.3",
             "state": "stable",
