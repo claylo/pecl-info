@@ -1572,7 +1572,7 @@ memcached or similar memory based storages for serialized data.
 ```
 <p><ul>
 <li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/igbinary-3.2.7">3.2.7</a> on 12 Jan 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/igbinary-3.2.8">3.2.8</a> on 17 Oct 2022</li>
 <li>Release data in JSON: <a href="data/packages/igbinary.json">igbinary.json</a></li>
 <li><a href="https://pecl.php.net/packages/igbinary">igbinary on PECL</a></li>
 <li><a href="https://github.com/igbinary/igbinary/">:house: Home</a> &nbsp; <a href="https://github.com/igbinary/igbinary/">:sparkles: Source</a> &nbsp; <a href="https://github.com/igbinary/igbinary/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=895&rid=&cid=25">:bar_chart: Stats</a></li>
@@ -1736,7 +1736,7 @@ characters
 ```
 <p><ul>
 <li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/var_representation-0.1.3">0.1.3</a> on 14 Oct 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/var_representation-0.1.4">0.1.4</a> on 16 Oct 2022</li>
 <li>Release data in JSON: <a href="data/packages/var_representation.json">var_representation.json</a></li>
 <li><a href="https://pecl.php.net/packages/var_representation">var_representation on PECL</a></li>
 <li><a href="https://github.com/TysonAndre/var_representation">:house: Home</a> &nbsp; <a href="https://github.com/TysonAndre/var_representation">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1061&rid=&cid=25">:bar_chart: Stats</a></li>
