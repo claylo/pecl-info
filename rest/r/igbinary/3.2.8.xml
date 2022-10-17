@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/igbinary">igbinary</p>
+ <c>pecl.php.net</c>
+ <v>3.2.8</v>
+ <st>stable</st>
+ <l>BSD-3-Clause</l>
+ <m>tandre</m>
+ <s>igbinary extension</s>
+ <d>Igbinary is a drop in replacement for the standard php serializer. Instead of
+the time and space consuming textual representation used by PHP's serialize(), igbinary stores php data
+structures in a compact binary form. Savings are significant when using
+memcached or similar memory based storages for serialized data.</d>
+ <da>2022-10-17 00:31:04</da>
+ <n>* Reduce excessive inlining to reduce shared library size.
+* Miscellaneous optimizations.
+* Update test expectations to handle changes to var_export output (fully qualified class names) in PHP 8.2.
+* Throw an Error when igbinary_unserialize would add dynamic properties to class definitions that forbid them in PHP 8.0+
+  (especially PHP 8.2 `readonly` classes)
+* Emit a deprecation notice when igbinary_unserialize() adds dynamic properties to a class without `#[AllowDynamicProperties]` in PHP 8.2.
+  Doing that would become an Error in PHP 9.0.
+* Set up CI job to build dlls on https://github.com/igbinary/igbinary - at the moment, the infrastructure used by the Windows for php team has been broken for months.</n>
+ <f>98704</f>
+ <g>https://pecl.php.net/get/igbinary-3.2.8</g>
+ <x xlink:href="package.3.2.8.xml"/>
+</r>
