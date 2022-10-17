@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/igbinary">igbinary</p>
+ <c>pecl.php.net</c>
+ <v>3.2.9</v>
+ <st>stable</st>
+ <l>BSD-3-Clause</l>
+ <m>tandre</m>
+ <s>igbinary extension</s>
+ <d>Igbinary is a drop in replacement for the standard php serializer. Instead of
+the time and space consuming textual representation used by PHP's serialize(), igbinary stores php data
+structures in a compact binary form. Savings are significant when using
+memcached or similar memory based storages for serialized data.</d>
+ <da>2022-10-17 01:01:38</da>
+ <n>* Fix invalid release artifact name in job to build dlls for https://github.com/igbinary/igbinary</n>
+ <f>98741</f>
+ <g>https://pecl.php.net/get/igbinary-3.2.9</g>
+ <x xlink:href="package.3.2.9.xml"/>
+</r>
