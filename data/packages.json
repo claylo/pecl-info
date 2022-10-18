@@ -26291,12 +26291,22 @@
         "category": "System",
         "deprecated": false,
         "description": "Phalcon is an open source full stack framework for PHP, written as a C-extension. Phalcon is optimized for high\n    performance. Its unique architecture allows the framework to always be memory resident, offering its functionality\n    whenever its needed, without expensive file stats and file reads that traditional PHP frameworks employ.",
-        "latestReleaseDate": "2022-10-06T21:04:54+00:00",
-        "latestVersion": "5.0.3",
+        "latestReleaseDate": "2022-10-18T00:52:46+00:00",
+        "latestVersion": "5.0.4",
         "license": "BSD 3-Clause License",
         "name": "phalcon",
         "php8Mentioned": true,
         "releases": {
+            "5.0.4": {
+                "version": "5.0.4",
+                "state": "stable",
+                "license": "BSD 3-Clause License",
+                "releasedBy": "niden",
+                "releaseDate": "2022-10-18T00:52:46+00:00",
+                "releaseNotes": "Full changelog can be found at: https://github.com/phalcon/cphalcon/blob/master/CHANGELOG-5.0.md\n\n## Fixed\n- Fixed `Phalcon\\Encryption\\Security` to take into account the `workFactor` in the cost calculation [#16153](https://github.com/phalcon/cphalcon/issues/16153)\n- Removed double unserializing during Model caching [#16035](https://github.com/phalcon/cphalcon/issues/16035), [#16131](https://github.com/phalcon/cphalcon/issues/16131)\n- Fixed `Phalcon\\Db\\Adapter\\Pdo\\Mysql::describeIndexes` to assign an empty string in the index type of `null` and remove warnings [#16157](https://github.com/phalcon/cphalcon/issues/16157)\n- Fixed `Phalcon\\Db\\Adapter\\Pdo\\Sqlite::describeIndexes` to assign an empty string in the index type of `null` and remove warnings [#16157](https://github.com/phalcon/cphalcon/issues/16157)\n- Fixed `Phalcon\\Mvc\\Model\\Manager::notifyEvent` to return `true` instead of `null` on success [#16161](https://github.com/phalcon/cphalcon/issues/16161)\n- Fixed `Phalcon\\Encryption\\Security\\JWT\\Validator::validateExpiration` to correctly validate the `exp` claim [#16166](https://github.com/phalcon/cphalcon/issues/16166)",
+                "get": "https://pecl.php.net/get/phalcon-5.0.4",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "5.0.3": {
                 "version": "5.0.3",
                 "state": "stable",
