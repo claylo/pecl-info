@@ -125,7 +125,7 @@ over just using the base PHP userland library.
 ```
 <p><ul>
 <li>License: MIT</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/scoutapm-1.8.2">1.8.2</a> on 26 Aug 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/scoutapm-1.8.3">1.8.3</a> on 18 Oct 2022</li>
 <li>Release data in JSON: <a href="data/packages/scoutapm.json">scoutapm.json</a></li>
 <li><a href="https://pecl.php.net/packages/scoutapm">scoutapm on PECL</a></li>
 <li><a href="https://docs.scoutapm.com/#php-agent">:book: Documentation</a> &nbsp; <a href="https://scoutapm.com">:house: Home</a> &nbsp; <a href="https://github.com/scoutapp/scout-apm-php-ext">:sparkles: Source</a> &nbsp; <a href="https://github.com/scoutapp/scout-apm-php-ext/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1041&rid=&cid=2">:bar_chart: Stats</a></li>
