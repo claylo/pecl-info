@@ -5,7 +5,7 @@ name: Recent PECL Releases
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17,47 0,2,4,6,8,10,12,14,16,18,20,22 * * *"
+    - cron: "17,57 0,6,12,18 * * *"
 
 jobs:
   check_releases:
