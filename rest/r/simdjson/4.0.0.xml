@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/simdjson">simdjson</p>
+ <c>pecl.php.net</c>
+ <v>4.0.0</v>
+ <st>stable</st>
+ <l>Apache 2.0</l>
+ <m>tandre</m>
+ <s>Provides faster json decoding through simdjson bindings for PHP</s>
+ <d>Provides faster json decoding through simdjson bindings for PHP (Single Instruction, Multiple Data)</d>
+ <da>2022-10-19 11:54:52</da>
+ <n>* Make the `SIMDJSON_ERR_*` constants case-sensitive in all PHP versions.
+  (The code it was based on was missing the flag needed to mark constants as case sensitive before PHP 8)
+* Fix a bug that prevented using JSON pointer in `simdjson_key_count`, `simdjson_key_exists`, and `simdjson_key_value` with a leading slash https://www.rfc-editor.org/rfc/rfc6901.html.
+
+  This bug was introduced when working around test failures following a change in json pointer validation in the underlying C simdjson library.
+* &quot;&quot; in a JSON pointer continues to refer to the entire document.
+* &quot;/&quot; in a JSON pointer now properly refers to the key that is the empty string.
+* Continue to allow the non-standard omission of the leading &quot;/&quot; for compatibility with earlier PECL releases. This may be deprecated in a subsequent release.</n>
+ <f>438282</f>
+ <g>https://pecl.php.net/get/simdjson-4.0.0</g>
+ <x xlink:href="package.4.0.0.xml"/>
+</r>

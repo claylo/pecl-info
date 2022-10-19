@@ -32497,12 +32497,22 @@
         "category": "Tools and Utilities",
         "deprecated": false,
         "description": "Provides faster json decoding through simdjson bindings for PHP (Single Instruction, Multiple Data)",
-        "latestReleaseDate": "2022-10-17T13:14:17+00:00",
-        "latestVersion": "3.0.0",
+        "latestReleaseDate": "2022-10-19T11:54:52+00:00",
+        "latestVersion": "4.0.0",
         "license": "Apache 2.0",
         "name": "simdjson",
         "php8Mentioned": true,
         "releases": {
+            "4.0.0": {
+                "version": "4.0.0",
+                "state": "stable",
+                "license": "Apache 2.0",
+                "releasedBy": "tandre",
+                "releaseDate": "2022-10-19T11:54:52+00:00",
+                "releaseNotes": "* Make the `SIMDJSON_ERR_*` constants case-sensitive in all PHP versions.\n  (The code it was based on was missing the flag needed to mark constants as case sensitive before PHP 8)\n* Fix a bug that prevented using JSON pointer in `simdjson_key_count`, `simdjson_key_exists`, and `simdjson_key_value` with a leading slash https://www.rfc-editor.org/rfc/rfc6901.html.\n\n  This bug was introduced when working around test failures following a change in json pointer validation in the underlying C simdjson library.\n* \"\" in a JSON pointer continues to refer to the entire document.\n* \"/\" in a JSON pointer now properly refers to the key that is the empty string.\n* Continue to allow the non-standard omission of the leading \"/\" for compatibility with earlier PECL releases. This may be deprecated in a subsequent release.",
+                "get": "https://pecl.php.net/get/simdjson-4.0.0",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "3.0.0": {
                 "version": "3.0.0",
                 "state": "stable",
