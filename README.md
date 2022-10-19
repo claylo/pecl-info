@@ -2349,7 +2349,7 @@ Multiple Data)
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/simdjson-3.0.0">3.0.0</a> on 17 Oct 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/simdjson-4.0.0">4.0.0</a> on 19 Oct 2022</li>
 <li>Release data in JSON: <a href="data/packages/simdjson.json">simdjson.json</a></li>
 <li><a href="https://pecl.php.net/packages/simdjson">simdjson on PECL</a></li>
 <li><a href="https://github.com/crazyxman/simdjson_php">:house: Home</a> &nbsp; <a href="https://github.com/crazyxman/simdjson_php">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1072&rid=&cid=29">:bar_chart: Stats</a></li>

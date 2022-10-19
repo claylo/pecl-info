@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.10.0](https://github.com/claylo/pecl-info/compare/v1.9.0...v1.10.0) (2022-10-19)
+
+
+### Added
+
+* add simdjson 4.0.0 release ([ea33c98](https://github.com/claylo/pecl-info/commit/ea33c98d78b668d96ad7cac595d080b9ce986527))
+
 ## [1.9.0](https://github.com/claylo/pecl-info/compare/v1.8.0...v1.9.0) (2022-10-18)
 
 
