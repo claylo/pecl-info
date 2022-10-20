@@ -2,12 +2,22 @@
     "category": "Database",
     "deprecated": false,
     "description": "The purpose of this driver is to provide exceptionally thin glue between MongoDB\nand PHP, implementing only fundamental and performance-critical components\nnecessary to build a fully-functional MongoDB driver.",
-    "latestReleaseDate": "2022-09-09T23:16:28+00:00",
-    "latestVersion": "1.14.1",
+    "latestReleaseDate": "2022-10-20T15:23:04+00:00",
+    "latestVersion": "1.14.2",
     "license": "Apache License",
     "name": "mongodb",
     "php8Mentioned": true,
     "releases": {
+        "1.14.2": {
+            "version": "1.14.2",
+            "state": "stable",
+            "license": "Apache License",
+            "releasedBy": "jmikola",
+            "releaseDate": "2022-10-20T15:23:04+00:00",
+            "releaseNotes": "** Bug\n    * [PHPC-2152] - CheckResolv.m4 fails to link libresolv when detecting res_nsearch\n\n** Task\n    * [PHPC-2157] - Upgrade libmongoc to 1.22.2",
+            "get": "https://pecl.php.net/get/mongodb-1.14.2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "1.14.1": {
             "version": "1.14.1",
             "state": "stable",
