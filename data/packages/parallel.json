@@ -2,12 +2,22 @@
     "category": "PHP",
     "deprecated": false,
     "description": "A succinct parallel concurrency API for PHP 7.",
-    "latestReleaseDate": "2020-09-17T09:45:45+00:00",
-    "latestVersion": "1.1.4",
+    "latestReleaseDate": "2022-10-24T06:53:17+00:00",
+    "latestVersion": "1.2.0",
     "license": "PHP License",
     "name": "parallel",
-    "php8Mentioned": false,
+    "php8Mentioned": true,
     "releases": {
+        "1.2.0": {
+            "version": "1.2.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "remi",
+            "releaseDate": "2022-10-24T06:53:17+00:00",
+            "releaseNotes": "- Add support for PHP 8.0, 8.1 and 8.2\n- Drop support for PHP 7",
+            "get": "https://pecl.php.net/get/parallel-1.2.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
         "1.1.4": {
             "version": "1.1.4",
             "state": "stable",
