@@ -1578,7 +1578,7 @@ memcached or similar memory based storages for serialized data.
 <li><a href="https://github.com/igbinary/igbinary/">:house: Home</a> &nbsp; <a href="https://github.com/igbinary/igbinary/">:sparkles: Source</a> &nbsp; <a href="https://github.com/igbinary/igbinary/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=895&rid=&cid=25">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
-<details><summary>parallel</summary>
+<details><summary>parallel&nbsp; :eight:</summary>
 <p>Parallel concurrency API</p>
 
 ```
@@ -1586,7 +1586,7 @@ A succinct parallel concurrency API for PHP 7.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/parallel-1.1.4">1.1.4</a> on 17 Sep 2020</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/parallel-1.2.0">1.2.0</a> on 24 Oct 2022</li>
 <li>Release data in JSON: <a href="data/packages/parallel.json">parallel.json</a></li>
 <li><a href="https://pecl.php.net/packages/parallel">parallel on PECL</a></li>
 <li><a href="https://github.com/krakjoe/parallel">:house: Home</a> &nbsp; <a href="https://github.com/krakjoe/parallel">:sparkles: Source</a> &nbsp; <a href="https://github.com/krakjoe/parallel/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1032&rid=&cid=25">:bar_chart: Stats</a></li>
