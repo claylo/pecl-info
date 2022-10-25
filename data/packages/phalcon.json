@@ -2,12 +2,22 @@
     "category": "System",
     "deprecated": false,
     "description": "Phalcon is an open source full stack framework for PHP, written as a C-extension. Phalcon is optimized for high\n    performance. Its unique architecture allows the framework to always be memory resident, offering its functionality\n    whenever its needed, without expensive file stats and file reads that traditional PHP frameworks employ.",
-    "latestReleaseDate": "2022-10-18T00:52:46+00:00",
-    "latestVersion": "5.0.4",
+    "latestReleaseDate": "2022-10-24T19:49:52+00:00",
+    "latestVersion": "5.0.5",
     "license": "BSD 3-Clause License",
     "name": "phalcon",
     "php8Mentioned": true,
     "releases": {
+        "5.0.5": {
+            "version": "5.0.5",
+            "state": "stable",
+            "license": "BSD 3-Clause License",
+            "releasedBy": "niden",
+            "releaseDate": "2022-10-24T19:49:52+00:00",
+            "releaseNotes": "Full changelog can be found at: https://github.com/phalcon/cphalcon/blob/master/CHANGELOG-5.0.md\n\n## Fixed\n- Fixed `Phalcon\\Config\\Config::setData` to pass the `insensitive` flag to child objects [#16171](https://github.com/phalcon/cphalcon/issues/16171)\n- Fixed `Phalcon\\Config\\Adapter\\Groupped::__construct` to pass the `insensitive` flag to child objects [#16171](https://github.com/phalcon/cphalcon/issues/16171)\n- Fixed `Phalcon\\Session\\Manager::setName`, removing the regex check for the name for custom adapters to work with `create_sid()` [#16170](https://github.com/phalcon/cphalcon/issues/16170)\n- Fixed `PdoResult::fetchAll` when passed class name in 2nd argument [#16177](https://github.com/phalcon/cphalcon/issues/16177)\n- Fixed `Forms\\Form::label` to accept an array as a default variable [#16180](https://github.com/phalcon/cphalcon/issues/16180)",
+            "get": "https://pecl.php.net/get/phalcon-5.0.5",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "5.0.4": {
             "version": "5.0.4",
             "state": "stable",
