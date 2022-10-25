@@ -1529,7 +1529,7 @@ Find more information at:
 </details>
 
 ***
-### PHP (15)
+### PHP (14)
 
 <details><summary>ast&nbsp; :eight:</summary>
 <p>Extension exposing PHP 7 abstract syntax tree</p>
@@ -1638,20 +1638,6 @@ This extension provides the accepted PSR interfaces, so they can be used in an e
 <li>Release data in JSON: <a href="data/packages/psr.json">psr.json</a></li>
 <li><a href="https://pecl.php.net/packages/psr">psr on PECL</a></li>
 <li><a href="https://github.com/jbboehr/php-psr">:book: Documentation</a> &nbsp; <a href="https://github.com/jbboehr/php-psr">:house: Home</a> &nbsp; <a href="https://github.com/jbboehr/php-psr">:sparkles: Source</a> &nbsp; <a href="https://github.com/jbboehr/php-psr/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1012&rid=&cid=25">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>raphf</summary>
-<p>Resource and persistent handles factory</p>
-
-```
-A reusable split-off of pecl_http's persistent handle and resource factory API.
-```
-<p><ul>
-<li>License: BSD-2-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/raphf-2.0.1">2.0.1</a> on 25 Oct 2019</li>
-<li>Release data in JSON: <a href="data/packages/raphf.json">raphf.json</a></li>
-<li><a href="https://pecl.php.net/packages/raphf">raphf on PECL</a></li>
-<li><a href="https://mdref.m6w6.name/raphf">:book: Documentation</a> &nbsp; <a href="https://github.com/m6w6/ext-raphf">:sparkles: Source</a> &nbsp; <a href="https://github.com/m6w6/ext-raphf/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=940&rid=&cid=25">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>runkit7&nbsp; :eight:</summary>
@@ -1846,7 +1832,7 @@ https://github.com/php/pecl-search_engine-solr
 </details>
 
 ***
-### Security (3)
+### Security (4)
 
 <details><summary>pledge</summary>
 <p>OpenBSD's pledge / unveil support</p>
@@ -1860,6 +1846,21 @@ This is a PHP extension that adds support for OpenBSD's pledge and unveil system
 <li>Release data in JSON: <a href="data/packages/pledge.json">pledge.json</a></li>
 <li><a href="https://pecl.php.net/packages/pledge">pledge on PECL</a></li>
 <li><a href="https://github.com/tvlooy/php-pledge">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1026&rid=&cid=54">:bar_chart: Stats</a></li>
+</ul></p><hr />
+</details>
+<details><summary>rnp</summary>
+<p>High-performance OpenPGP library</p>
+
+```
+RNP is a high-performance OpenPGP library compatible with RFC 4880 and offers AEAD (OCB)
+functionality.
+```
+<p><ul>
+<li>License: verify</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/rnp-0.1.1">0.1.1</a> on 25 Oct 2022</li>
+<li>Release data in JSON: <a href="data/packages/rnp.json">rnp.json</a></li>
+<li><a href="https://pecl.php.net/packages/rnp">rnp on PECL</a></li>
+<li><a href="https://www.rnpgp.org">:house: Home</a> &nbsp; <a href="https://github.com/rnpgp/php-rnp/">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1075&rid=&cid=54">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>selinux&nbsp; :eight:</summary>
