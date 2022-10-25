@@ -1,0 +1,24 @@
+{
+    "category": "Security",
+    "deprecated": false,
+    "description": "RNP is a high-performance OpenPGP library compatible with RFC 4880 and offers AEAD (OCB) functionality.",
+    "latestReleaseDate": "2022-10-25T10:40:37+00:00",
+    "latestVersion": "0.1.1",
+    "license": "BSD",
+    "name": "rnp",
+    "php8Mentioned": false,
+    "releases": {
+        "0.1.1": {
+            "version": "0.1.1",
+            "state": "beta",
+            "license": "BSD 2-Clause License",
+            "releasedBy": "rnp",
+            "releaseDate": "2022-10-25T10:40:37+00:00",
+            "releaseNotes": "* Initial release",
+            "get": "https://pecl.php.net/get/rnp-0.1.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        }
+    },
+    "summary": "High-performance OpenPGP library",
+    "SPDX-License-Identifier": "verify"
+}

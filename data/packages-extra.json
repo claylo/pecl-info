@@ -3666,5 +3666,14 @@
         "repo": "https://github.com/deminy/php-bsdiff",
         "stats": "https://pecl.php.net/package-stats.php?pid=1074&rid=&cid=29",
         "verified": false
+    },
+    "rnp": {
+        "bugs": "",
+        "docs": "",
+        "home": "https://www.rnpgp.org",
+        "maintained": true,
+        "repo": "https://github.com/rnpgp/php-rnp/",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1075&rid=&cid=54",
+        "verified": false
     }
 }
