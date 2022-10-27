@@ -37318,12 +37318,22 @@
         "category": "Structures",
         "deprecated": false,
         "description": "teds (Tentative Extra Data Structures) is a collection of data structures and iterable functionality",
-        "latestReleaseDate": "2022-10-22T04:51:11+00:00",
-        "latestVersion": "1.2.7",
+        "latestReleaseDate": "2022-10-27T01:03:00+00:00",
+        "latestVersion": "1.2.8",
         "license": "BSD-3-Clause",
         "name": "teds",
         "php8Mentioned": true,
         "releases": {
+            "1.2.8": {
+                "version": "1.2.8",
+                "state": "stable",
+                "license": "BSD-3-Clause",
+                "releasedBy": "tandre",
+                "releaseDate": "2022-10-27T01:03:00+00:00",
+                "releaseNotes": "* Same as 1.2.7 other than the version and tests folder.\n* Update expected test output of the unit test tests/misc/strict_hash_array_recursion_32bit.phpt",
+                "get": "https://pecl.php.net/get/teds-1.2.8",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "1.2.7": {
                 "version": "1.2.7",
                 "state": "stable",
