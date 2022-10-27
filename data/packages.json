@@ -27379,12 +27379,22 @@
         "category": "Tools and Utilities",
         "deprecated": false,
         "description": "https://developers.google.com/protocol-buffers/",
-        "latestReleaseDate": "2022-10-18T18:24:29+00:00",
-        "latestVersion": "3.21.8",
+        "latestReleaseDate": "2022-10-26T20:35:24+00:00",
+        "latestVersion": "3.21.9",
         "license": "BSD-3-Clause",
         "name": "protobuf",
         "php8Mentioned": false,
         "releases": {
+            "3.21.9": {
+                "version": "3.21.9",
+                "state": "stable",
+                "license": "BSD-3-Clause",
+                "releasedBy": "protobufpackages",
+                "releaseDate": "2022-10-26T20:35:24+00:00",
+                "releaseNotes": "* See github.com/protocolbuffers/protobuf/releases for release notes.",
+                "get": "https://pecl.php.net/get/protobuf-3.21.9",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "3.21.8": {
                 "version": "3.21.8",
                 "state": "stable",
