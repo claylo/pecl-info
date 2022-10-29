@@ -1586,7 +1586,7 @@ A succinct parallel concurrency API for PHP 7.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/parallel-1.2.0">1.2.0</a> on 24 Oct 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/parallel-1.2.1">1.2.1</a> on 29 Oct 2022</li>
 <li>Release data in JSON: <a href="data/packages/parallel.json">parallel.json</a></li>
 <li><a href="https://pecl.php.net/packages/parallel">parallel on PECL</a></li>
 <li><a href="https://github.com/krakjoe/parallel">:house: Home</a> &nbsp; <a href="https://github.com/krakjoe/parallel">:sparkles: Source</a> &nbsp; <a href="https://github.com/krakjoe/parallel/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1032&rid=&cid=25">:bar_chart: Stats</a></li>
