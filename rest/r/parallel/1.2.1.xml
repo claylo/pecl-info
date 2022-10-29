@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/parallel">parallel</p>
+ <c>pecl.php.net</c>
+ <v>1.2.1</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>remi</m>
+ <s>Parallel concurrency API</s>
+ <d>A succinct parallel concurrency API for PHP 7.</d>
+ <da>2022-10-29 06:27:01</da>
+ <n>- Fix segfault when constructing sync objects
+- Fix heap buffer overflows when copying functions
+- Drop disabling functions (dl, setlocale) by force and adopt PG(enable_dl) mechanism for that most important use case
+- Fix some leaks in scheduler</n>
+ <f>61948</f>
+ <g>https://pecl.php.net/get/parallel-1.2.1</g>
+ <x xlink:href="package.1.2.1.xml"/>
+</r>
