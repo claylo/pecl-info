@@ -22192,12 +22192,22 @@
         "category": "PHP",
         "deprecated": false,
         "description": "A succinct parallel concurrency API for PHP 7.",
-        "latestReleaseDate": "2022-10-24T06:53:17+00:00",
-        "latestVersion": "1.2.0",
+        "latestReleaseDate": "2022-10-29T06:27:01+00:00",
+        "latestVersion": "1.2.1",
         "license": "PHP License",
         "name": "parallel",
         "php8Mentioned": true,
         "releases": {
+            "1.2.1": {
+                "version": "1.2.1",
+                "state": "stable",
+                "license": "PHP License",
+                "releasedBy": "remi",
+                "releaseDate": "2022-10-29T06:27:01+00:00",
+                "releaseNotes": "- Fix segfault when constructing sync objects\n- Fix heap buffer overflows when copying functions\n- Drop disabling functions (dl, setlocale) by force and adopt PG(enable_dl) mechanism for that most important use case\n- Fix some leaks in scheduler",
+                "get": "https://pecl.php.net/get/parallel-1.2.1",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
             "1.2.0": {
                 "version": "1.2.0",
                 "state": "stable",
