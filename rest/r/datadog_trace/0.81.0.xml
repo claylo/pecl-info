@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.81.0</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>bwoebi</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2022-11-02 11:27:01</da>
+ <n>### Added
+- Rate limiting support #1769
+- Add span stacks #1746
+
+### Changed
+- Stop collecting IP on tracer #1774
+- Amend wording when uninstalling datadog #1756
+
+### Fixed
+- Guzzle Integration not initialized correctly #1762.
+- Do not create root spans for certain Symfony methods #1771. Thanks, @radykal-com!
+- ldconfig not found by installer #1773
+- Fix crash in ddtrace_curl_multi_get_gc #1779
+
+### Internal changes
+- Fix in-tree compilation #1760
+- Reusability of zai config across products #1765
+- Avoid deprecated zend_atol on PHP 8.2 #1778
+
+## Profiling (v0.10.2)
+
+### Fixed
+- Prevent deadlocks when forking #1752
+- Fix linking on arm64 mac #1759
+
+## Application Security Monitoring (v0.4.4)
+
+#### Added
+- Generate ip and duplicate ip headers on appsec DataDog/dd-appsec-php#141</n>
+ <f>396212</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.81.0</g>
+ <x xlink:href="package.0.81.0.xml"/>
+</r>
