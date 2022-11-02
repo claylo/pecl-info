@@ -64,7 +64,7 @@ The Datadog PHP Tracer brings APM and distributed tracing to PHP.
 ```
 <p><ul>
 <li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/datadog_trace-0.80.0">0.80.0</a> on 29 Sep 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/datadog_trace-0.81.0">0.81.0</a> on 02 Nov 2022</li>
 <li>Release data in JSON: <a href="data/packages/datadog_trace.json">datadog_trace.json</a></li>
 <li><a href="https://pecl.php.net/packages/datadog_trace">datadog_trace on PECL</a></li>
 <li><a href="https://docs.datadoghq.com/tracing/languages/php/">:house: Home</a> &nbsp; <a href="https://github.com/DataDog/dd-trace-php">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1029&rid=&cid=2">:bar_chart: Stats</a></li>
@@ -542,10 +542,10 @@ located at http://www.iana.org/time-zones.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/timezonedb-2022.5">2022.5</a> on 12 Oct 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/timezonedb-2022.6">2022.6</a> on 02 Nov 2022</li>
 <li>Release data in JSON: <a href="data/packages/timezonedb.json">timezonedb.json</a></li>
 <li><a href="https://pecl.php.net/packages/timezonedb">timezonedb on PECL</a></li>
-<li><a href="https://github.com/php/pecl-datetime-timezonedb">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-datetime-timezonedb/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=536&rid=&cid=8">:bar_chart: Stats</a></li>
+<li></li>
 </ul></p><hr />
 </details>
 
