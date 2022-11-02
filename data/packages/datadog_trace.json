@@ -2,12 +2,22 @@
     "category": "Benchmarking",
     "deprecated": false,
     "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-    "latestReleaseDate": "2022-09-29T06:06:56+00:00",
-    "latestVersion": "0.80.0",
+    "latestReleaseDate": "2022-11-02T11:27:01+00:00",
+    "latestVersion": "0.81.0",
     "license": "BSD 3-Clause",
     "name": "datadog_trace",
     "php8Mentioned": true,
     "releases": {
+        "0.81.0": {
+            "version": "0.81.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "bwoebi",
+            "releaseDate": "2022-11-02T11:27:01+00:00",
+            "releaseNotes": "### Added\n- Rate limiting support #1769\n- Add span stacks #1746\n\n### Changed\n- Stop collecting IP on tracer #1774\n- Amend wording when uninstalling datadog #1756\n\n### Fixed\n- Guzzle Integration not initialized correctly #1762.\n- Do not create root spans for certain Symfony methods #1771. Thanks, @radykal-com!\n- ldconfig not found by installer #1773\n- Fix crash in ddtrace_curl_multi_get_gc #1779\n\n### Internal changes\n- Fix in-tree compilation #1760\n- Reusability of zai config across products #1765\n- Avoid deprecated zend_atol on PHP 8.2 #1778\n\n## Profiling (v0.10.2)\n\n### Fixed\n- Prevent deadlocks when forking #1752\n- Fix linking on arm64 mac #1759\n\n## Application Security Monitoring (v0.4.4)\n\n#### Added\n- Generate ip and duplicate ip headers on appsec DataDog/dd-appsec-php#141",
+            "get": "https://pecl.php.net/get/datadog_trace-0.81.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "0.80.0": {
             "version": "0.80.0",
             "state": "stable",
