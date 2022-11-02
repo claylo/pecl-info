@@ -26321,12 +26321,22 @@
         "category": "System",
         "deprecated": false,
         "description": "Phalcon is an open source full stack framework for PHP, written as a C-extension. Phalcon is optimized for high\n    performance. Its unique architecture allows the framework to always be memory resident, offering its functionality\n    whenever its needed, without expensive file stats and file reads that traditional PHP frameworks employ.",
-        "latestReleaseDate": "2022-10-24T19:49:52+00:00",
-        "latestVersion": "5.0.5",
+        "latestReleaseDate": "2022-11-01T22:56:08+00:00",
+        "latestVersion": "5.1.0",
         "license": "BSD 3-Clause License",
         "name": "phalcon",
         "php8Mentioned": true,
         "releases": {
+            "5.1.0": {
+                "version": "5.1.0",
+                "state": "stable",
+                "license": "BSD 3-Clause License",
+                "releasedBy": "niden",
+                "releaseDate": "2022-11-01T22:56:08+00:00",
+                "releaseNotes": "Full changelog can be found at: https://github.com/phalcon/cphalcon/blob/master/CHANGELOG-5.0.md\n\n## Fixed\n- Fixed `Phalcon\\Mvc\\View\\Engine\\Volt\\Compiler::isTagFactory` to correctly detect a `TagFactory` object without throwing an error [#16097](https://github.com/phalcon/cphalcon/issues/16097)\n- Fixed default values for `Phalcon\\Cli`, `Phalcon\\Dispatcher` and `Phalcon\\Application` components to ensure not `null` values are passed to methods [#16186](https://github.com/phalcon/cphalcon/issues/16186)\n- Fixed `Phalcon\\Form::clear` to correctly clear the elements and not recurse [#15956](https://github.com/phalcon/cphalcon/issues/15956)\n\n## Added\n- Added `Phalcon\\Http\\Request::getPatch()` to get a value from a PATCH request [#16188](https://github.com/phalcon/cphalcon/issues/16188)\n- Added `Phalcon\\Http\\Request::getFilteredPatch()` to get a value filtered from a PATCH request [#16188](https://github.com/phalcon/cphalcon/issues/16188)\n- Added `Phalcon\\Http\\Request::hasPatch()` to check if a value exist in a PATCH request [#16188](https://github.com/phalcon/cphalcon/issues/16188)",
+                "get": "https://pecl.php.net/get/phalcon-5.1.0",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "5.0.5": {
                 "version": "5.0.5",
                 "state": "stable",
