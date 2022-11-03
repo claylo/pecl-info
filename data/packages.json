@@ -4339,12 +4339,22 @@
         "category": "Benchmarking",
         "deprecated": false,
         "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-        "latestReleaseDate": "2022-11-02T11:27:01+00:00",
-        "latestVersion": "0.81.0",
+        "latestReleaseDate": "2022-11-03T12:24:03+00:00",
+        "latestVersion": "0.81.1",
         "license": "BSD 3-Clause",
         "name": "datadog_trace",
         "php8Mentioned": true,
         "releases": {
+            "0.81.1": {
+                "version": "0.81.1",
+                "state": "stable",
+                "license": "BSD 3-Clause",
+                "releasedBy": "bwoebi",
+                "releaseDate": "2022-11-03T12:24:03+00:00",
+                "releaseNotes": "#### Fixed\n-  Fix span limiter not being reset in long running processes #1785",
+                "get": "https://pecl.php.net/get/datadog_trace-0.81.1",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "0.81.0": {
                 "version": "0.81.0",
                 "state": "stable",
