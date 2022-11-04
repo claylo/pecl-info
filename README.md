@@ -2106,7 +2106,7 @@ The win32service extension is a Windows specific extension that allows PHP to co
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/win32service-1.0.1">1.0.1</a> on 09 Dec 2021</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/win32service-1.0.2">1.0.2</a> on 04 Nov 2022</li>
 <li>Release data in JSON: <a href="data/packages/win32service.json">win32service.json</a></li>
 <li><a href="https://pecl.php.net/packages/win32service">win32service on PECL</a></li>
 <li><a href="https://github.com/win32service/win32service">:sparkles: Source</a> &nbsp; <a href="https://github.com/win32service/win32service/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=891&rid=&cid=37">:bar_chart: Stats</a></li>
