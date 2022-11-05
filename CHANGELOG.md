@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.23.0](https://github.com/claylo/pecl-info/compare/v1.22.0...v1.23.0) (2022-11-05)
+
+
+### Added
+
+* add xhprof 2.3.8 release ([c303644](https://github.com/claylo/pecl-info/commit/c303644506c2f48861e29997a9adb84bebcae988))
+
 ## [1.22.0](https://github.com/claylo/pecl-info/compare/v1.21.0...v1.22.0) (2022-11-04)
 
 

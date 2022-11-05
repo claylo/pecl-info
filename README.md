@@ -2399,10 +2399,10 @@ calls for each function. Additionally, it supports ability to compare two runs
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/xhprof-2.3.7">2.3.7</a> on 05 Sep 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/xhprof-2.3.8">2.3.8</a> on 05 Nov 2022</li>
 <li>Release data in JSON: <a href="data/packages/xhprof.json">xhprof.json</a></li>
 <li><a href="https://pecl.php.net/packages/xhprof">xhprof on PECL</a></li>
-<li><a href="http://php.net/xhprof">:book: Documentation</a> &nbsp; <a href="https://github.com/longxinH/xhprof">:house: Home</a> &nbsp; <a href="https://github.com/longxinH/xhprof">:sparkles: Source</a> &nbsp; <a href="https://github.com/longxinH/xhprof/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=856&rid=&cid=29">:bar_chart: Stats</a></li>
+<li><a href="https://php.net/xhprof">:book: Documentation</a> &nbsp; <a href="https://github.com/longxinH/xhprof">:house: Home</a> &nbsp; <a href="https://github.com/longxinH/xhprof">:sparkles: Source</a> &nbsp; <a href="https://github.com/longxinH/xhprof/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=856&rid=&cid=29">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>zephir_parser&nbsp; :eight:</summary>
