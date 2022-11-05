@@ -2,12 +2,22 @@
     "category": "Tools and Utilities",
     "deprecated": false,
     "description": "XHProf is a function-level hierarchical profiler for PHP and has a simple HTML based navigational interface. The raw data collection component is implemented in C (as a PHP extension). The reporting/UI layer is all in PHP. It is capable of reporting function-level inclusive and exclusive wall times, memory usage, CPU times and number of calls for each function. Additionally, it supports ability to compare two runs (hierarchical DIFF reports), or aggregate results from multiple runs.",
-    "latestReleaseDate": "2022-09-05T14:59:51+00:00",
-    "latestVersion": "2.3.7",
+    "latestReleaseDate": "2022-11-05T14:57:44+00:00",
+    "latestVersion": "2.3.8",
     "license": "Apache 2.0",
     "name": "xhprof",
     "php8Mentioned": true,
     "releases": {
+        "2.3.8": {
+            "version": "2.3.8",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "longxinhui",
+            "releaseDate": "2022-11-05T14:57:44+00:00",
+            "releaseNotes": "- fix segmentation fault #72",
+            "get": "https://pecl.php.net/get/xhprof-2.3.8",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "2.3.7": {
             "version": "2.3.7",
             "state": "stable",
