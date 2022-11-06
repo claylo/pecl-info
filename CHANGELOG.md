@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.24.0](https://github.com/claylo/pecl-info/compare/v1.23.0...v1.24.0) (2022-11-06)
+
+
+### Added
+
+* add igbinary 3.2.10 release ([9175ac6](https://github.com/claylo/pecl-info/commit/9175ac6a1c398c61bd25024c8860de1c05e3189e))
+
 ## [1.23.0](https://github.com/claylo/pecl-info/compare/v1.22.0...v1.23.0) (2022-11-05)
 
 
