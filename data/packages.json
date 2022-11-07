@@ -35078,13 +35078,23 @@
     "swoole": {
         "category": "Event",
         "deprecated": false,
-        "description": "Event-driven asynchronous and concurrent networking engine with high performance for PHP.\n        - event-driven\n        - coroutine\n        - asynchronous non-blocking\n        - multi-thread reactor\n        - multi-process worker\n        - multi-protocol\n        - millisecond timer\n        - built-in tcp/http/websocket/http2 server\n        - coroutine tcp/http/websocket client\n        - coroutine mysql client\n        - coroutine redis client\n        - coroutine read/write file system\n        - coroutine dns lookup\n        - support IPv4/IPv6/UnixSocket/TCP/UDP\n        - support SSL/TLS encrypted transmission",
-        "latestReleaseDate": "2022-09-23T00:11:59+00:00",
-        "latestVersion": "4.8.12",
+        "description": "Coroutine-based concurrency library for PHP\n        - event-driven\n        - coroutines\n        - asynchronous non-blocking\n        - built-in tcp/http/websocket/http2 server\n        - coroutine tcp/http/websocket client\n        - coroutine mysql client\n        - coroutine redis client\n        - coroutine read/write file system\n        - coroutine dns lookup\n        - automatically replace blocking functions to non-blocking\n        - support IPv4/IPv6/UnixSocket/TCP/UDP\n        - support SSL/TLS encrypted transmission",
+        "latestReleaseDate": "2022-11-07T06:07:31+00:00",
+        "latestVersion": "5.0.1",
         "license": "Apache2.0",
         "name": "swoole",
         "php8Mentioned": true,
         "releases": {
+            "5.0.1": {
+                "version": "5.0.1",
+                "state": "stable",
+                "license": "Apache2.0",
+                "releasedBy": "tianfenghan",
+                "releaseDate": "2022-11-07T06:07:31+00:00",
+                "releaseNotes": "* Supported PHP-8.2\n* Improved coroutine exception handling, compatible with ext-soap\n* Fixed parameter compatibility of Coroutine::printBackTrace() and debug_print_backtrace()\n* Added pgsql coroutine client LOB supports\n* Fixed Event::add() support for sockets resources\n* Fixed compile error when no zlib\n* Improved websocket client, upgrade header contains websocket instead of equal\n* Optimized http client, disable keep-alive when server sends connection close\n* Optimized http client, prohibit adding the Accept-Encoding header without compression library\n- Improved debug info, set password as sensitive parameter under PHP-8.2\n- Fixed crash when unpack server task parsed to an unexpected string\n- Enhanced Server::taskWaitMulti(), no blocking in coroutine environment\n- Fixed the problem that adding a timer less than 1ms is forced to 0\n- Fixed crash when using table::getMemorySize() before add columns\n- Optimized log function, no longer print screen when writing to the log file fails",
+                "get": "https://pecl.php.net/get/swoole-5.0.1",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "4.8.12": {
                 "version": "4.8.12",
                 "state": "stable",
@@ -36816,7 +36826,7 @@
                 "SPDX-License-Identifier": "Apache-2.0"
             }
         },
-        "summary": "Event-driven asynchronous and concurrent networking engine with high performance for PHP.",
+        "summary": "Coroutine-based concurrency library for PHP",
         "SPDX-License-Identifier": "Apache-2.0"
     },
     "swoole_serialize": {

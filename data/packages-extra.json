@@ -2903,12 +2903,12 @@
         "stats": "https://pecl.php.net/package-stats.php?pid=683&rid=&cid=57"
     },
     "swoole": {
-        "bugs": "https://github.com/swoole/swoole-src/issues",
-        "docs": "https://www.swoole.co.uk/docs/",
-        "home": "https://github.com/swoole/swoole-src",
+        "bugs": "",
+        "docs": "",
+        "home": "",
         "maintained": true,
-        "repo": "https://github.com/swoole/swoole-src",
-        "stats": "https://pecl.php.net/package-stats.php?pid=957&rid=&cid=44",
+        "repo": "",
+        "stats": "",
         "verified": false
     },
     "swoole_serialize": {
