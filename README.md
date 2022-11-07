@@ -696,32 +696,29 @@ This extension is a librdkafka binding providing a working client for Kafka
 </ul></p><hr />
 </details>
 <details><summary>swoole&nbsp; :eight:</summary>
-<p>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</p>
+<p>Coroutine-based concurrency library for PHP</p>
 
 ```
-Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+Coroutine-based concurrency library for PHP
         - event-driven
-        - coroutine
+        - coroutines
         - asynchronous non-blocking
-        - multi-thread reactor
-        - multi-process worker
-        - multi-protocol
-        - millisecond timer
         - built-in tcp/http/websocket/http2 server
         - coroutine tcp/http/websocket client
         - coroutine mysql client
         - coroutine redis client
         - coroutine read/write file system
         - coroutine dns lookup
+        - automatically replace blocking functions to non-blocking
         - support IPv4/IPv6/UnixSocket/TCP/UDP
         - support SSL/TLS encrypted transmission
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/swoole-4.8.12">4.8.12</a> on 23 Sep 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/swoole-5.0.1">5.0.1</a> on 07 Nov 2022</li>
 <li>Release data in JSON: <a href="data/packages/swoole.json">swoole.json</a></li>
 <li><a href="https://pecl.php.net/packages/swoole">swoole on PECL</a></li>
-<li><a href="https://www.swoole.co.uk/docs/">:book: Documentation</a> &nbsp; <a href="https://github.com/swoole/swoole-src">:house: Home</a> &nbsp; <a href="https://github.com/swoole/swoole-src">:sparkles: Source</a> &nbsp; <a href="https://github.com/swoole/swoole-src/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=957&rid=&cid=44">:bar_chart: Stats</a></li>
+<li></li>
 </ul></p><hr />
 </details>
 
