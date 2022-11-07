@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>5.0.1</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in tcp/http/websocket/http2 server
+        - coroutine tcp/http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2022-11-07 06:07:31</da>
+ <n>* Supported PHP-8.2
+* Improved coroutine exception handling, compatible with ext-soap
+* Fixed parameter compatibility of Coroutine::printBackTrace() and debug_print_backtrace()
+* Added pgsql coroutine client LOB supports
+* Fixed Event::add() support for sockets resources
+* Fixed compile error when no zlib
+* Improved websocket client, upgrade header contains websocket instead of equal
+* Optimized http client, disable keep-alive when server sends connection close
+* Optimized http client, prohibit adding the Accept-Encoding header without compression library
+- Improved debug info, set password as sensitive parameter under PHP-8.2
+- Fixed crash when unpack server task parsed to an unexpected string
+- Enhanced Server::taskWaitMulti(), no blocking in coroutine environment
+- Fixed the problem that adding a timer less than 1ms is forced to 0
+- Fixed crash when using table::getMemorySize() before add columns
+- Optimized log function, no longer print screen when writing to the log file fails</n>
+ <f>2033972</f>
+ <g>https://pecl.php.net/get/swoole-5.0.1</g>
+ <x xlink:href="package.5.0.1.xml"/>
+</r>
