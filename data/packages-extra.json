@@ -2707,12 +2707,12 @@
     },
     "solr": {
         "bugs": "https://github.com/php/pecl-search_engine-solr/issues",
-        "docs": "http://www.php.net/manual/en/book.solr.php",
+        "docs": "https://php.net/manual/en/book.solr.php",
         "home": "http://lucene.apache.org/solr/",
         "maintained": true,
         "repo": "https://github.com/php/pecl-search_engine-solr",
         "stats": "https://pecl.php.net/package-stats.php?pid=867&rid=&cid=57",
-        "verified": false
+        "verified": true
     },
     "sphinx": {
         "bugs": "",
