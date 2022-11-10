@@ -42483,12 +42483,22 @@
         "category": "PHP",
         "deprecated": false,
         "description": "Xdebug and provides a range of features to improve the PHP development\nexperience.\n\nStep Debugging\n    A way to step through your code in your IDE or editor while the script is\n    executing.\n\nImprovements to PHP's error reporting\n    An improved var_dump() function, stack traces for Notices, Warnings, Errors\n    and Exceptions to highlight the code path to the error\n\nTracing\n    Writes every function call, with arguments and invocation location to disk.\n    Optionally also includes every variable assignment and return value for\n    each function.\n\nProfiling\n    Allows you, with the help of visualisation tools, to analyse the\n    performance of your PHP application and find bottlenecks.\n\nCode Coverage Analysis\n    To show which parts of your code base are executed when running unit tests\n    with PHP Unit.",
-        "latestReleaseDate": "2022-11-08T13:48:16+00:00",
-        "latestVersion": "3.1.6",
+        "latestReleaseDate": "2022-11-10T10:16:02+00:00",
+        "latestVersion": "3.2.0RC2",
         "license": "BSD style",
         "name": "xdebug",
         "php8Mentioned": true,
         "releases": {
+            "3.2.0RC2": {
+                "version": "3.2.0RC2",
+                "state": "beta",
+                "license": "BSD style",
+                "releasedBy": "derick",
+                "releaseDate": "2022-11-10T10:16:02+00:00",
+                "releaseNotes": "Thu, Nov 10, 2022 - Xdebug 3.2.0RC2\n\n= Fixed bugs:\n\n  - Fixed issue #2100: \"Fatal error: debuginfo() must return an array\" when Exception is thrown from debugInfo in PHP 8.x\n  - Fixed issue #2101: When a temporary breakpoint is hit, breakpoint_list should show it as disabled\n  - Fixed issue #2126: Problems with retrieving global variables\n  - Fixed issue #2127: Tracing does not handle NUL char in anonymous closure scope\n  - Fixed issue #2129: Cannot read snapshot Gzip-compressed data is corrupt\n  - Fixed issue #2133: Warning with regards to extra NUL character in xdebug_setcookie call\n  - Fixed issue #2134: Xdebug stops at the line where the exception is created, not where it is thrown\n  - Fixed issue #2135: Xdebug stops twice at the same line after a call breakpoint or xdebug_break()\n  - Fixed issue #2136: Duplicate line/conditional breakpoints are not rejected",
+                "get": "https://pecl.php.net/get/xdebug-3.2.0RC2",
+                "SPDX-License-Identifier": "Xdebug"
+            },
             "3.1.6": {
                 "version": "3.1.6",
                 "state": "stable",
