@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/teds">teds</p>
+ <c>pecl.php.net</c>
+ <v>1.3.0</v>
+ <st>stable</st>
+ <l>BSD-3-Clause</l>
+ <m>tandre</m>
+ <s>Provides extra data structures and iterable/array functionality.</s>
+ <d>teds (Tentative Extra Data Structures) is a collection of data structures and iterable functionality</d>
+ <da>2022-11-10 13:40:40</da>
+ <n>* Optimize Teds\Deque insert() and offsetUnset() calls with offsets when they're closer
+  to the front of the deque than the end of the Deque.
+* Add Teds\strict_equals($v1, $v2): bool with stricter NAN handling than `===`.
+* Regenerate function arginfo with namespaced C symbols from stub.php files.</n>
+ <f>306642</f>
+ <g>https://pecl.php.net/get/teds-1.3.0</g>
+ <x xlink:href="package.1.3.0.xml"/>
+</r>
