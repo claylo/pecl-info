@@ -37408,12 +37408,22 @@
         "category": "Structures",
         "deprecated": false,
         "description": "teds (Tentative Extra Data Structures) is a collection of data structures and iterable functionality",
-        "latestReleaseDate": "2022-10-27T01:03:00+00:00",
-        "latestVersion": "1.2.8",
+        "latestReleaseDate": "2022-11-10T13:40:40+00:00",
+        "latestVersion": "1.3.0",
         "license": "BSD-3-Clause",
         "name": "teds",
         "php8Mentioned": true,
         "releases": {
+            "1.3.0": {
+                "version": "1.3.0",
+                "state": "stable",
+                "license": "BSD-3-Clause",
+                "releasedBy": "tandre",
+                "releaseDate": "2022-11-10T13:40:40+00:00",
+                "releaseNotes": "* Optimize Teds\\Deque insert() and offsetUnset() calls with offsets when they're closer\n  to the front of the deque than the end of the Deque.\n* Add Teds\\strict_equals($v1, $v2): bool with stricter NAN handling than `===`.\n* Regenerate function arginfo with namespaced C symbols from stub.php files.",
+                "get": "https://pecl.php.net/get/teds-1.3.0",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "1.2.8": {
                 "version": "1.2.8",
                 "state": "stable",
