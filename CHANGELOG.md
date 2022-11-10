@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.30.0](https://github.com/claylo/pecl-info/compare/v1.29.0...v1.30.0) (2022-11-10)
+
+
+### Added
+
+* add xdebug 3.2.0RC2 release ([6214b3e](https://github.com/claylo/pecl-info/commit/6214b3e1cc47156c90b171f44834cbef1d61c1cb))
+
 ## [1.29.0](https://github.com/claylo/pecl-info/compare/v1.28.0...v1.29.0) (2022-11-09)
 
 
