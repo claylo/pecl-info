@@ -2,12 +2,22 @@
     "category": "System",
     "deprecated": false,
     "description": "Phalcon is an open source full stack framework for PHP, written as a C-extension. Phalcon is optimized for high\n    performance. Its unique architecture allows the framework to always be memory resident, offering its functionality\n    whenever its needed, without expensive file stats and file reads that traditional PHP frameworks employ.",
-    "latestReleaseDate": "2022-11-01T22:56:08+00:00",
-    "latestVersion": "5.1.0",
+    "latestReleaseDate": "2022-11-13T09:48:48+00:00",
+    "latestVersion": "5.1.1",
     "license": "BSD 3-Clause License",
     "name": "phalcon",
     "php8Mentioned": true,
     "releases": {
+        "5.1.1": {
+            "version": "5.1.1",
+            "state": "stable",
+            "license": "BSD 3-Clause License",
+            "releasedBy": "jeckerson",
+            "releaseDate": "2022-11-13T09:48:48+00:00",
+            "releaseNotes": "Full changelog can be found at: https://github.com/phalcon/cphalcon/blob/master/CHANGELOG-5.0.md\n\n## Fixed\n- Fixed `Phalcon\\Filter::sanitize` to return correct data when `noRecursive` is `true` [#16199](https://github.com/phalcon/cphalcon/issues/16199)\n- Fixed `Phalcon\\Html\\Escaper::html` to not return `null` when a zero string is passed [#16202](https://github.com/phalcon/cphalcon/issues/16202)",
+            "get": "https://pecl.php.net/get/phalcon-5.1.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "5.1.0": {
             "version": "5.1.0",
             "state": "stable",
