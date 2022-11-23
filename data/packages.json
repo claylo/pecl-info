@@ -18489,12 +18489,22 @@
         "category": "Database",
         "deprecated": false,
         "description": "The purpose of this driver is to provide exceptionally thin glue between MongoDB\nand PHP, implementing only fundamental and performance-critical components\nnecessary to build a fully-functional MongoDB driver.",
-        "latestReleaseDate": "2022-10-20T15:23:04+00:00",
-        "latestVersion": "1.14.2",
+        "latestReleaseDate": "2022-11-23T03:55:40+00:00",
+        "latestVersion": "1.15.0",
         "license": "Apache License",
         "name": "mongodb",
         "php8Mentioned": true,
         "releases": {
+            "1.15.0": {
+                "version": "1.15.0",
+                "state": "stable",
+                "license": "Apache License",
+                "releasedBy": "jmikola",
+                "releaseDate": "2022-11-23T03:55:40+00:00",
+                "releaseNotes": "** Bug\n    * [PHPC-2132] - get_module_info() test function may fail to match some phpinfo() values\n    * [PHPC-2148] - Error if RewrapManyDataKey is called with masterKey and without provider\n    * [PHPC-2149] - ClientEncryption::createDataKey() may leak when processing masterKey option\n    * [PHPC-2159] - Consider enums and traits in BSON decoding instantiatable checks\n\n** Epic\n    * [PHPC-2093] - Key Management API\n\n** New Feature\n    * [PHPC-2083] - BSON handling for enum classes\n\n** Task\n    * [PHPC-1710] - Document upcoming signature changes in interfaces\n    * [PHPC-1929] - ReadConcern tests need not exhaustively test each constant\n    * [PHPC-1945] - Remove class_exists checks from SKIPIF blocks in Decimal128 tests\n    * [PHPC-2064] - SKIPIF output may be ignored for tests using skip_if_not_clean on PHP 8.1\n    * [PHPC-2111] - Replace zend_parse_parameter_calls with PHONGO_PARSE_PARAMETERS macros\n    * [PHPC-2115] - Remove manual fetching of DateTimeImmutable class entry\n    * [PHPC-2117] - Test with PHP 8.2 on GitHub Actions\n    * [PHPC-2118] - Use debian11 and include MongoDB 6.0 for load balancer testing\n    * [PHPC-2124] - Ensure that null is still accepted for optional parameters\n    * [PHPC-2128] - Create stub files for functions\n    * [PHPC-2130] - Remove proto definitions from source files\n    * [PHPC-2136] - Final modifier should precede method visibility in stub files\n    * [PHPC-2143] - Add Windows builds to GitHub Actions and publish DLLs for releases\n    * [PHPC-2146] - Refactor type map struct\n    * [PHPC-2147] - Update AppVeyor config to clone PHP fork of the Windows SDK\n    * [PHPC-2153] - Test with PHP 8.2 on Evergreen\n    * [PHPC-2154] - Test with PHP 8.2 on Appveyor\n    * [PHPC-2166] - Use void keyword in prototypes for functions that take no parameters\n\n** Improvement\n    * [PHPC-1708] - Add return type information to final classes\n    * [PHPC-1711] - Add return type information to interfaces\n    * [PHPC-1928] - Remove unnecessary casts to zend_long\n    * [PHPC-1944] - Add final modifier to __set_state methods\n    * [PHPC-2015] - Use stub files to generate arginfo\n    * [PHPC-2101] - Default Binary constructor $type parameter to TYPE_GENERIC\n    * [PHPC-2103] - Allow applications to detect crypt_shared availability\n    * [PHPC-2120] - Upgrade libmongocrypt dependency to 1.5.2\n    * [PHPC-2125] - Reduce expected removeKeyAltName operations to a single findOneAndUpdate\n    * [PHPC-2126] - Allow RewrapManyDataKeyResult.bulkWriteResult to be optional\n    * [PHPC-2142] - WriteResult getters should return null and emit deprecation notice for w:0 writes and return zero otherwise if libmongoc result is omitted\n    * [PHPC-2151] - Validate masterKey option for createDataKey() and rewrapManyDataKey()\n    * [PHPC-2168] - Use consistent int types for APM fields and snprintf for string conversions",
+                "get": "https://pecl.php.net/get/mongodb-1.15.0",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "1.14.2": {
                 "version": "1.14.2",
                 "state": "stable",
