@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.15.0</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>jmikola</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2022-11-23 03:55:40</da>
+ <n>** Bug
+    * [PHPC-2132] - get_module_info() test function may fail to match some phpinfo() values
+    * [PHPC-2148] - Error if RewrapManyDataKey is called with masterKey and without provider
+    * [PHPC-2149] - ClientEncryption::createDataKey() may leak when processing masterKey option
+    * [PHPC-2159] - Consider enums and traits in BSON decoding instantiatable checks
+
+** Epic
+    * [PHPC-2093] - Key Management API
+
+** New Feature
+    * [PHPC-2083] - BSON handling for enum classes
+
+** Task
+    * [PHPC-1710] - Document upcoming signature changes in interfaces
+    * [PHPC-1929] - ReadConcern tests need not exhaustively test each constant
+    * [PHPC-1945] - Remove class_exists checks from SKIPIF blocks in Decimal128 tests
+    * [PHPC-2064] - SKIPIF output may be ignored for tests using skip_if_not_clean on PHP 8.1
+    * [PHPC-2111] - Replace zend_parse_parameter_calls with PHONGO_PARSE_PARAMETERS macros
+    * [PHPC-2115] - Remove manual fetching of DateTimeImmutable class entry
+    * [PHPC-2117] - Test with PHP 8.2 on GitHub Actions
+    * [PHPC-2118] - Use debian11 and include MongoDB 6.0 for load balancer testing
+    * [PHPC-2124] - Ensure that null is still accepted for optional parameters
+    * [PHPC-2128] - Create stub files for functions
+    * [PHPC-2130] - Remove proto definitions from source files
+    * [PHPC-2136] - Final modifier should precede method visibility in stub files
+    * [PHPC-2143] - Add Windows builds to GitHub Actions and publish DLLs for releases
+    * [PHPC-2146] - Refactor type map struct
+    * [PHPC-2147] - Update AppVeyor config to clone PHP fork of the Windows SDK
+    * [PHPC-2153] - Test with PHP 8.2 on Evergreen
+    * [PHPC-2154] - Test with PHP 8.2 on Appveyor
+    * [PHPC-2166] - Use void keyword in prototypes for functions that take no parameters
+
+** Improvement
+    * [PHPC-1708] - Add return type information to final classes
+    * [PHPC-1711] - Add return type information to interfaces
+    * [PHPC-1928] - Remove unnecessary casts to zend_long
+    * [PHPC-1944] - Add final modifier to __set_state methods
+    * [PHPC-2015] - Use stub files to generate arginfo
+    * [PHPC-2101] - Default Binary constructor $type parameter to TYPE_GENERIC
+    * [PHPC-2103] - Allow applications to detect crypt_shared availability
+    * [PHPC-2120] - Upgrade libmongocrypt dependency to 1.5.2
+    * [PHPC-2125] - Reduce expected removeKeyAltName operations to a single findOneAndUpdate
+    * [PHPC-2126] - Allow RewrapManyDataKeyResult.bulkWriteResult to be optional
+    * [PHPC-2142] - WriteResult getters should return null and emit deprecation notice for w:0 writes and return zero otherwise if libmongoc result is omitted
+    * [PHPC-2151] - Validate masterKey option for createDataKey() and rewrapManyDataKey()
+    * [PHPC-2168] - Use consistent int types for APM fields and snprintf for string conversions</n>
+ <f>1743735</f>
+ <g>https://pecl.php.net/get/mongodb-1.15.0</g>
+ <x xlink:href="package.1.15.0.xml"/>
+</r>
