@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.35.0](https://github.com/claylo/pecl-info/compare/v1.34.0...v1.35.0) (2022-11-27)
+
+
+### Added
+
+* add mustache 0.9.3 release ([9715c4f](https://github.com/claylo/pecl-info/commit/9715c4fc98f753068eee6afcc91947e8964dc0ef))
+
 ## [1.34.0](https://github.com/claylo/pecl-info/compare/v1.33.0...v1.34.0) (2022-11-23)
 
 

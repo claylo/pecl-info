@@ -1125,7 +1125,7 @@ templates.
 ```
 <p><ul>
 <li>License: MIT</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/mustache-0.9.2">0.9.2</a> on 13 Nov 2020</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/mustache-0.9.3">0.9.3</a> on 26 Nov 2022</li>
 <li>Release data in JSON: <a href="data/packages/mustache.json">mustache.json</a></li>
 <li><a href="https://pecl.php.net/packages/mustache">mustache on PECL</a></li>
 <li><a href="https://github.com/jbboehr/php-mustache">:house: Home</a> &nbsp; <a href="https://github.com/jbboehr/php-mustache">:sparkles: Source</a> &nbsp; <a href="https://github.com/jbboehr/php-mustache/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1010&rid=&cid=59">:bar_chart: Stats</a></li>
