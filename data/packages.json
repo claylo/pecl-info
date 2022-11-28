@@ -11607,12 +11607,22 @@
         "category": "Languages",
         "deprecated": false,
         "description": "This extension embeds a Handlebars interpreter into PHP, allowing the execution of Handlebars templates.",
-        "latestReleaseDate": "2020-12-07T03:49:20+00:00",
-        "latestVersion": "0.9.2",
+        "latestReleaseDate": "2022-11-27T20:49:16+00:00",
+        "latestVersion": "1.0.0",
         "license": "BSD-2-Clause",
         "name": "handlebars",
         "php8Mentioned": true,
         "releases": {
+            "1.0.0": {
+                "version": "1.0.0",
+                "state": "stable",
+                "license": "BSD-2-Clause",
+                "releasedBy": "jbboehr",
+                "releaseDate": "2022-11-27T20:49:16+00:00",
+                "releaseNotes": "- PHP 8.1 and 8.2 compat\n- Target handlebars.js v4.7.7\n- Target handlebars.c v1.0.0\n- Objects can now be iterated with `#each`\n- `known_helpers` is now passed properly to the compiler in `render`",
+                "get": "https://pecl.php.net/get/handlebars-1.0.0",
+                "SPDX-License-Identifier": "BSD-2-Clause"
+            },
             "0.9.2": {
                 "version": "0.9.2",
                 "state": "stable",
