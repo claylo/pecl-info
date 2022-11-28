@@ -1080,7 +1080,7 @@ Handlebars templates.
 ```
 <p><ul>
 <li>License: BSD-2-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/handlebars-0.9.2">0.9.2</a> on 07 Dec 2020</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/handlebars-1.0.0">1.0.0</a> on 27 Nov 2022</li>
 <li>Release data in JSON: <a href="data/packages/handlebars.json">handlebars.json</a></li>
 <li><a href="https://pecl.php.net/packages/handlebars">handlebars on PECL</a></li>
 <li><a href="https://github.com/jbboehr/php-handlebars">:house: Home</a> &nbsp; <a href="https://github.com/jbboehr/php-handlebars">:sparkles: Source</a> &nbsp; <a href="https://github.com/jbboehr/php-handlebars/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1009&rid=&cid=59">:bar_chart: Stats</a></li>

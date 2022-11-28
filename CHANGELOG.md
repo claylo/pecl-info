@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.36.0](https://github.com/claylo/pecl-info/compare/v1.35.0...v1.36.0) (2022-11-28)
+
+
+### Added
+
+* add handlebars 1.0.0 release ([2998555](https://github.com/claylo/pecl-info/commit/2998555a6bac2f527cc37eaa1f1a8ba3b6b1e101))
+
 ## [1.35.0](https://github.com/claylo/pecl-info/compare/v1.34.0...v1.35.0) (2022-11-27)
 
 
