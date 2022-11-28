@@ -32973,12 +32973,22 @@
         "category": "Tools and Utilities",
         "deprecated": false,
         "description": "The PHP Agent for Apache SkyWalking, which provides the native tracing abilities for PHP project.",
-        "latestReleaseDate": "2022-10-08T02:32:58+00:00",
-        "latestVersion": "0.1.0",
+        "latestReleaseDate": "2022-11-28T12:02:52+00:00",
+        "latestVersion": "0.2.0",
         "license": "Apache-2.0",
         "name": "skywalking_agent",
         "php8Mentioned": false,
         "releases": {
+            "0.2.0": {
+                "version": "0.2.0",
+                "state": "stable",
+                "license": "Apache-2.0",
+                "releasedBy": "skywalking",
+                "releaseDate": "2022-11-28T12:02:52+00:00",
+                "releaseNotes": "## What's Changed\n* Update PECL user by @heyanlong in https://github.com/apache/skywalking-php/pull/12\n* Start up 0.2.0 by @heyanlong in https://github.com/apache/skywalking-php/pull/13\n* Update compiling project document. by @jmjoy in https://github.com/apache/skywalking-php/pull/14\n* Add PDO plugin, and switch unix datagram to stream. by @jmjoy in https://github.com/apache/skywalking-php/pull/15\n* Update readme about creating issue. by @jmjoy in https://github.com/apache/skywalking-php/pull/17\n* Fix package.xml role error by @heyanlong in https://github.com/apache/skywalking-php/pull/16\n* Add swoole support. by @jmjoy in https://github.com/apache/skywalking-php/pull/19\n* Add .fleet to .gitignore by @heyanlong in https://github.com/apache/skywalking-php/pull/20\n* [Feature] Add Mysql Improved Extension by @heyanlong in https://github.com/apache/skywalking-php/pull/18\n* Add predis plugin. by @jmjoy in https://github.com/apache/skywalking-php/pull/21\n* Take care of PDO false and DSN tailing semicolons. by @phanalpha in https://github.com/apache/skywalking-php/pull/22\n* Add container by @heyanlong in https://github.com/apache/skywalking-php/pull/23\n* Save PDO exceptions. by @phanalpha in https://github.com/apache/skywalking-php/pull/24\n* Update minimal supported PHP version to 7.2. by @jmjoy in https://github.com/apache/skywalking-php/pull/25\n* Utilize UnixListener for the worker process to accept reports. by @phanalpha in https://github.com/apache/skywalking-php/pull/26\n* Kill the worker on module shutdown. by @phanalpha in https://github.com/apache/skywalking-php/pull/28\n* Add plugin for memcached. by @jmjoy in https://github.com/apache/skywalking-php/pull/27\n* Upgrade rust mini version to 1.65. by @jmjoy in https://github.com/apache/skywalking-php/pull/30\n* Add plugin for phpredis. by @jmjoy in https://github.com/apache/skywalking-php/pull/29\n* Add missing request_id. by @jmjoy in https://github.com/apache/skywalking-php/pull/31\n* Adapt virtual cache. by @jmjoy in https://github.com/apache/skywalking-php/pull/32\n* Fix permission denied of unix socket. by @jmjoy in https://github.com/apache/skywalking-php/pull/33\n* Bump to 0.2.0. by @jmjoy in https://github.com/apache/skywalking-php/pull/34\n\n## New Contributors\n* @phanalpha made their first contribution in https://github.com/apache/skywalking-php/pull/22\n\n**Full Changelog**: https://github.com/apache/skywalking-php/compare/v0.1.0...v0.2.0",
+                "get": "https://pecl.php.net/get/skywalking_agent-0.2.0",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "0.1.0": {
                 "version": "0.1.0",
                 "state": "stable",
