@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/handlebars">handlebars</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0</v>
+ <st>stable</st>
+ <l>BSD-2-Clause</l>
+ <m>jbboehr</m>
+ <s>Handlebars templating language</s>
+ <d>This extension embeds a Handlebars interpreter into PHP, allowing the execution of Handlebars templates.</d>
+ <da>2022-11-27 20:49:16</da>
+ <n>- PHP 8.1 and 8.2 compat
+- Target handlebars.js v4.7.7
+- Target handlebars.c v1.0.0
+- Objects can now be iterated with `#each`
+- `known_helpers` is now passed properly to the compiler in `render`</n>
+ <f>234609</f>
+ <g>https://pecl.php.net/get/handlebars-1.0.0</g>
+ <x xlink:href="package.1.0.0.xml"/>
+</r>
