@@ -542,7 +542,7 @@ located at http://www.iana.org/time-zones.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/timezonedb-2022.6">2022.6</a> on 02 Nov 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/timezonedb-2022.7">2022.7</a> on 29 Nov 2022</li>
 <li>Release data in JSON: <a href="data/packages/timezonedb.json">timezonedb.json</a></li>
 <li><a href="https://pecl.php.net/packages/timezonedb">timezonedb on PECL</a></li>
 <li></li>
