@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.42.0](https://github.com/claylo/pecl-info/compare/v1.41.0...v1.42.0) (2022-12-01)
+
+
+### Added
+
+* add immutable_cache 6.1.0 release ([e7d0b1c](https://github.com/claylo/pecl-info/commit/e7d0b1c8c60738760c6ff287ca2b511fb922fb83))
+
 ## [1.41.0](https://github.com/claylo/pecl-info/compare/v1.40.0...v1.41.0) (2022-12-01)
 
 

@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (143)
+## Relevant Extensions (144)
 
 ### Authentication (2)
 
@@ -133,7 +133,7 @@ over just using the base PHP userland library.
 </details>
 
 ***
-### Caching (5)
+### Caching (6)
 
 <details><summary>APCu&nbsp; :eight:</summary>
 <p>APCu - APC User Cache</p>
@@ -147,6 +147,20 @@ APC User Caching
 <li>Release data in JSON: <a href="data/packages/apcu.json">apcu.json</a></li>
 <li><a href="https://pecl.php.net/packages/APCu">APCu on PECL</a></li>
 <li><a href="https://php.net/apcu">:book: Documentation</a> &nbsp; <a href="https://github.com/krakjoe/apcu">:sparkles: Source</a> &nbsp; <a href="https://github.com/krakjoe/apcu/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=944&rid=&cid=3">:bar_chart: Stats</a></li>
+</ul></p><hr />
+</details>
+<details><summary>immutable_cache&nbsp; :eight:</summary>
+<p>immutable_cache - an shared memory cache of immutable values</p>
+
+```
+immutable_cache - an shared memory cache of immutable values. Based on APCu.
+```
+<p><ul>
+<li>License: PHP-3.01</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/immutable_cache-6.1.0">6.1.0</a> on 01 Dec 2022</li>
+<li>Release data in JSON: <a href="data/packages/immutable_cache.json">immutable_cache.json</a></li>
+<li><a href="https://pecl.php.net/packages/immutable_cache">immutable_cache on PECL</a></li>
+<li><a href="https://github.com/TysonAndre/immutable_cache-pecl">:house: Home</a> &nbsp; <a href="https://github.com/TysonAndre/immutable_cache-pecl">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1076&rid=&cid=3">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>memcache&nbsp; :eight:</summary>
