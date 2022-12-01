@@ -2,12 +2,22 @@
     "category": "System",
     "deprecated": false,
     "description": "Phalcon is an open source full stack framework for PHP, written as a C-extension. Phalcon is optimized for high\n    performance. Its unique architecture allows the framework to always be memory resident, offering its functionality\n    whenever its needed, without expensive file stats and file reads that traditional PHP frameworks employ.",
-    "latestReleaseDate": "2022-11-13T09:48:48+00:00",
-    "latestVersion": "5.1.1",
+    "latestReleaseDate": "2022-12-01T02:15:43+00:00",
+    "latestVersion": "5.1.2",
     "license": "BSD 3-Clause License",
     "name": "phalcon",
     "php8Mentioned": true,
     "releases": {
+        "5.1.2": {
+            "version": "5.1.2",
+            "state": "stable",
+            "license": "BSD 3-Clause License",
+            "releasedBy": "niden",
+            "releaseDate": "2022-12-01T02:15:43+00:00",
+            "releaseNotes": "Full changelog can be found at: https://github.com/phalcon/cphalcon/blob/master/CHANGELOG-5.0.md\n\n## Fixed\n- Fixed `Phalcon\\Support\\Debug` to correctly calculate the documents URL for the hyperlinks [#16223](https://github.com/phalcon/cphalcon/issues/16223)\n- Fixed `Phalcon\\Html\\TagFactory` docblock for autocompletion (https://github.com/phalcon/cphalcon/commit/0129658f3ac468dcc5294d401403e166302a8069)\n- Fixed `Phalcon\\Db\\Profiler` by correctly calculating the seconds (reapplied changes) [#15822](https://github.com/phalcon/cphalcon/issues/15822)\n- Added `Phalcon\\Html\\TagFactory` to the `Phalcon\\Di\\FactoryDefault\\Cli` [#16233](https://github.com/phalcon/cphalcon/issues/16233)",
+            "get": "https://pecl.php.net/get/phalcon-5.1.2",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "5.1.1": {
             "version": "5.1.1",
             "state": "stable",
