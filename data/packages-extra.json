@@ -3675,5 +3675,14 @@
         "repo": "https://github.com/rnpgp/php-rnp/",
         "stats": "https://pecl.php.net/package-stats.php?pid=1075&rid=&cid=54",
         "verified": false
+    },
+    "immutable_cache": {
+        "bugs": "",
+        "docs": "",
+        "home": "https://github.com/TysonAndre/immutable_cache-pecl",
+        "maintained": true,
+        "repo": "https://github.com/TysonAndre/immutable_cache-pecl",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1076&rid=&cid=3",
+        "verified": false
     }
 }

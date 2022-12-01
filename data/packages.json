@@ -14599,6 +14599,30 @@
         },
         "summary": "Provides an image manipulation interface using libimlib2"
     },
+    "immutable_cache": {
+        "category": "Caching",
+        "deprecated": false,
+        "description": "immutable_cache - an shared memory cache of immutable values. Based on APCu.",
+        "latestReleaseDate": "2022-12-01T13:38:07+00:00",
+        "latestVersion": "6.1.0",
+        "license": "PHP License",
+        "name": "immutable_cache",
+        "php8Mentioned": true,
+        "releases": {
+            "6.1.0": {
+                "version": "6.1.0",
+                "state": "stable",
+                "license": "PHP License",
+                "releasedBy": "tandre",
+                "releaseDate": "2022-12-01T13:38:07+00:00",
+                "releaseNotes": "- Extend minimum supported php version from php 8.0 to 7.2\n- Work around bug adding '-lpthread' as a shared library dependency in php before 7.4.14. Related to https://bugs.php.net/bug.php?id=80402\n- Switch default for immutable_cache.serializer to \"default\" (store the php arrays and strings and scalars in shared memory rather than serialization when added value is an array)",
+                "get": "https://pecl.php.net/get/immutable_cache-6.1.0",
+                "SPDX-License-Identifier": "PHP-3.01"
+            }
+        },
+        "summary": "immutable_cache - an shared memory cache of immutable values",
+        "SPDX-License-Identifier": "PHP-3.01"
+    },
     "ims": {
         "category": "Networking",
         "deprecated": false,

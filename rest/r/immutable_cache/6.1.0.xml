@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/immutable_cache">immutable_cache</p>
+ <c>pecl.php.net</c>
+ <v>6.1.0</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>tandre</m>
+ <s>immutable_cache - an shared memory cache of immutable values</s>
+ <d>immutable_cache - an shared memory cache of immutable values. Based on APCu.</d>
+ <da>2022-12-01 13:38:07</da>
+ <n>- Extend minimum supported php version from php 8.0 to 7.2
+- Work around bug adding '-lpthread' as a shared library dependency in php before 7.4.14. Related to https://bugs.php.net/bug.php?id=80402
+- Switch default for immutable_cache.serializer to &quot;default&quot; (store the php arrays and strings and scalars in shared memory rather than serialization when added value is an array)</n>
+ <f>87806</f>
+ <g>https://pecl.php.net/get/immutable_cache-6.1.0</g>
+ <x xlink:href="package.6.1.0.xml"/>
+</r>
