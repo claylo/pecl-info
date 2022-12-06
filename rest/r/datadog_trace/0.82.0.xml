@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.82.0</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>pierotibou</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2022-12-06 16:59:58</da>
+ <n>### Added
+- PHP-8.2 support #1800
+- Add Elasticsearch 8 support #1808
+- Add a Roadrunner integration #1813
+
+### Changed
+- Change system.pid to process_id #1796
+
+### Fixed
+- Extract priority sampling whenever is string or int #1789
+- Fix crash during preloading on 8.1+ #1799
+- Fix $integration-&gt;setError() to also accept \Error instances #1802
+- Fix ZEND_CATCH chaining logic #1803, #1814
+- Fix misbehaviour with 256+ hooks on a same function #1809
+- FIX PSR-4 autoloading in ComposerBootstrap class #1816 (Thanks @ls-youssef-jlidat)
+- Fix dropped spans causing an infinite loop #1818
+
+### Internal changes
+- Avoid deprecated zend_atol on PHP 8.2 #1778
+- Retry docker images not starting in CI #1807
+
+## Profiling (0.11.0)
+
+Profiling now defaults to being enabled. This removes one step in onboarding as the environment variable DD_PROFILING_ENABLED no longer needs to be set to 1, which can be difficult in some situations. The recommended way to configure profiling is to use .ini settings, which is generally easier.
+
+### Added
+- Add .ini support #1775.
+- Groundwork for allocation profiling #1794
+
+### Changed
+- Bump libdatadog to 0.9 #1782.
+- Bump env_logger to 0.9.3 #1804.
+
+### Internal Changes
+- Add troubleshooting to README #1761</n>
+ <f>401521</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.82.0</g>
+ <x xlink:href="package.0.82.0.xml"/>
+</r>
