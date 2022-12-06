@@ -4339,12 +4339,22 @@
         "category": "Benchmarking",
         "deprecated": false,
         "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-        "latestReleaseDate": "2022-11-03T12:24:03+00:00",
-        "latestVersion": "0.81.1",
+        "latestReleaseDate": "2022-12-06T16:59:58+00:00",
+        "latestVersion": "0.82.0",
         "license": "BSD 3-Clause",
         "name": "datadog_trace",
         "php8Mentioned": true,
         "releases": {
+            "0.82.0": {
+                "version": "0.82.0",
+                "state": "stable",
+                "license": "BSD 3-Clause",
+                "releasedBy": "pierotibou",
+                "releaseDate": "2022-12-06T16:59:58+00:00",
+                "releaseNotes": "### Added\n- PHP-8.2 support #1800\n- Add Elasticsearch 8 support #1808\n- Add a Roadrunner integration #1813\n\n### Changed\n- Change system.pid to process_id #1796\n\n### Fixed\n- Extract priority sampling whenever is string or int #1789\n- Fix crash during preloading on 8.1+ #1799\n- Fix $integration->setError() to also accept \\Error instances #1802\n- Fix ZEND_CATCH chaining logic #1803, #1814\n- Fix misbehaviour with 256+ hooks on a same function #1809\n- FIX PSR-4 autoloading in ComposerBootstrap class #1816 (Thanks @ls-youssef-jlidat)\n- Fix dropped spans causing an infinite loop #1818\n\n### Internal changes\n- Avoid deprecated zend_atol on PHP 8.2 #1778\n- Retry docker images not starting in CI #1807\n\n## Profiling (0.11.0)\n\nProfiling now defaults to being enabled. This removes one step in onboarding as the environment variable DD_PROFILING_ENABLED no longer needs to be set to 1, which can be difficult in some situations. The recommended way to configure profiling is to use .ini settings, which is generally easier.\n\n### Added\n- Add .ini support #1775.\n- Groundwork for allocation profiling #1794\n\n### Changed\n- Bump libdatadog to 0.9 #1782.\n- Bump env_logger to 0.9.3 #1804.\n\n### Internal Changes\n- Add troubleshooting to README #1761",
+                "get": "https://pecl.php.net/get/datadog_trace-0.82.0",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "0.81.1": {
                 "version": "0.81.1",
                 "state": "stable",
