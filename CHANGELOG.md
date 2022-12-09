@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.46.0](https://github.com/claylo/pecl-info/compare/v1.45.0...v1.46.0) (2022-12-09)
+
+
+### Added
+
+* add scoutapm 1.9.0 release ([0b21d59](https://github.com/claylo/pecl-info/commit/0b21d59a406cadd50bba9b358598a0f52f074647))
+
 ## [1.45.0](https://github.com/claylo/pecl-info/compare/v1.44.0...v1.45.0) (2022-12-09)
 
 
