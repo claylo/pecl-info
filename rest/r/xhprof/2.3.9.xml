@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xhprof">xhprof</p>
+ <c>pecl.php.net</c>
+ <v>2.3.9</v>
+ <st>stable</st>
+ <l>Apache 2.0</l>
+ <m>longxinhui</m>
+ <s>XHProf: A Hierarchical Profiler for PHP</s>
+ <d>XHProf is a function-level hierarchical profiler for PHP and has a simple HTML based navigational interface. The raw data collection component is implemented in C (as a PHP extension). The reporting/UI layer is all in PHP. It is capable of reporting function-level inclusive and exclusive wall times, memory usage, CPU times and number of calls for each function. Additionally, it supports ability to compare two runs (hierarchical DIFF reports), or aggregate results from multiple runs.</d>
+ <da>2022-12-14 04:30:03</da>
+ <n>- Nullify references once not used to prevent double-frees #73
+- Fixed clocks to microseconds conversion on Mac #75</n>
+ <f>843027</f>
+ <g>https://pecl.php.net/get/xhprof-2.3.9</g>
+ <x xlink:href="package.2.3.9.xml"/>
+</r>
