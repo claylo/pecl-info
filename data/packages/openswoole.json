@@ -2,12 +2,22 @@
     "category": "Event",
     "deprecated": false,
     "description": "Build high-performance, scalable, concurrent TCP, UDP, Unix Socket, HTTP, WebSocket services with PHP and easy to use coroutine, fibers API.",
-    "latestReleaseDate": "2022-10-02T23:39:29+00:00",
-    "latestVersion": "4.12.0",
+    "latestReleaseDate": "2022-12-21T12:44:23+00:00",
+    "latestVersion": "4.12.1",
     "license": "Apache 2.0",
     "name": "openswoole",
     "php8Mentioned": true,
     "releases": {
+        "4.12.1": {
+            "version": "4.12.1",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "doubaokun",
+            "releaseDate": "2022-12-21T12:44:23+00:00",
+            "releaseNotes": ". Bug fixed: PDO pool client for Postgres\n. Compatible with PHP 8.2.0 (PHP-8.2.0)",
+            "get": "https://pecl.php.net/get/openswoole-4.12.1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "4.12.0": {
             "version": "4.12.0",
             "state": "stable",
