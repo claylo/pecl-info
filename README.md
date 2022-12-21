@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (144)
+## Relevant Extensions (143)
 
 ### Authentication (2)
 
@@ -689,7 +689,7 @@ services with PHP and easy to use coroutine, fibers API.
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/openswoole-4.12.0">4.12.0</a> on 02 Oct 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/openswoole-4.12.1">4.12.1</a> on 21 Dec 2022</li>
 <li>Release data in JSON: <a href="data/packages/openswoole.json">openswoole.json</a></li>
 <li><a href="https://pecl.php.net/packages/openswoole">openswoole on PECL</a></li>
 <li><a href="https://www.swoole.co.uk">:house: Home</a> &nbsp; <a href="https://github.com/openswoole">:sparkles: Source</a> &nbsp; <a href="https://github.com/openswoole/swoole-src/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1065&rid=&cid=44">:bar_chart: Stats</a></li>
@@ -2428,25 +2428,6 @@ Zephir Parser is a code parser, delivered as a C extension for the PHP language.
 <li>Release data in JSON: <a href="data/packages/zephir_parser.json">zephir_parser.json</a></li>
 <li><a href="https://pecl.php.net/packages/zephir_parser">zephir_parser on PECL</a></li>
 <li><a href="https://github.com/zephir-lang/php-zephir-parser">:house: Home</a> &nbsp; <a href="https://github.com/zephir-lang/php-zephir-parser">:sparkles: Source</a> &nbsp; <a href="https://github.com/zephir-lang/php-zephir-parser/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1046&rid=&cid=29">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-
-***
-### Version Control (1)
-
-<details><summary>svn</summary>
-<p>PHP Bindings for the Subversion Revision control system.</p>
-
-```
-Bindings for the Subversion revision control system, providing a method for manipulating
-	a working copy or repository with PHP.
-```
-<p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/svn-2.0.3">2.0.3</a> on 16 Dec 2019</li>
-<li>Release data in JSON: <a href="data/packages/svn.json">svn.json</a></li>
-<li><a href="https://pecl.php.net/packages/svn">svn on PECL</a></li>
-<li><a href="http://www.php.net/manual/en/book.svn.php">:book: Documentation</a> &nbsp; <a href="https://github.com/php/pecl-tools-svn">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-tools-svn/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=480&rid=&cid=40">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 
