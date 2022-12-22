@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/openswoole">openswoole</p>
+ <c>pecl.php.net</c>
+ <v>22.0.0</v>
+ <st>stable</st>
+ <l>Apache 2.0</l>
+ <m>doubaokun</m>
+ <s>High Performance Programmatic Server for PHP with Async IO, Coroutines and Fibers</s>
+ <d>Build high-performance, scalable, concurrent TCP, UDP, Unix Socket, HTTP, WebSocket services with PHP and easy to use coroutine, fibers API.</d>
+ <da>2022-12-22 12:31:24</da>
+ <n>. Rename `co\run` to be `co::run`
+. Security update: Remove embedded PHP codes, hot code execution with eval and remove `ini` option `enable_library`
+. Added server Constants class: OpenSwoole\Constant
+. Use \OpenSwoole as the main namespace, although \Swoole is still supported
+. Pre-check server options
+. Security update: New server option `enable_server_token`, disabled by default
+. Built-in Psr7 API support added
+. Boost ASM library upgrade
+. New Psr API: $server-&gt;setHandler(\Psr\Http\Server\RequestHandlerInterface $handler)
+. New Psr API: $server-&gt;handle(callable $callback)
+. Redis Server API: $server-&gt;setHandler() -&gt; $server-&gt;addCommand()
+. Redis Server API: $server-&gt;getHandler() -&gt; $server-&gt;getCommand()
+. Disable sockets_*, exec, shell_exec, `gethostbyname` coroutines hook by default, remove HOOK_BLOCKING_FUNCTION and HOOK_SOCKETS in HOOK_ALL; Enable them explicitly if they are used
+. Remove deprecated custom coroutine MySQL client, prefer the hooked native coroutine MySQL client
+. Remove deprecated custom coroutine Redis client, prefer the hooked native coroutine Redis client
+. Remove deprecated experimental coroutine HTTP server
+. Remove deprecated experimental Redis protocol server
+. Remove deprecated function `swoole_timer_set()` and `Timer-&gt;set()`
+. Remove deprecated function `swoole_event_rshutdown`
+. Remove deprecated function `Swoole\Runtime::fread`, `Swoole\Runtime::fwrite`, `Swoole\Runtime::fgets`
+. Remove deprecated function `Coroutine::suspend`, use `Coroutine::yield`
+. Remove deprecated function `Coroutine::getuid`, use `Coroutine::getCid`
+. Remove deprecated function `Coroutine::listCoroutines`, use `Coroutine::list`
+. Remove deprecated function `Table::exist`, use `Table::exists`
+. Remove deprecated function `Table::delete`, use `Table::del`
+. Remove deprecated function `Server-&gt;connection_info()`, use `Server-&gt;getClientInfo()`
+. Remove deprecated function `Server-&gt;connection_list()`, use `Server-&gt;getClientList()`
+. Remove deprecated function `Server-&gt;exist`, use `Server-&gt;exists`
+. Move global constants under namespace: SWOOLE_CHANNEL_OK -&gt; `OpenSwoole\Coroutine\Channel::CHANNEL_OK`, SWOOLE_CHANNEL_TIMEOUT -&gt; `OpenSwoole\Coroutine\Channel::CHANNEL_TIMEOUT`, SWOOLE_CHANNEL_CLOSED -&gt; `OpenSwoole\Coroutine\Channel::CHANNEL_CLOSED`...
+. Move global constants under namespace: SWOOLE_DEFAULT_MAX_CORO_NUM -&gt; `OpenSwoole\Coroutine::DEFAULT_MAX_CORO_NUM`...
+. Remove `$server-&gt;getLastError()`, use `OpenSwoole\Util::getLastErrorCode()`
+. Remove `$process-&gt;name()`, use `OpenSwoole\Util::setProcessName()`
+. New Util API class: added `OpenSwoole\Util` class
+. Remove option `swoole.use_shortname`, remove `Co\*` alias. `go`, `chan`, `defer`, `co::*` are available by default
+. Remove `swoole_async_dns_lookup_coro`, use `OpenSwoole\Coroutine::dnsLookup` or `OpenSwoole\Coroutine\System::dnsLookup`; remove `swoole_async_set`, use `OpenSwoole\Until::setAio([])` or `$server-&gt;set([])` for `aio` options;
+. Rename PHP `ini` options from `swoole.*` to be `openswoole.*`
+. Remove `swoole_clear_dns_cache`, use OpenSwoole\Coroutine::clearDNSCache` or `OpenSwoole\Coroutine\System::clearDNSCache`
+. Remove custom unserialize functions: `swoole_substr_unserialize` and `swoole_substr_unserialize`
+. Remove `swoole_client_select` and `swoole_select`, use `OpenSwoole\Client::select`
+. Remove `swoole_last_error`, use `OpenSwoole\Util::getLastErrorCode`
+. `OpenSwoole\Event::wait();` should be added explicitly to wait for all the IO events
+. Use `\OpenSwoole\Server::SIMPLE_MODE` and `\OpenSwoole\Server::POOL_MODE` at server structure config
+. Fix: ignore user set illegal HTTP header at server
+. Fix: ignore user set encoding header at client if it is not supported
+. Remove hard requirements and links of json and remove compile flag `--enable-swoole-json`
+. Rename compile flag `--enable-swoole-curl` to be `--enable-hook-curl`
+. Fix convert double sec to long microseconds in hooked usleep by @shandyDev</n>
+ <f>1244040</f>
+ <g>https://pecl.php.net/get/openswoole-22.0.0</g>
+ <x xlink:href="package.22.0.0.xml"/>
+</r>

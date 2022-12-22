@@ -1,4 +1,8 @@
 {
+    "22.0.0": {
+        "version": "22.0.0",
+        "state": "stable"
+    },
     "4.12.1": {
         "version": "4.12.1",
         "state": "stable"
