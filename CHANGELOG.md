@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.53.0](https://github.com/claylo/pecl-info/compare/v1.52.0...v1.53.0) (2022-12-28)
+
+
+### Added
+
+* add zephir_parser 1.5.2 release ([9fb35ed](https://github.com/claylo/pecl-info/commit/9fb35ed1e254dd0dd558d2f11c2b834578cb7e63))
+
 ## [1.52.0](https://github.com/claylo/pecl-info/compare/v1.51.0...v1.52.0) (2022-12-25)
 
 
