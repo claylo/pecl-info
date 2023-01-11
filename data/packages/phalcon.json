@@ -2,12 +2,22 @@
     "category": "System",
     "deprecated": false,
     "description": "Phalcon is an open source full stack framework for PHP, written as a C-extension. Phalcon is optimized for high\n    performance. Its unique architecture allows the framework to always be memory resident, offering its functionality\n    whenever its needed, without expensive file stats and file reads that traditional PHP frameworks employ.",
-    "latestReleaseDate": "2022-12-25T04:59:23+00:00",
-    "latestVersion": "5.1.3",
+    "latestReleaseDate": "2023-01-10T22:17:01+00:00",
+    "latestVersion": "5.1.4",
     "license": "BSD 3-Clause License",
     "name": "phalcon",
     "php8Mentioned": true,
     "releases": {
+        "5.1.4": {
+            "version": "5.1.4",
+            "state": "stable",
+            "license": "BSD 3-Clause License",
+            "releasedBy": "niden",
+            "releaseDate": "2023-01-10T22:17:01+00:00",
+            "releaseNotes": "Full changelog can be found at: https://github.com/phalcon/cphalcon/blob/master/CHANGELOG-5.0.md\n\n### Fixed\n- Fixed `Phalcon\\Acl\\Adapter\\Memory::isAllowed` to not use the deprecated `ReflectionType::getClass` [#16255](https://github.com/phalcon/cphalcon/issues/16255)",
+            "get": "https://pecl.php.net/get/phalcon-5.1.4",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "5.1.3": {
             "version": "5.1.3",
             "state": "stable",
