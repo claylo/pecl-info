@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (143)
+## Relevant Extensions (142)
 
 ### Authentication (2)
 
@@ -64,7 +64,7 @@ The Datadog PHP Tracer brings APM and distributed tracing to PHP.
 ```
 <p><ul>
 <li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/datadog_trace-0.82.0">0.82.0</a> on 06 Dec 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/datadog_trace-0.83.0">0.83.0</a> on 13 Jan 2023</li>
 <li>Release data in JSON: <a href="data/packages/datadog_trace.json">datadog_trace.json</a></li>
 <li><a href="https://pecl.php.net/packages/datadog_trace">datadog_trace on PECL</a></li>
 <li><a href="https://docs.datadoghq.com/tracing/languages/php/">:house: Home</a> &nbsp; <a href="https://github.com/DataDog/dd-trace-php">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1029&rid=&cid=2">:bar_chart: Stats</a></li>
@@ -1987,7 +1987,7 @@ collected by the garbage collector (GC).
 </details>
 
 ***
-### System (8)
+### System (7)
 
 <details><summary>dio</summary>
 <p>Direct I/O functions</p>
@@ -2010,20 +2010,6 @@ more than adequate.
 <li>Release data in JSON: <a href="data/packages/dio.json">dio.json</a></li>
 <li><a href="https://pecl.php.net/packages/dio">dio on PECL</a></li>
 <li><a href="https://github.com/php/pecl-system-dio">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-system-dio/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=430&rid=&cid=37">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>expect</summary>
-<p>PHP extension for expect library</p>
-
-```
-This extension allows to interact with processes through PTY, using expect library.
-```
-<p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/expect-0.4.0">0.4.0</a> on 13 Jan 2020</li>
-<li>Release data in JSON: <a href="data/packages/expect.json">expect.json</a></li>
-<li><a href="https://pecl.php.net/packages/expect">expect on PECL</a></li>
-<li><a href="https://github.com/sibaz/pecl-expect">:sparkles: Source</a> &nbsp; <a href="https://github.com/sibaz/pecl-expect/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=535&rid=&cid=37">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>ice&nbsp; :eight:</summary>
