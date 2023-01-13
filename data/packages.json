@@ -4339,12 +4339,22 @@
         "category": "Benchmarking",
         "deprecated": false,
         "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-        "latestReleaseDate": "2022-12-06T16:59:58+00:00",
-        "latestVersion": "0.82.0",
+        "latestReleaseDate": "2023-01-13T18:34:18+00:00",
+        "latestVersion": "0.83.0",
         "license": "BSD 3-Clause",
         "name": "datadog_trace",
         "php8Mentioned": true,
         "releases": {
+            "0.83.0": {
+                "version": "0.83.0",
+                "state": "stable",
+                "license": "BSD 3-Clause",
+                "releasedBy": "bwoebi",
+                "releaseDate": "2023-01-13T18:34:18+00:00",
+                "releaseNotes": "### Added\n- Add span.kind tagging #1801, #1843\n\n### Changed\n- Change error.msg to error.message #1821\n- Change process_id to metrics tag #1826\n- Remove libexecinfo on Alpine #1838\n- Always interpolate error message placeholders to avoid confusion #1849\n\n### Fixed\n- Fix installer name in help output in datadog-setup.php #1829\n- Fix #1828: crash when copying an immutable array #1832\n- Fix CodeIgniter integration to not depend on CI_Controller class #1835\n- (PHP 7) Fix memory leak with custom CURLOPT_READFUNCTION #1841\n- Support custom ini names in installer #1846, #1851\n- Clear the active closed stack head when resetting the tracer #1853\n\n### Internal changes\n- Speed up \"Attaching workspace\" step in CI #1823\n- Improve test suite flakiness & randomized asan #1817\n\n## Profiling (0.12.0)\n\n### Added\n- Add configuration to save profiles to disk #1837\n\n### Changed\n- Bump libdatadog to 1.0 #1825\n- Bump profiling version for release #1848\n\n### Internal changes\n- Fix compile time warnings when compiling without features #1819\n- Avoid putting .package-cache into the cache, commit Cargo.lock #1852",
+                "get": "https://pecl.php.net/get/datadog_trace-0.83.0",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "0.82.0": {
                 "version": "0.82.0",
                 "state": "stable",
