@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.83.0</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>bwoebi</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2023-01-13 18:34:18</da>
+ <n>### Added
+- Add span.kind tagging #1801, #1843
+
+### Changed
+- Change error.msg to error.message #1821
+- Change process_id to metrics tag #1826
+- Remove libexecinfo on Alpine #1838
+- Always interpolate error message placeholders to avoid confusion #1849
+
+### Fixed
+- Fix installer name in help output in datadog-setup.php #1829
+- Fix #1828: crash when copying an immutable array #1832
+- Fix CodeIgniter integration to not depend on CI_Controller class #1835
+- (PHP 7) Fix memory leak with custom CURLOPT_READFUNCTION #1841
+- Support custom ini names in installer #1846, #1851
+- Clear the active closed stack head when resetting the tracer #1853
+
+### Internal changes
+- Speed up &quot;Attaching workspace&quot; step in CI #1823
+- Improve test suite flakiness &amp; randomized asan #1817
+
+## Profiling (0.12.0)
+
+### Added
+- Add configuration to save profiles to disk #1837
+
+### Changed
+- Bump libdatadog to 1.0 #1825
+- Bump profiling version for release #1848
+
+### Internal changes
+- Fix compile time warnings when compiling without features #1819
+- Avoid putting .package-cache into the cache, commit Cargo.lock #1852</n>
+ <f>401666</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.83.0</g>
+ <x xlink:href="package.0.83.0.xml"/>
+</r>
