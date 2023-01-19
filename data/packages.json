@@ -4339,12 +4339,22 @@
         "category": "Benchmarking",
         "deprecated": false,
         "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-        "latestReleaseDate": "2023-01-13T18:34:18+00:00",
-        "latestVersion": "0.83.0",
+        "latestReleaseDate": "2023-01-18T20:53:34+00:00",
+        "latestVersion": "0.83.1",
         "license": "BSD 3-Clause",
         "name": "datadog_trace",
         "php8Mentioned": true,
         "releases": {
+            "0.83.1": {
+                "version": "0.83.1",
+                "state": "stable",
+                "license": "BSD 3-Clause",
+                "releasedBy": "bwoebi",
+                "releaseDate": "2023-01-18T20:53:34+00:00",
+                "releaseNotes": "### Fixed\n- Use the HttpWorker instead of the Psr7Worker for Roadrunner for more generic usage #1864\n- Fix trace_id reset in DDTrace\\set_distributed_tracing_context() #1863\n- Work around broken enum functions run_time_cache on PHP 8.2.0 and 8.2.1 #1862",
+                "get": "https://pecl.php.net/get/datadog_trace-0.83.1",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "0.83.0": {
                 "version": "0.83.0",
                 "state": "stable",
