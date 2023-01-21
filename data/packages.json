@@ -3075,12 +3075,22 @@
         "category": "Database",
         "deprecated": false,
         "description": "The PHP client library provides fast access to documents stored in a Couchbase Server.",
-        "latestReleaseDate": "2022-05-11T10:14:56+00:00",
-        "latestVersion": "4.0.0",
+        "latestReleaseDate": "2023-01-20T21:19:24+00:00",
+        "latestVersion": "4.1.0",
         "license": "Apache V2",
         "name": "couchbase",
         "php8Mentioned": true,
         "releases": {
+            "4.1.0": {
+                "version": "4.1.0",
+                "state": "stable",
+                "license": "Apache V2",
+                "releasedBy": "avsej",
+                "releaseDate": "2023-01-20T21:19:24+00:00",
+                "releaseNotes": "* PCBC-824: implement replica reads\n* PCBC-630: implement legacy durability for mutations\n* PCBC-880 support for configuration profiles\n* PCBC-889 'Skip' SearchOption has no effect\n* Bug fixes, logger and build improvements",
+                "get": "https://pecl.php.net/get/couchbase-4.1.0",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "4.0.0": {
                 "version": "4.0.0",
                 "state": "stable",
