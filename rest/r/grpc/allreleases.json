@@ -1,4 +1,8 @@
 {
+    "1.52.0RC1": {
+        "version": "1.52.0RC1",
+        "state": "beta"
+    },
     "1.51.1": {
         "version": "1.51.1",
         "state": "stable"
