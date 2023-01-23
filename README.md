@@ -1423,10 +1423,10 @@ languages.
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/gRPC-1.51.1">1.51.1</a> on 30 Nov 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/gRPC-1.52.0RC1">1.52.0RC1</a> on 23 Jan 2023</li>
 <li>Release data in JSON: <a href="data/packages/grpc.json">grpc.json</a></li>
 <li><a href="https://pecl.php.net/packages/gRPC">gRPC on PECL</a></li>
-<li><a href="http://grpc.io">:house: Home</a> &nbsp; <a href="https://github.com/grpc/grpc/tree/master/src/php/ext/grpc">:sparkles: Source</a> &nbsp; <a href="https://github.com/grpc/grpc/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=986&rid=&cid=16">:bar_chart: Stats</a></li>
+<li></li>
 </ul></p><hr />
 </details>
 <details><summary>ip2location</summary>
