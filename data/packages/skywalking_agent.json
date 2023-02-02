@@ -2,12 +2,22 @@
     "category": "Tools and Utilities",
     "deprecated": false,
     "description": "The PHP Agent for Apache SkyWalking, which provides the native tracing abilities for PHP project.",
-    "latestReleaseDate": "2022-11-28T12:02:52+00:00",
-    "latestVersion": "0.2.0",
+    "latestReleaseDate": "2023-02-02T07:13:44+00:00",
+    "latestVersion": "0.3.0",
     "license": "Apache-2.0",
     "name": "skywalking_agent",
-    "php8Mentioned": false,
+    "php8Mentioned": true,
     "releases": {
+        "0.3.0": {
+            "version": "0.3.0",
+            "state": "stable",
+            "license": "Apache-2.0",
+            "releasedBy": "skywalking",
+            "releaseDate": "2023-02-02T07:13:44+00:00",
+            "releaseNotes": "## What's Changed\n* Make explicit rust version requirement by @wu-sheng in https://github.com/apache/skywalking-php/pull/35\n* Update dependencies version limitation. by @jmjoy in https://github.com/apache/skywalking-php/pull/36\n* Startup 0.3.0 by @heyanlong in https://github.com/apache/skywalking-php/pull/37\n* Support PHP 8.2 by @heyanlong in https://github.com/apache/skywalking-php/pull/38\n* Fix php-fpm freeze after large amount of request. by @jmjoy in https://github.com/apache/skywalking-php/pull/39\n* Lock develop rust version to 1.65, upgrade deps. by @jmjoy in https://github.com/apache/skywalking-php/pull/41\n* Fix worker unexpected shutdown. by @jmjoy in https://github.com/apache/skywalking-php/pull/42\n* Update docs about installing rust. by @jmjoy in https://github.com/apache/skywalking-php/pull/43\n* Retry cargo test when failed in CI. by @jmjoy in https://github.com/apache/skywalking-php/pull/44\n* Hack dtor for mysqli to cleanup resources. by @jmjoy in https://github.com/apache/skywalking-php/pull/45\n* Report instance properties and keep alive. by @jmjoy in https://github.com/apache/skywalking-php/pull/46\n* Add configuration option `skywalking_agent.runtime_dir`. by @jmjoy in https://github.com/apache/skywalking-php/pull/47\n* Add authentication support. by @jmjoy in https://github.com/apache/skywalking-php/pull/48\n* Support TLS. by @jmjoy in https://github.com/apache/skywalking-php/pull/49\n* Periodic reporting instance properties. by @jmjoy in https://github.com/apache/skywalking-php/pull/50\n* Bump to 0.3.0. by @jmjoy in https://github.com/apache/skywalking-php/pull/51\n\n### Breaking\n* Remove `http://` scheme in `skywalking_agent.server_addr`.\n\n## New Contributors\n* @wu-sheng made their first contribution in https://github.com/apache/skywalking-php/pull/35\n\n**Full Changelog**: https://github.com/apache/skywalking-php/compare/v0.2.0...v0.3.0",
+            "get": "https://pecl.php.net/get/skywalking_agent-0.3.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "0.2.0": {
             "version": "0.2.0",
             "state": "stable",
