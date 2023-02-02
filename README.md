@@ -2353,7 +2353,7 @@ Multiple Data)
 <li><a href="https://github.com/crazyxman/simdjson_php">:house: Home</a> &nbsp; <a href="https://github.com/crazyxman/simdjson_php">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1072&rid=&cid=29">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
-<details><summary>skywalking_agent</summary>
+<details><summary>skywalking_agent&nbsp; :eight:</summary>
 <p>Apache SkyWalking PHP Agent.</p>
 
 ```
@@ -2362,7 +2362,7 @@ project.
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/skywalking_agent-0.2.0">0.2.0</a> on 28 Nov 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/skywalking_agent-0.3.0">0.3.0</a> on 02 Feb 2023</li>
 <li>Release data in JSON: <a href="data/packages/skywalking_agent.json">skywalking_agent.json</a></li>
 <li><a href="https://pecl.php.net/packages/skywalking_agent">skywalking_agent on PECL</a></li>
 <li><a href="https://skywalking.apache.org/">:house: Home</a> &nbsp; <a href="https://github.com/apache/skywalking-php">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1073&rid=&cid=29">:bar_chart: Stats</a></li>
