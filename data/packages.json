@@ -4349,12 +4349,22 @@
         "category": "Benchmarking",
         "deprecated": false,
         "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-        "latestReleaseDate": "2023-01-18T20:53:34+00:00",
-        "latestVersion": "0.83.1",
+        "latestReleaseDate": "2023-02-03T16:31:24+00:00",
+        "latestVersion": "0.84.0",
         "license": "BSD 3-Clause",
         "name": "datadog_trace",
         "php8Mentioned": true,
         "releases": {
+            "0.84.0": {
+                "version": "0.84.0",
+                "state": "stable",
+                "license": "BSD 3-Clause",
+                "releasedBy": "bwoebi",
+                "releaseDate": "2023-02-03T16:31:24+00:00",
+                "releaseNotes": "### Added\n- Add component tag #1834\n- Add W3C tracecontext propagation and propagate full 128 bit B3 headers #1856\n- Implement #[DDTrace\\Trace] attribute #1867\n- Add 128-bit trace id generation and propagation via _dd.p.tid #1875\n- Allow IP Collection, disabled by default #1895\n- Add support for tracing Dispatched Events in Laravel 5.8+ #1897 (Thanks @ralphschindler)\n\n### Changed\n- Show error message when PDO returns an error #1839\n\n### Fixed\n- Make active_stack infallible: there always exists a stack #1883\n- Fix DDTrace\\flush() with DD_AUTOFINISH_SPANS=1 #1892\n- Null the parent span of span stacks when resetting the tracer #1899\n\n### Internal changes\n- style(datadog-setup.php): reformat file #1869\n- refactor(datadog-setup.php): cleanup PhpStorm warnings #1870\n- Add test Wordpress 6.1 application #1884\n- Revert bogus revert commit #1888\n- Add apt update before fetching codecov dependencies #1893\n- Fix running CI in external PRs #1898\n- Add Symfony 6.2 testsuite #1900\n- Add exported function to close all spans and flush #1902, #1901\n\n## Profiling (0.13.0)\n\nThis release adds new profile types: allocation size and allocations samples. They are off by default. Enable them with the environment variable DD_PROFILING_EXPERIMENTAL_ALLOCATION_ENABLED=1 or INI setting datadog.profiling.experimental_allocation_enabled=1.\n\n### Added\n- Add allocation profiling beta #1815, #1865, #1874, #1878\n\n### Fixed\n- Do not send empty profile samples #1872, #1885\n\n### Changed\n- Bump profiling version for release #1879, #1881\n\n### Internal changes\n- docs: wall-time and cpu-time #1850\n- refactor: fix clippy::too_many_arguments #1871\n- tests: Add test for the fix in #1885 #1887\n\n## Application Security Monitoring (v0.6.0)\n\n#### Added\n- Add zai config DataDog/dd-appsec-php#114\n- Replace actor.ip with http.client_ip DataDog/dd-appsec-php#128\n- PHP 8.2RC support DataDog/dd-appsec-php#151\n- Generate IP on appsec DataDog/dd-appsec-php#155\n- Support PHP 8.2 Release DataDog/dd-appsec-php#166\n- Login and custom event SDK DataDog/dd-appsec-php#174\n- Update SDK with separate success/failure functions DataDog/dd-appsec-php#177\n\n### Fixed\n- Return error response in helper when incoming message can't be adequately handled DataDog/dd-appsec-php#120\n- Avoid creating log file as root DataDog/dd-appsec-php#124\n- Reset context on shutdown DataDog/dd-appsec-php#130\n- Handle errors on request_shutdown DataDog/dd-appsec-php#132\n- Avoid regenerating ip when multiple headers are already present DataDog/dd-appsec-php#170\n\n### Internal changes\n- Upgrade WAF to 1.5.0 and ruleset to 1.4.0 DataDog/dd-appsec-php#117\n- Update ip extraction module DataDog/dd-appsec-php#125\n- Make test use latest version of ddtrace 0.79.0 DataDog/dd-appsec-php#129\n- Update ddtrace-basic test to be compatible with older tracers DataDog/dd-appsec-php#142\n- Fix package / release build DataDog/dd-appsec-php#152\n- Update LLVM script DataDog/dd-appsec-php#153\n- Fix package build DataDog/dd-appsec-php#172\n- WAF upgrade to 1.6.0 and ruleset to 1.4.2 DataDog/dd-appsec-php#175\n- Upgrade deprecated actions and ruleset to 1.4.3 DataDog/dd-appsec-php#176",
+                "get": "https://pecl.php.net/get/datadog_trace-0.84.0",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "0.83.1": {
                 "version": "0.83.1",
                 "state": "stable",
