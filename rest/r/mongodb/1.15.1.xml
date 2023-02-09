@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.15.1</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>alcaeus</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2023-02-09 12:19:10</da>
+ <n>** Bug
+* [PHPC-2184] - Write concern error without message results in null pointer access
+* [PHPC-2185] - Build Windows DLLs for PHP 7.4
+** Task
+* [PHPC-2183] - Upgrade libmongoc to 1.23.2</n>
+ <f>1742236</f>
+ <g>https://pecl.php.net/get/mongodb-1.15.1</g>
+ <x xlink:href="package.1.15.1.xml"/>
+</r>
