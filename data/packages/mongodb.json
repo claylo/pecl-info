@@ -2,12 +2,22 @@
     "category": "Database",
     "deprecated": false,
     "description": "The purpose of this driver is to provide exceptionally thin glue between MongoDB\nand PHP, implementing only fundamental and performance-critical components\nnecessary to build a fully-functional MongoDB driver.",
-    "latestReleaseDate": "2022-11-23T03:55:40+00:00",
-    "latestVersion": "1.15.0",
+    "latestReleaseDate": "2023-02-09T12:19:10+00:00",
+    "latestVersion": "1.15.1",
     "license": "Apache License",
     "name": "mongodb",
     "php8Mentioned": true,
     "releases": {
+        "1.15.1": {
+            "version": "1.15.1",
+            "state": "stable",
+            "license": "Apache License",
+            "releasedBy": "alcaeus",
+            "releaseDate": "2023-02-09T12:19:10+00:00",
+            "releaseNotes": "** Bug\n* [PHPC-2184] - Write concern error without message results in null pointer access\n* [PHPC-2185] - Build Windows DLLs for PHP 7.4\n** Task\n* [PHPC-2183] - Upgrade libmongoc to 1.23.2",
+            "get": "https://pecl.php.net/get/mongodb-1.15.1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "1.15.0": {
             "version": "1.15.0",
             "state": "stable",

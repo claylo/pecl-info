@@ -18603,12 +18603,22 @@
         "category": "Database",
         "deprecated": false,
         "description": "The purpose of this driver is to provide exceptionally thin glue between MongoDB\nand PHP, implementing only fundamental and performance-critical components\nnecessary to build a fully-functional MongoDB driver.",
-        "latestReleaseDate": "2022-11-23T03:55:40+00:00",
-        "latestVersion": "1.15.0",
+        "latestReleaseDate": "2023-02-09T12:19:10+00:00",
+        "latestVersion": "1.15.1",
         "license": "Apache License",
         "name": "mongodb",
         "php8Mentioned": true,
         "releases": {
+            "1.15.1": {
+                "version": "1.15.1",
+                "state": "stable",
+                "license": "Apache License",
+                "releasedBy": "alcaeus",
+                "releaseDate": "2023-02-09T12:19:10+00:00",
+                "releaseNotes": "** Bug\n* [PHPC-2184] - Write concern error without message results in null pointer access\n* [PHPC-2185] - Build Windows DLLs for PHP 7.4\n** Task\n* [PHPC-2183] - Upgrade libmongoc to 1.23.2",
+                "get": "https://pecl.php.net/get/mongodb-1.15.1",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "1.15.0": {
                 "version": "1.15.0",
                 "state": "stable",
@@ -46823,12 +46833,22 @@
         "category": "Tools and Utilities",
         "deprecated": false,
         "description": "Zephir Parser is a code parser, delivered as a C extension for the PHP language.",
-        "latestReleaseDate": "2022-12-27T22:50:02+00:00",
-        "latestVersion": "1.5.2",
+        "latestReleaseDate": "2023-02-09T08:27:27+00:00",
+        "latestVersion": "1.5.3",
         "license": "MIT",
         "name": "zephir_parser",
         "php8Mentioned": true,
         "releases": {
+            "1.5.3": {
+                "version": "1.5.3",
+                "state": "stable",
+                "license": "MIT",
+                "releasedBy": "jeckerson",
+                "releaseDate": "2023-02-09T08:27:27+00:00",
+                "releaseNotes": "### Added\n- Enabled Thread Safe (TS) builds [#145](https://github.com/phalcon/php-zephir-parser/issues/145)",
+                "get": "https://pecl.php.net/get/zephir_parser-1.5.3",
+                "SPDX-License-Identifier": "MIT"
+            },
             "1.5.2": {
                 "version": "1.5.2",
                 "state": "stable",
