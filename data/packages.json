@@ -13029,12 +13029,22 @@
         "category": "System",
         "deprecated": false,
         "description": "Ice is a PHP framework frozen in C extension.",
-        "latestReleaseDate": "2022-06-13T17:34:10+00:00",
-        "latestVersion": "1.9.0",
+        "latestReleaseDate": "2023-02-10T23:50:25+00:00",
+        "latestVersion": "1.10.0",
         "license": "BSD-3-Clause",
         "name": "ice",
         "php8Mentioned": true,
         "releases": {
+            "1.10.0": {
+                "version": "1.10.0",
+                "state": "stable",
+                "license": "BSD-3-Clause",
+                "releasedBy": "mruz",
+                "releaseDate": "2023-02-10T23:50:25+00:00",
+                "releaseNotes": "- PHP 8.2, add support fix #309\n- Install on Alpine fix #308\n- Update zephir-lang/zephir@57c522d\n- Update zephir parser to 1.5.3\n- Fix phpunit tests",
+                "get": "https://pecl.php.net/get/ice-1.10.0",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "1.9.0": {
                 "version": "1.9.0",
                 "state": "stable",
@@ -27663,12 +27673,22 @@
         "category": "Tools and Utilities",
         "deprecated": false,
         "description": "https://developers.google.com/protocol-buffers/",
-        "latestReleaseDate": "2023-02-02T21:25:01+00:00",
-        "latestVersion": "3.22.0RC2",
+        "latestReleaseDate": "2023-02-10T20:24:05+00:00",
+        "latestVersion": "3.22.0RC3",
         "license": "BSD-3-Clause",
         "name": "protobuf",
         "php8Mentioned": false,
         "releases": {
+            "3.22.0RC3": {
+                "version": "3.22.0RC3",
+                "state": "beta",
+                "license": "BSD-3-Clause",
+                "releasedBy": "protobufpackages",
+                "releaseDate": "2023-02-10T20:24:05+00:00",
+                "releaseNotes": "* See github.com/protocolbuffers/protobuf/releases/tag/v22.0-rc-3 for release notes.",
+                "get": "https://pecl.php.net/get/protobuf-3.22.0RC3",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "3.22.0RC2": {
                 "version": "3.22.0RC2",
                 "state": "beta",

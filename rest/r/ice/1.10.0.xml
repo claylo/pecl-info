@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ice">ice</p>
+ <c>pecl.php.net</c>
+ <v>1.10.0</v>
+ <st>stable</st>
+ <l>BSD-3-Clause</l>
+ <m>mruz</m>
+ <s>Simple and fast PHP framework</s>
+ <d>Ice is a PHP framework frozen in C extension.</d>
+ <da>2023-02-10 23:50:25</da>
+ <n>- PHP 8.2, add support fix #309
+- Install on Alpine fix #308
+- Update zephir-lang/zephir@57c522d
+- Update zephir parser to 1.5.3
+- Fix phpunit tests</n>
+ <f>354208</f>
+ <g>https://pecl.php.net/get/ice-1.10.0</g>
+ <x xlink:href="package.1.10.0.xml"/>
+</r>
