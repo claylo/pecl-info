@@ -30,7 +30,7 @@ Documentation:
 ```
 <p><ul>
 <li>License: MIT</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/krb5-1.1.4">1.1.4</a> on 14 Sep 2020</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/krb5-1.1.5">1.1.5</a> on 11 Feb 2023</li>
 <li>Release data in JSON: <a href="data/packages/krb5.json">krb5.json</a></li>
 <li><a href="https://pecl.php.net/packages/krb5">krb5 on PECL</a></li>
 <li><a href="https://github.com/php/pecl-authentication-krb5">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=884&rid=&cid=1">:bar_chart: Stats</a></li>
