@@ -2,12 +2,22 @@
     "category": "Authentication",
     "deprecated": false,
     "description": "+ An interface for maintaining credential caches (KRB5CCache),\n   that can be used for authenticating against a kerberos5 realm\n+ Bindings for nearly the complete GSSAPI (RFC2744)\n+ The administrative interface (KADM5)\n+ Support for HTTP Negotiate authentication via GSSAPI\n\nDocumentation:\n+ see docs/ for the API documentation\n+ there are several pieces of example code in the examples/ directory\n+ see below for install instructions",
-    "latestReleaseDate": "2020-09-14T10:58:23+00:00",
-    "latestVersion": "1.1.4",
+    "latestReleaseDate": "2023-02-11T09:31:14+00:00",
+    "latestVersion": "1.1.5",
     "license": "MIT License",
     "name": "krb5",
     "php8Mentioned": true,
     "releases": {
+        "1.1.5": {
+            "version": "1.1.5",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "mbechler",
+            "releaseDate": "2023-02-11T09:31:14+00:00",
+            "releaseNotes": "- [BUG] Fix reference handling of KRB5NegotiateAuth constructor spn parameter",
+            "get": "https://pecl.php.net/get/krb5-1.1.5",
+            "SPDX-License-Identifier": "MIT"
+        },
         "1.1.4": {
             "version": "1.1.4",
             "state": "stable",
