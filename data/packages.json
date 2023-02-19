@@ -13029,12 +13029,22 @@
         "category": "System",
         "deprecated": false,
         "description": "Ice is a PHP framework frozen in C extension.",
-        "latestReleaseDate": "2023-02-10T23:50:25+00:00",
-        "latestVersion": "1.10.0",
+        "latestReleaseDate": "2023-02-19T17:43:33+00:00",
+        "latestVersion": "1.10.1",
         "license": "BSD-3-Clause",
         "name": "ice",
         "php8Mentioned": true,
         "releases": {
+            "1.10.1": {
+                "version": "1.10.1",
+                "state": "stable",
+                "license": "BSD-3-Clause",
+                "releasedBy": "mruz",
+                "releaseDate": "2023-02-19T17:43:33+00:00",
+                "releaseNotes": "- Arr, deprecation message fix #311\n- Loader, don't encode to utf8\n- Don't encode regex in route group count data generator\n- Passing null to parameter of type string is deprecated\n- Filter, sanitize string is deprecated\n- Model, serializable interface is deprecated fix #311\n- Auth, add login tests, logout fix\n- Composer, update zephir to 0.17.0",
+                "get": "https://pecl.php.net/get/ice-1.10.1",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "1.10.0": {
                 "version": "1.10.0",
                 "state": "stable",
