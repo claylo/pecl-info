@@ -47919,12 +47919,22 @@
         "category": "Configuration",
         "deprecated": false,
         "description": "This extension provides API for communicating with ZooKeeper service.",
-        "latestReleaseDate": "2021-06-25T15:42:17+00:00",
-        "latestVersion": "1.0.0",
+        "latestReleaseDate": "2023-02-21T03:27:49+00:00",
+        "latestVersion": "1.2.0",
         "license": "PHP",
         "name": "zookeeper",
         "php8Mentioned": true,
         "releases": {
+            "1.2.0": {
+                "version": "1.2.0",
+                "state": "alpha",
+                "license": "PHP",
+                "releasedBy": "timandes",
+                "releaseDate": "2023-02-21T03:27:49+00:00",
+                "releaseNotes": "",
+                "get": "https://pecl.php.net/get/zookeeper-1.2.0",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
             "1.0.0": {
                 "version": "1.0.0",
                 "state": "alpha",
