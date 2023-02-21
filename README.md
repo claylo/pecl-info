@@ -255,7 +255,7 @@ This extension provides API for communicating with ZooKeeper service.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/zookeeper-1.0.0">1.0.0</a> on 25 Jun 2021</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/zookeeper-1.2.0">1.2.0</a> on 21 Feb 2023</li>
 <li>Release data in JSON: <a href="data/packages/zookeeper.json">zookeeper.json</a></li>
 <li><a href="https://pecl.php.net/packages/zookeeper">zookeeper on PECL</a></li>
 <li><a href="https://secure.php.net/manual/en/book.zookeeper.php">:book: Documentation</a> &nbsp; <a href="https://github.com/php-zookeeper/php-zookeeper">:house: Home</a> &nbsp; <a href="https://github.com/php-zookeeper/php-zookeeper">:sparkles: Source</a> &nbsp; <a href="https://github.com/php-zookeeper/php-zookeeper/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=868&rid=&cid=4">:bar_chart: Stats</a></li>
