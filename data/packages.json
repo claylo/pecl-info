@@ -3075,12 +3075,22 @@
         "category": "Database",
         "deprecated": false,
         "description": "The PHP client library provides fast access to documents stored in a Couchbase Server.",
-        "latestReleaseDate": "2023-01-20T21:19:24+00:00",
-        "latestVersion": "4.1.0",
+        "latestReleaseDate": "2023-02-24T08:43:44+00:00",
+        "latestVersion": "4.1.1",
         "license": "Apache V2",
         "name": "couchbase",
         "php8Mentioned": true,
         "releases": {
+            "4.1.1": {
+                "version": "4.1.1",
+                "state": "stable",
+                "license": "Apache V2",
+                "releasedBy": "avsej",
+                "releaseDate": "2023-02-24T08:43:44+00:00",
+                "releaseNotes": "Enhancements\n------------\n\n* PCBC-869: Implemented `changePassword` for management API (#55, #56)\n* PCBC-891: Append extension version info to HELLO indentifier (#58)\n* PCBC-901: Attach error details to management exceptions (#71)\n* Increase required PHP version up to 8.0 (#76)\n\nFixes\n-----\n\n* PCBC-890: Scope must implement ScopeInterface (#57)\n* PCBC-902: Make sure that new account is usable in changePassword test (#72)\n* PCBC-899: Ensure the connection will be closed on error (#70)\n* PCBC-900: Don't set \"function\" property on exceptions. (#74)\n* PCBC-905: Don't dereference empty optional if option is not set (#75)\n* PCBC-907: assign meta to view query result (#79)\n* Fix missing header for GCC 13 (#63)\n\nNotable changes in core C++ 1.0.0-dp.4\n--------------------------------------\n\n* CXXCBC-275: Update implementation query context fields passed to the\n  server. In future versions of the server versions it will become\n  mandatory to specify context of the statement (bucket, scope and\n  collection). This change ensures that both future and current server\n  releases supported transparently.\n\n* CXXCBC-296: Force PLAIN SASL auth if TLS enabled. Using SCRAM SASL\n  mechanisms over TLS protocol is unnecesary complication, that slows\n  down initial connection bootstrap and potentially limits server\n  ability to improve security and evolve credentials management.\n\n* CXXCBC-295: The `get with projections` opration should not fail if\n  one of the the paths is missing in the document, because the\n  semantics is \"get the partial document\" and not \"get individual\n  fields\" like in `lookup_in` operation.\n\n* CXXCBC-294: In the Public API, if `get` operation requested to\n  return expiry time, zero expiry should not be interpreted as\n  absolute expiry timestamp (zero seconds from UNIX epoch), but rather\n  as absense of the expiry.\n\n* CXXCBC-291: Allow to disable mutation tokens for Key/Value mutations\n  (use `enable_mutation_tokens` in connection string).\n\n* Resource management and performance improvements:\n    * Fix tracer and meter ref-counting\n    * Replace `minstd_rand` with `mt19937_64`, as it gives less\n      collisions.\n    * CXXCBC-285: Write to sockets from IO threads, to eliminate\n      potential race conditions.\n    * Eliminate looping transform in `mcbp_parser::next`.\n    * CXXCBC-205: Use thread-local UUID generator.\n    * CXXCBC-293: Other performance improvements:\n        * Speed up UUID serialization to string\n        * Don't allow to copy `mcbp_message` objects\n        * Avoid extra allocation and initialization\n\n* Build system fixes:\n    * Fix build with gcc-13\n    * Fix gcc 12 issue\n\n* Enhancements:\n    * Include OS name in SDK identifier",
+                "get": "https://pecl.php.net/get/couchbase-4.1.1",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "4.1.0": {
                 "version": "4.1.0",
                 "state": "stable",
@@ -32462,12 +32472,22 @@
         "category": "Database",
         "deprecated": false,
         "description": "PHP client for Yandex ClickHouse?Based on ClickHouse C++ client.",
-        "latestReleaseDate": "2019-03-28T08:08:24+00:00",
-        "latestVersion": "0.1.0",
+        "latestReleaseDate": "2023-02-24T09:48:45+00:00",
+        "latestVersion": "0.1.1",
         "license": "PHP3.01",
         "name": "SeasClick",
         "php8Mentioned": false,
         "releases": {
+            "0.1.1": {
+                "version": "0.1.1",
+                "state": "stable",
+                "license": "PHP3.01",
+                "releasedBy": "neeke",
+                "releaseDate": "2023-02-24T09:48:45+00:00",
+                "releaseNotes": "- Second version for pecl.net",
+                "get": "https://pecl.php.net/get/SeasClick-0.1.1",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
             "0.1.0": {
                 "version": "0.1.0",
                 "state": "stable",
