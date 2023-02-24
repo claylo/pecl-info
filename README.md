@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (142)
+## Relevant Extensions (143)
 
 ### Authentication (2)
 
@@ -263,7 +263,7 @@ This extension provides API for communicating with ZooKeeper service.
 </details>
 
 ***
-### Database (15)
+### Database (16)
 
 <details><summary>couchbase&nbsp; :eight:</summary>
 <p>Couchbase Server PHP extension</p>
@@ -273,7 +273,7 @@ The PHP client library provides fast access to documents stored in a Couchbase S
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/couchbase-4.1.0">4.1.0</a> on 20 Jan 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/couchbase-4.1.1">4.1.1</a> on 24 Feb 2023</li>
 <li>Release data in JSON: <a href="data/packages/couchbase.json">couchbase.json</a></li>
 <li><a href="https://pecl.php.net/packages/couchbase">couchbase on PECL</a></li>
 <li><a href="https://docs.couchbase.com/php-sdk/current/hello-world/start-using-sdk.html">:book: Documentation</a> &nbsp; <a href="https://docs.couchbase.com/php-sdk/current/project-docs/sdk-release-notes.html">:house: Home</a> &nbsp; <a href="https://github.com/couchbase/php-couchbase">:sparkles: Source</a> &nbsp; <a href="https://issues.couchbase.com/browse/PCBC">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=922&rid=&cid=7">:bar_chart: Stats</a></li>
@@ -522,6 +522,20 @@ This extension provides an API for communicating with Redis servers.
 <li>Release data in JSON: <a href="data/packages/redis.json">redis.json</a></li>
 <li><a href="https://pecl.php.net/packages/redis">redis on PECL</a></li>
 <li><a href="https://github.com/phpredis/phpredis/#readme">:book: Documentation</a> &nbsp; <a href="https://github.com/phpredis/phpredis/">:house: Home</a> &nbsp; <a href="https://github.com/phpredis/phpredis/">:sparkles: Source</a> &nbsp; <a href="https://github.com/phpredis/phpredis/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=935&rid=&cid=7">:bar_chart: Stats</a></li>
+</ul></p><hr />
+</details>
+<details><summary>SeasClick</summary>
+<p>An Yandex ClickHouse client driven extension for PHP.</p>
+
+```
+PHP client for Yandex ClickHouse?Based on ClickHouse C++ client.
+```
+<p><ul>
+<li>License: PHP-3.01</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/SeasClick-0.1.1">0.1.1</a> on 24 Feb 2023</li>
+<li>Release data in JSON: <a href="data/packages/seasclick.json">seasclick.json</a></li>
+<li><a href="https://pecl.php.net/packages/SeasClick">SeasClick on PECL</a></li>
+<li><a href="https://github.com/SeasX/SeasClick">:house: Home</a> &nbsp; <a href="https://github.com/SeasX/SeasClick.git">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1035&rid=&cid=7">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>sqlsrv&nbsp; :eight:</summary>

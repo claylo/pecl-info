@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.72.0](https://github.com/claylo/pecl-info/compare/v1.71.0...v1.72.0) (2023-02-24)
+
+
+### Added
+
+* add SeasClick 0.1.1, couchbase 4.1.1 releases ([a16744b](https://github.com/claylo/pecl-info/commit/a16744b228d2cded94d2bd036168d5ce29f04df3))
+
 ## [1.71.0](https://github.com/claylo/pecl-info/compare/v1.70.0...v1.71.0) (2023-02-21)
 
 
