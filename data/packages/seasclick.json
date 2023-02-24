@@ -2,12 +2,22 @@
     "category": "Database",
     "deprecated": false,
     "description": "PHP client for Yandex ClickHouse?Based on ClickHouse C++ client.",
-    "latestReleaseDate": "2019-03-28T08:08:24+00:00",
-    "latestVersion": "0.1.0",
+    "latestReleaseDate": "2023-02-24T09:48:45+00:00",
+    "latestVersion": "0.1.1",
     "license": "PHP3.01",
     "name": "SeasClick",
     "php8Mentioned": false,
     "releases": {
+        "0.1.1": {
+            "version": "0.1.1",
+            "state": "stable",
+            "license": "PHP3.01",
+            "releasedBy": "neeke",
+            "releaseDate": "2023-02-24T09:48:45+00:00",
+            "releaseNotes": "- Second version for pecl.net",
+            "get": "https://pecl.php.net/get/SeasClick-0.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
         "0.1.0": {
             "version": "0.1.0",
             "state": "stable",
