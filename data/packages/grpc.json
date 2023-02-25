@@ -2,12 +2,82 @@
     "category": "Networking",
     "deprecated": false,
     "description": "Remote Procedure Calls (RPCs) provide a useful abstraction for building distributed applications and services. The libraries in this repository provide a concrete implementation of the gRPC protocol, layered over HTTP/2. These libraries enable communication between clients and servers using any combination of the supported languages.",
-    "latestReleaseDate": "2023-01-23T18:42:32+00:00",
-    "latestVersion": "1.52.0RC1",
+    "latestReleaseDate": "2023-02-25T05:03:02+00:00",
+    "latestVersion": "1.53.0RC1",
     "license": "Apache 2.0",
     "name": "gRPC",
     "php8Mentioned": true,
     "releases": {
+        "1.53.0RC1": {
+            "version": "1.53.0RC1",
+            "state": "beta",
+            "license": "Apache 2.0",
+            "releasedBy": "stanleycheung",
+            "releaseDate": "2023-02-25T05:03:02+00:00",
+            "releaseNotes": "- gRPC Core 1.53.0 update",
+            "get": "https://pecl.php.net/get/grpc-1.53.0RC1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.47.4": {
+            "version": "1.47.4",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "stanleycheung",
+            "releaseDate": "2023-02-25T04:51:36+00:00",
+            "releaseNotes": "- gRPC Core 1.47.4 update",
+            "get": "https://pecl.php.net/get/grpc-1.47.4",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.48.4": {
+            "version": "1.48.4",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "stanleycheung",
+            "releaseDate": "2023-02-25T04:38:45+00:00",
+            "releaseNotes": "- gRPC Core 1.48.4 update",
+            "get": "https://pecl.php.net/get/grpc-1.48.4",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.49.3": {
+            "version": "1.49.3",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "stanleycheung",
+            "releaseDate": "2023-02-25T04:31:18+00:00",
+            "releaseNotes": "- gRPC Core 1.49.3 update",
+            "get": "https://pecl.php.net/get/grpc-1.49.3",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.50.2": {
+            "version": "1.50.2",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "stanleycheung",
+            "releaseDate": "2023-02-25T04:21:07+00:00",
+            "releaseNotes": "- gRPC Core 1.50.2 update",
+            "get": "https://pecl.php.net/get/grpc-1.50.2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.51.3": {
+            "version": "1.51.3",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "stanleycheung",
+            "releaseDate": "2023-02-25T04:08:17+00:00",
+            "releaseNotes": "- gRPC Core 1.51.3 update",
+            "get": "https://pecl.php.net/get/grpc-1.51.3",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.52.1": {
+            "version": "1.52.1",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "stanleycheung",
+            "releaseDate": "2023-02-25T03:49:25+00:00",
+            "releaseNotes": "- gRPC Core 1.52.1 update",
+            "get": "https://pecl.php.net/get/grpc-1.52.1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "1.52.0RC1": {
             "version": "1.52.0RC1",
             "state": "beta",

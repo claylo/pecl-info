@@ -1,4 +1,32 @@
 {
+    "1.53.0RC1": {
+        "version": "1.53.0RC1",
+        "state": "beta"
+    },
+    "1.47.4": {
+        "version": "1.47.4",
+        "state": "stable"
+    },
+    "1.48.4": {
+        "version": "1.48.4",
+        "state": "stable"
+    },
+    "1.49.3": {
+        "version": "1.49.3",
+        "state": "stable"
+    },
+    "1.50.2": {
+        "version": "1.50.2",
+        "state": "stable"
+    },
+    "1.51.3": {
+        "version": "1.51.3",
+        "state": "stable"
+    },
+    "1.52.1": {
+        "version": "1.52.1",
+        "state": "stable"
+    },
     "1.52.0RC1": {
         "version": "1.52.0RC1",
         "state": "beta"
