@@ -1283,7 +1283,7 @@ A library and extension that provides objects for scientific computing in PHP.
 ```
 <p><ul>
 <li>License: MIT</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/Tensor-3.0.2">3.0.2</a> on 02 Apr 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/Tensor-3.0.3">3.0.3</a> on 27 Feb 2023</li>
 <li>Release data in JSON: <a href="data/packages/tensor.json">tensor.json</a></li>
 <li><a href="https://pecl.php.net/packages/Tensor">Tensor on PECL</a></li>
 <li><a href="https://rubixml.com">:house: Home</a> &nbsp; <a href="https://github.com/RubixML/Tensor">:sparkles: Source</a> &nbsp; <a href="https://github.com/RubixML/Tensor/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1056&rid=&cid=15">:bar_chart: Stats</a></li>
