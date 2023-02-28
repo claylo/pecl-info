@@ -616,7 +616,7 @@ Provides bindings for the unmaintained libmcrypt.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/mcrypt-1.0.5">1.0.5</a> on 23 May 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/mcrypt-1.0.6">1.0.6</a> on 28 Feb 2023</li>
 <li>Release data in JSON: <a href="data/packages/mcrypt.json">mcrypt.json</a></li>
 <li><a href="https://pecl.php.net/packages/mcrypt">mcrypt on PECL</a></li>
 <li><a href="http://www.php.net/mcrypt">:house: Home</a> &nbsp; <a href="https://github.com/php/pecl-encryption-mcrypt">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-encryption-mcrypt/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1003&rid=&cid=6">:bar_chart: Stats</a></li>
