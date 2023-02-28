@@ -2,12 +2,22 @@
     "category": "Encryption",
     "deprecated": false,
     "description": "Provides bindings for the unmaintained libmcrypt.",
-    "latestReleaseDate": "2022-05-23T10:41:11+00:00",
-    "latestVersion": "1.0.5",
+    "latestReleaseDate": "2023-02-28T16:43:06+00:00",
+    "latestVersion": "1.0.6",
     "license": "PHP License",
     "name": "mcrypt",
     "php8Mentioned": true,
     "releases": {
+        "1.0.6": {
+            "version": "1.0.6",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "derick",
+            "releaseDate": "2023-02-28T16:43:06+00:00",
+            "releaseNotes": "- Make release to advertise PHP 8.2 support, which it already had.",
+            "get": "https://pecl.php.net/get/mcrypt-1.0.6",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
         "1.0.5": {
             "version": "1.0.5",
             "state": "stable",
