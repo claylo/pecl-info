@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>4.8.13</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Coroutine-based concurrency library for PHP</s>
+ <d>Coroutine-based concurrency library for PHP
+        - event-driven
+        - coroutines
+        - asynchronous non-blocking
+        - built-in tcp/http/websocket/http2 server
+        - coroutine tcp/http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - automatically replace blocking functions to non-blocking
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2023-03-02 13:01:30</da>
+ <n>- Fixed parameter compatibility of Coroutine::printBackTrace() and debug_print_backtrace()
+- Fixed parsing length is wrong when the websocket server enable http2 and websocket protocols at the same time
+- Refactor curl native to support a curl handle with multiple sockets, such as the curl ftp protocol
+- Support for configuring http2 default settings
+- Improved websocket client, upgrade header contains websocket instead of equal
+- Optimized http client, disable keep-alive when server sends connection close
+- Optimized http client, prohibit adding the Accept-Encoding header without compression library
+- Improved debug info, set password as sensitive parameter under PHP-8.2
+- Fixed memory leak when send_yield occurs in Server::send(), Http\Response::end(), Http\Response::write(), WebSocket/Server::push()
+- Fixed crash when using table::getMemorySize() before add columns
+- Support HTTP Range Requests</n>
+ <f>2106874</f>
+ <g>https://pecl.php.net/get/swoole-4.8.13</g>
+ <x xlink:href="package.4.8.13.xml"/>
+</r>

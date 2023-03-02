@@ -1,13 +1,23 @@
 {
     "category": "Event",
     "deprecated": false,
-    "description": "Coroutine-based concurrency library for PHP\n        - event-driven\n        - coroutines\n        - asynchronous non-blocking\n        - built-in tcp/http/websocket/http2 server\n        - coroutine tcp/http/websocket client\n        - coroutine mysql client\n        - coroutine redis client\n        - coroutine read/write file system\n        - coroutine dns lookup\n        - automatically replace blocking functions to non-blocking\n        - support IPv4/IPv6/UnixSocket/TCP/UDP\n        - support SSL/TLS encrypted transmission",
-    "latestReleaseDate": "2022-11-07T06:07:31+00:00",
-    "latestVersion": "5.0.1",
+    "description": "Event-driven asynchronous and concurrent networking engine with high performance for PHP.\n        - event-driven\n        - coroutine\n        - asynchronous non-blocking\n        - multi-thread reactor\n        - multi-process worker\n        - multi-protocol\n        - millisecond timer\n        - built-in tcp/http/websocket/http2 server\n        - coroutine tcp/http/websocket client\n        - coroutine mysql client\n        - coroutine redis client\n        - coroutine read/write file system\n        - coroutine dns lookup\n        - support IPv4/IPv6/UnixSocket/TCP/UDP\n        - support SSL/TLS encrypted transmission",
+    "latestReleaseDate": "2023-03-02T13:01:30+00:00",
+    "latestVersion": "4.8.13",
     "license": "Apache2.0",
     "name": "swoole",
     "php8Mentioned": true,
     "releases": {
+        "4.8.13": {
+            "version": "4.8.13",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "tianfenghan",
+            "releaseDate": "2023-03-02T13:01:30+00:00",
+            "releaseNotes": "- Fixed parameter compatibility of Coroutine::printBackTrace() and debug_print_backtrace()\n- Fixed parsing length is wrong when the websocket server enable http2 and websocket protocols at the same time\n- Refactor curl native to support a curl handle with multiple sockets, such as the curl ftp protocol\n- Support for configuring http2 default settings\n- Improved websocket client, upgrade header contains websocket instead of equal\n- Optimized http client, disable keep-alive when server sends connection close\n- Optimized http client, prohibit adding the Accept-Encoding header without compression library\n- Improved debug info, set password as sensitive parameter under PHP-8.2\n- Fixed memory leak when send_yield occurs in Server::send(), Http\\Response::end(), Http\\Response::write(), WebSocket/Server::push()\n- Fixed crash when using table::getMemorySize() before add columns\n- Support HTTP Range Requests",
+            "get": "https://pecl.php.net/get/swoole-4.8.13",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "5.0.1": {
             "version": "5.0.1",
             "state": "stable",
@@ -1749,6 +1759,6 @@
             "SPDX-License-Identifier": "Apache-2.0"
         }
     },
-    "summary": "Coroutine-based concurrency library for PHP",
+    "summary": "Event-driven asynchronous and concurrent networking engine with high performance for PHP.",
     "SPDX-License-Identifier": "Apache-2.0"
 }
