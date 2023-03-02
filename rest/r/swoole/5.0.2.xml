@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>5.0.2</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in tcp/http/websocket/http2 server
+        - coroutine tcp/http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2023-03-02 13:07:07</da>
+ <n>- Support for configuring http2 default settings
+- Support xdebug under 8.1 or higher
+- Refactor curl native to support a curl handle with multiple sockets, such as the curl ftp protocol
+- Added $who parameter to Process::setPriority/getPriority
+- Added Coroutine\Socket::getBoundCid()
+- Adjusted the default value of Coroutine\Socket::recvLine/recvWithBuffer $length parameter to 65536
+- Refactor cross-coroutine shutdown feature to make memory release safer and solve the crash problem when a fatal error occurs
+- Added socket property for Coroutine\Client, Coroutine\Http\Client, Coroutine\Http2\Client, allow direct operation of socket resources
+- Support Http\Server to send empty file to http2 client
+- Support graceful restart for Coroutine\Http\Server. When server shuting down, the client connection will no longer be forcibly closed, and only stop listening to new requests
+- Added pcntl_rfork pcntl_sigwaitinfo to list of unsafe function, will be closed when coroutine container starts
+- Refactor Server process manager with base mode, the behavior of shutdown and reload will be consistent with base or process mode</n>
+ <f>2060160</f>
+ <g>https://pecl.php.net/get/swoole-5.0.2</g>
+ <x xlink:href="package.5.0.2.xml"/>
+</r>
