@@ -8097,12 +8097,22 @@
         "category": "Benchmarking",
         "deprecated": false,
         "description": "Calls a user-defined callback when a one-shot or periodic timer expires. Also a sampling profiler backend, which aggregates backtraces collected by a periodic timer.",
-        "latestReleaseDate": "2022-05-07T15:23:16+00:00",
-        "latestVersion": "1.0.4",
+        "latestReleaseDate": "2023-03-02T17:56:14+00:00",
+        "latestVersion": "1.1.0",
         "license": "Apache 2.0",
         "name": "excimer",
         "php8Mentioned": true,
         "releases": {
+            "1.1.0": {
+                "version": "1.1.0",
+                "state": "stable",
+                "license": "Apache 2.0",
+                "releasedBy": "krinkle",
+                "releaseDate": "2023-03-02T17:56:14+00:00",
+                "releaseNotes": "- Fix leading semi-colon in ExcimerLog::formatCollapsed output\n- Change ExcimerLog::formatCollapsed to mark truncated frames\n- Add support for PHP 8.2\n- Add ExcimerLog::getSpeedscopeData for Speedscope support",
+                "get": "https://pecl.php.net/get/excimer-1.1.0",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "1.0.4": {
                 "version": "1.0.4",
                 "state": "stable",
@@ -35592,13 +35602,23 @@
     "swoole": {
         "category": "Event",
         "deprecated": false,
-        "description": "Event-driven asynchronous and concurrent networking engine with high performance for PHP.\n        - event-driven\n        - coroutine\n        - asynchronous non-blocking\n        - multi-thread reactor\n        - multi-process worker\n        - multi-protocol\n        - millisecond timer\n        - built-in tcp/http/websocket/http2 server\n        - coroutine tcp/http/websocket client\n        - coroutine mysql client\n        - coroutine redis client\n        - coroutine read/write file system\n        - coroutine dns lookup\n        - support IPv4/IPv6/UnixSocket/TCP/UDP\n        - support SSL/TLS encrypted transmission",
-        "latestReleaseDate": "2023-03-02T13:01:30+00:00",
-        "latestVersion": "4.8.13",
+        "description": "Coroutine-based concurrency library for PHP\n        - event-driven\n        - coroutines\n        - asynchronous non-blocking\n        - built-in tcp/http/websocket/http2 server\n        - coroutine tcp/http/websocket client\n        - coroutine mysql client\n        - coroutine redis client\n        - coroutine read/write file system\n        - coroutine dns lookup\n        - automatically replace blocking functions to non-blocking\n        - support IPv4/IPv6/UnixSocket/TCP/UDP\n        - support SSL/TLS encrypted transmission",
+        "latestReleaseDate": "2023-03-02T13:07:07+00:00",
+        "latestVersion": "5.0.2",
         "license": "Apache2.0",
         "name": "swoole",
         "php8Mentioned": true,
         "releases": {
+            "5.0.2": {
+                "version": "5.0.2",
+                "state": "stable",
+                "license": "Apache2.0",
+                "releasedBy": "tianfenghan",
+                "releaseDate": "2023-03-02T13:07:07+00:00",
+                "releaseNotes": "- Support for configuring http2 default settings\n- Support xdebug under 8.1 or higher\n- Refactor curl native to support a curl handle with multiple sockets, such as the curl ftp protocol\n- Added $who parameter to Process::setPriority/getPriority\n- Added Coroutine\\Socket::getBoundCid()\n- Adjusted the default value of Coroutine\\Socket::recvLine/recvWithBuffer $length parameter to 65536\n- Refactor cross-coroutine shutdown feature to make memory release safer and solve the crash problem when a fatal error occurs\n- Added socket property for Coroutine\\Client, Coroutine\\Http\\Client, Coroutine\\Http2\\Client, allow direct operation of socket resources\n- Support Http\\Server to send empty file to http2 client\n- Support graceful restart for Coroutine\\Http\\Server. When server shuting down, the client connection will no longer be forcibly closed, and only stop listening to new requests\n- Added pcntl_rfork pcntl_sigwaitinfo to list of unsafe function, will be closed when coroutine container starts\n- Refactor Server process manager with base mode, the behavior of shutdown and reload will be consistent with base or process mode",
+                "get": "https://pecl.php.net/get/swoole-5.0.2",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "4.8.13": {
                 "version": "4.8.13",
                 "state": "stable",
@@ -37350,7 +37370,7 @@
                 "SPDX-License-Identifier": "Apache-2.0"
             }
         },
-        "summary": "Event-driven asynchronous and concurrent networking engine with high performance for PHP.",
+        "summary": "Coroutine-based concurrency library for PHP",
         "SPDX-License-Identifier": "Apache-2.0"
     },
     "swoole_serialize": {

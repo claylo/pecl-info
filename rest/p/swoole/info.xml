@@ -5,21 +5,18 @@
  <c>pecl.php.net</c>
  <ca xlink:href="/rest/c/Event">Event</ca>
  <l>Apache2.0</l>
- <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
- <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+ <s>Coroutine-based concurrency library for PHP</s>
+ <d>Coroutine-based concurrency library for PHP
         - event-driven
-        - coroutine
+        - coroutines
         - asynchronous non-blocking
-        - multi-thread reactor
-        - multi-process worker
-        - multi-protocol
-        - millisecond timer
         - built-in tcp/http/websocket/http2 server
         - coroutine tcp/http/websocket client
         - coroutine mysql client
         - coroutine redis client
         - coroutine read/write file system
         - coroutine dns lookup
+        - automatically replace blocking functions to non-blocking
         - support IPv4/IPv6/UnixSocket/TCP/UDP
         - support SSL/TLS encrypted transmission</d>
  <r xlink:href="/rest/r/swoole"/>
