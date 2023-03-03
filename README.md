@@ -504,7 +504,7 @@ Documents: https://mdref.m6w6.name/pq
 ```
 <p><ul>
 <li>License: BSD-2-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/pq-2.2.0">2.2.0</a> on 30 Aug 2021</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/pq-2.2.1">2.2.1</a> on 03 Mar 2023</li>
 <li>Release data in JSON: <a href="data/packages/pq.json">pq.json</a></li>
 <li><a href="https://pecl.php.net/packages/pq">pq on PECL</a></li>
 <li><a href="https://mdref.m6w6.name/pq">:book: Documentation</a> &nbsp; <a href="https://github.com/m6w6/ext-pq">:house: Home</a> &nbsp; <a href="https://github.com/m6w6/ext-pq">:sparkles: Source</a> &nbsp; <a href="https://github.com/m6w6/ext-pq/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=941&rid=&cid=7">:bar_chart: Stats</a></li>

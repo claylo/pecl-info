@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.83.0](https://github.com/claylo/pecl-info/compare/v1.82.0...v1.83.0) (2023-03-03)
+
+
+### Added
+
+* add pq 2.2.1 release ([7119b8b](https://github.com/claylo/pecl-info/commit/7119b8b9e63aaf2a44d045ab2b7081e0f78dfc94))
+
 ## [1.82.0](https://github.com/claylo/pecl-info/compare/v1.81.0...v1.82.0) (2023-03-02)
 
 
