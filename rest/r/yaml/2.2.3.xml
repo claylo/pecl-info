@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/yaml">yaml</p>
+ <c>pecl.php.net</c>
+ <v>2.2.3</v>
+ <st>stable</st>
+ <l>MIT</l>
+ <m>bd808</m>
+ <s>YAML-1.1 parser and emitter</s>
+ <d>Support for YAML 1.1 (YAML Ain't Markup Language) serialization using the
+  LibYAML library.</d>
+ <da>2023-03-05 18:06:58</da>
+ <n>Bugs Fixed:
+- Fixed memory release on error handling (negram)
+- Fix test for PHP 8.2 (andypost)
+- #65: Fix #65 yaml_parse_url method not working (remicollet)</n>
+ <f>41276</f>
+ <g>https://pecl.php.net/get/yaml-2.2.3</g>
+ <x xlink:href="package.2.2.3.xml"/>
+</r>

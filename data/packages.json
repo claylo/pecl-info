@@ -46076,12 +46076,22 @@
         "category": "File Formats",
         "deprecated": false,
         "description": "Support for YAML 1.1 (YAML Ain't Markup Language) serialization using the\n  LibYAML library.",
-        "latestReleaseDate": "2021-10-24T22:55:24+00:00",
-        "latestVersion": "2.2.2",
+        "latestReleaseDate": "2023-03-05T18:06:58+00:00",
+        "latestVersion": "2.2.3",
         "license": "MIT",
         "name": "yaml",
         "php8Mentioned": true,
         "releases": {
+            "2.2.3": {
+                "version": "2.2.3",
+                "state": "stable",
+                "license": "MIT",
+                "releasedBy": "bd808",
+                "releaseDate": "2023-03-05T18:06:58+00:00",
+                "releaseNotes": "Bugs Fixed:\n- Fixed memory release on error handling (negram)\n- Fix test for PHP 8.2 (andypost)\n- #65: Fix #65 yaml_parse_url method not working (remicollet)",
+                "get": "https://pecl.php.net/get/yaml-2.2.3",
+                "SPDX-License-Identifier": "MIT"
+            },
             "2.2.2": {
                 "version": "2.2.2",
                 "state": "stable",
