@@ -463,7 +463,7 @@ The Microsoft Drivers for PHP for SQL Server are PHP extensions that allow for t
 ```
 <p><ul>
 <li>License: MIT</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/pdo_sqlsrv-5.11.0beta1">5.11.0beta1</a> on 27 Jan 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/pdo_sqlsrv-5.11.0">5.11.0</a> on 07 Mar 2023</li>
 <li>Release data in JSON: <a href="data/packages/pdo_sqlsrv.json">pdo_sqlsrv.json</a></li>
 <li><a href="https://pecl.php.net/packages/pdo_sqlsrv">pdo_sqlsrv on PECL</a></li>
 <li><a href="https://github.com/Microsoft/msphpsql">:house: Home</a> &nbsp; <a href="https://github.com/Microsoft/msphpsql">:sparkles: Source</a> &nbsp; <a href="https://github.com/Microsoft/msphpsql/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=901&rid=&cid=7">:bar_chart: Stats</a></li>
@@ -547,7 +547,7 @@ The Microsoft Drivers for PHP for SQL Server are PHP extensions that allow for t
 ```
 <p><ul>
 <li>License: MIT</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/sqlsrv-5.11.0beta1">5.11.0beta1</a> on 27 Jan 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/sqlsrv-5.11.0">5.11.0</a> on 07 Mar 2023</li>
 <li>Release data in JSON: <a href="data/packages/sqlsrv.json">sqlsrv.json</a></li>
 <li><a href="https://pecl.php.net/packages/sqlsrv">sqlsrv on PECL</a></li>
 <li><a href="https://msdn.microsoft.com/en-us/library/cc296152(v=sql.105).aspx">:book: Documentation</a> &nbsp; <a href="https://github.com/Microsoft/msphpsql">:house: Home</a> &nbsp; <a href="https://github.com/Microsoft/msphpsql">:sparkles: Source</a> &nbsp; <a href="https://github.com/Microsoft/msphpsql/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=900&rid=&cid=7">:bar_chart: Stats</a></li>
