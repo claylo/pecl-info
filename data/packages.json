@@ -24409,12 +24409,22 @@
         "category": "Database",
         "deprecated": false,
         "description": "The Microsoft Drivers for PHP for SQL Server are PHP extensions that allow for the reading and writing of SQL Server data from within PHP scripts. The SQLSRV extension provides a procedural interface while the PDO_SQLSRV extension implements PDO for accessing data in all editions of SQL Server 2012 and later (including Azure SQL DB). These drivers rely on the Microsoft ODBC Driver for SQL Server to handle the low-level communication with SQL Server.\n*This package contains only the PDO_SQLSRV driver.*",
-        "latestReleaseDate": "2023-01-27T02:03:38+00:00",
-        "latestVersion": "5.11.0beta1",
+        "latestReleaseDate": "2023-03-07T01:57:33+00:00",
+        "latestVersion": "5.11.0",
         "license": "The MIT License (MIT)",
         "name": "pdo_sqlsrv",
         "php8Mentioned": true,
         "releases": {
+            "5.11.0": {
+                "version": "5.11.0",
+                "state": "stable",
+                "license": "The MIT License (MIT)",
+                "releasedBy": "mbar",
+                "releaseDate": "2023-03-07T01:57:33+00:00",
+                "releaseNotes": "[Added]\n- Support for PHP 8.2\n[Removed]\n- Support for PHP 7.4\n[Fixed]\n- Pull request [#1408](https://github.com/microsoft/msphpsql/pull/1408) - Fixed right truncation issue, unit test added by talkinnl\n[Limitations]\n- No support for inout / output params when using sql_variant type\n- No support for inout / output params when formatting decimal values\n- In Linux and macOS, setlocale() only takes effect if it is invoked before the first connection. Attempting to set the locale after connecting will not work\n- Always Encrypted requires [MS ODBC Driver 17+](https://docs.microsoft.com/sql/connect/odbc/linux-mac/installing-the-microsoft-odbc-driver-for-sql-server)\n  - Only Windows Certificate Store and Azure Key Vault are supported. Custom Keystores are not yet supported\n  - Issue [#716](https://github.com/Microsoft/msphpsql/issues/716) - With Always Encrypted enabled, named parameters in subqueries are not supported\n  - Issue [#1050](https://github.com/microsoft/msphpsql/issues/1050) - With Always Encrypted enabled, insertion requires the column list for any tables with identity columns\n  - [Always Encrypted limitations](https://docs.microsoft.com/sql/connect/php/using-always-encrypted-php-drivers#limitations-of-the-php-drivers-when-using-always-encrypted)\n[Known Issues]\n- This preview release requires ODBC Driver 17.4.2 or above. Otherwise, a warning about failing to set an attribute may be suppressed when using an older ODBC driver.\n- Connection pooling on Linux or macOS is not recommended with [unixODBC](http://www.unixodbc.org/) < 2.3.7\n- When pooling is enabled in Linux or macOS\n  - unixODBC <= 2.3.4 (Linux and macOS) might not return proper diagnostic information, such as error messages, warnings and informative messages\n  - due to this unixODBC bug, fetch large data (such as xml, binary) as streams as a workaround. See the examples [here](https://github.com/Microsoft/msphpsql/wiki/Features#pooling)",
+                "get": "https://pecl.php.net/get/pdo_sqlsrv-5.11.0",
+                "SPDX-License-Identifier": "MIT"
+            },
             "5.11.0beta1": {
                 "version": "5.11.0beta1",
                 "state": "beta",
@@ -34063,12 +34073,22 @@
         "category": "Database",
         "deprecated": false,
         "description": "The Microsoft Drivers for PHP for SQL Server are PHP extensions that allow for the reading and writing of SQL Server data from within PHP scripts. The SQLSRV extension provides a procedural interface while the PDO_SQLSRV extension implements PDO for accessing data in all editions of SQL Server 2012 and later (including Azure SQL DB). These drivers rely on the Microsoft ODBC Driver for SQL Server to handle the low-level communication with SQL Server.\n*This package contains only the SQLSRV driver.*",
-        "latestReleaseDate": "2023-01-27T02:02:40+00:00",
-        "latestVersion": "5.11.0beta1",
+        "latestReleaseDate": "2023-03-07T01:56:10+00:00",
+        "latestVersion": "5.11.0",
         "license": "The MIT License (MIT)",
         "name": "sqlsrv",
         "php8Mentioned": true,
         "releases": {
+            "5.11.0": {
+                "version": "5.11.0",
+                "state": "stable",
+                "license": "The MIT License (MIT)",
+                "releasedBy": "mbar",
+                "releaseDate": "2023-03-07T01:56:10+00:00",
+                "releaseNotes": "[Added]\n- Support for PHP 8.2\n[Removed]\n- Support for PHP 7.4\n[Limitations]\n- No support for inout / output params when using sql_variant type\n- No support for inout / output params when formatting decimal values\n- In Linux and macOS, setlocale() only takes effect if it is invoked before the first connection. Attempting to set the locale after connecting will not work\n- Always Encrypted requires [MS ODBC Driver 17+](https://docs.microsoft.com/sql/connect/odbc/linux-mac/installing-the-microsoft-odbc-driver-for-sql-server)\n  - Only Windows Certificate Store and Azure Key Vault are supported. Custom Keystores are not yet supported\n  - Issue [#716](https://github.com/Microsoft/msphpsql/issues/716) - With Always Encrypted enabled, named parameters in subqueries are not supported\n  - Issue [#1050](https://github.com/microsoft/msphpsql/issues/1050) - With Always Encrypted enabled, insertion requires the column list for any tables with identity columns\n  - [Always Encrypted limitations](https://docs.microsoft.com/sql/connect/php/using-always-encrypted-php-drivers#limitations-of-the-php-drivers-when-using-always-encrypted)\n[Known Issues]\n- This preview release requires ODBC Driver 17.4.2 or above. Otherwise, a warning about failing to set an attribute may be suppressed when using an older ODBC driver.\n- Connection pooling on Linux or macOS is not recommended with [unixODBC](http://www.unixodbc.org/) < 2.3.7\n- When pooling is enabled in Linux or macOS\n  - unixODBC <= 2.3.4 (Linux and macOS) might not return proper diagnostic information, such as error messages, warnings and informative messages\n  - due to this unixODBC bug, fetch large data (such as xml, binary) as streams as a workaround. See the examples [here](https://github.com/Microsoft/msphpsql/wiki/Features#pooling)",
+                "get": "https://pecl.php.net/get/sqlsrv-5.11.0",
+                "SPDX-License-Identifier": "MIT"
+            },
             "5.11.0beta1": {
                 "version": "5.11.0beta1",
                 "state": "beta",
