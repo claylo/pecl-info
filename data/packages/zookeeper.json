@@ -2,12 +2,22 @@
     "category": "Configuration",
     "deprecated": false,
     "description": "This extension provides API for communicating with ZooKeeper service.",
-    "latestReleaseDate": "2023-02-21T03:27:49+00:00",
-    "latestVersion": "1.2.0",
+    "latestReleaseDate": "2023-03-09T01:24:20+00:00",
+    "latestVersion": "1.2.1",
     "license": "PHP",
     "name": "zookeeper",
     "php8Mentioned": true,
     "releases": {
+        "1.2.1": {
+            "version": "1.2.1",
+            "state": "alpha",
+            "license": "PHP",
+            "releasedBy": "timandes",
+            "releaseDate": "2023-03-09T01:24:20+00:00",
+            "releaseNotes": "Bugs:\n- Fix compilation error with PHP 7.0 (Thanks to erikn69, GH PR #57)",
+            "get": "https://pecl.php.net/get/zookeeper-1.2.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
         "1.2.0": {
             "version": "1.2.0",
             "state": "alpha",
