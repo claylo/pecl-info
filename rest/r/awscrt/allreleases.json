@@ -1,4 +1,8 @@
 {
+    "1.0.10": {
+        "version": "1.0.10",
+        "state": "devel"
+    },
     "1.0.9": {
         "version": "1.0.9",
         "state": "devel"

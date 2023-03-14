@@ -1904,12 +1904,22 @@
         "category": "Tools and Utilities",
         "deprecated": false,
         "description": "AWS Common Runtime provides a set of low level tools\n  as network protocols and authentication used by the AWSSDK for\n  PHP to provide high level API to access AWS\n  services.",
-        "latestReleaseDate": "2022-02-14T23:01:24+00:00",
-        "latestVersion": "1.0.9",
+        "latestReleaseDate": "2023-03-13T21:18:44+00:00",
+        "latestVersion": "1.0.10",
         "license": "Apache\n  License Version 2.0",
         "name": "awscrt",
         "php8Mentioned": false,
         "releases": {
+            "1.0.10": {
+                "version": "1.0.10",
+                "state": "devel",
+                "license": "Apache License Version 2.0",
+                "releasedBy": "sdavtaker",
+                "releaseDate": "2023-03-13T21:18:44+00:00",
+                "releaseNotes": "Update to CRT",
+                "get": "https://pecl.php.net/get/awscrt-1.0.10",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "1.0.9": {
                 "version": "1.0.9",
                 "state": "devel",
@@ -8097,12 +8107,22 @@
         "category": "Benchmarking",
         "deprecated": false,
         "description": "Calls a user-defined callback when a one-shot or periodic timer expires. Also a sampling profiler backend, which aggregates backtraces collected by a periodic timer.",
-        "latestReleaseDate": "2023-03-02T17:56:14+00:00",
-        "latestVersion": "1.1.0",
+        "latestReleaseDate": "2023-03-13T21:44:27+00:00",
+        "latestVersion": "1.1.1",
         "license": "Apache 2.0",
         "name": "excimer",
         "php8Mentioned": true,
         "releases": {
+            "1.1.1": {
+                "version": "1.1.1",
+                "state": "stable",
+                "license": "Apache 2.0",
+                "releasedBy": "krinkle",
+                "releaseDate": "2023-03-13T21:44:27+00:00",
+                "releaseNotes": "- Restore support for PHP 7.1-7.3",
+                "get": "https://pecl.php.net/get/excimer-1.1.1",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "1.1.0": {
                 "version": "1.1.0",
                 "state": "stable",
@@ -10138,12 +10158,22 @@
         "category": "Networking",
         "deprecated": false,
         "description": "Remote Procedure Calls (RPCs) provide a useful abstraction for building distributed applications and services. The libraries in this repository provide a concrete implementation of the gRPC protocol, layered over HTTP/2. These libraries enable communication between clients and servers using any combination of the supported languages.",
-        "latestReleaseDate": "2023-02-25T05:03:02+00:00",
-        "latestVersion": "1.53.0RC1",
+        "latestReleaseDate": "2023-03-13T21:02:16+00:00",
+        "latestVersion": "1.53.0RC2",
         "license": "Apache 2.0",
         "name": "gRPC",
         "php8Mentioned": true,
         "releases": {
+            "1.53.0RC2": {
+                "version": "1.53.0RC2",
+                "state": "beta",
+                "license": "Apache 2.0",
+                "releasedBy": "stanleycheung",
+                "releaseDate": "2023-03-13T21:02:16+00:00",
+                "releaseNotes": "- gRPC Core 1.53.0 update",
+                "get": "https://pecl.php.net/get/grpc-1.53.0RC2",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "1.53.0RC1": {
                 "version": "1.53.0RC1",
                 "state": "beta",
