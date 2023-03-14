@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (143)
+## Relevant Extensions (142)
 
 ### Authentication (2)
 
@@ -79,7 +79,7 @@ profiler backend, which aggregates backtraces collected by a periodic timer.
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/excimer-1.1.0">1.1.0</a> on 02 Mar 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/excimer-1.1.1">1.1.1</a> on 13 Mar 2023</li>
 <li>Release data in JSON: <a href="data/packages/excimer.json">excimer.json</a></li>
 <li><a href="https://pecl.php.net/packages/excimer">excimer on PECL</a></li>
 <li><a href="https://www.mediawiki.org/wiki/Excimer">:house: Home</a> &nbsp; <a href="https://github.com/wikimedia/php-excimer">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1057&rid=&cid=2">:bar_chart: Stats</a></li>
@@ -1097,7 +1097,7 @@ punctuation and spacing.
 </details>
 
 ***
-### Languages (5)
+### Languages (4)
 
 <details><summary>handlebars&nbsp; :eight:</summary>
 <p>Handlebars templating language</p>
@@ -1112,21 +1112,6 @@ Handlebars templates.
 <li>Release data in JSON: <a href="data/packages/handlebars.json">handlebars.json</a></li>
 <li><a href="https://pecl.php.net/packages/handlebars">handlebars on PECL</a></li>
 <li><a href="https://github.com/jbboehr/php-handlebars">:house: Home</a> &nbsp; <a href="https://github.com/jbboehr/php-handlebars">:sparkles: Source</a> &nbsp; <a href="https://github.com/jbboehr/php-handlebars/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1009&rid=&cid=59">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>lua</summary>
-<p>Embedded lua interpreter</p>
-
-```
-"Lua is a powerful, fast, light-weight, embeddable scripting language." 
- This extension embeds the lua interpreter and offers an OO-API to lua variables and functions.
-```
-<p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/lua-2.0.7">2.0.7</a> on 10 Mar 2020</li>
-<li>Release data in JSON: <a href="data/packages/lua.json">lua.json</a></li>
-<li><a href="https://pecl.php.net/packages/lua">lua on PECL</a></li>
-<li><a href="http://www.laruence.com/lua">:book: Documentation</a> &nbsp; <a href="https://github.com/laruence/php-lua">:sparkles: Source</a> &nbsp; <a href="https://github.com/laruence/php-lua/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=717&rid=&cid=59">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>LuaSandbox&nbsp; :eight:</summary>
@@ -1437,10 +1422,10 @@ languages.
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/gRPC-1.53.0RC1">1.53.0RC1</a> on 25 Feb 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/gRPC-1.53.0RC2">1.53.0RC2</a> on 13 Mar 2023</li>
 <li>Release data in JSON: <a href="data/packages/grpc.json">grpc.json</a></li>
 <li><a href="https://pecl.php.net/packages/gRPC">gRPC on PECL</a></li>
-<li><a href="http://grpc.io">:house: Home</a> &nbsp; <a href="https://github.com/grpc/grpc/tree/master/src/php/ext/grpc">:sparkles: Source</a> &nbsp; <a href="https://github.com/grpc/grpc/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=986&rid=&cid=16">:bar_chart: Stats</a></li>
+<li></li>
 </ul></p><hr />
 </details>
 <details><summary>ip2location</summary>
@@ -2215,7 +2200,7 @@ AWS Common Runtime provides a set of low level tools
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/awscrt-1.0.9">1.0.9</a> on 14 Feb 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/awscrt-1.0.10">1.0.10</a> on 13 Mar 2023</li>
 <li>Release data in JSON: <a href="data/packages/awscrt.json">awscrt.json</a></li>
 <li><a href="https://pecl.php.net/packages/awscrt">awscrt on PECL</a></li>
 <li><a href="https://aws.amazon.com/sdk-for-php/">:house: Home</a> &nbsp; <a href="https://github.com/awslabs/aws-crt-php">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1060&rid=&cid=29">:bar_chart: Stats</a></li>
