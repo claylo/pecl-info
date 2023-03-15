@@ -2193,14 +2193,13 @@ This extension creates and applies patches to both text and binary files.
 <p>AWS Common Runtime PHP bindings</p>
 
 ```
-AWS Common Runtime provides a set of low level tools
-  as network protocols and authentication used by the AWSSDK for
-  PHP to provide high level API to access AWS
-  services.
+AWS Common Runtime provides a set of low level tools as network protocols and
+authentication used by the AWSSDK for PHP to provide high level API to access AWS
+services.
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/awscrt-1.0.10">1.0.10</a> on 13 Mar 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/awscrt-1.0.11">1.0.11</a> on 15 Mar 2023</li>
 <li>Release data in JSON: <a href="data/packages/awscrt.json">awscrt.json</a></li>
 <li><a href="https://pecl.php.net/packages/awscrt">awscrt on PECL</a></li>
 <li><a href="https://aws.amazon.com/sdk-for-php/">:house: Home</a> &nbsp; <a href="https://github.com/awslabs/aws-crt-php">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1060&rid=&cid=29">:bar_chart: Stats</a></li>

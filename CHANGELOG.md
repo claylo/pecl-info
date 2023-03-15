@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.89.0](https://github.com/claylo/pecl-info/compare/v1.88.0...v1.89.0) (2023-03-15)
+
+
+### Added
+
+* add awscrt 1.0.11 release ([0605bf4](https://github.com/claylo/pecl-info/commit/0605bf45b5e17edd9c17031717e4b3ae229e7cca))
+
 ## [1.88.0](https://github.com/claylo/pecl-info/compare/v1.87.0...v1.88.0) (2023-03-14)
 
 
