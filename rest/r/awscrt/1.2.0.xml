@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/awscrt">awscrt</p>
+ <c>pecl.php.net</c>
+ <v>1.2.0</v>
+ <st>stable</st>
+ <l>Apache License Version 2.0</l>
+ <m>sdavtaker</m>
+ <s>AWS Common Runtime PHP bindings</s>
+ <d>AWS Common Runtime provides a set of low level tools as network protocols and authentication used by the AWSSDK for PHP to provide high level API to access AWS services.</d>
+ <da>2023-03-16 21:18:40</da>
+ <n>Update to CRT</n>
+ <f>1603621</f>
+ <g>https://pecl.php.net/get/awscrt-1.2.0</g>
+ <x xlink:href="package.1.2.0.xml"/>
+</r>
