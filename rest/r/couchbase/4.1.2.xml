@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/couchbase">couchbase</p>
+ <c>pecl.php.net</c>
+ <v>4.1.2</v>
+ <st>stable</st>
+ <l>Apache V2</l>
+ <m>avsej</m>
+ <s>Couchbase Server PHP extension</s>
+ <d>The PHP client library provides fast access to documents stored in a Couchbase Server.</d>
+ <da>2023-03-20 14:32:28</da>
+ <n>* PCBC-888 handle query context changes (#68)
+* Added optional context to CouchbaseException constructor (#85)
+
+Notable changes in core C++
+---------------------------
+
+* OpenSSL and CentOS 7 (#382)
+* CXXCBC-144: Search query on collections should not require you to pass in the scope name (#379)
+* CXXCBC-145: Search query request raw option not used (#380)
+* CXXCBC-194: Support ExtThreadSafe transaction extension. (#374, #376)
+* CXXCBC-316: Core txn get_optional after query issue (#385)
+* CXXCBC-310: Fixed race condition in transaction_context state machine (#386, #378)</n>
+ <f>2030875</f>
+ <g>https://pecl.php.net/get/couchbase-4.1.2</g>
+ <x xlink:href="package.4.1.2.xml"/>
+</r>
