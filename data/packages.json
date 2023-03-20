@@ -3115,12 +3115,22 @@
         "category": "Database",
         "deprecated": false,
         "description": "The PHP client library provides fast access to documents stored in a Couchbase Server.",
-        "latestReleaseDate": "2023-02-24T08:43:44+00:00",
-        "latestVersion": "4.1.1",
+        "latestReleaseDate": "2023-03-20T14:32:28+00:00",
+        "latestVersion": "4.1.2",
         "license": "Apache V2",
         "name": "couchbase",
         "php8Mentioned": true,
         "releases": {
+            "4.1.2": {
+                "version": "4.1.2",
+                "state": "stable",
+                "license": "Apache V2",
+                "releasedBy": "avsej",
+                "releaseDate": "2023-03-20T14:32:28+00:00",
+                "releaseNotes": "* PCBC-888 handle query context changes (#68)\n* Added optional context to CouchbaseException constructor (#85)\n\nNotable changes in core C++\n---------------------------\n\n* OpenSSL and CentOS 7 (#382)\n* CXXCBC-144: Search query on collections should not require you to pass in the scope name (#379)\n* CXXCBC-145: Search query request raw option not used (#380)\n* CXXCBC-194: Support ExtThreadSafe transaction extension. (#374, #376)\n* CXXCBC-316: Core txn get_optional after query issue (#385)\n* CXXCBC-310: Fixed race condition in transaction_context state machine (#386, #378)",
+                "get": "https://pecl.php.net/get/couchbase-4.1.2",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "4.1.1": {
                 "version": "4.1.1",
                 "state": "stable",
