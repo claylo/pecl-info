@@ -2,12 +2,22 @@
     "category": "PHP",
     "deprecated": false,
     "description": "Xdebug and provides a range of features to improve the PHP development\nexperience.\n\nStep Debugging\n    A way to step through your code in your IDE or editor while the script is\n    executing.\n\nImprovements to PHP's error reporting\n    An improved var_dump() function, stack traces for Notices, Warnings, Errors\n    and Exceptions to highlight the code path to the error\n\nTracing\n    Writes every function call, with arguments and invocation location to disk.\n    Optionally also includes every variable assignment and return value for\n    each function.\n\nProfiling\n    Allows you, with the help of visualisation tools, to analyse the\n    performance of your PHP application and find bottlenecks.\n\nCode Coverage Analysis\n    To show which parts of your code base are executed when running unit tests\n    with PHP Unit.",
-    "latestReleaseDate": "2022-12-08T19:42:49+00:00",
-    "latestVersion": "3.2.0",
+    "latestReleaseDate": "2023-03-21T16:48:31+00:00",
+    "latestVersion": "3.2.1",
     "license": "BSD style",
     "name": "xdebug",
     "php8Mentioned": true,
     "releases": {
+        "3.2.1": {
+            "version": "3.2.1",
+            "state": "stable",
+            "license": "BSD style",
+            "releasedBy": "derick",
+            "releaseDate": "2023-03-21T16:48:31+00:00",
+            "releaseNotes": "Tue, Mar 21, 2023 - Xdebug 3.2.1\n\n= Fixed bugs:\n\n  - Fixed issue #2144: Xdebug 3.2.0 ignores xdebug.mode and enables all features\n  - Fixed issue #2145: Xdebug 3.2.0 crash PHP on Windows if xdebug.mode = off\n  - Fixed issue #2146: apache2 segfaulting with version 3.2.0 on PHP 8.0\n  - Fixed issue #2148: Icon for link to docs in xdebug_info() HTML output does not always render correctly",
+            "get": "https://pecl.php.net/get/xdebug-3.2.1",
+            "SPDX-License-Identifier": "Xdebug"
+        },
         "3.2.0": {
             "version": "3.2.0",
             "state": "stable",
