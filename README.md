@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (142)
+## Relevant Extensions (141)
 
 ### Authentication (2)
 
@@ -570,7 +570,7 @@ located at http://www.iana.org/time-zones.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/timezonedb-2022.7">2022.7</a> on 29 Nov 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/timezonedb-2023.1">2023.1</a> on 23 Mar 2023</li>
 <li>Release data in JSON: <a href="data/packages/timezonedb.json">timezonedb.json</a></li>
 <li><a href="https://pecl.php.net/packages/timezonedb">timezonedb on PECL</a></li>
 <li></li>
@@ -2416,48 +2416,8 @@ Zephir Parser is a code parser, delivered as a C extension for the PHP language.
 </details>
 
 ***
-### Web Services (3)
+### Web Services (2)
 
-<details><summary>hprose</summary>
-<p>Hprose for PHP.</p>
-
-```
-Hprose extension for PHP.
-        Hprose is a High Performance Remote Object Service Engine.
-
-        It is a modern, lightweight, cross-language, cross-platform, object-oriented, high performance, remote dynamic communication middleware. It is not only easy to use, but powerful. You just need a little time to learn, then you can use it to easily construct cross language cross platform distributed application system.
-
-        Hprose supports many programming languages, for example:
-
-        AAuto Quicker
-        ActionScript
-        ASP
-        C++
-        Dart
-        Delphi/Free Pascal
-        dotNET(C#, Visual Basic...)
-        Golang
-        Java
-        JavaScript
-        Node.js
-        Objective-C
-        Perl
-        PHP
-        Python
-        Ruby
-        ...
-        Through Hprose, You can conveniently and efficiently intercommunicate between those programming languages.
-
-        This project is the implementation of Hprose for PHP.
-```
-<p><ul>
-<li>License: MIT</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/hprose-1.8.0">1.8.0</a> on 21 Mar 2020</li>
-<li>Release data in JSON: <a href="data/packages/hprose.json">hprose.json</a></li>
-<li><a href="https://pecl.php.net/packages/hprose">hprose on PECL</a></li>
-<li><a href="http://hprose.com">:house: Home</a> &nbsp; <a href="https://github.com/hprose/hprose-pecl">:sparkles: Source</a> &nbsp; <a href="https://github.com/hprose/hprose-pecl/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=982&rid=&cid=23">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
 <details><summary>oauth&nbsp; :eight:</summary>
 <p>oauth consumer extension</p>
 
