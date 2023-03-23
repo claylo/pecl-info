@@ -64,7 +64,7 @@ The Datadog PHP Tracer brings APM and distributed tracing to PHP.
 ```
 <p><ul>
 <li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/datadog_trace-0.84.0">0.84.0</a> on 03 Feb 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/datadog_trace-0.86.0">0.86.0</a> on 23 Mar 2023</li>
 <li>Release data in JSON: <a href="data/packages/datadog_trace.json">datadog_trace.json</a></li>
 <li><a href="https://pecl.php.net/packages/datadog_trace">datadog_trace on PECL</a></li>
 <li><a href="https://docs.datadoghq.com/tracing/languages/php/">:house: Home</a> &nbsp; <a href="https://github.com/DataDog/dd-trace-php">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1029&rid=&cid=2">:bar_chart: Stats</a></li>
@@ -1422,10 +1422,10 @@ languages.
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/gRPC-1.53.0RC2">1.53.0RC2</a> on 13 Mar 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/gRPC-1.53.0">1.53.0</a> on 23 Mar 2023</li>
 <li>Release data in JSON: <a href="data/packages/grpc.json">grpc.json</a></li>
 <li><a href="https://pecl.php.net/packages/gRPC">gRPC on PECL</a></li>
-<li></li>
+<li><a href="http://grpc.io">:house: Home</a> &nbsp; <a href="https://github.com/grpc/grpc/tree/master/src/php/ext/grpc">:sparkles: Source</a> &nbsp; <a href="https://github.com/grpc/grpc/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=986&rid=&cid=16">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>ip2location</summary>
