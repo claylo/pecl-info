@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.86.0</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>anilm3</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2023-03-23 13:30:11</da>
+ <n>### Added
+- Add MemcacheIntegration #1981
+- Add PSR18 tracing support in any PSR18 ClientInterface #1938
+
+### Fixed
+- Restrict backends on DBM propagation #1983
+- Allow for hooking of extended internal classes #1976
+
+### Internal changes
+- Include the circleci URL for 1.0.0-nightly installers #1977
+
+## Profiling (0.15.0)
+
+### Fixed
+- Fix issues when preloading and non-root php-fpm user are used #1975
+
+### Changed
+- perf: speed up stack walking by using function run_time_cache #1949
+
+### Internal changes
+- Fix system ini handling of invalid values in zai config #1982
+
+## Application Security Monitoring (v0.7.0)
+
+### Breaking Changes
+- Delete `enabled_on_cli` ini setting DataDog/dd-appsec-php#182
+
+### Fixed
+- Add uid and gid to sock and lock files DataDog/dd-appsec-php#183
+
+### Added
+- Remote configuration client DataDog/dd-appsec-php#115
+- Plug remote config service DataDog/dd-appsec-php#163
+- Add `config_sync` helper command DataDog/dd-appsec-php#164
+- Add ASM_DATA Product Listener DataDog/dd-appsec-php#188
+- IP Blocking DataDog/dd-appsec-php#188
+- Redirect support DataDog/dd-appsec-php#195
+- Add `request_exec` helper command DataDog/dd-appsec-php#196
+- ASM_DD Product Listener DataDog/dd-appsec-php#207
+- ASM Product Listener DataDog/dd-appsec-php#210
+- Rule Blocking DataDog/dd-appsec-php#210
+- Check if RC is available before polling DataDog/dd-appsec-php#212
+- User Blocking DataDog/dd-appsec-php#213
+
+### Internal Changes
+- Support actions and refactor DataDog/dd-appsec-php#184
+- Update `engine::subscriber` rule data DataDog/dd-appsec-php#186
+- Blocking templates, missing traces fix and set blocking parameters DataDog/dd-appsec-php#187
+- Upgrade tracer to v0.84.0 DataDog/dd-appsec-php#193
+- Upgrade WAF 1.8.2 DataDog/dd-appsec-php#202
+- Add init / commit stage to listeners DataDog/dd-appsec-php#208
+- Ruleset 1.5.2 DataDog/dd-appsec-php#213
+- Allow new and old default rules file to be loaded DataDog/dd-appsec-php#215
+- Fallback to local IP on extraction DataDog/dd-appsec-php#216</n>
+ <f>442833</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.86.0</g>
+ <x xlink:href="package.0.86.0.xml"/>
+</r>

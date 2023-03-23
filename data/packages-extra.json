@@ -901,12 +901,12 @@
         "verified": false
     },
     "grpc": {
-        "bugs": "",
+        "bugs": "https://github.com/grpc/grpc/issues",
         "docs": "",
-        "home": "",
+        "home": "http://grpc.io",
         "maintained": true,
-        "repo": "",
-        "stats": "",
+        "repo": "https://github.com/grpc/grpc/tree/master/src/php/ext/grpc",
+        "stats": "https://pecl.php.net/package-stats.php?pid=986&rid=&cid=16",
         "verified": false
     },
     "gupnp": {
