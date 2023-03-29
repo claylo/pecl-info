@@ -2,12 +2,22 @@
     "category": "Tools and Utilities",
     "deprecated": false,
     "description": "The PHP Agent for Apache SkyWalking, which provides the native tracing abilities for PHP project.",
-    "latestReleaseDate": "2023-02-02T07:13:44+00:00",
-    "latestVersion": "0.3.0",
+    "latestReleaseDate": "2023-03-29T03:51:24+00:00",
+    "latestVersion": "0.4.0",
     "license": "Apache-2.0",
     "name": "skywalking_agent",
     "php8Mentioned": true,
     "releases": {
+        "0.4.0": {
+            "version": "0.4.0",
+            "state": "stable",
+            "license": "Apache-2.0",
+            "releasedBy": "skywalking",
+            "releaseDate": "2023-03-29T03:51:24+00:00",
+            "releaseNotes": "## What's Changed\n* Bump tokio from 1.24.1 to 1.24.2 by @dependabot in https://github.com/apache/skywalking-php/pull/52\n* Bump to 0.4.0-dev by @heyanlong in https://github.com/apache/skywalking-php/pull/53\n* Avoid potential panic for logger. by @jmjoy in https://github.com/apache/skywalking-php/pull/54\n* Fix the curl plugin hook curl_setopt by mistake. by @jmjoy in https://github.com/apache/skywalking-php/pull/55\n* Update documents. by @jmjoy in https://github.com/apache/skywalking-php/pull/56\n* Upgrade dependencies and adapt the codes. by @jmjoy in https://github.com/apache/skywalking-php/pull/57\n* Add sub components licenses in dist material. by @jmjoy in https://github.com/apache/skywalking-php/pull/58\n* Bump to 0.4.0. by @jmjoy in https://github.com/apache/skywalking-php/pull/59\n\n## New Contributors\n* @dependabot made their first contribution in https://github.com/apache/skywalking-php/pull/52\n\n**Full Changelog**: https://github.com/apache/skywalking-php/compare/v0.3.0...v0.4.0",
+            "get": "https://pecl.php.net/get/skywalking_agent-0.4.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "0.3.0": {
             "version": "0.3.0",
             "state": "stable",
