@@ -1,0 +1,24 @@
+{
+    "category": "PHP",
+    "deprecated": false,
+    "description": "OpenTelemetry is an open-source CNCF project for collecting, processing, and exporting telemetry data (metrics, traces, and logs) from distributed systems.\nThe OpenTelemetry extension for PHP enables automatic instrumentation (tracing) of functions by providing methods to hook into the PHP 8.0+ observability API.",
+    "latestReleaseDate": "2023-03-30T09:26:27+00:00",
+    "latestVersion": "1.0.0beta2",
+    "license": "Apache 2.0",
+    "name": "opentelemetry",
+    "php8Mentioned": false,
+    "releases": {
+        "1.0.0beta2": {
+            "version": "1.0.0beta2",
+            "state": "beta",
+            "license": "Apache 2.0",
+            "releasedBy": "brettmc",
+            "releaseDate": "2023-03-30T09:26:27+00:00",
+            "releaseNotes": "* See https://github.com/open-telemetry/opentelemetry-php and https://github.com/open-telemetry/opentelemetry-php-instrumentation",
+            "get": "https://pecl.php.net/get/opentelemetry-1.0.0beta2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        }
+    },
+    "summary": "auto-instrumentation hooks for opentelemetry",
+    "SPDX-License-Identifier": "Apache-2.0"
+}

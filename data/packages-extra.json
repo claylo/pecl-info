@@ -3684,5 +3684,14 @@
         "repo": "https://github.com/TysonAndre/immutable_cache-pecl",
         "stats": "https://pecl.php.net/package-stats.php?pid=1076&rid=&cid=3",
         "verified": false
+    },
+    "opentelemetry": {
+        "bugs": "",
+        "docs": "",
+        "home": "https://opentelemetry.io/",
+        "maintained": true,
+        "repo": "https://github.com/open-telemetry/opentelemetry-php-instrumentation",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1077&rid=&cid=25",
+        "verified": false
     }
 }
