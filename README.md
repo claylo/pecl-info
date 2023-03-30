@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (141)
+## Relevant Extensions (142)
 
 ### Authentication (2)
 
@@ -1539,7 +1539,7 @@ Find more information at:
 </details>
 
 ***
-### PHP (14)
+### PHP (15)
 
 <details><summary>ast&nbsp; :eight:</summary>
 <p>Extension exposing PHP 7 abstract syntax tree</p>
@@ -1586,6 +1586,21 @@ memcached or similar memory based storages for serialized data.
 <li>Release data in JSON: <a href="data/packages/igbinary.json">igbinary.json</a></li>
 <li><a href="https://pecl.php.net/packages/igbinary">igbinary on PECL</a></li>
 <li><a href="https://github.com/igbinary/igbinary/">:house: Home</a> &nbsp; <a href="https://github.com/igbinary/igbinary/">:sparkles: Source</a> &nbsp; <a href="https://github.com/igbinary/igbinary/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=895&rid=&cid=25">:bar_chart: Stats</a></li>
+</ul></p><hr />
+</details>
+<details><summary>opentelemetry</summary>
+<p>auto-instrumentation hooks for opentelemetry</p>
+
+```
+OpenTelemetry is an open-source CNCF project for collecting, processing, and exporting telemetry data (metrics, traces, and logs) from distributed systems.
+The OpenTelemetry extension for PHP enables automatic instrumentation (tracing) of functions by providing methods to hook into the PHP 8.0+ observability API.
+```
+<p><ul>
+<li>License: Apache-2.0</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/opentelemetry-1.0.0beta2">1.0.0beta2</a> on 30 Mar 2023</li>
+<li>Release data in JSON: <a href="data/packages/opentelemetry.json">opentelemetry.json</a></li>
+<li><a href="https://pecl.php.net/packages/opentelemetry">opentelemetry on PECL</a></li>
+<li><a href="https://opentelemetry.io/">:house: Home</a> &nbsp; <a href="https://github.com/open-telemetry/opentelemetry-php-instrumentation">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1077&rid=&cid=25">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>parallel&nbsp; :eight:</summary>
