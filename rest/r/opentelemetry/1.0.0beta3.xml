@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/opentelemetry">opentelemetry</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0beta3</v>
+ <st>beta</st>
+ <l>Apache 2.0</l>
+ <m>brettmc</m>
+ <s>OpenTelemetry auto-instrumentation support extension</s>
+ <d>https://github.com/open-telemetry/opentelemetry-php-instrumentation</d>
+ <da>2023-04-01 00:46:54</da>
+ <n>opentelemetry 1.0.0beta3
+
+        * rename extension from otel_instrumentation to opentelemetry (#49)
+        * display extension version in phpinfo (#48)
+        * Fix #46 add doc, license and tests to pecl package (#47)
+        * changes to allow build/upload to pecl (#44)
+        * update package.xml and docs in preparation for pecl release (#43)
+        * store scope in the context (#42)
+        * moving bin directory to contrib (#39)
+        * fixing script names (#38)
+        * get list of auto packages through packagist api (#37)
+        * adding new symfony and laravel auto instrumentation packages (#36)
+        * execute composer require in non-interactive mode (#35)
+        * deny plugins for php-http/discovery by default (#34)
+        * windows is not supported yet due to configure script code generation error (#33)
+        * install and setup auto-instrumentation with one command (#29)
+        * docs: update/sync(opentelemetry.io) installation description (#27)</n>
+ <f>16497</f>
+ <g>https://pecl.php.net/get/opentelemetry-1.0.0beta3</g>
+ <x xlink:href="package.1.0.0beta3.xml"/>
+</r>

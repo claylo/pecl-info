@@ -1,13 +1,23 @@
 {
     "category": "PHP",
     "deprecated": false,
-    "description": "OpenTelemetry is an open-source CNCF project for collecting, processing, and exporting telemetry data (metrics, traces, and logs) from distributed systems.\nThe OpenTelemetry extension for PHP enables automatic instrumentation (tracing) of functions by providing methods to hook into the PHP 8.0+ observability API.",
-    "latestReleaseDate": "2023-03-30T09:26:27+00:00",
-    "latestVersion": "1.0.0beta2",
+    "description": "OpenTelemetry observer hooks to enable auto-instrumentation of PHP applications.",
+    "latestReleaseDate": "2023-04-01T00:46:54+00:00",
+    "latestVersion": "1.0.0beta3",
     "license": "Apache 2.0",
     "name": "opentelemetry",
     "php8Mentioned": false,
     "releases": {
+        "1.0.0beta3": {
+            "version": "1.0.0beta3",
+            "state": "beta",
+            "license": "Apache 2.0",
+            "releasedBy": "brettmc",
+            "releaseDate": "2023-04-01T00:46:54+00:00",
+            "releaseNotes": "opentelemetry 1.0.0beta3\n\n        * rename extension from otel_instrumentation to opentelemetry (#49)\n        * display extension version in phpinfo (#48)\n        * Fix #46 add doc, license and tests to pecl package (#47)\n        * changes to allow build/upload to pecl (#44)\n        * update package.xml and docs in preparation for pecl release (#43)\n        * store scope in the context (#42)\n        * moving bin directory to contrib (#39)\n        * fixing script names (#38)\n        * get list of auto packages through packagist api (#37)\n        * adding new symfony and laravel auto instrumentation packages (#36)\n        * execute composer require in non-interactive mode (#35)\n        * deny plugins for php-http/discovery by default (#34)\n        * windows is not supported yet due to configure script code generation error (#33)\n        * install and setup auto-instrumentation with one command (#29)\n        * docs: update/sync(opentelemetry.io) installation description (#27)",
+            "get": "https://pecl.php.net/get/opentelemetry-1.0.0beta3",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "1.0.0beta2": {
             "version": "1.0.0beta2",
             "state": "beta",
@@ -19,6 +29,6 @@
             "SPDX-License-Identifier": "Apache-2.0"
         }
     },
-    "summary": "auto-instrumentation hooks for opentelemetry",
+    "summary": "OpenTelemetry auto-instrumentation support extension",
     "SPDX-License-Identifier": "Apache-2.0"
 }
