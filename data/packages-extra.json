@@ -3686,8 +3686,8 @@
         "verified": false
     },
     "opentelemetry": {
-        "bugs": "",
-        "docs": "",
+        "bugs": "https://github.com/open-telemetry/opentelemetry-php-instrumentation/issues",
+        "docs": "https://opentelemetry.io/docs/instrumentation/php/automatic/",
         "home": "https://opentelemetry.io/",
         "maintained": true,
         "repo": "https://github.com/open-telemetry/opentelemetry-php-instrumentation",
