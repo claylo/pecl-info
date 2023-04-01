@@ -1589,18 +1589,17 @@ memcached or similar memory based storages for serialized data.
 </ul></p><hr />
 </details>
 <details><summary>opentelemetry</summary>
-<p>auto-instrumentation hooks for opentelemetry</p>
+<p>OpenTelemetry auto-instrumentation support extension</p>
 
 ```
-OpenTelemetry is an open-source CNCF project for collecting, processing, and exporting telemetry data (metrics, traces, and logs) from distributed systems.
-The OpenTelemetry extension for PHP enables automatic instrumentation (tracing) of functions by providing methods to hook into the PHP 8.0+ observability API.
+OpenTelemetry observer hooks to enable auto-instrumentation of PHP applications.
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/opentelemetry-1.0.0beta2">1.0.0beta2</a> on 30 Mar 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/opentelemetry-1.0.0beta3">1.0.0beta3</a> on 01 Apr 2023</li>
 <li>Release data in JSON: <a href="data/packages/opentelemetry.json">opentelemetry.json</a></li>
 <li><a href="https://pecl.php.net/packages/opentelemetry">opentelemetry on PECL</a></li>
-<li><a href="https://opentelemetry.io/">:house: Home</a> &nbsp; <a href="https://github.com/open-telemetry/opentelemetry-php-instrumentation">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1077&rid=&cid=25">:bar_chart: Stats</a></li>
+<li><a href="https://opentelemetry.io/docs/instrumentation/php/automatic/">:book: Documentation</a> &nbsp; <a href="https://opentelemetry.io/">:house: Home</a> &nbsp; <a href="https://github.com/open-telemetry/opentelemetry-php-instrumentation">:sparkles: Source</a> &nbsp; <a href="https://github.com/open-telemetry/opentelemetry-php-instrumentation/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1077&rid=&cid=25">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>parallel&nbsp; :eight:</summary>
