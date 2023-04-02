@@ -926,7 +926,7 @@ Inotify bindings for PHP
 <li><a href="https://php.net/inotify">:book: Documentation</a> &nbsp; <a href="https://github.com/arnaud-lb/php-inotify">:house: Home</a> &nbsp; <a href="https://github.com/arnaud-lb/php-inotify">:sparkles: Source</a> &nbsp; <a href="https://github.com/arnaud-lb/php-inotify/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=826&rid=&cid=9">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
-<details><summary>smbclient</summary>
+<details><summary>smbclient&nbsp; :eight:</summary>
 <p>A PHP wrapper for libsmbclient</p>
 
 ```
@@ -935,7 +935,7 @@ smbclient is a PHP extension that uses Samba's libsmbclient library to provide
 ```
 <p><ul>
 <li>License: BSD-2-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/smbclient-1.0.6">1.0.6</a> on 28 Feb 2021</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/smbclient-1.1.0">1.1.0</a> on 01 Apr 2023</li>
 <li>Release data in JSON: <a href="data/packages/smbclient.json">smbclient.json</a></li>
 <li><a href="https://pecl.php.net/packages/smbclient">smbclient on PECL</a></li>
 <li><a href="https://github.com/eduardok/libsmbclient-php">:house: Home</a> &nbsp; <a href="https://github.com/eduardok/libsmbclient-php">:sparkles: Source</a> &nbsp; <a href="https://github.com/eduardok/libsmbclient-php/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=993&rid=&cid=9">:bar_chart: Stats</a></li>
