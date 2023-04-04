@@ -4419,12 +4419,22 @@
         "category": "Benchmarking",
         "deprecated": false,
         "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-        "latestReleaseDate": "2023-03-30T19:14:44+00:00",
-        "latestVersion": "0.86.1",
+        "latestReleaseDate": "2023-04-04T14:44:22+00:00",
+        "latestVersion": "0.86.2",
         "license": "BSD 3-Clause",
         "name": "datadog_trace",
         "php8Mentioned": true,
         "releases": {
+            "0.86.2": {
+                "version": "0.86.2",
+                "state": "stable",
+                "license": "BSD 3-Clause",
+                "releasedBy": "anilm3",
+                "releaseDate": "2023-04-04T14:44:22+00:00",
+                "releaseNotes": "## Tracer\n- [Tracer][YII] Do not use module property if it doesn't exist #1999\n\n## Application Security Monitoring (0.7.1)\n\n### Fixed\n\n- Fallback to default agent host and port DataDog/dd-appsec-php#231\n- Support `DD_TRACE_AGENT_URL` DataDog/dd-appsec-php#231",
+                "get": "https://pecl.php.net/get/datadog_trace-0.86.2",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "0.86.1": {
                 "version": "0.86.1",
                 "state": "stable",
