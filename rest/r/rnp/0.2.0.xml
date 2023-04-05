@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/rnp">rnp</p>
+ <c>pecl.php.net</c>
+ <v>0.2.0</v>
+ <st>beta</st>
+ <l>BSD 2-Clause License</l>
+ <m>rnp</m>
+ <s>wrapper around the RNP library</s>
+ <d>PHP extension for RNP - high performance OpenPGP implementation</d>
+ <da>2023-04-04 23:25:09</da>
+ <n>* Setting symmetric cyphers for password-encrypted messages according to changes in RNP
+* Display version info</n>
+ <f>24197</f>
+ <g>https://pecl.php.net/get/rnp-0.2.0</g>
+ <x xlink:href="package.0.2.0.xml"/>
+</r>

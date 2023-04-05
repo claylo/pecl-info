@@ -3668,7 +3668,7 @@
         "verified": false
     },
     "rnp": {
-        "bugs": "",
+        "bugs": "https://github.com/rnpgp/php-rnp/issues",
         "docs": "",
         "home": "https://www.rnpgp.org",
         "maintained": true,
