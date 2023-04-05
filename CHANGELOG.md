@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.106.0](https://github.com/claylo/pecl-info/compare/v1.105.0...v1.106.0) (2023-04-05)
+
+
+### Added
+
+* add rnp 0.2.0 release ([37e5477](https://github.com/claylo/pecl-info/commit/37e547794333f4645a2c781099f2bee0a7de9ccd))
+
 ## [1.105.0](https://github.com/claylo/pecl-info/compare/v1.104.0...v1.105.0) (2023-04-04)
 
 

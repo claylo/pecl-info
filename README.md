@@ -1873,18 +1873,17 @@ This is a PHP extension that adds support for OpenBSD's pledge and unveil system
 </ul></p><hr />
 </details>
 <details><summary>rnp</summary>
-<p>High-performance OpenPGP library</p>
+<p>wrapper around the RNP library</p>
 
 ```
-RNP is a high-performance OpenPGP library compatible with RFC 4880 and offers AEAD (OCB)
-functionality.
+PHP extension for RNP - high performance OpenPGP implementation
 ```
 <p><ul>
-<li>License: verify</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/rnp-0.1.1">0.1.1</a> on 25 Oct 2022</li>
+<li>License: BSD-2-Clause</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/rnp-0.2.0">0.2.0</a> on 04 Apr 2023</li>
 <li>Release data in JSON: <a href="data/packages/rnp.json">rnp.json</a></li>
 <li><a href="https://pecl.php.net/packages/rnp">rnp on PECL</a></li>
-<li><a href="https://www.rnpgp.org">:house: Home</a> &nbsp; <a href="https://github.com/rnpgp/php-rnp/">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1075&rid=&cid=54">:bar_chart: Stats</a></li>
+<li><a href="https://www.rnpgp.org">:house: Home</a> &nbsp; <a href="https://github.com/rnpgp/php-rnp/">:sparkles: Source</a> &nbsp; <a href="https://github.com/rnpgp/php-rnp/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1075&rid=&cid=54">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>selinux&nbsp; :eight:</summary>
