@@ -273,7 +273,7 @@ The PHP client library provides fast access to documents stored in a Couchbase S
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/couchbase-4.1.2">4.1.2</a> on 20 Mar 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/couchbase-4.1.3">4.1.3</a> on 13 Apr 2023</li>
 <li>Release data in JSON: <a href="data/packages/couchbase.json">couchbase.json</a></li>
 <li><a href="https://pecl.php.net/packages/couchbase">couchbase on PECL</a></li>
 <li><a href="https://docs.couchbase.com/php-sdk/current/hello-world/start-using-sdk.html">:book: Documentation</a> &nbsp; <a href="https://docs.couchbase.com/php-sdk/current/project-docs/sdk-release-notes.html">:house: Home</a> &nbsp; <a href="https://github.com/couchbase/php-couchbase">:sparkles: Source</a> &nbsp; <a href="https://issues.couchbase.com/browse/PCBC">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=922&rid=&cid=7">:bar_chart: Stats</a></li>
