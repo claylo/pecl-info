@@ -3125,12 +3125,22 @@
         "category": "Database",
         "deprecated": false,
         "description": "The PHP client library provides fast access to documents stored in a Couchbase Server.",
-        "latestReleaseDate": "2023-03-20T14:32:28+00:00",
-        "latestVersion": "4.1.2",
+        "latestReleaseDate": "2023-04-13T13:45:53+00:00",
+        "latestVersion": "4.1.3",
         "license": "Apache V2",
         "name": "couchbase",
         "php8Mentioned": true,
         "releases": {
+            "4.1.3": {
+                "version": "4.1.3",
+                "state": "stable",
+                "license": "Apache V2",
+                "releasedBy": "avsej",
+                "releaseDate": "2023-04-13T13:45:53+00:00",
+                "releaseNotes": "* PCBC-915: Fixed timestamp as expiry in mutation options (#88)\n* PCBC-828: Implemented collection management (#89)\n* PCBC-918: Extra attributes in ExistsResult now optional (deleted, expiry, flags, and sequenceNumber) (#95)\n\nNotable changes in core C++\n---------------------------\n\n* CXXCBC-31: Allow to use schema-less connection strings (#394)\n* CXXCBC-318: Always try TCP if UDP fails in DNS-SRV resolver (#390)\n* CXXCBC-320: Negative expiry in atr can 'stuck' docs. (#393)\n* CXXCBC-310: Improve shutdown of the LostTxnCleanup thread. (#389)",
+                "get": "https://pecl.php.net/get/couchbase-4.1.3",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "4.1.2": {
                 "version": "4.1.2",
                 "state": "stable",

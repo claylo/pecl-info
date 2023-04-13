@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/couchbase">couchbase</p>
+ <c>pecl.php.net</c>
+ <v>4.1.3</v>
+ <st>stable</st>
+ <l>Apache V2</l>
+ <m>avsej</m>
+ <s>Couchbase Server PHP extension</s>
+ <d>The PHP client library provides fast access to documents stored in a Couchbase Server.</d>
+ <da>2023-04-13 13:45:53</da>
+ <n>* PCBC-915: Fixed timestamp as expiry in mutation options (#88)
+* PCBC-828: Implemented collection management (#89)
+* PCBC-918: Extra attributes in ExistsResult now optional (deleted, expiry, flags, and sequenceNumber) (#95)
+
+Notable changes in core C++
+---------------------------
+
+* CXXCBC-31: Allow to use schema-less connection strings (#394)
+* CXXCBC-318: Always try TCP if UDP fails in DNS-SRV resolver (#390)
+* CXXCBC-320: Negative expiry in atr can 'stuck' docs. (#393)
+* CXXCBC-310: Improve shutdown of the LostTxnCleanup thread. (#389)</n>
+ <f>2050112</f>
+ <g>https://pecl.php.net/get/couchbase-4.1.3</g>
+ <x xlink:href="package.4.1.3.xml"/>
+</r>
