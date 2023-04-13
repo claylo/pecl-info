@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (142)
+## Relevant Extensions (140)
 
 ### Authentication (2)
 
@@ -1856,7 +1856,7 @@ https://github.com/php/pecl-search_engine-solr
 </details>
 
 ***
-### Security (4)
+### Security (3)
 
 <details><summary>pledge</summary>
 <p>OpenBSD's pledge / unveil support</p>
@@ -1901,21 +1901,6 @@ This extension provides a set of interfaces to communicate between
 <li>Release data in JSON: <a href="data/packages/selinux.json">selinux.json</a></li>
 <li><a href="https://pecl.php.net/packages/selinux">selinux on PECL</a></li>
 <li><a href="http://git.php.net/?p=pecl/security/selinux.git;a=blob;f=README">:book: Documentation</a> &nbsp; <a href="http://pecl.php.net/package/selinux">:house: Home</a> &nbsp; <a href="https://github.com/php/pecl-security-selinux">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=854&rid=&cid=54">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>taint</summary>
-<p>XSS code sniffer</p>
-
-```
-An extension used for detecting XSS codes(tainted string), 
-  And also can be used to spot sql injection vulnerabilities, shell inject, etc.
-```
-<p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/taint-2.1.0">2.1.0</a> on 09 Apr 2020</li>
-<li>Release data in JSON: <a href="data/packages/taint.json">taint.json</a></li>
-<li><a href="https://pecl.php.net/packages/taint">taint on PECL</a></li>
-<li><a href="http://www.php.net/manual/en/book.taint.php">:book: Documentation</a> &nbsp; <a href="https://github.com/laruence/taint">:sparkles: Source</a> &nbsp; <a href="https://github.com/laruence/taint/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=918&rid=&cid=54">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 
@@ -1999,7 +1984,7 @@ collected by the garbage collector (GC).
 </details>
 
 ***
-### System (7)
+### System (6)
 
 <details><summary>dio</summary>
 <p>Direct I/O functions</p>
@@ -2052,38 +2037,6 @@ Phalcon is an open source full stack framework for PHP, written as a C-extension
 <li>Release data in JSON: <a href="data/packages/phalcon.json">phalcon.json</a></li>
 <li><a href="https://pecl.php.net/packages/phalcon">phalcon on PECL</a></li>
 <li><a href="https://docs.phalcon.io">:book: Documentation</a> &nbsp; <a href="https://phalcon.io">:house: Home</a> &nbsp; <a href="https://github.com/phalcon/cphalcon">:sparkles: Source</a> &nbsp; <a href="https://github.com/phalcon/cphalcon/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1042&rid=&cid=37">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>request</summary>
-<p>Provides server-side request and response objects.</p>
-
-```
-This extension provides server-side request and response objects for PHP 7.
-These are *not* HTTP message objects proper. They are more like wrappers
-for existing global PHP variables and functions, with some limited
-additional convenience functionality.
-
-This extension defines two classes in the global namespace:
-
-- ServerRequest, composed of read-only copies of PHP superglobals and some
-  other commonly-used values, with methods for adding application-specific
-  request information in immutable fashion.
-
-- ServerResponse, essentially a wrapper around (and buffer for) response-
-  related PHP functions, with some additional convenience methods, and self-
-  sending capability.
-
-Documentation: https://github.com/pmjones/ext-request
-
-A PHP 5 userland implementation that tracks this extension is available at
-https://packagist.org/packages/pmjones/request .
-```
-<p><ul>
-<li>License: MIT</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/request-2.0.0">2.0.0</a> on 08 Apr 2020</li>
-<li>Release data in JSON: <a href="data/packages/request.json">request.json</a></li>
-<li><a href="https://pecl.php.net/packages/request">request on PECL</a></li>
-<li><a href="https://github.com/pmjones/ext-request">:book: Documentation</a> &nbsp; <a href="https://github.com/pmjones/ext-request">:house: Home</a> &nbsp; <a href="https://github.com/pmjones/ext-request">:sparkles: Source</a> &nbsp; <a href="https://github.com/pmjones/ext-request/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1000&rid=&cid=37">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>sync&nbsp; :eight:</summary>
@@ -2328,7 +2281,7 @@ https://developers.google.com/protocol-buffers/
 ```
 <p><ul>
 <li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/protobuf-3.22.1">3.22.1</a> on 07 Mar 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/protobuf-3.22.3">3.22.3</a> on 12 Apr 2023</li>
 <li>Release data in JSON: <a href="data/packages/protobuf.json">protobuf.json</a></li>
 <li><a href="https://pecl.php.net/packages/protobuf">protobuf on PECL</a></li>
 <li><a href="https://github.com/google/protobuf">:sparkles: Source</a> &nbsp; <a href="https://github.com/protocolbuffers/protobuf/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=997&rid=&cid=29">:bar_chart: Stats</a></li>
