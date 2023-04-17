@@ -935,7 +935,7 @@ smbclient is a PHP extension that uses Samba's libsmbclient library to provide
 ```
 <p><ul>
 <li>License: BSD-2-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/smbclient-1.1.0">1.1.0</a> on 01 Apr 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/smbclient-1.1.1">1.1.1</a> on 17 Apr 2023</li>
 <li>Release data in JSON: <a href="data/packages/smbclient.json">smbclient.json</a></li>
 <li><a href="https://pecl.php.net/packages/smbclient">smbclient on PECL</a></li>
 <li><a href="https://github.com/eduardok/libsmbclient-php">:house: Home</a> &nbsp; <a href="https://github.com/eduardok/libsmbclient-php">:sparkles: Source</a> &nbsp; <a href="https://github.com/eduardok/libsmbclient-php/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=993&rid=&cid=9">:bar_chart: Stats</a></li>
