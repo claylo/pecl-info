@@ -6,6 +6,6 @@
  <ca xlink:href="/rest/c/PHP">PHP</ca>
  <l>Apache 2.0</l>
  <s>OpenTelemetry auto-instrumentation support extension</s>
- <d>OpenTelemetry observer hooks to enable auto-instrumentation of PHP applications.</d>
+ <d>https://github.com/open-telemetry/opentelemetry-php-instrumentation</d>
  <r xlink:href="/rest/r/opentelemetry"/>
 </p>
