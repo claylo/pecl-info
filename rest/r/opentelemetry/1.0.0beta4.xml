@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/opentelemetry">opentelemetry</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0beta4</v>
+ <st>beta</st>
+ <l>Apache 2.0</l>
+ <m>brettmc</m>
+ <s>OpenTelemetry auto-instrumentation support extension</s>
+ <d>https://github.com/open-telemetry/opentelemetry-php-instrumentation</d>
+ <da>2023-04-19 12:45:50</da>
+ <n>opentelemetry 1.0.0beta4
+        * Consistent source code formatting  (#52)
+        * segfault during exception in post hook (#51)</n>
+ <f>16755</f>
+ <g>https://pecl.php.net/get/opentelemetry-1.0.0beta4</g>
+ <x xlink:href="package.1.0.0beta4.xml"/>
+</r>
