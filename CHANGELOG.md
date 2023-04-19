@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.112.0](https://github.com/claylo/pecl-info/compare/v1.111.0...v1.112.0) (2023-04-19)
+
+
+### Added
+
+* add opentelemetry 1.0.0beta4 release ([aae18a3](https://github.com/claylo/pecl-info/commit/aae18a3543296dcd6e7ce0130db7b02fa95c4176))
+
 ## [1.111.0](https://github.com/claylo/pecl-info/compare/v1.110.0...v1.111.0) (2023-04-17)
 
 

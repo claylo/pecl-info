@@ -1592,11 +1592,11 @@ memcached or similar memory based storages for serialized data.
 <p>OpenTelemetry auto-instrumentation support extension</p>
 
 ```
-OpenTelemetry observer hooks to enable auto-instrumentation of PHP applications.
+https://github.com/open-telemetry/opentelemetry-php-instrumentation
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/opentelemetry-1.0.0beta3">1.0.0beta3</a> on 01 Apr 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/opentelemetry-1.0.0beta4">1.0.0beta4</a> on 19 Apr 2023</li>
 <li>Release data in JSON: <a href="data/packages/opentelemetry.json">opentelemetry.json</a></li>
 <li><a href="https://pecl.php.net/packages/opentelemetry">opentelemetry on PECL</a></li>
 <li><a href="https://opentelemetry.io/docs/instrumentation/php/automatic/">:book: Documentation</a> &nbsp; <a href="https://opentelemetry.io/">:house: Home</a> &nbsp; <a href="https://github.com/open-telemetry/opentelemetry-php-instrumentation">:sparkles: Source</a> &nbsp; <a href="https://github.com/open-telemetry/opentelemetry-php-instrumentation/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1077&rid=&cid=25">:bar_chart: Stats</a></li>
