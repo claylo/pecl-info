@@ -1,7 +1,7 @@
 {
-    "active": 40,
+    "active": 41,
     "php8": 109,
-    "recent": 100,
+    "recent": 99,
     "stale": 96,
     "unmaintained": 136,
     "zero-releases": 57,

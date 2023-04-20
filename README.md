@@ -1499,10 +1499,10 @@ Provides bindings to the functions of libssh2 which implements the SSH2 protocol
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/ssh2-1.3.1">1.3.1</a> on 02 Mar 2021</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/ssh2-1.4">1.4</a> on 20 Apr 2023</li>
 <li>Release data in JSON: <a href="data/packages/ssh2.json">ssh2.json</a></li>
 <li><a href="https://pecl.php.net/packages/ssh2">ssh2 on PECL</a></li>
-<li><a href="http://www.php.net/ssh2">:book: Documentation</a> &nbsp; <a href="http://www.libssh2.org">:house: Home</a> &nbsp; <a href="https://github.com/php/pecl-networking-ssh2">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-networking-ssh2/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=421&rid=&cid=16">:bar_chart: Stats</a></li>
+<li><a href="https://php.net/ssh2">:book: Documentation</a> &nbsp; <a href="http://www.libssh2.org">:house: Home</a> &nbsp; <a href="https://github.com/php/pecl-networking-ssh2">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-networking-ssh2/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=421&rid=&cid=16">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>uuid&nbsp; :eight:</summary>
