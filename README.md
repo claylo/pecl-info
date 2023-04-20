@@ -417,10 +417,10 @@ Oracle's standard cross-version connectivity applies.  For example, PHP OCI8 lin
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/oci8-3.2.1">3.2.1</a> on 12 Dec 2021</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/oci8-3.3.0">3.3.0</a> on 20 Apr 2023</li>
 <li>Release data in JSON: <a href="data/packages/oci8.json">oci8.json</a></li>
 <li><a href="https://pecl.php.net/packages/oci8">oci8 on PECL</a></li>
-<li><a href="http://www.php.net/oci8">:book: Documentation</a> &nbsp; <a href="https://github.com/php/php-src/tree/master/ext/oci8">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/php-src/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=277&rid=&cid=7">:bar_chart: Stats</a></li>
+<li><a href="https://php.net/oci8">:book: Documentation</a> &nbsp; <a href="https://github.com/php/php-src/tree/master/ext/oci8">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/php-src/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=277&rid=&cid=7">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>PDO_IBM&nbsp; :eight:</summary>

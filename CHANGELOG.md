@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.113.0](https://github.com/claylo/pecl-info/compare/v1.112.0...v1.113.0) (2023-04-20)
+
+
+### Added
+
+* add oci8 3.3.0 release ([546a412](https://github.com/claylo/pecl-info/commit/546a4128ea59073581468e9cbbf1c3b662b06d00))
+
 ## [1.112.0](https://github.com/claylo/pecl-info/compare/v1.111.0...v1.112.0) (2023-04-19)
 
 
