@@ -21480,12 +21480,22 @@
         "category": "Database",
         "deprecated": false,
         "description": "The OCI8 extension lets you access Oracle Database.\n\nUse 'pecl install oci8' to install for PHP 8.1.\n\nUse 'pecl install oci8-3.0.1' to install for PHP 8.0.\n\nUse 'pecl install oci8-2.2.0' to install for PHP 7.\n\nUse 'pecl install oci8-2.0.12' to install for PHP 5.2 - PHP 5.6.\n\nUse 'pecl install oci8-1.4.10' to install for PHP 4.3.9 - PHP 5.1.\n\nThe current OCI8 extension can be linked with Oracle Client libraries from Oracle Database 11.2 or later.  (OCI8 3.0 and earlier can be linked with 10g or later).  The Oracle Client libraries are in the free Oracle Instant Client from https://www.oracle.com/database/technologies/instant-client.html.  They are also included in your database installation.\n\nOracle's standard cross-version connectivity applies.  For example, PHP OCI8 linked with Oracle Client 19c can connect to Oracle Database 11.2 onward.  See Oracle's note \"Oracle Client / Server Interoperability Support\" (ID 207303.1) for details.",
-        "latestReleaseDate": "2021-12-12T03:31:10+00:00",
-        "latestVersion": "3.2.1",
+        "latestReleaseDate": "2023-04-20T08:24:51+00:00",
+        "latestVersion": "3.3.0",
         "license": "PHP",
         "name": "oci8",
         "php8Mentioned": true,
         "releases": {
+            "3.3.0": {
+                "version": "3.3.0",
+                "state": "stable",
+                "license": "PHP",
+                "releasedBy": "sixd",
+                "releaseDate": "2023-04-20T08:24:51+00:00",
+                "releaseNotes": "This version is for PHP 8.2 only.\n\nRequires Oracle Client libraries from 11.2 or later.",
+                "get": "https://pecl.php.net/get/oci8-3.3.0",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
             "3.2.1": {
                 "version": "3.2.1",
                 "state": "stable",
