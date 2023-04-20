@@ -34855,12 +34855,22 @@
         "category": "Networking",
         "deprecated": false,
         "description": "Provides bindings to the functions of libssh2 which implements the SSH2 protocol.\n        libssh2 is available from http://libssh2.org/",
-        "latestReleaseDate": "2021-03-02T11:02:24+00:00",
-        "latestVersion": "1.3.1",
+        "latestReleaseDate": "2023-04-20T14:42:51+00:00",
+        "latestVersion": "1.4",
         "license": "PHP License",
         "name": "ssh2",
         "php8Mentioned": false,
         "releases": {
+            "1.4": {
+                "version": "1.4",
+                "state": "stable",
+                "license": "PHP License",
+                "releasedBy": "langemeijer",
+                "releaseDate": "2023-04-20T14:42:51+00:00",
+                "releaseNotes": "- Add ssh2_shell_resize function [PR #55] (jentian)\n- Add ssh2_auth_pubkey to allow public and private keys as strings [PR #56] (Andreas Treichel)",
+                "get": "https://pecl.php.net/get/ssh2-1.4",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
             "1.3.1": {
                 "version": "1.3.1",
                 "state": "beta",

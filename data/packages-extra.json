@@ -2809,12 +2809,12 @@
     },
     "ssh2": {
         "bugs": "https://github.com/php/pecl-networking-ssh2/issues",
-        "docs": "http://www.php.net/ssh2",
+        "docs": "https://php.net/ssh2",
         "home": "http://www.libssh2.org",
         "maintained": true,
         "repo": "https://github.com/php/pecl-networking-ssh2",
         "stats": "https://pecl.php.net/package-stats.php?pid=421&rid=&cid=16",
-        "verified": false
+        "verified": true
     },
     "stackdriver_debugger": {
         "bugs": "https://github.com/GoogleCloudPlatform/stackdriver-debugger-php-extension/issues",
