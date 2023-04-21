@@ -351,10 +351,10 @@ necessary to build a fully-functional MongoDB driver.
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/mongodb-1.15.1">1.15.1</a> on 09 Feb 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/mongodb-1.15.2">1.15.2</a> on 21 Apr 2023</li>
 <li>Release data in JSON: <a href="data/packages/mongodb.json">mongodb.json</a></li>
 <li><a href="https://pecl.php.net/packages/mongodb">mongodb on PECL</a></li>
-<li><a href="https://php.net/mongodb">:book: Documentation</a> &nbsp; <a href="http://docs.mongodb.org/ecosystem/drivers/php/">:house: Home</a> &nbsp; <a href="https://github.com/mongodb/mongo-php-driver">:sparkles: Source</a> &nbsp; <a href="https://jira.mongodb.org/browse/PHPC">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=981&rid=&cid=7">:bar_chart: Stats</a></li>
+<li><a href="http://php.net/mongodb">:book: Documentation</a> &nbsp; <a href="http://docs.mongodb.org/ecosystem/drivers/php/">:house: Home</a> &nbsp; <a href="https://github.com/mongodb/mongo-php-driver">:sparkles: Source</a> &nbsp; <a href="https://jira.mongodb.org/browse/PHPC">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=981&rid=&cid=7">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>mysql_xdevapi</summary>
