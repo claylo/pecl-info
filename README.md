@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (140)
+## Relevant Extensions (139)
 
 ### Authentication (2)
 
@@ -902,7 +902,7 @@ PHP extension for compression and decompression with Zstandard library.
 ```
 <p><ul>
 <li>License: MIT</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/zstd-0.12.1">0.12.1</a> on 22 Jan 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/zstd-0.12.2">0.12.2</a> on 27 Apr 2023</li>
 <li>Release data in JSON: <a href="data/packages/zstd.json">zstd.json</a></li>
 <li><a href="https://pecl.php.net/packages/zstd">zstd on PECL</a></li>
 <li><a href="https://github.com/kjdev/">:house: Home</a> &nbsp; <a href="https://github.com/kjdev/php-ext-zstd">:sparkles: Source</a> &nbsp; <a href="https://github.com/kjdev/php-ext-zstd/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1045&rid=&cid=33">:bar_chart: Stats</a></li>
@@ -910,7 +910,7 @@ PHP extension for compression and decompression with Zstandard library.
 </details>
 
 ***
-### File System (3)
+### File System (2)
 
 <details><summary>inotify&nbsp; :eight:</summary>
 <p>Inotify</p>
@@ -939,20 +939,6 @@ smbclient is a PHP extension that uses Samba's libsmbclient library to provide
 <li>Release data in JSON: <a href="data/packages/smbclient.json">smbclient.json</a></li>
 <li><a href="https://pecl.php.net/packages/smbclient">smbclient on PECL</a></li>
 <li><a href="https://github.com/eduardok/libsmbclient-php">:house: Home</a> &nbsp; <a href="https://github.com/eduardok/libsmbclient-php">:sparkles: Source</a> &nbsp; <a href="https://github.com/eduardok/libsmbclient-php/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=993&rid=&cid=9">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>xattr&nbsp; :eight:</summary>
-<p>Extended attributes.</p>
-
-```
-This package allows to manipulate extended attributes on filesystems that support them.
-```
-<p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/xattr-1.4.0">1.4.0</a> on 24 Apr 2020</li>
-<li>Release data in JSON: <a href="data/packages/xattr.json">xattr.json</a></li>
-<li><a href="https://pecl.php.net/packages/xattr">xattr on PECL</a></li>
-<li><a href="http://php.net/xattr">:book: Documentation</a> &nbsp; <a href="https://github.com/php/pecl-file_system-xattr">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-file_system-xattr/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=380&rid=&cid=9">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 
