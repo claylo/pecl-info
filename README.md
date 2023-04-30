@@ -176,10 +176,10 @@ Memcached is a caching daemon designed especially for
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/memcache-8.0">8.0</a> on 06 Dec 2020</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/memcache-8.2">8.2</a> on 30 Apr 2023</li>
 <li>Release data in JSON: <a href="data/packages/memcache.json">memcache.json</a></li>
 <li><a href="https://pecl.php.net/packages/memcache">memcache on PECL</a></li>
-<li><a href="https://php.net/memcache">:book: Documentation</a> &nbsp; <a href="https://github.com/websupport-sk/pecl-memcache">:sparkles: Source</a> &nbsp; <a href="https://github.com/websupport-sk/pecl-memcache/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=294&rid=&cid=3">:bar_chart: Stats</a></li>
+<li><a href="http://www.php.net/memcache">:book: Documentation</a> &nbsp; <a href="https://github.com/websupport-sk/pecl-memcache">:sparkles: Source</a> &nbsp; <a href="https://github.com/websupport-sk/pecl-memcache/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=294&rid=&cid=3">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>memcached&nbsp; :eight:</summary>

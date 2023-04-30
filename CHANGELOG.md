@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.119.0](https://github.com/claylo/pecl-info/compare/v1.118.0...v1.119.0) (2023-04-30)
+
+
+### Added
+
+* add memcache 8.2 release ([7b145c5](https://github.com/claylo/pecl-info/commit/7b145c5e2308d735027c40ce6f7fc1da0e2f03b6))
+
 ## [1.118.0](https://github.com/claylo/pecl-info/compare/v1.117.0...v1.118.0) (2023-04-29)
 
 
