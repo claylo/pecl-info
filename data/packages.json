@@ -17788,12 +17788,22 @@
         "category": "Caching",
         "deprecated": false,
         "description": "Memcached is a caching daemon designed especially for \n    dynamic web applications to decrease database load by \n    storing objects in memory.\n    This extension allows you to work with memcached through\n    handy OO and procedural interfaces.\n    The extension allows use to store sessions in memcached via memcache.",
-        "latestReleaseDate": "2020-12-06T15:07:41+00:00",
-        "latestVersion": "8.0",
+        "latestReleaseDate": "2023-04-30T11:28:12+00:00",
+        "latestVersion": "8.2",
         "license": "PHP License",
         "name": "memcache",
         "php8Mentioned": true,
         "releases": {
+            "8.2": {
+                "version": "8.2",
+                "state": "stable",
+                "license": "PHP License",
+                "releasedBy": "tomassrnka",
+                "releaseDate": "2023-04-30T11:28:12+00:00",
+                "releaseNotes": "- Version 8.x support PHP 8.x\n- Version 4.x supports PHP 7.0-7.4.\n- Version 4.x is considered to be stable for production usage.\n- Support for PHP 5.x has been removed, please use memcache extension ver. 3.x\n- Special thanks to Frantisek Drojak - thesource93 (github) and Zaffy (github) for making this happen",
+                "get": "https://pecl.php.net/get/memcache-8.2",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
             "8.0": {
                 "version": "8.0",
                 "state": "stable",

@@ -1443,12 +1443,12 @@
     },
     "memcache": {
         "bugs": "https://github.com/websupport-sk/pecl-memcache/issues",
-        "docs": "https://php.net/memcache",
+        "docs": "http://www.php.net/memcache",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/websupport-sk/pecl-memcache",
         "stats": "https://pecl.php.net/package-stats.php?pid=294&rid=&cid=3",
-        "verified": true
+        "verified": false
     },
     "memcached": {
         "bugs": "https://github.com/php-memcached-dev/php-memcached/issues",
