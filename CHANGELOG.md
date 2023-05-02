@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.120.0](https://github.com/claylo/pecl-info/compare/v1.119.0...v1.120.0) (2023-05-02)
+
+
+### Added
+
+* add gRPC 1.55.0RC1 release ([8a3f523](https://github.com/claylo/pecl-info/commit/8a3f523558155554e63c6d507663c647b42c0163))
+
 ## [1.119.0](https://github.com/claylo/pecl-info/compare/v1.118.0...v1.119.0) (2023-04-30)
 
 
