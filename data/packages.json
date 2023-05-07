@@ -32596,12 +32596,22 @@
         "category": "Encryption",
         "deprecated": false,
         "description": "A PHP wrapper to Colin Percival's scrypt implementation.",
-        "latestReleaseDate": "2022-09-06T16:14:50+00:00",
-        "latestVersion": "2.0.0",
+        "latestReleaseDate": "2023-05-07T13:11:53+00:00",
+        "latestVersion": "2.0.1",
         "license": "BSD 2-Clause",
         "name": "scrypt",
         "php8Mentioned": true,
         "releases": {
+            "2.0.1": {
+                "version": "2.0.1",
+                "state": "stable",
+                "license": "BSD 2-Clause",
+                "releasedBy": "kocsismate",
+                "releaseDate": "2023-05-07T13:11:53+00:00",
+                "releaseNotes": "Check CPU architecture before attempting to enable SSE (#76)",
+                "get": "https://pecl.php.net/get/scrypt-2.0.1",
+                "SPDX-License-Identifier": "BSD-2-Clause"
+            },
             "2.0.0": {
                 "version": "2.0.0",
                 "state": "stable",
