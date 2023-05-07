@@ -645,7 +645,7 @@ A PHP wrapper to Colin Percival's scrypt implementation.
 ```
 <p><ul>
 <li>License: BSD-2-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/scrypt-2.0.0">2.0.0</a> on 06 Sep 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/scrypt-2.0.1">2.0.1</a> on 07 May 2023</li>
 <li>Release data in JSON: <a href="data/packages/scrypt.json">scrypt.json</a></li>
 <li><a href="https://pecl.php.net/packages/scrypt">scrypt on PECL</a></li>
 <li><a href="https://github.com/DomBlack/php-scrypt">:sparkles: Source</a> &nbsp; <a href="https://github.com/DomBlack/php-scrypt/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=947&rid=&cid=6">:bar_chart: Stats</a></li>
