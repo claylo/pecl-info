@@ -22494,12 +22494,22 @@
         "category": "PHP",
         "deprecated": false,
         "description": "https://github.com/open-telemetry/opentelemetry-php-instrumentation",
-        "latestReleaseDate": "2023-04-19T12:45:50+00:00",
-        "latestVersion": "1.0.0beta4",
+        "latestReleaseDate": "2023-05-10T14:27:54+00:00",
+        "latestVersion": "1.0.0beta5",
         "license": "Apache 2.0",
         "name": "opentelemetry",
         "php8Mentioned": false,
         "releases": {
+            "1.0.0beta5": {
+                "version": "1.0.0beta5",
+                "state": "beta",
+                "license": "Apache 2.0",
+                "releasedBy": "pdelewski",
+                "releaseDate": "2023-05-10T14:27:54+00:00",
+                "releaseNotes": "opentelemetry 1.0.0beta5\n* calling die or exit directly lead to segfault (#55)\n* adding phpdoc to stubs (#54)",
+                "get": "https://pecl.php.net/get/opentelemetry-1.0.0beta5",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "1.0.0beta4": {
                 "version": "1.0.0beta4",
                 "state": "beta",
