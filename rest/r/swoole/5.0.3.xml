@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>5.0.3</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in tcp/http/websocket/http2 server
+        - coroutine tcp/http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2023-05-11 00:28:14</da>
+ <n>- Added --with-nghttp2_dir option, Use the system nghttp2 library
+- Added unit character supports for byte length or size related options
+- Fixed memory leak Server task/pipemessage/finish event callback
+- Added Process\Pool::sendMessage()
+- Added support for max-age to Http\Response:cookie() method
+- No longer thrown error log when http header conflicts
+- No longer thrown error log when the server connection is closed
+- Fixed memory leak caused by Server send_yield</n>
+ <f>2066852</f>
+ <g>https://pecl.php.net/get/swoole-5.0.3</g>
+ <x xlink:href="package.5.0.3.xml"/>
+</r>
