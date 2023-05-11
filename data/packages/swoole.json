@@ -1,13 +1,23 @@
 {
     "category": "Event",
     "deprecated": false,
-    "description": "Coroutine-based concurrency library for PHP\n        - event-driven\n        - coroutines\n        - asynchronous non-blocking\n        - built-in tcp/http/websocket/http2 server\n        - coroutine tcp/http/websocket client\n        - coroutine mysql client\n        - coroutine redis client\n        - coroutine read/write file system\n        - coroutine dns lookup\n        - automatically replace blocking functions to non-blocking\n        - support IPv4/IPv6/UnixSocket/TCP/UDP\n        - support SSL/TLS encrypted transmission",
-    "latestReleaseDate": "2023-03-02T13:07:07+00:00",
-    "latestVersion": "5.0.2",
+    "description": "Event-driven asynchronous and concurrent networking engine with high performance for PHP.\n        - event-driven\n        - coroutine\n        - asynchronous non-blocking\n        - multi-thread reactor\n        - multi-process worker\n        - multi-protocol\n        - millisecond timer\n        - built-in tcp/http/websocket/http2 server\n        - coroutine tcp/http/websocket client\n        - coroutine mysql client\n        - coroutine redis client\n        - coroutine read/write file system\n        - coroutine dns lookup\n        - support IPv4/IPv6/UnixSocket/TCP/UDP\n        - support SSL/TLS encrypted transmission",
+    "latestReleaseDate": "2023-05-11T00:28:14+00:00",
+    "latestVersion": "5.0.3",
     "license": "Apache2.0",
     "name": "swoole",
     "php8Mentioned": true,
     "releases": {
+        "5.0.3": {
+            "version": "5.0.3",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "tianfenghan",
+            "releaseDate": "2023-05-11T00:28:14+00:00",
+            "releaseNotes": "- Added --with-nghttp2_dir option, Use the system nghttp2 library\n- Added unit character supports for byte length or size related options\n- Fixed memory leak Server task/pipemessage/finish event callback\n- Added Process\\Pool::sendMessage()\n- Added support for max-age to Http\\Response:cookie() method\n- No longer thrown error log when http header conflicts\n- No longer thrown error log when the server connection is closed\n- Fixed memory leak caused by Server send_yield",
+            "get": "https://pecl.php.net/get/swoole-5.0.3",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "5.0.2": {
             "version": "5.0.2",
             "state": "stable",
@@ -1769,6 +1779,6 @@
             "SPDX-License-Identifier": "Apache-2.0"
         }
     },
-    "summary": "Coroutine-based concurrency library for PHP",
+    "summary": "Event-driven asynchronous and concurrent networking engine with high performance for PHP.",
     "SPDX-License-Identifier": "Apache-2.0"
 }
