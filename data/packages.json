@@ -4429,12 +4429,22 @@
         "category": "Benchmarking",
         "deprecated": false,
         "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-        "latestReleaseDate": "2023-04-06T08:42:48+00:00",
-        "latestVersion": "0.86.3",
+        "latestReleaseDate": "2023-05-12T10:42:30+00:00",
+        "latestVersion": "0.87.0",
         "license": "BSD 3-Clause",
         "name": "datadog_trace",
         "php8Mentioned": true,
         "releases": {
+            "0.87.0": {
+                "version": "0.87.0",
+                "state": "stable",
+                "license": "BSD 3-Clause",
+                "releasedBy": "bwoebi",
+                "releaseDate": "2023-05-12T10:42:30+00:00",
+                "releaseNotes": "### Added\n- Add config mode to datadog-setup.php #1951\n- Add file hooking to DDTrace\\install_hook #1989\n- Allow DDTrace\\install_hook to take any callable #1991\n- Add Laminas integration #1990\n- Add php-amqp integration #1996\n- Add Laravel Queue integration with Span Links #2026\n- Add SQLSRV Integration #2031\n- Implement replacing of return values #2018\n\n### Changed\n- Allow for consuming an array via DDTrace\\consume_distributed_tracing_headers #2010\n- Allow DDTrace\\install_hook to take any callable #1991\n- Do not force cycle collection at runtime on flush by default #2046\n\n### Fixed\n- Add fixes for parametric testsuite #1988\n- Fix exceptions and errors in auto_prepend_file #1987\n- [Yii] Do not use module property if it doesn't exist #1999\n- Load API files relative to the ComposerBootstrap.php instead of the ddtrace autoloader #2013\n- Avoid side effects from errors within the sandbox #2015\n- Prevent execution of install_hook() hooks after disabling tracer #2016\n- Fix install_hook on functions returning by-reference #2017\n- Fix #2012: Remove PHP 7-only types from signatures #2021 Thanks, @jmakuc, for reporting the issue.\n- Ensure internal server errors are set on the root span in Laravel #2026\n- Starting multiple traces in parallel does not confuse the limiter #2026\n- Fix #2030: Segmentation fault with autoloaders bailing out #2037 Thanks, @NickStallman, for reporting the issue.\n- Possible segfault when instrumenting `curl_setopt()` in PHP 7 #2039\n- Fix resolving hooks within files declaring many functions on PHP 7.2 - 8.1 #2045\n\n### Internal changes\n- Increase the number of configuration entries in zai config #2020\n- Reduce the allocated heap size of the elasticsearch7 container #2040\n\n## Profiling\n\nThe profiling version number is now in sync with the tracer for stable releases.\n\n\n### Changed\n- Sync profiling version number with tracer #1992\n- refactor: move upscaling to `libdatadog` #1984\n- perf: raise sampling distance for allocations to 2048 KB #2036\n\n### Fixed\n- Fix crashes when allocation sampling occurs in certain places #2039\n\n### Internal changes\n- add test to ensure we do not crash with fibers #2003\n- add stack walking test #2034\n\n## Application Security Management (0.8.0)\n### Fixed\n- Amend issue when getting agent host and port DataDog/dd-appsec-php#230\n- Flush socket on body limit DataDog/dd-appsec-php#233\n- Set appsec disabled when ddtrace is not enabled DataDog/dd-appsec-php#245\n- Cap retry to five minutes rc polling DataDog/dd-appsec-php#246\n- Avoid updating waf when no updates provided on poll DataDog/dd-appsec-php#250\n\n### Added\n- Custom rules support DataDog/dd-appsec-php#235\n- Engine update batcher DataDog/dd-appsec-php#248\n\n### Changed\n- Refactor capabilities DataDog/dd-appsec-php#227\n- Refactor service DataDog/dd-appsec-php#229\n- Update ip algorithm DataDog/dd-appsec-php#237\n- Handle request-lifecycle atomically DataDog/dd-appsec-php#249\n- Update-only engine listener and atomic config handling  DataDog/dd-appsec-php#253\n\n### Internal Changes\n- Upgrade tracer to 0.85.0 DataDog/dd-appsec-php#226\n- Setup python 3.9 for system tests DataDog/dd-appsec-php#228\n- Update WAF to 1.9.0, Ruleset to 1.6.0 and Tracer to 0.86.1 DataDog/dd-appsec-php#234\n- Disable apache2 restart test on ZTS DataDog/dd-appsec-php#236\n- Implement abstract methods of listener on test DataDog/dd-appsec-php#239\n- Add test to ensure path parser does not count on /config ending DataDog/dd-appsec-php#240\n- Update ruleset to 1.7.0 DataDog/dd-appsec-php#252\n- Update html blocked template DataDog/dd-appsec-php#254\n- Upgrade WAF to 1.10.0 and add custom_rules capability DataDog/dd-appsec-php#255",
+                "get": "https://pecl.php.net/get/datadog_trace-0.87.0",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "0.86.3": {
                 "version": "0.86.3",
                 "state": "stable",
@@ -18923,12 +18933,22 @@
         "category": "Database",
         "deprecated": false,
         "description": "The purpose of this driver is to provide exceptionally thin glue between MongoDB\nand PHP, implementing only fundamental and performance-critical components\nnecessary to build a fully-functional MongoDB driver.",
-        "latestReleaseDate": "2023-04-21T16:24:25+00:00",
-        "latestVersion": "1.15.2",
+        "latestReleaseDate": "2023-05-12T11:22:45+00:00",
+        "latestVersion": "1.15.3",
         "license": "Apache License",
         "name": "mongodb",
         "php8Mentioned": true,
         "releases": {
+            "1.15.3": {
+                "version": "1.15.3",
+                "state": "stable",
+                "license": "Apache License",
+                "releasedBy": "jmikola",
+                "releaseDate": "2023-05-12T11:22:45+00:00",
+                "releaseNotes": "** Build Failure\n    * [PHPC-2208] - Flaky test failure due to binary output dumping a session ID\n\n** Bug\n    * [PHPC-2218] - Speculative authentication state is incorrectly kept\n\n** Task\n    * [PHPC-2221] - Upgrade libmongoc to 1.23.4",
+                "get": "https://pecl.php.net/get/mongodb-1.15.3",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "1.15.2": {
                 "version": "1.15.2",
                 "state": "stable",
