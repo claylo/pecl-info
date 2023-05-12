@@ -2,12 +2,22 @@
     "category": "Database",
     "deprecated": false,
     "description": "The purpose of this driver is to provide exceptionally thin glue between MongoDB\nand PHP, implementing only fundamental and performance-critical components\nnecessary to build a fully-functional MongoDB driver.",
-    "latestReleaseDate": "2023-04-21T16:24:25+00:00",
-    "latestVersion": "1.15.2",
+    "latestReleaseDate": "2023-05-12T11:22:45+00:00",
+    "latestVersion": "1.15.3",
     "license": "Apache License",
     "name": "mongodb",
     "php8Mentioned": true,
     "releases": {
+        "1.15.3": {
+            "version": "1.15.3",
+            "state": "stable",
+            "license": "Apache License",
+            "releasedBy": "jmikola",
+            "releaseDate": "2023-05-12T11:22:45+00:00",
+            "releaseNotes": "** Build Failure\n    * [PHPC-2208] - Flaky test failure due to binary output dumping a session ID\n\n** Bug\n    * [PHPC-2218] - Speculative authentication state is incorrectly kept\n\n** Task\n    * [PHPC-2221] - Upgrade libmongoc to 1.23.4",
+            "get": "https://pecl.php.net/get/mongodb-1.15.3",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "1.15.2": {
             "version": "1.15.2",
             "state": "stable",
