@@ -2,12 +2,22 @@
     "category": "Text",
     "deprecated": false,
     "description": "With Parle, it is possible to implement lexing and parsing in PHP while relying on features and principles of the parser/lexer generator tools for C/C++.",
-    "latestReleaseDate": "2022-04-14T15:14:42+00:00",
-    "latestVersion": "0.8.3",
+    "latestReleaseDate": "2023-05-13T16:06:17+00:00",
+    "latestVersion": "0.8.4",
     "license": "BSD 2-clause",
     "name": "parle",
     "php8Mentioned": true,
     "releases": {
+        "0.8.4": {
+            "version": "0.8.4",
+            "state": "beta",
+            "license": "BSD 2-clause",
+            "releasedBy": "ab",
+            "releaseDate": "2023-05-13T16:06:17+00:00",
+            "releaseNotes": "- Update the bundled parsertl/lexertl libraries (Ben Hanson)\n- If the grammar ambiquity is detected, parser will now throw an exception\n- Configure option --enable-parle-utf32 can be passed during pecl install (Michele Locati)\n- Implemented Parser::sigilCount() (Ben Hanson)\n- Implement Parser::sigilName() (Ben Hanson)",
+            "get": "https://pecl.php.net/get/parle-0.8.4",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
         "0.8.3": {
             "version": "0.8.3",
             "state": "beta",
