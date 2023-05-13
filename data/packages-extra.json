@@ -1915,12 +1915,12 @@
     },
     "parle": {
         "bugs": "https://github.com/weltling/parle/issues",
-        "docs": "https://php.net/parle",
+        "docs": "http://php.net/parle",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/weltling/parle",
         "stats": "https://pecl.php.net/package-stats.php?pid=1016&rid=&cid=36",
-        "verified": true
+        "verified": false
     },
     "parse_tree": {
         "bugs": "",
