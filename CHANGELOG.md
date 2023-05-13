@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.130.0](https://github.com/claylo/pecl-info/compare/v1.129.0...v1.130.0) (2023-05-13)
+
+
+### Added
+
+* add parle 0.8.4 release ([b8293d1](https://github.com/claylo/pecl-info/commit/b8293d164ff1b318ab8ff49043cb34b088052fc4))
+
 ## [1.129.0](https://github.com/claylo/pecl-info/compare/v1.128.0...v1.129.0) (2023-05-12)
 
 

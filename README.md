@@ -2105,10 +2105,10 @@ features and principles of the parser/lexer generator tools for C/C++.
 ```
 <p><ul>
 <li>License: BSD-2-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/parle-0.8.3">0.8.3</a> on 14 Apr 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/parle-0.8.4">0.8.4</a> on 13 May 2023</li>
 <li>Release data in JSON: <a href="data/packages/parle.json">parle.json</a></li>
 <li><a href="https://pecl.php.net/packages/parle">parle on PECL</a></li>
-<li><a href="https://php.net/parle">:book: Documentation</a> &nbsp; <a href="https://github.com/weltling/parle">:sparkles: Source</a> &nbsp; <a href="https://github.com/weltling/parle/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1016&rid=&cid=36">:bar_chart: Stats</a></li>
+<li><a href="http://php.net/parle">:book: Documentation</a> &nbsp; <a href="https://github.com/weltling/parle">:sparkles: Source</a> &nbsp; <a href="https://github.com/weltling/parle/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1016&rid=&cid=36">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>ps&nbsp; :eight:</summary>
