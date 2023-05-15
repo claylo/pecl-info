@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.131.0](https://github.com/claylo/pecl-info/compare/v1.130.0...v1.131.0) (2023-05-15)
+
+
+### Added
+
+* add xlswriter 1.5.5 release ([c20a53c](https://github.com/claylo/pecl-info/commit/c20a53c3d8f64c4a8432fcec635005fca33e7fe5))
+
 ## [1.130.0](https://github.com/claylo/pecl-info/compare/v1.129.0...v1.130.0) (2023-05-13)
 
 
