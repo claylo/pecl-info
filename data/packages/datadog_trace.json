@@ -2,12 +2,22 @@
     "category": "Benchmarking",
     "deprecated": false,
     "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-    "latestReleaseDate": "2023-05-12T10:42:30+00:00",
-    "latestVersion": "0.87.0",
+    "latestReleaseDate": "2023-05-16T10:55:37+00:00",
+    "latestVersion": "0.87.1",
     "license": "BSD 3-Clause",
     "name": "datadog_trace",
     "php8Mentioned": true,
     "releases": {
+        "0.87.1": {
+            "version": "0.87.1",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "bwoebi",
+            "releaseDate": "2023-05-16T10:55:37+00:00",
+            "releaseNotes": "### Fixed\n- Fix opline being replaced by ZEND_HANDLE_EXCEPTION in uncaught finally on PHP 7 #2052\n- Won't set 4xx errors on Laravel root span every time an Exception is caught #2053",
+            "get": "https://pecl.php.net/get/datadog_trace-0.87.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "0.87.0": {
             "version": "0.87.0",
             "state": "stable",
