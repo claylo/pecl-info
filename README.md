@@ -2270,7 +2270,7 @@ https://developers.google.com/protocol-buffers/
 ```
 <p><ul>
 <li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/protobuf-3.22.5">3.22.5</a> on 10 May 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/protobuf-3.23.1">3.23.1</a> on 17 May 2023</li>
 <li>Release data in JSON: <a href="data/packages/protobuf.json">protobuf.json</a></li>
 <li><a href="https://pecl.php.net/packages/protobuf">protobuf on PECL</a></li>
 <li><a href="https://github.com/google/protobuf">:sparkles: Source</a> &nbsp; <a href="https://github.com/protocolbuffers/protobuf/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=997&rid=&cid=29">:bar_chart: Stats</a></li>
