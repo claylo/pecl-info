@@ -482,10 +482,10 @@
     "datadog_trace": {
         "bugs": "",
         "docs": "",
-        "home": "",
+        "home": "https://docs.datadoghq.com/tracing/languages/php/",
         "maintained": true,
-        "repo": "",
-        "stats": "",
+        "repo": "https://github.com/DataDog/dd-trace-php",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1029&rid=&cid=2",
         "verified": false
     },
     "date_time": {
