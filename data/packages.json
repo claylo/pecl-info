@@ -2342,13 +2342,23 @@
     "bitset": {
         "category": "Numbers",
         "deprecated": false,
-        "description": "Bitsets manipulation library",
-        "latestReleaseDate": "2017-10-06T16:50:56+00:00",
-        "latestVersion": "3.0.1",
-        "license": "PHP",
+        "description": "The BitSet extension assists by providing a mechanism to manage sets of bits.\n\nThis provides a similar API (object-based) to java.util.BitSet with some PHP-specific flavoring.",
+        "latestReleaseDate": "2023-05-25T07:16:12+00:00",
+        "latestVersion": "3.1.0",
+        "license": "PHP-3.01",
         "name": "Bitset",
-        "php8Mentioned": false,
+        "php8Mentioned": true,
         "releases": {
+            "3.1.0": {
+                "version": "3.1.0",
+                "state": "stable",
+                "license": "PHP-3.01",
+                "releasedBy": "remi",
+                "releaseDate": "2023-05-25T07:16:12+00:00",
+                "releaseNotes": "- add support for PHP 8.2\n- fix #63315: BitSet::fromArray may modify original array value (cmb)\n- add type hinting\n- minor optimizations",
+                "get": "https://pecl.php.net/get/bitset-3.1.0",
+                "SPDX-License-Identifier": null
+            },
             "3.0.1": {
                 "version": "3.0.1",
                 "state": "stable",
@@ -2440,8 +2450,8 @@
                 "SPDX-License-Identifier": "PHP-3.01"
             }
         },
-        "summary": "BITSET library",
-        "SPDX-License-Identifier": "PHP-3.01"
+        "summary": "BITSET extension",
+        "SPDX-License-Identifier": null
     },
     "blenc": {
         "category": "PHP",
