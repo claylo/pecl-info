@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (139)
+## Relevant Extensions (140)
 
 ### Authentication (2)
 
@@ -1524,6 +1524,26 @@ Find more information at:
 <li>Release data in JSON: <a href="data/packages/yaz.json">yaz.json</a></li>
 <li><a href="https://pecl.php.net/packages/yaz">yaz on PECL</a></li>
 <li><a href="http://www.indexdata.com/phpyaz">:house: Home</a> &nbsp; <a href="https://github.com/indexdata/phpyaz">:sparkles: Source</a> &nbsp; <a href="https://github.com/indexdata/phpyaz/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=322&rid=&cid=16">:bar_chart: Stats</a></li>
+</ul></p><hr />
+</details>
+
+***
+### Numbers (1)
+
+<details><summary>Bitset&nbsp; :eight:</summary>
+<p>BITSET extension</p>
+
+```
+The BitSet extension assists by providing a mechanism to manage sets of bits.
+
+This provides a similar API (object-based) to java.util.BitSet with some PHP-specific flavoring.
+```
+<p><ul>
+<li>License: </li>
+<li>Latest Release: <a href="https://pecl.php.net/get/Bitset-3.1.0">3.1.0</a> on 25 May 2023</li>
+<li>Release data in JSON: <a href="data/packages/bitset.json">bitset.json</a></li>
+<li><a href="https://pecl.php.net/packages/Bitset">Bitset on PECL</a></li>
+<li><a href="https://github.com/php/pecl-numbers-bitset">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-numbers-bitset/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=504&rid=&cid=17">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 
