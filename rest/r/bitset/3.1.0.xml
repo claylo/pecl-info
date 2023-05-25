@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/bitset">bitset</p>
+ <c>pecl.php.net</c>
+ <v>3.1.0</v>
+ <st>stable</st>
+ <l>PHP-3.01</l>
+ <m>remi</m>
+ <s>BITSET library</s>
+ <d>Bitsets manipulation library</d>
+ <da>2023-05-25 07:16:12</da>
+ <n>- add support for PHP 8.2
+- fix #63315: BitSet::fromArray may modify original array value (cmb)
+- add type hinting
+- minor optimizations</n>
+ <f>14375</f>
+ <g>https://pecl.php.net/get/bitset-3.1.0</g>
+ <x xlink:href="package.3.1.0.xml"/>
+</r>
