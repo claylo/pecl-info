@@ -2,12 +2,22 @@
     "category": "Numbers",
     "deprecated": false,
     "description": "The BitSet extension assists by providing a mechanism to manage sets of bits.\n\nThis provides a similar API (object-based) to java.util.BitSet with some PHP-specific flavoring.",
-    "latestReleaseDate": "2023-05-25T07:16:12+00:00",
-    "latestVersion": "3.1.0",
+    "latestReleaseDate": "2023-05-26T06:43:20+00:00",
+    "latestVersion": "3.2.0",
     "license": "PHP-3.01",
     "name": "Bitset",
     "php8Mentioned": true,
     "releases": {
+        "3.2.0": {
+            "version": "3.2.0",
+            "state": "stable",
+            "license": "PHP-3.01",
+            "releasedBy": "remi",
+            "releaseDate": "2023-05-26T06:43:20+00:00",
+            "releaseNotes": "- fix BitSet::fromArray() to allow setting bit 0\n- add BitSet::fromInteger() and BitSet::toInteger()",
+            "get": "https://pecl.php.net/get/bitset-3.2.0",
+            "SPDX-License-Identifier": null
+        },
         "3.1.0": {
             "version": "3.1.0",
             "state": "stable",
