@@ -1540,7 +1540,7 @@ This provides a similar API (object-based) to java.util.BitSet with some PHP-spe
 ```
 <p><ul>
 <li>License: </li>
-<li>Latest Release: <a href="https://pecl.php.net/get/Bitset-3.1.0">3.1.0</a> on 25 May 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/Bitset-3.2.0">3.2.0</a> on 26 May 2023</li>
 <li>Release data in JSON: <a href="data/packages/bitset.json">bitset.json</a></li>
 <li><a href="https://pecl.php.net/packages/Bitset">Bitset on PECL</a></li>
 <li><a href="https://github.com/php/pecl-numbers-bitset">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-numbers-bitset/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=504&rid=&cid=17">:bar_chart: Stats</a></li>

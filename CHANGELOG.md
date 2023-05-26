@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.137.0](https://github.com/claylo/pecl-info/compare/v1.136.0...v1.137.0) (2023-05-26)
+
+
+### Added
+
+* add Bitset 3.2.0 release ([06b0cc7](https://github.com/claylo/pecl-info/commit/06b0cc7c5bec91c140961705946f11632b687545))
+
 ## [1.136.0](https://github.com/claylo/pecl-info/compare/v1.135.0...v1.136.0) (2023-05-25)
 
 
