@@ -2,12 +2,22 @@
     "category": "Database",
     "deprecated": false,
     "description": "The PHP client library provides fast access to documents stored in a Couchbase Server.",
-    "latestReleaseDate": "2023-04-13T13:45:53+00:00",
-    "latestVersion": "4.1.3",
+    "latestReleaseDate": "2023-05-26T13:48:41+00:00",
+    "latestVersion": "4.1.4",
     "license": "Apache V2",
     "name": "couchbase",
     "php8Mentioned": true,
     "releases": {
+        "4.1.4": {
+            "version": "4.1.4",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2023-05-26T13:48:41+00:00",
+            "releaseNotes": "* Add `couchbase::` namespace to `durability_level`, fixes using Sync Durability. (#102)\n* PCBC-934: Fixed setting timeout for transaction.\n\nNotable changes in core C++\n---------------------------\n\n* CXXCBC-327: bundle Mozilla certificates with the library (#405, #408)\n* CXXCBC-324: check port and network name on session restart (#401)\n* CXXCBC-323: parse bootstrap_timeout and resolve_timeout in connection string (#400)\n* introduce option dump_configuration for debugging (#398)",
+            "get": "https://pecl.php.net/get/couchbase-4.1.4",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "4.1.3": {
             "version": "4.1.3",
             "state": "stable",

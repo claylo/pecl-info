@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/couchbase">couchbase</p>
+ <c>pecl.php.net</c>
+ <v>4.1.4</v>
+ <st>stable</st>
+ <l>Apache V2</l>
+ <m>avsej</m>
+ <s>Couchbase Server PHP extension</s>
+ <d>The PHP client library provides fast access to documents stored in a Couchbase Server.</d>
+ <da>2023-05-26 13:48:41</da>
+ <n>* Add `couchbase::` namespace to `durability_level`, fixes using Sync Durability. (#102)
+* PCBC-934: Fixed setting timeout for transaction.
+
+Notable changes in core C++
+---------------------------
+
+* CXXCBC-327: bundle Mozilla certificates with the library (#405, #408)
+* CXXCBC-324: check port and network name on session restart (#401)
+* CXXCBC-323: parse bootstrap_timeout and resolve_timeout in connection string (#400)
+* introduce option dump_configuration for debugging (#398)</n>
+ <f>2095556</f>
+ <g>https://pecl.php.net/get/couchbase-4.1.4</g>
+ <x xlink:href="package.4.1.4.xml"/>
+</r>
