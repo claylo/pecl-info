@@ -6684,12 +6684,22 @@
         "category": "Event",
         "deprecated": false,
         "description": "This extension provides interface to the libeio library written by Marc Lehmann\n    <libeio at schmorp dot de>(see http://software.schmorp.de/pkg/libeio.html).\n\n    Libeio is a an asynchronous I/O library. Features basically include\n    asynchronous versions of POSIX API(read, write, open, close, stat, unlink,\n    fdatasync, mknod, readdir etc.); sendfile (native on Solaris, Linux, HP-UX,\n    FreeBSD); readahead. libeio itself emulates the system calls, if they are not\n    available on specific(UNIX-like) platform.\n\n    Currently this extension supports GNU/Linux and BSD platforms only. But you can\n    try it on any UNIX OS.",
-        "latestReleaseDate": "2021-09-21T09:14:32+00:00",
-        "latestVersion": "3.0.0RC4",
+        "latestReleaseDate": "2023-05-31T15:01:36+00:00",
+        "latestVersion": "3.1.0RC1",
         "license": "php",
         "name": "eio",
         "php8Mentioned": true,
         "releases": {
+            "3.1.0RC1": {
+                "version": "3.1.0RC1",
+                "state": "beta",
+                "license": "php",
+                "releasedBy": "osmanov",
+                "releaseDate": "2023-05-31T15:01:36+00:00",
+                "releaseNotes": "Updated libeio to the latest version.\nFixed internal scripts.",
+                "get": "https://pecl.php.net/get/eio-3.1.0RC1",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
             "3.0.0RC4": {
                 "version": "3.0.0RC4",
                 "state": "beta",
