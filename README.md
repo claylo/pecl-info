@@ -2260,7 +2260,7 @@ This extension provide API for communicating with MessagePack serialization.
 ```
 <p><ul>
 <li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/msgpack-2.2.0RC2">2.2.0RC2</a> on 07 Oct 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/msgpack-2.2.0">2.2.0</a> on 02 Jun 2023</li>
 <li>Release data in JSON: <a href="data/packages/msgpack.json">msgpack.json</a></li>
 <li><a href="https://pecl.php.net/packages/msgpack">msgpack on PECL</a></li>
 <li><a href="http://msgpack.org/">:house: Home</a> &nbsp; <a href="https://github.com/msgpack/msgpack-php">:sparkles: Source</a> &nbsp; <a href="https://github.com/msgpack/msgpack-php/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=930&rid=&cid=29">:bar_chart: Stats</a></li>
