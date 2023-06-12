@@ -2,12 +2,22 @@
     "category": "Database",
     "deprecated": false,
     "description": "Documents: https://mdref.m6w6.name/pq\n\n Highlights:\n * Nearly complete support for asynchronous usage:\n   https://mdref.m6w6.name/pq/Connection/%3A%20Asynchronous%20Usage\n * Extended type support by pg_type:\n   https://mdref.m6w6.name/pq/Types/%3A%20Overview\n * Fetching simple multi-dimensional array maps:\n   https://mdref.m6w6.name/pq/Result/map\n * Working Gateway implementation:\n   https://mdref.m6w6.name/pq-gateway",
-    "latestReleaseDate": "2023-03-03T14:36:15+00:00",
-    "latestVersion": "2.2.1",
+    "latestReleaseDate": "2023-06-12T10:37:29+00:00",
+    "latestVersion": "2.2.2",
     "license": "BSD-2-Clause",
     "name": "pq",
     "php8Mentioned": true,
     "releases": {
+        "2.2.2": {
+            "version": "2.2.2",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2023-06-12T10:37:29+00:00",
+            "releaseNotes": "* Fix JSON coversion (see gh issue #47)",
+            "get": "https://pecl.php.net/get/pq-2.2.2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
         "2.2.1": {
             "version": "2.2.1",
             "state": "stable",
