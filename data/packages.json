@@ -15480,12 +15480,22 @@
         "category": "Networking",
         "deprecated": false,
         "description": "This PECL extension enables you to get the geo location information of an IP address, such as country, region or state, city, latitude and longitude, US ZIP code, time zone, Internet Service Provider (ISP) or company name, domain name, net speed, area code, weather station code, weather station name, mobile country code (MCC), mobile network code (MNC) and carrier brand, elevation, and usage type.",
-        "latestReleaseDate": "2022-07-29T06:58:49+00:00",
-        "latestVersion": "8.1.2",
+        "latestReleaseDate": "2023-06-12T07:47:01+00:00",
+        "latestVersion": "8.2.0",
         "license": "PHP License",
         "name": "ip2location",
         "php8Mentioned": false,
         "releases": {
+            "8.2.0": {
+                "version": "8.2.0",
+                "state": "stable",
+                "license": "PHP-3.01",
+                "releasedBy": "ip2location",
+                "releaseDate": "2023-06-12T07:47:01+00:00",
+                "releaseNotes": "added district, asn and as.",
+                "get": "https://pecl.php.net/get/ip2location-8.2.0",
+                "SPDX-License-Identifier": null
+            },
             "8.1.2": {
                 "version": "8.1.2",
                 "state": "stable",
@@ -27739,12 +27749,22 @@
         "category": "Database",
         "deprecated": false,
         "description": "Documents: https://mdref.m6w6.name/pq\n\n Highlights:\n * Nearly complete support for asynchronous usage:\n   https://mdref.m6w6.name/pq/Connection/%3A%20Asynchronous%20Usage\n * Extended type support by pg_type:\n   https://mdref.m6w6.name/pq/Types/%3A%20Overview\n * Fetching simple multi-dimensional array maps:\n   https://mdref.m6w6.name/pq/Result/map\n * Working Gateway implementation:\n   https://mdref.m6w6.name/pq-gateway",
-        "latestReleaseDate": "2023-03-03T14:36:15+00:00",
-        "latestVersion": "2.2.1",
+        "latestReleaseDate": "2023-06-12T10:37:29+00:00",
+        "latestVersion": "2.2.2",
         "license": "BSD-2-Clause",
         "name": "pq",
         "php8Mentioned": true,
         "releases": {
+            "2.2.2": {
+                "version": "2.2.2",
+                "state": "stable",
+                "license": "BSD-2-Clause",
+                "releasedBy": "mike",
+                "releaseDate": "2023-06-12T10:37:29+00:00",
+                "releaseNotes": "* Fix JSON coversion (see gh issue #47)",
+                "get": "https://pecl.php.net/get/pq-2.2.2",
+                "SPDX-License-Identifier": "BSD-2-Clause"
+            },
             "2.2.1": {
                 "version": "2.2.1",
                 "state": "stable",
