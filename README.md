@@ -504,7 +504,7 @@ Documents: https://mdref.m6w6.name/pq
 ```
 <p><ul>
 <li>License: BSD-2-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/pq-2.2.1">2.2.1</a> on 03 Mar 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/pq-2.2.2">2.2.2</a> on 12 Jun 2023</li>
 <li>Release data in JSON: <a href="data/packages/pq.json">pq.json</a></li>
 <li><a href="https://pecl.php.net/packages/pq">pq on PECL</a></li>
 <li><a href="https://mdref.m6w6.name/pq">:book: Documentation</a> &nbsp; <a href="https://github.com/m6w6/ext-pq">:house: Home</a> &nbsp; <a href="https://github.com/m6w6/ext-pq">:sparkles: Source</a> &nbsp; <a href="https://github.com/m6w6/ext-pq/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=941&rid=&cid=7">:bar_chart: Stats</a></li>
@@ -1429,7 +1429,7 @@ weather station code, weather station name, mobile country code (MCC), mobile ne
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/ip2location-8.1.2">8.1.2</a> on 29 Jul 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/ip2location-8.2.0">8.2.0</a> on 12 Jun 2023</li>
 <li>Release data in JSON: <a href="data/packages/ip2location.json">ip2location.json</a></li>
 <li><a href="https://pecl.php.net/packages/ip2location">ip2location on PECL</a></li>
 <li><a href="http://www.ip2location.com">:house: Home</a> &nbsp; <a href="https://github.com/chrislim2888/IP2Location-PECL-Extension">:sparkles: Source</a> &nbsp; <a href="https://github.com/chrislim2888/IP2Location-PECL-Extension/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=952&rid=&cid=16">:bar_chart: Stats</a></li>
