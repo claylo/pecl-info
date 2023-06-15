@@ -2,12 +2,22 @@
     "category": "Benchmarking",
     "deprecated": false,
     "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-    "latestReleaseDate": "2023-05-19T13:12:34+00:00",
-    "latestVersion": "0.87.2",
+    "latestReleaseDate": "2023-06-15T12:15:46+00:00",
+    "latestVersion": "0.88.0",
     "license": "BSD 3-Clause",
     "name": "datadog_trace",
     "php8Mentioned": true,
     "releases": {
+        "0.88.0": {
+            "version": "0.88.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "bwoebi",
+            "releaseDate": "2023-06-15T12:15:46+00:00",
+            "releaseNotes": "### Added\n- Add support for environment variable syntax to config mode in datadog-setup.php #2050\n\n### Changed\n- Use span links in the RabbitMQ Integration #2092\n- Disable root span generation and removes orphans for Laravel Horizon #2091\n\n### Fixed\n- datadog-setup.php: remove return types for compatibility with PHP 5 #2059 Thanks @dserodio!\n- Work around fiber->execute_data only being correct upon yielding #2072\n- Skip error assignment on the root span for 5xx errors that shouldn't be reported #2089\n- Ensure no crashes happen with multiple observers installed #2093\n- Fix incorrect offset access in Laminas Integration #2094\n\n### Internal Changes\n- build: delete unused C components #2055\n- build: bump cmake and catch2 versions #2056\n- build: reduce Laravel queues' tests flakiness #2057\n- testing: add snapshot testing #2058\n- build: pin guzzlehttp/promises to ^1.5.3 #2071\n- Update removed methods used in Guzzle V6 & V7 test suites #2073\n- build: drop now-unused uuid component #2096\n- Prepare instrumentation telemetry #2029, #2086, #2099\n- build: Add rebuild with ASAN section to randomized tests README.md #2084\n\n## Profiling\nAllocation profiling is now enabled by default. You can manage it using the `DD_PROFILING_ALLOCATION_ENABLED` environment variable or the `datadog.profiling.allocation_enabled` setting in the INI file. Although the `DD_PROFILING_EXPERIMENTAL_ALLOCATION_ENABLED` environment variable and `datadog.profiling.experimental_allocation_enabled` INI setting still work, the new ones take precedence.\n\n### Added\n- GA allocation profiling #2038\n- disable allocation profiling if JIT is enabled #2088\n\n### Fixed\n- fixed segfault in test suite #2077\n\n### Internal changes\n- move allocation profiling to its own module #2090\n\n## Application Security Management (0.9.0)\n\n### Fixed\n- Use /proc/self/fd to avoid rlimit iteration starvation DataDog/dd-appsec-php#265\n\n### Internal changes\n- Update ruleset to 1.7.1 and libddwaf to 1.11.0 DataDog/dd-appsec-php#267\n- Update fuzzer corpus DataDog/dd-appsec-php#268",
+            "get": "https://pecl.php.net/get/datadog_trace-0.88.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "0.87.2": {
             "version": "0.87.2",
             "state": "stable",
