@@ -41749,12 +41749,22 @@
         "category": "Event",
         "deprecated": false,
         "description": "uv provides access to underlying libuv functions",
-        "latestReleaseDate": "2019-05-01T11:04:56+00:00",
-        "latestVersion": "0.2.4",
+        "latestReleaseDate": "2023-06-17T15:07:18+00:00",
+        "latestVersion": "0.3.0",
         "license": "PHP License",
         "name": "uv",
         "php8Mentioned": false,
         "releases": {
+            "0.3.0": {
+                "version": "0.3.0",
+                "state": "beta",
+                "license": "PHP License",
+                "releasedBy": "trowski",
+                "releaseDate": "2023-06-17T15:07:18+00:00",
+                "releaseNotes": "0.3.0 release",
+                "get": "https://pecl.php.net/get/uv-0.3.0",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
             "0.2.4": {
                 "version": "0.2.4",
                 "state": "beta",
