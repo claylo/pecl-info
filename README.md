@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (139)
+## Relevant Extensions (140)
 
 ### Authentication (2)
 
@@ -653,7 +653,7 @@ A PHP wrapper to Colin Percival's scrypt implementation.
 </details>
 
 ***
-### Event (5)
+### Event (6)
 
 <details><summary>eio&nbsp; :eight:</summary>
 <p>Provides interface to the libeio library</p>
@@ -750,6 +750,20 @@ Event-driven asynchronous and concurrent networking engine with high performance
 <li>Release data in JSON: <a href="data/packages/swoole.json">swoole.json</a></li>
 <li><a href="https://pecl.php.net/packages/swoole">swoole on PECL</a></li>
 <li></li>
+</ul></p><hr />
+</details>
+<details><summary>uv</summary>
+<p>libuv wrapper</p>
+
+```
+uv provides access to underlying libuv functions
+```
+<p><ul>
+<li>License: PHP-3.01</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/uv-0.3.0">0.3.0</a> on 17 Jun 2023</li>
+<li>Release data in JSON: <a href="data/packages/uv.json">uv.json</a></li>
+<li><a href="https://pecl.php.net/packages/uv">uv on PECL</a></li>
+<li><a href="https://github.com/amphp/ext-uv">:sparkles: Source</a> &nbsp; <a href="https://github.com/amphp/ext-uv/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=999&rid=&cid=44">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 
