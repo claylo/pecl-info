@@ -4459,12 +4459,22 @@
         "category": "Benchmarking",
         "deprecated": false,
         "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-        "latestReleaseDate": "2023-06-15T12:15:46+00:00",
-        "latestVersion": "0.88.0",
+        "latestReleaseDate": "2023-06-16T21:40:12+00:00",
+        "latestVersion": "0.88.1",
         "license": "BSD 3-Clause",
         "name": "datadog_trace",
         "php8Mentioned": true,
         "releases": {
+            "0.88.1": {
+                "version": "0.88.1",
+                "state": "stable",
+                "license": "BSD 3-Clause",
+                "releasedBy": "bwoebi",
+                "releaseDate": "2023-06-16T21:40:12+00:00",
+                "releaseNotes": "### Fixed\n- Add note about cargo in README, make debug symbols included by default for manual compilation #2110\n- Fix commit hashes in profiling release versions #2105",
+                "get": "https://pecl.php.net/get/datadog_trace-0.88.1",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "0.88.0": {
                 "version": "0.88.0",
                 "state": "stable",
@@ -10338,12 +10348,22 @@
         "category": "Networking",
         "deprecated": false,
         "description": "Remote Procedure Calls (RPCs) provide a useful abstraction for building distributed applications and services. The libraries in this repository provide a concrete implementation of the gRPC protocol, layered over HTTP/2. These libraries enable communication between clients and servers using any combination of the supported languages.",
-        "latestReleaseDate": "2023-06-02T19:17:06+00:00",
-        "latestVersion": "1.56.0RC1",
+        "latestReleaseDate": "2023-06-16T20:32:39+00:00",
+        "latestVersion": "1.56.0",
         "license": "Apache 2.0",
         "name": "gRPC",
         "php8Mentioned": true,
         "releases": {
+            "1.56.0": {
+                "version": "1.56.0",
+                "state": "stable",
+                "license": "Apache 2.0",
+                "releasedBy": "stanleycheung",
+                "releaseDate": "2023-06-16T20:32:39+00:00",
+                "releaseNotes": "- gRPC Core 1.56.0 update",
+                "get": "https://pecl.php.net/get/grpc-1.56.0",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "1.56.0RC1": {
                 "version": "1.56.0RC1",
                 "state": "beta",
