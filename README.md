@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (140)
+## Relevant Extensions (139)
 
 ### Authentication (2)
 
@@ -64,7 +64,7 @@ The Datadog PHP Tracer brings APM and distributed tracing to PHP.
 ```
 <p><ul>
 <li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/datadog_trace-0.88.0">0.88.0</a> on 15 Jun 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/datadog_trace-0.88.1">0.88.1</a> on 16 Jun 2023</li>
 <li>Release data in JSON: <a href="data/packages/datadog_trace.json">datadog_trace.json</a></li>
 <li><a href="https://pecl.php.net/packages/datadog_trace">datadog_trace on PECL</a></li>
 <li><a href="https://docs.datadoghq.com/tracing/languages/php/">:house: Home</a> &nbsp; <a href="https://github.com/DataDog/dd-trace-php">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1029&rid=&cid=2">:bar_chart: Stats</a></li>
@@ -1411,7 +1411,7 @@ languages.
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/gRPC-1.56.0RC1">1.56.0RC1</a> on 02 Jun 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/gRPC-1.56.0">1.56.0</a> on 16 Jun 2023</li>
 <li>Release data in JSON: <a href="data/packages/grpc.json">grpc.json</a></li>
 <li><a href="https://pecl.php.net/packages/gRPC">gRPC on PECL</a></li>
 <li></li>
@@ -1548,7 +1548,7 @@ This provides a similar API (object-based) to java.util.BitSet with some PHP-spe
 </details>
 
 ***
-### PHP (15)
+### PHP (14)
 
 <details><summary>ast&nbsp; :eight:</summary>
 <p>Extension exposing PHP 7 abstract syntax tree</p>
@@ -1637,24 +1637,6 @@ A self contained php-code-coverage compatible driver for PHP.
 <li>Release data in JSON: <a href="data/packages/pcov.json">pcov.json</a></li>
 <li><a href="https://pecl.php.net/packages/pcov">pcov on PECL</a></li>
 <li><a href="https://github.com/krakjoe/pcov">:house: Home</a> &nbsp; <a href="https://github.com/krakjoe/pcov">:sparkles: Source</a> &nbsp; <a href="https://github.com/krakjoe/pcov/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1031&rid=&cid=25">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>pcs</summary>
-<p>PHP Code Service</p>
-
-```
-PCS provides a fast and easy way to mix C and PHP code in your PHP extension.
-
-PHP code can be embedded in the compiled module or distributed as a separate file tree.
-
-Compatibility : PHP 5 (5.3+) and 7
-```
-<p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/pcs-1.3.7">1.3.7</a> on 14 Jun 2020</li>
-<li>Release data in JSON: <a href="data/packages/pcs.json">pcs.json</a></li>
-<li><a href="https://pecl.php.net/packages/pcs">pcs on PECL</a></li>
-<li><a href="http://pcs.tekwire.net">:book: Documentation</a> &nbsp; <a href="http://pcs.tekwire.net">:house: Home</a> &nbsp; <a href="https://github.com/flaupretre/pecl-pcs">:sparkles: Source</a> &nbsp; <a href="https://github.com/flaupretre/pecl-pcs/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=989&rid=&cid=25">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>psr&nbsp; :eight:</summary>
