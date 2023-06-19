@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.148.0](https://github.com/claylo/pecl-info/compare/v1.147.0...v1.148.0) (2023-06-19)
+
+
+### Added
+
+* add phalcon 5.2.2 release ([6b007f2](https://github.com/claylo/pecl-info/commit/6b007f293649d7e28f3d65dc38821a9b6fed1a58))
+
 ## [1.147.0](https://github.com/claylo/pecl-info/compare/v1.146.0...v1.147.0) (2023-06-17)
 
 
