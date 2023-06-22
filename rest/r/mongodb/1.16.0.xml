@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.16.0</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>alcaeus</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2023-06-22 08:48:37</da>
+ <n>** Bug
+    * [PHPC-2070] - Kerberos on Windows should not pass username to SSPI when password is not set
+    * [PHPC-2133] - Cannot build driver with SRV support on FreeBSD
+    * [PHPC-2195] - Implicit declaration warnings caused by libmongocrypt-compat header
+    * [PHPC-2210] - Fix direct copying of BSON data from Document and PackedArray objects
+    * [PHPC-2211] - php_phongo_bson_to_json() does not free intermediary result string
+    * [PHPC-2216] - BulkWrite::insert() does not generate _id for Document or PackedArray
+    * [PHPC-2220] - ConnectionId returned in heartbeats may be int64
+    * [PHPC-2222] - PackedArray::fromPHP returns Document for root=bson type map
+
+** Epic
+    * [PHPC-2214] - Int64 Improvements
+
+** New Feature
+    * [PHPC-324] - Create a BSON document iterator class
+    * [PHPC-326] - Document and PackedArray classes to represent raw BSON data
+    * [PHPC-1949] - Allow explicit construction of Int64 objects
+    * [PHPC-2197] - Support queryable encryption range indexes
+    * [PHPC-2203] - Support Queryable Encryption v2 protocol for MongoDB 7.0
+    * [PHPC-2212] - Support overloaded operators for Int64 objects
+    * [PHPC-2213] - Support casting of Int64 objects to scalar integers
+
+** Task
+    * [PHPC-2035] - Require hello command + OP_MSG when 'loadBalanced=True'
+    * [PHPC-2069] - Require hello command for connection handshake to use OP_MSG, disallowing OP_QUERY
+    * [PHPC-2163] - Update php-edge-versions latest-stable in Evergreen to PHP 8.2
+    * [PHPC-2164] - Refactor run-ocsp-responder.sh to use activate-ocspvenv.sh
+    * [PHPC-2200] - Add MongoDB rapid releases to Evergreen matrix
+    * [PHPC-2226] - Test against MongoDB 7.0
+    * [PHPC-2228] - Upgrade libmongocrypt to 1.8.1
+    * [PHPC-2250] - Upgrade libmongoc to 1.24.1
+    * [PHPC-2252] - Fix method signature for Serializable::unserialize() implementations
+
+** Improvement
+    * [PHPC-1941] - Use OP_MSG to authenticate if server supports OP_MSG
+    * [PHPC-2158] - Cache AWS Credentials Where Possible
+    * [PHPC-2165] - Expose server error replies in BulkWriteResult 
+    * [PHPC-2188] - Permit tlsDisableOCSPEndpointCheck in KMS TLS options
+    * [PHPC-2236] - Allow compression libraries to be configured at build time
+    * [PHPC-2244] - Return Int64 instances when converting raw BSON objects to PHP values</n>
+ <f>1558409</f>
+ <g>https://pecl.php.net/get/mongodb-1.16.0</g>
+ <x xlink:href="package.1.16.0.xml"/>
+</r>
