@@ -19053,12 +19053,22 @@
         "category": "Database",
         "deprecated": false,
         "description": "The purpose of this driver is to provide exceptionally thin glue between MongoDB\nand PHP, implementing only fundamental and performance-critical components\nnecessary to build a fully-functional MongoDB driver.",
-        "latestReleaseDate": "2023-06-22T08:48:37+00:00",
-        "latestVersion": "1.16.0",
+        "latestReleaseDate": "2023-06-22T17:56:16+00:00",
+        "latestVersion": "1.16.1",
         "license": "Apache License",
         "name": "mongodb",
         "php8Mentioned": true,
         "releases": {
+            "1.16.1": {
+                "version": "1.16.1",
+                "state": "stable",
+                "license": "Apache License",
+                "releasedBy": "alcaeus",
+                "releaseDate": "2023-06-22T17:56:16+00:00",
+                "releaseNotes": "** Bug\n    * [PHPC-2253] - zlib missing when installing from PECL",
+                "get": "https://pecl.php.net/get/mongodb-1.16.1",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "1.16.0": {
                 "version": "1.16.0",
                 "state": "stable",
