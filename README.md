@@ -631,7 +631,7 @@ Hardware Security Module.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/PKCS11-1.1.1">1.1.1</a> on 26 May 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/PKCS11-1.1.2">1.1.2</a> on 25 Jun 2023</li>
 <li>Release data in JSON: <a href="data/packages/pkcs11.json">pkcs11.json</a></li>
 <li><a href="https://pecl.php.net/packages/PKCS11">PKCS11 on PECL</a></li>
 <li><a href="https://github.com/gamringer/php-pkcs11/">:house: Home</a> &nbsp; <a href="https://github.com/gamringer/php-pkcs11.git">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1055&rid=&cid=6">:bar_chart: Stats</a></li>

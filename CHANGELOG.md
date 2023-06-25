@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.151.0](https://github.com/claylo/pecl-info/compare/v1.150.0...v1.151.0) (2023-06-25)
+
+
+### Added
+
+* add PKCS11 1.1.2 release ([4e1f861](https://github.com/claylo/pecl-info/commit/4e1f861afb67e465c9ab5b34a39caa994df22bb7))
+
 ## [1.150.0](https://github.com/claylo/pecl-info/compare/v1.149.0...v1.150.0) (2023-06-22)
 
 
