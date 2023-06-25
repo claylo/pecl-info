@@ -2,12 +2,22 @@
     "category": "Encryption",
     "deprecated": false,
     "description": "This extension provides an Object Oriented API for PKCS11 C_* functions to interact with a Hardware Security Module.",
-    "latestReleaseDate": "2022-05-26T02:01:07+00:00",
-    "latestVersion": "1.1.1",
+    "latestReleaseDate": "2023-06-25T17:06:03+00:00",
+    "latestVersion": "1.1.2",
     "license": "PHP License",
     "name": "PKCS11",
     "php8Mentioned": true,
     "releases": {
+        "1.1.2": {
+            "version": "1.1.2",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "gamr",
+            "releaseDate": "2023-06-25T17:06:03+00:00",
+            "releaseNotes": "- Fixed compatibility with PHP 8.2\n- Fix issue where not specifying the object type in openUri would fail",
+            "get": "https://pecl.php.net/get/pkcs11-1.1.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
         "1.1.1": {
             "version": "1.1.1",
             "state": "stable",
