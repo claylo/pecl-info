@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pkcs11">pkcs11</p>
+ <c>pecl.php.net</c>
+ <v>1.1.2</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>gamr</m>
+ <s>PHP Bindings for PKCS11 modules</s>
+ <d>This extension provides an Object Oriented API for PKCS11 C_* functions to interact with a Hardware Security Module.</d>
+ <da>2023-06-25 17:06:03</da>
+ <n>- Fixed compatibility with PHP 8.2
+- Fix issue where not specifying the object type in openUri would fail</n>
+ <f>73457</f>
+ <g>https://pecl.php.net/get/pkcs11-1.1.2</g>
+ <x xlink:href="package.1.1.2.xml"/>
+</r>
