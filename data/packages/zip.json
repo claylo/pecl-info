@@ -2,12 +2,22 @@
     "category": "File Formats",
     "deprecated": false,
     "description": "Zip is an extension to create, modify and read zip files.",
-    "latestReleaseDate": "2022-09-16T06:48:12+00:00",
-    "latestVersion": "1.21.1",
+    "latestReleaseDate": "2023-06-27T07:29:24+00:00",
+    "latestVersion": "1.22.0",
     "license": "PHP 3.01",
     "name": "zip",
     "php8Mentioned": true,
     "releases": {
+        "1.22.0": {
+            "version": "1.22.0",
+            "state": "stable",
+            "license": "PHP 3.01",
+            "releasedBy": "remi",
+            "releaseDate": "2023-06-27T07:29:24+00:00",
+            "releaseNotes": "- compatibility with 8.3\n- add new error macros (ER_DATA_LENGTH and ER_NOT_ALLOWED) with libzip >= 1.10.0\n- add new archive global flags (ER_AFL_*) with libzip >= 1.10.0\n- add ZipArchive::setArchiveFlag and ZipArchive::getArchiveFlag methods",
+            "get": "https://pecl.php.net/get/zip-1.22.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
         "1.21.1": {
             "version": "1.21.1",
             "state": "stable",
