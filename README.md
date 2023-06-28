@@ -2057,7 +2057,7 @@ https://github.com/cubiclesoft/cross-platform-cpp
 ```
 <p><ul>
 <li>License: MIT</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/sync-1.1.2">1.1.2</a> on 09 Apr 2021</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/sync-1.1.3">1.1.3</a> on 28 Jun 2023</li>
 <li>Release data in JSON: <a href="data/packages/sync.json">sync.json</a></li>
 <li><a href="https://pecl.php.net/packages/sync">sync on PECL</a></li>
 <li><a href="https://github.com/php/pecl-system-sync">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-system-sync/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=967&rid=&cid=37">:bar_chart: Stats</a></li>
