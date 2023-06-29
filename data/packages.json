@@ -47977,12 +47977,22 @@
         "category": "File Formats",
         "deprecated": false,
         "description": "Zip is an extension to create, modify and read zip files.",
-        "latestReleaseDate": "2023-06-27T07:29:24+00:00",
-        "latestVersion": "1.22.0",
+        "latestReleaseDate": "2023-06-29T14:13:08+00:00",
+        "latestVersion": "1.22.1",
         "license": "PHP 3.01",
         "name": "zip",
         "php8Mentioned": true,
         "releases": {
+            "1.22.1": {
+                "version": "1.22.1",
+                "state": "stable",
+                "license": "PHP-3.01",
+                "releasedBy": "remi",
+                "releaseDate": "2023-06-29T14:13:08+00:00",
+                "releaseNotes": "- add more tests\n- ZipArchive::FL_RECOMPRESS constant is deprecated and will be removed in a future version of libzip\n- add ZipArchive::FL_OPEN_FILE_NOW to open the file when added instead of waiting for archive to be closed",
+                "get": "https://pecl.php.net/get/zip-1.22.1",
+                "SPDX-License-Identifier": null
+            },
             "1.22.0": {
                 "version": "1.22.0",
                 "state": "stable",
