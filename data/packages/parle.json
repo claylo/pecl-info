@@ -2,12 +2,22 @@
     "category": "Text",
     "deprecated": false,
     "description": "With Parle, it is possible to implement lexing and parsing in PHP while relying on features and principles of the parser/lexer generator tools for C/C++.",
-    "latestReleaseDate": "2023-05-13T16:06:17+00:00",
-    "latestVersion": "0.8.4",
+    "latestReleaseDate": "2023-07-01T17:27:13+00:00",
+    "latestVersion": "0.8.5",
     "license": "BSD 2-clause",
     "name": "parle",
     "php8Mentioned": true,
     "releases": {
+        "0.8.5": {
+            "version": "0.8.5",
+            "state": "beta",
+            "license": "BSD 2-clause",
+            "releasedBy": "ab",
+            "releaseDate": "2023-07-01T17:27:13+00:00",
+            "releaseNotes": "- Implement Parser::readBison() (Ben Hanson)\n- Parser::dump() and Lexer::dump() are supported in UTF-32 mode (Ben Hanson)\n- Parser::dump() and Lexer::dump() use PHP streams (Ben Hanson)\n- Update the bundled parsertl/lexertl libraries (Ben Hanson)\n- Fix Windows build (Ben Hanson)",
+            "get": "https://pecl.php.net/get/parle-0.8.5",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
         "0.8.4": {
             "version": "0.8.4",
             "state": "beta",
