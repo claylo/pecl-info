@@ -4459,12 +4459,22 @@
         "category": "Benchmarking",
         "deprecated": false,
         "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-        "latestReleaseDate": "2023-06-16T21:40:12+00:00",
-        "latestVersion": "0.88.1",
+        "latestReleaseDate": "2023-07-04T06:00:43+00:00",
+        "latestVersion": "0.89.0",
         "license": "BSD 3-Clause",
         "name": "datadog_trace",
         "php8Mentioned": true,
         "releases": {
+            "0.89.0": {
+                "version": "0.89.0",
+                "state": "stable",
+                "license": "BSD 3-Clause",
+                "releasedBy": "estringanadd",
+                "releaseDate": "2023-07-04T06:00:43+00:00",
+                "releaseNotes": "This release adds timeline support to the profiler. This is off by default. Enable it with the environment variable DD_PROFILING_EXPERIMENTAL_TIMELINE_ENABLED=1 or INI setting datadog.profiling.experimental_timeline_enabled=1.\n\n### Added\n- Add horizon as artisan queue command #2124 Thanks, @markwalet.\n- Add network destination name to http client spans #2134\n- Add automated Laravel user tracking events #2100\n- Add DD_HTTP_SERVER_ROUTE_BASED_NAMING config to enforce <method> <path> resources #2138\n\n### Fixed\n- Fix a memory leak when overriding default arguments in install_hook (PHP7.2-) #2107\n- Generate runtime-id on first request #2137\n- Better GC workaround on PHP 7.3 and below for cycle collected span stacks #2123\n- Use proper variable for php-config #2114\n- Generate runtime-id on first request #2137\n\n### Internal Changes\n- Add note about cargo in README, make debug symbols included by default for manual compilation #2110\n\n\n## Profiling\n### Added\n- Add timeline support #1997, #2108\n- Add endpoint counts #2111\n- Add file compilation times to timeline #2119\n\n### Internal changes\n- ci: add stack walking benchmark #2041, #2133, #2136\n- ??build: bump indexmap to v2.0.0 #2127\n- build: bump bindgen to 0.66.1 #2128\n\n\n## Application Security Management (0.10.0)\n\n#### Added\n- Add automated user login events DataDog/dd-appsec-php#272\n- Add sign up event DataDog/dd-appsec-php#275\n\n#### Fixed\n- Persist top-most root span from RINIT DataDog/dd-appsec-php#273\n\n#### Internal Changes\n- Rename system-test scenario DataDog/dd-appsec-php#271\n- Support multiple traces and spans but provide only the root span on integration tests DataDog/dd-appsec-php#274\n- Set libddwaf as git `safe.directory` on `build package` step DataDog/dd-appsec-php#276",
+                "get": "https://pecl.php.net/get/datadog_trace-0.89.0",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "0.88.1": {
                 "version": "0.88.1",
                 "state": "stable",
