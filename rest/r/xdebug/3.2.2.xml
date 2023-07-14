@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xdebug">xdebug</p>
+ <c>pecl.php.net</c>
+ <v>3.2.2</v>
+ <st>stable</st>
+ <l>Xdebug-1.03</l>
+ <m>derick</m>
+ <s>Xdebug is a debugging and productivity extension for PHP</s>
+ <d>Xdebug and provides a range of features to improve the PHP development
+experience.
+
+Step Debugging
+    A way to step through your code in your IDE or editor while the script is
+    executing.
+
+Improvements to PHP's error reporting
+    An improved var_dump() function, stack traces for Notices, Warnings, Errors
+    and Exceptions to highlight the code path to the error
+
+Tracing
+    Writes every function call, with arguments and invocation location to disk.
+    Optionally also includes every variable assignment and return value for
+    each function.
+
+Profiling
+    Allows you, with the help of visualisation tools, to analyse the
+    performance of your PHP application and find bottlenecks.
+
+Code Coverage Analysis
+    To show which parts of your code base are executed when running unit tests
+    with PHP Unit.</d>
+ <da>2023-07-14 09:36:28</da>
+ <n>Fri, Jul 14, 2023 - Xdebug 3.2.2
+
+= Fixed bugs:
+
+  - Fixed issue #2175: Crash with EXC_BAD_ACCESS in xdebug_str_create
+  - Fixed issue #2180: Crash on extended SplFixedArray
+  - Fixed issue #2182: Segfault with ArrayObject on stack
+  - Fixed issue #2186: Segfault with trampoline functions and debugger activation</n>
+ <f>246966</f>
+ <g>https://pecl.php.net/get/xdebug-3.2.2</g>
+ <x xlink:href="package.3.2.2.xml"/>
+</r>
