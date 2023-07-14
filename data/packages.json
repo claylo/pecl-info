@@ -43821,12 +43821,22 @@
         "category": "PHP",
         "deprecated": false,
         "description": "Xdebug and provides a range of features to improve the PHP development\nexperience.\n\nStep Debugging\n    A way to step through your code in your IDE or editor while the script is\n    executing.\n\nImprovements to PHP's error reporting\n    An improved var_dump() function, stack traces for Notices, Warnings, Errors\n    and Exceptions to highlight the code path to the error\n\nTracing\n    Writes every function call, with arguments and invocation location to disk.\n    Optionally also includes every variable assignment and return value for\n    each function.\n\nProfiling\n    Allows you, with the help of visualisation tools, to analyse the\n    performance of your PHP application and find bottlenecks.\n\nCode Coverage Analysis\n    To show which parts of your code base are executed when running unit tests\n    with PHP Unit.",
-        "latestReleaseDate": "2023-03-21T16:48:31+00:00",
-        "latestVersion": "3.2.1",
+        "latestReleaseDate": "2023-07-14T09:36:28+00:00",
+        "latestVersion": "3.2.2",
         "license": "BSD style",
         "name": "xdebug",
         "php8Mentioned": true,
         "releases": {
+            "3.2.2": {
+                "version": "3.2.2",
+                "state": "stable",
+                "license": "Xdebug-1.03",
+                "releasedBy": "derick",
+                "releaseDate": "2023-07-14T09:36:28+00:00",
+                "releaseNotes": "Fri, Jul 14, 2023 - Xdebug 3.2.2\n\n= Fixed bugs:\n\n  - Fixed issue #2175: Crash with EXC_BAD_ACCESS in xdebug_str_create\n  - Fixed issue #2180: Crash on extended SplFixedArray\n  - Fixed issue #2182: Segfault with ArrayObject on stack\n  - Fixed issue #2186: Segfault with trampoline functions and debugger activation",
+                "get": "https://pecl.php.net/get/xdebug-3.2.2",
+                "SPDX-License-Identifier": null
+            },
             "3.2.1": {
                 "version": "3.2.1",
                 "state": "stable",
