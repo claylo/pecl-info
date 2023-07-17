@@ -2,12 +2,22 @@
     "category": "Benchmarking",
     "deprecated": false,
     "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-    "latestReleaseDate": "2023-07-04T06:00:43+00:00",
-    "latestVersion": "0.89.0",
+    "latestReleaseDate": "2023-07-17T11:30:14+00:00",
+    "latestVersion": "0.90.0",
     "license": "BSD 3-Clause",
     "name": "datadog_trace",
     "php8Mentioned": true,
     "releases": {
+        "0.90.0": {
+            "version": "0.90.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "bwoebi",
+            "releaseDate": "2023-07-17T11:30:14+00:00",
+            "releaseNotes": "This release adds logs correlation and telemetry support:\n- Used configurations, libraries and integrations will be collected. This may be disabled with `DD_INSTRUMENTATION_TELEMETRY_ENABLED=0`.\n- Logs written by common logging libraries will be attached metadata about the trace and span the log line was generated in. This may be disabled with `DD_LOGS_INJECTION=0`.\n\n### Added\n- Add Logs Correlation #2118\n- Add network destination name to http client spans #2134\n- Add peer.service to Mysqli instrumentation #2142\n- Add peer.service to PHPRedis instrumentation #2152\n- Add peer.service to PDO instrumentation #2148\n- Add peer.service to SQLSRV instrumentation #2155\n- Add peer.service to Mongodb instrumentation #2147\n- Add peer.service to Memcached clients instrumentation #2145\n- Add peer.service to http client instrumentations #2134\n- Add automated login events to Symfony #2132 #2146\n- Opt-in to flat service names #2163\n\n### Changed\n- Move all integrations to deferred loading #2153\n- Reflect changes to datadog.version and datadog.env in existing spans #2165\n- Evaluate the service name after the service mapping for a sampling decision #2166\n\n### Fixed\n- Add invalid regex handling for sampling rules #2160\n\n### Internal Changes\n- Add SpanData::peerServiceSources #2130\n- Handle peer.service-related post-process in the extension #2135\n- Enable instrumentation telemetry by default #2153\n\n## Profiling\n\n### Added\n- doc(profiling): make phpinfo() output more helpful #2144\n- timeline: add eval() timings #2150\n\n### Fixed\n- Explicit shutdown allocation profiling on fork() #2149\n- Optimize event timestamp for timeline #2157\n\n### Internal changes\n- refactor(profiling): apply clippy suggestions #2141",
+            "get": "https://pecl.php.net/get/datadog_trace-0.90.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "0.89.0": {
             "version": "0.89.0",
             "state": "stable",
