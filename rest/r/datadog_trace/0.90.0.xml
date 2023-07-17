@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.90.0</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>bwoebi</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2023-07-17 11:30:14</da>
+ <n>This release adds logs correlation and telemetry support:
+- Used configurations, libraries and integrations will be collected. This may be disabled with `DD_INSTRUMENTATION_TELEMETRY_ENABLED=0`.
+- Logs written by common logging libraries will be attached metadata about the trace and span the log line was generated in. This may be disabled with `DD_LOGS_INJECTION=0`.
+
+### Added
+- Add Logs Correlation #2118
+- Add network destination name to http client spans #2134
+- Add peer.service to Mysqli instrumentation #2142
+- Add peer.service to PHPRedis instrumentation #2152
+- Add peer.service to PDO instrumentation #2148
+- Add peer.service to SQLSRV instrumentation #2155
+- Add peer.service to Mongodb instrumentation #2147
+- Add peer.service to Memcached clients instrumentation #2145
+- Add peer.service to http client instrumentations #2134
+- Add automated login events to Symfony #2132 #2146
+- Opt-in to flat service names #2163
+
+### Changed
+- Move all integrations to deferred loading #2153
+- Reflect changes to datadog.version and datadog.env in existing spans #2165
+- Evaluate the service name after the service mapping for a sampling decision #2166
+
+### Fixed
+- Add invalid regex handling for sampling rules #2160
+
+### Internal Changes
+- Add SpanData::peerServiceSources #2130
+- Handle peer.service-related post-process in the extension #2135
+- Enable instrumentation telemetry by default #2153
+
+## Profiling
+
+### Added
+- doc(profiling): make phpinfo() output more helpful #2144
+- timeline: add eval() timings #2150
+
+### Fixed
+- Explicit shutdown allocation profiling on fork() #2149
+- Optimize event timestamp for timeline #2157
+
+### Internal changes
+- refactor(profiling): apply clippy suggestions #2141</n>
+ <f>611193</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.90.0</g>
+ <x xlink:href="package.0.90.0.xml"/>
+</r>
