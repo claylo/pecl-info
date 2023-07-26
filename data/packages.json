@@ -27169,12 +27169,22 @@
         "category": "System",
         "deprecated": false,
         "description": "Phalcon is an open source full stack framework for PHP, written as a C-extension. Phalcon is optimized for high\n    performance. Its unique architecture allows the framework to always be memory resident, offering its functionality\n    whenever its needed, without expensive file stats and file reads that traditional PHP frameworks employ.",
-        "latestReleaseDate": "2023-06-18T21:24:04+00:00",
-        "latestVersion": "5.2.2",
+        "latestReleaseDate": "2023-07-26T18:19:37+00:00",
+        "latestVersion": "5.2.3",
         "license": "BSD 3-Clause License",
         "name": "phalcon",
         "php8Mentioned": true,
         "releases": {
+            "5.2.3": {
+                "version": "5.2.3",
+                "state": "stable",
+                "license": "BSD 3-Clause License",
+                "releasedBy": "niden",
+                "releaseDate": "2023-07-26T18:19:37+00:00",
+                "releaseNotes": "Full changelog can be found at: https://github.com/phalcon/cphalcon/blob/master/CHANGELOG-5.0.md\n\n### Fixed\n- Tried to reproduce the behavior described in #16244 but had no success. [#16244](https://github.com/phalcon/cphalcon/issues/16244)\n- Extended `Phalcon\\Di\\Injectable` from `stdClass` to remove the deprecation warning (dynamic properties) for PHP 8.2 [#16308](https://github.com/phalcon/cphalcon/issues/16308)\n- Corrected the return type of `Phalcon\\Mvc\\View::getVar()` so that stubs can be accurate. [#16276](https://github.com/phalcon/cphalcon/issues/16276)\n- Changed all the `encode`/`decode` methods for JSON to use the `Phalcon\\Support\\Helper\\Json\\*` classes. [#15608](https://github.com/phalcon/cphalcon/issues/15608)\n- Changed the `Phalcon\\Support\\Helper\\Json\\*` classes to clear up `json_last_error()` before doing any conversions. [#15608](https://github.com/phalcon/cphalcon/issues/15608)\n- Fixed `Phalcon\\Http\\Request::getJsonRawBody` to protect from empty body [#16373](https://github.com/phalcon/cphalcon/issues/16373)\n\n### Added\n- Added `getAdapter()` in `Phalcon\\Mvc\\Model\\Metadata` to retrieve the internal cache adapter if necessary. [#16244](https://github.com/phalcon/cphalcon/issues/16244)\n- Added `Phalcon\\Storage\\Adapter\\Weak` implemented with WeakReference has a cache/retrieval solution for objects not yet collected by the Garbage Collection. [#16372](https://github.com/phalcon/cphalcon/issues/16372)",
+                "get": "https://pecl.php.net/get/phalcon-5.2.3",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "5.2.2": {
                 "version": "5.2.2",
                 "state": "stable",
