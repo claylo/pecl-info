@@ -2,12 +2,22 @@
     "category": "Mail",
     "deprecated": false,
     "description": "Mailparse is an extension for parsing and working with email messages.\nIt can deal with rfc822 and rfc2045 (MIME) compliant messages.",
-    "latestReleaseDate": "2022-09-15T12:01:28+00:00",
-    "latestVersion": "3.1.4",
+    "latestReleaseDate": "2023-07-27T12:09:22+00:00",
+    "latestVersion": "3.1.5",
     "license": "PHP",
     "name": "mailparse",
     "php8Mentioned": true,
     "releases": {
+        "3.1.5": {
+            "version": "3.1.5",
+            "state": "stable",
+            "license": "PHP-3.01",
+            "releasedBy": "remi",
+            "releaseDate": "2023-07-27T12:09:22+00:00",
+            "releaseNotes": "- drop usage of removed mbfl APIs in PHP 8.3\n- fix GH-27 MimeMessage::__construct() throws TypeError with $mode=stream\n- fix GH-21, GH-22, GH-24 segfault in mailparse_msg_parse without mime-version\n- fix #81403 mailparse_rfc822_parse_addresses drops escaped quotes",
+            "get": "https://pecl.php.net/get/mailparse-3.1.5",
+            "SPDX-License-Identifier": null
+        },
         "3.1.4": {
             "version": "3.1.4",
             "state": "stable",
