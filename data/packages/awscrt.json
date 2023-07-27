@@ -2,12 +2,22 @@
     "category": "Tools and Utilities",
     "deprecated": false,
     "description": "AWS Common Runtime provides a set of low level tools as network protocols and authentication used by the AWSSDK for PHP to provide high level API to access AWS services.",
-    "latestReleaseDate": "2023-03-28T17:09:34+00:00",
-    "latestVersion": "1.2.1",
+    "latestReleaseDate": "2023-07-26T23:44:34+00:00",
+    "latestVersion": "1.2.2",
     "license": "Apache License Version 2.0",
     "name": "awscrt",
     "php8Mentioned": false,
     "releases": {
+        "1.2.2": {
+            "version": "1.2.2",
+            "state": "stable",
+            "license": "Apache License Version 2.0",
+            "releasedBy": "dengket",
+            "releaseDate": "2023-07-26T23:44:34+00:00",
+            "releaseNotes": "Fix Undefined Function Error",
+            "get": "https://pecl.php.net/get/awscrt-1.2.2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "1.2.1": {
             "version": "1.2.1",
             "state": "stable",
