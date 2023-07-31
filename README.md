@@ -1126,7 +1126,7 @@ is run in a stripped-down, safe environment. Time and memory limits can be set.
 ```
 <p><ul>
 <li>License: MIT</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/LuaSandbox-4.1.0">4.1.0</a> on 23 Sep 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/LuaSandbox-4.1.1">4.1.1</a> on 31 Jul 2023</li>
 <li>Release data in JSON: <a href="data/packages/luasandbox.json">luasandbox.json</a></li>
 <li><a href="https://pecl.php.net/packages/LuaSandbox">LuaSandbox on PECL</a></li>
 <li><a href="https://www.mediawiki.org/wiki/LuaSandbox">:house: Home</a> &nbsp; <a href="https://phabricator.wikimedia.org/diffusion/MLUS/repository/master/">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1027&rid=&cid=59">:bar_chart: Stats</a></li>

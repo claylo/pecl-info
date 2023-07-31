@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.167.0](https://github.com/claylo/pecl-info/compare/v1.166.0...v1.167.0) (2023-07-31)
+
+
+### Added
+
+* add LuaSandbox 4.1.1 release ([7a76563](https://github.com/claylo/pecl-info/commit/7a76563481373eea86167f114bf3b99fd3bb9811))
+
 ## [1.166.0](https://github.com/claylo/pecl-info/compare/v1.165.0...v1.166.0) (2023-07-31)
 
 
