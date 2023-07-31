@@ -2,12 +2,22 @@
     "category": "Languages",
     "deprecated": false,
     "description": "LuaSandbox is an extension for running untrusted Lua code within a PHP web request. Code is run in a stripped-down, safe environment. Time and memory limits can be set.",
-    "latestReleaseDate": "2022-09-23T04:59:03+00:00",
-    "latestVersion": "4.1.0",
+    "latestReleaseDate": "2023-07-31T04:45:54+00:00",
+    "latestVersion": "4.1.1",
     "license": "MIT",
     "name": "LuaSandbox",
     "php8Mentioned": true,
     "releases": {
+        "4.1.1": {
+            "version": "4.1.1",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "tstarling",
+            "releaseDate": "2023-07-31T04:45:54+00:00",
+            "releaseNotes": "- Fix segmentation fault when memory limit is exceeded in LuaSandbox init\n- Fix incorrect version reported by phpversion('luasandbox')",
+            "get": "https://pecl.php.net/get/LuaSandbox-4.1.1",
+            "SPDX-License-Identifier": "MIT"
+        },
         "4.1.0": {
             "version": "4.1.0",
             "state": "stable",
