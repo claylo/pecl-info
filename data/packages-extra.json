@@ -2288,12 +2288,12 @@
         "verified": false
     },
     "protobuf": {
-        "bugs": "https://github.com/protocolbuffers/protobuf/issues",
+        "bugs": "",
         "docs": "",
         "home": "",
         "maintained": true,
-        "repo": "https://github.com/google/protobuf",
-        "stats": "https://pecl.php.net/package-stats.php?pid=997&rid=&cid=29",
+        "repo": "",
+        "stats": "",
         "verified": false
     },
     "protocolbuffers": {
