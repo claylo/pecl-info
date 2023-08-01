@@ -30953,12 +30953,22 @@
         "category": "Database",
         "deprecated": false,
         "description": "This extension provides an API for communicating with Redis servers.",
-        "latestReleaseDate": "2022-02-15T18:26:52+00:00",
-        "latestVersion": "5.3.7",
+        "latestReleaseDate": "2023-08-01T06:55:46+00:00",
+        "latestVersion": "6.0.0RC1",
         "license": "PHP",
         "name": "redis",
         "php8Mentioned": true,
         "releases": {
+            "6.0.0RC1": {
+                "version": "6.0.0RC1",
+                "state": "alpha",
+                "license": "PHP",
+                "releasedBy": "yatsukhnenko",
+                "releaseDate": "2023-08-01T06:55:46+00:00",
+                "releaseNotes": "",
+                "get": "https://pecl.php.net/get/redis-6.0.0RC1",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
             "5.3.7": {
                 "version": "5.3.7",
                 "state": "stable",
