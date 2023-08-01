@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.168.0](https://github.com/claylo/pecl-info/compare/v1.167.0...v1.168.0) (2023-08-01)
+
+
+### Added
+
+* add redis 6.0.0RC1 release ([3dae2a1](https://github.com/claylo/pecl-info/commit/3dae2a10091698d6c75a97442254622cfbfde4e3))
+
 ## [1.167.0](https://github.com/claylo/pecl-info/compare/v1.166.0...v1.167.0) (2023-07-31)
 
 
