@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.170.0](https://github.com/claylo/pecl-info/compare/v1.169.0...v1.170.0) (2023-08-02)
+
+
+### Added
+
+* add mysqlnd_krb 1.0.0 release ([61f0348](https://github.com/claylo/pecl-info/commit/61f0348b4ccc88322b5a39581625c821adbfff55))
+
 ## [1.169.0](https://github.com/claylo/pecl-info/compare/v1.168.0...v1.169.0) (2023-08-01)
 
 

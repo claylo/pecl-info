@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (140)
+## Relevant Extensions (141)
 
 ### Authentication (2)
 
@@ -263,7 +263,7 @@ This extension provides API for communicating with ZooKeeper service.
 </details>
 
 ***
-### Database (16)
+### Database (17)
 
 <details><summary>couchbase&nbsp; :eight:</summary>
 <p>Couchbase Server PHP extension</p>
@@ -393,6 +393,36 @@ mysqlnd extension for azure
 <li>Release data in JSON: <a href="data/packages/mysqlnd_azure.json">mysqlnd_azure.json</a></li>
 <li><a href="https://pecl.php.net/packages/mysqlnd_azure">mysqlnd_azure on PECL</a></li>
 <li><a href="https://github.com/microsoft/mysqlnd_azure">:house: Home</a> &nbsp; <a href="https://github.com/microsoft/mysqlnd_azure">:sparkles: Source</a> &nbsp; <a href="https://github.com/microsoft/mysqlnd_azure/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1043&rid=&cid=7">:bar_chart: Stats</a></li>
+</ul></p><hr />
+</details>
+<details><summary>mysqlnd_krb</summary>
+<p>Kerberos authentication plugin for mysqlnd</p>
+
+```
+The mysqlnd_krb extension is an authentication 
+plugin for mysqlnd that enables connections to MySQL accounts
+that use Kerberos authentication.
+
+If a MySQL account is configured with Kerberos authentication
+(using `IDENTIFIED WITH kerberos_authentication` clause
+of `CREATE USER`, see [1]) then normally `mysqlnd` will not
+be able to connect to such an account. With this plugin such
+connections are possible provided that user has appropriate
+tickets loaded into the Kerberos ticket cache (in this case
+no password is needed in the connection data).
+
+If a ticket for the MySQL service is not present in the cache
+the plugin can fetch the required ticket from Kerberos provided
+that user principal's password is given in the connection data.
+
+[1] https://dev.mysql.com/doc/refman/8.0/en/kerberos-pluggable-authentication.html
+```
+<p><ul>
+<li>License: PHP-3.01</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/mysqlnd_krb-1.0.0">1.0.0</a> on 02 Aug 2023</li>
+<li>Release data in JSON: <a href="data/packages/mysqlnd_krb.json">mysqlnd_krb.json</a></li>
+<li><a href="https://pecl.php.net/packages/mysqlnd_krb">mysqlnd_krb on PECL</a></li>
+<li><a href="https://pecl.php.net/package-stats.php?pid=1078&rid=&cid=7">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>oci8&nbsp; :eight:</summary>
