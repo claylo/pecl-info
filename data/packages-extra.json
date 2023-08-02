@@ -3693,5 +3693,14 @@
         "repo": "https://github.com/open-telemetry/opentelemetry-php-instrumentation",
         "stats": "https://pecl.php.net/package-stats.php?pid=1077&rid=&cid=25",
         "verified": false
+    },
+    "mysqlnd_krb": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1078&rid=&cid=7",
+        "verified": false
     }
 }
