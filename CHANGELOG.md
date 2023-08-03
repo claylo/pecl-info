@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.172.0](https://github.com/claylo/pecl-info/compare/v1.171.0...v1.172.0) (2023-08-03)
+
+
+### Added
+
+* add amqp 2.0.0beta2 release ([cebcc73](https://github.com/claylo/pecl-info/commit/cebcc732a5d86cb9f1321fcaa4ad17c4143bb4de))
+
 ## [1.171.0](https://github.com/claylo/pecl-info/compare/v1.170.0...v1.171.0) (2023-08-03)
 
 
