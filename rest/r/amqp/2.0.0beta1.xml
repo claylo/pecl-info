@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/amqp">amqp</p>
+ <c>pecl.php.net</c>
+ <v>2.0.0beta1</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>lstrojny</m>
+ <s>Communicate with any AMQP compliant server</s>
+ <d>This extension can communicate with any AMQP spec 0-9-1 compatible server, such as RabbitMQ, OpenAMQP and Qpid, giving you the ability to create and delete exchanges and queues, as well as publish to any exchange and consume from any queue.</d>
+ <da>2023-08-02 21:21:52</da>
+ <n>- Document BC changes (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/0)
+ - Document pseudo-bool method changes (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/0)
+ - Fix mangled header on MacOS (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/60)
+ - Validate argument parsing, add AMQPExchange::removeArgument() and AMQPQueue::removeArgument() (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/452)
+ - Skip SSL tests if certificates are missing (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/450)
+ - Bump shivammathur/setup-php from 2.25.4 to 2.25.5 (dependabot[bot]) (https://github.com/php-amqp/php-amqp/issues/449)
+ - Check coding style and formatting of stub files (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/447)
+ - Parallelize test execution (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/444)
+ - Deterministic configuration for PHP CLI (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/443)
+ - Fix tag creation during release management (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/0)
+ - Move test-report.sh into infra (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/0)
+
+💡Check out https://github.com/php-amqp/php-amqp/tree/latest/UPGRADING.md for backward incompatible changes
+
+For a complete list of changes see:
+https://github.com/php-amqp/php-amqp/compare/v2.0.0alpha2...v2.0.0beta1</n>
+ <f>112646</f>
+ <g>https://pecl.php.net/get/amqp-2.0.0beta1</g>
+ <x xlink:href="package.2.0.0beta1.xml"/>
+</r>
