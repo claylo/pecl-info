@@ -2,12 +2,22 @@
     "category": "Networking",
     "deprecated": false,
     "description": "This extension can communicate with any AMQP spec 0-9-1 compatible server, such as RabbitMQ, OpenAMQP and Qpid, giving you the ability to create and delete exchanges and queues, as well as publish to any exchange and consume from any queue.",
-    "latestReleaseDate": "2023-08-02T21:21:52+00:00",
-    "latestVersion": "2.0.0beta1",
+    "latestReleaseDate": "2023-08-03T06:23:50+00:00",
+    "latestVersion": "2.0.0beta2",
     "license": "PHP License",
     "name": "amqp",
     "php8Mentioned": true,
     "releases": {
+        "2.0.0beta2": {
+            "version": "2.0.0beta2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "lstrojny",
+            "releaseDate": "2023-08-03T06:23:50+00:00",
+            "releaseNotes": "- Include stdint.h for PHP >= 8.0 on Windows (Jan Ehrhardt) (https://github.com/php-amqp/php-amqp/issues/456)\n - Fix segfault in setPort (Remi Collet <remi@remirepo.net>) (https://github.com/php-amqp/php-amqp/issues/455)\n\n\ud83d\udca1Check out https://github.com/php-amqp/php-amqp/tree/latest/UPGRADING.md for backward incompatible changes\n\nFor a complete list of changes see:\nhttps://github.com/php-amqp/php-amqp/compare/v2.0.0beta1...v2.0.0beta2",
+            "get": "https://pecl.php.net/get/amqp-2.0.0beta2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
         "2.0.0beta1": {
             "version": "2.0.0beta1",
             "state": "beta",
