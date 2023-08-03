@@ -1,4 +1,8 @@
 {
+    "2.0.0beta1": {
+        "version": "2.0.0beta1",
+        "state": "beta"
+    },
     "2.0.0alpha2": {
         "version": "2.0.0alpha2",
         "state": "alpha"
