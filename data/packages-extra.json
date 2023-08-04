@@ -3702,5 +3702,14 @@
         "repo": "",
         "stats": "https://pecl.php.net/package-stats.php?pid=1078&rid=&cid=7",
         "verified": false
+    },
+    "brotli": {
+        "bugs": "",
+        "docs": "",
+        "home": "https://github.com/kjdev/php-ext-brotli",
+        "maintained": true,
+        "repo": "https://github.com/kjdev/php-ext-brotli",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1079&rid=&cid=33",
+        "verified": false
     }
 }
