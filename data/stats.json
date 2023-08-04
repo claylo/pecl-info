@@ -1,9 +1,9 @@
 {
-    "active": 47,
+    "active": 48,
     "php8": 110,
     "recent": 94,
     "stale": 96,
     "unmaintained": 136,
     "zero-releases": 57,
-    "total": 430
+    "total": 431
 }
