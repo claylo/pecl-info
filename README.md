@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (142)
+## Relevant Extensions (141)
 
 ### Authentication (2)
 
@@ -263,7 +263,7 @@ This extension provides API for communicating with ZooKeeper service.
 </details>
 
 ***
-### Database (17)
+### Database (16)
 
 <details><summary>couchbase&nbsp; :eight:</summary>
 <p>Couchbase Server PHP extension</p>
@@ -379,20 +379,6 @@ The X DevAPI introduces a new, modern and easy-to-learn way to work with your da
 <li>Release data in JSON: <a href="data/packages/mysql_xdevapi.json">mysql_xdevapi.json</a></li>
 <li><a href="https://pecl.php.net/packages/mysql_xdevapi">mysql_xdevapi on PECL</a></li>
 <li><a href="http://docs.php.net/manual/en/book.mysql-xdevapi.php">:book: Documentation</a> &nbsp; <a href="http://docs.php.net/manual/en/book.mysql-xdevapi.php">:house: Home</a> &nbsp; <a href="https://github.com/php/pecl-database-mysql_xdevapi">:sparkles: Source</a> &nbsp; <a href="https://bugs.mysql.com/search.php?bug_type[]=Server%3A+DocStore&cmd=display">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1002&rid=&cid=7">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>mysqlnd_azure</summary>
-<p>mysqlnd_azure - a redirection plugin for mysqlnd</p>
-
-```
-mysqlnd extension for azure
-```
-<p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/mysqlnd_azure-1.1.1">1.1.1</a> on 06 Aug 2020</li>
-<li>Release data in JSON: <a href="data/packages/mysqlnd_azure.json">mysqlnd_azure.json</a></li>
-<li><a href="https://pecl.php.net/packages/mysqlnd_azure">mysqlnd_azure on PECL</a></li>
-<li><a href="https://github.com/microsoft/mysqlnd_azure">:house: Home</a> &nbsp; <a href="https://github.com/microsoft/mysqlnd_azure">:sparkles: Source</a> &nbsp; <a href="https://github.com/microsoft/mysqlnd_azure/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1043&rid=&cid=7">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>mysqlnd_krb</summary>
@@ -2330,10 +2316,10 @@ https://developers.google.com/protocol-buffers/
 ```
 <p><ul>
 <li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/protobuf-3.24.0RC3">3.24.0RC3</a> on 01 Aug 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/protobuf-3.24.0">3.24.0</a> on 08 Aug 2023</li>
 <li>Release data in JSON: <a href="data/packages/protobuf.json">protobuf.json</a></li>
 <li><a href="https://pecl.php.net/packages/protobuf">protobuf on PECL</a></li>
-<li></li>
+<li><a href="https://github.com/google/protobuf">:sparkles: Source</a> &nbsp; <a href="https://github.com/protocolbuffers/protobuf/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=997&rid=&cid=29">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>SeasSnowflake</summary>
