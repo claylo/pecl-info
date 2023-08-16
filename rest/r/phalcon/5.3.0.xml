@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/phalcon">phalcon</p>
+ <c>pecl.php.net</c>
+ <v>5.3.0</v>
+ <st>stable</st>
+ <l>BSD 3-Clause License</l>
+ <m>jeckerson</m>
+ <s>Phalcon is a full stack PHP framework offering low resource consumption and high performance.</s>
+ <d>Phalcon is an open source full stack framework for PHP, written as a C-extension. Phalcon is optimized for high
+    performance. Its unique architecture allows the framework to always be memory resident, offering its functionality
+    whenever its needed, without expensive file stats and file reads that traditional PHP frameworks employ.</d>
+ <da>2023-08-15 20:34:53</da>
+ <n>Full changelog can be found at: https://github.com/phalcon/cphalcon/blob/master/CHANGELOG-5.0.md
+
+### Added
+
+- Added `Phalcon\Mvc\Model::appendMessagedFrom` for code consistency and to add messages from another model [#16391](https://github.com/phalcon/cphalcon/issues/16391)
+- Added `Phalcon\Autoload\Loader::isRegistered` for debugging purposes [#16391](https://github.com/phalcon/cphalcon/issues/16391)
+- Added `Phalcon\Mvc\Model\Metadata::initializeMetadata` [#16393] (https://github.com/phalcon/cphalcon/issues/16393)
+- Added `Phalcon\Mvc\Model\Metadata::getMetaDataUniqueKey` [#16393] (https://github.com/phalcon/cphalcon/issues/16393)
+- Added `Phalcon\Mvc\Model\Metadata::getColumnMapUniqueKey` [#16393] (https://github.com/phalcon/cphalcon/issues/16393)
+- Added `Phalcon\Encryption\Security\JWT\Builder::addHeader()` to allow adding custom headers [#16396](https://github.com/phalcon/cphalcon/issues/16396)
+
+### Changed
+
+- Refactored `Phalcon\Mvc\Model::doLowUpdate` and `Phalcon\Mvc\Model::postSaveRelatedRecords` for better code logic and a clearer separation of behaviour, although it lead to partially repeated code. [#16391](https://github.com/phalcon/cphalcon/issues/16391)
+- Cleaned `Phalcon\Mvc\Model\Metadata::initialize` [#16393] (https://github.com/phalcon/cphalcon/issues/16393)
+
+### Fixed
+
+- Parse multipart/form-data from PUT request [#16271](https://github.com/phalcon/cphalcon/issues/16271)
+- Set Dynamic Update by default system-wide [#16343](https://github.com/phalcon/cphalcon/issues/16343)
+- Fixed memory leak in Micro application [#16404](https://github.com/phalcon/cphalcon/pull/16404)</n>
+ <f>964292</f>
+ <g>https://pecl.php.net/get/phalcon-5.3.0</g>
+ <x xlink:href="package.5.3.0.xml"/>
+</r>
