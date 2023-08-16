@@ -1547,12 +1547,12 @@
     },
     "mongodb": {
         "bugs": "https://jira.mongodb.org/browse/PHPC",
-        "docs": "https://php.net/mongodb",
-        "home": "http://docs.mongodb.org/ecosystem/drivers/php/",
+        "docs": "http://php.net/mongodb",
+        "home": "https://www.mongodb.com/docs/drivers/php/",
         "maintained": true,
         "repo": "https://github.com/mongodb/mongo-php-driver",
         "stats": "https://pecl.php.net/package-stats.php?pid=981&rid=&cid=7",
-        "verified": true
+        "verified": false
     },
     "mono": {
         "bugs": "",

@@ -2,12 +2,22 @@
     "category": "Database",
     "deprecated": false,
     "description": "The purpose of this driver is to provide exceptionally thin glue between MongoDB\nand PHP, implementing only fundamental and performance-critical components\nnecessary to build a fully-functional MongoDB driver.",
-    "latestReleaseDate": "2023-06-22T17:56:16+00:00",
-    "latestVersion": "1.16.1",
+    "latestReleaseDate": "2023-08-16T02:04:39+00:00",
+    "latestVersion": "1.16.2",
     "license": "Apache License",
     "name": "mongodb",
     "php8Mentioned": true,
     "releases": {
+        "1.16.2": {
+            "version": "1.16.2",
+            "state": "stable",
+            "license": "Apache License",
+            "releasedBy": "jmikola",
+            "releaseDate": "2023-08-16T02:04:39+00:00",
+            "releaseNotes": "** Bug\n    * [PHPC-2265] - Possible deadlock when querying during a MongoDB node restart\n    * [PHPC-2268] - Remove duplicate call to bson_iter_key in BSON\\Iterator::key\n\n** Task\n    * [PHPC-2258] - Upgrade libmongoc to 1.24.2\n    * [PHPC-2263] - Detect XSI or GNU strerror_r() implementation during build process\n    * [PHPC-2270] - Define constants for POSIX features and extensions used by libmongoc 1.24\n    * [PHPC-2271] - Upgrade libmongoc to 1.24.3",
+            "get": "https://pecl.php.net/get/mongodb-1.16.2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "1.16.1": {
             "version": "1.16.1",
             "state": "stable",
