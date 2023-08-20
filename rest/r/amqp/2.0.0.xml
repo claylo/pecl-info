@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/amqp">amqp</p>
+ <c>pecl.php.net</c>
+ <v>2.0.0</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>lstrojny</m>
+ <s>Communicate with any AMQP compliant server</s>
+ <d>This extension can communicate with any AMQP spec 0-9-1 compatible server, such as RabbitMQ, OpenAMQP and Qpid, giving you the ability to create and delete exchanges and queues, as well as publish to any exchange and consume from any queue.</d>
+ <da>2023-08-20 11:14:13</da>
+ <n>Notable changes:
+
+ - Fix various API oddities, see https://github.com/php-amqp/php-amqp/tree/v2.0.0/UPGRADING.md for details
+ - Remove support for PHP 5
+ - Various bug fixes
+
+💡Most use-cases should not require much changes from 1.x but check out
+https://github.com/php-amqp/php-amqp/tree/v2.0.0/UPGRADING.md for a detailed upgrade guide
+
+
+All changes (chronologically):
+
+ - CentOS development environment (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/467)
+ - Ubuntu development containers (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/466)
+ - Test against upcoming PHP 8.3 (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/465)
+ - Make test host configurable (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/464)
+ - Cosmetics on type functions (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/commit/350202f)
+ - Configurable serialization/deserialization depth (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/463)
+ - Allow bitmask flags arguments to be nullable where previously AMQP_NOPARAM/zero was required (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/462)
+ - Fix generated commit URLs in changelogs (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/commit/4ee6159)
+ - Handle nested AMQP value serialization/deserialization (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/461)
+ - Document lack of reliability of AMQPConnection::isConnected (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/306)
+ - Prevent reuse of channel ID of broken channels (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/460)
+ - Gracefully handle zero as a heartbeat value (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/459)
+ - Build with the clang compiler on CI (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/457)
+ - Include stdint.h for PHP &gt;= 8.0 on Windows (Jan Ehrhardt) (https://github.com/php-amqp/php-amqp/issues/456)
+ - Fix segfault in setPort (Remi Collet &lt;remi@remirepo.net&gt;) (https://github.com/php-amqp/php-amqp/issues/455)
+ - Document BC changes (Lars Strojny &lt;lars@strojny.net&gt;)
+ - Document pseudo-bool method changes (Lars Strojny &lt;lars@strojny.net&gt;)
+ - Fix mangled header on MacOS (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/60)
+ - Validate argument parsing, add AMQPExchange::removeArgument() and AMQPQueue::removeArgument() (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/452)
+ - Skip SSL tests if certificates are missing (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/450)
+ - Check coding style and formatting of stub files (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/447)
+ - Parallelize test execution (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/444)
+ - Deterministic configuration for PHP CLI (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/443)
+ - Fix tag creation during release management (Lars Strojny &lt;lars@strojny.net&gt;)
+ - Move test-report.sh into infra (Lars Strojny &lt;lars@strojny.net&gt;)
+ - The big fat API renovation (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/437)
+ - Handle alpha/beta stability correctly (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/5546436)
+ - Expose better version information (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/438)
+ - Auto-format the codebase (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/436)
+ - More consistent return types for AMQPEnvelope (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/435)
+ - Update stubs (Lars Strojny &lt;lars@strojny.net&gt;)
+ - Fix parameter error handling in AMQPConnection and AMQPChannel (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/434)
+ - Increase credentials and identifier limits (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/433)
+ - Reliably clear consumer tag on AMQPQueue::cancel (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/432)
+ - Ignore failures on experimental builds (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/25)
+ - Update branch name (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/7)
+ - Bump shivammathur/setup-php from 2.25.3 to 2.25.4 (dependabot[bot]) (https://github.com/php-amqp/php-amqp/issues/431)
+ - PHP 8.2 refactorings (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/430)
+ - Fix php version check for static building (Misha Kulakovsky &lt;m@klkvsk.ru&gt;) (https://github.com/php-amqp/php-amqp/issues/425)
+ - Fix stub exception class (closes #427) (Lars Strojny &lt;lars@strojny.net&gt;)
+ - Document custom connection name in stubs (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/700000)
+ - Expose Delivery Mode through constants (Flávio Heleno &lt;flaviohbatista@gmail.com&gt;) (https://github.com/php-amqp/php-amqp/issues/420)
+ - Fix deprecation issue in PHP 8.1 for $consumerTag argument to AMQPQueue::consume() method (Liviu-Ionut Iosif) (https://github.com/php-amqp/php-amqp/issues/421)
+ - Fix: Deprecated: Creation of dynamic property (8.2) (Remi Collet &lt;remi@remirepo.net&gt;) (https://github.com/php-amqp/php-amqp/issues/418)
+ - Fix AMQPEnvelope::getDeliveryTag() return type (Flávio Heleno &lt;flaviohbatista@gmail.com&gt;) (https://github.com/php-amqp/php-amqp/issues/415)
+ - Fix ack/nack/reject param documentation (Flávio Heleno &lt;flaviohbatista@gmail.com&gt;) (https://github.com/php-amqp/php-amqp/issues/414)
+ - Mention time units in all timeout-related methods (Andrii Dembitskyi &lt;andrew.dembitskiy@gmail.com&gt;) (https://github.com/php-amqp/php-amqp/issues/410)
+
+For a complete list of changes see:
+https://github.com/php-amqp/php-amqp/compare/v1.11.0...v2.0.0</n>
+ <f>115274</f>
+ <g>https://pecl.php.net/get/amqp-2.0.0</g>
+ <x xlink:href="package.2.0.0.xml"/>
+</r>
