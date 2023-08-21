@@ -2,12 +2,22 @@
     "category": "Database",
     "deprecated": false,
     "description": "The PHP client library provides fast access to documents stored in a Couchbase Server.",
-    "latestReleaseDate": "2023-05-26T13:48:41+00:00",
-    "latestVersion": "4.1.4",
+    "latestReleaseDate": "2023-08-21T12:36:04+00:00",
+    "latestVersion": "4.1.5",
     "license": "Apache V2",
     "name": "couchbase",
     "php8Mentioned": true,
     "releases": {
+        "4.1.5": {
+            "version": "4.1.5",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2023-08-21T12:36:04+00:00",
+            "releaseNotes": "PCBC-939: Support query with read from replica. (#118)\nPCBC-831: Implement search index management. (#115)\nPCBC-945: Expose expiry options for increment/decrement. (#120)\nPCBC-937: Fix `removeMulti`, which didn't remove documents. (#123)\nPCBC-938: Override exception constructor in PHP Extension, which allows to initialize context in derived classes. (#117)\nPCBC-940: Support for subdoc read from replica. (#121)\nPCBC-884: Support for Native KV range scans.  (#122, #127)\n\nNotable changes in core C++\n---------------------------\nCXXCBC-333: Fix parsing resolv.conf on Linux (#416)\nCXXCBC-335: Log connection options (#417)\nCXXCBC-343: Continue bootsrap if DNS-SRV resolution fails (#422)\nCXXCBC-242: SDK Support for Native KV Range Scans (#419, #423, #424, #428, #431, #432, #433, #434, #426)\nCXXCBC-339: Disable older TLS protocols (#418)",
+            "get": "https://pecl.php.net/get/couchbase-4.1.5",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "4.1.4": {
             "version": "4.1.4",
             "state": "stable",
