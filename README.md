@@ -1233,11 +1233,11 @@ Mailparse is an extension for parsing and working with email messages.
 It can deal with rfc822 and rfc2045 (MIME) compliant messages.
 ```
 <p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/mailparse-3.1.5">3.1.5</a> on 27 Jul 2023</li>
+<li>License: </li>
+<li>Latest Release: <a href="https://pecl.php.net/get/mailparse-3.1.6">3.1.6</a> on 22 Aug 2023</li>
 <li>Release data in JSON: <a href="data/packages/mailparse.json">mailparse.json</a></li>
 <li><a href="https://pecl.php.net/packages/mailparse">mailparse on PECL</a></li>
-<li><a href="http://php.net/mailparse">:book: Documentation</a> &nbsp; <a href="https://github.com/php/pecl-mail-mailparse">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-mail-mailparse/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=143&rid=&cid=14">:bar_chart: Stats</a></li>
+<li><a href="https://php.net/mailparse">:book: Documentation</a> &nbsp; <a href="https://github.com/php/pecl-mail-mailparse">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-mail-mailparse/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=143&rid=&cid=14">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 
