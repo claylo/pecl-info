@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (141)
+## Relevant Extensions (140)
 
 ### Authentication (2)
 
@@ -934,11 +934,11 @@ Support for YAML 1.1 (YAML Ain't Markup Language) serialization using the
 Zip is an extension to create, modify and read zip files.
 ```
 <p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/zip-1.22.1">1.22.1</a> on 29 Jun 2023</li>
+<li>License: </li>
+<li>Latest Release: <a href="https://pecl.php.net/get/zip-1.22.2">1.22.2</a> on 23 Aug 2023</li>
 <li>Release data in JSON: <a href="data/packages/zip.json">zip.json</a></li>
 <li><a href="https://pecl.php.net/packages/zip">zip on PECL</a></li>
-<li><a href="http://www.php.net/zip">:book: Documentation</a> &nbsp; <a href="https://github.com/pierrejoye/php_zip">:sparkles: Source</a> &nbsp; <a href="https://github.com/pierrejoye/php_zip/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=208&rid=&cid=33">:bar_chart: Stats</a></li>
+<li><a href="https://php.net/zip">:book: Documentation</a> &nbsp; <a href="https://github.com/pierrejoye/php_zip">:sparkles: Source</a> &nbsp; <a href="https://github.com/pierrejoye/php_zip/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=208&rid=&cid=33">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>zstd</summary>
@@ -1130,7 +1130,7 @@ punctuation and spacing.
 </details>
 
 ***
-### Languages (4)
+### Languages (3)
 
 <details><summary>handlebars&nbsp; :eight:</summary>
 <p>Handlebars templating language</p>
@@ -1175,20 +1175,6 @@ templates.
 <li>Release data in JSON: <a href="data/packages/mustache.json">mustache.json</a></li>
 <li><a href="https://pecl.php.net/packages/mustache">mustache on PECL</a></li>
 <li><a href="https://github.com/jbboehr/php-mustache">:house: Home</a> &nbsp; <a href="https://github.com/jbboehr/php-mustache">:sparkles: Source</a> &nbsp; <a href="https://github.com/jbboehr/php-mustache/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1010&rid=&cid=59">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>v8js</summary>
-<p>V8 Javascript Engine for PHP</p>
-
-```
-This extension embeds Google's V8 Javascript Engine into PHP.
-```
-<p><ul>
-<li>License: MIT</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/v8js-2.1.2">2.1.2</a> on 21 Aug 2020</li>
-<li>Release data in JSON: <a href="data/packages/v8js.json">v8js.json</a></li>
-<li><a href="https://pecl.php.net/packages/v8js">v8js on PECL</a></li>
-<li><a href="http://php.net/v8js/">:book: Documentation</a> &nbsp; <a href="https://github.com/preillyme/v8js/">:sparkles: Source</a> &nbsp; <a href="https://github.com/preillyme/v8js/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=894&rid=&cid=59">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 
