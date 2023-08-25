@@ -2,12 +2,22 @@
     "category": "Tools and Utilities",
     "deprecated": false,
     "description": "The PHP Agent for Apache SkyWalking, which provides the native tracing abilities for PHP project.",
-    "latestReleaseDate": "2023-05-09T06:20:30+00:00",
-    "latestVersion": "0.5.0",
+    "latestReleaseDate": "2023-08-25T05:48:21+00:00",
+    "latestVersion": "0.6.0",
     "license": "Apache-2.0",
     "name": "skywalking_agent",
     "php8Mentioned": true,
     "releases": {
+        "0.6.0": {
+            "version": "0.6.0",
+            "state": "stable",
+            "license": "Apache-2.0",
+            "releasedBy": "skywalking",
+            "releaseDate": "2023-08-25T05:48:21+00:00",
+            "releaseNotes": "## What's Changed\n* Polish doc about Swoole by @wu-sheng in https://github.com/apache/skywalking-php/pull/73\n* Start 0.6.0 development. by @jmjoy in https://github.com/apache/skywalking-php/pull/74\n* Fix hook for Doctrine PDO class by @matikij in https://github.com/apache/skywalking-php/pull/76\n* Log Exception in tracing span when throw. by @jmjoy in https://github.com/apache/skywalking-php/pull/75\n* Upgrade dependencies and adapt. by @jmjoy in https://github.com/apache/skywalking-php/pull/77\n* Fix required rust version and add runing php-fpm notice in docs. by @jmjoy in https://github.com/apache/skywalking-php/pull/78\n* Bump openssl from 0.10.48 to 0.10.55 by @dependabot in https://github.com/apache/skywalking-php/pull/79\n* Fix the situation where the redis port is string. by @jmjoy in https://github.com/apache/skywalking-php/pull/80\n* Optionally enable zend observer api for auto instrumentation. by @jmjoy in https://github.com/apache/skywalking-php/pull/81\n* Fix the empty span situation in redis after hook. by @jmjoy in https://github.com/apache/skywalking-php/pull/82\n* Add mongodb pluhgin. by @jmjoy in https://github.com/apache/skywalking-php/pull/83\n* Update rust nightly toolchain in CI and format. by @jmjoy in https://github.com/apache/skywalking-php/pull/84\n* Add notice document for `skywalking_agent.enable`. by @jmjoy in https://github.com/apache/skywalking-php/pull/85\n* Upgrade dependencies. by @jmjoy in https://github.com/apache/skywalking-php/pull/86\n* Fix docs by @heyanlong in https://github.com/apache/skywalking-php/pull/87\n* Add kafka reporter. by @jmjoy in https://github.com/apache/skywalking-php/pull/88\n* Release SkyWalking PHP Agent 0.6.0 by @jmjoy in https://github.com/apache/skywalking-php/pull/89\n\n## New Contributors\n* @matikij made their first contribution in https://github.com/apache/skywalking-php/pull/76\n\n**Full Changelog**: https://github.com/apache/skywalking-php/compare/v0.5.0...v0.6.0",
+            "get": "https://pecl.php.net/get/skywalking_agent-0.6.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "0.5.0": {
             "version": "0.5.0",
             "state": "stable",
