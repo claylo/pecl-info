@@ -2347,7 +2347,7 @@ project.
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/skywalking_agent-0.5.0">0.5.0</a> on 09 May 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/skywalking_agent-0.6.0">0.6.0</a> on 25 Aug 2023</li>
 <li>Release data in JSON: <a href="data/packages/skywalking_agent.json">skywalking_agent.json</a></li>
 <li><a href="https://pecl.php.net/packages/skywalking_agent">skywalking_agent on PECL</a></li>
 <li><a href="https://skywalking.apache.org/">:house: Home</a> &nbsp; <a href="https://github.com/apache/skywalking-php">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1073&rid=&cid=29">:bar_chart: Stats</a></li>
