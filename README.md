@@ -2396,7 +2396,7 @@ Zephir Parser is a code parser, delivered as a C extension for the PHP language.
 ```
 <p><ul>
 <li>License: MIT</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/zephir_parser-1.5.3">1.5.3</a> on 09 Feb 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/zephir_parser-1.6.0">1.6.0</a> on 28 Aug 2023</li>
 <li>Release data in JSON: <a href="data/packages/zephir_parser.json">zephir_parser.json</a></li>
 <li><a href="https://pecl.php.net/packages/zephir_parser">zephir_parser on PECL</a></li>
 <li><a href="https://github.com/zephir-lang/php-zephir-parser">:house: Home</a> &nbsp; <a href="https://github.com/zephir-lang/php-zephir-parser">:sparkles: Source</a> &nbsp; <a href="https://github.com/zephir-lang/php-zephir-parser/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1046&rid=&cid=29">:bar_chart: Stats</a></li>
