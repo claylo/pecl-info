@@ -3711,5 +3711,14 @@
         "repo": "https://github.com/kjdev/php-ext-brotli",
         "stats": "https://pecl.php.net/package-stats.php?pid=1079&rid=&cid=33",
         "verified": false
+    },
+    "ecma_intl": {
+        "bugs": "",
+        "docs": "",
+        "home": "",
+        "maintained": true,
+        "repo": "https://github.com/php-ecma-intl/ext",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1080&rid=&cid=28",
+        "verified": false
     }
 }
