@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.185.0](https://github.com/claylo/pecl-info/compare/v1.184.0...v1.185.0) (2023-08-28)
+
+
+### Added
+
+* add ecma_intl 0.1.1, ecma_intl 0.1.0 releases ([89e8d91](https://github.com/claylo/pecl-info/commit/89e8d915c51480c87111b86ce3391c208785b2ab))
+
 ## [1.184.0](https://github.com/claylo/pecl-info/compare/v1.183.0...v1.184.0) (2023-08-26)
 
 

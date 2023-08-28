@@ -990,7 +990,7 @@ smbclient is a PHP extension that uses Samba's libsmbclient library to provide
 </details>
 
 ***
-### HTTP (4)
+### HTTP (3)
 
 <details><summary>apfd&nbsp; :eight:</summary>
 <p>Always Populate Form Data</p>
@@ -1008,20 +1008,6 @@ This extension does not provide any INI entries, constants, functions or classes
 <li>Release data in JSON: <a href="data/packages/apfd.json">apfd.json</a></li>
 <li><a href="https://pecl.php.net/packages/apfd">apfd on PECL</a></li>
 <li><a href="http://mdref.m6w6.name/apfd">:book: Documentation</a> &nbsp; <a href="https://github.com/m6w6/ext-apfd">:sparkles: Source</a> &nbsp; <a href="https://github.com/m6w6/ext-apfd/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=977&rid=&cid=11">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>http_message</summary>
-<p>PSR-7 HTTP Message implementation</p>
-
-```
-PSR-7 compatible HTTP Message implementation as PHP extension
-```
-<p><ul>
-<li>License: MIT</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/http_message-0.2.2">0.2.2</a> on 25 Aug 2020</li>
-<li>Release data in JSON: <a href="data/packages/http_message.json">http_message.json</a></li>
-<li><a href="https://pecl.php.net/packages/http_message">http_message on PECL</a></li>
-<li><a href="https://github.com/improved-php-library/http-message.git">:sparkles: Source</a> &nbsp; <a href="https://github.com/improved-php-library/http-message/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1038&rid=&cid=11">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>json_post</summary>
@@ -1107,8 +1093,23 @@ This extension requires ImageMagick version 6.5.3-10+ and PHP 5.4.0+.
 </details>
 
 ***
-### Internationalization (1)
+### Internationalization (2)
 
+<details><summary>ecma_intl</summary>
+<p>ecma_intl is an i18n and l10n extension for PHP</p>
+
+```
+ecma_intl is a PHP implementation of the ECMA-402 11th Edition
+Internationalization API Specification.
+```
+<p><ul>
+<li>License: BSD-3-Clause</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/ecma_intl-0.1.1">0.1.1</a> on 27 Aug 2023</li>
+<li>Release data in JSON: <a href="data/packages/ecma_intl.json">ecma_intl.json</a></li>
+<li><a href="https://pecl.php.net/packages/ecma_intl">ecma_intl on PECL</a></li>
+<li><a href="https://github.com/php-ecma-intl/ext">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1080&rid=&cid=28">:bar_chart: Stats</a></li>
+</ul></p><hr />
+</details>
 <details><summary>translit&nbsp; :eight:</summary>
 <p>Transliterates non-latin character sets to latin</p>
 
