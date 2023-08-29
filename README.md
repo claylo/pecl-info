@@ -1104,7 +1104,7 @@ Internationalization API Specification.
 ```
 <p><ul>
 <li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/ecma_intl-0.1.1">0.1.1</a> on 27 Aug 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/ecma_intl-0.1.2">0.1.2</a> on 29 Aug 2023</li>
 <li>Release data in JSON: <a href="data/packages/ecma_intl.json">ecma_intl.json</a></li>
 <li><a href="https://pecl.php.net/packages/ecma_intl">ecma_intl on PECL</a></li>
 <li><a href="https://github.com/php-ecma-intl/ext">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1080&rid=&cid=28">:bar_chart: Stats</a></li>
