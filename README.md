@@ -1095,7 +1095,7 @@ This extension requires ImageMagick version 6.5.3-10+ and PHP 5.4.0+.
 ***
 ### Internationalization (2)
 
-<details><summary>ecma_intl</summary>
+<details><summary>ecma_intl&nbsp; :eight:</summary>
 <p>ecma_intl is an i18n and l10n extension for PHP</p>
 
 ```
@@ -1104,7 +1104,7 @@ Internationalization API Specification.
 ```
 <p><ul>
 <li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/ecma_intl-0.1.2">0.1.2</a> on 29 Aug 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/ecma_intl-0.1.3">0.1.3</a> on 30 Aug 2023</li>
 <li>Release data in JSON: <a href="data/packages/ecma_intl.json">ecma_intl.json</a></li>
 <li><a href="https://pecl.php.net/packages/ecma_intl">ecma_intl on PECL</a></li>
 <li><a href="https://github.com/php-ecma-intl/ext">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1080&rid=&cid=28">:bar_chart: Stats</a></li>
