@@ -6828,12 +6828,22 @@
         "category": "Internationalization",
         "deprecated": false,
         "description": "ecma_intl is a PHP implementation of the ECMA-402 11th Edition\nInternationalization API Specification.",
-        "latestReleaseDate": "2023-08-29T14:31:42+00:00",
-        "latestVersion": "0.1.2",
+        "latestReleaseDate": "2023-08-30T01:18:18+00:00",
+        "latestVersion": "0.1.3",
         "license": "BSD-3-Clause",
         "name": "ecma_intl",
-        "php8Mentioned": false,
+        "php8Mentioned": true,
         "releases": {
+            "0.1.3": {
+                "version": "0.1.3",
+                "state": "alpha",
+                "license": "BSD-3-Clause",
+                "releasedBy": "ramsey",
+                "releaseDate": "2023-08-30T01:18:18+00:00",
+                "releaseNotes": "Fix: reduce duplication of code (and eliminate build warnings) by splitting MINIT for each class into separate functions.\nFix: allow installation of extension on PHP 8.3.\nFix: fixes a build warning for switch statements with no default branch.",
+                "get": "https://pecl.php.net/get/ecma_intl-0.1.3",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "0.1.2": {
                 "version": "0.1.2",
                 "state": "alpha",
