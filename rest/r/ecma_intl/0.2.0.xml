@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ecma_intl">ecma_intl</p>
+ <c>pecl.php.net</c>
+ <v>0.2.0</v>
+ <st>alpha</st>
+ <l>BSD-3-Clause</l>
+ <m>ramsey</m>
+ <s>ecma_intl is an i18n and l10n extension for PHP</s>
+ <d>ecma_intl is a PHP implementation of the ECMA-402 11th Edition
+Internationalization API Specification.</d>
+ <da>2023-09-02 19:11:27</da>
+ <n>Add Locale::$currency and Locale\Options::$currency properties. ECMA-402 does not define these properties; they are unique to this implementation and inspired by the properties and methods added in the Intl Locale Info Proposal.</n>
+ <f>84918</f>
+ <g>https://pecl.php.net/get/ecma_intl-0.2.0</g>
+ <x xlink:href="package.0.2.0.xml"/>
+</r>
