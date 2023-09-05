@@ -2,12 +2,22 @@
     "category": "PHP",
     "deprecated": false,
     "description": "https://github.com/open-telemetry/opentelemetry-php-instrumentation",
-    "latestReleaseDate": "2023-06-14T08:50:56+00:00",
-    "latestVersion": "1.0.0beta6",
+    "latestReleaseDate": "2023-09-04T23:58:12+00:00",
+    "latestVersion": "1.0.0beta7",
     "license": "Apache 2.0",
     "name": "opentelemetry",
     "php8Mentioned": false,
     "releases": {
+        "1.0.0beta7": {
+            "version": "1.0.0beta7",
+            "state": "beta",
+            "license": "Apache 2.0",
+            "releasedBy": "brettmc",
+            "releaseDate": "2023-09-04T23:58:12+00:00",
+            "releaseNotes": "opentelemetry 1.0.0beta7\n    * adding more tests (#82)\n    * disabling expanding args for internal functions (#84)\n    * check for invalid hook function signatures (#79)\n    * adding checks for conflicting extensions (#83)\n    * adding notes and minor code improvements for issue 68 (#75)\n    * fixing crash + docs (#76)\n    * fixing clang-format install (#78)\n    * adding valgrind (#73)\n    * fixing segfault when returning params from pre callback (#72)\n    * adding failing tests for pre-hook params (#71)\n    * moving docs back to root (#70)\n    * add failing test for expand params with post callback (#69)\n    * moving extension to subdirectory (#65)",
+            "get": "https://pecl.php.net/get/opentelemetry-1.0.0beta7",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "1.0.0beta6": {
             "version": "1.0.0beta6",
             "state": "beta",
