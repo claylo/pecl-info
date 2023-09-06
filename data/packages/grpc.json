@@ -2,12 +2,22 @@
     "category": "Networking",
     "deprecated": false,
     "description": "Remote Procedure Calls (RPCs) provide a useful abstraction for building distributed applications and services. The libraries in this repository provide a concrete implementation of the gRPC protocol, layered over HTTP/2. These libraries enable communication between clients and servers using any combination of the supported languages.",
-    "latestReleaseDate": "2023-08-28T23:08:18+00:00",
-    "latestVersion": "1.58.0RC1",
+    "latestReleaseDate": "2023-09-06T18:06:34+00:00",
+    "latestVersion": "1.58.0",
     "license": "Apache 2.0",
     "name": "gRPC",
     "php8Mentioned": true,
     "releases": {
+        "1.58.0": {
+            "version": "1.58.0",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "stanleycheung",
+            "releaseDate": "2023-09-06T18:06:34+00:00",
+            "releaseNotes": "- gRPC Core 1.58.0 update",
+            "get": "https://pecl.php.net/get/grpc-1.58.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "1.58.0RC1": {
             "version": "1.58.0RC1",
             "state": "beta",
@@ -118,56 +128,6 @@
             "get": "https://pecl.php.net/get/grpc-1.53.0RC1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
-        "1.47.4": {
-            "version": "1.47.4",
-            "state": "stable",
-            "license": "Apache 2.0",
-            "releasedBy": "stanleycheung",
-            "releaseDate": "2023-02-25T04:51:36+00:00",
-            "releaseNotes": "- gRPC Core 1.47.4 update",
-            "get": "https://pecl.php.net/get/grpc-1.47.4",
-            "SPDX-License-Identifier": "Apache-2.0"
-        },
-        "1.48.4": {
-            "version": "1.48.4",
-            "state": "stable",
-            "license": "Apache 2.0",
-            "releasedBy": "stanleycheung",
-            "releaseDate": "2023-02-25T04:38:45+00:00",
-            "releaseNotes": "- gRPC Core 1.48.4 update",
-            "get": "https://pecl.php.net/get/grpc-1.48.4",
-            "SPDX-License-Identifier": "Apache-2.0"
-        },
-        "1.49.3": {
-            "version": "1.49.3",
-            "state": "stable",
-            "license": "Apache 2.0",
-            "releasedBy": "stanleycheung",
-            "releaseDate": "2023-02-25T04:31:18+00:00",
-            "releaseNotes": "- gRPC Core 1.49.3 update",
-            "get": "https://pecl.php.net/get/grpc-1.49.3",
-            "SPDX-License-Identifier": "Apache-2.0"
-        },
-        "1.50.2": {
-            "version": "1.50.2",
-            "state": "stable",
-            "license": "Apache 2.0",
-            "releasedBy": "stanleycheung",
-            "releaseDate": "2023-02-25T04:21:07+00:00",
-            "releaseNotes": "- gRPC Core 1.50.2 update",
-            "get": "https://pecl.php.net/get/grpc-1.50.2",
-            "SPDX-License-Identifier": "Apache-2.0"
-        },
-        "1.51.3": {
-            "version": "1.51.3",
-            "state": "stable",
-            "license": "Apache 2.0",
-            "releasedBy": "stanleycheung",
-            "releaseDate": "2023-02-25T04:08:17+00:00",
-            "releaseNotes": "- gRPC Core 1.51.3 update",
-            "get": "https://pecl.php.net/get/grpc-1.51.3",
-            "SPDX-License-Identifier": "Apache-2.0"
-        },
         "1.52.1": {
             "version": "1.52.1",
             "state": "stable",
@@ -188,6 +148,16 @@
             "get": "https://pecl.php.net/get/grpc-1.52.0RC1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
+        "1.51.3": {
+            "version": "1.51.3",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "stanleycheung",
+            "releaseDate": "2023-02-25T04:08:17+00:00",
+            "releaseNotes": "- gRPC Core 1.51.3 update",
+            "get": "https://pecl.php.net/get/grpc-1.51.3",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "1.51.1": {
             "version": "1.51.1",
             "state": "stable",
@@ -196,6 +166,16 @@
             "releaseDate": "2022-11-30T07:11:33+00:00",
             "releaseNotes": "- gRPC Core 1.51.1 update",
             "get": "https://pecl.php.net/get/grpc-1.51.1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.50.2": {
+            "version": "1.50.2",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "stanleycheung",
+            "releaseDate": "2023-02-25T04:21:07+00:00",
+            "releaseNotes": "- gRPC Core 1.50.2 update",
+            "get": "https://pecl.php.net/get/grpc-1.50.2",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.50.0": {
@@ -218,6 +198,16 @@
             "get": "https://pecl.php.net/get/grpc-1.50.0RC1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
+        "1.49.3": {
+            "version": "1.49.3",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "stanleycheung",
+            "releaseDate": "2023-02-25T04:31:18+00:00",
+            "releaseNotes": "- gRPC Core 1.49.3 update",
+            "get": "https://pecl.php.net/get/grpc-1.49.3",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "1.49.0": {
             "version": "1.49.0",
             "state": "stable",
@@ -236,6 +226,16 @@
             "releaseDate": "2022-09-06T23:11:56+00:00",
             "releaseNotes": "- gRPC Core 1.49.0 update",
             "get": "https://pecl.php.net/get/grpc-1.49.0RC3",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.48.4": {
+            "version": "1.48.4",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "stanleycheung",
+            "releaseDate": "2023-02-25T04:38:45+00:00",
+            "releaseNotes": "- gRPC Core 1.48.4 update",
+            "get": "https://pecl.php.net/get/grpc-1.48.4",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.48.1": {
@@ -268,6 +268,16 @@
             "get": "https://pecl.php.net/get/grpc-1.48.0RC1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
+        "1.47.4": {
+            "version": "1.47.4",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "stanleycheung",
+            "releaseDate": "2023-02-25T04:51:36+00:00",
+            "releaseNotes": "- gRPC Core 1.47.4 update",
+            "get": "https://pecl.php.net/get/grpc-1.47.4",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "1.47.0": {
             "version": "1.47.0",
             "state": "stable",
@@ -288,16 +298,6 @@
             "get": "https://pecl.php.net/get/grpc-1.46.3",
             "SPDX-License-Identifier": "Apache-2.0"
         },
-        "1.46.0": {
-            "version": "1.46.0",
-            "state": "stable",
-            "license": "Apache 2.0",
-            "releasedBy": "stanleycheung",
-            "releaseDate": "2022-05-24T23:03:08+00:00",
-            "releaseNotes": "- gRPC Core 1.46.0 update",
-            "get": "https://pecl.php.net/get/grpc-1.46.0",
-            "SPDX-License-Identifier": "Apache-2.0"
-        },
         "1.46.1": {
             "version": "1.46.1",
             "state": "stable",
@@ -306,6 +306,16 @@
             "releaseDate": "2022-05-24T23:02:38+00:00",
             "releaseNotes": "- gRPC Core 1.46.1 update",
             "get": "https://pecl.php.net/get/grpc-1.46.1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.46.0": {
+            "version": "1.46.0",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "stanleycheung",
+            "releaseDate": "2022-05-24T23:03:08+00:00",
+            "releaseNotes": "- gRPC Core 1.46.0 update",
+            "get": "https://pecl.php.net/get/grpc-1.46.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.46.0RC2": {
@@ -808,16 +818,6 @@
             "get": "https://pecl.php.net/get/grpc-1.25.0RC1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
-        "1.23.1": {
-            "version": "1.23.1",
-            "state": "stable",
-            "license": "Apache 2.0",
-            "releasedBy": "stanleycheung",
-            "releaseDate": "2019-10-03T21:06:35+00:00",
-            "releaseNotes": "- gRPC C Core 1.23.1 update",
-            "get": "https://pecl.php.net/get/grpc-1.23.1",
-            "SPDX-License-Identifier": "Apache-2.0"
-        },
         "1.24.0": {
             "version": "1.24.0",
             "state": "stable",
@@ -838,14 +838,14 @@
             "get": "https://pecl.php.net/get/grpc-1.24.0RC1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
-        "1.22.1": {
-            "version": "1.22.1",
+        "1.23.1": {
+            "version": "1.23.1",
             "state": "stable",
             "license": "Apache 2.0",
             "releasedBy": "stanleycheung",
-            "releaseDate": "2019-08-19T18:20:47+00:00",
-            "releaseNotes": "- #19924 C Core Http2 parser fix",
-            "get": "https://pecl.php.net/get/grpc-1.22.1",
+            "releaseDate": "2019-10-03T21:06:35+00:00",
+            "releaseNotes": "- gRPC C Core 1.23.1 update",
+            "get": "https://pecl.php.net/get/grpc-1.23.1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.23.0": {
@@ -866,6 +866,16 @@
             "releaseDate": "2019-08-02T18:40:50+00:00",
             "releaseNotes": "- #19721 Fixed segfault in Channel constructor\n- #19366 Fixed unexpected warning about getenv()",
             "get": "https://pecl.php.net/get/grpc-1.23.0RC1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.22.1": {
+            "version": "1.22.1",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "stanleycheung",
+            "releaseDate": "2019-08-19T18:20:47+00:00",
+            "releaseNotes": "- #19924 C Core Http2 parser fix",
+            "get": "https://pecl.php.net/get/grpc-1.22.1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.22.0": {
@@ -1128,6 +1138,16 @@
             "get": "http://pecl.php.net/get/grpc-1.12.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
+        "1.12.0RC1": {
+            "version": "1.12.0RC1",
+            "state": "beta",
+            "license": "Apache 2.0",
+            "releasedBy": "stanleycheung",
+            "releaseDate": "2018-05-04T18:37:10+00:00",
+            "releaseNotes": "- Persistent channel and tests related fixes: #14991, #15061, #15082, #15171\n- gRPC C Core 1.12 uptake",
+            "get": "http://pecl.php.net/get/grpc-1.12.0RC1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "1.11.1": {
             "version": "1.11.1",
             "state": "stable",
@@ -1146,16 +1166,6 @@
             "releaseDate": "2018-05-04T19:46:05+00:00",
             "releaseNotes": "- Misc C Core bug fixes",
             "get": "http://pecl.php.net/get/grpc-1.11.1RC1",
-            "SPDX-License-Identifier": "Apache-2.0"
-        },
-        "1.12.0RC1": {
-            "version": "1.12.0RC1",
-            "state": "beta",
-            "license": "Apache 2.0",
-            "releasedBy": "stanleycheung",
-            "releaseDate": "2018-05-04T18:37:10+00:00",
-            "releaseNotes": "- Persistent channel and tests related fixes: #14991, #15061, #15082, #15171\n- gRPC C Core 1.12 uptake",
-            "get": "http://pecl.php.net/get/grpc-1.12.0RC1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.11.0": {

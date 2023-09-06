@@ -4583,12 +4583,22 @@
         "category": "Benchmarking",
         "deprecated": false,
         "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-        "latestReleaseDate": "2023-07-17T11:30:14+00:00",
-        "latestVersion": "0.90.0",
+        "latestReleaseDate": "2023-09-06T16:43:13+00:00",
+        "latestVersion": "0.91.0",
         "license": "BSD 3-Clause",
         "name": "datadog_trace",
         "php8Mentioned": true,
         "releases": {
+            "0.91.0": {
+                "version": "0.91.0",
+                "state": "stable",
+                "license": "BSD 3-Clause",
+                "releasedBy": "bwoebi",
+                "releaseDate": "2023-09-06T16:43:13+00:00",
+                "releaseNotes": "This release adds an enhanced WordPress integration, which can be enabled through datadog.trace.wordpress_enhanced_integration=1 in INI. Even more extensive span collection can be enabled through datadog.trace.wordpress_callbacks=1.\n\n### Added\n- Add automated login events to Wordpress #2162\n- Enhance the WordPress Integration #2126\n- Implement agent sampling #2223\n- Add Laravel 9.X & 10.X tests #2237\n- Add http.route to laravel #2204 #2241\n\n### Fixed\n- (Legacy OpenTracing API) Check if the active span has a parent #2177\n- Handle killed workers and change root span initialization in the integrations #2176\n- fix: add Symfony command's exception to the root span #2194\n- Fix #2174: Can't pass less args to an untyped function than originally passed #2227, #2243\n- Fix #2232: Add Cargo.lock to pecl #2233\n- fix: wrong service name on some laravel.event.handle spans #2235\n- fix: PHP7 compatibility in logs correlation #2236\n- Store library_dependencies in memfd, referenced via /proc/self/fd/X DataDog/libdatadog#221\n- fix `datadog-setup.php` when INI file is a symlink #2242\n- update webpki and other dependencies #2247\n\n### Internal Changes\n- Add log levels #2158\n- Add `zai_option_str` and use it in config #2205, #2213\n- Refactor zai_string_view APIs and use them more #2203\n- Rename zai_string_view to zai_str #2206, #2207, #2212\n- Require zai_str.ptr to not be null #2214\n- Add zai_string and use it in zai_config #2217\n- Fix tests: allocate less TLS space by putting uhook HashTables into module globals #2219\n- Add sidecar metrics into their own namespace, fix seq id Datadog/libdatadog#220\n\n## Profiling\n\nThis release reduces CPU overhead to collect stacks, and also reduces overhead when services are idle or partially idle. It also reduces the average amount of memory used.\n\n### Added\n- attach fiber's function name as a label #2169\n\n### Fixed\n- enable allocation profiling only if profiling is enabled #2185\n- enable timeline only if profiling is enabled and lower overhead when disabled #2189\n- fix empty profiles with timeline due to `end_timestamp_ns` unit being set #2244\n\n### Internal changes\n- perf: speed up stack walking by using function run_time_cache #1998, #2182\n- perf: only wake every 10ms if PHP is serving a request #2168\n- refactor: extract ZaiStringView::to_string #2175\n- build: update Cargo.lock #2183\n- refactor: simplify string tables #2186\n- perf: use u32 instead of usize for string table indices #2187\n- test: add Datadog\\Profiling\\trigger_time_sample #2201\n- build: Update to Rust 1.71 / LLVM 16 #2208\n- Bump libdatadog to v3.0.0 #2210\n- fix(profiling): clippy lints #2215\n- style(profiler): use let-else syntax #2216\n- build(profiling): bump dependencies including libdatadog v4.0.0 #2228\n\n## Application Security Management (0.13.1)\n\n### Added\n- Add trusted IPs capability DataDog/dd-appsec-php#279\n- Add extra_services configuration DataDog/dd-appsec-php#282\n\n### Fixed\n- Ensure ddtrace is also enabled DataDog/dd-appsec-php#281\n- Fix service name alias configuration DataDog/dd-appsec-php#293\n\n### Internal changes\n- Add automated login events integration test for Laravel and Symfony DataDog/dd-appsec-php#270\n- Upload suppressions and fix current ones DataDog/dd-appsec-php#280\n- WAF upgrade to 1.13.1 Datadog/dd-appsec-php#292\n- Send events even when limiter does not force manual keep Datadog/dd-appsec-php#290\n- Update ruleset to 1.7.2 Datadog/dd-appsec-php#291",
+                "get": "https://pecl.php.net/get/datadog_trace-0.91.0",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "0.90.0": {
                 "version": "0.90.0",
                 "state": "stable",
@@ -10556,12 +10566,22 @@
         "category": "Networking",
         "deprecated": false,
         "description": "Remote Procedure Calls (RPCs) provide a useful abstraction for building distributed applications and services. The libraries in this repository provide a concrete implementation of the gRPC protocol, layered over HTTP/2. These libraries enable communication between clients and servers using any combination of the supported languages.",
-        "latestReleaseDate": "2023-08-28T23:08:18+00:00",
-        "latestVersion": "1.58.0RC1",
+        "latestReleaseDate": "2023-09-06T18:06:34+00:00",
+        "latestVersion": "1.58.0",
         "license": "Apache 2.0",
         "name": "gRPC",
         "php8Mentioned": true,
         "releases": {
+            "1.58.0": {
+                "version": "1.58.0",
+                "state": "stable",
+                "license": "Apache 2.0",
+                "releasedBy": "stanleycheung",
+                "releaseDate": "2023-09-06T18:06:34+00:00",
+                "releaseNotes": "- gRPC Core 1.58.0 update",
+                "get": "https://pecl.php.net/get/grpc-1.58.0",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "1.58.0RC1": {
                 "version": "1.58.0RC1",
                 "state": "beta",
@@ -10672,56 +10692,6 @@
                 "get": "https://pecl.php.net/get/grpc-1.53.0RC1",
                 "SPDX-License-Identifier": "Apache-2.0"
             },
-            "1.47.4": {
-                "version": "1.47.4",
-                "state": "stable",
-                "license": "Apache 2.0",
-                "releasedBy": "stanleycheung",
-                "releaseDate": "2023-02-25T04:51:36+00:00",
-                "releaseNotes": "- gRPC Core 1.47.4 update",
-                "get": "https://pecl.php.net/get/grpc-1.47.4",
-                "SPDX-License-Identifier": "Apache-2.0"
-            },
-            "1.48.4": {
-                "version": "1.48.4",
-                "state": "stable",
-                "license": "Apache 2.0",
-                "releasedBy": "stanleycheung",
-                "releaseDate": "2023-02-25T04:38:45+00:00",
-                "releaseNotes": "- gRPC Core 1.48.4 update",
-                "get": "https://pecl.php.net/get/grpc-1.48.4",
-                "SPDX-License-Identifier": "Apache-2.0"
-            },
-            "1.49.3": {
-                "version": "1.49.3",
-                "state": "stable",
-                "license": "Apache 2.0",
-                "releasedBy": "stanleycheung",
-                "releaseDate": "2023-02-25T04:31:18+00:00",
-                "releaseNotes": "- gRPC Core 1.49.3 update",
-                "get": "https://pecl.php.net/get/grpc-1.49.3",
-                "SPDX-License-Identifier": "Apache-2.0"
-            },
-            "1.50.2": {
-                "version": "1.50.2",
-                "state": "stable",
-                "license": "Apache 2.0",
-                "releasedBy": "stanleycheung",
-                "releaseDate": "2023-02-25T04:21:07+00:00",
-                "releaseNotes": "- gRPC Core 1.50.2 update",
-                "get": "https://pecl.php.net/get/grpc-1.50.2",
-                "SPDX-License-Identifier": "Apache-2.0"
-            },
-            "1.51.3": {
-                "version": "1.51.3",
-                "state": "stable",
-                "license": "Apache 2.0",
-                "releasedBy": "stanleycheung",
-                "releaseDate": "2023-02-25T04:08:17+00:00",
-                "releaseNotes": "- gRPC Core 1.51.3 update",
-                "get": "https://pecl.php.net/get/grpc-1.51.3",
-                "SPDX-License-Identifier": "Apache-2.0"
-            },
             "1.52.1": {
                 "version": "1.52.1",
                 "state": "stable",
@@ -10742,6 +10712,16 @@
                 "get": "https://pecl.php.net/get/grpc-1.52.0RC1",
                 "SPDX-License-Identifier": "Apache-2.0"
             },
+            "1.51.3": {
+                "version": "1.51.3",
+                "state": "stable",
+                "license": "Apache 2.0",
+                "releasedBy": "stanleycheung",
+                "releaseDate": "2023-02-25T04:08:17+00:00",
+                "releaseNotes": "- gRPC Core 1.51.3 update",
+                "get": "https://pecl.php.net/get/grpc-1.51.3",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "1.51.1": {
                 "version": "1.51.1",
                 "state": "stable",
@@ -10750,6 +10730,16 @@
                 "releaseDate": "2022-11-30T07:11:33+00:00",
                 "releaseNotes": "- gRPC Core 1.51.1 update",
                 "get": "https://pecl.php.net/get/grpc-1.51.1",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
+            "1.50.2": {
+                "version": "1.50.2",
+                "state": "stable",
+                "license": "Apache 2.0",
+                "releasedBy": "stanleycheung",
+                "releaseDate": "2023-02-25T04:21:07+00:00",
+                "releaseNotes": "- gRPC Core 1.50.2 update",
+                "get": "https://pecl.php.net/get/grpc-1.50.2",
                 "SPDX-License-Identifier": "Apache-2.0"
             },
             "1.50.0": {
@@ -10772,6 +10762,16 @@
                 "get": "https://pecl.php.net/get/grpc-1.50.0RC1",
                 "SPDX-License-Identifier": "Apache-2.0"
             },
+            "1.49.3": {
+                "version": "1.49.3",
+                "state": "stable",
+                "license": "Apache 2.0",
+                "releasedBy": "stanleycheung",
+                "releaseDate": "2023-02-25T04:31:18+00:00",
+                "releaseNotes": "- gRPC Core 1.49.3 update",
+                "get": "https://pecl.php.net/get/grpc-1.49.3",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "1.49.0": {
                 "version": "1.49.0",
                 "state": "stable",
@@ -10790,6 +10790,16 @@
                 "releaseDate": "2022-09-06T23:11:56+00:00",
                 "releaseNotes": "- gRPC Core 1.49.0 update",
                 "get": "https://pecl.php.net/get/grpc-1.49.0RC3",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
+            "1.48.4": {
+                "version": "1.48.4",
+                "state": "stable",
+                "license": "Apache 2.0",
+                "releasedBy": "stanleycheung",
+                "releaseDate": "2023-02-25T04:38:45+00:00",
+                "releaseNotes": "- gRPC Core 1.48.4 update",
+                "get": "https://pecl.php.net/get/grpc-1.48.4",
                 "SPDX-License-Identifier": "Apache-2.0"
             },
             "1.48.1": {
@@ -10822,6 +10832,16 @@
                 "get": "https://pecl.php.net/get/grpc-1.48.0RC1",
                 "SPDX-License-Identifier": "Apache-2.0"
             },
+            "1.47.4": {
+                "version": "1.47.4",
+                "state": "stable",
+                "license": "Apache 2.0",
+                "releasedBy": "stanleycheung",
+                "releaseDate": "2023-02-25T04:51:36+00:00",
+                "releaseNotes": "- gRPC Core 1.47.4 update",
+                "get": "https://pecl.php.net/get/grpc-1.47.4",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "1.47.0": {
                 "version": "1.47.0",
                 "state": "stable",
@@ -10842,16 +10862,6 @@
                 "get": "https://pecl.php.net/get/grpc-1.46.3",
                 "SPDX-License-Identifier": "Apache-2.0"
             },
-            "1.46.0": {
-                "version": "1.46.0",
-                "state": "stable",
-                "license": "Apache 2.0",
-                "releasedBy": "stanleycheung",
-                "releaseDate": "2022-05-24T23:03:08+00:00",
-                "releaseNotes": "- gRPC Core 1.46.0 update",
-                "get": "https://pecl.php.net/get/grpc-1.46.0",
-                "SPDX-License-Identifier": "Apache-2.0"
-            },
             "1.46.1": {
                 "version": "1.46.1",
                 "state": "stable",
@@ -10860,6 +10870,16 @@
                 "releaseDate": "2022-05-24T23:02:38+00:00",
                 "releaseNotes": "- gRPC Core 1.46.1 update",
                 "get": "https://pecl.php.net/get/grpc-1.46.1",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
+            "1.46.0": {
+                "version": "1.46.0",
+                "state": "stable",
+                "license": "Apache 2.0",
+                "releasedBy": "stanleycheung",
+                "releaseDate": "2022-05-24T23:03:08+00:00",
+                "releaseNotes": "- gRPC Core 1.46.0 update",
+                "get": "https://pecl.php.net/get/grpc-1.46.0",
                 "SPDX-License-Identifier": "Apache-2.0"
             },
             "1.46.0RC2": {
@@ -11362,16 +11382,6 @@
                 "get": "https://pecl.php.net/get/grpc-1.25.0RC1",
                 "SPDX-License-Identifier": "Apache-2.0"
             },
-            "1.23.1": {
-                "version": "1.23.1",
-                "state": "stable",
-                "license": "Apache 2.0",
-                "releasedBy": "stanleycheung",
-                "releaseDate": "2019-10-03T21:06:35+00:00",
-                "releaseNotes": "- gRPC C Core 1.23.1 update",
-                "get": "https://pecl.php.net/get/grpc-1.23.1",
-                "SPDX-License-Identifier": "Apache-2.0"
-            },
             "1.24.0": {
                 "version": "1.24.0",
                 "state": "stable",
@@ -11392,14 +11402,14 @@
                 "get": "https://pecl.php.net/get/grpc-1.24.0RC1",
                 "SPDX-License-Identifier": "Apache-2.0"
             },
-            "1.22.1": {
-                "version": "1.22.1",
+            "1.23.1": {
+                "version": "1.23.1",
                 "state": "stable",
                 "license": "Apache 2.0",
                 "releasedBy": "stanleycheung",
-                "releaseDate": "2019-08-19T18:20:47+00:00",
-                "releaseNotes": "- #19924 C Core Http2 parser fix",
-                "get": "https://pecl.php.net/get/grpc-1.22.1",
+                "releaseDate": "2019-10-03T21:06:35+00:00",
+                "releaseNotes": "- gRPC C Core 1.23.1 update",
+                "get": "https://pecl.php.net/get/grpc-1.23.1",
                 "SPDX-License-Identifier": "Apache-2.0"
             },
             "1.23.0": {
@@ -11420,6 +11430,16 @@
                 "releaseDate": "2019-08-02T18:40:50+00:00",
                 "releaseNotes": "- #19721 Fixed segfault in Channel constructor\n- #19366 Fixed unexpected warning about getenv()",
                 "get": "https://pecl.php.net/get/grpc-1.23.0RC1",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
+            "1.22.1": {
+                "version": "1.22.1",
+                "state": "stable",
+                "license": "Apache 2.0",
+                "releasedBy": "stanleycheung",
+                "releaseDate": "2019-08-19T18:20:47+00:00",
+                "releaseNotes": "- #19924 C Core Http2 parser fix",
+                "get": "https://pecl.php.net/get/grpc-1.22.1",
                 "SPDX-License-Identifier": "Apache-2.0"
             },
             "1.22.0": {
@@ -11682,6 +11702,16 @@
                 "get": "http://pecl.php.net/get/grpc-1.12.0",
                 "SPDX-License-Identifier": "Apache-2.0"
             },
+            "1.12.0RC1": {
+                "version": "1.12.0RC1",
+                "state": "beta",
+                "license": "Apache 2.0",
+                "releasedBy": "stanleycheung",
+                "releaseDate": "2018-05-04T18:37:10+00:00",
+                "releaseNotes": "- Persistent channel and tests related fixes: #14991, #15061, #15082, #15171\n- gRPC C Core 1.12 uptake",
+                "get": "http://pecl.php.net/get/grpc-1.12.0RC1",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "1.11.1": {
                 "version": "1.11.1",
                 "state": "stable",
@@ -11700,16 +11730,6 @@
                 "releaseDate": "2018-05-04T19:46:05+00:00",
                 "releaseNotes": "- Misc C Core bug fixes",
                 "get": "http://pecl.php.net/get/grpc-1.11.1RC1",
-                "SPDX-License-Identifier": "Apache-2.0"
-            },
-            "1.12.0RC1": {
-                "version": "1.12.0RC1",
-                "state": "beta",
-                "license": "Apache 2.0",
-                "releasedBy": "stanleycheung",
-                "releaseDate": "2018-05-04T18:37:10+00:00",
-                "releaseNotes": "- Persistent channel and tests related fixes: #14991, #15061, #15082, #15171\n- gRPC C Core 1.12 uptake",
-                "get": "http://pecl.php.net/get/grpc-1.12.0RC1",
                 "SPDX-License-Identifier": "Apache-2.0"
             },
             "1.11.0": {
@@ -44213,12 +44233,22 @@
         "category": "PHP",
         "deprecated": false,
         "description": "Xdebug and provides a range of features to improve the PHP development\nexperience.\n\nStep Debugging\n    A way to step through your code in your IDE or editor while the script is\n    executing.\n\nImprovements to PHP's error reporting\n    An improved var_dump() function, stack traces for Notices, Warnings, Errors\n    and Exceptions to highlight the code path to the error\n\nTracing\n    Writes every function call, with arguments and invocation location to disk.\n    Optionally also includes every variable assignment and return value for\n    each function.\n\nProfiling\n    Allows you, with the help of visualisation tools, to analyse the\n    performance of your PHP application and find bottlenecks.\n\nCode Coverage Analysis\n    To show which parts of your code base are executed when running unit tests\n    with PHP Unit.",
-        "latestReleaseDate": "2023-07-14T09:36:28+00:00",
-        "latestVersion": "3.2.2",
-        "license": "BSD style",
+        "latestReleaseDate": "2023-09-06T13:09:06+00:00",
+        "latestVersion": "3.3.0alpha2",
+        "license": "Xdebug-1.03",
         "name": "xdebug",
         "php8Mentioned": true,
         "releases": {
+            "3.3.0alpha2": {
+                "version": "3.3.0alpha2",
+                "state": "beta",
+                "license": "Xdebug-1.03",
+                "releasedBy": "derick",
+                "releaseDate": "2023-09-06T13:09:06+00:00",
+                "releaseNotes": "Wed, Sep 06, 2023 - Xdebug 3.3.0alpha2\n\n= Fixed bugs:\n\n  - Fixed issue #2200: PECL package file has wrong max PHP version number, and peclweb refuses the package",
+                "get": "https://pecl.php.net/get/xdebug-3.3.0alpha2",
+                "SPDX-License-Identifier": null
+            },
             "3.2.2": {
                 "version": "3.2.2",
                 "state": "stable",
@@ -44259,16 +44289,6 @@
                 "get": "https://pecl.php.net/get/xdebug-3.2.0RC2",
                 "SPDX-License-Identifier": "Xdebug"
             },
-            "3.1.6": {
-                "version": "3.1.6",
-                "state": "stable",
-                "license": "BSD style",
-                "releasedBy": "derick",
-                "releaseDate": "2022-11-08T13:48:16+00:00",
-                "releaseNotes": "Tue, Nov 08, 2022 - Xdebug 3.1.6\n\n= Fixed bugs:\n\n  - Fixed issue #2100: \"Fatal error: debuginfo() must return an array\" when Exception is thrown from debugInfo in PHP 8.x\n  - Fixed issue #2101: When a temporary breakpoint is hit, breakpoint_list should show it as disabled\n  - Fixed issue #2129: Cannot read snapshot Gzip-compressed data is corrupt",
-                "get": "https://pecl.php.net/get/xdebug-3.1.6",
-                "SPDX-License-Identifier": "Xdebug"
-            },
             "3.2.0RC1": {
                 "version": "3.2.0RC1",
                 "state": "beta",
@@ -44307,6 +44327,16 @@
                 "releaseDate": "2022-07-20T16:33:18+00:00",
                 "releaseNotes": "Wed, Jul 20, 2022 - Xdebug 3.2.0alpha1\n\n+ New features:\n\n  - Fixed issue #1819: Allow a list of headers in 'xdebug.client_discovery_header'\n  - Fixed issue #2079: Add pseudo hosts xdebug://gateway and xdebug://nameserver\n  - Fixed issue #2087: Introduce step for the return state and virtual property for return value\n  - Fixed issue #2104: Add support for PHP 8.2 \"SensitiveParameter\" attribute\n\n+ Improvements:\n  \n  - Fixed issue #2086: Include return value in return breakpoint interruption response\n\n- Removed features:\n  \n  - Fixed issue #2014: Drop support for PHP 7.2\n  - Fixed issue #2102: Drop support for PHP 7.3\n  - Fixed issue #2103: Drop support for PHP 7.4\n\n= Fixed bugs:\n\n  - Fixed issue #2002: xdebug_trace_handler_t handler members are not always checked for NULL when executing\n  - Fixed issue #2045: Inapproriate frowny face\n  - Fixed issue #2062: Profiler can't able to write cachegrind file at /tmp\n  - Fixed issue #2089: Alpine Linux does not support res_ninit\n  - Fixed issue #2093: Fatal error: linux/rtnetlink.h: No such file or directory  linux/rtnetlink.h\n  - Fixed issue #2098: With breakpoint_include_return_value enabled step_out break at every function",
                 "get": "https://pecl.php.net/get/xdebug-3.2.0alpha1",
+                "SPDX-License-Identifier": "Xdebug"
+            },
+            "3.1.6": {
+                "version": "3.1.6",
+                "state": "stable",
+                "license": "BSD style",
+                "releasedBy": "derick",
+                "releaseDate": "2022-11-08T13:48:16+00:00",
+                "releaseNotes": "Tue, Nov 08, 2022 - Xdebug 3.1.6\n\n= Fixed bugs:\n\n  - Fixed issue #2100: \"Fatal error: debuginfo() must return an array\" when Exception is thrown from debugInfo in PHP 8.x\n  - Fixed issue #2101: When a temporary breakpoint is hit, breakpoint_list should show it as disabled\n  - Fixed issue #2129: Cannot read snapshot Gzip-compressed data is corrupt",
+                "get": "https://pecl.php.net/get/xdebug-3.1.6",
                 "SPDX-License-Identifier": "Xdebug"
             },
             "3.1.5": {
@@ -44659,16 +44689,6 @@
                 "get": "http://pecl.php.net/get/xdebug-2.7.0beta1",
                 "SPDX-License-Identifier": "Xdebug"
             },
-            "2.6.1": {
-                "version": "2.6.1",
-                "state": "stable",
-                "license": "BSD style",
-                "releasedBy": "derick",
-                "releaseDate": "2018-08-01T22:47:17+00:00",
-                "releaseNotes": "Wed, Aug  1, 2018 - xdebug 2.6.1\n\n= Fixed bugs:\n\n  - Fixed issue #1525: Namespace filter does equality match instead of prefix match\n  - Fixed issue #1532: SIGABRT when using remote debugging and an error is thrown in eval() (Philip Hofstetter)\n  - Fixed issue #1543: Various memory leaks due to changes in (internal) string handling\n  - Fixed issue #1556: Crash when register_shutdown_function() is called with a function named call_user_func*\n  - Fixed issue #1557: Remove 'return' in void xdebug_build_fname\n  - Fixed issue #1568: Can't debug object properties that have numeric keys\n\n+ Improvements:\n\n  - Fixed issue #1487: Re-enable IPv6 test on Travis",
-                "get": "http://pecl.php.net/get/xdebug-2.6.1",
-                "SPDX-License-Identifier": "Xdebug"
-            },
             "2.7.0alpha1": {
                 "version": "2.7.0alpha1",
                 "state": "beta",
@@ -44677,6 +44697,16 @@
                 "releaseDate": "2018-04-03T09:43:09+00:00",
                 "releaseNotes": "Sun, Apr  1, 2018 - xdebug 2.7.0alpha1\n\n= Improvements:\n\n  - Fixed issue #938: Support remote debugging for PHP scripts that fork. (Sponsored by Brad Wilson)\n  - Fixed issue #1487: Re-enable IPv6 test on Travis.\n\n= Fixed bugs:\n\n  - Fixed issue #1526: Namespace filter does equality match instead of prefix match.\n  - Fixed issue #1532: SIGABRT when using remote debugging and an error is thrown in eval().\n  - Fixed issue #1543: Various memory leaks due to changes in (internal) string handling.",
                 "get": "http://pecl.php.net/get/xdebug-2.7.0alpha1",
+                "SPDX-License-Identifier": "Xdebug"
+            },
+            "2.6.1": {
+                "version": "2.6.1",
+                "state": "stable",
+                "license": "BSD style",
+                "releasedBy": "derick",
+                "releaseDate": "2018-08-01T22:47:17+00:00",
+                "releaseNotes": "Wed, Aug  1, 2018 - xdebug 2.6.1\n\n= Fixed bugs:\n\n  - Fixed issue #1525: Namespace filter does equality match instead of prefix match\n  - Fixed issue #1532: SIGABRT when using remote debugging and an error is thrown in eval() (Philip Hofstetter)\n  - Fixed issue #1543: Various memory leaks due to changes in (internal) string handling\n  - Fixed issue #1556: Crash when register_shutdown_function() is called with a function named call_user_func*\n  - Fixed issue #1557: Remove 'return' in void xdebug_build_fname\n  - Fixed issue #1568: Can't debug object properties that have numeric keys\n\n+ Improvements:\n\n  - Fixed issue #1487: Re-enable IPv6 test on Travis",
+                "get": "http://pecl.php.net/get/xdebug-2.6.1",
                 "SPDX-License-Identifier": "Xdebug"
             },
             "2.6.0": {
@@ -45321,7 +45351,7 @@
             }
         },
         "summary": "Xdebug is a debugging and productivity extension for PHP",
-        "SPDX-License-Identifier": "Xdebug"
+        "SPDX-License-Identifier": null
     },
     "xdiff": {
         "category": "Text",

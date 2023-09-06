@@ -1,4 +1,8 @@
 {
+    "3.3.0alpha2": {
+        "version": "3.3.0alpha2",
+        "state": "beta"
+    },
     "3.2.2": {
         "version": "3.2.2",
         "state": "stable"
@@ -15,10 +19,6 @@
         "version": "3.2.0RC2",
         "state": "beta"
     },
-    "3.1.6": {
-        "version": "3.1.6",
-        "state": "stable"
-    },
     "3.2.0RC1": {
         "version": "3.2.0RC1",
         "state": "beta"
@@ -34,6 +34,10 @@
     "3.2.0alpha1": {
         "version": "3.2.0alpha1",
         "state": "beta"
+    },
+    "3.1.6": {
+        "version": "3.1.6",
+        "state": "stable"
     },
     "3.1.5": {
         "version": "3.1.5",
@@ -175,13 +179,13 @@
         "version": "2.7.0beta1",
         "state": "beta"
     },
-    "2.6.1": {
-        "version": "2.6.1",
-        "state": "stable"
-    },
     "2.7.0alpha1": {
         "version": "2.7.0alpha1",
         "state": "beta"
+    },
+    "2.6.1": {
+        "version": "2.6.1",
+        "state": "stable"
     },
     "2.6.0": {
         "version": "2.6.0",
