@@ -2,12 +2,22 @@
     "category": "PHP",
     "deprecated": false,
     "description": "Xdebug and provides a range of features to improve the PHP development\nexperience.\n\nStep Debugging\n    A way to step through your code in your IDE or editor while the script is\n    executing.\n\nImprovements to PHP's error reporting\n    An improved var_dump() function, stack traces for Notices, Warnings, Errors\n    and Exceptions to highlight the code path to the error\n\nTracing\n    Writes every function call, with arguments and invocation location to disk.\n    Optionally also includes every variable assignment and return value for\n    each function.\n\nProfiling\n    Allows you, with the help of visualisation tools, to analyse the\n    performance of your PHP application and find bottlenecks.\n\nCode Coverage Analysis\n    To show which parts of your code base are executed when running unit tests\n    with PHP Unit.",
-    "latestReleaseDate": "2023-07-14T09:36:28+00:00",
-    "latestVersion": "3.2.2",
-    "license": "BSD style",
+    "latestReleaseDate": "2023-09-06T13:09:06+00:00",
+    "latestVersion": "3.3.0alpha2",
+    "license": "Xdebug-1.03",
     "name": "xdebug",
     "php8Mentioned": true,
     "releases": {
+        "3.3.0alpha2": {
+            "version": "3.3.0alpha2",
+            "state": "beta",
+            "license": "Xdebug-1.03",
+            "releasedBy": "derick",
+            "releaseDate": "2023-09-06T13:09:06+00:00",
+            "releaseNotes": "Wed, Sep 06, 2023 - Xdebug 3.3.0alpha2\n\n= Fixed bugs:\n\n  - Fixed issue #2200: PECL package file has wrong max PHP version number, and peclweb refuses the package",
+            "get": "https://pecl.php.net/get/xdebug-3.3.0alpha2",
+            "SPDX-License-Identifier": null
+        },
         "3.2.2": {
             "version": "3.2.2",
             "state": "stable",
@@ -48,16 +58,6 @@
             "get": "https://pecl.php.net/get/xdebug-3.2.0RC2",
             "SPDX-License-Identifier": "Xdebug"
         },
-        "3.1.6": {
-            "version": "3.1.6",
-            "state": "stable",
-            "license": "BSD style",
-            "releasedBy": "derick",
-            "releaseDate": "2022-11-08T13:48:16+00:00",
-            "releaseNotes": "Tue, Nov 08, 2022 - Xdebug 3.1.6\n\n= Fixed bugs:\n\n  - Fixed issue #2100: \"Fatal error: debuginfo() must return an array\" when Exception is thrown from debugInfo in PHP 8.x\n  - Fixed issue #2101: When a temporary breakpoint is hit, breakpoint_list should show it as disabled\n  - Fixed issue #2129: Cannot read snapshot Gzip-compressed data is corrupt",
-            "get": "https://pecl.php.net/get/xdebug-3.1.6",
-            "SPDX-License-Identifier": "Xdebug"
-        },
         "3.2.0RC1": {
             "version": "3.2.0RC1",
             "state": "beta",
@@ -96,6 +96,16 @@
             "releaseDate": "2022-07-20T16:33:18+00:00",
             "releaseNotes": "Wed, Jul 20, 2022 - Xdebug 3.2.0alpha1\n\n+ New features:\n\n  - Fixed issue #1819: Allow a list of headers in 'xdebug.client_discovery_header'\n  - Fixed issue #2079: Add pseudo hosts xdebug://gateway and xdebug://nameserver\n  - Fixed issue #2087: Introduce step for the return state and virtual property for return value\n  - Fixed issue #2104: Add support for PHP 8.2 \"SensitiveParameter\" attribute\n\n+ Improvements:\n  \n  - Fixed issue #2086: Include return value in return breakpoint interruption response\n\n- Removed features:\n  \n  - Fixed issue #2014: Drop support for PHP 7.2\n  - Fixed issue #2102: Drop support for PHP 7.3\n  - Fixed issue #2103: Drop support for PHP 7.4\n\n= Fixed bugs:\n\n  - Fixed issue #2002: xdebug_trace_handler_t handler members are not always checked for NULL when executing\n  - Fixed issue #2045: Inapproriate frowny face\n  - Fixed issue #2062: Profiler can't able to write cachegrind file at /tmp\n  - Fixed issue #2089: Alpine Linux does not support res_ninit\n  - Fixed issue #2093: Fatal error: linux/rtnetlink.h: No such file or directory  linux/rtnetlink.h\n  - Fixed issue #2098: With breakpoint_include_return_value enabled step_out break at every function",
             "get": "https://pecl.php.net/get/xdebug-3.2.0alpha1",
+            "SPDX-License-Identifier": "Xdebug"
+        },
+        "3.1.6": {
+            "version": "3.1.6",
+            "state": "stable",
+            "license": "BSD style",
+            "releasedBy": "derick",
+            "releaseDate": "2022-11-08T13:48:16+00:00",
+            "releaseNotes": "Tue, Nov 08, 2022 - Xdebug 3.1.6\n\n= Fixed bugs:\n\n  - Fixed issue #2100: \"Fatal error: debuginfo() must return an array\" when Exception is thrown from debugInfo in PHP 8.x\n  - Fixed issue #2101: When a temporary breakpoint is hit, breakpoint_list should show it as disabled\n  - Fixed issue #2129: Cannot read snapshot Gzip-compressed data is corrupt",
+            "get": "https://pecl.php.net/get/xdebug-3.1.6",
             "SPDX-License-Identifier": "Xdebug"
         },
         "3.1.5": {
@@ -448,16 +458,6 @@
             "get": "http://pecl.php.net/get/xdebug-2.7.0beta1",
             "SPDX-License-Identifier": "Xdebug"
         },
-        "2.6.1": {
-            "version": "2.6.1",
-            "state": "stable",
-            "license": "BSD style",
-            "releasedBy": "derick",
-            "releaseDate": "2018-08-01T22:47:17+00:00",
-            "releaseNotes": "Wed, Aug  1, 2018 - xdebug 2.6.1\n\n= Fixed bugs:\n\n  - Fixed issue #1525: Namespace filter does equality match instead of prefix match\n  - Fixed issue #1532: SIGABRT when using remote debugging and an error is thrown in eval() (Philip Hofstetter)\n  - Fixed issue #1543: Various memory leaks due to changes in (internal) string handling\n  - Fixed issue #1556: Crash when register_shutdown_function() is called with a function named call_user_func*\n  - Fixed issue #1557: Remove 'return' in void xdebug_build_fname\n  - Fixed issue #1568: Can't debug object properties that have numeric keys\n\n+ Improvements:\n\n  - Fixed issue #1487: Re-enable IPv6 test on Travis",
-            "get": "http://pecl.php.net/get/xdebug-2.6.1",
-            "SPDX-License-Identifier": "Xdebug"
-        },
         "2.7.0alpha1": {
             "version": "2.7.0alpha1",
             "state": "beta",
@@ -466,6 +466,16 @@
             "releaseDate": "2018-04-03T09:43:09+00:00",
             "releaseNotes": "Sun, Apr  1, 2018 - xdebug 2.7.0alpha1\n\n= Improvements:\n\n  - Fixed issue #938: Support remote debugging for PHP scripts that fork. (Sponsored by Brad Wilson)\n  - Fixed issue #1487: Re-enable IPv6 test on Travis.\n\n= Fixed bugs:\n\n  - Fixed issue #1526: Namespace filter does equality match instead of prefix match.\n  - Fixed issue #1532: SIGABRT when using remote debugging and an error is thrown in eval().\n  - Fixed issue #1543: Various memory leaks due to changes in (internal) string handling.",
             "get": "http://pecl.php.net/get/xdebug-2.7.0alpha1",
+            "SPDX-License-Identifier": "Xdebug"
+        },
+        "2.6.1": {
+            "version": "2.6.1",
+            "state": "stable",
+            "license": "BSD style",
+            "releasedBy": "derick",
+            "releaseDate": "2018-08-01T22:47:17+00:00",
+            "releaseNotes": "Wed, Aug  1, 2018 - xdebug 2.6.1\n\n= Fixed bugs:\n\n  - Fixed issue #1525: Namespace filter does equality match instead of prefix match\n  - Fixed issue #1532: SIGABRT when using remote debugging and an error is thrown in eval() (Philip Hofstetter)\n  - Fixed issue #1543: Various memory leaks due to changes in (internal) string handling\n  - Fixed issue #1556: Crash when register_shutdown_function() is called with a function named call_user_func*\n  - Fixed issue #1557: Remove 'return' in void xdebug_build_fname\n  - Fixed issue #1568: Can't debug object properties that have numeric keys\n\n+ Improvements:\n\n  - Fixed issue #1487: Re-enable IPv6 test on Travis",
+            "get": "http://pecl.php.net/get/xdebug-2.6.1",
             "SPDX-License-Identifier": "Xdebug"
         },
         "2.6.0": {
@@ -1110,5 +1120,5 @@
         }
     },
     "summary": "Xdebug is a debugging and productivity extension for PHP",
-    "SPDX-License-Identifier": "Xdebug"
+    "SPDX-License-Identifier": null
 }
