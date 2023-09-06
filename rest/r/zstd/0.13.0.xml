@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/zstd">zstd</p>
+ <c>pecl.php.net</c>
+ <v>0.13.0</v>
+ <st>stable</st>
+ <l>MIT</l>
+ <m>kjdev</m>
+ <s>Zstandard extension</s>
+ <d>PHP extension for compression and decompression with Zstandard library.</d>
+ <da>2023-09-05 21:55:46</da>
+ <n>- enable append mode of stream compression</n>
+ <f>452434</f>
+ <g>https://pecl.php.net/get/zstd-0.13.0</g>
+ <x xlink:href="package.0.13.0.xml"/>
+</r>
