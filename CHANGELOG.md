@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.194.0](https://github.com/claylo/pecl-info/compare/v1.193.0...v1.194.0) (2023-09-06)
+
+
+### Added
+
+* add gRPC 1.58.0, datadog_trace 0.91.0, xdebug 3.3.0alpha2 releases ([c8432b1](https://github.com/claylo/pecl-info/commit/c8432b1852f9200391039268894ba207d402b1c9))
+
 ## [1.193.0](https://github.com/claylo/pecl-info/compare/v1.192.0...v1.193.0) (2023-09-06)
 
 
