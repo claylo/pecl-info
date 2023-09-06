@@ -949,7 +949,7 @@ PHP extension for compression and decompression with Zstandard library.
 ```
 <p><ul>
 <li>License: MIT</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/zstd-0.12.3">0.12.3</a> on 29 Apr 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/zstd-0.13.0">0.13.0</a> on 05 Sep 2023</li>
 <li>Release data in JSON: <a href="data/packages/zstd.json">zstd.json</a></li>
 <li><a href="https://pecl.php.net/packages/zstd">zstd on PECL</a></li>
 <li><a href="https://github.com/kjdev/">:house: Home</a> &nbsp; <a href="https://github.com/kjdev/php-ext-zstd">:sparkles: Source</a> &nbsp; <a href="https://github.com/kjdev/php-ext-zstd/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1045&rid=&cid=33">:bar_chart: Stats</a></li>
