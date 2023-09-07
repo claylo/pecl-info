@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/amqp">amqp</p>
+ <c>pecl.php.net</c>
+ <v>2.1.0</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>lstrojny</m>
+ <s>Communicate with any AMQP compliant server</s>
+ <d>This extension can communicate with any AMQP spec 0-9-1 compatible server, such as RabbitMQ, OpenAMQP and Qpid, giving you the ability to create and delete exchanges and queues, as well as publish to any exchange and consume from any queue.</d>
+ <da>2023-09-07 06:52:25</da>
+ <n>- AMQPValue interface for custom value objects (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/473)
+ - Implement AMQPQueue::recover() to provide the basic.recover method (fixes #478) (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/484)
+ - Fix double free when an error occurs in AMQPQueue::consume() (Jan Prachar &lt;jan.prachar@gmail.com&gt;) (https://github.com/php-amqp/php-amqp/issues/482)
+ - Revamp error handling (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/485)
+ - Refactor AMQPQueue::consume error handling (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/483)
+ - Use RETURN_THROWS for parameter parsing errors (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/474)
+ - Fix auto-formatting (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/commit/877b2f4)
+ - Remove appveyor badge (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/commit/4971c80)
+ - Replace microtime() as a randomness source (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/commit/4503e53)
+ - Fix version test for release builds (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/commit/00a6715)
+ - Remove non-ASCII characters from package.xml to work around pecl.php.net issue (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/commit/732f7e8)
+ - Bump actions/checkout from 3.5.3 to 3.6.0 (dependabot[bot]) (https://github.com/php-amqp/php-amqp/issues/475)
+ - Bump symplify/easy-coding-standard from 12.0.6 to 12.0.7 (dependabot[bot]) (https://github.com/php-amqp/php-amqp/issues/472)
+ - Bump actions/checkout from 3.5.3 to 3.6.0 (dependabot[bot]) (https://github.com/php-amqp/php-amqp/issues/471)
+ - Bump actions/checkout from 3.6.0 to 4.0.0 (dependabot[bot]) (https://github.com/php-amqp/php-amqp/issues/481)
+
+For a complete list of changes see:
+https://github.com/php-amqp/php-amqp/compare/v2.0.0...v2.1.0</n>
+ <f>117223</f>
+ <g>https://pecl.php.net/get/amqp-2.1.0</g>
+ <x xlink:href="package.2.1.0.xml"/>
+</r>
