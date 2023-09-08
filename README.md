@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (140)
+## Relevant Extensions (139)
 
 ### Authentication (2)
 
@@ -479,7 +479,7 @@ The Microsoft Drivers for PHP for SQL Server are PHP extensions that allow for t
 ```
 <p><ul>
 <li>License: MIT</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/pdo_sqlsrv-5.11.0">5.11.0</a> on 07 Mar 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/pdo_sqlsrv-5.11.1">5.11.1</a> on 07 Sep 2023</li>
 <li>Release data in JSON: <a href="data/packages/pdo_sqlsrv.json">pdo_sqlsrv.json</a></li>
 <li><a href="https://pecl.php.net/packages/pdo_sqlsrv">pdo_sqlsrv on PECL</a></li>
 <li><a href="https://github.com/Microsoft/msphpsql">:house: Home</a> &nbsp; <a href="https://github.com/Microsoft/msphpsql">:sparkles: Source</a> &nbsp; <a href="https://github.com/Microsoft/msphpsql/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=901&rid=&cid=7">:bar_chart: Stats</a></li>
@@ -563,7 +563,7 @@ The Microsoft Drivers for PHP for SQL Server are PHP extensions that allow for t
 ```
 <p><ul>
 <li>License: MIT</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/sqlsrv-5.11.0">5.11.0</a> on 07 Mar 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/sqlsrv-5.11.1">5.11.1</a> on 07 Sep 2023</li>
 <li>Release data in JSON: <a href="data/packages/sqlsrv.json">sqlsrv.json</a></li>
 <li><a href="https://pecl.php.net/packages/sqlsrv">sqlsrv on PECL</a></li>
 <li><a href="https://msdn.microsoft.com/en-us/library/cc296152(v=sql.105).aspx">:book: Documentation</a> &nbsp; <a href="https://github.com/Microsoft/msphpsql">:house: Home</a> &nbsp; <a href="https://github.com/Microsoft/msphpsql">:sparkles: Source</a> &nbsp; <a href="https://github.com/Microsoft/msphpsql/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=900&rid=&cid=7">:bar_chart: Stats</a></li>
@@ -2175,7 +2175,7 @@ This extension creates and applies patches to both text and binary files.
 </details>
 
 ***
-### Tools and Utilities (15)
+### Tools and Utilities (14)
 
 <details><summary>awscrt</summary>
 <p>AWS Common Runtime PHP bindings</p>
@@ -2293,20 +2293,6 @@ Linux/UNIX and Windows are supported.
 <li>Release data in JSON: <a href="data/packages/pcsc.json">pcsc.json</a></li>
 <li><a href="https://pecl.php.net/packages/pcsc">pcsc on PECL</a></li>
 <li><a href="https://github.com/pcsc-for-php/pcsc">:house: Home</a> &nbsp; <a href="https://github.com/pcsc-for-php/pcsc">:sparkles: Source</a> &nbsp; <a href="https://github.com/pcsc-for-php/pcsc/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=916&rid=&cid=29">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>protobuf</summary>
-<p>Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data.</p>
-
-```
-https://developers.google.com/protocol-buffers/
-```
-<p><ul>
-<li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/protobuf-3.24.2">3.24.2</a> on 25 Aug 2023</li>
-<li>Release data in JSON: <a href="data/packages/protobuf.json">protobuf.json</a></li>
-<li><a href="https://pecl.php.net/packages/protobuf">protobuf on PECL</a></li>
-<li><a href="https://github.com/google/protobuf">:sparkles: Source</a> &nbsp; <a href="https://github.com/protocolbuffers/protobuf/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=997&rid=&cid=29">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>SeasSnowflake</summary>
