@@ -2,12 +2,42 @@
     "category": "Tools and Utilities",
     "deprecated": false,
     "description": "https://developers.google.com/protocol-buffers/",
-    "latestReleaseDate": "2023-08-25T21:27:26+00:00",
-    "latestVersion": "3.24.2",
+    "latestReleaseDate": "2020-07-21T06:01:13+00:00",
+    "latestVersion": "4.0.0RC2",
     "license": "BSD-3-Clause",
     "name": "protobuf",
     "php8Mentioned": false,
     "releases": {
+        "4.0.0RC2": {
+            "version": "4.0.0RC2",
+            "state": "beta",
+            "license": "3-Clause BSD License",
+            "releasedBy": "stanleycheung",
+            "releaseDate": "2020-07-21T06:01:13+00:00",
+            "releaseNotes": "GA release.",
+            "get": "https://pecl.php.net/get/protobuf-4.0.0RC2",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "4.0.0RC1": {
+            "version": "4.0.0RC1",
+            "state": "beta",
+            "license": "3-Clause BSD License",
+            "releasedBy": "stanleycheung",
+            "releaseDate": "2020-07-15T17:42:54+00:00",
+            "releaseNotes": "GA release.",
+            "get": "https://pecl.php.net/get/protobuf-4.0.0RC1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "3.24.3": {
+            "version": "3.24.3",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "protobufpackages",
+            "releaseDate": "2023-09-07T19:56:16+00:00",
+            "releaseNotes": "* See github.com/protocolbuffers/protobuf/releases/tag/v24.3 for release notes.",
+            "get": "https://pecl.php.net/get/protobuf-3.24.3",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "3.24.2": {
             "version": "3.24.2",
             "state": "stable",
@@ -108,16 +138,6 @@
             "get": "https://pecl.php.net/get/protobuf-3.23.1",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
-        "3.22.5": {
-            "version": "3.22.5",
-            "state": "stable",
-            "license": "BSD-3-Clause",
-            "releasedBy": "protobufpackages",
-            "releaseDate": "2023-05-10T03:59:32+00:00",
-            "releaseNotes": "* See github.com/protocolbuffers/protobuf/releases/tag/v22.5 for release notes.",
-            "get": "https://pecl.php.net/get/protobuf-3.22.5",
-            "SPDX-License-Identifier": "BSD-3-Clause"
-        },
         "3.23.0": {
             "version": "3.23.0",
             "state": "stable",
@@ -138,16 +158,6 @@
             "get": "https://pecl.php.net/get/protobuf-3.23.0RC3",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
-        "3.22.4": {
-            "version": "3.22.4",
-            "state": "stable",
-            "license": "BSD-3-Clause",
-            "releasedBy": "protobufpackages",
-            "releaseDate": "2023-05-04T20:22:50+00:00",
-            "releaseNotes": "* See github.com/protocolbuffers/protobuf/releases/tag/v22.4 for release notes.",
-            "get": "https://pecl.php.net/get/protobuf-3.22.4",
-            "SPDX-License-Identifier": "BSD-3-Clause"
-        },
         "3.23.0RC2": {
             "version": "3.23.0RC2",
             "state": "beta",
@@ -156,6 +166,26 @@
             "releaseDate": "2023-04-28T19:11:16+00:00",
             "releaseNotes": "* See github.com/protocolbuffers/protobuf/releases/tag/v23.0-rc-2 for release notes.",
             "get": "https://pecl.php.net/get/protobuf-3.23.0RC2",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "3.22.5": {
+            "version": "3.22.5",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "protobufpackages",
+            "releaseDate": "2023-05-10T03:59:32+00:00",
+            "releaseNotes": "* See github.com/protocolbuffers/protobuf/releases/tag/v22.5 for release notes.",
+            "get": "https://pecl.php.net/get/protobuf-3.22.5",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "3.22.4": {
+            "version": "3.22.4",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "protobufpackages",
+            "releaseDate": "2023-05-04T20:22:50+00:00",
+            "releaseNotes": "* See github.com/protocolbuffers/protobuf/releases/tag/v22.4 for release notes.",
+            "get": "https://pecl.php.net/get/protobuf-3.22.4",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "3.22.3": {
@@ -278,46 +308,6 @@
             "get": "https://pecl.php.net/get/protobuf-3.21.7",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
-        "3.20.3": {
-            "version": "3.20.3",
-            "state": "stable",
-            "license": "BSD-3-Clause",
-            "releasedBy": "protobufpackages",
-            "releaseDate": "2022-09-29T21:30:52+00:00",
-            "releaseNotes": "* See github.com/protocolbuffers/protobuf/releases for release notes.",
-            "get": "https://pecl.php.net/get/protobuf-3.20.3",
-            "SPDX-License-Identifier": "BSD-3-Clause"
-        },
-        "3.19.6": {
-            "version": "3.19.6",
-            "state": "stable",
-            "license": "3-Clause BSD License",
-            "releasedBy": "protobufpackages",
-            "releaseDate": "2022-09-29T20:52:09+00:00",
-            "releaseNotes": "* Fixed a data loss bug that could occur when the number of optional fields in a message is an exact multiple of 32. (#9440).",
-            "get": "https://pecl.php.net/get/protobuf-3.19.6",
-            "SPDX-License-Identifier": "BSD-3-Clause"
-        },
-        "3.18.3": {
-            "version": "3.18.3",
-            "state": "stable",
-            "license": "3-Clause BSD License",
-            "releasedBy": "protobufpackages",
-            "releaseDate": "2022-09-14T21:28:39+00:00",
-            "releaseNotes": "* No new changes in 3.18.2",
-            "get": "https://pecl.php.net/get/protobuf-3.18.3",
-            "SPDX-License-Identifier": "BSD-3-Clause"
-        },
-        "3.19.5": {
-            "version": "3.19.5",
-            "state": "stable",
-            "license": "3-Clause BSD License",
-            "releasedBy": "protobufpackages",
-            "releaseDate": "2022-09-14T21:01:28+00:00",
-            "releaseNotes": "* Fixed a data loss bug that could occur when the number of optional fields in a message is an exact multiple of 32. (#9440).",
-            "get": "https://pecl.php.net/get/protobuf-3.19.5",
-            "SPDX-License-Identifier": "BSD-3-Clause"
-        },
         "3.21.6": {
             "version": "3.21.6",
             "state": "stable",
@@ -326,16 +316,6 @@
             "releaseDate": "2022-09-13T23:53:24+00:00",
             "releaseNotes": "* See github.com/protocolbuffers/protobuf/releases for release notes.",
             "get": "https://pecl.php.net/get/protobuf-3.21.6",
-            "SPDX-License-Identifier": "BSD-3-Clause"
-        },
-        "3.20.2": {
-            "version": "3.20.2",
-            "state": "stable",
-            "license": "BSD-3-Clause",
-            "releasedBy": "protobufpackages",
-            "releaseDate": "2022-09-13T23:16:57+00:00",
-            "releaseNotes": "* See github.com/protocolbuffers/protobuf/releases for release notes.",
-            "get": "https://pecl.php.net/get/protobuf-3.20.2",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "3.21.5": {
@@ -418,6 +398,26 @@
             "get": "https://pecl.php.net/get/protobuf-3.21.0RC1",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
+        "3.20.3": {
+            "version": "3.20.3",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "protobufpackages",
+            "releaseDate": "2022-09-29T21:30:52+00:00",
+            "releaseNotes": "* See github.com/protocolbuffers/protobuf/releases for release notes.",
+            "get": "https://pecl.php.net/get/protobuf-3.20.3",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "3.20.2": {
+            "version": "3.20.2",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "protobufpackages",
+            "releaseDate": "2022-09-13T23:16:57+00:00",
+            "releaseNotes": "* See github.com/protocolbuffers/protobuf/releases for release notes.",
+            "get": "https://pecl.php.net/get/protobuf-3.20.2",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "3.20.1": {
             "version": "3.20.1",
             "state": "stable",
@@ -468,6 +468,26 @@
             "get": "https://pecl.php.net/get/protobuf-3.20.0RC1",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
+        "3.19.6": {
+            "version": "3.19.6",
+            "state": "stable",
+            "license": "3-Clause BSD License",
+            "releasedBy": "protobufpackages",
+            "releaseDate": "2022-09-29T20:52:09+00:00",
+            "releaseNotes": "* Fixed a data loss bug that could occur when the number of optional fields in a message is an exact multiple of 32. (#9440).",
+            "get": "https://pecl.php.net/get/protobuf-3.19.6",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "3.19.5": {
+            "version": "3.19.5",
+            "state": "stable",
+            "license": "3-Clause BSD License",
+            "releasedBy": "protobufpackages",
+            "releaseDate": "2022-09-14T21:01:28+00:00",
+            "releaseNotes": "* Fixed a data loss bug that could occur when the number of optional fields in a message is an exact multiple of 32. (#9440).",
+            "get": "https://pecl.php.net/get/protobuf-3.19.5",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "3.19.4": {
             "version": "3.19.4",
             "state": "stable",
@@ -496,16 +516,6 @@
             "releaseDate": "2022-01-05T23:42:20+00:00",
             "releaseNotes": "* No new changes in 3.19.2",
             "get": "https://pecl.php.net/get/protobuf-3.19.2",
-            "SPDX-License-Identifier": "BSD-3-Clause"
-        },
-        "3.18.2": {
-            "version": "3.18.2",
-            "state": "stable",
-            "license": "3-Clause BSD License",
-            "releasedBy": "stanleycheung",
-            "releaseDate": "2022-01-05T23:09:00+00:00",
-            "releaseNotes": "* No new changes in 3.18.2",
-            "get": "https://pecl.php.net/get/protobuf-3.18.2",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "3.19.1": {
@@ -546,6 +556,26 @@
             "releaseDate": "2021-10-16T21:07:55+00:00",
             "releaseNotes": "* Added \"object\" as a reserved name (#8962)",
             "get": "https://pecl.php.net/get/protobuf-3.19.0RC1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "3.18.3": {
+            "version": "3.18.3",
+            "state": "stable",
+            "license": "3-Clause BSD License",
+            "releasedBy": "protobufpackages",
+            "releaseDate": "2022-09-14T21:28:39+00:00",
+            "releaseNotes": "* No new changes in 3.18.2",
+            "get": "https://pecl.php.net/get/protobuf-3.18.3",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "3.18.2": {
+            "version": "3.18.2",
+            "state": "stable",
+            "license": "3-Clause BSD License",
+            "releasedBy": "stanleycheung",
+            "releaseDate": "2022-01-05T23:09:00+00:00",
+            "releaseNotes": "* No new changes in 3.18.2",
+            "get": "https://pecl.php.net/get/protobuf-3.18.2",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "3.18.1": {
@@ -668,16 +698,6 @@
             "get": "https://pecl.php.net/get/protobuf-3.16.0RC2",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
-        "3.15.8": {
-            "version": "3.15.8",
-            "state": "stable",
-            "license": "3-Clause BSD License",
-            "releasedBy": "stanleycheung",
-            "releaseDate": "2021-04-08T17:20:19+00:00",
-            "releaseNotes": "No new changes in 3.15.8",
-            "get": "https://pecl.php.net/get/protobuf-3.15.8",
-            "SPDX-License-Identifier": "BSD-3-Clause"
-        },
         "3.16.0RC1": {
             "version": "3.16.0RC1",
             "state": "beta",
@@ -686,6 +706,16 @@
             "releaseDate": "2021-04-06T23:56:35+00:00",
             "releaseNotes": "No new changes in 3.15.7",
             "get": "https://pecl.php.net/get/protobuf-3.16.0RC1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "3.15.8": {
+            "version": "3.15.8",
+            "state": "stable",
+            "license": "3-Clause BSD License",
+            "releasedBy": "stanleycheung",
+            "releaseDate": "2021-04-08T17:20:19+00:00",
+            "releaseNotes": "No new changes in 3.15.8",
+            "get": "https://pecl.php.net/get/protobuf-3.15.8",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "3.15.7": {
@@ -868,16 +898,6 @@
             "get": "https://pecl.php.net/get/protobuf-3.12.4",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
-        "4.0.0RC2": {
-            "version": "4.0.0RC2",
-            "state": "beta",
-            "license": "3-Clause BSD License",
-            "releasedBy": "stanleycheung",
-            "releaseDate": "2020-07-21T06:01:13+00:00",
-            "releaseNotes": "GA release.",
-            "get": "https://pecl.php.net/get/protobuf-4.0.0RC2",
-            "SPDX-License-Identifier": "BSD-3-Clause"
-        },
         "3.12.3": {
             "version": "3.12.3",
             "state": "stable",
@@ -886,16 +906,6 @@
             "releaseDate": "2020-07-15T17:46:44+00:00",
             "releaseNotes": "GA release.",
             "get": "https://pecl.php.net/get/protobuf-3.12.3",
-            "SPDX-License-Identifier": "BSD-3-Clause"
-        },
-        "4.0.0RC1": {
-            "version": "4.0.0RC1",
-            "state": "beta",
-            "license": "3-Clause BSD License",
-            "releasedBy": "stanleycheung",
-            "releaseDate": "2020-07-15T17:42:54+00:00",
-            "releaseNotes": "GA release.",
-            "get": "https://pecl.php.net/get/protobuf-4.0.0RC1",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "3.12.2": {
@@ -1028,16 +1038,6 @@
             "get": "https://pecl.php.net/get/protobuf-3.10.0",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
-        "3.9.2": {
-            "version": "3.9.2",
-            "state": "stable",
-            "license": "3-Clause BSD License",
-            "releasedBy": "stanleycheung",
-            "releaseDate": "2019-09-23T17:56:32+00:00",
-            "releaseNotes": "GA release.",
-            "get": "https://pecl.php.net/get/protobuf-3.9.2",
-            "SPDX-License-Identifier": "BSD-3-Clause"
-        },
         "3.10.0RC1": {
             "version": "3.10.0RC1",
             "state": "beta",
@@ -1046,6 +1046,16 @@
             "releaseDate": "2019-09-05T20:20:50+00:00",
             "releaseNotes": "GA release.",
             "get": "https://pecl.php.net/get/protobuf-3.10.0RC1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "3.9.2": {
+            "version": "3.9.2",
+            "state": "stable",
+            "license": "3-Clause BSD License",
+            "releasedBy": "stanleycheung",
+            "releaseDate": "2019-09-23T17:56:32+00:00",
+            "releaseNotes": "GA release.",
+            "get": "https://pecl.php.net/get/protobuf-3.9.2",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "3.9.1": {

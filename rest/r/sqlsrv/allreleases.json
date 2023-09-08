@@ -1,4 +1,8 @@
 {
+    "5.11.1": {
+        "version": "5.11.1",
+        "state": "stable"
+    },
     "5.11.0": {
         "version": "5.11.0",
         "state": "stable"
@@ -23,6 +27,10 @@
         "version": "5.10.0beta1",
         "state": "beta"
     },
+    "5.9.0preview1": {
+        "version": "5.9.0preview1",
+        "state": "devel"
+    },
     "5.9.0": {
         "version": "5.9.0",
         "state": "stable"
@@ -30,10 +38,6 @@
     "5.9.0beta2": {
         "version": "5.9.0beta2",
         "state": "beta"
-    },
-    "5.9.0preview1": {
-        "version": "5.9.0preview1",
-        "state": "devel"
     },
     "5.8.1": {
         "version": "5.8.1",
