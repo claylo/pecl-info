@@ -6958,6 +6958,16 @@
                 "get": "https://pecl.php.net/get/eio-3.1.0RC1",
                 "SPDX-License-Identifier": "PHP-3.01"
             },
+            "3.0.1": {
+                "version": "3.0.1",
+                "state": "stable",
+                "license": "php",
+                "releasedBy": "osmanov",
+                "releaseDate": "2023-09-09T16:23:44+00:00",
+                "releaseNotes": "Fixed issue #19: Initialized new stack pointers introduced in PHP 8.3.0RC1+",
+                "get": "https://pecl.php.net/get/eio-3.0.1",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
             "3.0.0RC4": {
                 "version": "3.0.0RC4",
                 "state": "beta",
