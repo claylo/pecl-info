@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.200.0](https://github.com/claylo/pecl-info/compare/v1.199.0...v1.200.0) (2023-09-10)
+
+
+### Added
+
+* add eio 3.1.0 release ([5b25592](https://github.com/claylo/pecl-info/commit/5b25592082789028e7e7dd024ff1ae3eaf3b911c))
+
 ## [1.199.0](https://github.com/claylo/pecl-info/compare/v1.198.0...v1.199.0) (2023-09-09)
 
 
