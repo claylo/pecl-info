@@ -23016,12 +23016,22 @@
         "category": "PHP",
         "deprecated": false,
         "description": "https://github.com/open-telemetry/opentelemetry-php-instrumentation",
-        "latestReleaseDate": "2023-09-04T23:58:12+00:00",
-        "latestVersion": "1.0.0beta7",
+        "latestReleaseDate": "2023-09-12T07:19:28+00:00",
+        "latestVersion": "1.0.0RC1",
         "license": "Apache 2.0",
         "name": "opentelemetry",
         "php8Mentioned": false,
         "releases": {
+            "1.0.0RC1": {
+                "version": "1.0.0RC1",
+                "state": "beta",
+                "license": "Apache 2.0",
+                "releasedBy": "brettmc",
+                "releaseDate": "2023-09-12T07:19:28+00:00",
+                "releaseNotes": "opentelemetry 1.0.0RC1",
+                "get": "https://pecl.php.net/get/opentelemetry-1.0.0RC1",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "1.0.0beta7": {
                 "version": "1.0.0beta7",
                 "state": "beta",
