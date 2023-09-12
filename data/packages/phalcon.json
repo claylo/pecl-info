@@ -2,12 +2,22 @@
     "category": "System",
     "deprecated": false,
     "description": "Phalcon is an open source full stack framework for PHP, written as a C-extension. Phalcon is optimized for high\n    performance. Its unique architecture allows the framework to always be memory resident, offering its functionality\n    whenever its needed, without expensive file stats and file reads that traditional PHP frameworks employ.",
-    "latestReleaseDate": "2023-08-15T20:34:53+00:00",
-    "latestVersion": "5.3.0",
+    "latestReleaseDate": "2023-09-12T13:17:32+00:00",
+    "latestVersion": "5.3.1",
     "license": "BSD 3-Clause License",
     "name": "phalcon",
     "php8Mentioned": true,
     "releases": {
+        "5.3.1": {
+            "version": "5.3.1",
+            "state": "stable",
+            "license": "BSD 3-Clause License",
+            "releasedBy": "niden",
+            "releaseDate": "2023-09-12T13:17:32+00:00",
+            "releaseNotes": "Full changelog can be found at: https://github.com/phalcon/cphalcon/blob/master/CHANGELOG-5.0.md\n\n### Fixed\n- Fixed infinite save loop in `Phalcon\\Mvc\\Model::save()` [#16395](https://github.com/phalcon/cphalcon/issues/16395)\n- Fixed undefined column with columnMap and model caching [#16420](https://github.com/phalcon/cphalcon/issues/16420)\n- Fixed memory leak in `Phalcon\\Mvc\\Router::handle()` [#16431](https://github.com/phalcon/cphalcon/pull/16431)",
+            "get": "https://pecl.php.net/get/phalcon-5.3.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "5.3.0": {
             "version": "5.3.0",
             "state": "stable",
