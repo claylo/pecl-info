@@ -23197,12 +23197,22 @@
         "category": "Authentication",
         "deprecated": false,
         "description": "This extension provides PAM (Pluggable Authentication Modules) integration. PAM is a system of libraries that handle the authentication tasks of applications and services. The library provides a stable API for applications to defer to for authentication tasks.",
-        "latestReleaseDate": "2022-01-19T14:46:22+00:00",
-        "latestVersion": "2.2.4",
+        "latestReleaseDate": "2023-09-22T15:04:47+00:00",
+        "latestVersion": "2.2.5",
         "license": "PHP",
         "name": "PAM",
         "php8Mentioned": true,
         "releases": {
+            "2.2.5": {
+                "version": "2.2.5",
+                "state": "stable",
+                "license": "PHP",
+                "releasedBy": "anonamish",
+                "releaseDate": "2023-09-22T15:04:47+00:00",
+                "releaseNotes": "Remove PAM_DISALLOW_NULL_AUTHTOK from pam_chauthtok()",
+                "get": "https://pecl.php.net/get/pam-2.2.5",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
             "2.2.4": {
                 "version": "2.2.4",
                 "state": "stable",
