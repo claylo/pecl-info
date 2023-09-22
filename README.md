@@ -46,7 +46,7 @@ library provides a stable API for applications to defer to for authentication ta
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/PAM-2.2.4">2.2.4</a> on 19 Jan 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/PAM-2.2.5">2.2.5</a> on 22 Sep 2023</li>
 <li>Release data in JSON: <a href="data/packages/pam.json">pam.json</a></li>
 <li><a href="https://pecl.php.net/packages/PAM">PAM on PECL</a></li>
 <li><a href="https://github.com/amishmm/php-pam/blob/master/README">:book: Documentation</a> &nbsp; <a href="https://github.com/amishmm/php-pam/">:sparkles: Source</a> &nbsp; <a href="https://github.com/amishmm/php-pam/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=667&rid=&cid=1">:bar_chart: Stats</a></li>

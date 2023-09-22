@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.206.0](https://github.com/claylo/pecl-info/compare/v1.205.0...v1.206.0) (2023-09-22)
+
+
+### Added
+
+* add PAM 2.2.5 release ([54dd7f5](https://github.com/claylo/pecl-info/commit/54dd7f5593a705cc0d917f685cfc59fa731b841f))
+
 ## [1.205.0](https://github.com/claylo/pecl-info/compare/v1.204.0...v1.205.0) (2023-09-20)
 
 
