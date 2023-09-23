@@ -31355,12 +31355,22 @@
         "category": "Database",
         "deprecated": false,
         "description": "This extension provides an API for communicating with Redis servers.",
-        "latestReleaseDate": "2023-09-11T13:23:27+00:00",
-        "latestVersion": "6.0.0",
+        "latestReleaseDate": "2023-09-23T11:33:36+00:00",
+        "latestVersion": "6.0.1",
         "license": "PHP",
         "name": "redis",
         "php8Mentioned": true,
         "releases": {
+            "6.0.1": {
+                "version": "6.0.1",
+                "state": "stable",
+                "license": "PHP",
+                "releasedBy": "yatsukhnenko",
+                "releaseDate": "2023-09-23T11:33:36+00:00",
+                "releaseNotes": "--- Sponsors ---\n\nAudiomack - https://audiomack.com\nOpen LMS - https://openlms.net\nBlueHost - https://bluehost.com\nObject Cache Pro for WordPress - https://objectcache.pro\nAvtandil Kikabidze - https://github.com/akalongman\nZaher Ghaibeh - https://github.com/zaherg\nBatchLabs - https://batch.com\nStackhero - https://github.com/stackhero-io\nFlorian Levis - https://github.com/Gounlaf\nLuis Zarate - https://github.com/jlzaratec\n\n---\n\nphpredis 6.0.1\n\nThis release contains fix for unknown expiration modifier issue\nas well as memory leak and segfault in exec function\nand small documentation improvements.\n\nYou can find a detailed list of changes in CHANGELOG.md and package.xml\nor by inspecting the git commit logs.\n\n* Fix  memory leak and segfault in Redis::exec [362e1141] (Pavlo Yatsukhnenko), (Markus Podar)\n* Fix unknown expiration modifier [264c0c7e, 95bd184b] (Pavlo Yatsukhnenko)\n* Update documentation [3674d663, 849bedb6, 1ad95b63] (Till Kruss), (Joost OrangeJuiced)",
+                "get": "https://pecl.php.net/get/redis-6.0.1",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
             "6.0.0": {
                 "version": "6.0.0",
                 "state": "stable",

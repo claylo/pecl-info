@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/redis">redis</p>
+ <c>pecl.php.net</c>
+ <v>6.0.1</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>yatsukhnenko</m>
+ <s>PHP extension for interfacing with Redis</s>
+ <d>This extension provides an API for communicating with Redis servers.</d>
+ <da>2023-09-23 11:33:36</da>
+ <n>--- Sponsors ---
+
+Audiomack - https://audiomack.com
+Open LMS - https://openlms.net
+BlueHost - https://bluehost.com
+Object Cache Pro for WordPress - https://objectcache.pro
+Avtandil Kikabidze - https://github.com/akalongman
+Zaher Ghaibeh - https://github.com/zaherg
+BatchLabs - https://batch.com
+Stackhero - https://github.com/stackhero-io
+Florian Levis - https://github.com/Gounlaf
+Luis Zarate - https://github.com/jlzaratec
+
+---
+
+phpredis 6.0.1
+
+This release contains fix for unknown expiration modifier issue
+as well as memory leak and segfault in exec function
+and small documentation improvements.
+
+You can find a detailed list of changes in CHANGELOG.md and package.xml
+or by inspecting the git commit logs.
+
+* Fix  memory leak and segfault in Redis::exec [362e1141] (Pavlo Yatsukhnenko), (Markus Podar)
+* Fix unknown expiration modifier [264c0c7e, 95bd184b] (Pavlo Yatsukhnenko)
+* Update documentation [3674d663, 849bedb6, 1ad95b63] (Till Kruss), (Joost OrangeJuiced)</n>
+ <f>365622</f>
+ <g>https://pecl.php.net/get/redis-6.0.1</g>
+ <x xlink:href="package.6.0.1.xml"/>
+</r>
