@@ -2,12 +2,22 @@
     "category": "File Formats",
     "deprecated": false,
     "description": "Retrieve RPM information using librpm, from local RPM file or from installed packages database.\n\nDocumentation: https://www.php.net/rpminfo",
-    "latestReleaseDate": "2021-06-18T13:59:54+00:00",
-    "latestVersion": "0.6.0",
+    "latestReleaseDate": "2023-09-26T08:34:37+00:00",
+    "latestVersion": "0.7.0",
     "license": "PHP 3.01",
     "name": "rpminfo",
     "php8Mentioned": true,
     "releases": {
+        "0.7.0": {
+            "version": "0.7.0",
+            "state": "stable",
+            "license": "PHP-3.01",
+            "releasedBy": "remi",
+            "releaseDate": "2023-09-26T08:34:37+00:00",
+            "releaseNotes": "- add optional operator to rpmcmpver for consistency with version_compare\n- drop support for PHP 7",
+            "get": "https://pecl.php.net/get/rpminfo-0.7.0",
+            "SPDX-License-Identifier": null
+        },
         "0.6.0": {
             "version": "0.6.0",
             "state": "stable",
