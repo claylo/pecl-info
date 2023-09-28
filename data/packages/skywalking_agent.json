@@ -2,12 +2,22 @@
     "category": "Tools and Utilities",
     "deprecated": false,
     "description": "The PHP Agent for Apache SkyWalking, which provides the native tracing abilities for PHP project.",
-    "latestReleaseDate": "2023-08-25T05:48:21+00:00",
-    "latestVersion": "0.6.0",
+    "latestReleaseDate": "2023-09-28T01:03:49+00:00",
+    "latestVersion": "0.7.0",
     "license": "Apache-2.0",
     "name": "skywalking_agent",
     "php8Mentioned": true,
     "releases": {
+        "0.7.0": {
+            "version": "0.7.0",
+            "state": "stable",
+            "license": "Apache-2.0",
+            "releasedBy": "skywalking",
+            "releaseDate": "2023-09-28T01:03:49+00:00",
+            "releaseNotes": "## What's Changed\n* Start 0.7.0 development. by @jmjoy in https://github.com/apache/skywalking-php/pull/90\n* Add more info for error log. by @jmjoy in https://github.com/apache/skywalking-php/pull/91\n* Fix amqplib and predis argument problems. by @jmjoy in https://github.com/apache/skywalking-php/pull/92\n* Add Memcache plugin. by @jmjoy in https://github.com/apache/skywalking-php/pull/93\n* Refactor mysqli plugin, support procedural api. by @jmjoy in https://github.com/apache/skywalking-php/pull/94\n* Fix target address in cross process header. by @jmjoy in https://github.com/apache/skywalking-php/pull/95\n* Release SkyWalking PHP 0.7.0 by @jmjoy in https://github.com/apache/skywalking-php/pull/96\n\n\n**Full Changelog**: https://github.com/apache/skywalking-php/compare/v0.6.0...v0.7.0",
+            "get": "https://pecl.php.net/get/skywalking_agent-0.7.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "0.6.0": {
             "version": "0.6.0",
             "state": "stable",
