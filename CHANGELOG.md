@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.211.0](https://github.com/claylo/pecl-info/compare/v1.210.0...v1.211.0) (2023-09-28)
+
+
+### Added
+
+* add skywalking_agent 0.7.0 release ([7886ba3](https://github.com/claylo/pecl-info/commit/7886ba3386ed9e67ddfeee7dc158ef599fd4de55))
+
 ## [1.210.0](https://github.com/claylo/pecl-info/compare/v1.209.0...v1.210.0) (2023-09-27)
 
 
