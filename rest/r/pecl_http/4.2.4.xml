@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pecl_http">pecl_http</p>
+ <c>pecl.php.net</c>
+ <v>4.2.4</v>
+ <st>stable</st>
+ <l>BSD-2-Clause</l>
+ <m>mike</m>
+ <s>Extended HTTP Support</s>
+ <d>This HTTP extension aims to provide a convenient and powerful
+set of functionality for one of PHPs major applications.
+
+It eases handling of HTTP urls, headers and messages, provides
+means for negotiation of a client's preferred content type,
+language and charset, as well as a convenient way to send any
+arbitrary data with caching and resuming capabilities.
+
+It provides powerful request functionality with support for
+parallel requests.
+
+Documentation:
+https://mdref.m6w6.name/http</d>
+ <da>2023-10-02 09:13:10</da>
+ <n>* Fix Error using ssl array in options : Could not set option tlsauthtype
+  (see  gh issue #131)
+* Fix arginfo wargnings of the internal curl client user handler
+* Disable libidn support for v1.36-v1.38 due to broken locale detection</n>
+ <f>224933</f>
+ <g>https://pecl.php.net/get/pecl_http-4.2.4</g>
+ <x xlink:href="package.4.2.4.xml"/>
+</r>
