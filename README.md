@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (138)
+## Relevant Extensions (137)
 
 ### Authentication (2)
 
@@ -1049,10 +1049,10 @@ https://mdref.m6w6.name/http
 ```
 <p><ul>
 <li>License: BSD-2-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/pecl_http-4.2.3">4.2.3</a> on 10 Jun 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/pecl_http-4.2.4">4.2.4</a> on 02 Oct 2023</li>
 <li>Release data in JSON: <a href="data/packages/pecl_http.json">pecl_http.json</a></li>
 <li><a href="https://pecl.php.net/packages/pecl_http">pecl_http on PECL</a></li>
-<li><a href="https://mdref.m6w6.name/http">:book: Documentation</a> &nbsp; <a href="https://github.com/m6w6/ext-http">:sparkles: Source</a> &nbsp; <a href="https://github.com/m6w6/ext-http/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=429&rid=&cid=11">:bar_chart: Stats</a></li>
+<li></li>
 </ul></p><hr />
 </details>
 
@@ -1093,7 +1093,7 @@ This extension requires ImageMagick version 6.5.3-10+ and PHP 5.4.0+.
 </details>
 
 ***
-### Internationalization (2)
+### Internationalization (1)
 
 <details><summary>ecma_intl&nbsp; :eight:</summary>
 <p>ecma_intl is an i18n and l10n extension for PHP</p>
@@ -1108,25 +1108,6 @@ Internationalization API Specification.
 <li>Release data in JSON: <a href="data/packages/ecma_intl.json">ecma_intl.json</a></li>
 <li><a href="https://pecl.php.net/packages/ecma_intl">ecma_intl on PECL</a></li>
 <li><a href="https://github.com/php-ecma-intl/ext">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1080&rid=&cid=28">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>translit&nbsp; :eight:</summary>
-<p>Transliterates non-latin character sets to latin</p>
-
-```
-This extension allows you to transliterate text in non-latin characters (such
-as Chinese, Cyrillic, Greek etc) to latin characters.  Besides the
-transliteration the extension also contains filters to upper- and lowercase
-latin, cyrillic and greek, and perform special forms of transliteration such
-as converting ligatures such as the Norwegian "æ" to "ae" and normalizing
-punctuation and spacing.
-```
-<p><ul>
-<li>License: BSD-2-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/translit-0.7.1">0.7.1</a> on 01 Oct 2020</li>
-<li>Release data in JSON: <a href="data/packages/translit.json">translit.json</a></li>
-<li><a href="https://pecl.php.net/packages/translit">translit on PECL</a></li>
-<li><a href="http://derickrethans.nl/translit.php">:house: Home</a> &nbsp; <a href="https://github.com/derickr/pecl-translit">:sparkles: Source</a> &nbsp; <a href="https://github.com/derickr/pecl-translit/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=403&rid=&cid=28">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 
