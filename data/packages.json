@@ -4593,12 +4593,22 @@
         "category": "Benchmarking",
         "deprecated": false,
         "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-        "latestReleaseDate": "2023-09-26T17:36:30+00:00",
-        "latestVersion": "0.92.0",
+        "latestReleaseDate": "2023-10-02T13:20:49+00:00",
+        "latestVersion": "0.92.1",
         "license": "BSD 3-Clause",
         "name": "datadog_trace",
         "php8Mentioned": true,
         "releases": {
+            "0.92.1": {
+                "version": "0.92.1",
+                "state": "stable",
+                "license": "BSD 3-Clause",
+                "releasedBy": "bwoebi",
+                "releaseDate": "2023-10-02T13:20:49+00:00",
+                "releaseNotes": "## Tracer\n### Fixed\n- Handle UnwindExit in sandbox error reporting #2288\n- Add a safeguard nullcheck for the sidecar into telemetry reporting #2293\n\n## Profiling\n### Fixed\n- Do not leak module entry on purpose #2291\n- Fix allocation profiling shutdown with USE_ZEND_ALLOC=0 crashing #2294\n\n## Application Security Management (0.14.1)\n### Fixed\n- Improve tracer state detection DataDog/dd-appsec-php#305\n- Fix setting perdir INI setting for multiple ZAI config users #2277",
+                "get": "https://pecl.php.net/get/datadog_trace-0.92.1",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "0.92.0": {
                 "version": "0.92.0",
                 "state": "stable",
