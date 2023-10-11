@@ -3269,12 +3269,22 @@
         "category": "Database",
         "deprecated": false,
         "description": "The PHP client library provides fast access to documents stored in a Couchbase Server.",
-        "latestReleaseDate": "2023-08-21T12:36:04+00:00",
-        "latestVersion": "4.1.5",
+        "latestReleaseDate": "2023-10-11T02:59:42+00:00",
+        "latestVersion": "4.1.6",
         "license": "Apache V2",
         "name": "couchbase",
         "php8Mentioned": true,
         "releases": {
+            "4.1.6": {
+                "version": "4.1.6",
+                "state": "stable",
+                "license": "Apache V2",
+                "releasedBy": "avsej",
+                "releaseDate": "2023-10-11T02:59:42+00:00",
+                "releaseNotes": "* PCBC-956: Update wrapper side bucket settings (#132)\n* PCBC-950: Support bucket settings for no dedup feature (#131)\n* Updates to support PHP 8.3. `zend_bool` was removed from 8.3.\n\nNotable changes in core C++\n---------------------------\n* CXXCBC-376: Revisit what 'create' and 'update' bucket operations send to the server. Make optional bucket\n  settings fields optional, and do not send anything unless the settings explicitly specified. (#451)\n* CXXCBC-359: Reduce default HTTP idle timeout to 1 second (#448)\n* CXXCBC-367, CXXCBC-370: Add history retention settings to buckets/collection management. (#446)\n* CXXCBC-119: Return booleans for subdocument 'exists' operation instead of error code. (#444, #452)\n* Detect 'collection_not_found' error in 'update_collection' response (#450)",
+                "get": "https://pecl.php.net/get/couchbase-4.1.6",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "4.1.5": {
                 "version": "4.1.5",
                 "state": "stable",
@@ -3425,16 +3435,6 @@
                 "get": "https://pecl.php.net/get/couchbase-3.0.4",
                 "SPDX-License-Identifier": "Apache-2.0"
             },
-            "2.6.2": {
-                "version": "2.6.2",
-                "state": "stable",
-                "license": "Apache V2",
-                "releasedBy": "avsej",
-                "releaseDate": "2020-02-04T15:45:51+00:00",
-                "releaseNotes": "* fixed possible segfault in N1QL request\n* fixed windows build for PHP 7.4\n* PCBC-646: Fixed issue with blank string decoding.",
-                "get": "https://pecl.php.net/get/couchbase-2.6.2",
-                "SPDX-License-Identifier": "Apache-2.0"
-            },
             "3.0.0beta1": {
                 "version": "3.0.0beta1",
                 "state": "beta",
@@ -3453,16 +3453,6 @@
                 "releaseDate": "2019-07-18T08:35:17+00:00",
                 "releaseNotes": "* fourth alpha release",
                 "get": "https://pecl.php.net/get/couchbase-3.0.0alpha4",
-                "SPDX-License-Identifier": "Apache-2.0"
-            },
-            "2.6.1": {
-                "version": "2.6.1",
-                "state": "stable",
-                "license": "Apache V2",
-                "releasedBy": "avsej",
-                "releaseDate": "2019-06-03T07:20:10+00:00",
-                "releaseNotes": "* documentation updates\n* improved test integration with CouchbaseMock",
-                "get": "https://pecl.php.net/get/couchbase-2.6.1",
                 "SPDX-License-Identifier": "Apache-2.0"
             },
             "3.0.0alpha3": {
@@ -3493,6 +3483,26 @@
                 "releaseDate": "2019-05-22T18:15:19+00:00",
                 "releaseNotes": "* first alpha release",
                 "get": "https://pecl.php.net/get/couchbase-3.0.0alpha1",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
+            "2.6.2": {
+                "version": "2.6.2",
+                "state": "stable",
+                "license": "Apache V2",
+                "releasedBy": "avsej",
+                "releaseDate": "2020-02-04T15:45:51+00:00",
+                "releaseNotes": "* fixed possible segfault in N1QL request\n* fixed windows build for PHP 7.4\n* PCBC-646: Fixed issue with blank string decoding.",
+                "get": "https://pecl.php.net/get/couchbase-2.6.2",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
+            "2.6.1": {
+                "version": "2.6.1",
+                "state": "stable",
+                "license": "Apache V2",
+                "releasedBy": "avsej",
+                "releaseDate": "2019-06-03T07:20:10+00:00",
+                "releaseNotes": "* documentation updates\n* improved test integration with CouchbaseMock",
+                "get": "https://pecl.php.net/get/couchbase-2.6.1",
                 "SPDX-License-Identifier": "Apache-2.0"
             },
             "2.6.0": {
