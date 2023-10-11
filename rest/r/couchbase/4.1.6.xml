@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/couchbase">couchbase</p>
+ <c>pecl.php.net</c>
+ <v>4.1.6</v>
+ <st>stable</st>
+ <l>Apache V2</l>
+ <m>avsej</m>
+ <s>Couchbase Server PHP extension</s>
+ <d>The PHP client library provides fast access to documents stored in a Couchbase Server.</d>
+ <da>2023-10-11 02:59:42</da>
+ <n>* PCBC-956: Update wrapper side bucket settings (#132)
+* PCBC-950: Support bucket settings for no dedup feature (#131)
+* Updates to support PHP 8.3. `zend_bool` was removed from 8.3.
+
+Notable changes in core C++
+---------------------------
+* CXXCBC-376: Revisit what 'create' and 'update' bucket operations send to the server. Make optional bucket
+  settings fields optional, and do not send anything unless the settings explicitly specified. (#451)
+* CXXCBC-359: Reduce default HTTP idle timeout to 1 second (#448)
+* CXXCBC-367, CXXCBC-370: Add history retention settings to buckets/collection management. (#446)
+* CXXCBC-119: Return booleans for subdocument 'exists' operation instead of error code. (#444, #452)
+* Detect 'collection_not_found' error in 'update_collection' response (#450)</n>
+ <f>2134043</f>
+ <g>https://pecl.php.net/get/couchbase-4.1.6</g>
+ <x xlink:href="package.4.1.6.xml"/>
+</r>
