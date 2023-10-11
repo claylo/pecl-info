@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (137)
+## Relevant Extensions (135)
 
 ### Authentication (2)
 
@@ -273,7 +273,7 @@ The PHP client library provides fast access to documents stored in a Couchbase S
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/couchbase-4.1.5">4.1.5</a> on 21 Aug 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/couchbase-4.1.6">4.1.6</a> on 11 Oct 2023</li>
 <li>Release data in JSON: <a href="data/packages/couchbase.json">couchbase.json</a></li>
 <li><a href="https://pecl.php.net/packages/couchbase">couchbase on PECL</a></li>
 <li><a href="https://docs.couchbase.com/php-sdk/current/hello-world/start-using-sdk.html">:book: Documentation</a> &nbsp; <a href="https://docs.couchbase.com/php-sdk/current/project-docs/sdk-release-notes.html">:house: Home</a> &nbsp; <a href="https://github.com/couchbase/php-couchbase">:sparkles: Source</a> &nbsp; <a href="https://issues.couchbase.com/browse/PCBC">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=922&rid=&cid=7">:bar_chart: Stats</a></li>
@@ -1356,7 +1356,7 @@ SDL_ttf bindings for the PHP language
 </details>
 
 ***
-### Networking (11)
+### Networking (10)
 
 <details><summary>amqp&nbsp; :eight:</summary>
 <p>Communicate with any AMQP compliant server</p>
@@ -1506,20 +1506,6 @@ Provides bindings to the functions of libssh2 which implements the SSH2 protocol
 <li><a href="https://php.net/ssh2">:book: Documentation</a> &nbsp; <a href="http://www.libssh2.org">:house: Home</a> &nbsp; <a href="https://github.com/php/pecl-networking-ssh2">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-networking-ssh2/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=421&rid=&cid=16">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
-<details><summary>uuid&nbsp; :eight:</summary>
-<p>UUID extension</p>
-
-```
-A wrapper around libuuid from the ext2utils project.
-```
-<p><ul>
-<li>License: LGPL-2.1-or-later</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/uuid-1.2.0">1.2.0</a> on 06 Oct 2020</li>
-<li>Release data in JSON: <a href="data/packages/uuid.json">uuid.json</a></li>
-<li><a href="https://pecl.php.net/packages/uuid">uuid on PECL</a></li>
-<li><a href="https://github.com/php/pecl-networking-uuid">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-networking-uuid/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=216&rid=&cid=16">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
 <details><summary>yaz&nbsp; :eight:</summary>
 <p>Z39.50/SRU client</p>
 
@@ -1560,7 +1546,7 @@ This provides a similar API (object-based) to java.util.BitSet with some PHP-spe
 </details>
 
 ***
-### PHP (14)
+### PHP (13)
 
 <details><summary>ast&nbsp; :eight:</summary>
 <p>Extension exposing PHP 7 abstract syntax tree</p>
@@ -1576,20 +1562,6 @@ php-ast exports the AST internally used by PHP 7.
 <li>Release data in JSON: <a href="data/packages/ast.json">ast.json</a></li>
 <li><a href="https://pecl.php.net/packages/ast">ast on PECL</a></li>
 <li><a href="https://github.com/nikic/php-ast">:sparkles: Source</a> &nbsp; <a href="https://github.com/nikic/php-ast/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1013&rid=&cid=25">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>componere&nbsp; :eight:</summary>
-<p>Composing PHP classes at runtime</p>
-
-```
-Componere is able to compose classes at runtime, and monkey patch objects.
-```
-<p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/componere-3.1.2">3.1.2</a> on 08 Oct 2020</li>
-<li>Release data in JSON: <a href="data/packages/componere.json">componere.json</a></li>
-<li><a href="https://pecl.php.net/packages/componere">componere on PECL</a></li>
-<li><a href="https://php.net/componere">:book: Documentation</a> &nbsp; <a href="https://github.com/krakjoe/componere">:house: Home</a> &nbsp; <a href="https://github.com/krakjoe/componere">:sparkles: Source</a> &nbsp; <a href="https://github.com/krakjoe/componere/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1020&rid=&cid=25">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>igbinary&nbsp; :eight:</summary>
