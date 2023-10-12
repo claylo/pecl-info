@@ -2,12 +2,22 @@
     "category": "Networking",
     "deprecated": false,
     "description": "This extension can communicate with any AMQP spec 0-9-1 compatible server, such as RabbitMQ, OpenAMQP and Qpid, giving you the ability to create and delete exchanges and queues, as well as publish to any exchange and consume from any queue.",
-    "latestReleaseDate": "2023-09-07T06:52:25+00:00",
-    "latestVersion": "2.1.0",
+    "latestReleaseDate": "2023-10-12T13:08:31+00:00",
+    "latestVersion": "2.1.1",
     "license": "PHP License",
     "name": "amqp",
     "php8Mentioned": true,
     "releases": {
+        "2.1.1": {
+            "version": "2.1.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "lstrojny",
+            "releaseDate": "2023-10-12T13:08:31+00:00",
+            "releaseNotes": "- Fixing debug mode errors (Lars Strojny <lars@strojny.net>) (https://github.com/php-amqp/php-amqp/issues/502)\n - FIX: #494 Param \"verify\" always true (Daniel Kozak <kozzi11@gmail.com>) (https://github.com/php-amqp/php-amqp/issues/497)\n - Remove assert on undefined variable (Remi Collet <remi@remirepo.net>) (https://github.com/php-amqp/php-amqp/issues/486)\n - Semantically sort changelog (Lars Strojny <lars@strojny.net>) (https://github.com/php-amqp/php-amqp/commit/e5bd909)\n - Set custom PHP executable dynamically (Lars Strojny <lars@strojny.net>) (https://github.com/php-amqp/php-amqp/issues/503)\n - Fixes in stub comments (Lars Strojny <lars@strojny.net>) (https://github.com/php-amqp/php-amqp/commit/6539de5)\n - Refactor test skipping (Lars Strojny <lars@strojny.net>) (https://github.com/php-amqp/php-amqp/issues/504)\n - Bump actions/checkout from 4.0.0 to 4.1.0 (dependabot[bot]) (https://github.com/php-amqp/php-amqp/issues/499)\n - Bump phpstan/phpdoc-parser from 1.23.1 to 1.24.0 (dependabot[bot]) (https://github.com/php-amqp/php-amqp/issues/491)\n - Bump phpstan/phpdoc-parser from 1.24.0 to 1.24.1 (dependabot[bot]) (https://github.com/php-amqp/php-amqp/issues/495)\n - Bump shivammathur/setup-php from 2.25.5 to 2.26.0 (dependabot[bot]) (https://github.com/php-amqp/php-amqp/issues/493)\n - Bump slevomat/coding-standard from 8.13.4 to 8.14.1 (dependabot[bot]) (https://github.com/php-amqp/php-amqp/issues/501)\n - Bump symplify/easy-coding-standard from 12.0.7 to 12.0.8 (dependabot[bot]) (https://github.com/php-amqp/php-amqp/issues/492)\n\nFor a complete list of changes see:\nhttps://github.com/php-amqp/php-amqp/compare/v2.1.0...v2.1.1",
+            "get": "https://pecl.php.net/get/amqp-2.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
         "2.1.0": {
             "version": "2.1.0",
             "state": "stable",
