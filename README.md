@@ -868,8 +868,8 @@ Retrieve RPM information using librpm, from local RPM file or from installed pac
 Documentation: https://www.php.net/rpminfo
 ```
 <p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/rpminfo-0.7.0">0.7.0</a> on 26 Sep 2023</li>
+<li>License: </li>
+<li>Latest Release: <a href="https://pecl.php.net/get/rpminfo-1.0.0">1.0.0</a> on 12 Oct 2023</li>
 <li>Release data in JSON: <a href="data/packages/rpminfo.json">rpminfo.json</a></li>
 <li><a href="https://pecl.php.net/packages/rpminfo">rpminfo on PECL</a></li>
 <li><a href="https://www.php.net/rpminfo">:book: Documentation</a> &nbsp; <a href="https://git.remirepo.net/cgit/tools/php-rpminfo.git/">:house: Home</a> &nbsp; <a href="https://git.remirepo.net/cgit/tools/php-rpminfo.git/">:sparkles: Source</a> &nbsp; <a href="https://github.com/remicollet/rpminfo/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1019&rid=&cid=33">:bar_chart: Stats</a></li>
@@ -1368,7 +1368,7 @@ queues, as well as publish to any exchange and consume from any queue.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/amqp-2.1.0">2.1.0</a> on 07 Sep 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/amqp-2.1.1">2.1.1</a> on 12 Oct 2023</li>
 <li>Release data in JSON: <a href="data/packages/amqp.json">amqp.json</a></li>
 <li><a href="https://pecl.php.net/packages/amqp">amqp on PECL</a></li>
 <li><a href="https://github.com/php-amqp/php-amqp">:house: Home</a> &nbsp; <a href="https://github.com/php-amqp/php-amqp">:sparkles: Source</a> &nbsp; <a href="https://github.com/php-amqp/php-amqp/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=879&rid=&cid=16">:bar_chart: Stats</a></li>
