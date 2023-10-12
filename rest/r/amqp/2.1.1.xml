@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/amqp">amqp</p>
+ <c>pecl.php.net</c>
+ <v>2.1.1</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>lstrojny</m>
+ <s>Communicate with any AMQP compliant server</s>
+ <d>This extension can communicate with any AMQP spec 0-9-1 compatible server, such as RabbitMQ, OpenAMQP and Qpid, giving you the ability to create and delete exchanges and queues, as well as publish to any exchange and consume from any queue.</d>
+ <da>2023-10-12 13:08:31</da>
+ <n>- Fixing debug mode errors (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/502)
+ - FIX: #494 Param &quot;verify&quot; always true (Daniel Kozak &lt;kozzi11@gmail.com&gt;) (https://github.com/php-amqp/php-amqp/issues/497)
+ - Remove assert on undefined variable (Remi Collet &lt;remi@remirepo.net&gt;) (https://github.com/php-amqp/php-amqp/issues/486)
+ - Semantically sort changelog (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/commit/e5bd909)
+ - Set custom PHP executable dynamically (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/503)
+ - Fixes in stub comments (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/commit/6539de5)
+ - Refactor test skipping (Lars Strojny &lt;lars@strojny.net&gt;) (https://github.com/php-amqp/php-amqp/issues/504)
+ - Bump actions/checkout from 4.0.0 to 4.1.0 (dependabot[bot]) (https://github.com/php-amqp/php-amqp/issues/499)
+ - Bump phpstan/phpdoc-parser from 1.23.1 to 1.24.0 (dependabot[bot]) (https://github.com/php-amqp/php-amqp/issues/491)
+ - Bump phpstan/phpdoc-parser from 1.24.0 to 1.24.1 (dependabot[bot]) (https://github.com/php-amqp/php-amqp/issues/495)
+ - Bump shivammathur/setup-php from 2.25.5 to 2.26.0 (dependabot[bot]) (https://github.com/php-amqp/php-amqp/issues/493)
+ - Bump slevomat/coding-standard from 8.13.4 to 8.14.1 (dependabot[bot]) (https://github.com/php-amqp/php-amqp/issues/501)
+ - Bump symplify/easy-coding-standard from 12.0.7 to 12.0.8 (dependabot[bot]) (https://github.com/php-amqp/php-amqp/issues/492)
+
+For a complete list of changes see:
+https://github.com/php-amqp/php-amqp/compare/v2.1.0...v2.1.1</n>
+ <f>118194</f>
+ <g>https://pecl.php.net/get/amqp-2.1.1</g>
+ <x xlink:href="package.2.1.1.xml"/>
+</r>
