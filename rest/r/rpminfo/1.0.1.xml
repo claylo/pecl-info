@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/rpminfo">rpminfo</p>
+ <c>pecl.php.net</c>
+ <v>1.0.1</v>
+ <st>stable</st>
+ <l>PHP-3.01</l>
+ <m>remi</m>
+ <s>RPM information</s>
+ <d>Retrieve RPM information using librpm, from local RPM file or from installed packages database.
+
+Documentation: https://www.php.net/rpminfo</d>
+ <da>2023-10-13 12:49:41</da>
+ <n>- fix stack smashing on 32-bit
+- allow retrieval of hardlink content</n>
+ <f>21556</f>
+ <g>https://pecl.php.net/get/rpminfo-1.0.1</g>
+ <x xlink:href="package.1.0.1.xml"/>
+</r>
