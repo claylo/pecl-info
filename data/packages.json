@@ -7901,12 +7901,22 @@
         "category": "Networking",
         "deprecated": false,
         "description": "This is an extension to efficiently schedule I/O, time and signal based\n  events using the best I/O notification mechanism available for specific platform.\n  This is a port of libevent to the PHP infrastructure.\n\n  Version 1.0.0 introduces:\n  * new OO API breaking backwards compatibility\n  * support of libevent 2+ including HTTP, DNS, OpenSSL and the event listener.\n\n  Note, event-1.0.0 and greater is not compatible with previous versions.",
-        "latestReleaseDate": "2022-06-01T08:11:24+00:00",
-        "latestVersion": "3.0.8",
+        "latestReleaseDate": "2023-10-14T16:50:56+00:00",
+        "latestVersion": "3.1.0RC1",
         "license": "PHP",
         "name": "event",
         "php8Mentioned": true,
         "releases": {
+            "3.1.0RC1": {
+                "version": "3.1.0RC1",
+                "state": "beta",
+                "license": "PHP",
+                "releasedBy": "osmanov",
+                "releaseDate": "2023-10-14T16:50:56+00:00",
+                "releaseNotes": "- The loop will now be stopped if an event callback throws an exception.\n  This prevents user from losing control on the event loop.\n- EventDnsBase::__construct() now accepts bool|int as its second parameter:\n    * false and true have the same meaning as before;\n    * EventDnsBase::DISABLE_WHEN_INACTIVE - Do not prevent the libevent event loop from exiting when we have no active DNS requests.\n    * EventDnsBase::INITIALIZE_NAMESERVERS - Process resolv.conf.\n    * EventDnsBase::NAMESERVERS_NO_DEFAULT - Do not add default nameserver if there are no nameservers in resolv.conf.\n- Internally, a safer strlcpy() will be used instead of strcpy().\n- Fixed a segmentation fault that might occur in the EventHttpRequest callback.\n- Fixed a bug where the EventBuffer::copyout method didn't populate the output variable properly in PHP >= 8.2 (thanks to Joseph Tseng).",
+                "get": "https://pecl.php.net/get/event-3.1.0RC1",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
             "3.0.8": {
                 "version": "3.0.8",
                 "state": "stable",
@@ -7977,16 +7987,6 @@
                 "get": "https://pecl.php.net/get/event-3.0.3",
                 "SPDX-License-Identifier": "PHP-3.01"
             },
-            "3.0.2r1": {
-                "version": "3.0.2r1",
-                "state": "stable",
-                "license": "PHP",
-                "releasedBy": "osmanov",
-                "releaseDate": "2021-02-15T20:35:09+00:00",
-                "releaseNotes": "Stable version release.",
-                "get": "https://pecl.php.net/get/event-3.0.2r1",
-                "SPDX-License-Identifier": "PHP-3.01"
-            },
             "3.0.2": {
                 "version": "3.0.2",
                 "state": "beta",
@@ -7995,6 +7995,16 @@
                 "releaseDate": "2020-12-06T21:18:33+00:00",
                 "releaseNotes": "- Fixed #65: some methods had wrong argument/return type hints",
                 "get": "https://pecl.php.net/get/event-3.0.2",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
+            "3.0.2r1": {
+                "version": "3.0.2r1",
+                "state": "stable",
+                "license": "PHP",
+                "releasedBy": "osmanov",
+                "releaseDate": "2021-02-15T20:35:09+00:00",
+                "releaseNotes": "Stable version release.",
+                "get": "https://pecl.php.net/get/event-3.0.2r1",
                 "SPDX-License-Identifier": "PHP-3.01"
             },
             "3.0.1": {

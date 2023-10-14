@@ -1,4 +1,8 @@
 {
+    "3.1.0RC1": {
+        "version": "3.1.0RC1",
+        "state": "beta"
+    },
     "3.0.8": {
         "version": "3.0.8",
         "state": "stable"
@@ -27,13 +31,13 @@
         "version": "3.0.3",
         "state": "stable"
     },
-    "3.0.2r1": {
-        "version": "3.0.2r1",
-        "state": "stable"
-    },
     "3.0.2": {
         "version": "3.0.2",
         "state": "beta"
+    },
+    "3.0.2r1": {
+        "version": "3.0.2r1",
+        "state": "stable"
     },
     "3.0.1": {
         "version": "3.0.1",
