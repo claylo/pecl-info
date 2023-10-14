@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/event">event</p>
+ <c>pecl.php.net</c>
+ <v>3.1.0RC1</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>osmanov</m>
+ <s>Provides interface to libevent library</s>
+ <d>This is an extension to efficiently schedule I/O, time and signal based
+  events using the best I/O notification mechanism available for specific platform.
+  This is a port of libevent to the PHP infrastructure.
+
+  Version 1.0.0 introduces:
+  * new OO API breaking backwards compatibility
+  * support of libevent 2+ including HTTP, DNS, OpenSSL and the event listener.
+
+  Note, event-1.0.0 and greater is not compatible with previous versions.</d>
+ <da>2023-10-14 16:50:56</da>
+ <n>- The loop will now be stopped if an event callback throws an exception.
+  This prevents user from losing control on the event loop.
+- EventDnsBase::__construct() now accepts bool|int as its second parameter:
+    * false and true have the same meaning as before;
+    * EventDnsBase::DISABLE_WHEN_INACTIVE - Do not prevent the libevent event loop from exiting when we have no active DNS requests.
+    * EventDnsBase::INITIALIZE_NAMESERVERS - Process resolv.conf.
+    * EventDnsBase::NAMESERVERS_NO_DEFAULT - Do not add default nameserver if there are no nameservers in resolv.conf.
+- Internally, a safer strlcpy() will be used instead of strcpy().
+- Fixed a segmentation fault that might occur in the EventHttpRequest callback.
+- Fixed a bug where the EventBuffer::copyout method didn't populate the output variable properly in PHP &gt;= 8.2 (thanks to Joseph Tseng).</n>
+ <f>204567</f>
+ <g>https://pecl.php.net/get/event-3.1.0RC1</g>
+ <x xlink:href="package.3.1.0RC1.xml"/>
+</r>
