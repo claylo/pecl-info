@@ -1390,7 +1390,7 @@ This is an extension to efficiently schedule I/O, time and signal based
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/event-3.0.8">3.0.8</a> on 01 Jun 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/event-3.1.0RC1">3.1.0RC1</a> on 14 Oct 2023</li>
 <li>Release data in JSON: <a href="data/packages/event.json">event.json</a></li>
 <li><a href="https://pecl.php.net/packages/event">event on PECL</a></li>
 <li><a href="http://docs.php.net/event">:book: Documentation</a> &nbsp; <a href="https://bitbucket.org/osmanov/pecl-event">:house: Home</a> &nbsp; <a href="https://bitbucket.org/osmanov/pecl-event/src">:sparkles: Source</a> &nbsp; <a href="https://bitbucket.org/osmanov/pecl-event/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=418&rid=&cid=16">:bar_chart: Stats</a></li>
