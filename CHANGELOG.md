@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.221.0](https://github.com/claylo/pecl-info/compare/v1.220.0...v1.221.0) (2023-10-17)
+
+
+### Added
+
+* add awscrt 1.2.3, protobuf 3.25.0RC1, gRPC 1.59.1 releases ([8ab958d](https://github.com/claylo/pecl-info/commit/8ab958de36f4eafecbc769487657c99cbf0a3c7f))
+
 ## [1.220.0](https://github.com/claylo/pecl-info/compare/v1.219.0...v1.220.0) (2023-10-14)
 
 
