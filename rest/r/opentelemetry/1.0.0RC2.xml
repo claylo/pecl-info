@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/opentelemetry">opentelemetry</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0RC2</v>
+ <st>beta</st>
+ <l>Apache 2.0</l>
+ <m>brettmc</m>
+ <s>OpenTelemetry auto-instrumentation support extension</s>
+ <d>https://github.com/open-telemetry/opentelemetry-php-instrumentation</d>
+ <da>2023-10-17 05:22:44</da>
+ <n>opentelemetry 1.0.0RC2
+    * documentation updates (#100)
+    * Change segfault method! (#97)
+    * adding windows build action (#93)
+    * adding test and doc for hooking static method (#94)
+    * Update opentelemetry.stub.php (#92)
+    * For WINDOWS build! (#88)</n>
+ <f>21698</f>
+ <g>https://pecl.php.net/get/opentelemetry-1.0.0RC2</g>
+ <x xlink:href="package.1.0.0RC2.xml"/>
+</r>

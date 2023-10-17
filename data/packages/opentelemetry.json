@@ -2,12 +2,22 @@
     "category": "PHP",
     "deprecated": false,
     "description": "https://github.com/open-telemetry/opentelemetry-php-instrumentation",
-    "latestReleaseDate": "2023-09-12T07:19:28+00:00",
-    "latestVersion": "1.0.0RC1",
+    "latestReleaseDate": "2023-10-17T05:22:44+00:00",
+    "latestVersion": "1.0.0RC2",
     "license": "Apache 2.0",
     "name": "opentelemetry",
     "php8Mentioned": false,
     "releases": {
+        "1.0.0RC2": {
+            "version": "1.0.0RC2",
+            "state": "beta",
+            "license": "Apache 2.0",
+            "releasedBy": "brettmc",
+            "releaseDate": "2023-10-17T05:22:44+00:00",
+            "releaseNotes": "opentelemetry 1.0.0RC2\n    * documentation updates (#100)\n    * Change segfault method! (#97)\n    * adding windows build action (#93)\n    * adding test and doc for hooking static method (#94)\n    * Update opentelemetry.stub.php (#92)\n    * For WINDOWS build! (#88)",
+            "get": "https://pecl.php.net/get/opentelemetry-1.0.0RC2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "1.0.0RC1": {
             "version": "1.0.0RC1",
             "state": "beta",
