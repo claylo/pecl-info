@@ -1984,12 +1984,22 @@
         "category": "Tools and Utilities",
         "deprecated": false,
         "description": "AWS Common Runtime provides a set of low level tools as network protocols and authentication used by the AWSSDK for PHP to provide high level API to access AWS services.",
-        "latestReleaseDate": "2023-07-26T23:44:34+00:00",
-        "latestVersion": "1.2.2",
+        "latestReleaseDate": "2023-10-16T21:47:35+00:00",
+        "latestVersion": "1.2.3",
         "license": "Apache License Version 2.0",
         "name": "awscrt",
         "php8Mentioned": false,
         "releases": {
+            "1.2.3": {
+                "version": "1.2.3",
+                "state": "stable",
+                "license": "Apache License Version 2.0",
+                "releasedBy": "dengket",
+                "releaseDate": "2023-10-16T21:47:35+00:00",
+                "releaseNotes": "Fix Sigv4A for MacOS 14+",
+                "get": "https://pecl.php.net/get/awscrt-1.2.3",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "1.2.2": {
                 "version": "1.2.2",
                 "state": "stable",
@@ -10676,12 +10686,22 @@
         "category": "Networking",
         "deprecated": false,
         "description": "Remote Procedure Calls (RPCs) provide a useful abstraction for building distributed applications and services. The libraries in this repository provide a concrete implementation of the gRPC protocol, layered over HTTP/2. These libraries enable communication between clients and servers using any combination of the supported languages.",
-        "latestReleaseDate": "2023-09-27T18:35:02+00:00",
-        "latestVersion": "1.59.0RC1",
+        "latestReleaseDate": "2023-10-16T19:14:40+00:00",
+        "latestVersion": "1.59.1",
         "license": "Apache 2.0",
         "name": "gRPC",
         "php8Mentioned": true,
         "releases": {
+            "1.59.1": {
+                "version": "1.59.1",
+                "state": "stable",
+                "license": "Apache 2.0",
+                "releasedBy": "stanleycheung",
+                "releaseDate": "2023-10-16T19:14:40+00:00",
+                "releaseNotes": "- gRPC Core 1.59.1 update",
+                "get": "https://pecl.php.net/get/grpc-1.59.1",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "1.59.0RC1": {
                 "version": "1.59.0RC1",
                 "state": "beta",
@@ -28863,6 +28883,16 @@
                 "releaseDate": "2020-07-15T17:42:54+00:00",
                 "releaseNotes": "GA release.",
                 "get": "https://pecl.php.net/get/protobuf-4.0.0RC1",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
+            "3.25.0RC1": {
+                "version": "3.25.0RC1",
+                "state": "beta",
+                "license": "BSD-3-Clause",
+                "releasedBy": "protobufpackages",
+                "releaseDate": "2023-10-16T21:45:26+00:00",
+                "releaseNotes": "* See github.com/protocolbuffers/protobuf/releases/tag/v25.0-rc-1 for release notes.",
+                "get": "https://pecl.php.net/get/protobuf-3.25.0RC1",
                 "SPDX-License-Identifier": "BSD-3-Clause"
             },
             "3.24.4": {
