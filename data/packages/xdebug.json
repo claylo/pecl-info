@@ -2,12 +2,22 @@
     "category": "PHP",
     "deprecated": false,
     "description": "Xdebug and provides a range of features to improve the PHP development\nexperience.\n\nStep Debugging\n    A way to step through your code in your IDE or editor while the script is\n    executing.\n\nImprovements to PHP's error reporting\n    An improved var_dump() function, stack traces for Notices, Warnings, Errors\n    and Exceptions to highlight the code path to the error\n\nTracing\n    Writes every function call, with arguments and invocation location to disk.\n    Optionally also includes every variable assignment and return value for\n    each function.\n\nProfiling\n    Allows you, with the help of visualisation tools, to analyse the\n    performance of your PHP application and find bottlenecks.\n\nCode Coverage Analysis\n    To show which parts of your code base are executed when running unit tests\n    with PHP Unit.",
-    "latestReleaseDate": "2023-09-06T13:09:06+00:00",
-    "latestVersion": "3.3.0alpha2",
+    "latestReleaseDate": "2023-10-19T16:24:53+00:00",
+    "latestVersion": "3.3.0alpha3",
     "license": "Xdebug-1.03",
     "name": "xdebug",
     "php8Mentioned": true,
     "releases": {
+        "3.3.0alpha3": {
+            "version": "3.3.0alpha3",
+            "state": "beta",
+            "license": "Xdebug-1.03",
+            "releasedBy": "derick",
+            "releaseDate": "2023-10-19T16:24:53+00:00",
+            "releaseNotes": "Thu, Oct 19, 2023 - Xdebug 3.3.0alpha3\n\n= Fixed bugs:\n\n  - Fixed issue #1732: Add support for flame graph outputs\n  - Fixed issue #2000: Debugger evaluate expression: \"can't evaluate expression\"\n  - Fixed issue #2077: Bring back xdebug.collect_params\n  - Fixed issue #2203: Increase default max nesting time out from 256 to 512\n  - Fixed issue #2206: Optimise debugger breakpoints checking",
+            "get": "https://pecl.php.net/get/xdebug-3.3.0alpha3",
+            "SPDX-License-Identifier": null
+        },
         "3.3.0alpha2": {
             "version": "3.3.0alpha2",
             "state": "beta",

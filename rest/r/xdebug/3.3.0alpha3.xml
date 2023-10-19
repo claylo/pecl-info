@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xdebug">xdebug</p>
+ <c>pecl.php.net</c>
+ <v>3.3.0alpha3</v>
+ <st>beta</st>
+ <l>Xdebug-1.03</l>
+ <m>derick</m>
+ <s>Xdebug is a debugging and productivity extension for PHP</s>
+ <d>Xdebug and provides a range of features to improve the PHP development
+experience.
+
+Step Debugging
+    A way to step through your code in your IDE or editor while the script is
+    executing.
+
+Improvements to PHP's error reporting
+    An improved var_dump() function, stack traces for Notices, Warnings, Errors
+    and Exceptions to highlight the code path to the error
+
+Tracing
+    Writes every function call, with arguments and invocation location to disk.
+    Optionally also includes every variable assignment and return value for
+    each function.
+
+Profiling
+    Allows you, with the help of visualisation tools, to analyse the
+    performance of your PHP application and find bottlenecks.
+
+Code Coverage Analysis
+    To show which parts of your code base are executed when running unit tests
+    with PHP Unit.</d>
+ <da>2023-10-19 16:24:53</da>
+ <n>Thu, Oct 19, 2023 - Xdebug 3.3.0alpha3
+
+= Fixed bugs:
+
+  - Fixed issue #1732: Add support for flame graph outputs
+  - Fixed issue #2000: Debugger evaluate expression: &quot;can't evaluate expression&quot;
+  - Fixed issue #2077: Bring back xdebug.collect_params
+  - Fixed issue #2203: Increase default max nesting time out from 256 to 512
+  - Fixed issue #2206: Optimise debugger breakpoints checking</n>
+ <f>254708</f>
+ <g>https://pecl.php.net/get/xdebug-3.3.0alpha3</g>
+ <x xlink:href="package.3.3.0alpha3.xml"/>
+</r>
