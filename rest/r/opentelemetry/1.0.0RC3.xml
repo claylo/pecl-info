@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/opentelemetry">opentelemetry</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0RC3</v>
+ <st>beta</st>
+ <l>Apache 2.0</l>
+ <m>brettmc</m>
+ <s>OpenTelemetry auto-instrumentation support extension</s>
+ <d>https://github.com/open-telemetry/opentelemetry-php-instrumentation</d>
+ <da>2023-10-20 03:39:57</da>
+ <n>opentelemetry 1.0.0RC3
+    * re-enable blackfire (#103)
+    * Check observer_class_lookup for NULL in observer callback (#102)
+    * gitsplit extension dir (#98)</n>
+ <f>21913</f>
+ <g>https://pecl.php.net/get/opentelemetry-1.0.0RC3</g>
+ <x xlink:href="package.1.0.0RC3.xml"/>
+</r>

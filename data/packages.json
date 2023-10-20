@@ -23116,12 +23116,22 @@
         "category": "PHP",
         "deprecated": false,
         "description": "https://github.com/open-telemetry/opentelemetry-php-instrumentation",
-        "latestReleaseDate": "2023-10-17T05:22:44+00:00",
-        "latestVersion": "1.0.0RC2",
+        "latestReleaseDate": "2023-10-20T03:39:57+00:00",
+        "latestVersion": "1.0.0RC3",
         "license": "Apache 2.0",
         "name": "opentelemetry",
         "php8Mentioned": false,
         "releases": {
+            "1.0.0RC3": {
+                "version": "1.0.0RC3",
+                "state": "beta",
+                "license": "Apache 2.0",
+                "releasedBy": "brettmc",
+                "releaseDate": "2023-10-20T03:39:57+00:00",
+                "releaseNotes": "opentelemetry 1.0.0RC3\n    * re-enable blackfire (#103)\n    * Check observer_class_lookup for NULL in observer callback (#102)\n    * gitsplit extension dir (#98)",
+                "get": "https://pecl.php.net/get/opentelemetry-1.0.0RC3",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "1.0.0RC2": {
                 "version": "1.0.0RC2",
                 "state": "beta",
