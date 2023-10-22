@@ -534,7 +534,7 @@ This extension provides an API for communicating with Redis servers.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/redis-6.0.1">6.0.1</a> on 23 Sep 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/redis-6.0.2">6.0.2</a> on 22 Oct 2023</li>
 <li>Release data in JSON: <a href="data/packages/redis.json">redis.json</a></li>
 <li><a href="https://pecl.php.net/packages/redis">redis on PECL</a></li>
 <li><a href="https://github.com/phpredis/phpredis/#readme">:book: Documentation</a> &nbsp; <a href="https://github.com/phpredis/phpredis/">:house: Home</a> &nbsp; <a href="https://github.com/phpredis/phpredis/">:sparkles: Source</a> &nbsp; <a href="https://github.com/phpredis/phpredis/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=935&rid=&cid=7">:bar_chart: Stats</a></li>
