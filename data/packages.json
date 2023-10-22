@@ -31505,12 +31505,22 @@
         "category": "Database",
         "deprecated": false,
         "description": "This extension provides an API for communicating with Redis servers.",
-        "latestReleaseDate": "2023-09-23T11:33:36+00:00",
-        "latestVersion": "6.0.1",
+        "latestReleaseDate": "2023-10-22T17:59:12+00:00",
+        "latestVersion": "6.0.2",
         "license": "PHP",
         "name": "redis",
         "php8Mentioned": true,
         "releases": {
+            "6.0.2": {
+                "version": "6.0.2",
+                "state": "stable",
+                "license": "PHP",
+                "releasedBy": "yatsukhnenko",
+                "releaseDate": "2023-10-22T17:59:12+00:00",
+                "releaseNotes": "--- Sponsors ---\n\nAudiomack - https://audiomack.com\nOpen LMS - https://openlms.net\nBlueHost - https://bluehost.com\nObject Cache Pro for WordPress - https://objectcache.pro\nAvtandil Kikabidze - https://github.com/akalongman\nZaher Ghaibeh - https://github.com/zaherg\nBatchLabs - https://batch.com\nStackhero - https://github.com/stackhero-io\nFlorian Levis - https://github.com/Gounlaf\nLuis Zarate - https://github.com/jlzaratec\n\n---\n\nphpredis 6.0.2\n\nThis release contains fixes for OBJECT, PSUBSCRIBE and SCAN commands.\nYou can find a detailed list of changes in CHANGELOG.md and package.xml\nor by inspecting the git commit logs.\n\n* Fix deprecation error when passing null to match_type parameter.[b835aaa3] (Pavlo Yatsukhnenko) \n* Fix flaky test and OBJECT in a pipeline. [a7f51f70] (Michael Grunder)\n* Find our callback by pattern with PSUBSCRIBE [2f276dcd] (Michael Grunder)",
+                "get": "https://pecl.php.net/get/redis-6.0.2",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
             "6.0.1": {
                 "version": "6.0.1",
                 "state": "stable",
