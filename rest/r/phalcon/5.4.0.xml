@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/phalcon">phalcon</p>
+ <c>pecl.php.net</c>
+ <v>5.4.0</v>
+ <st>stable</st>
+ <l>BSD 3-Clause License</l>
+ <m>niden</m>
+ <s>Phalcon is a full stack PHP framework offering low resource consumption and high performance.</s>
+ <d>Phalcon is an open source full stack framework for PHP, written as a C-extension. Phalcon is optimized for high
+    performance. Its unique architecture allows the framework to always be memory resident, offering its functionality
+    whenever its needed, without expensive file stats and file reads that traditional PHP frameworks employ.</d>
+ <da>2023-10-25 15:22:57</da>
+ <n>Full changelog can be found at: https://github.com/phalcon/cphalcon/blob/master/CHANGELOG-5.0.md
+
+### Changed
+
+- Changed `Phalcon\Mvc\Model::getMessages()` to also filter with an array of fields [#16265](https://github.com/phalcon/cphalcon/issues/16265)
+- Changed `Phalcon\DataMapper\Query\Select::columns()` to accept an array of columns (keys as aliases) instead of `func_get_args` [#16451](https://github.com/phalcon/cphalcon/issues/16451)
+- Changed `Phalcon\Html\Helper\AbstractSeries::__invoke()` to no longer clear the internal store when called [#16441](https://github.com/phalcon/cphalcon/issues/16441)
+
+### Added
+
+- Added the ability to define interpolator characters for the `Phalcon\Logger\Formatter\Line` [#16430](https://github.com/phalcon/cphalcon/issues/16430)
+- Added `Phalcon\Html\Helper\AbstractSeries::reset()` to clear the internal store when needed [#16441](https://github.com/phalcon/cphalcon/issues/16441)
+
+### Fixed
+
+- Model Annotation strategy did not work with empty_string [#16426](https://github.com/phalcon/cphalcon/issues/16426)
+- View::reset() sets content to null instead of default empty string [#16437](https://github.com/phalcon/cphalcon/issues/16437)
+- Fixed `Phalcon\Filter\Validation\Validator\Size\*` validators to correctly detect the size of uploaded files [#16390](https://github.com/phalcon/cphalcon/issues/16390)</n>
+ <f>966058</f>
+ <g>https://pecl.php.net/get/phalcon-5.4.0</g>
+ <x xlink:href="package.5.4.0.xml"/>
+</r>
