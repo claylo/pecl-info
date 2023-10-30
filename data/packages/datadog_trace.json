@@ -2,12 +2,22 @@
     "category": "Benchmarking",
     "deprecated": false,
     "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-    "latestReleaseDate": "2023-10-06T15:47:51+00:00",
-    "latestVersion": "0.92.2",
+    "latestReleaseDate": "2023-10-30T11:10:32+00:00",
+    "latestVersion": "0.93.0",
     "license": "BSD 3-Clause",
     "name": "datadog_trace",
     "php8Mentioned": true,
     "releases": {
+        "0.93.0": {
+            "version": "0.93.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "pierotibou",
+            "releaseDate": "2023-10-30T11:10:32+00:00",
+            "releaseNotes": "This release adds support for PHP 8.3 for the tracer and the profiler. Please be aware that we are currently building against PHP 8.3.0 RC3.\n\n## Tracer\n### Added\n- Add Magento 2 Integration #2274\n- Support for PHP 8.3 #2098, #2282\n- Add a configuration flag to disable laravel queue distributed tracing #2304\n- Laminas RESTful methods handling #2322\n- Expand arrays in meta and metrics into nested-tag format #2302, #2333\n- Report extensions used in telemetry #2295\n\n### Changed\n- Redis Span Removal and Priority Sampling Orphans Cleanup #2306\n- Subclass SpanData with RootSpanData #2309\n- Refactor tightly coupled extraction state #2314\n\n### Fixed\n- Propagate env to telemetry #2313\n- Fix ZAI config handling for .htaccess with php-fpm #2298\n- Explicitly drop dd.p.dm if provided in propagated tags when the incoming sampling priority is reject #2310\n- Strictly validate dd.p.tid #2303\n- Fix PHP 5: The Drupal integration is not part of PHP 5 #2326\n- Avoid %.*s in places where longer strings are used #2330\n- Respect service mapping when propagating for DBM #2321\n- Specify the odbc driver in db.system and exclude the Ingres driver from DBM #2334\n- Fix daemonization of sidecar closing stderr properly DataDog/libdatadog#271\n\n## Profiling\n\n### Added\n- Support for PHP 8.3 #2098, #2282\n\n### Fixed\n- neighboring extension handling in `gc_mem_caches()` #2297\n- panic after shutdown of forked child when `USE_ZEND_ALLOC=0` #2301\n- fix typo in info log message #2307\n- sampling distance in exception profiling #2323\n- reuse thread RNG and poisson sampler #2320\n\n### Internal changes\n- fix reliability environment deployment #2289\n- upgrade to `libdatadog` v5 #2299\n- add memory benchmark #2319\n- fix flaky exception correctness test #2331\n\n## Application Security Management (0.14.3)\n### Fixed\n- Set sampling priority using ddtrace_set_priority_sampling_on_root DataDog/dd-appsec-php#311",
+            "get": "https://pecl.php.net/get/datadog_trace-0.93.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "0.92.2": {
             "version": "0.92.2",
             "state": "stable",
