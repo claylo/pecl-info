@@ -2,12 +2,22 @@
     "category": "Benchmarking",
     "deprecated": false,
     "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-    "latestReleaseDate": "2023-10-30T11:10:32+00:00",
-    "latestVersion": "0.93.0",
+    "latestReleaseDate": "2023-10-31T17:48:11+00:00",
+    "latestVersion": "0.93.1",
     "license": "BSD 3-Clause",
     "name": "datadog_trace",
     "php8Mentioned": true,
     "releases": {
+        "0.93.1": {
+            "version": "0.93.1",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "anilm3",
+            "releaseDate": "2023-10-31T17:48:11+00:00",
+            "releaseNotes": "## Tracer\n### Fixed\n- Reset distributed context on request init #2340",
+            "get": "https://pecl.php.net/get/datadog_trace-0.93.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "0.93.0": {
             "version": "0.93.0",
             "state": "stable",
