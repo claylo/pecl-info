@@ -23002,12 +23002,22 @@
         "category": "Event",
         "deprecated": false,
         "description": "Build high-performance, scalable, concurrent TCP, UDP, Unix Socket, HTTP, WebSocket services with PHP and easy to use coroutine, fibers API.",
-        "latestReleaseDate": "2022-12-22T12:31:24+00:00",
-        "latestVersion": "22.0.0",
+        "latestReleaseDate": "2023-11-08T11:31:51+00:00",
+        "latestVersion": "22.1.0",
         "license": "Apache 2.0",
         "name": "openswoole",
         "php8Mentioned": true,
         "releases": {
+            "22.1.0": {
+                "version": "22.1.0",
+                "state": "stable",
+                "license": "Apache 2.0",
+                "releasedBy": "doubaokun",
+                "releaseDate": "2023-11-08T11:31:51+00:00",
+                "releaseNotes": ". PHP 8.3 support\n. Latest curl support\n. Fix php_url_encode_hash_ex call for 8.3 @remicollet\n. Add missing header for GCC 13 @remicollet @erfanmola\n. Implement draft statements object LOB for postgresql @mrVrAlex\n. Bug fix for postgresql",
+                "get": "https://pecl.php.net/get/openswoole-22.1.0",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "22.0.0": {
                 "version": "22.0.0",
                 "state": "stable",
