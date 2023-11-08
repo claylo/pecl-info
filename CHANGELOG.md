@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.232.0](https://github.com/claylo/pecl-info/compare/v1.231.0...v1.232.0) (2023-11-08)
+
+
+### Added
+
+* add openswoole 22.1.0 release ([958a18e](https://github.com/claylo/pecl-info/commit/958a18e9deaae6ac6fc57491b3babea048ed93b6))
+
 ## [1.231.0](https://github.com/claylo/pecl-info/compare/v1.230.0...v1.231.0) (2023-11-02)
 
 
