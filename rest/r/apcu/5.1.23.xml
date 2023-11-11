@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/apcu">apcu</p>
+ <c>pecl.php.net</c>
+ <v>5.1.23</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>nikic</m>
+ <s>APCu - APC User Cache</s>
+ <d>APC User Caching</d>
+ <da>2023-11-11 17:44:27</da>
+ <n>- Revert use of monotonic clock for TTL (#451)
+- Fix a crash when serializing packed arrays (e.g. lists) in PHP 8.2+ with `apc.serializer=default`.
+- Reduce memory usage when serializing packed arrays (e.g. lists) in PHP 8.2+ with `apc.serializer=default`.
+- Speed up serializing arrays with `apc.serializer=default`.
+- Reduce memory usage when unserializing instances of the empty array in PHP 7.3+.
+- Removed no longer working apcue extension.
+- Increased limit on maximum number of slots.
+- Made tests compatible with PHP 8.3.</n>
+ <f>90897</f>
+ <g>https://pecl.php.net/get/apcu-5.1.23</g>
+ <x xlink:href="package.5.1.23.xml"/>
+</r>

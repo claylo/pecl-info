@@ -53,12 +53,12 @@
     },
     "apcu": {
         "bugs": "https://github.com/krakjoe/apcu/issues",
-        "docs": "https://php.net/apcu",
+        "docs": "http://php.net/apcu",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/krakjoe/apcu",
         "stats": "https://pecl.php.net/package-stats.php?pid=944&rid=&cid=3",
-        "verified": true
+        "verified": false
     },
     "apcu_bc": {
         "bugs": "https://github.com/krakjoe/apcu-bc/issues",
