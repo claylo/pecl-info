@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.234.0](https://github.com/claylo/pecl-info/compare/v1.233.0...v1.234.0) (2023-11-11)
+
+
+### Added
+
+* add APCu 5.1.23 release ([072393b](https://github.com/claylo/pecl-info/commit/072393ba234de4aa0e407184db987a44da7a37c5))
+
 ## [1.233.0](https://github.com/claylo/pecl-info/compare/v1.232.0...v1.233.0) (2023-11-10)
 
 

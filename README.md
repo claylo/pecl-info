@@ -143,10 +143,10 @@ APC User Caching
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/APCu-5.1.22">5.1.22</a> on 19 Sep 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/APCu-5.1.23">5.1.23</a> on 11 Nov 2023</li>
 <li>Release data in JSON: <a href="data/packages/apcu.json">apcu.json</a></li>
 <li><a href="https://pecl.php.net/packages/APCu">APCu on PECL</a></li>
-<li><a href="https://php.net/apcu">:book: Documentation</a> &nbsp; <a href="https://github.com/krakjoe/apcu">:sparkles: Source</a> &nbsp; <a href="https://github.com/krakjoe/apcu/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=944&rid=&cid=3">:bar_chart: Stats</a></li>
+<li><a href="http://php.net/apcu">:book: Documentation</a> &nbsp; <a href="https://github.com/krakjoe/apcu">:sparkles: Source</a> &nbsp; <a href="https://github.com/krakjoe/apcu/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=944&rid=&cid=3">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>immutable_cache&nbsp; :eight:</summary>
