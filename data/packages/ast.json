@@ -2,12 +2,22 @@
     "category": "PHP",
     "deprecated": false,
     "description": "php-ast exports the AST internally used by PHP 7.\n     php-ast is significantly faster than PHP-Parser, because the AST construction is implemented in C.\n     However, php-ast may only parse code that is syntactically valid on the version of PHP it runs on.",
-    "latestReleaseDate": "2022-08-09T21:45:05+00:00",
-    "latestVersion": "1.1.0",
+    "latestReleaseDate": "2023-11-12T11:27:16+00:00",
+    "latestVersion": "1.1.1",
     "license": "BSD-3-Clause",
     "name": "ast",
     "php8Mentioned": true,
     "releases": {
+        "1.1.1": {
+            "version": "1.1.1",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "nikic",
+            "releaseDate": "2023-11-12T11:27:16+00:00",
+            "releaseNotes": "- Added support for PHP 8.3\n- In version 100, `AST_CLASS_CONST_GROUP` nodes have a `type` child node to represent typed class constants.",
+            "get": "https://pecl.php.net/get/ast-1.1.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "1.1.0": {
             "version": "1.1.0",
             "state": "stable",
