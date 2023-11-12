@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.235.0](https://github.com/claylo/pecl-info/compare/v1.234.0...v1.235.0) (2023-11-12)
+
+
+### Added
+
+* add ast 1.1.1 release ([ef58802](https://github.com/claylo/pecl-info/commit/ef58802788a132f2e5f147e8a516c644c2ad7e16))
+
 ## [1.234.0](https://github.com/claylo/pecl-info/compare/v1.233.0...v1.234.0) (2023-11-11)
 
 
