@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.237.0](https://github.com/claylo/pecl-info/compare/v1.236.0...v1.237.0) (2023-11-14)
+
+
+### Added
+
+* add zip 1.22.3 release ([31eefc2](https://github.com/claylo/pecl-info/commit/31eefc2a6a6af2c541b891455f1a8b9d5a489b21))
+
 ## [1.236.0](https://github.com/claylo/pecl-info/compare/v1.235.0...v1.236.0) (2023-11-13)
 
 
