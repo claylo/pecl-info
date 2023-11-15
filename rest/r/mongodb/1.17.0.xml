@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.17.0</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>alcaeus</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2023-11-15 08:03:27</da>
+ <n>** Build Failure
+* [PHPC-2287] - strict-prototypes build error when compiling with PHP 7.4 and 8.0
+** Bug
+* [PHPC-2225] - Validate PHP_ARG_ENABLE and PHP_ARG_WITH configure options
+* [PHPC-2275] - PHP version check in configure fails on Alpine
+** Epic
+* [PHPC-2256] - Build configuration improvements
+** New Feature
+* [PHPC-1000] - Allow MongoDB\BSON\Serializable to yield BSON document and array instances
+* [PHPC-2180] - Allow applications to register a LogSubscriber globally
+* [PHPC-2267] - Support BSON Binary subtype 0x08 (sensitive)
+* [PHPC-2280] - Prefer OpenSSL on MacOS to avoid segmentation faults in php-fpm
+** Task
+* [PHPC-1218] - Fix warning for missing M4 include files during PECL install
+* [PHPC-2155] - Remove prefixes for quoted shell variable references
+* [PHPC-2194] - Resolve warnings when building with autoconf 2.70+
+* [PHPC-2230] - Drop support for PHP 7.2 and 7.3
+* [PHPC-2259] - Sync BSON corpus tests for Decimal128 values with large exponents
+* [PHPC-2272] - Remove as_var_copy.m4
+* [PHPC-2274] - Apply libmongocrypt definitions to PHP_MONGODB_LIBMONGOCRYPT_CFLAGS
+* [PHPC-2282] - Remove trace logs during BSON encoding
+* [PHPC-2283] - Regenerate function arginfo using a stable version of PHP 8.2
+* [PHPC-2285] - Upgrade libmongocrypt to 1.8.2
+* [PHPC-2300] - Rename output variables for bundled libbson version constants
+* [PHPC-2302] - Rename output variables for bundled libmongoc version constants
+* [PHPC-2308] - Handle unknown and universal cases for AC_C_BIGENDIAN
+* [PHPC-2311] - Note with-libbson and with-libmongoc deprecation in configure help text
+* [PHPC-2312] - Remove substitution of MONGOC_ENABLE_SASL_GSSAPI in CheckSasl.m4
+* [PHPC-2314] - Require OpenSSL 1.0.1+ in CheckSSL.m4 to satisfy libmongoc requirements
+* [PHPC-2315] - Use PKG_CHECK_MODULES for detecting libmongoc, libbson, and libmongocrypt
+* [PHPC-2317] - Upgrade libmongoc to 1.25.0
+* [PHPC-2319] - Upgrade libmongoc to 1.25.1
+** Improvement
+* [PHPC-1017] - Allow configure options to be specified with PECL install
+* [PHPC-2219] - Prohibit serializing PackedArray instances as root documents
+* [PHPC-2245] - Implement ArrayAccess for BSON PackedArray instances
+* [PHPC-2246] - Implement ArrayAccess and property access for BSON document instances
+* [PHPC-2262] - Replace ICU dependency with vendored utf8proc library
+* [PHPC-2266] - Collect FaaS platform information as part of the environment information in driver handshake metadata
+* [PHPC-2269] - Provide internal iterator implementation for BSON iterator class
+* [PHPC-2289] - Prohibit passing LogSubscriber to Manager::addSubscriber()</n>
+ <f>2067214</f>
+ <g>https://pecl.php.net/get/mongodb-1.17.0</g>
+ <x xlink:href="package.1.17.0.xml"/>
+</r>
