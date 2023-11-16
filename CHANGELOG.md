@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.240.0](https://github.com/claylo/pecl-info/compare/v1.239.0...v1.240.0) (2023-11-16)
+
+
+### Added
+
+* add protobuf 3.25.1, ibm_db2 2.2.0, PDO_IBM 1.6.0 releases ([099d27a](https://github.com/claylo/pecl-info/commit/099d27aa7913ce23565a9d9fcd10ef6f025d0fdd))
+
 ## [1.239.0](https://github.com/claylo/pecl-info/compare/v1.238.0...v1.239.0) (2023-11-15)
 
 
