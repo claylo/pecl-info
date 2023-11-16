@@ -1020,12 +1020,12 @@
     },
     "ibm_db2": {
         "bugs": "https://github.com/php/pecl-database-ibm_db2/issues",
-        "docs": "https://php.net/ibm_db2",
+        "docs": "http://www.php.net/ibm_db2",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/php/pecl-database-ibm_db2",
         "stats": "https://pecl.php.net/package-stats.php?pid=440&rid=&cid=7",
-        "verified": true
+        "verified": false
     },
     "ice": {
         "bugs": "https://github.com/ice/framework/issues",
@@ -2016,12 +2016,12 @@
     },
     "pdo_ibm": {
         "bugs": "https://github.com/php/pecl-database-pdo_ibm/issues",
-        "docs": "http://php.net/pdo-ibm",
+        "docs": "https://php.net/pdo-ibm",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/php/pecl-database-pdo_ibm",
         "stats": "https://pecl.php.net/package-stats.php?pid=661&rid=&cid=7",
-        "verified": false
+        "verified": true
     },
     "pdo_informix": {
         "bugs": "",
@@ -2288,12 +2288,12 @@
         "verified": false
     },
     "protobuf": {
-        "bugs": "",
+        "bugs": "https://github.com/protocolbuffers/protobuf/issues",
         "docs": "",
         "home": "",
         "maintained": true,
-        "repo": "",
-        "stats": "",
+        "repo": "https://github.com/google/protobuf",
+        "stats": "https://pecl.php.net/package-stats.php?pid=997&rid=&cid=29",
         "verified": false
     },
     "protocolbuffers": {
