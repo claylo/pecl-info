@@ -2,12 +2,22 @@
     "category": "Database",
     "deprecated": false,
     "description": "ibm_db2 provides access to DB2 and compatible databases on PHP.\n  It uses a procedural interface. (PDO users should use PDO_IBM instead.)\n  \n  The following software is supported without any additional licenses:\n  - IBM Db2 (Linux/Unix/Windows)\n  - IBM Db2 for i (running on IBM i)\n  - Apache Derby\n  \n  The following software may require additional licenses on the database:\n  - IBM Db2 Connect for i (for using Db2 for i from LUW)\n  - IBM Db2 Connect for z (for using Db2 for z from LUW)\n  \n  Note that for IBM i, IBM and Seiden Group recommend new applications use ODBC instead.",
-    "latestReleaseDate": "2022-09-01T17:57:11+00:00",
-    "latestVersion": "2.1.7",
+    "latestReleaseDate": "2023-11-15T20:19:44+00:00",
+    "latestVersion": "2.2.0",
     "license": "Apache License 2.0",
     "name": "ibm_db2",
     "php8Mentioned": true,
     "releases": {
+        "2.2.0": {
+            "version": "2.2.0",
+            "state": "stable",
+            "license": "Apache License 2.0",
+            "releasedBy": "theprez",
+            "releaseDate": "2023-11-15T20:19:44+00:00",
+            "releaseNotes": "- Support for PHP 8.3\n- Support for boolean data type (IBM i 7.5, Db2/LUW 9.6)\n- Passwords and connection strings are marked as sensitive parameters\n- Build system improvements for finding driver library\n- CI and test suite improvements",
+            "get": "https://pecl.php.net/get/ibm_db2-2.2.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "2.1.7": {
             "version": "2.1.7",
             "state": "stable",

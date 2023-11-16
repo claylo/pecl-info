@@ -2,12 +2,22 @@
     "category": "Database",
     "deprecated": false,
     "description": "This extension provides an IBM database driver for PDO. This driver supports IBM DB2\nUniversal Database, IBM Cloudscape, Apache Derby databases and IDS (Informix Data Server).",
-    "latestReleaseDate": "2022-03-21T20:34:26+00:00",
-    "latestVersion": "1.5.0",
+    "latestReleaseDate": "2023-11-15T20:19:23+00:00",
+    "latestVersion": "1.6.0",
     "license": "Apache License 2.0",
     "name": "PDO_IBM",
     "php8Mentioned": true,
     "releases": {
+        "1.6.0": {
+            "version": "1.6.0",
+            "state": "stable",
+            "license": "Apache License 2.0",
+            "releasedBy": "theprez",
+            "releaseDate": "2023-11-15T20:19:23+00:00",
+            "releaseNotes": "- Support for PHP 8.3\n- Support for boolean data type (IBM i 7.5, Db2/LUW 9.6)\n- Fix incorrect buffer size for SQLBindParameter (causing -902 otherwise)\n- Fix error handling for IBM i attributes\n- Improve error reporting when SQLGetDiagRec fails\n- Build system improvements for finding driver library\n- CI and test suite improvements",
+            "get": "https://pecl.php.net/get/PDO_IBM-1.6.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "1.5.0": {
             "version": "1.5.0",
             "state": "stable",
