@@ -2016,12 +2016,12 @@
     },
     "pdo_ibm": {
         "bugs": "https://github.com/php/pecl-database-pdo_ibm/issues",
-        "docs": "https://php.net/pdo-ibm",
+        "docs": "http://php.net/pdo-ibm",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/php/pecl-database-pdo_ibm",
         "stats": "https://pecl.php.net/package-stats.php?pid=661&rid=&cid=7",
-        "verified": true
+        "verified": false
     },
     "pdo_informix": {
         "bugs": "",
