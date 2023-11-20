@@ -2220,7 +2220,7 @@
     },
     "pledge": {
         "bugs": "",
-        "docs": "",
+        "docs": "https://github.com/tvlooy/php-pledge",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/tvlooy/php-pledge",
