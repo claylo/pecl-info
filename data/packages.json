@@ -28425,12 +28425,22 @@
         "category": "Security",
         "deprecated": false,
         "description": "This is a PHP extension that adds support for OpenBSD's pledge and unveil system calls.",
-        "latestReleaseDate": "2023-11-20T14:58:18+00:00",
-        "latestVersion": "2.1.0",
+        "latestReleaseDate": "2023-11-21T22:44:00+00:00",
+        "latestVersion": "2.1.1",
         "license": "ISC License",
         "name": "pledge",
         "php8Mentioned": false,
         "releases": {
+            "2.1.1": {
+                "version": "2.1.1",
+                "state": "stable",
+                "license": "ISC License",
+                "releasedBy": "tvlooy",
+                "releaseDate": "2023-11-21T22:44:00+00:00",
+                "releaseNotes": "- set the ini values on runtime init, so we use set them with php_admin_value in fpm config",
+                "get": "https://pecl.php.net/get/pledge-2.1.1",
+                "SPDX-License-Identifier": "ISC"
+            },
             "2.1.0": {
                 "version": "2.1.0",
                 "state": "stable",
