@@ -1841,7 +1841,7 @@ This is a PHP extension that adds support for OpenBSD's pledge and unveil system
 ```
 <p><ul>
 <li>License: ISC</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/pledge-2.1.0">2.1.0</a> on 20 Nov 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/pledge-2.1.1">2.1.1</a> on 21 Nov 2023</li>
 <li>Release data in JSON: <a href="data/packages/pledge.json">pledge.json</a></li>
 <li><a href="https://pecl.php.net/packages/pledge">pledge on PECL</a></li>
 <li><a href="https://github.com/tvlooy/php-pledge">:book: Documentation</a> &nbsp; <a href="https://github.com/tvlooy/php-pledge">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1026&rid=&cid=54">:bar_chart: Stats</a></li>
