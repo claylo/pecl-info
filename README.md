@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (135)
+## Relevant Extensions (136)
 
 ### Authentication (2)
 
@@ -1841,7 +1841,7 @@ This is a PHP extension that adds support for OpenBSD's pledge and unveil system
 ```
 <p><ul>
 <li>License: ISC</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/pledge-2.1.1">2.1.1</a> on 21 Nov 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/pledge-2.1.2">2.1.2</a> on 22 Nov 2023</li>
 <li>Release data in JSON: <a href="data/packages/pledge.json">pledge.json</a></li>
 <li><a href="https://pecl.php.net/packages/pledge">pledge on PECL</a></li>
 <li><a href="https://github.com/tvlooy/php-pledge">:book: Documentation</a> &nbsp; <a href="https://github.com/tvlooy/php-pledge">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1026&rid=&cid=54">:bar_chart: Stats</a></li>
@@ -2066,7 +2066,7 @@ extension
 </details>
 
 ***
-### Text (4)
+### Text (5)
 
 <details><summary>base58</summary>
 <p>Encode and decode data with base58</p>
@@ -2110,6 +2110,20 @@ is modelled after the pdf extension.
 <li>Release data in JSON: <a href="data/packages/ps.json">ps.json</a></li>
 <li><a href="https://pecl.php.net/packages/ps">ps on PECL</a></li>
 <li><a href="https://www.php.net/manual/en/book.ps.php">:book: Documentation</a> &nbsp; <a href="https://github.com/steinm/ps">:sparkles: Source</a> &nbsp; <a href="https://github.com/steinm/ps/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=299&rid=&cid=36">:bar_chart: Stats</a></li>
+</ul></p><hr />
+</details>
+<details><summary>pspell</summary>
+<p>This extension allows you to check the spelling of a word and offer suggestions</p>
+
+```
+This extension allows you to check the spelling of a word and offer suggestions.
+```
+<p><ul>
+<li>License: PHP-3.01</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/pspell-1.0.0">1.0.0</a> on 22 Nov 2023</li>
+<li>Release data in JSON: <a href="data/packages/pspell.json">pspell.json</a></li>
+<li><a href="https://pecl.php.net/packages/pspell">pspell on PECL</a></li>
+<li><a href="https://github.com/php/php-pecl-pspell">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1081&rid=&cid=36">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>xdiff&nbsp; :eight:</summary>
