@@ -28425,12 +28425,22 @@
         "category": "Security",
         "deprecated": false,
         "description": "This is a PHP extension that adds support for OpenBSD's pledge and unveil system calls.",
-        "latestReleaseDate": "2023-11-21T22:44:00+00:00",
-        "latestVersion": "2.1.1",
+        "latestReleaseDate": "2023-11-22T14:56:38+00:00",
+        "latestVersion": "2.1.2",
         "license": "ISC License",
         "name": "pledge",
         "php8Mentioned": false,
         "releases": {
+            "2.1.2": {
+                "version": "2.1.2",
+                "state": "stable",
+                "license": "ISC License",
+                "releasedBy": "tvlooy",
+                "releaseDate": "2023-11-22T14:56:38+00:00",
+                "releaseNotes": "- rename ini settings",
+                "get": "https://pecl.php.net/get/pledge-2.1.2",
+                "SPDX-License-Identifier": "ISC"
+            },
             "2.1.1": {
                 "version": "2.1.1",
                 "state": "stable",
@@ -30576,6 +30586,30 @@
             }
         },
         "summary": "An extension to create PostScript files",
+        "SPDX-License-Identifier": "PHP-3.01"
+    },
+    "pspell": {
+        "category": "Text",
+        "deprecated": false,
+        "description": "This extension allows you to check the spelling of a word and offer suggestions.",
+        "latestReleaseDate": "2023-11-22T16:49:49+00:00",
+        "latestVersion": "1.0.0",
+        "license": "PHP 3.01",
+        "name": "pspell",
+        "php8Mentioned": false,
+        "releases": {
+            "1.0.0": {
+                "version": "1.0.0",
+                "state": "beta",
+                "license": "PHP 3.01",
+                "releasedBy": "derick",
+                "releaseDate": "2023-11-22T16:49:49+00:00",
+                "releaseNotes": "- Initial import after extraction from PHP core distribution.",
+                "get": "https://pecl.php.net/get/pspell-1.0.0",
+                "SPDX-License-Identifier": "PHP-3.01"
+            }
+        },
+        "summary": "This extension allows you to check the spelling of a word and offer suggestions",
         "SPDX-License-Identifier": "PHP-3.01"
     },
     "psr": {
