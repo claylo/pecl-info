@@ -3722,11 +3722,11 @@
         "verified": false
     },
     "pspell": {
-        "bugs": "",
+        "bugs": "https://github.com/php/pecl-text-pspell/issues",
         "docs": "",
-        "home": "",
+        "home": "https://github.com/php/pecl-text-pspell",
         "maintained": true,
-        "repo": "https://github.com/php/php-pecl-pspell",
+        "repo": "https://github.com/php/pecl-text-pspell",
         "stats": "https://pecl.php.net/package-stats.php?pid=1081&rid=&cid=36",
         "verified": false
     }

@@ -2,12 +2,22 @@
     "category": "Text",
     "deprecated": false,
     "description": "This extension allows you to check the spelling of a word and offer suggestions.",
-    "latestReleaseDate": "2023-11-22T16:49:49+00:00",
-    "latestVersion": "1.0.0",
+    "latestReleaseDate": "2023-11-23T09:35:12+00:00",
+    "latestVersion": "1.0.1",
     "license": "PHP 3.01",
     "name": "pspell",
     "php8Mentioned": false,
     "releases": {
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "stable",
+            "license": "PHP 3.01",
+            "releasedBy": "derick",
+            "releaseDate": "2023-11-23T09:35:12+00:00",
+            "releaseNotes": "- Fixed version (don't use PHP version) and tests.",
+            "get": "https://pecl.php.net/get/pspell-1.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
         "1.0.0": {
             "version": "1.0.0",
             "state": "beta",
@@ -19,6 +29,6 @@
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },
-    "summary": "This extension allows you to check the spelling of a word and offer suggestions",
+    "summary": "This extension allows you to check the spelling of a word and offer suggestions.",
     "SPDX-License-Identifier": "PHP-3.01"
 }

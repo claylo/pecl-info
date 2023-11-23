@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pspell">pspell</p>
+ <c>pecl.php.net</c>
+ <v>1.0.1</v>
+ <st>stable</st>
+ <l>PHP 3.01</l>
+ <m>derick</m>
+ <s>This extension allows you to check the spelling of a word and offer suggestions.</s>
+ <d>This extension allows you to check the spelling of a word and offer suggestions.</d>
+ <da>2023-11-23 09:35:12</da>
+ <n>- Fixed version (don&#039;t use PHP version) and tests.</n>
+ <f>10850</f>
+ <g>https://pecl.php.net/get/pspell-1.0.1</g>
+ <x xlink:href="package.1.0.1.xml"/>
+</r>
