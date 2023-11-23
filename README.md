@@ -2113,17 +2113,17 @@ is modelled after the pdf extension.
 </ul></p><hr />
 </details>
 <details><summary>pspell</summary>
-<p>This extension allows you to check the spelling of a word and offer suggestions</p>
+<p>This extension allows you to check the spelling of a word and offer suggestions.</p>
 
 ```
 This extension allows you to check the spelling of a word and offer suggestions.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/pspell-1.0.0">1.0.0</a> on 22 Nov 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/pspell-1.0.1">1.0.1</a> on 23 Nov 2023</li>
 <li>Release data in JSON: <a href="data/packages/pspell.json">pspell.json</a></li>
 <li><a href="https://pecl.php.net/packages/pspell">pspell on PECL</a></li>
-<li><a href="https://github.com/php/php-pecl-pspell">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1081&rid=&cid=36">:bar_chart: Stats</a></li>
+<li><a href="https://github.com/php/pecl-text-pspell">:house: Home</a> &nbsp; <a href="https://github.com/php/pecl-text-pspell">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-text-pspell/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1081&rid=&cid=36">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>xdiff&nbsp; :eight:</summary>

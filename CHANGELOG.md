@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.246.0](https://github.com/claylo/pecl-info/compare/v1.245.0...v1.246.0) (2023-11-23)
+
+
+### Added
+
+* add pspell 1.0.1 release ([cd17b9d](https://github.com/claylo/pecl-info/commit/cd17b9d2a4c2fe2d138a2b9cdbb4d03d712c9aab))
+
 ## [1.245.0](https://github.com/claylo/pecl-info/compare/v1.244.0...v1.245.0) (2023-11-22)
 
 
