@@ -762,7 +762,7 @@ Event-driven asynchronous and concurrent networking engine with high performance
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/swoole-5.1.0">5.1.0</a> on 29 Sep 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/swoole-5.1.1">5.1.1</a> on 26 Nov 2023</li>
 <li>Release data in JSON: <a href="data/packages/swoole.json">swoole.json</a></li>
 <li><a href="https://pecl.php.net/packages/swoole">swoole on PECL</a></li>
 <li><a href="https://www.swoole.co.uk/docs/">:book: Documentation</a> &nbsp; <a href="https://github.com/swoole/swoole-src">:house: Home</a> &nbsp; <a href="https://github.com/swoole/swoole-src">:sparkles: Source</a> &nbsp; <a href="https://github.com/swoole/swoole-src/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=957&rid=&cid=44">:bar_chart: Stats</a></li>
