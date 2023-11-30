@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xdebug">xdebug</p>
+ <c>pecl.php.net</c>
+ <v>3.3.0</v>
+ <st>stable</st>
+ <l>Xdebug-1.03</l>
+ <m>derick</m>
+ <s>Xdebug is a debugging and productivity extension for PHP</s>
+ <d>Xdebug and provides a range of features to improve the PHP development
+experience.
+
+Step Debugging
+    A way to step through your code in your IDE or editor while the script is
+    executing.
+
+Improvements to PHP&#039;s error reporting
+    An improved var_dump() function, stack traces for Notices, Warnings, Errors
+    and Exceptions to highlight the code path to the error
+
+Tracing
+    Writes every function call, with arguments and invocation location to disk.
+    Optionally also includes every variable assignment and return value for
+    each function.
+
+Profiling
+    Allows you, with the help of visualisation tools, to analyse the
+    performance of your PHP application and find bottlenecks.
+
+Code Coverage Analysis
+    To show which parts of your code base are executed when running unit tests
+    with PHP Unit.</d>
+ <da>2023-11-30 17:29:07</da>
+ <n>Thu, Nov 30, 2023 - Xdebug 3.3.0
+
++ New features:
+
+  - Fixed issue #2171: Support for PHP 8.3
+  - Fixed issue #1732: Add support for flame graph outputs
+  - Fixed issue #2219: Add control socket on Linux to obtain information and initiate debugger or breakpoint
+  - Fixed issue #1562: Add &#039;local_vars&#039; option to &#039;xdebug_get_function_stack&#039; to include variables for each st
+  - Fixed issue #2194: Add &#039;params_as_values&#039; option to &#039;xdebug_get_function_stack&#039; to return data as values
+  - Fixed issue #2195: Add &#039;from_exception&#039; option to &#039;xdebug_get_function_stack&#039; to return the stack trace where an exception was thrown
+
++ Improvements:
+
+  - Fixed issue #2077: Bring back xdebug.collect_params
+  - Fixed issue #2170: Show contents of Spl&#039;s ArrayIterator
+  - Fixed issue #2172: Show contents of SplDoublyLinkedList and SplPriorityQueue
+  - Fixed issue #2183: Bubble up exception message when using code evalution through protocol
+  - Fixed issue #2188: Step over with fibers does still step into fiber routines
+  - Fixed issue #2197: Add time index and memory to output of xdebug_get_function_stack
+  - Fixed issue #2203: Increase default max nesting time out from 256 to 512
+  - Fixed issue #2206: Optimise debugger breakpoints checking
+  - Fixed issue #2207: Add filenames for include and friends to flamegraph output
+  - Fixed issue #2217: xdebug://gateway pseudo host does not support IPv6
+
+= Fixed bugs:
+
+  - Fixed issue #450: &quot;Incomplete&quot; backtraces when an exception gets rethrown
+  - Fixed issue #476: Exception chaining does not work properly
+  - Fixed issue #1155: Local variables are not shown when execution break in error_handler
+  - Fixed issue #2000: Debugger evaluate expression: &quot;can&#039;t evaluate expression&quot;
+  - Fixed issue #2027: Branch/path code coverage for traits drops trait name since 3.1.0
+  - Fixed issue #2132: Errors when mountinfo does not have enough information for finding systemd private tmp directory
+  - Fixed issue #2200: PECL package file has wrong max PHP version number, and peclweb refuses the package
+  - Fixed issue #2208: Superfluous `...` (three omission dots) in var_dump()
+  - Fixed issue #2210: Flamegraphs crash when using `start_with_request`
+  - Fixed issue #2211: File wrappers get wrong filename location in stack.
+  - Fixed issue #2214: Array keys aren&#039;t escaped in traces</n>
+ <f>258684</f>
+ <g>https://pecl.php.net/get/xdebug-3.3.0</g>
+ <x xlink:href="package.3.3.0.xml"/>
+</r>
