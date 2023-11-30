@@ -44837,12 +44837,22 @@
         "category": "PHP",
         "deprecated": false,
         "description": "Xdebug and provides a range of features to improve the PHP development\nexperience.\n\nStep Debugging\n    A way to step through your code in your IDE or editor while the script is\n    executing.\n\nImprovements to PHP's error reporting\n    An improved var_dump() function, stack traces for Notices, Warnings, Errors\n    and Exceptions to highlight the code path to the error\n\nTracing\n    Writes every function call, with arguments and invocation location to disk.\n    Optionally also includes every variable assignment and return value for\n    each function.\n\nProfiling\n    Allows you, with the help of visualisation tools, to analyse the\n    performance of your PHP application and find bottlenecks.\n\nCode Coverage Analysis\n    To show which parts of your code base are executed when running unit tests\n    with PHP Unit.",
-        "latestReleaseDate": "2023-10-19T16:24:53+00:00",
-        "latestVersion": "3.3.0alpha3",
+        "latestReleaseDate": "2023-11-30T17:29:07+00:00",
+        "latestVersion": "3.3.0",
         "license": "Xdebug-1.03",
         "name": "xdebug",
         "php8Mentioned": true,
         "releases": {
+            "3.3.0": {
+                "version": "3.3.0",
+                "state": "stable",
+                "license": "Xdebug-1.03",
+                "releasedBy": "derick",
+                "releaseDate": "2023-11-30T17:29:07+00:00",
+                "releaseNotes": "Thu, Nov 30, 2023 - Xdebug 3.3.0\n\n+ New features:\n\n  - Fixed issue #2171: Support for PHP 8.3\n  - Fixed issue #1732: Add support for flame graph outputs\n  - Fixed issue #2219: Add control socket on Linux to obtain information and initiate debugger or breakpoint\n  - Fixed issue #1562: Add 'local_vars' option to 'xdebug_get_function_stack' to include variables for each st\n  - Fixed issue #2194: Add 'params_as_values' option to 'xdebug_get_function_stack' to return data as values\n  - Fixed issue #2195: Add 'from_exception' option to 'xdebug_get_function_stack' to return the stack trace where an exception was thrown\n\n+ Improvements:\n\n  - Fixed issue #2077: Bring back xdebug.collect_params\n  - Fixed issue #2170: Show contents of Spl's ArrayIterator\n  - Fixed issue #2172: Show contents of SplDoublyLinkedList and SplPriorityQueue\n  - Fixed issue #2183: Bubble up exception message when using code evalution through protocol\n  - Fixed issue #2188: Step over with fibers does still step into fiber routines\n  - Fixed issue #2197: Add time index and memory to output of xdebug_get_function_stack\n  - Fixed issue #2203: Increase default max nesting time out from 256 to 512\n  - Fixed issue #2206: Optimise debugger breakpoints checking\n  - Fixed issue #2207: Add filenames for include and friends to flamegraph output\n  - Fixed issue #2217: xdebug://gateway pseudo host does not support IPv6\n\n= Fixed bugs:\n\n  - Fixed issue #450: \"Incomplete\" backtraces when an exception gets rethrown\n  - Fixed issue #476: Exception chaining does not work properly\n  - Fixed issue #1155: Local variables are not shown when execution break in error_handler\n  - Fixed issue #2000: Debugger evaluate expression: \"can't evaluate expression\"\n  - Fixed issue #2027: Branch/path code coverage for traits drops trait name since 3.1.0\n  - Fixed issue #2132: Errors when mountinfo does not have enough information for finding systemd private tmp directory\n  - Fixed issue #2200: PECL package file has wrong max PHP version number, and peclweb refuses the package\n  - Fixed issue #2208: Superfluous `...` (three omission dots) in var_dump()\n  - Fixed issue #2210: Flamegraphs crash when using `start_with_request`\n  - Fixed issue #2211: File wrappers get wrong filename location in stack.\n  - Fixed issue #2214: Array keys aren't escaped in traces",
+                "get": "https://pecl.php.net/get/xdebug-3.3.0",
+                "SPDX-License-Identifier": null
+            },
             "3.3.0alpha3": {
                 "version": "3.3.0alpha3",
                 "state": "beta",

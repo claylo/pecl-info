@@ -13,7 +13,7 @@ Step Debugging
     A way to step through your code in your IDE or editor while the script is
     executing.
 
-Improvements to PHP's error reporting
+Improvements to PHP&#039;s error reporting
     An improved var_dump() function, stack traces for Notices, Warnings, Errors
     and Exceptions to highlight the code path to the error
 
