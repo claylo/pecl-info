@@ -1575,7 +1575,7 @@ memcached or similar memory based storages for serialized data.
 ```
 <p><ul>
 <li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/igbinary-3.2.14">3.2.14</a> on 26 Feb 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/igbinary-3.2.15">3.2.15</a> on 02 Dec 2023</li>
 <li>Release data in JSON: <a href="data/packages/igbinary.json">igbinary.json</a></li>
 <li><a href="https://pecl.php.net/packages/igbinary">igbinary on PECL</a></li>
 <li><a href="https://github.com/igbinary/igbinary/">:house: Home</a> &nbsp; <a href="https://github.com/igbinary/igbinary/">:sparkles: Source</a> &nbsp; <a href="https://github.com/igbinary/igbinary/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=895&rid=&cid=25">:bar_chart: Stats</a></li>
