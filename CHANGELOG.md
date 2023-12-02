@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.251.0](https://github.com/claylo/pecl-info/compare/v1.250.0...v1.251.0) (2023-12-02)
+
+
+### Added
+
+* add maxminddb 1.11.1, scoutapm 1.10.0 releases ([9c3e547](https://github.com/claylo/pecl-info/commit/9c3e547e690093bf8725a8a4e0ab918c36a1f90b))
+
 ## [1.250.0](https://github.com/claylo/pecl-info/compare/v1.249.0...v1.250.0) (2023-12-01)
 
 

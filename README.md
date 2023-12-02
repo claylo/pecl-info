@@ -125,7 +125,7 @@ over just using the base PHP userland library.
 ```
 <p><ul>
 <li>License: MIT</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/scoutapm-1.9.1">1.9.1</a> on 14 Dec 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/scoutapm-1.10.0">1.10.0</a> on 01 Dec 2023</li>
 <li>Release data in JSON: <a href="data/packages/scoutapm.json">scoutapm.json</a></li>
 <li><a href="https://pecl.php.net/packages/scoutapm">scoutapm on PECL</a></li>
 <li><a href="https://docs.scoutapm.com/#php-agent">:book: Documentation</a> &nbsp; <a href="https://scoutapm.com">:house: Home</a> &nbsp; <a href="https://github.com/scoutapp/scout-apm-php-ext">:sparkles: Source</a> &nbsp; <a href="https://github.com/scoutapp/scout-apm-php-ext/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1041&rid=&cid=2">:bar_chart: Stats</a></li>
@@ -839,7 +839,7 @@ that stores data indexed by IP address subnets (IPv4 or IPv6).
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/maxminddb-1.11.0">1.11.0</a> on 18 Oct 2021</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/maxminddb-1.11.1">1.11.1</a> on 02 Dec 2023</li>
 <li>Release data in JSON: <a href="data/packages/maxminddb.json">maxminddb.json</a></li>
 <li><a href="https://pecl.php.net/packages/maxminddb">maxminddb on PECL</a></li>
 <li><a href="https://github.com/maxmind/MaxMind-DB-Reader-php">:house: Home</a> &nbsp; <a href="https://github.com/maxmind/MaxMind-DB-Reader-php">:sparkles: Source</a> &nbsp; <a href="https://github.com/maxmind/MaxMind-DB-Reader-php/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1052&rid=&cid=33">:bar_chart: Stats</a></li>
