@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/scoutapm">scoutapm</p>
+ <c>pecl.php.net</c>
+ <v>1.10.0</v>
+ <st>stable</st>
+ <l>MIT</l>
+ <m>asgrim</m>
+ <s>Native Extension Component for ScoutAPM&#039;s PHP Agent</s>
+ <d>ScoutAPM&#039;s extension for PHP provides additional capabilities to application monitoring over just using the base PHP userland library.</d>
+ <da>2023-12-01 21:40:17</da>
+ <n>- Add support for PHP 8.3 (#135)
+- Fix CI build matrix (#137)
+- Add help for installing the ext in a Dockerfile (#136)</n>
+ <f>29041</f>
+ <g>https://pecl.php.net/get/scoutapm-1.10.0</g>
+ <x xlink:href="package.1.10.0.xml"/>
+</r>

@@ -2,12 +2,22 @@
     "category": "Benchmarking",
     "deprecated": false,
     "description": "ScoutAPM's extension for PHP provides additional capabilities to application monitoring over just using the base PHP userland library.",
-    "latestReleaseDate": "2022-12-14T12:03:53+00:00",
-    "latestVersion": "1.9.1",
+    "latestReleaseDate": "2023-12-01T21:40:17+00:00",
+    "latestVersion": "1.10.0",
     "license": "MIT",
     "name": "scoutapm",
     "php8Mentioned": true,
     "releases": {
+        "1.10.0": {
+            "version": "1.10.0",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "asgrim",
+            "releaseDate": "2023-12-01T21:40:17+00:00",
+            "releaseNotes": "- Add support for PHP 8.3 (#135)\n- Fix CI build matrix (#137)\n- Add help for installing the ext in a Dockerfile (#136)",
+            "get": "https://pecl.php.net/get/scoutapm-1.10.0",
+            "SPDX-License-Identifier": "MIT"
+        },
         "1.9.1": {
             "version": "1.9.1",
             "state": "stable",
