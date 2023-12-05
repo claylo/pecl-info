@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.17.1</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>jmikola</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2023-12-05 18:36:54</da>
+ <n>** Bug
+    * [PHPC-2325] - Null coalesce operator doesn&#039;t silence exception when accessing non-existent BSON field
+    * [PHPC-2328] - Wrong parameter names for BSON classes implementing ArrayAccess
+    * [PHPC-2332] - Fix bson_strerror_r compatibility for AIX
+
+** Task
+    * [PHPC-2322] - Remove ICU and add SRV to phpinfo() output
+    * [PHPC-2334] - Upgrade libmongoc to 1.25.2</n>
+ <f>2064698</f>
+ <g>https://pecl.php.net/get/mongodb-1.17.1</g>
+ <x xlink:href="package.1.17.1.xml"/>
+</r>
