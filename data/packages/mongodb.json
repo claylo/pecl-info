@@ -2,12 +2,22 @@
     "category": "Database",
     "deprecated": false,
     "description": "The purpose of this driver is to provide exceptionally thin glue between MongoDB\nand PHP, implementing only fundamental and performance-critical components\nnecessary to build a fully-functional MongoDB driver.",
-    "latestReleaseDate": "2023-11-15T08:03:27+00:00",
-    "latestVersion": "1.17.0",
+    "latestReleaseDate": "2023-12-05T18:36:54+00:00",
+    "latestVersion": "1.17.1",
     "license": "Apache License",
     "name": "mongodb",
     "php8Mentioned": true,
     "releases": {
+        "1.17.1": {
+            "version": "1.17.1",
+            "state": "stable",
+            "license": "Apache License",
+            "releasedBy": "jmikola",
+            "releaseDate": "2023-12-05T18:36:54+00:00",
+            "releaseNotes": "** Bug\n    * [PHPC-2325] - Null coalesce operator doesn't silence exception when accessing non-existent BSON field\n    * [PHPC-2328] - Wrong parameter names for BSON classes implementing ArrayAccess\n    * [PHPC-2332] - Fix bson_strerror_r compatibility for AIX\n\n** Task\n    * [PHPC-2322] - Remove ICU and add SRV to phpinfo() output\n    * [PHPC-2334] - Upgrade libmongoc to 1.25.2",
+            "get": "https://pecl.php.net/get/mongodb-1.17.1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "1.17.0": {
             "version": "1.17.0",
             "state": "stable",
