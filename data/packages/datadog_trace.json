@@ -2,12 +2,22 @@
     "category": "Benchmarking",
     "deprecated": false,
     "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-    "latestReleaseDate": "2023-11-29T10:25:36+00:00",
-    "latestVersion": "0.94.1",
+    "latestReleaseDate": "2023-12-07T14:11:34+00:00",
+    "latestVersion": "0.95.0",
     "license": "BSD 3-Clause",
     "name": "datadog_trace",
     "php8Mentioned": true,
     "releases": {
+        "0.95.0": {
+            "version": "0.95.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "anilm3",
+            "releaseDate": "2023-12-07T14:11:34+00:00",
+            "releaseNotes": "This release introduces support for arm64 and PHP 8.3 for appsec. Additionally, it adds schema extraction and classification to appsec, which forms the foundation for API security. Finally, the appsec extension has been officially incorporated into the dd-trace-php repository and will adhere to the same versioning scheme as the tracer and profiler.\n\n## Tracer\n### Added\n- Add http.route to CodeIgniter #2379\n\n### Fixed\n- Use http_code instead of connect_time to detect curl errors #2391\n- Fix handling of invalid persistent JSON #2381\n- Zero pad the tid and exclude it from OTel tracestate #2386\n\n### Internal changes\n- Update CI images to use PHP 8.3.0rc6, pin mongodb for PHP 7.2-7.3 #2382\n- Update CI images to 8.1.26, 8.2.13 and 8.3.0 and XDedug to 3.3.0 #2400 #2405\n- Add macrobenchmark runs #2408\n\n## Profiling\n### Internal changes\n- add allocation and exception count to event.json #2392\n\n## Application Security Management\n### Added\n- Implement sampler and processor trigger DataDog/dd-appsec-php#308\n- Zip long schemas DataDog/dd-appsec-php#315\n- Add compression library to helper DataDog/dd-appsec-php#316\n- Always serialize schemas when available #2406\n- Upgrade libddwaf to v1.15.1 #2377\n### Internal changes\n- Fix fuzzer build & increase RSS limit DataDog/dd-appsec-php#313\n- Build AppSec extension & helper in CI with support for Arm64 and PHP 8.3 #2344\n- AppSec extension & helper unit tests in CI #2349\n- Package appsec using new builds #2369",
+            "get": "https://pecl.php.net/get/datadog_trace-0.95.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "0.94.1": {
             "version": "0.94.1",
             "state": "stable",

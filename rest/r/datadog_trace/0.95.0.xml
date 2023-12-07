@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.95.0</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>anilm3</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2023-12-07 14:11:34</da>
+ <n>This release introduces support for arm64 and PHP 8.3 for appsec. Additionally, it adds schema extraction and classification to appsec, which forms the foundation for API security. Finally, the appsec extension has been officially incorporated into the dd-trace-php repository and will adhere to the same versioning scheme as the tracer and profiler.
+
+## Tracer
+### Added
+- Add http.route to CodeIgniter #2379
+
+### Fixed
+- Use http_code instead of connect_time to detect curl errors #2391
+- Fix handling of invalid persistent JSON #2381
+- Zero pad the tid and exclude it from OTel tracestate #2386
+
+### Internal changes
+- Update CI images to use PHP 8.3.0rc6, pin mongodb for PHP 7.2-7.3 #2382
+- Update CI images to 8.1.26, 8.2.13 and 8.3.0 and XDedug to 3.3.0 #2400 #2405
+- Add macrobenchmark runs #2408
+
+## Profiling
+### Internal changes
+- add allocation and exception count to event.json #2392
+
+## Application Security Management
+### Added
+- Implement sampler and processor trigger DataDog/dd-appsec-php#308
+- Zip long schemas DataDog/dd-appsec-php#315
+- Add compression library to helper DataDog/dd-appsec-php#316
+- Always serialize schemas when available #2406
+- Upgrade libddwaf to v1.15.1 #2377
+### Internal changes
+- Fix fuzzer build &amp; increase RSS limit DataDog/dd-appsec-php#313
+- Build AppSec extension &amp; helper in CI with support for Arm64 and PHP 8.3 #2344
+- AppSec extension &amp; helper unit tests in CI #2349
+- Package appsec using new builds #2369</n>
+ <f>762720</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.95.0</g>
+ <x xlink:href="package.0.95.0.xml"/>
+</r>
