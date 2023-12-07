@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (136)
+## Relevant Extensions (135)
 
 ### Authentication (2)
 
@@ -64,7 +64,7 @@ The Datadog PHP Tracer brings APM and distributed tracing to PHP.
 ```
 <p><ul>
 <li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/datadog_trace-0.94.1">0.94.1</a> on 29 Nov 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/datadog_trace-0.95.0">0.95.0</a> on 07 Dec 2023</li>
 <li>Release data in JSON: <a href="data/packages/datadog_trace.json">datadog_trace.json</a></li>
 <li><a href="https://pecl.php.net/packages/datadog_trace">datadog_trace on PECL</a></li>
 <li><a href="https://docs.datadoghq.com/tracing/languages/php/">:house: Home</a> &nbsp; <a href="https://github.com/DataDog/dd-trace-php">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1029&rid=&cid=2">:bar_chart: Stats</a></li>
@@ -594,7 +594,7 @@ located at http://www.iana.org/time-zones.
 </details>
 
 ***
-### Encryption (5)
+### Encryption (4)
 
 <details><summary>gnupg&nbsp; :eight:</summary>
 <p>wrapper around the gpgme library</p>
@@ -608,20 +608,6 @@ This extension provides methods to interact with gnupg
 <li>Release data in JSON: <a href="data/packages/gnupg.json">gnupg.json</a></li>
 <li><a href="https://pecl.php.net/packages/gnupg">gnupg on PECL</a></li>
 <li><a href="https://php.net/gnupg">:book: Documentation</a> &nbsp; <a href="https://github.com/php-gnupg/php-gnupg">:sparkles: Source</a> &nbsp; <a href="https://github.com/php-gnupg/php-gnupg/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=543&rid=&cid=6">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>libsodium&nbsp; :eight:</summary>
-<p>Wrapper for the Sodium cryptographic library</p>
-
-```
-A simple, low-level PHP extension for libsodium.
-```
-<p><ul>
-<li>License: BSD-2-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/libsodium-2.0.23">2.0.23</a> on 06 Dec 2020</li>
-<li>Release data in JSON: <a href="data/packages/libsodium.json">libsodium.json</a></li>
-<li><a href="https://pecl.php.net/packages/libsodium">libsodium on PECL</a></li>
-<li><a href="https://github.com/jedisct1/libsodium-php">:book: Documentation</a> &nbsp; <a href="https://github.com/jedisct1/libsodium-php">:house: Home</a> &nbsp; <a href="https://github.com/jedisct1/libsodium-php">:sparkles: Source</a> &nbsp; <a href="https://github.com/jedisct1/libsodium-php/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=974&rid=&cid=6">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>mcrypt&nbsp; :eight:</summary>
