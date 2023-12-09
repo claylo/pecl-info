@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (135)
+## Relevant Extensions (134)
 
 ### Authentication (2)
 
@@ -479,7 +479,7 @@ The Microsoft Drivers for PHP for SQL Server are PHP extensions that allow for t
 ```
 <p><ul>
 <li>License: MIT</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/pdo_sqlsrv-5.11.1">5.11.1</a> on 07 Sep 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/pdo_sqlsrv-5.12.0beta1">5.12.0beta1</a> on 09 Dec 2023</li>
 <li>Release data in JSON: <a href="data/packages/pdo_sqlsrv.json">pdo_sqlsrv.json</a></li>
 <li><a href="https://pecl.php.net/packages/pdo_sqlsrv">pdo_sqlsrv on PECL</a></li>
 <li><a href="https://github.com/Microsoft/msphpsql">:house: Home</a> &nbsp; <a href="https://github.com/Microsoft/msphpsql">:sparkles: Source</a> &nbsp; <a href="https://github.com/Microsoft/msphpsql/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=901&rid=&cid=7">:bar_chart: Stats</a></li>
@@ -563,7 +563,7 @@ The Microsoft Drivers for PHP for SQL Server are PHP extensions that allow for t
 ```
 <p><ul>
 <li>License: MIT</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/sqlsrv-5.11.1">5.11.1</a> on 07 Sep 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/sqlsrv-5.12.0beta1">5.12.0beta1</a> on 09 Dec 2023</li>
 <li>Release data in JSON: <a href="data/packages/sqlsrv.json">sqlsrv.json</a></li>
 <li><a href="https://pecl.php.net/packages/sqlsrv">sqlsrv on PECL</a></li>
 <li><a href="https://msdn.microsoft.com/en-us/library/cc296152(v=sql.105).aspx">:book: Documentation</a> &nbsp; <a href="https://github.com/Microsoft/msphpsql">:house: Home</a> &nbsp; <a href="https://github.com/Microsoft/msphpsql">:sparkles: Source</a> &nbsp; <a href="https://github.com/Microsoft/msphpsql/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=900&rid=&cid=7">:bar_chart: Stats</a></li>
@@ -770,7 +770,7 @@ uv provides access to underlying libuv functions
 </details>
 
 ***
-### File Formats (10)
+### File Formats (9)
 
 <details><summary>brotli</summary>
 <p>Brotli extension</p>
@@ -829,20 +829,6 @@ that stores data indexed by IP address subnets (IPv4 or IPv6).
 <li>Release data in JSON: <a href="data/packages/maxminddb.json">maxminddb.json</a></li>
 <li><a href="https://pecl.php.net/packages/maxminddb">maxminddb on PECL</a></li>
 <li><a href="https://github.com/maxmind/MaxMind-DB-Reader-php">:house: Home</a> &nbsp; <a href="https://github.com/maxmind/MaxMind-DB-Reader-php">:sparkles: Source</a> &nbsp; <a href="https://github.com/maxmind/MaxMind-DB-Reader-php/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1052&rid=&cid=33">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>rar&nbsp; :eight:</summary>
-<p>rar extension</p>
-
-```
-PHP extension for reading RAR archives using bundled unRAR library.
-```
-<p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/rar-4.2.0">4.2.0</a> on 06 Dec 2020</li>
-<li>Release data in JSON: <a href="data/packages/rar.json">rar.json</a></li>
-<li><a href="https://pecl.php.net/packages/rar">rar on PECL</a></li>
-<li><a href="http://www.php.net/rar">:book: Documentation</a> &nbsp; <a href="https://github.com/cataphract/php-rar">:sparkles: Source</a> &nbsp; <a href="https://github.com/cataphract/php-rar">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=349&rid=&cid=33">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>rpminfo&nbsp; :eight:</summary>
