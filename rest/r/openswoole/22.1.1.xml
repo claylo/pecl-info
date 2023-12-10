@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/openswoole">openswoole</p>
+ <c>pecl.php.net</c>
+ <v>22.1.1</v>
+ <st>stable</st>
+ <l>Apache 2.0</l>
+ <m>doubaokun</m>
+ <s>High Performance Programmatic Server for PHP with Async IO, Coroutines and Fibers</s>
+ <d>Build high-performance, scalable, concurrent TCP, UDP, Unix Socket, HTTP, WebSocket services with PHP and easy to use coroutine, fibers API.</d>
+ <da>2023-12-10 18:15:43</da>
+ <n>. Add missing c-ares configure opt (@nberlee)
+. Fix php_url_encode_hash_ex call for 8.3 (alpine builds) (@thecaliskan)
+. Fix cygwin build</n>
+ <f>1252802</f>
+ <g>https://pecl.php.net/get/openswoole-22.1.1</g>
+ <x xlink:href="package.22.1.1.xml"/>
+</r>
