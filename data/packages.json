@@ -23132,12 +23132,22 @@
         "category": "Event",
         "deprecated": false,
         "description": "Build high-performance, scalable, concurrent TCP, UDP, Unix Socket, HTTP, WebSocket services with PHP and easy to use coroutine, fibers API.",
-        "latestReleaseDate": "2023-11-08T11:31:51+00:00",
-        "latestVersion": "22.1.0",
+        "latestReleaseDate": "2023-12-10T18:15:43+00:00",
+        "latestVersion": "22.1.1",
         "license": "Apache 2.0",
         "name": "openswoole",
         "php8Mentioned": true,
         "releases": {
+            "22.1.1": {
+                "version": "22.1.1",
+                "state": "stable",
+                "license": "Apache 2.0",
+                "releasedBy": "doubaokun",
+                "releaseDate": "2023-12-10T18:15:43+00:00",
+                "releaseNotes": ". Add missing c-ares configure opt (@nberlee)\n. Fix php_url_encode_hash_ex call for 8.3 (alpine builds) (@thecaliskan)\n. Fix cygwin build",
+                "get": "https://pecl.php.net/get/openswoole-22.1.1",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "22.1.0": {
                 "version": "22.1.0",
                 "state": "stable",
