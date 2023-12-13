@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/luasandbox">LuaSandbox</p>
+ <c>pecl.php.net</c>
+ <v>4.1.2</v>
+ <st>stable</st>
+ <l>MIT</l>
+ <m>tstarling</m>
+ <s>Lua interpreter with limits and safe environment</s>
+ <d>LuaSandbox is an extension for running untrusted Lua code within a PHP web request. Code is run in a stripped-down, safe environment. Time and memory limits can be set.</d>
+ <da>2023-12-13 11:36:08</da>
+ <n>- Run the GC more aggressively, especially as usage approaches the limit (T349462)</n>
+ <f>70687</f>
+ <g>https://pecl.php.net/get/LuaSandbox-4.1.2</g>
+ <x xlink:href="package.4.1.2.xml"/>
+</r>
