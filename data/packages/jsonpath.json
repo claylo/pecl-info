@@ -2,12 +2,22 @@
     "category": "Tools and Utilities",
     "deprecated": false,
     "description": "This extension allows you to use the versatile JSONPath query language to extract the properties that you want from a decoded JSON document.",
-    "latestReleaseDate": "2022-03-20T09:52:28+00:00",
-    "latestVersion": "1.0.0",
+    "latestReleaseDate": "2023-12-14T13:10:44+00:00",
+    "latestVersion": "1.0.1",
     "license": "PHP License",
     "name": "jsonpath",
     "php8Mentioned": true,
     "releases": {
+        "1.0.1": {
+            "version": "1.0.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "viktor",
+            "releaseDate": "2023-12-14T13:10:44+00:00",
+            "releaseNotes": "* Issue #164 - refactor string unescaping by @mkaminski1988 in https://github.com/supermetrics-public/pecl-jsonpath/pull/165\n* Update benchmark chart with benchmarks from latest software versions and run in PHP 8.1 by @crocodele in https://github.com/supermetrics-public/pecl-jsonpath/pull/166\n* Remove release-drafter workflow. by @dawitnida in https://github.com/supermetrics-public/pecl-jsonpath/pull/167\n* Add PHP 8.3 nightly on Linux and PHP 8.2 on Windows to builds to run tests on by @crocodele in https://github.com/supermetrics-public/pecl-jsonpath/pull/168\n* relax test for 8.3 by @remicollet in https://github.com/supermetrics-public/pecl-jsonpath/pull/169\n* Add exception catching to usage section in README by @crocodele in https://github.com/supermetrics-public/pecl-jsonpath/pull/170",
+            "get": "https://pecl.php.net/get/jsonpath-1.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
         "1.0.0": {
             "version": "1.0.0",
             "state": "stable",

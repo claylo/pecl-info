@@ -2,12 +2,22 @@
     "category": "PHP",
     "deprecated": false,
     "description": "Xdebug and provides a range of features to improve the PHP development\nexperience.\n\nStep Debugging\n    A way to step through your code in your IDE or editor while the script is\n    executing.\n\nImprovements to PHP's error reporting\n    An improved var_dump() function, stack traces for Notices, Warnings, Errors\n    and Exceptions to highlight the code path to the error\n\nTracing\n    Writes every function call, with arguments and invocation location to disk.\n    Optionally also includes every variable assignment and return value for\n    each function.\n\nProfiling\n    Allows you, with the help of visualisation tools, to analyse the\n    performance of your PHP application and find bottlenecks.\n\nCode Coverage Analysis\n    To show which parts of your code base are executed when running unit tests\n    with PHP Unit.",
-    "latestReleaseDate": "2023-11-30T17:29:07+00:00",
-    "latestVersion": "3.3.0",
+    "latestReleaseDate": "2023-12-14T17:59:56+00:00",
+    "latestVersion": "3.3.1",
     "license": "Xdebug-1.03",
     "name": "xdebug",
     "php8Mentioned": true,
     "releases": {
+        "3.3.1": {
+            "version": "3.3.1",
+            "state": "stable",
+            "license": "Xdebug-1.03",
+            "releasedBy": "derick",
+            "releaseDate": "2023-12-14T17:59:56+00:00",
+            "releaseNotes": "Thu, Dec 14, 2023 - Xdebug 3.3.1\n\n= Fixed bugs:\n\n  - Fixed issue #2220: Test failure\n  - Fixed issue #2221: Crash when other extensions run PHP code without the stack being initialised yet\n  - Fixed issue #2223: Xdebug's constants are not available with `xdebug.mode=off`\n  - Fixed issue #2226: xdebug_get_function_stack(['from_exception']) does not always find stored trace\n  - Fixed issue #2227: Crash with return value and observers\n  - Fixed issue #2228: Return value can not be fetched with property_get if top frame is an internal function",
+            "get": "https://pecl.php.net/get/xdebug-3.3.1",
+            "SPDX-License-Identifier": null
+        },
         "3.3.0": {
             "version": "3.3.0",
             "state": "stable",
