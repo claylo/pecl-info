@@ -1744,7 +1744,7 @@ Code Coverage Analysis
 ```
 <p><ul>
 <li>License: </li>
-<li>Latest Release: <a href="https://pecl.php.net/get/xdebug-3.3.0">3.3.0</a> on 30 Nov 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/xdebug-3.3.1">3.3.1</a> on 14 Dec 2023</li>
 <li>Release data in JSON: <a href="data/packages/xdebug.json">xdebug.json</a></li>
 <li><a href="https://pecl.php.net/packages/xdebug">xdebug on PECL</a></li>
 <li><a href="https://xdebug.org/docs/">:book: Documentation</a> &nbsp; <a href="https://xdebug.org/">:house: Home</a> &nbsp; <a href="https://github.com/xdebug/xdebug">:sparkles: Source</a> &nbsp; <a href="https://bugs.xdebug.org">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=214&rid=&cid=25">:bar_chart: Stats</a></li>
@@ -2198,7 +2198,7 @@ properties that you want from a decoded JSON document.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/jsonpath-1.0.0">1.0.0</a> on 20 Mar 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/jsonpath-1.0.1">1.0.1</a> on 14 Dec 2023</li>
 <li>Release data in JSON: <a href="data/packages/jsonpath.json">jsonpath.json</a></li>
 <li><a href="https://pecl.php.net/packages/jsonpath">jsonpath on PECL</a></li>
 <li><a href="https://github.com/supermetrics-public/pecl-jsonpath">:sparkles: Source</a> &nbsp; <a href="https://github.com/supermetrics-public/pecl-jsonpath/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1062&rid=&cid=29">:bar_chart: Stats</a></li>
