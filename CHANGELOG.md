@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.260.0](https://github.com/claylo/pecl-info/compare/v1.259.0...v1.260.0) (2023-12-19)
+
+
+### Added
+
+* add imap 1.0.0, mcrypt 1.0.7, jsonpath 2.0.0 releases ([989311b](https://github.com/claylo/pecl-info/commit/989311b2ac7180638a9a33d8f9eef90f73461f63))
+
 ## [1.259.0](https://github.com/claylo/pecl-info/compare/v1.258.0...v1.259.0) (2023-12-14)
 
 

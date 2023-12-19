@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (134)
+## Relevant Extensions (133)
 
 ### Authentication (2)
 
@@ -594,7 +594,7 @@ located at http://www.iana.org/time-zones.
 </details>
 
 ***
-### Encryption (4)
+### Encryption (3)
 
 <details><summary>gnupg&nbsp; :eight:</summary>
 <p>wrapper around the gpgme library</p>
@@ -608,20 +608,6 @@ This extension provides methods to interact with gnupg
 <li>Release data in JSON: <a href="data/packages/gnupg.json">gnupg.json</a></li>
 <li><a href="https://pecl.php.net/packages/gnupg">gnupg on PECL</a></li>
 <li><a href="https://php.net/gnupg">:book: Documentation</a> &nbsp; <a href="https://github.com/php-gnupg/php-gnupg">:sparkles: Source</a> &nbsp; <a href="https://github.com/php-gnupg/php-gnupg/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=543&rid=&cid=6">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>mcrypt&nbsp; :eight:</summary>
-<p>Bindings for the libmcrypt library</p>
-
-```
-Provides bindings for the unmaintained libmcrypt.
-```
-<p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/mcrypt-1.0.6">1.0.6</a> on 28 Feb 2023</li>
-<li>Release data in JSON: <a href="data/packages/mcrypt.json">mcrypt.json</a></li>
-<li><a href="https://pecl.php.net/packages/mcrypt">mcrypt on PECL</a></li>
-<li><a href="http://www.php.net/mcrypt">:house: Home</a> &nbsp; <a href="https://github.com/php/pecl-encryption-mcrypt">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-encryption-mcrypt/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1003&rid=&cid=6">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>PKCS11&nbsp; :eight:</summary>
@@ -929,22 +915,8 @@ PHP extension for compression and decompression with Zstandard library.
 </details>
 
 ***
-### File System (2)
+### File System (1)
 
-<details><summary>inotify&nbsp; :eight:</summary>
-<p>Inotify</p>
-
-```
-Inotify bindings for PHP
-```
-<p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/inotify-3.0.0">3.0.0</a> on 18 Dec 2020</li>
-<li>Release data in JSON: <a href="data/packages/inotify.json">inotify.json</a></li>
-<li><a href="https://pecl.php.net/packages/inotify">inotify on PECL</a></li>
-<li><a href="https://php.net/inotify">:book: Documentation</a> &nbsp; <a href="https://github.com/arnaud-lb/php-inotify">:house: Home</a> &nbsp; <a href="https://github.com/arnaud-lb/php-inotify">:sparkles: Source</a> &nbsp; <a href="https://github.com/arnaud-lb/php-inotify/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=826&rid=&cid=9">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
 <details><summary>smbclient&nbsp; :eight:</summary>
 <p>A PHP wrapper for libsmbclient</p>
 
@@ -1163,8 +1135,23 @@ An effective,fast,stable log extension for PHP.
 </details>
 
 ***
-### Mail (1)
+### Mail (2)
 
+<details><summary>imap</summary>
+<p>An extension to operate with the IMAP protocol, as well as the NNTP,  POP3, and local mailbox access methods.</p>
+
+```
+An extension to operate with the IMAP protocol, as well as the NNTP, POP3, and local
+mailbox access methods.
+```
+<p><ul>
+<li>License: PHP-3.01</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/imap-1.0.0">1.0.0</a> on 19 Dec 2023</li>
+<li>Release data in JSON: <a href="data/packages/imap.json">imap.json</a></li>
+<li><a href="https://pecl.php.net/packages/imap">imap on PECL</a></li>
+<li><a href="https://github.com/php/pecl-mail-imap">:house: Home</a> &nbsp; <a href="https://github.com/php/pecl-mail-imap">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1082&rid=&cid=14">:bar_chart: Stats</a></li>
+</ul></p><hr />
+</details>
 <details><summary>mailparse&nbsp; :eight:</summary>
 <p>Email message manipulation</p>
 
@@ -2198,7 +2185,7 @@ properties that you want from a decoded JSON document.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/jsonpath-1.0.1">1.0.1</a> on 14 Dec 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/jsonpath-2.0.0">2.0.0</a> on 19 Dec 2023</li>
 <li>Release data in JSON: <a href="data/packages/jsonpath.json">jsonpath.json</a></li>
 <li><a href="https://pecl.php.net/packages/jsonpath">jsonpath on PECL</a></li>
 <li><a href="https://github.com/supermetrics-public/pecl-jsonpath">:sparkles: Source</a> &nbsp; <a href="https://github.com/supermetrics-public/pecl-jsonpath/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1062&rid=&cid=29">:bar_chart: Stats</a></li>
