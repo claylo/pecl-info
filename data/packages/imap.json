@@ -1,0 +1,24 @@
+{
+    "category": "Mail",
+    "deprecated": false,
+    "description": "An extension to operate with the IMAP protocol, as well as the NNTP, POP3, and local mailbox access methods.",
+    "latestReleaseDate": "2023-12-19T11:31:19+00:00",
+    "latestVersion": "1.0.0",
+    "license": "PHP 3.01",
+    "name": "imap",
+    "php8Mentioned": false,
+    "releases": {
+        "1.0.0": {
+            "version": "1.0.0",
+            "state": "stable",
+            "license": "PHP 3.01",
+            "releasedBy": "derick",
+            "releaseDate": "2023-12-19T11:31:19+00:00",
+            "releaseNotes": "- Initial PECL release",
+            "get": "https://pecl.php.net/get/imap-1.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "An extension to operate with the IMAP protocol, as well as the NNTP,  POP3, and local mailbox access methods.",
+    "SPDX-License-Identifier": "PHP-3.01"
+}

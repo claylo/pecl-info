@@ -15570,6 +15570,30 @@
         "summary": "Provides a wrapper to the ImageMagick library.",
         "SPDX-License-Identifier": "PHP-3.01"
     },
+    "imap": {
+        "category": "Mail",
+        "deprecated": false,
+        "description": "An extension to operate with the IMAP protocol, as well as the NNTP, POP3, and local mailbox access methods.",
+        "latestReleaseDate": "2023-12-19T11:31:19+00:00",
+        "latestVersion": "1.0.0",
+        "license": "PHP 3.01",
+        "name": "imap",
+        "php8Mentioned": false,
+        "releases": {
+            "1.0.0": {
+                "version": "1.0.0",
+                "state": "stable",
+                "license": "PHP 3.01",
+                "releasedBy": "derick",
+                "releaseDate": "2023-12-19T11:31:19+00:00",
+                "releaseNotes": "- Initial PECL release",
+                "get": "https://pecl.php.net/get/imap-1.0.0",
+                "SPDX-License-Identifier": "PHP-3.01"
+            }
+        },
+        "summary": "An extension to operate with the IMAP protocol, as well as the NNTP,  POP3, and local mailbox access methods.",
+        "SPDX-License-Identifier": "PHP-3.01"
+    },
     "imlib2": {
         "category": "Images",
         "deprecated": false,
@@ -16643,12 +16667,22 @@
         "category": "Tools and Utilities",
         "deprecated": false,
         "description": "This extension allows you to use the versatile JSONPath query language to extract the properties that you want from a decoded JSON document.",
-        "latestReleaseDate": "2023-12-14T13:10:44+00:00",
-        "latestVersion": "1.0.1",
+        "latestReleaseDate": "2023-12-19T09:10:21+00:00",
+        "latestVersion": "2.0.0",
         "license": "PHP License",
         "name": "jsonpath",
         "php8Mentioned": true,
         "releases": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "state": "stable",
+                "license": "PHP License",
+                "releasedBy": "viktor",
+                "releaseDate": "2023-12-19T09:10:21+00:00",
+                "releaseNotes": "* Drop support for PHP 7.4 by @crocodele in https://github.com/supermetrics-public/pecl-jsonpath/pull/172\n* Test with PHP 8.3 on Windows, unify naming and formatting in workflow files by @crocodele in https://github.com/supermetrics-public/pecl-jsonpath/pull/173",
+                "get": "https://pecl.php.net/get/jsonpath-2.0.0",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
             "1.0.1": {
                 "version": "1.0.1",
                 "state": "stable",
@@ -18314,12 +18348,22 @@
         "category": "Encryption",
         "deprecated": false,
         "description": "Provides bindings for the unmaintained libmcrypt.",
-        "latestReleaseDate": "2023-02-28T16:43:06+00:00",
-        "latestVersion": "1.0.6",
+        "latestReleaseDate": "2023-12-19T10:55:27+00:00",
+        "latestVersion": "1.0.7",
         "license": "PHP License",
         "name": "mcrypt",
         "php8Mentioned": true,
         "releases": {
+            "1.0.7": {
+                "version": "1.0.7",
+                "state": "stable",
+                "license": "PHP License",
+                "releasedBy": "derick",
+                "releaseDate": "2023-12-19T10:55:27+00:00",
+                "releaseNotes": "- Make release to advertise PHP 8.3 support, which it already had.",
+                "get": "https://pecl.php.net/get/mcrypt-1.0.7",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
             "1.0.6": {
                 "version": "1.0.6",
                 "state": "stable",
