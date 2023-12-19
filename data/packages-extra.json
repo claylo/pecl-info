@@ -1411,7 +1411,7 @@
         "bugs": "https://github.com/php/pecl-encryption-mcrypt/issues",
         "docs": "",
         "home": "http://www.php.net/mcrypt",
-        "maintained": true,
+        "maintained": false,
         "repo": "https://github.com/php/pecl-encryption-mcrypt",
         "stats": "https://pecl.php.net/package-stats.php?pid=1003&rid=&cid=6",
         "verified": false
@@ -3728,6 +3728,15 @@
         "maintained": true,
         "repo": "https://github.com/php/pecl-text-pspell",
         "stats": "https://pecl.php.net/package-stats.php?pid=1081&rid=&cid=36",
+        "verified": false
+    },
+    "imap": {
+        "bugs": "",
+        "docs": "",
+        "home": "https://github.com/php/pecl-mail-imap",
+        "maintained": true,
+        "repo": "https://github.com/php/pecl-mail-imap",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1082&rid=&cid=14",
         "verified": false
     }
 }

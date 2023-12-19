@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/imap">imap</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0</v>
+ <st>stable</st>
+ <l>PHP 3.01</l>
+ <m>derick</m>
+ <s>An extension to operate with the IMAP protocol, as well as the NNTP,
+ POP3, and local mailbox access methods.</s>
+ <d>An extension to operate with the IMAP protocol, as well as the
+ NNTP, POP3, and local mailbox access methods.</d>
+ <da>2023-12-19 11:31:19</da>
+ <n>- Initial PECL release</n>
+ <f>63260</f>
+ <g>https://pecl.php.net/get/imap-1.0.0</g>
+ <x xlink:href="package.1.0.0.xml"/>
+</r>
