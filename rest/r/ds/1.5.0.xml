@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ds">ds</p>
+ <c>pecl.php.net</c>
+ <v>1.5.0</v>
+ <st>stable</st>
+ <l>MIT License</l>
+ <m>rtheunissen</m>
+ <s>Data Structures</s>
+ <d>Specialized data structures as efficient alternatives to the PHP array</d>
+ <da>2023-12-19 17:08:36</da>
+ <n>- Support for PHP 8.3
+- Fix #194 @nielsdos
+- Fix #200 @nielsdos</n>
+ <f>53300</f>
+ <g>https://pecl.php.net/get/ds-1.5.0</g>
+ <x xlink:href="package.1.5.0.xml"/>
+</r>
