@@ -1849,7 +1849,7 @@ Data Structures for PHP 7
 ```
 <p><ul>
 <li>License: MIT</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/ds-1.4.0">1.4.0</a> on 13 Dec 2021</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/ds-1.5.0">1.5.0</a> on 19 Dec 2023</li>
 <li>Release data in JSON: <a href="data/packages/ds.json">ds.json</a></li>
 <li><a href="https://pecl.php.net/packages/ds">ds on PECL</a></li>
 <li><a href="https://www.php.net/ds">:book: Documentation</a> &nbsp; <a href="http://github.com/php-ds">:house: Home</a> &nbsp; <a href="http://github.com/php-ds/extension">:sparkles: Source</a> &nbsp; <a href="https://github.com/php-ds/ext-ds/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=996&rid=&cid=27">:bar_chart: Stats</a></li>
