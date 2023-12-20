@@ -2,12 +2,22 @@
     "category": "Benchmarking",
     "deprecated": false,
     "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-    "latestReleaseDate": "2023-12-07T14:11:34+00:00",
-    "latestVersion": "0.95.0",
+    "latestReleaseDate": "2023-12-20T13:03:41+00:00",
+    "latestVersion": "0.96.0",
     "license": "BSD 3-Clause",
     "name": "datadog_trace",
     "php8Mentioned": true,
     "releases": {
+        "0.96.0": {
+            "version": "0.96.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "pierotibou",
+            "releaseDate": "2023-12-20T13:03:41+00:00",
+            "releaseNotes": "Exception profiling is now enabled by default. You can manage it using the `DD_PROFILING_EXCEPTION_ENABLED` environment variable or the `datadog.profiling.exception_enabled` setting in the INI file. Although the `DD_PROFILING_EXPERIMENTAL_EXCEPTION_ENABLED` environment variable and `datadog.profiling.experimental_exception_enabled` INI setting still work, the new ones take precedence.\n\n## Tracer\n\n### Added\n- Implement extended sampling #2384\n\n### Fixed\n- Add PHP 8.3 to supported versions #2417 (thank you @markwalet)\n- OTel: Fix analytics.event override (#2409)\n- Fix dddbs service mapping #2413\n- WordPress: Avoid Setting User ID When Unauthenticated #2424\n\n### Internal Changes\n- CI: Handle latest Alpine 3.19 image #2418\n- CI: Complements PHP 8.3 test suites #2419\n\n## Profiling\n\n### Added\n- GA exception profiling #2403\n- allow enabling all experimental features using `datadog.profiling.experimental_features_enabled` #2385\n\n### Internal Changes\n- run prof-correctness nightly in `master` branch #2420",
+            "get": "https://pecl.php.net/get/datadog_trace-0.96.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "0.95.0": {
             "version": "0.95.0",
             "state": "stable",

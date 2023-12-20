@@ -2,12 +2,22 @@
     "category": "Database",
     "deprecated": false,
     "description": "The purpose of this driver is to provide exceptionally thin glue between MongoDB\nand PHP, implementing only fundamental and performance-critical components\nnecessary to build a fully-functional MongoDB driver.",
-    "latestReleaseDate": "2023-12-05T18:36:54+00:00",
-    "latestVersion": "1.17.1",
+    "latestReleaseDate": "2023-12-20T17:38:39+00:00",
+    "latestVersion": "1.17.2",
     "license": "Apache License",
     "name": "mongodb",
     "php8Mentioned": true,
     "releases": {
+        "1.17.2": {
+            "version": "1.17.2",
+            "state": "stable",
+            "license": "Apache License",
+            "releasedBy": "jmikola",
+            "releaseDate": "2023-12-20T17:38:39+00:00",
+            "releaseNotes": "** Bug\n    * [PHPC-2337] - Performance degradation in 1.17 due to trace logging\n\n** Task\n    * [PHPC-2335] - Replace usage of hub with gh in GitHub Action workflows",
+            "get": "https://pecl.php.net/get/mongodb-1.17.2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "1.17.1": {
             "version": "1.17.1",
             "state": "stable",
