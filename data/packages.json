@@ -27985,12 +27985,22 @@
         "category": "System",
         "deprecated": false,
         "description": "Phalcon is an open source full stack framework for PHP, written as a C-extension. Phalcon is optimized for high\n    performance. Its unique architecture allows the framework to always be memory resident, offering its functionality\n    whenever its needed, without expensive file stats and file reads that traditional PHP frameworks employ.",
-        "latestReleaseDate": "2023-10-25T15:22:57+00:00",
-        "latestVersion": "5.4.0",
+        "latestReleaseDate": "2023-12-25T18:28:30+00:00",
+        "latestVersion": "5.5.0",
         "license": "BSD 3-Clause License",
         "name": "phalcon",
         "php8Mentioned": true,
         "releases": {
+            "5.5.0": {
+                "version": "5.5.0",
+                "state": "stable",
+                "license": "BSD 3-Clause License",
+                "releasedBy": "niden",
+                "releaseDate": "2023-12-25T18:28:30+00:00",
+                "releaseNotes": "Full changelog can be found at: https://github.com/phalcon/cphalcon/blob/master/CHANGELOG-5.0.md\n\n### Changed\n\n- Shifted minimal support from PHP 7.4 to PHP 8.0 [#16477](https://github.com/phalcon/cphalcon/issues/16477)\n- Changed `Phalcon\\Mvc\\Model::toArray` to use getters if present [#16320](https://github.com/phalcon/cphalcon/issues/16320)\n- Adjusted return types identical to original interface `int|false` in `Phalcon\\Session\\Adapter\\*::gc()` [#16477](https://github.com/phalcon/cphalcon/issues/16477)\n- Changed return type of `Phalcon\\Config\\Adapter\\Ini::cast()` to `mixed` [#16477](https://github.com/phalcon/cphalcon/issues/16477)\n\n### Added\n\n- Added support for PHP 8.3 [#16477](https://github.com/phalcon/cphalcon/issues/16477)\n\n### Fixed\n\n- Fixed `Phalcon\\Filter\\Validation\\Validator\\Numericality` to return false when input has spaces [#16461](https://github.com/phalcon/cphalcon/issues/16461)\n- Fixed `Phalcon\\Mvc\\Model\\ResultsetSimple::toArray` to ignore numeric indexes in case results come as not `fetch_assoc` [#16467](https://github.com/phalcon/cphalcon/issues/16467)",
+                "get": "https://pecl.php.net/get/phalcon-5.5.0",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "5.4.0": {
                 "version": "5.4.0",
                 "state": "stable",
