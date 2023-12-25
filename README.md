@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (133)
+## Relevant Extensions (132)
 
 ### Authentication (2)
 
@@ -1169,7 +1169,7 @@ It can deal with rfc822 and rfc2045 (MIME) compliant messages.
 </details>
 
 ***
-### Math (5)
+### Math (4)
 
 <details><summary>decimal&nbsp; :eight:</summary>
 <p>Arbitrary precision floating-point decimal</p>
@@ -1204,20 +1204,6 @@ The extension currently has implementations of the Haversine and
 <li>Release data in JSON: <a href="data/packages/geospatial.json">geospatial.json</a></li>
 <li><a href="https://pecl.php.net/packages/geospatial">geospatial on PECL</a></li>
 <li><a href="https://github.com/php-geospatial/geospatial">:sparkles: Source</a> &nbsp; <a href="https://github.com/php-geospatial/geospatial/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=992&rid=&cid=15">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>orng</summary>
-<p>orng - Object scoped PRNG Extension</p>
-
-```
-Provides a past PHP compatible PRNG implementation of object scope.
-```
-<p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/orng-0.0.3">0.0.3</a> on 23 Dec 2020</li>
-<li>Release data in JSON: <a href="data/packages/orng.json">orng.json</a></li>
-<li><a href="https://pecl.php.net/packages/orng">orng on PECL</a></li>
-<li><a href="https://github.com/zeriyoshi/php-ext-orng">:house: Home</a> &nbsp; <a href="https://github.com/zeriyoshi/php-ext-orng">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1054&rid=&cid=15">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>Tensor&nbsp; :eight:</summary>
@@ -1967,7 +1953,7 @@ Phalcon is an open source full stack framework for PHP, written as a C-extension
 ```
 <p><ul>
 <li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/phalcon-5.4.0">5.4.0</a> on 25 Oct 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/phalcon-5.5.0">5.5.0</a> on 25 Dec 2023</li>
 <li>Release data in JSON: <a href="data/packages/phalcon.json">phalcon.json</a></li>
 <li><a href="https://pecl.php.net/packages/phalcon">phalcon on PECL</a></li>
 <li><a href="https://docs.phalcon.io">:book: Documentation</a> &nbsp; <a href="https://phalcon.io">:house: Home</a> &nbsp; <a href="https://github.com/phalcon/cphalcon">:sparkles: Source</a> &nbsp; <a href="https://github.com/phalcon/cphalcon/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1042&rid=&cid=37">:bar_chart: Stats</a></li>
