@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (132)
+## Relevant Extensions (131)
 
 ### Authentication (2)
 
@@ -1335,7 +1335,7 @@ This is an extension to efficiently schedule I/O, time and signal based
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/event-3.1.0">3.1.0</a> on 26 Dec 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/event-3.1.1">3.1.1</a> on 29 Dec 2023</li>
 <li>Release data in JSON: <a href="data/packages/event.json">event.json</a></li>
 <li><a href="https://pecl.php.net/packages/event">event on PECL</a></li>
 <li><a href="http://docs.php.net/event">:book: Documentation</a> &nbsp; <a href="https://bitbucket.org/osmanov/pecl-event">:house: Home</a> &nbsp; <a href="https://bitbucket.org/osmanov/pecl-event/src">:sparkles: Source</a> &nbsp; <a href="https://bitbucket.org/osmanov/pecl-event/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=418&rid=&cid=16">:bar_chart: Stats</a></li>
@@ -2011,22 +2011,8 @@ extension
 </details>
 
 ***
-### Text (5)
+### Text (4)
 
-<details><summary>base58</summary>
-<p>Encode and decode data with base58</p>
-
-```
-PHP extension for base58 encoding and decoding using the Bitcoin alphabet
-```
-<p><ul>
-<li>License: MIT</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/base58-1.0.2">1.0.2</a> on 27 Dec 2020</li>
-<li>Release data in JSON: <a href="data/packages/base58.json">base58.json</a></li>
-<li><a href="https://pecl.php.net/packages/base58">base58 on PECL</a></li>
-<li><a href="https://github.com/legalthings/base58-php-ext">:sparkles: Source</a> &nbsp; <a href="https://github.com/improved-php-library/base58-php-ext/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1033&rid=&cid=36">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
 <details><summary>parle&nbsp; :eight:</summary>
 <p>Parsing and lexing</p>
 
