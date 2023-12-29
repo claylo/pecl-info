@@ -2,12 +2,22 @@
     "category": "Networking",
     "deprecated": false,
     "description": "This is an extension to efficiently schedule I/O, time and signal based\n  events using the best I/O notification mechanism available for specific platform.\n  This is a port of libevent to the PHP infrastructure.\n\n  Version 1.0.0 introduces:\n  * new OO API breaking backwards compatibility\n  * support of libevent 2+ including HTTP, DNS, OpenSSL and the event listener.\n\n  Note, event-1.0.0 and greater is not compatible with previous versions.",
-    "latestReleaseDate": "2023-12-26T07:19:13+00:00",
-    "latestVersion": "3.1.0",
+    "latestReleaseDate": "2023-12-29T09:13:17+00:00",
+    "latestVersion": "3.1.1",
     "license": "PHP",
     "name": "event",
     "php8Mentioned": true,
     "releases": {
+        "3.1.1": {
+            "version": "3.1.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "osmanov",
+            "releaseDate": "2023-12-29T09:13:17+00:00",
+            "releaseNotes": "Fixed build in RHEL 7 and 8 (thanks to Remi Collet).",
+            "get": "https://pecl.php.net/get/event-3.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
         "3.1.0": {
             "version": "3.1.0",
             "state": "stable",
