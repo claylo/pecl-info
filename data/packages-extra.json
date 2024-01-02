@@ -3046,12 +3046,12 @@
         "verified": false
     },
     "timezonedb": {
-        "bugs": "https://github.com/php/pecl-datetime-timezonedb/issues",
+        "bugs": "",
         "docs": "",
         "home": "",
         "maintained": true,
-        "repo": "https://github.com/php/pecl-datetime-timezonedb",
-        "stats": "https://pecl.php.net/package-stats.php?pid=536&rid=&cid=8",
+        "repo": "",
+        "stats": "",
         "verified": false
     },
     "tk": {

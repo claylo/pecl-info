@@ -2,12 +2,22 @@
     "category": "Date and Time",
     "deprecated": false,
     "description": "This extension is a drop-in replacement for the builtin timezone database that\ncomes with PHP. You should only install this extension in case you need to get\na later version of the timezone database than the one that ships with PHP.\n\nThe data that this extension uses comes from the \"Olson\" database, which is\nlocated at http://www.iana.org/time-zones.",
-    "latestReleaseDate": "2023-03-29T10:50:49+00:00",
-    "latestVersion": "2023.3",
+    "latestReleaseDate": "2024-01-02T10:18:36+00:00",
+    "latestVersion": "2023.4",
     "license": "PHP",
     "name": "timezonedb",
     "php8Mentioned": false,
     "releases": {
+        "2023.4": {
+            "version": "2023.4",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "derick",
+            "releaseDate": "2024-01-02T10:18:36+00:00",
+            "releaseNotes": "Updated to version 2023.4 (2023d)",
+            "get": "https://pecl.php.net/get/timezonedb-2023.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
         "2023.3": {
             "version": "2023.3",
             "state": "stable",
