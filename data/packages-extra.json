@@ -3731,7 +3731,7 @@
         "verified": false
     },
     "imap": {
-        "bugs": "",
+        "bugs": "https://github.com/php/pecl-mail-imap/issues",
         "docs": "",
         "home": "https://github.com/php/pecl-mail-imap",
         "maintained": true,
