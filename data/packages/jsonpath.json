@@ -2,12 +2,22 @@
     "category": "Tools and Utilities",
     "deprecated": false,
     "description": "This extension allows you to use the versatile JSONPath query language to extract the properties that you want from a decoded JSON document.",
-    "latestReleaseDate": "2023-12-19T09:10:21+00:00",
-    "latestVersion": "2.0.0",
+    "latestReleaseDate": "2024-01-08T15:55:27+00:00",
+    "latestVersion": "2.1.0",
     "license": "PHP License",
     "name": "jsonpath",
     "php8Mentioned": true,
     "releases": {
+        "2.1.0": {
+            "version": "2.1.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "viktor",
+            "releaseDate": "2024-01-08T15:55:27+00:00",
+            "releaseNotes": "* Add support for PHP 8.4 (nightly) and run tests also on PHP 8.4 by @crocodele in https://github.com/supermetrics-public/pecl-jsonpath/pull/176\n* Remove some tests specific to PHP 7 by @crocodele in https://github.com/supermetrics-public/pecl-jsonpath/pull/177",
+            "get": "https://pecl.php.net/get/jsonpath-2.1.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
         "2.0.0": {
             "version": "2.0.0",
             "state": "stable",
