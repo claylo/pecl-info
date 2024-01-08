@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/jsonpath">jsonpath</p>
+ <c>pecl.php.net</c>
+ <v>2.1.0</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>viktor</m>
+ <s>Extract data using JSONPath notation</s>
+ <d>This extension allows you to use the versatile JSONPath query language to extract the properties that you want from a decoded JSON document.</d>
+ <da>2024-01-08 15:55:27</da>
+ <n>* Add support for PHP 8.4 (nightly) and run tests also on PHP 8.4 by @crocodele in https://github.com/supermetrics-public/pecl-jsonpath/pull/176
+* Remove some tests specific to PHP 7 by @crocodele in https://github.com/supermetrics-public/pecl-jsonpath/pull/177</n>
+ <f>52198</f>
+ <g>https://pecl.php.net/get/jsonpath-2.1.0</g>
+ <x xlink:href="package.2.1.0.xml"/>
+</r>
