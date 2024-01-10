@@ -2,12 +2,22 @@
     "category": "System",
     "deprecated": false,
     "description": "Phalcon is an open source full stack framework for PHP, written as a C-extension. Phalcon is optimized for high\n    performance. Its unique architecture allows the framework to always be memory resident, offering its functionality\n    whenever its needed, without expensive file stats and file reads that traditional PHP frameworks employ.",
-    "latestReleaseDate": "2023-12-25T18:28:30+00:00",
-    "latestVersion": "5.5.0",
+    "latestReleaseDate": "2024-01-09T23:42:28+00:00",
+    "latestVersion": "5.6.0",
     "license": "BSD 3-Clause License",
     "name": "phalcon",
     "php8Mentioned": true,
     "releases": {
+        "5.6.0": {
+            "version": "5.6.0",
+            "state": "stable",
+            "license": "BSD 3-Clause License",
+            "releasedBy": "niden",
+            "releaseDate": "2024-01-09T23:42:28+00:00",
+            "releaseNotes": "Full changelog can be found at: https://github.com/phalcon/cphalcon/blob/master/CHANGELOG-5.0.md\n\n### Changed\n\n- Changed `Phalcon\\Db\\Adapter\\Pdo\\Mysql` to not use specific flags for `PDO` (`PDO::ATTR_EMULATE_PREPARES` or `PDO::ATTR_STRINGIFY_FETCHES`) for performance reasons [#16474](https://github.com/phalcon/cphalcon/issues/16474)\n- Merged `Phalcon\\Db\\AbstractDb` with `Phalcon\\Db\\Adapter\\AbstractAdapter` since the former was not used [#16474](https://github.com/phalcon/cphalcon/issues/16474)\n\n### Added\n\n- Added `resetColumns()`, `resetFrom()`, `resetWhere()`, `resetGroupBy()`, `resetHaving()`, `resetOrderBy()`, `resetLimit()`, `resetFlags()` to the `Phalcon\\Datamapper\\Query\\AbstractQuery` to allow resetting query filters.\n\n### Fixed\n\n- Fixed `Phalcon\\Mvc\\Model::count` to ignore the `order` parameter (needed for Posgresql) [#16471](https://github.com/phalcon/cphalcon/issues/16471)\n- Fixed `Phalcon\\Mvc\\Model::toArray` added parameter to ignore getters in order not to break serialize. [#16490](https://github.com/phalcon/cphalcon/issues/16490)\n- Fixed `Phalcon\\Mvc\\Model::toArray` changing the conditionals for population to remove segfault. [#16498](https://github.com/phalcon/cphalcon/issues/16498)",
+            "get": "https://pecl.php.net/get/phalcon-5.6.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "5.5.0": {
             "version": "5.5.0",
             "state": "stable",
