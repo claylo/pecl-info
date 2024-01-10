@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.269.0](https://github.com/claylo/pecl-info/compare/v1.268.0...v1.269.0) (2024-01-10)
+
+
+### Added
+
+* add protobuf 3.25.2, phalcon 5.6.0 releases ([b18f722](https://github.com/claylo/pecl-info/commit/b18f7227f7afd85734eeaa76b9b5c3d00ec6e0d4))
+
 ## [1.268.0](https://github.com/claylo/pecl-info/compare/v1.267.0...v1.268.0) (2024-01-08)
 
 
