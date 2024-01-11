@@ -1769,10 +1769,10 @@ https://github.com/php/pecl-search_engine-solr
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/solr-2.6.0">2.6.0</a> on 09 Nov 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/solr-2.7.0">2.7.0</a> on 11 Jan 2024</li>
 <li>Release data in JSON: <a href="data/packages/solr.json">solr.json</a></li>
 <li><a href="https://pecl.php.net/packages/solr">solr on PECL</a></li>
-<li><a href="https://php.net/manual/en/book.solr.php">:book: Documentation</a> &nbsp; <a href="http://lucene.apache.org/solr/">:house: Home</a> &nbsp; <a href="https://github.com/php/pecl-search_engine-solr">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-search_engine-solr/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=867&rid=&cid=57">:bar_chart: Stats</a></li>
+<li><a href="http://www.php.net/manual/en/book.solr.php">:book: Documentation</a> &nbsp; <a href="https://github.com/php/pecl-search_engine-solr">:house: Home</a> &nbsp; <a href="https://github.com/php/pecl-search_engine-solr">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-search_engine-solr/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=867&rid=&cid=57">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 

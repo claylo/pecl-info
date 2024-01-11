@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.270.0](https://github.com/claylo/pecl-info/compare/v1.269.0...v1.270.0) (2024-01-11)
+
+
+### Added
+
+* add solr 2.7.0 release ([3d89eef](https://github.com/claylo/pecl-info/commit/3d89eef9e858bb83516546d950864107d270a11a))
+
 ## [1.269.0](https://github.com/claylo/pecl-info/compare/v1.268.0...v1.269.0) (2024-01-10)
 
 
