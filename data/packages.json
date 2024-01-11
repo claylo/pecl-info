@@ -35499,12 +35499,22 @@
         "category": "Search Engine",
         "deprecated": false,
         "description": "It effectively simplifies the process of interacting with Apache Solr using PHP.\n\nThe extension has features such as built-in, serializable query string builder objects which effectively simplifies the manipulation of name-value pair request parameters across repeated requests.\nThe response from the Solr server is also automatically parsed into native php objects whose properties can be accessed as array keys or object properties without any additional configuration on the client-side.\n\nIts advanced HTTP client reuses the same connection across multiple requests and provides built-in support for connecting to Solr servers secured behind HTTP Authentication or HTTP proxy servers. It is also able to connect to SSL-enabled containers.\n\nPlease consult the documentation for more details on features. Included in the source code are phpdoc stubs that enable autocomplete of Solr classes and methods in IDE during development in userland.\n\nPlease consider staring the package on github, and get a free release ;)\n\nhttps://github.com/php/pecl-search_engine-solr",
-        "latestReleaseDate": "2022-11-09T13:11:44+00:00",
-        "latestVersion": "2.6.0",
+        "latestReleaseDate": "2024-01-11T16:50:29+00:00",
+        "latestVersion": "2.7.0",
         "license": "PHP License",
         "name": "solr",
         "php8Mentioned": true,
         "releases": {
+            "2.7.0": {
+                "version": "2.7.0",
+                "state": "stable",
+                "license": "PHP License",
+                "releasedBy": "biggi",
+                "releaseDate": "2024-01-11T16:50:29+00:00",
+                "releaseNotes": "Features:\n- Support Highlight Query (#28)\n- Support PHP 8.3\n- Dropped Support for PHP 7.3 and below\n\nAPI Changes:\n- Added SolrQuery SolrQuery::setHighlightQuery(string $q)\n- Added string SolrQuery::getHighlightQuery()\n\nBug Fixes:\n- Fix parsed parameter types (#37)\n- Fix compile error: libcurl on linux multi-arch support (#46)\n- Fix SegFault in SolrClient::optimize() (debug mode)\n- Fix Missing Windows DLLs (#51) / available on github releases now\n- Fix curl checks for PHP 7.4+, use PKG_CONFIG (remicollet)\n\nInternals:\n- ci: windows tests (#51)\n- parse_int macros",
+                "get": "https://pecl.php.net/get/solr-2.7.0",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
             "2.6.0": {
                 "version": "2.6.0",
                 "state": "stable",
@@ -35595,6 +35605,16 @@
                 "get": "http://pecl.php.net/get/solr-2.0.0",
                 "SPDX-License-Identifier": "PHP-3.01"
             },
+            "2.0.0b": {
+                "version": "2.0.0b",
+                "state": "beta",
+                "license": "PHP License",
+                "releasedBy": "omars",
+                "releaseDate": "2014-02-28T12:25:24+00:00",
+                "releaseNotes": "- Support Solr version 4.0+\n- Added support for retreiving Solr Server system information through SolrClient\n    SolrClient::system()\n- Support for softCommit\n- Suppport for expungeDeletes\n- maxSegments for commit is deprecated\n- Added escape character / as per Solr 4 it is reserved for REGEX\n- Disabled warnings for connection errors, SolrClientException is thrown\n- SolrClientException messages for connection errors are more meaningful indicating error messages and codes\n- API changes for:\n    SolrClient::commit($maxSegments = 0, $softCommit = false, $waitSearcher = true, $expungeDeletes = false)\n    SolrClient::optimize($maxSegments = 1, $softCommit = false, $waitSearcher = true)\n    SolrClient::addDocument(SolrInputDocument &$doc, $overwrite = true, $commitWithin = 0) \n    SolrClient::addDocuments(array &$docs, $overwrite = true, $commitWithin = 0)\n- Several Bug Fixes\nWarning: PECL Solr >= 2 is not compatible with Solr Server < 4.0",
+                "get": "http://pecl.php.net/get/solr-2.0.0b",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
             "1.1.1": {
                 "version": "1.1.1",
                 "state": "stable",
@@ -35623,16 +35643,6 @@
                 "releaseDate": "2014-03-17T09:18:12+00:00",
                 "releaseNotes": "- SolrClient::system Access system servlet which fetch Solr Server System Information\n - SolrClient::commit argument $maxSegments is now DEPRECATED\n - SolrClient::commit Added support for expungeDeletes on \n - All SolrClient methods throws SolrClientExceptions instead of E_WARNING + SolrClientException\n - SolrClientExceptions' messages are more informative in case of connection errors\n - Added json extension validation \n - All SolrResponse, SolrQueryResponse, SolrUpdateResponse, SolrPingResponse, SolrGenericResponse, SolrDocument, and SolrInputDocument classes are now final\n - All parameters functions throws SolrIllegalArgumentException instead of E_RROR\n - SolrParams/SolrModifiableParams/SolrQuery throws SolrIllegalArguments Exception instead of E_ERROR (Feature #66858)\n - Various Bug Fixes",
                 "get": "http://pecl.php.net/get/solr-1.1.0b",
-                "SPDX-License-Identifier": "PHP-3.01"
-            },
-            "2.0.0b": {
-                "version": "2.0.0b",
-                "state": "beta",
-                "license": "PHP License",
-                "releasedBy": "omars",
-                "releaseDate": "2014-02-28T12:25:24+00:00",
-                "releaseNotes": "- Support Solr version 4.0+\n- Added support for retreiving Solr Server system information through SolrClient\n    SolrClient::system()\n- Support for softCommit\n- Suppport for expungeDeletes\n- maxSegments for commit is deprecated\n- Added escape character / as per Solr 4 it is reserved for REGEX\n- Disabled warnings for connection errors, SolrClientException is thrown\n- SolrClientException messages for connection errors are more meaningful indicating error messages and codes\n- API changes for:\n    SolrClient::commit($maxSegments = 0, $softCommit = false, $waitSearcher = true, $expungeDeletes = false)\n    SolrClient::optimize($maxSegments = 1, $softCommit = false, $waitSearcher = true)\n    SolrClient::addDocument(SolrInputDocument &$doc, $overwrite = true, $commitWithin = 0) \n    SolrClient::addDocuments(array &$docs, $overwrite = true, $commitWithin = 0)\n- Several Bug Fixes\nWarning: PECL Solr >= 2 is not compatible with Solr Server < 4.0",
-                "get": "http://pecl.php.net/get/solr-2.0.0b",
                 "SPDX-License-Identifier": "PHP-3.01"
             },
             "1.0.2": {
