@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.271.0](https://github.com/claylo/pecl-info/compare/v1.270.0...v1.271.0) (2024-01-16)
+
+
+### Added
+
+* add zstd 0.13.2 release ([271ce11](https://github.com/claylo/pecl-info/commit/271ce1128842ed1d647989b6d636fca792e065ca))
+
 ## [1.270.0](https://github.com/claylo/pecl-info/compare/v1.269.0...v1.270.0) (2024-01-11)
 
 
