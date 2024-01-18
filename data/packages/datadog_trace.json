@@ -2,12 +2,22 @@
     "category": "Benchmarking",
     "deprecated": false,
     "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-    "latestReleaseDate": "2023-12-20T13:03:41+00:00",
-    "latestVersion": "0.96.0",
+    "latestReleaseDate": "2024-01-18T12:14:19+00:00",
+    "latestVersion": "0.97.0",
     "license": "BSD 3-Clause",
     "name": "datadog_trace",
     "php8Mentioned": true,
     "releases": {
+        "0.97.0": {
+            "version": "0.97.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "bwoebi",
+            "releaseDate": "2024-01-18T12:14:19+00:00",
+            "releaseNotes": "## Tracer\n### Added\n- Add span links capabilities to the OTel API #2451\n- Add exec integration #2361, #2455, #2459\n\n### Changed\n- Implement http.route for Yii #2430\n- Implement http.route for Slim #2402\n\n### Fixed\n- Remove Symfony controller hook after execution #2436\n- Move the dummy function of call_attribute_constructor onto the VM stack #2446\n- Avoid resolving unresolved functions and classes #2450\n- Fix removal of the directly accessed hook after binding in DDTrace\\remove_hook #2449\n- Handle async requests using Guzzle #2460\n- Fix removing an end observer with other observers active #2469\n- Fix fibers on PHP 8.1.2 #2473\n\n### Internal Changes\n- Add MicroBenchmarks #2435, #2456, #2458\n- Add Symfony 7.0 test suite #2437\n- Track DD_TRACE_DEBUG=1 errors in integration and web tests #2472\n- Reduce noise in composer package download #2401\n\n## Profiling\n### Added\n- prevent emitting empty profiles #2397\n\n### Fixed\n- potential allocation profiling crashes with certain opcodes #2352\n\n### Internal Changes\n- test with address sanitizer on bookworm with GH actions #2432\n- make the profiler compile in ZTS PHP #2463\n- extract wall_time.rs file #2467\n\n## Application Security Management\n### Internal changes\n- Change schema extraction zip compression to PHP_ZLIB_ENCODING_GZIP #2447",
+            "get": "https://pecl.php.net/get/datadog_trace-0.97.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "0.96.0": {
             "version": "0.96.0",
             "state": "stable",
