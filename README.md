@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (130)
+## Relevant Extensions (126)
 
 ### Authentication (2)
 
@@ -133,7 +133,7 @@ over just using the base PHP userland library.
 </details>
 
 ***
-### Caching (6)
+### Caching (5)
 
 <details><summary>APCu&nbsp; :eight:</summary>
 <p>APCu - APC User Cache</p>
@@ -195,22 +195,6 @@ servers.
 <li>Release data in JSON: <a href="data/packages/memcached.json">memcached.json</a></li>
 <li><a href="https://pecl.php.net/packages/memcached">memcached on PECL</a></li>
 <li><a href="https://php.net/memcached">:book: Documentation</a> &nbsp; <a href="https://github.com/php-memcached-dev/php-memcached">:house: Home</a> &nbsp; <a href="https://github.com/php-memcached-dev/php-memcached">:sparkles: Source</a> &nbsp; <a href="https://github.com/php-memcached-dev/php-memcached/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=847&rid=&cid=3">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>varnish&nbsp; :eight:</summary>
-<p>Varnish Cache bindings</p>
-
-```
-Varnish Cache is an open source, state of the art web application accelerator. The
-extension makes it possible to interact with a running varnish instance through TCP socket
-or shared memory.
-```
-<p><ul>
-<li>License: BSD-2-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/varnish-1.2.6">1.2.6</a> on 17 Jan 2021</li>
-<li>Release data in JSON: <a href="data/packages/varnish.json">varnish.json</a></li>
-<li><a href="https://pecl.php.net/packages/varnish">varnish on PECL</a></li>
-<li><a href="http://www.php.net/manual/en/book.varnish.php">:book: Documentation</a> &nbsp; <a href="https://github.com/php/pecl-caching-varnish">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-caching-varnish/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=911&rid=&cid=3">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>yac&nbsp; :eight:</summary>
@@ -1170,23 +1154,8 @@ It can deal with rfc822 and rfc2045 (MIME) compliant messages.
 </details>
 
 ***
-### Math (4)
+### Math (2)
 
-<details><summary>decimal&nbsp; :eight:</summary>
-<p>Arbitrary precision floating-point decimal</p>
-
-```
-Adds support for correctly-rounded arbitrary precision decimal floating-point arithmetic
-in PHP 7
-```
-<p><ul>
-<li>License: MIT</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/decimal-1.4.0">1.4.0</a> on 17 Feb 2021</li>
-<li>Release data in JSON: <a href="data/packages/decimal.json">decimal.json</a></li>
-<li><a href="https://pecl.php.net/packages/decimal">decimal on PECL</a></li>
-<li><a href="http://php-decimal.io/">:book: Documentation</a> &nbsp; <a href="http://php-decimal.io">:house: Home</a> &nbsp; <a href="https://github.com/php-decimal/extension">:sparkles: Source</a> &nbsp; <a href="https://github.com/php-decimal/ext-decimal/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1028&rid=&cid=15">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
 <details><summary>geospatial&nbsp; :eight:</summary>
 <p>PHP Extension to handle common geospatial functions</p>
 
@@ -1219,23 +1188,6 @@ A library and extension that provides objects for scientific computing in PHP.
 <li>Release data in JSON: <a href="data/packages/tensor.json">tensor.json</a></li>
 <li><a href="https://pecl.php.net/packages/Tensor">Tensor on PECL</a></li>
 <li><a href="https://rubixml.com">:house: Home</a> &nbsp; <a href="https://github.com/RubixML/Tensor">:sparkles: Source</a> &nbsp; <a href="https://github.com/RubixML/Tensor/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1056&rid=&cid=15">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>trader&nbsp; :eight:</summary>
-<p>Technical Analysis for traders.</p>
-
-```
-The trader extension is a free open source stock library based on TA-Lib. It's dedicated
-to trading software developers requiring to perform technical analysis of financial market
-data. Alongside many indicators like ADX, MACD, RSI, Stochastic, TRIX the candlestick
-pattern recognition and several vector arithmetic and algebraic functions are present.
-```
-<p><ul>
-<li>License: BSD-2-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/trader-0.5.1">0.5.1</a> on 17 Jan 2021</li>
-<li>Release data in JSON: <a href="data/packages/trader.json">trader.json</a></li>
-<li><a href="https://pecl.php.net/packages/trader">trader on PECL</a></li>
-<li><a href="https://php.net/manual/en/book.trader.php">:book: Documentation</a> &nbsp; <a href="https://github.com/php/pecl-math-trader">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-math-trader/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=921&rid=&cid=15">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 
@@ -2289,27 +2241,6 @@ package protocols (json, msgpack)
 <li>Release data in JSON: <a href="data/packages/yar.json">yar.json</a></li>
 <li><a href="https://pecl.php.net/packages/yar">yar on PECL</a></li>
 <li><a href="http://www.php.net/manual/book.yar.php">:book: Documentation</a> &nbsp; <a href="https://github.com/laruence/yar">:sparkles: Source</a> &nbsp; <a href="https://github.com/laruence/yar/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=924&rid=&cid=23">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-
-***
-### XML (1)
-
-<details><summary>xmldiff&nbsp; :eight:</summary>
-<p>XML diff and merge</p>
-
-```
-The extension is able to produce diffs of two XML documents and then to apply the
-difference to the source document. The diff is a XML document containing
-copy/insert/delete instruction nodes in human readable format. DOMDocument objects, local
-files and strings in memory can be processed.
-```
-<p><ul>
-<li>License: BSD-2-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/xmldiff-1.1.3">1.1.3</a> on 17 Jan 2021</li>
-<li>Release data in JSON: <a href="data/packages/xmldiff.json">xmldiff.json</a></li>
-<li><a href="https://pecl.php.net/packages/xmldiff">xmldiff on PECL</a></li>
-<li><a href="http://www.php.net/manual/en/book.xmldiff.php">:book: Documentation</a> &nbsp; <a href="https://github.com/php/pecl-xml-xmldiff">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-xml-xmldiff/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=953&rid=&cid=22">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 
