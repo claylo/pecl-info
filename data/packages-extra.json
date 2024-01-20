@@ -548,8 +548,8 @@
     },
     "decimal": {
         "bugs": "https://github.com/php-decimal/ext-decimal/issues",
-        "docs": "http://php-decimal.io/",
-        "home": "http://php-decimal.io",
+        "docs": "https://php-decimal.github.io/",
+        "home": "https://php-decimal.github.io/",
         "maintained": true,
         "repo": "https://github.com/php-decimal/extension",
         "stats": "https://pecl.php.net/package-stats.php?pid=1028&rid=&cid=15",
