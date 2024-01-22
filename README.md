@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (126)
+## Relevant Extensions (125)
 
 ### Authentication (2)
 
@@ -1089,36 +1089,6 @@ templates.
 </details>
 
 ***
-### Logging (1)
-
-<details><summary>SeasLog&nbsp; :eight:</summary>
-<p>An effective,fast,stable log extension for PHP.</p>
-
-```
-An effective,fast,stable log extension for PHP.
-        - In the PHP project, for convenient record log.
-        - The default log directory and module configuration.
-        - Specify the log directory and get the current configuration.
-        - Analysis of early warning framework preliminary.
-        - Buffer debug efficient log buffer, convenient.
-        - With PSR-3 Logger interface.
-        - Error and exception automatic logging.
-        - Support appender with File,TCP,UDP.
-        - Send to Rsyslog(TCP/UDP) with RFC5424.
-        - Support RequestId differentiated requests.
-        - Support for log template customizations.
-        - Support trace performance automatic logging.
-```
-<p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/SeasLog-2.2.0">2.2.0</a> on 19 Jan 2021</li>
-<li>Release data in JSON: <a href="data/packages/seaslog.json">seaslog.json</a></li>
-<li><a href="https://pecl.php.net/packages/SeasLog">SeasLog on PECL</a></li>
-<li><a href="https://github.com/SeasX/SeasLog/blob/master/README.md">:book: Documentation</a> &nbsp; <a href="https://SeasX.github.io/SeasLog">:house: Home</a> &nbsp; <a href="https://github.com/SeasX/SeasLog">:sparkles: Source</a> &nbsp; <a href="https://github.com/SeasX/SeasLog/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=968&rid=&cid=13">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-
-***
 ### Mail (2)
 
 <details><summary>imap</summary>
@@ -1266,7 +1236,7 @@ queues, as well as publish to any exchange and consume from any queue.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/amqp-2.1.1">2.1.1</a> on 12 Oct 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/amqp-2.1.2">2.1.2</a> on 22 Jan 2024</li>
 <li>Release data in JSON: <a href="data/packages/amqp.json">amqp.json</a></li>
 <li><a href="https://pecl.php.net/packages/amqp">amqp on PECL</a></li>
 <li><a href="https://github.com/php-amqp/php-amqp">:house: Home</a> &nbsp; <a href="https://github.com/php-amqp/php-amqp">:sparkles: Source</a> &nbsp; <a href="https://github.com/php-amqp/php-amqp/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=879&rid=&cid=16">:bar_chart: Stats</a></li>
