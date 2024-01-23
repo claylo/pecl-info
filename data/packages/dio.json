@@ -2,12 +2,22 @@
     "category": "System",
     "deprecated": false,
     "description": "PHP supports the direct io functions as described in the \nPosix Standard (Section 6) for performing I/O functions at \na lower level than the C-Language stream I/O functions \n(fopen(), fread(),..). \n\nDIO provides functions and stream wrappers which provide raw and\nserial low level IO support.  The use of the DIO functions should \nbe considered only when direct control of a device is needed. \nIn all other cases, the standard filesystem functions are \nmore than adequate.",
-    "latestReleaseDate": "2022-01-25T16:11:07+00:00",
-    "latestVersion": "0.2.1",
+    "latestReleaseDate": "2024-01-23T07:49:13+00:00",
+    "latestVersion": "0.2.2",
     "license": "PHP",
     "name": "dio",
     "php8Mentioned": false,
     "releases": {
+        "0.2.2": {
+            "version": "0.2.2",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "remi",
+            "releaseDate": "2024-01-23T07:49:13+00:00",
+            "releaseNotes": "- fix GH-12 Memory leak in dio_read",
+            "get": "https://pecl.php.net/get/dio-0.2.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
         "0.2.1": {
             "version": "0.2.1",
             "state": "beta",
