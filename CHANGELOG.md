@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.278.0](https://github.com/claylo/pecl-info/compare/v1.277.0...v1.278.0) (2024-01-25)
+
+
+### Added
+
+* add dio 0.3.0RC1 release ([0f198f2](https://github.com/claylo/pecl-info/commit/0f198f28f8a75751e359f4523950ae965c0dbefd))
+
 ## [1.277.0](https://github.com/claylo/pecl-info/compare/v1.276.0...v1.277.0) (2024-01-25)
 
 

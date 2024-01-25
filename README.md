@@ -1831,7 +1831,7 @@ more than adequate.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/dio-0.2.2">0.2.2</a> on 23 Jan 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/dio-0.3.0RC1">0.3.0RC1</a> on 25 Jan 2024</li>
 <li>Release data in JSON: <a href="data/packages/dio.json">dio.json</a></li>
 <li><a href="https://pecl.php.net/packages/dio">dio on PECL</a></li>
 <li><a href="https://github.com/php/pecl-system-dio">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-system-dio/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=430&rid=&cid=37">:bar_chart: Stats</a></li>
