@@ -2,12 +2,22 @@
     "category": "PHP",
     "deprecated": false,
     "description": "https://github.com/open-telemetry/opentelemetry-php-instrumentation",
-    "latestReleaseDate": "2023-10-25T12:31:37+00:00",
-    "latestVersion": "1.0.0",
+    "latestReleaseDate": "2024-01-25T04:10:14+00:00",
+    "latestVersion": "1.0.1beta1",
     "license": "Apache 2.0",
     "name": "opentelemetry",
-    "php8Mentioned": false,
+    "php8Mentioned": true,
     "releases": {
+        "1.0.1beta1": {
+            "version": "1.0.1beta1",
+            "state": "beta",
+            "license": "Apache 2.0",
+            "releasedBy": "brettmc",
+            "releaseDate": "2024-01-25T04:10:14+00:00",
+            "releaseNotes": "opentelemetry 1.0.1beta1\n    * Fix modifying extra parameters, limit parameter expansion (#120)\n    * Fix crash by unregistering INI in MSHUTDOWN instead of RSHUTDOWN (#122)\n    * Support modifying named params (#121)\n    * adding test for post hook type error (#119)\n    * Isolate exception state for hooks (#118)\n    * Update README.md to point issues to the main repository (#117)\n    * Include PHP 8.3 in build matrix (#112)\n    * Build images whenever the actions definition changes (#115)\n    * adding php 8.3 dev image (#113)\n    * document SourceGuardian incompatibility (#111)\n    * create draft release on tag, publish windows and pecl builds (#109)\n    * adding test for post hooks after die/exit (#110)\n    * add pear to build (#108)",
+            "get": "https://pecl.php.net/get/opentelemetry-1.0.1beta1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "1.0.0": {
             "version": "1.0.0",
             "state": "stable",
