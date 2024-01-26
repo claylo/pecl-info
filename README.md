@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (125)
+## Relevant Extensions (126)
 
 ### Authentication (2)
 
@@ -1981,7 +1981,7 @@ This extension creates and applies patches to both text and binary files.
 </details>
 
 ***
-### Tools and Utilities (14)
+### Tools and Utilities (15)
 
 <details><summary>awscrt</summary>
 <p>AWS Common Runtime PHP bindings</p>
@@ -2099,6 +2099,20 @@ Linux/UNIX and Windows are supported.
 <li>Release data in JSON: <a href="data/packages/pcsc.json">pcsc.json</a></li>
 <li><a href="https://pecl.php.net/packages/pcsc">pcsc on PECL</a></li>
 <li><a href="https://github.com/pcsc-for-php/pcsc">:house: Home</a> &nbsp; <a href="https://github.com/pcsc-for-php/pcsc">:sparkles: Source</a> &nbsp; <a href="https://github.com/pcsc-for-php/pcsc/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=916&rid=&cid=29">:bar_chart: Stats</a></li>
+</ul></p><hr />
+</details>
+<details><summary>protobuf</summary>
+<p>Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data.</p>
+
+```
+https://developers.google.com/protocol-buffers/
+```
+<p><ul>
+<li>License: BSD-3-Clause</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/protobuf-4.26.0RC1">4.26.0RC1</a> on 25 Jan 2024</li>
+<li>Release data in JSON: <a href="data/packages/protobuf.json">protobuf.json</a></li>
+<li><a href="https://pecl.php.net/packages/protobuf">protobuf on PECL</a></li>
+<li></li>
 </ul></p><hr />
 </details>
 <details><summary>SeasSnowflake</summary>
