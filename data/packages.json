@@ -23500,12 +23500,22 @@
         "category": "PHP",
         "deprecated": false,
         "description": "https://github.com/open-telemetry/opentelemetry-php-instrumentation",
-        "latestReleaseDate": "2024-01-25T04:10:14+00:00",
-        "latestVersion": "1.0.1beta1",
+        "latestReleaseDate": "2024-01-29T22:59:03+00:00",
+        "latestVersion": "1.0.1beta2",
         "license": "Apache 2.0",
         "name": "opentelemetry",
         "php8Mentioned": true,
         "releases": {
+            "1.0.1beta2": {
+                "version": "1.0.1beta2",
+                "state": "beta",
+                "license": "Apache 2.0",
+                "releasedBy": "brettmc",
+                "releaseDate": "2024-01-29T22:59:03+00:00",
+                "releaseNotes": "opentelemetry 1.0.1beta2\n    * Fix exception raised by `php_error_docref` that hangs the process in hook (#127)\n    * clang format (#126)\n    * Fix build warnings (#125)",
+                "get": "https://pecl.php.net/get/opentelemetry-1.0.1beta2",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "1.0.1beta1": {
                 "version": "1.0.1beta1",
                 "state": "beta",
