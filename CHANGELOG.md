@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.283.0](https://github.com/claylo/pecl-info/compare/v1.282.0...v1.283.0) (2024-02-01)
+
+
+### Added
+
+* add pdo_sqlsrv 5.12.0, sqlsrv 5.12.0 releases ([43edbc2](https://github.com/claylo/pecl-info/commit/43edbc2fcf66b22cbb5aae42fe388920bea4d6be))
+
 ## [1.282.0](https://github.com/claylo/pecl-info/compare/v1.281.0...v1.282.0) (2024-01-30)
 
 
