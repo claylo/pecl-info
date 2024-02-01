@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/brotli">brotli</p>
+ <c>pecl.php.net</c>
+ <v>0.15.0</v>
+ <st>stable</st>
+ <l>MIT</l>
+ <m>kjdev</m>
+ <s>Brotli extension</s>
+ <d>PHP extension for compression and decompression with Brotli library.</d>
+ <da>2024-02-01 00:34:13</da>
+ <n>- change: default mode of brotli_uncompress_add() to BROTLI_FLUSH
+- change: default mode of brotli_compress_add() to BROTLI_FLUSH
+- add: BROTLI_FLUSH to environment variables
+- remove: PHP 5 support</n>
+ <f>468436</f>
+ <g>https://pecl.php.net/get/brotli-0.15.0</g>
+ <x xlink:href="package.0.15.0.xml"/>
+</r>
