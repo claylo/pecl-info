@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.285.0](https://github.com/claylo/pecl-info/compare/v1.284.0...v1.285.0) (2024-02-02)
+
+
+### Added
+
+* add timezonedb 2024.1 release ([5d71fa0](https://github.com/claylo/pecl-info/commit/5d71fa0221aa0e7eacca954bde8f8d338d06ce9f))
+
 ## [1.284.0](https://github.com/claylo/pecl-info/compare/v1.283.0...v1.284.0) (2024-02-01)
 
 

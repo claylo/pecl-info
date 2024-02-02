@@ -570,7 +570,7 @@ located at http://www.iana.org/time-zones.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/timezonedb-2023.4">2023.4</a> on 02 Jan 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/timezonedb-2024.1">2024.1</a> on 02 Feb 2024</li>
 <li>Release data in JSON: <a href="data/packages/timezonedb.json">timezonedb.json</a></li>
 <li><a href="https://pecl.php.net/packages/timezonedb">timezonedb on PECL</a></li>
 <li></li>
