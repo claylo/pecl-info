@@ -10886,12 +10886,22 @@
         "category": "Networking",
         "deprecated": false,
         "description": "Remote Procedure Calls (RPCs) provide a useful abstraction for building distributed applications and services. The libraries in this repository provide a concrete implementation of the gRPC protocol, layered over HTTP/2. These libraries enable communication between clients and servers using any combination of the supported languages.",
-        "latestReleaseDate": "2024-02-03T02:50:47+00:00",
-        "latestVersion": "1.61.0RC3",
+        "latestReleaseDate": "2024-02-05T22:07:55+00:00",
+        "latestVersion": "1.61.0",
         "license": "Apache 2.0",
         "name": "gRPC",
         "php8Mentioned": true,
         "releases": {
+            "1.61.0": {
+                "version": "1.61.0",
+                "state": "stable",
+                "license": "Apache 2.0",
+                "releasedBy": "stanleycheung",
+                "releaseDate": "2024-02-05T22:07:55+00:00",
+                "releaseNotes": "- gRPC Core 1.61.0 update",
+                "get": "https://pecl.php.net/get/grpc-1.61.0",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "1.61.0RC3": {
                 "version": "1.61.0RC3",
                 "state": "beta",
@@ -23520,12 +23530,22 @@
         "category": "PHP",
         "deprecated": false,
         "description": "https://github.com/open-telemetry/opentelemetry-php-instrumentation",
-        "latestReleaseDate": "2024-02-05T00:21:17+00:00",
-        "latestVersion": "1.0.1",
+        "latestReleaseDate": "2024-02-05T23:49:58+00:00",
+        "latestVersion": "1.0.2beta1",
         "license": "Apache 2.0",
         "name": "opentelemetry",
         "php8Mentioned": true,
         "releases": {
+            "1.0.2beta1": {
+                "version": "1.0.2beta1",
+                "state": "beta",
+                "license": "Apache 2.0",
+                "releasedBy": "brettmc",
+                "releaseDate": "2024-02-05T23:49:58+00:00",
+                "releaseNotes": "See https://github.com/open-telemetry/opentelemetry-php-instrumentation/releases/tag/1.0.2beta1",
+                "get": "https://pecl.php.net/get/opentelemetry-1.0.2beta1",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "1.0.1": {
                 "version": "1.0.1",
                 "state": "stable",
@@ -28935,12 +28955,22 @@
         "category": "Database",
         "deprecated": false,
         "description": "Documents: https://mdref.m6w6.name/pq\n\n Highlights:\n * Nearly complete support for asynchronous usage:\n   https://mdref.m6w6.name/pq/Connection/%3A%20Asynchronous%20Usage\n * Extended type support by pg_type:\n   https://mdref.m6w6.name/pq/Types/%3A%20Overview\n * Fetching simple multi-dimensional array maps:\n   https://mdref.m6w6.name/pq/Result/map\n * Working Gateway implementation:\n   https://mdref.m6w6.name/pq-gateway",
-        "latestReleaseDate": "2023-06-12T10:37:29+00:00",
-        "latestVersion": "2.2.2",
+        "latestReleaseDate": "2024-02-05T19:07:07+00:00",
+        "latestVersion": "2.2.3",
         "license": "BSD-2-Clause",
         "name": "pq",
         "php8Mentioned": true,
         "releases": {
+            "2.2.3": {
+                "version": "2.2.3",
+                "state": "stable",
+                "license": "BSD-2-Clause",
+                "releasedBy": "mike",
+                "releaseDate": "2024-02-05T19:07:07+00:00",
+                "releaseNotes": "* Fix incompatible pointer types (32-bit) (see hg issue #52)",
+                "get": "https://pecl.php.net/get/pq-2.2.3",
+                "SPDX-License-Identifier": "BSD-2-Clause"
+            },
             "2.2.2": {
                 "version": "2.2.2",
                 "state": "stable",
@@ -29051,16 +29081,6 @@
                 "get": "http://pecl.php.net/get/pq-2.1.1",
                 "SPDX-License-Identifier": "BSD-2-Clause"
             },
-            "1.1.1": {
-                "version": "1.1.1",
-                "state": "stable",
-                "license": "BSD-2-Clause",
-                "releasedBy": "mike",
-                "releaseDate": "2016-05-20T08:59:51+00:00",
-                "releaseNotes": "* Fix build with PostgreSQL < 9.3",
-                "get": "http://pecl.php.net/get/pq-1.1.1",
-                "SPDX-License-Identifier": "BSD-2-Clause"
-            },
             "2.1.0": {
                 "version": "2.1.0",
                 "state": "stable",
@@ -29069,16 +29089,6 @@
                 "releaseDate": "2016-05-20T08:12:42+00:00",
                 "releaseNotes": "* Added public readonly array pq\\Result::$diag property, listing PQresultErrorField details (gh-issue #14)\n* Restore listeners and prepared statements after a connection reset (gh-issue #15)\n* Added pq\\Connection::$nonblocking and pq\\Connection::flush() to support non-blocking writes (gh-issue #16)",
                 "get": "http://pecl.php.net/get/pq-2.1.0",
-                "SPDX-License-Identifier": "BSD-2-Clause"
-            },
-            "1.1.0": {
-                "version": "1.1.0",
-                "state": "stable",
-                "license": "BSD-2-Clause",
-                "releasedBy": "mike",
-                "releaseDate": "2016-05-20T08:08:50+00:00",
-                "releaseNotes": "* Added public readonly array pq\\Result::$diag property, listing PQresultErrorField details (gh-issue #14)\n* Restore listeners and prepared statements after a connection reset (gh-issue #15)\n* Added pq\\Connection::$nonblocking and pq\\Connection::flush() to support non-blocking writes (gh-issue #16)",
-                "get": "http://pecl.php.net/get/pq-1.1.0",
                 "SPDX-License-Identifier": "BSD-2-Clause"
             },
             "2.0.1": {
@@ -29091,16 +29101,6 @@
                 "get": "http://pecl.php.net/get/pq-2.0.1",
                 "SPDX-License-Identifier": "BSD-2-Clause"
             },
-            "1.0.1": {
-                "version": "1.0.1",
-                "state": "stable",
-                "license": "BSD-2-Clause",
-                "releasedBy": "mike",
-                "releaseDate": "2016-05-03T16:40:38+00:00",
-                "releaseNotes": "* Fix github issue #9 (execAsync - gets another result)",
-                "get": "http://pecl.php.net/get/pq-1.0.1",
-                "SPDX-License-Identifier": "BSD-2-Clause"
-            },
             "2.0.0": {
                 "version": "2.0.0",
                 "state": "stable",
@@ -29111,16 +29111,6 @@
                 "get": "http://pecl.php.net/get/pq-2.0.0",
                 "SPDX-License-Identifier": "BSD-2-Clause"
             },
-            "1.0.0": {
-                "version": "1.0.0",
-                "state": "stable",
-                "license": "BSD-2-Clause",
-                "releasedBy": "mike",
-                "releaseDate": "2016-01-19T08:27:45+00:00",
-                "releaseNotes": "* Stable release for PHP 5.4 - 5.6",
-                "get": "http://pecl.php.net/get/pq-1.0.0",
-                "SPDX-License-Identifier": "BSD-2-Clause"
-            },
             "2.0.0RC1": {
                 "version": "2.0.0RC1",
                 "state": "beta",
@@ -29129,6 +29119,46 @@
                 "releaseDate": "2015-12-07T08:26:22+00:00",
                 "releaseNotes": "* PHP 7 compatible release",
                 "get": "http://pecl.php.net/get/pq-2.0.0RC1",
+                "SPDX-License-Identifier": "BSD-2-Clause"
+            },
+            "1.1.1": {
+                "version": "1.1.1",
+                "state": "stable",
+                "license": "BSD-2-Clause",
+                "releasedBy": "mike",
+                "releaseDate": "2016-05-20T08:59:51+00:00",
+                "releaseNotes": "* Fix build with PostgreSQL < 9.3",
+                "get": "http://pecl.php.net/get/pq-1.1.1",
+                "SPDX-License-Identifier": "BSD-2-Clause"
+            },
+            "1.1.0": {
+                "version": "1.1.0",
+                "state": "stable",
+                "license": "BSD-2-Clause",
+                "releasedBy": "mike",
+                "releaseDate": "2016-05-20T08:08:50+00:00",
+                "releaseNotes": "* Added public readonly array pq\\Result::$diag property, listing PQresultErrorField details (gh-issue #14)\n* Restore listeners and prepared statements after a connection reset (gh-issue #15)\n* Added pq\\Connection::$nonblocking and pq\\Connection::flush() to support non-blocking writes (gh-issue #16)",
+                "get": "http://pecl.php.net/get/pq-1.1.0",
+                "SPDX-License-Identifier": "BSD-2-Clause"
+            },
+            "1.0.1": {
+                "version": "1.0.1",
+                "state": "stable",
+                "license": "BSD-2-Clause",
+                "releasedBy": "mike",
+                "releaseDate": "2016-05-03T16:40:38+00:00",
+                "releaseNotes": "* Fix github issue #9 (execAsync - gets another result)",
+                "get": "http://pecl.php.net/get/pq-1.0.1",
+                "SPDX-License-Identifier": "BSD-2-Clause"
+            },
+            "1.0.0": {
+                "version": "1.0.0",
+                "state": "stable",
+                "license": "BSD-2-Clause",
+                "releasedBy": "mike",
+                "releaseDate": "2016-01-19T08:27:45+00:00",
+                "releaseNotes": "* Stable release for PHP 5.4 - 5.6",
+                "get": "http://pecl.php.net/get/pq-1.0.0",
                 "SPDX-License-Identifier": "BSD-2-Clause"
             },
             "1.0.0RC1": {
