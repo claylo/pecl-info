@@ -504,7 +504,7 @@ Documents: https://mdref.m6w6.name/pq
 ```
 <p><ul>
 <li>License: BSD-2-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/pq-2.2.2">2.2.2</a> on 12 Jun 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/pq-2.2.3">2.2.3</a> on 05 Feb 2024</li>
 <li>Release data in JSON: <a href="data/packages/pq.json">pq.json</a></li>
 <li><a href="https://pecl.php.net/packages/pq">pq on PECL</a></li>
 <li><a href="https://mdref.m6w6.name/pq">:book: Documentation</a> &nbsp; <a href="https://github.com/m6w6/ext-pq">:house: Home</a> &nbsp; <a href="https://github.com/m6w6/ext-pq">:sparkles: Source</a> &nbsp; <a href="https://github.com/m6w6/ext-pq/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=941&rid=&cid=7">:bar_chart: Stats</a></li>
@@ -1276,7 +1276,7 @@ languages.
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/gRPC-1.61.0RC3">1.61.0RC3</a> on 03 Feb 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/gRPC-1.61.0">1.61.0</a> on 05 Feb 2024</li>
 <li>Release data in JSON: <a href="data/packages/grpc.json">grpc.json</a></li>
 <li><a href="https://pecl.php.net/packages/gRPC">gRPC on PECL</a></li>
 <li></li>
@@ -1442,7 +1442,7 @@ https://github.com/open-telemetry/opentelemetry-php-instrumentation
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/opentelemetry-1.0.1">1.0.1</a> on 05 Feb 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/opentelemetry-1.0.2beta1">1.0.2beta1</a> on 05 Feb 2024</li>
 <li>Release data in JSON: <a href="data/packages/opentelemetry.json">opentelemetry.json</a></li>
 <li><a href="https://pecl.php.net/packages/opentelemetry">opentelemetry on PECL</a></li>
 <li><a href="https://opentelemetry.io/docs/instrumentation/php/automatic/">:book: Documentation</a> &nbsp; <a href="https://opentelemetry.io/">:house: Home</a> &nbsp; <a href="https://github.com/open-telemetry/opentelemetry-php-instrumentation">:sparkles: Source</a> &nbsp; <a href="https://github.com/open-telemetry/opentelemetry-php-instrumentation/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1077&rid=&cid=25">:bar_chart: Stats</a></li>
