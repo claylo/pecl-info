@@ -2,12 +2,22 @@
     "category": "System",
     "deprecated": false,
     "description": "Phalcon is an open source full stack framework for PHP, written as a C-extension. Phalcon is optimized for high\n    performance. Its unique architecture allows the framework to always be memory resident, offering its functionality\n    whenever its needed, without expensive file stats and file reads that traditional PHP frameworks employ.",
-    "latestReleaseDate": "2024-01-09T23:42:28+00:00",
-    "latestVersion": "5.6.0",
+    "latestReleaseDate": "2024-02-08T17:50:31+00:00",
+    "latestVersion": "5.6.1",
     "license": "BSD 3-Clause License",
     "name": "phalcon",
     "php8Mentioned": true,
     "releases": {
+        "5.6.1": {
+            "version": "5.6.1",
+            "state": "stable",
+            "license": "BSD 3-Clause License",
+            "releasedBy": "niden",
+            "releaseDate": "2024-02-08T17:50:31+00:00",
+            "releaseNotes": "Full changelog can be found at: https://github.com/phalcon/cphalcon/blob/master/CHANGELOG-5.0.md\n\n### Changed\n\n- Changed `Phalcon\\Cli\\Router::setDefaultAction` and `Phalcon\\Cli\\Router::setDefaultModule` to return the object back for a fluent interface [#16328](https://github.com/phalcon/cphalcon/issues/16328)\n\n### Fixed\n\n- Fixed `Phalcon\\Db\\Adapter\\Pdo\\Postgresql::describeColumns()` to return the correct string back [#16371](https://github.com/phalcon/cphalcon/issues/16371)\n- Fixed `Phalcon/Filter/Validation::validate()` and `Phalcon/Filter/Validation/ValidationInterface::validate()` to return also `bool` [#16337](https://github.com/phalcon/cphalcon/issues/16337)\n- Fixed `Phalcon\\Mvc\\Model::toArray` to ignore getters when the field name is `source`. [#16514](https://github.com/phalcon/cphalcon/issues/16514)\n- Fixed `Phalcon\\Http\\Request::getPut` to correctly get form encoded data [#16519](https://github.com/phalcon/cphalcon/issues/16519)\n- Fixed deprecation warning in callables `Use of \"static\" in callables is deprecated` for PHP 8.2+ [#16263](https://github.com/phalcon/cphalcon/issues/16263)",
+            "get": "https://pecl.php.net/get/phalcon-5.6.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "5.6.0": {
             "version": "5.6.0",
             "state": "stable",
