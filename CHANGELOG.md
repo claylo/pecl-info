@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.291.0](https://github.com/claylo/pecl-info/compare/v1.290.0...v1.291.0) (2024-02-10)
+
+
+### Added
+
+* add ssh2 1.4.1 release ([7751d5a](https://github.com/claylo/pecl-info/commit/7751d5ad1ef2c11fb13afcbb6f42ba748ab0a654))
+
 ## [1.290.0](https://github.com/claylo/pecl-info/compare/v1.289.0...v1.290.0) (2024-02-08)
 
 
