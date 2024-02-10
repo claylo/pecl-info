@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/ssh2">ssh2</p>
+ <c>pecl.php.net</c>
+ <v>1.4.1</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>derick</m>
+ <s>Bindings for the libssh2 library</s>
+ <d>Provides bindings to the functions of libssh2 which implements the SSH2 protocol.
+        libssh2 is available from http://libssh2.org/</d>
+ <da>2024-02-10 00:10:10</da>
+ <n>- End zend_function_entry ssh2_functions list with PHP_FE_END [PR #67] (Gerdriaan Mulder)
+- Remove implicit switch-case fallthrough [PR #66] (Gerdriaan Mulder)
+- Windows build setup with GitHub Actions [PR #75] (Derick Rethans)</n>
+ <f>34265</f>
+ <g>https://pecl.php.net/get/ssh2-1.4.1</g>
+ <x xlink:href="package.1.4.1.xml"/>
+</r>

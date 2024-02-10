@@ -36715,12 +36715,22 @@
         "category": "Networking",
         "deprecated": false,
         "description": "Provides bindings to the functions of libssh2 which implements the SSH2 protocol.\n        libssh2 is available from http://libssh2.org/",
-        "latestReleaseDate": "2023-04-20T14:42:51+00:00",
-        "latestVersion": "1.4",
+        "latestReleaseDate": "2024-02-10T00:10:10+00:00",
+        "latestVersion": "1.4.1",
         "license": "PHP License",
         "name": "ssh2",
         "php8Mentioned": false,
         "releases": {
+            "1.4.1": {
+                "version": "1.4.1",
+                "state": "stable",
+                "license": "PHP License",
+                "releasedBy": "derick",
+                "releaseDate": "2024-02-10T00:10:10+00:00",
+                "releaseNotes": "- End zend_function_entry ssh2_functions list with PHP_FE_END [PR #67] (Gerdriaan Mulder)\n- Remove implicit switch-case fallthrough [PR #66] (Gerdriaan Mulder)\n- Windows build setup with GitHub Actions [PR #75] (Derick Rethans)",
+                "get": "https://pecl.php.net/get/ssh2-1.4.1",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
             "1.4": {
                 "version": "1.4",
                 "state": "stable",
