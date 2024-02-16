@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.292.0](https://github.com/claylo/pecl-info/compare/v1.291.0...v1.292.0) (2024-02-16)
+
+
+### Added
+
+* add protobuf 3.25.3 release ([fffa5ea](https://github.com/claylo/pecl-info/commit/fffa5ead60381a0cfd07739a66c4c15ec7c72b95))
+
 ## [1.291.0](https://github.com/claylo/pecl-info/compare/v1.290.0...v1.291.0) (2024-02-10)
 
 

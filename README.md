@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (126)
+## Relevant Extensions (125)
 
 ### Authentication (2)
 
@@ -985,25 +985,8 @@ https://mdref.m6w6.name/http
 </details>
 
 ***
-### Images (2)
+### Images (1)
 
-<details><summary>gmagick&nbsp; :eight:</summary>
-<p>Provides a wrapper to the GraphicsMagick library.</p>
-
-```
-Gmagick is a php extension to create, modify and obtain meta information of images using the GraphicsMagick API.
-Version 2.0.0RC1 onwards requires GraphicsMagick version 1.3.17+ and PHP 7.0.1+
-Version 2.0.5RC1 onwards requires GraphicsMagick version 1.3.20+ and PHP 7.0.1+
-If you're using versions of PHP below 7.0.1 but above 5.1.3, please use version Gmagick 1.1.7RC3
-```
-<p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/gmagick-2.0.6RC1">2.0.6RC1</a> on 11 Feb 2021</li>
-<li>Release data in JSON: <a href="data/packages/gmagick.json">gmagick.json</a></li>
-<li><a href="https://pecl.php.net/packages/gmagick">gmagick on PECL</a></li>
-<li><a href="https://github.com/vitoc/gmagick">:sparkles: Source</a> &nbsp; <a href="https://github.com/vitoc/gmagick/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=860&rid=&cid=12">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
 <details><summary>imagick&nbsp; :eight:</summary>
 <p>Provides a wrapper to the ImageMagick library.</p>
 
