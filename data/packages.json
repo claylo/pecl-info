@@ -7182,12 +7182,32 @@
         "category": "Event",
         "deprecated": false,
         "description": "This extension provides interface to the libeio library written by Marc Lehmann\n    <libeio at schmorp dot de>(see http://software.schmorp.de/pkg/libeio.html).\n\n    Libeio is a an asynchronous I/O library. Features basically include\n    asynchronous versions of POSIX API(read, write, open, close, stat, unlink,\n    fdatasync, mknod, readdir etc.); sendfile (native on Solaris, Linux, HP-UX,\n    FreeBSD); readahead. libeio itself emulates the system calls, if they are not\n    available on specific(UNIX-like) platform.\n\n    Currently this extension supports GNU/Linux and BSD platforms only. But you can\n    try it on any UNIX OS.",
-        "latestReleaseDate": "2023-09-10T06:56:13+00:00",
-        "latestVersion": "3.1.0",
+        "latestReleaseDate": "2024-02-21T08:23:35+00:00",
+        "latestVersion": "3.1.2",
         "license": "php",
         "name": "eio",
         "php8Mentioned": true,
         "releases": {
+            "3.1.2": {
+                "version": "3.1.2",
+                "state": "stable",
+                "license": "php",
+                "releasedBy": "osmanov",
+                "releaseDate": "2024-02-21T08:23:35+00:00",
+                "releaseNotes": "- Restored libeio/xthread.h in package.xml",
+                "get": "https://pecl.php.net/get/eio-3.1.2",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
+            "3.1.1": {
+                "version": "3.1.1",
+                "state": "stable",
+                "license": "php",
+                "releasedBy": "osmanov",
+                "releaseDate": "2024-02-21T07:50:37+00:00",
+                "releaseNotes": "- Fixed issue #21: eio_fallocate() tests failed on Fedora 40\n- Updated the embedded libeio.",
+                "get": "https://pecl.php.net/get/eio-3.1.1",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
             "3.1.0": {
                 "version": "3.1.0",
                 "state": "stable",
