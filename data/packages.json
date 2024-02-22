@@ -9140,12 +9140,22 @@
         "category": "Tools and Utilities",
         "deprecated": false,
         "description": "This package provides a PHP binding for FANN (Fast Artificial Neural Network) Library",
-        "latestReleaseDate": "2022-01-03T00:00:14+00:00",
-        "latestVersion": "1.2.0RC2",
+        "latestReleaseDate": "2024-02-21T21:59:21+00:00",
+        "latestVersion": "1.2.0",
         "license": "PHP 3.01",
         "name": "fann",
         "php8Mentioned": true,
         "releases": {
+            "1.2.0": {
+                "version": "1.2.0",
+                "state": "stable",
+                "license": "PHP 3.01",
+                "releasedBy": "bukka",
+                "releaseDate": "2024-02-21T21:59:21+00:00",
+                "releaseNotes": "* Tested support of PHP 8.2 and PHP 8.3",
+                "get": "https://pecl.php.net/get/fann-1.2.0",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
             "1.2.0RC2": {
                 "version": "1.2.0RC2",
                 "state": "beta",
@@ -10916,12 +10926,22 @@
         "category": "Networking",
         "deprecated": false,
         "description": "Remote Procedure Calls (RPCs) provide a useful abstraction for building distributed applications and services. The libraries in this repository provide a concrete implementation of the gRPC protocol, layered over HTTP/2. These libraries enable communication between clients and servers using any combination of the supported languages.",
-        "latestReleaseDate": "2024-02-20T06:33:53+00:00",
-        "latestVersion": "1.62.0RC1",
+        "latestReleaseDate": "2024-02-21T21:32:50+00:00",
+        "latestVersion": "1.62.0",
         "license": "Apache 2.0",
         "name": "gRPC",
         "php8Mentioned": true,
         "releases": {
+            "1.62.0": {
+                "version": "1.62.0",
+                "state": "stable",
+                "license": "Apache 2.0",
+                "releasedBy": "stanleycheung",
+                "releaseDate": "2024-02-21T21:32:50+00:00",
+                "releaseNotes": "- gRPC Core 1.62.0 update",
+                "get": "https://pecl.php.net/get/grpc-1.62.0",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "1.62.0RC1": {
                 "version": "1.62.0RC1",
                 "state": "beta",
