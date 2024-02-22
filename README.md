@@ -1245,7 +1245,7 @@ languages.
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/gRPC-1.62.0RC1">1.62.0RC1</a> on 20 Feb 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/gRPC-1.62.0">1.62.0</a> on 21 Feb 2024</li>
 <li>Release data in JSON: <a href="data/packages/grpc.json">grpc.json</a></li>
 <li><a href="https://pecl.php.net/packages/gRPC">gRPC on PECL</a></li>
 <li></li>
@@ -2004,10 +2004,10 @@ This package provides a PHP binding for FANN (Fast Artificial Neural Network) Li
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/fann-1.2.0RC2">1.2.0RC2</a> on 03 Jan 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/fann-1.2.0">1.2.0</a> on 21 Feb 2024</li>
 <li>Release data in JSON: <a href="data/packages/fann.json">fann.json</a></li>
 <li><a href="https://pecl.php.net/packages/fann">fann on PECL</a></li>
-<li><a href="https://php.net/manual/en/book.fann.php">:book: Documentation</a> &nbsp; <a href="https://github.com/bukka/php-fann">:house: Home</a> &nbsp; <a href="https://github.com/bukka/php-fann">:sparkles: Source</a> &nbsp; <a href="https://github.com/bukka/php-fann/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=314&rid=&cid=29">:bar_chart: Stats</a></li>
+<li><a href="http://www.php.net/manual/en/book.fann.php">:book: Documentation</a> &nbsp; <a href="https://github.com/bukka/php-fann">:house: Home</a> &nbsp; <a href="https://github.com/bukka/php-fann">:sparkles: Source</a> &nbsp; <a href="https://github.com/bukka/php-fann/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=314&rid=&cid=29">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>ion</summary>
