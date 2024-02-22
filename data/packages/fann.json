@@ -2,12 +2,22 @@
     "category": "Tools and Utilities",
     "deprecated": false,
     "description": "This package provides a PHP binding for FANN (Fast Artificial Neural Network) Library",
-    "latestReleaseDate": "2022-01-03T00:00:14+00:00",
-    "latestVersion": "1.2.0RC2",
+    "latestReleaseDate": "2024-02-21T21:59:21+00:00",
+    "latestVersion": "1.2.0",
     "license": "PHP 3.01",
     "name": "fann",
     "php8Mentioned": true,
     "releases": {
+        "1.2.0": {
+            "version": "1.2.0",
+            "state": "stable",
+            "license": "PHP 3.01",
+            "releasedBy": "bukka",
+            "releaseDate": "2024-02-21T21:59:21+00:00",
+            "releaseNotes": "* Tested support of PHP 8.2 and PHP 8.3",
+            "get": "https://pecl.php.net/get/fann-1.2.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
         "1.2.0RC2": {
             "version": "1.2.0RC2",
             "state": "beta",

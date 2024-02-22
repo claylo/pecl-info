@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/fann">fann</p>
+ <c>pecl.php.net</c>
+ <v>1.2.0</v>
+ <st>stable</st>
+ <l>PHP 3.01</l>
+ <m>bukka</m>
+ <s>Wrapper for FANN (Fast Artificial Neural Network) Library</s>
+ <d>This package provides a PHP binding for FANN (Fast Artificial Neural Network) Library</d>
+ <da>2024-02-21 21:59:21</da>
+ <n>* Tested support of PHP 8.2 and PHP 8.3</n>
+ <f>63420</f>
+ <g>https://pecl.php.net/get/fann-1.2.0</g>
+ <x xlink:href="package.1.2.0.xml"/>
+</r>

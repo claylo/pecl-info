@@ -730,12 +730,12 @@
     },
     "fann": {
         "bugs": "https://github.com/bukka/php-fann/issues",
-        "docs": "https://php.net/manual/en/book.fann.php",
+        "docs": "http://www.php.net/manual/en/book.fann.php",
         "home": "https://github.com/bukka/php-fann",
         "maintained": true,
         "repo": "https://github.com/bukka/php-fann",
         "stats": "https://pecl.php.net/package-stats.php?pid=314&rid=&cid=29",
-        "verified": true
+        "verified": false
     },
     "ffi": {
         "bugs": "",
