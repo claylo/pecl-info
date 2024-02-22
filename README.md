@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (124)
+## Relevant Extensions (123)
 
 ### Authentication (2)
 
@@ -1799,8 +1799,8 @@ In all other cases, the standard filesystem functions are
 more than adequate.
 ```
 <p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/dio-0.3.0RC1">0.3.0RC1</a> on 25 Jan 2024</li>
+<li>License: </li>
+<li>Latest Release: <a href="https://pecl.php.net/get/dio-0.3.0">0.3.0</a> on 22 Feb 2024</li>
 <li>Release data in JSON: <a href="data/packages/dio.json">dio.json</a></li>
 <li><a href="https://pecl.php.net/packages/dio">dio on PECL</a></li>
 <li><a href="https://github.com/php/pecl-system-dio">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-system-dio/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=430&rid=&cid=37">:bar_chart: Stats</a></li>
@@ -1950,7 +1950,7 @@ This extension creates and applies patches to both text and binary files.
 </details>
 
 ***
-### Tools and Utilities (15)
+### Tools and Utilities (14)
 
 <details><summary>awscrt</summary>
 <p>AWS Common Runtime PHP bindings</p>
@@ -2052,22 +2052,6 @@ This extension provide API for communicating with MessagePack serialization.
 <li>Release data in JSON: <a href="data/packages/msgpack.json">msgpack.json</a></li>
 <li><a href="https://pecl.php.net/packages/msgpack">msgpack on PECL</a></li>
 <li><a href="http://msgpack.org/">:house: Home</a> &nbsp; <a href="https://github.com/msgpack/msgpack-php">:sparkles: Source</a> &nbsp; <a href="https://github.com/msgpack/msgpack-php/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=930&rid=&cid=29">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>pcsc&nbsp; :eight:</summary>
-<p>winscard PC/SC API support for PHP</p>
-
-```
-This is an extension for using PC/SC based smart cards with PHP. It is a wrapper to the
-winscard API which provides a native interface to smart cards using the PC/SC standard.
-Linux/UNIX and Windows are supported.
-```
-<p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/pcsc-0.5.1">0.5.1</a> on 21 Feb 2021</li>
-<li>Release data in JSON: <a href="data/packages/pcsc.json">pcsc.json</a></li>
-<li><a href="https://pecl.php.net/packages/pcsc">pcsc on PECL</a></li>
-<li><a href="https://github.com/pcsc-for-php/pcsc">:house: Home</a> &nbsp; <a href="https://github.com/pcsc-for-php/pcsc">:sparkles: Source</a> &nbsp; <a href="https://github.com/pcsc-for-php/pcsc/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=916&rid=&cid=29">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>protobuf</summary>
