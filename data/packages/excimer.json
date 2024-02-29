@@ -2,12 +2,26 @@
     "category": "Benchmarking",
     "deprecated": false,
     "description": "Calls a user-defined callback when a one-shot or periodic timer expires. Also a sampling profiler backend, which aggregates backtraces collected by a periodic timer.",
-    "latestReleaseDate": "2023-03-13T21:44:27+00:00",
-    "latestVersion": "1.1.1",
+    "latestReleaseDate": "2024-02-28T22:13:29+00:00",
+    "latestVersion": "1.2.1",
     "license": "Apache 2.0",
     "name": "excimer",
     "php8Mentioned": true,
     "releases": {
+        "1.2.1": {
+            "version": "1.2.1",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "tstarling",
+            "releaseDate": "2024-02-28T22:13:29+00:00",
+            "releaseNotes": "- Fix compiler warning in excimer_log\n- Fix invalid OS requirement in package.xml, allow all \"unix\"",
+            "get": "https://pecl.php.net/get/excimer-1.2.1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.2.0": {
+            "version": "1.2.0",
+            "state": "stable"
+        },
         "1.1.1": {
             "version": "1.1.1",
             "state": "stable",
