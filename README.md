@@ -631,7 +631,7 @@ This extension provides interface to the libeio library written by Marc Lehmann
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/eio-3.1.2">3.1.2</a> on 21 Feb 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/eio-3.1.3">3.1.3</a> on 02 Mar 2024</li>
 <li>Release data in JSON: <a href="data/packages/eio.json">eio.json</a></li>
 <li><a href="https://pecl.php.net/packages/eio">eio on PECL</a></li>
 <li><a href="http://docs.php.net/eio">:book: Documentation</a> &nbsp; <a href="https://github.com/rosmanov/pecl-eio">:sparkles: Source</a> &nbsp; <a href="https://github.com/rosmanov/pecl-eio/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=913&rid=&cid=44">:bar_chart: Stats</a></li>
