@@ -2,12 +2,22 @@
     "category": "Benchmarking",
     "deprecated": false,
     "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-    "latestReleaseDate": "2024-02-20T10:42:26+00:00",
-    "latestVersion": "0.98.0",
+    "latestReleaseDate": "2024-03-04T17:58:52+00:00",
+    "latestVersion": "0.98.1",
     "license": "BSD 3-Clause",
     "name": "datadog_trace",
     "php8Mentioned": true,
     "releases": {
+        "0.98.1": {
+            "version": "0.98.1",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "bwoebi",
+            "releaseDate": "2024-03-04T17:58:52+00:00",
+            "releaseNotes": "## Tracer\n\n### Fixed\n- Always include the whole of src/ in the Windows and PECL build (#2533)\n- Ensure the permissions of the log file are actually really 0666 (#2528)\n- Avoid remapping freed memory in trace sender fallback (#2541)\n- Fix possible crash in dd_patched_zend_call_known_function on early PHP 8.0 and 8.1 versions (#2548)\n- Make ddtrace_disable a true global to avoid crashes in ZTS with unsupported SAPI/extensions (#2545)",
+            "get": "https://pecl.php.net/get/datadog_trace-0.98.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "0.98.0": {
             "version": "0.98.0",
             "state": "stable",
