@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>0.98.1</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>bwoebi</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2024-03-04 17:58:52</da>
+ <n>## Tracer
+
+### Fixed
+- Always include the whole of src/ in the Windows and PECL build (#2533)
+- Ensure the permissions of the log file are actually really 0666 (#2528)
+- Avoid remapping freed memory in trace sender fallback (#2541)
+- Fix possible crash in dd_patched_zend_call_known_function on early PHP 8.0 and 8.1 versions (#2548)
+- Make ddtrace_disable a true global to avoid crashes in ZTS with unsupported SAPI/extensions (#2545)</n>
+ <f>987092</f>
+ <g>https://pecl.php.net/get/datadog_trace-0.98.1</g>
+ <x xlink:href="package.0.98.1.xml"/>
+</r>
