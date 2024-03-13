@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (123)
+## Relevant Extensions (122)
 
 ### Authentication (2)
 
@@ -1950,7 +1950,7 @@ This extension creates and applies patches to both text and binary files.
 </details>
 
 ***
-### Tools and Utilities (14)
+### Tools and Utilities (13)
 
 <details><summary>awscrt</summary>
 <p>AWS Common Runtime PHP bindings</p>
@@ -1980,20 +1980,6 @@ A PHP extension to build and apply patches to binary files.
 <li>Release data in JSON: <a href="data/packages/bsdiff.json">bsdiff.json</a></li>
 <li><a href="https://pecl.php.net/packages/bsdiff">bsdiff on PECL</a></li>
 <li><a href="https://github.com/deminy/php-bsdiff">:house: Home</a> &nbsp; <a href="https://github.com/deminy/php-bsdiff">:sparkles: Source</a> &nbsp; <a href="https://github.com/deminy/php-bsdiff/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1074&rid=&cid=29">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>crypto&nbsp; :eight:</summary>
-<p>Wrapper for OpenSSL Crypto Library</p>
-
-```
-This package provides an objective wrapper for OpenSSL Crypto Library
-```
-<p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/crypto-0.3.2">0.3.2</a> on 07 Mar 2021</li>
-<li>Release data in JSON: <a href="data/packages/crypto.json">crypto.json</a></li>
-<li><a href="https://pecl.php.net/packages/crypto">crypto on PECL</a></li>
-<li><a href="https://github.com/bukka/php-crypto/blob/master/README.md">:book: Documentation</a> &nbsp; <a href="https://github.com/bukka/php-crypto">:house: Home</a> &nbsp; <a href="https://github.com/bukka/php-crypto">:sparkles: Source</a> &nbsp; <a href="https://github.com/bukka/php-crypto/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=958&rid=&cid=29">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>fann&nbsp; :eight:</summary>
@@ -2062,7 +2048,7 @@ https://developers.google.com/protocol-buffers/
 ```
 <p><ul>
 <li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/protobuf-4.26.0RC3">4.26.0RC3</a> on 29 Feb 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/protobuf-4.26.0">4.26.0</a> on 13 Mar 2024</li>
 <li>Release data in JSON: <a href="data/packages/protobuf.json">protobuf.json</a></li>
 <li><a href="https://pecl.php.net/packages/protobuf">protobuf on PECL</a></li>
 <li><a href="https://github.com/google/protobuf">:sparkles: Source</a> &nbsp; <a href="https://github.com/protocolbuffers/protobuf/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=997&rid=&cid=29">:bar_chart: Stats</a></li>
