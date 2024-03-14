@@ -1830,7 +1830,7 @@ Phalcon is an open source full stack framework for PHP, written as a C-extension
 ```
 <p><ul>
 <li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/phalcon-5.6.1">5.6.1</a> on 08 Feb 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/phalcon-5.6.2">5.6.2</a> on 14 Mar 2024</li>
 <li>Release data in JSON: <a href="data/packages/phalcon.json">phalcon.json</a></li>
 <li><a href="https://pecl.php.net/packages/phalcon">phalcon on PECL</a></li>
 <li><a href="https://docs.phalcon.io">:book: Documentation</a> &nbsp; <a href="https://phalcon.io">:house: Home</a> &nbsp; <a href="https://github.com/phalcon/cphalcon">:sparkles: Source</a> &nbsp; <a href="https://github.com/phalcon/cphalcon/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1042&rid=&cid=37">:bar_chart: Stats</a></li>
