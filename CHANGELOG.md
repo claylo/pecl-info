@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.305.0](https://github.com/claylo/pecl-info/compare/v1.304.0...v1.305.0) (2024-03-16)
+
+
+### Added
+
+* add Tensor 3.0.5, mongodb 1.17.3 releases ([967c00e](https://github.com/claylo/pecl-info/commit/967c00ed86676be89128b127b16f96dff11aea5c))
+
 ## [1.304.0](https://github.com/claylo/pecl-info/compare/v1.303.0...v1.304.0) (2024-03-14)
 
 

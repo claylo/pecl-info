@@ -315,16 +315,16 @@ ibm_db2 provides access to DB2 and compatible databases on PHP.
 <p>MongoDB driver for PHP</p>
 
 ```
-The purpose of this driver is to provide exceptionally thin glue between MongoDB
-and PHP, implementing only fundamental and performance-critical components
-necessary to build a fully-functional MongoDB driver.
+The purpose of this driver is to provide exceptionally thin glue between MongoDB and PHP, implementing only fundamental and performance-critical components necessary to build a fully-functional MongoDB driver.
+
+Windows builds are attached to GitHub releases: https://github.com/mongodb/mongo-php-driver/releases
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/mongodb-1.17.2">1.17.2</a> on 20 Dec 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/mongodb-1.17.3">1.17.3</a> on 15 Mar 2024</li>
 <li>Release data in JSON: <a href="data/packages/mongodb.json">mongodb.json</a></li>
 <li><a href="https://pecl.php.net/packages/mongodb">mongodb on PECL</a></li>
-<li><a href="https://php.net/mongodb">:book: Documentation</a> &nbsp; <a href="https://www.mongodb.com/docs/drivers/php/">:house: Home</a> &nbsp; <a href="https://github.com/mongodb/mongo-php-driver">:sparkles: Source</a> &nbsp; <a href="https://jira.mongodb.org/browse/PHPC">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=981&rid=&cid=7">:bar_chart: Stats</a></li>
+<li><a href="https://www.php.net/mongodb">:book: Documentation</a> &nbsp; <a href="https://www.mongodb.com/docs/drivers/php-drivers/">:house: Home</a> &nbsp; <a href="https://github.com/mongodb/mongo-php-driver">:sparkles: Source</a> &nbsp; <a href="https://jira.mongodb.org/browse/PHPC">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=981&rid=&cid=7">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>mysql_xdevapi</summary>
@@ -1123,7 +1123,7 @@ A library and extension that provides objects for scientific computing in PHP.
 ```
 <p><ul>
 <li>License: MIT</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/Tensor-3.0.4">3.0.4</a> on 20 Sep 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/Tensor-3.0.5">3.0.5</a> on 15 Mar 2024</li>
 <li>Release data in JSON: <a href="data/packages/tensor.json">tensor.json</a></li>
 <li><a href="https://pecl.php.net/packages/Tensor">Tensor on PECL</a></li>
 <li><a href="https://rubixml.com">:house: Home</a> &nbsp; <a href="https://github.com/RubixML/Tensor">:sparkles: Source</a> &nbsp; <a href="https://github.com/RubixML/Tensor/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1056&rid=&cid=15">:bar_chart: Stats</a></li>
