@@ -1,13 +1,23 @@
 {
     "category": "Database",
     "deprecated": false,
-    "description": "The purpose of this driver is to provide exceptionally thin glue between MongoDB\nand PHP, implementing only fundamental and performance-critical components\nnecessary to build a fully-functional MongoDB driver.",
-    "latestReleaseDate": "2023-12-20T17:38:39+00:00",
-    "latestVersion": "1.17.2",
+    "description": "The purpose of this driver is to provide exceptionally thin glue between MongoDB and PHP, implementing only fundamental and performance-critical components necessary to build a fully-functional MongoDB driver.\n\nWindows builds are attached to GitHub releases: https://github.com/mongodb/mongo-php-driver/releases",
+    "latestReleaseDate": "2024-03-15T19:20:24+00:00",
+    "latestVersion": "1.17.3",
     "license": "Apache License",
     "name": "mongodb",
     "php8Mentioned": true,
     "releases": {
+        "1.17.3": {
+            "version": "1.17.3",
+            "state": "stable",
+            "license": "Apache License",
+            "releasedBy": "jmikola",
+            "releaseDate": "2024-03-15T19:20:24+00:00",
+            "releaseNotes": "** Task\n    * [PHPC-2339] - Upgrade libmongoc to 1.25.4\n    * [PHPC-2340] - Upgrade libmongocrypt to 1.8.4",
+            "get": "https://pecl.php.net/get/mongodb-1.17.3",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "1.17.2": {
             "version": "1.17.2",
             "state": "stable",
