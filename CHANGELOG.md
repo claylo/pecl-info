@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.306.0](https://github.com/claylo/pecl-info/compare/v1.305.0...v1.306.0) (2024-03-18)
+
+
+### Added
+
+* add opentelemetry 1.0.2beta2, couchbase 4.2.0 releases ([b604c86](https://github.com/claylo/pecl-info/commit/b604c861006ea5309026a637023f3e62e21231ef))
+
 ## [1.305.0](https://github.com/claylo/pecl-info/compare/v1.304.0...v1.305.0) (2024-03-16)
 
 
