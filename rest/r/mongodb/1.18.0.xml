@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.18.0</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>jmikola</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2024-03-27 15:52:38</da>
+ <n>** Task
+    * [PHPC-1956] - Remove disabled __wakeup function for classes that disable serialization
+    * [PHPC-2320] - Remove empty string key replacement logic in json_canonicalize()
+    * [PHPC-2358] - Upgrade libmongocrypt to 1.9.0
+    * [PHPC-2360] - Upgrade libmongoc to 1.26.0
+    * [PHPC-2363] - Upgrade libmongocrypt to 1.9.1
+    * [PHPC-2364] - Upgrade libmongoc to 1.26.1
+    * [PHPC-2366] - Invoke all Drivers Evergreen Tools Scripts with Bash</n>
+ <f>2074093</f>
+ <g>https://pecl.php.net/get/mongodb-1.18.0</g>
+ <x xlink:href="package.1.18.0.xml"/>
+</r>
