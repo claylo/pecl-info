@@ -1,13 +1,23 @@
 {
     "category": "Database",
     "deprecated": false,
-    "description": "The purpose of this driver is to provide exceptionally thin glue between MongoDB and PHP, implementing only fundamental and performance-critical components necessary to build a fully-functional MongoDB driver.\n\nWindows builds are attached to GitHub releases: https://github.com/mongodb/mongo-php-driver/releases",
-    "latestReleaseDate": "2024-03-15T19:20:24+00:00",
-    "latestVersion": "1.17.3",
+    "description": "The purpose of this driver is to provide exceptionally thin glue between MongoDB\nand PHP, implementing only fundamental and performance-critical components\nnecessary to build a fully-functional MongoDB driver.",
+    "latestReleaseDate": "2024-03-27T15:52:38+00:00",
+    "latestVersion": "1.18.0",
     "license": "Apache License",
     "name": "mongodb",
     "php8Mentioned": true,
     "releases": {
+        "1.18.0": {
+            "version": "1.18.0",
+            "state": "stable",
+            "license": "Apache License",
+            "releasedBy": "jmikola",
+            "releaseDate": "2024-03-27T15:52:38+00:00",
+            "releaseNotes": "** Task\n    * [PHPC-1956] - Remove disabled __wakeup function for classes that disable serialization\n    * [PHPC-2320] - Remove empty string key replacement logic in json_canonicalize()\n    * [PHPC-2358] - Upgrade libmongocrypt to 1.9.0\n    * [PHPC-2360] - Upgrade libmongoc to 1.26.0\n    * [PHPC-2363] - Upgrade libmongocrypt to 1.9.1\n    * [PHPC-2364] - Upgrade libmongoc to 1.26.1\n    * [PHPC-2366] - Invoke all Drivers Evergreen Tools Scripts with Bash",
+            "get": "https://pecl.php.net/get/mongodb-1.18.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "1.17.3": {
             "version": "1.17.3",
             "state": "stable",
