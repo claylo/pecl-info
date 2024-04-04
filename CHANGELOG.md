@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.311.0](https://github.com/claylo/pecl-info/compare/v1.310.0...v1.311.0) (2024-04-04)
+
+
+### Added
+
+* add gearman 2.1.2 release ([b68e8e6](https://github.com/claylo/pecl-info/commit/b68e8e645d782f9109648732c02edb08297e7111))
+
 ## [1.310.0](https://github.com/claylo/pecl-info/compare/v1.309.0...v1.310.0) (2024-04-03)
 
 

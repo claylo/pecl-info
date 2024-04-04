@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (122)
+## Relevant Extensions (123)
 
 ### Authentication (2)
 
@@ -1193,7 +1193,7 @@ SDL_ttf bindings for the PHP language
 </details>
 
 ***
-### Networking (9)
+### Networking (10)
 
 <details><summary>amqp&nbsp; :eight:</summary>
 <p>Communicate with any AMQP compliant server</p>
@@ -1231,6 +1231,21 @@ This is an extension to efficiently schedule I/O, time and signal based
 <li>Release data in JSON: <a href="data/packages/event.json">event.json</a></li>
 <li><a href="https://pecl.php.net/packages/event">event on PECL</a></li>
 <li><a href="http://docs.php.net/event">:book: Documentation</a> &nbsp; <a href="https://bitbucket.org/osmanov/pecl-event">:house: Home</a> &nbsp; <a href="https://bitbucket.org/osmanov/pecl-event/src">:sparkles: Source</a> &nbsp; <a href="https://bitbucket.org/osmanov/pecl-event/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=418&rid=&cid=16">:bar_chart: Stats</a></li>
+</ul></p><hr />
+</details>
+<details><summary>gearman&nbsp; :eight:</summary>
+<p>PHP wrapper to libgearman</p>
+
+```
+This extension uses libgearman library to provide API for communicating with gearmand, and
+writing clients and workers.
+```
+<p><ul>
+<li>License: PHP-3.01</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/gearman-2.1.2">2.1.2</a> on 04 Apr 2024</li>
+<li>Release data in JSON: <a href="data/packages/gearman.json">gearman.json</a></li>
+<li><a href="https://pecl.php.net/packages/gearman">gearman on PECL</a></li>
+<li><a href="http://php.net/gearman">:book: Documentation</a> &nbsp; <a href="http://gearman.org">:house: Home</a> &nbsp; <a href="https://github.com/php/pecl-networking-gearman">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-networking-gearman/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=861&rid=&cid=16">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>gRPC&nbsp; :eight:</summary>
