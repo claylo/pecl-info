@@ -2,12 +2,22 @@
     "category": "Networking",
     "deprecated": false,
     "description": "This extension uses libgearman library to provide API for communicating with gearmand, and writing clients and workers.",
-    "latestReleaseDate": "2021-01-16T20:34:49+00:00",
-    "latestVersion": "2.1.0",
+    "latestReleaseDate": "2024-04-04T14:54:41+00:00",
+    "latestVersion": "2.1.2",
     "license": "PHP",
     "name": "gearman",
     "php8Mentioned": true,
     "releases": {
+        "2.1.2": {
+            "version": "2.1.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rasmus",
+            "releaseDate": "2024-04-04T14:54:41+00:00",
+            "releaseNotes": "PHP 8 is now supported",
+            "get": "https://pecl.php.net/get/gearman-2.1.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
         "2.1.0": {
             "version": "2.1.0",
             "state": "stable",
@@ -48,16 +58,6 @@
             "get": "http://pecl.php.net/get/gearman-1.1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
-        "0.8.3": {
-            "version": "0.8.3",
-            "state": "beta",
-            "license": "PHP",
-            "releasedBy": "hradtke",
-            "releaseDate": "2012-08-04T19:57:25+00:00",
-            "releaseNotes": "Updated version number to match release vesrion.",
-            "get": "http://pecl.php.net/get/gearman-0.8.3",
-            "SPDX-License-Identifier": "PHP-3.01"
-        },
         "1.0.3": {
             "version": "1.0.3",
             "state": "stable",
@@ -68,16 +68,6 @@
             "get": "http://pecl.php.net/get/gearman-1.0.3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
-        "0.8.2": {
-            "version": "0.8.2",
-            "state": "beta",
-            "license": "PHP",
-            "releasedBy": "hradtke",
-            "releaseDate": "2012-08-04T19:39:24+00:00",
-            "releaseNotes": "- Additional fix for PECL Bug #59423 (GearmanWorker::wait and GearmanWorker::work are spamming the log with warnings.)",
-            "get": "http://pecl.php.net/get/gearman-0.8.2",
-            "SPDX-License-Identifier": "PHP-3.01"
-        },
         "1.0.2": {
             "version": "1.0.2",
             "state": "stable",
@@ -86,16 +76,6 @@
             "releaseDate": "2012-03-06T02:14:40+00:00",
             "releaseNotes": "- Updates for PHP 5.4",
             "get": "http://pecl.php.net/get/gearman-1.0.2",
-            "SPDX-License-Identifier": "PHP-3.01"
-        },
-        "0.8.1": {
-            "version": "0.8.1",
-            "state": "beta",
-            "license": "PHP",
-            "releasedBy": "hradtke",
-            "releaseDate": "2011-12-08T18:53:20+00:00",
-            "releaseNotes": "- Fixed PECL Bug #18658 (GearmanWorker::wait and GearmanWorker::work are spamming the log with warnings.)",
-            "get": "http://pecl.php.net/get/gearman-0.8.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.1": {
@@ -116,6 +96,36 @@
             "releaseDate": "2011-12-02T11:56:29+00:00",
             "releaseNotes": "- Fixed PECL Bug #18658 (GearmanWorker::wait and GearmanWorker::work are spamming the log with warnings.)\n- Fixed PECL Bug #22636 (Uncaught worker exception sends back GEARMAN_SUCCESS return code)\n- Fixed PECL Bug #16900 (Don't use reseved method names)\n- Fixed PECL Bug #59944 (Undefined symbol: gearman_client_set_server_option)\n - Now requires libgearman 0.21 or greater",
             "get": "http://pecl.php.net/get/gearman-1.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.8.3": {
+            "version": "0.8.3",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "hradtke",
+            "releaseDate": "2012-08-04T19:57:25+00:00",
+            "releaseNotes": "Updated version number to match release vesrion.",
+            "get": "http://pecl.php.net/get/gearman-0.8.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.8.2": {
+            "version": "0.8.2",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "hradtke",
+            "releaseDate": "2012-08-04T19:39:24+00:00",
+            "releaseNotes": "- Additional fix for PECL Bug #59423 (GearmanWorker::wait and GearmanWorker::work are spamming the log with warnings.)",
+            "get": "http://pecl.php.net/get/gearman-0.8.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.8.1": {
+            "version": "0.8.1",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "hradtke",
+            "releaseDate": "2011-12-08T18:53:20+00:00",
+            "releaseNotes": "- Fixed PECL Bug #18658 (GearmanWorker::wait and GearmanWorker::work are spamming the log with warnings.)",
+            "get": "http://pecl.php.net/get/gearman-0.8.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.8.0": {
