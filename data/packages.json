@@ -19969,12 +19969,22 @@
         "category": "Database",
         "deprecated": false,
         "description": "The purpose of this driver is to provide exceptionally thin glue between MongoDB\nand PHP, implementing only fundamental and performance-critical components\nnecessary to build a fully-functional MongoDB driver.",
-        "latestReleaseDate": "2024-03-27T15:52:38+00:00",
-        "latestVersion": "1.18.0",
+        "latestReleaseDate": "2024-04-12T08:45:17+00:00",
+        "latestVersion": "1.18.1",
         "license": "Apache License",
         "name": "mongodb",
         "php8Mentioned": true,
         "releases": {
+            "1.18.1": {
+                "version": "1.18.1",
+                "state": "stable",
+                "license": "Apache License",
+                "releasedBy": "alcaeus",
+                "releaseDate": "2024-04-12T08:45:17+00:00",
+                "releaseNotes": "** Task\n   * [PHPC-2369] - Upgrade libmongoc to 1.26.2",
+                "get": "https://pecl.php.net/get/mongodb-1.18.1",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "1.18.0": {
                 "version": "1.18.0",
                 "state": "stable",
