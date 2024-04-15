@@ -2,12 +2,22 @@
     "category": "PHP",
     "deprecated": false,
     "description": "Xdebug and provides a range of features to improve the PHP development\nexperience.\n\nStep Debugging\n    A way to step through your code in your IDE or editor while the script is\n    executing.\n\nImprovements to PHP's error reporting\n    An improved var_dump() function, stack traces for Notices, Warnings, Errors\n    and Exceptions to highlight the code path to the error\n\nTracing\n    Writes every function call, with arguments and invocation location to disk.\n    Optionally also includes every variable assignment and return value for\n    each function.\n\nProfiling\n    Allows you, with the help of visualisation tools, to analyse the\n    performance of your PHP application and find bottlenecks.\n\nCode Coverage Analysis\n    To show which parts of your code base are executed when running unit tests\n    with PHP Unit.",
-    "latestReleaseDate": "2023-12-14T17:59:56+00:00",
-    "latestVersion": "3.3.1",
+    "latestReleaseDate": "2024-04-15T13:10:11+00:00",
+    "latestVersion": "3.3.2",
     "license": "Xdebug-1.03",
     "name": "xdebug",
     "php8Mentioned": true,
     "releases": {
+        "3.3.2": {
+            "version": "3.3.2",
+            "state": "stable",
+            "license": "Xdebug-1.03",
+            "releasedBy": "derick",
+            "releaseDate": "2024-04-15T13:10:11+00:00",
+            "releaseNotes": "Mon, Apr 15, 2024 - Xdebug 3.3.2\n\n= Fixed bugs:\n\n  - Fixed issue #2216: With PHP8.3 and Apache 2.4.58 error_reporting() causing Apache process to hang\n  - Fixed issue #2230: Crash when xdebug and blackfire extensions are active\n  - Fixed issue #2233: High and continuous Apache server CPU use",
+            "get": "https://pecl.php.net/get/xdebug-3.3.2",
+            "SPDX-License-Identifier": null
+        },
         "3.3.1": {
             "version": "3.3.1",
             "state": "stable",
