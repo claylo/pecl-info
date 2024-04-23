@@ -1093,7 +1093,7 @@ It can deal with rfc822 and rfc2045 (MIME) compliant messages.
 </details>
 
 ***
-### Math (2)
+### Math (3)
 
 <details><summary>geospatial&nbsp; :eight:</summary>
 <p>PHP Extension to handle common geospatial functions</p>
@@ -1113,6 +1113,24 @@ The extension currently has implementations of the Haversine and
 <li>Release data in JSON: <a href="data/packages/geospatial.json">geospatial.json</a></li>
 <li><a href="https://pecl.php.net/packages/geospatial">geospatial on PECL</a></li>
 <li><a href="https://github.com/php-geospatial/geospatial">:sparkles: Source</a> &nbsp; <a href="https://github.com/php-geospatial/geospatial/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=992&rid=&cid=15">:bar_chart: Stats</a></li>
+</ul></p><hr />
+</details>
+<details><summary>hdr_histogram</summary>
+<p>A PHP extension wrapper for the C hdrhistogram API</p>
+
+```
+HdrHistogram: A High Dynamic Range Histogram. A Histogram that supports recording and
+analyzing sampled data value counts across a configurable integer value range with
+configurable value precision within the range. Value precision is expressed as the number
+of significant digits in the value recording, and provides control over value quantization
+behavior across the value range and the subsequent value resolution at any given level.
+```
+<p><ul>
+<li>License: BSD-2-Clause</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/hdr_histogram-0.5.0">0.5.0</a> on 23 Apr 2024</li>
+<li>Release data in JSON: <a href="data/packages/hdr_histogram.json">hdr_histogram.json</a></li>
+<li><a href="https://pecl.php.net/packages/hdr_histogram">hdr_histogram on PECL</a></li>
+<li><a href="http://hdrhistogram.org/">:house: Home</a> &nbsp; <a href="https://github.com/beberlei/hdrhistogram-php">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=995&rid=&cid=15">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>Tensor&nbsp; :eight:</summary>
@@ -1613,25 +1631,6 @@ Code Coverage Analysis
 <li>Release data in JSON: <a href="data/packages/xdebug.json">xdebug.json</a></li>
 <li><a href="https://pecl.php.net/packages/xdebug">xdebug on PECL</a></li>
 <li><a href="https://xdebug.org/docs/">:book: Documentation</a> &nbsp; <a href="https://xdebug.org/">:house: Home</a> &nbsp; <a href="https://github.com/xdebug/xdebug">:sparkles: Source</a> &nbsp; <a href="https://bugs.xdebug.org">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=214&rid=&cid=25">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-
-***
-### Processing (1)
-
-<details><summary>rrd&nbsp; :eight:</summary>
-<p>PHP bindings to rrd tool system</p>
-
-```
-Procedural and simple OO wrapper for rrdtool - data logging and graphing system for time
-series data.
-```
-<p><ul>
-<li>License: BSD-2-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/rrd-2.0.3">2.0.3</a> on 22 Apr 2021</li>
-<li>Release data in JSON: <a href="data/packages/rrd.json">rrd.json</a></li>
-<li><a href="https://pecl.php.net/packages/rrd">rrd on PECL</a></li>
-<li><a href="http://www.php.net/rrd">:book: Documentation</a> &nbsp; <a href="https://github.com/php/pecl-processing-rrd">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-processing-rrd/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=893&rid=&cid=31">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 

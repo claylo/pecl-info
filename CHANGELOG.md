@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.319.0](https://github.com/claylo/pecl-info/compare/v1.318.0...v1.319.0) (2024-04-23)
+
+
+### Added
+
+* add hdr_histogram 0.5.0 release ([e15d0fa](https://github.com/claylo/pecl-info/commit/e15d0fa523bc54904070f4d6b4f1e3b7936da945))
+
 ## [1.318.0](https://github.com/claylo/pecl-info/compare/v1.317.0...v1.318.0) (2024-04-18)
 
 
