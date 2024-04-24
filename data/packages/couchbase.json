@@ -2,12 +2,22 @@
     "category": "Database",
     "deprecated": false,
     "description": "The PHP client library provides fast access to documents stored in a Couchbase Server.",
-    "latestReleaseDate": "2024-03-18T08:36:31+00:00",
-    "latestVersion": "4.2.0",
+    "latestReleaseDate": "2024-04-24T02:50:13+00:00",
+    "latestVersion": "4.2.1",
     "license": "Apache V2",
     "name": "couchbase",
     "php8Mentioned": true,
     "releases": {
+        "4.2.1": {
+            "version": "4.2.1",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2024-04-24T02:50:13+00:00",
+            "releaseNotes": "Fixes\n=====\n\n* PCBC-987: Fix consistency vector encoding for FTS (#163)\n* PCBC-985: Use system DNS config by default, and disable DNS-SRV if\n  system does not provide DNS server. (#159)\n\nEnhancements\n============\n\n* PCBC-859: Update build scripts and instructions for Windows (#158, #164)\n* PCBC-984, PCBC-987: Improve compatiblity with pcntl_fork() (#157, #162)\n\nNotable changes in core C++\n===========================\n\n1.0.0-dp.14\n-----------\n\n## Enhancements\n\n    * CXXCBC-489: Support scoped eventing functions. (#548)\n    * CXXCBC-489: Add `version_7_2_0 eventing` function language compatibility. (#554)\n    * CXXCBC-470: Distinguish between 'unset' and 'off' query_profile (#551)\n\n## Fixes\n\n    * CXXCBC-487: Check if alternate addressing is used when bootstrapping. (#545)\n    * CXXCBC-503: Ignore configuration if it contains an empty vBucketMap. (#556, #558)\n    * CXXCBC-30: Inconsistent behaviour when using subdoc opcodes incorrectly (#559)\n    * CXXCBC-492: Use retry strategy in collections_component's get_collection_id. (#552)\n    * CXXCBC-494: Fix memory issue in range scan implementation. (#549)\n    * Always attempt to extract common query code if error has not been\n      set. (#561) Fixes quota/rate limit checks for older servers.\n\n## Build and Tests Fixes\n\n    * CXXCBC-502: Apply `/bigobj` for SDK objects only. (#550) Avoid using\n      global add_definitions() as it might leak to non-CXX languages (like\n      `ASM_NASM` on Windows).\n    * Add feature check for scoped analyze_document in tests (#555)",
+            "get": "https://pecl.php.net/get/couchbase-4.2.1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "4.2.0": {
             "version": "4.2.0",
             "state": "stable",
