@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/couchbase">couchbase</p>
+ <c>pecl.php.net</c>
+ <v>4.2.1</v>
+ <st>stable</st>
+ <l>Apache V2</l>
+ <m>avsej</m>
+ <s>Couchbase Server PHP extension</s>
+ <d>The PHP client library provides fast access to documents stored in a Couchbase Server.</d>
+ <da>2024-04-24 02:50:13</da>
+ <n>Fixes
+=====
+
+* PCBC-987: Fix consistency vector encoding for FTS (#163)
+* PCBC-985: Use system DNS config by default, and disable DNS-SRV if
+  system does not provide DNS server. (#159)
+
+Enhancements
+============
+
+* PCBC-859: Update build scripts and instructions for Windows (#158, #164)
+* PCBC-984, PCBC-987: Improve compatiblity with pcntl_fork() (#157, #162)
+
+Notable changes in core C++
+===========================
+
+1.0.0-dp.14
+-----------
+
+## Enhancements
+
+    * CXXCBC-489: Support scoped eventing functions. (#548)
+    * CXXCBC-489: Add `version_7_2_0 eventing` function language compatibility. (#554)
+    * CXXCBC-470: Distinguish between &#039;unset&#039; and &#039;off&#039; query_profile (#551)
+
+## Fixes
+
+    * CXXCBC-487: Check if alternate addressing is used when bootstrapping. (#545)
+    * CXXCBC-503: Ignore configuration if it contains an empty vBucketMap. (#556, #558)
+    * CXXCBC-30: Inconsistent behaviour when using subdoc opcodes incorrectly (#559)
+    * CXXCBC-492: Use retry strategy in collections_component&#039;s get_collection_id. (#552)
+    * CXXCBC-494: Fix memory issue in range scan implementation. (#549)
+    * Always attempt to extract common query code if error has not been
+      set. (#561) Fixes quota/rate limit checks for older servers.
+
+## Build and Tests Fixes
+
+    * CXXCBC-502: Apply `/bigobj` for SDK objects only. (#550) Avoid using
+      global add_definitions() as it might leak to non-CXX languages (like
+      `ASM_NASM` on Windows).
+    * Add feature check for scoped analyze_document in tests (#555)</n>
+ <f>6388671</f>
+ <g>https://pecl.php.net/get/couchbase-4.2.1</g>
+ <x xlink:href="package.4.2.1.xml"/>
+</r>
