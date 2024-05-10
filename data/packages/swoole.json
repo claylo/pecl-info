@@ -2,12 +2,22 @@
     "category": "Event",
     "deprecated": false,
     "description": "Event-driven asynchronous and concurrent networking engine with high performance for PHP.\n        - event-driven\n        - coroutine\n        - asynchronous non-blocking\n        - multi-thread reactor\n        - multi-process worker\n        - multi-protocol\n        - millisecond timer\n        - built-in tcp/http/websocket/http2 server\n        - coroutine tcp/http/websocket client\n        - coroutine mysql client\n        - coroutine redis client\n        - coroutine read/write file system\n        - coroutine dns lookup\n        - support IPv4/IPv6/UnixSocket/TCP/UDP\n        - support SSL/TLS encrypted transmission",
-    "latestReleaseDate": "2023-11-26T14:45:16+00:00",
-    "latestVersion": "5.1.1",
+    "latestReleaseDate": "2024-05-10T05:01:15+00:00",
+    "latestVersion": "5.1.2",
     "license": "Apache2.0",
     "name": "swoole",
     "php8Mentioned": true,
     "releases": {
+        "5.1.2": {
+            "version": "5.1.2",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "tianfenghan",
+            "releaseDate": "2024-05-10T05:01:15+00:00",
+            "releaseNotes": "- Added support for embed sapi @matyhtf\n- Fixed compatibility with PHP 8.3 ZEND_CHECK_STACK_LIMIT @Yurunsoft\n- Fixed no Content-Range response header when the range request returns all the contents of the file @Yurunsoft\n- Optimized HTTP server performance @NathanFreeman\n- Fixed truncated cookie @stnguyen90\n- Fixed native-curl crash on PHP 8.3 @NathanFreeman\n- Added CLOSE_SERVICE_RESTART, CLOSE_TRY_AGAIN_LATER, CLOSE_BAD_GATEWAY as valid close reasons for websocket @cjavad\n- Fixed invalid errno after Server::Manager::wait() @JacobBrownAustin\n- Fixed HTTP2 Typo @leocavalcante",
+            "get": "https://pecl.php.net/get/swoole-5.1.2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "5.1.1": {
             "version": "5.1.1",
             "state": "stable",
