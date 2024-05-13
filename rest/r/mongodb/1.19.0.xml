@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.19.0</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>alcaeus</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2024-05-13 14:31:20</da>
+ <n>Release 1.19.0
+
+* Prepare 1.18.1 release by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1534
+* Merge v1.18 into master by @mongodb-php-bot in https://github.com/mongodb/mongo-php-driver/pull/1533
+* Merge v1.18 into master by @mongodb-php-bot in https://github.com/mongodb/mongo-php-driver/pull/1536
+* Disable fail-fast for Windows Tests by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1535
+* Merge v1.18 into master by @mongodb-php-bot in https://github.com/mongodb/mongo-php-driver/pull/1537
+* PHPC-1674: Automate Driver Releases by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1538
+* Merge v1.18 into master by @mongodb-php-bot in https://github.com/mongodb/mongo-php-driver/pull/1542
+* PHPC-2373 and PHPC-2374: Upgrade libmongoc 1.27.0 and libmongocrypt 1.10.0 by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1540
+* PHPC-2378: Update libmongoc to 1.27.1 by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1545
+* PHPC-2255: Add database name to CommandFailedEvent and CommandSucceededEvent by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1543
+* Enable auto-merge in merge-up workflow by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1546
+* Merge v1.18 into master by @mongodb-php-bot in https://github.com/mongodb/mongo-php-driver/pull/1547
+* PHPC-1584: Sign releases by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1544
+* Merge v1.18 into master by @mongodb-php-bot in https://github.com/mongodb/mongo-php-driver/pull/1548
+* PHPC-2373: Include uthash in PECL package by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1552
+
+**Full Changelog**: https://github.com/mongodb/mongo-php-driver/compare/1.18.1...1.19.0
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEYB1UFjBzGnj7D2hrJubQdPEfzfsFAmZCIRkACgkQJubQdPEf
+zftwEw/9HoQ0r2k4WRsq4MukKc6YXdf865u2Vc7tcCw9utx8D9qoqWf2vi9816wB
+2om7f78tYRVSuSabw70rmZQ+unndHRUX8WojSbrE8dJj5LzPN9z9aIjXrruKTtUr
+4BnY2eDG7b4L9Czno4qrY7N+imTd6FjLXKxW1vwjUatnpuRoQDl8GhIKbtgZ0gRc
+oSVgqkaLY+TTd3H0LOxL4ejS7fB61RutoEanXtCygTbfJC9xuvI/4UvUXHfw8VOx
+yQ7yee1gmb8lRDKt/3nwupHbiTfc9jdD7eHg//KV7zn9DW/e72dGrSCw8tTXRrS0
+X/Ghgw8EwevwBbSCV3ZHSE8VTDS/XWBQs7Q8MbWF4d7YV0vSU6IjNWvyWee4Z/yE
+UN4WF4BxdbF4CraE2JKVKvBFNkT77ftZBTr8SqOu9d+Fx0r742cOxslkSoUoSpS5
+yMvlKRDjsiquuGRmP61Nje627BSLtG0x2+IgvczvifmSWsLADuCs8INJv0u2eZuM
+DLYxx/OasBu7Dg51hZbHAwBFDoHl1icRvTWTnAZVhSP61ZJEHgjzlJbBIlvPDogx
+HOUvN7G3zOO58ULOo6okqpmwDwd4aKRFsZ4LiQkxSF89wFuIoWn1HY+0xxu1fbqY
+eFLJHZufvzTVtxGw+kEdFBIAX5/nK/3MZJtBF1gEhmprKiqf6aE=
+=+vre
+-----END PGP SIGNATURE-----</n>
+ <f>2082253</f>
+ <g>https://pecl.php.net/get/mongodb-1.19.0</g>
+ <x xlink:href="package.1.19.0.xml"/>
+</r>
