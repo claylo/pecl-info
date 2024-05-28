@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.19.1</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>jmikola</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2024-05-28 17:17:18</da>
+ <n>Release 1.19.1
+
+* PHPC-2382: Allow static builds with php-src by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1555
+* Use stable version of release tooling by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1558
+* Add test job to build and install PECL package by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1559
+* Merge v1.18 into v1.19 by @mongodb-php-bot in https://github.com/mongodb/mongo-php-driver/pull/1561
+* PHPC-2326: Run static analysis by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1539
+* PHPC-2388: Install VC15 component for PHP 7.4 by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1565
+* PHPC-2388: Simplify steps for VC15 installation by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1567
+
+**Full Changelog**: https://github.com/mongodb/mongo-php-driver/compare/1.19.0...1.19.1
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEYB1UFjBzGnj7D2hrJubQdPEfzfsFAmZWDnEACgkQJubQdPEf
+zfuIiRAAmpAlZ+DBj4gqMXF1UVk2UiHhBclEEwchS1BoXcD8QOpIlYgURc+Bup+/
+63O54x8edgv24fwaBcyHleEvDd9aQJ+hYCaUyU/7SKLYudF3x/y0u9A8N4xZp1bc
+mbdY8NC9AMpWQZNaLaZQx/s31CplkCboouwYdi1s5LGuiPz7yNwxqoRJTP5TuBTY
+hYQA0ah4sTDc2WJ76vR2MWngFPfJbhnNk5BJbDMrqHANkORfwB5IXFKnyq84qOxw
+qHgEakCrtjgp2e9KN8edG2WL8liRZJk/XO7P6UuRGMbBNWETl5jHyKExyuMnQ2eC
+5nYKTRitoCItp4QeA4oD38FMBKRgmdwd898E36wShnA+W+sXsH+tcufk+QCrkAL+
+UbwgepWWNhoUu6/mF1Zs8U7eEaokLZbwTXupDReQBxcwXE3U1SkczPP6bAfynokY
+L7LbVxmqoI7RTS7czwPyZrMempCkNh3BElKsjYgihqJZJMVBWqSTb13KS+QONtww
+MnUU6a7E70IepWZhyA0yFpjpBH/XeJELJPJDnZH1yuK59taRf7HWsCAhyyRZzC6B
+iL3LLO4I2A39kS6vr68HyaYDov2RCW+b8kVo4Hh+/ccdfOr1ZwB2bMLRzmoHEIvR
+gSgaf7qG9jfAZMToiNbZQTbvrkaGWFUEwTTUSpQ+8TXtHHZmVPs=
+=pXrG
+-----END PGP SIGNATURE-----</n>
+ <f>2081957</f>
+ <g>https://pecl.php.net/get/mongodb-1.19.1</g>
+ <x xlink:href="package.1.19.1.xml"/>
+</r>
