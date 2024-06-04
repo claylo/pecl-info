@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/zephir_parser">zephir_parser</p>
+ <c>pecl.php.net</c>
+ <v>1.6.1</v>
+ <st>stable</st>
+ <l>MIT</l>
+ <m>jeckerson</m>
+ <s>Zephir code parser.</s>
+ <d>Zephir Parser is a code parser, delivered as a C extension for the PHP language.</d>
+ <da>2024-06-03 20:58:56</da>
+ <n>### Fixed
+- Fix lcov coverage [#151](https://github.com/phalcon/php-zephir-parser/issues/151)</n>
+ <f>103597</f>
+ <g>https://pecl.php.net/get/zephir_parser-1.6.1</g>
+ <x xlink:href="package.1.6.1.xml"/>
+</r>
