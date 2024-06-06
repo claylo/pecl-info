@@ -2904,7 +2904,7 @@
     },
     "swoole": {
         "bugs": "https://github.com/swoole/swoole-src/issues",
-        "docs": "https://www.swoole.co.uk/docs/",
+        "docs": "https://wiki.swoole.com/en/#/",
         "home": "https://github.com/swoole/swoole-src",
         "maintained": true,
         "repo": "https://github.com/swoole/swoole-src",
