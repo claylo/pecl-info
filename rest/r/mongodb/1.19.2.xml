@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.19.2</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>jmikola</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2024-06-06 14:15:05</da>
+ <n>Release 1.19.2
+
+* PHPC-2391: Update drivers tools to v2 by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1573
+* PHPC-2394: Update libmongoc to 1.27.2 by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1575
+
+**Full Changelog**: https://github.com/mongodb/mongo-php-driver/compare/1.19.1...1.19.2
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEYB1UFjBzGnj7D2hrJubQdPEfzfsFAmZhv/EACgkQJubQdPEf
+zfsJgxAAlFnZuN8RiuXG0j/UZX+j6VVzFDSupI7Z3e8Za5tVYFPfb/XjsvacI20a
+x2uD4xgUt4nyLdgAxADkSdEzrGgfxL8Q3tFB3rL3s2NHm+AbIuwmAN7VNi2z59wz
+xIxzZtZz8l9/ivBJTueqRTAHbWAobUsFnbI1oK6rj5ycBhhZnxif/etV/1K4UIQM
+CddfMms6XJNSWw4PVCW+jNPVIJvO04a0JYSA6/iP13FzxPDLz0K3ebErXD2L2Z+z
+PXq/C+VHvmKxI7Dr9TKJ6Mae9kNz5HocxKm3npVWjOZUZlUAGTbFeAyqeDJCMf3W
+RU6Epwh/lcEICCdiqwZCoQ+wHQkIwOswAaRau9Fpy99f1/exUWVqqlDWbs3Y4OU5
+48zgGBmsOWWCAEyxdtwpWkV8OcqjgOPoO4jfyKjX/dv91fe2mFAQ6dgdk6UV4WXi
+4lVJdW/OwcRKJcldGbzGGjUGQXN/sP4Tm1Aqo3OqmfMoOOlQDKoZkXFHDfacRt1k
+tUSPj0uhai1ZRO3CzN0UKmrLqX6bBFyq4eJc6l1pkn7jVdsHXYLq+1GM7dm2fCAx
+n7KK7USNqsz9w6xEELTl++K9tYyBu9EgcIMjd8rxDNKuLYkteEOlmmZxLRMNB2gT
+2ZgtH6PmX+QiXJDKzpboqUodNBvsYlrZQcIsLBWnOIfZAlBAzcE=
+=1rMo
+-----END PGP SIGNATURE-----</n>
+ <f>2083266</f>
+ <g>https://pecl.php.net/get/mongodb-1.19.2</g>
+ <x xlink:href="package.1.19.2.xml"/>
+</r>

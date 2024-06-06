@@ -20039,12 +20039,22 @@
         "category": "Database",
         "deprecated": false,
         "description": "The purpose of this driver is to provide exceptionally thin glue between MongoDB\nand PHP, implementing only fundamental and performance-critical components\nnecessary to build a fully-functional MongoDB driver.",
-        "latestReleaseDate": "2024-05-28T17:17:18+00:00",
-        "latestVersion": "1.19.1",
+        "latestReleaseDate": "2024-06-06T14:15:05+00:00",
+        "latestVersion": "1.19.2",
         "license": "Apache License",
         "name": "mongodb",
         "php8Mentioned": true,
         "releases": {
+            "1.19.2": {
+                "version": "1.19.2",
+                "state": "stable",
+                "license": "Apache License",
+                "releasedBy": "jmikola",
+                "releaseDate": "2024-06-06T14:15:05+00:00",
+                "releaseNotes": "Release 1.19.2\n\n* PHPC-2391: Update drivers tools to v2 by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1573\n* PHPC-2394: Update libmongoc to 1.27.2 by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1575\n\n**Full Changelog**: https://github.com/mongodb/mongo-php-driver/compare/1.19.1...1.19.2\n-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCAAdFiEEYB1UFjBzGnj7D2hrJubQdPEfzfsFAmZhv/EACgkQJubQdPEf\nzfsJgxAAlFnZuN8RiuXG0j/UZX+j6VVzFDSupI7Z3e8Za5tVYFPfb/XjsvacI20a\nx2uD4xgUt4nyLdgAxADkSdEzrGgfxL8Q3tFB3rL3s2NHm+AbIuwmAN7VNi2z59wz\nxIxzZtZz8l9/ivBJTueqRTAHbWAobUsFnbI1oK6rj5ycBhhZnxif/etV/1K4UIQM\nCddfMms6XJNSWw4PVCW+jNPVIJvO04a0JYSA6/iP13FzxPDLz0K3ebErXD2L2Z+z\nPXq/C+VHvmKxI7Dr9TKJ6Mae9kNz5HocxKm3npVWjOZUZlUAGTbFeAyqeDJCMf3W\nRU6Epwh/lcEICCdiqwZCoQ+wHQkIwOswAaRau9Fpy99f1/exUWVqqlDWbs3Y4OU5\n48zgGBmsOWWCAEyxdtwpWkV8OcqjgOPoO4jfyKjX/dv91fe2mFAQ6dgdk6UV4WXi\n4lVJdW/OwcRKJcldGbzGGjUGQXN/sP4Tm1Aqo3OqmfMoOOlQDKoZkXFHDfacRt1k\ntUSPj0uhai1ZRO3CzN0UKmrLqX6bBFyq4eJc6l1pkn7jVdsHXYLq+1GM7dm2fCAx\nn7KK7USNqsz9w6xEELTl++K9tYyBu9EgcIMjd8rxDNKuLYkteEOlmmZxLRMNB2gT\n2ZgtH6PmX+QiXJDKzpboqUodNBvsYlrZQcIsLBWnOIfZAlBAzcE=\n=1rMo\n-----END PGP SIGNATURE-----",
+                "get": "https://pecl.php.net/get/mongodb-1.19.2",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "1.19.1": {
                 "version": "1.19.1",
                 "state": "stable",
