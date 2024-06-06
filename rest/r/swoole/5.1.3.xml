@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>5.1.3</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in tcp/http/websocket/http2 server
+        - coroutine tcp/http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2024-06-06 07:34:41</da>
+ <n>- Fix the problem of being unable to install through pecl.
+- Fix the issue of Swoole\Coroutine\FastCGI\Client client being unable to set keepalive.
+- Fix the issue of process continuously restarting due to error thrown when request parameters exceed max_input_vars.
+- Fix the unknown issue caused by using Swoole\Event::wait() in a coroutine.
+- Fix the issue of proc_open not supporting pty when used in a coroutine.
+- Fix the segmentation fault issue in pdo_sqlite on PHP 8.3.
+- Fix the unnecessary warning when compiling Swoole.
+- Fix the error thrown when calling zend_fetch_resource2_ex on closed STDOUT/STDERR.
+- Fix the invalid set_tcp_nodelay configuration.
+- Fix the occasional unreachable branch issue triggered during file uploads.
+- Fix the issue causing PHP core to throw errors when dispatch_func is set.
+- Fix the obsolete warning of AC_PROG_CC_C99 in autoconf &gt;= 2.70 version.
+- Remove unnecessary checks for socket structs.
+- Upgrade the Swoole library.
+- Add support for http status code 451 in Swoole\Http\Response.
+- Synchronize file operation code across different versions of PHP.
+- Synchronize PDO operation code across different versions of PHP.
+- Optimize the code for Socket::ssl_recv() function.
+- Optimized config.m4 by allowing some configurations to set dependency library locations using pkg-config.
+- Optimize the issue with using dynamic arrays when parsing request headers.</n>
+ <f>2261890</f>
+ <g>https://pecl.php.net/get/swoole-5.1.3</g>
+ <x xlink:href="package.5.1.3.xml"/>
+</r>

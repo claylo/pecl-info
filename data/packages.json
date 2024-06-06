@@ -38221,12 +38221,22 @@
         "category": "Event",
         "deprecated": false,
         "description": "Event-driven asynchronous and concurrent networking engine with high performance for PHP.\n        - event-driven\n        - coroutine\n        - asynchronous non-blocking\n        - multi-thread reactor\n        - multi-process worker\n        - multi-protocol\n        - millisecond timer\n        - built-in tcp/http/websocket/http2 server\n        - coroutine tcp/http/websocket client\n        - coroutine mysql client\n        - coroutine redis client\n        - coroutine read/write file system\n        - coroutine dns lookup\n        - support IPv4/IPv6/UnixSocket/TCP/UDP\n        - support SSL/TLS encrypted transmission",
-        "latestReleaseDate": "2024-05-10T05:01:15+00:00",
-        "latestVersion": "5.1.2",
+        "latestReleaseDate": "2024-06-06T07:34:41+00:00",
+        "latestVersion": "5.1.3",
         "license": "Apache2.0",
         "name": "swoole",
         "php8Mentioned": true,
         "releases": {
+            "5.1.3": {
+                "version": "5.1.3",
+                "state": "stable",
+                "license": "Apache2.0",
+                "releasedBy": "tianfenghan",
+                "releaseDate": "2024-06-06T07:34:41+00:00",
+                "releaseNotes": "- Fix the problem of being unable to install through pecl.\n- Fix the issue of Swoole\\Coroutine\\FastCGI\\Client client being unable to set keepalive.\n- Fix the issue of process continuously restarting due to error thrown when request parameters exceed max_input_vars.\n- Fix the unknown issue caused by using Swoole\\Event::wait() in a coroutine.\n- Fix the issue of proc_open not supporting pty when used in a coroutine.\n- Fix the segmentation fault issue in pdo_sqlite on PHP 8.3.\n- Fix the unnecessary warning when compiling Swoole.\n- Fix the error thrown when calling zend_fetch_resource2_ex on closed STDOUT/STDERR.\n- Fix the invalid set_tcp_nodelay configuration.\n- Fix the occasional unreachable branch issue triggered during file uploads.\n- Fix the issue causing PHP core to throw errors when dispatch_func is set.\n- Fix the obsolete warning of AC_PROG_CC_C99 in autoconf >= 2.70 version.\n- Remove unnecessary checks for socket structs.\n- Upgrade the Swoole library.\n- Add support for http status code 451 in Swoole\\Http\\Response.\n- Synchronize file operation code across different versions of PHP.\n- Synchronize PDO operation code across different versions of PHP.\n- Optimize the code for Socket::ssl_recv() function.\n- Optimized config.m4 by allowing some configurations to set dependency library locations using pkg-config.\n- Optimize the issue with using dynamic arrays when parsing request headers.",
+                "get": "https://pecl.php.net/get/swoole-5.1.3",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "5.1.2": {
                 "version": "5.1.2",
                 "state": "stable",
