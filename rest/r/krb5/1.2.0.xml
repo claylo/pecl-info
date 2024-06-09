@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<p xmlns="http://pear.php.net/dtd/rest.package"    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:xlink="http://www.w3.org/1999/xlink"    xsi:schemaLocation="http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd">
- <n>krb5</n>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/krb5">krb5</p>
  <c>pecl.php.net</c>
- <ca xlink:href="/rest/c/Authentication">Authentication</ca>
+ <v>1.2.0</v>
+ <st>stable</st>
  <l>MIT License</l>
+ <m>mbechler</m>
  <s>Features:</s>
  <d>+ An interface for maintaining credential caches (KRB5CCache),
    that can be used for authenticating against a kerberos5 realm
@@ -16,5 +21,9 @@ Documentation:
 + see docs/ for the API documentation
 + there are several pieces of example code in the examples/ directory
 + see below for install instructions</d>
- <r xlink:href="/rest/r/krb5"/>
-</p>
+ <da>2024-06-09 08:50:35</da>
+ <n>- [FEATURE] Implement channel bindings support</n>
+ <f>38242</f>
+ <g>https://pecl.php.net/get/krb5-1.2.0</g>
+ <x xlink:href="package.1.2.0.xml"/>
+</r>
