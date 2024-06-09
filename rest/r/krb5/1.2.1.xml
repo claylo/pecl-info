@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/krb5">krb5</p>
+ <c>pecl.php.net</c>
+ <v>1.2.1</v>
+ <st>stable</st>
+ <l>MIT License</l>
+ <m>mbechler</m>
+ <s>Features:</s>
+ <d>+ An interface for maintaining credential caches (KRB5CCache),
+   that can be used for authenticating against a kerberos5 realm
++ Bindings for nearly the complete GSSAPI (RFC2744)
++ The administrative interface (KADM5)
++ Support for HTTP Negotiate authentication via GSSAPI
+
+Documentation:
++ see docs/ for the API documentation
++ there are several pieces of example code in the examples/ directory
++ see below for install instructions</d>
+ <da>2024-06-09 09:36:25</da>
+ <n>- [FEATURE] Implement channel bindings support
+- [API] Allow passing null channel binding in NegotiateAuth</n>
+ <f>38274</f>
+ <g>https://pecl.php.net/get/krb5-1.2.1</g>
+ <x xlink:href="package.1.2.1.xml"/>
+</r>
