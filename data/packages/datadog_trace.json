@@ -2,12 +2,22 @@
     "category": "Benchmarking",
     "deprecated": false,
     "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-    "latestReleaseDate": "2024-04-17T08:09:28+00:00",
-    "latestVersion": "1.0.0beta1",
+    "latestReleaseDate": "2024-06-10T21:31:43+00:00",
+    "latestVersion": "1.1.0",
     "license": "BSD 3-Clause",
     "name": "datadog_trace",
     "php8Mentioned": true,
     "releases": {
+        "1.1.0": {
+            "version": "1.1.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "bwoebi",
+            "releaseDate": "2024-06-10T21:31:43+00:00",
+            "releaseNotes": "## Tracer\n\n### Added\n- Implement OTel config remapping #2691\n- Remap OTel to DD status code #2695\n\n### Fixed\n- Apply some fixes with sidecar trace sender #2680, #2686, #2689, #2698, #2700\n- Don't treat Symfony 2 differently from other versions #2693\n- Ensure DDTRACE_G(active_stack) is always NULL when the root span is being pushed #2701\n\n### Internal\n- Switch 2 logs to logev to avoid useless work #2679\n- shrink size of Rust artifacts #2696\n\n## Profiling\n\n### Added\n- Add `thread id` label on every sample #2692\n\n### Internal\n- Reduce memory usage by upgrading libdatadog to v10 #2697",
+            "get": "https://pecl.php.net/get/datadog_trace-1.1.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "1.0.0beta1": {
             "version": "1.0.0beta1",
             "state": "beta",
