@@ -2014,12 +2014,42 @@
         "category": "Tools and Utilities",
         "deprecated": false,
         "description": "AWS Common Runtime provides a set of low level tools as network protocols and authentication used by the AWSSDK for PHP to provide high level API to access AWS services.",
-        "latestReleaseDate": "2023-10-16T21:47:35+00:00",
-        "latestVersion": "1.2.3",
+        "latestReleaseDate": "2024-06-13T17:33:28+00:00",
+        "latestVersion": "1.2.6",
         "license": "Apache License Version 2.0",
         "name": "awscrt",
         "php8Mentioned": false,
         "releases": {
+            "1.2.6": {
+                "version": "1.2.6",
+                "state": "stable",
+                "license": "Apache License Version 2.0",
+                "releasedBy": "dengket",
+                "releaseDate": "2024-06-13T17:33:28+00:00",
+                "releaseNotes": "pick up release from upstreams",
+                "get": "https://pecl.php.net/get/awscrt-1.2.6",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
+            "1.2.5": {
+                "version": "1.2.5",
+                "state": "stable",
+                "license": "Apache License Version 2.0",
+                "releasedBy": "dengket",
+                "releaseDate": "2024-06-13T17:27:47+00:00",
+                "releaseNotes": "Remove crypto.c function",
+                "get": "https://pecl.php.net/get/awscrt-1.2.5",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
+            "1.2.4": {
+                "version": "1.2.4",
+                "state": "stable",
+                "license": "Apache License Version 2.0",
+                "releasedBy": "dengket",
+                "releaseDate": "2024-06-13T17:25:36+00:00",
+                "releaseNotes": "fix deprecated use of ${var}",
+                "get": "https://pecl.php.net/get/awscrt-1.2.4",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "1.2.3": {
                 "version": "1.2.3",
                 "state": "stable",
