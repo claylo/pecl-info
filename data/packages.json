@@ -20109,12 +20109,22 @@
         "category": "Database",
         "deprecated": false,
         "description": "The purpose of this driver is to provide exceptionally thin glue between MongoDB\nand PHP, implementing only fundamental and performance-critical components\nnecessary to build a fully-functional MongoDB driver.",
-        "latestReleaseDate": "2024-06-06T14:15:05+00:00",
-        "latestVersion": "1.19.2",
+        "latestReleaseDate": "2024-06-17T08:48:15+00:00",
+        "latestVersion": "1.19.3",
         "license": "Apache License",
         "name": "mongodb",
         "php8Mentioned": true,
         "releases": {
+            "1.19.3": {
+                "version": "1.19.3",
+                "state": "stable",
+                "license": "Apache License",
+                "releasedBy": "alcaeus",
+                "releaseDate": "2024-06-17T08:48:15+00:00",
+                "releaseNotes": "## What's Changed\n* PHPC-2380: Add SBOM file and tooling to update it by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1577\n* PHPC-2384, PHPC-2399, PHPC-2400: Publish SSDLC assets on release by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1584\n* Manually merge up version bump commits by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1586\n\n\n**Full Changelog**: https://github.com/mongodb/mongo-php-driver/compare/1.19.2...1.19.3",
+                "get": "https://pecl.php.net/get/mongodb-1.19.3",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "1.19.2": {
                 "version": "1.19.2",
                 "state": "stable",
