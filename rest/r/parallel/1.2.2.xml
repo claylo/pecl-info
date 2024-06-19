@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/parallel">parallel</p>
+ <c>pecl.php.net</c>
+ <v>1.2.2</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>flowcontrol</m>
+ <s>Parallel concurrency API</s>
+ <d>A succinct parallel concurrency API for PHP 7.</d>
+ <da>2024-06-19 09:48:29</da>
+ <n>- CI: move docker images from Docker Hub to GHCR
+- fix compilation issues with PHP 8.2 and 8.3 on 32 bit hardware
+- fix compilation issues with PHP 8.4 (current master)
+- fix Sync object debug handlers in PHP 8.3</n>
+ <f>62025</f>
+ <g>https://pecl.php.net/get/parallel-1.2.2</g>
+ <x xlink:href="package.1.2.2.xml"/>
+</r>
