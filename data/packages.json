@@ -49362,12 +49362,22 @@
         "category": "Web Services",
         "deprecated": false,
         "description": "Yar(Yet another RPC framework) is a light, concurrent RPC framework, supports multi package protocols (json, msgpack)",
-        "latestReleaseDate": "2022-05-18T06:00:27+00:00",
-        "latestVersion": "2.3.2",
+        "latestReleaseDate": "2024-06-25T09:14:18+00:00",
+        "latestVersion": "2.3.3",
         "license": "PHP",
         "name": "yar",
         "php8Mentioned": true,
         "releases": {
+            "2.3.3": {
+                "version": "2.3.3",
+                "state": "stable",
+                "license": "PHP",
+                "releasedBy": "laruence",
+                "releaseDate": "2024-06-25T09:14:18+00:00",
+                "releaseNotes": "- Fixed build with PHP8.3",
+                "get": "https://pecl.php.net/get/yar-2.3.3",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
             "2.3.2": {
                 "version": "2.3.2",
                 "state": "stable",
@@ -49518,16 +49528,6 @@
                 "get": "http://pecl.php.net/get/yar-2.0.1",
                 "SPDX-License-Identifier": "PHP-3.01"
             },
-            "1.2.5": {
-                "version": "1.2.5",
-                "state": "stable",
-                "license": "PHP",
-                "releasedBy": "laruence",
-                "releaseDate": "2015-10-27T02:39:48+00:00",
-                "releaseNotes": "- Fixed #62 Fix the issue#61. yar_server.c:php_yar_server_handle free raw_data prematurely\n- Fixed build from PECL\n- Fixed issue #50 \"can not get fd from curl instance\"",
-                "get": "http://pecl.php.net/get/yar-1.2.5",
-                "SPDX-License-Identifier": "PHP-3.01"
-            },
             "2.0.0": {
                 "version": "2.0.0",
                 "state": "beta",
@@ -49536,6 +49536,16 @@
                 "releaseDate": "2015-10-27T02:39:35+00:00",
                 "releaseNotes": "- Release Yar for PHP7",
                 "get": "http://pecl.php.net/get/yar-2.0.0",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
+            "1.2.5": {
+                "version": "1.2.5",
+                "state": "stable",
+                "license": "PHP",
+                "releasedBy": "laruence",
+                "releaseDate": "2015-10-27T02:39:48+00:00",
+                "releaseNotes": "- Fixed #62 Fix the issue#61. yar_server.c:php_yar_server_handle free raw_data prematurely\n- Fixed build from PECL\n- Fixed issue #50 \"can not get fd from curl instance\"",
+                "get": "http://pecl.php.net/get/yar-1.2.5",
                 "SPDX-License-Identifier": "PHP-3.01"
             },
             "1.2.4": {
