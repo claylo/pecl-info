@@ -28609,12 +28609,22 @@
         "category": "System",
         "deprecated": false,
         "description": "Phalcon is an open source full stack framework for PHP, written as a C-extension. Phalcon is optimized for high\n    performance. Its unique architecture allows the framework to always be memory resident, offering its functionality\n    whenever its needed, without expensive file stats and file reads that traditional PHP frameworks employ.",
-        "latestReleaseDate": "2024-05-20T13:21:21+00:00",
-        "latestVersion": "5.7.0",
+        "latestReleaseDate": "2024-07-09T22:45:33+00:00",
+        "latestVersion": "5.8.0",
         "license": "BSD 3-Clause License",
         "name": "phalcon",
         "php8Mentioned": true,
         "releases": {
+            "5.8.0": {
+                "version": "5.8.0",
+                "state": "stable",
+                "license": "BSD 3-Clause License",
+                "releasedBy": "niden",
+                "releaseDate": "2024-07-09T22:45:33+00:00",
+                "releaseNotes": "Full changelog can be found at: https://github.com/phalcon/cphalcon/blob/master/CHANGELOG-5.0.md\n\n### Changed\n\n- Changed `Phalcon\\Mvc\\Model`, `Phalcon\\Support\\Collection` and `Phalcon\\Support\\Registry` to correctly implement   `\\Serializable` interface. [#16591](https://github.com/phalcon/cphalcon/issues/16591)\n- Changed the `Phalcon\\Mvc\\Router\\Group::getHostname()` to return `null` also. [#16601](https://github.com/phalcon/cphalcon/issues/16601)\n- Changed `Phalcon\\Mvc\\View\\Engine\\Volt\\Compiler::compileSource` to also return `array` [#16608](https://github.com/phalcon/cphalcon/issues/16608)\n\n### Added\n\n- Added events and `Phalcon\\Events\\Manager` for `Phalcon\\Storage\\Adapter\\Apcu`,\n  `Phalcon\\Storage\\Adapter\\Redis`,\n  `Phalcon\\Storage\\Adapter\\Memory`,\n  `Phalcon\\Storage\\Adapter\\Libmemcached`,\n  `Phalcon\\Storage\\Adapter\\Stream`,\n  `Phalcon\\Storage\\Adapter\\Weak`,\n  `Phalcon\\Cache\\Adapter\\Apcu`,\n  `Phalcon\\Cache\\Adapter\\Redis`,\n  `Phalcon\\Cache\\Adapter\\Memory`,\n  `Phalcon\\Cache\\Adapter\\Libmemcached`,\n  `Phalcon\\Cache\\Adapter\\Stream`,\n  `Phalcon\\Cache\\Adapter\\Weak`\n  `Phalcon\\Cache\\AbstractCache`. [#16606](https://github.com/phalcon/cphalcon/issues/16606)\n\n### Fixed\n\n- Fixed `Phalcon\\Support\\Helper\\PascalCase` causing memory leak by anonymous function [#16593](https://github.com/phalcon/cphalcon/issues/16593)\n- Fixed `Phalcon\\Mvc\\Model\\Query` to rollback failed transactions and re-throw exception for data consistency [#16604](https://github.com/phalcon/cphalcon/issues/16604)",
+                "get": "https://pecl.php.net/get/phalcon-5.8.0",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "5.7.0": {
                 "version": "5.7.0",
                 "state": "stable",
