@@ -3417,12 +3417,12 @@
     },
     "xhprof": {
         "bugs": "https://github.com/longxinH/xhprof/issues",
-        "docs": "http://php.net/xhprof",
+        "docs": "https://php.net/xhprof",
         "home": "https://github.com/longxinH/xhprof",
         "maintained": true,
         "repo": "https://github.com/longxinH/xhprof",
         "stats": "https://pecl.php.net/package-stats.php?pid=856&rid=&cid=29",
-        "verified": false
+        "verified": true
     },
     "xlswriter": {
         "bugs": "https://github.com/viest/php-ext-xlswriter/issues",
