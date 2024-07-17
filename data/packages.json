@@ -11080,20 +11080,20 @@
         "category": "Networking",
         "deprecated": false,
         "description": "Remote Procedure Calls (RPCs) provide a useful abstraction for building distributed applications and services. The libraries in this repository provide a concrete implementation of the gRPC protocol, layered over HTTP/2. These libraries enable communication between clients and servers using any combination of the supported languages.",
-        "latestReleaseDate": "2024-07-09T04:40:42+00:00",
-        "latestVersion": "1.65.0",
+        "latestReleaseDate": "2024-07-17T04:22:14+00:00",
+        "latestVersion": "1.65.1",
         "license": "Apache 2.0",
         "name": "gRPC",
         "php8Mentioned": true,
         "releases": {
-            "1.65.0": {
-                "version": "1.65.0",
+            "1.65.1": {
+                "version": "1.65.1",
                 "state": "stable",
                 "license": "Apache 2.0",
                 "releasedBy": "stanleycheung",
-                "releaseDate": "2024-07-09T04:40:42+00:00",
-                "releaseNotes": "- gRPC Core 1.65.0 update",
-                "get": "https://pecl.php.net/get/grpc-1.65.0",
+                "releaseDate": "2024-07-17T04:22:14+00:00",
+                "releaseNotes": "- gRPC Core 1.65.1 update",
+                "get": "https://pecl.php.net/get/grpc-1.65.1",
                 "SPDX-License-Identifier": "Apache-2.0"
             },
             "1.65.0RC2": {
