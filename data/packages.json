@@ -24380,12 +24380,22 @@
         "category": "PHP",
         "deprecated": false,
         "description": "A succinct parallel concurrency API for PHP 7.",
-        "latestReleaseDate": "2024-06-19T09:48:29+00:00",
-        "latestVersion": "1.2.2",
+        "latestReleaseDate": "2024-07-22T09:28:39+00:00",
+        "latestVersion": "1.2.3",
         "license": "PHP License",
         "name": "parallel",
         "php8Mentioned": true,
         "releases": {
+            "1.2.3": {
+                "version": "1.2.3",
+                "state": "stable",
+                "license": "PHP License",
+                "releasedBy": "flowcontrol",
+                "releaseDate": "2024-07-22T09:28:39+00:00",
+                "releaseNotes": "- CI: fix Windows tests #304\n- CI: updated to PHP 8.3.9 #305\n- FrankenPHP support: unlock mutex in case of `zend_bailout` #314\n- Make `request_info` from SAPI globals accessible in threads #307",
+                "get": "https://pecl.php.net/get/parallel-1.2.3",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
             "1.2.2": {
                 "version": "1.2.2",
                 "state": "stable",
