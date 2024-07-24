@@ -55,6 +55,10 @@
         "version": "4.0.0RC1",
         "state": "beta"
     },
+    "3.25.4": {
+        "version": "3.25.4",
+        "state": "stable"
+    },
     "3.25.3": {
         "version": "3.25.3",
         "state": "stable"
