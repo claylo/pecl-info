@@ -3359,12 +3359,22 @@
         "category": "Database",
         "deprecated": false,
         "description": "The PHP client library provides fast access to documents stored in a Couchbase Server.",
-        "latestReleaseDate": "2024-04-24T02:50:13+00:00",
-        "latestVersion": "4.2.1",
+        "latestReleaseDate": "2024-07-24T18:11:11+00:00",
+        "latestVersion": "4.2.2",
         "license": "Apache V2",
         "name": "couchbase",
         "php8Mentioned": true,
         "releases": {
+            "4.2.2": {
+                "version": "4.2.2",
+                "state": "stable",
+                "license": "Apache V2",
+                "releasedBy": "avsej",
+                "releaseDate": "2024-07-24T18:11:11+00:00",
+                "releaseNotes": "Fixes\n=====\n\n* PCBC-997: Do not export development files. (#172)\n  Exclude C++ files, tests and development scripts, so that Packagist will\n  not install them to the application ./vendor directory.\n\n* PCBC-991: Add consistency utility for testing (#168)\n\n* PCBC-989: Rollback to cmake 3.19 (#167)\n\n* PCBC-988: Fix type annotation for JsonSerializable implementations (#166)\n\nEnhancements\n============\n\n* PCBC-994: Support for base64 encoded vector types (#169, #170)\n\n* Core updated to 1.0.0. Release notes:\n  https://docs.couchbase.com/cxx-sdk/current/project-docs/sdk-release-notes.html#version-1-0-0-26-june-2024",
+                "get": "https://pecl.php.net/get/couchbase-4.2.2",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "4.2.1": {
                 "version": "4.2.1",
                 "state": "stable",

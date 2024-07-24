@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/couchbase">couchbase</p>
+ <c>pecl.php.net</c>
+ <v>4.2.2</v>
+ <st>stable</st>
+ <l>Apache V2</l>
+ <m>avsej</m>
+ <s>Couchbase Server PHP extension</s>
+ <d>The PHP client library provides fast access to documents stored in a Couchbase Server.</d>
+ <da>2024-07-24 18:11:11</da>
+ <n>Fixes
+=====
+
+* PCBC-997: Do not export development files. (#172)
+  Exclude C++ files, tests and development scripts, so that Packagist will
+  not install them to the application ./vendor directory.
+
+* PCBC-991: Add consistency utility for testing (#168)
+
+* PCBC-989: Rollback to cmake 3.19 (#167)
+
+* PCBC-988: Fix type annotation for JsonSerializable implementations (#166)
+
+Enhancements
+============
+
+* PCBC-994: Support for base64 encoded vector types (#169, #170)
+
+* Core updated to 1.0.0. Release notes:
+  https://docs.couchbase.com/cxx-sdk/current/project-docs/sdk-release-notes.html#version-1-0-0-26-june-2024</n>
+ <f>6403044</f>
+ <g>https://pecl.php.net/get/couchbase-4.2.2</g>
+ <x xlink:href="package.4.2.2.xml"/>
+</r>
