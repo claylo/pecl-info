@@ -1751,12 +1751,12 @@
     },
     "oci8": {
         "bugs": "https://github.com/php/php-src/issues",
-        "docs": "https://php.net/oci8",
+        "docs": "http://www.php.net/oci8",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/php/php-src/tree/master/ext/oci8",
         "stats": "https://pecl.php.net/package-stats.php?pid=277&rid=&cid=7",
-        "verified": true
+        "verified": false
     },
     "odbtp": {
         "bugs": "",

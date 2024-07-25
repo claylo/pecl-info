@@ -22919,13 +22919,23 @@
     "oci8": {
         "category": "Database",
         "deprecated": false,
-        "description": "The OCI8 extension lets you access Oracle Database.\n\nUse 'pecl install oci8' to install for PHP 8.1.\n\nUse 'pecl install oci8-3.0.1' to install for PHP 8.0.\n\nUse 'pecl install oci8-2.2.0' to install for PHP 7.\n\nUse 'pecl install oci8-2.0.12' to install for PHP 5.2 - PHP 5.6.\n\nUse 'pecl install oci8-1.4.10' to install for PHP 4.3.9 - PHP 5.1.\n\nThe current OCI8 extension can be linked with Oracle Client libraries from Oracle Database 11.2 or later.  (OCI8 3.0 and earlier can be linked with 10g or later).  The Oracle Client libraries are in the free Oracle Instant Client from https://www.oracle.com/database/technologies/instant-client.html.  They are also included in your database installation.\n\nOracle's standard cross-version connectivity applies.  For example, PHP OCI8 linked with Oracle Client 19c can connect to Oracle Database 11.2 onward.  See Oracle's note \"Oracle Client / Server Interoperability Support\" (ID 207303.1) for details.",
-        "latestReleaseDate": "2023-04-20T08:24:51+00:00",
-        "latestVersion": "3.3.0",
+        "description": "The OCI8 extension lets you access Oracle Database.\n\nUse 'pecl install oci8' to install for PHP 8.2.\n\nUse 'pecl install oci8-3.2.1' to install for PHP 8.1.\n\nUse 'pecl install oci8-3.0.1' to install for PHP 8.0.\n\nUse 'pecl install oci8-2.2.0' to install for PHP 7.\n\nThe current OCI8 extension can be linked with Oracle Client libraries from Oracle Database 11.2 or later.  (OCI8 3.0 and earlier can be linked with 10g or later).  The Oracle Client libraries are in the free Oracle Instant Client from https://www.oracle.com/database/technologies/instant-client.html.  They are also included in your database installation.\n\nOracle's standard cross-version connectivity applies.  For example, PHP OCI8 linked with Oracle Client 19c can connect to Oracle Database 11.2 onward.  See Oracle's note \"Oracle Client / Server Interoperability Support\" (ID 207303.1) for details.",
+        "latestReleaseDate": "2024-07-24T23:33:50+00:00",
+        "latestVersion": "3.4.0",
         "license": "PHP",
         "name": "oci8",
         "php8Mentioned": true,
         "releases": {
+            "3.4.0": {
+                "version": "3.4.0",
+                "state": "stable",
+                "license": "PHP",
+                "releasedBy": "sixd",
+                "releaseDate": "2024-07-24T23:33:50+00:00",
+                "releaseNotes": "This version has been tested with PHP 8.2 and PHP 8.3.\n\nRequires Oracle Client libraries from 11.2 or later.\n\nAdded oci_pconnect() support for Oracle wallets",
+                "get": "https://pecl.php.net/get/oci8-3.4.0",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
             "3.3.0": {
                 "version": "3.3.0",
                 "state": "stable",
@@ -23036,16 +23046,6 @@
                 "get": "http://pecl.php.net/get/oci8-2.1.2",
                 "SPDX-License-Identifier": "PHP-3.01"
             },
-            "2.0.12": {
-                "version": "2.0.12",
-                "state": "stable",
-                "license": "PHP",
-                "releasedBy": "sixd",
-                "releaseDate": "2016-08-18T08:26:06+00:00",
-                "releaseNotes": "Fixed invalid handle error with Implicit Result Sets",
-                "get": "http://pecl.php.net/get/oci8-2.0.12",
-                "SPDX-License-Identifier": "PHP-3.01"
-            },
             "2.1.1": {
                 "version": "2.1.1",
                 "state": "stable",
@@ -23056,16 +23056,6 @@
                 "get": "http://pecl.php.net/get/oci8-2.1.1",
                 "SPDX-License-Identifier": "PHP-3.01"
             },
-            "2.0.11": {
-                "version": "2.0.11",
-                "state": "stable",
-                "license": "PHP",
-                "releasedBy": "sixd",
-                "releaseDate": "2016-04-18T01:37:26+00:00",
-                "releaseNotes": "Fixed bug #71422 (Fix ORA-01438: value larger than specified precision allowed for this column)",
-                "get": "http://pecl.php.net/get/oci8-2.0.11",
-                "SPDX-License-Identifier": "PHP-3.01"
-            },
             "2.1.0": {
                 "version": "2.1.0",
                 "state": "stable",
@@ -23074,6 +23064,26 @@
                 "releaseDate": "2015-12-12T05:13:16+00:00",
                 "releaseNotes": "This version is for PHP 7 only.\nUpdated driver name format.",
                 "get": "http://pecl.php.net/get/oci8-2.1.0",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
+            "2.0.12": {
+                "version": "2.0.12",
+                "state": "stable",
+                "license": "PHP",
+                "releasedBy": "sixd",
+                "releaseDate": "2016-08-18T08:26:06+00:00",
+                "releaseNotes": "Fixed invalid handle error with Implicit Result Sets",
+                "get": "http://pecl.php.net/get/oci8-2.0.12",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
+            "2.0.11": {
+                "version": "2.0.11",
+                "state": "stable",
+                "license": "PHP",
+                "releasedBy": "sixd",
+                "releaseDate": "2016-04-18T01:37:26+00:00",
+                "releaseNotes": "Fixed bug #71422 (Fix ORA-01438: value larger than specified precision allowed for this column)",
+                "get": "http://pecl.php.net/get/oci8-2.0.11",
                 "SPDX-License-Identifier": "PHP-3.01"
             },
             "2.0.10": {
@@ -23316,16 +23326,6 @@
                 "get": "http://pecl.php.net/get/oci8-1.3.3",
                 "SPDX-License-Identifier": "PHP-3.01"
             },
-            "1.2.5": {
-                "version": "1.2.5",
-                "state": "stable",
-                "license": "PHP",
-                "releasedBy": "sixd",
-                "releaseDate": "2008-05-13T01:22:15+00:00",
-                "releaseNotes": "This release is based on the OCI8 included in PHP 5.2.6, with the addition of the fix for  http://pecl.php.net/bugs/bug.php?id=13523.\n--------\nFixed bug #42496 (cursor leak selecting LOBs http://bugs.php.net/bug.php?id=42496\nFixed bug #42841 (crash with REF CURSORS when statement caching enabled) http://bugs.php.net/bug.php?id=42841\nFixed bug #43497 (Temporary LOB leak) http://bugs.php.net/bug.php?id=43497\nFixed bug #44206 (OCI8 selecting ref cursors leads to ORA-1000 maximum open cursors reached).\nFixed bug #44008 (OCI8 incorrect usage of OCI-Lob->close crashes PHP).\nFixed bug #44113 (new collection creation can fail with OCI-22303) http://bugs.php.net/bug.php?id=44113\nEnhancement - make -with-oci8=instantclient with no directory specified look for RPM install\nEnhancement - compile with 64bit Instant Client RPMs (bug http://bugs.php.net/bug.php?id=41941, http://pecl.php.net/bugs/bug.php?id=13523)",
-                "get": "http://pecl.php.net/get/oci8-1.2.5",
-                "SPDX-License-Identifier": "PHP-3.01"
-            },
             "1.3.2": {
                 "version": "1.3.2",
                 "state": "beta",
@@ -23354,6 +23354,16 @@
                 "releaseDate": "2007-10-05T12:50:14+00:00",
                 "releaseNotes": "Added DRCP and FAN support.",
                 "get": "http://pecl.php.net/get/oci8-1.3.0",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
+            "1.2.5": {
+                "version": "1.2.5",
+                "state": "stable",
+                "license": "PHP",
+                "releasedBy": "sixd",
+                "releaseDate": "2008-05-13T01:22:15+00:00",
+                "releaseNotes": "This release is based on the OCI8 included in PHP 5.2.6, with the addition of the fix for  http://pecl.php.net/bugs/bug.php?id=13523.\n--------\nFixed bug #42496 (cursor leak selecting LOBs http://bugs.php.net/bug.php?id=42496\nFixed bug #42841 (crash with REF CURSORS when statement caching enabled) http://bugs.php.net/bug.php?id=42841\nFixed bug #43497 (Temporary LOB leak) http://bugs.php.net/bug.php?id=43497\nFixed bug #44206 (OCI8 selecting ref cursors leads to ORA-1000 maximum open cursors reached).\nFixed bug #44008 (OCI8 incorrect usage of OCI-Lob->close crashes PHP).\nFixed bug #44113 (new collection creation can fail with OCI-22303) http://bugs.php.net/bug.php?id=44113\nEnhancement - make -with-oci8=instantclient with no directory specified look for RPM install\nEnhancement - compile with 64bit Instant Client RPMs (bug http://bugs.php.net/bug.php?id=41941, http://pecl.php.net/bugs/bug.php?id=13523)",
+                "get": "http://pecl.php.net/get/oci8-1.2.5",
                 "SPDX-License-Identifier": "PHP-3.01"
             },
             "1.2.4": {

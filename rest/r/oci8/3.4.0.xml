@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<p xmlns="http://pear.php.net/dtd/rest.package"    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:xlink="http://www.w3.org/1999/xlink"    xsi:schemaLocation="http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd">
- <n>oci8</n>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/oci8">oci8</p>
  <c>pecl.php.net</c>
- <ca xlink:href="/rest/c/Database">Database</ca>
+ <v>3.4.0</v>
+ <st>stable</st>
  <l>PHP</l>
+ <m>sixd</m>
  <s>Extension for Oracle Database</s>
  <d>The OCI8 extension lets you access Oracle Database.
 
-Use &#039;pecl install oci8&#039; to install for PHP 8.2.
+Use &#039;pecl install oci8&#039; to install for PHP 8.2 and PHP 8.3.
 
 Use &#039;pecl install oci8-3.2.1&#039; to install for PHP 8.1.
 
@@ -19,5 +24,13 @@ Use &#039;pecl install oci8-2.2.0&#039; to install for PHP 7.
 The current OCI8 extension can be linked with Oracle Client libraries from Oracle Database 11.2 or later.  (OCI8 3.0 and earlier can be linked with 10g or later).  The Oracle Client libraries are in the free Oracle Instant Client from https://www.oracle.com/database/technologies/instant-client.html.  They are also included in your database installation.
 
 Oracle&#039;s standard cross-version connectivity applies.  For example, PHP OCI8 linked with Oracle Client 19c can connect to Oracle Database 11.2 onward.  See Oracle&#039;s note &quot;Oracle Client / Server Interoperability Support&quot; (ID 207303.1) for details.</d>
- <r xlink:href="/rest/r/oci8"/>
-</p>
+ <da>2024-07-24 23:33:50</da>
+ <n>This version has been tested with PHP 8.2 and PHP 8.3.
+
+Requires Oracle Client libraries from 11.2 or later.
+
+Added oci_pconnect() support for Oracle wallets</n>
+ <f>194647</f>
+ <g>https://pecl.php.net/get/oci8-3.4.0</g>
+ <x xlink:href="package.3.4.0.xml"/>
+</r>
