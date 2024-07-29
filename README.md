@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (122)
+## Relevant Extensions (123)
 
 ### Authentication (2)
 
@@ -1946,7 +1946,7 @@ This extension creates and applies patches to both text and binary files.
 </details>
 
 ***
-### Tools and Utilities (13)
+### Tools and Utilities (14)
 
 <details><summary>awscrt</summary>
 <p>AWS Common Runtime PHP bindings</p>
@@ -2034,6 +2034,20 @@ This extension provide API for communicating with MessagePack serialization.
 <li>Release data in JSON: <a href="data/packages/msgpack.json">msgpack.json</a></li>
 <li><a href="https://pecl.php.net/packages/msgpack">msgpack on PECL</a></li>
 <li><a href="http://msgpack.org/">:house: Home</a> &nbsp; <a href="https://github.com/msgpack/msgpack-php">:sparkles: Source</a> &nbsp; <a href="https://github.com/msgpack/msgpack-php/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=930&rid=&cid=29">:bar_chart: Stats</a></li>
+</ul></p><hr />
+</details>
+<details><summary>pinpoint_php</summary>
+<p>pinpoint-apm on php language</p>
+
+```
+Support pinpoint-apm on php language; auto-injection ;windows/*unx/macOs
+```
+<p><ul>
+<li>License: </li>
+<li>Latest Release: <a href="https://pecl.php.net/get/pinpoint_php-0.5.2">0.5.2</a> on 29 Jul 2024</li>
+<li>Release data in JSON: <a href="data/packages/pinpoint_php.json">pinpoint_php.json</a></li>
+<li><a href="https://pecl.php.net/packages/pinpoint_php">pinpoint_php on PECL</a></li>
+<li><a href="https://github.com/pinpoint-apm/pinpoint-c-agent">:house: Home</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1083&rid=&cid=29">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>protobuf</summary>
