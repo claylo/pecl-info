@@ -4,6 +4,49 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.323.0](https://github.com/claylo/pecl-info/compare/v1.322.0...v1.323.0) (2024-07-29)
+
+### Added
+
+* add awscrt 1.2.6, awscrt 1.2.5, awscrt 1.2.4 releases ([6203e83](https://github.com/claylo/pecl-info/commit/6203e83a8c2c6c09ad3129edf565556309e8446a))
+* add couchbase 4.2.2 release ([416bff8](https://github.com/claylo/pecl-info/commit/416bff8a571ce12334b8abb90ea3a19c13cd7685))
+* add datadog_trace 1.1.0 release ([2dc4633](https://github.com/claylo/pecl-info/commit/2dc4633bec14672e8169a24b86600cc64e631b06))
+* add datadog_trace 1.2.0 release ([18cf0a4](https://github.com/claylo/pecl-info/commit/18cf0a47d180ed17b4ae58d82c4e855f9e817b10))
+* add event 3.1.4 release ([7f81357](https://github.com/claylo/pecl-info/commit/7f813578176ffab4940c0b854a44d12e6c552723))
+* add gRPC 1.64.0RC2 release ([1e7216a](https://github.com/claylo/pecl-info/commit/1e7216aa814e88cbb4c1795f701b989f2d04461d))
+* add gRPC 1.64.1 release ([799be23](https://github.com/claylo/pecl-info/commit/799be236e5dff65ad7bce5633e4144cd93c4b3e4))
+* add gRPC 1.65.0 release ([0e5d558](https://github.com/claylo/pecl-info/commit/0e5d5588be2a820cf4358b4407a93d26b614118f))
+* add gRPC 1.65.0RC2 release ([1d89183](https://github.com/claylo/pecl-info/commit/1d89183de0116c3faac312ca7ee8f38651dec327))
+* add gRPC 1.65.1 release ([a6a18ca](https://github.com/claylo/pecl-info/commit/a6a18cad9cc49842200471260c5c51a4b11cb8cf))
+* add gRPC 1.65.2 release ([45088b9](https://github.com/claylo/pecl-info/commit/45088b9f3078d1f0227f34c1be2b59ad5f994b0a))
+* add krb5 1.2.1, krb5 1.2.0 releases ([e0623b8](https://github.com/claylo/pecl-info/commit/e0623b8e530a4be2090f30016767eb2015778c94))
+* add krb5 1.2.2 release ([eec6c11](https://github.com/claylo/pecl-info/commit/eec6c1168d06c1dcda7b328de08cbcbbe58309da))
+* add mongodb 1.19.0 release ([4c73000](https://github.com/claylo/pecl-info/commit/4c730004fe3b17a8a1592272381b40faa8388a2d))
+* add mongodb 1.19.1 release ([022f404](https://github.com/claylo/pecl-info/commit/022f40492220bddae8222446d7ce41f05520dff9))
+* add mongodb 1.19.2 release ([d70e7b3](https://github.com/claylo/pecl-info/commit/d70e7b387fada9839f4e637d49a0888c101ac663))
+* add mongodb 1.19.3 release ([a352791](https://github.com/claylo/pecl-info/commit/a352791e48b1da40c4d36e9822523f49770379a5))
+* add oci8 3.4.0 release ([b7bd612](https://github.com/claylo/pecl-info/commit/b7bd6123e04717ca2ee2eb29616b70d317ca339c))
+* add opentelemetry 1.0.3 release ([3f6946d](https://github.com/claylo/pecl-info/commit/3f6946d1132575e775b56c01c3b63d4a27a951f6))
+* add parallel 1.2.2 release ([93896e6](https://github.com/claylo/pecl-info/commit/93896e672c6983acf895807df21aba8a48dcf8df))
+* add parallel 1.2.3 release ([55a0be0](https://github.com/claylo/pecl-info/commit/55a0be09eb04cae7cd53a47bb987dca6b2d91256))
+* add phalcon 5.7.0 release ([c92484d](https://github.com/claylo/pecl-info/commit/c92484dd011accf86b83dfb5221d7f8bd28d4a2e))
+* add phalcon 5.8.0 release ([93fd1d0](https://github.com/claylo/pecl-info/commit/93fd1d03caacead9ec4a7a566756c9d05f8c560e))
+* add protobuf 3.25.4 release ([9dae06f](https://github.com/claylo/pecl-info/commit/9dae06f6afbe533c9d18021ebe6cc2fdfc5914f9))
+* add protobuf 4.27.0 release ([20006dc](https://github.com/claylo/pecl-info/commit/20006dc677b6c15444f3568d7821b1efdcdf11b2))
+* add protobuf 4.27.0RC2 release ([8e05faf](https://github.com/claylo/pecl-info/commit/8e05faf18376e383a66e5385c40e767c9f7e7c4b))
+* add protobuf 4.27.0RC3 release ([89b73c7](https://github.com/claylo/pecl-info/commit/89b73c743a876e582fa66f0dcb169049acb6ce9b))
+* add protobuf 4.27.1 release ([87f965d](https://github.com/claylo/pecl-info/commit/87f965dd237085e94e92af1fb6ed06236e028588))
+* add protobuf 4.27.2 release ([552d5b7](https://github.com/claylo/pecl-info/commit/552d5b7e16cabe6a131f89ee5e5f82709079c51e))
+* add protobuf 4.28.0RC1 release ([a2bf75e](https://github.com/claylo/pecl-info/commit/a2bf75e852d174957611cd11a22f36c3365a5480))
+* add swoole 5.1.2 release ([6c052ed](https://github.com/claylo/pecl-info/commit/6c052ed8b640f175e04bfda0658fbde4abdf3dfe))
+* add swoole 5.1.3 release ([caac2a3](https://github.com/claylo/pecl-info/commit/caac2a3e67b2a9a860777c9231c342437ce40976))
+* add swoole 6.0.0 release ([15c1c21](https://github.com/claylo/pecl-info/commit/15c1c21323f0fe5cadd76939bc494f8077765cbe))
+* add WinCache 2.0.0.9 release ([6f8d8bf](https://github.com/claylo/pecl-info/commit/6f8d8bfa75cc3aa80675c4c17271fd269a885ce3))
+* add xhprof 2.3.10 release ([58a9c90](https://github.com/claylo/pecl-info/commit/58a9c903baf103ae7a0cc849eab9e3eeaac34c6f))
+* add yaf 3.3.6 release ([1c79088](https://github.com/claylo/pecl-info/commit/1c7908876394e24f0ff8de9bbfbec50efb53e31d))
+* add yar 2.3.3 release ([267317e](https://github.com/claylo/pecl-info/commit/267317ebf97328f646bf858a9d7d2c2024936c32))
+* add zephir_parser 1.6.1 release ([79ed02f](https://github.com/claylo/pecl-info/commit/79ed02f0cda906d225a9df0c52d11fc5693d967e))
+
 ## [1.322.0](https://github.com/claylo/pecl-info/compare/v1.321.0...v1.322.0) (2024-05-01)
 
 
