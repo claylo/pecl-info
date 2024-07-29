@@ -1,0 +1,24 @@
+{
+    "category": "Tools and Utilities",
+    "deprecated": false,
+    "description": "Support pinpoint-apm on php language; auto-injection ;windows/*unx/macOs",
+    "latestReleaseDate": "2024-07-29T03:22:21+00:00",
+    "latestVersion": "0.5.2",
+    "license": "apache 2.0",
+    "name": "pinpoint_php",
+    "php8Mentioned": false,
+    "releases": {
+        "0.5.2": {
+            "version": "0.5.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "eeliu",
+            "releaseDate": "2024-07-29T03:22:21+00:00",
+            "releaseNotes": "https://github.com/pinpoint-apm/pinpoint-c-agent",
+            "get": "https://pecl.php.net/get/pinpoint_php-0.5.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        }
+    },
+    "summary": "pinpoint-apm on php language",
+    "SPDX-License-Identifier": null
+}

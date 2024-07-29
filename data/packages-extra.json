@@ -3738,5 +3738,14 @@
         "repo": "https://github.com/php/pecl-mail-imap",
         "stats": "https://pecl.php.net/package-stats.php?pid=1082&rid=&cid=14",
         "verified": false
+    },
+    "pinpoint_php": {
+        "bugs": "",
+        "docs": "",
+        "home": "https://github.com/pinpoint-apm/pinpoint-c-agent",
+        "maintained": true,
+        "repo": "",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1083&rid=&cid=29",
+        "verified": false
     }
 }
