@@ -30037,6 +30037,16 @@
                 "get": "https://pecl.php.net/get/protobuf-4.28.0RC1",
                 "SPDX-License-Identifier": "BSD-3-Clause"
             },
+            "4.27.3": {
+                "version": "4.27.3",
+                "state": "stable",
+                "license": "BSD-3-Clause",
+                "releasedBy": "protobufpackages",
+                "releaseDate": "2024-07-31T16:14:35+00:00",
+                "releaseNotes": "* See github.com/protocolbuffers/protobuf/releases/tag/v27.3 for release notes.",
+                "get": "https://pecl.php.net/get/protobuf-4.27.3",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "4.27.2": {
                 "version": "4.27.2",
                 "state": "stable",
