@@ -1,24 +1,24 @@
 {
     "category": "Tools and Utilities",
     "deprecated": false,
-    "description": "Support pinpoint-apm on php language; auto-injection ;windows/*unx/macOs",
-    "latestReleaseDate": "2024-07-29T03:22:21+00:00",
-    "latestVersion": "0.5.2",
-    "license": "apache 2.0",
+    "description": "This extension provides an API pinpoint-apm and built-in function auto-injection",
+    "latestReleaseDate": "2024-08-01T07:42:45+00:00",
+    "latestVersion": "0.5.3",
+    "license": "Apache License 2.0",
     "name": "pinpoint_php",
     "php8Mentioned": false,
     "releases": {
-        "0.5.2": {
-            "version": "0.5.2",
-            "state": "stable",
-            "license": "PHP",
+        "0.5.3": {
+            "version": "0.5.3",
+            "state": "alpha",
+            "license": "Apache License 2.0",
             "releasedBy": "eeliu",
-            "releaseDate": "2024-07-29T03:22:21+00:00",
-            "releaseNotes": "https://github.com/pinpoint-apm/pinpoint-c-agent",
-            "get": "https://pecl.php.net/get/pinpoint_php-0.5.2",
-            "SPDX-License-Identifier": "PHP-3.01"
+            "releaseDate": "2024-08-01T07:42:45+00:00",
+            "releaseNotes": "## 0.5.3 2024-07-31\n- build on win32\n- build on macos\n- support SendSpanTimeOutMs=-1",
+            "get": "https://pecl.php.net/get/pinpoint_php-0.5.3",
+            "SPDX-License-Identifier": "Apache-2.0"
         }
     },
-    "summary": "pinpoint-apm on php language",
-    "SPDX-License-Identifier": null
+    "summary": "PHP extension for pinpoint-apm",
+    "SPDX-License-Identifier": "Apache-2.0"
 }

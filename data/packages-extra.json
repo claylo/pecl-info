@@ -3740,11 +3740,11 @@
         "verified": false
     },
     "pinpoint_php": {
-        "bugs": "",
-        "docs": "",
+        "bugs": "https://github.com/pinpoint-apm/pinpoint-c-agent/issues",
+        "docs": "https://github.com/pinpoint-apm/pinpoint-c-agent/blob/dev/README.md",
         "home": "https://github.com/pinpoint-apm/pinpoint-c-agent",
         "maintained": true,
-        "repo": "",
+        "repo": "https://github.com/pinpoint-apm/pinpoint-c-agent",
         "stats": "https://pecl.php.net/package-stats.php?pid=1083&rid=&cid=29",
         "verified": false
     }
