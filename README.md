@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (123)
+## Relevant Extensions (122)
 
 ### Authentication (2)
 
@@ -486,7 +486,7 @@ This extension provides an API for communicating with Redis servers.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/redis-6.0.2">6.0.2</a> on 22 Oct 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/redis-6.1.0RC1">6.1.0RC1</a> on 04 Aug 2024</li>
 <li>Release data in JSON: <a href="data/packages/redis.json">redis.json</a></li>
 <li><a href="https://pecl.php.net/packages/redis">redis on PECL</a></li>
 <li><a href="https://github.com/phpredis/phpredis/#readme">:book: Documentation</a> &nbsp; <a href="https://github.com/phpredis/phpredis/">:house: Home</a> &nbsp; <a href="https://github.com/phpredis/phpredis/">:sparkles: Source</a> &nbsp; <a href="https://github.com/phpredis/phpredis/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=935&rid=&cid=7">:bar_chart: Stats</a></li>
@@ -593,7 +593,7 @@ A PHP wrapper to Colin Percival's scrypt implementation.
 </details>
 
 ***
-### Event (6)
+### Event (5)
 
 <details><summary>eio&nbsp; :eight:</summary>
 <p>Provides interface to the libeio library</p>
@@ -647,20 +647,6 @@ services with PHP and easy to use coroutine, fibers API.
 <li>Release data in JSON: <a href="data/packages/openswoole.json">openswoole.json</a></li>
 <li><a href="https://pecl.php.net/packages/openswoole">openswoole on PECL</a></li>
 <li><a href="https://www.swoole.co.uk">:house: Home</a> &nbsp; <a href="https://github.com/openswoole">:sparkles: Source</a> &nbsp; <a href="https://github.com/openswoole/swoole-src/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1065&rid=&cid=44">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>simple_kafka_client&nbsp; :eight:</summary>
-<p>Kafka client based on librdkafka</p>
-
-```
-This extension is a librdkafka binding providing a working client for Kafka
-```
-<p><ul>
-<li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/simple_kafka_client-0.1.4">0.1.4</a> on 04 Aug 2021</li>
-<li>Release data in JSON: <a href="data/packages/simple_kafka_client.json">simple_kafka_client.json</a></li>
-<li><a href="https://pecl.php.net/packages/simple_kafka_client">simple_kafka_client on PECL</a></li>
-<li><a href="https://php-kafka.com">:house: Home</a> &nbsp; <a href="https://github.com/php-kafka/php-simple-kafka-client.git">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1058&rid=&cid=44">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>swoole&nbsp; :eight:</summary>
