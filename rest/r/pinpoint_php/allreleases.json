@@ -1,4 +1,8 @@
 {
+    "0.5.4": {
+        "version": "0.5.4",
+        "state": "stable"
+    },
     "0.5.3": {
         "version": "0.5.3",
         "state": "alpha"
