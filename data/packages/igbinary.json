@@ -2,12 +2,22 @@
     "category": "PHP",
     "deprecated": false,
     "description": "Igbinary is a drop in replacement for the standard php serializer. Instead of\nthe time and space consuming textual representation used by PHP's serialize(), igbinary stores php data\nstructures in a compact binary form. Savings are significant when using\nmemcached or similar memory based storages for serialized data.",
-    "latestReleaseDate": "2023-12-02T17:10:04+00:00",
-    "latestVersion": "3.2.15",
+    "latestReleaseDate": "2024-08-10T16:56:26+00:00",
+    "latestVersion": "3.2.16",
     "license": "BSD-3-Clause",
     "name": "igbinary",
     "php8Mentioned": true,
     "releases": {
+        "3.2.16": {
+            "version": "3.2.16",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "tandre",
+            "releaseDate": "2024-08-10T16:56:26+00:00",
+            "releaseNotes": "* Fix test failures in php 8.4.0alpha1 due to tests calling deprecated functions (#390)",
+            "get": "https://pecl.php.net/get/igbinary-3.2.16",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "3.2.15": {
             "version": "3.2.15",
             "state": "stable",
