@@ -1381,7 +1381,7 @@ php-ast exports the AST internally used by PHP 7.
 ```
 <p><ul>
 <li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/ast-1.1.1">1.1.1</a> on 12 Nov 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/ast-1.1.2">1.1.2</a> on 10 Aug 2024</li>
 <li>Release data in JSON: <a href="data/packages/ast.json">ast.json</a></li>
 <li><a href="https://pecl.php.net/packages/ast">ast on PECL</a></li>
 <li><a href="https://github.com/nikic/php-ast">:sparkles: Source</a> &nbsp; <a href="https://github.com/nikic/php-ast/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1013&rid=&cid=25">:bar_chart: Stats</a></li>
