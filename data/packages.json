@@ -1692,12 +1692,22 @@
         "category": "PHP",
         "deprecated": false,
         "description": "php-ast exports the AST internally used by PHP 7.\n     php-ast is significantly faster than PHP-Parser, because the AST construction is implemented in C.\n     However, php-ast may only parse code that is syntactically valid on the version of PHP it runs on.",
-        "latestReleaseDate": "2023-11-12T11:27:16+00:00",
-        "latestVersion": "1.1.1",
+        "latestReleaseDate": "2024-08-10T18:40:06+00:00",
+        "latestVersion": "1.1.2",
         "license": "BSD-3-Clause",
         "name": "ast",
         "php8Mentioned": true,
         "releases": {
+            "1.1.2": {
+                "version": "1.1.2",
+                "state": "stable",
+                "license": "BSD-3-Clause",
+                "releasedBy": "tandre",
+                "releaseDate": "2024-08-10T18:40:06+00:00",
+                "releaseNotes": "- Fix compilation errors in PHP 8.4.\n- In version 110, `AST_PARAM` and `AST_PROP_ELEM` nodes have a `hooks` node for property hooks (https://wiki.php.net/rfc/property-hooks)\n- In version 110, `AST_CLOSURE` and `AST_ARROW_FUNC` nodes have no `name`.",
+                "get": "https://pecl.php.net/get/ast-1.1.2",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "1.1.1": {
                 "version": "1.1.1",
                 "state": "stable",
