@@ -44786,12 +44786,22 @@
         "category": "PHP",
         "deprecated": false,
         "description": "var_representation is a compact alternative to var_export that properly escapes control characters",
-        "latestReleaseDate": "2022-10-16T21:58:00+00:00",
-        "latestVersion": "0.1.4",
+        "latestReleaseDate": "2024-08-11T17:34:43+00:00",
+        "latestVersion": "0.1.5",
         "license": "BSD-3-Clause",
         "name": "var_representation",
         "php8Mentioned": true,
         "releases": {
+            "0.1.5": {
+                "version": "0.1.5",
+                "state": "stable",
+                "license": "BSD-3-Clause",
+                "releasedBy": "tandre",
+                "releaseDate": "2024-08-11T17:34:43+00:00",
+                "releaseNotes": "* Properly use the getters of php 8.4 hooked properties the same way as var_export.",
+                "get": "https://pecl.php.net/get/var_representation-0.1.5",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "0.1.4": {
                 "version": "0.1.4",
                 "state": "stable",

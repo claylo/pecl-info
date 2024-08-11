@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/var_representation">var_representation</p>
+ <c>pecl.php.net</c>
+ <v>0.1.5</v>
+ <st>stable</st>
+ <l>BSD-3-Clause</l>
+ <m>tandre</m>
+ <s>A compact, more readable alternative to var_export.</s>
+ <d>var_representation is a compact alternative to var_export that properly escapes control characters</d>
+ <da>2024-08-11 17:34:43</da>
+ <n>* Properly use the getters of php 8.4 hooked properties the same way as var_export.</n>
+ <f>14850</f>
+ <g>https://pecl.php.net/get/var_representation-0.1.5</g>
+ <x xlink:href="package.0.1.5.xml"/>
+</r>
