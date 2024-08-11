@@ -1544,7 +1544,7 @@ characters
 ```
 <p><ul>
 <li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/var_representation-0.1.4">0.1.4</a> on 16 Oct 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/var_representation-0.1.5">0.1.5</a> on 11 Aug 2024</li>
 <li>Release data in JSON: <a href="data/packages/var_representation.json">var_representation.json</a></li>
 <li><a href="https://pecl.php.net/packages/var_representation">var_representation on PECL</a></li>
 <li><a href="https://github.com/TysonAndre/var_representation">:house: Home</a> &nbsp; <a href="https://github.com/TysonAndre/var_representation">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1061&rid=&cid=25">:bar_chart: Stats</a></li>

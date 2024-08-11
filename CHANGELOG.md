@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.333.0](https://github.com/claylo/pecl-info/compare/v1.332.0...v1.333.0) (2024-08-11)
+
+### Added
+
+* add var_representation 0.1.5 release ([d2bc80b](https://github.com/claylo/pecl-info/commit/d2bc80ba49cffeed5e4077e8cbdfb0347a03cc87))
+
 ## [1.332.0](https://github.com/claylo/pecl-info/compare/v1.331.0...v1.332.0) (2024-08-10)
 
 ### Added
