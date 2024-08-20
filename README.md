@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (122)
+## Relevant Extensions (123)
 
 ### Authentication (2)
 
@@ -977,7 +977,7 @@ Internationalization API Specification.
 </details>
 
 ***
-### Languages (3)
+### Languages (4)
 
 <details><summary>handlebars&nbsp; :eight:</summary>
 <p>Handlebars templating language</p>
@@ -1022,6 +1022,22 @@ templates.
 <li>Release data in JSON: <a href="data/packages/mustache.json">mustache.json</a></li>
 <li><a href="https://pecl.php.net/packages/mustache">mustache on PECL</a></li>
 <li><a href="https://github.com/jbboehr/php-mustache">:house: Home</a> &nbsp; <a href="https://github.com/jbboehr/php-mustache">:sparkles: Source</a> &nbsp; <a href="https://github.com/jbboehr/php-mustache/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1010&rid=&cid=59">:bar_chart: Stats</a></li>
+</ul></p><hr />
+</details>
+<details><summary>phpy</summary>
+<p>A library for inter-calling Python and PHP</p>
+
+```
+This extension allows PHP to directly use Python modules and functions without RPC.
+        Including Pytorch, transformer, numpy, tensorflow and other Python AI libraries, which can be used like calling
+        PHP functions.
+```
+<p><ul>
+<li>License: Apache-2.0</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/phpy-1.0.6">1.0.6</a> on 20 Aug 2024</li>
+<li>Release data in JSON: <a href="data/packages/phpy.json">phpy.json</a></li>
+<li><a href="https://pecl.php.net/packages/phpy">phpy on PECL</a></li>
+<li><a href="https://github.com/swoole/phpy">:house: Home</a> &nbsp; <a href="https://github.com/swoole/phpy">:sparkles: Source</a> &nbsp; <a href="https://github.com/swoole/phpy/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1084&rid=&cid=59">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 

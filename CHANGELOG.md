@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.336.0](https://github.com/claylo/pecl-info/compare/v1.335.0...v1.336.0) (2024-08-20)
+
+### Added
+
+* add phpy 1.0.6, phpy 1.0.5 releases ([b07c6b5](https://github.com/claylo/pecl-info/commit/b07c6b50c2a784f081303ee0d0521d41a9866237))
+
 ## [1.335.0](https://github.com/claylo/pecl-info/compare/v1.334.0...v1.335.0) (2024-08-17)
 
 ### Added
