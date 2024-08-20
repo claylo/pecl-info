@@ -1,0 +1,34 @@
+{
+    "category": "Languages",
+    "deprecated": false,
+    "description": "This extension allows PHP to directly use Python modules and functions without RPC.\n        Including Pytorch, transformer, numpy, tensorflow and other Python AI libraries, which can be used like calling\n        PHP functions.",
+    "latestReleaseDate": "2024-08-20T08:22:54+00:00",
+    "latestVersion": "1.0.6",
+    "license": "Apache2.0",
+    "name": "phpy",
+    "php8Mentioned": false,
+    "releases": {
+        "1.0.6": {
+            "version": "1.0.6",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "tianfenghan",
+            "releaseDate": "2024-08-20T08:22:54+00:00",
+            "releaseNotes": "- Added python-config PECL configure option",
+            "get": "https://pecl.php.net/get/phpy-1.0.6",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.0.5": {
+            "version": "1.0.5",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "tianfenghan",
+            "releaseDate": "2024-08-20T07:44:39+00:00",
+            "releaseNotes": "version 1.0.5",
+            "get": "https://pecl.php.net/get/phpy-1.0.5",
+            "SPDX-License-Identifier": "Apache-2.0"
+        }
+    },
+    "summary": "A library for inter-calling Python and PHP",
+    "SPDX-License-Identifier": "Apache-2.0"
+}

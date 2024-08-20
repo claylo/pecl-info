@@ -3747,5 +3747,14 @@
         "repo": "https://github.com/pinpoint-apm/pinpoint-c-agent",
         "stats": "https://pecl.php.net/package-stats.php?pid=1083&rid=&cid=29",
         "verified": false
+    },
+    "phpy": {
+        "bugs": "https://github.com/swoole/phpy/issues",
+        "docs": "",
+        "home": "https://github.com/swoole/phpy",
+        "maintained": true,
+        "repo": "https://github.com/swoole/phpy",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1084&rid=&cid=59",
+        "verified": false
     }
 }
