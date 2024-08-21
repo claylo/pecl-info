@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.337.0](https://github.com/claylo/pecl-info/compare/v1.336.0...v1.337.0) (2024-08-21)
+
+### Added
+
+* add PDO_OCI 1.1.0 release ([97ecb5b](https://github.com/claylo/pecl-info/commit/97ecb5b66cfc83bdc4aee88f97e9b8918f1c64e2))
+
 ## [1.336.0](https://github.com/claylo/pecl-info/compare/v1.335.0...v1.336.0) (2024-08-20)
 
 ### Added
