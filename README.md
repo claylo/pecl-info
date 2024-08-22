@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (123)
+## Relevant Extensions (122)
 
 ### Authentication (2)
 
@@ -1948,7 +1948,7 @@ This extension creates and applies patches to both text and binary files.
 </details>
 
 ***
-### Tools and Utilities (14)
+### Tools and Utilities (13)
 
 <details><summary>awscrt</summary>
 <p>AWS Common Runtime PHP bindings</p>
@@ -2060,25 +2060,10 @@ https://developers.google.com/protocol-buffers/
 ```
 <p><ul>
 <li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/protobuf-4.28.0RC2">4.28.0RC2</a> on 08 Aug 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/protobuf-4.28.0RC3">4.28.0RC3</a> on 22 Aug 2024</li>
 <li>Release data in JSON: <a href="data/packages/protobuf.json">protobuf.json</a></li>
 <li><a href="https://pecl.php.net/packages/protobuf">protobuf on PECL</a></li>
 <li><a href="https://github.com/google/protobuf">:sparkles: Source</a> &nbsp; <a href="https://github.com/protocolbuffers/protobuf/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=997&rid=&cid=29">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>SeasSnowflake</summary>
-<p>PHP Extension for [Distributed unique ID generator]</p>
-
-```
-SeasSnowflake is a distributed unique ID generator inspired by [Twitter's
-Snowflake](https://blog.twitter.com/engineering/en_us/a/2010/announcing-snowflake).
-```
-<p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/SeasSnowflake-1.0.0">1.0.0</a> on 22 Aug 2021</li>
-<li>Release data in JSON: <a href="data/packages/seassnowflake.json">seassnowflake.json</a></li>
-<li><a href="https://pecl.php.net/packages/SeasSnowflake">SeasSnowflake on PECL</a></li>
-<li><a href="https://github.com/SeasX/SeasSnowflake">:house: Home</a> &nbsp; <a href="https://github.com/SeasX/SeasSnowflake">:sparkles: Source</a> &nbsp; <a href="https://github.com/SeasX/SeasSnowflake/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1063&rid=&cid=29">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>simdjson&nbsp; :eight:</summary>
