@@ -7,6 +7,10 @@
         "version": "1.66.0RC3",
         "state": "beta"
     },
+    "1.65.5": {
+        "version": "1.65.5",
+        "state": "stable"
+    },
     "1.65.2": {
         "version": "1.65.2",
         "state": "stable"
