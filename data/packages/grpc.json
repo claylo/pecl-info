@@ -28,6 +28,16 @@
             "get": "https://pecl.php.net/get/grpc-1.66.0RC3",
             "SPDX-License-Identifier": "Apache-2.0"
         },
+        "1.65.5": {
+            "version": "1.65.5",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "stanleycheung",
+            "releaseDate": "2024-08-23T18:21:43+00:00",
+            "releaseNotes": "- gRPC Core 1.65.5 update",
+            "get": "https://pecl.php.net/get/grpc-1.65.5",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "1.65.2": {
             "version": "1.65.2",
             "state": "stable",
