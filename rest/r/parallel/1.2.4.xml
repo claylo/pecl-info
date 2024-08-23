@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/parallel">parallel</p>
+ <c>pecl.php.net</c>
+ <v>1.2.4</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>flowcontrol</m>
+ <s>Parallel concurrency API</s>
+ <d>A succinct parallel concurrency API for PHP 7.</d>
+ <da>2024-08-23 10:05:38</da>
+ <n>- Namespace PHP_METHODs to avoid collisions with ext-event #321</n>
+ <f>62437</f>
+ <g>https://pecl.php.net/get/parallel-1.2.4</g>
+ <x xlink:href="package.1.2.4.xml"/>
+</r>
