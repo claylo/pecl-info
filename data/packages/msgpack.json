@@ -2,12 +2,22 @@
     "category": "Tools and Utilities",
     "deprecated": false,
     "description": "This extension provide API for communicating with MessagePack serialization.",
-    "latestReleaseDate": "2023-06-02T10:11:06+00:00",
-    "latestVersion": "2.2.0",
+    "latestReleaseDate": "2024-08-23T08:47:21+00:00",
+    "latestVersion": "3.0.0RC1",
     "license": "3-Clause-BSD",
     "name": "msgpack",
     "php8Mentioned": true,
     "releases": {
+        "3.0.0RC1": {
+            "version": "3.0.0RC1",
+            "state": "beta",
+            "license": "3-Clause-BSD",
+            "releasedBy": "mike",
+            "releaseDate": "2024-08-23T08:47:21+00:00",
+            "releaseNotes": "* Add support for PHP-8.1 Enums\n  * merges #173\n  * fixes #171\n* Add support for APCu\n  * merges #162, #93\n* Add OPT_ASSOC for roundtrip serialization of map.\n  * merges #58",
+            "get": "https://pecl.php.net/get/msgpack-3.0.0RC1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "2.2.0": {
             "version": "2.2.0",
             "state": "stable",

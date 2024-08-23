@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/msgpack">msgpack</p>
+ <c>pecl.php.net</c>
+ <v>3.0.0RC1</v>
+ <st>beta</st>
+ <l>3-Clause-BSD</l>
+ <m>mike</m>
+ <s>PHP extension for interfacing with MessagePack</s>
+ <d>This extension provide API for communicating with MessagePack serialization.</d>
+ <da>2024-08-23 08:47:21</da>
+ <n>* Add support for PHP-8.1 Enums
+  * merges #173
+  * fixes #171
+* Add support for APCu
+  * merges #162, #93
+* Add OPT_ASSOC for roundtrip serialization of map.
+  * merges #58</n>
+ <f>130235</f>
+ <g>https://pecl.php.net/get/msgpack-3.0.0RC1</g>
+ <x xlink:href="package.3.0.0RC1.xml"/>
+</r>
