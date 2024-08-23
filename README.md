@@ -1440,7 +1440,7 @@ A succinct parallel concurrency API for PHP 7.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/parallel-1.2.3">1.2.3</a> on 22 Jul 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/parallel-1.2.4">1.2.4</a> on 23 Aug 2024</li>
 <li>Release data in JSON: <a href="data/packages/parallel.json">parallel.json</a></li>
 <li><a href="https://pecl.php.net/packages/parallel">parallel on PECL</a></li>
 <li><a href="https://github.com/krakjoe/parallel">:house: Home</a> &nbsp; <a href="https://github.com/krakjoe/parallel">:sparkles: Source</a> &nbsp; <a href="https://github.com/krakjoe/parallel/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1032&rid=&cid=25">:bar_chart: Stats</a></li>
@@ -2030,7 +2030,7 @@ This extension provide API for communicating with MessagePack serialization.
 ```
 <p><ul>
 <li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/msgpack-2.2.0">2.2.0</a> on 02 Jun 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/msgpack-3.0.0RC1">3.0.0RC1</a> on 23 Aug 2024</li>
 <li>Release data in JSON: <a href="data/packages/msgpack.json">msgpack.json</a></li>
 <li><a href="https://pecl.php.net/packages/msgpack">msgpack on PECL</a></li>
 <li><a href="http://msgpack.org/">:house: Home</a> &nbsp; <a href="https://github.com/msgpack/msgpack-php">:sparkles: Source</a> &nbsp; <a href="https://github.com/msgpack/msgpack-php/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=930&rid=&cid=29">:bar_chart: Stats</a></li>
