@@ -3756,5 +3756,14 @@
         "repo": "https://github.com/swoole/phpy",
         "stats": "https://pecl.php.net/package-stats.php?pid=1084&rid=&cid=59",
         "verified": false
+    },
+    "xpass": {
+        "bugs": "https://github.com/remicollet/php-xpass/issues",
+        "docs": "",
+        "home": "https://git.remirepo.net/cgit/tools/php-xpass.git/",
+        "maintained": true,
+        "repo": "https://github.com/remicollet/php-xpass",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1085&rid=&cid=6",
+        "verified": false
     }
 }
