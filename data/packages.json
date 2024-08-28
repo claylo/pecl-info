@@ -47866,12 +47866,22 @@
         "category": "File Formats",
         "deprecated": false,
         "description": "xlswriter is a PHP C Extension that can be used to write text, numbers, formulas and hyperlinks to multiple worksheets in an Excel 2007+ XLSX file.\n\n  Writer\n\n  - 100% compatible Excel XLSX files.\n  - Full Excel formatting.\n  - Merged cells.\n  - Defined names.\n  - Autofilters.\n  - Charts.\n  - Data validation and drop down lists.\n  - Worksheet PNG/JPEG images.\n  - Memory optimization mode for writing large files.\n  - Works on Linux, FreeBSD, OpenBSD, OS X, Windows.\n  - Compiles for 32 and 64 bit.\n  - FreeBSD License.\n  - The only dependency is on zlib.\n\n  Reader\n\n  - Full read data\n  - Cursor read data\n  - Read by data type\n  - Xlsx to csv",
-        "latestReleaseDate": "2023-05-15T06:27:16+00:00",
-        "latestVersion": "1.5.5",
+        "latestReleaseDate": "2024-08-28T04:04:05+00:00",
+        "latestVersion": "1.5.6",
         "license": "BSD license",
         "name": "xlswriter",
         "php8Mentioned": true,
         "releases": {
+            "1.5.6": {
+                "version": "1.5.6",
+                "state": "stable",
+                "license": "BSD license",
+                "releasedBy": "wjx",
+                "releaseDate": "2024-08-28T04:04:05+00:00",
+                "releaseNotes": "- Fix: format resource memory leak.",
+                "get": "https://pecl.php.net/get/xlswriter-1.5.6",
+                "SPDX-License-Identifier": "BSD-2-Clause"
+            },
             "1.5.5": {
                 "version": "1.5.5",
                 "state": "stable",
