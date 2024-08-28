@@ -11,6 +11,10 @@
         "version": "4.28.0RC1",
         "state": "beta"
     },
+    "4.27.4": {
+        "version": "4.27.4",
+        "state": "stable"
+    },
     "4.27.3": {
         "version": "4.27.3",
         "state": "stable"
