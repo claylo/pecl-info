@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (122)
+## Relevant Extensions (123)
 
 ### Authentication (2)
 
@@ -546,7 +546,7 @@ located at http://www.iana.org/time-zones.
 </details>
 
 ***
-### Encryption (3)
+### Encryption (4)
 
 <details><summary>gnupg&nbsp; :eight:</summary>
 <p>wrapper around the gpgme library</p>
@@ -589,6 +589,24 @@ A PHP wrapper to Colin Percival's scrypt implementation.
 <li>Release data in JSON: <a href="data/packages/scrypt.json">scrypt.json</a></li>
 <li><a href="https://pecl.php.net/packages/scrypt">scrypt on PECL</a></li>
 <li><a href="https://github.com/DomBlack/php-scrypt">:sparkles: Source</a> &nbsp; <a href="https://github.com/DomBlack/php-scrypt/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=947&rid=&cid=6">:bar_chart: Stats</a></li>
+</ul></p><hr />
+</details>
+<details><summary>xpass</summary>
+<p>Extended password extensio</p>
+
+```
+This extension provides password hashing algorithms used by Linux distributions,
+using extended crypt library (libxcrypt).
+
+* sha512 provided for legacy as used on some old distributions
+* yescrypt used on modern distributions
+```
+<p><ul>
+<li>License: </li>
+<li>Latest Release: <a href="https://pecl.php.net/get/xpass-1.0.0RC1">1.0.0RC1</a> on 28 Aug 2024</li>
+<li>Release data in JSON: <a href="data/packages/xpass.json">xpass.json</a></li>
+<li><a href="https://pecl.php.net/packages/xpass">xpass on PECL</a></li>
+<li><a href="https://git.remirepo.net/cgit/tools/php-xpass.git/">:house: Home</a> &nbsp; <a href="https://github.com/remicollet/php-xpass">:sparkles: Source</a> &nbsp; <a href="https://github.com/remicollet/php-xpass/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1085&rid=&cid=6">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 
