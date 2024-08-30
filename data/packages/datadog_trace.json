@@ -2,12 +2,22 @@
     "category": "Benchmarking",
     "deprecated": false,
     "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-    "latestReleaseDate": "2024-07-23T11:55:23+00:00",
-    "latestVersion": "1.2.0",
+    "latestReleaseDate": "2024-08-30T13:06:54+00:00",
+    "latestVersion": "1.3.0",
     "license": "BSD 3-Clause",
     "name": "datadog_trace",
     "php8Mentioned": true,
     "releases": {
+        "1.3.0": {
+            "version": "1.3.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "bwoebi",
+            "releaseDate": "2024-08-30T13:06:54+00:00",
+            "releaseNotes": "## Tracer\n\nThe default value for datadog.log_backtrace is now set to true, meaning that on compatible systems, a segmentation fault will cause the process's backtrace to be printed in the log.\n\n### Added\n- Add SpanEvents support for DD and OTEL #2754\n- Symfony Messenger Integration #2749\n- Add crashtracker #2763\n\n### Changed\n- Updates the expected telemetry tags for OTel env-var mapping in line with the latest RFC #2775\n\n### Fixed\n- Multiple Workers in SWOOLE_BASE mode #2778\n- Fix ini creation when `--extension-dir` is used #2789\n- Fix fatal error when reading uninit $meta on a span #2790\n- Fix JIT crash with instrumented generators #2797\n- Handle absolute paths in extension_dir containing forward slashes #2798\n- Fix setup with spaces in path to php binary #2803\n- Fix #2774: shared hooks removal caused xdebug end handler to be skipped #2780\n- Fix error message for not loaded/not available #2810\n- Implement fallback for when memfd is not available on Linux Datadog/libdatadog#591\n- Use the Windows User ID as sidecar identifier instead of the Session ID Datadog/libdatadog#558\n- Fix error check in trampoline.c Datadog/libdatadog#569\n- Do not implicitly fall back to spl_autoload() if no autoloader is registered on PHP 7 #2822\n- Prevent crash in shutdown if hook was not stored #2824\n\n### Internal\n- Send x-datadog-test-session-token metric and send metrics to request-replayer #2802\n- Only warn on missing `json` extension #2805\n- Fix compilation after alpine container upgrade #2811\n- Telemetry v2 schema for app-started payload requires 'configuration' Datadog/libdatadog#543\n\n## Profiling\n\n### Added\n- Add timestamp to exception sample #2793\n\n### Internal\n- Perf: remove profiler mutex #2714\n\n## Application Security Management\n\n### Added\n- Automated user ID collection modes #2782\n- Report backtraces #2715\n\n### Changed\n- Support loading appsec helper in sidecar Datadog/libdatadog#565\n\n### Fixed\n- Refactor the sampler to fix errors #2761",
+            "get": "https://pecl.php.net/get/datadog_trace-1.3.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "1.2.0": {
             "version": "1.2.0",
             "state": "stable",
