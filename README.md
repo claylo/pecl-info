@@ -646,7 +646,7 @@ ev provides interface to libev library - high performance
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/ev-1.1.6RC1">1.1.6RC1</a> on 13 Nov 2021</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/ev-1.2.0">1.2.0</a> on 03 Sep 2024</li>
 <li>Release data in JSON: <a href="data/packages/ev.json">ev.json</a></li>
 <li><a href="https://pecl.php.net/packages/ev">ev on PECL</a></li>
 <li><a href="http://docs.php.net/ev">:book: Documentation</a> &nbsp; <a href="https://bitbucket.org/osmanov/pecl-ev">:house: Home</a> &nbsp; <a href="https://bitbucket.org/osmanov/pecl-ev/src">:sparkles: Source</a> &nbsp; <a href="https://bitbucket.org/osmanov/pecl-ev/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=938&rid=&cid=44">:bar_chart: Stats</a></li>
@@ -781,7 +781,7 @@ Documentation: https://www.php.net/rpminfo
 ```
 <p><ul>
 <li>License: </li>
-<li>Latest Release: <a href="https://pecl.php.net/get/rpminfo-1.1.0">1.1.0</a> on 10 Nov 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/rpminfo-1.1.1">1.1.1</a> on 03 Sep 2024</li>
 <li>Release data in JSON: <a href="data/packages/rpminfo.json">rpminfo.json</a></li>
 <li><a href="https://pecl.php.net/packages/rpminfo">rpminfo on PECL</a></li>
 <li><a href="https://www.php.net/rpminfo">:book: Documentation</a> &nbsp; <a href="https://git.remirepo.net/cgit/tools/php-rpminfo.git/">:house: Home</a> &nbsp; <a href="https://git.remirepo.net/cgit/tools/php-rpminfo.git/">:sparkles: Source</a> &nbsp; <a href="https://github.com/remicollet/rpminfo/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1019&rid=&cid=33">:bar_chart: Stats</a></li>
