@@ -2,12 +2,22 @@
     "category": "Event",
     "deprecated": false,
     "description": "ev provides interface to libev library - high performance\n  full-featured event loop written in C.",
-    "latestReleaseDate": "2021-11-13T13:48:23+00:00",
-    "latestVersion": "1.1.6RC1",
+    "latestReleaseDate": "2024-09-03T13:54:27+00:00",
+    "latestVersion": "1.2.0",
     "license": "PHP",
     "name": "ev",
     "php8Mentioned": true,
     "releases": {
+        "1.2.0": {
+            "version": "1.2.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "osmanov",
+            "releaseDate": "2024-09-03T13:54:27+00:00",
+            "releaseNotes": "- Support for PHP versions older than 8 has been dropped. Maintaining compatibility\n  with multiple PHP versions (5, 7, and 8) has become increasingly difficult.\n  Recent changes in PHP 8.3 have further complicated the build scripts. Additionally,\n  as PHP releases older than 8.1 are now officially unsupported, it has become\n  challenging to continue supporting PHP 5 and 7.\n- Fixed #51: Building statically with PHP 8.3.10 fails with an \"unknown\" PHP version.",
+            "get": "https://pecl.php.net/get/ev-1.2.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
         "1.1.6RC1": {
             "version": "1.1.6RC1",
             "state": "beta",
@@ -58,16 +68,6 @@
             "get": "https://pecl.php.net/get/ev-1.1.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
-        "1.1.1r1": {
-            "version": "1.1.1r1",
-            "state": "stable",
-            "license": "PHP",
-            "releasedBy": "osmanov",
-            "releaseDate": "2021-02-15T20:45:31+00:00",
-            "releaseNotes": "Stable version release",
-            "get": "https://pecl.php.net/get/ev-1.1.1r1",
-            "SPDX-License-Identifier": "PHP-3.01"
-        },
         "1.1.1": {
             "version": "1.1.1",
             "state": "beta",
@@ -76,6 +76,16 @@
             "releaseDate": "2021-02-04T09:27:40+00:00",
             "releaseNotes": "- Fixed #39: tests/bug33.phpt is slow on s390x\n- Fixed tests/10_signal.phpt which failed on mips64 Alpinelinux due to a different value of SIGUSR1",
             "get": "https://pecl.php.net/get/ev-1.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.1.1r1": {
+            "version": "1.1.1r1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "osmanov",
+            "releaseDate": "2021-02-15T20:45:31+00:00",
+            "releaseNotes": "Stable version release",
+            "get": "https://pecl.php.net/get/ev-1.1.1r1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.1.0": {
