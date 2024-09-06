@@ -480,7 +480,7 @@
         "stats": "https://pecl.php.net/package-stats.php?pid=400&rid=&cid=7"
     },
     "datadog_trace": {
-        "bugs": "",
+        "bugs": "https://github.com/DataDog/dd-trace-php/issues",
         "docs": "",
         "home": "https://docs.datadoghq.com/tracing/languages/php/",
         "maintained": true,
