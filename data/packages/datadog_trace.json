@@ -2,12 +2,22 @@
     "category": "Benchmarking",
     "deprecated": false,
     "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-    "latestReleaseDate": "2024-08-30T13:06:54+00:00",
-    "latestVersion": "1.3.0",
+    "latestReleaseDate": "2024-09-06T15:12:14+00:00",
+    "latestVersion": "1.3.1",
     "license": "BSD 3-Clause",
     "name": "datadog_trace",
     "php8Mentioned": true,
     "releases": {
+        "1.3.1": {
+            "version": "1.3.1",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "bwoebi",
+            "releaseDate": "2024-09-06T15:12:14+00:00",
+            "releaseNotes": "## Tracer\n\n### Fixed\n- Fix DD_AUTOLOAD_NO_COMPILE #2833\n- Loader: Use the same version number as for other extensions #2838\n- Consider ifunc symbols also defined Datadog/libdatadog#609\n- Fix crash with double parent key in tracestate #2837\n- Fix #2831: Failure with LTO #2839\n\n### Internal\n- Avoid using non-bundled rust git dependencies #2827",
+            "get": "https://pecl.php.net/get/datadog_trace-1.3.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "1.3.0": {
             "version": "1.3.0",
             "state": "stable",
