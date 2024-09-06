@@ -1050,7 +1050,7 @@ This extension allows PHP to directly use Python modules and functions without R
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/phpy-1.0.6">1.0.6</a> on 20 Aug 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/phpy-1.0.8">1.0.8</a> on 06 Sep 2024</li>
 <li>Release data in JSON: <a href="data/packages/phpy.json">phpy.json</a></li>
 <li><a href="https://pecl.php.net/packages/phpy">phpy on PECL</a></li>
 <li><a href="https://github.com/swoole/phpy">:house: Home</a> &nbsp; <a href="https://github.com/swoole/phpy">:sparkles: Source</a> &nbsp; <a href="https://github.com/swoole/phpy/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1084&rid=&cid=59">:bar_chart: Stats</a></li>
