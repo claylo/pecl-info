@@ -305,7 +305,7 @@ necessary to build a fully-functional MongoDB driver.
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/mongodb-1.19.3">1.19.3</a> on 17 Jun 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/mongodb-1.19.4">1.19.4</a> on 09 Sep 2024</li>
 <li>Release data in JSON: <a href="data/packages/mongodb.json">mongodb.json</a></li>
 <li><a href="https://pecl.php.net/packages/mongodb">mongodb on PECL</a></li>
 <li><a href="https://www.php.net/mongodb">:book: Documentation</a> &nbsp; <a href="https://www.mongodb.com/docs/drivers/php-drivers/">:house: Home</a> &nbsp; <a href="https://github.com/mongodb/mongo-php-driver">:sparkles: Source</a> &nbsp; <a href="https://jira.mongodb.org/browse/PHPC">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=981&rid=&cid=7">:bar_chart: Stats</a></li>
@@ -603,7 +603,7 @@ distributions, using extended crypt library (libxcrypt):
 ```
 <p><ul>
 <li>License: </li>
-<li>Latest Release: <a href="https://pecl.php.net/get/xpass-1.0.0RC2">1.0.0RC2</a> on 02 Sep 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/xpass-1.0.0">1.0.0</a> on 09 Sep 2024</li>
 <li>Release data in JSON: <a href="data/packages/xpass.json">xpass.json</a></li>
 <li><a href="https://pecl.php.net/packages/xpass">xpass on PECL</a></li>
 <li><a href="https://git.remirepo.net/cgit/tools/php-xpass.git/">:house: Home</a> &nbsp; <a href="https://github.com/remicollet/php-xpass">:sparkles: Source</a> &nbsp; <a href="https://github.com/remicollet/php-xpass/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1085&rid=&cid=6">:bar_chart: Stats</a></li>
