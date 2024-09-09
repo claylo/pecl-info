@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.19.4</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>alcaeus</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2024-09-09 09:49:54</da>
+ <n>## What&#039;s Changed
+* Use full-report convenience action for SSDLC reports by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1589
+* PHPC-2381: Allow releasing pre-release versions through the release automation by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1590
+* Revamp evergreen builds and add tags for pull requests by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1593
+* Add tag checks aliases by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1596
+* PHPC-2409: Update to libmongoc 1.27.4 by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1600
+* PHPC-2405: Update to libmongocrypt 1.10.1 by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1602
+* Reduce amount of evergreen config includes by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1612
+* PHPC-2422: Update libmongoc to 1.27.5 by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1619
+* PHPC-2420: Compare Int64 instances without casting by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1617
+* PHPC-2429: Fix UTCDateTime with negative timestamps by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1623
+* Update to libmongoc 1.27.6 by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1627
+* Update GitHub Actions job names by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1632
+
+
+**Full Changelog**: https://github.com/mongodb/mongo-php-driver/compare/1.19.3...1.19.4</n>
+ <f>2085428</f>
+ <g>https://pecl.php.net/get/mongodb-1.19.4</g>
+ <x xlink:href="package.1.19.4.xml"/>
+</r>
