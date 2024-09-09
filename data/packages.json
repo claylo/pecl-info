@@ -20279,12 +20279,22 @@
         "category": "Database",
         "deprecated": false,
         "description": "The purpose of this driver is to provide exceptionally thin glue between MongoDB\nand PHP, implementing only fundamental and performance-critical components\nnecessary to build a fully-functional MongoDB driver.",
-        "latestReleaseDate": "2024-06-17T08:48:15+00:00",
-        "latestVersion": "1.19.3",
+        "latestReleaseDate": "2024-09-09T09:49:54+00:00",
+        "latestVersion": "1.19.4",
         "license": "Apache License",
         "name": "mongodb",
         "php8Mentioned": true,
         "releases": {
+            "1.19.4": {
+                "version": "1.19.4",
+                "state": "stable",
+                "license": "Apache License",
+                "releasedBy": "alcaeus",
+                "releaseDate": "2024-09-09T09:49:54+00:00",
+                "releaseNotes": "## What's Changed\n* Use full-report convenience action for SSDLC reports by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1589\n* PHPC-2381: Allow releasing pre-release versions through the release automation by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1590\n* Revamp evergreen builds and add tags for pull requests by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1593\n* Add tag checks aliases by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1596\n* PHPC-2409: Update to libmongoc 1.27.4 by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1600\n* PHPC-2405: Update to libmongocrypt 1.10.1 by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1602\n* Reduce amount of evergreen config includes by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1612\n* PHPC-2422: Update libmongoc to 1.27.5 by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1619\n* PHPC-2420: Compare Int64 instances without casting by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1617\n* PHPC-2429: Fix UTCDateTime with negative timestamps by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1623\n* Update to libmongoc 1.27.6 by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1627\n* Update GitHub Actions job names by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1632\n\n\n**Full Changelog**: https://github.com/mongodb/mongo-php-driver/compare/1.19.3...1.19.4",
+                "get": "https://pecl.php.net/get/mongodb-1.19.4",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "1.19.3": {
                 "version": "1.19.3",
                 "state": "stable",
@@ -48432,12 +48442,22 @@
         "category": "Encryption",
         "deprecated": false,
         "description": "This extension provides password hashing algorithms used by Linux\ndistributions, using extended crypt library (libxcrypt):\n\n* sha512 provided for legacy as used on some old distributions\n* yescrypt used on modern distributions",
-        "latestReleaseDate": "2024-09-02T06:35:12+00:00",
-        "latestVersion": "1.0.0RC2",
+        "latestReleaseDate": "2024-09-09T09:49:07+00:00",
+        "latestVersion": "1.0.0",
         "license": "PHP-3.01",
         "name": "xpass",
         "php8Mentioned": false,
         "releases": {
+            "1.0.0": {
+                "version": "1.0.0",
+                "state": "stable",
+                "license": "PHP-3.01",
+                "releasedBy": "remi",
+                "releaseDate": "2024-09-09T09:49:07+00:00",
+                "releaseNotes": "- first GA release",
+                "get": "https://pecl.php.net/get/xpass-1.0.0",
+                "SPDX-License-Identifier": null
+            },
             "1.0.0RC2": {
                 "version": "1.0.0RC2",
                 "state": "beta",
