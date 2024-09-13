@@ -48462,12 +48462,22 @@
         "category": "Encryption",
         "deprecated": false,
         "description": "This extension provides password hashing algorithms used by Linux\ndistributions, using extended crypt library (libxcrypt):\n\n* sha512 provided for legacy as used on some old distributions\n* yescrypt used on modern distributions",
-        "latestReleaseDate": "2024-09-09T09:49:07+00:00",
-        "latestVersion": "1.0.0",
+        "latestReleaseDate": "2024-09-13T12:47:18+00:00",
+        "latestVersion": "1.1.0RC1",
         "license": "PHP-3.01",
         "name": "xpass",
         "php8Mentioned": false,
         "releases": {
+            "1.1.0RC1": {
+                "version": "1.1.0RC1",
+                "state": "beta",
+                "license": "PHP-3.01",
+                "releasedBy": "remi",
+                "releaseDate": "2024-09-13T12:47:18+00:00",
+                "releaseNotes": "- add crypt_gensalt(?string $prefix = null, int $count = 0): ?string {}\n- add crypt_preferred_method(): ?string {}\n- add crypt_checksalt(string $salt): int {}\n- add CRYPT_PREFIX_* and CRYPT_SALT_* constants",
+                "get": "https://pecl.php.net/get/xpass-1.1.0RC1",
+                "SPDX-License-Identifier": null
+            },
             "1.0.0": {
                 "version": "1.0.0",
                 "state": "stable",
