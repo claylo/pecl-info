@@ -603,7 +603,7 @@ distributions, using extended crypt library (libxcrypt):
 ```
 <p><ul>
 <li>License: </li>
-<li>Latest Release: <a href="https://pecl.php.net/get/xpass-1.0.0">1.0.0</a> on 09 Sep 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/xpass-1.1.0RC1">1.1.0RC1</a> on 13 Sep 2024</li>
 <li>Release data in JSON: <a href="data/packages/xpass.json">xpass.json</a></li>
 <li><a href="https://pecl.php.net/packages/xpass">xpass on PECL</a></li>
 <li><a href="https://git.remirepo.net/cgit/tools/php-xpass.git/">:house: Home</a> &nbsp; <a href="https://github.com/remicollet/php-xpass">:sparkles: Source</a> &nbsp; <a href="https://github.com/remicollet/php-xpass/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1085&rid=&cid=6">:bar_chart: Stats</a></li>
