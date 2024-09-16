@@ -45853,12 +45853,22 @@
         "category": "System",
         "deprecated": false,
         "description": "The win32service extension is a Windows specific extension that allows PHP to communicate with the Service\n        Control Manager to start, stop, register and unregister services, and even allows your PHP scripts to run as a\n        service.",
-        "latestReleaseDate": "2022-11-04T08:54:05+00:00",
-        "latestVersion": "1.0.2",
+        "latestReleaseDate": "2024-09-16T07:51:48+00:00",
+        "latestVersion": "1.1.0beta1",
         "license": "PHP License",
         "name": "win32service",
         "php8Mentioned": true,
         "releases": {
+            "1.1.0beta1": {
+                "version": "1.1.0beta1",
+                "state": "beta",
+                "license": "PHP License",
+                "releasedBy": "macintoshplus",
+                "releaseDate": "2024-09-16T07:51:48+00:00",
+                "releaseNotes": "* Add object \\Win32Service\\RightInfo\n* Add function win32_read_right_access_service()\n* Add function win32_read_all_rights_access_service()\n* Add function win32_add_right_access_service()\n* Add function win32_remove_right_access_service()\n* Add function win32_add_service_env_var()\n* Add function win32_remove_service_env_var()\n* Add function win32_get_service_env_vars()\n* Add function win32_set_service_pause_resume_state()\n* Some function are now disabled if PHP not run in Windows service context. See PHP Information.\n* Use the `gen_stub.php` to generate arginfo header.\n\n The binary is also available here: https://github.com/win32service/win32service/releases/tag/v1.1.0-beta1",
+                "get": "https://pecl.php.net/get/win32service-1.1.0beta1",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
             "1.0.2": {
                 "version": "1.0.2",
                 "state": "stable",
