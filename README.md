@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (123)
+## Relevant Extensions (122)
 
 ### Authentication (2)
 
@@ -1211,7 +1211,7 @@ SDL_ttf bindings for the PHP language
 </details>
 
 ***
-### Networking (10)
+### Networking (9)
 
 <details><summary>amqp&nbsp; :eight:</summary>
 <p>Communicate with any AMQP compliant server</p>
@@ -1316,20 +1316,6 @@ database.
 <li>Release data in JSON: <a href="data/packages/ip2proxy.json">ip2proxy.json</a></li>
 <li><a href="https://pecl.php.net/packages/ip2proxy">ip2proxy on PECL</a></li>
 <li><a href="https://www.ip2location.com">:house: Home</a> &nbsp; <a href="https://github.com/ip2location/ip2proxy-pecl">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1053&rid=&cid=16">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>nsq&nbsp; :eight:</summary>
-<p>PHP extension for NSQ client</p>
-
-```
-This extension is a NSQ client .NSQ is a message queue system which like Kafka .
-```
-<p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/nsq-3.5.1">3.5.1</a> on 17 Sep 2021</li>
-<li>Release data in JSON: <a href="data/packages/nsq.json">nsq.json</a></li>
-<li><a href="https://pecl.php.net/packages/nsq">nsq on PECL</a></li>
-<li><a href="https://github.com/yunnian/php-nsq">:house: Home</a> &nbsp; <a href="https://github.com/yunnian/php-nsq">:sparkles: Source</a> &nbsp; <a href="https://github.com/yunnian/php-nsq/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1021&rid=&cid=16">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>rdkafka&nbsp; :eight:</summary>
@@ -2076,7 +2062,7 @@ https://developers.google.com/protocol-buffers/
 ```
 <p><ul>
 <li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/protobuf-4.28.1">4.28.1</a> on 11 Sep 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/protobuf-4.28.2">4.28.2</a> on 18 Sep 2024</li>
 <li>Release data in JSON: <a href="data/packages/protobuf.json">protobuf.json</a></li>
 <li><a href="https://pecl.php.net/packages/protobuf">protobuf on PECL</a></li>
 <li><a href="https://github.com/google/protobuf">:sparkles: Source</a> &nbsp; <a href="https://github.com/protocolbuffers/protobuf/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=997&rid=&cid=29">:bar_chart: Stats</a></li>
