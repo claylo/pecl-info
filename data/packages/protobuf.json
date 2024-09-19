@@ -2,12 +2,22 @@
     "category": "Tools and Utilities",
     "deprecated": false,
     "description": "https://developers.google.com/protocol-buffers/",
-    "latestReleaseDate": "2024-09-11T18:13:51+00:00",
-    "latestVersion": "4.28.1",
+    "latestReleaseDate": "2024-09-18T21:17:58+00:00",
+    "latestVersion": "4.28.2",
     "license": "BSD-3-Clause",
     "name": "protobuf",
     "php8Mentioned": false,
     "releases": {
+        "4.28.2": {
+            "version": "4.28.2",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "protobufpackages",
+            "releaseDate": "2024-09-18T21:17:58+00:00",
+            "releaseNotes": "* See github.com/protocolbuffers/protobuf/releases/tag/v28.2 for release notes.",
+            "get": "https://pecl.php.net/get/protobuf-4.28.2",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "4.28.1": {
             "version": "4.28.1",
             "state": "stable",
@@ -56,6 +66,16 @@
             "releaseDate": "2024-07-11T23:52:19+00:00",
             "releaseNotes": "* See github.com/protocolbuffers/protobuf/releases/tag/v28.0-rc-1 for release notes.",
             "get": "https://pecl.php.net/get/protobuf-4.28.0RC1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "4.27.5": {
+            "version": "4.27.5",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "protobufpackages",
+            "releaseDate": "2024-09-18T22:43:49+00:00",
+            "releaseNotes": "* See github.com/protocolbuffers/protobuf/releases/tag/v27.5 for release notes.",
+            "get": "https://pecl.php.net/get/protobuf-4.27.5",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "4.27.4": {
@@ -206,6 +226,16 @@
             "releaseDate": "2020-07-15T17:42:54+00:00",
             "releaseNotes": "GA release.",
             "get": "https://pecl.php.net/get/protobuf-4.0.0RC1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "3.25.5": {
+            "version": "3.25.5",
+            "state": "stable",
+            "license": "BSD-3-Clause",
+            "releasedBy": "protobufpackages",
+            "releaseDate": "2024-09-18T22:10:40+00:00",
+            "releaseNotes": "* See github.com/protocolbuffers/protobuf/releases/tag/v25.5 for release notes.",
+            "get": "https://pecl.php.net/get/protobuf-3.25.5",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "3.25.4": {
