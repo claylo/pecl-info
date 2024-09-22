@@ -2,12 +2,22 @@
     "category": "Caching",
     "deprecated": false,
     "description": "APC User Caching",
-    "latestReleaseDate": "2023-11-11T17:44:27+00:00",
-    "latestVersion": "5.1.23",
+    "latestReleaseDate": "2024-09-21T19:15:38+00:00",
+    "latestVersion": "5.1.24",
     "license": "PHP License",
     "name": "APCu",
     "php8Mentioned": true,
     "releases": {
+        "5.1.24": {
+            "version": "5.1.24",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "nikic",
+            "releaseDate": "2024-09-21T19:15:38+00:00",
+            "releaseNotes": "- Make compatible with PHP 8.4.\n- apc.php: Preserve search parameter when deleting entry.\n- apc.PHP: Allow arbitrary search regex.",
+            "get": "https://pecl.php.net/get/apcu-5.1.24",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
         "5.1.23": {
             "version": "5.1.23",
             "state": "stable",
