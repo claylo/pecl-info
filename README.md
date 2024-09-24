@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (122)
+## Relevant Extensions (121)
 
 ### Authentication (2)
 
@@ -486,7 +486,7 @@ This extension provides an API for communicating with Redis servers.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/redis-6.1.0RC1">6.1.0RC1</a> on 04 Aug 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/redis-6.1.0RC2">6.1.0RC2</a> on 23 Sep 2024</li>
 <li>Release data in JSON: <a href="data/packages/redis.json">redis.json</a></li>
 <li><a href="https://pecl.php.net/packages/redis">redis on PECL</a></li>
 <li><a href="https://github.com/phpredis/phpredis/#readme">:book: Documentation</a> &nbsp; <a href="https://github.com/phpredis/phpredis/">:house: Home</a> &nbsp; <a href="https://github.com/phpredis/phpredis/">:sparkles: Source</a> &nbsp; <a href="https://github.com/phpredis/phpredis/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=935&rid=&cid=7">:bar_chart: Stats</a></li>
@@ -888,7 +888,7 @@ smbclient is a PHP extension that uses Samba's libsmbclient library to provide
 </details>
 
 ***
-### HTTP (3)
+### HTTP (2)
 
 <details><summary>apfd&nbsp; :eight:</summary>
 <p>Always Populate Form Data</p>
@@ -906,25 +906,6 @@ This extension does not provide any INI entries, constants, functions or classes
 <li>Release data in JSON: <a href="data/packages/apfd.json">apfd.json</a></li>
 <li><a href="https://pecl.php.net/packages/apfd">apfd on PECL</a></li>
 <li><a href="http://mdref.m6w6.name/apfd">:book: Documentation</a> &nbsp; <a href="https://github.com/m6w6/ext-apfd">:sparkles: Source</a> &nbsp; <a href="https://github.com/m6w6/ext-apfd/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=977&rid=&cid=11">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>json_post</summary>
-<p>JSON POST handler</p>
-
-```
-This extension provides a PHP content type handler for "application/json" and
-"text/json" to PHP's form data parser. If the `Content-Type` of an incoming
-request is `text/json`, the JSON contents of the request body will by parsed
-into `$_POST`.
-
-This extension does not provide any constants, functions or classes.
-```
-<p><ul>
-<li>License: BSD-2-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/json_post-1.1.0">1.1.0</a> on 23 Sep 2021</li>
-<li>Release data in JSON: <a href="data/packages/json_post.json">json_post.json</a></li>
-<li><a href="https://pecl.php.net/packages/json_post">json_post on PECL</a></li>
-<li><a href="https://mdref.m6w6.name/json_post">:book: Documentation</a> &nbsp; <a href="https://github.com/m6w6/ext-json_post">:sparkles: Source</a> &nbsp; <a href="https://github.com/m6w6/ext-json_post/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=976&rid=&cid=11">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>pecl_http&nbsp; :eight:</summary>
