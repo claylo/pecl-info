@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.20.0</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>alcaeus</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2024-09-24 15:44:46</da>
+ <n>## What&#039;s Changed
+* Master is now 1.20-dev by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1550
+* Merge v1.19 into master by @mongodb-php-bot in https://github.com/mongodb/mongo-php-driver/pull/1553
+* Merge v1.19 into master by @mongodb-php-bot in https://github.com/mongodb/mongo-php-driver/pull/1554
+* PHPC-2386: Fix build config output without libmongocrypt by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1557
+* Merge v1.19 into master by @mongodb-php-bot in https://github.com/mongodb/mongo-php-driver/pull/1563
+* Merge v1.19 into master by @mongodb-php-bot in https://github.com/mongodb/mongo-php-driver/pull/1564
+* Merge v1.19 into master by @mongodb-php-bot in https://github.com/mongodb/mongo-php-driver/pull/1566
+* Bump mongodb-labs/drivers-github-tools from 1 to 2 by @dependabot in https://github.com/mongodb/mongo-php-driver/pull/1568
+* Merge v1.19 into master by @mongodb-php-bot in https://github.com/mongodb/mongo-php-driver/pull/1569
+* Merge v1.19 into master by @mongodb-php-bot in https://github.com/mongodb/mongo-php-driver/pull/1570
+* Revert &quot;Bump mongodb-labs/drivers-github-tools from 1 to 2&quot; by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1571
+* Merge v1.19 into master by @mongodb-php-bot in https://github.com/mongodb/mongo-php-driver/pull/1574
+* Merge v1.19 into master by @mongodb-php-bot in https://github.com/mongodb/mongo-php-driver/pull/1576
+* Merge v1.19 into master by @mongodb-php-bot in https://github.com/mongodb/mongo-php-driver/pull/1578
+* PHPC-2395: Fetch Atlas connectivity URIs from AWS Secrets Manager by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1579
+* Merge v1.19 into master by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1581
+* Merge v1.19 into master by @mongodb-php-bot in https://github.com/mongodb/mongo-php-driver/pull/1580
+* Merge v1.19 into master by @mongodb-php-bot in https://github.com/mongodb/mongo-php-driver/pull/1585
+* PHPC-2398: Use server_id methods for libmongoc 1.28+ by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1582
+* PHPC-2401: Support QEv2 range protocol by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1583
+* Merge v1.19 into master by @mongodb-php-bot in https://github.com/mongodb/mongo-php-driver/pull/1588
+* PHPC-2254: Relax server selection timeout error message pattern by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1587
+* Merge v1.19 into master by @mongodb-php-bot in https://github.com/mongodb/mongo-php-driver/pull/1591
+* Merge v1.19 into master by @mongodb-php-bot in https://github.com/mongodb/mongo-php-driver/pull/1592
+* Merge v1.19 into master by @mongodb-php-bot in https://github.com/mongodb/mongo-php-driver/pull/1594
+* Merge v1.19 into master by @mongodb-php-bot in https://github.com/mongodb/mongo-php-driver/pull/1597
+* PHPC-2376: Test against MongoDB 8.0 by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1598
+* Fix version computation for libmongoc development versions by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1599
+* Merge v1.19 into master by @mongodb-php-bot in https://github.com/mongodb/mongo-php-driver/pull/1601
+* Merge v1.19 into master by @mongodb-php-bot in https://github.com/mongodb/mongo-php-driver/pull/1603
+* PHPC-1489: Deprecate integer readPreference constants by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1604
+* PHPC-2347: Deprecate BSON functions by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1607
+* Fix failing tests on x86 systems by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1609
+* PHPC-2349, PHPC-2411: Deprecate unused exception classes by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1608
+* PHPC-2414, PHPC-2415: Update wire versions for MongoDB 8.0 compatibility by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1610
+* Merge v1.19 into master by @mongodb-php-bot in https://github.com/mongodb/mongo-php-driver/pull/1613
+* PHPC-2286 Implement `UTCDateTime::toDateTimeImmutable` by @GromNaN in https://github.com/mongodb/mongo-php-driver/pull/1611
+* PHPC-1957 Add tests for out-of-range `UTCDateTime` values by @GromNaN in https://github.com/mongodb/mongo-php-driver/pull/1614
+* Use drivers-evergreen-tools for Windows testing by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1615
+* Merge v1.19 into master by @mongodb-php-bot in https://github.com/mongodb/mongo-php-driver/pull/1620
+* Merge v1.19 into master by @mongodb-php-bot in https://github.com/mongodb/mongo-php-driver/pull/1621
+* PHPC-2421, PHPC-2428: Update bundled dependencies by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1622
+* PHPC-2434: Add PHP 8.4 to GitHub Actions by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1625
+* PHPC-2420: Initial composer.json for pie support by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1624
+* Merge v1.19 into master by @mongodb-php-bot in https://github.com/mongodb/mongo-php-driver/pull/1626
+* Merge v1.19 into master by @mongodb-php-bot in https://github.com/mongodb/mongo-php-driver/pull/1629
+* PHPC-2403: Remove optional sparsity and trimFactor options by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1628
+* Merge v1.19 into v1.20 by @mongodb-php-bot in https://github.com/mongodb/mongo-php-driver/pull/1633
+* PHPC-2412: Deprecate CursorId class by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1616
+* Fix exception message expectation on MongoDB latest by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1637
+* Validate composer.json as part of CI workflows by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1636
+* Update merge-up config by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1641
+* PHPC-2443: Deprecate string argument and accept Int64 instances in UTCDateTime constructor by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1643
+* PHPC-2413: Use new distros for RHEL ppc and Z by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1647
+* PHPC-2442: Deprecate getServer, add getHost and getPort to APM events by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1644
+* Merge v1.19 into v1.20 by @mongodb-php-bot in https://github.com/mongodb/mongo-php-driver/pull/1649
+* PHPC-2350: Implement JSON methods for PackedArray by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1645
+* Update archive names for Windows builds by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1655
+* Remove usage of deprecated E_STRICT by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1668
+* PHPC-2448: Update to libmongoc 1.28.0 by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1673
+* PHPC-2452: Warn if --with-openssl-dir is used by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1677
+* PHPC-2453: Deprecation notice for Query &quot;modifiers&quot; option by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1680
+* Drop RHEL 7.6 from evergreen testing by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1682
+* PHPC-2456: Correctly dereference arrays in type maps by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1683
+
+
+**Full Changelog**: https://github.com/mongodb/mongo-php-driver/compare/1.19.4...1.20.0</n>
+ <f>2106339</f>
+ <g>https://pecl.php.net/get/mongodb-1.20.0</g>
+ <x xlink:href="package.1.20.0.xml"/>
+</r>
