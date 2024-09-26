@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.368.0](https://github.com/claylo/pecl-info/compare/v1.367.0...v1.368.0) (2024-09-26)
+
+### Added
+
+* add xpass 1.1.0, zip 1.22.4 releases ([d0571b6](https://github.com/claylo/pecl-info/commit/d0571b61bad36f5a269bd249b159c5cce3f17785))
+
 ## [1.367.0](https://github.com/claylo/pecl-info/compare/v1.366.0...v1.367.0) (2024-09-26)
 
 ### Added
