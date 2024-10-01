@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (121)
+## Relevant Extensions (119)
 
 ### Authentication (2)
 
@@ -1368,7 +1368,7 @@ This provides a similar API (object-based) to java.util.BitSet with some PHP-spe
 </details>
 
 ***
-### PHP (13)
+### PHP (12)
 
 <details><summary>ast&nbsp; :eight:</summary>
 <p>Extension exposing PHP 7 abstract syntax tree</p>
@@ -1514,24 +1514,6 @@ It supports the following activities:
 <li>Release data in JSON: <a href="data/packages/uopz.json">uopz.json</a></li>
 <li><a href="https://pecl.php.net/packages/uopz">uopz on PECL</a></li>
 <li><a href="http://docs.php.net/uopz">:book: Documentation</a> &nbsp; <a href="https://github.com/krakjoe/uopz">:sparkles: Source</a> &nbsp; <a href="https://github.com/krakjoe/uopz/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=964&rid=&cid=25">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>uploadprogress&nbsp; :eight:</summary>
-<p>An extension to track progress of a file upload.</p>
-
-```
-A PHP extension to track progress of a file upload, including details on the speed of the upload, estimated time remaining, and access to the contents of the file as it is being uploaded.
-
-        The uploadprogress extension works on PHP 7.2+ and PHP 8. It works with Apache HTTP Server using mod_php, as well as Apache HTTP Server, nginx, and Caddy through PHP-FPM. It might work on other web servers; let us know where you're using it.
-
-        See https://github.com/php/pecl-php-uploadprogress for documentation and examples.
-```
-<p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/uploadprogress-2.0.2">2.0.2</a> on 01 Oct 2021</li>
-<li>Release data in JSON: <a href="data/packages/uploadprogress.json">uploadprogress.json</a></li>
-<li><a href="https://pecl.php.net/packages/uploadprogress">uploadprogress on PECL</a></li>
-<li><a href="https://github.com/php/pecl-php-uploadprogress">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-php-uploadprogress/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=671&rid=&cid=25">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>var_representation&nbsp; :eight:</summary>
@@ -1869,7 +1851,7 @@ extension
 </details>
 
 ***
-### Text (4)
+### Text (3)
 
 <details><summary>parle&nbsp; :eight:</summary>
 <p>Parsing and lexing</p>
@@ -1884,21 +1866,6 @@ features and principles of the parser/lexer generator tools for C/C++.
 <li>Release data in JSON: <a href="data/packages/parle.json">parle.json</a></li>
 <li><a href="https://pecl.php.net/packages/parle">parle on PECL</a></li>
 <li><a href="https://php.net/parle">:book: Documentation</a> &nbsp; <a href="https://github.com/weltling/parle">:sparkles: Source</a> &nbsp; <a href="https://github.com/weltling/parle/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1016&rid=&cid=36">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>ps&nbsp; :eight:</summary>
-<p>An extension to create PostScript files</p>
-
-```
-ps is an extension similar to the pdf extension but for creating PostScript files. Its api
-is modelled after the pdf extension.
-```
-<p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/ps-1.4.4">1.4.4</a> on 29 Sep 2021</li>
-<li>Release data in JSON: <a href="data/packages/ps.json">ps.json</a></li>
-<li><a href="https://pecl.php.net/packages/ps">ps on PECL</a></li>
-<li><a href="https://www.php.net/manual/en/book.ps.php">:book: Documentation</a> &nbsp; <a href="https://github.com/steinm/ps">:sparkles: Source</a> &nbsp; <a href="https://github.com/steinm/ps/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=299&rid=&cid=36">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>pspell</summary>
@@ -2043,7 +2010,7 @@ https://developers.google.com/protocol-buffers/
 ```
 <p><ul>
 <li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/protobuf-4.28.2">4.28.2</a> on 18 Sep 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/protobuf-4.29.0RC1">4.29.0RC1</a> on 30 Sep 2024</li>
 <li>Release data in JSON: <a href="data/packages/protobuf.json">protobuf.json</a></li>
 <li><a href="https://pecl.php.net/packages/protobuf">protobuf on PECL</a></li>
 <li><a href="https://github.com/google/protobuf">:sparkles: Source</a> &nbsp; <a href="https://github.com/protocolbuffers/protobuf/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=997&rid=&cid=29">:bar_chart: Stats</a></li>
