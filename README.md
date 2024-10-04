@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (119)
+## Relevant Extensions (118)
 
 ### Authentication (2)
 
@@ -175,10 +175,10 @@ servers.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/memcached-3.2.0">3.2.0</a> on 24 Mar 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/memcached-3.3.0RC1">3.3.0RC1</a> on 04 Oct 2024</li>
 <li>Release data in JSON: <a href="data/packages/memcached.json">memcached.json</a></li>
 <li><a href="https://pecl.php.net/packages/memcached">memcached on PECL</a></li>
-<li><a href="https://php.net/memcached">:book: Documentation</a> &nbsp; <a href="https://github.com/php-memcached-dev/php-memcached">:house: Home</a> &nbsp; <a href="https://github.com/php-memcached-dev/php-memcached">:sparkles: Source</a> &nbsp; <a href="https://github.com/php-memcached-dev/php-memcached/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=847&rid=&cid=3">:bar_chart: Stats</a></li>
+<li><a href="http://php.net/memcached">:book: Documentation</a> &nbsp; <a href="https://github.com/php-memcached-dev/php-memcached">:house: Home</a> &nbsp; <a href="https://github.com/php-memcached-dev/php-memcached">:sparkles: Source</a> &nbsp; <a href="https://github.com/php-memcached-dev/php-memcached/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=847&rid=&cid=3">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>yac&nbsp; :eight:</summary>
@@ -486,7 +486,7 @@ This extension provides an API for communicating with Redis servers.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/redis-6.1.0RC2">6.1.0RC2</a> on 23 Sep 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/redis-6.1.0">6.1.0</a> on 04 Oct 2024</li>
 <li>Release data in JSON: <a href="data/packages/redis.json">redis.json</a></li>
 <li><a href="https://pecl.php.net/packages/redis">redis on PECL</a></li>
 <li><a href="https://github.com/phpredis/phpredis/#readme">:book: Documentation</a> &nbsp; <a href="https://github.com/phpredis/phpredis/">:house: Home</a> &nbsp; <a href="https://github.com/phpredis/phpredis/">:sparkles: Source</a> &nbsp; <a href="https://github.com/phpredis/phpredis/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=935&rid=&cid=7">:bar_chart: Stats</a></li>
@@ -888,26 +888,8 @@ smbclient is a PHP extension that uses Samba's libsmbclient library to provide
 </details>
 
 ***
-### HTTP (2)
+### HTTP (1)
 
-<details><summary>apfd&nbsp; :eight:</summary>
-<p>Always Populate Form Data</p>
-
-```
-This tiny extension lets PHP's post handler parse `multipart/form-data` and
-`application/x-www-form-urlencoded` (or any other customly registered form data
-handler, like "json_post") without regard to the request's request method.
-
-This extension does not provide any INI entries, constants, functions or classes.
-```
-<p><ul>
-<li>License: BSD-2-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/apfd-1.0.3">1.0.3</a> on 04 Oct 2021</li>
-<li>Release data in JSON: <a href="data/packages/apfd.json">apfd.json</a></li>
-<li><a href="https://pecl.php.net/packages/apfd">apfd on PECL</a></li>
-<li><a href="http://mdref.m6w6.name/apfd">:book: Documentation</a> &nbsp; <a href="https://github.com/m6w6/ext-apfd">:sparkles: Source</a> &nbsp; <a href="https://github.com/m6w6/ext-apfd/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=977&rid=&cid=11">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
 <details><summary>pecl_http&nbsp; :eight:</summary>
 <p>Extended HTTP Support</p>
 
@@ -1576,7 +1558,7 @@ Code Coverage Analysis
 ```
 <p><ul>
 <li>License: </li>
-<li>Latest Release: <a href="https://pecl.php.net/get/xdebug-3.3.2">3.3.2</a> on 15 Apr 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/xdebug-3.4.0beta1">3.4.0beta1</a> on 04 Oct 2024</li>
 <li>Release data in JSON: <a href="data/packages/xdebug.json">xdebug.json</a></li>
 <li><a href="https://pecl.php.net/packages/xdebug">xdebug on PECL</a></li>
 <li><a href="https://xdebug.org/docs/">:book: Documentation</a> &nbsp; <a href="https://xdebug.org/">:house: Home</a> &nbsp; <a href="https://github.com/xdebug/xdebug">:sparkles: Source</a> &nbsp; <a href="https://bugs.xdebug.org">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=214&rid=&cid=25">:bar_chart: Stats</a></li>

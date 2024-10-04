@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.374.0](https://github.com/claylo/pecl-info/compare/v1.373.0...v1.374.0) (2024-10-04)
+
+### Added
+
+* add redis 6.1.0, memcached 3.3.0RC1, xdebug 3.4.0beta1 releases ([d396a64](https://github.com/claylo/pecl-info/commit/d396a64676bc1e34a197c3a17c613d259dbf37ce))
+
 ## [1.373.0](https://github.com/claylo/pecl-info/compare/v1.372.0...v1.373.0) (2024-10-04)
 
 ### Added
