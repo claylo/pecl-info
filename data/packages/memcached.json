@@ -2,12 +2,22 @@
     "category": "Caching",
     "deprecated": false,
     "description": "This extension uses libmemcached library to provide API for communicating with memcached servers.",
-    "latestReleaseDate": "2022-03-24T13:04:09+00:00",
-    "latestVersion": "3.2.0",
+    "latestReleaseDate": "2024-10-04T15:13:48+00:00",
+    "latestVersion": "3.3.0RC1",
     "license": "PHP",
     "name": "memcached",
     "php8Mentioned": true,
     "releases": {
+        "3.3.0RC1": {
+            "version": "3.3.0RC1",
+            "state": "beta",
+            "license": "PHP",
+            "releasedBy": "mike",
+            "releaseDate": "2024-10-04T15:13:48+00:00",
+            "releaseNotes": "- Add #515 option to locally enforce payload size limit\n- Add #539 zstd support\n- Add #540 compression_level option\n- Mark password as a sensitive param for PHP 8.2\n- Fix Windows PHP 8 compatibility\n- Fix #518 Windows msgpack support\n- Fix #522 signed integer overflow\n- Fix #523 incorrect PHP reflection type for Memcached::cas $cas_token\n- Fix #546 don't check key automatically, unless client-side verify_key is enabled\n- Fix #555 incompatible pointer types (32-bit)",
+            "get": "https://pecl.php.net/get/memcached-3.3.0RC1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
         "3.2.0": {
             "version": "3.2.0",
             "state": "stable",
@@ -128,16 +138,6 @@
             "get": "http://pecl.php.net/get/memcached-3.0.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
-        "3.0.0": {
-            "version": "3.0.0",
-            "state": "stable",
-            "license": "PHP",
-            "releasedBy": "sodabrew",
-            "releaseDate": "2017-02-08T18:02:51+00:00",
-            "releaseNotes": "PHP7 release of memcached extension. Note that support for libmemcached 0.x series has been discontinued\nand the oldest actively tested version is 1.0.2. It is highly recommended to use version 1.0.18 of\nlibmemcached.\n\nAPI\n * The method signature of get, getByKey, getMulti, and getMultiByKey changed.\n * get* and getMulti* commands no longer take cas or user flags parameters.\n * get* and getMulti* commands now take the Memcached::GET_EXTENDED flag to retrieve user flags and cas tokens.\n * Fixes getStats command to return all stats from all servers\n * Fixes allKeys command behaviour\n * Fixes error where cache callback for get command was not setting expiration time properly\n * Added server type to server list\n * Remove use_sasl ini-variable and initialise sasl as needed\n * CAS tokens are returned as integers and they overflow to strings as needed\n\nSession handler\n * The session memcached protocol config name was changed, and the default protocol was changed from text to binary protocol. If your memcached setup does not support the binary protocol(e.g. if using twemproxy), then set memcached.sess_binary_protocol = Off. (Previously called memcached.sess_binary)\n * Session lock algorithm updated (new ini-values memcached.sess_lock_wait_min, memcached.sess_lock_wait_max and memcached.sess_lock_retries)\n * Session extension uses PHP allocators (still some work to do on the rest of the extension)\n * Ini-values take effect during session_start or session_regenerate_id\n * Fixes crash with session_regenerate_id (work-around for PHP bug)\n\nTests\n * Fix several problematic tests",
-            "get": "http://pecl.php.net/get/memcached-3.0.0",
-            "SPDX-License-Identifier": "PHP-3.01"
-        },
         "3.0.1": {
             "version": "3.0.1",
             "state": "stable",
@@ -146,6 +146,16 @@
             "releaseDate": "2017-02-08T18:01:15+00:00",
             "releaseNotes": "PHP7 release of memcached extension. Note that support for libmemcached 0.x series has been discontinued\nand the oldest actively tested version is 1.0.2. It is highly recommended to use version 1.0.18 of\nlibmemcached.\n\nFixes\n * Add API entries for flushBuffers() and getAllKeys() (#316)\n * Ignore specific errors from memcached_dump for getAllKeys() with newer memcached servers (#315)\n * Fix compiling with memcached binary protocol enabled (#312)\n * Restore php_libmemcached_compat with workaround for missing memcached_exists (#314)\n * Travis CI purge old versions of memcached and libmemcached (#309)",
             "get": "http://pecl.php.net/get/memcached-3.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "3.0.0": {
+            "version": "3.0.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "sodabrew",
+            "releaseDate": "2017-02-08T18:02:51+00:00",
+            "releaseNotes": "PHP7 release of memcached extension. Note that support for libmemcached 0.x series has been discontinued\nand the oldest actively tested version is 1.0.2. It is highly recommended to use version 1.0.18 of\nlibmemcached.\n\nAPI\n * The method signature of get, getByKey, getMulti, and getMultiByKey changed.\n * get* and getMulti* commands no longer take cas or user flags parameters.\n * get* and getMulti* commands now take the Memcached::GET_EXTENDED flag to retrieve user flags and cas tokens.\n * Fixes getStats command to return all stats from all servers\n * Fixes allKeys command behaviour\n * Fixes error where cache callback for get command was not setting expiration time properly\n * Added server type to server list\n * Remove use_sasl ini-variable and initialise sasl as needed\n * CAS tokens are returned as integers and they overflow to strings as needed\n\nSession handler\n * The session memcached protocol config name was changed, and the default protocol was changed from text to binary protocol. If your memcached setup does not support the binary protocol(e.g. if using twemproxy), then set memcached.sess_binary_protocol = Off. (Previously called memcached.sess_binary)\n * Session lock algorithm updated (new ini-values memcached.sess_lock_wait_min, memcached.sess_lock_wait_max and memcached.sess_lock_retries)\n * Session extension uses PHP allocators (still some work to do on the rest of the extension)\n * Ini-values take effect during session_start or session_regenerate_id\n * Fixes crash with session_regenerate_id (work-around for PHP bug)\n\nTests\n * Fix several problematic tests",
+            "get": "http://pecl.php.net/get/memcached-3.0.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.2.0": {
