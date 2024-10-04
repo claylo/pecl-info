@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.372.0](https://github.com/claylo/pecl-info/compare/v1.371.0...v1.372.0) (2024-10-04)
+
+### Added
+
+* add mailparse 3.1.7 release ([ba9f861](https://github.com/claylo/pecl-info/commit/ba9f8614fd3b54c0165c68998608c2785a7ed2db))
+
 ## [1.371.0](https://github.com/claylo/pecl-info/compare/v1.370.0...v1.371.0) (2024-10-03)
 
 ### Added
