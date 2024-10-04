@@ -1452,12 +1452,12 @@
     },
     "memcached": {
         "bugs": "https://github.com/php-memcached-dev/php-memcached/issues",
-        "docs": "https://php.net/memcached",
+        "docs": "http://php.net/memcached",
         "home": "https://github.com/php-memcached-dev/php-memcached",
         "maintained": true,
         "repo": "https://github.com/php-memcached-dev/php-memcached",
         "stats": "https://pecl.php.net/package-stats.php?pid=847&rid=&cid=3",
-        "verified": true
+        "verified": false
     },
     "memoize": {
         "bugs": "",
