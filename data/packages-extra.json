@@ -1374,12 +1374,12 @@
     },
     "mailparse": {
         "bugs": "https://github.com/php/pecl-mail-mailparse/issues",
-        "docs": "https://php.net/mailparse",
+        "docs": "http://php.net/mailparse",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/php/pecl-mail-mailparse",
         "stats": "https://pecl.php.net/package-stats.php?pid=143&rid=&cid=14",
-        "verified": true
+        "verified": false
     },
     "markdown": {
         "bugs": "https://github.com/cataphract/php-discount/issues",
