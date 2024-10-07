@@ -833,10 +833,10 @@ Support for YAML 1.1 (YAML Ain't Markup Language) serialization using the
 ```
 <p><ul>
 <li>License: MIT</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/yaml-2.2.3">2.2.3</a> on 05 Mar 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/yaml-2.2.4">2.2.4</a> on 07 Oct 2024</li>
 <li>Release data in JSON: <a href="data/packages/yaml.json">yaml.json</a></li>
 <li><a href="https://pecl.php.net/packages/yaml">yaml on PECL</a></li>
-<li><a href="https://php.net/yaml">:book: Documentation</a> &nbsp; <a href="http://bd808.com/pecl-file_formats-yaml/">:house: Home</a> &nbsp; <a href="https://github.com/php/pecl-file_formats-yaml">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-file_formats-yaml/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=876&rid=&cid=33">:bar_chart: Stats</a></li>
+<li><a href="http://php.net/yaml">:book: Documentation</a> &nbsp; <a href="http://bd808.com/pecl-file_formats-yaml/">:house: Home</a> &nbsp; <a href="https://github.com/php/pecl-file_formats-yaml">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-file_formats-yaml/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=876&rid=&cid=33">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>zip&nbsp; :eight:</summary>
