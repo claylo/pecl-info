@@ -49807,12 +49807,22 @@
         "category": "File Formats",
         "deprecated": false,
         "description": "Support for YAML 1.1 (YAML Ain't Markup Language) serialization using the\n  LibYAML library.",
-        "latestReleaseDate": "2023-03-05T18:06:58+00:00",
-        "latestVersion": "2.2.3",
+        "latestReleaseDate": "2024-10-07T13:54:03+00:00",
+        "latestVersion": "2.2.4",
         "license": "MIT",
         "name": "yaml",
         "php8Mentioned": true,
         "releases": {
+            "2.2.4": {
+                "version": "2.2.4",
+                "state": "stable",
+                "license": "MIT",
+                "releasedBy": "bd808",
+                "releaseDate": "2024-10-07T13:54:03+00:00",
+                "releaseNotes": "Bugs Fixed:\n- #85: PHP 8.4.0 beta4 test yaml_parse_file_002.phpt fails (andypost)\n- emit.c: fix -Wsign-compare (bd808)\n- #75: yaml_parse_file does not set &$ndoc as expected (tomterl)\n- Fix [-Wincompatible-pointer-types] warning (remicollet)",
+                "get": "https://pecl.php.net/get/yaml-2.2.4",
+                "SPDX-License-Identifier": "MIT"
+            },
             "2.2.3": {
                 "version": "2.2.3",
                 "state": "stable",
@@ -49893,16 +49903,6 @@
                 "get": "https://pecl.php.net/get/yaml-2.0.4",
                 "SPDX-License-Identifier": "MIT"
             },
-            "1.3.2": {
-                "version": "1.3.2",
-                "state": "stable",
-                "license": "MIT",
-                "releasedBy": "bd808",
-                "releaseDate": "2018-11-24T04:03:10+00:00",
-                "releaseNotes": "Bugs Fixed:\n- #74886 Type confusion when processing yaml array merges",
-                "get": "https://pecl.php.net/get/yaml-1.3.2",
-                "SPDX-License-Identifier": "MIT"
-            },
             "2.0.3": {
                 "version": "2.0.3",
                 "state": "stable"
@@ -49927,26 +49927,6 @@
                 "get": "http://pecl.php.net/get/yaml-2.0.1",
                 "SPDX-License-Identifier": "MIT"
             },
-            "1.3.1": {
-                "version": "1.3.1",
-                "state": "stable",
-                "license": "MIT",
-                "releasedBy": "bd808",
-                "releaseDate": "2017-07-29T21:50:51+00:00",
-                "releaseNotes": "Bugs Fixed:\n- #72540 yaml_parse_url: check php_stream_copy_to_mem return value",
-                "get": "http://pecl.php.net/get/yaml-1.3.1",
-                "SPDX-License-Identifier": "MIT"
-            },
-            "1.3.0": {
-                "version": "1.3.0",
-                "state": "stable",
-                "license": "MIT",
-                "releasedBy": "bd808",
-                "releaseDate": "2016-09-24T22:31:51+00:00",
-                "releaseNotes": "New Features:\n- Removed IS_UNICODE (PHP6) support\n- Removed support for PHP <5.3.3\n- Timestamps encoded according to https://www.w3.org/TR/NOTE-datetime\n\nBugs Fixed:\n- Various missing free calls (remicollet, bd808)\n- Fix parameter parsing for yaml_emit_file\n- Fix callback handling for yaml_emit_file\n- Fix result of tag callback to be copied to aliases (ranvis)\n- #71696 Bad datetime management",
-                "get": "http://pecl.php.net/get/yaml-1.3.0",
-                "SPDX-License-Identifier": "MIT"
-            },
             "2.0.0": {
                 "version": "2.0.0",
                 "state": "stable",
@@ -49965,16 +49945,6 @@
                 "releaseDate": "2016-06-04T23:33:56+00:00",
                 "releaseNotes": "Bugs Fixed:\n- Quick fix on handle_mapping. arrval should be used instead of retval (jabiinfante)\n- #71696 Bad datetime management (bocharov)\n- Fix memory leak in mapping with sequence (bocharov)\n- Fix anchor in anchor problemo (bocharov)\n- Fix tests bug_64019.phpt, bug_parsing_alias.phpt (bocharov)\n- #72204 Crash when try to parse yaml file",
                 "get": "http://pecl.php.net/get/yaml-2.0.0RC8",
-                "SPDX-License-Identifier": "MIT"
-            },
-            "1.3.0b1": {
-                "version": "1.3.0b1",
-                "state": "beta",
-                "license": "MIT",
-                "releasedBy": "bd808",
-                "releaseDate": "2016-06-04T22:36:01+00:00",
-                "releaseNotes": "New Features:\n- Removed IS_UNICODE (PHP6) support\n- Removed support for PHP <5.3.3\n- Timestamps encoded according to https://www.w3.org/TR/NOTE-datetime\n\nBugs Fixed:\n- Various missing free calls (remicollet, bd808)\n- Fix parameter parsing for yaml_emit_file\n- Fix callback handling for yaml_emit_file\n- Fix result of tag callback to be copied to aliases (ranvis)\n- #71696 Bad datetime management",
-                "get": "http://pecl.php.net/get/yaml-1.3.0b1",
                 "SPDX-License-Identifier": "MIT"
             },
             "2.0.0RC7": {
@@ -50045,6 +50015,46 @@
                 "releaseDate": "2015-10-17T05:18:10+00:00",
                 "releaseNotes": "New Features:\n- PHP7 compatible\n- 2.x series will no longer support PHP5",
                 "get": "http://pecl.php.net/get/yaml-2.0.0RC1",
+                "SPDX-License-Identifier": "MIT"
+            },
+            "1.3.2": {
+                "version": "1.3.2",
+                "state": "stable",
+                "license": "MIT",
+                "releasedBy": "bd808",
+                "releaseDate": "2018-11-24T04:03:10+00:00",
+                "releaseNotes": "Bugs Fixed:\n- #74886 Type confusion when processing yaml array merges",
+                "get": "https://pecl.php.net/get/yaml-1.3.2",
+                "SPDX-License-Identifier": "MIT"
+            },
+            "1.3.1": {
+                "version": "1.3.1",
+                "state": "stable",
+                "license": "MIT",
+                "releasedBy": "bd808",
+                "releaseDate": "2017-07-29T21:50:51+00:00",
+                "releaseNotes": "Bugs Fixed:\n- #72540 yaml_parse_url: check php_stream_copy_to_mem return value",
+                "get": "http://pecl.php.net/get/yaml-1.3.1",
+                "SPDX-License-Identifier": "MIT"
+            },
+            "1.3.0": {
+                "version": "1.3.0",
+                "state": "stable",
+                "license": "MIT",
+                "releasedBy": "bd808",
+                "releaseDate": "2016-09-24T22:31:51+00:00",
+                "releaseNotes": "New Features:\n- Removed IS_UNICODE (PHP6) support\n- Removed support for PHP <5.3.3\n- Timestamps encoded according to https://www.w3.org/TR/NOTE-datetime\n\nBugs Fixed:\n- Various missing free calls (remicollet, bd808)\n- Fix parameter parsing for yaml_emit_file\n- Fix callback handling for yaml_emit_file\n- Fix result of tag callback to be copied to aliases (ranvis)\n- #71696 Bad datetime management",
+                "get": "http://pecl.php.net/get/yaml-1.3.0",
+                "SPDX-License-Identifier": "MIT"
+            },
+            "1.3.0b1": {
+                "version": "1.3.0b1",
+                "state": "beta",
+                "license": "MIT",
+                "releasedBy": "bd808",
+                "releaseDate": "2016-06-04T22:36:01+00:00",
+                "releaseNotes": "New Features:\n- Removed IS_UNICODE (PHP6) support\n- Removed support for PHP <5.3.3\n- Timestamps encoded according to https://www.w3.org/TR/NOTE-datetime\n\nBugs Fixed:\n- Various missing free calls (remicollet, bd808)\n- Fix parameter parsing for yaml_emit_file\n- Fix callback handling for yaml_emit_file\n- Fix result of tag callback to be copied to aliases (ranvis)\n- #71696 Bad datetime management",
+                "get": "http://pecl.php.net/get/yaml-1.3.0b1",
                 "SPDX-License-Identifier": "MIT"
             },
             "1.2.0": {

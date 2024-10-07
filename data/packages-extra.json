@@ -3553,12 +3553,12 @@
     },
     "yaml": {
         "bugs": "https://github.com/php/pecl-file_formats-yaml/issues",
-        "docs": "https://php.net/yaml",
+        "docs": "http://php.net/yaml",
         "home": "http://bd808.com/pecl-file_formats-yaml/",
         "maintained": true,
         "repo": "https://github.com/php/pecl-file_formats-yaml",
         "stats": "https://pecl.php.net/package-stats.php?pid=876&rid=&cid=33",
-        "verified": true
+        "verified": false
     },
     "yar": {
         "bugs": "https://github.com/laruence/yar/issues",
