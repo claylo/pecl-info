@@ -64,7 +64,7 @@ The Datadog PHP Tracer brings APM and distributed tracing to PHP.
 ```
 <p><ul>
 <li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/datadog_trace-1.3.2">1.3.2</a> on 26 Sep 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/datadog_trace-1.4.0">1.4.0</a> on 08 Oct 2024</li>
 <li>Release data in JSON: <a href="data/packages/datadog_trace.json">datadog_trace.json</a></li>
 <li><a href="https://pecl.php.net/packages/datadog_trace">datadog_trace on PECL</a></li>
 <li><a href="https://docs.datadoghq.com/tracing/languages/php/">:house: Home</a> &nbsp; <a href="https://github.com/DataDog/dd-trace-php">:sparkles: Source</a> &nbsp; <a href="https://github.com/DataDog/dd-trace-php/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1029&rid=&cid=2">:bar_chart: Stats</a></li>
@@ -1653,7 +1653,7 @@ This extension provides a set of interfaces to communicate between
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/selinux-0.6.0">0.6.0</a> on 23 Dec 2021</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/selinux-0.6.1">0.6.1</a> on 08 Oct 2024</li>
 <li>Release data in JSON: <a href="data/packages/selinux.json">selinux.json</a></li>
 <li><a href="https://pecl.php.net/packages/selinux">selinux on PECL</a></li>
 <li><a href="http://git.php.net/?p=pecl/security/selinux.git;a=blob;f=README">:book: Documentation</a> &nbsp; <a href="http://pecl.php.net/package/selinux">:house: Home</a> &nbsp; <a href="https://github.com/php/pecl-security-selinux">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=854&rid=&cid=54">:bar_chart: Stats</a></li>
