@@ -1733,12 +1733,12 @@
     },
     "oauth": {
         "bugs": "https://github.com/php/pecl-web_services-oauth/issues",
-        "docs": "http://php.net/oauth",
+        "docs": "https://php.net/oauth",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/php/pecl-web_services-oauth",
         "stats": "https://pecl.php.net/package-stats.php?pid=828&rid=&cid=23",
-        "verified": false
+        "verified": true
     },
     "ocal": {
         "bugs": "",
