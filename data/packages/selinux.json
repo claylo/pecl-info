@@ -2,12 +2,22 @@
     "category": "Security",
     "deprecated": false,
     "description": "This extension provides a set of interfaces to communicate between\n    SELinux and PHP script language. It contains functions to get/set\n    security context of processes and other objects, to get/set system\n    booleans, to make a query for in-kernel security server and so on.",
-    "latestReleaseDate": "2021-12-23T08:25:57+00:00",
-    "latestVersion": "0.6.0",
+    "latestReleaseDate": "2024-10-08T13:43:30+00:00",
+    "latestVersion": "0.6.1",
     "license": "PHP License",
     "name": "selinux",
     "php8Mentioned": true,
     "releases": {
+        "0.6.1": {
+            "version": "0.6.1",
+            "state": "stable",
+            "license": "PHP-3.01",
+            "releasedBy": "remi",
+            "releaseDate": "2024-10-08T13:43:30+00:00",
+            "releaseNotes": "- fix implicit nullable parameters",
+            "get": "https://pecl.php.net/get/selinux-0.6.1",
+            "SPDX-License-Identifier": null
+        },
         "0.6.0": {
             "version": "0.6.0",
             "state": "stable",
