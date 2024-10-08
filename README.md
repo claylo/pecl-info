@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (118)
+## Relevant Extensions (120)
 
 ### Authentication (2)
 
@@ -1174,7 +1174,7 @@ SDL_ttf bindings for the PHP language
 </details>
 
 ***
-### Networking (9)
+### Networking (10)
 
 <details><summary>amqp&nbsp; :eight:</summary>
 <p>Communicate with any AMQP compliant server</p>
@@ -1308,6 +1308,20 @@ Provides bindings to the functions of libssh2 which implements the SSH2 protocol
 <li>Release data in JSON: <a href="data/packages/ssh2.json">ssh2.json</a></li>
 <li><a href="https://pecl.php.net/packages/ssh2">ssh2 on PECL</a></li>
 <li><a href="http://www.php.net/ssh2">:book: Documentation</a> &nbsp; <a href="http://www.libssh2.org">:house: Home</a> &nbsp; <a href="https://github.com/php/pecl-networking-ssh2">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-networking-ssh2/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=421&rid=&cid=16">:bar_chart: Stats</a></li>
+</ul></p><hr />
+</details>
+<details><summary>uuid&nbsp; :eight:</summary>
+<p>UUID extension</p>
+
+```
+A wrapper around libuuid from the ext2utils project.
+```
+<p><ul>
+<li>License: LGPL-2.1-or-later</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/uuid-1.2.1">1.2.1</a> on 08 Oct 2024</li>
+<li>Release data in JSON: <a href="data/packages/uuid.json">uuid.json</a></li>
+<li><a href="https://pecl.php.net/packages/uuid">uuid on PECL</a></li>
+<li><a href="https://github.com/php/pecl-networking-uuid">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-networking-uuid/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=216&rid=&cid=16">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>yaz&nbsp; :eight:</summary>
@@ -2078,8 +2092,24 @@ Zephir Parser is a code parser, delivered as a C extension for the PHP language.
 </details>
 
 ***
-### Web Services (1)
+### Web Services (2)
 
+<details><summary>oauth&nbsp; :eight:</summary>
+<p>oauth consumer extension</p>
+
+```
+OAuth is an authorization protocol built on top of HTTP which allows applications to securely access data without having to store usernames and passwords.
+
+Requirements: ext/hash (now a part of PHP core)
+```
+<p><ul>
+<li>License: BSD-3-Clause</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/oauth-2.0.9">2.0.9</a> on 08 Oct 2024</li>
+<li>Release data in JSON: <a href="data/packages/oauth.json">oauth.json</a></li>
+<li><a href="https://pecl.php.net/packages/oauth">oauth on PECL</a></li>
+<li><a href="https://php.net/oauth">:book: Documentation</a> &nbsp; <a href="https://github.com/php/pecl-web_services-oauth">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-web_services-oauth/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=828&rid=&cid=23">:bar_chart: Stats</a></li>
+</ul></p><hr />
+</details>
 <details><summary>yar&nbsp; :eight:</summary>
 <p>Light, concurrent RPC framework</p>
 
