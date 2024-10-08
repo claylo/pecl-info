@@ -2,12 +2,22 @@
     "category": "Benchmarking",
     "deprecated": false,
     "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-    "latestReleaseDate": "2024-09-26T13:55:32+00:00",
-    "latestVersion": "1.3.2",
+    "latestReleaseDate": "2024-10-08T17:34:02+00:00",
+    "latestVersion": "1.4.0",
     "license": "BSD 3-Clause",
     "name": "datadog_trace",
     "php8Mentioned": true,
     "releases": {
+        "1.4.0": {
+            "version": "1.4.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "bwoebi",
+            "releaseDate": "2024-10-08T17:34:02+00:00",
+            "releaseNotes": "## Tracer\n\nThe default value for datadog.trace.cli_enabled is now set to true (except for composer), meaning that CLI processes will be traced by default.\n\n### Added\n- Dynamic configuration #2796\n- Dynamic instrumentation #2796\n  - Can be enabled with datadog.dynamic_instrumentation.enabled=1.\n- Exception replay #2796\n  - Can be enabled with datadog.exception_replay_enabled=1.\n- Track peak memory usage in root span metrics #2840\n\n### Changed\n- Enable sidecar trace sender on PHP 8.3 #2729\n- Optimize sending traces via sidecar Datadog/libdatadog#598\n- Add new ini config datadog.crashtracking_enabled #2850\n- Add ionCube to the list of incompatible extensions + add INI setting to ignore incompatible extensions #2858\n- Enable CLI by default #2871\n\n### Fixed\n- Crashtracker: fix a use-after-free error #2843\n- Fix curl integration race condition #2847\n- Fix memory leak with sidecar trace sender #2875\n- OpenTelemetry: Missing addLink method and Fiber handling #2849\n- Mongodb: Deprecated exception in v1.20+ #2870\n- Fix leaking sidecar sessions Datadog/libdatadog#642\n- Implement deadlock watchdog for sidecar Datadog/libdatadog#647\n\n### Internal\n- Fix testsuite flakiness #2841, #2846, #2848, #2867\n- Fix telemetry metric name Datadog/libdatadog#666\n\n### SSI Loader changes\n- Add SSI requirements.json file #2813\n- Disable the tracer in case of a potential incompatibility (extension/jit) #2853\n\n## Profiling\n\n### Internal\n- bump to Rust 1.76 #2876\n\n## Application Security Management\n\n### Changed\n- Move helper to sidecar remote config #2864\n\n### Fixed\n- Fix improper symbol exports in appsec ext/helper #2854\n- Remove gid from socket/lock path of helper #2855\n- appsec ext: retry on connection refused #2860\n- Fix orderly helper appsec shutdown #2859\n\n### Internal changes\n- Add appsec benchmarks #2791",
+            "get": "https://pecl.php.net/get/datadog_trace-1.4.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "1.3.2": {
             "version": "1.3.2",
             "state": "stable",
