@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/uuid">uuid</p>
+ <c>pecl.php.net</c>
+ <v>1.2.1</v>
+ <st>stable</st>
+ <l>LGPL-2.1-or-later</l>
+ <m>remi</m>
+ <s>UUID extension</s>
+ <d>A wrapper around Universally Unique IDentifier library (libuuid).</d>
+ <da>2024-10-08 07:09:13</da>
+ <n>- MacOS support (Sean Molenaar)
+- fix for util-linux/libuuid 2.40 and uuid_time64</n>
+ <f>16903</f>
+ <g>https://pecl.php.net/get/uuid-1.2.1</g>
+ <x xlink:href="package.1.2.1.xml"/>
+</r>

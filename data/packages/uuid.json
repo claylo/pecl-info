@@ -2,12 +2,22 @@
     "category": "Networking",
     "deprecated": false,
     "description": "A wrapper around libuuid from the ext2utils project.",
-    "latestReleaseDate": "2020-10-06T12:42:47+00:00",
-    "latestVersion": "1.2.0",
+    "latestReleaseDate": "2024-10-08T07:09:13+00:00",
+    "latestVersion": "1.2.1",
     "license": "LGPL",
     "name": "uuid",
     "php8Mentioned": true,
     "releases": {
+        "1.2.1": {
+            "version": "1.2.1",
+            "state": "stable",
+            "license": "LGPL-2.1-or-later",
+            "releasedBy": "remi",
+            "releaseDate": "2024-10-08T07:09:13+00:00",
+            "releaseNotes": "- MacOS support (Sean Molenaar)\n- fix for util-linux/libuuid 2.40 and uuid_time64",
+            "get": "https://pecl.php.net/get/uuid-1.2.1",
+            "SPDX-License-Identifier": null
+        },
         "1.2.0": {
             "version": "1.2.0",
             "state": "stable",
