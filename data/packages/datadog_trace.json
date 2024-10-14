@@ -2,12 +2,22 @@
     "category": "Benchmarking",
     "deprecated": false,
     "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-    "latestReleaseDate": "2024-10-08T17:34:02+00:00",
-    "latestVersion": "1.4.0",
+    "latestReleaseDate": "2024-10-14T13:23:58+00:00",
+    "latestVersion": "1.4.1",
     "license": "BSD 3-Clause",
     "name": "datadog_trace",
     "php8Mentioned": true,
     "releases": {
+        "1.4.1": {
+            "version": "1.4.1",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "bwoebi",
+            "releaseDate": "2024-10-14T13:23:58+00:00",
+            "releaseNotes": "## Tracer\n\n### Fixed\n- Fix: MongoDBIntegration condition typo #2884\n- Fix crash in profiler when span stack switch causes GC run #2885\n- Support build with disabled zend signals #2886\n- Send git tags via remote config #2890\n- Fix memory leak with sidecar trace sender #2875\n\n## Profiling\n\n### Fixed\n- Fix profiler ZTS build on alpine #2887\n\n## Application Security Management\n\n### Fixed\n- AppSec: improve behavior with empty DD_SERVICE/DD_ENV #2888",
+            "get": "https://pecl.php.net/get/datadog_trace-1.4.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "1.4.0": {
             "version": "1.4.0",
             "state": "stable",
