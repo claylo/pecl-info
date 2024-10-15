@@ -1023,7 +1023,7 @@ This extension allows PHP to directly use Python modules and functions without R
 ***
 ### Mail (2)
 
-<details><summary>imap</summary>
+<details><summary>imap&nbsp; :eight:</summary>
 <p>An extension to operate with the IMAP protocol, as well as the NNTP,
  POP3, and local mailbox access methods.</p>
 
@@ -1033,7 +1033,7 @@ An extension to operate with the IMAP protocol, as well as the
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/imap-1.0.2">1.0.2</a> on 04 Jan 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/imap-1.0.3">1.0.3</a> on 15 Oct 2024</li>
 <li>Release data in JSON: <a href="data/packages/imap.json">imap.json</a></li>
 <li><a href="https://pecl.php.net/packages/imap">imap on PECL</a></li>
 <li><a href="https://github.com/php/pecl-mail-imap">:house: Home</a> &nbsp; <a href="https://github.com/php/pecl-mail-imap">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-mail-imap/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1082&rid=&cid=14">:bar_chart: Stats</a></li>

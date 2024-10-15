@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.379.0](https://github.com/claylo/pecl-info/compare/v1.378.0...v1.379.0) (2024-10-15)
+
+### Added
+
+* add imap 1.0.3 release ([2cc53ba](https://github.com/claylo/pecl-info/commit/2cc53ba2b742795c375f968db668707e33efe6a2))
+
 ## [1.378.0](https://github.com/claylo/pecl-info/compare/v1.377.0...v1.378.0) (2024-10-14)
 
 ### Added
