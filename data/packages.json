@@ -16188,12 +16188,22 @@
         "category": "Mail",
         "deprecated": false,
         "description": "An extension to operate with the IMAP protocol, as well as the\n NNTP, POP3, and local mailbox access methods.",
-        "latestReleaseDate": "2024-01-04T10:18:55+00:00",
-        "latestVersion": "1.0.2",
+        "latestReleaseDate": "2024-10-15T10:02:57+00:00",
+        "latestVersion": "1.0.3",
         "license": "PHP 3.01",
         "name": "imap",
-        "php8Mentioned": false,
+        "php8Mentioned": true,
         "releases": {
+            "1.0.3": {
+                "version": "1.0.3",
+                "state": "stable",
+                "license": "PHP 3.01",
+                "releasedBy": "derick",
+                "releaseDate": "2024-10-15T10:02:57+00:00",
+                "releaseNotes": "- Build fixes for PHP 8.4.\n- Report extension version in phpinfo() output.",
+                "get": "https://pecl.php.net/get/imap-1.0.3",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
             "1.0.2": {
                 "version": "1.0.2",
                 "state": "stable",
