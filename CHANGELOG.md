@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.381.0](https://github.com/claylo/pecl-info/compare/v1.380.0...v1.381.0) (2024-10-17)
+
+### Added
+
+* add memcached 3.3.0 release ([6e820f9](https://github.com/claylo/pecl-info/commit/6e820f9d332a8dbb04a52d8941e79055b021a39a))
+
 ## [1.380.0](https://github.com/claylo/pecl-info/compare/v1.379.0...v1.380.0) (2024-10-16)
 
 ### Added

@@ -175,10 +175,10 @@ servers.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/memcached-3.3.0RC1">3.3.0RC1</a> on 04 Oct 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/memcached-3.3.0">3.3.0</a> on 17 Oct 2024</li>
 <li>Release data in JSON: <a href="data/packages/memcached.json">memcached.json</a></li>
 <li><a href="https://pecl.php.net/packages/memcached">memcached on PECL</a></li>
-<li><a href="http://php.net/memcached">:book: Documentation</a> &nbsp; <a href="https://github.com/php-memcached-dev/php-memcached">:house: Home</a> &nbsp; <a href="https://github.com/php-memcached-dev/php-memcached">:sparkles: Source</a> &nbsp; <a href="https://github.com/php-memcached-dev/php-memcached/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=847&rid=&cid=3">:bar_chart: Stats</a></li>
+<li><a href="https://php.net/memcached">:book: Documentation</a> &nbsp; <a href="https://github.com/php-memcached-dev/php-memcached">:house: Home</a> &nbsp; <a href="https://github.com/php-memcached-dev/php-memcached">:sparkles: Source</a> &nbsp; <a href="https://github.com/php-memcached-dev/php-memcached/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=847&rid=&cid=3">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>yac&nbsp; :eight:</summary>
