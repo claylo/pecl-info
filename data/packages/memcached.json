@@ -2,12 +2,22 @@
     "category": "Caching",
     "deprecated": false,
     "description": "This extension uses libmemcached library to provide API for communicating with memcached servers.",
-    "latestReleaseDate": "2024-10-04T15:13:48+00:00",
-    "latestVersion": "3.3.0RC1",
+    "latestReleaseDate": "2024-10-17T17:34:49+00:00",
+    "latestVersion": "3.3.0",
     "license": "PHP",
     "name": "memcached",
     "php8Mentioned": true,
     "releases": {
+        "3.3.0": {
+            "version": "3.3.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "mike",
+            "releaseDate": "2024-10-17T17:34:49+00:00",
+            "releaseNotes": "- Add #515 option to locally enforce payload size limit\n- Add #539 zstd support\n- Add #540 compression_level option\n- Mark password as a sensitive param for PHP 8.2\n- Upgrade Windows libmemcached to v1.1.4\n- Fix Windows PHP 8 compatibility\n- Fix #518 Windows msgpack support\n- Fix #522 signed integer overflow\n- Fix #523 incorrect PHP reflection type for Memcached::cas $cas_token\n- Fix #546 don't check key automatically, unless client-side verify_key is enabled\n- Fix #555 incompatible pointer types (32-bit)",
+            "get": "https://pecl.php.net/get/memcached-3.3.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
         "3.3.0RC1": {
             "version": "3.3.0RC1",
             "state": "beta",
