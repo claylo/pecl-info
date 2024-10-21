@@ -29680,12 +29680,22 @@
         "category": "Tools and Utilities",
         "deprecated": false,
         "description": "This extension provides an API pinpoint-apm and built-in function auto-injection",
-        "latestReleaseDate": "2024-08-07T04:37:53+00:00",
-        "latestVersion": "0.5.4",
+        "latestReleaseDate": "2024-10-21T03:03:20+00:00",
+        "latestVersion": "0.6.0",
         "license": "Apache License 2.0",
         "name": "pinpoint_php",
         "php8Mentioned": false,
         "releases": {
+            "0.6.0": {
+                "version": "0.6.0",
+                "state": "alpha",
+                "license": "Apache License 2.0",
+                "releasedBy": "eeliu",
+                "releaseDate": "2024-10-21T03:03:20+00:00",
+                "releaseNotes": "## 0.6.0 2024-10-21\n- release asynchronous version",
+                "get": "https://pecl.php.net/get/pinpoint_php-0.6.0",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "0.5.4": {
                 "version": "0.5.4",
                 "state": "stable",
