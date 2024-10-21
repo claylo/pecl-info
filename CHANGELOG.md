@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.383.0](https://github.com/claylo/pecl-info/compare/v1.382.0...v1.383.0) (2024-10-21)
+
+### Added
+
+* add pinpoint_php 0.6.0 release ([ace7e97](https://github.com/claylo/pecl-info/commit/ace7e97eb8df27be2cfba4400038748601da355f))
+
 ## [1.382.0](https://github.com/claylo/pecl-info/compare/v1.381.0...v1.382.0) (2024-10-19)
 
 ### Added

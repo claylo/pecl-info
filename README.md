@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (120)
+## Relevant Extensions (119)
 
 ### Authentication (2)
 
@@ -1364,7 +1364,7 @@ This provides a similar API (object-based) to java.util.BitSet with some PHP-spe
 </details>
 
 ***
-### PHP (12)
+### PHP (11)
 
 <details><summary>ast&nbsp; :eight:</summary>
 <p>Extension exposing PHP 7 abstract syntax tree</p>
@@ -1485,31 +1485,6 @@ backend and others compatible agents/SDKs.
 <li>Release data in JSON: <a href="data/packages/skywalking.json">skywalking.json</a></li>
 <li><a href="https://pecl.php.net/packages/skywalking">skywalking on PECL</a></li>
 <li><a href="http://skywalking.apache.org/">:house: Home</a> &nbsp; <a href="https://github.com/SkyAPM/SkyAPM-php-sdk.git">:sparkles: Source</a> &nbsp; <a href="https://github.com/SkyAPM/SkyAPM-php-sdk/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1044&rid=&cid=25">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>uopz&nbsp; :eight:</summary>
-<p>User Operations for Zend</p>
-
-```
-The uopz extension is focused on providing utilities to aid with unit testing PHP code.
-
-It supports the following activities:
-
-* Intercepting function execution
-* Intercepting object creation
-* Hooking into function execution
-* Manipulation of function statics
-* Manipulation of function flags
-* Redefinition of constants
-* Deletion of constants
-* Runtime creation of functions and methods
-```
-<p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/uopz-7.1.1">7.1.1</a> on 19 Oct 2021</li>
-<li>Release data in JSON: <a href="data/packages/uopz.json">uopz.json</a></li>
-<li><a href="https://pecl.php.net/packages/uopz">uopz on PECL</a></li>
-<li><a href="http://docs.php.net/uopz">:book: Documentation</a> &nbsp; <a href="https://github.com/krakjoe/uopz">:sparkles: Source</a> &nbsp; <a href="https://github.com/krakjoe/uopz/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=964&rid=&cid=25">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>var_representation&nbsp; :eight:</summary>
@@ -1992,7 +1967,7 @@ This extension provides an API pinpoint-apm and built-in function auto-injection
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/pinpoint_php-0.5.4">0.5.4</a> on 07 Aug 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/pinpoint_php-0.6.0">0.6.0</a> on 21 Oct 2024</li>
 <li>Release data in JSON: <a href="data/packages/pinpoint_php.json">pinpoint_php.json</a></li>
 <li><a href="https://pecl.php.net/packages/pinpoint_php">pinpoint_php on PECL</a></li>
 <li><a href="https://github.com/pinpoint-apm/pinpoint-c-agent/blob/dev/README.md">:book: Documentation</a> &nbsp; <a href="https://github.com/pinpoint-apm/pinpoint-c-agent">:house: Home</a> &nbsp; <a href="https://github.com/pinpoint-apm/pinpoint-c-agent">:sparkles: Source</a> &nbsp; <a href="https://github.com/pinpoint-apm/pinpoint-c-agent/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1083&rid=&cid=29">:bar_chart: Stats</a></li>
