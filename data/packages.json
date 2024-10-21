@@ -4763,12 +4763,22 @@
         "category": "Benchmarking",
         "deprecated": false,
         "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-        "latestReleaseDate": "2024-10-14T13:23:58+00:00",
-        "latestVersion": "1.4.1",
+        "latestReleaseDate": "2024-10-21T10:52:45+00:00",
+        "latestVersion": "1.4.2",
         "license": "BSD 3-Clause",
         "name": "datadog_trace",
         "php8Mentioned": true,
         "releases": {
+            "1.4.2": {
+                "version": "1.4.2",
+                "state": "stable",
+                "license": "BSD 3-Clause",
+                "releasedBy": "bwoebi",
+                "releaseDate": "2024-10-21T10:52:45+00:00",
+                "releaseNotes": "## Tracer\n\n### Changed\n- Disable sidecar sending on lambda #2904\n\n### Fixed\n- Fix exception property offset computation for PHP 8.1+ #2901\n- Prevent Laravel Queue hooks from stacking up #2899\n- Fix crash with missing name in span in debug mode #2893\n- Restrict remote config path to a definite 31 chars DataDog/libdatadog#676\n\n## Application Security Management\n\n### Changed\n- Update event obfuscation regex #2897\n\n### Fixed\n- Fix abort() call on appsec helper unload #2900",
+                "get": "https://pecl.php.net/get/datadog_trace-1.4.2",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "1.4.1": {
                 "version": "1.4.1",
                 "state": "stable",
