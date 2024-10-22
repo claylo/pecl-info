@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>5.1.5</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in tcp/http/websocket/http2 server
+        - coroutine tcp/http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2024-10-22 01:55:18</da>
+ <n>- Fix the need to use `zend_ini_parse_quantity` to parse string numbers for PHP versions greater than 8.2. @matyhtf
+- Fix an occasional resource unavailability issue when coroutineizing `pdo_pgsql`. @NathanFreeman
+- Fix header file reference issues when coroutineizing `pdo_pgsql`. @NathanFreeman
+- Fix incorrect relative path checks to avoid bypassing path validation. @matyhtf
+- Fix incorrect concurrency count caused by process restarts in high-concurrency environments. @matyhtf
+- Sync some related code for `php8.3 curl`. @NathanFreeman
+- Fix core test errors in the `process` module. @NathanFreeman
+- In `SWOOLE_BASE` mode, all connections should be closed during the `PHP RSHUTDOWN` phase. @matyhtf
+- Optimize kernel code. @matyhtf</n>
+ <f>2265268</f>
+ <g>https://pecl.php.net/get/swoole-5.1.5</g>
+ <x xlink:href="package.5.1.5.xml"/>
+</r>

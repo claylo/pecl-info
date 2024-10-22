@@ -3,6 +3,10 @@
         "version": "6.0.0",
         "state": "alpha"
     },
+    "5.1.5": {
+        "version": "5.1.5",
+        "state": "stable"
+    },
     "5.1.4": {
         "version": "5.1.4",
         "state": "stable"
