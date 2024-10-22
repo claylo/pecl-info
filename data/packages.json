@@ -39062,6 +39062,16 @@
                 "get": "https://pecl.php.net/get/swoole-6.0.0",
                 "SPDX-License-Identifier": "Apache-2.0"
             },
+            "5.1.5": {
+                "version": "5.1.5",
+                "state": "stable",
+                "license": "Apache2.0",
+                "releasedBy": "tianfenghan",
+                "releaseDate": "2024-10-22T01:55:18+00:00",
+                "releaseNotes": "- Fix the need to use `zend_ini_parse_quantity` to parse string numbers for PHP versions greater than 8.2. @matyhtf\n- Fix an occasional resource unavailability issue when coroutineizing `pdo_pgsql`. @NathanFreeman\n- Fix header file reference issues when coroutineizing `pdo_pgsql`. @NathanFreeman\n- Fix incorrect relative path checks to avoid bypassing path validation. @matyhtf\n- Fix incorrect concurrency count caused by process restarts in high-concurrency environments. @matyhtf\n- Sync some related code for `php8.3 curl`. @NathanFreeman\n- Fix core test errors in the `process` module. @NathanFreeman\n- In `SWOOLE_BASE` mode, all connections should be closed during the `PHP RSHUTDOWN` phase. @matyhtf\n- Optimize kernel code. @matyhtf",
+                "get": "https://pecl.php.net/get/swoole-5.1.5",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "5.1.4": {
                 "version": "5.1.4",
                 "state": "stable",
