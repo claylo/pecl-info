@@ -1967,7 +1967,7 @@ This extension provides an API pinpoint-apm and built-in function auto-injection
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/pinpoint_php-0.6.0">0.6.0</a> on 21 Oct 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/pinpoint_php-0.6.1">0.6.1</a> on 23 Oct 2024</li>
 <li>Release data in JSON: <a href="data/packages/pinpoint_php.json">pinpoint_php.json</a></li>
 <li><a href="https://pecl.php.net/packages/pinpoint_php">pinpoint_php on PECL</a></li>
 <li><a href="https://github.com/pinpoint-apm/pinpoint-c-agent/blob/dev/README.md">:book: Documentation</a> &nbsp; <a href="https://github.com/pinpoint-apm/pinpoint-c-agent">:house: Home</a> &nbsp; <a href="https://github.com/pinpoint-apm/pinpoint-c-agent">:sparkles: Source</a> &nbsp; <a href="https://github.com/pinpoint-apm/pinpoint-c-agent/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1083&rid=&cid=29">:bar_chart: Stats</a></li>
