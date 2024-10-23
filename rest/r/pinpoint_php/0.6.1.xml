@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pinpoint_php">pinpoint_php</p>
+ <c>pecl.php.net</c>
+ <v>0.6.1</v>
+ <st>stable</st>
+ <l>Apache License 2.0</l>
+ <m>eeliu</m>
+ <s>PHP extension for pinpoint-apm</s>
+ <d>This extension provides an API pinpoint-apm and built-in function auto-injection</d>
+ <da>2024-10-23 02:25:14</da>
+ <n>## 0.6.1 2024-10-23
+- release asynchronous version https://github.com/pinpoint-apm/pinpoint-c-agent/pull/692</n>
+ <f>86421</f>
+ <g>https://pecl.php.net/get/pinpoint_php-0.6.1</g>
+ <x xlink:href="package.0.6.1.xml"/>
+</r>
