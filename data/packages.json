@@ -3389,12 +3389,22 @@
         "category": "Database",
         "deprecated": false,
         "description": "The PHP client library provides fast access to documents stored in a Couchbase Server.",
-        "latestReleaseDate": "2024-08-28T00:24:07+00:00",
-        "latestVersion": "4.2.3",
+        "latestReleaseDate": "2024-10-23T01:04:34+00:00",
+        "latestVersion": "4.2.4",
         "license": "Apache V2",
         "name": "couchbase",
         "php8Mentioned": true,
         "releases": {
+            "4.2.4": {
+                "version": "4.2.4",
+                "state": "stable",
+                "license": "Apache V2",
+                "releasedBy": "avsej",
+                "releaseDate": "2024-10-23T01:04:34+00:00",
+                "releaseNotes": "Enhancements\n============\n\n* PCBC-832: Management API - Analytics Management (#177).\n\n* Core updated to 1.0.3. Release notes:\n  https://docs.couchbase.com/cxx-sdk/current/project-docs/sdk-release-notes.html#version-1-0-3-22-october-2024\n\nFixes\n=====\n\n* PCBC-1009: do not use IS_RESOURCE in function signatures.\n\n* PCBC-1010: use explicit nullable types where applicable to avoid deprecation warning in PHP 8.4.\n\n* Fix SearchQuery API docs link in API reference.",
+                "get": "https://pecl.php.net/get/couchbase-4.2.4",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "4.2.3": {
                 "version": "4.2.3",
                 "state": "stable",

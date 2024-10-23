@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/couchbase">couchbase</p>
+ <c>pecl.php.net</c>
+ <v>4.2.4</v>
+ <st>stable</st>
+ <l>Apache V2</l>
+ <m>avsej</m>
+ <s>Couchbase Server PHP extension</s>
+ <d>The PHP client library provides fast access to documents stored in a Couchbase Server.</d>
+ <da>2024-10-23 01:04:34</da>
+ <n>Enhancements
+============
+
+* PCBC-832: Management API - Analytics Management (#177).
+
+* Core updated to 1.0.3. Release notes:
+  https://docs.couchbase.com/cxx-sdk/current/project-docs/sdk-release-notes.html#version-1-0-3-22-october-2024
+
+Fixes
+=====
+
+* PCBC-1009: do not use IS_RESOURCE in function signatures.
+
+* PCBC-1010: use explicit nullable types where applicable to avoid deprecation warning in PHP 8.4.
+
+* Fix SearchQuery API docs link in API reference.</n>
+ <f>6455082</f>
+ <g>https://pecl.php.net/get/couchbase-4.2.4</g>
+ <x xlink:href="package.4.2.4.xml"/>
+</r>
