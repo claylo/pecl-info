@@ -3,6 +3,10 @@
         "version": "4.29.0RC1",
         "state": "beta"
     },
+    "4.28.3": {
+        "version": "4.28.3",
+        "state": "stable"
+    },
     "4.28.2": {
         "version": "4.28.2",
         "state": "stable"
