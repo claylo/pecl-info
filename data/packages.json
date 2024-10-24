@@ -33029,12 +33029,22 @@
         "category": "Networking",
         "deprecated": false,
         "description": "PHP-rdkafka is a stable Kafka client for PHP based on librdkafka",
-        "latestReleaseDate": "2022-07-02T13:16:36+00:00",
-        "latestVersion": "6.0.3",
+        "latestReleaseDate": "2024-10-24T15:55:00+00:00",
+        "latestVersion": "6.0.4",
         "license": "MIT License",
         "name": "rdkafka",
         "php8Mentioned": true,
         "releases": {
+            "6.0.4": {
+                "version": "6.0.4",
+                "state": "stable",
+                "license": "MIT License",
+                "releasedBy": "lbarnaud",
+                "releaseDate": "2024-10-24T15:55:00+00:00",
+                "releaseNotes": "## Improvements\n- Added OAUTHBEARER support. New methods: RdKafka\\Conf::setOauthbearerTokenRefreshCb(), RdKafka::oauthbearerSetToken(), RdKafka::oauthbearerSetTokenFailure() (#546, #547, @cb-freddysart, @scorgn)\n- Added incremental rebalance support. New methods: RdKafka\\KafkaConsumer::incrementalAssign(), RdKafka\\KafkaConsumer::incrementalUnassign() (#541, @ikeberlein)\n- Added RdKafka::getControllerId() (#554, @qkdreyer)\n\n## Bugfixes\n- Add private constructor on Metadata classes (#531, @arnaud-lb)\n\n## Other Changes\n- Improve KafkaErrorException message (#555, @arnaud-lb)",
+                "get": "https://pecl.php.net/get/rdkafka-6.0.4",
+                "SPDX-License-Identifier": "MIT"
+            },
             "6.0.3": {
                 "version": "6.0.3",
                 "state": "stable",
@@ -33085,16 +33095,6 @@
                 "get": "https://pecl.php.net/get/rdkafka-6.0.0RC2",
                 "SPDX-License-Identifier": "MIT"
             },
-            "5.0.2": {
-                "version": "5.0.2",
-                "state": "stable",
-                "license": "MIT License",
-                "releasedBy": "lbarnaud",
-                "releaseDate": "2021-11-27T11:30:59+00:00",
-                "releaseNotes": "## Bugfixes\n- Fix arginfo on getMetadata(), queryWatermarkOffsets() (#494)",
-                "get": "https://pecl.php.net/get/rdkafka-5.0.2",
-                "SPDX-License-Identifier": "MIT"
-            },
             "6.0.0RC1": {
                 "version": "6.0.0RC1",
                 "state": "beta",
@@ -33103,6 +33103,16 @@
                 "releaseDate": "2021-11-19T14:05:06+00:00",
                 "releaseNotes": "## Enhancements\n- PHP 8.1 support (@ruudk, @remicollet, @nick-zh, @arnaud-lb)\n\n## Breaking changes\n- Added tentative return types in PHP 8.1 builds",
                 "get": "https://pecl.php.net/get/rdkafka-6.0.0RC1",
+                "SPDX-License-Identifier": "MIT"
+            },
+            "5.0.2": {
+                "version": "5.0.2",
+                "state": "stable",
+                "license": "MIT License",
+                "releasedBy": "lbarnaud",
+                "releaseDate": "2021-11-27T11:30:59+00:00",
+                "releaseNotes": "## Bugfixes\n- Fix arginfo on getMetadata(), queryWatermarkOffsets() (#494)",
+                "get": "https://pecl.php.net/get/rdkafka-5.0.2",
                 "SPDX-License-Identifier": "MIT"
             },
             "5.0.1": {
@@ -33195,16 +33205,6 @@
                 "get": "https://pecl.php.net/get/rdkafka-4.0.1",
                 "SPDX-License-Identifier": "MIT"
             },
-            "3.1.3": {
-                "version": "3.1.3",
-                "state": "stable",
-                "license": "MIT License",
-                "releasedBy": "lbarnaud",
-                "releaseDate": "2019-12-08T09:49:48+00:00",
-                "releaseNotes": "* Fix segfault during module shutdown (#293, @arnaud-lb @nick-zh)\n* Fix RdKafka\\Topic visibility in PHP 7.4 (#316, @nick-zh)",
-                "get": "https://pecl.php.net/get/rdkafka-3.1.3",
-                "SPDX-License-Identifier": "MIT"
-            },
             "4.0.0": {
                 "version": "4.0.0",
                 "state": "stable",
@@ -33213,6 +33213,16 @@
                 "releaseDate": "2019-10-04T15:09:42+00:00",
                 "releaseNotes": "BREAKING CHANGE: Since version 4.0, the client longer polls for network events\nat shutdown (during object destructor). This behaviour didn't give enought\ncontrol to the user in case of server issue, and could cause the script to\nhang while terminating.\n\nStarting from this version, programs MUST now call flush() before shutting\ndown, otherwise some messages and callbacks may be lost.\n\n## Features\n\n* Added RdKafka\\Kafka::offsetsForTimes(), RdKafka\\KafkaConsumer::offsetsForTimes() (#238, #270, @nick-zh)\n* Added RdKafka\\KafkaConsumer::getOffsetPositions() (#244, @nick-zh)\n* Added RdKafka\\Kafka::purge() (#255, @nick-zh)\n* Added RdKafka\\Kafka::flush() (#264, @nick-zh)\n* Added RdKafka\\ConsumerTopic::consumeBatch() (#256, @nick-zh)\n* Added RdKafka\\Conf::setLogCb() (#253, @nick-zh)\n* Added RdKafka\\KafkaConsumer::queryWatermarkOffsets() (#271, @nick-zh)\n* Added RdKafka\\KafkaConsumer::close() (#144, @TiMESPLiNTER)\n\n## Enhancements\n\n* Support block on full producer queue (RD_KAFKA_MSG_F_BLOCK) (#245, @nick-zh)\n* Add additional partitioners (#267, @nick-zh)\n* Fix phpinfo output (#172, @TiMESPLiNTER)\n* Don't poll in destruct anymore (#264, #278, @nick-zh)\n\n## Bugfixes\n\n* Fix segfault, remove Producer::newQueue (#273, @nick-zh)\n\n## General\n\n* Dropping support for librdkafka below 0.11 (#247, @arnaud-lb)\n* Update build matrix PHP 7.3 + nightly, librdkafka 1.x + master (#249, @arnaud-lb)\n* Deprecating deprecated librdkafka functions (#266, #254, #251, @nick-zh)",
                 "get": "https://pecl.php.net/get/rdkafka-4.0.0",
+                "SPDX-License-Identifier": "MIT"
+            },
+            "3.1.3": {
+                "version": "3.1.3",
+                "state": "stable",
+                "license": "MIT License",
+                "releasedBy": "lbarnaud",
+                "releaseDate": "2019-12-08T09:49:48+00:00",
+                "releaseNotes": "* Fix segfault during module shutdown (#293, @arnaud-lb @nick-zh)\n* Fix RdKafka\\Topic visibility in PHP 7.4 (#316, @nick-zh)",
+                "get": "https://pecl.php.net/get/rdkafka-3.1.3",
                 "SPDX-License-Identifier": "MIT"
             },
             "3.1.2": {

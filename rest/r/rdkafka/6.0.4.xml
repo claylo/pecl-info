@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/rdkafka">rdkafka</p>
+ <c>pecl.php.net</c>
+ <v>6.0.4</v>
+ <st>stable</st>
+ <l>MIT License</l>
+ <m>lbarnaud</m>
+ <s>Kafka client based on librdkafka</s>
+ <d>PHP-rdkafka is a stable Kafka client for PHP based on librdkafka</d>
+ <da>2024-10-24 15:55:00</da>
+ <n>## Improvements
+- Added OAUTHBEARER support. New methods: RdKafka\Conf::setOauthbearerTokenRefreshCb(), RdKafka::oauthbearerSetToken(), RdKafka::oauthbearerSetTokenFailure() (#546, #547, @cb-freddysart, @scorgn)
+- Added incremental rebalance support. New methods: RdKafka\KafkaConsumer::incrementalAssign(), RdKafka\KafkaConsumer::incrementalUnassign() (#541, @ikeberlein)
+- Added RdKafka::getControllerId() (#554, @qkdreyer)
+
+## Bugfixes
+- Add private constructor on Metadata classes (#531, @arnaud-lb)
+
+## Other Changes
+- Improve KafkaErrorException message (#555, @arnaud-lb)</n>
+ <f>61253</f>
+ <g>https://pecl.php.net/get/rdkafka-6.0.4</g>
+ <x xlink:href="package.6.0.4.xml"/>
+</r>
