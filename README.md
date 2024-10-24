@@ -1289,7 +1289,7 @@ PHP-rdkafka is a stable Kafka client for PHP based on librdkafka
 ```
 <p><ul>
 <li>License: MIT</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/rdkafka-6.0.3">6.0.3</a> on 02 Jul 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/rdkafka-6.0.4">6.0.4</a> on 24 Oct 2024</li>
 <li>Release data in JSON: <a href="data/packages/rdkafka.json">rdkafka.json</a></li>
 <li><a href="https://pecl.php.net/packages/rdkafka">rdkafka on PECL</a></li>
 <li><a href="https://arnaud-lb.github.io/php-rdkafka-doc/phpdoc/book.rdkafka.html">:book: Documentation</a> &nbsp; <a href="https://github.com/arnaud-lb/php-rdkafka">:house: Home</a> &nbsp; <a href="https://github.com/arnaud-lb/php-rdkafka">:sparkles: Source</a> &nbsp; <a href="https://github.com/arnaud-lb/php-rdkafka/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=984&rid=&cid=16">:bar_chart: Stats</a></li>
