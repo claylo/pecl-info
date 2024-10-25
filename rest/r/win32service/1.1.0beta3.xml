@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/win32service">win32service</p>
+ <c>pecl.php.net</c>
+ <v>1.1.0beta3</v>
+ <st>beta</st>
+ <l>PHP License</l>
+ <m>macintoshplus</m>
+ <s>A Windows specific extension to allow PHP to interact with Windows Services.</s>
+ <d>The win32service extension is a Windows specific extension that allows PHP to communicate with the Service
+        Control Manager to start, stop, register and unregister services, and even allows your PHP scripts to run as a
+        service.</d>
+ <da>2024-10-25 06:48:14</da>
+ <n>* Fix memory leak on Win32Service\RightInfo username and domain.
+
+ The binary is also available here: https://github.com/win32service/win32service/releases/tag/v1.1.0-beta3</n>
+ <f>34062</f>
+ <g>https://pecl.php.net/get/win32service-1.1.0beta3</g>
+ <x xlink:href="package.1.1.0beta3.xml"/>
+</r>
