@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.391.0](https://github.com/claylo/pecl-info/compare/v1.390.0...v1.391.0) (2024-10-25)
+
+### Added
+
+* add win32service 1.1.0beta3 release ([98bca39](https://github.com/claylo/pecl-info/commit/98bca3940bf6298f6b5802945f15d3ba5407570d))
+
 ## [1.390.0](https://github.com/claylo/pecl-info/compare/v1.389.0...v1.390.0) (2024-10-24)
 
 ### Added
