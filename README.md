@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (119)
+## Relevant Extensions (118)
 
 ### Authentication (2)
 
@@ -231,7 +231,7 @@ This extension provides API for communicating with ZooKeeper service.
 </details>
 
 ***
-### Database (15)
+### Database (14)
 
 <details><summary>couchbase&nbsp; :eight:</summary>
 <p>Couchbase Server PHP extension</p>
@@ -245,28 +245,6 @@ The PHP client library provides fast access to documents stored in a Couchbase S
 <li>Release data in JSON: <a href="data/packages/couchbase.json">couchbase.json</a></li>
 <li><a href="https://pecl.php.net/packages/couchbase">couchbase on PECL</a></li>
 <li><a href="https://docs.couchbase.com/php-sdk/current/hello-world/start-using-sdk.html">:book: Documentation</a> &nbsp; <a href="https://docs.couchbase.com/php-sdk/current/project-docs/sdk-release-notes.html">:house: Home</a> &nbsp; <a href="https://github.com/couchbase/php-couchbase">:sparkles: Source</a> &nbsp; <a href="https://issues.couchbase.com/browse/PCBC">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=922&rid=&cid=7">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>dbase&nbsp; :eight:</summary>
-<p>dBase database file access functions</p>
-
-```
-These functions allow you to access records stored 
-in dBase-format (dbf) databases.
-
-There is no support for indexes or memo fields. 
-The databases are automatically locked with blocking flock()s.
-
-dBase files are simple sequential files of fixed length records. 
-Records are appended to the end of the file and deleted records 
-are kept until you call dbase_pack().
-```
-<p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/dbase-7.1.1">7.1.1</a> on 29 Oct 2021</li>
-<li>Release data in JSON: <a href="data/packages/dbase.json">dbase.json</a></li>
-<li><a href="https://pecl.php.net/packages/dbase">dbase on PECL</a></li>
-<li><a href="https://www.php.net/dbase">:book: Documentation</a> &nbsp; <a href="https://github.com/php/pecl-database-dbase">:house: Home</a> &nbsp; <a href="https://github.com/php/pecl-database-dbase">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-database-dbase/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=887&rid=&cid=7">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>ibm_db2&nbsp; :eight:</summary>
@@ -289,10 +267,10 @@ ibm_db2 provides access to DB2 and compatible databases on PHP.
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/ibm_db2-2.2.0">2.2.0</a> on 15 Nov 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/ibm_db2-2.2.2">2.2.2</a> on 01 Nov 2024</li>
 <li>Release data in JSON: <a href="data/packages/ibm_db2.json">ibm_db2.json</a></li>
 <li><a href="https://pecl.php.net/packages/ibm_db2">ibm_db2 on PECL</a></li>
-<li><a href="http://www.php.net/ibm_db2">:book: Documentation</a> &nbsp; <a href="https://github.com/php/pecl-database-ibm_db2">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-database-ibm_db2/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=440&rid=&cid=7">:bar_chart: Stats</a></li>
+<li><a href="https://php.net/ibm_db2">:book: Documentation</a> &nbsp; <a href="https://github.com/php/pecl-database-ibm_db2">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-database-ibm_db2/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=440&rid=&cid=7">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>mongodb&nbsp; :eight:</summary>
