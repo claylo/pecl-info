@@ -1020,12 +1020,12 @@
     },
     "ibm_db2": {
         "bugs": "https://github.com/php/pecl-database-ibm_db2/issues",
-        "docs": "http://www.php.net/ibm_db2",
+        "docs": "https://php.net/ibm_db2",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/php/pecl-database-ibm_db2",
         "stats": "https://pecl.php.net/package-stats.php?pid=440&rid=&cid=7",
-        "verified": false
+        "verified": true
     },
     "ice": {
         "bugs": "https://github.com/ice/framework/issues",
