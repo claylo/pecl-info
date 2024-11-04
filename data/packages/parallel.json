@@ -2,12 +2,22 @@
     "category": "PHP",
     "deprecated": false,
     "description": "A succinct parallel concurrency API for PHP 7.",
-    "latestReleaseDate": "2024-08-23T10:05:38+00:00",
-    "latestVersion": "1.2.4",
+    "latestReleaseDate": "2024-11-04T15:01:10+00:00",
+    "latestVersion": "1.2.5",
     "license": "PHP License",
     "name": "parallel",
     "php8Mentioned": true,
     "releases": {
+        "1.2.5": {
+            "version": "1.2.5",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "flowcontrol",
+            "releaseDate": "2024-11-04T15:01:10+00:00",
+            "releaseNotes": "- fix memleaks and crashes with PHP 8.2, 8.3 and 8.4 (still crashes in 8.1) - thanks Arnaud Le Blanc\n- fix refcounts to make `develop` branch stable again - thanks to Arnaud Le Blanc\n- fix double runs in CI",
+            "get": "https://pecl.php.net/get/parallel-1.2.5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
         "1.2.4": {
             "version": "1.2.4",
             "state": "stable",
