@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.393.0](https://github.com/claylo/pecl-info/compare/v1.392.0...v1.393.0) (2024-11-04)
+
+### Added
+
+* add rdkafka 6.0.5 release ([880dfbc](https://github.com/claylo/pecl-info/commit/880dfbcd6c64d5e69a34e98403bdb91fc1a1f576))
+
 ## [1.392.0](https://github.com/claylo/pecl-info/compare/v1.391.0...v1.392.0) (2024-11-01)
 
 ### Added
