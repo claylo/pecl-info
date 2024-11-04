@@ -2,12 +2,22 @@
     "category": "Networking",
     "deprecated": false,
     "description": "PHP-rdkafka is a stable Kafka client for PHP based on librdkafka",
-    "latestReleaseDate": "2024-10-24T15:55:00+00:00",
-    "latestVersion": "6.0.4",
+    "latestReleaseDate": "2024-11-04T12:14:59+00:00",
+    "latestVersion": "6.0.5",
     "license": "MIT License",
     "name": "rdkafka",
     "php8Mentioned": true,
     "releases": {
+        "6.0.5": {
+            "version": "6.0.5",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2024-11-04T12:14:59+00:00",
+            "releaseNotes": "## Bug fixes\n- Fix php 7.0 build (#563, @arnaud-lb)\n- Fix x32 build (#565, @arnaud-lb)\n- Fix segmentation fault in setOauthbearerTokenRefreshCb when sasl.oauthbearer.config is unset (#568, @scorgn)",
+            "get": "https://pecl.php.net/get/rdkafka-6.0.5",
+            "SPDX-License-Identifier": "MIT"
+        },
         "6.0.4": {
             "version": "6.0.4",
             "state": "stable",

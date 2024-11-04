@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/rdkafka">rdkafka</p>
+ <c>pecl.php.net</c>
+ <v>6.0.5</v>
+ <st>stable</st>
+ <l>MIT License</l>
+ <m>lbarnaud</m>
+ <s>Kafka client based on librdkafka</s>
+ <d>PHP-rdkafka is a stable Kafka client for PHP based on librdkafka</d>
+ <da>2024-11-04 12:14:59</da>
+ <n>## Bug fixes
+- Fix php 7.0 build (#563, @arnaud-lb)
+- Fix x32 build (#565, @arnaud-lb)
+- Fix segmentation fault in setOauthbearerTokenRefreshCb when sasl.oauthbearer.config is unset (#568, @scorgn)</n>
+ <f>61938</f>
+ <g>https://pecl.php.net/get/rdkafka-6.0.5</g>
+ <x xlink:href="package.6.0.5.xml"/>
+</r>
