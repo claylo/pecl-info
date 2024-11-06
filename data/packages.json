@@ -2718,12 +2718,22 @@
         "category": "File Formats",
         "deprecated": false,
         "description": "PHP extension for compression and decompression with Brotli library.",
-        "latestReleaseDate": "2024-02-01T00:34:13+00:00",
-        "latestVersion": "0.15.0",
+        "latestReleaseDate": "2024-11-05T22:18:42+00:00",
+        "latestVersion": "0.15.1",
         "license": "MIT",
         "name": "brotli",
         "php8Mentioned": false,
         "releases": {
+            "0.15.1": {
+                "version": "0.15.1",
+                "state": "stable",
+                "license": "MIT",
+                "releasedBy": "kjdev",
+                "releaseDate": "2024-11-05T22:18:42+00:00",
+                "releaseNotes": "- fix: output handler",
+                "get": "https://pecl.php.net/get/brotli-0.15.1",
+                "SPDX-License-Identifier": "MIT"
+            },
             "0.15.0": {
                 "version": "0.15.0",
                 "state": "stable",
@@ -11230,12 +11240,22 @@
         "category": "Networking",
         "deprecated": false,
         "description": "Remote Procedure Calls (RPCs) provide a useful abstraction for building distributed applications and services. The libraries in this repository provide a concrete implementation of the gRPC protocol, layered over HTTP/2. These libraries enable communication between clients and servers using any combination of the supported languages.",
-        "latestReleaseDate": "2024-10-16T18:18:45+00:00",
-        "latestVersion": "1.67.0",
+        "latestReleaseDate": "2024-11-05T22:57:52+00:00",
+        "latestVersion": "1.68.0RC1",
         "license": "Apache 2.0",
         "name": "gRPC",
         "php8Mentioned": true,
         "releases": {
+            "1.68.0RC1": {
+                "version": "1.68.0RC1",
+                "state": "beta",
+                "license": "Apache 2.0",
+                "releasedBy": "stanleycheung",
+                "releaseDate": "2024-11-05T22:57:52+00:00",
+                "releaseNotes": "- gRPC Core 1.68.0 update",
+                "get": "https://pecl.php.net/get/grpc-1.68.0RC1",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "1.67.0": {
                 "version": "1.67.0",
                 "state": "stable",
@@ -52394,12 +52414,22 @@
         "category": "File Formats",
         "deprecated": false,
         "description": "PHP extension for compression and decompression with Zstandard library.",
-        "latestReleaseDate": "2024-01-28T22:39:55+00:00",
-        "latestVersion": "0.13.3",
+        "latestReleaseDate": "2024-11-05T22:04:02+00:00",
+        "latestVersion": "0.14.0",
         "license": "MIT",
         "name": "zstd",
-        "php8Mentioned": false,
+        "php8Mentioned": true,
         "releases": {
+            "0.14.0": {
+                "version": "0.14.0",
+                "state": "stable",
+                "license": "MIT",
+                "releasedBy": "kjdev",
+                "releaseDate": "2024-11-05T22:04:02+00:00",
+                "releaseNotes": "- feat: output handler (PHP 8.0+)\n- feat: minimum system libzstd library version to 1.4.0\n- update: built-in zstd library to 1.5.6",
+                "get": "https://pecl.php.net/get/zstd-0.14.0",
+                "SPDX-License-Identifier": "MIT"
+            },
             "0.13.3": {
                 "version": "0.13.3",
                 "state": "stable",
