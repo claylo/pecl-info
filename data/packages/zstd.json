@@ -2,12 +2,22 @@
     "category": "File Formats",
     "deprecated": false,
     "description": "PHP extension for compression and decompression with Zstandard library.",
-    "latestReleaseDate": "2024-01-28T22:39:55+00:00",
-    "latestVersion": "0.13.3",
+    "latestReleaseDate": "2024-11-05T22:04:02+00:00",
+    "latestVersion": "0.14.0",
     "license": "MIT",
     "name": "zstd",
-    "php8Mentioned": false,
+    "php8Mentioned": true,
     "releases": {
+        "0.14.0": {
+            "version": "0.14.0",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "kjdev",
+            "releaseDate": "2024-11-05T22:04:02+00:00",
+            "releaseNotes": "- feat: output handler (PHP 8.0+)\n- feat: minimum system libzstd library version to 1.4.0\n- update: built-in zstd library to 1.5.6",
+            "get": "https://pecl.php.net/get/zstd-0.14.0",
+            "SPDX-License-Identifier": "MIT"
+        },
         "0.13.3": {
             "version": "0.13.3",
             "state": "stable",
