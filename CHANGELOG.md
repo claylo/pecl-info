@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.395.0](https://github.com/claylo/pecl-info/compare/v1.394.0...v1.395.0) (2024-11-06)
+
+### Added
+
+* add gRPC 1.68.0RC1, brotli 0.15.1, zstd 0.14.0 releases ([c32f44f](https://github.com/claylo/pecl-info/commit/c32f44ffddb99571dc015c0fe5234afd6061fde6))
+
 ## [1.394.0](https://github.com/claylo/pecl-info/compare/v1.393.0...v1.394.0) (2024-11-04)
 
 ### Added
