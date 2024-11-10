@@ -796,7 +796,7 @@ xlswriter is a PHP C Extension that can be used to write text, numbers, formulas
 ```
 <p><ul>
 <li>License: BSD-2-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/xlswriter-1.5.7">1.5.7</a> on 04 Sep 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/xlswriter-1.5.8">1.5.8</a> on 10 Nov 2024</li>
 <li>Release data in JSON: <a href="data/packages/xlswriter.json">xlswriter.json</a></li>
 <li><a href="https://pecl.php.net/packages/xlswriter">xlswriter on PECL</a></li>
 <li><a href="https://xlswriter-docs.viest.me/">:book: Documentation</a> &nbsp; <a href="https://github.com/viest/php-ext-xlswriter">:house: Home</a> &nbsp; <a href="https://github.com/viest/php-ext-xlswriter">:sparkles: Source</a> &nbsp; <a href="https://github.com/viest/php-ext-xlswriter/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1023&rid=&cid=33">:bar_chart: Stats</a></li>
