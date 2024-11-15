@@ -703,11 +703,11 @@
         "verified": false
     },
     "excimer": {
-        "bugs": "",
+        "bugs": "https://phabricator.wikimedia.org/tag/excimer/",
         "docs": "",
         "home": "https://www.mediawiki.org/wiki/Excimer",
         "maintained": true,
-        "repo": "https://github.com/wikimedia/php-excimer",
+        "repo": "https://github.com/wikimedia/excimer",
         "stats": "https://pecl.php.net/package-stats.php?pid=1057&rid=&cid=2",
         "verified": false
     },
