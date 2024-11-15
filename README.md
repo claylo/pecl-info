@@ -79,10 +79,10 @@ profiler backend, which aggregates backtraces collected by a periodic timer.
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/excimer-1.2.2">1.2.2</a> on 31 Jul 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/excimer-1.2.3">1.2.3</a> on 15 Nov 2024</li>
 <li>Release data in JSON: <a href="data/packages/excimer.json">excimer.json</a></li>
 <li><a href="https://pecl.php.net/packages/excimer">excimer on PECL</a></li>
-<li><a href="https://www.mediawiki.org/wiki/Excimer">:house: Home</a> &nbsp; <a href="https://github.com/wikimedia/php-excimer">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1057&rid=&cid=2">:bar_chart: Stats</a></li>
+<li><a href="https://www.mediawiki.org/wiki/Excimer">:house: Home</a> &nbsp; <a href="https://github.com/wikimedia/excimer">:sparkles: Source</a> &nbsp; <a href="https://phabricator.wikimedia.org/tag/excimer/">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1057&rid=&cid=2">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>memprof&nbsp; :eight:</summary>
