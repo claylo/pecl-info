@@ -2,12 +2,22 @@
     "category": "File Formats",
     "deprecated": false,
     "description": "This is the PHP extension for reading MaxMind DB files. MaxMind DB is a binary file format that stores data indexed by IP address subnets (IPv4 or IPv6).",
-    "latestReleaseDate": "2023-12-02T00:10:36+00:00",
-    "latestVersion": "1.11.1",
+    "latestReleaseDate": "2024-11-14T22:45:03+00:00",
+    "latestVersion": "1.12.0",
     "license": "Apache License 2.0",
     "name": "maxminddb",
     "php8Mentioned": true,
     "releases": {
+        "1.12.0": {
+            "version": "1.12.0",
+            "state": "stable",
+            "license": "Apache License 2.0",
+            "releasedBy": "oschwald",
+            "releaseDate": "2024-11-14T22:45:03+00:00",
+            "releaseNotes": "* Improve the error handling when the user tries to open a directory\n  with the pure PHP reader.\n* Improve the typehints on arrays in the PHPDocs.",
+            "get": "https://pecl.php.net/get/maxminddb-1.12.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "1.11.1": {
             "version": "1.11.1",
             "state": "stable",
