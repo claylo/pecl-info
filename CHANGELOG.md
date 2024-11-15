@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.398.0](https://github.com/claylo/pecl-info/compare/v1.397.0...v1.398.0) (2024-11-15)
+
+### Added
+
+* add maxminddb 1.12.0 release ([fea41a9](https://github.com/claylo/pecl-info/commit/fea41a9b648c2f7bcd104d932b21b424dac76567))
+
 ## [1.397.0](https://github.com/claylo/pecl-info/compare/v1.396.0...v1.397.0) (2024-11-10)
 
 ### Added
