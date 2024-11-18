@@ -2,12 +2,22 @@
     "category": "Benchmarking",
     "deprecated": false,
     "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-    "latestReleaseDate": "2024-10-21T10:52:45+00:00",
-    "latestVersion": "1.4.2",
+    "latestReleaseDate": "2024-11-18T16:53:42+00:00",
+    "latestVersion": "1.5.0",
     "license": "BSD 3-Clause",
     "name": "datadog_trace",
     "php8Mentioned": true,
     "releases": {
+        "1.5.0": {
+            "version": "1.5.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "bwoebi",
+            "releaseDate": "2024-11-18T16:53:42+00:00",
+            "releaseNotes": "## Tracer\n\n### Added\n- PHP 8.4 support #2758\n- Support Tag Keys for DD_TRACE_HEADER_TAGS #2922\n- Add stubs for the Public PHP API #2933\n - These are available as datadog_tracer.stubs.php release asset\n- Collect agent info and apply the env for remote config #2930\n\n### Changed\n- Increase read timeout of sidecar for synchronous flushes #2910\n- Implement Universal Service Tracking Consistency #2896\n- Updating Default Rate Limit Value and Usage Based on Sample Rate #2912\n\n### Fixed\n- Fix a possible crash in zai config #2906\n- Fix crash when yielding from generators are destroyed #2908\n- Fix bad hasThis() check on PHP 7.0 #2911\n- Fix RootSpanData writer interception on consecutive calls #2919\n- Fix DD_TRACE_OBFUSCATION_QUERY_STRING_REGEXP Empty Value Behavior #2909\n- Handle hooks on trampoline fake closures #2925\n- Fix crash with locals collection in generator close sequence #2932\n- Avoid the hook frame in mysqli connection error tracking #2937\n- Support multiple PHP_INI_SCAN_DIR's #2941\n- Fix use-after-free in exception replay #2947\n- Fully disable the sidecar on lambda by setting all related configs to false #2948\n- Fix Symfony Messenger propagation to non-instrumented clients #2956\n- Fix JIT crash: There may or may not be a readable ZEND_TRACE_OP_INFO() #2942\n- Block remote config signals during ftp functions #2957\n- Deduplicate Debugger diagnostics in sidecar Datadog/libdatadog#736\n- Handle case where the applictaion is stopped without other telemetry sent Datadog/libdatadog#743\n\n### Internal\n- Create many tiny artifacts for faster download #2951\n - Using datadog-setup.php will now download less than 50 MB for a single PHP version\n- Add names to memfds Datadog/libdatadog#714\n- Allow attaching to the sidecar via gdb Datadog/libdatadog#687\n\n### SSI Loader changes\n- Fix compatilibity with PHP 5 #2939\n- Fix crash when the loader is loaded multiple times #2954\n\n## Profiling\n\n### Added\n- Add fatals and thread start/end events to timeline #2820\n- Add thread names #2934\n- Add timeline active check for fatals #2945\n- Add stream_select()-type functions to timeline #2943\n- Visualise opcache restarts in the timeline #2946\n\n## Application Security Management\n\n### Changed\n- Disable helper when appsec is fully disabled #2935\n\n### Fixed\n- Fix heap corruption after apache reloads (appsec) #2928\n\n### Internal changes\n- Update spdlog so it works with recent musls #2921\n- Bump libddwaf to 1.20.1 #2913",
+            "get": "https://pecl.php.net/get/datadog_trace-1.5.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "1.4.2": {
             "version": "1.4.2",
             "state": "stable",
