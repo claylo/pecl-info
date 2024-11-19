@@ -888,10 +888,10 @@ https://mdref.m6w6.name/http
 ```
 <p><ul>
 <li>License: BSD-2-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/pecl_http-4.2.4">4.2.4</a> on 02 Oct 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/pecl_http-4.2.6">4.2.6</a> on 19 Nov 2024</li>
 <li>Release data in JSON: <a href="data/packages/pecl_http.json">pecl_http.json</a></li>
 <li><a href="https://pecl.php.net/packages/pecl_http">pecl_http on PECL</a></li>
-<li></li>
+<li><a href="https://mdref.m6w6.name/http">:book: Documentation</a> &nbsp; <a href="https://github.com/m6w6/ext-http">:sparkles: Source</a> &nbsp; <a href="https://github.com/m6w6/ext-http/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=429&rid=&cid=11">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 
