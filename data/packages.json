@@ -27399,12 +27399,22 @@
         "category": "HTTP",
         "deprecated": false,
         "description": "This HTTP extension aims to provide a convenient and powerful\nset of functionality for one of PHPs major applications.\n\nIt eases handling of HTTP urls, headers and messages, provides\nmeans for negotiation of a client's preferred content type,\nlanguage and charset, as well as a convenient way to send any\narbitrary data with caching and resuming capabilities.\n\nIt provides powerful request functionality with support for\nparallel requests.\n\nDocumentation:\nhttps://mdref.m6w6.name/http",
-        "latestReleaseDate": "2023-10-02T09:13:10+00:00",
-        "latestVersion": "4.2.4",
+        "latestReleaseDate": "2024-11-19T07:43:26+00:00",
+        "latestVersion": "4.2.6",
         "license": "BSD-2-Clause",
         "name": "pecl_http",
         "php8Mentioned": true,
         "releases": {
+            "4.2.6": {
+                "version": "4.2.6",
+                "state": "stable",
+                "license": "BSD-2-Clause",
+                "releasedBy": "mike",
+                "releaseDate": "2024-11-19T07:43:26+00:00",
+                "releaseNotes": "* Fix #136 Potential incompatibility with libcurl 8.9.0; add workaround for CURLOPT_INTERFACE for v8.9-8.10\n* Fix #137 Potential compilation error with PHP 8.4; php_lcg.h was deprecated in 8.2",
+                "get": "https://pecl.php.net/get/pecl_http-4.2.6",
+                "SPDX-License-Identifier": "BSD-2-Clause"
+            },
             "4.2.4": {
                 "version": "4.2.4",
                 "state": "stable",

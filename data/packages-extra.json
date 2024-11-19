@@ -2125,12 +2125,12 @@
         "stats": "https://pecl.php.net/package-stats.php?pid=219&rid=&cid=29"
     },
     "pecl_http": {
-        "bugs": "",
-        "docs": "",
+        "bugs": "https://github.com/m6w6/ext-http/issues",
+        "docs": "https://mdref.m6w6.name/http",
         "home": "",
         "maintained": true,
-        "repo": "",
-        "stats": "",
+        "repo": "https://github.com/m6w6/ext-http",
+        "stats": "https://pecl.php.net/package-stats.php?pid=429&rid=&cid=11",
         "verified": false
     },
     "perforce": {
