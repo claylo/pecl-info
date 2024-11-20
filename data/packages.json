@@ -4793,12 +4793,22 @@
         "category": "Benchmarking",
         "deprecated": false,
         "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-        "latestReleaseDate": "2024-11-18T16:53:42+00:00",
-        "latestVersion": "1.5.0",
+        "latestReleaseDate": "2024-11-19T20:57:36+00:00",
+        "latestVersion": "1.5.1",
         "license": "BSD 3-Clause",
         "name": "datadog_trace",
         "php8Mentioned": true,
         "releases": {
+            "1.5.1": {
+                "version": "1.5.1",
+                "state": "stable",
+                "license": "BSD 3-Clause",
+                "releasedBy": "anilm3",
+                "releaseDate": "2024-11-19T20:57:36+00:00",
+                "releaseNotes": "## Tracer\n\n### Added\n- Add mysqli_real_query to MysqliIntegration #2965\n\n## Application Security Management\n\n### Fixed\n- Bridge more musl/glibc diffs in aarch64 Datadog/nginx-datadog#140",
+                "get": "https://pecl.php.net/get/datadog_trace-1.5.1",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "1.5.0": {
                 "version": "1.5.0",
                 "state": "stable",
