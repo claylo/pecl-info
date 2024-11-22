@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>6.0.0RC1</v>
+ <st>alpha</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in tcp/http/websocket/http2 server
+        - coroutine tcp/http/websocket client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2024-11-22 05:18:46</da>
+ <n>- Added `non-blocking, reentrant coroutine mutex lock`, which can be used between processes/threads without blocking them. @NathanFreeman
+- `Swoole\Coroutine\Socket::getoption()` supports the `TCPINFO` feature. @matyhtf
+- `Swoole\Client` synchronous blocking client supports `http` proxy. @matyhtf
+- Added asynchronous non-blocking `TCP/UDP/Unix socket` client `Swoole\Async\client`. @matyhtf
+- Optimized the `Swoole\Redis\Server::format()` method to support zero-copy memory, compatible with the `Redis` protocol. @matyhtf
+- Fixed `Fatal error` issue caused by `PHP-8.4`&#039;s `timeout` feature in ZTS mode. @matyhtf
+- Fixed compatibility issue with the `exit()` function in `swoole` for `PHP-8.4`. @remicollet
+- Fixed the issue where `Swoole\Thread::getNativeId()` did not work in `cygwin`. @matyhtf
+- Fixed the issue causing `SIGSEGV` in `Swoole\Coroutine::getaddrinfo()` method. @matyhtf
+- Fixed the issue where the runtime TCP module did not support dynamically enabling SSL encryption. @matyhtf
+- Fixed the issue where the HTTP client had an incorrect timeout after running for a long time. @matyhtf
+- Fixed the problem where the mutex lock of `Swoole\Table` could not be used before the process exited. @matyhtf
+- Fixed the failure of `Swoole\Server::stop()` when using named parameters. @matyhtf
+- Fixed the issue with the `toArray` function of concurrent containers in `SWOOLE_THREAD` multi-thread mode. @matyhtf
+- Fixed the issue of being unable to delete nested numeric keys in `Swoole\Thread\Map` in `SWOOLE_THREAD` multi-thread mode. @matyhtf
+- Multi-thread mode `SWOOLE_THREAD` supports restarting worker threads. @matyhtf
+- Multi-thread mode `SWOOLE_THREAD` supports starting timers in the `Manager` thread. @matyhtf
+- Compatible with the `curl` extension of `PHP-8.4`. @matyhtf @NathanFreeman
+- Refactored `iouring`. @matyhtf @NathanFreeman
+- Optimized timers so that synchronous processes do not depend on signals. @matyhtf
+- Optimized the `Swoole\Coroutine\System::waitSignal()` method to allow listening to multiple signals simultaneously. @matyhtf
+- This version is a `pre-release` and should not be used in production environments, only in testing environments.</n>
+ <f>2280265</f>
+ <g>https://pecl.php.net/get/swoole-6.0.0RC1</g>
+ <x xlink:href="package.6.0.0RC1.xml"/>
+</r>
