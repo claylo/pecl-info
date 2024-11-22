@@ -18,6 +18,16 @@
             "get": "https://pecl.php.net/get/swoole-6.0.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
+        "6.0.0RC1": {
+            "version": "6.0.0RC1",
+            "state": "alpha",
+            "license": "Apache2.0",
+            "releasedBy": "tianfenghan",
+            "releaseDate": "2024-11-22T05:18:46+00:00",
+            "releaseNotes": "- Added `non-blocking, reentrant coroutine mutex lock`, which can be used between processes/threads without blocking them. @NathanFreeman\n- `Swoole\\Coroutine\\Socket::getoption()` supports the `TCPINFO` feature. @matyhtf\n- `Swoole\\Client` synchronous blocking client supports `http` proxy. @matyhtf\n- Added asynchronous non-blocking `TCP/UDP/Unix socket` client `Swoole\\Async\\client`. @matyhtf\n- Optimized the `Swoole\\Redis\\Server::format()` method to support zero-copy memory, compatible with the `Redis` protocol. @matyhtf\n- Fixed `Fatal error` issue caused by `PHP-8.4`'s `timeout` feature in ZTS mode. @matyhtf\n- Fixed compatibility issue with the `exit()` function in `swoole` for `PHP-8.4`. @remicollet\n- Fixed the issue where `Swoole\\Thread::getNativeId()` did not work in `cygwin`. @matyhtf\n- Fixed the issue causing `SIGSEGV` in `Swoole\\Coroutine::getaddrinfo()` method. @matyhtf\n- Fixed the issue where the runtime TCP module did not support dynamically enabling SSL encryption. @matyhtf\n- Fixed the issue where the HTTP client had an incorrect timeout after running for a long time. @matyhtf\n- Fixed the problem where the mutex lock of `Swoole\\Table` could not be used before the process exited. @matyhtf\n- Fixed the failure of `Swoole\\Server::stop()` when using named parameters. @matyhtf\n- Fixed the issue with the `toArray` function of concurrent containers in `SWOOLE_THREAD` multi-thread mode. @matyhtf\n- Fixed the issue of being unable to delete nested numeric keys in `Swoole\\Thread\\Map` in `SWOOLE_THREAD` multi-thread mode. @matyhtf\n- Multi-thread mode `SWOOLE_THREAD` supports restarting worker threads. @matyhtf\n- Multi-thread mode `SWOOLE_THREAD` supports starting timers in the `Manager` thread. @matyhtf\n- Compatible with the `curl` extension of `PHP-8.4`. @matyhtf @NathanFreeman\n- Refactored `iouring`. @matyhtf @NathanFreeman\n- Optimized timers so that synchronous processes do not depend on signals. @matyhtf\n- Optimized the `Swoole\\Coroutine\\System::waitSignal()` method to allow listening to multiple signals simultaneously. @matyhtf\n- This version is a `pre-release` and should not be used in production environments, only in testing environments.",
+            "get": "https://pecl.php.net/get/swoole-6.0.0RC1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "5.1.5": {
             "version": "5.1.5",
             "state": "stable",
