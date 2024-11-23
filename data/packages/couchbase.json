@@ -2,12 +2,22 @@
     "category": "Database",
     "deprecated": false,
     "description": "The PHP client library provides fast access to documents stored in a Couchbase Server.",
-    "latestReleaseDate": "2024-10-23T01:04:34+00:00",
-    "latestVersion": "4.2.4",
+    "latestReleaseDate": "2024-11-23T05:07:27+00:00",
+    "latestVersion": "4.2.5",
     "license": "Apache V2",
     "name": "couchbase",
     "php8Mentioned": true,
     "releases": {
+        "4.2.5": {
+            "version": "4.2.5",
+            "state": "stable",
+            "license": "Apache V2",
+            "releasedBy": "avsej",
+            "releaseDate": "2024-11-23T05:07:27+00:00",
+            "releaseNotes": "Enhancements\n============\n\n* PCBC-1004: Insert ABI version tag into PHP extension namespace (#187).\n  At this moment this feature is optional and does not break existing ABI.\n  The extension namespace will become versioned by default since 4.3.0.\n\nFixes\n=====\n\n* PCBC-975: Fix expiry with upsertMulti\n\n* PCBC-1017: Update user agent generation",
+            "get": "https://pecl.php.net/get/couchbase-4.2.5",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "4.2.4": {
             "version": "4.2.4",
             "state": "stable",
