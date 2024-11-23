@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/couchbase">couchbase</p>
+ <c>pecl.php.net</c>
+ <v>4.2.5</v>
+ <st>stable</st>
+ <l>Apache V2</l>
+ <m>avsej</m>
+ <s>Couchbase Server PHP extension</s>
+ <d>The PHP client library provides fast access to documents stored in a Couchbase Server.</d>
+ <da>2024-11-23 05:07:27</da>
+ <n>Enhancements
+============
+
+* PCBC-1004: Insert ABI version tag into PHP extension namespace (#187).
+  At this moment this feature is optional and does not break existing ABI.
+  The extension namespace will become versioned by default since 4.3.0.
+
+Fixes
+=====
+
+* PCBC-975: Fix expiry with upsertMulti
+
+* PCBC-1017: Update user agent generation</n>
+ <f>6460424</f>
+ <g>https://pecl.php.net/get/couchbase-4.2.5</g>
+ <x xlink:href="package.4.2.5.xml"/>
+</r>
