@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.408.0](https://github.com/claylo/pecl-info/compare/v1.407.0...v1.408.0) (2024-11-26)
+
+### Added
+
+* add smbclient 1.1.2 release ([64a0408](https://github.com/claylo/pecl-info/commit/64a04084d20b9c9759508acffaf32286057bd154))
+
 ## [1.407.0](https://github.com/claylo/pecl-info/compare/v1.406.0...v1.407.0) (2024-11-23)
 
 ### Added
