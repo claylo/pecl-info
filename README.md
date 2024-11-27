@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (118)
+## Relevant Extensions (119)
 
 ### Authentication (2)
 
@@ -2076,6 +2076,27 @@ package protocols (json, msgpack)
 <li>Release data in JSON: <a href="data/packages/yar.json">yar.json</a></li>
 <li><a href="https://pecl.php.net/packages/yar">yar on PECL</a></li>
 <li><a href="http://www.php.net/manual/book.yar.php">:book: Documentation</a> &nbsp; <a href="https://github.com/laruence/yar">:sparkles: Source</a> &nbsp; <a href="https://github.com/laruence/yar/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=924&rid=&cid=23">:bar_chart: Stats</a></li>
+</ul></p><hr />
+</details>
+
+***
+### XML (1)
+
+<details><summary>xmldiff&nbsp; :eight:</summary>
+<p>XML diff and merge</p>
+
+```
+The extension is able to produce diffs of two XML documents and then to apply the
+difference to the source document. The diff is a XML document containing
+copy/insert/delete instruction nodes in human readable format. DOMDocument objects, local
+files and strings in memory can be processed.
+```
+<p><ul>
+<li>License: BSD-2-Clause</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/xmldiff-1.1.4">1.1.4</a> on 27 Nov 2024</li>
+<li>Release data in JSON: <a href="data/packages/xmldiff.json">xmldiff.json</a></li>
+<li><a href="https://pecl.php.net/packages/xmldiff">xmldiff on PECL</a></li>
+<li><a href="https://php.net/manual/en/book.xmldiff.php">:book: Documentation</a> &nbsp; <a href="https://github.com/php/pecl-xml-xmldiff">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-xml-xmldiff/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=953&rid=&cid=22">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 

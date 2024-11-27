@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.409.0](https://github.com/claylo/pecl-info/compare/v1.408.0...v1.409.0) (2024-11-27)
+
+### Added
+
+* add xmldiff 1.1.4 release ([a468883](https://github.com/claylo/pecl-info/commit/a46888324b6e3d324a1335f64c838ff6acae5aa6))
+
 ## [1.408.0](https://github.com/claylo/pecl-info/compare/v1.407.0...v1.408.0) (2024-11-26)
 
 ### Added
