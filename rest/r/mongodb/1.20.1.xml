@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.20.1</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>jmikola</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2024-11-27 14:47:28</da>
+ <n>## What&#039;s Changed
+* PHPC-2457: Fix using array items by reference by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1697
+* Use RHEL 8 to test old server versions by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1700
+* PHPC-2350: Test that PackedArray::fromJSON() accepts objects with valid keys by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1703
+* PHPC-2433: Test PHP 8.4 on Evergreen by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1721
+* Include the compiler variant in Windows release file names for PHP 8.3 by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1718
+* Update to latest setup-php-sdk version by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1726
+* Skip building against libmongoc master by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1728
+* PHPC-2468: Update to libmongoc 1.28.1 by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1725
+* PHPC-2649: Use output from setup-php-sdk in packaging step by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1732
+* Enable PHP 8.4 testing on PPC and Zseries by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1737
+* Use correct name for PDB file for pie installs. by @mickverm in https://github.com/mongodb/mongo-php-driver/pull/1745
+* Remove prefix ext- from extension name. by @macintoshplus in https://github.com/mongodb/mongo-php-driver/pull/1752
+* Configure release notes to exclude merge-up bot by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1757
+
+## New Contributors
+* @mickverm made their first contribution in https://github.com/mongodb/mongo-php-driver/pull/1745
+* @macintoshplus made their first contribution in https://github.com/mongodb/mongo-php-driver/pull/1752
+
+**Full Changelog**: https://github.com/mongodb/mongo-php-driver/compare/1.20.0...1.20.1</n>
+ <f>2106641</f>
+ <g>https://pecl.php.net/get/mongodb-1.20.1</g>
+ <x xlink:href="package.1.20.1.xml"/>
+</r>
