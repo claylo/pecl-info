@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>5.1.6</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in tcp/http/websocket/http2 server
+        - coroutine tcp/http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2024-11-28 03:39:24</da>
+ <n>- Fixed the issue where `Swoole\Http\Response::end()` returns `null`. @NathanFreeman
+- Fixed the problem where the mutex lock of `Swoole\Table` could not be used before the process exits. @matyhtf
+- Fixed the failure of `Swoole\Server::stop()` caused by using named parameters. @matyhtf
+- Fixed the issue where the `runtime tcp` module did not support dynamically enabling SSL encryption. @matyhtf
+- Fixed the `Fatal error` issue caused by the timeout feature of `PHP` in `ZTS` mode. @matyhtf
+- Fixed the problem where `Swoole\Coroutine::getaddrinfo()` method could lead to SIGSEGV. @matyhtf
+- Fixed the issue where the HTTP client running for a long time resulted in incorrect timeout settings. @matyhtf</n>
+ <f>2266113</f>
+ <g>https://pecl.php.net/get/swoole-5.1.6</g>
+ <x xlink:href="package.5.1.6.xml"/>
+</r>
