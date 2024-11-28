@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xdebug">xdebug</p>
+ <c>pecl.php.net</c>
+ <v>3.4.0</v>
+ <st>stable</st>
+ <l>Xdebug-1.03</l>
+ <m>derick</m>
+ <s>Xdebug is a debugging and productivity extension for PHP</s>
+ <d>Xdebug and provides a range of features to improve the PHP development
+experience.
+
+Step Debugging
+    A way to step through your code in your IDE or editor while the script is
+    executing.
+
+Improvements to PHP&#039;s error reporting
+    An improved var_dump() function, stack traces for Notices, Warnings, Errors
+    and Exceptions to highlight the code path to the error
+
+Tracing
+    Writes every function call, with arguments and invocation location to disk.
+    Optionally also includes every variable assignment and return value for
+    each function.
+
+Profiling
+    Allows you, with the help of visualisation tools, to analyse the
+    performance of your PHP application and find bottlenecks.
+
+Code Coverage Analysis
+    To show which parts of your code base are executed when running unit tests
+    with PHP Unit.</d>
+ <da>2024-11-28 14:38:40</da>
+ <n>Thu, Nov 28, 2024 - Xdebug 3.4.0
+
++ New features:
+
+  - Fixed issue #2239: Add &#039;XDEBUG_IGNORE&#039; GET/POST/COOKIE/ENV to make the step debugger ignore that specific request
+  - Fixed issue #2281: PHP 8.4 support
+
++ Improvements
+
+  - Fixed issue #2261: Send control socket location in init packet
+
+= Fixed bugs:
+
+  - Fixed issue #2262: PHP 8.4: Closure names need different wrapping algorithm
+  - Fixed issue #2283: SoapClient usage causes segfault with codecoverage
+  - Fixed issue #2294: Nette Tester always crashes in all test jobs when running with XDebug 3.4.0beta1 active
+  - Fixed issue #2304: Seg fault on throw exception
+  - Fixed issue #2305: Segfault when checking whether to ignore creating a debug connection during shutdown functions</n>
+ <f>261396</f>
+ <g>https://pecl.php.net/get/xdebug-3.4.0</g>
+ <x xlink:href="package.3.4.0.xml"/>
+</r>
