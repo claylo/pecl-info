@@ -2,12 +2,22 @@
     "category": "PHP",
     "deprecated": false,
     "description": "Xdebug and provides a range of features to improve the PHP development\nexperience.\n\nStep Debugging\n    A way to step through your code in your IDE or editor while the script is\n    executing.\n\nImprovements to PHP's error reporting\n    An improved var_dump() function, stack traces for Notices, Warnings, Errors\n    and Exceptions to highlight the code path to the error\n\nTracing\n    Writes every function call, with arguments and invocation location to disk.\n    Optionally also includes every variable assignment and return value for\n    each function.\n\nProfiling\n    Allows you, with the help of visualisation tools, to analyse the\n    performance of your PHP application and find bottlenecks.\n\nCode Coverage Analysis\n    To show which parts of your code base are executed when running unit tests\n    with PHP Unit.",
-    "latestReleaseDate": "2024-10-04T14:57:15+00:00",
-    "latestVersion": "3.4.0beta1",
+    "latestReleaseDate": "2024-11-28T14:38:40+00:00",
+    "latestVersion": "3.4.0",
     "license": "Xdebug-1.03",
     "name": "xdebug",
     "php8Mentioned": true,
     "releases": {
+        "3.4.0": {
+            "version": "3.4.0",
+            "state": "stable",
+            "license": "Xdebug-1.03",
+            "releasedBy": "derick",
+            "releaseDate": "2024-11-28T14:38:40+00:00",
+            "releaseNotes": "Thu, Nov 28, 2024 - Xdebug 3.4.0\n\n+ New features:\n\n  - Fixed issue #2239: Add 'XDEBUG_IGNORE' GET/POST/COOKIE/ENV to make the step debugger ignore that specific request\n  - Fixed issue #2281: PHP 8.4 support\n\n+ Improvements\n\n  - Fixed issue #2261: Send control socket location in init packet\n\n= Fixed bugs:\n\n  - Fixed issue #2262: PHP 8.4: Closure names need different wrapping algorithm\n  - Fixed issue #2283: SoapClient usage causes segfault with codecoverage\n  - Fixed issue #2294: Nette Tester always crashes in all test jobs when running with XDebug 3.4.0beta1 active\n  - Fixed issue #2304: Seg fault on throw exception\n  - Fixed issue #2305: Segfault when checking whether to ignore creating a debug connection during shutdown functions",
+            "get": "https://pecl.php.net/get/xdebug-3.4.0",
+            "SPDX-License-Identifier": null
+        },
         "3.4.0beta1": {
             "version": "3.4.0beta1",
             "state": "beta",
