@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (119)
+## Relevant Extensions (120)
 
 ### Authentication (2)
 
@@ -1802,8 +1802,24 @@ extension
 </details>
 
 ***
-### Text (3)
+### Text (4)
 
+<details><summary>md4c</summary>
+<p>Markdown to HTML conversion using the MD4C library</p>
+
+```
+This extension provides one simple PHP function md4c_toHtml() to convert Markdown or CommonMark to HTML.
+
+This function uses the MD4C library written in C and is currently the fastest conversion routine, see https://talk.commonmark.org/t/why-is-md4c-so-fast-c/2520/12
+```
+<p><ul>
+<li>License: MIT</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/md4c-1.0.0dev">1.0.0dev</a> on 01 Dec 2024</li>
+<li>Release data in JSON: <a href="data/packages/md4c.json">md4c.json</a></li>
+<li><a href="https://pecl.php.net/packages/md4c">md4c on PECL</a></li>
+<li><a href="https://eklausmeier.goip.de/blog/2024/02-24-md4c-php-extension">:house: Home</a> &nbsp; <a href="https://github.com/eklausme/php-md4c">:sparkles: Source</a> &nbsp; <a href="https://github.com/eklausme/php-md4c/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1087&rid=&cid=36">:bar_chart: Stats</a></li>
+</ul></p><hr />
+</details>
 <details><summary>parle&nbsp; :eight:</summary>
 <p>Parsing and lexing</p>
 
