@@ -3765,5 +3765,14 @@
         "repo": "https://github.com/remicollet/php-xpass",
         "stats": "https://pecl.php.net/package-stats.php?pid=1085&rid=&cid=6",
         "verified": false
+    },
+    "md4c": {
+        "bugs": "https://github.com/eklausme/php-md4c/issues",
+        "docs": "",
+        "home": "https://eklausmeier.goip.de/blog/2024/02-24-md4c-php-extension",
+        "maintained": true,
+        "repo": "https://github.com/eklausme/php-md4c",
+        "stats": "https://pecl.php.net/package-stats.php?pid=1087&rid=&cid=36",
+        "verified": false
     }
 }
