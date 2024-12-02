@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.415.0](https://github.com/claylo/pecl-info/compare/v1.414.0...v1.415.0) (2024-12-02)
+
+### Added
+
+* add md4c 1.1 release ([97b231c](https://github.com/claylo/pecl-info/commit/97b231cd25eb06f8fe11e6f322b57189d57d13af))
+
 ## [1.414.0](https://github.com/claylo/pecl-info/compare/v1.413.0...v1.414.0) (2024-12-01)
 
 ### Added
