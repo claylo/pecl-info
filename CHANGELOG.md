@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.416.0](https://github.com/claylo/pecl-info/compare/v1.415.0...v1.416.0) (2024-12-04)
+
+### Added
+
+* add pcov 1.0.12 release ([99a76ed](https://github.com/claylo/pecl-info/commit/99a76ed948dc18d6eebfe6cc65839031764b4982))
+
 ## [1.415.0](https://github.com/claylo/pecl-info/compare/v1.414.0...v1.415.0) (2024-12-02)
 
 ### Added

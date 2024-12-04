@@ -1415,7 +1415,7 @@ A self contained php-code-coverage compatible driver for PHP.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/pcov-1.0.11">1.0.11</a> on 20 Dec 2021</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/pcov-1.0.12">1.0.12</a> on 04 Dec 2024</li>
 <li>Release data in JSON: <a href="data/packages/pcov.json">pcov.json</a></li>
 <li><a href="https://pecl.php.net/packages/pcov">pcov on PECL</a></li>
 <li><a href="https://github.com/krakjoe/pcov">:house: Home</a> &nbsp; <a href="https://github.com/krakjoe/pcov">:sparkles: Source</a> &nbsp; <a href="https://github.com/krakjoe/pcov/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1031&rid=&cid=25">:bar_chart: Stats</a></li>
