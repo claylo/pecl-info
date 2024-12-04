@@ -25420,12 +25420,22 @@
         "category": "PHP",
         "deprecated": false,
         "description": "A self contained php-code-coverage compatible driver for PHP.",
-        "latestReleaseDate": "2021-12-20T17:02:57+00:00",
-        "latestVersion": "1.0.11",
+        "latestReleaseDate": "2024-12-04T09:09:53+00:00",
+        "latestVersion": "1.0.12",
         "license": "PHP License",
         "name": "pcov",
         "php8Mentioned": true,
         "releases": {
+            "1.0.12": {
+                "version": "1.0.12",
+                "state": "stable",
+                "license": "PHP License",
+                "releasedBy": "remi",
+                "releaseDate": "2024-12-04T09:09:53+00:00",
+                "releaseNotes": "- PHP 8.4 compatibility",
+                "get": "https://pecl.php.net/get/pcov-1.0.12",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
             "1.0.11": {
                 "version": "1.0.11",
                 "state": "stable",
