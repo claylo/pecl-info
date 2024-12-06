@@ -2007,7 +2007,7 @@ project.
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/skywalking_agent-0.7.0">0.7.0</a> on 28 Sep 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/skywalking_agent-0.8.0">0.8.0</a> on 06 Dec 2024</li>
 <li>Release data in JSON: <a href="data/packages/skywalking_agent.json">skywalking_agent.json</a></li>
 <li><a href="https://pecl.php.net/packages/skywalking_agent">skywalking_agent on PECL</a></li>
 <li><a href="https://skywalking.apache.org/">:house: Home</a> &nbsp; <a href="https://github.com/apache/skywalking-php">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1073&rid=&cid=29">:bar_chart: Stats</a></li>
