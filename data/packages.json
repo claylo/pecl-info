@@ -36974,12 +36974,22 @@
         "category": "Tools and Utilities",
         "deprecated": false,
         "description": "The PHP Agent for Apache SkyWalking, which provides the native tracing abilities for PHP project.",
-        "latestReleaseDate": "2023-09-28T01:03:49+00:00",
-        "latestVersion": "0.7.0",
+        "latestReleaseDate": "2024-12-06T14:11:28+00:00",
+        "latestVersion": "0.8.0",
         "license": "Apache-2.0",
         "name": "skywalking_agent",
         "php8Mentioned": true,
         "releases": {
+            "0.8.0": {
+                "version": "0.8.0",
+                "state": "stable",
+                "license": "Apache-2.0",
+                "releasedBy": "skywalking",
+                "releaseDate": "2024-12-06T14:11:28+00:00",
+                "releaseNotes": "## What's Changed\n* Fix swoole server on request param. by @jmjoy in https://github.com/apache/skywalking-php/pull/100\n* Update NOTICE by @jmjoy in https://github.com/apache/skywalking-php/pull/103\n* Bump phpseclib/phpseclib from 3.0.19 to 3.0.35 in /tests/php by @dependabot in https://github.com/apache/skywalking-php/pull/104\n* Inject skywalking context. by @jmjoy in https://github.com/apache/skywalking-php/pull/107\n* Defined instance_name by @Almot77 in https://github.com/apache/skywalking-php/pull/111\n* Add TLS by @heyanlong in https://github.com/apache/skywalking-php/pull/112\n* Add feature sasl for rdkafka by @jmjoy in https://github.com/apache/skywalking-php/pull/116\n* Refactor worker to standalone crate by @jmjoy in https://github.com/apache/skywalking-php/pull/118\n* Add standalone reporter type and standalone skywalking worker by @jmjoy in https://github.com/apache/skywalking-php/pull/119\n* Adapt to `Swoole\\Coroutine\\Http\\Server` by @jmjoy in https://github.com/apache/skywalking-php/pull/120\n* Adapt to `Swoole\\Http\\Server` by @jmjoy in https://github.com/apache/skywalking-php/pull/121\n* Update document by @jmjoy in https://github.com/apache/skywalking-php/pull/122\n* Release SkyWalking PHP 0.8.0 by @jmjoy in https://github.com/apache/skywalking-php/pull/123\n\n## New Contributors\n* @Almot77 made their first contribution in https://github.com/apache/skywalking-php/pull/111\n\n**Full Changelog**: https://github.com/apache/skywalking-php/compare/v0.7.0...v0.8.0",
+                "get": "https://pecl.php.net/get/skywalking_agent-0.8.0",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "0.7.0": {
                 "version": "0.7.0",
                 "state": "stable",
