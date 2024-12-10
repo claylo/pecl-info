@@ -2,12 +2,22 @@
     "category": "File System",
     "deprecated": false,
     "description": "smbclient is a PHP extension that uses Samba's libsmbclient library to provide\n  Samba related functions and 'smb' streams to PHP programs.",
-    "latestReleaseDate": "2024-11-26T00:57:02+00:00",
-    "latestVersion": "1.1.2",
+    "latestReleaseDate": "2024-12-10T00:25:46+00:00",
+    "latestVersion": "1.2.0dev",
     "license": "BSD 2-clause",
     "name": "smbclient",
     "php8Mentioned": true,
     "releases": {
+        "1.2.0dev": {
+            "version": "1.2.0dev",
+            "state": "stable",
+            "license": "BSD 2-clause",
+            "releasedBy": "eduardo",
+            "releaseDate": "2024-12-10T00:25:46+00:00",
+            "releaseNotes": "Removed support for PHP versions older than 7.4.",
+            "get": "https://pecl.php.net/get/smbclient-1.2.0dev",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
         "1.1.2": {
             "version": "1.1.2",
             "state": "stable",
