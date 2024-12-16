@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.420.0](https://github.com/claylo/pecl-info/compare/v1.419.0...v1.420.0) (2024-12-16)
+
+### Added
+
+* add swoole 6.0.0 release ([782d85d](https://github.com/claylo/pecl-info/commit/782d85d27ad16778d114fd298919adeb43596111))
+
 ## [1.419.0](https://github.com/claylo/pecl-info/compare/v1.418.0...v1.419.0) (2024-12-10)
 
 ### Added

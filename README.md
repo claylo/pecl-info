@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (120)
+## Relevant Extensions (119)
 
 ### Authentication (2)
 
@@ -668,7 +668,7 @@ Event-driven asynchronous and concurrent networking engine with high performance
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/swoole-6.0.0RC1">6.0.0RC1</a> on 22 Nov 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/swoole-6.0.0">6.0.0</a> on 16 Dec 2024</li>
 <li>Release data in JSON: <a href="data/packages/swoole.json">swoole.json</a></li>
 <li><a href="https://pecl.php.net/packages/swoole">swoole on PECL</a></li>
 <li><a href="https://wiki.swoole.com/en/#/">:book: Documentation</a> &nbsp; <a href="https://github.com/swoole/swoole-src">:house: Home</a> &nbsp; <a href="https://github.com/swoole/swoole-src">:sparkles: Source</a> &nbsp; <a href="https://github.com/swoole/swoole-src/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=957&rid=&cid=44">:bar_chart: Stats</a></li>
@@ -1344,7 +1344,7 @@ This provides a similar API (object-based) to java.util.BitSet with some PHP-spe
 </details>
 
 ***
-### PHP (11)
+### PHP (10)
 
 <details><summary>ast&nbsp; :eight:</summary>
 <p>Extension exposing PHP 7 abstract syntax tree</p>
@@ -1419,22 +1419,6 @@ A self contained php-code-coverage compatible driver for PHP.
 <li>Release data in JSON: <a href="data/packages/pcov.json">pcov.json</a></li>
 <li><a href="https://pecl.php.net/packages/pcov">pcov on PECL</a></li>
 <li><a href="https://github.com/krakjoe/pcov">:house: Home</a> &nbsp; <a href="https://github.com/krakjoe/pcov">:sparkles: Source</a> &nbsp; <a href="https://github.com/krakjoe/pcov/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1031&rid=&cid=25">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>psr&nbsp; :eight:</summary>
-<p>PSR interfaces</p>
-
-```
-This extension provides the accepted PSR interfaces, so they can be used in an extension.
-
-  See http://www.php-fig.org/psr/
-```
-<p><ul>
-<li>License: BSD-2-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/psr-1.2.0">1.2.0</a> on 11 Dec 2021</li>
-<li>Release data in JSON: <a href="data/packages/psr.json">psr.json</a></li>
-<li><a href="https://pecl.php.net/packages/psr">psr on PECL</a></li>
-<li><a href="https://github.com/jbboehr/php-psr">:book: Documentation</a> &nbsp; <a href="https://github.com/jbboehr/php-psr">:house: Home</a> &nbsp; <a href="https://github.com/jbboehr/php-psr">:sparkles: Source</a> &nbsp; <a href="https://github.com/jbboehr/php-psr/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1012&rid=&cid=25">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>runkit7&nbsp; :eight:</summary>
