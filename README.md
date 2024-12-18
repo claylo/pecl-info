@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (119)
+## Relevant Extensions (118)
 
 ### Authentication (2)
 
@@ -117,7 +117,7 @@ over just using the base PHP userland library.
 </details>
 
 ***
-### Caching (5)
+### Caching (4)
 
 <details><summary>APCu&nbsp; :eight:</summary>
 <p>APCu - APC User Cache</p>
@@ -179,21 +179,6 @@ servers.
 <li>Release data in JSON: <a href="data/packages/memcached.json">memcached.json</a></li>
 <li><a href="https://pecl.php.net/packages/memcached">memcached on PECL</a></li>
 <li><a href="https://php.net/memcached">:book: Documentation</a> &nbsp; <a href="https://github.com/php-memcached-dev/php-memcached">:house: Home</a> &nbsp; <a href="https://github.com/php-memcached-dev/php-memcached">:sparkles: Source</a> &nbsp; <a href="https://github.com/php-memcached-dev/php-memcached/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=847&rid=&cid=3">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>yac&nbsp; :eight:</summary>
-<p>lockless user data cache</p>
-
-```
-yac is a fast, lock-free, shared memory user data cache for PHP. it can be used to replace
-APC or local memcached.
-```
-<p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/yac-2.3.1">2.3.1</a> on 18 Dec 2021</li>
-<li>Release data in JSON: <a href="data/packages/yac.json">yac.json</a></li>
-<li><a href="https://pecl.php.net/packages/yac">yac on PECL</a></li>
-<li><a href="https://www.php.net/manual/en/book.yac.php">:book: Documentation</a> &nbsp; <a href="https://github.com/laruence/yac">:house: Home</a> &nbsp; <a href="https://github.com/laruence/yac">:sparkles: Source</a> &nbsp; <a href="https://github.com/laruence/yac/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=949&rid=&cid=3">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 
@@ -1961,7 +1946,7 @@ https://developers.google.com/protocol-buffers/
 ```
 <p><ul>
 <li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/protobuf-4.29.1">4.29.1</a> on 04 Dec 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/protobuf-4.29.2">4.29.2</a> on 18 Dec 2024</li>
 <li>Release data in JSON: <a href="data/packages/protobuf.json">protobuf.json</a></li>
 <li><a href="https://pecl.php.net/packages/protobuf">protobuf on PECL</a></li>
 <li><a href="https://github.com/google/protobuf">:sparkles: Source</a> &nbsp; <a href="https://github.com/protocolbuffers/protobuf/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=997&rid=&cid=29">:bar_chart: Stats</a></li>
