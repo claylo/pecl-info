@@ -2,12 +2,22 @@
     "category": "File Formats",
     "deprecated": false,
     "description": "Retrieve RPM information using librpm, from local RPM file or from installed packages database.\n\nDocumentation: https://www.php.net/rpminfo",
-    "latestReleaseDate": "2024-09-03T13:33:28+00:00",
-    "latestVersion": "1.1.1",
+    "latestReleaseDate": "2024-12-19T14:56:46+00:00",
+    "latestVersion": "1.2.0",
     "license": "PHP-3.01",
     "name": "rpminfo",
     "php8Mentioned": true,
     "releases": {
+        "1.2.0": {
+            "version": "1.2.0",
+            "state": "stable",
+            "license": "PHP-3.01",
+            "releasedBy": "remi",
+            "releaseDate": "2024-12-19T14:56:46+00:00",
+            "releaseNotes": "- add rpmexpand, rpmexpandnumeric to retrieve rpm macro value\n- add rpmdefine to set rpm macro value",
+            "get": "https://pecl.php.net/get/rpminfo-1.2.0",
+            "SPDX-License-Identifier": null
+        },
         "1.1.1": {
             "version": "1.1.1",
             "state": "stable",
