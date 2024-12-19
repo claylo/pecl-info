@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.423.0](https://github.com/claylo/pecl-info/compare/v1.422.0...v1.423.0) (2024-12-19)
+
+### Added
+
+* add rpminfo 1.2.0 release ([f500106](https://github.com/claylo/pecl-info/commit/f5001064b364b52e05ec43fbccb48114b0e87893))
+
 ## [1.422.0](https://github.com/claylo/pecl-info/compare/v1.421.0...v1.422.0) (2024-12-18)
 
 ### Added
