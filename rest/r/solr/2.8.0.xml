@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<p xmlns="http://pear.php.net/dtd/rest.package"    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:xlink="http://www.w3.org/1999/xlink"    xsi:schemaLocation="http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd">
- <n>solr</n>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/solr">solr</p>
  <c>pecl.php.net</c>
- <ca xlink:href="/rest/c/Search+Engine">Search Engine</ca>
+ <v>2.8.0</v>
+ <st>stable</st>
  <l>PHP License</l>
+ <m>biggi</m>
  <s>The Apache Solr PHP extension is an extremely fast,
     light-weight, feature-rich library that allows PHP applications to
     communicate easily and efficiently with Apache Solr server instances
@@ -21,5 +26,13 @@ Please consult the documentation for more details on features. Included in the s
 Please consider staring the package on github, and get a free release ;)
 
 https://github.com/php/pecl-search_engine-solr</d>
- <r xlink:href="/rest/r/solr"/>
-</p>
+ <da>2024-12-30 15:14:50</da>
+ <n>Features:
+- Support PHP 8.4
+
+Internals:
+- improve config.m4 and config.w32 (remicollet and petk)</n>
+ <f>627604</f>
+ <g>https://pecl.php.net/get/solr-2.8.0</g>
+ <x xlink:href="package.2.8.0.xml"/>
+</r>

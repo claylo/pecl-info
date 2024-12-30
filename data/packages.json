@@ -37262,12 +37262,22 @@
         "category": "Search Engine",
         "deprecated": false,
         "description": "It effectively simplifies the process of interacting with Apache Solr using PHP.\n\nThe extension has features such as built-in, serializable query string builder objects which effectively simplifies the manipulation of name-value pair request parameters across repeated requests.\nThe response from the Solr server is also automatically parsed into native php objects whose properties can be accessed as array keys or object properties without any additional configuration on the client-side.\n\nIts advanced HTTP client reuses the same connection across multiple requests and provides built-in support for connecting to Solr servers secured behind HTTP Authentication or HTTP proxy servers. It is also able to connect to SSL-enabled containers.\n\nPlease consult the documentation for more details on features. Included in the source code are phpdoc stubs that enable autocomplete of Solr classes and methods in IDE during development in userland.\n\nPlease consider staring the package on github, and get a free release ;)\n\nhttps://github.com/php/pecl-search_engine-solr",
-        "latestReleaseDate": "2024-01-11T16:50:29+00:00",
-        "latestVersion": "2.7.0",
+        "latestReleaseDate": "2024-12-30T15:14:50+00:00",
+        "latestVersion": "2.8.0",
         "license": "PHP License",
         "name": "solr",
         "php8Mentioned": true,
         "releases": {
+            "2.8.0": {
+                "version": "2.8.0",
+                "state": "stable",
+                "license": "PHP License",
+                "releasedBy": "biggi",
+                "releaseDate": "2024-12-30T15:14:50+00:00",
+                "releaseNotes": "Features:\n- Support PHP 8.4\n\nInternals:\n- improve config.m4 and config.w32 (remicollet and petk)",
+                "get": "https://pecl.php.net/get/solr-2.8.0",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
             "2.7.0": {
                 "version": "2.7.0",
                 "state": "stable",
