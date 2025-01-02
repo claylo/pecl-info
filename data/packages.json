@@ -52474,12 +52474,22 @@
         "category": "Configuration",
         "deprecated": false,
         "description": "This extension provides API for communicating with ZooKeeper service.",
-        "latestReleaseDate": "2023-03-09T01:24:20+00:00",
-        "latestVersion": "1.2.1",
+        "latestReleaseDate": "2025-01-02T06:11:51+00:00",
+        "latestVersion": "1.2.2",
         "license": "PHP",
         "name": "zookeeper",
         "php8Mentioned": true,
         "releases": {
+            "1.2.2": {
+                "version": "1.2.2",
+                "state": "stable",
+                "license": "PHP",
+                "releasedBy": "timandes",
+                "releaseDate": "2025-01-02T06:11:51+00:00",
+                "releaseNotes": "Changes:\n- Change max-version of required PHP (Thanks to johnpbloch, GH PR #61)",
+                "get": "https://pecl.php.net/get/zookeeper-1.2.2",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
             "1.2.1": {
                 "version": "1.2.1",
                 "state": "alpha",
@@ -52520,16 +52530,6 @@
                 "get": "https://pecl.php.net/get/zookeeper-0.7.2",
                 "SPDX-License-Identifier": "PHP-3.01"
             },
-            "0.6.4": {
-                "version": "0.6.4",
-                "state": "stable",
-                "license": "PHP",
-                "releasedBy": "timandes",
-                "releaseDate": "2019-03-12T01:26:49+00:00",
-                "releaseNotes": "Bugs:\n- Fix segmentation fault after destroying Zookeeper instance (Issue #32)",
-                "get": "https://pecl.php.net/get/zookeeper-0.6.4",
-                "SPDX-License-Identifier": "PHP-3.01"
-            },
             "0.7.1": {
                 "version": "0.7.1",
                 "state": "alpha",
@@ -52548,6 +52548,16 @@
                 "releaseDate": "2019-02-27T01:32:13+00:00",
                 "releaseNotes": "Improvements:\n- Make parameter 'acls' of method 'create' optional\n- Add static method 'dispatch'\n- Drop PHP-5 support (Issue #14)\nBugs:\n- Fix segmentation fault found in PHP 7.3",
                 "get": "https://pecl.php.net/get/zookeeper-0.7.0",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
+            "0.6.4": {
+                "version": "0.6.4",
+                "state": "stable",
+                "license": "PHP",
+                "releasedBy": "timandes",
+                "releaseDate": "2019-03-12T01:26:49+00:00",
+                "releaseNotes": "Bugs:\n- Fix segmentation fault after destroying Zookeeper instance (Issue #32)",
+                "get": "https://pecl.php.net/get/zookeeper-0.6.4",
                 "SPDX-License-Identifier": "PHP-3.01"
             },
             "0.6.3": {
