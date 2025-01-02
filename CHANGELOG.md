@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.425.0](https://github.com/claylo/pecl-info/compare/v1.424.0...v1.425.0) (2025-01-02)
+
+### Added
+
+* add zookeeper 1.2.2 release ([d16e11b](https://github.com/claylo/pecl-info/commit/d16e11bf5c046d1467f4365c984b47ce0abc7bf4))
+
 ## [1.424.0](https://github.com/claylo/pecl-info/compare/v1.423.0...v1.424.0) (2024-12-30)
 
 ### Added
