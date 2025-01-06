@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (117)
+## Relevant Extensions (115)
 
 ### Authentication (2)
 
@@ -661,7 +661,7 @@ uv provides access to underlying libuv functions
 </details>
 
 ***
-### File Formats (9)
+### File Formats (8)
 
 <details><summary>brotli</summary>
 <p>Brotli extension</p>
@@ -691,20 +691,6 @@ A new and improved CSV file PHP extension which follows RFC 4180 instead of usin
 <li>Release data in JSON: <a href="data/packages/csv.json">csv.json</a></li>
 <li><a href="https://pecl.php.net/packages/CSV">CSV on PECL</a></li>
 <li><a href="https://gitlab.com/Girgias/csv-php-extension">:house: Home</a> &nbsp; <a href="https://gitlab.com/Girgias/csv-php-extension.git">:sparkles: Source</a> &nbsp; <a href="https://gitlab.com/Girgias/csv-php-extension/-/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1047&rid=&cid=33">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>lzf</summary>
-<p>LZF compression.</p>
-
-```
-This package handles LZF de/compression.
-```
-<p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/lzf-1.7.0">1.7.0</a> on 04 Jan 2022</li>
-<li>Release data in JSON: <a href="data/packages/lzf.json">lzf.json</a></li>
-<li><a href="https://pecl.php.net/packages/lzf">lzf on PECL</a></li>
-<li><a href="https://php.net/lzf">:book: Documentation</a> &nbsp; <a href="https://github.com/php/pecl-file_formats-lzf">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-file_formats-lzf/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=262&rid=&cid=33">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>maxminddb&nbsp; :eight:</summary>
@@ -1482,7 +1468,7 @@ Code Coverage Analysis
 ```
 <p><ul>
 <li>License: </li>
-<li>Latest Release: <a href="https://pecl.php.net/get/xdebug-3.4.0">3.4.0</a> on 28 Nov 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/xdebug-3.4.1">3.4.1</a> on 06 Jan 2025</li>
 <li>Release data in JSON: <a href="data/packages/xdebug.json">xdebug.json</a></li>
 <li><a href="https://pecl.php.net/packages/xdebug">xdebug on PECL</a></li>
 <li><a href="https://xdebug.org/docs/">:book: Documentation</a> &nbsp; <a href="https://xdebug.org/">:house: Home</a> &nbsp; <a href="https://github.com/xdebug/xdebug">:sparkles: Source</a> &nbsp; <a href="https://bugs.xdebug.org">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=214&rid=&cid=25">:bar_chart: Stats</a></li>
@@ -1571,7 +1557,7 @@ This extension provides a set of interfaces to communicate between
 </details>
 
 ***
-### Structures (5)
+### Structures (4)
 
 <details><summary>ds&nbsp; :eight:</summary>
 <p>Data Structures</p>
@@ -1631,21 +1617,6 @@ functionality
 <li>Release data in JSON: <a href="data/packages/teds.json">teds.json</a></li>
 <li><a href="https://pecl.php.net/packages/teds">teds on PECL</a></li>
 <li><a href="https://github.com/TysonAndre/pecl-teds">:house: Home</a> &nbsp; <a href="https://github.com/TysonAndre/pecl-teds">:sparkles: Source</a> &nbsp; <a href="https://github.com/TysonAndre/pecl-teds/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1064&rid=&cid=27">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>weakreference_bc</summary>
-<p>Polyfill of WeakMap/WeakReference for older PHP versions. This is a fork of the abandoned "weakref" PECL.</p>
-
-```
-A weak reference provides a gateway to an object without preventing that object from being
-collected by the garbage collector (GC).
-```
-<p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/weakreference_bc-0.4.1">0.4.1</a> on 06 Jan 2022</li>
-<li>Release data in JSON: <a href="data/packages/weakreference_bc.json">weakreference_bc.json</a></li>
-<li><a href="https://pecl.php.net/packages/weakreference_bc">weakreference_bc on PECL</a></li>
-<li><a href="https://github.com/tysonandre/pecl-weakreference_bc">:house: Home</a> &nbsp; <a href="https://github.com/tysonandre/pecl-weakreference_bc">:sparkles: Source</a> &nbsp; <a href="https://github.com/TysonAndre/pecl-weakreference_bc/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1066&rid=&cid=27">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 
