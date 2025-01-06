@@ -47068,12 +47068,22 @@
         "category": "PHP",
         "deprecated": false,
         "description": "Xdebug and provides a range of features to improve the PHP development\nexperience.\n\nStep Debugging\n    A way to step through your code in your IDE or editor while the script is\n    executing.\n\nImprovements to PHP's error reporting\n    An improved var_dump() function, stack traces for Notices, Warnings, Errors\n    and Exceptions to highlight the code path to the error\n\nTracing\n    Writes every function call, with arguments and invocation location to disk.\n    Optionally also includes every variable assignment and return value for\n    each function.\n\nProfiling\n    Allows you, with the help of visualisation tools, to analyse the\n    performance of your PHP application and find bottlenecks.\n\nCode Coverage Analysis\n    To show which parts of your code base are executed when running unit tests\n    with PHP Unit.",
-        "latestReleaseDate": "2024-11-28T14:38:40+00:00",
-        "latestVersion": "3.4.0",
+        "latestReleaseDate": "2025-01-06T17:35:59+00:00",
+        "latestVersion": "3.4.1",
         "license": "Xdebug-1.03",
         "name": "xdebug",
         "php8Mentioned": true,
         "releases": {
+            "3.4.1": {
+                "version": "3.4.1",
+                "state": "stable",
+                "license": "Xdebug-1.03",
+                "releasedBy": "derick",
+                "releaseDate": "2025-01-06T17:35:59+00:00",
+                "releaseNotes": "Mon, Jan 06, 2025 - Xdebug 3.4.1\n\n= Fixed bugs:\n\n  - Fixed issue #2306: Segmentation fault on each HTTP request when not listening to debugging connections\n  - Fixed issue #2307: Segmentation fault due to a superglobal being a reference while checking for triggers\n  - Fixed issue #2309: Installation on Windows with PHP PIE failing\n  - Fixed issue #2310: xdebug 3.4.0 crashes php8.1-fpm after script execution",
+                "get": "https://pecl.php.net/get/xdebug-3.4.1",
+                "SPDX-License-Identifier": null
+            },
             "3.4.0": {
                 "version": "3.4.0",
                 "state": "stable",
