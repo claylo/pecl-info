@@ -2,12 +2,22 @@
     "category": "Networking",
     "deprecated": false,
     "description": "This extension uses libgearman library to provide API for communicating with gearmand, and writing clients and workers.",
-    "latestReleaseDate": "2025-01-07T13:04:50+00:00",
-    "latestVersion": "2.1.3",
+    "latestReleaseDate": "2025-01-07T18:34:21+00:00",
+    "latestVersion": "2.1.4",
     "license": "PHP",
     "name": "gearman",
     "php8Mentioned": true,
     "releases": {
+        "2.1.4": {
+            "version": "2.1.4",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rasmus",
+            "releaseDate": "2025-01-07T18:34:21+00:00",
+            "releaseNotes": "PHP 8 is now supported",
+            "get": "https://pecl.php.net/get/gearman-2.1.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
         "2.1.3": {
             "version": "2.1.3",
             "state": "stable",

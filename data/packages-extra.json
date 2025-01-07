@@ -839,12 +839,12 @@
     },
     "gearman": {
         "bugs": "https://github.com/php/pecl-networking-gearman/issues",
-        "docs": "https://php.net/gearman",
+        "docs": "http://php.net/gearman",
         "home": "http://gearman.org",
         "maintained": true,
         "repo": "https://github.com/php/pecl-networking-gearman",
         "stats": "https://pecl.php.net/package-stats.php?pid=861&rid=&cid=16",
-        "verified": true
+        "verified": false
     },
     "gender": {
         "bugs": "",
