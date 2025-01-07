@@ -1160,10 +1160,10 @@ writing clients and workers.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/gearman-2.1.2">2.1.2</a> on 04 Apr 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/gearman-2.1.3">2.1.3</a> on 07 Jan 2025</li>
 <li>Release data in JSON: <a href="data/packages/gearman.json">gearman.json</a></li>
 <li><a href="https://pecl.php.net/packages/gearman">gearman on PECL</a></li>
-<li><a href="http://php.net/gearman">:book: Documentation</a> &nbsp; <a href="http://gearman.org">:house: Home</a> &nbsp; <a href="https://github.com/php/pecl-networking-gearman">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-networking-gearman/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=861&rid=&cid=16">:bar_chart: Stats</a></li>
+<li><a href="https://php.net/gearman">:book: Documentation</a> &nbsp; <a href="http://gearman.org">:house: Home</a> &nbsp; <a href="https://github.com/php/pecl-networking-gearman">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-networking-gearman/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=861&rid=&cid=16">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>gRPC&nbsp; :eight:</summary>
