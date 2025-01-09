@@ -4803,12 +4803,22 @@
         "category": "Benchmarking",
         "deprecated": false,
         "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-        "latestReleaseDate": "2024-11-19T20:57:36+00:00",
-        "latestVersion": "1.5.1",
+        "latestReleaseDate": "2025-01-09T10:50:42+00:00",
+        "latestVersion": "1.6.0",
         "license": "BSD 3-Clause",
         "name": "datadog_trace",
         "php8Mentioned": true,
         "releases": {
+            "1.6.0": {
+                "version": "1.6.0",
+                "state": "stable",
+                "license": "BSD 3-Clause",
+                "releasedBy": "flowcontrol",
+                "releaseDate": "2025-01-09T10:50:42+00:00",
+                "releaseNotes": "## Tracer\n### Added\n- Kafka Integration #3004\n- `8.4` supported version in `datadog-setup.php` #2984 (thanks @greg0ire)\n### Changed\n- Leave a hint at what to do if the temp dir is not writable in installer #3015\n### Fixed\n- JIT enabled detection in SSI loader #2971\n- Block signals for more functions #2999\n- Use-after-free with live-debugger #2989\n- root span name in Slim V4 #3020\n- PHP 8.4 deprecations #2981 (thanks @JeppeKnockaert)\n- Avoid repeated processing of internal functions #3022\n### Internal\n- `library_entrypoint.start` metric #3009\n- Bump rust to 1.78 #3005\n- Exit if execv failed #2983\n- Compatibility with newest arginfo gen_stub from PHP 8.4 #2973\n\n## Application Security Management\n### Added\n- Support for endpoint, header, network and session fingerprints #2955\n- WAF telemetry #2735\n- Implement LFI #2770\n- ASM Standalone #2903, #3001\n### Changed\n- Upgrade libddwaf to v1.22.0 #3007\n### Fixed\n- Restart usleep() on EINTR #3002\n- recv/writev calls in the face of interrupting signals #3008\n- Blocking from a hook is not stopping code execution #2836\n\n## Profiling\n### Fixed\n- crash on PHP 8.4 #3019 (thanks @SanderVerkuil)\n- Mismatch in UTF8 handling #2990",
+                "get": "https://pecl.php.net/get/datadog_trace-1.6.0",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "1.5.1": {
                 "version": "1.5.1",
                 "state": "stable",
