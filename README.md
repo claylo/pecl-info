@@ -64,7 +64,7 @@ The Datadog PHP Tracer brings APM and distributed tracing to PHP.
 ```
 <p><ul>
 <li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/datadog_trace-1.6.1">1.6.1</a> on 09 Jan 2025</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/datadog_trace-1.6.2">1.6.2</a> on 11 Jan 2025</li>
 <li>Release data in JSON: <a href="data/packages/datadog_trace.json">datadog_trace.json</a></li>
 <li><a href="https://pecl.php.net/packages/datadog_trace">datadog_trace on PECL</a></li>
 <li><a href="https://docs.datadoghq.com/tracing/languages/php/">:house: Home</a> &nbsp; <a href="https://github.com/DataDog/dd-trace-php">:sparkles: Source</a> &nbsp; <a href="https://github.com/DataDog/dd-trace-php/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1029&rid=&cid=2">:bar_chart: Stats</a></li>

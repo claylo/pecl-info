@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.433.0](https://github.com/claylo/pecl-info/compare/v1.432.0...v1.433.0) (2025-01-11)
+
+### Added
+
+* add datadog_trace 1.6.2 release ([caf7326](https://github.com/claylo/pecl-info/commit/caf7326e035dcf77f5c9f0436f8901075e04bdc6))
+
 ## [1.432.0](https://github.com/claylo/pecl-info/compare/v1.431.0...v1.432.0) (2025-01-09)
 
 ### Added
