@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (114)
+## Relevant Extensions (113)
 
 ### Authentication (2)
 
@@ -840,25 +840,6 @@ https://mdref.m6w6.name/http
 </details>
 
 ***
-### Images (1)
-
-<details><summary>imagick&nbsp; :eight:</summary>
-<p>Provides a wrapper to the ImageMagick library.</p>
-
-```
-Imagick is a native php extension to create and modify images using the ImageMagick API.
-This extension requires ImageMagick version 6.5.3-10+ and PHP 5.4.0+.
-```
-<p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/imagick-3.7.0">3.7.0</a> on 11 Jan 2022</li>
-<li>Release data in JSON: <a href="data/packages/imagick.json">imagick.json</a></li>
-<li><a href="https://pecl.php.net/packages/imagick">imagick on PECL</a></li>
-<li><a href="https://php.net/imagick">:book: Documentation</a> &nbsp; <a href="https://phpimagick.com">:house: Home</a> &nbsp; <a href="https://github.com/Imagick/imagick">:sparkles: Source</a> &nbsp; <a href="https://github.com/Imagick/imagick/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=76&rid=&cid=12">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-
-***
 ### Internationalization (1)
 
 <details><summary>ecma_intl&nbsp; :eight:</summary>
@@ -1163,7 +1144,7 @@ languages.
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/gRPC-1.69.0">1.69.0</a> on 06 Jan 2025</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/gRPC-1.70.0RC1">1.70.0RC1</a> on 15 Jan 2025</li>
 <li>Release data in JSON: <a href="data/packages/grpc.json">grpc.json</a></li>
 <li><a href="https://pecl.php.net/packages/gRPC">gRPC on PECL</a></li>
 <li><a href="http://grpc.io">:house: Home</a> &nbsp; <a href="https://github.com/grpc/grpc/tree/master/src/php/ext/grpc">:sparkles: Source</a> &nbsp; <a href="https://github.com/grpc/grpc/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=986&rid=&cid=16">:bar_chart: Stats</a></li>
