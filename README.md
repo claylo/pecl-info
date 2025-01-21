@@ -1310,7 +1310,7 @@ https://github.com/open-telemetry/opentelemetry-php-instrumentation
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/opentelemetry-1.1.0">1.1.0</a> on 03 Oct 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/opentelemetry-1.1.1">1.1.1</a> on 20 Jan 2025</li>
 <li>Release data in JSON: <a href="data/packages/opentelemetry.json">opentelemetry.json</a></li>
 <li><a href="https://pecl.php.net/packages/opentelemetry">opentelemetry on PECL</a></li>
 <li><a href="https://opentelemetry.io/docs/instrumentation/php/automatic/">:book: Documentation</a> &nbsp; <a href="https://opentelemetry.io/">:house: Home</a> &nbsp; <a href="https://github.com/open-telemetry/opentelemetry-php-instrumentation">:sparkles: Source</a> &nbsp; <a href="https://github.com/open-telemetry/opentelemetry-php-instrumentation/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1077&rid=&cid=25">:bar_chart: Stats</a></li>
