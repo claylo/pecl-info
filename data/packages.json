@@ -14731,12 +14731,22 @@
         "category": "System",
         "deprecated": false,
         "description": "Ice is a PHP framework frozen in C extension.",
-        "latestReleaseDate": "2023-02-19T17:43:33+00:00",
-        "latestVersion": "1.10.1",
+        "latestReleaseDate": "2025-01-26T16:04:12+00:00",
+        "latestVersion": "1.11.0",
         "license": "BSD-3-Clause",
         "name": "ice",
         "php8Mentioned": true,
         "releases": {
+            "1.11.0": {
+                "version": "1.11.0",
+                "state": "stable",
+                "license": "BSD-3-Clause",
+                "releasedBy": "mruz",
+                "releaseDate": "2025-01-26T16:04:12+00:00",
+                "releaseNotes": "- PHP 7.4, drop support\n- PHP 8.3 and PHP 8.4, add support #314\n- Update zephir parser to 1.7.0\n- Update zephir-lang/zephir@c79b710",
+                "get": "https://pecl.php.net/get/ice-1.11.0",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "1.10.1": {
                 "version": "1.10.1",
                 "state": "stable",
