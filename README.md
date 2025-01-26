@@ -1811,7 +1811,7 @@ properties that you want from a decoded JSON document.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/jsonpath-2.1.0">2.1.0</a> on 08 Jan 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/jsonpath-2.1.1">2.1.1</a> on 26 Jan 2025</li>
 <li>Release data in JSON: <a href="data/packages/jsonpath.json">jsonpath.json</a></li>
 <li><a href="https://pecl.php.net/packages/jsonpath">jsonpath on PECL</a></li>
 <li><a href="https://github.com/supermetrics-public/pecl-jsonpath">:sparkles: Source</a> &nbsp; <a href="https://github.com/supermetrics-public/pecl-jsonpath/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1062&rid=&cid=29">:bar_chart: Stats</a></li>
