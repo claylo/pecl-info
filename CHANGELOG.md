@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.441.0](https://github.com/claylo/pecl-info/compare/v1.440.0...v1.441.0) (2025-01-26)
+
+### Added
+
+* add ice 1.11.0 release ([6f94fc9](https://github.com/claylo/pecl-info/commit/6f94fc9835859938fcc1f64013e2f5d2506af980))
+
 ## [1.440.0](https://github.com/claylo/pecl-info/compare/v1.439.0...v1.440.0) (2025-01-26)
 
 ### Added

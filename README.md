@@ -1604,7 +1604,7 @@ Ice is a PHP framework frozen in C extension.
 ```
 <p><ul>
 <li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/ice-1.10.1">1.10.1</a> on 19 Feb 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/ice-1.11.0">1.11.0</a> on 26 Jan 2025</li>
 <li>Release data in JSON: <a href="data/packages/ice.json">ice.json</a></li>
 <li><a href="https://pecl.php.net/packages/ice">ice on PECL</a></li>
 <li><a href="https://www.iceframework.org">:house: Home</a> &nbsp; <a href="https://github.com/ice/framework.git">:sparkles: Source</a> &nbsp; <a href="https://github.com/ice/framework/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1048&rid=&cid=37">:bar_chart: Stats</a></li>
