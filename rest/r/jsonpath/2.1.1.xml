@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/jsonpath">jsonpath</p>
+ <c>pecl.php.net</c>
+ <v>2.1.1</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>viktor</m>
+ <s>Extract data using JSONPath notation</s>
+ <d>This extension allows you to use the versatile JSONPath query language to extract the properties that you want from a decoded JSON document.</d>
+ <da>2025-01-26 01:03:43</da>
+ <n>* Add link to PHP Extensions Repository for Windows DLLs by @crocodele in https://github.com/supermetrics-public/pecl-jsonpath/pull/180
+* Add dependabot configuration by @dawitnida in https://github.com/supermetrics-public/pecl-jsonpath/pull/181
+* Bump actions/checkout from 2 to 4 by @dependabot in https://github.com/supermetrics-public/pecl-jsonpath/pull/183
+* Bump DoozyX/clang-format-lint-action from 0.12 to 0.17 by @dependabot in https://github.com/supermetrics-public/pecl-jsonpath/pull/182
+* Bump schneegans/dynamic-badges-action from 1.0.0 to 1.7.0 by @dependabot in https://github.com/supermetrics-public/pecl-jsonpath/pull/184
+* Bump php/setup-php-sdk from 0.8 to 0.9 by @dependabot in https://github.com/supermetrics-public/pecl-jsonpath/pull/185
+* Bump DoozyX/clang-format-lint-action from 0.17 to 0.18 by @dependabot in https://github.com/supermetrics-public/pecl-jsonpath/pull/186
+* Add composer.json for compatibility with PIE by @crocodele in https://github.com/supermetrics-public/pecl-jsonpath/pull/187
+* Fix segmentation fault when matching regex string against non-string values by @crocodele in https://github.com/supermetrics-public/pecl-jsonpath/pull/190</n>
+ <f>53278</f>
+ <g>https://pecl.php.net/get/jsonpath-2.1.1</g>
+ <x xlink:href="package.2.1.1.xml"/>
+</r>
