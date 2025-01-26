@@ -2,12 +2,22 @@
     "category": "Tools and Utilities",
     "deprecated": false,
     "description": "This extension allows you to use the versatile JSONPath query language to extract the properties that you want from a decoded JSON document.",
-    "latestReleaseDate": "2024-01-08T15:55:27+00:00",
-    "latestVersion": "2.1.0",
+    "latestReleaseDate": "2025-01-26T01:03:43+00:00",
+    "latestVersion": "2.1.1",
     "license": "PHP License",
     "name": "jsonpath",
     "php8Mentioned": true,
     "releases": {
+        "2.1.1": {
+            "version": "2.1.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "viktor",
+            "releaseDate": "2025-01-26T01:03:43+00:00",
+            "releaseNotes": "* Add link to PHP Extensions Repository for Windows DLLs by @crocodele in https://github.com/supermetrics-public/pecl-jsonpath/pull/180\n* Add dependabot configuration by @dawitnida in https://github.com/supermetrics-public/pecl-jsonpath/pull/181\n* Bump actions/checkout from 2 to 4 by @dependabot in https://github.com/supermetrics-public/pecl-jsonpath/pull/183\n* Bump DoozyX/clang-format-lint-action from 0.12 to 0.17 by @dependabot in https://github.com/supermetrics-public/pecl-jsonpath/pull/182\n* Bump schneegans/dynamic-badges-action from 1.0.0 to 1.7.0 by @dependabot in https://github.com/supermetrics-public/pecl-jsonpath/pull/184\n* Bump php/setup-php-sdk from 0.8 to 0.9 by @dependabot in https://github.com/supermetrics-public/pecl-jsonpath/pull/185\n* Bump DoozyX/clang-format-lint-action from 0.17 to 0.18 by @dependabot in https://github.com/supermetrics-public/pecl-jsonpath/pull/186\n* Add composer.json for compatibility with PIE by @crocodele in https://github.com/supermetrics-public/pecl-jsonpath/pull/187\n* Fix segmentation fault when matching regex string against non-string values by @crocodele in https://github.com/supermetrics-public/pecl-jsonpath/pull/190",
+            "get": "https://pecl.php.net/get/jsonpath-2.1.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
         "2.1.0": {
             "version": "2.1.0",
             "state": "stable",
