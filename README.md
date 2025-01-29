@@ -1320,11 +1320,11 @@ https://github.com/open-telemetry/opentelemetry-php-instrumentation
 <p>Parallel concurrency API</p>
 
 ```
-A succinct parallel concurrency API for PHP 7.
+A succinct parallel concurrency API for PHP 7 and 8.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/parallel-1.2.5">1.2.5</a> on 04 Nov 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/parallel-1.2.6">1.2.6</a> on 29 Jan 2025</li>
 <li>Release data in JSON: <a href="data/packages/parallel.json">parallel.json</a></li>
 <li><a href="https://pecl.php.net/packages/parallel">parallel on PECL</a></li>
 <li><a href="https://github.com/krakjoe/parallel">:house: Home</a> &nbsp; <a href="https://github.com/krakjoe/parallel">:sparkles: Source</a> &nbsp; <a href="https://github.com/krakjoe/parallel/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1032&rid=&cid=25">:bar_chart: Stats</a></li>
@@ -1827,7 +1827,7 @@ properties that you want from a decoded JSON document.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/jsonpath-2.1.1">2.1.1</a> on 26 Jan 2025</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/jsonpath-3.0.0">3.0.0</a> on 29 Jan 2025</li>
 <li>Release data in JSON: <a href="data/packages/jsonpath.json">jsonpath.json</a></li>
 <li><a href="https://pecl.php.net/packages/jsonpath">jsonpath on PECL</a></li>
 <li><a href="https://github.com/supermetrics-public/pecl-jsonpath">:sparkles: Source</a> &nbsp; <a href="https://github.com/supermetrics-public/pecl-jsonpath/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1062&rid=&cid=29">:bar_chart: Stats</a></li>

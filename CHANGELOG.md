@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.443.0](https://github.com/claylo/pecl-info/compare/v1.442.0...v1.443.0) (2025-01-29)
+
+### Added
+
+* add parallel 1.2.6, jsonpath 3.0.0 releases ([60e81ec](https://github.com/claylo/pecl-info/commit/60e81ecf303c889800750b28ffa56ccc8cd54375))
+
 ## [1.442.0](https://github.com/claylo/pecl-info/compare/v1.441.0...v1.442.0) (2025-01-29)
 
 ### Added
