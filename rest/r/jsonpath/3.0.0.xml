@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/jsonpath">jsonpath</p>
+ <c>pecl.php.net</c>
+ <v>3.0.0</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>viktor</m>
+ <s>Extract data using JSONPath notation</s>
+ <d>This extension allows you to use the versatile JSONPath query language to extract the properties that you want from a decoded JSON document.</d>
+ <da>2025-01-29 13:28:30</da>
+ <n>## Breaking changes
+
+In comparisons involving numbers, numeric strings are now treated as numbers.
+
+Example:
+```
+$data = [
+    &#039;items&#039; =&gt; [
+        [
+            &#039;id&#039; =&gt; 1,
+            &#039;quantity&#039; =&gt; 5,
+        ],
+        [
+            &#039;id&#039; =&gt; 2,
+            &#039;quantity&#039; =&gt; &#039;8&#039;,
+        ],
+    ],
+];
+```
+
+Before: `$.items[?(@.quantity &gt; 0)]` returns `[[&#039;id&#039; =&gt; 1, &#039;quantity&#039; =&gt; 5]]`.
+After: `$.items[?(@.quantity &gt; 0)]` returns `[[&#039;id&#039; =&gt; 1, &#039;quantity&#039; =&gt; 5], [&#039;id&#039; =&gt; 2, &#039;quantity&#039; =&gt; &#039;8&#039;]]`.
+
+## What&#039;s Changed
+* Test also on PHP 8.4 for Windows and PHP 8.5 (nightly) for Linux, cache PHP-SDK in Windows by @crocodele in https://github.com/supermetrics-public/pecl-jsonpath/pull/192
+* Allow numeric strings in number comparisons by @crocodele in https://github.com/supermetrics-public/pecl-jsonpath/pull/191</n>
+ <f>54072</f>
+ <g>https://pecl.php.net/get/jsonpath-3.0.0</g>
+ <x xlink:href="package.3.0.0.xml"/>
+</r>
