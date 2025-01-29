@@ -26592,12 +26592,22 @@
         "category": "Database",
         "deprecated": false,
         "description": "This extension provides an IBM Informix Dynamic Server driver for PDO. To build and run\nPDO_INFORMIX, you must install the Informix Client Software Development Kit (CSDK)\nfrom http://ibm.com/informix/downloads.html.",
-        "latestReleaseDate": "2022-01-21T11:33:53+00:00",
-        "latestVersion": "1.3.6",
+        "latestReleaseDate": "2025-01-29T07:12:25+00:00",
+        "latestVersion": "1.3.7",
         "license": "Apache License 2.0",
         "name": "PDO_INFORMIX",
         "php8Mentioned": true,
         "releases": {
+            "1.3.7": {
+                "version": "1.3.7",
+                "state": "stable",
+                "license": "Apache License 2.0",
+                "releasedBy": "vnkbabu",
+                "releaseDate": "2025-01-29T07:12:25+00:00",
+                "releaseNotes": "Changed the config file to support CSDK 5.0 for informix 15.",
+                "get": "https://pecl.php.net/get/PDO_INFORMIX-1.3.7",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "1.3.6": {
                 "version": "1.3.6",
                 "state": "stable",

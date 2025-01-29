@@ -2025,12 +2025,12 @@
     },
     "pdo_informix": {
         "bugs": "",
-        "docs": "http://php.net/pdo-informix",
+        "docs": "https://php.net/pdo-informix",
         "home": "",
         "maintained": true,
         "repo": "",
         "stats": "https://pecl.php.net/package-stats.php?pid=549&rid=&cid=7",
-        "verified": false
+        "verified": true
     },
     "pdo_mysql": {
         "bugs": "",
