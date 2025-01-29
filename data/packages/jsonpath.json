@@ -2,12 +2,22 @@
     "category": "Tools and Utilities",
     "deprecated": false,
     "description": "This extension allows you to use the versatile JSONPath query language to extract the properties that you want from a decoded JSON document.",
-    "latestReleaseDate": "2025-01-26T01:03:43+00:00",
-    "latestVersion": "2.1.1",
+    "latestReleaseDate": "2025-01-29T13:28:30+00:00",
+    "latestVersion": "3.0.0",
     "license": "PHP License",
     "name": "jsonpath",
     "php8Mentioned": true,
     "releases": {
+        "3.0.0": {
+            "version": "3.0.0",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "viktor",
+            "releaseDate": "2025-01-29T13:28:30+00:00",
+            "releaseNotes": "## Breaking changes\n\nIn comparisons involving numbers, numeric strings are now treated as numbers.\n\nExample:\n```\n$data = [\n    'items' => [\n        [\n            'id' => 1,\n            'quantity' => 5,\n        ],\n        [\n            'id' => 2,\n            'quantity' => '8',\n        ],\n    ],\n];\n```\n\nBefore: `$.items[?(@.quantity > 0)]` returns `[['id' => 1, 'quantity' => 5]]`.\nAfter: `$.items[?(@.quantity > 0)]` returns `[['id' => 1, 'quantity' => 5], ['id' => 2, 'quantity' => '8']]`.\n\n## What's Changed\n* Test also on PHP 8.4 for Windows and PHP 8.5 (nightly) for Linux, cache PHP-SDK in Windows by @crocodele in https://github.com/supermetrics-public/pecl-jsonpath/pull/192\n* Allow numeric strings in number comparisons by @crocodele in https://github.com/supermetrics-public/pecl-jsonpath/pull/191",
+            "get": "https://pecl.php.net/get/jsonpath-3.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
         "2.1.1": {
             "version": "2.1.1",
             "state": "stable",

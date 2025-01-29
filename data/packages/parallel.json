@@ -1,13 +1,23 @@
 {
     "category": "PHP",
     "deprecated": false,
-    "description": "A succinct parallel concurrency API for PHP 7.",
-    "latestReleaseDate": "2024-11-04T15:01:10+00:00",
-    "latestVersion": "1.2.5",
+    "description": "A succinct parallel concurrency API for PHP 7 and 8.",
+    "latestReleaseDate": "2025-01-29T15:09:05+00:00",
+    "latestVersion": "1.2.6",
     "license": "PHP License",
     "name": "parallel",
     "php8Mentioned": true,
     "releases": {
+        "1.2.6": {
+            "version": "1.2.6",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "flowcontrol",
+            "releaseDate": "2025-01-29T15:09:05+00:00",
+            "releaseNotes": "- fix/update Windows CI #330\n- upgrade docker images and add PHP 8.4 containers #331\n- support in-tree build #334\n- support building via pie #335, #336",
+            "get": "https://pecl.php.net/get/parallel-1.2.6",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
         "1.2.5": {
             "version": "1.2.5",
             "state": "stable",
