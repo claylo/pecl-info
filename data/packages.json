@@ -3409,12 +3409,22 @@
         "category": "Database",
         "deprecated": false,
         "description": "The PHP client library provides fast access to documents stored in a Couchbase Server.",
-        "latestReleaseDate": "2024-11-23T05:07:27+00:00",
-        "latestVersion": "4.2.5",
+        "latestReleaseDate": "2025-01-29T23:53:44+00:00",
+        "latestVersion": "4.2.6",
         "license": "Apache V2",
         "name": "couchbase",
         "php8Mentioned": true,
         "releases": {
+            "4.2.6": {
+                "version": "4.2.6",
+                "state": "stable",
+                "license": "Apache V2",
+                "releasedBy": "avsej",
+                "releaseDate": "2025-01-29T23:53:44+00:00",
+                "releaseNotes": "Enhancements\n============\n\n* PCBC-992: Add zone aware replica reads (#201).\n\nFixes\n=====\n\n* PCBC-1018: Do not destroy expired connection if it still being used (#200).\n\n* PCBC-1016: Fix `trustCertificate` option that was ignored previously (#195).\n\n* Update core to 1.0.5 (#203).\n\n* Fix PHP 8.4 deprecation warnings (#198).\n\n* Fix Undefined constant error (#196).",
+                "get": "https://pecl.php.net/get/couchbase-4.2.6",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "4.2.5": {
                 "version": "4.2.5",
                 "state": "stable",
