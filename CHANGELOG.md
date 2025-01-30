@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.444.0](https://github.com/claylo/pecl-info/compare/v1.443.0...v1.444.0) (2025-01-30)
+
+### Added
+
+* add couchbase 4.2.6 release ([d18c3d9](https://github.com/claylo/pecl-info/commit/d18c3d92f588613b8bcd07e6445bccb349820df6))
+
 ## [1.443.0](https://github.com/claylo/pecl-info/compare/v1.442.0...v1.443.0) (2025-01-29)
 
 ### Added
