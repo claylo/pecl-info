@@ -24374,12 +24374,22 @@
         "category": "Event",
         "deprecated": false,
         "description": "Build high-performance, scalable, concurrent TCP, UDP, Unix Socket, HTTP, WebSocket services with PHP and easy to use coroutine, fibers API.",
-        "latestReleaseDate": "2023-12-10T21:10:48+00:00",
-        "latestVersion": "22.1.2",
+        "latestReleaseDate": "2025-02-02T21:24:07+00:00",
+        "latestVersion": "25.2.0",
         "license": "Apache 2.0",
         "name": "openswoole",
         "php8Mentioned": true,
         "releases": {
+            "25.2.0": {
+                "version": "25.2.0",
+                "state": "stable",
+                "license": "Apache 2.0",
+                "releasedBy": "doubaokun",
+                "releaseDate": "2025-02-02T21:24:07+00:00",
+                "releaseNotes": ". PHP 8.4 support",
+                "get": "https://pecl.php.net/get/openswoole-25.2.0",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "22.1.2": {
                 "version": "22.1.2",
                 "state": "stable",
