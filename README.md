@@ -595,7 +595,7 @@ services with PHP and easy to use coroutine, fibers API.
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/openswoole-22.1.2">22.1.2</a> on 10 Dec 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/openswoole-25.2.0">25.2.0</a> on 02 Feb 2025</li>
 <li>Release data in JSON: <a href="data/packages/openswoole.json">openswoole.json</a></li>
 <li><a href="https://pecl.php.net/packages/openswoole">openswoole on PECL</a></li>
 <li><a href="https://www.swoole.co.uk">:house: Home</a> &nbsp; <a href="https://github.com/openswoole">:sparkles: Source</a> &nbsp; <a href="https://github.com/openswoole/swoole-src/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1065&rid=&cid=44">:bar_chart: Stats</a></li>
