@@ -1173,12 +1173,12 @@ weather station code, weather station name, mobile country code (MCC), mobile ne
 
 ```
 This PECL extension allows you to detect proxy servers with country, region, city, ISP,
-domain, usage type, ASN, security threat and proxy type information using IP2Proxy binary
-database.
+domain, usage type, ASN, security threat, proxy type, provider and fraud score information
+using IP2Proxy binary database.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/ip2proxy-3.0.3">3.0.3</a> on 01 Aug 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/ip2proxy-3.1.0">3.1.0</a> on 05 Feb 2025</li>
 <li>Release data in JSON: <a href="data/packages/ip2proxy.json">ip2proxy.json</a></li>
 <li><a href="https://pecl.php.net/packages/ip2proxy">ip2proxy on PECL</a></li>
 <li><a href="https://www.ip2location.com">:house: Home</a> &nbsp; <a href="https://github.com/ip2location/ip2proxy-pecl">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1053&rid=&cid=16">:bar_chart: Stats</a></li>

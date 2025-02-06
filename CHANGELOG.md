@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.448.0](https://github.com/claylo/pecl-info/compare/v1.447.0...v1.448.0) (2025-02-06)
+
+### Added
+
+* add ip2proxy 3.1.0 release ([b3d7c33](https://github.com/claylo/pecl-info/commit/b3d7c33c670dd78b015d7060afb7062622fafdf5))
+
 ## [1.447.0](https://github.com/claylo/pecl-info/compare/v1.446.0...v1.447.0) (2025-02-05)
 
 ### Added
