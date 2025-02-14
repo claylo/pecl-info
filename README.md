@@ -64,7 +64,7 @@ The Datadog PHP Tracer brings APM and distributed tracing to PHP.
 ```
 <p><ul>
 <li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/datadog_trace-1.6.3">1.6.3</a> on 17 Jan 2025</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/datadog_trace-1.6.4">1.6.4</a> on 14 Feb 2025</li>
 <li>Release data in JSON: <a href="data/packages/datadog_trace.json">datadog_trace.json</a></li>
 <li><a href="https://pecl.php.net/packages/datadog_trace">datadog_trace on PECL</a></li>
 <li><a href="https://docs.datadoghq.com/tracing/languages/php/">:house: Home</a> &nbsp; <a href="https://github.com/DataDog/dd-trace-php">:sparkles: Source</a> &nbsp; <a href="https://github.com/DataDog/dd-trace-php/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1029&rid=&cid=2">:bar_chart: Stats</a></li>
@@ -615,8 +615,6 @@ Event-driven asynchronous and concurrent networking engine with high performance
         - millisecond timer
         - built-in tcp/http/websocket/http2 server
         - coroutine tcp/http/websocket client
-        - coroutine mysql client
-        - coroutine redis client
         - coroutine read/write file system
         - coroutine dns lookup
         - support IPv4/IPv6/UnixSocket/TCP/UDP
@@ -624,7 +622,7 @@ Event-driven asynchronous and concurrent networking engine with high performance
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/swoole-6.0.0">6.0.0</a> on 16 Dec 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/swoole-6.0.1">6.0.1</a> on 14 Feb 2025</li>
 <li>Release data in JSON: <a href="data/packages/swoole.json">swoole.json</a></li>
 <li><a href="https://pecl.php.net/packages/swoole">swoole on PECL</a></li>
 <li><a href="https://wiki.swoole.com/en/#/">:book: Documentation</a> &nbsp; <a href="https://github.com/swoole/swoole-src">:house: Home</a> &nbsp; <a href="https://github.com/swoole/swoole-src">:sparkles: Source</a> &nbsp; <a href="https://github.com/swoole/swoole-src/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=957&rid=&cid=44">:bar_chart: Stats</a></li>
