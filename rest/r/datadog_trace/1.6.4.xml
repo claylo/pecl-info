@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>1.6.4</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>flowcontrol</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2025-02-14 17:36:33</da>
+ <n>## Tracer
+### Fixed
+- Add track_error: false on ignored caught exceptions #3074
+- Log fd opening on windows #3076
+- Validate `DD_TRACE_AGENT_URL` #3050
+## Profiler
+### Fixed
+- Combine thread timeout errors properly #3081
+- Avoid dlclose if threads did not join #3075
+- guard VERSION against CRLF characters #3049
+### Chore
+- Apply cargo fmt and fix feature builds #3064
+### Internal
+- Update dependencies #3052
+- Bump libdatadog to v15 #3048
+## AppSec
+### Internal
+- Trim CRLF chars on version file on Remote Config #3051</n>
+ <f>1346248</f>
+ <g>https://pecl.php.net/get/datadog_trace-1.6.4</g>
+ <x xlink:href="package.1.6.4.xml"/>
+</r>

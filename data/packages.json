@@ -4813,12 +4813,22 @@
         "category": "Benchmarking",
         "deprecated": false,
         "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-        "latestReleaseDate": "2025-01-17T14:55:19+00:00",
-        "latestVersion": "1.6.3",
+        "latestReleaseDate": "2025-02-14T17:36:33+00:00",
+        "latestVersion": "1.6.4",
         "license": "BSD 3-Clause",
         "name": "datadog_trace",
         "php8Mentioned": true,
         "releases": {
+            "1.6.4": {
+                "version": "1.6.4",
+                "state": "stable",
+                "license": "BSD 3-Clause",
+                "releasedBy": "flowcontrol",
+                "releaseDate": "2025-02-14T17:36:33+00:00",
+                "releaseNotes": "## Tracer\n### Fixed\n- Add track_error: false on ignored caught exceptions #3074\n- Log fd opening on windows #3076\n- Validate `DD_TRACE_AGENT_URL` #3050\n## Profiler\n### Fixed\n- Combine thread timeout errors properly #3081\n- Avoid dlclose if threads did not join #3075\n- guard VERSION against CRLF characters #3049\n### Chore\n- Apply cargo fmt and fix feature builds #3064\n### Internal\n- Update dependencies #3052\n- Bump libdatadog to v15 #3048\n## AppSec\n### Internal\n- Trim CRLF chars on version file on Remote Config #3051",
+                "get": "https://pecl.php.net/get/datadog_trace-1.6.4",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "1.6.3": {
                 "version": "1.6.3",
                 "state": "stable",
@@ -39599,13 +39609,23 @@
     "swoole": {
         "category": "Event",
         "deprecated": false,
-        "description": "Event-driven asynchronous and concurrent networking engine with high performance for PHP.\n        - event-driven\n        - coroutine\n        - asynchronous non-blocking\n        - multi-thread reactor\n        - multi-process worker\n        - multi-protocol\n        - millisecond timer\n        - built-in tcp/http/websocket/http2 server\n        - coroutine tcp/http/websocket client\n        - coroutine mysql client\n        - coroutine redis client\n        - coroutine read/write file system\n        - coroutine dns lookup\n        - support IPv4/IPv6/UnixSocket/TCP/UDP\n        - support SSL/TLS encrypted transmission",
-        "latestReleaseDate": "2024-12-16T08:03:31+00:00",
-        "latestVersion": "6.0.0",
+        "description": "Event-driven asynchronous and concurrent networking engine with high performance for PHP.\n        - event-driven\n        - coroutine\n        - asynchronous non-blocking\n        - multi-thread reactor\n        - multi-process worker\n        - multi-protocol\n        - millisecond timer\n        - built-in tcp/http/websocket/http2 server\n        - coroutine tcp/http/websocket client\n        - coroutine read/write file system\n        - coroutine dns lookup\n        - support IPv4/IPv6/UnixSocket/TCP/UDP\n        - support SSL/TLS encrypted transmission",
+        "latestReleaseDate": "2025-02-14T13:20:57+00:00",
+        "latestVersion": "6.0.1",
         "license": "Apache2.0",
         "name": "swoole",
         "php8Mentioned": true,
         "releases": {
+            "6.0.1": {
+                "version": "6.0.1",
+                "state": "stable",
+                "license": "Apache2.0",
+                "releasedBy": "tianfenghan",
+                "releaseDate": "2025-02-14T13:20:57+00:00",
+                "releaseNotes": "- Fixed an issue in `SWOOLE_THREAD` mode where the process could not exit properly due to not removing the listening event. @NathanFreeman\n- Fixed an issue where large file uploads failed when the `single_thread` configuration was enabled. @matyhtf\n- Fixed an issue where compilation could not find the specific file path if the same variable was already defined in `config.m4`. @matyhtf\n- Fixed an issue in `Swoole\\Process\\Pool` where processes could not exit properly upon timeout. @matyhtf\n- Fixed an issue in `SWOOLE_THREAD` mode where calling `putenv` caused the program to crash. @matyhtf\n- Fixed an issue in `SWOOLE_THREAD` mode where event callback functions could not be set for independent ports. @matyhtf\n- Fixed an issue in `SWOOLE_THREAD` mode where runtime parameters could not be retrieved in events such as `onWorkerStart`. @matyhtf\n- Fixed an issue where Postgresql would degrade to synchronous mode when receiving large amounts of data under coroutine. @NathanFreeman\n- Optimized the parameter judgment logic of `swoole_substr_json_decode`/`swoole_substr_unserialize` functions. @Appla\n- Fixed an issue with CPU affinity settings in `config.m4`. @remicollet\n- In the Http service, if the process restarts, the underlying layer will send a 500 Internal Server to requests waiting in the queue, close the connection, and discard these requests after sending. @NathanFreeman\n- Since the runtime configuration relied upon by the `stream factory` and `stream ops` in the PHP underlying is not thread-safe, in multi-thread mode, only the main thread is allowed to modify these runtime configurations before creating child threads.  @matyhtf\n- Fixed an issue in `SWOOLE_THREAD` mode where the heartbeat detection did not function properly. @matyhtf",
+                "get": "https://pecl.php.net/get/swoole-6.0.1",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "6.0.0": {
                 "version": "6.0.0",
                 "state": "stable",

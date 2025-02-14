@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>6.0.1</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in tcp/http/websocket/http2 server
+        - coroutine tcp/http/websocket client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2025-02-14 13:20:57</da>
+ <n>- Fixed an issue in `SWOOLE_THREAD` mode where the process could not exit properly due to not removing the listening event. @NathanFreeman
+- Fixed an issue where large file uploads failed when the `single_thread` configuration was enabled. @matyhtf
+- Fixed an issue where compilation could not find the specific file path if the same variable was already defined in `config.m4`. @matyhtf
+- Fixed an issue in `Swoole\Process\Pool` where processes could not exit properly upon timeout. @matyhtf
+- Fixed an issue in `SWOOLE_THREAD` mode where calling `putenv` caused the program to crash. @matyhtf
+- Fixed an issue in `SWOOLE_THREAD` mode where event callback functions could not be set for independent ports. @matyhtf
+- Fixed an issue in `SWOOLE_THREAD` mode where runtime parameters could not be retrieved in events such as `onWorkerStart`. @matyhtf
+- Fixed an issue where Postgresql would degrade to synchronous mode when receiving large amounts of data under coroutine. @NathanFreeman
+- Optimized the parameter judgment logic of `swoole_substr_json_decode`/`swoole_substr_unserialize` functions. @Appla
+- Fixed an issue with CPU affinity settings in `config.m4`. @remicollet
+- In the Http service, if the process restarts, the underlying layer will send a 500 Internal Server to requests waiting in the queue, close the connection, and discard these requests after sending. @NathanFreeman
+- Since the runtime configuration relied upon by the `stream factory` and `stream ops` in the PHP underlying is not thread-safe, in multi-thread mode, only the main thread is allowed to modify these runtime configurations before creating child threads.  @matyhtf
+- Fixed an issue in `SWOOLE_THREAD` mode where the heartbeat detection did not function properly. @matyhtf</n>
+ <f>2329862</f>
+ <g>https://pecl.php.net/get/swoole-6.0.1</g>
+ <x xlink:href="package.6.0.1.xml"/>
+</r>
