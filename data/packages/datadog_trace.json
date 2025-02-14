@@ -2,12 +2,22 @@
     "category": "Benchmarking",
     "deprecated": false,
     "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-    "latestReleaseDate": "2025-01-17T14:55:19+00:00",
-    "latestVersion": "1.6.3",
+    "latestReleaseDate": "2025-02-14T17:36:33+00:00",
+    "latestVersion": "1.6.4",
     "license": "BSD 3-Clause",
     "name": "datadog_trace",
     "php8Mentioned": true,
     "releases": {
+        "1.6.4": {
+            "version": "1.6.4",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "flowcontrol",
+            "releaseDate": "2025-02-14T17:36:33+00:00",
+            "releaseNotes": "## Tracer\n### Fixed\n- Add track_error: false on ignored caught exceptions #3074\n- Log fd opening on windows #3076\n- Validate `DD_TRACE_AGENT_URL` #3050\n## Profiler\n### Fixed\n- Combine thread timeout errors properly #3081\n- Avoid dlclose if threads did not join #3075\n- guard VERSION against CRLF characters #3049\n### Chore\n- Apply cargo fmt and fix feature builds #3064\n### Internal\n- Update dependencies #3052\n- Bump libdatadog to v15 #3048\n## AppSec\n### Internal\n- Trim CRLF chars on version file on Remote Config #3051",
+            "get": "https://pecl.php.net/get/datadog_trace-1.6.4",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "1.6.3": {
             "version": "1.6.3",
             "state": "stable",
