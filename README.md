@@ -615,6 +615,8 @@ Event-driven asynchronous and concurrent networking engine with high performance
         - millisecond timer
         - built-in tcp/http/websocket/http2 server
         - coroutine tcp/http/websocket client
+        - coroutine mysql client
+        - coroutine redis client
         - coroutine read/write file system
         - coroutine dns lookup
         - support IPv4/IPv6/UnixSocket/TCP/UDP
