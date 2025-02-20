@@ -3615,12 +3615,12 @@
     },
     "zip": {
         "bugs": "https://github.com/pierrejoye/php_zip/issues",
-        "docs": "https://php.net/zip",
+        "docs": "http://www.php.net/zip",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/pierrejoye/php_zip",
         "stats": "https://pecl.php.net/package-stats.php?pid=208&rid=&cid=33",
-        "verified": true
+        "verified": false
     },
     "zlib_filter": {
         "bugs": "",

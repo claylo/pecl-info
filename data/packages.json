@@ -51788,12 +51788,22 @@
         "category": "File Formats",
         "deprecated": false,
         "description": "Zip is an extension to create, modify and read zip files.",
-        "latestReleaseDate": "2024-09-26T07:38:02+00:00",
-        "latestVersion": "1.22.4",
+        "latestReleaseDate": "2025-02-20T10:40:27+00:00",
+        "latestVersion": "1.22.5",
         "license": "PHP-3.01",
         "name": "zip",
         "php8Mentioned": true,
         "releases": {
+            "1.22.5": {
+                "version": "1.22.5",
+                "state": "stable",
+                "license": "PHP-3.01",
+                "releasedBy": "remi",
+                "releaseDate": "2025-02-20T10:40:27+00:00",
+                "releaseNotes": "- Fix zip_entry_name() crash on invalid entry",
+                "get": "https://pecl.php.net/get/zip-1.22.5",
+                "SPDX-License-Identifier": null
+            },
             "1.22.4": {
                 "version": "1.22.4",
                 "state": "stable",
