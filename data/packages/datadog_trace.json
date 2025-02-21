@@ -2,12 +2,22 @@
     "category": "Benchmarking",
     "deprecated": false,
     "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-    "latestReleaseDate": "2025-02-14T17:36:33+00:00",
-    "latestVersion": "1.6.4",
+    "latestReleaseDate": "2025-02-21T17:48:41+00:00",
+    "latestVersion": "1.7.0",
     "license": "BSD 3-Clause",
     "name": "datadog_trace",
     "php8Mentioned": true,
     "releases": {
+        "1.7.0": {
+            "version": "1.7.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "bwoebi",
+            "releaseDate": "2025-02-21T17:48:41+00:00",
+            "releaseNotes": "## Tracer\n### Added\n- OTel Integration tracking #3084\n- Send integration error logs through telemetry #3006\n\n### Fixed\n- Fix fork handling of sidecar #3077\n- Work around preloaded enums being broken on early PHP 8.4 versions with observers #3093\n- Missing Predis Service Override #3098\n- Lazily init cadence client Datadog/libdatadog#890\n  - This will work around unnecessarily many sidecar threads being created.\n- Fix possible race confition when adding, then removing remote config services Datadog/libdatadog#882\n  - This aims to solve watchdog timeouts of the sidecar (a cause of broken pipes).\n- Handle a zero-sized file for mmap()ing Datadog/libdatadog#838\n\n### Internal\n- Generate Markdown Table of Supported Versions #3062\n- Ensuring latest version of composer package are tested #3041\n- Fix UserAvailableConstantsTest::testAllTypesAreTested #3042\n\n## Profiling\n### Added\n- I/O profiling preview #3083\n- support new ZendMM api #2969\n\n### Changed\n- switch to pthread_atfork() for fork barrier handling #3058\n\n## Application Security Management\n### Added\n- Add rasp telemetry #3061\n- Implement SSRF #3014\n\n### Changed\n- Update user login and signup events collection #2976\n\n### Fixed\n- Fix build of appsec helper with llvm's linker #3069\n- Amend login failure event being reported #3092",
+            "get": "https://pecl.php.net/get/datadog_trace-1.7.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "1.6.4": {
             "version": "1.6.4",
             "state": "stable",
