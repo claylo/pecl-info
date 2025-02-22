@@ -3435,12 +3435,12 @@
     },
     "xmldiff": {
         "bugs": "https://github.com/php/pecl-xml-xmldiff/issues",
-        "docs": "https://php.net/manual/en/book.xmldiff.php",
+        "docs": "http://www.php.net/manual/en/book.xmldiff.php",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/php/pecl-xml-xmldiff",
         "stats": "https://pecl.php.net/package-stats.php?pid=953&rid=&cid=22",
-        "verified": true
+        "verified": false
     },
     "xmlreader": {
         "bugs": "http://bugs.php.net/",
