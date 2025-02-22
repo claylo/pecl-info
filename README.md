@@ -2003,10 +2003,10 @@ files and strings in memory can be processed.
 ```
 <p><ul>
 <li>License: BSD-2-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/xmldiff-1.1.4">1.1.4</a> on 27 Nov 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/xmldiff-1.1.5">1.1.5</a> on 22 Feb 2025</li>
 <li>Release data in JSON: <a href="data/packages/xmldiff.json">xmldiff.json</a></li>
 <li><a href="https://pecl.php.net/packages/xmldiff">xmldiff on PECL</a></li>
-<li><a href="https://php.net/manual/en/book.xmldiff.php">:book: Documentation</a> &nbsp; <a href="https://github.com/php/pecl-xml-xmldiff">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-xml-xmldiff/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=953&rid=&cid=22">:bar_chart: Stats</a></li>
+<li><a href="http://www.php.net/manual/en/book.xmldiff.php">:book: Documentation</a> &nbsp; <a href="https://github.com/php/pecl-xml-xmldiff">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-xml-xmldiff/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=953&rid=&cid=22">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 
