@@ -669,10 +669,12 @@ PHP extension for compression and decompression with Brotli library.
 A new and improved CSV file PHP extension which follows RFC 4180 instead of using a custom escape mechanism.
 
         Supports multi-bytes delimiters, enclosures, and providing a custom EOL sequence.
+
+        Sponsor me via GitHub sponsors: https://github.com/sponsors/Girgias
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/CSV-0.4.2">0.4.2</a> on 31 May 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/CSV-0.4.3">0.4.3</a> on 22 Feb 2025</li>
 <li>Release data in JSON: <a href="data/packages/csv.json">csv.json</a></li>
 <li><a href="https://pecl.php.net/packages/CSV">CSV on PECL</a></li>
 <li><a href="https://gitlab.com/Girgias/csv-php-extension">:house: Home</a> &nbsp; <a href="https://gitlab.com/Girgias/csv-php-extension.git">:sparkles: Source</a> &nbsp; <a href="https://gitlab.com/Girgias/csv-php-extension/-/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1047&rid=&cid=33">:bar_chart: Stats</a></li>
