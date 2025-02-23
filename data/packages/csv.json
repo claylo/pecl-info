@@ -1,13 +1,23 @@
 {
     "category": "File Formats",
     "deprecated": false,
-    "description": "A new and improved CSV file PHP extension which follows RFC 4180 instead of using a custom escape mechanism.\n\n        Supports multi-bytes delimiters, enclosures, and providing a custom EOL sequence.",
-    "latestReleaseDate": "2022-05-31T17:45:56+00:00",
-    "latestVersion": "0.4.2",
+    "description": "A new and improved CSV file PHP extension which follows RFC 4180 instead of using a custom escape mechanism.\n\n        Supports multi-bytes delimiters, enclosures, and providing a custom EOL sequence.\n\n        Sponsor me via GitHub sponsors: https://github.com/sponsors/Girgias",
+    "latestReleaseDate": "2025-02-22T22:54:37+00:00",
+    "latestVersion": "0.4.3",
     "license": "PHP V3.01",
     "name": "CSV",
     "php8Mentioned": true,
     "releases": {
+        "0.4.3": {
+            "version": "0.4.3",
+            "state": "alpha",
+            "license": "PHP V3.01",
+            "releasedBy": "girgias",
+            "releaseDate": "2025-02-22T22:54:37+00:00",
+            "releaseNotes": "* Fix a memory leak\n* Use standard error phrasing for error messages\n\nSponsor me via GitHub sponsors: https://github.com/sponsors/Girgias",
+            "get": "https://pecl.php.net/get/CSV-0.4.3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
         "0.4.2": {
             "version": "0.4.2",
             "state": "alpha",
@@ -16,16 +26,6 @@
             "releaseDate": "2022-05-31T17:45:56+00:00",
             "releaseNotes": "Security release\n* Fix buffer overflow when using multibyte enclosures\n* Suppress PHP 8.2 Deprecation in test\n\nSponsor me via GitHub sponsors: https://github.com/sponsors/Girgias",
             "get": "https://pecl.php.net/get/CSV-0.4.2",
-            "SPDX-License-Identifier": "PHP-3.01"
-        },
-        "0.3.2": {
-            "version": "0.3.2",
-            "state": "alpha",
-            "license": "PHP V3.01",
-            "releasedBy": "girgias",
-            "releaseDate": "2022-05-31T17:45:49+00:00",
-            "releaseNotes": "Security release\nFix buffer overflow when using multibyte enclosures",
-            "get": "https://pecl.php.net/get/CSV-0.3.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.4.1": {
@@ -46,6 +46,16 @@
             "releaseDate": "2021-02-22T22:28:36+00:00",
             "releaseNotes": "Minimum PHP version is now 8.0 due to the usage of new Zend APIs.\nAll functions have been moved to static methods of a new CSV class.\nFunction names now refer to \"buffer\" instead of \"file\" as a string is used.\nCSV::collectionToBuffer() now supports iterable collections, not just arrays.\nIn case of field number miss-match a ValueError is thrown instead of an Error.\nA new CSV::bufferToCollectionLax() has been introduced which doesn't throw a ValueError in case of field number miss-match.\n\nSponsor me via GitHub sponsors: https://github.com/sponsors/Girgias",
             "get": "https://pecl.php.net/get/CSV-0.4.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.3.2": {
+            "version": "0.3.2",
+            "state": "alpha",
+            "license": "PHP V3.01",
+            "releasedBy": "girgias",
+            "releaseDate": "2022-05-31T17:45:49+00:00",
+            "releaseNotes": "Security release\nFix buffer overflow when using multibyte enclosures",
+            "get": "https://pecl.php.net/get/CSV-0.3.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.3.1": {
