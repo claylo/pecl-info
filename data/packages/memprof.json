@@ -2,12 +2,22 @@
     "category": "Benchmarking",
     "deprecated": false,
     "description": "Memprof is a fast and accurate memory profiler that can be used to find the cause of memory leaks in PHP applications.",
-    "latestReleaseDate": "2022-01-07T14:28:30+00:00",
-    "latestVersion": "3.0.2",
+    "latestReleaseDate": "2025-02-24T14:58:44+00:00",
+    "latestVersion": "3.1.0",
     "license": "BSD",
     "name": "memprof",
     "php8Mentioned": true,
     "releases": {
+        "3.1.0": {
+            "version": "3.1.0",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2025-02-24T14:58:44+00:00",
+            "releaseNotes": "## Improvements\n- Use filename for script and binary instead of /todo.php (@samlitowitz, #92)\n- Allow output_format to be defined from ini setting (@gaelreyrol, #97)\n- Add units to Callgrind label for memory size and update `BlockCount` to `Call_Count` (@samlitowitz, #95)\n- Add support for PIE",
+            "get": "https://pecl.php.net/get/memprof-3.1.0",
+            "SPDX-License-Identifier": "MIT"
+        },
         "3.0.2": {
             "version": "3.0.2",
             "state": "stable",
