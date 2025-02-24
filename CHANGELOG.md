@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.455.0](https://github.com/claylo/pecl-info/compare/v1.454.0...v1.455.0) (2025-02-24)
+
+### Added
+
+* add memprof 3.1.0 release ([308605e](https://github.com/claylo/pecl-info/commit/308605ebae8daade4886db5e23c7205f4dbb69ee))
+
 ## [1.454.0](https://github.com/claylo/pecl-info/compare/v1.453.0...v1.454.0) (2025-02-23)
 
 ### Added

@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (113)
+## Relevant Extensions (114)
 
 ### Authentication (2)
 
@@ -54,7 +54,7 @@ library provides a stable API for applications to defer to for authentication ta
 </details>
 
 ***
-### Benchmarking (3)
+### Benchmarking (4)
 
 <details><summary>datadog_trace&nbsp; :eight:</summary>
 <p>APM and distributed tracing for PHP</p>
@@ -83,6 +83,21 @@ profiler backend, which aggregates backtraces collected by a periodic timer.
 <li>Release data in JSON: <a href="data/packages/excimer.json">excimer.json</a></li>
 <li><a href="https://pecl.php.net/packages/excimer">excimer on PECL</a></li>
 <li><a href="https://www.mediawiki.org/wiki/Excimer">:house: Home</a> &nbsp; <a href="https://github.com/wikimedia/excimer">:sparkles: Source</a> &nbsp; <a href="https://phabricator.wikimedia.org/tag/excimer/">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1057&rid=&cid=2">:bar_chart: Stats</a></li>
+</ul></p><hr />
+</details>
+<details><summary>memprof&nbsp; :eight:</summary>
+<p>Memory profiler</p>
+
+```
+Memprof is a fast and accurate memory profiler that can be used to find the cause of
+memory leaks in PHP applications.
+```
+<p><ul>
+<li>License: MIT</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/memprof-3.1.0">3.1.0</a> on 24 Feb 2025</li>
+<li>Release data in JSON: <a href="data/packages/memprof.json">memprof.json</a></li>
+<li><a href="https://pecl.php.net/packages/memprof">memprof on PECL</a></li>
+<li><a href="https://github.com/arnaud-lb/php-memory-profiler">:house: Home</a> &nbsp; <a href="https://github.com/arnaud-lb/php-memory-profiler">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=946&rid=&cid=2">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>scoutapm&nbsp; :eight:</summary>
