@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/memprof">memprof</p>
+ <c>pecl.php.net</c>
+ <v>3.1.0</v>
+ <st>stable</st>
+ <l>MIT</l>
+ <m>lbarnaud</m>
+ <s>Memory profiler</s>
+ <d>Memprof is a fast and accurate memory profiler that can be used to find the cause of memory leaks in PHP applications.</d>
+ <da>2025-02-24 14:58:44</da>
+ <n>## Improvements
+- Use filename for script and binary instead of /todo.php (@samlitowitz, #92)
+- Allow output_format to be defined from ini setting (@gaelreyrol, #97)
+- Add units to Callgrind label for memory size and update `BlockCount` to `Call_Count` (@samlitowitz, #95)
+- Add support for PIE</n>
+ <f>23131</f>
+ <g>https://pecl.php.net/get/memprof-3.1.0</g>
+ <x xlink:href="package.3.1.0.xml"/>
+</r>
