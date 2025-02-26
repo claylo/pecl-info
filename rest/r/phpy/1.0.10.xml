@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/phpy">phpy</p>
+ <c>pecl.php.net</c>
+ <v>1.0.10</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>A library for inter-calling Python and PHP</s>
+ <d>This extension allows PHP to directly use Python modules and functions without RPC.
+        Including Pytorch, transformer, numpy, tensorflow and other Python AI libraries, which can be used like calling
+        PHP functions.</d>
+ <da>2025-02-26 08:24:03</da>
+ <n>- Added named function supports
+- Only exact type(tuple/set/list...) of PyObject are converted to subclasses, otherwise they are passed as PyObject
+- Solve the problem that PyObject::offsetExists is not available
+- Fixed symbol not found when configure with python-dir</n>
+ <f>35804</f>
+ <g>https://pecl.php.net/get/phpy-1.0.10</g>
+ <x xlink:href="package.1.0.10.xml"/>
+</r>
