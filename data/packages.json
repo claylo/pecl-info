@@ -20763,12 +20763,22 @@
         "category": "Database",
         "deprecated": false,
         "description": "The purpose of this driver is to provide exceptionally thin glue between MongoDB\nand PHP, implementing only fundamental and performance-critical components\nnecessary to build a fully-functional MongoDB driver.",
-        "latestReleaseDate": "2024-11-27T14:47:28+00:00",
-        "latestVersion": "1.20.1",
+        "latestReleaseDate": "2025-02-28T09:31:37+00:00",
+        "latestVersion": "1.21.0",
         "license": "Apache License",
         "name": "mongodb",
         "php8Mentioned": true,
         "releases": {
+            "1.21.0": {
+                "version": "1.21.0",
+                "state": "stable",
+                "license": "Apache License",
+                "releasedBy": "alcaeus",
+                "releaseDate": "2025-02-28T09:31:37+00:00",
+                "releaseNotes": "## What's Changed\n* PHPC-2343: Require PHP 8.1 by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1631\n* Update branch names for GHA workflows by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1646\n* Bump version to 1.21-dev by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1661\n* Document how to run part of the test suite by @GromNaN in https://github.com/mongodb/mongo-php-driver/pull/1690\n* PHPC-2458: Deprecate float arg for UTCDateTime constructor by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1695\n* PHPC-2464: Emit deprecation notice for negative \"limit\" Query option by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1710\n* PHPC-2460: Use zend_zval_type_name instead of internal macros by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1714\n* PHPC-1247: Update links to PHP.net docs by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1735\n* Test PPC and Zseries on RHEL 9 by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1740\n* PHPC-2472: Update to libmongocrypt 1.12.0 by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1743\n* PHPC-2473: Bump to libmongoc 1.29.0 by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1748\n* PHPC-2471: Sync BSON corpus tests for Y10K date parsing by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1742\n* Use correct arch name in Windows artifacts. by @mickverm in https://github.com/mongodb/mongo-php-driver/pull/1762\n* PHPC-2499: Update to libmongoc 1.29.2 by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1766\n* PHPC-2496: WriteException stub should inherit ServerException by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1769\n* PHPC-2477: Remove unused libmongoc and libbson constants by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1768\n* PHPC-2502: Remove XFAIL in server-executeQuery-012.phpt by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1772\n* PHPC-2489: Deprecate passing WriteConcern and ReadPreference objects to execute methods by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1770\n* PHPC-2501: Conditionally define MONGOC_CYRUS_PLUGIN_PATH_PREFIX on Windows by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1777\n* PHPC-2503: Conditionally allow more concise output for libbson 1.30 by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1779\n* PHPC:2498: Accept integer types for Document array access by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1781\n* PHPC-2508 and PHPC-2506: Bump libmongoc to 1.30  by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1785\n* PHPC-2513: Check for returned _id before appending insert by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1788\n* PHPC-2519: Bump libmongoc to 1.30.1 by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1792\n* PHPC-2518: Support sort option for updateOne and replaceOne by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1794\n* Use pre-packaged-source for pie downloads by @asgrim in https://github.com/mongodb/mongo-php-driver/pull/1782\n\n## New Contributors\n* @asgrim made their first contribution in https://github.com/mongodb/mongo-php-driver/pull/1782\n\n**Full Changelog**: https://github.com/mongodb/mongo-php-driver/compare/1.20.1...1.21.0",
+                "get": "https://pecl.php.net/get/mongodb-1.21.0",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "1.20.1": {
                 "version": "1.20.1",
                 "state": "stable",
