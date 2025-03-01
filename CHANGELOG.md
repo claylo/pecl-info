@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.461.0](https://github.com/claylo/pecl-info/compare/v1.460.0...v1.461.0) (2025-03-01)
+
+### Added
+
+* add krb5 1.2.3 release ([7c6938f](https://github.com/claylo/pecl-info/commit/7c6938f3c16ba5768a9e19b2f7f203c8f6aef4a7))
+
 ## [1.460.0](https://github.com/claylo/pecl-info/compare/v1.459.0...v1.460.0) (2025-02-28)
 
 ### Added
