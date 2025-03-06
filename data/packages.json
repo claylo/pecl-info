@@ -30114,12 +30114,22 @@
         "category": "Languages",
         "deprecated": false,
         "description": "This extension allows PHP to directly use Python modules and functions without RPC.\n        Including Pytorch, transformer, numpy, tensorflow and other Python AI libraries, which can be used like calling\n        PHP functions.",
-        "latestReleaseDate": "2025-02-26T08:24:03+00:00",
-        "latestVersion": "1.0.10",
+        "latestReleaseDate": "2025-03-06T05:40:43+00:00",
+        "latestVersion": "1.0.11",
         "license": "Apache2.0",
         "name": "phpy",
         "php8Mentioned": false,
         "releases": {
+            "1.0.11": {
+                "version": "1.0.11",
+                "state": "stable",
+                "license": "Apache2.0",
+                "releasedBy": "tianfenghan",
+                "releaseDate": "2025-03-06T05:40:43+00:00",
+                "releaseNotes": "- Added PyCore::raise() to throw exceptions to the Python layer.\n- Added PyNamedFn function, which converts PHP functions into Python functions, complete with annotations, parameters, and return type information.\n- Added the PyEnum function to transform PHP classes containing only constants into Python Enums.\n- Added the bin/phpy tool.\n- Added the argument_as_object option\n- Fixed a bug in PyTuple::offsetExists where it returned false for negative input parameters.\n- Added a PyClass::__init() callback, which is invoked within the init method of Python classes.",
+                "get": "https://pecl.php.net/get/phpy-1.0.11",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "1.0.10": {
                 "version": "1.0.10",
                 "state": "stable",
