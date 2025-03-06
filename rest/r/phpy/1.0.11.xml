@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/phpy">phpy</p>
+ <c>pecl.php.net</c>
+ <v>1.0.11</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>A library for inter-calling Python and PHP</s>
+ <d>This extension allows PHP to directly use Python modules and functions without RPC.
+        Including Pytorch, transformer, numpy, tensorflow and other Python AI libraries, which can be used like calling
+        PHP functions.</d>
+ <da>2025-03-06 05:40:43</da>
+ <n>- Added PyCore::raise() to throw exceptions to the Python layer.
+- Added PyNamedFn function, which converts PHP functions into Python functions, complete with annotations, parameters, and return type information.
+- Added the PyEnum function to transform PHP classes containing only constants into Python Enums.
+- Added the bin/phpy tool.
+- Added the argument_as_object option
+- Fixed a bug in PyTuple::offsetExists where it returned false for negative input parameters.
+- Added a PyClass::__init() callback, which is invoked within the init method of Python classes.</n>
+ <f>36441</f>
+ <g>https://pecl.php.net/get/phpy-1.0.11</g>
+ <x xlink:href="package.1.0.11.xml"/>
+</r>
