@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>1.7.2</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>flowcontrol</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2025-03-07 10:58:44</da>
+ <n>## Tracer
+### Fixed
+- Fallback to writing shared memory files to /tmp, if shm_open returns ENOTSUP Datadog/libdatadog#910
+
+## Profiling
+### Fixed
+- I/O upscaling and allocation to the right sample type #3118
+- fix `DD_TAGS` support #3121</n>
+ <f>1367307</f>
+ <g>https://pecl.php.net/get/datadog_trace-1.7.2</g>
+ <x xlink:href="package.1.7.2.xml"/>
+</r>
