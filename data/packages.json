@@ -47462,12 +47462,22 @@
         "category": "PHP",
         "deprecated": false,
         "description": "Xdebug and provides a range of features to improve the PHP development\nexperience.\n\nStep Debugging\n    A way to step through your code in your IDE or editor while the script is\n    executing.\n\nImprovements to PHP's error reporting\n    An improved var_dump() function, stack traces for Notices, Warnings, Errors\n    and Exceptions to highlight the code path to the error\n\nTracing\n    Writes every function call, with arguments and invocation location to disk.\n    Optionally also includes every variable assignment and return value for\n    each function.\n\nProfiling\n    Allows you, with the help of visualisation tools, to analyse the\n    performance of your PHP application and find bottlenecks.\n\nCode Coverage Analysis\n    To show which parts of your code base are executed when running unit tests\n    with PHP Unit.",
-        "latestReleaseDate": "2025-01-06T17:35:59+00:00",
-        "latestVersion": "3.4.1",
+        "latestReleaseDate": "2025-03-09T16:30:04+00:00",
+        "latestVersion": "3.4.2",
         "license": "Xdebug-1.03",
         "name": "xdebug",
         "php8Mentioned": true,
         "releases": {
+            "3.4.2": {
+                "version": "3.4.2",
+                "state": "stable",
+                "license": "Xdebug-1.03",
+                "releasedBy": "derick",
+                "releaseDate": "2025-03-09T16:30:04+00:00",
+                "releaseNotes": "Sun, Mar 09, 2025 - Xdebug 3.4.2\n\n= Fixed bugs:\n\n  - Fixed issue #2313: var_dump does not output some Russian characters\n  - Fixed issue #2314: Class properties with hooks are always shown as null\n  - Fixed issue #2315: xdebug_dump_superglobals() leaks memory\n  - Fixed issue #2317: Code coverage leaks memory\n  - Fixed issue #2321: Segfault when null is assigned to a superglobal\n  - Fixed issue #2323: xdebug_notify() does not respect xdebug.var_display_max_* Settings\n  - Fixed issue #2327: Segmentation Fault 139 if exception thrown in callback since PHP 8.4",
+                "get": "https://pecl.php.net/get/xdebug-3.4.2",
+                "SPDX-License-Identifier": null
+            },
             "3.4.1": {
                 "version": "3.4.1",
                 "state": "stable",

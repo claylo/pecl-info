@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xdebug">xdebug</p>
+ <c>pecl.php.net</c>
+ <v>3.4.2</v>
+ <st>stable</st>
+ <l>Xdebug-1.03</l>
+ <m>derick</m>
+ <s>Xdebug is a debugging and productivity extension for PHP</s>
+ <d>Xdebug and provides a range of features to improve the PHP development
+experience.
+
+Step Debugging
+    A way to step through your code in your IDE or editor while the script is
+    executing.
+
+Improvements to PHP&#039;s error reporting
+    An improved var_dump() function, stack traces for Notices, Warnings, Errors
+    and Exceptions to highlight the code path to the error
+
+Tracing
+    Writes every function call, with arguments and invocation location to disk.
+    Optionally also includes every variable assignment and return value for
+    each function.
+
+Profiling
+    Allows you, with the help of visualisation tools, to analyse the
+    performance of your PHP application and find bottlenecks.
+
+Code Coverage Analysis
+    To show which parts of your code base are executed when running unit tests
+    with PHP Unit.</d>
+ <da>2025-03-09 16:30:04</da>
+ <n>Sun, Mar 09, 2025 - Xdebug 3.4.2
+
+= Fixed bugs:
+
+  - Fixed issue #2313: var_dump does not output some Russian characters
+  - Fixed issue #2314: Class properties with hooks are always shown as null
+  - Fixed issue #2315: xdebug_dump_superglobals() leaks memory
+  - Fixed issue #2317: Code coverage leaks memory
+  - Fixed issue #2321: Segfault when null is assigned to a superglobal
+  - Fixed issue #2323: xdebug_notify() does not respect xdebug.var_display_max_* Settings
+  - Fixed issue #2327: Segmentation Fault 139 if exception thrown in callback since PHP 8.4</n>
+ <f>262087</f>
+ <g>https://pecl.php.net/get/xdebug-3.4.2</g>
+ <x xlink:href="package.3.4.2.xml"/>
+</r>
