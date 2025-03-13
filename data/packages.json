@@ -15504,12 +15504,22 @@
         "category": "Images",
         "deprecated": false,
         "description": "Imagick is a native php extension to create and modify images using the ImageMagick API.\nThis extension requires ImageMagick version 6.5.3-10+ and PHP 5.4.0+.",
-        "latestReleaseDate": "2022-01-11T15:24:41+00:00",
-        "latestVersion": "3.7.0",
+        "latestReleaseDate": "2025-03-13T16:04:17+00:00",
+        "latestVersion": "3.8.0RC1",
         "license": "PHP License",
         "name": "imagick",
         "php8Mentioned": true,
         "releases": {
+            "3.8.0RC1": {
+                "version": "3.8.0RC1",
+                "state": "beta",
+                "license": "PHP License",
+                "releasedBy": "bukka",
+                "releaseDate": "2025-03-13T16:04:17+00:00",
+                "releaseNotes": "- Fixes:\n  * Imagick::clutImage(...) now respects the images interpolate method.\n  * You can now pass null to ImagickDraw::setStrokeDashArray() to reset the dash array.\n  * Fixed memory leak in ImageKernel\n  * Fixed compiling against PHP 8.4.\n  * Fixed various reflection issues related to incorrect arginfo\n- Added:\n  * function Imagick::clutImageWithInterpolate(Imagick $lookup_table, int $pixel_interpolate_method): bool  {}\n  * Constants Imagick::COMPRESSION_BC5, Imagick::COMPRESSION_BC7, Imagick::COMPRESSION_LERC, Imagick::DIRECTION_TOP_TO_BOTTOM, Imagick::ALPHACHANNEL_OFF_IF_OPAQUE",
+                "get": "https://pecl.php.net/get/imagick-3.8.0RC1",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
             "3.7.0": {
                 "version": "3.7.0",
                 "state": "stable",
