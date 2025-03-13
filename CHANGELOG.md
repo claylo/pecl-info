@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.469.0](https://github.com/claylo/pecl-info/compare/v1.468.0...v1.469.0) (2025-03-13)
+
+### Added
+
+* add imagick 3.8.0RC2 release ([b0a127f](https://github.com/claylo/pecl-info/commit/b0a127fc6a04d6535d4e65a203ec8a6551c01ebc))
+
 ## [1.468.0](https://github.com/claylo/pecl-info/compare/v1.467.0...v1.468.0) (2025-03-13)
 
 ### Added

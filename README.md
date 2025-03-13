@@ -864,14 +864,14 @@ https://mdref.m6w6.name/http
 
 ```
 Imagick is a native php extension to create and modify images using the ImageMagick API.
-This extension requires ImageMagick version 6.5.3-10+ and PHP 5.4.0+.
+This extension requires ImageMagick version 6.5.3-10+ and PHP 5.6.0+.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/imagick-3.8.0RC1">3.8.0RC1</a> on 13 Mar 2025</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/imagick-3.8.0RC2">3.8.0RC2</a> on 13 Mar 2025</li>
 <li>Release data in JSON: <a href="data/packages/imagick.json">imagick.json</a></li>
 <li><a href="https://pecl.php.net/packages/imagick">imagick on PECL</a></li>
-<li><a href="http://php.net/imagick">:book: Documentation</a> &nbsp; <a href="https://phpimagick.com">:house: Home</a> &nbsp; <a href="https://github.com/Imagick/imagick">:sparkles: Source</a> &nbsp; <a href="https://github.com/Imagick/imagick/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=76&rid=&cid=12">:bar_chart: Stats</a></li>
+<li><a href="https://php.net/imagick">:book: Documentation</a> &nbsp; <a href="https://phpimagick.com">:house: Home</a> &nbsp; <a href="https://github.com/Imagick/imagick">:sparkles: Source</a> &nbsp; <a href="https://github.com/Imagick/imagick/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=76&rid=&cid=12">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 
