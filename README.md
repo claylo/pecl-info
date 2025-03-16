@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (115)
+## Relevant Extensions (114)
 
 ### Authentication (2)
 
@@ -30,7 +30,7 @@ Documentation:
 ```
 <p><ul>
 <li>License: MIT</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/krb5-1.2.3">1.2.3</a> on 01 Mar 2025</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/krb5-1.2.4">1.2.4</a> on 16 Mar 2025</li>
 <li>Release data in JSON: <a href="data/packages/krb5.json">krb5.json</a></li>
 <li><a href="https://pecl.php.net/packages/krb5">krb5 on PECL</a></li>
 <li><a href="https://github.com/php/pecl-authentication-krb5">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=884&rid=&cid=1">:bar_chart: Stats</a></li>
@@ -1051,7 +1051,7 @@ A library and extension that provides objects for scientific computing in PHP.
 </details>
 
 ***
-### Multimedia (4)
+### Multimedia (3)
 
 <details><summary>sdl&nbsp; :eight:</summary>
 <p>SDL for PHP</p>
@@ -1080,21 +1080,6 @@ SDL_Texture or SDL_Surface. It requires SDL PHP Extension.
 <li>Release data in JSON: <a href="data/packages/sdl_image.json">sdl_image.json</a></li>
 <li><a href="https://pecl.php.net/packages/sdl_image">sdl_image on PECL</a></li>
 <li><a href="https://github.com/kea/php-sdl-image">:house: Home</a> &nbsp; <a href="https://github.com/kea/php-sdl-image">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1069&rid=&cid=46">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>sdl_mixer</summary>
-<p>Binding of SDL_mixer for PHP</p>
-
-```
-SDL_mixer extension for PHP provides the binding of functions for audio loading, playing
-and mixing.
-```
-<p><ul>
-<li>License: Zlib</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/sdl_mixer-0.4.0">0.4.0</a> on 15 Mar 2022</li>
-<li>Release data in JSON: <a href="data/packages/sdl_mixer.json">sdl_mixer.json</a></li>
-<li><a href="https://pecl.php.net/packages/sdl_mixer">sdl_mixer on PECL</a></li>
-<li><a href="https://github.com/kea/php-sdl-mixer">:house: Home</a> &nbsp; <a href="https://github.com/kea/php-sdl-mixer">:sparkles: Source</a> &nbsp; <a href="https://github.com/kea/php-sdl-mixer/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1068&rid=&cid=46">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>sdl_ttf</summary>
