@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (114)
+## Relevant Extensions (113)
 
 ### Authentication (2)
 
@@ -64,7 +64,7 @@ The Datadog PHP Tracer brings APM and distributed tracing to PHP.
 ```
 <p><ul>
 <li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/datadog_trace-1.7.2">1.7.2</a> on 07 Mar 2025</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/datadog_trace-1.7.3">1.7.3</a> on 17 Mar 2025</li>
 <li>Release data in JSON: <a href="data/packages/datadog_trace.json">datadog_trace.json</a></li>
 <li><a href="https://pecl.php.net/packages/datadog_trace">datadog_trace on PECL</a></li>
 <li><a href="https://docs.datadoghq.com/tracing/languages/php/">:house: Home</a> &nbsp; <a href="https://github.com/DataDog/dd-trace-php">:sparkles: Source</a> &nbsp; <a href="https://github.com/DataDog/dd-trace-php/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1029&rid=&cid=2">:bar_chart: Stats</a></li>
@@ -1051,7 +1051,7 @@ A library and extension that provides objects for scientific computing in PHP.
 </details>
 
 ***
-### Multimedia (3)
+### Multimedia (2)
 
 <details><summary>sdl&nbsp; :eight:</summary>
 <p>SDL for PHP</p>
@@ -1065,21 +1065,6 @@ Bindings of the SDL2 (Simple DirectMedia Layer) library for PHP.
 <li>Release data in JSON: <a href="data/packages/sdl.json">sdl.json</a></li>
 <li><a href="https://pecl.php.net/packages/sdl">sdl on PECL</a></li>
 <li><a href="https://github.com/Ponup/phpsdl/blob/master/README.md">:book: Documentation</a> &nbsp; <a href="https://github.com/ponup/phpsdl">:house: Home</a> &nbsp; <a href="https://github.com/ponup/phpsdl">:sparkles: Source</a> &nbsp; <a href="https://github.com/ponup/phpsdl/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=945&rid=&cid=46">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>sdl_image</summary>
-<p>Binding of SDL_image for PHP</p>
-
-```
-SDL_image for PHP allows to load images (PNG, JPG, BMP, TGA, TIF, etc.) and create
-SDL_Texture or SDL_Surface. It requires SDL PHP Extension.
-```
-<p><ul>
-<li>License: Zlib</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/sdl_image-0.4.0">0.4.0</a> on 16 Mar 2022</li>
-<li>Release data in JSON: <a href="data/packages/sdl_image.json">sdl_image.json</a></li>
-<li><a href="https://pecl.php.net/packages/sdl_image">sdl_image on PECL</a></li>
-<li><a href="https://github.com/kea/php-sdl-image">:house: Home</a> &nbsp; <a href="https://github.com/kea/php-sdl-image">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1069&rid=&cid=46">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>sdl_ttf</summary>
