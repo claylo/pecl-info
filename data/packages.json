@@ -3409,12 +3409,22 @@
         "category": "Database",
         "deprecated": false,
         "description": "The PHP client library provides fast access to documents stored in a Couchbase Server.",
-        "latestReleaseDate": "2025-01-29T23:53:44+00:00",
-        "latestVersion": "4.2.6",
+        "latestReleaseDate": "2025-03-18T19:52:15+00:00",
+        "latestVersion": "4.2.7",
         "license": "Apache V2",
         "name": "couchbase",
         "php8Mentioned": true,
         "releases": {
+            "4.2.7": {
+                "version": "4.2.7",
+                "state": "stable",
+                "license": "Apache V2",
+                "releasedBy": "avsej",
+                "releaseDate": "2025-03-18T19:52:15+00:00",
+                "releaseNotes": "Fixes\n=====\n\n* Update core to 1.0.6 (#206).",
+                "get": "https://pecl.php.net/get/couchbase-4.2.7",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "4.2.6": {
                 "version": "4.2.6",
                 "state": "stable",
