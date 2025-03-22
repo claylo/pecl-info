@@ -39824,12 +39824,22 @@
         "category": "Event",
         "deprecated": false,
         "description": "Event-driven asynchronous and concurrent networking engine with high performance for PHP.\n        - event-driven\n        - coroutine\n        - asynchronous non-blocking\n        - multi-thread reactor\n        - multi-process worker\n        - multi-protocol\n        - millisecond timer\n        - built-in tcp/http/websocket/http2 server\n        - coroutine tcp/http/websocket client\n        - coroutine mysql client\n        - coroutine redis client\n        - coroutine read/write file system\n        - coroutine dns lookup\n        - support IPv4/IPv6/UnixSocket/TCP/UDP\n        - support SSL/TLS encrypted transmission",
-        "latestReleaseDate": "2025-02-14T13:20:57+00:00",
-        "latestVersion": "6.0.1",
+        "latestReleaseDate": "2025-03-22T06:49:09+00:00",
+        "latestVersion": "6.0.2",
         "license": "Apache2.0",
         "name": "swoole",
         "php8Mentioned": true,
         "releases": {
+            "6.0.2": {
+                "version": "6.0.2",
+                "state": "stable",
+                "license": "Apache2.0",
+                "releasedBy": "tianfenghan",
+                "releaseDate": "2025-03-22T06:49:09+00:00",
+                "releaseNotes": "- Added `Swoole\\Thread::yield()`, `Swoole\\Thread::activeCount()`, and `Swoole\\Thread::isAlive()` methods. @matyhtf\n- Fixed an issue where using single-thread mode and setting heartbeat in `SWOOLE_THREAD` mode would cause exceptions. @matyhtf\n- Fixed a segmentation fault issue after enabling `swoole.enable_fiber_mock`. @NathanFreeman\n- Fixed an integer overflow issue in the Redis server. @yannaingtun\n- The Redis server currently only supports the `RESP2` protocol. When formatting strings that do not comply with this protocol, an exception will be thrown instead of logging. @matyhtf",
+                "get": "https://pecl.php.net/get/swoole-6.0.2",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "6.0.1": {
                 "version": "6.0.1",
                 "state": "stable",

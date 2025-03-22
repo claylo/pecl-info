@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>6.0.2</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in tcp/http/websocket/http2 server
+        - coroutine tcp/http/websocket client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2025-03-22 06:49:09</da>
+ <n>- Added `Swoole\Thread::yield()`, `Swoole\Thread::activeCount()`, and `Swoole\Thread::isAlive()` methods. @matyhtf
+- Fixed an issue where using single-thread mode and setting heartbeat in `SWOOLE_THREAD` mode would cause exceptions. @matyhtf
+- Fixed a segmentation fault issue after enabling `swoole.enable_fiber_mock`. @NathanFreeman
+- Fixed an integer overflow issue in the Redis server. @yannaingtun
+- The Redis server currently only supports the `RESP2` protocol. When formatting strings that do not comply with this protocol, an exception will be thrown instead of logging. @matyhtf</n>
+ <f>2330514</f>
+ <g>https://pecl.php.net/get/swoole-6.0.2</g>
+ <x xlink:href="package.6.0.2.xml"/>
+</r>
