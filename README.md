@@ -501,7 +501,7 @@ located at http://www.iana.org/time-zones.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/timezonedb-2025.1">2025.1</a> on 17 Jan 2025</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/timezonedb-2025.2">2025.2</a> on 24 Mar 2025</li>
 <li>Release data in JSON: <a href="data/packages/timezonedb.json">timezonedb.json</a></li>
 <li><a href="https://pecl.php.net/packages/timezonedb">timezonedb on PECL</a></li>
 <li><a href="https://github.com/php/pecl-datetime-timezonedb">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-datetime-timezonedb/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=536&rid=&cid=8">:bar_chart: Stats</a></li>
