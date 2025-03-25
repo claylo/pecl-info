@@ -34099,13 +34099,23 @@
     "redis": {
         "category": "Database",
         "deprecated": false,
-        "description": "This extension provides an API for communicating with Redis servers.",
-        "latestReleaseDate": "2024-10-04T18:35:32+00:00",
-        "latestVersion": "6.1.0",
+        "description": "This extension provides an API for communicating with RESP-based key-value\n   stores, such as Redis, Valkey, and KeyDB.",
+        "latestReleaseDate": "2025-03-24T19:05:36+00:00",
+        "latestVersion": "6.2.0",
         "license": "PHP",
         "name": "redis",
         "php8Mentioned": true,
         "releases": {
+            "6.2.0": {
+                "version": "6.2.0",
+                "state": "stable",
+                "license": "PHP",
+                "releasedBy": "mgrunder",
+                "releaseDate": "2025-03-24T19:05:36+00:00",
+                "releaseNotes": "--- Sponsors ---\n\nA-VISION Advisering - https://a-vision.nu/\nAudiomack - https://audiomack.com\nAvtandil Kikabidze - https://github.com/akalongman\nGeoffrey Hoffman - https://github.com/phpguru\nObject Cache Pro for WordPress - https://objectcache.pro\nOpen LMS - https://openlms.net\nSalvatore Sanfilippo - https://github.com/antirez\nTy Karok - https://github.com/karock\nVanessa Santana - https://github.com/vanessa-dev\n\n* A special thanks to Jakub Onderka for nearly two dozen performance improvements in this release!\n\n--- 6.2.0 ---\n\nFixed:\n* Fix arguments order for SET command [f73f5fc] (Pavlo Yatsukhnenko)\n* Fix error length calculation and UB sanity check [e73130fe] (michael-grunder)\n* Invalidate slot cache on failed cluster connections [c7b87843] (James Kennedy)\n* Don't cast a uint64_t to a long [faa4bc20] (michael-grunder)\n* Fix potential NULL dereference [43e6cab8] (peter15914)\n* Print cursor as unsigned 64 bit integer [138d07b6] (Bentley O'Kane-Chase)\n* Fix XAUTOCLAIM argc when sending COUNT [0fe45d24] (michael-grunder)\n\nAdded:\n* Added `serverName()` and `serverVersion()` [fa3eb006, cbaf095f, 056c2dbe]\n  (Pavlo Yatsukhnenko, Michael Grunder)\n* Added getWithMeta method [9036ffca, 36ab5850] (Pavlo Yatsukhnenko)\n* Implement GETDEL command for RedisCluster [d342e4ac] (michael-grunder)\n* Introduce Redis::OPT_PACK_IGNORE_NUMBERS option [f9ce9429, 29e5cf0d] (michael-grunder)\n* Implement Valkey >= 8.1 IFEQ SET option [a2eef77f] (michael-grunder)\n* Implement KeyDB's EXPIREMEMBER[AT] commands [4cd3f593] (michael-grunder)\n\nDocumentation:\n* Fix phpdoc type of $pattern [5cad2076] (OHZEKI Naoki)\n* Better documentation for the $tlsOptions parameter of RedisCluster [8144db37] (Jacob Brown)\n\nTests/CI:\n* Add details to the option doc block [abb0f6cc] (michael-grunder)\n* Update CodeQL to v3 [41e11417, a10bca35] (Pavlo Yatsukhnenko)\n* Add PHP 8.4 to CI [6097e7ba] (Pavlo Yatsukhnenko)\n* Pin ubuntu version for KeyDB [eb66fc9e, 985b0313] (michael-grunder)\n* Windows CI: update setup-php-sdk to v0.10 and enable caching [f89d4d8f] (Christoph M. Becker)\n\nInternal:\n* Reduce buffer size for signed integer [044b3038, 35c59880] (Bentley O'Kane-Chase)\n* Create a strncmp wrapper [085d61ec] (michael-grunder)\n* Refactor and avoid allocation in rawcommand method [f68544f7] (Jakub Onderka)\n* Use defines for callback growth + sanity check [42a42769] (michael-grunder)\n* Switch from linked list to growing array for reply callbacks [a551fdc9] (Jakub Onderka)\n* Reuse redis_sock_append_auth method [be388562] (Jakub Onderka)\n* Switch pipeline_cmd from smart_str to smart_string [571ffbc8] (Jakub Onderka)\n* Remove unused redis_debug_response method from library.c [7895636a] (Jakub Onderka)\n* Optimise HMGET method [2434ba29] (Jakub Onderka)\n* Avoid unnecessary allocation in redis_hset_cmd [aba09933] (Jakub Onderka)\n* Avoid unnecessary allocation in redis_hdel_cmd [4082dd07] (Jakub Onderka)\n* Avoid unnecessary allocation in redis_key_varval_cmd [99650e15] (Jakub Onderka)\n* Use zval_get_tmp_string method that is faster when provided zval is string [f6906470] (Jakub Onderka)\n* Optimise constructing Redis command string [2a2f908f] (Jakub Onderka)\n* If no command is issued in multi mode, return immutable empty array [5156e032] (Jakub Onderka)\n* Test for empty pipeline and multi [426de2bb] (Jakub Onderka)\n* Optimise method array_zip_values_and_scores [400503b8] (Jakub Onderka)\n* Faster parameter parsing in redis_key_cmd and redis_key_long_val_cmd [83a19656] (Jakub Onderka)\n* Use immutable empty array in Redis::hKeys [3a2f3f45] (Jakub Onderka)\n* Use immutable empty array in Redis::exec [60b5a886] (Jakub Onderka)\n* Do not allocate empty string or string with one character [64da891e] (Jakub Onderka)\n* Initialize arrays with known size [99beb922] (Jakub Onderka)\n* Use smart str for constructing pipeline cmd [b665925e] (Jakub Onderka)",
+                "get": "https://pecl.php.net/get/redis-6.2.0",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
             "6.1.0": {
                 "version": "6.1.0",
                 "state": "stable",
@@ -34857,7 +34867,7 @@
                 "SPDX-License-Identifier": "PHP-3.01"
             }
         },
-        "summary": "PHP extension for interfacing with Redis",
+        "summary": "PHP extension for interfacing with key-value stores",
         "SPDX-License-Identifier": "PHP-3.01"
     },
     "ref": {
