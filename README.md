@@ -442,14 +442,15 @@ Documents: https://mdref.m6w6.name/pq
 </ul></p><hr />
 </details>
 <details><summary>redis&nbsp; :eight:</summary>
-<p>PHP extension for interfacing with Redis</p>
+<p>PHP extension for interfacing with key-value stores</p>
 
 ```
-This extension provides an API for communicating with Redis servers.
+This extension provides an API for communicating with RESP-based key-value
+   stores, such as Redis, Valkey, and KeyDB.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/redis-6.1.0">6.1.0</a> on 04 Oct 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/redis-6.2.0">6.2.0</a> on 24 Mar 2025</li>
 <li>Release data in JSON: <a href="data/packages/redis.json">redis.json</a></li>
 <li><a href="https://pecl.php.net/packages/redis">redis on PECL</a></li>
 <li><a href="https://github.com/phpredis/phpredis/#readme">:book: Documentation</a> &nbsp; <a href="https://github.com/phpredis/phpredis/">:house: Home</a> &nbsp; <a href="https://github.com/phpredis/phpredis/">:sparkles: Source</a> &nbsp; <a href="https://github.com/phpredis/phpredis/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=935&rid=&cid=7">:bar_chart: Stats</a></li>
