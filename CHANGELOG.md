@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.481.0](https://github.com/claylo/pecl-info/compare/v1.480.0...v1.481.0) (2025-04-01)
+
+### Added
+
+* add Tensor 3.0.7 release ([9fa1274](https://github.com/claylo/pecl-info/commit/9fa1274d9df8ce3ce3210eb1775de8936e081c7c))
+
 ## [1.480.0](https://github.com/claylo/pecl-info/compare/v1.479.0...v1.480.0) (2025-04-01)
 
 ### Added
