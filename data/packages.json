@@ -42677,12 +42677,22 @@
         "category": "Math",
         "deprecated": false,
         "description": "A library and extension that provides objects for scientific computing in PHP.",
-        "latestReleaseDate": "2025-03-28T03:10:44+00:00",
-        "latestVersion": "3.0.6",
+        "latestReleaseDate": "2025-04-01T01:54:23+00:00",
+        "latestVersion": "3.0.7",
         "license": "MIT",
         "name": "Tensor",
         "php8Mentioned": true,
         "releases": {
+            "3.0.7": {
+                "version": "3.0.7",
+                "state": "stable",
+                "license": "MIT",
+                "releasedBy": "andrewdalpino",
+                "releaseDate": "2025-04-01T01:54:23+00:00",
+                "releaseNotes": "- Change min PHP version to 8.0.0",
+                "get": "https://pecl.php.net/get/tensor-3.0.7",
+                "SPDX-License-Identifier": "MIT"
+            },
             "3.0.6": {
                 "version": "3.0.6",
                 "state": "stable",

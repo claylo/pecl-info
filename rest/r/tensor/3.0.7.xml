@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/tensor">tensor</p>
+ <c>pecl.php.net</c>
+ <v>3.0.7</v>
+ <st>stable</st>
+ <l>MIT</l>
+ <m>andrewdalpino</m>
+ <s>A library and extension that provides objects for scientific computing in PHP.</s>
+ <d>A library and extension that provides objects for scientific computing in PHP.</d>
+ <da>2025-04-01 01:54:23</da>
+ <n>- Change min PHP version to 8.0.0</n>
+ <f>117451</f>
+ <g>https://pecl.php.net/get/tensor-3.0.7</g>
+ <x xlink:href="package.3.0.7.xml"/>
+</r>
