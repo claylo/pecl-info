@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/phalcon">phalcon</p>
+ <c>pecl.php.net</c>
+ <v>5.9.1</v>
+ <st>stable</st>
+ <l>BSD 3-Clause License</l>
+ <m>niden</m>
+ <s>Phalcon is a full stack PHP framework offering low resource consumption and high performance.</s>
+ <d>Phalcon is an open source full stack framework for PHP, written as a C-extension. Phalcon is optimized for high
+    performance. Its unique architecture allows the framework to always be memory resident, offering its functionality
+    whenever its needed, without expensive file stats and file reads that traditional PHP frameworks employ.</d>
+ <da>2025-04-01 00:08:25</da>
+ <n>Full changelog can be found at: https://github.com/phalcon/cphalcon/blob/master/CHANGELOG-5.0.md
+
+### Changed
+
+- Changed `Phalcon\Storage\Adapter\AbstractAdapter` and dropped `has()` check before receiving the value. [#16705](https://github.com/phalcon/cphalcon/issues/16705)
+
+### Added
+
+- Added `Phalcon\Html\Helper\Breadcrumbs` component to replace the old `Phalcon\Html\Breadcrumbs` component. [#16727](https://github.com/phalcon/cphalcon/issues/16727)
+
+### Fixed
+
+- Fixed `Phalcon\Mvc\Micro\LazyLoader::callMethod` to prevent `Unknown named parameter` error [#16724](https://github.com/phalcon/cphalcon/issues/16724)</n>
+ <f>974193</f>
+ <g>https://pecl.php.net/get/phalcon-5.9.1</g>
+ <x xlink:href="package.5.9.1.xml"/>
+</r>
