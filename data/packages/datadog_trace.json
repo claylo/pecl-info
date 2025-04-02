@@ -2,12 +2,22 @@
     "category": "Benchmarking",
     "deprecated": false,
     "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-    "latestReleaseDate": "2025-03-17T10:25:47+00:00",
-    "latestVersion": "1.7.3",
+    "latestReleaseDate": "2025-04-02T12:17:18+00:00",
+    "latestVersion": "1.8.0",
     "license": "BSD 3-Clause",
     "name": "datadog_trace",
     "php8Mentioned": true,
     "releases": {
+        "1.8.0": {
+            "version": "1.8.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "bwoebi",
+            "releaseDate": "2025-04-02T12:17:18+00:00",
+            "releaseNotes": "## All products\n### Added\n- Add support for file based configuration (library-config) #3068\n\n## Tracer\n### Added\n- Add DDTrace\\try_drop_span() API #3136\n- Add support for PDO::connect #3125\n- Add span creation and close handlers #3123\n- API Gateway Tracing #3116\n- Add a Ratchet integration #3115\n- Baggage Header Propagation Support #3102\n- Crashtracking for windows #3099\n\n### Changed\n- Enable 128 bit trace_id logging by default #3163\n- Allow whitespace as separator in DD_TAGS #3162\n- Implement Disable APM Tracing #3080\n\n### Fixed\n- Support both ENOTSUP and ENOSYS in shm_open fallback Datadog/libdatadog#969\n- Handle flushing of multiple traces at once #3176\n\n### Internal\n- Show actual file and line for occurrence of exceptions as well #3172\n- Support ZSTR_PARENT known_string #3106\n\n## Profiling\n### Added\n- Add profiling and appsec to SSI #3063\n\n### Fixed\n- FrankenPHP idle phase #3169\n- Add active span null check #3164\n- Avoid some OOM panics and avoid long strings #3151\n- Fix upscaling of I/O profiles #3146\n\n### Internal\n- Add 'tracing' features to capture time spent walking the stack #3094\n\n## Application Security Management\n### Added\n- Implement API Security Sampling RFC #3117\n- Add authenticated user tracking #3114\n- Add profiling and appsec to SSI #3063\n\n### Changed\n- Upgrade libddwaf #3126\n\n### Fixed\n- Emit asm event on user events #3170\n\n### Internal\n- Add more logging around stack generation #3096",
+            "get": "https://pecl.php.net/get/datadog_trace-1.8.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "1.7.3": {
             "version": "1.7.3",
             "state": "stable",
