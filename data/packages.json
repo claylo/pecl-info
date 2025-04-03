@@ -29594,12 +29594,22 @@
         "category": "System",
         "deprecated": false,
         "description": "Phalcon is an open source full stack framework for PHP, written as a C-extension. Phalcon is optimized for high\n    performance. Its unique architecture allows the framework to always be memory resident, offering its functionality\n    whenever its needed, without expensive file stats and file reads that traditional PHP frameworks employ.",
-        "latestReleaseDate": "2025-04-01T00:08:25+00:00",
-        "latestVersion": "5.9.1",
+        "latestReleaseDate": "2025-04-03T17:30:24+00:00",
+        "latestVersion": "5.9.2",
         "license": "BSD 3-Clause License",
         "name": "phalcon",
         "php8Mentioned": true,
         "releases": {
+            "5.9.2": {
+                "version": "5.9.2",
+                "state": "stable",
+                "license": "BSD 3-Clause License",
+                "releasedBy": "niden",
+                "releaseDate": "2025-04-03T17:30:24+00:00",
+                "releaseNotes": "Full changelog can be found at: https://github.com/phalcon/cphalcon/blob/master/CHANGELOG-5.0.md\n\n### Fixed\n\n- Fixed `Phalcon\\Translate\\Adapter\\Csv` the `escape` argument is explicitly required in PHP 8.4  [#16733](https://github.com/phalcon/cphalcon/issues/16733)\n- Fixed `Phalcon\\Mvc\\Model\\Query` to use the cacheOptions lifetime over the \"cache\" service lifetime",
+                "get": "https://pecl.php.net/get/phalcon-5.9.2",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "5.9.1": {
                 "version": "5.9.1",
                 "state": "stable",
