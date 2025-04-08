@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (113)
+## Relevant Extensions (114)
 
 ### Authentication (2)
 
@@ -510,8 +510,22 @@ located at http://www.iana.org/time-zones.
 </details>
 
 ***
-### Encryption (3)
+### Encryption (4)
 
+<details><summary>gnupg&nbsp; :eight:</summary>
+<p>wrapper around the gpgme library</p>
+
+```
+This extension provides methods to interact with gnupg
+```
+<p><ul>
+<li>License: BSD-2-Clause</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/gnupg-1.5.2">1.5.2</a> on 08 Apr 2025</li>
+<li>Release data in JSON: <a href="data/packages/gnupg.json">gnupg.json</a></li>
+<li><a href="https://pecl.php.net/packages/gnupg">gnupg on PECL</a></li>
+<li><a href="http://php.net/gnupg">:book: Documentation</a> &nbsp; <a href="https://github.com/php-gnupg/php-gnupg">:sparkles: Source</a> &nbsp; <a href="https://github.com/php-gnupg/php-gnupg/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=543&rid=&cid=6">:bar_chart: Stats</a></li>
+</ul></p><hr />
+</details>
 <details><summary>PKCS11&nbsp; :eight:</summary>
 <p>PHP Bindings for PKCS11 modules</p>
 

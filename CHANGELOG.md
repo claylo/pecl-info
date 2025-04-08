@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.486.0](https://github.com/claylo/pecl-info/compare/v1.485.0...v1.486.0) (2025-04-08)
+
+### Added
+
+* add gnupg 1.5.2 release ([0b54e89](https://github.com/claylo/pecl-info/commit/0b54e8932af27186242e52532fcc24b9b297df25))
+
 ## [1.485.0](https://github.com/claylo/pecl-info/compare/v1.484.0...v1.485.0) (2025-04-04)
 
 ### Added
