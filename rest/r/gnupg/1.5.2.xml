@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/gnupg">gnupg</p>
+ <c>pecl.php.net</c>
+ <v>1.5.2</v>
+ <st>stable</st>
+ <l>BSD, revised</l>
+ <m>bukka</m>
+ <s>wrapper around the gpgme library</s>
+ <d>This extension provides methods to interact with gnupg</d>
+ <da>2025-04-08 10:29:10</da>
+ <n>- Fixed GH-37: gnupg_decrypt() returns false when decrypting an encrypted empty string
+- Fixed GH-46: gnupg_decrypt() segfaults when password callback user ID hint is not supplied
+- Fixed 1.5.0 regressition - the deletekey `allow_secret` made optional again</n>
+ <f>42108</f>
+ <g>https://pecl.php.net/get/gnupg-1.5.2</g>
+ <x xlink:href="package.1.5.2.xml"/>
+</r>
