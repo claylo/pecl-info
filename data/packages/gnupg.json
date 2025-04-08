@@ -2,12 +2,22 @@
     "category": "Encryption",
     "deprecated": false,
     "description": "This extension provides methods to interact with gnupg",
-    "latestReleaseDate": "2021-12-31T22:09:28+00:00",
-    "latestVersion": "1.5.1",
+    "latestReleaseDate": "2025-04-08T10:29:10+00:00",
+    "latestVersion": "1.5.2",
     "license": "BSD, revised",
     "name": "gnupg",
     "php8Mentioned": true,
     "releases": {
+        "1.5.2": {
+            "version": "1.5.2",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "bukka",
+            "releaseDate": "2025-04-08T10:29:10+00:00",
+            "releaseNotes": "- Fixed GH-37: gnupg_decrypt() returns false when decrypting an encrypted empty string\n- Fixed GH-46: gnupg_decrypt() segfaults when password callback user ID hint is not supplied\n- Fixed 1.5.0 regressition - the deletekey `allow_secret` made optional again",
+            "get": "https://pecl.php.net/get/gnupg-1.5.2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
         "1.5.1": {
             "version": "1.5.1",
             "state": "stable",
