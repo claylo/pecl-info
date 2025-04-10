@@ -2,12 +2,22 @@
     "category": "Database",
     "deprecated": false,
     "description": "The purpose of this driver is to provide exceptionally thin glue between MongoDB\nand PHP, implementing only fundamental and performance-critical components\nnecessary to build a fully-functional MongoDB driver.",
-    "latestReleaseDate": "2025-02-28T09:31:37+00:00",
-    "latestVersion": "1.21.0",
+    "latestReleaseDate": "2025-04-10T07:38:41+00:00",
+    "latestVersion": "2.0.0",
     "license": "Apache License",
     "name": "mongodb",
     "php8Mentioned": true,
     "releases": {
+        "2.0.0": {
+            "version": "2.0.0",
+            "state": "stable",
+            "license": "Apache License",
+            "releasedBy": "alcaeus",
+            "releaseDate": "2025-04-10T07:38:41+00:00",
+            "releaseNotes": "## What's Changed\n* PHPC-2447: Extend Iterator interface in CustorInterface by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1654\n* PHP-1741: Remove getServer from APM event classes by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1652\n* PHPC-2346: Remove deprecated BSON functions by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1653\n* PHPC-2402: Remove range_preview constants by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1665\n* PHPC-2140: Make tentative return types definitive by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1658\n* PHPC-2351: Remove CursorId class by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1664\n* PHPC-2342: Remove --with-libbson and --with-libmongoc configure options by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1667\n* PHPC-1021: Remove support for ReadPreference integer modes by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1666\n* Update version for 2.x branch by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1672\n* PHPC-2248: Remove Serializable implementations by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1663\n* PHPC-2444: Remove support for string arguments in UTCDateTime constructor by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1662\n* PHPC-2309: Remove --with-openssl-dir configure option by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1676\n* PHPC-2417 Add `UTCDateTimeInterface::toDateTimeImmutable()` by @GromNaN in https://github.com/mongodb/mongo-php-driver/pull/1684\n* PHPC-2348 Remove `WriteException` and move `getWriteResult` to `BulkWriteException` by @GromNaN in https://github.com/mongodb/mongo-php-driver/pull/1685\n* PHPC-2454: Remove --enable-system-ciphers configure option by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1681\n* PHPC-2144 Throw a LogicException when getting info from unacknowledged write result by @GromNaN in https://github.com/mongodb/mongo-php-driver/pull/1687\n* PHPC-2344 Remove SSLConnectionException by @GromNaN in https://github.com/mongodb/mongo-php-driver/pull/1696\n* PHPC-2459: Remove support for float arg in UTCDateTime ctor by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1709\n* PHPC-2440: Remove deprecated Query constructor options by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1707\n* PHPC-990: Strict type validation for boolean URI options by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1713\n* PHPC-2441: Remove deprecated Manager constructor options by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1719\n* PHPC-2497: BulkWriteException stub should inherit ServerException by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1784\n* PHPC-2485: Remove WriteConcern and ReadPreference from execute method arginfo by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1783\n* PHPC-2536: Migrate to common OCSP responder script by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1800\n* PHPC-2536: Remove run-ocsp-responder.sh by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1802\n* PHPC-2558: Update to libmongoc 1.30.3 by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1806\n\n\n**Full Changelog**: https://github.com/mongodb/mongo-php-driver/compare/1.21.0...2.0.0",
+            "get": "https://pecl.php.net/get/mongodb-2.0.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "1.21.0": {
             "version": "1.21.0",
             "state": "stable",
