@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.488.0](https://github.com/claylo/pecl-info/compare/v1.487.0...v1.488.0) (2025-04-10)
+
+### Added
+
+* add mongodb 2.0.0 release ([0fa6cd8](https://github.com/claylo/pecl-info/commit/0fa6cd8d8fa33517eb350c9707d5d5b9eee737ee))
+
 ## [1.487.0](https://github.com/claylo/pecl-info/compare/v1.486.0...v1.487.0) (2025-04-09)
 
 ### Added
