@@ -1064,12 +1064,12 @@
     },
     "imagick": {
         "bugs": "https://github.com/Imagick/imagick/issues",
-        "docs": "https://php.net/imagick",
+        "docs": "http://php.net/imagick",
         "home": "https://phpimagick.com",
         "maintained": true,
         "repo": "https://github.com/Imagick/imagick",
         "stats": "https://pecl.php.net/package-stats.php?pid=76&rid=&cid=12",
-        "verified": true
+        "verified": false
     },
     "imlib2": {
         "bugs": "",
