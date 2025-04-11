@@ -4833,12 +4833,22 @@
         "category": "Benchmarking",
         "deprecated": false,
         "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-        "latestReleaseDate": "2025-04-04T09:38:00+00:00",
-        "latestVersion": "1.8.2",
+        "latestReleaseDate": "2025-04-10T21:23:46+00:00",
+        "latestVersion": "1.8.3",
         "license": "BSD 3-Clause",
         "name": "datadog_trace",
         "php8Mentioned": true,
         "releases": {
+            "1.8.3": {
+                "version": "1.8.3",
+                "state": "stable",
+                "license": "BSD 3-Clause",
+                "releasedBy": "bwoebi",
+                "releaseDate": "2025-04-10T21:23:46+00:00",
+                "releaseNotes": "## All products\n### Fixed\n- Checks for more ioncube extension names in SSI loader #3204\n\n## Tracer\n### Fixed\n- Fix crash due to double close of span #3202\n\n## Profiling\n### Fixed\n- Disable allocation profiling when JIT is enabled on PHP 8.4 #3199",
+                "get": "https://pecl.php.net/get/datadog_trace-1.8.3",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "1.8.2": {
                 "version": "1.8.2",
                 "state": "stable",
