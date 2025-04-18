@@ -31120,12 +31120,22 @@
         "category": "Tools and Utilities",
         "deprecated": false,
         "description": "https://developers.google.com/protocol-buffers/",
-        "latestReleaseDate": "2025-03-26T18:50:45+00:00",
-        "latestVersion": "4.30.2",
+        "latestReleaseDate": "2025-04-18T16:27:56+00:00",
+        "latestVersion": "4.31.0RC1",
         "license": "BSD-3-Clause",
         "name": "protobuf",
         "php8Mentioned": false,
         "releases": {
+            "4.31.0RC1": {
+                "version": "4.31.0RC1",
+                "state": "beta",
+                "license": "BSD-3-Clause",
+                "releasedBy": "protobufpackages",
+                "releaseDate": "2025-04-18T16:27:56+00:00",
+                "releaseNotes": "* See github.com/protocolbuffers/protobuf/releases/tag/v31.0-rc1 for release notes.",
+                "get": "https://pecl.php.net/get/protobuf-4.31.0RC1",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "4.30.2": {
                 "version": "4.30.2",
                 "state": "stable",
