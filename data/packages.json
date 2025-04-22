@@ -2718,12 +2718,22 @@
         "category": "File Formats",
         "deprecated": false,
         "description": "PHP extension for compression and decompression with Brotli library.",
-        "latestReleaseDate": "2024-11-08T03:26:45+00:00",
-        "latestVersion": "0.15.2",
+        "latestReleaseDate": "2025-04-22T02:24:05+00:00",
+        "latestVersion": "0.16.0",
         "license": "MIT",
         "name": "brotli",
         "php8Mentioned": false,
         "releases": {
+            "0.16.0": {
+                "version": "0.16.0",
+                "state": "stable",
+                "license": "MIT",
+                "releasedBy": "kjdev",
+                "releaseDate": "2025-04-22T02:24:05+00:00",
+                "releaseNotes": "- change: brotli.state resource in brotli_uncompress_{init,add}() to Btorli\\UnCompress\\Context class\n- change: brotli.state resource in brotli_compress_{init,add}() to Btorli\\Compress\\Context class",
+                "get": "https://pecl.php.net/get/brotli-0.16.0",
+                "SPDX-License-Identifier": "MIT"
+            },
             "0.15.2": {
                 "version": "0.15.2",
                 "state": "stable",
