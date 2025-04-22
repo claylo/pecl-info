@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/skywalking_agent">skywalking_agent</p>
+ <c>pecl.php.net</c>
+ <v>1.0.0</v>
+ <st>stable</st>
+ <l>Apache-2.0</l>
+ <m>skywalking</m>
+ <s>Apache SkyWalking PHP Agent.</s>
+ <d>The PHP Agent for Apache SkyWalking, which provides the native tracing abilities for PHP project.</d>
+ <da>2025-04-22 01:22:18</da>
+ <n>## What&#039;s Changed
+* Fix tracing time by @CodePrometheus in https://github.com/apache/skywalking-php/pull/124
+* Start 1.0.0 development and Update CI by @jmjoy in https://github.com/apache/skywalking-php/pull/126
+* Support log reporting based on PSR-3 by @jmjoy in https://github.com/apache/skywalking-php/pull/127
+* Upgrade MSRV and dependencies by @jmjoy in https://github.com/apache/skywalking-php/pull/128
+* Updated skywalking dependency by @jmjoy in https://github.com/apache/skywalking-php/pull/131
+* Bump version to 1.0.0 for release by @jmjoy in https://github.com/apache/skywalking-php/pull/132
+
+## New Contributors
+* @CodePrometheus made their first contribution in https://github.com/apache/skywalking-php/pull/124
+
+**Full Changelog**: https://github.com/apache/skywalking-php/compare/v0.8.0...v1.0.0</n>
+ <f>125731</f>
+ <g>https://pecl.php.net/get/skywalking_agent-1.0.0</g>
+ <x xlink:href="package.1.0.0.xml"/>
+</r>

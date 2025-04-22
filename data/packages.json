@@ -37578,12 +37578,22 @@
         "category": "Tools and Utilities",
         "deprecated": false,
         "description": "The PHP Agent for Apache SkyWalking, which provides the native tracing abilities for PHP project.",
-        "latestReleaseDate": "2024-12-06T14:11:28+00:00",
-        "latestVersion": "0.8.0",
+        "latestReleaseDate": "2025-04-22T01:22:18+00:00",
+        "latestVersion": "1.0.0",
         "license": "Apache-2.0",
         "name": "skywalking_agent",
         "php8Mentioned": true,
         "releases": {
+            "1.0.0": {
+                "version": "1.0.0",
+                "state": "stable",
+                "license": "Apache-2.0",
+                "releasedBy": "skywalking",
+                "releaseDate": "2025-04-22T01:22:18+00:00",
+                "releaseNotes": "## What's Changed\n* Fix tracing time by @CodePrometheus in https://github.com/apache/skywalking-php/pull/124\n* Start 1.0.0 development and Update CI by @jmjoy in https://github.com/apache/skywalking-php/pull/126\n* Support log reporting based on PSR-3 by @jmjoy in https://github.com/apache/skywalking-php/pull/127\n* Upgrade MSRV and dependencies by @jmjoy in https://github.com/apache/skywalking-php/pull/128\n* Updated skywalking dependency by @jmjoy in https://github.com/apache/skywalking-php/pull/131\n* Bump version to 1.0.0 for release by @jmjoy in https://github.com/apache/skywalking-php/pull/132\n\n## New Contributors\n* @CodePrometheus made their first contribution in https://github.com/apache/skywalking-php/pull/124\n\n**Full Changelog**: https://github.com/apache/skywalking-php/compare/v0.8.0...v1.0.0",
+                "get": "https://pecl.php.net/get/skywalking_agent-1.0.0",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "0.8.0": {
                 "version": "0.8.0",
                 "state": "stable",
