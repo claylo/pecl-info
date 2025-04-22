@@ -686,7 +686,7 @@ PHP extension for compression and decompression with Brotli library.
 ```
 <p><ul>
 <li>License: MIT</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/brotli-0.15.2">0.15.2</a> on 08 Nov 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/brotli-0.16.0">0.16.0</a> on 22 Apr 2025</li>
 <li>Release data in JSON: <a href="data/packages/brotli.json">brotli.json</a></li>
 <li><a href="https://pecl.php.net/packages/brotli">brotli on PECL</a></li>
 <li><a href="https://github.com/kjdev/php-ext-brotli">:house: Home</a> &nbsp; <a href="https://github.com/kjdev/php-ext-brotli">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1079&rid=&cid=33">:bar_chart: Stats</a></li>

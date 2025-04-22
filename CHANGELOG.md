@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.493.0](https://github.com/claylo/pecl-info/compare/v1.492.0...v1.493.0) (2025-04-22)
+
+### Added
+
+* add brotli 0.16.0 release ([b08234f](https://github.com/claylo/pecl-info/commit/b08234fd633c1b05d3e2ac46a7865ddf86ff6b20))
+
 ## [1.492.0](https://github.com/claylo/pecl-info/compare/v1.491.0...v1.492.0) (2025-04-22)
 
 ### Added
