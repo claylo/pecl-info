@@ -2,12 +2,22 @@
     "category": "System",
     "deprecated": false,
     "description": "Phalcon is an open source full stack framework for PHP, written as a C-extension. Phalcon is optimized for high\n    performance. Its unique architecture allows the framework to always be memory resident, offering its functionality\n    whenever its needed, without expensive file stats and file reads that traditional PHP frameworks employ.",
-    "latestReleaseDate": "2025-04-03T17:30:24+00:00",
-    "latestVersion": "5.9.2",
+    "latestReleaseDate": "2025-04-22T19:25:53+00:00",
+    "latestVersion": "5.9.3",
     "license": "BSD 3-Clause License",
     "name": "phalcon",
     "php8Mentioned": true,
     "releases": {
+        "5.9.3": {
+            "version": "5.9.3",
+            "state": "stable",
+            "license": "BSD 3-Clause License",
+            "releasedBy": "niden",
+            "releaseDate": "2025-04-22T19:25:53+00:00",
+            "releaseNotes": "Full changelog can be found at: https://github.com/phalcon/cphalcon/blob/master/CHANGELOG-5.0.md\n\n### Changed\n- Added Multi-Stage Dockerfile and Github action for release Docker images to ghcr.io and Docker Hub. [#16752](https://github.com/phalcon/cphalcon/issues/16752)\n\n### Added\n\n- Added `Phalcon\\Mvc\\Router::setUriSource()` to allow URI processing from `$_GET['url']` or `$_SERVER['REQUEST_URI']` as it was in v3 [#16741](https://github.com/phalcon/cphalcon/issues/16741)\n\n### Fixed\n\n- Fixed `Phalcon\\Mvc\\Router` to correctly handle numeric URI parts as it was in v3 [#16741](https://github.com/phalcon/cphalcon/issues/16741)\n- Fixed `Phalcon\\Mvc\\Model\\Binder` to use ReflectionParameter::getType() instead of deprecated method, PHP 8.0 or higher issue. [#16742](https://github.com/phalcon/cphalcon/issues/16742)\n- Fixed `Phalcon\\Mvc\\Model\\Query` to check if cache entry exists. [#16747](https://github.com/phalcon/cphalcon/issues/16747)\n- Fixed `Phalcon\\Mvc\\Router` to correctly match route when using query string URIs. [#16749](https://github.com/phalcon/cphalcon/issues/16749)\n- Fixed `Phalcon\\Mvc\\Model::cloneResultset` to properly parse fields that do not accept `null` values [#16736](https://github.com/phalcon/cphalcon/issues/16736)",
+            "get": "https://pecl.php.net/get/phalcon-5.9.3",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "5.9.2": {
             "version": "5.9.2",
             "state": "stable",
