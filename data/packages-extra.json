@@ -618,9 +618,9 @@
     "ds": {
         "bugs": "https://github.com/php-ds/ext-ds/issues",
         "docs": "https://www.php.net/ds",
-        "home": "http://github.com/php-ds",
+        "home": "https://github.com/php-ds/ext-ds",
         "maintained": true,
-        "repo": "http://github.com/php-ds/extension",
+        "repo": "http://github.com/php-ds/ext-ds",
         "stats": "https://pecl.php.net/package-stats.php?pid=996&rid=&cid=27",
         "verified": false
     },
