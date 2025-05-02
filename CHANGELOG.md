@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.499.0](https://github.com/claylo/pecl-info/compare/v1.498.0...v1.499.0) (2025-05-02)
+
+### Added
+
+* add ds 1.6.0 release ([def2b8c](https://github.com/claylo/pecl-info/commit/def2b8ca76e06ea017c41e3e45514b910ff7bddd))
+
 ## [1.498.0](https://github.com/claylo/pecl-info/compare/v1.497.0...v1.498.0) (2025-04-30)
 
 ### Added

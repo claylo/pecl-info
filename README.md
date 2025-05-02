@@ -1550,14 +1550,14 @@ This extension provides a set of interfaces to communicate between
 <p>Data Structures</p>
 
 ```
-Data Structures for PHP 7
+Specialized data structures as efficient alternatives to the PHP array
 ```
 <p><ul>
 <li>License: MIT</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/ds-1.5.0">1.5.0</a> on 19 Dec 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/ds-1.6.0">1.6.0</a> on 02 May 2025</li>
 <li>Release data in JSON: <a href="data/packages/ds.json">ds.json</a></li>
 <li><a href="https://pecl.php.net/packages/ds">ds on PECL</a></li>
-<li><a href="https://www.php.net/ds">:book: Documentation</a> &nbsp; <a href="http://github.com/php-ds">:house: Home</a> &nbsp; <a href="http://github.com/php-ds/extension">:sparkles: Source</a> &nbsp; <a href="https://github.com/php-ds/ext-ds/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=996&rid=&cid=27">:bar_chart: Stats</a></li>
+<li><a href="https://www.php.net/ds">:book: Documentation</a> &nbsp; <a href="https://github.com/php-ds/ext-ds">:house: Home</a> &nbsp; <a href="http://github.com/php-ds/ext-ds">:sparkles: Source</a> &nbsp; <a href="https://github.com/php-ds/ext-ds/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=996&rid=&cid=27">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>php_trie&nbsp; :eight:</summary>
