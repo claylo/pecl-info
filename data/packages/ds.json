@@ -1,13 +1,23 @@
 {
     "category": "Structures",
     "deprecated": false,
-    "description": "Data Structures for PHP 7",
-    "latestReleaseDate": "2023-12-19T17:08:36+00:00",
-    "latestVersion": "1.5.0",
+    "description": "Specialized data structures as efficient alternatives to the PHP array",
+    "latestReleaseDate": "2025-05-02T16:43:15+00:00",
+    "latestVersion": "1.6.0",
     "license": "MIT License",
     "name": "ds",
     "php8Mentioned": true,
     "releases": {
+        "1.6.0": {
+            "version": "1.6.0",
+            "state": "stable",
+            "license": "MIT License",
+            "releasedBy": "rtheunissen",
+            "releaseDate": "2025-05-02T16:43:15+00:00",
+            "releaseNotes": "- Support for PHP 8.4 @simPod",
+            "get": "https://pecl.php.net/get/ds-1.6.0",
+            "SPDX-License-Identifier": "MIT"
+        },
         "1.5.0": {
             "version": "1.5.0",
             "state": "stable",
