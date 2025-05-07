@@ -2,12 +2,22 @@
     "category": "File Formats",
     "deprecated": false,
     "description": "Zip is an extension to create, modify and read zip files.",
-    "latestReleaseDate": "2025-02-20T10:40:27+00:00",
-    "latestVersion": "1.22.5",
+    "latestReleaseDate": "2025-05-07T12:19:41+00:00",
+    "latestVersion": "1.22.6",
     "license": "PHP-3.01",
     "name": "zip",
     "php8Mentioned": true,
     "releases": {
+        "1.22.6": {
+            "version": "1.22.6",
+            "state": "stable",
+            "license": "PHP-3.01",
+            "releasedBy": "remi",
+            "releaseDate": "2025-05-07T12:19:41+00:00",
+            "releaseNotes": "- Fixed bug GH-17736 Assertion failure zend_reference_destroy (nielsdos)\n- Fixed bug GH-18304 Changing the properties through dynamic properties triggers a SegFault (nielsdos)\n- Fix uouv when handling empty options in ZipArchive::addGlob() (nielsdos)\n- Fix memory leak when handling a too long path in ZipArchive::addGlob() (nielsdos)\n- Fix GH-18431: Registering ZIP progress callback twice doesn't work (nielsdos)\n- Fix GH-18438: Handling of empty data and errors in ZipArchive::addPattern (nielsdos)\n- drop support for PHP 5.4 and 5.5",
+            "get": "https://pecl.php.net/get/zip-1.22.6",
+            "SPDX-License-Identifier": null
+        },
         "1.22.5": {
             "version": "1.22.5",
             "state": "stable",
