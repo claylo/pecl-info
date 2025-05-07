@@ -801,10 +801,10 @@ Zip is an extension to create, modify and read zip files.
 ```
 <p><ul>
 <li>License: </li>
-<li>Latest Release: <a href="https://pecl.php.net/get/zip-1.22.5">1.22.5</a> on 20 Feb 2025</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/zip-1.22.6">1.22.6</a> on 07 May 2025</li>
 <li>Release data in JSON: <a href="data/packages/zip.json">zip.json</a></li>
 <li><a href="https://pecl.php.net/packages/zip">zip on PECL</a></li>
-<li><a href="http://www.php.net/zip">:book: Documentation</a> &nbsp; <a href="https://github.com/pierrejoye/php_zip">:sparkles: Source</a> &nbsp; <a href="https://github.com/pierrejoye/php_zip/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=208&rid=&cid=33">:bar_chart: Stats</a></li>
+<li><a href="https://php.net/zip">:book: Documentation</a> &nbsp; <a href="https://github.com/pierrejoye/php_zip">:sparkles: Source</a> &nbsp; <a href="https://github.com/pierrejoye/php_zip/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=208&rid=&cid=33">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>zstd&nbsp; :eight:</summary>
