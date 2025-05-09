@@ -2,12 +2,22 @@
     "category": "Benchmarking",
     "deprecated": false,
     "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-    "latestReleaseDate": "2025-04-10T21:23:46+00:00",
-    "latestVersion": "1.8.3",
+    "latestReleaseDate": "2025-05-09T07:26:12+00:00",
+    "latestVersion": "1.9.0",
     "license": "BSD 3-Clause",
     "name": "datadog_trace",
     "php8Mentioned": true,
     "releases": {
+        "1.9.0": {
+            "version": "1.9.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "flowcontrol",
+            "releaseDate": "2025-05-09T07:26:12+00:00",
+            "releaseNotes": "## All products\n### Added\n- Update config telemetry to support stable config #3198\n\n## Tracer\n### Added\n- Support DD_DOGSTATSD_HOST configuration #3167\n- Add referrer hostname as span tag #3196\n\n### Changed\n- Capture key before first colon in DD_TAGS #3179\n\n### Fixed\n- Check server first before accessing in ddtrace_ip_extraction_find #3216\n- Fix assumptions around interned strings on PHP 7.3 #3224\n- Fix initial double remote config reading #3225, #3238\n- Fix dropped trace payloads for the sidecar Datadog/libdatadog#1047\n- Fix Windows VirtualProtect call #3229\n\n### Internal\n- Store debug symbols in the SSI archive #3217\n\n## Profiling\n### Added\n- Configurable allocation sampling distance #3227\n\n### Changed\n- Accept auto as valid value for DD_PROFILING_ENABLED #3166\n\n### Fixed\n- Fix empty internal metadata #3228\n- Follow PHP globals model in allocation profiler #3175\n\n### Internal changes\n- Bump libdatadog to version 18 #3229\n\n## Application Security Management\n### Added\n- AppSec support for Frankenphp #3165\n- Detection/blocking of SQL injections through libddwaf #3186\n- Add RASP_SQLI remote config capability #3203\n\n### Fixed\n- Make Appsec blocking compatible with Laravel error handler #3110",
+            "get": "https://pecl.php.net/get/datadog_trace-1.9.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
         "1.8.3": {
             "version": "1.8.3",
             "state": "stable",
