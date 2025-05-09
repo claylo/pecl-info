@@ -480,12 +480,12 @@
         "stats": "https://pecl.php.net/package-stats.php?pid=400&rid=&cid=7"
     },
     "datadog_trace": {
-        "bugs": "https://github.com/DataDog/dd-trace-php/issues",
+        "bugs": "",
         "docs": "",
-        "home": "https://docs.datadoghq.com/tracing/languages/php/",
+        "home": "",
         "maintained": true,
-        "repo": "https://github.com/DataDog/dd-trace-php",
-        "stats": "https://pecl.php.net/package-stats.php?pid=1029&rid=&cid=2",
+        "repo": "",
+        "stats": "",
         "verified": false
     },
     "date_time": {
