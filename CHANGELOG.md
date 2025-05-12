@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.503.0](https://github.com/claylo/pecl-info/compare/v1.502.0...v1.503.0) (2025-05-12)
+
+### Added
+
+* add uuid 1.3.0 release ([0323995](https://github.com/claylo/pecl-info/commit/03239954937a9766ea743fe20d9c0ec5bcbfe6f4))
+
 ## [1.502.0](https://github.com/claylo/pecl-info/compare/v1.501.0...v1.502.0) (2025-05-09)
 
 ### Added

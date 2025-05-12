@@ -1238,11 +1238,11 @@ Provides bindings to the functions of libssh2 which implements the SSH2 protocol
 <p>UUID extension</p>
 
 ```
-A wrapper around libuuid from the ext2utils project.
+A wrapper around Universally Unique IDentifier library (libuuid).
 ```
 <p><ul>
-<li>License: LGPL-2.1-or-later</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/uuid-1.2.1">1.2.1</a> on 08 Oct 2024</li>
+<li>License: </li>
+<li>Latest Release: <a href="https://pecl.php.net/get/uuid-1.3.0">1.3.0</a> on 12 May 2025</li>
 <li>Release data in JSON: <a href="data/packages/uuid.json">uuid.json</a></li>
 <li><a href="https://pecl.php.net/packages/uuid">uuid on PECL</a></li>
 <li><a href="https://github.com/php/pecl-networking-uuid">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-networking-uuid/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=216&rid=&cid=16">:bar_chart: Stats</a></li>
