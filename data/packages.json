@@ -45661,13 +45661,23 @@
     "uuid": {
         "category": "Networking",
         "deprecated": false,
-        "description": "A wrapper around libuuid from the ext2utils project.",
-        "latestReleaseDate": "2024-10-08T07:09:13+00:00",
-        "latestVersion": "1.2.1",
-        "license": "LGPL",
+        "description": "A wrapper around Universally Unique IDentifier library (libuuid).",
+        "latestReleaseDate": "2025-05-12T13:39:04+00:00",
+        "latestVersion": "1.3.0",
+        "license": "LGPL-2.1-or-later",
         "name": "uuid",
         "php8Mentioned": true,
         "releases": {
+            "1.3.0": {
+                "version": "1.3.0",
+                "state": "stable",
+                "license": "LGPL-2.1-or-later",
+                "releasedBy": "remi",
+                "releaseDate": "2025-05-12T13:39:04+00:00",
+                "releaseNotes": "- Add support for RFC9562 UUIDs (UUID_TYPE_TIME_V6 and UUID_TYPE_TIME_V7)\n  when available, in libuuid from util-linux version 2.41\n- constant UUID_TYPE_DCE is deprecated, use UUID_TYPE_RANDOM instead\n- constant UUID_TYPE_NAME is deprecated, use UUID_TYPE_TIME instead\n- new constant UUID_TYPE_VENDOR, only for uuid_type",
+                "get": "https://pecl.php.net/get/uuid-1.3.0",
+                "SPDX-License-Identifier": null
+            },
             "1.2.1": {
                 "version": "1.2.1",
                 "state": "stable",
@@ -45780,7 +45790,7 @@
             }
         },
         "summary": "UUID extension",
-        "SPDX-License-Identifier": "LGPL-2.1-or-later"
+        "SPDX-License-Identifier": null
     },
     "uv": {
         "category": "Event",
