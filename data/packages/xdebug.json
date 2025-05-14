@@ -2,12 +2,22 @@
     "category": "PHP",
     "deprecated": false,
     "description": "Xdebug and provides a range of features to improve the PHP development\nexperience.\n\nStep Debugging\n    A way to step through your code in your IDE or editor while the script is\n    executing.\n\nImprovements to PHP's error reporting\n    An improved var_dump() function, stack traces for Notices, Warnings, Errors\n    and Exceptions to highlight the code path to the error\n\nTracing\n    Writes every function call, with arguments and invocation location to disk.\n    Optionally also includes every variable assignment and return value for\n    each function.\n\nProfiling\n    Allows you, with the help of visualisation tools, to analyse the\n    performance of your PHP application and find bottlenecks.\n\nCode Coverage Analysis\n    To show which parts of your code base are executed when running unit tests\n    with PHP Unit.",
-    "latestReleaseDate": "2025-03-09T16:30:04+00:00",
-    "latestVersion": "3.4.2",
+    "latestReleaseDate": "2025-05-14T09:51:52+00:00",
+    "latestVersion": "3.4.3",
     "license": "Xdebug-1.03",
     "name": "xdebug",
     "php8Mentioned": true,
     "releases": {
+        "3.4.3": {
+            "version": "3.4.3",
+            "state": "stable",
+            "license": "Xdebug-1.03",
+            "releasedBy": "derick",
+            "releaseDate": "2025-05-14T09:51:52+00:00",
+            "releaseNotes": "Wed, May 14, 2025 - Xdebug 3.4.3\n\n= Fixed bugs:\n\n  - Fixed issue #2322: Xdebug tries to open debugging connection in destructors during shutdown\n  - Fixed issue #2325: Referred chrome browser extension is no longer working\n  - Fixed issue #2326: Step debugger finishes if property debugging handler in PHP throws an exception\n  - Fixed issue #2331: Segmentation fault with 'invalid' variable names\n  - Fixed issue #2339: Trying to throw an exception can cause a zend_mm_heap corrupted error under specific circumstances\n  - Fixed issue #2340: Xdebug case sensitivity issues on some files introduced since 3.3.0\n  - Fixed issue #2343: Fatal error on virtual property hook step debugging\n  - Fixed issue #2348: Xdebug does not resolve breakpoints in property hooks",
+            "get": "https://pecl.php.net/get/xdebug-3.4.3",
+            "SPDX-License-Identifier": null
+        },
         "3.4.2": {
             "version": "3.4.2",
             "state": "stable",
