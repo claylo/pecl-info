@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xdebug">xdebug</p>
+ <c>pecl.php.net</c>
+ <v>3.4.3</v>
+ <st>stable</st>
+ <l>Xdebug-1.03</l>
+ <m>derick</m>
+ <s>Xdebug is a debugging and productivity extension for PHP</s>
+ <d>Xdebug and provides a range of features to improve the PHP development
+experience.
+
+Step Debugging
+    A way to step through your code in your IDE or editor while the script is
+    executing.
+
+Improvements to PHP&#039;s error reporting
+    An improved var_dump() function, stack traces for Notices, Warnings, Errors
+    and Exceptions to highlight the code path to the error
+
+Tracing
+    Writes every function call, with arguments and invocation location to disk.
+    Optionally also includes every variable assignment and return value for
+    each function.
+
+Profiling
+    Allows you, with the help of visualisation tools, to analyse the
+    performance of your PHP application and find bottlenecks.
+
+Code Coverage Analysis
+    To show which parts of your code base are executed when running unit tests
+    with PHP Unit.</d>
+ <da>2025-05-14 09:51:52</da>
+ <n>Wed, May 14, 2025 - Xdebug 3.4.3
+
+= Fixed bugs:
+
+  - Fixed issue #2322: Xdebug tries to open debugging connection in destructors during shutdown
+  - Fixed issue #2325: Referred chrome browser extension is no longer working
+  - Fixed issue #2326: Step debugger finishes if property debugging handler in PHP throws an exception
+  - Fixed issue #2331: Segmentation fault with &#039;invalid&#039; variable names
+  - Fixed issue #2339: Trying to throw an exception can cause a zend_mm_heap corrupted error under specific circumstances
+  - Fixed issue #2340: Xdebug case sensitivity issues on some files introduced since 3.3.0
+  - Fixed issue #2343: Fatal error on virtual property hook step debugging
+  - Fixed issue #2348: Xdebug does not resolve breakpoints in property hooks</n>
+ <f>262647</f>
+ <g>https://pecl.php.net/get/xdebug-3.4.3</g>
+ <x xlink:href="package.3.4.3.xml"/>
+</r>
