@@ -2718,12 +2718,22 @@
         "category": "File Formats",
         "deprecated": false,
         "description": "PHP extension for compression and decompression with Brotli library.",
-        "latestReleaseDate": "2025-04-22T02:24:05+00:00",
-        "latestVersion": "0.16.0",
+        "latestReleaseDate": "2025-05-19T02:24:30+00:00",
+        "latestVersion": "0.17.0",
         "license": "MIT",
         "name": "brotli",
-        "php8Mentioned": false,
+        "php8Mentioned": true,
         "releases": {
+            "0.17.0": {
+                "version": "0.17.0",
+                "state": "stable",
+                "license": "MIT",
+                "releasedBy": "kjdev",
+                "releaseDate": "2025-05-19T02:24:30+00:00",
+                "releaseNotes": "- experimental: dcb support in output handler\n- feat: dictionary support\n- feat: named arguments support (PHP 8.0+)\n- change: argumeent name for brotli_compress() and brotli_compress_init(): quality -> level\n- change: argumeent name for brotli_uncompress(): max -> length\n- change: version in info to BrotliDecoderVersion()\n- change: add GCC visibility hidden when include bundled\n- change!: incorrect parameter cause errors\n- refactor: output hander context start\n- refactor: change use php_brotli_context in brotli_uncompress()\n- refactor: add parameter settings for BROTLI_DECODER_PARAM_LARGE_WINDOW to brotli_uncompress_init()\n- refactor: change error message\n- refactor: change use BrotliEncoderCompressStream() in brotli_compress()\n- refactor: php_brotli_decoder_create() -> php_brotli_context_create_decoder()\n- refactor: php_brotli_encoder_create() -> php_brotli_context_create_encoder()\n- refactor: php_brotli_stream_data struct\n- refactor: php_brotli_context struct",
+                "get": "https://pecl.php.net/get/brotli-0.17.0",
+                "SPDX-License-Identifier": "MIT"
+            },
             "0.16.0": {
                 "version": "0.16.0",
                 "state": "stable",
