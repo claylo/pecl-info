@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (114)
+## Relevant Extensions (113)
 
 ### Authentication (2)
 
@@ -183,23 +183,8 @@ servers.
 </details>
 
 ***
-### Configuration (2)
+### Configuration (1)
 
-<details><summary>yaconf&nbsp; :eight:</summary>
-<p>PHP Persistent Configurations Container</p>
-
-```
-Yaconf is a configurations container, it parses ini files, and store the result in PHP
-when PHP is started
-```
-<p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/yaconf-1.1.2">1.1.2</a> on 19 May 2022</li>
-<li>Release data in JSON: <a href="data/packages/yaconf.json">yaconf.json</a></li>
-<li><a href="https://pecl.php.net/packages/yaconf">yaconf on PECL</a></li>
-<li><a href="http://docs.php.net/manual/en/intro.yaconf.php">:book: Documentation</a> &nbsp; <a href="https://github.com/laruence/yaconf">:house: Home</a> &nbsp; <a href="https://github.com/laruence/yaconf">:sparkles: Source</a> &nbsp; <a href="https://github.com/laruence/yaconf/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=990&rid=&cid=4">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
 <details><summary>zookeeper&nbsp; :eight:</summary>
 <p>PHP extension for interfacing with Apache ZooKeeper</p>
 
@@ -678,7 +663,7 @@ uv provides access to underlying libuv functions
 ***
 ### File Formats (8)
 
-<details><summary>brotli</summary>
+<details><summary>brotli&nbsp; :eight:</summary>
 <p>Brotli extension</p>
 
 ```
@@ -686,7 +671,7 @@ PHP extension for compression and decompression with Brotli library.
 ```
 <p><ul>
 <li>License: MIT</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/brotli-0.16.0">0.16.0</a> on 22 Apr 2025</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/brotli-0.17.0">0.17.0</a> on 19 May 2025</li>
 <li>Release data in JSON: <a href="data/packages/brotli.json">brotli.json</a></li>
 <li><a href="https://pecl.php.net/packages/brotli">brotli on PECL</a></li>
 <li><a href="https://github.com/kjdev/php-ext-brotli">:house: Home</a> &nbsp; <a href="https://github.com/kjdev/php-ext-brotli">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1079&rid=&cid=33">:bar_chart: Stats</a></li>
