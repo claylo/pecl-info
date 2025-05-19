@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/brotli">brotli</p>
+ <c>pecl.php.net</c>
+ <v>0.17.0</v>
+ <st>stable</st>
+ <l>MIT</l>
+ <m>kjdev</m>
+ <s>Brotli extension</s>
+ <d>PHP extension for compression and decompression with Brotli library.</d>
+ <da>2025-05-19 02:24:30</da>
+ <n>- experimental: dcb support in output handler
+- feat: dictionary support
+- feat: named arguments support (PHP 8.0+)
+- change: argumeent name for brotli_compress() and brotli_compress_init(): quality -&gt; level
+- change: argumeent name for brotli_uncompress(): max -&gt; length
+- change: version in info to BrotliDecoderVersion()
+- change: add GCC visibility hidden when include bundled
+- change!: incorrect parameter cause errors
+- refactor: output hander context start
+- refactor: change use php_brotli_context in brotli_uncompress()
+- refactor: add parameter settings for BROTLI_DECODER_PARAM_LARGE_WINDOW to brotli_uncompress_init()
+- refactor: change error message
+- refactor: change use BrotliEncoderCompressStream() in brotli_compress()
+- refactor: php_brotli_decoder_create() -&gt; php_brotli_context_create_decoder()
+- refactor: php_brotli_encoder_create() -&gt; php_brotli_context_create_encoder()
+- refactor: php_brotli_stream_data struct
+- refactor: php_brotli_context struct</n>
+ <f>475190</f>
+ <g>https://pecl.php.net/get/brotli-0.17.0</g>
+ <x xlink:href="package.0.17.0.xml"/>
+</r>
