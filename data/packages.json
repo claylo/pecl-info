@@ -9385,12 +9385,22 @@
         "category": "Benchmarking",
         "deprecated": false,
         "description": "Calls a user-defined callback when a one-shot or periodic timer expires. Also a sampling profiler backend, which aggregates backtraces collected by a periodic timer.",
-        "latestReleaseDate": "2024-11-15T04:44:17+00:00",
-        "latestVersion": "1.2.3",
+        "latestReleaseDate": "2025-05-19T19:01:56+00:00",
+        "latestVersion": "1.2.4",
         "license": "Apache 2.0",
         "name": "excimer",
         "php8Mentioned": true,
         "releases": {
+            "1.2.4": {
+                "version": "1.2.4",
+                "state": "stable",
+                "license": "Apache 2.0",
+                "releasedBy": "krinkle",
+                "releaseDate": "2025-05-19T19:01:56+00:00",
+                "releaseNotes": "- Rewrite the backend to work around a glibc timer aliasing bug (T391426).\n  Timer creation and deletion are now more expensive, so applications should\n  try to avoid unnecessary creation and deletion. It's cheaper to stop and\n  start an existing timer. Handling events is cheaper, so profiling\n  performance is improved.\n- Compile with -fvisibility=hidden",
+                "get": "https://pecl.php.net/get/excimer-1.2.4",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "1.2.3": {
                 "version": "1.2.3",
                 "state": "stable",
