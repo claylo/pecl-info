@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.507.0](https://github.com/claylo/pecl-info/compare/v1.506.0...v1.507.0) (2025-05-20)
+
+### Added
+
+* add excimer 1.2.4 release ([5567ab5](https://github.com/claylo/pecl-info/commit/5567ab59130d3c25941561b82f88a0b94f7411e1))
+
 ## [1.506.0](https://github.com/claylo/pecl-info/compare/v1.505.0...v1.506.0) (2025-05-19)
 
 ### Added
