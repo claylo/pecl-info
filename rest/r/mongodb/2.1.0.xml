@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>2.1.0</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>alcaeus</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2025-05-23 08:53:06</da>
+ <n>## What&#039;s Changed
+* Mention `Serializable` and `Unserializable` types in upgrade guide by @GromNaN in https://github.com/mongodb/mongo-php-driver/pull/1805
+* Add CODEOWNERS for 1.21+ by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1810
+* PHPC-2537 Update to newer Ubuntu version in GitHub Actions workflows by @GromNaN in https://github.com/mongodb/mongo-php-driver/pull/1814
+* Feature: Client Bulk Write by @GromNaN in https://github.com/mongodb/mongo-php-driver/pull/1818
+* PHPC-2580: Bump to libmongoc 1.30.4 by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1822
+* PHPC-2510 Install evergreen tools using git submodule by @GromNaN in https://github.com/mongodb/mongo-php-driver/pull/1797
+* PHPC-2555: Stop testing with MongoDB 4.0 by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1827
+* PHPLIB-1678: Use assume_role command before accessing secrets by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1832
+
+
+**Full Changelog**: https://github.com/mongodb/mongo-php-driver/compare/2.0.0...2.1.0</n>
+ <f>2123494</f>
+ <g>https://pecl.php.net/get/mongodb-2.1.0</g>
+ <x xlink:href="package.2.1.0.xml"/>
+</r>
