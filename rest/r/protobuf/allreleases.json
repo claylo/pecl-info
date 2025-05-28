@@ -155,6 +155,10 @@
         "version": "4.0.0RC1",
         "state": "beta"
     },
+    "3.25.8": {
+        "version": "3.25.8",
+        "state": "stable"
+    },
     "3.25.7": {
         "version": "3.25.7",
         "state": "stable"
