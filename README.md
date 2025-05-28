@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (113)
+## Relevant Extensions (111)
 
 ### Authentication (2)
 
@@ -1529,7 +1529,7 @@ This extension provides a set of interfaces to communicate between
 </details>
 
 ***
-### Structures (4)
+### Structures (3)
 
 <details><summary>ds&nbsp; :eight:</summary>
 <p>Data Structures</p>
@@ -1543,20 +1543,6 @@ Specialized data structures as efficient alternatives to the PHP array
 <li>Release data in JSON: <a href="data/packages/ds.json">ds.json</a></li>
 <li><a href="https://pecl.php.net/packages/ds">ds on PECL</a></li>
 <li><a href="https://www.php.net/ds">:book: Documentation</a> &nbsp; <a href="https://github.com/php-ds/ext-ds">:house: Home</a> &nbsp; <a href="http://github.com/php-ds/ext-ds">:sparkles: Source</a> &nbsp; <a href="https://github.com/php-ds/ext-ds/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=996&rid=&cid=27">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>php_trie&nbsp; :eight:</summary>
-<p>PHP Trie extension</p>
-
-```
-Trie and HAT trie data structures for PHP.
-```
-<p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/php_trie-0.1.2">0.1.2</a> on 25 May 2022</li>
-<li>Release data in JSON: <a href="data/packages/php_trie.json">php_trie.json</a></li>
-<li><a href="https://pecl.php.net/packages/php_trie">php_trie on PECL</a></li>
-<li><a href="https://github.com/ace411/php-trie-ext">:house: Home</a> &nbsp; <a href="https://github.com/ace411/php-trie-ext">:sparkles: Source</a> &nbsp; <a href="https://github.com/ace411/php-trie-ext/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1051&rid=&cid=27">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>quickhash</summary>
@@ -1700,7 +1686,7 @@ extension
 </details>
 
 ***
-### Text (4)
+### Text (3)
 
 <details><summary>md4c</summary>
 <p>Convert Markdown to HTML</p>
@@ -1745,20 +1731,6 @@ This extension allows you to check the spelling of a word and offer suggestions.
 <li>Release data in JSON: <a href="data/packages/pspell.json">pspell.json</a></li>
 <li><a href="https://pecl.php.net/packages/pspell">pspell on PECL</a></li>
 <li><a href="https://github.com/php/pecl-text-pspell">:house: Home</a> &nbsp; <a href="https://github.com/php/pecl-text-pspell">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-text-pspell/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1081&rid=&cid=36">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>xdiff&nbsp; :eight:</summary>
-<p>File differences/patches.</p>
-
-```
-This extension creates and applies patches to both text and binary files.
-```
-<p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/xdiff-2.1.1">2.1.1</a> on 24 May 2022</li>
-<li>Release data in JSON: <a href="data/packages/xdiff.json">xdiff.json</a></li>
-<li><a href="https://pecl.php.net/packages/xdiff">xdiff on PECL</a></li>
-<li><a href="http://php.net/xdiff">:book: Documentation</a> &nbsp; <a href="https://github.com/php/pecl-text-xdiff">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-text-xdiff/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=283&rid=&cid=36">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 
