@@ -1847,7 +1847,7 @@ https://developers.google.com/protocol-buffers/
 ```
 <p><ul>
 <li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/protobuf-4.31.0">4.31.0</a> on 14 May 2025</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/protobuf-4.31.1">4.31.1</a> on 28 May 2025</li>
 <li>Release data in JSON: <a href="data/packages/protobuf.json">protobuf.json</a></li>
 <li><a href="https://pecl.php.net/packages/protobuf">protobuf on PECL</a></li>
 <li></li>
