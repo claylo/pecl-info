@@ -31240,12 +31240,22 @@
         "category": "Tools and Utilities",
         "deprecated": false,
         "description": "https://developers.google.com/protocol-buffers/",
-        "latestReleaseDate": "2025-05-14T17:39:53+00:00",
-        "latestVersion": "4.31.0",
+        "latestReleaseDate": "2025-05-28T19:04:31+00:00",
+        "latestVersion": "4.31.1",
         "license": "BSD-3-Clause",
         "name": "protobuf",
         "php8Mentioned": false,
         "releases": {
+            "4.31.1": {
+                "version": "4.31.1",
+                "state": "stable",
+                "license": "BSD-3-Clause",
+                "releasedBy": "protobufpackages",
+                "releaseDate": "2025-05-28T19:04:31+00:00",
+                "releaseNotes": "* See github.com/protocolbuffers/protobuf/releases/tag/v31.1 for release notes.",
+                "get": "https://pecl.php.net/get/protobuf-4.31.1",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
             "4.31.0": {
                 "version": "4.31.0",
                 "state": "stable",
@@ -31324,6 +31334,16 @@
                 "releaseDate": "2025-02-04T23:04:44+00:00",
                 "releaseNotes": "* See github.com/protocolbuffers/protobuf/releases/tag/v30.0-rc1 for release notes.",
                 "get": "https://pecl.php.net/get/protobuf-4.30.0RC1",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
+            "4.29.5": {
+                "version": "4.29.5",
+                "state": "stable",
+                "license": "BSD-3-Clause",
+                "releasedBy": "protobufpackages",
+                "releaseDate": "2025-05-28T23:22:16+00:00",
+                "releaseNotes": "* See github.com/protocolbuffers/protobuf/releases/tag/v29.5 for release notes.",
+                "get": "https://pecl.php.net/get/protobuf-4.29.5",
                 "SPDX-License-Identifier": "BSD-3-Clause"
             },
             "4.29.4": {
