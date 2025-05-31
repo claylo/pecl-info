@@ -23472,12 +23472,22 @@
         "category": "Networking",
         "deprecated": false,
         "description": "This extension is a NSQ client .NSQ is a message queue system which like Kafka .",
-        "latestReleaseDate": "2021-09-17T17:45:43+00:00",
-        "latestVersion": "3.5.1",
+        "latestReleaseDate": "2025-05-30T19:37:53+00:00",
+        "latestVersion": "3.9.0",
         "license": "PHP",
         "name": "nsq",
         "php8Mentioned": true,
         "releases": {
+            "3.9.0": {
+                "version": "3.9.0",
+                "state": "stable",
+                "license": "PHP",
+                "releasedBy": "rick",
+                "releaseDate": "2025-05-30T19:37:53+00:00",
+                "releaseNotes": "fix connection be closed when function run over twice heartbeat time",
+                "get": "https://pecl.php.net/get/nsq-3.9.0",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
             "3.5.1": {
                 "version": "3.5.1",
                 "state": "stable",
