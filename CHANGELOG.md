@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.513.0](https://github.com/claylo/pecl-info/compare/v1.512.0...v1.513.0) (2025-05-31)
+
+### Added
+
+* add nsq 3.9.0 release ([2fc0c70](https://github.com/claylo/pecl-info/commit/2fc0c701d10cac0f7cb4e571192aba0a61f67234))
+
 ## [1.512.0](https://github.com/claylo/pecl-info/compare/v1.511.0...v1.512.0) (2025-05-29)
 
 ### Added

@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (111)
+## Relevant Extensions (112)
 
 ### Authentication (2)
 
@@ -1083,7 +1083,7 @@ SDL_ttf bindings for the PHP language
 </details>
 
 ***
-### Networking (10)
+### Networking (11)
 
 <details><summary>amqp&nbsp; :eight:</summary>
 <p>Communicate with any AMQP compliant server</p>
@@ -1188,6 +1188,20 @@ using IP2Proxy binary database.
 <li>Release data in JSON: <a href="data/packages/ip2proxy.json">ip2proxy.json</a></li>
 <li><a href="https://pecl.php.net/packages/ip2proxy">ip2proxy on PECL</a></li>
 <li><a href="https://www.ip2location.com">:house: Home</a> &nbsp; <a href="https://github.com/ip2location/ip2proxy-pecl">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1053&rid=&cid=16">:bar_chart: Stats</a></li>
+</ul></p><hr />
+</details>
+<details><summary>nsq&nbsp; :eight:</summary>
+<p>PHP extension for NSQ client</p>
+
+```
+This extension is a NSQ client .NSQ is a message queue system which like Kafka .
+```
+<p><ul>
+<li>License: PHP-3.01</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/nsq-3.9.0">3.9.0</a> on 30 May 2025</li>
+<li>Release data in JSON: <a href="data/packages/nsq.json">nsq.json</a></li>
+<li><a href="https://pecl.php.net/packages/nsq">nsq on PECL</a></li>
+<li><a href="https://github.com/yunnian/php-nsq">:house: Home</a> &nbsp; <a href="https://github.com/yunnian/php-nsq">:sparkles: Source</a> &nbsp; <a href="https://github.com/yunnian/php-nsq/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1021&rid=&cid=16">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>rdkafka&nbsp; :eight:</summary>
