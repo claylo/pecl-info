@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (112)
+## Relevant Extensions (110)
 
 ### Authentication (2)
 
@@ -505,10 +505,10 @@ This extension provides methods to interact with gnupg
 ```
 <p><ul>
 <li>License: BSD-2-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/gnupg-1.5.2">1.5.2</a> on 08 Apr 2025</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/gnupg-1.5.3">1.5.3</a> on 02 Jun 2025</li>
 <li>Release data in JSON: <a href="data/packages/gnupg.json">gnupg.json</a></li>
 <li><a href="https://pecl.php.net/packages/gnupg">gnupg on PECL</a></li>
-<li><a href="http://php.net/gnupg">:book: Documentation</a> &nbsp; <a href="https://github.com/php-gnupg/php-gnupg">:sparkles: Source</a> &nbsp; <a href="https://github.com/php-gnupg/php-gnupg/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=543&rid=&cid=6">:bar_chart: Stats</a></li>
+<li><a href="https://php.net/gnupg">:book: Documentation</a> &nbsp; <a href="https://github.com/php-gnupg/php-gnupg">:sparkles: Source</a> &nbsp; <a href="https://github.com/php-gnupg/php-gnupg/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=543&rid=&cid=6">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>PKCS11&nbsp; :eight:</summary>
@@ -1749,7 +1749,7 @@ This extension allows you to check the spelling of a word and offer suggestions.
 </details>
 
 ***
-### Tools and Utilities (13)
+### Tools and Utilities (11)
 
 <details><summary>awscrt</summary>
 <p>AWS Common Runtime PHP bindings</p>
@@ -1793,21 +1793,6 @@ This package provides a PHP binding for FANN (Fast Artificial Neural Network) Li
 <li>Release data in JSON: <a href="data/packages/fann.json">fann.json</a></li>
 <li><a href="https://pecl.php.net/packages/fann">fann on PECL</a></li>
 <li><a href="http://www.php.net/manual/en/book.fann.php">:book: Documentation</a> &nbsp; <a href="https://github.com/bukka/php-fann">:house: Home</a> &nbsp; <a href="https://github.com/bukka/php-fann">:sparkles: Source</a> &nbsp; <a href="https://github.com/bukka/php-fann/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=314&rid=&cid=29">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>ion</summary>
-<p>Amazon ION support</p>
-
-```
-This PHP extension  provides support for the Amazon ION serialization format.
-https://awesomized.github.io/ext-ion/
-```
-<p><ul>
-<li>License: BSD-2-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/ion-0.2.1">0.2.1</a> on 31 May 2022</li>
-<li>Release data in JSON: <a href="data/packages/ion.json">ion.json</a></li>
-<li><a href="https://pecl.php.net/packages/ion">ion on PECL</a></li>
-<li><a href="https://awesomized.github.io/ext-ion/">:book: Documentation</a> &nbsp; <a href="https://github.com/awesomized/ext-ion">:sparkles: Source</a> &nbsp; <a href="https://github.com/awesomized/ext-ion/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1067&rid=&cid=29">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>jsonpath&nbsp; :eight:</summary>
@@ -1895,21 +1880,6 @@ project.
 <li>Release data in JSON: <a href="data/packages/skywalking_agent.json">skywalking_agent.json</a></li>
 <li><a href="https://pecl.php.net/packages/skywalking_agent">skywalking_agent on PECL</a></li>
 <li><a href="https://skywalking.apache.org/">:house: Home</a> &nbsp; <a href="https://github.com/apache/skywalking-php">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1073&rid=&cid=29">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>stomp&nbsp; :eight:</summary>
-<p>Stomp client extension</p>
-
-```
-This extension allows php applications to communicate with any Stomp compliant Message
-Brokers through easy object oriented and procedural interfaces.
-```
-<p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/stomp-2.0.3">2.0.3</a> on 31 May 2022</li>
-<li>Release data in JSON: <a href="data/packages/stomp.json">stomp.json</a></li>
-<li><a href="https://pecl.php.net/packages/stomp">stomp on PECL</a></li>
-<li><a href="http://www.php.net/manual/en/book.stomp.php">:book: Documentation</a> &nbsp; <a href="https://github.com/php/pecl-tools-stomp">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-tools-stomp/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=870&rid=&cid=29">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>xhprof&nbsp; :eight:</summary>
