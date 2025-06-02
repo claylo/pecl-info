@@ -884,12 +884,12 @@
     },
     "gnupg": {
         "bugs": "https://github.com/php-gnupg/php-gnupg/issues",
-        "docs": "http://php.net/gnupg",
+        "docs": "https://php.net/gnupg",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/php-gnupg/php-gnupg",
         "stats": "https://pecl.php.net/package-stats.php?pid=543&rid=&cid=6",
-        "verified": false
+        "verified": true
     },
     "graphdat": {
         "bugs": "https://github.com/alphashack/graphdat-sdk-php/issues",

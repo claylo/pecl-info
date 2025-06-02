@@ -2,12 +2,22 @@
     "category": "Encryption",
     "deprecated": false,
     "description": "This extension provides methods to interact with gnupg",
-    "latestReleaseDate": "2025-04-08T10:29:10+00:00",
-    "latestVersion": "1.5.2",
+    "latestReleaseDate": "2025-06-02T18:55:39+00:00",
+    "latestVersion": "1.5.3",
     "license": "BSD, revised",
     "name": "gnupg",
     "php8Mentioned": true,
     "releases": {
+        "1.5.3": {
+            "version": "1.5.3",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "bukka",
+            "releaseDate": "2025-06-02T18:55:39+00:00",
+            "releaseNotes": "* Fixed GH-32: Decryption of message encrypted with multiple keys",
+            "get": "https://pecl.php.net/get/gnupg-1.5.3",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
         "1.5.2": {
             "version": "1.5.2",
             "state": "stable",
