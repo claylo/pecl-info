@@ -1,4 +1,8 @@
 {
+    "1.73.0RC2": {
+        "version": "1.73.0RC2",
+        "state": "beta"
+    },
     "1.72.0": {
         "version": "1.72.0",
         "state": "stable"
