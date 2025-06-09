@@ -1198,7 +1198,7 @@ This extension is a NSQ client .NSQ is a message queue system which like Kafka .
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/nsq-3.9.0">3.9.0</a> on 30 May 2025</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/nsq-3.9.1">3.9.1</a> on 09 Jun 2025</li>
 <li>Release data in JSON: <a href="data/packages/nsq.json">nsq.json</a></li>
 <li><a href="https://pecl.php.net/packages/nsq">nsq on PECL</a></li>
 <li><a href="https://github.com/yunnian/php-nsq">:house: Home</a> &nbsp; <a href="https://github.com/yunnian/php-nsq">:sparkles: Source</a> &nbsp; <a href="https://github.com/yunnian/php-nsq/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1021&rid=&cid=16">:bar_chart: Stats</a></li>
