@@ -2,12 +2,22 @@
     "category": "Networking",
     "deprecated": false,
     "description": "This extension is a NSQ client .NSQ is a message queue system which like Kafka .",
-    "latestReleaseDate": "2025-05-30T19:37:53+00:00",
-    "latestVersion": "3.9.0",
+    "latestReleaseDate": "2025-06-09T09:56:09+00:00",
+    "latestVersion": "3.9.1",
     "license": "PHP",
     "name": "nsq",
     "php8Mentioned": true,
     "releases": {
+        "3.9.1": {
+            "version": "3.9.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "rick",
+            "releaseDate": "2025-06-09T09:56:09+00:00",
+            "releaseNotes": "Fixed consumer not working on CentOS: Switched to timer-based solution, abandoned multi-process approach",
+            "get": "https://pecl.php.net/get/nsq-3.9.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
         "3.9.0": {
             "version": "3.9.0",
             "state": "stable",
