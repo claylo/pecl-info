@@ -25478,12 +25478,22 @@
         "category": "PHP",
         "deprecated": false,
         "description": "A succinct parallel concurrency API for PHP 7 and 8.",
-        "latestReleaseDate": "2025-01-29T15:09:05+00:00",
-        "latestVersion": "1.2.6",
+        "latestReleaseDate": "2025-06-11T07:16:41+00:00",
+        "latestVersion": "1.2.7",
         "license": "PHP License",
         "name": "parallel",
         "php8Mentioned": true,
         "releases": {
+            "1.2.7": {
+                "version": "1.2.7",
+                "state": "stable",
+                "license": "PHP License",
+                "releasedBy": "flowcontrol",
+                "releaseDate": "2025-06-11T07:16:41+00:00",
+                "releaseNotes": "- Crash less and allow more cyclomatic refs #339\n- Update docs #340\n- Fix PHP-FPM POST bug #343",
+                "get": "https://pecl.php.net/get/parallel-1.2.7",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
             "1.2.6": {
                 "version": "1.2.6",
                 "state": "stable",
