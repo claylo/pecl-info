@@ -1150,7 +1150,7 @@ languages.
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/gRPC-1.73.0RC2">1.73.0RC2</a> on 02 Jun 2025</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/gRPC-1.73.0">1.73.0</a> on 10 Jun 2025</li>
 <li>Release data in JSON: <a href="data/packages/grpc.json">grpc.json</a></li>
 <li><a href="https://pecl.php.net/packages/gRPC">gRPC on PECL</a></li>
 <li></li>
