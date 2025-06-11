@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/parallel">parallel</p>
+ <c>pecl.php.net</c>
+ <v>1.2.7</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>flowcontrol</m>
+ <s>Parallel concurrency API</s>
+ <d>A succinct parallel concurrency API for PHP 7 and 8.</d>
+ <da>2025-06-11 07:16:41</da>
+ <n>- Crash less and allow more cyclomatic refs #339
+- Update docs #340
+- Fix PHP-FPM POST bug #343</n>
+ <f>64972</f>
+ <g>https://pecl.php.net/get/parallel-1.2.7</g>
+ <x xlink:href="package.1.2.7.xml"/>
+</r>
