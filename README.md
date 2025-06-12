@@ -1454,7 +1454,7 @@ Code Coverage Analysis
 ```
 <p><ul>
 <li>License: </li>
-<li>Latest Release: <a href="https://pecl.php.net/get/xdebug-3.4.3">3.4.3</a> on 14 May 2025</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/xdebug-3.4.4">3.4.4</a> on 12 Jun 2025</li>
 <li>Release data in JSON: <a href="data/packages/xdebug.json">xdebug.json</a></li>
 <li><a href="https://pecl.php.net/packages/xdebug">xdebug on PECL</a></li>
 <li><a href="https://xdebug.org/docs/">:book: Documentation</a> &nbsp; <a href="https://xdebug.org/">:house: Home</a> &nbsp; <a href="https://github.com/xdebug/xdebug">:sparkles: Source</a> &nbsp; <a href="https://bugs.xdebug.org">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=214&rid=&cid=25">:bar_chart: Stats</a></li>
