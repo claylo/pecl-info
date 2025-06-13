@@ -21069,6 +21069,16 @@
                 "get": "https://pecl.php.net/get/mongodb-2.0.0",
                 "SPDX-License-Identifier": "Apache-2.0"
             },
+            "1.21.1": {
+                "version": "1.21.1",
+                "state": "stable",
+                "license": "Apache License",
+                "releasedBy": "alcaeus",
+                "releaseDate": "2025-06-13T12:26:52+00:00",
+                "releaseNotes": "## What's Changed\n* PHPC-2558: Update to libmongoc 1.30.3 by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1806\n* Add CODEOWNERS for 1.21+ by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1810\n* PHPC-2537 Update to newer Ubuntu version in GitHub Actions workflows by @GromNaN in https://github.com/mongodb/mongo-php-driver/pull/1814\n* PHPLIB-1678: Use assume_role command before accessing secrets by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1832\n* Ignore branches that are no longer maintained when merging up by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1838\n* PHPC-2593: Update libmongoc to 1.30.5 by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1841\n\n\n**Full Changelog**: https://github.com/mongodb/mongo-php-driver/compare/1.21.0...1.21.1",
+                "get": "https://pecl.php.net/get/mongodb-1.21.1",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "1.21.0": {
                 "version": "1.21.0",
                 "state": "stable",
