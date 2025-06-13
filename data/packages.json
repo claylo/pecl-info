@@ -3429,12 +3429,22 @@
         "category": "Database",
         "deprecated": false,
         "description": "The PHP client library provides fast access to documents stored in a Couchbase Server.",
-        "latestReleaseDate": "2025-03-18T19:52:15+00:00",
-        "latestVersion": "4.2.7",
+        "latestReleaseDate": "2025-06-13T02:33:06+00:00",
+        "latestVersion": "4.3.0",
         "license": "Apache V2",
         "name": "couchbase",
         "php8Mentioned": true,
         "releases": {
+            "4.3.0": {
+                "version": "4.3.0",
+                "state": "stable",
+                "license": "Apache V2",
+                "releasedBy": "avsej",
+                "releaseDate": "2025-06-13T02:33:06+00:00",
+                "releaseNotes": "New features and enhancements\n=============================\n\n* PCBC-1023: Add numVBuckets to BucketSettings. (#210)\n* PCBC-1024: Improve SDK error messages for account lock/unlock feature. (#211)\n* PCBC-1025: Add CAS to core append/prepend. (#208)\n* PCBC-1020: Implement getMulti() and getMultiReplicasFromPreferredServerGroup() for transactions. (#213)",
+                "get": "https://pecl.php.net/get/couchbase-4.3.0",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
             "4.2.7": {
                 "version": "4.2.7",
                 "state": "stable",
