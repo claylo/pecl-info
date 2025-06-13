@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>2.1.1</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>alcaeus</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2025-06-13 12:45:44</da>
+ <n>## What&#039;s Changed
+* Ignore branches that are no longer maintained when merging up by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1838
+* PHPC-2593: Update libmongoc to 1.30.5 by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1841
+
+
+**Full Changelog**: https://github.com/mongodb/mongo-php-driver/compare/2.1.0...2.1.1</n>
+ <f>2128535</f>
+ <g>https://pecl.php.net/get/mongodb-2.1.1</g>
+ <x xlink:href="package.2.1.1.xml"/>
+</r>

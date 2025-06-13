@@ -2,12 +2,22 @@
     "category": "Database",
     "deprecated": false,
     "description": "The purpose of this driver is to provide exceptionally thin glue between MongoDB\nand PHP, implementing only fundamental and performance-critical components\nnecessary to build a fully-functional MongoDB driver.",
-    "latestReleaseDate": "2025-05-23T08:53:06+00:00",
-    "latestVersion": "2.1.0",
+    "latestReleaseDate": "2025-06-13T12:45:44+00:00",
+    "latestVersion": "2.1.1",
     "license": "Apache License",
     "name": "mongodb",
     "php8Mentioned": true,
     "releases": {
+        "2.1.1": {
+            "version": "2.1.1",
+            "state": "stable",
+            "license": "Apache License",
+            "releasedBy": "alcaeus",
+            "releaseDate": "2025-06-13T12:45:44+00:00",
+            "releaseNotes": "## What's Changed\n* Ignore branches that are no longer maintained when merging up by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1838\n* PHPC-2593: Update libmongoc to 1.30.5 by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1841\n\n\n**Full Changelog**: https://github.com/mongodb/mongo-php-driver/compare/2.1.0...2.1.1",
+            "get": "https://pecl.php.net/get/mongodb-2.1.1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "2.1.0": {
             "version": "2.1.0",
             "state": "stable",
