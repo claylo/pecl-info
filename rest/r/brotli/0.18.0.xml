@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/brotli">brotli</p>
+ <c>pecl.php.net</c>
+ <v>0.18.0</v>
+ <st>stable</st>
+ <l>MIT</l>
+ <m>kjdev</m>
+ <s>Brotli extension</s>
+ <d>PHP extension for compression and decompression with Brotli library.</d>
+ <da>2025-06-17 00:18:25</da>
+ <n>- add: BROTLI_VERSION_TEXT and BROTLI_VERSION_NUMBER constants
+- change!: remove length argument for brotli_uncompress()
+- remove: BROTLI_LIB_VERSION that is no longer needed
+- fix: memory leak
+- refactor: change library version acquisition in ZEND_MINFO_FUNCTION to constant
+- refactor: zend parse parameters sets the return value on error to false</n>
+ <f>475066</f>
+ <g>https://pecl.php.net/get/brotli-0.18.0</g>
+ <x xlink:href="package.0.18.0.xml"/>
+</r>
