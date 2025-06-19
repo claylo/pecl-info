@@ -1011,7 +1011,7 @@ The extension currently has implementations of the Haversine and
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/geospatial-0.3.2">0.3.2</a> on 11 Aug 2022</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/geospatial-0.3.3">0.3.3</a> on 19 Jun 2025</li>
 <li>Release data in JSON: <a href="data/packages/geospatial.json">geospatial.json</a></li>
 <li><a href="https://pecl.php.net/packages/geospatial">geospatial on PECL</a></li>
 <li><a href="https://github.com/php-geospatial/geospatial">:sparkles: Source</a> &nbsp; <a href="https://github.com/php-geospatial/geospatial/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=992&rid=&cid=15">:bar_chart: Stats</a></li>
