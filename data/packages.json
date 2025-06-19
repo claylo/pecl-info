@@ -10634,12 +10634,22 @@
         "category": "Math",
         "deprecated": false,
         "description": "The extension currently has implementations of the Haversine and\n Vincenty's formulas for calculating distances, an initial bearing calculation\n function, a Helmert transformation function to transfer between different\n supported datums, conversions between polar and Cartesian coordinates,\n conversions between Degree/Minute/Seconds and decimal degrees, a method to\n simplify linear geometries, as well as a method to calculate intermediate\n points on a LineString.",
-        "latestReleaseDate": "2022-08-11T13:35:41+00:00",
-        "latestVersion": "0.3.2",
+        "latestReleaseDate": "2025-06-19T12:33:39+00:00",
+        "latestVersion": "0.3.3",
         "license": "PHP 3.01",
         "name": "geospatial",
         "php8Mentioned": true,
         "releases": {
+            "0.3.3": {
+                "version": "0.3.3",
+                "state": "beta",
+                "license": "PHP 3.01",
+                "releasedBy": "derick",
+                "releaseDate": "2025-06-19T12:33:39+00:00",
+                "releaseNotes": "- Drop support for PHP 7\n- Added support for PIE\n- Convert extension to use stubs files",
+                "get": "https://pecl.php.net/get/geospatial-0.3.3",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
             "0.3.2": {
                 "version": "0.3.2",
                 "state": "beta",

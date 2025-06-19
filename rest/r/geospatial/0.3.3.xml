@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<p xmlns="http://pear.php.net/dtd/rest.package"    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:xlink="http://www.w3.org/1999/xlink"    xsi:schemaLocation="http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd">
- <n>geospatial</n>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/geospatial">geospatial</p>
  <c>pecl.php.net</c>
- <ca xlink:href="/rest/c/Math">Math</ca>
+ <v>0.3.3</v>
+ <st>beta</st>
  <l>PHP 3.01</l>
+ <m>derick</m>
  <s>PHP Extension to handle common geospatial functions</s>
  <d>The extension currently has implementations of the Haversine and
  Vincenty&#039;s formulas for calculating distances, an initial bearing calculation
@@ -13,5 +18,11 @@
  conversions between Degree/Minute/Seconds and decimal degrees, a method to
  simplify linear geometries, as well as a method to calculate intermediate
  points on a LineString.</d>
- <r xlink:href="/rest/r/geospatial"/>
-</p>
+ <da>2025-06-19 12:33:39</da>
+ <n>- Drop support for PHP 7
+- Added support for PIE
+- Convert extension to use stubs files</n>
+ <f>12972</f>
+ <g>https://pecl.php.net/get/geospatial-0.3.3</g>
+ <x xlink:href="package.0.3.3.xml"/>
+</r>
