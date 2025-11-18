@@ -24,6 +24,11 @@ function fetch_xml($url)
     // // If they forgot Content-Encoding and cURL didn’t auto-decode, sniff + decode:
     // $body = maybe_decompress($body);
     $body = file_get_contents($url);
+
+    echo "::debug::latest.rss is " . strlen($body) . " characters\n";
+    echo "::debug::latest.rss content:\n";
+    echo $body . "\n";
+
     // Parse
     libxml_use_internal_errors(true);
     $xml = simplexml_load_string($body);
@@ -71,9 +76,7 @@ if (isset($argv[1]) && $argv[1] == '--dry-run') {
     $dry = true;
 }
 
-echo "::debug::latest.rss is " . strlen($xml) . " characters\n";
-echo "::debug::latest.rss content:\n";
-echo $xml . "\n";
+
 
 // make the date easier to access
 function adjustNamespaces($el)
