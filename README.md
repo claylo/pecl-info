@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (98)
+## Relevant Extensions (99)
 
 ### Authentication (2)
 
@@ -64,7 +64,7 @@ The Datadog PHP Tracer brings APM and distributed tracing to PHP.
 ```
 <p><ul>
 <li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/datadog_trace-1.10.0">1.10.0</a> on 28 May 2025</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/datadog_trace-1.14.0">1.14.0</a> on 13 Nov 2025</li>
 <li>Release data in JSON: <a href="data/packages/datadog_trace.json">datadog_trace.json</a></li>
 <li><a href="https://pecl.php.net/packages/datadog_trace">datadog_trace on PECL</a></li>
 <li></li>
@@ -237,10 +237,10 @@ ibm_db2 provides access to DB2 and compatible databases on PHP.
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/ibm_db2-2.2.2">2.2.2</a> on 01 Nov 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/ibm_db2-2.3.1">2.3.1</a> on 31 Oct 2025</li>
 <li>Release data in JSON: <a href="data/packages/ibm_db2.json">ibm_db2.json</a></li>
 <li><a href="https://pecl.php.net/packages/ibm_db2">ibm_db2 on PECL</a></li>
-<li><a href="https://php.net/ibm_db2">:book: Documentation</a> &nbsp; <a href="https://github.com/php/pecl-database-ibm_db2">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-database-ibm_db2/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=440&rid=&cid=7">:bar_chart: Stats</a></li>
+<li></li>
 </ul></p><hr />
 </details>
 <details><summary>mongodb&nbsp; :eight:</summary>
@@ -394,10 +394,10 @@ This extension provides an API for communicating with RESP-based key-value
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/redis-6.2.0">6.2.0</a> on 24 Mar 2025</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/redis-6.3.0">6.3.0</a> on 06 Nov 2025</li>
 <li>Release data in JSON: <a href="data/packages/redis.json">redis.json</a></li>
 <li><a href="https://pecl.php.net/packages/redis">redis on PECL</a></li>
-<li><a href="https://github.com/phpredis/phpredis/#readme">:book: Documentation</a> &nbsp; <a href="https://github.com/phpredis/phpredis/">:house: Home</a> &nbsp; <a href="https://github.com/phpredis/phpredis/">:sparkles: Source</a> &nbsp; <a href="https://github.com/phpredis/phpredis/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=935&rid=&cid=7">:bar_chart: Stats</a></li>
+<li></li>
 </ul></p><hr />
 </details>
 <details><summary>SeasClick</summary>
@@ -554,10 +554,10 @@ ev provides interface to libev library - high performance
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/ev-1.2.0">1.2.0</a> on 03 Sep 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/ev-1.2.2">1.2.2</a> on 04 Nov 2025</li>
 <li>Release data in JSON: <a href="data/packages/ev.json">ev.json</a></li>
 <li><a href="https://pecl.php.net/packages/ev">ev on PECL</a></li>
-<li><a href="http://docs.php.net/ev">:book: Documentation</a> &nbsp; <a href="https://bitbucket.org/osmanov/pecl-ev">:house: Home</a> &nbsp; <a href="https://bitbucket.org/osmanov/pecl-ev/src">:sparkles: Source</a> &nbsp; <a href="https://bitbucket.org/osmanov/pecl-ev/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=938&rid=&cid=44">:bar_chart: Stats</a></li>
+<li></li>
 </ul></p><hr />
 </details>
 <details><summary>openswoole&nbsp; :eight:</summary>
@@ -589,8 +589,6 @@ Event-driven asynchronous and concurrent networking engine with high performance
         - millisecond timer
         - built-in tcp/http/websocket/http2 server
         - coroutine tcp/http/websocket client
-        - coroutine mysql client
-        - coroutine redis client
         - coroutine read/write file system
         - coroutine dns lookup
         - support IPv4/IPv6/UnixSocket/TCP/UDP
@@ -598,10 +596,10 @@ Event-driven asynchronous and concurrent networking engine with high performance
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/swoole-6.0.2">6.0.2</a> on 22 Mar 2025</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/swoole-6.1.2">6.1.2</a> on 11 Nov 2025</li>
 <li>Release data in JSON: <a href="data/packages/swoole.json">swoole.json</a></li>
 <li><a href="https://pecl.php.net/packages/swoole">swoole on PECL</a></li>
-<li><a href="https://wiki.swoole.com/en/#/">:book: Documentation</a> &nbsp; <a href="https://github.com/swoole/swoole-src">:house: Home</a> &nbsp; <a href="https://github.com/swoole/swoole-src">:sparkles: Source</a> &nbsp; <a href="https://github.com/swoole/swoole-src/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=957&rid=&cid=44">:bar_chart: Stats</a></li>
+<li></li>
 </ul></p><hr />
 </details>
 <details><summary>uv</summary>
@@ -731,10 +729,10 @@ Support for YAML 1.1 (YAML Ain't Markup Language) serialization using the
 ```
 <p><ul>
 <li>License: MIT</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/yaml-2.2.4">2.2.4</a> on 07 Oct 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/yaml-2.3.0">2.3.0</a> on 12 Nov 2025</li>
 <li>Release data in JSON: <a href="data/packages/yaml.json">yaml.json</a></li>
 <li><a href="https://pecl.php.net/packages/yaml">yaml on PECL</a></li>
-<li><a href="http://php.net/yaml">:book: Documentation</a> &nbsp; <a href="http://bd808.com/pecl-file_formats-yaml/">:house: Home</a> &nbsp; <a href="https://github.com/php/pecl-file_formats-yaml">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-file_formats-yaml/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=876&rid=&cid=33">:bar_chart: Stats</a></li>
+<li></li>
 </ul></p><hr />
 </details>
 <details><summary>zip&nbsp; :eight:</summary>
@@ -767,8 +765,22 @@ PHP extension for compression and decompression with Zstandard library.
 </details>
 
 ***
-### File System (1)
+### File System (2)
 
+<details><summary>inotify&nbsp; :eight:</summary>
+<p>Inotify</p>
+
+```
+Inotify bindings for PHP
+```
+<p><ul>
+<li>License: PHP-3.01</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/inotify-3.0.1">3.0.1</a> on 28 Oct 2025</li>
+<li>Release data in JSON: <a href="data/packages/inotify.json">inotify.json</a></li>
+<li><a href="https://pecl.php.net/packages/inotify">inotify on PECL</a></li>
+<li></li>
+</ul></p><hr />
+</details>
 <details><summary>smbclient&nbsp; :eight:</summary>
 <p>A PHP wrapper for libsmbclient</p>
 
@@ -1664,7 +1676,7 @@ https://developers.google.com/protocol-buffers/
 ```
 <p><ul>
 <li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/protobuf-4.31.1">4.31.1</a> on 28 May 2025</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/protobuf-4.33.1">4.33.1</a> on 13 Nov 2025</li>
 <li>Release data in JSON: <a href="data/packages/protobuf.json">protobuf.json</a></li>
 <li><a href="https://pecl.php.net/packages/protobuf">protobuf on PECL</a></li>
 <li></li>

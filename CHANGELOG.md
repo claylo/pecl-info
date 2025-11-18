@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.525.0](https://github.com/claylo/pecl-info/compare/v1.524.6...v1.525.0) (2025-11-18)
+
+### Added
+
+* add protobuf 4.33.1, datadog_trace 1.14.0, yaml 2.3.0, swoole 6.1.2, redis 6.3.0, ev 1.2.2, ibm_db2 2.3.1, swoole 6.1.1, datadog_trace 1.13.1, inotify 3.0.1 releases ([ebb20ef](https://github.com/claylo/pecl-info/commit/ebb20ef770dfce71f76d32c0e47b6633d58bf04c))
+
 ## [1.524.6](https://github.com/claylo/pecl-info/compare/v1.524.5...v1.524.6) (2025-11-18)
 
 ### Fixed
