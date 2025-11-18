@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.524.6](https://github.com/claylo/pecl-info/compare/v1.524.5...v1.524.6) (2025-11-18)
+
+### Fixed
+
+* return string from fetch_xml ([#595](https://github.com/claylo/pecl-info/issues/595)) ([0055789](https://github.com/claylo/pecl-info/commit/0055789ea795e6940dd88d5e8716e6498a43684a))
+
 ## [1.524.5](https://github.com/claylo/pecl-info/compare/v1.524.4...v1.524.5) (2025-11-18)
 
 ### Fixed
