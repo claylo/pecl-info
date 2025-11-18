@@ -3,26 +3,27 @@
 
 function fetch_xml($url)
 {
-    $ch = curl_init($url);
-    curl_setopt_array($ch, [
-        CURLOPT_RETURNTRANSFER => true,
-        // Let cURL handle gzip/deflate/br if present; also tolerates missing header cases better
-        //CURLOPT_ENCODING => '',            // '' means "accept all" and auto-decode
-        CURLOPT_ENCODING => 'gzip, deflate',
-        CURLOPT_USERAGENT => 'PHP RSS bot',
-        CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-        CURLOPT_TIMEOUT => 10,
-        CURLOPT_FOLLOWLOCATION => true,
-    ]);
-    $body = curl_exec($ch);
-    if ($body === false) {
-        throw new RuntimeException('HTTP error: ' . curl_error($ch));
-    }
-    curl_close($ch);
+    // $ch = curl_init($url);
+    // curl_setopt_array($ch, [
+    //     CURLOPT_RETURNTRANSFER => true,
+    //     // Let cURL handle gzip/deflate/br if present; also tolerates missing header cases better
+    //     //CURLOPT_ENCODING => '',            // '' means "accept all" and auto-decode
+    //     CURLOPT_ENCODING => 'gzip, deflate',
+    //     CURLOPT_USERAGENT => 'PHP RSS bot',
+    //     CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+    //     CURLOPT_VERBOSE => true,
+    //     CURLOPT_TIMEOUT => 10,
+    //     CURLOPT_FOLLOWLOCATION => true,
+    // ]);
+    // $body = curl_exec($ch);
+    // if ($body === false) {
+    //     throw new RuntimeException('HTTP error: ' . curl_error($ch));
+    // }
+    // curl_close($ch);
 
-    // If they forgot Content-Encoding and cURL didn’t auto-decode, sniff + decode:
-    $body = maybe_decompress($body);
-
+    // // If they forgot Content-Encoding and cURL didn’t auto-decode, sniff + decode:
+    // $body = maybe_decompress($body);
+    $body = file_get_contents($url);
     // Parse
     libxml_use_internal_errors(true);
     $xml = simplexml_load_string($body);
