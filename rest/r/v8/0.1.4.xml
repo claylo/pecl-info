@@ -41,6 +41,6 @@ Changes to public API and other important changes which may affect end-user:
     - * Rename V8\Exceptions\AbstractResourceLimitException to V8\Exceptions\ResourceLimitException;
     - internal: Check whether returned context is empty in V8\Isolate\GetEnteredContext() instead of checking InContext();</n>
  <f>178166</f>
- <g>http://pecl.php.net/get/v8-0.1.4</g>
+ <g>https://pecl.php.net/get/v8-0.1.4</g>
  <x xlink:href="package.0.1.4.xml"/>
 </r>

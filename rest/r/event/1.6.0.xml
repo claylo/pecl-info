@@ -36,6 +36,6 @@ Renamed EventBuffer::remove to EventBuffer::read, EventBuffer::read now takes on
 Renamed EventBuffer::removeBuffer to EventBuffer::appendFrom
 EventBuffer::read now takes single argument 'size' and returns the string read</n>
  <f>65229</f>
- <g>http://pecl.php.net/get/event-1.6.0</g>
+ <g>https://pecl.php.net/get/event-1.6.0</g>
  <x xlink:href="package.1.6.0.xml"/>
 </r>

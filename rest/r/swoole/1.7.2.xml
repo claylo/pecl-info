@@ -30,6 +30,6 @@
 - Added swoole_server task worker use message queue
 - Added messge queue ipc move to swoole_server::set</n>
  <f>350877</f>
- <g>http://pecl.php.net/get/swoole-1.7.2</g>
+ <g>https://pecl.php.net/get/swoole-1.7.2</g>
  <x xlink:href="package.1.7.2.xml"/>
 </r>

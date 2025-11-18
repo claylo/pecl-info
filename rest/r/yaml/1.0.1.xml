@@ -18,6 +18,6 @@
 - corrected string length issue with callback &quot;tag&quot; argument
 - added &quot;tag&quot; and &quot;flags&quot; arguments to sequence and map callbacks</n>
  <f>33774</f>
- <g>http://pecl.php.net/get/yaml-1.0.1</g>
+ <g>https://pecl.php.net/get/yaml-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

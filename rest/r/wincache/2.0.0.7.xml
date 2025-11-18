@@ -17,6 +17,6 @@
 - choose better user cache table size at startup
 - improve detection of wincache segment corruption during allocate_memory</n>
  <f>141806</f>
- <g>http://pecl.php.net/get/WINCACHE-2.0.0.7</g>
+ <g>https://pecl.php.net/get/WINCACHE-2.0.0.7</g>
  <x xlink:href="package.2.0.0.7.xml"/>
 </r>

@@ -17,6 +17,6 @@ PHP code can be embedded in the compiled module or distributed as a separate fil
  <da>2015-11-16 14:21:48</da>
  <n>Compatibility : PHP 5.3+, including PHP 7</n>
  <f>53412</f>
- <g>http://pecl.php.net/get/pcs-1.0.0</g>
+ <g>https://pecl.php.net/get/pcs-1.0.0</g>
  <x xlink:href="package.1.0.0.xml"/>
 </r>

@@ -25,6 +25,6 @@
 uninitialized internal struct which caused segmentation faults in further
 method calls</n>
  <f>65307</f>
- <g>http://pecl.php.net/get/event-1.6.1</g>
+ <g>https://pecl.php.net/get/event-1.6.1</g>
  <x xlink:href="package.1.6.1.xml"/>
 </r>

@@ -17,6 +17,6 @@
 - Fixed bug that Yaf_Application::environ is undefined on windows
 - Improve warning message while script can not be loaded</n>
  <f>91671</f>
- <g>http://pecl.php.net/get/yaf-2.2.3</g>
+ <g>https://pecl.php.net/get/yaf-2.2.3</g>
  <x xlink:href="package.2.2.3.xml"/>
 </r>

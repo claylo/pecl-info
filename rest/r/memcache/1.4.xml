@@ -21,6 +21,6 @@ handy OO and procedural interfaces.
  <n>1) Added multi get support (i.e. you're now able to get multiple items with one get() call, 
 just pass array of keys to get() and it will return associative array of found items).</n>
  <f>14039</f>
- <g>http://pecl.php.net/get/memcache-1.4</g>
+ <g>https://pecl.php.net/get/memcache-1.4</g>
  <x xlink:href="package.1.4.xml"/>
 </r>

@@ -22,6 +22,6 @@ Changes:
 * Orphan: Corrected issue with some ViewQuery methods.
 * PCBC-326: Zero-length strings no longer decode as NULL.</n>
  <f>29576</f>
- <g>http://pecl.php.net/get/couchbase-2.0.5</g>
+ <g>https://pecl.php.net/get/couchbase-2.0.5</g>
  <x xlink:href="package.2.0.5.xml"/>
 </r>

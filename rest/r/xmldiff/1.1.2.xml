@@ -15,6 +15,6 @@
  <da>2015-02-03 13:04:09</da>
  <n>- fix invalid free in PHP7</n>
  <f>35665</f>
- <g>http://pecl.php.net/get/xmldiff-1.1.2</g>
+ <g>https://pecl.php.net/get/xmldiff-1.1.2</g>
  <x xlink:href="package.1.1.2.xml"/>
 </r>

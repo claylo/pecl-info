@@ -21,6 +21,6 @@ OS (for example against Windows Active-Directory via IAS).</d>
 - Fixed a crash when calling radius_server_secret() with no servers configured.
   (Adam)</n>
  <f>35279</f>
- <g>http://pecl.php.net/get/radius-1.2.6</g>
+ <g>https://pecl.php.net/get/radius-1.2.6</g>
  <x xlink:href="package.1.2.6.xml"/>
 </r>

@@ -22,6 +22,6 @@ IMPORTANT: Version 2.x API is not compatible with earlier versions.</d>
 - Fixes a bug in Imagick::cropThumbnailImage
 - Added new constant Imagick::NOISE_RANDOM</n>
  <f>73640</f>
- <g>http://pecl.php.net/get/imagick-2.1.0RC2</g>
+ <g>https://pecl.php.net/get/imagick-2.1.0RC2</g>
  <x xlink:href="package.2.1.0RC2.xml"/>
 </r>

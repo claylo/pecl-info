@@ -21,6 +21,6 @@ Fix for setting AUTOCOMMIT in Linux/Windows
 Stored procedure with INOUT/IN paramters segfault fix
 Addition of more tests to the test suite</n>
  <f>151369</f>
- <g>http://pecl.php.net/get/ibm_db2-1.5.0</g>
+ <g>https://pecl.php.net/get/ibm_db2-1.5.0</g>
  <x xlink:href="package.1.5.0.xml"/>
 </r>

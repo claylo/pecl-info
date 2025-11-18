@@ -20,6 +20,6 @@ Changes:
 * PCBC-339: Add support for using N1QL with CB Server 4.0.0.
 * PCBC-343: Added missing touch method to CouchbaseBucket.</n>
  <f>30414</f>
- <g>http://pecl.php.net/get/couchbase-2.0.7</g>
+ <g>https://pecl.php.net/get/couchbase-2.0.7</g>
  <x xlink:href="package.2.0.7.xml"/>
 </r>

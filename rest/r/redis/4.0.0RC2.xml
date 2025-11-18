@@ -35,6 +35,6 @@
 * PHP &gt;=7.3.0 uses zend_string to store `php_url` elements [b566fb44] (@fmk)
 * Documentation improvements (Michael Grunder, @TomA-R)</n>
  <f>212384</f>
- <g>http://pecl.php.net/get/redis-4.0.0RC2</g>
+ <g>https://pecl.php.net/get/redis-4.0.0RC2</g>
  <x xlink:href="package.4.0.0RC2.xml"/>
 </r>

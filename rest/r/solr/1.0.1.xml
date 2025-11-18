@@ -19,6 +19,6 @@
 - Included phpdoc stubs in source to enable autocomplete of Solr classes and methods in IDE during development
 - Lowered libxml2 version requirement to 2.6.16</n>
  <f>100683</f>
- <g>http://pecl.php.net/get/solr-1.0.1</g>
+ <g>https://pecl.php.net/get/solr-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

@@ -16,6 +16,6 @@
  <n>* Add collator_get_sort_key()
 * Bugfixes</n>
  <f>133955</f>
- <g>http://pecl.php.net/get/intl-1.0.3</g>
+ <g>https://pecl.php.net/get/intl-1.0.3</g>
  <x xlink:href="package.1.0.3.xml"/>
 </r>

@@ -19,6 +19,6 @@ Find more information at:
  <da>2017-09-12 07:48:49</da>
  <n>Fix yaz_scan - 3 args gives SEGV PHPYAZ-34</n>
  <f>20131</f>
- <g>http://pecl.php.net/get/yaz-1.2.2</g>
+ <g>https://pecl.php.net/get/yaz-1.2.2</g>
  <x xlink:href="package.1.2.2.xml"/>
 </r>

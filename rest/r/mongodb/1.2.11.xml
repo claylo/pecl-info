@@ -21,6 +21,6 @@ necessary to build a fully-functional MongoDB driver.</d>
 ** Task
     * [PHPC-1008] - Use SETUP_OPENSSL() in config.w32 if available</n>
  <f>786669</f>
- <g>http://pecl.php.net/get/mongodb-1.2.11</g>
+ <g>https://pecl.php.net/get/mongodb-1.2.11</g>
  <x xlink:href="package.1.2.11.xml"/>
 </r>

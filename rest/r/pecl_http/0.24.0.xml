@@ -38,6 +38,6 @@ HttpResponse</d>
 * Fixed cases where '412 Precondition failed' responses should be sent.
 * Fixed message chain order in HttpRequest::getHistory().</n>
  <f>173277</f>
- <g>http://pecl.php.net/get/pecl_http-0.24.0</g>
+ <g>https://pecl.php.net/get/pecl_http-0.24.0</g>
  <x xlink:href="package.0.24.0.xml"/>
 </r>

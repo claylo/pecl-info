@@ -17,6 +17,6 @@
 
 - Fix a bug about last_connect_id: if applications don't close all the connections, at some point retrieving data from database seems to be successfully but it does not return anything, only a warning message in the error_log that says someting like this: &quot;11 is not a valid CUBRID-Connect resource&quot;</n>
  <f>40746</f>
- <g>http://pecl.php.net/get/CUBRID-8.4.0.0003</g>
+ <g>https://pecl.php.net/get/CUBRID-8.4.0.0003</g>
  <x xlink:href="package.8.4.0.0003.xml"/>
 </r>

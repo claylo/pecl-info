@@ -19,6 +19,6 @@
  <da>2016-08-07 07:37:30</da>
  <n>- Fixed issue #4, pecl install failed.</n>
  <f>105906</f>
- <g>http://pecl.php.net/get/JsonNet-1.1.1</g>
+ <g>https://pecl.php.net/get/JsonNet-1.1.1</g>
  <x xlink:href="package.1.1.1.xml"/>
 </r>

@@ -20,6 +20,6 @@
  <n>- Update Lib JsonNet use v0.8.9.
 - Fixed issue #1 #2, install error and .so load failed.</n>
  <f>105817</f>
- <g>http://pecl.php.net/get/JsonNet-1.1.0</g>
+ <g>https://pecl.php.net/get/JsonNet-1.1.0</g>
  <x xlink:href="package.1.1.0.xml"/>
 </r>

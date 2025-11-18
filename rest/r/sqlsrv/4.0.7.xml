@@ -17,6 +17,6 @@
  <n>This version is for PHP 7 only.
 This preview contains the SQLSRV drivers for PHP 7 (64-bit) with limitations. Upcoming release(s) will contain more functionality, bug fixes, and more.</n>
  <f>188917</f>
- <g>http://pecl.php.net/get/sqlsrv-4.0.7</g>
+ <g>https://pecl.php.net/get/sqlsrv-4.0.7</g>
  <x xlink:href="package.4.0.7.xml"/>
 </r>

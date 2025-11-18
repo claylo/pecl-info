@@ -16,6 +16,6 @@
  <da>2004-08-14 20:38:00</da>
  <n>First public release. Requires libattr from Linux XFS project.</n>
  <f>4872</f>
- <g>http://pecl.php.net/get/xattr-0.9</g>
+ <g>https://pecl.php.net/get/xattr-0.9</g>
  <x xlink:href="package.0.9.xml"/>
 </r>

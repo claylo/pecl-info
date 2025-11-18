@@ -19,6 +19,6 @@
 - Fix #3 Support PHP 7.
 - Support config curl_dns_cache_timeout,curl_connect_timeout,curl_timeout.</n>
  <f>14925</f>
- <g>http://pecl.php.net/get/Druid-0.6.0</g>
+ <g>https://pecl.php.net/get/Druid-0.6.0</g>
  <x xlink:href="package.0.6.0.xml"/>
 </r>

@@ -39,6 +39,6 @@ Xdebug also provides:
  - Fixed bug #979: property_value -m 0 should mean all bytes, not 0 bytes
  - Fixed bug #987: Hidden property names not shown.</n>
  <f>255810</f>
- <g>http://pecl.php.net/get/xdebug-2.2.4</g>
+ <g>https://pecl.php.net/get/xdebug-2.2.4</g>
  <x xlink:href="package.2.2.4.xml"/>
 </r>

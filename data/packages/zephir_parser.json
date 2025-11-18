@@ -2,12 +2,22 @@
     "category": "Tools and Utilities",
     "deprecated": false,
     "description": "Zephir Parser is a code parser, delivered as a C extension for the PHP language.",
-    "latestReleaseDate": "2024-11-23T14:41:20+00:00",
-    "latestVersion": "1.7.0",
+    "latestReleaseDate": "2025-09-28T14:17:47+00:00",
+    "latestVersion": "1.8.0",
     "license": "MIT",
     "name": "zephir_parser",
     "php8Mentioned": true,
     "releases": {
+        "1.8.0": {
+            "version": "1.8.0",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "jeckerson",
+            "releaseDate": "2025-09-28T14:17:47+00:00",
+            "releaseNotes": "### Added\n- Enabled PHP 8.5 support [#160](https://github.com/phalcon/php-zephir-parser/issues/160)\n- Added full support for object variable declaration [#37](https://github.com/phalcon/php-zephir-parser/issues/37)\n- Added support for single letter classes [#166](https://github.com/phalcon/php-zephir-parser/issues/166)",
+            "get": "https://pecl.php.net/get/zephir_parser-1.8.0",
+            "SPDX-License-Identifier": "MIT"
+        },
         "1.7.0": {
             "version": "1.7.0",
             "state": "stable",

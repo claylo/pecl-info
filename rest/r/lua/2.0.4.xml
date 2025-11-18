@@ -16,6 +16,6 @@
  <da>2017-07-12 03:43:22</da>
  <n>- Fixed bug #73964 (Segmentation fault)</n>
  <f>14798</f>
- <g>http://pecl.php.net/get/lua-2.0.4</g>
+ <g>https://pecl.php.net/get/lua-2.0.4</g>
  <x xlink:href="package.2.0.4.xml"/>
 </r>

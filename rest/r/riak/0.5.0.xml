@@ -16,6 +16,6 @@
  <n>Large API rewrite that had to happen before going into beta.
 We will avoid breaking API changes from now on.</n>
  <f>94468</f>
- <g>http://pecl.php.net/get/riak-0.5.0</g>
+ <g>https://pecl.php.net/get/riak-0.5.0</g>
  <x xlink:href="package.0.5.0.xml"/>
 </r>

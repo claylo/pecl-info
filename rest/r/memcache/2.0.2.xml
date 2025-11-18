@@ -25,6 +25,6 @@ handy OO and procedural interfaces.
 - Setting retry_interval parameter to -1 disables automatic reconnect
 - Fixed PECL bug #7331 (NULL pointer freeing causes memcache to segfault)</n>
  <f>17613</f>
- <g>http://pecl.php.net/get/memcache-2.0.2</g>
+ <g>https://pecl.php.net/get/memcache-2.0.2</g>
  <x xlink:href="package.2.0.2.xml"/>
 </r>

@@ -16,6 +16,6 @@
  <n>- Fixed copyright (thanks to Wez)
 - Added BSD system autodetection (native call &quot;setproctitle&quot;)</n>
  <f>4474</f>
- <g>http://pecl.php.net/get/proctitle-0.1.1</g>
+ <g>https://pecl.php.net/get/proctitle-0.1.1</g>
  <x xlink:href="package.0.1.1.xml"/>
 </r>

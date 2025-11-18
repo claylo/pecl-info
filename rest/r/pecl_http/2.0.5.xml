@@ -34,6 +34,6 @@ v2: http://dev.iworks.at/ext-http/lcov/ext/http/</d>
 * Fix build with -Werror=format-security (Remi)
 * Fix build with extenal libs needed by libcurl</n>
  <f>152395</f>
- <g>http://pecl.php.net/get/pecl_http-2.0.5</g>
+ <g>https://pecl.php.net/get/pecl_http-2.0.5</g>
  <x xlink:href="package.2.0.5.xml"/>
 </r>

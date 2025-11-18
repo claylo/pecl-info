@@ -23,6 +23,6 @@
  <da>2018-07-23 06:35:49</da>
  <n>Replaced obsolete AC_TRY_COMPILE with AC_COMPILE_IFELSE in config.m4</n>
  <f>139646</f>
- <g>http://pecl.php.net/get/event-2.4.0</g>
+ <g>https://pecl.php.net/get/event-2.4.0</g>
  <x xlink:href="package.2.4.0.xml"/>
 </r>

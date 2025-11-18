@@ -19,6 +19,6 @@
 			 The MQBegin, MQCMit and MQBack function wil now work.
 			 Check the README file for additional build instructions.</n>
  <f>34168</f>
- <g>http://pecl.php.net/get/mqseries-0.10.0</g>
+ <g>https://pecl.php.net/get/mqseries-0.10.0</g>
  <x xlink:href="package.0.10.0.xml"/>
 </r>

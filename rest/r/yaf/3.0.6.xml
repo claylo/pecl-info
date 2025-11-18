@@ -16,6 +16,6 @@
  <n>- PHP-7.2 Support
 - Fixed assertion faile (potential unexpected write to immutable array)</n>
  <f>96876</f>
- <g>http://pecl.php.net/get/yaf-3.0.6</g>
+ <g>https://pecl.php.net/get/yaf-3.0.6</g>
  <x xlink:href="package.3.0.6.xml"/>
 </r>

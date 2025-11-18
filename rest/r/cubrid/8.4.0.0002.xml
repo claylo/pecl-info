@@ -22,6 +22,6 @@ Fixed bugs:
 - Fix a bug in cubrid_next_result: new version cci_next_result will reuse the request handle, so do not close it before calling cci_next_result.
 - Fix a bug about life cycle management of PHP resource T_CUBRID_REQUEST: The CCI request on new database connection may be closed when php garbage collector release the resource T_CUBRID_REQUEST on last database connection.</n>
  <f>40530</f>
- <g>http://pecl.php.net/get/CUBRID-8.4.0.0002</g>
+ <g>https://pecl.php.net/get/CUBRID-8.4.0.0002</g>
  <x xlink:href="package.8.4.0.0002.xml"/>
 </r>

@@ -33,6 +33,6 @@ The page of the original Markdown is available at
  <n>- Updated to post 2.1.3 discount version (commit 6eacbc931b)
 - Added MarkdownDocument::setReferencePrefix() method.</n>
  <f>75026</f>
- <g>http://pecl.php.net/get/markdown-1.0.0</g>
+ <g>https://pecl.php.net/get/markdown-1.0.0</g>
  <x xlink:href="package.1.0.0.xml"/>
 </r>

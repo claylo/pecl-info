@@ -22,6 +22,6 @@
 - Cleaned up const compiler warnings.
 - Cleaned up random comments to make them PECL coding standards conformant.</n>
  <f>144017</f>
- <g>http://pecl.php.net/get/WINCACHE-1.3.0</g>
+ <g>https://pecl.php.net/get/WINCACHE-1.3.0</g>
  <x xlink:href="package.1.3.0.xml"/>
 </r>

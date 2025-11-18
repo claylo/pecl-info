@@ -21,6 +21,6 @@ Fixed segmentation fault caused by XML output parameters when calling stored pro
 Facilitated a convenience override of db2_connect to invoke db2_pconnect for i5/OS, without needing to change PHP app code.
 Added environment options so that the user can specify whether to use lib64 or lib32 directory.</n>
  <f>125489</f>
- <g>http://pecl.php.net/get/ibm_db2-1.6.4</g>
+ <g>https://pecl.php.net/get/ibm_db2-1.6.4</g>
  <x xlink:href="package.1.6.4.xml"/>
 </r>

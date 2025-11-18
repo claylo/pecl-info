@@ -16,6 +16,6 @@
  <n>This is a minor release that addresses the following:
  - Update the extension for PHP 5.4</n>
  <f>92483</f>
- <g>http://pecl.php.net/get/ingres-2.2.4</g>
+ <g>https://pecl.php.net/get/ingres-2.2.4</g>
  <x xlink:href="package.2.2.4.xml"/>
 </r>

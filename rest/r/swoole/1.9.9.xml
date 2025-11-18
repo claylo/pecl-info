@@ -35,6 +35,6 @@
 - Fixed swoole_async_dns_lookup target host IP contains 0 when the return value is wrong
 - Fixed crash when tcmalloc and jemalloc are enabled</n>
  <f>575967</f>
- <g>http://pecl.php.net/get/swoole-1.9.9</g>
+ <g>https://pecl.php.net/get/swoole-1.9.9</g>
  <x xlink:href="package.1.9.9.xml"/>
 </r>

@@ -53,6 +53,6 @@
 * Improve `package_eof` illegal empty string check
 - Remove code for deprecated multi-threaded mode</n>
  <f>1134805</f>
- <g>http://pecl.php.net/get/swoole-4.2.4</g>
+ <g>https://pecl.php.net/get/swoole-4.2.4</g>
  <x xlink:href="package.4.2.4.xml"/>
 </r>

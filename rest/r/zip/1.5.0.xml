@@ -30,6 +30,6 @@
 - zip::addFile() must return true on success
 - zip::open() returns now the error code on error and true on success</n>
  <f>54926</f>
- <g>http://pecl.php.net/get/zip-1.5.0</g>
+ <g>https://pecl.php.net/get/zip-1.5.0</g>
  <x xlink:href="package.1.5.0.xml"/>
 </r>

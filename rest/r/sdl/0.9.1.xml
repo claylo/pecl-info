@@ -17,6 +17,6 @@
 - Removed all the deprecated zend_get_parameters_ex calls.
 - Suppressed the warnings on php_sdl_audio.h file.</n>
  <f>33282</f>
- <g>http://pecl.php.net/get/sdl-0.9.1</g>
+ <g>https://pecl.php.net/get/sdl-0.9.1</g>
  <x xlink:href="package.0.9.1.xml"/>
 </r>

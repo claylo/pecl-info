@@ -23,6 +23,6 @@
 - QA fixes for really strict compiler options
 - Removed unused artefacts from earlier version like module globals and RINIT</n>
  <f>15386</f>
- <g>http://pecl.php.net/get/mogilefs-0.7.5b7</g>
+ <g>https://pecl.php.net/get/mogilefs-0.7.5b7</g>
  <x xlink:href="package.0.7.5b7.xml"/>
 </r>

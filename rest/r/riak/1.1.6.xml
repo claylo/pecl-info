@@ -16,6 +16,6 @@
  <n>Fixes issue 73: Secondary index - multiple values:
 Too keep backward compatibility indexes with only one value will still point to a string but indexes with multiple values will instead have an array of strings.</n>
  <f>139361</f>
- <g>http://pecl.php.net/get/riak-1.1.6</g>
+ <g>https://pecl.php.net/get/riak-1.1.6</g>
  <x xlink:href="package.1.1.6.xml"/>
 </r>

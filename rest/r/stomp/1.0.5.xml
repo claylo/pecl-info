@@ -19,6 +19,6 @@
   (Patch by lwhsu at lwhsu dot org)
 - Fixed bug #59972 (Message body are not binary safe). (Pierrick)</n>
  <f>18798</f>
- <g>http://pecl.php.net/get/stomp-1.0.5</g>
+ <g>https://pecl.php.net/get/stomp-1.0.5</g>
  <x xlink:href="package.1.0.5.xml"/>
 </r>

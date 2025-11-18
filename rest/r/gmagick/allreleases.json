@@ -167,21 +167,21 @@
         "version": "1.0.2b1",
         "state": "beta"
     },
-    "1.0.1c1": {
-        "version": "1.0.1c1",
-        "state": "beta"
-    },
     "1.0.1b1": {
         "version": "1.0.1b1",
-        "state": "beta"
-    },
-    "1.0.0b1": {
-        "version": "1.0.0b1",
         "state": "beta"
     },
     "1.0.1a1": {
         "version": "1.0.1a1",
         "state": "alpha"
+    },
+    "1.0.1c1": {
+        "version": "1.0.1c1",
+        "state": "beta"
+    },
+    "1.0.0b1": {
+        "version": "1.0.0b1",
+        "state": "beta"
     },
     "1.0.0a3": {
         "version": "1.0.0a3",

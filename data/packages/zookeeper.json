@@ -105,7 +105,7 @@
             "releasedBy": "timandes",
             "releaseDate": "2018-07-21T13:14:12+00:00",
             "releaseNotes": "Bugs:\n- Fix 'undefined symbol: zoo_wgetconfig' with libzookeeper < 3.5 (Issue #22)",
-            "get": "http://pecl.php.net/get/zookeeper-0.6.2",
+            "get": "https://pecl.php.net/get/zookeeper-0.6.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.6.1": {
@@ -115,7 +115,7 @@
             "releasedBy": "timandes",
             "releaseDate": "2018-07-14T02:52:42+00:00",
             "releaseNotes": "Bugs:\n- Fix memory leaks\nOthers:\n- Fix symbol conflicts",
-            "get": "http://pecl.php.net/get/zookeeper-0.6.1",
+            "get": "https://pecl.php.net/get/zookeeper-0.6.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.6.0": {
@@ -125,7 +125,7 @@
             "releasedBy": "timandes",
             "releaseDate": "2018-06-27T13:49:12+00:00",
             "releaseNotes": "Improvements:\n- Add class 'ZookeeperConfig'\n- Add method 'getConfig'\n- Drop PHP-5 support",
-            "get": "http://pecl.php.net/get/zookeeper-0.6.0",
+            "get": "https://pecl.php.net/get/zookeeper-0.6.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.5.0": {
@@ -135,7 +135,7 @@
             "releasedBy": "timandes",
             "releaseDate": "2018-05-14T13:43:01+00:00",
             "releaseNotes": "Improvements:\n- Add method 'close'\nphp-zookeeper-0.5.x will be the last series which supports PHP 5.x.",
-            "get": "http://pecl.php.net/get/zookeeper-0.5.0",
+            "get": "https://pecl.php.net/get/zookeeper-0.5.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.4.1": {
@@ -145,7 +145,7 @@
             "releasedBy": "timandes",
             "releaseDate": "2018-05-04T13:56:58+00:00",
             "releaseNotes": "Bugs:\n- Fix 'Corrupted fcall_info provided to zend_call_function()' (AZ Issue #89, #90)",
-            "get": "http://pecl.php.net/get/zookeeper-0.4.1",
+            "get": "https://pecl.php.net/get/zookeeper-0.4.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.4.0": {
@@ -155,7 +155,7 @@
             "releasedBy": "timandes",
             "releaseDate": "2017-06-08T06:38:42+00:00",
             "releaseNotes": "Bugs:\n- Fix segmentation fault due to improperly implemented threading (PR #13)\n\nImprovements:\n- Add function 'zookeeper_dispatch'",
-            "get": "http://pecl.php.net/get/zookeeper-0.4.0",
+            "get": "https://pecl.php.net/get/zookeeper-0.4.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.3.2": {
@@ -165,7 +165,7 @@
             "releasedBy": "timandes",
             "releaseDate": "2017-03-31T06:12:43+00:00",
             "releaseNotes": "Bugs:\n- Fix duplicate symbols (PR #10)",
-            "get": "http://pecl.php.net/get/zookeeper-0.3.2",
+            "get": "https://pecl.php.net/get/zookeeper-0.3.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.3.1": {
@@ -175,7 +175,7 @@
             "releasedBy": "timandes",
             "releaseDate": "2017-01-23T08:38:42+00:00",
             "releaseNotes": "Bugs:\n- Fix memory leak in method getChildren (Thanks to hulk<hulk.website@gmail.com>, PR #5)\n- Fix memory leak in method create (Thanks to Lin Huang, PR #6)",
-            "get": "http://pecl.php.net/get/zookeeper-0.3.1",
+            "get": "https://pecl.php.net/get/zookeeper-0.3.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.3.0": {
@@ -185,7 +185,7 @@
             "releasedBy": "timandes",
             "releaseDate": "2016-11-18T15:07:34+00:00",
             "releaseNotes": "Bugs:\n- Fix session warning with PHP 7.1 (Issue #4)\n\nImprovements:\n- Support PHP-7 (PR #1)\n- Support exceptions (PR #2)",
-            "get": "http://pecl.php.net/get/zookeeper-0.3.0",
+            "get": "https://pecl.php.net/get/zookeeper-0.3.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.2.3": {
@@ -195,7 +195,7 @@
             "releasedBy": "timandes",
             "releaseDate": "2016-11-07T01:30:19+00:00",
             "releaseNotes": "Bugs:\n- Fix 'Node with null data cause php segfault at Zookeeper::get($path)' (AZ Issue #21)\n- Fix 'Stat is null when get a node which holds null data' (AZ Issue #29)\n- Fix 'Wrong type conversion in function call' (Thanks to Dmitry Faleychik<fadimko@gmail.com>, AZ PR #42)\n- Fix AZ PR #44 (Thanks to jeff.tang<likeytom@gmail.com>)\n- Fix AZ Issue #27 (--with-libdir not honoured, Thanks to Remi Collet)\n- Return null after zoo_exists returning 0-length directly (AZ PR #45)\n\nImprovements:\n- Respect null's when passed as values during set(), create(), and get() (Thanks to Ryan Uber<ru@ryanuber.com>, AZ PR #22)\n- Make extension compatible with Zookeeper 3.5.0alpha (Thanks to Ryan Uber<ru@ryanuber.com>, AZ PR #28 N #48)\n- Display ini entries in `phpinfo()`",
-            "get": "http://pecl.php.net/get/zookeeper-0.2.3",
+            "get": "https://pecl.php.net/get/zookeeper-0.2.3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.2.2": {
@@ -205,7 +205,7 @@
             "releasedBy": "andrei",
             "releaseDate": "2013-07-30T13:14:41+00:00",
             "releaseNotes": "- PHP 5.4 compatibility\n- Sample PHP class for using zookeeper\n- Fix NOTCONNECTED_STATE issue\n- Various other fixes",
-            "get": "http://pecl.php.net/get/zookeeper-0.2.2",
+            "get": "https://pecl.php.net/get/zookeeper-0.2.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.2.1": {
@@ -215,7 +215,7 @@
             "releasedBy": "andrei",
             "releaseDate": "2012-01-13T17:10:20+00:00",
             "releaseNotes": "- Package up missed source files",
-            "get": "http://pecl.php.net/get/zookeeper-0.2.1",
+            "get": "https://pecl.php.net/get/zookeeper-0.2.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.2.0": {
@@ -225,7 +225,7 @@
             "releasedBy": "andrei",
             "releaseDate": "2012-01-12T23:08:57+00:00",
             "releaseNotes": "- Added session handler support\n- Added connect() and delete methods\n- Bug fixes",
-            "get": "http://pecl.php.net/get/zookeeper-0.2.0",
+            "get": "https://pecl.php.net/get/zookeeper-0.2.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.1.0": {
@@ -235,7 +235,7 @@
             "releasedBy": "andrei",
             "releaseDate": "2009-10-15T17:22:49+00:00",
             "releaseNotes": "- Initial PECL release",
-            "get": "http://pecl.php.net/get/zookeeper-0.1.0",
+            "get": "https://pecl.php.net/get/zookeeper-0.1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

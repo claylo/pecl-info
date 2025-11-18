@@ -33,6 +33,6 @@
 - Fixed taskwait error in MacOS and CygWin
 - Added swoole_table-&gt;exist</n>
  <f>459493</f>
- <g>http://pecl.php.net/get/swoole-1.7.17</g>
+ <g>https://pecl.php.net/get/swoole-1.7.17</g>
  <x xlink:href="package.1.7.17.xml"/>
 </r>

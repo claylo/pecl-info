@@ -15,7 +15,7 @@
             "releasedBy": "nicos",
             "releaseDate": "2002-11-09T17:39:00+00:00",
             "releaseNotes": "Updated alpha release that includes a number of improvements over the existing alpha preview.  PEAR (PECL) support is now working, too.",
-            "get": "http://pecl.php.net/get/spplus-1.0",
+            "get": "https://pecl.php.net/get/spplus-1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

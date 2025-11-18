@@ -25,7 +25,7 @@
             "releasedBy": "derick",
             "releaseDate": "2012-09-02T17:47:09+00:00",
             "releaseNotes": "Implemented ArrayAccess for QuickHashIntSet",
-            "get": "http://pecl.php.net/get/quickhash-1.0.0",
+            "get": "https://pecl.php.net/get/quickhash-1.0.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.1.0": {
@@ -35,7 +35,7 @@
             "releasedBy": "derick",
             "releaseDate": "2011-07-28T12:56:35+00:00",
             "releaseNotes": "- First release",
-            "get": "http://pecl.php.net/get/quickhash-0.1.0",
+            "get": "https://pecl.php.net/get/quickhash-0.1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

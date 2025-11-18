@@ -38,6 +38,6 @@ Session handler
 Tests
  * Fix several problematic tests</n>
  <f>75024</f>
- <g>http://pecl.php.net/get/memcached-3.0.0</g>
+ <g>https://pecl.php.net/get/memcached-3.0.0</g>
  <x xlink:href="package.3.0.0.xml"/>
 </r>

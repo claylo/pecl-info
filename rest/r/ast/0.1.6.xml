@@ -20,6 +20,6 @@
 - Added ast\get_supported_versions() function, which provides an array of currently supported AST
   versions.</n>
  <f>36649</f>
- <g>http://pecl.php.net/get/ast-0.1.6</g>
+ <g>https://pecl.php.net/get/ast-0.1.6</g>
  <x xlink:href="package.0.1.6.xml"/>
 </r>

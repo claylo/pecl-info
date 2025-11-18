@@ -19,6 +19,6 @@
 - allow to manage attributes in all namespaces
 - more tests</n>
  <f>8026</f>
- <g>http://pecl.php.net/get/xattr-1.3.0</g>
+ <g>https://pecl.php.net/get/xattr-1.3.0</g>
  <x xlink:href="package.1.3.0.xml"/>
 </r>

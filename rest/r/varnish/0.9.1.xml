@@ -16,6 +16,6 @@
  <n>- constructor params with wrong type get appropriately converted
 - a couple more tests</n>
  <f>28075</f>
- <g>http://pecl.php.net/get/varnish-0.9.1</g>
+ <g>https://pecl.php.net/get/varnish-0.9.1</g>
  <x xlink:href="package.0.9.1.xml"/>
 </r>

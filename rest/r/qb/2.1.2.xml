@@ -22,6 +22,6 @@ Fixed issue #21 - Conflict with xdebug in FreeBSD
 Fixed issue #24 - Broken ZTS build
 Fixed issue #27 - Incorrect object import</n>
  <f>1088683</f>
- <g>http://pecl.php.net/get/qb-2.1.2</g>
+ <g>https://pecl.php.net/get/qb-2.1.2</g>
  <x xlink:href="package.2.1.2.xml"/>
 </r>

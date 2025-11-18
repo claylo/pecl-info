@@ -35,6 +35,6 @@
 - Added debug_mode option
 - HttpClient compatible with Unity3D</n>
  <f>722451</f>
- <g>http://pecl.php.net/get/swoole-1.10.1</g>
+ <g>https://pecl.php.net/get/swoole-1.10.1</g>
  <x xlink:href="package.1.10.1.xml"/>
 </r>

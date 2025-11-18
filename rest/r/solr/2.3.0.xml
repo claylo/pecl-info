@@ -29,6 +29,6 @@ PECL Solr 2+ is only compatible with Apache Solr Server 4.0+</d>
 - Fixed issues on big endean processors (Remi Collet)
 - Enhancements on method parameter naming (reflections)</n>
  <f>152233</f>
- <g>http://pecl.php.net/get/solr-2.3.0</g>
+ <g>https://pecl.php.net/get/solr-2.3.0</g>
  <x xlink:href="package.2.3.0.xml"/>
 </r>

@@ -47,6 +47,6 @@ v2: http://dev.iworks.at/ext-http/lcov/ext/http/</d>
 + Added transfer info:
   curlcode, tls_session (libcurl &gt;= 7.34.0), only available during transfer</n>
  <f>158765</f>
- <g>http://pecl.php.net/get/pecl_http-2.1.0</g>
+ <g>https://pecl.php.net/get/pecl_http-2.1.0</g>
  <x xlink:href="package.2.1.0.xml"/>
 </r>

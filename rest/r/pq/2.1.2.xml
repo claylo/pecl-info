@@ -27,6 +27,6 @@
 * Fix pq\DateTime::createFromFormat() prototype with PHP-7.2
 + Update static pq\Types with PostgreSQL-9.6 types</n>
  <f>67221</f>
- <g>http://pecl.php.net/get/pq-2.1.2</g>
+ <g>https://pecl.php.net/get/pq-2.1.2</g>
  <x xlink:href="package.2.1.2.xml"/>
 </r>

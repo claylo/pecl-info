@@ -24,6 +24,6 @@
  <n>Fix: build error on Solaris
 Introduced negative dependencies: libevent extension, windows OS</n>
  <f>69828</f>
- <g>http://pecl.php.net/get/event-1.7.8</g>
+ <g>https://pecl.php.net/get/event-1.7.8</g>
  <x xlink:href="package.1.7.8.xml"/>
 </r>

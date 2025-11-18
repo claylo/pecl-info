@@ -17,6 +17,6 @@
 - path to libv8 library is now baked into the library to find icudtl.dat file
 - if icudtl.dat file is moved after compile time, set v8js.icudtl_dat_path php.ini variable</n>
  <f>98516</f>
- <g>http://pecl.php.net/get/v8js-1.4.0</g>
+ <g>https://pecl.php.net/get/v8js-1.4.0</g>
  <x xlink:href="package.1.4.0.xml"/>
 </r>

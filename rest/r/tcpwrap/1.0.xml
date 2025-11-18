@@ -16,6 +16,6 @@
  <da>2003-10-24 18:15:00</da>
  <n>This release adds extra parameter to tcpwrap_check function to avoid dns lookups.</n>
  <f>3203</f>
- <g>http://pecl.php.net/get/tcpwrap-1.0</g>
+ <g>https://pecl.php.net/get/tcpwrap-1.0</g>
  <x xlink:href="package.1.0.xml"/>
 </r>

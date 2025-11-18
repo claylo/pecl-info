@@ -25,6 +25,6 @@ handy OO and procedural interfaces.
 - Fixed PECL bug #6370 (incorrect failover on out-of-memory server errors)
 - Improved zlib detection</n>
  <f>17133</f>
- <g>http://pecl.php.net/get/memcache-2.0.1</g>
+ <g>https://pecl.php.net/get/memcache-2.0.1</g>
  <x xlink:href="package.2.0.1.xml"/>
 </r>

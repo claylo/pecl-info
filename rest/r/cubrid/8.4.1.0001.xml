@@ -62,6 +62,6 @@ Fixed bugs:
 - Fix a bug in cubrid_fetch, cubrid_fetch_row, cubrid_fetch_array, cubrid_fetch_assoc
 and cubrid_fetch_object: Modified the return value when there are no more data;</n>
  <f>42446</f>
- <g>http://pecl.php.net/get/CUBRID-8.4.1.0001</g>
+ <g>https://pecl.php.net/get/CUBRID-8.4.1.0001</g>
  <x xlink:href="package.8.4.1.0001.xml"/>
 </r>

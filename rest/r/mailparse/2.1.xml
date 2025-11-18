@@ -38,6 +38,6 @@ Fix silly bug introduced by that fix...
 Fixed some memory leaks and problems when multiple uue attachments appear
 inline in a single mime part.</n>
  <f>33915</f>
- <g>http://pecl.php.net/get/mailparse-2.1</g>
+ <g>https://pecl.php.net/get/mailparse-2.1</g>
  <x xlink:href="package.2.1.xml"/>
 </r>

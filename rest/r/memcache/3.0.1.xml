@@ -24,6 +24,6 @@
 - Added configure option for PEAR installer to disable session handler support
 - Added package version to phpinfo()</n>
  <f>42081</f>
- <g>http://pecl.php.net/get/memcache-3.0.1</g>
+ <g>https://pecl.php.net/get/memcache-3.0.1</g>
  <x xlink:href="package.3.0.1.xml"/>
 </r>

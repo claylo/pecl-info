@@ -24,6 +24,6 @@ Changes:
 * Expose meta for N1QL and Search queries
 * Documentation updates and bug fixes</n>
  <f>59251</f>
- <g>http://pecl.php.net/get/couchbase-2.2.0</g>
+ <g>https://pecl.php.net/get/couchbase-2.2.0</g>
  <x xlink:href="package.2.2.0.xml"/>
 </r>

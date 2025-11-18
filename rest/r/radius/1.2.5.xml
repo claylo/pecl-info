@@ -18,6 +18,6 @@ OS (for example against Windows Active-Directory via IAS).</d>
  <da>2007-03-18 17:02:49</da>
  <n>- amd64 arch fixes</n>
  <f>29750</f>
- <g>http://pecl.php.net/get/radius-1.2.5</g>
+ <g>https://pecl.php.net/get/radius-1.2.5</g>
  <x xlink:href="package.1.2.5.xml"/>
 </r>

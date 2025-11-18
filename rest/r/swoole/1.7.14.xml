@@ -31,6 +31,6 @@
 - Added http server gzip compression supports
 - Update http server allows sending empty body</n>
  <f>448381</f>
- <g>http://pecl.php.net/get/swoole-1.7.14</g>
+ <g>https://pecl.php.net/get/swoole-1.7.14</g>
  <x xlink:href="package.1.7.14.xml"/>
 </r>

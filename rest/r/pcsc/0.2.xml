@@ -20,6 +20,6 @@ environments.</d>
  <da>2013-04-11 14:21:30</da>
  <n>Fixed compile error on &gt;= PHP5.4 and added w32 support</n>
  <f>7330</f>
- <g>http://pecl.php.net/get/pcsc-0.2</g>
+ <g>https://pecl.php.net/get/pcsc-0.2</g>
  <x xlink:href="package.0.2.xml"/>
 </r>

@@ -34,6 +34,6 @@
 - Fixed sync Swoole\Client memory leaks
 - Fixed Swoole\Http\Client crash when the connection is closed</n>
  <f>508341</f>
- <g>http://pecl.php.net/get/swoole-1.8.5</g>
+ <g>https://pecl.php.net/get/swoole-1.8.5</g>
  <x xlink:href="package.1.8.5.xml"/>
 </r>

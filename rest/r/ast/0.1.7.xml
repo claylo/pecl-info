@@ -26,6 +26,6 @@
 - Deprecated AST versions 40 and 45.
 - Fix build against PHP 7.4-dev.</n>
  <f>37813</f>
- <g>http://pecl.php.net/get/ast-0.1.7</g>
+ <g>https://pecl.php.net/get/ast-0.1.7</g>
  <x xlink:href="package.0.1.7.xml"/>
 </r>

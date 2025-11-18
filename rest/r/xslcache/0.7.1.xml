@@ -20,6 +20,6 @@
  <n>- Windows compatibility (kalle)
 - Fixed PECL Bug #16819: Crash when empty object is destroyed (mkoppanen)</n>
  <f>12683</f>
- <g>http://pecl.php.net/get/xslcache-0.7.1</g>
+ <g>https://pecl.php.net/get/xslcache-0.7.1</g>
  <x xlink:href="package.0.7.1.xml"/>
 </r>

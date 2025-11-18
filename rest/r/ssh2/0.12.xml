@@ -27,6 +27,6 @@
 - Fixed bug #63192 - Check if connection is authenticated.
 - Fixed bug #58576 - Handle error values from reads and writes to a channel.</n>
  <f>26223</f>
- <g>http://pecl.php.net/get/ssh2-0.12</g>
+ <g>https://pecl.php.net/get/ssh2-0.12</g>
  <x xlink:href="package.0.12.xml"/>
 </r>

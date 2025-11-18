@@ -15,6 +15,6 @@
  <da>2018-02-12 20:51:53</da>
  <n>* PCBC-508: Add support for FTS advanced sorting</n>
  <f>162281</f>
- <g>http://pecl.php.net/get/couchbase-2.4.4</g>
+ <g>https://pecl.php.net/get/couchbase-2.4.4</g>
  <x xlink:href="package.2.4.4.xml"/>
 </r>

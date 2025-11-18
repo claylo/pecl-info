@@ -33,6 +33,6 @@ The main feature of this release is new Streams API implemented by Michael Grund
 * Persistant connections can be closed via close method + change reconnection logic [1d997873] (Pavlo Yatsukhnenko)
 * Documentation improvements (@mg, @elcheco, @lucascourot, @nolimitdev, Michael Grunder)</n>
  <f>234894</f>
- <g>http://pecl.php.net/get/redis-4.2.0RC2</g>
+ <g>https://pecl.php.net/get/redis-4.2.0RC2</g>
  <x xlink:href="package.4.2.0RC2.xml"/>
 </r>

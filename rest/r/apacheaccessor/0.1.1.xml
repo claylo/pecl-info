@@ -16,6 +16,6 @@
  <n>apacheaccessor_dump_conf() now accepts third optional parameter, which represents the keys (and sections) we want to dump.
 the configuration walk function was moved to different file.</n>
  <f>6747</f>
- <g>http://pecl.php.net/get/apacheaccessor-0.1.1</g>
+ <g>https://pecl.php.net/get/apacheaccessor-0.1.1</g>
  <x xlink:href="package.0.1.1.xml"/>
 </r>

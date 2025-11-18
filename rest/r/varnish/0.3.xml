@@ -27,6 +27,6 @@ VarnishStat:
 There is no documentation for this package yet, please take a look at the tests and sources.
 The extension is being currently developed with varnish 3.0 and php 5.3.6, so if you have any issues with older versions, please file a bug.</n>
  <f>24104</f>
- <g>http://pecl.php.net/get/varnish-0.3</g>
+ <g>https://pecl.php.net/get/varnish-0.3</g>
  <x xlink:href="package.0.3.xml"/>
 </r>

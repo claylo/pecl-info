@@ -24,6 +24,6 @@
 * PCBC-386: Implement Datastructures API: List, Set, Map and Queue (see tests/DatastructuresTest.php)
 * Improve connection management, persistent connections by default, track and close idle connections.</n>
  <f>135849</f>
- <g>http://pecl.php.net/get/couchbase-2.3.0</g>
+ <g>https://pecl.php.net/get/couchbase-2.3.0</g>
  <x xlink:href="package.2.3.0.xml"/>
 </r>

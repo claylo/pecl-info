@@ -19,6 +19,6 @@
 - Free memory only in the parent thread/process to prevent pagefaults on free()
 - Trim malloc space before forking to reduce memory hit</n>
  <f>17774</f>
- <g>http://pecl.php.net/get/hidef-0.1.9</g>
+ <g>https://pecl.php.net/get/hidef-0.1.9</g>
  <x xlink:href="package.0.1.9.xml"/>
 </r>

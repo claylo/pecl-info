@@ -19,6 +19,6 @@ This extension requires Tokyo Cabinet, Tokyo Tyrant and PHP version 5.2.0+.</d>
  <n>- Added multiget for tables. Thanks to Devin
 - Fixed binary safety on table methods</n>
  <f>24261</f>
- <g>http://pecl.php.net/get/tokyo_tyrant-0.3.0</g>
+ <g>https://pecl.php.net/get/tokyo_tyrant-0.3.0</g>
  <x xlink:href="package.0.3.0.xml"/>
 </r>

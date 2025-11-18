@@ -25,6 +25,6 @@
 - changed all instances of le_handle to le_imagick_handle to avoid
   future conflicts.</n>
  <f>69539</f>
- <g>http://pecl.php.net/get/imagick-0.9.3</g>
+ <g>https://pecl.php.net/get/imagick-0.9.3</g>
  <x xlink:href="package.0.9.3.xml"/>
 </r>

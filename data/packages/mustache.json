@@ -50,7 +50,13 @@
         },
         "0.8.1": {
             "version": "0.8.1",
-            "state": "stable"
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "jbboehr",
+            "releaseDate": "2018-11-12T08:01:10+00:00",
+            "releaseNotes": "- Require libmustache >= 0.5.0\n- Remove old deprecated experimental compiler\n- Change minimum PHP version to 5.6\n- Allow installation on PHP 7.3\n- Fix missing php5to7.h (@remicollet)",
+            "get": "https://pecl.php.net/get/mustache-0.8.1",
+            "SPDX-License-Identifier": "MIT"
         },
         "0.7.4": {
             "version": "0.7.4",
@@ -59,7 +65,7 @@
             "releasedBy": "jbboehr",
             "releaseDate": "2017-07-18T23:55:11+00:00",
             "releaseNotes": "- Mark release as stable\n- Change minimum version to 5.4.0",
-            "get": "http://pecl.php.net/get/mustache-0.7.4",
+            "get": "https://pecl.php.net/get/mustache-0.7.4",
             "SPDX-License-Identifier": "MIT"
         },
         "0.7.4RC2": {
@@ -69,7 +75,7 @@
             "releasedBy": "jbboehr",
             "releaseDate": "2017-06-09T08:51:29+00:00",
             "releaseNotes": "- Use pkg-config when available to locate libmustache\n- Use proper arguments to PHP_NEW_EXTENSION\n- Allow PHP 7.2\n- Fix build warnings",
-            "get": "http://pecl.php.net/get/mustache-0.7.4RC2",
+            "get": "https://pecl.php.net/get/mustache-0.7.4RC2",
             "SPDX-License-Identifier": "MIT"
         },
         "0.7.4RC1": {
@@ -79,7 +85,7 @@
             "releasedBy": "jbboehr",
             "releaseDate": "2017-06-08T00:55:03+00:00",
             "releaseNotes": "Initial PECL release",
-            "get": "http://pecl.php.net/get/mustache-0.7.4RC1",
+            "get": "https://pecl.php.net/get/mustache-0.7.4RC1",
             "SPDX-License-Identifier": "MIT"
         }
     },

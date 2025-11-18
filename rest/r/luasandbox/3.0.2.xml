@@ -16,6 +16,6 @@
  <n>- Fix PHP 7 object layout
 - Initial PECL release</n>
  <f>59677</f>
- <g>http://pecl.php.net/get/LuaSandbox-3.0.2</g>
+ <g>https://pecl.php.net/get/LuaSandbox-3.0.2</g>
  <x xlink:href="package.3.0.2.xml"/>
 </r>

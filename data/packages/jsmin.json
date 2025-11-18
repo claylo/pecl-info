@@ -15,7 +15,7 @@
             "releasedBy": "sqmk",
             "releaseDate": "2018-01-23T18:40:06+00:00",
             "releaseNotes": "- PHP 7 support (@RafalLukawiecki)\n- PHP 7 support (Ali Nikkhah)",
-            "get": "http://pecl.php.net/get/jsmin-3.0.0",
+            "get": "https://pecl.php.net/get/jsmin-3.0.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.1": {
@@ -25,7 +25,7 @@
             "releasedBy": "sqmk",
             "releaseDate": "2015-11-13T17:02:54+00:00",
             "releaseNotes": "- MSVC support (@Jan-E)",
-            "get": "http://pecl.php.net/get/jsmin-2.0.1",
+            "get": "https://pecl.php.net/get/jsmin-2.0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.0": {
@@ -35,7 +35,7 @@
             "releasedBy": "sqmk",
             "releaseDate": "2015-11-12T16:01:25+00:00",
             "releaseNotes": "- UTF-8 support (@c9s)",
-            "get": "http://pecl.php.net/get/jsmin-2.0.0",
+            "get": "https://pecl.php.net/get/jsmin-2.0.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.1.0": {
@@ -45,7 +45,7 @@
             "releasedBy": "sqmk",
             "releaseDate": "2015-02-06T12:29:48+00:00",
             "releaseNotes": "- Add second argument to jsmin to return error code (thanks c9s)\n- Bug fixes (thanks c9s)",
-            "get": "http://pecl.php.net/get/jsmin-1.1.0",
+            "get": "https://pecl.php.net/get/jsmin-1.1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.0": {
@@ -55,7 +55,7 @@
             "releasedBy": "sqmk",
             "releaseDate": "2014-12-20T14:14:27+00:00",
             "releaseNotes": "- Stable release",
-            "get": "http://pecl.php.net/get/jsmin-1.0.0",
+            "get": "https://pecl.php.net/get/jsmin-1.0.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.1.1": {
@@ -65,7 +65,7 @@
             "releasedBy": "sqmk",
             "releaseDate": "2013-09-14T15:54:00+00:00",
             "releaseNotes": "- Version number fixes\n- Windows fixes (thanks weltling)",
-            "get": "http://pecl.php.net/get/jsmin-0.1.1",
+            "get": "https://pecl.php.net/get/jsmin-0.1.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.1.0": {
@@ -75,7 +75,7 @@
             "releasedBy": "sqmk",
             "releaseDate": "2013-07-26T00:39:40+00:00",
             "releaseNotes": "- Initial release",
-            "get": "http://pecl.php.net/get/jsmin-0.1.0",
+            "get": "https://pecl.php.net/get/jsmin-0.1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

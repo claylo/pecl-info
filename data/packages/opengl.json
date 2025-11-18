@@ -15,7 +15,7 @@
             "releasedBy": "santiagolizardo",
             "releaseDate": "2018-09-22T12:23:40+00:00",
             "releaseNotes": "- Better PHP7.2 support.\n- Example scripts included in the main extension package.",
-            "get": "http://pecl.php.net/get/opengl-0.9.0",
+            "get": "https://pecl.php.net/get/opengl-0.9.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.8.0": {
@@ -25,7 +25,7 @@
             "releasedBy": "santiagolizardo",
             "releaseDate": "2014-04-20T17:48:51+00:00",
             "releaseNotes": "- Initial PECL package release.",
-            "get": "http://pecl.php.net/get/opengl-0.8.0",
+            "get": "https://pecl.php.net/get/opengl-0.8.0",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

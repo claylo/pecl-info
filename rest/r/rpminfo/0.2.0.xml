@@ -20,6 +20,6 @@ Available functions:
  <n>- new function:
   array rpmdbinfo(string name [, bool full]);</n>
  <f>12539</f>
- <g>http://pecl.php.net/get/rpminfo-0.2.0</g>
+ <g>https://pecl.php.net/get/rpminfo-0.2.0</g>
  <x xlink:href="package.0.2.0.xml"/>
 </r>

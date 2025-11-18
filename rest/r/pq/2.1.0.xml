@@ -27,6 +27,6 @@
 * Restore listeners and prepared statements after a connection reset (gh-issue #15)
 * Added pq\Connection::$nonblocking and pq\Connection::flush() to support non-blocking writes (gh-issue #16)</n>
  <f>66926</f>
- <g>http://pecl.php.net/get/pq-2.1.0</g>
+ <g>https://pecl.php.net/get/pq-2.1.0</g>
  <x xlink:href="package.2.1.0.xml"/>
 </r>

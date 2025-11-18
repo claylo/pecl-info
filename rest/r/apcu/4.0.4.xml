@@ -16,6 +16,6 @@
  <n>- Fix deadlocking due to destroyed locks
 - Fix various compatibility bugs</n>
  <f>119708</f>
- <g>http://pecl.php.net/get/apcu-4.0.4</g>
+ <g>https://pecl.php.net/get/apcu-4.0.4</g>
  <x xlink:href="package.4.0.4.xml"/>
 </r>

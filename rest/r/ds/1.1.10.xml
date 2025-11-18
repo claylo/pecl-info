@@ -15,6 +15,6 @@
  <da>2017-06-21 23:34:19</da>
  <n>- Fix using a key as reference not working correctly with array access. #86</n>
  <f>49982</f>
- <g>http://pecl.php.net/get/ds-1.1.10</g>
+ <g>https://pecl.php.net/get/ds-1.1.10</g>
  <x xlink:href="package.1.1.10.xml"/>
 </r>

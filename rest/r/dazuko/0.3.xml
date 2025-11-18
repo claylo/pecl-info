@@ -22,6 +22,6 @@ dazuko to code virus scanners and other security frameworks.
  <da>2004-09-11 13:37:00</da>
  <n>Removed dazuko sources. Added dynamic source download.</n>
  <f>6575</f>
- <g>http://pecl.php.net/get/dazuko-0.3</g>
+ <g>https://pecl.php.net/get/dazuko-0.3</g>
  <x xlink:href="package.0.3.xml"/>
 </r>

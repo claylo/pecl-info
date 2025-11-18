@@ -19,6 +19,6 @@
 - Fixed bug #61673 (callback function args are wrong for signal handler).
 - Fixed bug #61653 (Segfault on event_free()).</n>
  <f>9806</f>
- <g>http://pecl.php.net/get/libevent-0.1.0</g>
+ <g>https://pecl.php.net/get/libevent-0.1.0</g>
  <x xlink:href="package.0.1.0.xml"/>
 </r>

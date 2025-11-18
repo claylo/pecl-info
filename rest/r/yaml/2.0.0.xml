@@ -38,6 +38,6 @@ Bugs Fixed:
 - Fix tests bug_64019.phpt, bug_parsing_alias.phpt (bocharov)
 - #72204 Crash when try to parse yaml file</n>
  <f>37960</f>
- <g>http://pecl.php.net/get/yaml-2.0.0</g>
+ <g>https://pecl.php.net/get/yaml-2.0.0</g>
  <x xlink:href="package.2.0.0.xml"/>
 </r>

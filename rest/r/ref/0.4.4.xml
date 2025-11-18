@@ -18,6 +18,6 @@
 Changelist:
  - Restore original referent obj handler when it is no longer tracked</n>
  <f>36137</f>
- <g>http://pecl.php.net/get/ref-0.4.4</g>
+ <g>https://pecl.php.net/get/ref-0.4.4</g>
  <x xlink:href="package.0.4.4.xml"/>
 </r>

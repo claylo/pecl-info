@@ -22,6 +22,6 @@ toolkit API.  Information on Spread can be found at http://www.spread.org/</d>
 - prevent potential overflow calling multicast
 - fix name collision with curl. (patch by Alexey Zakhlestin)</n>
  <f>8080</f>
- <g>http://pecl.php.net/get/spread-2.0.2</g>
+ <g>https://pecl.php.net/get/spread-2.0.2</g>
  <x xlink:href="package.2.0.2.xml"/>
 </r>

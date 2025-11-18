@@ -23,6 +23,6 @@ IMPORTANT: Version 2.x API is not compatible with earlier versions.</d>
 + Closes PECL Bug #11934 - setImageVirtualPixelMethod triggers exception
 + Fixed safe_mode and open_basedir bypass for __construct, readImage, readImages and pingImage</n>
  <f>67306</f>
- <g>http://pecl.php.net/get/imagick-2.0.0RC2</g>
+ <g>https://pecl.php.net/get/imagick-2.0.0RC2</g>
  <x xlink:href="package.2.0.0RC2.xml"/>
 </r>

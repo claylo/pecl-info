@@ -19,6 +19,6 @@ from http://ibm.com/informix/downloads.html.
  <da>2008-11-10 02:01:48</da>
  <n>Fixing defect related value of Interval is right shifted.</n>
  <f>65676</f>
- <g>http://pecl.php.net/get/PDO_INFORMIX-1.2.6</g>
+ <g>https://pecl.php.net/get/PDO_INFORMIX-1.2.6</g>
  <x xlink:href="package.1.2.6.xml"/>
 </r>

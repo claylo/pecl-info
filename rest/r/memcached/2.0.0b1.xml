@@ -36,6 +36,6 @@
 - Add 'on_new' callback to constructor
 - Add SASL support</n>
  <f>34708</f>
- <g>http://pecl.php.net/get/memcached-2.0.0b1</g>
+ <g>https://pecl.php.net/get/memcached-2.0.0b1</g>
  <x xlink:href="package.2.0.0b1.xml"/>
 </r>

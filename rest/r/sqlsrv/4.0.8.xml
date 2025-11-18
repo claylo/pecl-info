@@ -21,6 +21,6 @@
 - Fixed issue with empty output parameters on stored procedure.
 - Fixed memory leaks in buffered queries.</n>
  <f>192155</f>
- <g>http://pecl.php.net/get/sqlsrv-4.0.8</g>
+ <g>https://pecl.php.net/get/sqlsrv-4.0.8</g>
  <x xlink:href="package.4.0.8.xml"/>
 </r>

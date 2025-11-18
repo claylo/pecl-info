@@ -16,6 +16,6 @@
  <n>* first pecl release with basic functionality
          * do not forget to run postinstall script, which copies the names dictionary file</n>
  <f>266543</f>
- <g>http://pecl.php.net/get/gender-0.6.0</g>
+ <g>https://pecl.php.net/get/gender-0.6.0</g>
  <x xlink:href="package.0.6.0.xml"/>
 </r>

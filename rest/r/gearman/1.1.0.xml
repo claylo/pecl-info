@@ -18,6 +18,6 @@
 - Fixed BC breaks in libgearman v1.1.0
 - Make phpversion('gearman') return the real version</n>
  <f>30488</f>
- <g>http://pecl.php.net/get/gearman-1.1.0</g>
+ <g>https://pecl.php.net/get/gearman-1.1.0</g>
  <x xlink:href="package.1.1.0.xml"/>
 </r>

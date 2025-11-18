@@ -17,6 +17,6 @@
 - Changing behavior of sum()/product()/difference()/ratio() to ignore booleans
 - Fixed critical bug in Functional\pluck() that made the current scope unavailable to the caller</n>
  <f>10112</f>
- <g>http://pecl.php.net/get/functional-0.6.0</g>
+ <g>https://pecl.php.net/get/functional-0.6.0</g>
  <x xlink:href="package.0.6.0.xml"/>
 </r>

@@ -95,7 +95,7 @@
             "releasedBy": "mbechler",
             "releaseDate": "2017-04-08T13:03:03+00:00",
             "releaseNotes": "- [BUG] Add missing function entry termination for TLData\n- [CLEANUP] Don't return garbage on hard class initialization errors, don't throw from create_object handlers",
-            "get": "http://pecl.php.net/get/krb5-1.1.2",
+            "get": "https://pecl.php.net/get/krb5-1.1.2",
             "SPDX-License-Identifier": "MIT"
         },
         "1.1.1": {
@@ -105,7 +105,7 @@
             "releasedBy": "mbechler",
             "releaseDate": "2016-11-12T14:18:30+00:00",
             "releaseNotes": "- [FEATURE] Add KRB5CCache::changePassword kpasswd method\n- [FEATURE] Add KADM5 API version 3 support (password failure policy)\n- [BUG] properly mark shared globals external (fixes LLVM build)\n- [BUG] Fix unterminated string copy memory corruption in negotiate_auth\n- [BUG] properly free credentails in negotiate_auth (fixes rcache leaks)\n- [BUG] fix _add_assoc_string string length (fixes extra null bytes in some arrays)\n- [BUG] fix PHP7 crash due to wrong addrlist zval declaration",
-            "get": "http://pecl.php.net/get/krb5-1.1.1",
+            "get": "https://pecl.php.net/get/krb5-1.1.1",
             "SPDX-License-Identifier": "MIT"
         },
         "1.1.0": {
@@ -115,7 +115,7 @@
             "releasedBy": "mbechler",
             "releaseDate": "2016-07-16T14:47:14+00:00",
             "releaseNotes": "- [FEATURE] PHP7 compatibility\n - [FEATURE] Support getting/setting TL_DATA in KADM\n - [BUG] Fix GSSAPI->acquireCredentials behaviour, \n    now defaults to GSS_C_INITIATE if only a ccache is available\n    eagerly initialize credentials when no principal is specified (use ccache default principal)\n - [BUG] Fix a couple of memory leaks, add a few more sanity checks",
-            "get": "http://pecl.php.net/get/krb5-1.1.0",
+            "get": "https://pecl.php.net/get/krb5-1.1.0",
             "SPDX-License-Identifier": "MIT"
         },
         "1.0.0": {
@@ -125,7 +125,7 @@
             "releasedBy": "mbechler",
             "releaseDate": "2014-03-01T11:47:19+00:00",
             "releaseNotes": "- [CLEANUP] Remove bundled kadmin headers, drop support for mit-krb5 <1.8\n- [FEATURE] Support use of the krb5-config tool to determine library paths\n- [CLEANUP] Remove KRB5CCache->setConfig method as this is no longer supported by libraries\n- [BUG] Fix null-deref in isValid for uninitialized KRB5CCache",
-            "get": "http://pecl.php.net/get/krb5-1.0.0",
+            "get": "https://pecl.php.net/get/krb5-1.0.0",
             "SPDX-License-Identifier": "MIT"
         }
     },

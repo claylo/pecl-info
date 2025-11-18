@@ -75,6 +75,6 @@ Xdebug also provides:
     - Fixed a typo that prevented the XDEBUG_CONFIG option &quot;profiler_enable&quot;
       from working.</n>
  <f>252286</f>
- <g>http://pecl.php.net/get/xdebug-2.0.0RC1</g>
+ <g>https://pecl.php.net/get/xdebug-2.0.0RC1</g>
  <x xlink:href="package.2.0.0RC1.xml"/>
 </r>

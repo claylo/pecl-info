@@ -60,7 +60,13 @@
         },
         "0.6.1": {
             "version": "0.6.1",
-            "state": "stable"
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "jbboehr",
+            "releaseDate": "2018-11-13T05:37:10+00:00",
+            "releaseNotes": "- Fixed test failures on PHP 5.6",
+            "get": "https://pecl.php.net/get/psr-0.6.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.6.0": {
             "version": "0.6.0",
@@ -79,7 +85,7 @@
             "releasedBy": "jbboehr",
             "releaseDate": "2018-10-29T20:57:25+00:00",
             "releaseNotes": "- Fix Psr\\Http\\Message\\ServerRequestInterface not actually extending `Psr\\Http\\Message\\RequestInterface`",
-            "get": "http://pecl.php.net/get/psr-0.5.1",
+            "get": "https://pecl.php.net/get/psr-0.5.1",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.5.0": {
@@ -89,7 +95,7 @@
             "releasedBy": "jbboehr",
             "releaseDate": "2018-09-10T20:46:11+00:00",
             "releaseNotes": "- PSR-17 HTTP Factories support\n- Whitelist PHP 7.3",
-            "get": "http://pecl.php.net/get/psr-0.5.0",
+            "get": "https://pecl.php.net/get/psr-0.5.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.4.0": {
@@ -99,7 +105,7 @@
             "releasedBy": "jbboehr",
             "releaseDate": "2018-03-05T23:27:32+00:00",
             "releaseNotes": "- PSR-15 HTTP Handlers support",
-            "get": "http://pecl.php.net/get/psr-0.4.0",
+            "get": "https://pecl.php.net/get/psr-0.4.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.3.0": {
@@ -109,7 +115,7 @@
             "releasedBy": "jbboehr",
             "releaseDate": "2018-02-08T20:43:29+00:00",
             "releaseNotes": "- Fix TypeError when no argument is passed to methods in AbstractLogger\n- PSR-11 Container support\n- PSR-13 Link support\n- PSR-16 Simple Cache support\n- Windows support",
-            "get": "http://pecl.php.net/get/psr-0.3.0",
+            "get": "https://pecl.php.net/get/psr-0.3.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.3.0RC4": {
@@ -119,7 +125,7 @@
             "releasedBy": "jbboehr",
             "releaseDate": "2017-08-11T23:10:10+00:00",
             "releaseNotes": "- Fix TypeError when no argument is passed to methods in AbstractLogger",
-            "get": "http://pecl.php.net/get/psr-0.3.0RC4",
+            "get": "https://pecl.php.net/get/psr-0.3.0RC4",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.3.0RC3": {
@@ -129,7 +135,7 @@
             "releasedBy": "jbboehr",
             "releaseDate": "2017-07-30T01:19:44+00:00",
             "releaseNotes": "- Windows support",
-            "get": "http://pecl.php.net/get/psr-0.3.0RC3",
+            "get": "https://pecl.php.net/get/psr-0.3.0RC3",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.3.0RC1": {
@@ -139,7 +145,7 @@
             "releasedBy": "jbboehr",
             "releaseDate": "2017-07-29T01:57:00+00:00",
             "releaseNotes": "- Initial PECL release",
-            "get": "http://pecl.php.net/get/psr-0.3.0RC1",
+            "get": "https://pecl.php.net/get/psr-0.3.0RC1",
             "SPDX-License-Identifier": "BSD-2-Clause"
         }
     },

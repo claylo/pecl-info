@@ -17,6 +17,6 @@
 - Fixed Issue #80 (Serialized failed on unseted value)
 - When packing/unpacking a zend_object don't call magic methods __set/__get</n>
  <f>45506</f>
- <g>http://pecl.php.net/get/msgpack-2.0.1</g>
+ <g>https://pecl.php.net/get/msgpack-2.0.1</g>
  <x xlink:href="package.2.0.1.xml"/>
 </r>

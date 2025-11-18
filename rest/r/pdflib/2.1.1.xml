@@ -23,6 +23,6 @@ http://www.pdflib.com/developer-center/technical-documentation/php-howto
  <da>2006-10-31 13:12:21</da>
  <n>- utf16_to_utf8() adn utf8_to_utf16() was missing in the OO-Wrapper</n>
  <f>55663</f>
- <g>http://pecl.php.net/get/pdflib-2.1.1</g>
+ <g>https://pecl.php.net/get/pdflib-2.1.1</g>
  <x xlink:href="package.2.1.1.xml"/>
 </r>

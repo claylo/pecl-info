@@ -20,7 +20,13 @@
         },
         "1.2.1": {
             "version": "1.2.1",
-            "state": "stable"
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "osmanov",
+            "releaseDate": "2025-07-17T09:54:57+00:00",
+            "releaseNotes": "Use zend_ce_exception instead of zend_exception_get_default() for 8.5 (patch by Remi Collet)",
+            "get": "https://pecl.php.net/get/ev-1.2.1",
+            "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.2.0": {
             "version": "1.2.0",
@@ -159,7 +165,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2016-12-02T12:23:14+00:00",
             "releaseNotes": "Fix: memory leak in PHP 7.0.13",
-            "get": "http://pecl.php.net/get/ev-1.0.4",
+            "get": "https://pecl.php.net/get/ev-1.0.4",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.3": {
@@ -169,7 +175,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2016-07-29T06:42:11+00:00",
             "releaseNotes": "Fix: issue #29 where object properties were wrapped in double quotes",
-            "get": "http://pecl.php.net/get/ev-1.0.3",
+            "get": "https://pecl.php.net/get/ev-1.0.3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.2": {
@@ -179,7 +185,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2016-07-29T05:33:34+00:00",
             "releaseNotes": "Fix: issue #28 where generator test failed with PHP 5.4",
-            "get": "http://pecl.php.net/get/ev-1.0.2",
+            "get": "https://pecl.php.net/get/ev-1.0.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.1": {
@@ -189,7 +195,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2016-07-29T03:06:09+00:00",
             "releaseNotes": "Fix: issue #27 where callbacks with < 2 arguments were rejected",
-            "get": "http://pecl.php.net/get/ev-1.0.1",
+            "get": "https://pecl.php.net/get/ev-1.0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.0": {
@@ -199,7 +205,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2016-05-17T03:22:57+00:00",
             "releaseNotes": "Fix: issue #24",
-            "get": "http://pecl.php.net/get/ev-1.0.0",
+            "get": "https://pecl.php.net/get/ev-1.0.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.0RC9": {
@@ -209,7 +215,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2016-02-22T11:29:20+00:00",
             "releaseNotes": "Windows package fix",
-            "get": "http://pecl.php.net/get/ev-1.0.0RC9",
+            "get": "https://pecl.php.net/get/ev-1.0.0RC9",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.0RC8": {
@@ -219,7 +225,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2016-02-22T09:24:09+00:00",
             "releaseNotes": "Another Windows fix",
-            "get": "http://pecl.php.net/get/ev-1.0.0RC8",
+            "get": "https://pecl.php.net/get/ev-1.0.0RC8",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.0RC7": {
@@ -229,7 +235,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2016-02-22T07:52:05+00:00",
             "releaseNotes": "Fixed PECL package",
-            "get": "http://pecl.php.net/get/ev-1.0.0RC7",
+            "get": "https://pecl.php.net/get/ev-1.0.0RC7",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.0RC6": {
@@ -239,7 +245,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2016-02-22T04:46:37+00:00",
             "releaseNotes": "Fixed Windows build",
-            "get": "http://pecl.php.net/get/ev-1.0.0RC6",
+            "get": "https://pecl.php.net/get/ev-1.0.0RC6",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.0RC5": {
@@ -249,7 +255,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2016-02-22T04:32:34+00:00",
             "releaseNotes": "Added Windows support",
-            "get": "http://pecl.php.net/get/ev-1.0.0RC5",
+            "get": "https://pecl.php.net/get/ev-1.0.0RC5",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.0RC4": {
@@ -259,7 +265,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2016-02-08T12:02:38+00:00",
             "releaseNotes": "Fix in PHP7: memory leak due to incorrect default loop destruction.\nChange: removed pthreads dependency(pthread_atfork setup for the ev_loop_fork(EV_DEFAULT) call)",
-            "get": "http://pecl.php.net/get/ev-1.0.0RC4",
+            "get": "https://pecl.php.net/get/ev-1.0.0RC4",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.0RC3": {
@@ -269,7 +275,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2015-12-16T14:38:51+00:00",
             "releaseNotes": "Fix: issue #18",
-            "get": "http://pecl.php.net/get/ev-1.0.0RC3",
+            "get": "https://pecl.php.net/get/ev-1.0.0RC3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.0RC2": {
@@ -279,7 +285,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2015-11-22T12:08:32+00:00",
             "releaseNotes": "Fix: EvChild::set() parameter parsing (thanks to Remi)\nFix: issue #16 where get_properties handler failed with segmentation fault\nFix: issue #17 where EgSignal::$signum property always returned NULL\nFix: EvStat::$path property always returned NULL",
-            "get": "http://pecl.php.net/get/ev-1.0.0RC2",
+            "get": "https://pecl.php.net/get/ev-1.0.0RC2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.0RC1": {
@@ -289,7 +295,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2015-11-20T14:44:13+00:00",
             "releaseNotes": "Added PHP7 support",
-            "get": "http://pecl.php.net/get/ev-1.0.0RC1",
+            "get": "https://pecl.php.net/get/ev-1.0.0RC1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.2.15": {
@@ -299,7 +305,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2015-05-03T10:56:30+00:00",
             "releaseNotes": "Issue #12: marked as CLI-only extension (the changes are actually missing in 0.2.14)",
-            "get": "http://pecl.php.net/get/ev-0.2.15",
+            "get": "https://pecl.php.net/get/ev-0.2.15",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.2.14": {
@@ -309,7 +315,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2015-05-03T09:22:26+00:00",
             "releaseNotes": "Issue #12: marked as CLI-only extension",
-            "get": "http://pecl.php.net/get/ev-0.2.14",
+            "get": "https://pecl.php.net/get/ev-0.2.14",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.2.13": {
@@ -319,7 +325,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2014-12-08T12:21:29+00:00",
             "releaseNotes": "Issue #11: pecl install ev command fails with non-standard PHP installation prefix.",
-            "get": "http://pecl.php.net/get/ev-0.2.13",
+            "get": "https://pecl.php.net/get/ev-0.2.13",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.2.12": {
@@ -329,7 +335,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2014-09-08T23:17:02+00:00",
             "releaseNotes": "Fixed #10: Segfault in test suite for ZTS (thanks to Remi Collet)",
-            "get": "http://pecl.php.net/get/ev-0.2.12",
+            "get": "https://pecl.php.net/get/ev-0.2.12",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.2.11": {
@@ -339,7 +345,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2014-09-07T04:36:35+00:00",
             "releaseNotes": "Fixed #7: static building was not supported(Tim)\nFixed #9: factory methods messed up the instance zval properties thus causing fatal errors in PHP 5.6\nFixed: EvWatcher::keepalive method didn't regard the default value of the 1st argument.\nPulled latest fixes from libev's upstream",
-            "get": "http://pecl.php.net/get/ev-0.2.11",
+            "get": "https://pecl.php.net/get/ev-0.2.11",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.2.10": {
@@ -349,7 +355,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2013-08-16T16:56:42+00:00",
             "releaseNotes": "Fix: segmentation fault after watcher restart(Frank Mayer)\nFix: missing get_gc property handler\nFix: operators applied to uninitialized EvWatcher::data property caused unexpected results",
-            "get": "http://pecl.php.net/get/ev-0.2.10",
+            "get": "https://pecl.php.net/get/ev-0.2.10",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.2.9": {
@@ -359,7 +365,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2013-08-05T07:19:50+00:00",
             "releaseNotes": "Fix: memory leaks in objects derived from EvWatcher \nRefact: some frequent checks optimized",
-            "get": "http://pecl.php.net/get/ev-0.2.9",
+            "get": "https://pecl.php.net/get/ev-0.2.9",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.2.8": {
@@ -369,7 +375,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2013-07-21T08:22:56+00:00",
             "releaseNotes": "Fix: segmentation fault in EvLoop/EvWatcher dtors caused by reference variables stored in 'data' property\nFix: EvLoop/EvWatcher object dtors sometimes didn't free the 'data' member until the script shutdown phase\nFix: get_properties property handler was not implemented for PHP >= 5.4.0",
-            "get": "http://pecl.php.net/get/ev-0.2.8",
+            "get": "https://pecl.php.net/get/ev-0.2.8",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.2.7": {
@@ -379,7 +385,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2013-07-20T04:30:13+00:00",
             "releaseNotes": "Fix: because of a typo in ev.c dump stuff didn't work in PHP<5.5.0\nChange: removed \"Returning previously created default loop\" warning",
-            "get": "http://pecl.php.net/get/ev-0.2.7",
+            "get": "https://pecl.php.net/get/ev-0.2.7",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.2.6": {
@@ -389,7 +395,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2013-07-19T08:54:57+00:00",
             "releaseNotes": "Merged in 5lava/pecl-ev (pull request #1) @ Bitbucket\nFix: made php 5.5.0-compatible\nUpgraded libev to version 4.15",
-            "get": "http://pecl.php.net/get/ev-0.2.6",
+            "get": "https://pecl.php.net/get/ev-0.2.6",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.2.5": {
@@ -399,7 +405,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2013-07-16T14:18:19+00:00",
             "releaseNotes": "Fix: bug #64788 where var_dump() of EvIo watcher caused disfunction of whole event loop\nFix: build error due to return (void) from function returning int on Mac OS X",
-            "get": "http://pecl.php.net/get/ev-0.2.5",
+            "get": "https://pecl.php.net/get/ev-0.2.5",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.2.4": {
@@ -409,7 +415,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2013-04-22T12:27:58+00:00",
             "releaseNotes": "Fix: build error in Mac OS X: inline php_ev_set_watcher_priority function had been exported as a library symbol",
-            "get": "http://pecl.php.net/get/ev-0.2.4",
+            "get": "https://pecl.php.net/get/ev-0.2.4",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.2.3": {
@@ -419,7 +425,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2013-01-12T07:20:46+00:00",
             "releaseNotes": "Fixed build errors where sockets extension required, made optional(thanks to auroraeos on #php.pecl@efnet IRC).\nFixed build errors for non-threaded configuration.\nStreams' casting fixed and improved.",
-            "get": "http://pecl.php.net/get/ev-0.2.3",
+            "get": "https://pecl.php.net/get/ev-0.2.3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.2.2": {
@@ -429,7 +435,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2013-01-08T05:36:35+00:00",
             "releaseNotes": "Fix: bug #3 where ev_loop_fork invoked with EV_DEFAULT_UC(thanks to John Chen)\nRefact: callbacks' no_separation = 1(was 0)\nFix: typo in package.xml\nFix: markdown syntax",
-            "get": "http://pecl.php.net/get/ev-0.2.2",
+            "get": "https://pecl.php.net/get/ev-0.2.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.2.1": {
@@ -439,7 +445,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2013-01-01T07:48:29+00:00",
             "releaseNotes": "Fix: get_property_ptr_ptr for zval properties was not supoprted. See\nhttp://old.nabble.com/Can%27t-get-zval-write-property-handler-working-for-%2B%2B------%2B%2B-and-other-operators-to34843859.html\nFix: check for attempts to bind a signal to different event loops",
-            "get": "http://pecl.php.net/get/ev-0.2.1",
+            "get": "https://pecl.php.net/get/ev-0.2.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.2.0": {
@@ -449,7 +455,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2012-12-27T05:17:02+00:00",
             "releaseNotes": "Change: moved ev_* functions to Ev singleton(due to some issues with reflection)\nChange: renamed EvLoop::break to EvLoop::stop, and ev_break to Ev::stop\nChange: moved all constants to Ev class\nFix: release version\nDel: callback parameter from EvLoop constructor/factories\nChange: watcher createStopped methods made final\nChange: watcher factory methods made final",
-            "get": "http://pecl.php.net/get/ev-0.2.0",
+            "get": "https://pecl.php.net/get/ev-0.2.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.1.1": {
@@ -459,7 +465,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2012-12-24T01:40:30+00:00",
             "releaseNotes": "Initial release",
-            "get": "http://pecl.php.net/get/ev-0.1.1",
+            "get": "https://pecl.php.net/get/ev-0.1.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.1.0": {
@@ -469,7 +475,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2012-12-24T00:24:27+00:00",
             "releaseNotes": "Initial release",
-            "get": "http://pecl.php.net/get/ev-0.1.0",
+            "get": "https://pecl.php.net/get/ev-0.1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

@@ -17,6 +17,6 @@
 * Fix sub coredump
 * pecl init</n>
  <f>16312</f>
- <g>http://pecl.php.net/get/nsq-2.3.2</g>
+ <g>https://pecl.php.net/get/nsq-2.3.2</g>
  <x xlink:href="package.2.3.2.xml"/>
 </r>

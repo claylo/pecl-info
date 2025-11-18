@@ -33,6 +33,6 @@
 * Fixed non-array property error on swoole_http_response object
 * Fixed bad version number, add automated fixing tool</n>
  <f>1127669</f>
- <g>http://pecl.php.net/get/swoole-4.2.3</g>
+ <g>https://pecl.php.net/get/swoole-4.2.3</g>
  <x xlink:href="package.4.2.3.xml"/>
 </r>

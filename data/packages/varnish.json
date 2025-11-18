@@ -35,7 +35,7 @@
             "releasedBy": "ab",
             "releaseDate": "2018-07-01T11:27:05+00:00",
             "releaseNotes": "- fix build error -Werror=format-security (Remi Collet)",
-            "get": "http://pecl.php.net/get/varnish-1.2.4",
+            "get": "https://pecl.php.net/get/varnish-1.2.4",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "1.2.3": {
@@ -45,7 +45,7 @@
             "releasedBy": "ab",
             "releaseDate": "2018-03-04T19:40:01+00:00",
             "releaseNotes": "- fixed Varnish 5.2 compatibility",
-            "get": "http://pecl.php.net/get/varnish-1.2.3",
+            "get": "https://pecl.php.net/get/varnish-1.2.3",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "1.2.2": {
@@ -55,7 +55,7 @@
             "releasedBy": "ab",
             "releaseDate": "2016-10-23T16:53:45+00:00",
             "releaseNotes": "- fixed build with Varnish 5.x, thanks Remi Collet!",
-            "get": "http://pecl.php.net/get/varnish-1.2.2",
+            "get": "https://pecl.php.net/get/varnish-1.2.2",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "1.2.1": {
@@ -65,7 +65,7 @@
             "releasedBy": "ab",
             "releaseDate": "2015-02-14T05:34:24+00:00",
             "releaseNotes": "- fixed build with Varnish 4.x (thanks Remi Collet)",
-            "get": "http://pecl.php.net/get/varnish-1.2.1",
+            "get": "https://pecl.php.net/get/varnish-1.2.1",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "1.2.0": {
@@ -75,7 +75,7 @@
             "releasedBy": "ab",
             "releaseDate": "2015-02-13T15:53:37+00:00",
             "releaseNotes": "- m4 updated for Varnish 4.x compliance (Remi Collet)\n- Varnish 4.x compatibility, but\n- VarnishStat and VarnishLog aren't supported when linking to Varnish 4.x anymore\n- PHP7 compatibility",
-            "get": "http://pecl.php.net/get/varnish-1.2.0",
+            "get": "https://pecl.php.net/get/varnish-1.2.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "1.1.1": {
@@ -85,7 +85,7 @@
             "releasedBy": "ab",
             "releaseDate": "2013-10-20T07:36:31+00:00",
             "releaseNotes": "- Fixed bug #65916 (Compilation broken on Mac OS X)",
-            "get": "http://pecl.php.net/get/varnish-1.1.1",
+            "get": "https://pecl.php.net/get/varnish-1.1.1",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "1.1.0": {
@@ -95,7 +95,7 @@
             "releasedBy": "ab",
             "releaseDate": "2013-10-01T16:16:32+00:00",
             "releaseNotes": "- fixed object handlers initialization\n- improved m4 script (Remi Collet)\n- dropped the bundled SHA256 implementation, the hash extension is dependency now instead (Remi Collet)\n- RPMs are now available from Remi's repository\n- improved the test suite",
-            "get": "http://pecl.php.net/get/varnish-1.1.0",
+            "get": "https://pecl.php.net/get/varnish-1.1.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "1.0.0": {
@@ -105,7 +105,7 @@
             "releasedBy": "ab",
             "releaseDate": "2012-08-05T14:15:40+00:00",
             "releaseNotes": "- added windows compatibility, though VarnishLog, VarnishStat and auth with ident isn't available there\n- fixed socket closing for VarnishAdmin\n* added VarnishAdmin::disconnect()",
-            "get": "http://pecl.php.net/get/varnish-1.0.0",
+            "get": "https://pecl.php.net/get/varnish-1.0.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.9.3": {
@@ -115,7 +115,7 @@
             "releasedBy": "ab",
             "releaseDate": "2012-06-01T15:15:37+00:00",
             "releaseNotes": "- Added PHP-5.4 compatibility\n- Implemented VarnishAdmin functionality\n* VarnishAdmin::getVclList()\n* VarnishAdmin::vclUse()\n- multiple leak and bug fixes",
-            "get": "http://pecl.php.net/get/varnish-0.9.3",
+            "get": "https://pecl.php.net/get/varnish-0.9.3",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.9.2": {
@@ -125,7 +125,7 @@
             "releasedBy": "ab",
             "releaseDate": "2011-10-06T14:38:49+00:00",
             "releaseNotes": "- Added Varnish 2 compatibility\n* Configuration option and a setter for VarnishAdmin\n* Ban/purge varnish 2/3 compatibility",
-            "get": "http://pecl.php.net/get/varnish-0.9.2",
+            "get": "https://pecl.php.net/get/varnish-0.9.2",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.9.1": {
@@ -135,7 +135,7 @@
             "releasedBy": "ab",
             "releaseDate": "2011-09-24T05:12:29+00:00",
             "releaseNotes": "- constructor params with wrong type get appropriately converted\n- a couple more tests",
-            "get": "http://pecl.php.net/get/varnish-0.9.1",
+            "get": "https://pecl.php.net/get/varnish-0.9.1",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.9": {
@@ -145,7 +145,7 @@
             "releasedBy": "ab",
             "releaseDate": "2011-09-23T14:55:54+00:00",
             "releaseNotes": "- more exceptions on appropriate places\n- minor fixes\n- beta documentation is available",
-            "get": "http://pecl.php.net/get/varnish-0.9",
+            "get": "https://pecl.php.net/get/varnish-0.9",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.8": {
@@ -155,7 +155,7 @@
             "releasedBy": "ab",
             "releaseDate": "2011-09-02T16:58:39+00:00",
             "releaseNotes": "- configuration array is now optional\n- ident param, if not given, will be set automatically based on the current hostname\n- added setters for the VarnishAdmin configuration\n- VarnishAdmin improved with sanity checks for connection and auth\n- Ident vs. host/port are mutually exclusive",
-            "get": "http://pecl.php.net/get/varnish-0.8",
+            "get": "https://pecl.php.net/get/varnish-0.8",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.7": {
@@ -165,7 +165,7 @@
             "releasedBy": "ab",
             "releaseDate": "2011-08-30T15:51:03+00:00",
             "releaseNotes": "- ZTS related fixes by Felipe Pena\n- Parameter parsing and other improvements by Hannes Magnusson\n- A lot of memory allocation/deallocation fixes\n- Added a couple of tests",
-            "get": "http://pecl.php.net/get/varnish-0.7",
+            "get": "https://pecl.php.net/get/varnish-0.7",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.6": {
@@ -175,7 +175,7 @@
             "releasedBy": "ab",
             "releaseDate": "2011-08-28T11:55:22+00:00",
             "releaseNotes": "- VarnishAdmin\n\t* VarnishAdmin:ban() bases on the vcl ban commando\n\t* VarnishAdmin::banUrl() bases on the vcl ban.url commando\n\t* Arguments are passed to the varnish as given, which is probably a better idea than parsing\n                \tthem on the php side one more time. The return status value can be used to check if the command\n\twas successful.\n\t* improved VarnishAdmin::isRunning()\n- added VarnishLog class\n\t* VarnishLog::getLine()\n\t* VarnishLog::getTagName()\n\t* Varnish log tag list\n\t* Can now read log records from a running varnishd SHM. Not sure, whether more functionality would be sensible, as it requires to run as daemon.",
-            "get": "http://pecl.php.net/get/varnish-0.6",
+            "get": "https://pecl.php.net/get/varnish-0.6",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.4.1": {
@@ -185,7 +185,7 @@
             "releasedBy": "ab",
             "releaseDate": "2011-08-26T14:08:36+00:00",
             "releaseNotes": "Fix for the package to build",
-            "get": "http://pecl.php.net/get/varnish-0.4.1",
+            "get": "https://pecl.php.net/get/varnish-0.4.1",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.4": {
@@ -195,7 +195,7 @@
             "releasedBy": "ab",
             "releaseDate": "2011-08-26T13:50:29+00:00",
             "releaseNotes": "- Fixed sereval odd things:\n\t* Missing exceptions\n\t* Varnish param parsing\n\t* Command out reading\n- Added clear/get panic methods",
-            "get": "http://pecl.php.net/get/varnish-0.4",
+            "get": "https://pecl.php.net/get/varnish-0.4",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.3": {
@@ -205,7 +205,7 @@
             "releasedBy": "ab",
             "releaseDate": "2011-08-23T15:57:56+00:00",
             "releaseNotes": "Implemented VarnishAdmin and VarnishStat classes with an minimal set on functionality.\nVarnishAdmin:\n\t* connect on varnish administration interface\n\t* authenticate on a varnish instance\n\t* read/write varnish configuration\n\t* ban urls\n\t* start/stop varnish slave\n\t* check varnish slave status\nVarnishStat:\n\t* connect to the shared memory\n\t* snapshot the current varnish statistics\nThere is no documentation for this package yet, please take a look at the tests and sources.\nThe extension is being currently developed with varnish 3.0 and php 5.3.6, so if you have any issues with older versions, please file a bug.",
-            "get": "http://pecl.php.net/get/varnish-0.3",
+            "get": "https://pecl.php.net/get/varnish-0.3",
             "SPDX-License-Identifier": "BSD-2-Clause"
         }
     },

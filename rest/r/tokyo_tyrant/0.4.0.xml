@@ -19,6 +19,6 @@ This extension requires Tokyo Cabinet, Tokyo Tyrant and PHP version 5.2.0+.</d>
  <n>- Fix restore method to use correct timestamp precision
 - Dual license under PHP and BSD licenses</n>
  <f>26573</f>
- <g>http://pecl.php.net/get/tokyo_tyrant-0.4.0</g>
+ <g>https://pecl.php.net/get/tokyo_tyrant-0.4.0</g>
  <x xlink:href="package.0.4.0.xml"/>
 </r>

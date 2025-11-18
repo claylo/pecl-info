@@ -15,6 +15,6 @@
  <da>2014-05-01 08:24:53</da>
  <n>- Upgrade PHP dependencies.</n>
  <f>7898</f>
- <g>http://pecl.php.net/get/Weakref-0.2.3</g>
+ <g>https://pecl.php.net/get/Weakref-0.2.3</g>
  <x xlink:href="package.0.2.3.xml"/>
 </r>

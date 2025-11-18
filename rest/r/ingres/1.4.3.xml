@@ -18,6 +18,6 @@
 The following changes were submitted:
     - Wait for disconnect to complete to prevent thread terminating uncleanly [grantc 07-03-07]</n>
  <f>40736</f>
- <g>http://pecl.php.net/get/ingres-1.4.3</g>
+ <g>https://pecl.php.net/get/ingres-1.4.3</g>
  <x xlink:href="package.1.4.3.xml"/>
 </r>

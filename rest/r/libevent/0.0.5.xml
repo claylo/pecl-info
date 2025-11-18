@@ -20,6 +20,6 @@ accept numerical file descriptors.
 - Added event_priority_set() (patch by Ruslan Osmanov).
 - Fixed build with 5_4.</n>
  <f>9459</f>
- <g>http://pecl.php.net/get/libevent-0.0.5</g>
+ <g>https://pecl.php.net/get/libevent-0.0.5</g>
  <x xlink:href="package.0.0.5.xml"/>
 </r>

@@ -16,6 +16,6 @@
  <n>Changed OCI NLS initialization for consistency and technical correctness
 Removed obsolete macros</n>
  <f>127320</f>
- <g>http://pecl.php.net/get/oci8-1.3.3</g>
+ <g>https://pecl.php.net/get/oci8-1.3.3</g>
  <x xlink:href="package.1.3.3.xml"/>
 </r>

@@ -19,6 +19,6 @@ in .MB files.
  <da>2007-10-24 09:53:35</da>
  <n>Fixed build problems on win32</n>
  <f>20662</f>
- <g>http://pecl.php.net/get/paradox-1.4.3</g>
+ <g>https://pecl.php.net/get/paradox-1.4.3</g>
  <x xlink:href="package.1.4.3.xml"/>
 </r>

@@ -23,6 +23,6 @@
 - Fixed potential segfault in memcache queue.
 - Fixed various tests</n>
  <f>54717</f>
- <g>http://pecl.php.net/get/memcache-3.0.6</g>
+ <g>https://pecl.php.net/get/memcache-3.0.6</g>
  <x xlink:href="package.3.0.6.xml"/>
 </r>

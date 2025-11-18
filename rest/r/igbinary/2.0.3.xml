@@ -20,6 +20,6 @@
   Make this a warning instead of a fatal error (and serialize as null instead), since IS_UNDEF is a known type.
   Later releases will fix the root cause of the warning, and consistently omit array/object/other entries for IS_UNDEF.</n>
  <f>67819</f>
- <g>http://pecl.php.net/get/igbinary-2.0.3</g>
+ <g>https://pecl.php.net/get/igbinary-2.0.3</g>
  <x xlink:href="package.2.0.3.xml"/>
 </r>

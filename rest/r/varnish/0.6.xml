@@ -26,6 +26,6 @@
 	* Varnish log tag list
 	* Can now read log records from a running varnishd SHM. Not sure, whether more functionality would be sensible, as it requires to run as daemon.</n>
  <f>26555</f>
- <g>http://pecl.php.net/get/varnish-0.6</g>
+ <g>https://pecl.php.net/get/varnish-0.6</g>
  <x xlink:href="package.0.6.xml"/>
 </r>

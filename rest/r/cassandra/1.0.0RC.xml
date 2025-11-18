@@ -34,6 +34,6 @@ Bug Fixes:
 * [PHP-37] Removed extra null byte when `Cassandra\Blob` created from string
 * [PHP-41] Fix memory leak when using batch statements</n>
  <f>74672</f>
- <g>http://pecl.php.net/get/cassandra-1.0.0RC</g>
+ <g>https://pecl.php.net/get/cassandra-1.0.0RC</g>
  <x xlink:href="package.1.0.0RC.xml"/>
 </r>

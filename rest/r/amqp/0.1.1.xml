@@ -15,6 +15,6 @@
  <da>2010-08-19 16:35:41</da>
  <n>Updating extension to work with new rabbitmq-c library</n>
  <f>11944</f>
- <g>http://pecl.php.net/get/amqp-0.1.1</g>
+ <g>https://pecl.php.net/get/amqp-0.1.1</g>
  <x xlink:href="package.0.1.1.xml"/>
 </r>

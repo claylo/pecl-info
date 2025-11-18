@@ -35,6 +35,6 @@ Xdebug also provides:
  - Fixed bug #1040: Fixed uninitialized sa value.
  - Fixed building on hurd-i386.</n>
  <f>255840</f>
- <g>http://pecl.php.net/get/xdebug-2.2.5</g>
+ <g>https://pecl.php.net/get/xdebug-2.2.5</g>
  <x xlink:href="package.2.2.5.xml"/>
 </r>

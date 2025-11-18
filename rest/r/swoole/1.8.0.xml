@@ -38,6 +38,6 @@
 - Remove swoole_server-&gt;handler
 - Update lish.h to version-1.9.9</n>
  <f>491816</f>
- <g>http://pecl.php.net/get/swoole-1.8.0</g>
+ <g>https://pecl.php.net/get/swoole-1.8.0</g>
  <x xlink:href="package.1.8.0.xml"/>
 </r>

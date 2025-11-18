@@ -17,6 +17,6 @@ Requirements: ext/hash (now a part of PHP core)</d>
  <da>2012-10-01 16:35:48</da>
  <n>- Fix reference counts not being incremented in OAuthProvider</n>
  <f>45531</f>
- <g>http://pecl.php.net/get/oauth-1.2.3</g>
+ <g>https://pecl.php.net/get/oauth-1.2.3</g>
  <x xlink:href="package.1.2.3.xml"/>
 </r>

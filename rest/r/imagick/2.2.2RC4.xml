@@ -23,6 +23,6 @@ IMPORTANT: Version 2.x API is not compatible with earlier versions.</d>
 - Added missing semicolon on constant registration
 - Added distortion and alphachannel constants</n>
  <f>77362</f>
- <g>http://pecl.php.net/get/imagick-2.2.2RC4</g>
+ <g>https://pecl.php.net/get/imagick-2.2.2RC4</g>
  <x xlink:href="package.2.2.2RC4.xml"/>
 </r>

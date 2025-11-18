@@ -23,6 +23,6 @@
  <n>** Typo
     * Remove an outdated test (expired after the version is migrated from README to package.xml)</n>
  <f>11295</f>
- <g>http://pecl.php.net/get/dom_varimport-1.11.1</g>
+ <g>https://pecl.php.net/get/dom_varimport-1.11.1</g>
  <x xlink:href="package.1.11.1.xml"/>
 </r>

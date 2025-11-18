@@ -16,6 +16,6 @@
  <n>- Fix PHP.var_dump output on regexp objects (for consistency over all V8 versions)
 - Fix &quot;this&quot; on V8Object method invocations</n>
  <f>95892</f>
- <g>http://pecl.php.net/get/v8js-0.4.1</g>
+ <g>https://pecl.php.net/get/v8js-0.4.1</g>
  <x xlink:href="package.0.4.1.xml"/>
 </r>

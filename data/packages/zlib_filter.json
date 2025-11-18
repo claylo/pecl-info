@@ -15,7 +15,7 @@
             "releasedBy": "pollita",
             "releaseDate": "2004-07-21T03:58:00+00:00",
             "releaseNotes": "Backport fixes from PHP 5.1.0 and add persistence safety",
-            "get": "http://pecl.php.net/get/zlib_filter-1.1",
+            "get": "https://pecl.php.net/get/zlib_filter-1.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.1": {

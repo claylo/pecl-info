@@ -39,6 +39,6 @@ Xdebug also provides:
   - Fixed issue #1209: Segfault with building a function name for create_function
   - Restored Windows support (Includes patches by Jan Ehrhardt)</n>
  <f>263079</f>
- <g>http://pecl.php.net/get/xdebug-2.4.0RC1</g>
+ <g>https://pecl.php.net/get/xdebug-2.4.0RC1</g>
  <x xlink:href="package.2.4.0RC1.xml"/>
 </r>

@@ -46,6 +46,6 @@ Xdebug also provides:
   - Fixed issue #1419: Summary not written when script ended with
     &quot;pcntl_exec()&quot;</n>
  <f>279049</f>
- <g>http://pecl.php.net/get/xdebug-2.5.2</g>
+ <g>https://pecl.php.net/get/xdebug-2.5.2</g>
  <x xlink:href="package.2.5.2.xml"/>
 </r>

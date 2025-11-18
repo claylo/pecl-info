@@ -25,6 +25,6 @@ more than adequate.</d>
  <n>package.xml added to support installation using pear installer
 Packaged so it can be used.</n>
  <f>18334</f>
- <g>http://pecl.php.net/get/dio-0.0.4RC4</g>
+ <g>https://pecl.php.net/get/dio-0.0.4RC4</g>
  <x xlink:href="package.0.0.4RC4.xml"/>
 </r>

@@ -22,6 +22,6 @@
 - Fixed bug #68497 (Stomp client doesn't parse ERROR response on CONNECT). (Lorenzo Fontana)
 - Fixed bug #64671 (Add stomp_nack and Stomp::nack functions). (Pierrick)</n>
  <f>20052</f>
- <g>http://pecl.php.net/get/stomp-1.0.6</g>
+ <g>https://pecl.php.net/get/stomp-1.0.6</g>
  <x xlink:href="package.1.0.6.xml"/>
 </r>

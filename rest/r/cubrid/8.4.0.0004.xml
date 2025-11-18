@@ -17,6 +17,6 @@
 
 - According to mysql_fetch_field, Add 4 properties(primary_key blob unsigned zerofill) in cubrid_fetch_field</n>
  <f>40885</f>
- <g>http://pecl.php.net/get/CUBRID-8.4.0.0004</g>
+ <g>https://pecl.php.net/get/CUBRID-8.4.0.0004</g>
  <x xlink:href="package.8.4.0.0004.xml"/>
 </r>

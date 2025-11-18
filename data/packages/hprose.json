@@ -55,7 +55,7 @@
             "releasedBy": "andot",
             "releaseDate": "2017-03-19T10:48:24+00:00",
             "releaseNotes": "Fixed object unserialize on PHP 7.1.",
-            "get": "http://pecl.php.net/get/hprose-1.6.6",
+            "get": "https://pecl.php.net/get/hprose-1.6.6",
             "SPDX-License-Identifier": "MIT"
         },
         "1.6.5": {
@@ -65,7 +65,7 @@
             "releasedBy": "andot",
             "releaseDate": "2016-06-10T12:31:03+00:00",
             "releaseNotes": "Fixed PHP 7.1 build.",
-            "get": "http://pecl.php.net/get/hprose-1.6.5",
+            "get": "https://pecl.php.net/get/hprose-1.6.5",
             "SPDX-License-Identifier": "MIT"
         },
         "1.6.4": {
@@ -75,7 +75,7 @@
             "releasedBy": "andot",
             "releaseDate": "2016-01-06T13:35:01+00:00",
             "releaseNotes": "Changed zend_error_noreturn(php 7.x only) to zend_error.",
-            "get": "http://pecl.php.net/get/hprose-1.6.4",
+            "get": "https://pecl.php.net/get/hprose-1.6.4",
             "SPDX-License-Identifier": "MIT"
         },
         "1.6.3": {
@@ -85,7 +85,7 @@
             "releasedBy": "andot",
             "releaseDate": "2016-01-06T02:11:56+00:00",
             "releaseNotes": "Fixed windows compile error.",
-            "get": "http://pecl.php.net/get/hprose-1.6.3",
+            "get": "https://pecl.php.net/get/hprose-1.6.3",
             "SPDX-License-Identifier": "MIT"
         },
         "1.6.2": {
@@ -95,7 +95,7 @@
             "releasedBy": "andot",
             "releaseDate": "2016-01-05T15:18:06+00:00",
             "releaseNotes": "Fixed some memory leaks.\n           Fixed properties serialization with first capital letter.",
-            "get": "http://pecl.php.net/get/hprose-1.6.2",
+            "get": "https://pecl.php.net/get/hprose-1.6.2",
             "SPDX-License-Identifier": "MIT"
         },
         "1.6.1": {
@@ -105,7 +105,7 @@
             "releasedBy": "andot",
             "releaseDate": "2015-09-01T16:12:29+00:00",
             "releaseNotes": "Added hprose session.serialize_handler.",
-            "get": "http://pecl.php.net/get/hprose-1.6.1",
+            "get": "https://pecl.php.net/get/hprose-1.6.1",
             "SPDX-License-Identifier": "MIT"
         },
         "1.6.0": {
@@ -115,7 +115,7 @@
             "releasedBy": "andot",
             "releaseDate": "2015-08-23T05:03:27+00:00",
             "releaseNotes": "Removed future, client and server implementations.",
-            "get": "http://pecl.php.net/get/hprose-1.6.0",
+            "get": "https://pecl.php.net/get/hprose-1.6.0",
             "SPDX-License-Identifier": "MIT"
         },
         "1.5.5": {
@@ -125,7 +125,7 @@
             "releasedBy": "andot",
             "releaseDate": "2015-06-25T12:15:25+00:00",
             "releaseNotes": "Use zend_ce_throwable introduce in 7.0.0alpha2.",
-            "get": "http://pecl.php.net/get/hprose-1.5.5",
+            "get": "https://pecl.php.net/get/hprose-1.5.5",
             "SPDX-License-Identifier": "MIT"
         },
         "1.5.4": {
@@ -135,7 +135,7 @@
             "releasedBy": "andot",
             "releaseDate": "2015-05-24T02:34:11+00:00",
             "releaseNotes": "Fixed a bug of serializing an object of a class which implements IteratorAggregate interface.",
-            "get": "http://pecl.php.net/get/hprose-1.5.4",
+            "get": "https://pecl.php.net/get/hprose-1.5.4",
             "SPDX-License-Identifier": "MIT"
         },
         "1.5.3": {
@@ -145,7 +145,7 @@
             "releasedBy": "andot",
             "releaseDate": "2015-05-13T13:39:52+00:00",
             "releaseNotes": "Fixed a bug of instance method service.",
-            "get": "http://pecl.php.net/get/hprose-1.5.3",
+            "get": "https://pecl.php.net/get/hprose-1.5.3",
             "SPDX-License-Identifier": "MIT"
         },
         "1.5.2": {
@@ -155,7 +155,7 @@
             "releasedBy": "andot",
             "releaseDate": "2015-05-10T09:11:20+00:00",
             "releaseNotes": "Fixed a bug of async service.",
-            "get": "http://pecl.php.net/get/hprose-1.5.2",
+            "get": "https://pecl.php.net/get/hprose-1.5.2",
             "SPDX-License-Identifier": "MIT"
         },
         "1.5.1": {
@@ -165,7 +165,7 @@
             "releasedBy": "andot",
             "releaseDate": "2015-05-10T01:14:38+00:00",
             "releaseNotes": "Fast compiling on Windows and Linux.",
-            "get": "http://pecl.php.net/get/hprose-1.5.1",
+            "get": "https://pecl.php.net/get/hprose-1.5.1",
             "SPDX-License-Identifier": "MIT"
         },
         "1.5.0": {
@@ -175,7 +175,7 @@
             "releasedBy": "andot",
             "releaseDate": "2015-05-09T08:04:55+00:00",
             "releaseNotes": "Faster integer serialize.\n        Faster double serialize.\n        Faster basic type serialize/unserialize.\n        Added Completer and Future class.\n        Added async service support.\n        Improved async client support.",
-            "get": "http://pecl.php.net/get/hprose-1.5.0",
+            "get": "https://pecl.php.net/get/hprose-1.5.0",
             "SPDX-License-Identifier": "MIT"
         },
         "1.4.2": {
@@ -185,7 +185,7 @@
             "releasedBy": "andot",
             "releaseDate": "2015-04-20T06:41:36+00:00",
             "releaseNotes": "Fixed segmentation fault when serialize/unserialize custom PHP class object on Non Thread Safe (NTS) PHP.",
-            "get": "http://pecl.php.net/get/hprose-1.4.2",
+            "get": "https://pecl.php.net/get/hprose-1.4.2",
             "SPDX-License-Identifier": "MIT"
         },
         "1.4.1": {
@@ -195,7 +195,7 @@
             "releasedBy": "andot",
             "releaseDate": "2015-04-13T11:24:47+00:00",
             "releaseNotes": "syntax updates for strict C89 compilers",
-            "get": "http://pecl.php.net/get/hprose-1.4.1",
+            "get": "https://pecl.php.net/get/hprose-1.4.1",
             "SPDX-License-Identifier": "MIT"
         },
         "1.4.0": {
@@ -205,7 +205,7 @@
             "releasedBy": "andot",
             "releaseDate": "2015-04-09T13:22:42+00:00",
             "releaseNotes": "Added windows support.\n        Faster write of HproseBytesIO for long string.",
-            "get": "http://pecl.php.net/get/hprose-1.4.0",
+            "get": "https://pecl.php.net/get/hprose-1.4.0",
             "SPDX-License-Identifier": "MIT"
         },
         "1.3.2": {
@@ -215,7 +215,7 @@
             "releasedBy": "andot",
             "releaseDate": "2015-04-09T06:44:29+00:00",
             "releaseNotes": "Fixed pecl install in Mac OS X.\n        Changed packages directories.",
-            "get": "http://pecl.php.net/get/hprose-1.3.2",
+            "get": "https://pecl.php.net/get/hprose-1.3.2",
             "SPDX-License-Identifier": "MIT"
         },
         "1.3.1": {
@@ -225,7 +225,7 @@
             "releasedBy": "andot",
             "releaseDate": "2015-04-09T02:58:59+00:00",
             "releaseNotes": "Added PHP 5.2 support.\n        Added old PHP 5.3 support.",
-            "get": "http://pecl.php.net/get/hprose-1.3.1",
+            "get": "https://pecl.php.net/get/hprose-1.3.1",
             "SPDX-License-Identifier": "MIT"
         },
         "1.3.0": {
@@ -235,20 +235,38 @@
             "releasedBy": "andot",
             "releaseDate": "2015-04-08T07:55:18+00:00",
             "releaseNotes": "Removed unnecessary __construct and __destruct.\n        Added clone support for HproseBytesIO.\n        Added get_gc handler for all hprose class.\n        Added installation in README.",
-            "get": "http://pecl.php.net/get/hprose-1.3.0",
+            "get": "https://pecl.php.net/get/hprose-1.3.0",
             "SPDX-License-Identifier": "MIT"
         },
         "1.2.0": {
             "version": "1.2.0",
-            "state": "stable"
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "andot",
+            "releaseDate": "2015-04-07T14:31:33+00:00",
+            "releaseNotes": "Optimized of the string for php7.\n        Added load and save method for HproseBytesIO.\n        Added unserializing from HproseBytesIO for hprose_unserilaize.\n        Added HproseBytesIO serialize support.\n        Changed C++ style comments to C-style comments.\n        Renamed hprose.c to php_hprose.c.",
+            "get": "https://pecl.php.net/get/hprose-1.2.0",
+            "SPDX-License-Identifier": "MIT"
         },
         "1.1.0": {
             "version": "1.1.0",
-            "state": "stable"
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "andot",
+            "releaseDate": "2015-04-03T08:22:35+00:00",
+            "releaseNotes": "Fixed failed test in 32bits build.\n        Fixed building on RHEL 5.\n        Fixed failed tests with PHP 7.\n        More faster hprose_serialize and hprose_unserialize.\n        Fixed no response casused crash.\n        Fixed Line termination inconsistency.\n        Fixed all warnings, notes and known bugs.",
+            "get": "https://pecl.php.net/get/hprose-1.1.0",
+            "SPDX-License-Identifier": "MIT"
         },
         "1.0.0": {
             "version": "1.0.0",
-            "state": "stable"
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "andot",
+            "releaseDate": "2015-04-02T06:24:51+00:00",
+            "releaseNotes": "Initial Hprose for pecl",
+            "get": "https://pecl.php.net/get/hprose-1.0.0",
+            "SPDX-License-Identifier": "MIT"
         }
     },
     "summary": "Hprose for PHP.",

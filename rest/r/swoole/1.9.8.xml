@@ -30,6 +30,6 @@
  <da>2017-03-16 07:41:19</da>
  <n>- Fix some compilation errors</n>
  <f>566294</f>
- <g>http://pecl.php.net/get/swoole-1.9.8</g>
+ <g>https://pecl.php.net/get/swoole-1.9.8</g>
  <x xlink:href="package.1.9.8.xml"/>
 </r>

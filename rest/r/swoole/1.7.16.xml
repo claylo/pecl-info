@@ -32,6 +32,6 @@
 - Added http server requests query_string
 - Fixed invalid parameter problem task_max_request</n>
  <f>457649</f>
- <g>http://pecl.php.net/get/swoole-1.7.16</g>
+ <g>https://pecl.php.net/get/swoole-1.7.16</g>
  <x xlink:href="package.1.7.16.xml"/>
 </r>

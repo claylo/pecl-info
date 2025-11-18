@@ -19,6 +19,6 @@ These drivers rely on the Microsoft SQL Server 2008 R2 Native Client's ODBC driv
  <da>2011-06-02 18:02:39</da>
  <n>Introduction into PECL repository</n>
  <f>114549</f>
- <g>http://pecl.php.net/get/sqlsrv-2.0.1</g>
+ <g>https://pecl.php.net/get/sqlsrv-2.0.1</g>
  <x xlink:href="package.2.0.1.xml"/>
 </r>

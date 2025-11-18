@@ -19,6 +19,6 @@
  <n>- Fixed a number of memory leaks/invalid reads. PECL mogilefs is now leak free
 - Fixed protos</n>
  <f>15146</f>
- <g>http://pecl.php.net/get/mogilefs-0.7.5RC1</g>
+ <g>https://pecl.php.net/get/mogilefs-0.7.5RC1</g>
  <x xlink:href="package.0.7.5RC1.xml"/>
 </r>

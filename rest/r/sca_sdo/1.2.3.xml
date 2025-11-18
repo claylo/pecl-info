@@ -25,6 +25,6 @@
    - There is a new Rest Resource binding, with tests and examples.
    - There is a new simpledb binding with examples</n>
  <f>516350</f>
- <g>http://pecl.php.net/get/SCA_SDO-1.2.3</g>
+ <g>https://pecl.php.net/get/SCA_SDO-1.2.3</g>
  <x xlink:href="package.1.2.3.xml"/>
 </r>

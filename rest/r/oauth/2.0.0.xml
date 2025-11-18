@@ -20,6 +20,6 @@ Requirements: ext/hash (now a part of PHP core)</d>
 - Bug 67665: update fetch to accept 20X HTTP ranges
 - Bug 67883: check SERVER[REDIRECT_HTTP_AUTHORIZATION] for the Authorization header</n>
  <f>49031</f>
- <g>http://pecl.php.net/get/oauth-2.0.0</g>
+ <g>https://pecl.php.net/get/oauth-2.0.0</g>
  <x xlink:href="package.2.0.0.xml"/>
 </r>

@@ -15,6 +15,6 @@
  <da>2010-07-20 12:50:46</da>
  <n>Fixed config.m4 to fix build on modern Linux distributions like Ubuntu.</n>
  <f>127510</f>
- <g>http://pecl.php.net/get/mysqlnd_qc-1.0.0</g>
+ <g>https://pecl.php.net/get/mysqlnd_qc-1.0.0</g>
  <x xlink:href="package.1.0.0.xml"/>
 </r>

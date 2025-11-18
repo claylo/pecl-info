@@ -15,6 +15,6 @@
  <da>2016-04-08 07:52:39</da>
  <n>- The IETF variant of the ChaCha20-Poly1305 construction has been added</n>
  <f>169801</f>
- <g>http://pecl.php.net/get/libsodium-1.0.5</g>
+ <g>https://pecl.php.net/get/libsodium-1.0.5</g>
  <x xlink:href="package.1.0.5.xml"/>
 </r>

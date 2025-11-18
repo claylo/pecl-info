@@ -16,6 +16,6 @@
  <n>- Improve the Yaf_Loader::getInstance, make the Yaf_Loader can be used independently
 - Implemented Yaf_View::assignRef, which didn't work as expect before.</n>
  <f>76128</f>
- <g>http://pecl.php.net/get/yaf-2.1.4</g>
+ <g>https://pecl.php.net/get/yaf-2.1.4</g>
  <x xlink:href="package.2.1.4.xml"/>
 </r>

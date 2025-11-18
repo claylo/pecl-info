@@ -56,6 +56,6 @@ IMPORTANT: Version 2.x API is not compatible with earlier versions.</d>
   * ImagickPixel::getIndex
   * ImagickPixel::setIndex</n>
  <f>83853</f>
- <g>http://pecl.php.net/get/imagick-2.3.0b1</g>
+ <g>https://pecl.php.net/get/imagick-2.3.0b1</g>
  <x xlink:href="package.2.3.0b1.xml"/>
 </r>

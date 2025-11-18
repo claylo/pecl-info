@@ -26,6 +26,6 @@
 Change: functions call info and call info cache used instead of zvals
 Fix: segmentation fault on 32-bit platforms with the default 4-bit LFS</n>
  <f>53149</f>
- <g>http://pecl.php.net/get/eio-0.4.0</g>
+ <g>https://pecl.php.net/get/eio-0.4.0</g>
  <x xlink:href="package.0.4.0.xml"/>
 </r>

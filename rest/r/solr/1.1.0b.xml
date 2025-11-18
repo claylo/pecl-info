@@ -36,6 +36,6 @@ Change 2.0.0 with your version number</d>
  - SolrParams/SolrModifiableParams/SolrQuery throws SolrIllegalArguments Exception instead of E_ERROR (Feature #66858)
  - Various Bug Fixes</n>
  <f>105343</f>
- <g>http://pecl.php.net/get/solr-1.1.0b</g>
+ <g>https://pecl.php.net/get/solr-1.1.0b</g>
  <x xlink:href="package.1.1.0b.xml"/>
 </r>

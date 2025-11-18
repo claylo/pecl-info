@@ -40,6 +40,6 @@
 - With ColumnEncryption enabled, calling stored procedure with XML parameter does not work (Issue [#674](https://github.com/Microsoft/msphpsql/issues/674))
 - With ColumnEncryption enabled, fetching varbinary(max), varchar(max) or nvarchar(max) may fail with ODBC Driver 17.3 CTP</n>
  <f>175666</f>
- <g>http://pecl.php.net/get/sqlsrv-5.4.0preview</g>
+ <g>https://pecl.php.net/get/sqlsrv-5.4.0preview</g>
  <x xlink:href="package.5.4.0preview.xml"/>
 </r>

@@ -16,6 +16,6 @@
  <n>Fixed install pecl install on machines which do not support SSE extensions (#37).
    Added a segfault catch for when an invalid N was passed in (#31).</n>
  <f>21382</f>
- <g>http://pecl.php.net/get/scrypt-1.3</g>
+ <g>https://pecl.php.net/get/scrypt-1.3</g>
  <x xlink:href="package.1.3.xml"/>
 </r>

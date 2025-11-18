@@ -18,6 +18,6 @@
 - better support for compiling under 5.2.x #22719
 - small manual fixes</n>
  <f>19675</f>
- <g>http://pecl.php.net/get/rrd-1.0.5RC1</g>
+ <g>https://pecl.php.net/get/rrd-1.0.5RC1</g>
  <x xlink:href="package.1.0.5RC1.xml"/>
 </r>

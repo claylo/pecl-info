@@ -16,6 +16,6 @@
  <n>- PECL bug #10414, Fixed macros name in stream
 - Fixed possible leak when open_basedir checks fail in extractTo (Ilia)</n>
  <f>66898</f>
- <g>http://pecl.php.net/get/zip-1.8.8</g>
+ <g>https://pecl.php.net/get/zip-1.8.8</g>
  <x xlink:href="package.1.8.8.xml"/>
 </r>

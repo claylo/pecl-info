@@ -26,6 +26,6 @@ Improvements:
 - Make extension compatible with Zookeeper 3.5.0alpha (Thanks to Ryan Uber&lt;ru@ryanuber.com&gt;, AZ PR #28 N #48)
 - Display ini entries in `phpinfo()`</n>
  <f>21379</f>
- <g>http://pecl.php.net/get/zookeeper-0.2.3</g>
+ <g>https://pecl.php.net/get/zookeeper-0.2.3</g>
  <x xlink:href="package.0.2.3.xml"/>
 </r>

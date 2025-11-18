@@ -30,6 +30,6 @@
  # Fix for failures that occur when using the soap extension - see thread &quot;SCA Webservice in WSDL mode&quot;
  # Substantial rework of the examples to illustrate more bindings - see examples/SCA/index.html</n>
  <f>576531</f>
- <g>http://pecl.php.net/get/SCA_SDO-1.2.4</g>
+ <g>https://pecl.php.net/get/SCA_SDO-1.2.4</g>
  <x xlink:href="package.1.2.4.xml"/>
 </r>

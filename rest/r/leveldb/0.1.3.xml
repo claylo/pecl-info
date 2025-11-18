@@ -17,6 +17,6 @@
 - 0.1.3 is a version number fix upon 0.1.2 which forgot to
   remove '-dev' suffix before release</n>
  <f>17677</f>
- <g>http://pecl.php.net/get/leveldb-0.1.3</g>
+ <g>https://pecl.php.net/get/leveldb-0.1.3</g>
  <x xlink:href="package.0.1.3.xml"/>
 </r>

@@ -26,6 +26,6 @@ Interoperability Support&quot; (ID 207303.1) for details.</d>
  <da>2016-04-18 01:37:26</da>
  <n>Fixed bug #71422 (Fix ORA-01438: value larger than specified precision allowed for this column)</n>
  <f>191968</f>
- <g>http://pecl.php.net/get/oci8-2.0.11</g>
+ <g>https://pecl.php.net/get/oci8-2.0.11</g>
  <x xlink:href="package.2.0.11.xml"/>
 </r>

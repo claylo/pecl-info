@@ -23,6 +23,6 @@
   AST_UNARY_MINUS, and AST_UNARY_PLUS, which are no longer used.
 - Removed ASSIGN_* AST flags, which are no longer used.</n>
  <f>34411</f>
- <g>http://pecl.php.net/get/ast-1.0.0</g>
+ <g>https://pecl.php.net/get/ast-1.0.0</g>
  <x xlink:href="package.1.0.0.xml"/>
 </r>

@@ -27,6 +27,6 @@
  <da>2005-07-25 12:11:04</da>
  <n>* fixed installation through the PEAR installer</n>
  <f>89772</f>
- <g>http://pecl.php.net/get/pecl_http-0.10.1</g>
+ <g>https://pecl.php.net/get/pecl_http-0.10.1</g>
  <x xlink:href="package.0.10.1.xml"/>
 </r>

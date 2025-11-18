@@ -40,6 +40,6 @@ Xdebug also provides:
    bumbed.
  - Fixed memory leaks</n>
  <f>256161</f>
- <g>http://pecl.php.net/get/xdebug-2.2.6</g>
+ <g>https://pecl.php.net/get/xdebug-2.2.6</g>
  <x xlink:href="package.2.2.6.xml"/>
 </r>

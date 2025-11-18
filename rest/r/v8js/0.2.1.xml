@@ -18,6 +18,6 @@
 - properly stop (and restart) timer thread (for memory &amp; cpu limits)
 - fixed crash on failed module bootstrapping</n>
  <f>88884</f>
- <g>http://pecl.php.net/get/v8js-0.2.1</g>
+ <g>https://pecl.php.net/get/v8js-0.2.1</g>
  <x xlink:href="package.0.2.1.xml"/>
 </r>

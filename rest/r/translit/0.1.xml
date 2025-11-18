@@ -25,6 +25,6 @@ Hebrew-to-Latin transliteration; case converting filters for Greek, Latin and
 Cyrillic and filters to remove diacriticals from text, normalizing ligatures
 and normalizing punctuation.</n>
  <f>101307</f>
- <g>http://pecl.php.net/get/translit-0.1</g>
+ <g>https://pecl.php.net/get/translit-0.1</g>
  <x xlink:href="package.0.1.xml"/>
 </r>

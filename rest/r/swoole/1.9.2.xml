@@ -36,6 +36,6 @@
 - Fixed server tasking_num overflow bugs
 - Added ucwords parameter to response header method</n>
  <f>537482</f>
- <g>http://pecl.php.net/get/swoole-1.9.2</g>
+ <g>https://pecl.php.net/get/swoole-1.9.2</g>
  <x xlink:href="package.1.9.2.xml"/>
 </r>

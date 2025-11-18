@@ -15,6 +15,6 @@
  <da>2009-12-15 19:47:31</da>
  <n>- Augeas::match() now returns an associative array with nodes =&gt; values</n>
  <f>8310</f>
- <g>http://pecl.php.net/get/augeas-0.5.0</g>
+ <g>https://pecl.php.net/get/augeas-0.5.0</g>
  <x xlink:href="package.0.5.0.xml"/>
 </r>

@@ -17,6 +17,6 @@
 - Allow propagation of PHP exceptions to JS context (disabled by default)
 - Add v8js.compat_php_exceptions php.ini switch to switch previous behaviour back on</n>
  <f>93826</f>
- <g>http://pecl.php.net/get/v8js-0.2.5</g>
+ <g>https://pecl.php.net/get/v8js-0.2.5</g>
  <x xlink:href="package.0.2.5.xml"/>
 </r>

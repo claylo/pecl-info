@@ -28,6 +28,6 @@
 - Fixed length_check dispatch error
 - Optimization of large size response packet</n>
  <f>354082</f>
- <g>http://pecl.php.net/get/swoole-1.7.3</g>
+ <g>https://pecl.php.net/get/swoole-1.7.3</g>
  <x xlink:href="package.1.7.3.xml"/>
 </r>

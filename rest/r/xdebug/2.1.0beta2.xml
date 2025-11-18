@@ -41,6 +41,6 @@ Xdebug also provides:
 	  globals.
 	- Fixed bug #501: Xdebug's variable tracing misses POST_INC and variants.</n>
  <f>297829</f>
- <g>http://pecl.php.net/get/xdebug-2.1.0beta2</g>
+ <g>https://pecl.php.net/get/xdebug-2.1.0beta2</g>
  <x xlink:href="package.2.1.0beta2.xml"/>
 </r>

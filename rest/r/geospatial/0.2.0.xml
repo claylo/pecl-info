@@ -23,6 +23,6 @@
 - Add Travis tests (Emir Beganovic)
 - Fixed issue #20: Add Geo Hashing functions geohash_encode and geohash_decode. (Emir Beganovic)</n>
  <f>12614</f>
- <g>http://pecl.php.net/get/geospatial-0.2.0</g>
+ <g>https://pecl.php.net/get/geospatial-0.2.0</g>
  <x xlink:href="package.0.2.0.xml"/>
 </r>

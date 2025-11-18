@@ -17,6 +17,6 @@
  <da>2003-06-05 16:56:00</da>
  <n>- Update for newer versions of php5.  Extension is now feature complete.</n>
  <f>9505</f>
- <g>http://pecl.php.net/get/mono-0.7</g>
+ <g>https://pecl.php.net/get/mono-0.7</g>
  <x xlink:href="package.0.7.xml"/>
 </r>

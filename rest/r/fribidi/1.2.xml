@@ -16,6 +16,6 @@ provides means for handling right-to-left text.</d>
  <da>2013-05-27 03:08:51</da>
  <n>Requires GNU FriBidi version 0.19.1 or later.</n>
  <f>7375</f>
- <g>http://pecl.php.net/get/fribidi-1.2</g>
+ <g>https://pecl.php.net/get/fribidi-1.2</g>
  <x xlink:href="package.1.2.xml"/>
 </r>

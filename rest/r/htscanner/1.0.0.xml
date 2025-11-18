@@ -35,6 +35,6 @@ cannot be set
 - Fixed build on PHP trunk
 - Assorted improvements and code cleanup</n>
  <f>9904</f>
- <g>http://pecl.php.net/get/htscanner-1.0.0</g>
+ <g>https://pecl.php.net/get/htscanner-1.0.0</g>
  <x xlink:href="package.1.0.0.xml"/>
 </r>

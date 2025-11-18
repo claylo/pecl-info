@@ -16,6 +16,6 @@
  <n>install-examples command added to build
 build issue with apr.h fixed</n>
  <f>7222</f>
- <g>http://pecl.php.net/get/apacheaccessor-1.0.1</g>
+ <g>https://pecl.php.net/get/apacheaccessor-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

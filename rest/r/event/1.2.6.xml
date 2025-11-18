@@ -29,6 +29,6 @@ Fix: continuous calls to EventBufferEvent::setCallbacks didn't free old fci/fcc(
 Fix: possible heap corruption in EventListener's callback
 Add: EventBase::resume method</n>
  <f>51154</f>
- <g>http://pecl.php.net/get/event-1.2.6</g>
+ <g>https://pecl.php.net/get/event-1.2.6</g>
  <x xlink:href="package.1.2.6.xml"/>
 </r>

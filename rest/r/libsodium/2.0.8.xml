@@ -15,6 +15,6 @@
  <da>2017-10-01 15:25:13</da>
  <n>Support for libsodium 1.0.15 was implemented.</n>
  <f>177268</f>
- <g>http://pecl.php.net/get/libsodium-2.0.8</g>
+ <g>https://pecl.php.net/get/libsodium-2.0.8</g>
  <x xlink:href="package.2.0.8.xml"/>
 </r>

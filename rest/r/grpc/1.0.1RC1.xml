@@ -15,6 +15,6 @@
  <da>2016-10-06 22:55:55</da>
  <n>- Reject metadata keys which are not legal #7881</n>
  <f>1910128</f>
- <g>http://pecl.php.net/get/grpc-1.0.1RC1</g>
+ <g>https://pecl.php.net/get/grpc-1.0.1RC1</g>
  <x xlink:href="package.1.0.1RC1.xml"/>
 </r>

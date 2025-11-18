@@ -20,6 +20,6 @@ PECL extension.
  <da>2003-06-29 19:19:00</da>
  <n>Moved from php5/scripts to PEAR.</n>
  <f>35589</f>
- <g>http://pecl.php.net/get/PECL_Gen-0.6.0</g>
+ <g>https://pecl.php.net/get/PECL_Gen-0.6.0</g>
  <x xlink:href="package.0.6.0.xml"/>
 </r>

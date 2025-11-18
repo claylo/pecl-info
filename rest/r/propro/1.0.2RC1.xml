@@ -17,6 +17,6 @@
 * Travis support
 * Fix package.xml's maximum and minumum PHP version</n>
  <f>13388</f>
- <g>http://pecl.php.net/get/propro-1.0.2RC1</g>
+ <g>https://pecl.php.net/get/propro-1.0.2RC1</g>
  <x xlink:href="package.1.0.2RC1.xml"/>
 </r>

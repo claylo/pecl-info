@@ -24,6 +24,6 @@ This is interim release which contains only bug fixes.
 * Fix z_seeds may be a reference [42581a] (@janic716)
 * PHP &gt;=7.3 uses zend_string for php_url elements [b566fb] (@fmk)</n>
  <f>199853</f>
- <g>http://pecl.php.net/get/redis-3.1.5</g>
+ <g>https://pecl.php.net/get/redis-3.1.5</g>
  <x xlink:href="package.3.1.5.xml"/>
 </r>

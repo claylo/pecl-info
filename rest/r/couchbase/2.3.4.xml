@@ -16,6 +16,6 @@
  <n>* PCBC-495: update user management APIs
 * PCBC-478: add tests for Error Map using CouchbaseMock</n>
  <f>150002</f>
- <g>http://pecl.php.net/get/couchbase-2.3.4</g>
+ <g>https://pecl.php.net/get/couchbase-2.3.4</g>
  <x xlink:href="package.2.3.4.xml"/>
 </r>

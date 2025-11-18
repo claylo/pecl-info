@@ -26,6 +26,6 @@ Fix: bug #65319 where config.m4 used &lt;php_version.h&gt; to detect current PHP
 Fix: config.m4 included -levent_pthreads into LDFLAGS even --without-event-pthreads configuration
 Fix: evthread_use_pthreads() call skept due to a &quot;macro magic&quot;(PHP_EVENT_ASSERT)</n>
  <f>68570</f>
- <g>http://pecl.php.net/get/event-1.7.2</g>
+ <g>https://pecl.php.net/get/event-1.7.2</g>
  <x xlink:href="package.1.7.2.xml"/>
 </r>

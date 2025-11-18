@@ -25,6 +25,6 @@ more than adequate.</d>
  <n>- Fixed memory leak in dio_read (Dawid Zamirski)
 - Fixed Bug #74209 dio_stat - appended nulls (Remi)</n>
  <f>36960</f>
- <g>http://pecl.php.net/get/dio-0.1.0</g>
+ <g>https://pecl.php.net/get/dio-0.1.0</g>
  <x xlink:href="package.0.1.0.xml"/>
 </r>

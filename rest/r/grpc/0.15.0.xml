@@ -16,6 +16,6 @@
  <n>- Updated functions with TSRM macros for ZTS support #6607
 - Load default roots.pem via grpc_set_ssl_roots_override_callback #6848</n>
  <f>1884113</f>
- <g>http://pecl.php.net/get/grpc-0.15.0</g>
+ <g>https://pecl.php.net/get/grpc-0.15.0</g>
  <x xlink:href="package.0.15.0.xml"/>
 </r>

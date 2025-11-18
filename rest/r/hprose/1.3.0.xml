@@ -44,6 +44,6 @@
         Added get_gc handler for all hprose class.
         Added installation in README.</n>
  <f>47754</f>
- <g>http://pecl.php.net/get/hprose-1.3.0</g>
+ <g>https://pecl.php.net/get/hprose-1.3.0</g>
  <x xlink:href="package.1.3.0.xml"/>
 </r>

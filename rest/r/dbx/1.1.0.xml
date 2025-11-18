@@ -20,6 +20,6 @@ but interface to the modules that are used to support these databases.</d>
  <n>Promote to stable
  Add package(2).xml to allow pear installation</n>
  <f>30872</f>
- <g>http://pecl.php.net/get/dbx-1.1.0</g>
+ <g>https://pecl.php.net/get/dbx-1.1.0</g>
  <x xlink:href="package.1.1.0.xml"/>
 </r>

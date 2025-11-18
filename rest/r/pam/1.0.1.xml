@@ -18,6 +18,6 @@
  <n>Error messages specify which pam_* function failed
 Fixed build on lib64 type systems</n>
  <f>5819</f>
- <g>http://pecl.php.net/get/pam-1.0.1</g>
+ <g>https://pecl.php.net/get/pam-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

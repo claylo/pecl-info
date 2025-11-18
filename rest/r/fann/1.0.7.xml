@@ -15,6 +15,6 @@
  <da>2014-01-01 12:37:37</da>
  <n>* Fixed build with -Werror=format-security</n>
  <f>37327</f>
- <g>http://pecl.php.net/get/fann-1.0.7</g>
+ <g>https://pecl.php.net/get/fann-1.0.7</g>
  <x xlink:href="package.1.0.7.xml"/>
 </r>

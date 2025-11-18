@@ -17,6 +17,6 @@
  <n>- Support str_ireplace
  - Fixed arg order of mysqli</n>
  <f>17998</f>
- <g>http://pecl.php.net/get/taint-2.0.3</g>
+ <g>https://pecl.php.net/get/taint-2.0.3</g>
  <x xlink:href="package.2.0.3.xml"/>
 </r>

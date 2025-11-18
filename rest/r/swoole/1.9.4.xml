@@ -32,6 +32,6 @@
 - Fixed the problem of missing zlib library compilation failures
 - Added Client-&gt;reuseCount property to query the number of multiplexed sockets</n>
  <f>541983</f>
- <g>http://pecl.php.net/get/swoole-1.9.4</g>
+ <g>https://pecl.php.net/get/swoole-1.9.4</g>
  <x xlink:href="package.1.9.4.xml"/>
 </r>

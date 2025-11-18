@@ -33,6 +33,6 @@
 * Improve client proxy settings
 * Fixed SSL client bug (#2053)</n>
  <f>1134918</f>
- <g>http://pecl.php.net/get/swoole-4.2.5</g>
+ <g>https://pecl.php.net/get/swoole-4.2.5</g>
  <x xlink:href="package.4.2.5.xml"/>
 </r>

@@ -18,6 +18,6 @@
 Fixed build errors for non-threaded configuration.
 Streams' casting fixed and improved.</n>
  <f>92926</f>
- <g>http://pecl.php.net/get/ev-0.2.3</g>
+ <g>https://pecl.php.net/get/ev-0.2.3</g>
  <x xlink:href="package.0.2.3.xml"/>
 </r>

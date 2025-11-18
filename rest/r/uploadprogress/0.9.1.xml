@@ -17,6 +17,6 @@
  <n>- Fixed version information in phpinfo()
  - Added php.ini options to phpinfo()</n>
  <f>7607</f>
- <g>http://pecl.php.net/get/uploadprogress-0.9.1</g>
+ <g>https://pecl.php.net/get/uploadprogress-0.9.1</g>
  <x xlink:href="package.0.9.1.xml"/>
 </r>

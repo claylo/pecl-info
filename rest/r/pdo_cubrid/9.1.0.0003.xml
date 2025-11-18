@@ -37,6 +37,6 @@ Changed and Enhanced Features:
 4)[APIS-584] - [PHP][Manual] Some 'Example' codes about the driver in php.net are somewhat confused
 5)[APIS-580] - Support CCI connection string parameters like altHosts, loadBalance in PHP/PDO</n>
  <f>936088</f>
- <g>http://pecl.php.net/get/PDO_CUBRID-9.1.0.0003</g>
+ <g>https://pecl.php.net/get/PDO_CUBRID-9.1.0.0003</g>
  <x xlink:href="package.9.1.0.0003.xml"/>
 </r>

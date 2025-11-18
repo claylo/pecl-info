@@ -29,6 +29,6 @@
 - Added signalfd usage
     - Fixed some bugs</n>
  <f>338023</f>
- <g>http://pecl.php.net/get/swoole-1.6.12</g>
+ <g>https://pecl.php.net/get/swoole-1.6.12</g>
  <x xlink:href="package.1.6.12.xml"/>
 </r>

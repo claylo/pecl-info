@@ -19,6 +19,6 @@ Cloudscape, and Apache Derby databases.
  <da>2009-03-09 07:05:07</da>
  <n>Fixed 15601: Adding Real Datatype support.</n>
  <f>148053</f>
- <g>http://pecl.php.net/get/ibm_db2-1.8.2</g>
+ <g>https://pecl.php.net/get/ibm_db2-1.8.2</g>
  <x xlink:href="package.1.8.2.xml"/>
 </r>

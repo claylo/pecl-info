@@ -19,6 +19,6 @@
 Changed from namespaceURI.type to namespaceURI#type (conform to spec)
 Update to Apache Tuscany C++ SDO revision level 495327 (namespace fixes, performance improvements)</n>
  <f>370335</f>
- <g>http://pecl.php.net/get/SCA_SDO-1.1.2</g>
+ <g>https://pecl.php.net/get/SCA_SDO-1.1.2</g>
  <x xlink:href="package.1.1.2.xml"/>
 </r>

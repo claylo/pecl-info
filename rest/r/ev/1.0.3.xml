@@ -16,6 +16,6 @@
  <da>2016-07-29 06:42:11</da>
  <n>Fix: issue #29 where object properties were wrapped in double quotes</n>
  <f>124694</f>
- <g>http://pecl.php.net/get/ev-1.0.3</g>
+ <g>https://pecl.php.net/get/ev-1.0.3</g>
  <x xlink:href="package.1.0.3.xml"/>
 </r>

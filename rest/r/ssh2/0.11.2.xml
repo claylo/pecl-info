@@ -17,6 +17,6 @@
  <n>- Fixed the extension version info 
   . no other changes since 0.11.1</n>
  <f>22740</f>
- <g>http://pecl.php.net/get/ssh2-0.11.2</g>
+ <g>https://pecl.php.net/get/ssh2-0.11.2</g>
  <x xlink:href="package.0.11.2.xml"/>
 </r>

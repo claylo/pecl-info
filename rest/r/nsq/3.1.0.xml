@@ -16,6 +16,6 @@
  <n>*Fix memory wrong
 *Fix subscribe wrong</n>
  <f>17932</f>
- <g>http://pecl.php.net/get/nsq-3.1.0</g>
+ <g>https://pecl.php.net/get/nsq-3.1.0</g>
  <x xlink:href="package.3.1.0.xml"/>
 </r>

@@ -1,1 +1,1 @@
-"a5-62b21fe5aff7f-gzip"
+"a5-62b21fe5aff7f"

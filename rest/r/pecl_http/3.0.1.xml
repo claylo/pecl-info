@@ -33,6 +33,6 @@ http://dev.iworks.at/ext-http/lcov/ext/http/</d>
 * Fix gh-issue #21: Fix PHP7 config.w32 (Jan Ehrhardt)
 * Fix gh-issue #20: setSslOptions notice with curl 7.43 (Mike, Vitaliy Demidov)</n>
  <f>197372</f>
- <g>http://pecl.php.net/get/pecl_http-3.0.1</g>
+ <g>https://pecl.php.net/get/pecl_http-3.0.1</g>
  <x xlink:href="package.3.0.1.xml"/>
 </r>

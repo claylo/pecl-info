@@ -26,6 +26,6 @@ Bugs Fixed:
 - Fix result of tag callback to be copied to aliases (ranvis)
 - #71696 Bad datetime management</n>
  <f>37075</f>
- <g>http://pecl.php.net/get/yaml-1.3.0</g>
+ <g>https://pecl.php.net/get/yaml-1.3.0</g>
  <x xlink:href="package.1.3.0.xml"/>
 </r>

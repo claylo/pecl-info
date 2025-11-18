@@ -23,6 +23,6 @@
  <da>2013-10-07 03:21:53</da>
  <n>Fix: Bug #65847 Issue with old libevent2 where evhttp_connection_get_bufferevent function was not available with libevent version &lt; 2.0.17 (thanks to Remi &lt;remi@php.net&gt;)</n>
  <f>71747</f>
- <g>http://pecl.php.net/get/event-1.8.1</g>
+ <g>https://pecl.php.net/get/event-1.8.1</g>
  <x xlink:href="package.1.8.1.xml"/>
 </r>

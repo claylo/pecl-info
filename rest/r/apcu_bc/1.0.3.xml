@@ -16,6 +16,6 @@
  <n>- fix gh#14: apc_inc segfaults if APCu is disabled
 - fix Windows build</n>
  <f>7245</f>
- <g>http://pecl.php.net/get/apcu_bc-1.0.3</g>
+ <g>https://pecl.php.net/get/apcu_bc-1.0.3</g>
  <x xlink:href="package.1.0.3.xml"/>
 </r>

@@ -15,6 +15,6 @@
  <da>2013-12-18 03:07:59</da>
  <n>Fixed issue 65: Conflict resolvers no longer do an automatic put when conflicts are resolved.</n>
  <f>134357</f>
- <g>http://pecl.php.net/get/riak-1.1.2</g>
+ <g>https://pecl.php.net/get/riak-1.1.2</g>
  <x xlink:href="package.1.1.2.xml"/>
 </r>

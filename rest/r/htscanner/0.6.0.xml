@@ -19,6 +19,6 @@ This package was originally developed by Bart Vanbrabant. Old versions are avail
  <n>- Added cache support. Each unique ini setting for a given path is cached
 - Added ini setting default_ttl, define the cache lifetime in seconds, default to 300 (5mins)</n>
  <f>6922</f>
- <g>http://pecl.php.net/get/htscanner-0.6.0</g>
+ <g>https://pecl.php.net/get/htscanner-0.6.0</g>
  <x xlink:href="package.0.6.0.xml"/>
 </r>

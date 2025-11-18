@@ -65,7 +65,7 @@
             "releasedBy": "jbboehr",
             "releaseDate": "2018-03-05T23:17:21+00:00",
             "releaseNotes": "- Mustache delimiter preprocessing support behind the compat flag\n- Property lookup now generates a closure from a method if the value of the property is null or does not exist to emulate the behaviour of javascript where functions and properties share a symbol table - only supported for PHP 7 or greater\n- Changed target handlebars.c version to 0.6.4",
-            "get": "http://pecl.php.net/get/handlebars-0.8.2",
+            "get": "https://pecl.php.net/get/handlebars-0.8.2",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.8.2RC2": {
@@ -75,7 +75,7 @@
             "releasedBy": "jbboehr",
             "releaseDate": "2017-07-18T22:01:38+00:00",
             "releaseNotes": "- Mustache delimiter preprocessing support behind the compat flag\n- Property lookup now generates a closure from a method if the value of the property is null or does not exist to emulate the behaviour of javascript where functions and properties share a symbol table - only supported for PHP 7 or greater\n- Changed target handlebars.c version to 0.6.4",
-            "get": "http://pecl.php.net/get/handlebars-0.8.2RC2",
+            "get": "https://pecl.php.net/get/handlebars-0.8.2RC2",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.8.2RC1": {
@@ -85,7 +85,7 @@
             "releasedBy": "jbboehr",
             "releaseDate": "2017-06-07T22:02:59+00:00",
             "releaseNotes": "Initial PECL release",
-            "get": "http://pecl.php.net/get/handlebars-0.8.2RC1",
+            "get": "https://pecl.php.net/get/handlebars-0.8.2RC1",
             "SPDX-License-Identifier": "BSD-2-Clause"
         }
     },

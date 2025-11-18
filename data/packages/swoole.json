@@ -30,15 +30,33 @@
         },
         "6.1.0": {
             "version": "6.1.0",
-            "state": "stable"
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "tianfenghan",
+            "releaseDate": "2025-10-24T12:54:28+00:00",
+            "releaseNotes": "Major Changes in Swoole 6.1.0\n1. Introduction of \"Standard Library Extensions\" - Revolutionary Syntax Enhancements\nThis is the most eye-catching feature at the language level in this update, allowing object-oriented operations on basic types.\nObject-Oriented Basic Types: Methods can be called directly on variables of basic types like string, array, and stream (e.g., $text->length()->lower()), greatly improving code readability and development experience.\nTyped Arrays: Introduced the typed_array syntax, allowing constraints on key and value types, with type checks performed on write operations, enhancing code robustness.\n\n2. A Major Leap in Underlying Architecture and Stability\nThis version invests heavily in code quality and stability, laying a solid foundation for future development.\nSignificant Increase in Test Coverage to 86%: By systematically adding test cases, potential errors are greatly reduced, improving the overall reliability and maintainability of the project.\nLarge-Scale Code Refactoring and Static Analysis: Refactored multiple core modules like Reactor, SSL, and Socket, and used clang-tidy for code standardization, significantly improving code quality and performance.\n\n3. Major Simplification and Unification of the Lock API\nA groundbreaking refactoring of the core component for concurrent programming \u2013 the lock.\nAPI Simplification: Removed methods like lockwait and trylock, retaining only three core methods \u2013 __construct, lock, and unlock \u2013 for Swoole\\Coroutine\\Lock, Swoole\\Lock, and Swoole\\Thread\\Lock.\nUnified Behavior: The new API design is closer to PHP's native flock function, reducing the learning curve, and uses standard constants like LOCK_EX | LOCK_NB to implement advanced features such as non-blocking.\n\n4. Enhanced Coroutine Capabilities and Fine-Grained Control\nMore flexible coroutine operation capabilities.\nCoroutine Cancellation Mechanism: Swoole\\Coroutine::cancel() now includes a $throw_exception parameter, allowing a catchable Swoole\\Coroutine\\CanceledException to be thrown into the target coroutine upon cancellation, enabling safer and more controllable coroutine lifecycle management.\nCoroutine State Isolation for Serialization Operations: Fixed the issue of global state isolation for serialize/unserialize in coroutine environments. Global variables related to serialization are now automatically saved and restored during coroutine switches, ensuring isolated serialization contexts for each coroutine.\n\n5. Default HTTP Parser Upgrade, Websocket Feature Enhancements, and Platform Compatibility Improvements\nImportant improvements in performance and compatibility.\nllHTTP Enabled by Default: Replaced the old http_parser with the more performant and modern llhttp, improving the efficiency and reliability of HTTP processing.\nWebSocket Feature Enhancements: Both client and server now support receiving fragmented messages, actively disconnecting (disconnect), and sending Ping frames (ping), making the WebSocket protocol implementation more complete.\nDeprecating Select, Embracing Poll: Completely deprecated the flawed select event mechanism. On platforms that do not support epoll/kqueue (like Cygwin), poll is now used by default, enabling support for a large number of concurrent connections on these platforms as well.",
+            "get": "https://pecl.php.net/get/swoole-6.1.0",
+            "SPDX-License-Identifier": "Apache-2.0"
         },
         "6.1.0RC2": {
             "version": "6.1.0RC2",
-            "state": "beta"
+            "state": "beta",
+            "license": "Apache2.0",
+            "releasedBy": "tianfenghan",
+            "releaseDate": "2025-10-13T14:11:16+00:00",
+            "releaseNotes": "# New Features\n- Added the `$throw_exception` parameter to `Swoole\\Coroutine::cancel()`, enabling exceptions to be thrown when canceling coroutines.\n- `Swoole\\Coroutine\\Http\\Client` and `Swoole\\Coroutine\\Http\\Server` now support receiving WebSocket fragmented messages.\n- Added `disconnect` and `ping` methods to `Swoole\\Coroutine\\Http\\Client` and `Swoole\\Coroutine\\Http\\Server`.\n- Refactored `Swoole\\Coroutine\\Lock`, `Swoole\\Lock`, and `Swoole\\Thread\\Lock`, retaining only the `__construct`, `lock`, and `unlock` methods to align more closely with `php flock` in usage.\n# Bug Fixes\n- Fixed an issue where `Swoole\\Websocket\\Server` might still trigger the `onMessage` callback after a handshake failure or connection closure.\n- Fixed execution errors in `Swoole\\Coroutine\\Http\\Server` caused by inconsistencies between function return types and signatures.\n- Fixed the issue where `Swoole\\Coroutine\\Http\\Server` did not support enabling HTTP/2.\n- Fixed the timeout precision conversion issue in `Swoole\\Lock::lockwait()`.\n- Fixed the `ReactorEpoll::add(): failed to add event` warning when using the coroutine-based `curl` module, caused by PHP 8 compatibility adjustments and incomplete cleanup of `keepalive` connections.\n# Internal Optimizations\n- Upgraded the `Swoole library` version.\n- Disabled the `-Wdate-time` warning to resolve compilation errors when using Zig/Clang.\n- Removed PHP 8.0 compatibility code.\n- Added the `SWOOLE_ODBC_LIBS` variable in `config.m4`.\n- Ensured that `timespec.tv_nsec` values are less than `1,000,000,000` to comply with POSIX standards.\n# Notes\n- This version is an RC (Release Candidate) and should only be used in testing environments. Do not deploy it in production.\n- Starting from Swoole 6.1, `Swoole\\Coroutine\\Http\\Client` and `Swoole\\Coroutine\\Http\\Server` will automatically handle WebSocket control frames unless `open_websocket_ping_frame`, `open_websocket_pong_frame`, or `open_websocket_close_frame` are explicitly set.\n- `Swoole\\Coroutine::cancel()` cannot cancel file coroutine operations. Forcibly canceling may cause segmentation faults.\n- If `--enable-iouring` is enabled, a warning will be thrown if the kernel version or `liburing` version does not meet the requirements.\n- The `Swoole\\Websocket\\Server::push` method does not automatically close the connection after sending a close frame. To close the connection, use the `Swoole\\Websocket\\Server::disconnect()` method.\n- When handling control frames, the Swoole protocol actively sets the FIN flag to 1 and ensures compression is not enabled (i.e., the RSV1 bit is 0). User settings for this will be ignored.\n- When handling compression and sending of consecutive frames, Swoole delegates the responsibility of compression and data chunking to the application layer. Users need to manually implement the relevant logic. See the example below for details.",
+            "get": "https://pecl.php.net/get/swoole-6.1.0RC2",
+            "SPDX-License-Identifier": "Apache-2.0"
         },
         "6.1.0RC1": {
             "version": "6.1.0RC1",
-            "state": "alpha"
+            "state": "alpha",
+            "license": "Apache2.0",
+            "releasedBy": "tianfenghan",
+            "releaseDate": "2025-08-30T03:43:07+00:00",
+            "releaseNotes": "## **Standard Library Extension**\n\nIn version `6.1`, `Swoole-Cli` will introduce extended syntax for the `PHP` standard library, providing additional new syntax while maintaining full compatibility with the official `PHP` syntax. These new extended syntax features are entirely optional and do not affect existing `PHP` code. The standard library extension syntax will be implemented in the `stdext` module of `ext-swoole`.\n\n- `swoole-cli` users can use it directly without any additional parameters.\n- `ext-swoole` users need to add `--enable-swoole-stdext` during compilation to enable it.\n- `stdext` can be used in `php-cli`, `php-fpm`, `cli-http-server`, and `swoole` modes.\n\n### **1. Object-Oriented Basic Types**\n\nVersion `6.1` implements object-oriented encapsulation of basic types such as `array`, `string`, and `stream`, supporting method calls in an object-oriented style. Built-in methods can be directly called on variables of these types.\n\nThe built-in methods for basic types still utilize the `PHP` standard library. These methods correspond one-to-one with `PHP`'s `str_` or `array_` series functions. For example, `$text->replace()` corresponds to the `str_replace` function. The underlying implementation only adjusts function names, slightly modifies the parameter order for a few methods, and adjusts parameter and return value types for several others. For details, please refer to the [Swoole Documentation](https://wiki.swoole.com/).\n\n### **2. Typed-Array**\n\nTyped arrays can enforce type constraints, such as `Map` or `ArrayList`, and restrict the types of keys and values. Multi-level nested formats are supported. Typed arrays are still essentially `array` types, with parameter checks performed only during write operations. Typed arrays can be passed as `array` to other functions or class methods.\n\n## **New Features**\n- **Default llHTTP Parser**: Starting from v6.1.0, Swoole uses the higher-performance `llhttp` as the default HTTP message parser, replacing `http_parser`.\n- **Coroutine-Based File Download**: `Swoole\\Coroutine\\Http\\Client` now supports full coroutine-based file download operations.\n- **Asynchronous File Truncation**: Added support for `iouring ftruncate`, expanding asynchronous file operation capabilities.\n\n## **Bug Fixes**\n- **Thread Mode Optimization**:\n- Fixed the issue where `hook_flags` settings were ineffective in `SWOOLE_THREAD` mode.\n- Fixed the issue where heartbeat threads held invalid pointers and accessed freed memory after worker threads restarted due to reaching the `max_request` limit.\n- Fixed the issue where `Task` processes could not be restarted individually.\n- **Stability Improvements**:\n- Fixed the issue where synchronous processes (including manager and task processes) could not use `process::signal()` properly.\n- Corrected the resource cleanup mechanism when worker processes exit abnormally.\n- Resolved compilation failures on the Cygwin platform.\n- Fixed the issue where curl could not reuse sockets when keepalive was enabled.\n- Improved the logging component to address data consistency issues in multi-threaded mode.\n- Fixed compilation failures of the `futex` feature in `io_uring` on `ubuntu24.04`.\n- Fixed compilation failures caused by struct sequential assignment on older Linux systems.\n- Fixed the issue where the `id` property of directly instantiated `Swoole\\Process` objects was uninitialized.\n- Fixed the missing zstd option in composer.json when compiling Swoole with PIE.\n- **Compatibility Improvements**:\n- Fixed compatibility issues with `php_swoole_register_shutdown_function` on PHP 8.5.\n- Corrected the handling of null parameters in `Swoole\\Table::get()`.\n- **Protocol Handling**:\n- Optimized the handling of duplicate fields in HTTP request and response headers to ensure proper merging.\n- Fixed the issue where a warning about an unknown compression method was triggered when processing client `Accept-Encoding: zlib` headers without `zlib` installed.\n\n## Deprecations\n- Support for the `select` event mechanism has been removed. `select` only supports event monitoring for up to `1024` handles and has significant limitations. On platforms that do not support `epoll/kqueue`, `poll` will be used as the event polling mechanism, enabling support for high concurrency even on the `Cygwin` platform.\n- The second parameter `$waitEvent` in `Swoole\\Server::stop()` has been deprecated. Please use the `reload_async` parameter instead.\n\n## **Architectural Optimizations**\n\nVersion `6.1` adds extensive unit tests for core modules, increasing test coverage to **86%**. By systematically supplementing test cases and refactoring underlying code logic, combined with full static code analysis using the `clang-tidy` toolchain, automated code formatting and redundancy cleanup have been achieved, significantly improving code readability and maintainability.\n\n- Optimized the underlying `SSL` module.\n- Optimized the underlying `Socket` module.\n- Refactored the underlying synchronous signal module.\n- Refactored the underlying `reactor` and `string` modules.\n- Refactored the underlying dynamic log file reloading mechanism based on `SIGRTMIN` signals.\n- Optimized the underlying static file server by removing C-style code and unifying it into C++-style code.\n- Optimized thread initialization logic to improve multi-threaded performance. Memory for independent management structures is now managed separately, eliminating the need for locks during thread creation and exit.\n- Removed the `socket_dontwait` option from the underlying `async` module, as it is deprecated.\n- Improved test coverage for `WebSocket` mask handling.\n- Optimized the `sendfile` functionality to avoid setting the `tcp_cork` option for files smaller than `64KB`.\n- Added unit tests for `aarch64` and `macOS` environments.\n- Optimized underlying client network address resolution and settings.\n- Added `ssl_cafile/ssl_capath` configuration items for the `Server` module.\n- Added the `print_backtrace_on_error` configuration, which prints C function stack traces when location errors occur.\n- Added the `Address Sanitizer` debugging tool.\n- Added `Cygwin` testing, significantly improving compatibility and stability on the `Cygwin` platform.\n- On `macOS` systems, the `kqueue` event mechanism does not support cross-process pipe event monitoring, making it impossible to use `SWOOLE_PROCESS` mode and `Task` processes. Therefore, the system defaults to using `poll` as the underlying event mechanism. To enable `kqueue`, manually activate it using `Swoole\\Server::set(['enable_kqueue' => true])` and `swoole_async_set(['enable_kqueue' => true])`.\n\n## **Note**\n- This version is an `RC` (Release Candidate) and not an official release. It is recommended for use only in testing environments and should not be used in production.\n\n## **Acknowledgments**\nSincere thanks to @matyhtf @jingjingxyk @sy-records @KIMDONGYEON00 @ServBayDev @NathanFreeman and all contributors for their professional efforts. Swoole is stronger because of you! Wishing all open-source community partners good health, success in all endeavors, and smooth work.",
+            "get": "https://pecl.php.net/get/swoole-6.1.0RC1",
+            "SPDX-License-Identifier": "Apache-2.0"
         },
         "6.0.2": {
             "version": "6.0.2",
@@ -75,14 +93,20 @@
             "state": "alpha",
             "license": "Apache2.0",
             "releasedBy": "tianfenghan",
-            "releaseDate": "2024-11-22T05:18:46+00:00",
-            "releaseNotes": "- Added `non-blocking, reentrant coroutine mutex lock`, which can be used between processes/threads without blocking them. @NathanFreeman\n- `Swoole\\Coroutine\\Socket::getoption()` supports the `TCPINFO` feature. @matyhtf\n- `Swoole\\Client` synchronous blocking client supports `http` proxy. @matyhtf\n- Added asynchronous non-blocking `TCP/UDP/Unix socket` client `Swoole\\Async\\client`. @matyhtf\n- Optimized the `Swoole\\Redis\\Server::format()` method to support zero-copy memory, compatible with the `Redis` protocol. @matyhtf\n- Fixed `Fatal error` issue caused by `PHP-8.4`'s `timeout` feature in ZTS mode. @matyhtf\n- Fixed compatibility issue with the `exit()` function in `swoole` for `PHP-8.4`. @remicollet\n- Fixed the issue where `Swoole\\Thread::getNativeId()` did not work in `cygwin`. @matyhtf\n- Fixed the issue causing `SIGSEGV` in `Swoole\\Coroutine::getaddrinfo()` method. @matyhtf\n- Fixed the issue where the runtime TCP module did not support dynamically enabling SSL encryption. @matyhtf\n- Fixed the issue where the HTTP client had an incorrect timeout after running for a long time. @matyhtf\n- Fixed the problem where the mutex lock of `Swoole\\Table` could not be used before the process exited. @matyhtf\n- Fixed the failure of `Swoole\\Server::stop()` when using named parameters. @matyhtf\n- Fixed the issue with the `toArray` function of concurrent containers in `SWOOLE_THREAD` multi-thread mode. @matyhtf\n- Fixed the issue of being unable to delete nested numeric keys in `Swoole\\Thread\\Map` in `SWOOLE_THREAD` multi-thread mode. @matyhtf\n- Multi-thread mode `SWOOLE_THREAD` supports restarting worker threads. @matyhtf\n- Multi-thread mode `SWOOLE_THREAD` supports starting timers in the `Manager` thread. @matyhtf\n- Compatible with the `curl` extension of `PHP-8.4`. @matyhtf @NathanFreeman\n- Refactored `iouring`. @matyhtf @NathanFreeman\n- Optimized timers so that synchronous processes do not depend on signals. @matyhtf\n- Optimized the `Swoole\\Coroutine\\System::waitSignal()` method to allow listening to multiple signals simultaneously. @matyhtf\n- This version is a `pre-release` and should not be used in production environments, only in testing environments.",
+            "releaseDate": "2024-11-22T11:44:53+00:00",
+            "releaseNotes": "- Added `non-blocking, reentrant coroutine mutex lock`, which can be used between processes/threads without blocking them. @NathanFreeman\n- `Swoole\\Coroutine\\Socket::getoption()` supports the `TCPINFO` feature. @matyhtf\n- `Swoole\\Client` synchronous blocking client supports `http` proxy. @matyhtf\n- Added asynchronous non-blocking `TCP/UDP/Unix socket` client `Swoole\\Async\\client`. @matyhtf\n- Optimized the `Swoole\\Redis\\server::format()` method to support zero-copy memory, compatible with the `Redis` protocol. @matyhtf\n- Fixed `Fatal error` issue caused by `PHP-8.4`'s `timeout` feature in ZTS mode. @matyhtf\n- Fixed compatibility issue with the `exit()` function in `swoole` for `PHP-8.4`. @remicollet\n- Fixed the issue where `Swoole\\Thread::getNativeId()` did not work in `cygwin`. @matyhtf\n- Fixed the issue causing `SIGSEGV` in `Swoole\\Coroutine::getaddrinfo()` method. @matyhtf\n- Fixed the issue where the runtime TCP module did not support dynamically enabling SSL encryption. @matyhtf\n- Fixed the issue where the HTTP client had an incorrect timeout after running for a long time. @matyhtf\n- Fixed the problem where the mutex lock of `Swoole\\Table` could not be used before the process exited. @matyhtf\n- Fixed the failure of `Swoole\\Server::stop()` when using named parameters. @matyhtf\n- Fixed the issue with the `toArray` function of concurrent containers in `SWOOLE_THREAD` multi-thread mode. @matyhtf\n- Fixed the issue of being unable to delete nested numeric keys in `Swoole\\Thread\\Map` in `SWOOLE_THREAD` multi-thread mode. @matyhtf\n- Multi-thread mode `SWOOLE_THREAD` supports restarting worker threads. @matyhtf\n- Multi-thread mode `SWOOLE_THREAD` supports starting timers in the `Manager` thread. @matyhtf\n- Compatible with the `curl` extension of `PHP-8.4`. @matyhtf @NathanFreeman\n- Refactored `iouring`. @matyhtf @NathanFreeman\n- Optimized timers so that synchronous processes do not depend on signals. @matyhtf\n- Optimized the `Swoole\\Coroutine\\System::waitSignal()` method to allow listening to multiple signals simultaneously. @matyhtf\n- This version is a `pre-release` and should not be used in production environments, only in testing environments.",
             "get": "https://pecl.php.net/get/swoole-6.0.0RC1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "5.1.8": {
             "version": "5.1.8",
-            "state": "stable"
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "tianfenghan",
+            "releaseDate": "2025-08-02T04:59:24+00:00",
+            "releaseNotes": "- Fixed missing symbol references during compilation.\n- Fixed CPU affinity configuration failure.\n- Fixed signal handling exceptions.\n- Added missing HTTP/2 coroutine client properties.\n- Added missing HTTP Server compression type hints.\n- Added missing `id` property to `Swoole\\Process`.",
+            "get": "https://pecl.php.net/get/swoole-5.1.8",
+            "SPDX-License-Identifier": "Apache-2.0"
         },
         "5.1.7": {
             "version": "5.1.7",
@@ -911,7 +935,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2018-11-10T10:19:50+00:00",
             "releaseNotes": "+ `Server` adds `task_async` config item, supports switching between pure sync mode and async mode, sync mode by default (backward compatibility)\n+ Support `gethostbyname` in `Runtime::enableCoroutine`\n+ Support `PHP7.3RC5` version\n* Fixed low version `GCC` compatibility problem (#2094)\n* Fixed ssl timeout bug for `client->recv`\n* Fixed `Socks5` proxy not work (#2103)\n* Fixed the bug that `connected` property of `Co\\Redis` was not updated. (#2104)\n* Fixed `taskWait` segment fault (#2098)\n* Fixed `Co\\Socket` reuse problem\n* Fixed a bug in `Process\\Pool`\n- `Swoole\\Serialize` will be forced to close in PHP73 (unsupported temporarily)",
-            "get": "http://pecl.php.net/get/swoole-4.2.7",
+            "get": "https://pecl.php.net/get/swoole-4.2.7",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "4.2.6": {
@@ -921,7 +945,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2018-11-05T13:07:35+00:00",
             "releaseNotes": "+ Built-in `hiredis` dependency, no longer needed to compile it separately, refactor `Co\\Redis`, more stable\n+ Improve the compilation test of the Alpine system\n+ Refactor `Co::exec` and functions about file to fix its execution and output issues in some scenarios\n* Fixed errors about coroutine switching in multi-level nesting and multiple suspend scenarios\n* Fixed connection leaks that may occur when both sides are closed at the same time\n* Fixed `channel` bug in blocking scenarios\n* Fixed `mysql->prepare` return true (#2080)\n* Fixed the reference count problem when use `swoole_table` as an array (#2079)\n* Fixed `ssl_host_name` cannot open SNI (#2085)\n* Fixed `kqueue` nanosecond conversion problem under MacOS (#2087)\n* Fixed all `swoole_object` dangling pointer\n* Add a series of scripting tools for the underlying development",
-            "get": "http://pecl.php.net/get/swoole-4.2.6",
+            "get": "https://pecl.php.net/get/swoole-4.2.6",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "4.2.5": {
@@ -931,7 +955,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2018-10-27T12:33:16+00:00",
             "releaseNotes": "* Alpine compatibility (#2071)\n* Fixed task_ipc_mode bug (#2072)\n* Improve client proxy settings\n* Fixed SSL client bug (#2053)",
-            "get": "http://pecl.php.net/get/swoole-4.2.5",
+            "get": "https://pecl.php.net/get/swoole-4.2.5",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "4.2.4": {
@@ -941,7 +965,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2018-10-26T12:30:20+00:00",
             "releaseNotes": "+ Refactor HTTP2 client, fix disconnection reconnection problem, fix cookie problem\n+ Added coroutine binding detection and friendly error prompts\n+ Runtime stream hook adds error_text support\n* Increase asynchronous redis callback function type detection\n* Fixed http client unable to execute other requests after using the download API\n* Fixed `swoole_http_response->detach` cross-function memory error\n* Fixed coroutine PDO connection abnormal disconnection\n* parameter parsing errors return FALSE (instead of null)\n* Fixed `Exception` loss after coroutine switchover\n* Fixed `task_max_request` does not work\n* Optimize MySQL response packet integrity detection\n* Fix coroutine flock deadlock problem\n* Fixed the error that the underlying swoole_buffer did not release the object\n* Fixed bugs caused by multiple `Content-Length` headers\n* Enhanced zval type check, defensive programming\n* Fixed the bug of the HTTP coroutine client setData using the object (stream), refactoring the properties parser of the HTTP coroutine\n* openssl error cleanup optimization\n* `co::fread` optimized for fseek and non-normal file reading\n* swoole_server TCP and UDP mode separation\n* Fixed the problem caused by passing invalid parameters when creating a server\n* Fixed the bug by `addProcess` in BASE mode\n* Fixed the problem that the task process uses `reload_async` (asynchronous safe restart feature)\n* Improve `package_eof` illegal empty string check\n- Remove code for deprecated multi-threaded mode",
-            "get": "http://pecl.php.net/get/swoole-4.2.4",
+            "get": "https://pecl.php.net/get/swoole-4.2.4",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "4.2.3": {
@@ -951,7 +975,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2018-10-16T01:33:25+00:00",
             "releaseNotes": "This version is mostly based on the v4.2.2 made some fixes\n+ Add `Co::statvfs` to retrieve file system information\n* Fixed non-array property error on swoole_http_response object\n* Fixed bad version number, add automated fixing tool",
-            "get": "http://pecl.php.net/get/swoole-4.2.3",
+            "get": "https://pecl.php.net/get/swoole-4.2.3",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "4.2.2": {
@@ -961,7 +985,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2018-10-15T09:03:13+00:00",
             "releaseNotes": "+ Task process supports asynchronous and coroutine\n+ Refactor `addListener`, now developers can add new service listeners in any order\n+ Support  mixed server of `http`, `http2`, `websocket`, `tcp`\n+ Completed coroutine redis client method parameter definition\n+ `Co::readFile` supports reading non-disk files\n+ Now static_handler supports more file types and skips files with length 0\n* Fixed multipart/form-data in some cases parsing errors\n* Fixed the dislocation of sendfile data on MacOS\n* Fixed bug where SIGRTMIN processing error caused the log file to fail to reopen\n* Fixed a bug where redis-client last error value was not cleared and the next request was incorrect\n* Fixed a bug about connecting a connected asynchronous redis coredump\n* Fixed MySQL client protocol processing parameter binding NULL bug\n* Fixed segment fault caused by file hook, closed the include/require coroutine\n* Fixed the socket hook construct error\n* Fixed the sleep hook\n* Fixed a bug that returned an illegal pointer when reading an unset object property\n* Fixed the bug that after event_wait, EG(scope) is not restored in PHP70, causing private properties to be inaccessible\n* Alpine dependency compatibility optimization\n* Cygwin compatibility optimization\n* Support log_level to block warning information\n* Distinguish 204 response then skip body processing\n* The underlying code is cleaned up, all TSRM macros, PHP5 compatible macros and functions are removed, useless stack allocation and multiple pointers are reduced, FASTZPP is re-enabled to improve parameter parsing performance\n* Error tips optimization, error reporting guidelines will be generated when the underlying crash occurs",
-            "get": "http://pecl.php.net/get/swoole-4.2.2",
+            "get": "https://pecl.php.net/get/swoole-4.2.2",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "4.2.1": {
@@ -971,7 +995,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2018-09-19T03:41:35+00:00",
             "releaseNotes": "+ This version is based on the previous version and made some fixes.\n* Fixed compilation failure caused by no time_nanosleep in some environments\n* Fixed loading error in PHP-ZTS version\n* Fixed the Bad file descriptor error when using coroutine in dispatch mode 7\n* Fixed exit interceptor does not work\n* Fixed too long domain name DNS buffer overflow in client",
-            "get": "http://pecl.php.net/get/swoole-4.2.1",
+            "get": "https://pecl.php.net/get/swoole-4.2.1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "4.2.0": {
@@ -981,7 +1005,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2018-09-18T11:11:24+00:00",
             "releaseNotes": "+ Add new coroutine hooks, `tcp`, `udp`, `ssl`, `tls`, `sleep`, `usleep`, and file read and write, `mkdir`...etc, be async automatically\n+ New ability of the server/client to send the `swoole_websocket_frame` object directly, support any type of `frame` construction, send and receive, support `__toString`\n+ Better `AIO`\n+ Add the `Process\\Pool::getProcess` method\n+ Support `--with-hiredis-dir`, `--with-nghttp2-dir` compiling parameters\n* Enhanced `send_yield`, automatic retry within the timeout\n* Enhanced timer round detection, repaired millisecond-level ultra-short timer execution error\n* Enable `TCP_NODELAY` by default, turn off `Nagle algorithm`, reduce latency\n* More standardized PECL package\n* Re-support the sending of HTTP-header with custom `content-length` of 0\n* Fixed an issue that can not access the Private/Protect properties in the class after coroutine yield caused by `EG(scope)` not switched in PHP7.0.x\n* Fixed the error opcode and finish status in `websocket_server`\n* Fixed the `async_dns_lookup` bug\n* Completed the code about `channel.c` overflow space handling\n* Fixed the bug of `channel->close`\n* Fixed the bug of coroutine `socket->recv_package`\n* Repair MySQL Statement->execute does not support null parameters\n* Support for identifying `form-data` encoding with a semicolon-separated `boundary`\n* Add many high-quality unit tests, greater stability\n- Remove useless time wheel algorithm",
-            "get": "http://pecl.php.net/get/swoole-4.2.0",
+            "get": "https://pecl.php.net/get/swoole-4.2.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "4.1.2": {
@@ -991,7 +1015,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2018-09-05T03:54:24+00:00",
             "releaseNotes": "+ Add `socket_hook`\n* Fix bugs in nested coroutines\n* Fixed variable reference count problem when `exit` in the coroutine\n* Coroutine MySQL`query`, `prepare`, `execute` does not time out by default, conforms to the documentation API description\n* The MySQL transaction operation of the coroutine is forbidden to use the defer mode, and the developer needs to use it explicitly. The concurrent open transaction can be replaced by `query`.\n* Fix the problem of mmap `MAP_FAILED` return value detection\n+ Add PECL package verification",
-            "get": "http://pecl.php.net/get/swoole-4.1.2",
+            "get": "https://pecl.php.net/get/swoole-4.1.2",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "4.1.1": {
@@ -1001,7 +1025,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2018-08-31T12:14:57+00:00",
             "releaseNotes": "+ **Support `Redis`, `PDO`, `MySQLi`**, use `Swoole\\Runtime::enableCoroutine()` to make them become Async IO by coroutine scheduler\n+ **Coroutine tracking**: `Coroutine::listCoroutines()` can list all current coroutines, `Coroutine::getBackTrace($cid)` gets the function call stack of a coroutine\n+ Refactoring `Co\\Channel` C code to C++, solving unintended consequences of complex scenes and achieving high stability\n+ Refactoring `Co\\Http\\Client` C code to C++ coroutine mode, solving asynchronous timing problems and achieving high stability\n+ Support for using `exit` in coroutines and Servers, which will throw a catchable `\\Swoole\\ExitException` exception.\n+ Remove PCRE dependency limits for all iterators (table/connection/coroutine_list)\n+ Add the `open_websocket_close_frame` configuration to receive close frames in the onMessage event\n+ Remove the `Http\\Response->gzip()` method and use the `http_compression` configuration item instead. The bottom layer will automatically determine the client's incoming `Accept-Encoding` to select the appropriate compression method, add Google BR compression support\n+ Add `Co\\Http\\Client->addData()` method to send the data in the memory as the content of the uploaded file.\n+ `Solaris` system support\n+ Http2 supports `MAX_FRAME_SIZE` framing transmission and `MAX_HEADER_LIST_SIZE` processing. The client adds `isStreamExist` method to detect whether there is a corresponding stream.\n+ `swoole_http_response->status` increases the `reason` parameter\n* Fixed an issue where unsigned arguments in MySQL prepare used signed values \u200b\u200bto cause numeric overflows\n* Fixed an issue with no coroutine in the `onRequest` callback for HTTP2\n* Fixed the problem that `tasking_num` became `-1` in some special cases\n* Fixed HTTP2-server window-update frame construction error\n* Fix all levels of compile warning under all PHP versions\n* Compile error will occur when GCC version is less than 4.8\n* Fixed MySQL's memory allocation caused by the use of prepare statement without parameter binding\n* Fixed old stream memory loss leak when HTTP2 client reconnect\n* Fixed wrong package info by version 4.1.0",
-            "get": "http://pecl.php.net/get/swoole-4.1.1",
+            "get": "https://pecl.php.net/get/swoole-4.1.1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "4.1.0": {
@@ -1011,7 +1035,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2018-08-31T10:13:07+00:00",
             "releaseNotes": "+ **Support `Redis`, `PDO`, `MySQLi`**, use `Swoole\\Runtime::enableCoroutine()` to make them become Async IO by coroutine scheduler\n+ **Coroutine tracking**: `Coroutine::listCoroutines()` can list all current coroutines, `Coroutine::getBackTrace($cid)` gets the function call stack of a coroutine\n+ Refactoring `Co\\Channel` C code to C++, solving unintended consequences of complex scenes and achieving high stability\n+ Refactoring `Co\\Http\\Client` C code to C++ coroutine mode, solving asynchronous timing problems and achieving high stability\n+ Support for using `exit` in coroutines and Servers, which will throw a catchable `\\Swoole\\ExitException` exception.\n+ Remove PCRE dependency limits for all iterators (table/connection/coroutine_list)\n+ Add the `open_websocket_close_frame` configuration to receive close frames in the onMessage event\n+ Remove the `Http\\Response->gzip()` method and use the `http_compression` configuration item instead. The bottom layer will automatically determine the client's incoming `Accept-Encoding` to select the appropriate compression method, add Google BR compression support\n+ Add `Co\\Http\\Client->addData()` method to send the data in the memory as the content of the uploaded file.\n+ `Solaris` system support\n+ Http2 supports `MAX_FRAME_SIZE` framing transmission and `MAX_HEADER_LIST_SIZE` processing. The client adds `isStreamExist` method to detect whether there is a corresponding stream.\n+ `swoole_http_response->status` increases the `reason` parameter\n* Fixed an issue where unsigned arguments in MySQL prepare used signed values \u200b\u200bto cause numeric overflows\n* Fixed an issue with no coroutine in the `onRequest` callback for HTTP2\n* Fixed the problem that `tasking_num` became `-1` in some special cases\n* Fixed HTTP2-server window-update frame construction error\n* Fix all levels of compile warning under all PHP versions\n* Compile error will occur when GCC version is less than 4.8\n* Fixed MySQL's memory allocation caused by the use of prepare statement without parameter binding\n* Fixed old stream memory loss leak when HTTP2 client reconnect",
-            "get": "http://pecl.php.net/get/swoole-4.1.0",
+            "get": "https://pecl.php.net/get/swoole-4.1.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "4.0.4": {
@@ -1021,7 +1045,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2018-08-10T13:46:09+00:00",
             "releaseNotes": "+ TaskWait support coroutine scheduling now, call \"taskwait\" in coroutine would be no longer blocked\n+ Better Http2 support, we can use \"\\Swoole\\Coroutine\\Http2\\Client\" to structure any GRPC client now\n* Fixed a kernel level bug in an infrequent extreme case when using SWOOLE_PROCESS\n* Fixed the connection closed when Coroutine WebSocket Client recv timeout\n* Fixed PHP class extends without parent calls crash\n* Fixed user call \"__destruct\" brings crash\n* Fixed upload filename too long bug\n* Fixed HAVE_SOCKETS macro does not exist, including static compiler\n* Fixed co::suspend and co::resume assert failed\n* Use SSL_pending\n* Better signal handler on MacOS",
-            "get": "http://pecl.php.net/get/swoole-4.0.4",
+            "get": "https://pecl.php.net/get/swoole-4.0.4",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "4.0.3": {
@@ -1031,7 +1055,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2018-07-20T11:39:59+00:00",
             "releaseNotes": "- Fixed `Channel`core dump when high concurrency\n- Add `Channel->pop(float $timeout)`, unlimited default\n- Remove`Channel->select`\n- Fixed call `Co\\Client->close`memory error\n- `WebSocket\\Server` support disconnect with code and reason\n- Improve `Coroutine\\Http2\\Client`:\n- Rename `swoole_http2_response` properties to plural form.\n- Add Http2 `WINDOW_SIZE_UPDATE` to solve dead lock, unlimited default\n- Add `Client->recv(float $timeout)`, unlimited default\n- Add `cookies` and `set_cookie_headers` properties\n- Fixed all memory errors and invalid properties error\n- Fixed core dump when send without recv",
-            "get": "http://pecl.php.net/get/swoole-4.0.3",
+            "get": "https://pecl.php.net/get/swoole-4.0.3",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "4.0.2": {
@@ -1041,7 +1065,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2018-07-13T11:45:57+00:00",
             "releaseNotes": "- Support ob functions in coroutine\n- Better Channel\n- Fixed all known bugs about Client\n- Fixed all compiler warnings in PHP73",
-            "get": "http://pecl.php.net/get/swoole-4.0.2",
+            "get": "https://pecl.php.net/get/swoole-4.0.2",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "4.0.1": {
@@ -1051,7 +1075,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2018-06-21T11:30:59+00:00",
             "releaseNotes": "- Added enable_coroutine option\n- Added MySQL8 caching_sha2_password supports\n- Refactor channel",
-            "get": "http://pecl.php.net/get/swoole-4.0.1",
+            "get": "https://pecl.php.net/get/swoole-4.0.1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "4.0.0": {
@@ -1061,7 +1085,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2018-06-14T08:47:22+00:00",
             "releaseNotes": "- Using c stackful coroutine\n- Allow to create server in multiple processes\n- Fixed issue where http2 server could not send more than 16K data to Chrome browser client\n- Added Channel->peek method for peeping data\n- Fixed issue where Server->pause/resume could not be used under SWOOLE_PROCESS\n- Removed Linux AIO and use thread pool for asynchronous file IO anyway\n- Added MySQL stored procedure supports",
-            "get": "http://pecl.php.net/get/swoole-4.0.0",
+            "get": "https://pecl.php.net/get/swoole-4.0.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "2.2.0": {
@@ -1071,7 +1095,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2018-05-23T10:58:05+00:00",
             "releaseNotes": "- Added Co\\Socket\n- Added Http\\Response->detach\n- Added Http\\Response::create\n- Added Http\\Response->redirect\n- Fixed udp connect no effect\n- Fixed http2 server cannot send more than 16k of data\n- Fixed Co\\Redis connection memory leak bug\n- Fixed invalid error log thrown when SOCK_DGRAM type client connection was rejected",
-            "get": "http://pecl.php.net/get/swoole-2.2.0",
+            "get": "https://pecl.php.net/get/swoole-2.2.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "2.1.3": {
@@ -1081,7 +1105,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2018-04-13T06:53:05+00:00",
             "releaseNotes": "- Fixed failed to compile on docker\n- Fixed Http\\Reponse::write is unavailable\n- Fixed ProcessPool crash without onWorkerStart callback\n- Fixed failed to compile with --disable-coroutine\n- Fixed failed to compile with --enable-coroutinepostgresql on php-7.1",
-            "get": "http://pecl.php.net/get/swoole-2.1.3",
+            "get": "https://pecl.php.net/get/swoole-2.1.3",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "2.1.2": {
@@ -1091,7 +1115,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2018-04-10T08:44:16+00:00",
             "releaseNotes": "- Added PostgreSQL coroutine client (depends on libpg)\n- Added Co::readFile\n- Added Co::writeFile\n    - Added swoole_process_pool\n    - Added swoole_msgqueue",
-            "get": "http://pecl.php.net/get/swoole-2.1.2",
+            "get": "https://pecl.php.net/get/swoole-2.1.2",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "2.1.1": {
@@ -1101,7 +1125,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2018-03-07T07:33:57+00:00",
             "releaseNotes": "- Added co::fgets\n\t- Added co::exec\n\t- Added Client::peek\n\t- Added Co\\Redis::$connected property\n\t- Added Co\\MySQL::$connected property",
-            "get": "http://pecl.php.net/get/swoole-2.1.1",
+            "get": "https://pecl.php.net/get/swoole-2.1.1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "2.1.0": {
@@ -1111,7 +1135,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2018-02-09T08:22:15+00:00",
             "releaseNotes": "- Added shortname\n\t- Added channel\n\t- Added non-namespace style API",
-            "get": "http://pecl.php.net/get/swoole-2.1.0",
+            "get": "https://pecl.php.net/get/swoole-2.1.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "2.0.12": {
@@ -1121,7 +1145,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2017-12-29T11:28:39+00:00",
             "releaseNotes": "- No longer support PHP5",
-            "get": "http://pecl.php.net/get/swoole-2.0.12",
+            "get": "https://pecl.php.net/get/swoole-2.0.12",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "2.0.11": {
@@ -1131,7 +1155,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2017-12-28T09:47:07+00:00",
             "releaseNotes": "- Added swoole_mysql::prepare\n- Added Coroutine::fread\n- Added Coroutine::fwrite\n- Added Coroutine::gethostbyname",
-            "get": "http://pecl.php.net/get/swoole-2.0.11",
+            "get": "https://pecl.php.net/get/swoole-2.0.11",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "2.0.10": {
@@ -1141,7 +1165,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2017-12-14T08:29:54+00:00",
             "releaseNotes": "- Merge branch 1.9\n- Improve stability\n- First stable version",
-            "get": "http://pecl.php.net/get/swoole-2.0.10",
+            "get": "https://pecl.php.net/get/swoole-2.0.10",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "2.0.9": {
@@ -1151,7 +1175,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2017-08-31T03:06:18+00:00",
             "releaseNotes": "- Merge branch 1.9\n- Added Server::taskCo\n- Added Coroutine::sleep",
-            "get": "http://pecl.php.net/get/swoole-2.0.9",
+            "get": "https://pecl.php.net/get/swoole-2.0.9",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "2.0.8": {
@@ -1161,7 +1185,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2017-08-04T07:39:34+00:00",
             "releaseNotes": "- Merge branch 1.9",
-            "get": "http://pecl.php.net/get/swoole-2.0.8",
+            "get": "https://pecl.php.net/get/swoole-2.0.8",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "2.0.7": {
@@ -1171,7 +1195,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2017-03-17T07:49:46+00:00",
             "releaseNotes": "- Added Coroutine::create function, allows user to create coroutine\n- Fixed HttpClient crash",
-            "get": "http://pecl.php.net/get/swoole-2.0.7",
+            "get": "https://pecl.php.net/get/swoole-2.0.7",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "2.0.6": {
@@ -1181,7 +1205,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2017-01-24T02:14:39+00:00",
             "releaseNotes": "- Fixed http client and redis client conflicts\n- Fixed the coroutine client cannot use the SplQueue on PHP5",
-            "get": "http://pecl.php.net/get/swoole-2.0.6",
+            "get": "https://pecl.php.net/get/swoole-2.0.6",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "2.0.5": {
@@ -1191,7 +1215,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2017-01-03T03:36:09+00:00",
             "releaseNotes": "- Added native coroutine\n- Added Swoole\\Coroutine\\Client\n- Added Swoole\\Coroutine\\Http\\Client\n- Added Swoole\\Coroutine\\MySQL\n- Added Swoole\\Coroutine\\Redis\n- Fixed compile failure with ZTS\n- The minimum version requirement upgrade to 5.5",
-            "get": "http://pecl.php.net/get/swoole-2.0.5",
+            "get": "https://pecl.php.net/get/swoole-2.0.5",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "2.0.4": {
@@ -1201,7 +1225,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2016-12-30T10:19:10+00:00",
             "releaseNotes": "- Added native coroutine\n- Added Swoole\\Coroutine\\Client\n- Added Swoole\\Coroutine\\Http\\Client\n- Added Swoole\\Coroutine\\MySQL\n- Added Swoole\\Coroutine\\Redis",
-            "get": "http://pecl.php.net/get/swoole-2.0.4",
+            "get": "https://pecl.php.net/get/swoole-2.0.4",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.10.5": {
@@ -1211,7 +1235,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2018-05-14T10:46:00+00:00",
             "releaseNotes": "- Added Lock::destory\n- Added Lock::$errCode\n- Fixed RWLock unavailable\n- Fixed arg of udp connect no effect\n- Added setting window size support for http2 client",
-            "get": "http://pecl.php.net/get/swoole-1.10.5",
+            "get": "https://pecl.php.net/get/swoole-1.10.5",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.10.4": {
@@ -1221,7 +1245,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2018-04-11T08:22:34+00:00",
             "releaseNotes": "- Fixed failed to compile on docker\n- Allow to add timer in master process\n- Added configure options for pecl script",
-            "get": "http://pecl.php.net/get/swoole-1.10.4",
+            "get": "https://pecl.php.net/get/swoole-1.10.4",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.10.3": {
@@ -1231,7 +1255,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2018-03-28T05:47:06+00:00",
             "releaseNotes": "- Added swoole_event_dispatch\n- Added swoole_event_isset\n- Optimized accept performance\n- Added before parameter to swoole_event_cycle\n- Added swoole_process::setBlocking\n- Added swoole_http_request::getData",
-            "get": "http://pecl.php.net/get/swoole-1.10.3",
+            "get": "https://pecl.php.net/get/swoole-1.10.3",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.10.2": {
@@ -1241,7 +1265,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2018-03-14T10:33:38+00:00",
             "releaseNotes": "- Fixed crash when max_request=1 was set in BASE mode\n- Fixed WebSocket client unwrapping when the handshake response and the data frame are in the same transmission unit\n- Fixed SSL connection cannot use sendfile\n- Fixed lose process due to frequent reload in BASE mode\n- Fixed swoole_async_dns_lookup crash when jemalloc is enabled\n- Fixed crash when opening opcache.enable_cli=On in PHP7.2\n- Modify the error information when the client fails to resolve the domain name\n- Process is marked as idle during reload and no longer receives new requests",
-            "get": "http://pecl.php.net/get/swoole-1.10.2",
+            "get": "https://pecl.php.net/get/swoole-1.10.2",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.10.1": {
@@ -1251,7 +1275,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2018-01-30T08:42:53+00:00",
             "releaseNotes": "- Fixed Http2\\Server cannot set http header\n- Added http_proxy_user and http_proxy_password options\n- Added Client::shutdown\n- Added WebSocket\\server::isEstablished\n- Added debug_mode option\n- HttpClient compatible with Unity3D",
-            "get": "http://pecl.php.net/get/swoole-1.10.1",
+            "get": "https://pecl.php.net/get/swoole-1.10.1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.10.0": {
@@ -1261,7 +1285,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2018-01-08T11:09:56+00:00",
             "releaseNotes": "- Update Table::incr and Table::decr support signed integers\n- Compatible with PHP-7.2\n- Added Event::cycle function\n- Fixed Event::del function can not remove the standard input handle problem\n- Fixed Task process timer interval is less than the Client receive timeout, causing Client :: recv deadlock problem\n- Added automatic analysis of domain names feature, asynchronous client no longer need to add additional code for domain name resolution\n- Added ssl_host_name configuration items, used to verify the SSL / TLS host legitimacy\n- When dispatch_mode = 3, an error log is printed when all the workers are busy\n- Added a port iterator that traverses all connections to a listening port\n- Fixed Table memory alignment issues on non-x86 platforms\n- Fixed the issue of invalid max_request configuration in BASE mode\n- Fixed WebSocket server in some client ping frame with mask data return error\n- Fixed an issue where HttpClient uses the HEAD method to respond to content carrying Content-Length causing stuck\n- Added STREAM module, Reactor, Worker, Task communication more flexible\n- Added request_slowlog_timeout configuration, record slow request log\n- Added MySQL asynchronous client support for JSON format",
-            "get": "http://pecl.php.net/get/swoole-1.10.0",
+            "get": "https://pecl.php.net/get/swoole-1.10.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.9.23": {
@@ -1271,7 +1295,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2017-11-22T09:20:53+00:00",
             "releaseNotes": "- Fixed occasional crash bugs of SSL server",
-            "get": "http://pecl.php.net/get/swoole-1.9.23",
+            "get": "https://pecl.php.net/get/swoole-1.9.23",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.9.22": {
@@ -1281,7 +1305,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2017-11-02T02:41:42+00:00",
             "releaseNotes": "- Fixed MacOS occasional death cycle problems\n- Added Async::exec\n- Added tsl_host_name option",
-            "get": "http://pecl.php.net/get/swoole-1.9.22",
+            "get": "https://pecl.php.net/get/swoole-1.9.22",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.9.21": {
@@ -1291,7 +1315,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2017-09-26T08:33:04+00:00",
             "releaseNotes": "- Added Atomic\\long, support 64-bit signed long integer\n- Optimized the underlying GlobalMemory implementation, support the creation of an unlimited number of atoms, locks, tables\n- Prohibit serialization of Swoole module object\n- Fixed Http\\Client download method fourth argument is invalid\n- Fixed FreeBSD platform compiler error report\n- Fixed sendfile on the MacOS platform there is a 5 second delay problem\n- Added Process::setTimeout",
-            "get": "http://pecl.php.net/get/swoole-1.9.21",
+            "get": "https://pecl.php.net/get/swoole-1.9.21",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.9.20": {
@@ -1301,7 +1325,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2017-08-29T10:23:38+00:00",
             "releaseNotes": "- Fixed 32-bit system compilation failed\n- Fixed not available on PHP5",
-            "get": "http://pecl.php.net/get/swoole-1.9.20",
+            "get": "https://pecl.php.net/get/swoole-1.9.20",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.9.19": {
@@ -1311,7 +1335,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2017-08-29T09:39:34+00:00",
             "releaseNotes": "- Fixed worker process crash when the Channel::push exceeded 8K and failed to create temporary file\n- Fixed MacOS event of shutdown cannot be executed\n- Automatically create the task_tmpdir and upload_tmp_dir directories\n- Fixed the SSL server to set the ciphers or ecdh_curve problems that cause the crash\n- Optimize the performance of the Server::bind method using a spin lock\n- Added the reload_async option to control the asynchronous reboot of the switch\n- Added the tcp_fastopen option to turn on TCP fast handshake",
-            "get": "http://pecl.php.net/get/swoole-1.9.19",
+            "get": "https://pecl.php.net/get/swoole-1.9.19",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.9.18": {
@@ -1321,7 +1345,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2017-08-11T09:29:35+00:00",
             "releaseNotes": "- Fixed process::signal parent/child process repeatedly registers the same signal that causes the crash\n- Optimize EOF protocol logic to reduce 64K stack memory requirements\n- Fixed the client to set the HTTP_PROXY agent does not work properly\n- Fixed asynchronous reloading a certain probability of missing process problems\n- Allow dispatch_func to pass in PHP functions\n- Fixed defer interface can not perform in the onWorkerStart callback\n- Fixed EOF sync client has received an EAGIAN error when receiving data continuously",
-            "get": "http://pecl.php.net/get/swoole-1.9.18",
+            "get": "https://pecl.php.net/get/swoole-1.9.18",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.9.17": {
@@ -1331,7 +1355,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2017-07-27T08:10:07+00:00",
             "releaseNotes": "- Refactor the worker process reload feature\n- Added document_root and enable_static_handler option\n- Update Server::send method, SSL connections can use sendfile\n- Added 27 unit test scripts",
-            "get": "http://pecl.php.net/get/swoole-1.9.17",
+            "get": "https://pecl.php.net/get/swoole-1.9.17",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.9.16": {
@@ -1341,7 +1365,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2017-07-13T06:30:47+00:00",
             "releaseNotes": "- Updated server listen fail to throw Swoole\\Exception exception instead of fatal error\n- Added Swoole\\Async::set log_file option\n- Updated the swSocket_bind error log mode and accept the log_level control\n- Fixd deadlock when sending large packets in UserProcess\n- Added 16 unit test scripts",
-            "get": "http://pecl.php.net/get/swoole-1.9.16",
+            "get": "https://pecl.php.net/get/swoole-1.9.16",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.9.15": {
@@ -1351,7 +1375,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2017-07-04T08:40:54+00:00",
             "releaseNotes": "- Added MySQL client support for transaction processing\n- Added static compilation support\n- Added MySQL connection timeout support\n- Added Redis connection timeout support\n- Added Redis password and database options\n- Added Atomic->wait/wakeup function, you can use the atomic count to achieve notification and wait function\n- Fixed Redis\\Server received more than 8K request crashes when the request\n- Added 170 unit test scripts",
-            "get": "http://pecl.php.net/get/swoole-1.9.15",
+            "get": "https://pecl.php.net/get/swoole-1.9.15",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.9.14": {
@@ -1361,7 +1385,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2017-06-21T07:02:04+00:00",
             "releaseNotes": "- Update HttpClient, when the connection is overtime or when the server is reset, the callback is not completed\n- Update HttpClient, the underlying increase request timeout mechanism\n- Update the bottom of the client support mqtt agreement\n- Fixed WebSocket server custom handshake method more than the header\n- Fixed onTask memory leak\n- Fixed HttpServer special circumstances the release of the problem of the crash occurred\n- Fixed WebSocket::unpack Passing an empty string causes a problem with parsing errors",
-            "get": "http://pecl.php.net/get/swoole-1.9.14",
+            "get": "https://pecl.php.net/get/swoole-1.9.14",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.9.13": {
@@ -1371,7 +1395,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2017-06-09T02:57:53+00:00",
             "releaseNotes": "- Fixed WebSocket::unpack memory leak\n- Fixed server accept blocking in MacOS platform",
-            "get": "http://pecl.php.net/get/swoole-1.9.13",
+            "get": "https://pecl.php.net/get/swoole-1.9.13",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.9.12": {
@@ -1381,7 +1405,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2017-06-06T07:31:00+00:00",
             "releaseNotes": "- Allow the WebSocket client to send empty packets to the server\n- Added the callback function cache, reduce the callback function CPU consumption\n- Fixed WebSocket client memory leak\n- Fixed compiler error when have not SSE instruction",
-            "get": "http://pecl.php.net/get/swoole-1.9.12",
+            "get": "https://pecl.php.net/get/swoole-1.9.12",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.9.11": {
@@ -1391,7 +1415,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2017-05-26T08:51:33+00:00",
             "releaseNotes": "- Fixed WebSocket server onOpen callback memory leak \n- Added heartbeat detection support time wheel algorithm\n- Added length parameter support for sendfile API\n- Added connection timeout supports for asynchronous client\n- Optimized performance, reduce branch prediction failure rate",
-            "get": "http://pecl.php.net/get/swoole-1.9.11",
+            "get": "https://pecl.php.net/get/swoole-1.9.11",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.9.10": {
@@ -1401,7 +1425,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2017-05-04T02:23:23+00:00",
             "releaseNotes": "- Fixed compile error with enable-ringbuffer\n- Fixed unix socket client cannot connect to server\n- Fxied swoole_client::close crash with SWOOLE_KEEP flag on PHP-FPM",
-            "get": "http://pecl.php.net/get/swoole-1.9.10",
+            "get": "https://pecl.php.net/get/swoole-1.9.10",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.9.9": {
@@ -1411,7 +1435,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2017-04-18T09:30:22+00:00",
             "releaseNotes": "- Fixed a problem with the rectifier overflow of the DNS resolver request ID\n- Update swoole_table::get method, increase the parameters to support only the value of a field\n- Update getClientInfo return value from_id entry to reactor_id\n- Fixed the Http2 client POST data when the protocol is faulty\n- Fixed swoole_async_dns_lookup target host IP contains 0 when the return value is wrong\n- Fixed crash when tcmalloc and jemalloc are enabled",
-            "get": "http://pecl.php.net/get/swoole-1.9.9",
+            "get": "https://pecl.php.net/get/swoole-1.9.9",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.9.8": {
@@ -1421,7 +1445,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2017-03-16T07:41:19+00:00",
             "releaseNotes": "- Fix some compilation errors",
-            "get": "http://pecl.php.net/get/swoole-1.9.8",
+            "get": "https://pecl.php.net/get/swoole-1.9.8",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.9.7": {
@@ -1431,7 +1455,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2017-03-16T03:44:00+00:00",
             "releaseNotes": "- Added support for systemd.socket\n- Added swoole\\http2\\client\n- Added client support for http-proxy\n- Added the swoole_process::close parameter, allowing only one of the pipes to be closed\n- Fixed MySQL client crash when the low version gcc is compiled\n- Fixed the crash in the BASE mode shutdown\n- Fixed openssl-1.1 configuration detection error problem\n- Fixed open_eof_split after enabling BASE mode to turn off connections in the onReceive callback function\n- Fixed the problem with the Redis \\ Server :: format function SET and MAP formatting errors\n- Fixed a problem that caused a crash when a string type variable was passed directly when swoole.fast_serialize was enabled\n- Update The reactorId variable in the onClose callback is set to -1 when the server actively shuts down the connection",
-            "get": "http://pecl.php.net/get/swoole-1.9.7",
+            "get": "https://pecl.php.net/get/swoole-1.9.7",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.9.6": {
@@ -1441,7 +1465,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2017-02-24T07:21:56+00:00",
             "releaseNotes": "- Added swoole_mysql::escape method to escape special characters in SQL statements\n- Added support for openssl-1.1\n- Fixed timer crash when more than 10,000 timers were added\n- Added swoole_serialize module, PHP7 under high performance serialization library\n- Fixed swoole_client->enableSSL method ssl_cert_file and ssl_key_file invalid parameters\n- Added swoole_http_server support for POST multi-level KEY\n- Fixed listening on UDP port setting onPacket invalid issue",
-            "get": "http://pecl.php.net/get/swoole-1.9.6",
+            "get": "https://pecl.php.net/get/swoole-1.9.6",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.9.5": {
@@ -1451,7 +1475,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2017-01-24T02:14:29+00:00",
             "releaseNotes": "- Fixed taskWaitMulti special case of file descriptor leak problem\n- Added pid_file option to write the master PID to file\n- Added listen random port support, OS will automatically be assigned an available port\n- Removed DNS cache, removed swoole_clear_dns_cache function\n- Added use_async_resolver option to enable real async-io DNS lookup",
-            "get": "http://pecl.php.net/get/swoole-1.9.5",
+            "get": "https://pecl.php.net/get/swoole-1.9.5",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.9.4": {
@@ -1461,7 +1485,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2017-01-09T06:41:33+00:00",
             "releaseNotes": "- Fixed WebSocket server default onRequest method memory leak problem\n- Fixed the problem of missing zlib library compilation failures\n- Added Client->reuseCount property to query the number of multiplexed sockets",
-            "get": "http://pecl.php.net/get/swoole-1.9.4",
+            "get": "https://pecl.php.net/get/swoole-1.9.4",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.9.3": {
@@ -1471,7 +1495,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2016-12-23T07:06:48+00:00",
             "releaseNotes": "- Added extension function args info\n- Added package_length_func option\n- Added http_client download method\n- Fixed issue#965\n- Fixed issue#966\n- Fixed issue#967",
-            "get": "http://pecl.php.net/get/swoole-1.9.3",
+            "get": "https://pecl.php.net/get/swoole-1.9.3",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.9.2": {
@@ -1481,7 +1505,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2016-12-19T08:44:21+00:00",
             "releaseNotes": "- Fixed zend_mm_heap corrupted on PHP7\n- Fixed Async::writeFile parameter FILE_APPEND is invalid on MacOS\n- Disabling Async::writeFile Use the FILE_APPEND parameter in LinuxAIO mode\n- Added websocket_subprotocol option WebSocket server supports setting Sec-WebSocket-Protocol\n- Fixed CentOS 4.3 or lower operating system does not exist O_CLOEXEC causes compilation to fail\n- Fixed server tasking_num overflow bugs\n- Added ucwords parameter to response header method",
-            "get": "http://pecl.php.net/get/swoole-1.9.2",
+            "get": "https://pecl.php.net/get/swoole-1.9.2",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.9.1": {
@@ -1491,7 +1515,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2016-12-07T06:39:32+00:00",
             "releaseNotes": "- Fixed server cannot shutdown when using addProcess\n- Fixed Async::write function does not set the callback function to crash\n- Fixed a problem with the Table Iterator missing data\n- Added Async::writeFile FILE_APPEND option supports\n- Added file lock to Async::write/read function\n- Refactor the implementation of the Async::write function, using O_APPEND\n- Refactor reopen the reopen log file feature\n- Fixed taskWaitMulti unable to return to the results of the successful implementation of the task after a timeout\n- Timers use monotonic time to solve the system time to modify the problem caused by timer confusion",
-            "get": "http://pecl.php.net/get/swoole-1.9.1",
+            "get": "https://pecl.php.net/get/swoole-1.9.1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.9.0": {
@@ -1501,7 +1525,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2016-11-22T03:37:09+00:00",
             "releaseNotes": "- Added Swoole\\Redis\\Server, redis compatible protocol server framework\n- Added Swoole\\Mmap, high-performance disk read and write function\n- Added Swoole\\Client::pipe method\n- Added onBufferEmpty and onBufferFull event callback for Swoole\\Server\n- Added buffer_high_watermark and buffer_low_watermark option for Swoole\\Server\n- Added swoole_clear_dns_cache function\n- Added Swoole\\Channel, high performance shared memory queue\n- Fixed redis client type method could not return a string\n- Fixed an issue when the sync client length protocol package_max_length was invalid\n- Fixed low-level version of gcc running under the long-term crash happened\n- Fixed invalid websocket_mask for asynchronous WebSocket client\n- Fixed a problem where the MySQL client crashed accidentally when there were too many records\n- Fixed Mac platform task more than 8K to create a temporary file failed to lead to the problem of undeliverable tasks\n- Fixed taskWaitMulti When the process returns more than 8K receive timeout problem\n- Fixed atmoic add and sub return value exists data synchronization problems",
-            "get": "http://pecl.php.net/get/swoole-1.9.0",
+            "get": "https://pecl.php.net/get/swoole-1.9.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.8.13": {
@@ -1511,7 +1535,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2016-10-25T05:38:18+00:00",
             "releaseNotes": "- Fixed WebSocket\\Server automatically merge the incomplete data frame exists security vulnerabilities\n- Added the upload_tmp_dir option to set the Http\\Server upload file temporary directory\n- Added Server->sendMessage automatic stringing function, and now sendMessage PHP variables can be sent to any other work process\n- Added Process::alarm high-precision timer\n- Added a bug where the protocol length function crashed when the connection was closed\n- Fixed swoole_select function in PHP7 can not modify the reference array problem",
-            "get": "http://pecl.php.net/get/swoole-1.8.13",
+            "get": "https://pecl.php.net/get/swoole-1.8.13",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.8.12": {
@@ -1521,7 +1545,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2016-09-30T05:29:32+00:00",
             "releaseNotes": "- Fixed Table Errors caused by iterator errors when deleting elements while traversing data\n- Added Http\\Client new option websocket_mask controls websocket client enable mask\n- Repair Swoole \\ Server in BASE mode can not use task_ipc_mode = 3 configuration\n- Optimize the performance of Http\\Server response body gzip compression\n- Fixed Timer::after can only be executed once in the task process\n- Added automatic splicing incomplete data frame for WebSocket\\Server\n- Remove the enable_reuse_port option\n- Added Swoole\\Async namespace class style api\n- Fixed Http\\Server lisnten UDP port cannot use onReceive callback function",
-            "get": "http://pecl.php.net/get/swoole-1.8.12",
+            "get": "https://pecl.php.net/get/swoole-1.8.12",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.8.11": {
@@ -1531,7 +1555,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2016-09-09T08:19:03+00:00",
             "releaseNotes": "- Added new package_length_type C(unsigned 8bit)/c(signed 8bit)\n- Added package_length_func option, you can use the C/C++ function to parse the packet length\n- Added SIGRTMIN signal handler, used to reopen the log file\n- Fixed server crash on Cygwin environment",
-            "get": "http://pecl.php.net/get/swoole-1.8.11",
+            "get": "https://pecl.php.net/get/swoole-1.8.11",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.8.10": {
@@ -1541,7 +1565,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2016-08-23T03:33:01+00:00",
             "releaseNotes": "- Fixed Swoole\\Http\\Client crash when do close connection in the callback function\n- Fixed Swoole\\Http\\Server cannot support more than 1024 concurrent",
-            "get": "http://pecl.php.net/get/swoole-1.8.10",
+            "get": "https://pecl.php.net/get/swoole-1.8.10",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.8.9": {
@@ -1551,7 +1575,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2016-08-18T07:29:57+00:00",
             "releaseNotes": "- Added namespace class alias\n- Added Swoole\\Http\\Client->addFile interface, support upload file\n- Added Swoole\\Event namespace and class styles\n- Added Swoole\\Http\\Client no ContentLength response\n- Added --with-openssl compiler option, can specify the path of the OpenSSL Library\n- Fixed Swoole\\MySQL memory leak on PHP7\n- Fixed Swoole\\Redis memory leak on PHP7\n- Fixed Swoole\\Http\\Client memory leak on PHP7\n- Fixed Swoole\\Http\\Server crash when uploading files on PHP7",
-            "get": "http://pecl.php.net/get/swoole-1.8.9",
+            "get": "https://pecl.php.net/get/swoole-1.8.9",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.8.8": {
@@ -1561,7 +1585,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2016-07-28T02:40:00+00:00",
             "releaseNotes": "- Added Swoole\\Server\\Port->getSocket\n- Added Swoole\\Server->getClientInfo()['close_errno'] property\n- Added Swoole\\Event namespace and class styles\n- Added Swoole\\MySQL character set support\n- Added Swoole\\Server->taskWaitMulti can perform multiple tasks concurrently\n- Added Swoole\\Client->getPeerCert method\n- Added Swoole\\Client->pause and Swoole\\Client->resume\n- Fixed Swoole\\Server->taskwait cannot use in BASE mode \n- Fixed Swoole\\MySQL client crash when receive more than 250 field query statement\n- Fixed Swoole\\Server->task third parameter passed Callback Crash at PHP7\n- Fixed Swoole\\Http\\Request->files crash on PHP7 when externally referenced",
-            "get": "http://pecl.php.net/get/swoole-1.8.8",
+            "get": "https://pecl.php.net/get/swoole-1.8.8",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.8.7": {
@@ -1571,7 +1595,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2016-07-01T10:07:58+00:00",
             "releaseNotes": "- Fixed Swoole\\Http\\Server on PHP7 crash (zdata release request data memory problems)\n- Fixed Swoole\\Http\\Client crash when no have header setting\n- Fixed Swoole\\MySQL parse unixsocket type host address fail\n- Fixed Swoole\\Http\\Client crash below the Linux-2.6.18 version of the kernel\n- Fixed Swoole\\MySQL nested callback crash problem on PHP7\n- Update Swoole\\Server maximum listening port number to 60,000\n- Update Swoole\\Server main thread use epoll or kqueue\n- Fixed swoole_async_dns_lookup crash when hit cache\n- Added Swoole\\Timer::exists",
-            "get": "http://pecl.php.net/get/swoole-1.8.7",
+            "get": "https://pecl.php.net/get/swoole-1.8.7",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.8.6": {
@@ -1581,7 +1605,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2016-06-16T10:40:44+00:00",
             "releaseNotes": "- Added `swoole_mysql` real async mysql client\n- Fixed swoole_client/swoole_http_client/swoole_redis memory leak and crash bug on PHP7\n- Remove gcc_aio.c\n- Remove swoole_mysqli_get_socket and swoole_mysql_query\n- Remove swoole_http_server->setGlobal\n- Added swoole_async_dns_lookup result cache\n- Optimize websocket server performance\n- Added swoole_server->task complete callback parameter",
-            "get": "http://pecl.php.net/get/swoole-1.8.6",
+            "get": "https://pecl.php.net/get/swoole-1.8.6",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.8.5": {
@@ -1591,7 +1615,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2016-05-12T08:41:45+00:00",
             "releaseNotes": "- Fixed swoole_mysql_query insert_id error\n- Fixed swoole_websocket_server crash when receiving less than 4 bytes of data\n- Added bigint ID support for swoole_mysql_query\n- Fixed sync Swoole\\Client memory leaks\n- Fixed Swoole\\Http\\Client crash when the connection is closed",
-            "get": "http://pecl.php.net/get/swoole-1.8.5",
+            "get": "https://pecl.php.net/get/swoole-1.8.5",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.8.4": {
@@ -1601,7 +1625,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2016-04-13T08:53:07+00:00",
             "releaseNotes": "- Fixed Swoole\\Redis callback function memory leak bugs\n- Fixed swoole_mysql_queue function memory leak bugs\n- Fixed Swoole\\Http\\Client memory leak bugs\n- Fixed issue #585\n- Fixed issue #590\n- Added unixsock support for async client  \n- Added high-precision time for Swoole\\Http\\Request",
-            "get": "http://pecl.php.net/get/swoole-1.8.4",
+            "get": "https://pecl.php.net/get/swoole-1.8.4",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.8.3": {
@@ -1611,7 +1635,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2016-03-21T06:38:29+00:00",
             "releaseNotes": "- Added swoole_server->getLastError method for getting the last error code\n- Added form-data supports for Http2 protocol\n- Added COOKIE support for Http2 protocol\n- Added SSL/TLS encryption support for http client\n- Fixed issue #527\n- Fixed issue #553\n- Fixed crash when the number of CPU cores than is set reactor_num\n- Fixed swoole_client callback function memory leak\n- Added support for asynchronous full reload of server security",
-            "get": "http://pecl.php.net/get/swoole-1.8.3",
+            "get": "https://pecl.php.net/get/swoole-1.8.3",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.8.2": {
@@ -1621,7 +1645,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2016-03-02T02:56:48+00:00",
             "releaseNotes": "- Added http2 supports for swoole_http_server\n- Added swoole_server->stop method used to stop the worker process\n- Added log_level option for swoole_server settings\n- Fixed swoole_websocket_server receives data over the issue 64K crashes\n- Added multi-port monitor is not set callback function causes the program to crash\n- Enhance the SSL/TLS encrypted safety level, now used by default TLS1.2/ECDHA_RSA encryption algorithm\n- Fixed onFinish event callbacks memory leak problem\n- Fixed the problem task finish can not be used under BASE mode",
-            "get": "http://pecl.php.net/get/swoole-1.8.2",
+            "get": "https://pecl.php.net/get/swoole-1.8.2",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.8.1": {
@@ -1631,7 +1655,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2016-02-04T02:13:47+00:00",
             "releaseNotes": "- Added psr-4 style namespace classes alias\n- Added swoole_server->protect methods used to protect the connection will not close by heartbeat thread\n- Added swoole_websocker_server::pack and swoole_websocker_server::unpack static method\n- Added redis subscribe and publish messages supports\n- Added swoole_http_client for gzip content compression support\n- Added swoole_client->reuse property\n- Fixed async client incidental core dump \n- Fixed async client memory leak\n- Fixed compile failed with enable-openssl on MacOS",
-            "get": "http://pecl.php.net/get/swoole-1.8.1",
+            "get": "https://pecl.php.net/get/swoole-1.8.1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.8.0": {
@@ -1641,7 +1665,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2016-01-27T07:33:10+00:00",
             "releaseNotes": "- Fixed swoole_process::signal core dump on PHP7\n- Refactor after/tick timer\n- Refactor swoole_websocket_server\n- Added async redis client\n- Added async http/websocket client\n- Added swoole_client->reuse property\n- Added swoole_server->defer/swoole_event_defer\n- Added support for multi-port hybrid protocol\n- Added configure option for tcmalloc and jemalloc\n- Remove swoole_server->addtimer/swoole_timer_add/swoole_timer_del\n- Remove swoole_server->onTimer event callback\n- Remove swoole_server->handler\n- Update lish.h to version-1.9.9",
-            "get": "http://pecl.php.net/get/swoole-1.8.0",
+            "get": "https://pecl.php.net/get/swoole-1.8.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.7.22": {
@@ -1651,7 +1675,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2015-12-31T09:22:50+00:00",
             "releaseNotes": "- Fixed memory leak in PHP7\n- Fixed core dump in PHP7\n- Added swoole_mysql_query\n- Fixed swoole_table->del damage the memory\n- Added swoole_websocket_server->exist\n- Added swoole_server ssl_client_cert_file settings\n- Fixed timer exec_time overflow cause stop",
-            "get": "http://pecl.php.net/get/swoole-1.7.22",
+            "get": "https://pecl.php.net/get/swoole-1.7.22",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.7.21": {
@@ -1661,7 +1685,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2015-12-01T03:58:24+00:00",
             "releaseNotes": "- Fixed memory leak swoole_client synchronous mode occurs when the server closes\n- Fixed POST/Upload problem can not handle more than 8K\n- Added swoole_http_response->sendfile method for sending large files\n- Fixed swoole_client core dump when enable SSL/TLS encrypted\n- Added swoole_server->getSocket/swoole_client->getSocket\n- Fixed UDP large package in question Worker process occurs dispatch_mode = 1/3 deadlock\n- Added swoole_client->sleep/wakeup method for suspend/resume data reception event\n- Fixed UDP large package data is abnormal",
-            "get": "http://pecl.php.net/get/swoole-1.7.21",
+            "get": "https://pecl.php.net/get/swoole-1.7.21",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.7.20": {
@@ -1671,7 +1695,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2015-10-21T03:24:27+00:00",
             "releaseNotes": "- Added swoole_http_server HTTP DELETE entity supports\n- Added swoole_client support for SSL/TLS tunnel encryption\n- Optimized RINIT/RSHUTDOWN\n- Fixed the problem of coredump when swoole_websocket_server is not set up onRequest\n- Added swoole_server->getClientInfo/getClientList alias\n- Fixed swoole_server->finish cannot use in BASE mode\n- Added swoole_client ssl certificate supports\n- Fixed swoole_http_server memory leak",
-            "get": "http://pecl.php.net/get/swoole-1.7.20",
+            "get": "https://pecl.php.net/get/swoole-1.7.20",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.7.19": {
@@ -1681,7 +1705,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2015-08-31T06:54:53+00:00",
             "releaseNotes": "- Added swoole_atomic module, support for atomic integer operations\n- Fixed timer in the system can not recover after the resumption of the operation\n- Fixed ssl_server cannot send more than 30K large packages in a slow network\n- Added supports for UDP/UDP6/UNIX_DGRAM big packages(64K)\n- Fixed addtimer/tick timer can't be used in BASE mode\n- Added addProcess in SWOOLE_BASE mode\n- Fixed SWOOLE_KEEP core dump",
-            "get": "http://pecl.php.net/get/swoole-1.7.19",
+            "get": "https://pecl.php.net/get/swoole-1.7.19",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.7.18": {
@@ -1691,7 +1715,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2015-07-23T03:05:42+00:00",
             "releaseNotes": "- Added onPacket event callback function\n- Added PHP7 support\n- Fixed swoole_http_response->header memory leak\n- Added swoole_table signed integer support\n- Added REUSEPORT support\n- Fixed woole_client and swoole_timer memory leak\n- Added swoole_server->exist function",
-            "get": "http://pecl.php.net/get/swoole-1.7.18",
+            "get": "https://pecl.php.net/get/swoole-1.7.18",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.7.17": {
@@ -1701,7 +1725,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2015-06-01T01:31:24+00:00",
             "releaseNotes": "- Fixed async swoole_client send data incomplete\n- Removed task_dispatch_mode server configuration \n- Added pipe_buffer_size server configuration  \n- Pipeline memory buffer default size is adjusted to 32M\n- Http Server Header adjust the maximum length of 128 to 8192\n- Fixed swoole_process->pop cannot use\n- Fixed taskwait error in MacOS and CygWin\n- Added swoole_table->exist",
-            "get": "http://pecl.php.net/get/swoole-1.7.17",
+            "get": "https://pecl.php.net/get/swoole-1.7.17",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.7.16": {
@@ -1711,7 +1735,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2015-05-08T03:39:10+00:00",
             "releaseNotes": "- Fixed swoole_server->addtimer and tick timer conflict\n- Added server statistics items request_count and worker_request_count\n- Added server connections iterator, foreach traverse server can use all the connections\n- Optimize dispatch_mode = 3 model to enhance the efficiency of task assignment\n- Added multipart-form http server and upload files support\n- Added http server requests query_string\n- Fixed invalid parameter problem task_max_request",
-            "get": "http://pecl.php.net/get/swoole-1.7.16",
+            "get": "https://pecl.php.net/get/swoole-1.7.16",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.7.15": {
@@ -1721,7 +1745,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2015-04-14T06:36:10+00:00",
             "releaseNotes": "- Fixed swoole_client waitall parameters failures\n- Fixed swoole_table dead loop BUG\n- Disable swoole_websocket_server->send method\n- Added swoole_table->incr/decr methods\n- Added http server gzip compression supports\n- Added swoole_server open_eof_split configuration",
-            "get": "http://pecl.php.net/get/swoole-1.7.15",
+            "get": "https://pecl.php.net/get/swoole-1.7.15",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.7.14": {
@@ -1731,7 +1755,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2015-03-26T05:47:50+00:00",
             "releaseNotes": "- Update websocket server onOpen callback params\n- Update websocket server onMessage callback  params\n- Added swoole_server->tick/swoole_timer_tick function\n- Fixed onReceive data merge failure \n- Added http server gzip compression supports\n- Update http server allows sending empty body",
-            "get": "http://pecl.php.net/get/swoole-1.7.14",
+            "get": "https://pecl.php.net/get/swoole-1.7.14",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.7.13": {
@@ -1741,7 +1765,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2015-03-18T05:27:52+00:00",
             "releaseNotes": "- Update server session_list resized to 1M\n- Update connection_info from_fd, from_port rename to server_fd, server_port\n- Http server performance optimization\n- WebSocket server performance optimization\n- Added swoole_client->getpeername\n- Added swoole_client->getsockname\n- Fixed accept dead loop when server have too many connection\n- Fixed sequence of onConnect/onReceive events disorder",
-            "get": "http://pecl.php.net/get/swoole-1.7.13",
+            "get": "https://pecl.php.net/get/swoole-1.7.13",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.7.12": {
@@ -1751,7 +1775,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2015-03-11T06:53:59+00:00",
             "releaseNotes": "- Fixed swoole_server tcp buffer error\n- Fixed wrong error log",
-            "get": "http://pecl.php.net/get/swoole-1.7.12",
+            "get": "https://pecl.php.net/get/swoole-1.7.12",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.7.11": {
@@ -1761,7 +1785,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2015-03-10T02:50:42+00:00",
             "releaseNotes": "- Fixed udp server called connection_info wrong\n- Fixed temporary files task disk space does not release\n- Fixed WebSocket onOpen event callback core dump\n- Fixed cannot use sendMessage in the task process\n- Fixed Websocket server Sec-WebSocket-Accept handshake failed\n- Fixed HttpServer in turn the KeepAlive continuous POST data coredump\n- Fixed MacOS/FreeBSD error ENOBUFF occurred in a large number of concurrent\n- Added HttpServer chunk transmission support\n- Added PCRE detection",
-            "get": "http://pecl.php.net/get/swoole-1.7.11",
+            "get": "https://pecl.php.net/get/swoole-1.7.11",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.7.10": {
@@ -1771,7 +1795,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2015-02-15T00:33:33+00:00",
             "releaseNotes": "- Fixed udp server after the reload cycle of death BUG\n- Fixed http server POST request segment fault error\n- Added non-blocking settings for swoole_process::wait\n- Fixed pecl script cannot use\n- Fixed swoole_server->sendMessage to fail\n- Added swoole_websocket_server\n- Added swoole_server->sendto\n- Optimization performance for http_server\n- Optimization performance for swoole_client and swoole_event\n- Added ARM platform support",
-            "get": "http://pecl.php.net/get/swoole-1.7.10",
+            "get": "https://pecl.php.net/get/swoole-1.7.10",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.7.9": {
@@ -1781,7 +1805,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2015-01-07T07:12:50+00:00",
             "releaseNotes": "- Added websocket protocol support\n- Added swoole_process::signal\n- Added swoole_server->addProcess\n- Added swoole_process::name\n- Added swoole_server::listen\n- Added swoole_server::sendMessage and onPipeMessage event\n- Added swoole_event_write\n- Added swoole_process->close\n- Added swoole_server user/group setting\n- Added swoole_server task/finish automatic packing",
-            "get": "http://pecl.php.net/get/swoole-1.7.9",
+            "get": "https://pecl.php.net/get/swoole-1.7.9",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.7.8": {
@@ -1791,7 +1815,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2014-11-26T02:42:01+00:00",
             "releaseNotes": "- Fixed swoole_http_server::on no implementation parent class methods\n- Fixed cannot read cookie in swoole_http_server\n- Added swoole_http_server support to POST RawContent\n- swoole_timer_after interface can pass a user parameter\n- swoole_client->recv and onReceive zero copy\n- Fixed swoole_table->set cannot be set more than 64K string\n- Fixed open_length_check connection memory buffer is not reset bug\n- Added dispatch_mode=4/5, dispatch data by client ip and uid\n- Event callback function exception error level changed from E_WARNING to E_ERROR",
-            "get": "http://pecl.php.net/get/swoole-1.7.8",
+            "get": "https://pecl.php.net/get/swoole-1.7.8",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.7.7": {
@@ -1801,7 +1825,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2014-10-28T03:23:17+00:00",
             "releaseNotes": "- Added swoole_http_server\n- Added swoole_server->after and swoole_timer_after\n- Fixed all known issues",
-            "get": "http://pecl.php.net/get/swoole-1.7.7",
+            "get": "https://pecl.php.net/get/swoole-1.7.7",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.7.6": {
@@ -1811,7 +1835,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2014-10-10T00:09:26+00:00",
             "releaseNotes": "- Fixed all known issues",
-            "get": "http://pecl.php.net/get/swoole-1.7.6",
+            "get": "https://pecl.php.net/get/swoole-1.7.6",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.7.5": {
@@ -1821,7 +1845,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2014-09-10T03:19:17+00:00",
             "releaseNotes": "- Added swoole_client->sendfile()\n- Added swoole_table\n- Remove onMasterConnect/onMasterClose\n- Added pipe output buffer\n- TCP short connection have 50% performance improvement",
-            "get": "http://pecl.php.net/get/swoole-1.7.5",
+            "get": "https://pecl.php.net/get/swoole-1.7.5",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.7.4": {
@@ -1831,7 +1855,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2014-07-15T06:11:45+00:00",
             "releaseNotes": "- Task process support timer\n- Repair UDP error BUG\n- Add SSL-server support\n- Reload is effective for task_worker.\n- When the pipe is filled with poll is waiting for the write, rather than packet loss\n- Increase the clang compiler support\n- Repair shutdown task_worker and manager abnormal stop",
-            "get": "http://pecl.php.net/get/swoole-1.7.4",
+            "get": "https://pecl.php.net/get/swoole-1.7.4",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.7.3": {
@@ -1841,7 +1865,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2014-06-20T01:34:37+00:00",
             "releaseNotes": "- Fixed pipe_worker zero\n- Fixed serv->connect_count wrong\n- Fixed length_check dispatch error\n- Optimization of large size response packet",
-            "get": "http://pecl.php.net/get/swoole-1.7.3",
+            "get": "https://pecl.php.net/get/swoole-1.7.3",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.7.2": {
@@ -1851,7 +1875,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2014-05-30T02:55:38+00:00",
             "releaseNotes": "- Fixed udp sendto error\n- Fixed heartbeat no close connection\n- Added swoole_process module\n- Added swoole_server::task large package\n- Added swoole_server task worker use message queue\n- Added messge queue ipc move to swoole_server::set",
-            "get": "http://pecl.php.net/get/swoole-1.7.2",
+            "get": "https://pecl.php.net/get/swoole-1.7.2",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.7.1": {
@@ -1861,7 +1885,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2014-04-30T01:08:34+00:00",
             "releaseNotes": "- Check close fd is not timer_fd\n- TCP_DEFER_ACCEPT option\n- socket LINGER option\n- Fixed eof_check memory error\n- Added swoole_event_set\n- Added swoole_client out_buffer\n- Added socket linger option\n- Fixed the swoole_server->close destroy out_buffer bug\n- Using php_error_docref\n- Fixed swoole_async_dns_lookup warning",
-            "get": "http://pecl.php.net/get/swoole-1.7.1",
+            "get": "https://pecl.php.net/get/swoole-1.7.1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.7.0": {
@@ -1871,7 +1895,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2014-04-16T07:44:27+00:00",
             "releaseNotes": "- Fixed compile error.",
-            "get": "http://pecl.php.net/get/swoole-1.7.0",
+            "get": "https://pecl.php.net/get/swoole-1.7.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.6.12": {
@@ -1881,7 +1905,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2014-04-11T05:02:12+00:00",
             "releaseNotes": "- Added connection out_buffer\n- Added async file read/write\n- Added async dns lookup\n- Added long tcp connection\n- Added client timer\n- Added swoole_server->sendfile\n- Added signalfd usage\n    - Fixed some bugs",
-            "get": "http://pecl.php.net/get/swoole-1.6.12",
+            "get": "https://pecl.php.net/get/swoole-1.6.12",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.6.11": {
@@ -1891,7 +1915,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2014-02-26T23:14:25+00:00",
             "releaseNotes": "- Disable by default async_mysql\n- Disable by default sockets\n- Added event onWorkerError\n- Added event onWorkerStart for task_worker\n- swoole_server->task can assign worker_id\n- swoole_server->set() save params to swoole_server::$setting\n- swoole_client->send will check data length\n- swoole_server->connection_info for udp",
-            "get": "http://pecl.php.net/get/swoole-1.6.11",
+            "get": "https://pecl.php.net/get/swoole-1.6.11",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.6.10": {
@@ -1901,7 +1925,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2014-01-25T22:57:44+00:00",
             "releaseNotes": "- Enabled by default async_mysql\n- Add tcp heartbeat mechanism\n- UDP send no require from_id\n- swoole_client on::Receive and on::Close no need to call recv/close\n- Add last_time and connect_time to tcp connection_info\n- rebuild data_buffer",
-            "get": "http://pecl.php.net/get/swoole-1.6.10",
+            "get": "https://pecl.php.net/get/swoole-1.6.10",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.6.9": {
@@ -1911,7 +1935,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2014-01-02T02:47:47+00:00",
             "releaseNotes": "- use \"pecl package\"",
-            "get": "http://pecl.php.net/get/swoole-1.6.9",
+            "get": "https://pecl.php.net/get/swoole-1.6.9",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.6.8": {
@@ -1921,7 +1945,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2013-12-30T07:25:59+00:00",
             "releaseNotes": "- Fix all gcc wanning\n- support pecl install\n- new function swoole_server_taskwait\n- remove *.lo files",
-            "get": "http://pecl.php.net/get/swoole-1.6.8",
+            "get": "https://pecl.php.net/get/swoole-1.6.8",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.6.7": {
@@ -1931,7 +1955,7 @@
             "releasedBy": "tianfenghan",
             "releaseDate": "2013-12-24T00:45:02+00:00",
             "releaseNotes": "- First version for pecl.net",
-            "get": "http://pecl.php.net/get/swoole-1.6.7",
+            "get": "https://pecl.php.net/get/swoole-1.6.7",
             "SPDX-License-Identifier": "Apache-2.0"
         }
     },

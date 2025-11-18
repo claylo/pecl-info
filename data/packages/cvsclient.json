@@ -15,7 +15,7 @@
             "releasedBy": "pollita",
             "releaseDate": "2004-04-15T05:13:00+00:00",
             "releaseNotes": "- Added cvs.diff:// wrapper.\n- Added Resource based functions (cvsclient_connect, cvsclient_login, cvsclient_retrieve, cvsclient_log)\n- Several code improvements",
-            "get": "http://pecl.php.net/get/cvsclient-0.2",
+            "get": "https://pecl.php.net/get/cvsclient-0.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.1": {

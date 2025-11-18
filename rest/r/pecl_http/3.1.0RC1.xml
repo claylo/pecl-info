@@ -59,6 +59,6 @@ Changes from beta2:
 * Fix HTTP/2 version parser for older libcurl versions (Mike)
 * Fix gh-issue #52: Underscores in host names: libidn Failed to parse IDN (Mike, @canavan)</n>
  <f>213680</f>
- <g>http://pecl.php.net/get/pecl_http-3.1.0RC1</g>
+ <g>https://pecl.php.net/get/pecl_http-3.1.0RC1</g>
  <x xlink:href="package.3.1.0RC1.xml"/>
 </r>

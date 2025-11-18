@@ -15,7 +15,7 @@
             "releasedBy": "ohill",
             "releaseDate": "2014-05-06T08:13:31+00:00",
             "releaseNotes": "- Add LICENSE file to package for Windows builds.",
-            "get": "http://pecl.php.net/get/doublemetaphone-1.0.1",
+            "get": "https://pecl.php.net/get/doublemetaphone-1.0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.0": {
@@ -25,7 +25,7 @@
             "releasedBy": "ohill",
             "releaseDate": "2012-03-25T13:46:32+00:00",
             "releaseNotes": "- Pushed this as stable, since no bugs filed with previous beta\n- PHP 5.4 Compatibility",
-            "get": "http://pecl.php.net/get/doublemetaphone-1.0.0",
+            "get": "https://pecl.php.net/get/doublemetaphone-1.0.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.2.0": {
@@ -35,7 +35,7 @@
             "releasedBy": "ohill",
             "releaseDate": "2008-04-03T11:33:48+00:00",
             "releaseNotes": "- Some internal changes in headers to comply with PECL standards\n- Pushed this as beta, since no bugs were filed with the previous alpha",
-            "get": "http://pecl.php.net/get/doublemetaphone-0.2.0",
+            "get": "https://pecl.php.net/get/doublemetaphone-0.2.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.1.2": {
@@ -45,7 +45,7 @@
             "releasedBy": "ohill",
             "releaseDate": "2007-11-05T09:24:50+00:00",
             "releaseNotes": "- Initial PECL release\n- Removing old comments\n- Updating license\n- Fix while() condition, since always true",
-            "get": "http://pecl.php.net/get/doublemetaphone-0.1.2",
+            "get": "https://pecl.php.net/get/doublemetaphone-0.1.2",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

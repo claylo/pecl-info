@@ -15,6 +15,6 @@
  <da>2017-07-11 09:39:26</da>
  <n>- fix segfault in php_stream_context_get_option call</n>
  <f>248940</f>
- <g>http://pecl.php.net/get/zip-1.15.1</g>
+ <g>https://pecl.php.net/get/zip-1.15.1</g>
  <x xlink:href="package.1.15.1.xml"/>
 </r>

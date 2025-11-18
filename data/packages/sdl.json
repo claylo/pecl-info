@@ -85,7 +85,7 @@
             "releasedBy": "santiagolizardo",
             "releaseDate": "2018-09-22T11:27:46+00:00",
             "releaseNotes": "- Code updated to support PHP7.\n- Code that could be implemented in userland was removed from the extension.\n- Unit tests improvements/changes.",
-            "get": "http://pecl.php.net/get/sdl-2.1.0",
+            "get": "https://pecl.php.net/get/sdl-2.1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.9.3": {
@@ -95,7 +95,7 @@
             "releasedBy": "santiagolizardo",
             "releaseDate": "2014-10-08T08:01:49+00:00",
             "releaseNotes": "- Small fix for a ZTS issue that made the extension unusable on most platforms. (@remi)\n- Only bugfixes on this branch. Working on the much improved sdl2 extension, hopefully to be released this month.",
-            "get": "http://pecl.php.net/get/sdl-0.9.3",
+            "get": "https://pecl.php.net/get/sdl-0.9.3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.9.2": {
@@ -105,7 +105,7 @@
             "releasedBy": "santiagolizardo",
             "releaseDate": "2013-12-02T16:01:11+00:00",
             "releaseNotes": "Code improvements and bugfixes mostly authorship of remi@php.net:\n- Improved reflection (arg info).\n- Minor efforts towards C89 compatibility.\n- Deprecated PHP functions are not longer used.\n- Report SDL headers/library version in phpinfo.",
-            "get": "http://pecl.php.net/get/sdl-0.9.2",
+            "get": "https://pecl.php.net/get/sdl-0.9.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.9.1": {
@@ -115,7 +115,7 @@
             "releasedBy": "santiagolizardo",
             "releaseDate": "2013-11-25T17:32:45+00:00",
             "releaseNotes": "- Improved config.m4 files.\n- Removed all the deprecated zend_get_parameters_ex calls.\n- Suppressed the warnings on php_sdl_audio.h file.",
-            "get": "http://pecl.php.net/get/sdl-0.9.1",
+            "get": "https://pecl.php.net/get/sdl-0.9.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.9.0": {
@@ -125,7 +125,7 @@
             "releasedBy": "santiagolizardo",
             "releaseDate": "2013-11-24T15:40:40+00:00",
             "releaseNotes": "Initial PECL release",
-            "get": "http://pecl.php.net/get/sdl-0.9.0",
+            "get": "https://pecl.php.net/get/sdl-0.9.0",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

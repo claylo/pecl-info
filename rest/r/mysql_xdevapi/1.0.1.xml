@@ -31,6 +31,6 @@ The X DevAPI introduces a new, modern and easy-to-learn way to work with your da
 - Internal refacotoring
 - Fixed a few bugs</n>
  <f>277712</f>
- <g>http://pecl.php.net/get/mysql_xdevapi-1.0.1</g>
+ <g>https://pecl.php.net/get/mysql_xdevapi-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

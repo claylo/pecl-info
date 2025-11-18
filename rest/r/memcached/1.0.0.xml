@@ -19,6 +19,6 @@
 - Initialize Session lock wait to max execution time (if max execution
   time is unlimited, default to 30 seconds).</n>
  <f>22281</f>
- <g>http://pecl.php.net/get/memcached-1.0.0</g>
+ <g>https://pecl.php.net/get/memcached-1.0.0</g>
  <x xlink:href="package.1.0.0.xml"/>
 </r>

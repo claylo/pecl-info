@@ -16,6 +16,6 @@
  <n>- Fixed libxml behavior change after diff/merge
 - Fixed DOM compatibility for PHP 5.3.6 and below (Remi Collet)</n>
  <f>35018</f>
- <g>http://pecl.php.net/get/xmldiff-0.9.1</g>
+ <g>https://pecl.php.net/get/xmldiff-0.9.1</g>
  <x xlink:href="package.0.9.1.xml"/>
 </r>

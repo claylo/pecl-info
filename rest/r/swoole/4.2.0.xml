@@ -49,6 +49,6 @@
 * Add many high-quality unit tests, greater stability
 - Remove useless time wheel algorithm</n>
  <f>1007394</f>
- <g>http://pecl.php.net/get/swoole-4.2.0</g>
+ <g>https://pecl.php.net/get/swoole-4.2.0</g>
  <x xlink:href="package.4.2.0.xml"/>
 </r>

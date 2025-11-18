@@ -75,7 +75,7 @@
             "releasedBy": "omars",
             "releaseDate": "2016-03-30T13:44:57+00:00",
             "releaseNotes": "- PHP 7 Support [Request #70696]\n- Performance Optimizations\n- Enabled SolrUtils::getSolrStats()\n- Fix SolrException*::getInternalInfo\n- Fix SolrQueryResponse::getRequestUrl returns wrong url with terms [Bug #71591]\n- Fix SolrClient::deleteByIds Segfaults with invalid ids [Bug #71853]\n- Fix SolrObject::offsetExists SegFault [Bug #71852]\n- Fix float formatting with decimal comma [Bug #71568]",
-            "get": "http://pecl.php.net/get/solr-2.4.0",
+            "get": "https://pecl.php.net/get/solr-2.4.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.3.0": {
@@ -85,7 +85,7 @@
             "releasedBy": "omars",
             "releaseDate": "2015-12-01T21:58:53+00:00",
             "releaseNotes": "- Support indexing child/nested documents [Request #70739]\n- Support nested documents parsing SolrObject [Request #70953]\n- Support nested documents parsing SolrDocument [Request #70974]\n- Added maxScore to SolrResponse [Request #68610]\n- Fixed issues on big endean processors (Remi Collet)\n- Enhancements on method parameter naming (reflections)",
-            "get": "http://pecl.php.net/get/solr-2.3.0",
+            "get": "https://pecl.php.net/get/solr-2.3.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.2.1": {
@@ -95,7 +95,7 @@
             "releasedBy": "omars",
             "releaseDate": "2015-09-27T17:16:32+00:00",
             "releaseNotes": "- Fix windows build",
-            "get": "http://pecl.php.net/get/solr-2.2.1",
+            "get": "https://pecl.php.net/get/solr-2.2.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.2.0": {
@@ -105,7 +105,7 @@
             "releasedBy": "omars",
             "releaseDate": "2015-09-26T18:09:26+00:00",
             "releaseNotes": "- Support Real Time Get (Request #68647)\n- Support Result Grouping (Request #68793)\n- Support Field Collapsing (Request #70175)\n- Support Expand Component (Request #70176)\n- SolrMissingMandatoryParameterException (Request #70301)\n- Fix SegFault on Solr Server 500 Response with no msg [xml RW] (Bug #69156)\n- Fix SegFault on non-phpserialized 500 responses from Solr Server with PHPS RW (Bug #69156)\n- Fix Failed to parse 500 error response when it lacks msg JSON/PHPS RW (Bug #70495, #70496)\n- Fix compatibility tests with Solr Server 5 (Bug #70333)\n- Fix Error unserializing raw response on statistics response having NaN as value (Bug #67394)",
-            "get": "http://pecl.php.net/get/solr-2.2.0",
+            "get": "https://pecl.php.net/get/solr-2.2.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.1.0": {
@@ -115,7 +115,7 @@
             "releasedBy": "omars",
             "releaseDate": "2015-01-17T10:47:26+00:00",
             "releaseNotes": "- New Feature: SolrDisMaxQuery Builder (dismax/edismax) [Feature #67101]\n- Support PHPS (PHP Serialized) Response Writer [Request #61329]\n- SolrResponse::getArrayResponse [Feature #67660]\n- SolrResponse::getResponse() returns SolrObject instead of array (with json response writer) [Bug #67579]\n- Argument list parameter: Argument to value separator disappears [Bug #68179]\n- Conflict Occurs When using SolrDisMax::addBoostQuery and setBoostQuery [Bug #68181]\n- Doc Fix [Doc #67542]\n- Internals: simple_list parameter type allow custom delimiter \n- Internals: Allowed zero-length argument value\n- Internals: Allowed zero-length argument-to-argument-value separator\n- Security Fix",
-            "get": "http://pecl.php.net/get/solr-2.1.0",
+            "get": "https://pecl.php.net/get/solr-2.1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.0": {
@@ -125,7 +125,7 @@
             "releasedBy": "omars",
             "releaseDate": "2014-06-24T09:13:20+00:00",
             "releaseNotes": "- Introduced SolrServerException which handles exception responses produced by Solr Server [Feature #67063]\n - SolrClient::commit $maxSegments removed\n - Removed php curl extension dependency for static builds [Bug #59028]\n - SolrParams/SolrModifiableParams/SolrQuery throws SolrIllegalArguments Exception instead of E_ERROR [Feature #66858]\n - SolrQuery::__construct throws SolrIllegalArgumentException instead of E_ERROR\n - Dropped Support for phpnative Response Writer\n - Fix config involving --enable-solr-debug always enables SOLR_DEBUG [Bug #60361]",
-            "get": "http://pecl.php.net/get/solr-2.0.0",
+            "get": "https://pecl.php.net/get/solr-2.0.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.0b": {
@@ -135,7 +135,7 @@
             "releasedBy": "omars",
             "releaseDate": "2014-02-28T12:25:24+00:00",
             "releaseNotes": "- Support Solr version 4.0+\n- Added support for retreiving Solr Server system information through SolrClient\n    SolrClient::system()\n- Support for softCommit\n- Suppport for expungeDeletes\n- maxSegments for commit is deprecated\n- Added escape character / as per Solr 4 it is reserved for REGEX\n- Disabled warnings for connection errors, SolrClientException is thrown\n- SolrClientException messages for connection errors are more meaningful indicating error messages and codes\n- API changes for:\n    SolrClient::commit($maxSegments = 0, $softCommit = false, $waitSearcher = true, $expungeDeletes = false)\n    SolrClient::optimize($maxSegments = 1, $softCommit = false, $waitSearcher = true)\n    SolrClient::addDocument(SolrInputDocument &$doc, $overwrite = true, $commitWithin = 0) \n    SolrClient::addDocuments(array &$docs, $overwrite = true, $commitWithin = 0)\n- Several Bug Fixes\nWarning: PECL Solr >= 2 is not compatible with Solr Server < 4.0",
-            "get": "http://pecl.php.net/get/solr-2.0.0b",
+            "get": "https://pecl.php.net/get/solr-2.0.0b",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.1.1": {
@@ -145,7 +145,7 @@
             "releasedBy": "omars",
             "releaseDate": "2014-06-20T07:46:32+00:00",
             "releaseNotes": "- Fix Windows Build",
-            "get": "http://pecl.php.net/get/solr-1.1.1",
+            "get": "https://pecl.php.net/get/solr-1.1.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.1.0": {
@@ -155,7 +155,7 @@
             "releasedBy": "omars",
             "releaseDate": "2014-06-19T09:20:09+00:00",
             "releaseNotes": "1.1.0 Stable\n - Introduced SolrServerException which handles exception responses produced by Solr Server [Feature #67063]\n - SolrClient::commit $maxSegments removed\n - SolrQuery::__construct throws SolrIllegalArgumentException instead of E_ERROR\n - Removed php curl extension dependency for static builds [Bug #59028]\n \nFrom 1.1.0b\n - SolrClient::system Access system servlet which fetch Solr Server System Information\n - SolrClient::commit argument $maxSegments is now DEPRECATED\n - SolrClient::commit Added support for expungeDeletes on \n - All SolrClient methods throws SolrClientExceptions instead of E_WARNING + SolrClientException\n - SolrClientExceptions' messages are more informative in case of connection errors\n - Added json extension validation \n - All SolrResponse, SolrQueryResponse, SolrUpdateResponse, SolrPingResponse, SolrGenericResponse, SolrDocument, and SolrInputDocument classes are now final\n - All parameters functions throws SolrIllegalArgumentException instead of E_RROR\n - SolrParams/SolrModifiableParams/SolrQuery throws SolrIllegalArguments Exception instead of E_ERROR [Feature #66858]\n - Various Bug Fixes",
-            "get": "http://pecl.php.net/get/solr-1.1.0",
+            "get": "https://pecl.php.net/get/solr-1.1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.1.0b": {
@@ -165,7 +165,7 @@
             "releasedBy": "omars",
             "releaseDate": "2014-03-17T09:18:12+00:00",
             "releaseNotes": "- SolrClient::system Access system servlet which fetch Solr Server System Information\n - SolrClient::commit argument $maxSegments is now DEPRECATED\n - SolrClient::commit Added support for expungeDeletes on \n - All SolrClient methods throws SolrClientExceptions instead of E_WARNING + SolrClientException\n - SolrClientExceptions' messages are more informative in case of connection errors\n - Added json extension validation \n - All SolrResponse, SolrQueryResponse, SolrUpdateResponse, SolrPingResponse, SolrGenericResponse, SolrDocument, and SolrInputDocument classes are now final\n - All parameters functions throws SolrIllegalArgumentException instead of E_RROR\n - SolrParams/SolrModifiableParams/SolrQuery throws SolrIllegalArguments Exception instead of E_ERROR (Feature #66858)\n - Various Bug Fixes",
-            "get": "http://pecl.php.net/get/solr-1.1.0b",
+            "get": "https://pecl.php.net/get/solr-1.1.0b",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.2": {
@@ -175,7 +175,7 @@
             "releasedBy": "iekpo",
             "releaseDate": "2011-11-28T21:50:07+00:00",
             "releaseNotes": "- Several Bug Fixes by Pierrick, Felipe and Tony\n- Changes to make the code compile on 5.2.3 and greater\n- Changes to Tests by Pierrick",
-            "get": "http://pecl.php.net/get/solr-1.0.2",
+            "get": "https://pecl.php.net/get/solr-1.0.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.1": {
@@ -185,7 +185,7 @@
             "releasedBy": "iekpo",
             "releaseDate": "2011-06-04T04:39:01+00:00",
             "releaseNotes": "- Added support for json response writer in SolrClient\n- Removed final bit from classes so that they can be mocked in unit tests\n- Changed from beta to stable\n- Included phpdoc stubs in source to enable autocomplete of Solr classes and methods in IDE during development\n- Lowered libxml2 version requirement to 2.6.16",
-            "get": "http://pecl.php.net/get/solr-1.0.1",
+            "get": "https://pecl.php.net/get/solr-1.0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.9.11": {
@@ -195,7 +195,7 @@
             "releasedBy": "iekpo",
             "releaseDate": "2010-06-22T00:39:53+00:00",
             "releaseNotes": "- Added ability to specify response writer in constructor option (\"wt\")\n- Added new method to set response writer SolrClient::setResponseWriter()\n- Currently, the only supported response writers are 'xml' and 'phpnative'\n- Added support for new native Solr response writer\n- New response writer is available at https://issues.apache.org/jira/browse/SOLR-1967",
-            "get": "http://pecl.php.net/get/solr-0.9.11",
+            "get": "https://pecl.php.net/get/solr-0.9.11",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

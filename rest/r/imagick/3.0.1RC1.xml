@@ -19,6 +19,6 @@ IMPORTANT: Version 2.x API is not compatible with earlier versions.</d>
  <n>- Fixed building against PHP 5.1.x
 - Fixed PECL bug #17892</n>
  <f>93712</f>
- <g>http://pecl.php.net/get/imagick-3.0.1RC1</g>
+ <g>https://pecl.php.net/get/imagick-3.0.1RC1</g>
  <x xlink:href="package.3.0.1RC1.xml"/>
 </r>

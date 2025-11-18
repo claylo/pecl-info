@@ -21,6 +21,6 @@ OS (for example against Windows Active-Directory via IAS).
 - Fixed a typo in radius_init_const wich caused RADIUS_ACCT_STATUS_TYPE to be undefined.
 - Re-added Makefile.in</n>
  <f>29578</f>
- <g>http://pecl.php.net/get/radius-1.2.3</g>
+ <g>https://pecl.php.net/get/radius-1.2.3</g>
  <x xlink:href="package.1.2.3.xml"/>
 </r>

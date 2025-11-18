@@ -19,6 +19,6 @@
 - Properties works on objects
 - Allow to export classes</n>
  <f>12959</f>
- <g>http://pecl.php.net/get/spidermonkey-0.1.0</g>
+ <g>https://pecl.php.net/get/spidermonkey-0.1.0</g>
  <x xlink:href="package.0.1.0.xml"/>
 </r>

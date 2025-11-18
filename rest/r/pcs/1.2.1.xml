@@ -20,6 +20,6 @@ Compatibility : PHP 5 (5.3+) and 7</d>
  <n>- Remove the '-s' option in the embed converter
 - Add dependencies to pcre and tokenizer (thanks to R. Collet)</n>
  <f>63891</f>
- <g>http://pecl.php.net/get/pcs-1.2.1</g>
+ <g>https://pecl.php.net/get/pcs-1.2.1</g>
  <x xlink:href="package.1.2.1.xml"/>
 </r>

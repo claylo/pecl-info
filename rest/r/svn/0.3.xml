@@ -52,6 +52,6 @@ Most functions have been fixed to work with Win32 paths.
 - Add constants for use as parameters to svn_cat() - patch by Devlar
 - Add an OO interface to the extension - patch by Devlar</n>
  <f>20724</f>
- <g>http://pecl.php.net/get/svn-0.3</g>
+ <g>https://pecl.php.net/get/svn-0.3</g>
  <x xlink:href="package.0.3.xml"/>
 </r>

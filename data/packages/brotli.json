@@ -2,12 +2,32 @@
     "category": "File Formats",
     "deprecated": false,
     "description": "PHP extension for compression and decompression with Brotli library.",
-    "latestReleaseDate": "2025-06-17T00:18:25+00:00",
-    "latestVersion": "0.18.0",
+    "latestReleaseDate": "2025-08-17T22:42:39+00:00",
+    "latestVersion": "0.18.2",
     "license": "MIT",
     "name": "brotli",
     "php8Mentioned": true,
     "releases": {
+        "0.18.2": {
+            "version": "0.18.2",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "kjdev",
+            "releaseDate": "2025-08-17T22:42:39+00:00",
+            "releaseNotes": "- fix: disable dcb encoding when dictionary loading fails",
+            "get": "https://pecl.php.net/get/brotli-0.18.2",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "0.18.1": {
+            "version": "0.18.1",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "kjdev",
+            "releaseDate": "2025-08-12T22:31:47+00:00",
+            "releaseNotes": "- improve: Use Zend/zend_smart_string.h\n- improve: PHP 8.5 alpha3 compatibility\n- fix: Add missing zend_string_release calls to prevent memory leaks",
+            "get": "https://pecl.php.net/get/brotli-0.18.1",
+            "SPDX-License-Identifier": "MIT"
+        },
         "0.18.0": {
             "version": "0.18.0",
             "state": "stable",

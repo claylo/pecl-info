@@ -31,6 +31,6 @@ support. Parallel requests are available for PHP 5 and greater.</d>
 * Errors triggered by the extension can be configured statically by http\Object::$defaultErrorHandling or inherited http\Object-&gt;errorHandling.
 * The request ecosystem has been modularized to support different libraries, though for the moment only libcurl is supported.</n>
  <f>152061</f>
- <g>http://pecl.php.net/get/pecl_http-2.0.0beta5</g>
+ <g>https://pecl.php.net/get/pecl_http-2.0.0beta5</g>
  <x xlink:href="package.2.0.0beta5.xml"/>
 </r>

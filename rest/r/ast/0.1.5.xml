@@ -36,6 +36,6 @@
   - `\ast\parse_file` will now consistently return an empty statement list (similar to
     `\ast\parse_code`) if it is was passed a zero-byte file. Previously, it would return `null`.</n>
  <f>33196</f>
- <g>http://pecl.php.net/get/ast-0.1.5</g>
+ <g>https://pecl.php.net/get/ast-0.1.5</g>
  <x xlink:href="package.0.1.5.xml"/>
 </r>

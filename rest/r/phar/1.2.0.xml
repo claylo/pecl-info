@@ -34,6 +34,6 @@ avaiable then SHA-256 and SHA-512 signatures are supported as well.</d>
 * list all available compression methods using Phar::getSupportedCompression() [Marcus]
 * remove RINIT [Marcus]</n>
  <f>67432</f>
- <g>http://pecl.php.net/get/phar-1.2.0</g>
+ <g>https://pecl.php.net/get/phar-1.2.0</g>
  <x xlink:href="package.1.2.0.xml"/>
 </r>

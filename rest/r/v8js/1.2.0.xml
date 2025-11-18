@@ -22,6 +22,6 @@ Merge improvements from V8Js for PHP 5.x (version 0.5.0) to PHP 7.0 branch:
 - Allow to create V8 contexts based on custom snapshots generated earlier
 - Support V8 5.1 well</n>
  <f>105168</f>
- <g>http://pecl.php.net/get/v8js-1.2.0</g>
+ <g>https://pecl.php.net/get/v8js-1.2.0</g>
  <x xlink:href="package.1.2.0.xml"/>
 </r>

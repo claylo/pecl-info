@@ -16,6 +16,6 @@ See http://fabrice.bellard.free.fr/tcc/ for more information on TCC.</d>
  <da>2008-04-25 00:14:31</da>
  <n>This module requires tcc-0.9.23 or later</n>
  <f>6212</f>
- <g>http://pecl.php.net/get/tcc-0.1.2</g>
+ <g>https://pecl.php.net/get/tcc-0.1.2</g>
  <x xlink:href="package.0.1.2.xml"/>
 </r>

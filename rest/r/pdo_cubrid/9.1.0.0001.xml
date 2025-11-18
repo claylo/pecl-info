@@ -25,6 +25,6 @@ Fixed bugs:
 2) APIS-401: improve the invoking of cci_disconnect.
 3) APIS-435: remove free() in the insert_id function for Windows platform.</n>
  <f>22107</f>
- <g>http://pecl.php.net/get/PDO_CUBRID-9.1.0.0001</g>
+ <g>https://pecl.php.net/get/PDO_CUBRID-9.1.0.0001</g>
  <x xlink:href="package.9.1.0.0001.xml"/>
 </r>

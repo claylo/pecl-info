@@ -16,6 +16,6 @@
  <n>- Fixed bug #63817 (CreateOutline encoder argument is always NULL)
 - Fixed version number.</n>
  <f>27538</f>
- <g>http://pecl.php.net/get/haru-1.0.4</g>
+ <g>https://pecl.php.net/get/haru-1.0.4</g>
  <x xlink:href="package.1.0.4.xml"/>
 </r>

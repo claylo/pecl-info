@@ -15,6 +15,6 @@
  <da>2016-12-13 14:09:22</da>
  <n>- The mcrypt extension as it was in PHP 7.1, before it was removed from core.</n>
  <f>33782</f>
- <g>http://pecl.php.net/get/mcrypt-1.0.1</g>
+ <g>https://pecl.php.net/get/mcrypt-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

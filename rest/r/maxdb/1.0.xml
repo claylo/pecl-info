@@ -17,6 +17,6 @@ with MySQL's mysqli extension.
  <da>2005-03-23 12:33:59</da>
  <n>Initial Release in PECL</n>
  <f>49048</f>
- <g>http://pecl.php.net/get/maxdb-1.0</g>
+ <g>https://pecl.php.net/get/maxdb-1.0</g>
  <x xlink:href="package.1.0.xml"/>
 </r>

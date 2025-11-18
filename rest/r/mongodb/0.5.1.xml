@@ -34,6 +34,6 @@ necessary to build a fully-functional MongoDB driver.</d>
 * PHPC-258: make all filed needed for test as role=&quot;test&quot;
 * PHPC-259: add --with-libbson option</n>
  <f>700907</f>
- <g>http://pecl.php.net/get/mongodb-0.5.1</g>
+ <g>https://pecl.php.net/get/mongodb-0.5.1</g>
  <x xlink:href="package.0.5.1.xml"/>
 </r>

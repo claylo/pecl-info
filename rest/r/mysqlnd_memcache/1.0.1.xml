@@ -15,6 +15,6 @@
  <da>2013-07-17 19:33:32</da>
  <n>Fixed build issues.</n>
  <f>30072</f>
- <g>http://pecl.php.net/get/mysqlnd_memcache-1.0.1</g>
+ <g>https://pecl.php.net/get/mysqlnd_memcache-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

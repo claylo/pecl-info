@@ -22,6 +22,6 @@ Fixed internal bug regarding error description not being cleared
 Fixed internal bug regarding an issue found when faulty SQL is issued
 Fixed internal bug regarding float data type issues</n>
  <f>57723</f>
- <g>http://pecl.php.net/get/PDO_INFORMIX-1.1.0</g>
+ <g>https://pecl.php.net/get/PDO_INFORMIX-1.1.0</g>
  <x xlink:href="package.1.1.0.xml"/>
 </r>

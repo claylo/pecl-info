@@ -36,6 +36,6 @@ Non-breaking changes:
  - Add support for integer-&lt;strings for ObjectValue::GetOwnPropertyNames and `ObjectValue::GetPropertyNames
  - Add {Template,ObjectValue}:setLazyDataProperty() method</n>
  <f>199055</f>
- <g>http://pecl.php.net/get/v8-0.2.2</g>
+ <g>https://pecl.php.net/get/v8-0.2.2</g>
  <x xlink:href="package.0.2.2.xml"/>
 </r>

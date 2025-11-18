@@ -21,6 +21,6 @@ New Feature: Added support for lastInsertId() method
 New Feature: Added support for PDO::ATTR_SERVER_INFO connection attribute
 Improved unit test coverage for DB2 and IDS 11</n>
  <f>59726</f>
- <g>http://pecl.php.net/get/PDO_IBM-1.2.1</g>
+ <g>https://pecl.php.net/get/PDO_IBM-1.2.1</g>
  <x xlink:href="package.1.2.1.xml"/>
 </r>

@@ -36,6 +36,6 @@ v2: http://dev.iworks.at/ext-http/lcov/ext/http/</d>
 * Fixed bug #68009 (Segmentation fault after calling exit(0) after a request)
 * Fixed bug #68000 (Extension does not build on FreeBSD)</n>
  <f>158684</f>
- <g>http://pecl.php.net/get/pecl_http-2.1.2</g>
+ <g>https://pecl.php.net/get/pecl_http-2.1.2</g>
  <x xlink:href="package.2.1.2.xml"/>
 </r>

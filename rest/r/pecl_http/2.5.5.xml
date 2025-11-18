@@ -30,6 +30,6 @@ http://dev.iworks.at/ext-http/lcov/ext/http/</d>
  <da>2015-12-07 08:22:42</da>
  <n>* Fixed gh-issue #16: No Content-Length header with empty POST requests</n>
  <f>199782</f>
- <g>http://pecl.php.net/get/pecl_http-2.5.5</g>
+ <g>https://pecl.php.net/get/pecl_http-2.5.5</g>
  <x xlink:href="package.2.5.5.xml"/>
 </r>

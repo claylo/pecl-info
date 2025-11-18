@@ -24,6 +24,6 @@ Refactorings
 - remove unused variables
 - make memory_limit a size_t internally (and throw if negative values are provided on PHP interface)</n>
  <f>97261</f>
- <g>http://pecl.php.net/get/v8js-1.3.6</g>
+ <g>https://pecl.php.net/get/v8js-1.3.6</g>
  <x xlink:href="package.1.3.6.xml"/>
 </r>

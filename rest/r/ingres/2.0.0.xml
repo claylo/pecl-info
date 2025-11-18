@@ -28,6 +28,6 @@
  of concurrent resultsets requred a backwards compatibility (bc) break. See 
  the updated README(.html) for more information regarding this change.</n>
  <f>58457</f>
- <g>http://pecl.php.net/get/ingres-2.0.0</g>
+ <g>https://pecl.php.net/get/ingres-2.0.0</g>
  <x xlink:href="package.2.0.0.xml"/>
 </r>

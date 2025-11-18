@@ -33,6 +33,6 @@ http://pecl4win.php.net/ext.php/php_pdo_sqlite.dll
 - Fixed PECL Bug #3391; cannot bind NULL parameters	
 - Fixed build problem when building the bundled sqlite library</n>
  <f>866928</f>
- <g>http://pecl.php.net/get/PDO_SQLITE-1.0</g>
+ <g>https://pecl.php.net/get/PDO_SQLITE-1.0</g>
  <x xlink:href="package.1.0.xml"/>
 </r>

@@ -22,6 +22,6 @@
 - Fixed segfault when unexpected variables are in options array
 - Removed compilation warnings</n>
  <f>38598</f>
- <g>http://pecl.php.net/get/mqseries-0.12.0</g>
+ <g>https://pecl.php.net/get/mqseries-0.12.0</g>
  <x xlink:href="package.0.12.0.xml"/>
 </r>

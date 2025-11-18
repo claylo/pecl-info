@@ -15,6 +15,6 @@
  <da>2010-10-26 04:29:16</da>
  <n>- fix an installation bug in config.m4</n>
  <f>37011</f>
- <g>http://pecl.php.net/get/CUBRID-8.3.0.0002</g>
+ <g>https://pecl.php.net/get/CUBRID-8.3.0.0002</g>
  <x xlink:href="package.8.3.0.0002.xml"/>
 </r>

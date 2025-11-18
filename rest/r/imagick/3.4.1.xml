@@ -36,6 +36,6 @@ This extension requires ImageMagick version 6.5.3-10+ and PHP 5.4.0+.</d>
   * ImagickDraw::setDensity(string density_string) : bool
   * ImagickPixel::setColorFromPixel(ImagickPixel $srcPixel) : bool</n>
  <f>239829</f>
- <g>http://pecl.php.net/get/imagick-3.4.1</g>
+ <g>https://pecl.php.net/get/imagick-3.4.1</g>
  <x xlink:href="package.3.4.1.xml"/>
 </r>

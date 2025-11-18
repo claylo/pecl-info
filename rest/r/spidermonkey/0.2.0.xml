@@ -15,6 +15,6 @@
  <da>2012-03-09 01:48:53</da>
  <n>* Added support for spidermonkey 1.8.5</n>
  <f>16684</f>
- <g>http://pecl.php.net/get/spidermonkey-0.2.0</g>
+ <g>https://pecl.php.net/get/spidermonkey-0.2.0</g>
  <x xlink:href="package.0.2.0.xml"/>
 </r>

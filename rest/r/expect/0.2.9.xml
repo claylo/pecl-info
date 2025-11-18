@@ -15,6 +15,6 @@
  <da>2011-01-25 16:08:52</da>
  <n>Provide a default value for expect.match_max (Bug #21823)</n>
  <f>6424</f>
- <g>http://pecl.php.net/get/expect-0.2.9</g>
+ <g>https://pecl.php.net/get/expect-0.2.9</g>
  <x xlink:href="package.0.2.9.xml"/>
 </r>

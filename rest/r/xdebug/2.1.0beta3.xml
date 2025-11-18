@@ -37,6 +37,6 @@ Xdebug also provides:
 	- DBGP: Prevent Xdebug from returning properties when a too high page number
 	  has been requested.</n>
  <f>298192</f>
- <g>http://pecl.php.net/get/xdebug-2.1.0beta3</g>
+ <g>https://pecl.php.net/get/xdebug-2.1.0beta3</g>
  <x xlink:href="package.2.1.0beta3.xml"/>
 </r>

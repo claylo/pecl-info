@@ -20,6 +20,6 @@
 - add user-agent
 - update to wrap gRPC C core library beta version 0.11.0</n>
  <f>17613</f>
- <g>http://pecl.php.net/get/grpc-0.6.0</g>
+ <g>https://pecl.php.net/get/grpc-0.6.0</g>
  <x xlink:href="package.0.6.0.xml"/>
 </r>

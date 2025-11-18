@@ -33,6 +33,6 @@ https://mdref.m6w6.name/http</d>
 * Fixed big endian builds
 * Fixed builds against libcurl with gnutls, without libz or without ssl support</n>
  <f>213690</f>
- <g>http://pecl.php.net/get/pecl_http-3.1.1RC1</g>
+ <g>https://pecl.php.net/get/pecl_http-3.1.1RC1</g>
  <x xlink:href="package.3.1.1RC1.xml"/>
 </r>

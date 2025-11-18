@@ -16,6 +16,6 @@
  <n>- Removed FLAG_REGEX_* prefix from the lexer flag constants
 - Removed non worky rexeg from range signature for pushMacro method</n>
  <f>105222</f>
- <g>http://pecl.php.net/get/parle-0.6.1</g>
+ <g>https://pecl.php.net/get/parle-0.6.1</g>
  <x xlink:href="package.0.6.1.xml"/>
 </r>

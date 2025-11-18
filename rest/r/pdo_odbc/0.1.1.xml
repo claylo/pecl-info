@@ -21,6 +21,6 @@ If you are running on windows, you can download the binary from here:
 http://snaps.php.net/win32/PECL_5_0/php_pdo_odbc.dll
 This release features working error reporting(!) and ODBC connection pooling.</n>
  <f>9020</f>
- <g>http://pecl.php.net/get/PDO_ODBC-0.1.1</g>
+ <g>https://pecl.php.net/get/PDO_ODBC-0.1.1</g>
  <x xlink:href="package.0.1.1.xml"/>
 </r>

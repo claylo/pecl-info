@@ -27,13 +27,13 @@
         "version": "7.0.0RC1",
         "state": "beta"
     },
-    "5.1.1": {
-        "version": "5.1.1",
-        "state": "stable"
-    },
     "7.0.0beta1": {
         "version": "7.0.0beta1",
         "state": "beta"
+    },
+    "5.1.1": {
+        "version": "5.1.1",
+        "state": "stable"
     },
     "5.1.0": {
         "version": "5.1.0",

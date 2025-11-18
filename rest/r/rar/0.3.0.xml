@@ -20,6 +20,6 @@ This extension gives you possibility to read Rar archives.
  <n>- Updated bundled unrar to version 3.6.2 (fixes compile errors with GCC4).
 - Several minor fixes.</n>
  <f>125349</f>
- <g>http://pecl.php.net/get/rar-0.3.0</g>
+ <g>https://pecl.php.net/get/rar-0.3.0</g>
  <x xlink:href="package.0.3.0.xml"/>
 </r>

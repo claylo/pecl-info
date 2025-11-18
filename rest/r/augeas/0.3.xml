@@ -16,6 +16,6 @@
  <n>- private property Augeas::$handle no longer exists
 - resource type is no longer used</n>
  <f>7477</f>
- <g>http://pecl.php.net/get/augeas-0.3</g>
+ <g>https://pecl.php.net/get/augeas-0.3</g>
  <x xlink:href="package.0.3.xml"/>
 </r>

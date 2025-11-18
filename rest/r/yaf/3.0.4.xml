@@ -16,6 +16,6 @@
  <n>- Fixed bug wrong variables scope in tpl
 - Minor optimizations</n>
  <f>96359</f>
- <g>http://pecl.php.net/get/yaf-3.0.4</g>
+ <g>https://pecl.php.net/get/yaf-3.0.4</g>
  <x xlink:href="package.3.0.4.xml"/>
 </r>

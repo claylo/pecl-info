@@ -28,6 +28,6 @@
 * Corrected Callbacks where not freed when using object it was causing a segfault(#13603)
 * Updated bstrlib</n>
  <f>46302</f>
- <g>http://pecl.php.net/get/bbcode-1.0.1</g>
+ <g>https://pecl.php.net/get/bbcode-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

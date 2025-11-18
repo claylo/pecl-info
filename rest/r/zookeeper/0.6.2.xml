@@ -16,6 +16,6 @@
  <n>Bugs:
 - Fix 'undefined symbol: zoo_wgetconfig' with libzookeeper &lt; 3.5 (Issue #22)</n>
  <f>29953</f>
- <g>http://pecl.php.net/get/zookeeper-0.6.2</g>
+ <g>https://pecl.php.net/get/zookeeper-0.6.2</g>
  <x xlink:href="package.0.6.2.xml"/>
 </r>

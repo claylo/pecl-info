@@ -37,6 +37,6 @@ fix incorrect render_html flags
 * no_images
 * no_links</n>
  <f>74737</f>
- <g>http://pecl.php.net/get/sundown-0.3.9</g>
+ <g>https://pecl.php.net/get/sundown-0.3.9</g>
  <x xlink:href="package.0.3.9.xml"/>
 </r>

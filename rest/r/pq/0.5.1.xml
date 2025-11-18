@@ -25,6 +25,6 @@
  <da>2014-10-15 12:45:42</da>
  <n>+ Fixed build with PostgreSQL &lt;= 9.2</n>
  <f>57137</f>
- <g>http://pecl.php.net/get/pq-0.5.1</g>
+ <g>https://pecl.php.net/get/pq-0.5.1</g>
  <x xlink:href="package.0.5.1.xml"/>
 </r>

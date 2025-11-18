@@ -23,6 +23,6 @@ punctuation and spacing.
 special decompositions (Â© -&gt; (c)). And fixed some small bugs in filters and
 the extension.</n>
  <f>106498</f>
- <g>http://pecl.php.net/get/translit-0.2</g>
+ <g>https://pecl.php.net/get/translit-0.2</g>
  <x xlink:href="package.0.2.xml"/>
 </r>

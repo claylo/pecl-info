@@ -20,6 +20,6 @@
 - Fixed the _php_rpm_validity internal function which was returning
   1 (true) on every call due to a missing return.</n>
  <f>12236</f>
- <g>http://pecl.php.net/get/rpmreader-0.2</g>
+ <g>https://pecl.php.net/get/rpmreader-0.2</g>
  <x xlink:href="package.0.2.xml"/>
 </r>

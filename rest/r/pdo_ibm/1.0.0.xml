@@ -18,6 +18,6 @@ Universal Database, IBM Cloudscape, and Apache Derby databases.
  <da>2006-11-22 16:14:50</da>
  <n>Stable version of the PDO_IBM driver</n>
  <f>55584</f>
- <g>http://pecl.php.net/get/PDO_IBM-1.0.0</g>
+ <g>https://pecl.php.net/get/PDO_IBM-1.0.0</g>
  <x xlink:href="package.1.0.0.xml"/>
 </r>

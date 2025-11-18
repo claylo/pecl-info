@@ -15,6 +15,6 @@
  <da>2011-12-08 18:53:20</da>
  <n>- Fixed PECL Bug #18658 (GearmanWorker::wait and GearmanWorker::work are spamming the log with warnings.)</n>
  <f>29819</f>
- <g>http://pecl.php.net/get/gearman-0.8.1</g>
+ <g>https://pecl.php.net/get/gearman-0.8.1</g>
  <x xlink:href="package.0.8.1.xml"/>
 </r>

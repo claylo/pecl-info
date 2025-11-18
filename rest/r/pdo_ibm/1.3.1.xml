@@ -16,6 +16,6 @@ Universal Database, IBM Cloudscape, and Apache Derby databases.</d>
  <da>2009-12-24 04:09:31</da>
  <n>Problem related to dynamic loading is fixed.</n>
  <f>100171</f>
- <g>http://pecl.php.net/get/PDO_IBM-1.3.1</g>
+ <g>https://pecl.php.net/get/PDO_IBM-1.3.1</g>
  <x xlink:href="package.1.3.1.xml"/>
 </r>

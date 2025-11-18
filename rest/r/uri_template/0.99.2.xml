@@ -16,6 +16,6 @@
  <n>- Fixed bug: pct-encoded literals outside of varspecs must be copied directly, https://github.com/ioseb/uri-template/issues/1
 - Fixed bug: encoding and copying of utf8 literals outside of varspecs</n>
  <f>19010</f>
- <g>http://pecl.php.net/get/uri_template-0.99.2</g>
+ <g>https://pecl.php.net/get/uri_template-0.99.2</g>
  <x xlink:href="package.0.99.2.xml"/>
 </r>

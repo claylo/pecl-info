@@ -17,6 +17,6 @@
  <n>This version is for PHP 7 only.
 This preview contains the PDO_SQLSRV drivers for PHP 7 (64-bit) with limitations. Upcoming release(s) will contain more functionality, bug fixes, and more.</n>
  <f>178027</f>
- <g>http://pecl.php.net/get/pdo_sqlsrv-4.0.5</g>
+ <g>https://pecl.php.net/get/pdo_sqlsrv-4.0.5</g>
  <x xlink:href="package.4.0.5.xml"/>
 </r>

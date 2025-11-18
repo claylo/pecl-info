@@ -15,6 +15,6 @@
  <da>2014-04-01 18:25:10</da>
  <n>- Added the OPT_SERVER_TIMEOUT_LIMIT behaviour</n>
  <f>70449</f>
- <g>http://pecl.php.net/get/memcached-2.2.0</g>
+ <g>https://pecl.php.net/get/memcached-2.2.0</g>
  <x xlink:href="package.2.2.0.xml"/>
 </r>

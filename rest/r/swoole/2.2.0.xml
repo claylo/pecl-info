@@ -37,6 +37,6 @@
 - Fixed Co\Redis connection memory leak bug
 - Fixed invalid error log thrown when SOCK_DGRAM type client connection was rejected</n>
  <f>853688</f>
- <g>http://pecl.php.net/get/swoole-2.2.0</g>
+ <g>https://pecl.php.net/get/swoole-2.2.0</g>
  <x xlink:href="package.2.2.0.xml"/>
 </r>

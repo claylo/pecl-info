@@ -41,6 +41,6 @@
  <da>2015-08-23 05:03:27</da>
  <n>Removed future, client and server implementations.</n>
  <f>40120</f>
- <g>http://pecl.php.net/get/hprose-1.6.0</g>
+ <g>https://pecl.php.net/get/hprose-1.6.0</g>
  <x xlink:href="package.1.6.0.xml"/>
 </r>

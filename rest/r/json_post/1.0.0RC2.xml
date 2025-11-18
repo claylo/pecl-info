@@ -19,6 +19,6 @@ This extension does not provide any constants, functions or classes.</d>
  <da>2015-03-12 01:40:20</da>
  <n>* Split off pecl_http</n>
  <f>4637</f>
- <g>http://pecl.php.net/get/json_post-1.0.0RC2</g>
+ <g>https://pecl.php.net/get/json_post-1.0.0RC2</g>
  <x xlink:href="package.1.0.0RC2.xml"/>
 </r>

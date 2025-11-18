@@ -24,6 +24,6 @@ Fixed PDO exec API. It return succuss/failure if no rows need to be returned.
 Fixed PDO_INFORMIX variable declarations location problem on Windows.
 Fixed problem with Statement execution (Not throwing an exception).</n>
  <f>65579</f>
- <g>http://pecl.php.net/get/PDO_INFORMIX-1.2.0</g>
+ <g>https://pecl.php.net/get/PDO_INFORMIX-1.2.0</g>
  <x xlink:href="package.1.2.0.xml"/>
 </r>

@@ -18,6 +18,6 @@ all versions of Firebird and InterBase versions 6 and up.
  <n>To compile and run this module, you will need to have the main PDO module and Firebird's
 or InterBase's client library installed on your system.</n>
  <f>13511</f>
- <g>http://pecl.php.net/get/PDO_FIREBIRD-0.1</g>
+ <g>https://pecl.php.net/get/PDO_FIREBIRD-0.1</g>
  <x xlink:href="package.0.1.xml"/>
 </r>

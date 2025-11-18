@@ -34,6 +34,6 @@
 - Using php_error_docref
 - Fixed swoole_async_dns_lookup warning</n>
  <f>342967</f>
- <g>http://pecl.php.net/get/swoole-1.7.1</g>
+ <g>https://pecl.php.net/get/swoole-1.7.1</g>
  <x xlink:href="package.1.7.1.xml"/>
 </r>

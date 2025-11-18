@@ -2,12 +2,22 @@
     "category": "Internationalization",
     "deprecated": false,
     "description": "This extension allows you to transliterate text in non-latin characters (such\nas Chinese, Cyrillic, Greek etc) to latin characters.  Besides the\ntransliteration the extension also contains filters to upper- and lowercase\nlatin, cyrillic and greek, and perform special forms of transliteration such\nas converting ligatures such as the Norwegian \"\u00e6\" to \"ae\" and normalizing\npunctuation and spacing.",
-    "latestReleaseDate": "2020-10-01T10:42:12+00:00",
-    "latestVersion": "0.7.1",
+    "latestReleaseDate": "2025-07-01T15:22:27+00:00",
+    "latestVersion": "0.7.2",
     "license": "BSD style",
     "name": "translit",
     "php8Mentioned": true,
     "releases": {
+        "0.7.2": {
+            "version": "0.7.2",
+            "state": "beta",
+            "license": "BSD style",
+            "releasedBy": "derick",
+            "releaseDate": "2025-07-01T15:22:27+00:00",
+            "releaseNotes": "- PIE support",
+            "get": "https://pecl.php.net/get/translit-0.7.2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
         "0.7.1": {
             "version": "0.7.1",
             "state": "beta",
@@ -38,16 +48,6 @@
             "get": "https://pecl.php.net/get/translit-0.6.3",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
-        "0.6.2": {
-            "version": "0.6.2",
-            "state": "beta",
-            "license": "BSD style",
-            "releasedBy": "tyrael",
-            "releaseDate": "2015-12-09T01:07:55+00:00",
-            "releaseNotes": "PHP 7 support",
-            "get": "http://pecl.php.net/get/translit-0.6.2",
-            "SPDX-License-Identifier": "BSD-2-Clause"
-        },
         "0.6.1": {
             "version": "0.6.1",
             "state": "beta",
@@ -55,7 +55,7 @@
             "releasedBy": "derick",
             "releaseDate": "2011-06-15T07:18:08+00:00",
             "releaseNotes": "- Release to make it compile against PHP 5.4 and trunk (due to the function_entry->zend_function_entry change).",
-            "get": "http://pecl.php.net/get/translit-0.6.1",
+            "get": "https://pecl.php.net/get/translit-0.6.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.6.0": {
@@ -65,7 +65,7 @@
             "releasedBy": "derick",
             "releaseDate": "2008-04-01T13:37:50+00:00",
             "releaseNotes": "- Fixed typing issues, fixes segfaults and strange behavior.",
-            "get": "http://pecl.php.net/get/translit-0.6.0",
+            "get": "https://pecl.php.net/get/translit-0.6.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.5": {
@@ -75,7 +75,7 @@
             "releasedBy": "derick",
             "releaseDate": "2005-01-17T07:45:00+00:00",
             "releaseNotes": "Added new filters: compact_underscores, remove_punctuation and\nspaces_to_underscore.  Added missing Latin Extended-B conversions for the\nlatin_uppercase and latin_lowercase filters, missing punctuation for the\nnormalize_punctuation filter and a missing conversion for uppercase_greek.\nChange the han_transliterate filter to add spaces after ideograms.\nFixed memory leak.",
-            "get": "http://pecl.php.net/get/translit-0.5",
+            "get": "https://pecl.php.net/get/translit-0.5",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.4": {
@@ -85,7 +85,7 @@
             "releasedBy": "derick",
             "releaseDate": "2004-11-24T14:53:00+00:00",
             "releaseNotes": "Added support for diffent incoming and outgoing encodings to the\ntransliterator. This makes the extension depend on the iconv extension.  Added\na new function \"transliterate_filters_get()\" to return a list of all available\nfilters and added support for aliases of filters with the ALIAS pragma in the\n.tr files. Also removed the special decomposition of the paragraph sign.",
-            "get": "http://pecl.php.net/get/translit-0.4",
+            "get": "https://pecl.php.net/get/translit-0.4",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.3": {
@@ -95,7 +95,7 @@
             "releasedBy": "derick",
             "releaseDate": "2004-11-14T17:30:00+00:00",
             "releaseNotes": "Generate better (and less) code, make Windows compiles happy too.",
-            "get": "http://pecl.php.net/get/translit-0.3",
+            "get": "https://pecl.php.net/get/translit-0.3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.2": {
@@ -105,7 +105,7 @@
             "releasedBy": "derick",
             "releaseDate": "2004-11-10T11:26:00+00:00",
             "releaseNotes": "Added more filters: hangul to jamo, jamo to latin, normalize numbers and digits,\nspecial decompositions (\u00c2\u00a9 -> (c)). And fixed some small bugs in filters and\nthe extension.",
-            "get": "http://pecl.php.net/get/translit-0.2",
+            "get": "https://pecl.php.net/get/translit-0.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.1": {
@@ -115,7 +115,7 @@
             "releasedBy": "derick",
             "releaseDate": "2004-10-24T21:23:00+00:00",
             "releaseNotes": "Initial release, supported transliteration filters include: Cyrillic-to-Latin\ntransliteration, Greek-to-Latin transliteration, Han-to-Latin transliteration,\nHebrew-to-Latin transliteration; case converting filters for Greek, Latin and\nCyrillic and filters to remove diacriticals from text, normalizing ligatures\nand normalizing punctuation.",
-            "get": "http://pecl.php.net/get/translit-0.1",
+            "get": "https://pecl.php.net/get/translit-0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

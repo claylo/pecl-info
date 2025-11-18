@@ -15,6 +15,6 @@
  <da>2015-02-14 05:34:24</da>
  <n>- fixed build with Varnish 4.x (thanks Remi Collet)</n>
  <f>25221</f>
- <g>http://pecl.php.net/get/varnish-1.2.1</g>
+ <g>https://pecl.php.net/get/varnish-1.2.1</g>
  <x xlink:href="package.1.2.1.xml"/>
 </r>

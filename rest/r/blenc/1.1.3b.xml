@@ -17,6 +17,6 @@ It is not designed for complete security (it is still possible to disassemble th
  <da>2013-10-03 13:22:39</da>
  <n>New package.xml description, BLENC now display version in phpinfo.</n>
  <f>17784</f>
- <g>http://pecl.php.net/get/blenc-1.1.3b</g>
+ <g>https://pecl.php.net/get/blenc-1.1.3b</g>
  <x xlink:href="package.1.1.3b.xml"/>
 </r>

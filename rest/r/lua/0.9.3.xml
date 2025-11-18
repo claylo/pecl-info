@@ -17,6 +17,6 @@
  <n>- Fix build on windows
 - Fix build when building lua with static</n>
  <f>12527</f>
- <g>http://pecl.php.net/get/lua-0.9.3</g>
+ <g>https://pecl.php.net/get/lua-0.9.3</g>
  <x xlink:href="package.0.9.3.xml"/>
 </r>

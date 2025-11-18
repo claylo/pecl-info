@@ -19,6 +19,6 @@
 - handle string/numeric indexes like an array does
 - error reporting for unreadable/bad data</n>
  <f>16238</f>
- <g>http://pecl.php.net/get/hidef-0.1.6</g>
+ <g>https://pecl.php.net/get/hidef-0.1.6</g>
  <x xlink:href="package.0.1.6.xml"/>
 </r>

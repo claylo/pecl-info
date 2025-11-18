@@ -23,6 +23,6 @@
  <n>- Fixed issue #60 Fixed use_buffer and buffer_size in config error;
 - Fixed issue #61 Fixed trace_exception where exception code get error.</n>
  <f>68448</f>
- <g>http://pecl.php.net/get/SeasLog-1.4.8</g>
+ <g>https://pecl.php.net/get/SeasLog-1.4.8</g>
  <x xlink:href="package.1.4.8.xml"/>
 </r>

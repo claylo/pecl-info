@@ -18,6 +18,6 @@ necessary to build a fully-functional MongoDB driver.</d>
  <n>* PHPC-620: Lowercase hexadecimal strings in ObjectID ctor
 * PHPC-623: Fix 64-bit integer conversion for BSON keys</n>
  <f>724339</f>
- <g>http://pecl.php.net/get/mongodb-1.1.4</g>
+ <g>https://pecl.php.net/get/mongodb-1.1.4</g>
  <x xlink:href="package.1.1.4.xml"/>
 </r>

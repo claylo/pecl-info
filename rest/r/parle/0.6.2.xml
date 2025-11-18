@@ -18,6 +18,6 @@
 - Introduced Lexer properties for marker and cursor positions
 - Max token id is set to UINT16_MAX to save memory. This might be changed in the future</n>
  <f>105519</f>
- <g>http://pecl.php.net/get/parle-0.6.2</g>
+ <g>https://pecl.php.net/get/parle-0.6.2</g>
  <x xlink:href="package.0.6.2.xml"/>
 </r>

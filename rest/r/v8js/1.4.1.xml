@@ -18,6 +18,6 @@
 - don't clean properties hash while it is iterated (#316)
 - fix build against PHP 7.2</n>
  <f>99318</f>
- <g>http://pecl.php.net/get/v8js-1.4.1</g>
+ <g>https://pecl.php.net/get/v8js-1.4.1</g>
  <x xlink:href="package.1.4.1.xml"/>
 </r>

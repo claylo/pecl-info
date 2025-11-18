@@ -25,6 +25,6 @@ thus guaranteeing worst case O(1) lookup time.</d>
  <da>2011-03-10 07:17:05</da>
  <n>Bump version number to reflect stable state.</n>
  <f>9550</f>
- <g>http://pecl.php.net/get/chdb-1.0.0</g>
+ <g>https://pecl.php.net/get/chdb-1.0.0</g>
  <x xlink:href="package.1.0.0.xml"/>
 </r>

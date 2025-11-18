@@ -18,6 +18,6 @@
 - Support checking for method
 - Support more functions (sqlite, oci, etc)</n>
  <f>11380</f>
- <g>http://pecl.php.net/get/taint-0.2.0</g>
+ <g>https://pecl.php.net/get/taint-0.2.0</g>
  <x xlink:href="package.0.2.0.xml"/>
 </r>

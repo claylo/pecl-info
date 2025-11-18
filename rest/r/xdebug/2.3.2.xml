@@ -35,6 +35,6 @@ Xdebug also provides:
   - Fixed issue #1117: Path/branch coverage sometimes crashes
   - Fixed issue #1121: Segfaults with path/branch coverage</n>
  <f>266287</f>
- <g>http://pecl.php.net/get/xdebug-2.3.2</g>
+ <g>https://pecl.php.net/get/xdebug-2.3.2</g>
  <x xlink:href="package.2.3.2.xml"/>
 </r>

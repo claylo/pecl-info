@@ -16,6 +16,6 @@
  <n>- Added the P4API path as a build-time configuration option.
 - Improved the Unix build's P4API path detection code.</n>
  <f>15921</f>
- <g>http://pecl.php.net/get/perforce-0.9.3</g>
+ <g>https://pecl.php.net/get/perforce-0.9.3</g>
  <x xlink:href="package.0.9.3.xml"/>
 </r>

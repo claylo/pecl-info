@@ -20,6 +20,6 @@
 * Fix memory leak with custom directories (bug #67138).
 * Support changing custom directory via ini_set() (bug #61607).</n>
  <f>12714</f>
- <g>http://pecl.php.net/get/geoip-1.1.0</g>
+ <g>https://pecl.php.net/get/geoip-1.1.0</g>
  <x xlink:href="package.1.1.0.xml"/>
 </r>

@@ -16,6 +16,6 @@
  <n>*Fix libevent more than 4096 bytes are truncated
 *add the identify command,can use be set or increase heartbeats time and msg-timeout</n>
  <f>17872</f>
- <g>http://pecl.php.net/get/nsq-3.0</g>
+ <g>https://pecl.php.net/get/nsq-3.0</g>
  <x xlink:href="package.3.0.xml"/>
 </r>

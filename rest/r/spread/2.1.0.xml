@@ -22,6 +22,6 @@ join/leave messages
 - Add private group information (patch by Benjamin Schulz)
 - Spread::receive returns null on timeout</n>
  <f>9437</f>
- <g>http://pecl.php.net/get/spread-2.1.0</g>
+ <g>https://pecl.php.net/get/spread-2.1.0</g>
  <x xlink:href="package.2.1.0.xml"/>
 </r>

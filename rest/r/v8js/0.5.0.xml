@@ -19,6 +19,6 @@
 - Allow to create V8 contexts based on custom snapshots generated earlier
 - Support V8 5.1 well</n>
  <f>99654</f>
- <g>http://pecl.php.net/get/v8js-0.5.0</g>
+ <g>https://pecl.php.net/get/v8js-0.5.0</g>
  <x xlink:href="package.0.5.0.xml"/>
 </r>

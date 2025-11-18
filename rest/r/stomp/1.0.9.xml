@@ -21,6 +21,6 @@
 - Fixing type cast warning, introduced a new int variable. (Gennady)
 - Fixing stomp_writable() check so we can catch when connect failed. (Gennady)</n>
  <f>23166</f>
- <g>http://pecl.php.net/get/stomp-1.0.9</g>
+ <g>https://pecl.php.net/get/stomp-1.0.9</g>
  <x xlink:href="package.1.0.9.xml"/>
 </r>

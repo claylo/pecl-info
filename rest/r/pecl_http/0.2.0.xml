@@ -27,6 +27,6 @@
 * added own imlementation for a RFC822 compliant HTTP date
 * added http_auth_basic() and http_auth_basic_cb()</n>
  <f>22953</f>
- <g>http://pecl.php.net/get/pecl_http-0.2.0</g>
+ <g>https://pecl.php.net/get/pecl_http-0.2.0</g>
  <x xlink:href="package.0.2.0.xml"/>
 </r>

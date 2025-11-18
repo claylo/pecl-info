@@ -21,6 +21,6 @@
 - Added Yaf_Controller::$yafAutoRender to controller render
 - Fixed some memory leaks</n>
  <f>77025</f>
- <g>http://pecl.php.net/get/yaf-2.1.10</g>
+ <g>https://pecl.php.net/get/yaf-2.1.10</g>
  <x xlink:href="package.2.1.10.xml"/>
 </r>

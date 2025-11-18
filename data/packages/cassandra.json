@@ -15,7 +15,7 @@
             "releasedBy": "mpenick",
             "releaseDate": "2017-08-14T15:29:19+00:00",
             "releaseNotes": "# 1.3.2\n\nFeatures:\n\n* [PHP-155] Support for PHP 7.1\n\nBug Fixes:\n\n* [PHP-189] Set of map : bad hash calculation\n* [PHP-172] php_driver_value_hash hashes IS_TRUE and IS_FALSE to 1 in PHP7\n* [PHP-163] Disable hostname resolution if compiling against libuv 0.10\n* [PHP-159] Driver version Number (composer)\n* [PHP-142] Memory Leak in Cassandra\\Timestamp::toDateTime() and Cassandra\\UserTypeValue::values()\n* [PHP-118] Unable to bind list values using global type constants\n\nDocumentation:\n\n* [PHP-196] Update building and testing documentation\n* [PHP-191] Updates to README files\n* [PHP-117] Broken links in documentor-generated docs\n* [PHP-102] Documentation improvements",
-            "get": "http://pecl.php.net/get/cassandra-1.3.2",
+            "get": "https://pecl.php.net/get/cassandra-1.3.2",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.3.0": {
@@ -25,7 +25,7 @@
             "releasedBy": "mpenick",
             "releaseDate": "2017-03-16T14:10:16+00:00",
             "releaseNotes": "# 1.3.0\n\nFeatures:\n\n* Added support for the `duration` type\n* Added support to pass a query string  directly to `Session::execute()` and\n  `Session::executeAsync()`\n* `ExecutionOptions` has been deprecated in favor of using an array\n\nBug Fixes:\n* [PHP-86] Decimal __toString method\n* [PHP-109] Cassandra solr_query not working after upgrading to DSE 5\n* [PHP-114] pecl install compiler output is dominated by C90 warnings\n* [PHP-119] Driver crashes upon getting type of column\n* [PHP-143] Memory leak in `FutureSession`\n* [PHP-144] Fix persistent sessions reference counting issue\n* [PHP-147] Unable to create Bigint with PHP_INT_MIN",
-            "get": "http://pecl.php.net/get/cassandra-1.3.0",
+            "get": "https://pecl.php.net/get/cassandra-1.3.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.2.2": {
@@ -35,7 +35,7 @@
             "releasedBy": "mpenick",
             "releaseDate": "2016-08-08T18:35:15+00:00",
             "releaseNotes": "# 1.2.2\n\nBug Fixes:\n\n* [PHP-88] \\Cassandra\\Timestamp::toDateTime segfault with PHP7\n* [PHP-112] Freeing a null future as result of a failure in \\Cassandra\\DefaultSession::executeAsync()\n* [PHP-115] \\Cassandra\\UUID returning duplicate UUIDs",
-            "get": "http://pecl.php.net/get/cassandra-1.2.2",
+            "get": "https://pecl.php.net/get/cassandra-1.2.2",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.2.1": {
@@ -45,7 +45,7 @@
             "releasedBy": "mpenick",
             "releaseDate": "2016-07-28T15:58:34+00:00",
             "releaseNotes": "# 1.2.1\n\nBug Fixes:\n\n* [PHP-113] pecl install of 1.2.0 fails because sourcecode is missing FutureRows.h",
-            "get": "http://pecl.php.net/get/cassandra-1.2.1",
+            "get": "https://pecl.php.net/get/cassandra-1.2.1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.2.0": {
@@ -55,7 +55,7 @@
             "releasedBy": "mpenick",
             "releaseDate": "2016-07-26T15:58:20+00:00",
             "releaseNotes": "# 1.2.0\n\nFeatures:\n\n* Added support for `tinyint` and `smallint` types\n* Added support for `date` and `time` types\n* Added support for secondary index metadata\n* Added support for UDF/UDA metadata\n* Added support for materialized view metadata\n* Added blacklist and whitelist datacenter and host policies\n\nBug Fixes:\n\n* [PHP-100] Whitelist/Blacklist LB setting should update the cluster builder hash key\n* [PHP-101] Memory leak when paging results",
-            "get": "http://pecl.php.net/get/cassandra-1.2.0",
+            "get": "https://pecl.php.net/get/cassandra-1.2.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.1.0": {
@@ -65,7 +65,7 @@
             "releasedBy": "mpenick",
             "releaseDate": "2016-02-11T17:40:21+00:00",
             "releaseNotes": "# 1.1.0\n\nFeatures:\n\n* Added support for PHP 7\n* Added support for UDTs and tuples\n* Added support for nested collections\n* Added access to raw paging token (via `Cassandra\\Rows::pagingStateToken()`)\n* Added support for client-side timestamps and timestamp generators\n* Added support for retry policys (includes logging, downgrading and fallthrough)\n* Added the ability to disable schema metadata updates (via `Cassandra\\Cluster\\withSchemaMetdata()`)\n* Added support for using named arguments with `Cassandra\\SimpleStatement`\n* Changed the default consistency to `LOCAL_ONE` (from `ONE`)\n\nBug Fixes:\n\n* [PHP-70] Fixed invalid encoding of decimals and varints",
-            "get": "http://pecl.php.net/get/cassandra-1.1.0",
+            "get": "https://pecl.php.net/get/cassandra-1.1.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.0.1": {
@@ -75,7 +75,7 @@
             "releasedBy": "avalanche123",
             "releaseDate": "2015-11-20T22:43:29+00:00",
             "releaseNotes": "# 1.0.1\n\nFeatures:\n\n* Added support for the 2.2.x release of the C/C++ driver\n\nBug Fixes:\n\n* [PHP-53] Error when inserting a \"0\" Decimal",
-            "get": "http://pecl.php.net/get/cassandra-1.0.1",
+            "get": "https://pecl.php.net/get/cassandra-1.0.1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.0.0": {
@@ -85,7 +85,7 @@
             "releasedBy": "avalanche123",
             "releaseDate": "2015-09-14T18:24:10+00:00",
             "releaseNotes": "# 1.0.0\n\nFeatures:\n\n* Added schema metadata support (via `Cassandra\\Session::schema()`).\n* Added types API (via `Cassandra\\Type` static methods).\n\nBug Fixes:\n\n* [PHP-40] Fixed invalid pointer being free'd\n* [PHP-43] Fixed timeout handling in `Cassandra\\ExecutionOptions`\n* [PHP-44] Fixed memory leak",
-            "get": "http://pecl.php.net/get/cassandra-1.0.0",
+            "get": "https://pecl.php.net/get/cassandra-1.0.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.0.0RC": {
@@ -95,7 +95,7 @@
             "releasedBy": "avalanche123",
             "releaseDate": "2015-08-13T16:39:25+00:00",
             "releaseNotes": "# 1.0.0-rc\n\nFeatures:\n\n* Added `Cassandra\\Collection::remove()`.\n* Added `Cassandra\\Blob::toBinaryString()`.\n* Added ability to configure io threads and connections per host.\n* Enabled latency aware routing by default and added a way of disabling it.\n* Enabled TCP nodelay, added a way of disabling it.\n* Added configuration for TCP keepalive.\n\nBug Fixes:\n\n* [PHP-30] Segfault when using FutureRows\n* [PHP-31] Segfault during deserialization of NULL values\n* [PHP-33] Fixed timestamps generation on 32bit systems\n* [PHP-37] Removed extra null byte when `Cassandra\\Blob` created from string\n* [PHP-41] Fix memory leak when using batch statements",
-            "get": "http://pecl.php.net/get/cassandra-1.0.0RC",
+            "get": "https://pecl.php.net/get/cassandra-1.0.0RC",
             "SPDX-License-Identifier": "Apache-2.0"
         }
     },

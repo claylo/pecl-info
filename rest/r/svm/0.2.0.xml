@@ -16,6 +16,6 @@
  <n>- Fixed PHP 7 compatibility. (@echobot, Anatol)
 - Bundled libsvm. External libsvm is still preferred, if installed. (Anatol)</n>
  <f>130286</f>
- <g>http://pecl.php.net/get/svm-0.2.0</g>
+ <g>https://pecl.php.net/get/svm-0.2.0</g>
  <x xlink:href="package.0.2.0.xml"/>
 </r>

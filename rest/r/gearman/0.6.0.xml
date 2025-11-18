@@ -20,6 +20,6 @@
 - Updated function list from C library and removed free methods (should use unset).
 - Added stubs for new functions, fixed tests, fixed some of the existing functions from changes.</n>
  <f>29266</f>
- <g>http://pecl.php.net/get/gearman-0.6.0</g>
+ <g>https://pecl.php.net/get/gearman-0.6.0</g>
  <x xlink:href="package.0.6.0.xml"/>
 </r>

@@ -28,6 +28,6 @@ Interoperability Support&quot; (ID 207303.1) for details.</d>
 Fixed invalid handle error with Implicit Result Sets
 Fixed bug #72524 (Binding null values triggers ORA-24816 error)</n>
  <f>191783</f>
- <g>http://pecl.php.net/get/oci8-2.1.2</g>
+ <g>https://pecl.php.net/get/oci8-2.1.2</g>
  <x xlink:href="package.2.1.2.xml"/>
 </r>

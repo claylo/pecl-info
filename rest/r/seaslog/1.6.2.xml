@@ -24,6 +24,6 @@
  <n>- Fixed issue #97 PHP5.* Cached Block.
 - Fixed issue #98 SeasLog::analyzerDetail(NULL).</n>
  <f>72516</f>
- <g>http://pecl.php.net/get/SeasLog-1.6.2</g>
+ <g>https://pecl.php.net/get/SeasLog-1.6.2</g>
  <x xlink:href="package.1.6.2.xml"/>
 </r>

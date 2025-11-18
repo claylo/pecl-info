@@ -19,6 +19,6 @@ and on Solaris.</d>
  <da>2008-03-25 18:04:41</da>
  <n>Now works with Solaris libuuid implementation, too</n>
  <f>5619</f>
- <g>http://pecl.php.net/get/uuid-1.0.1</g>
+ <g>https://pecl.php.net/get/uuid-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

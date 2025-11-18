@@ -36,6 +36,6 @@ HttpResponse</d>
 * Fixed behaviour of http_build_url() when second parameter is NULL
 * Enabled recursive query string merging in http_build_url() with HTTP_URL_JOIN_QUERY</n>
  <f>181374</f>
- <g>http://pecl.php.net/get/pecl_http-1.0.0RC4</g>
+ <g>https://pecl.php.net/get/pecl_http-1.0.0RC4</g>
  <x xlink:href="package.1.0.0RC4.xml"/>
 </r>

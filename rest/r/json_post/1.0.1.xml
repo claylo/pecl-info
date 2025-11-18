@@ -20,6 +20,6 @@ This extension does not provide any constants, functions or classes.</d>
  <da>2015-07-28 08:24:48</da>
  <n>* Fix: json_post.flags=2 ignored with php7 (Remi)</n>
  <f>4712</f>
- <g>http://pecl.php.net/get/json_post-1.0.1</g>
+ <g>https://pecl.php.net/get/json_post-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

@@ -1,7 +1,7 @@
 {
     "category": "Database",
     "deprecated": false,
-    "description": "The OCI8 extension lets you access Oracle Database.\n\nUse 'pecl install oci8' to install for PHP 8.2.\n\nUse 'pecl install oci8-3.2.1' to install for PHP 8.1.\n\nUse 'pecl install oci8-3.0.1' to install for PHP 8.0.\n\nUse 'pecl install oci8-2.2.0' to install for PHP 7.\n\nThe current OCI8 extension can be linked with Oracle Client libraries from Oracle Database 11.2 or later.  (OCI8 3.0 and earlier can be linked with 10g or later).  The Oracle Client libraries are in the free Oracle Instant Client from https://www.oracle.com/database/technologies/instant-client.html.  They are also included in your database installation.\n\nOracle's standard cross-version connectivity applies.  For example, PHP OCI8 linked with Oracle Client 19c can connect to Oracle Database 11.2 onward.  See Oracle's note \"Oracle Client / Server Interoperability Support\" (ID 207303.1) for details.",
+    "description": "The OCI8 extension lets you access Oracle Database.\n\nUse 'pecl install oci8' to install for PHP 8.2 and PHP 8.3.\n\nUse 'pecl install oci8-3.2.1' to install for PHP 8.1.\n\nUse 'pecl install oci8-3.0.1' to install for PHP 8.0.\n\nUse 'pecl install oci8-2.2.0' to install for PHP 7.\n\nThe current OCI8 extension can be linked with Oracle Client libraries from Oracle Database 11.2 or later.  (OCI8 3.0 and earlier can be linked with 10g or later).  The Oracle Client libraries are in the free Oracle Instant Client from https://www.oracle.com/database/technologies/instant-client.html.  They are also included in your database installation.\n\nOracle's standard cross-version connectivity applies.  For example, PHP OCI8 linked with Oracle Client 19c can connect to Oracle Database 11.2 onward.  See Oracle's note \"Oracle Client / Server Interoperability Support\" (ID 207303.1) for details.",
     "latestReleaseDate": "2024-07-24T23:33:50+00:00",
     "latestVersion": "3.4.0",
     "license": "PHP",
@@ -85,7 +85,7 @@
             "releasedBy": "tianfyan",
             "releaseDate": "2017-10-18T04:17:48+00:00",
             "releaseNotes": "This version is for PHP 7 only.\nFixed reference counting and memory issues. (Dmitry, Tianfang)",
-            "get": "http://pecl.php.net/get/oci8-2.1.8",
+            "get": "https://pecl.php.net/get/oci8-2.1.8",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.1.7": {
@@ -95,7 +95,7 @@
             "releasedBy": "tianfyan",
             "releaseDate": "2017-08-15T01:46:32+00:00",
             "releaseNotes": "This version is for PHP 7 only.\nAdded oci_unregister_taf_callback()",
-            "get": "http://pecl.php.net/get/oci8-2.1.7",
+            "get": "https://pecl.php.net/get/oci8-2.1.7",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.1.4": {
@@ -105,7 +105,7 @@
             "releasedBy": "sixd",
             "releaseDate": "2017-04-12T04:19:46+00:00",
             "releaseNotes": "This version is for PHP 7 only.\nFixed uninitialized data causing random crash",
-            "get": "http://pecl.php.net/get/oci8-2.1.4",
+            "get": "https://pecl.php.net/get/oci8-2.1.4",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.1.3": {
@@ -115,7 +115,7 @@
             "releasedBy": "sixd",
             "releaseDate": "2016-11-11T05:08:40+00:00",
             "releaseNotes": "This version is for PHP 7 only.\nFixed bug #71148 (Bind reference overwritten on PHP 7)",
-            "get": "http://pecl.php.net/get/oci8-2.1.3",
+            "get": "https://pecl.php.net/get/oci8-2.1.3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.1.2": {
@@ -125,7 +125,7 @@
             "releasedBy": "sixd",
             "releaseDate": "2016-08-18T08:26:26+00:00",
             "releaseNotes": "This version is for PHP 7 only.\nFixed invalid handle error with Implicit Result Sets\nFixed bug #72524 (Binding null values triggers ORA-24816 error)",
-            "get": "http://pecl.php.net/get/oci8-2.1.2",
+            "get": "https://pecl.php.net/get/oci8-2.1.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.1.1": {
@@ -135,7 +135,7 @@
             "releasedBy": "sixd",
             "releaseDate": "2016-04-18T01:38:33+00:00",
             "releaseNotes": "This version is for PHP 7 only.\nFixed bug #71600 (oci_fetch_all segfaults when selecting more than 8 columns)",
-            "get": "http://pecl.php.net/get/oci8-2.1.1",
+            "get": "https://pecl.php.net/get/oci8-2.1.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.1.0": {
@@ -145,7 +145,7 @@
             "releasedBy": "sixd",
             "releaseDate": "2015-12-12T05:13:16+00:00",
             "releaseNotes": "This version is for PHP 7 only.\nUpdated driver name format.",
-            "get": "http://pecl.php.net/get/oci8-2.1.0",
+            "get": "https://pecl.php.net/get/oci8-2.1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.12": {
@@ -155,7 +155,7 @@
             "releasedBy": "sixd",
             "releaseDate": "2016-08-18T08:26:06+00:00",
             "releaseNotes": "Fixed invalid handle error with Implicit Result Sets",
-            "get": "http://pecl.php.net/get/oci8-2.0.12",
+            "get": "https://pecl.php.net/get/oci8-2.0.12",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.11": {
@@ -165,7 +165,7 @@
             "releasedBy": "sixd",
             "releaseDate": "2016-04-18T01:37:26+00:00",
             "releaseNotes": "Fixed bug #71422 (Fix ORA-01438: value larger than specified precision allowed for this column)",
-            "get": "http://pecl.php.net/get/oci8-2.0.11",
+            "get": "https://pecl.php.net/get/oci8-2.0.11",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.10": {
@@ -175,7 +175,7 @@
             "releasedBy": "sixd",
             "releaseDate": "2015-12-12T05:12:03+00:00",
             "releaseNotes": "Fixed bug #68298 (OCI int overflow)",
-            "get": "http://pecl.php.net/get/oci8-2.0.10",
+            "get": "https://pecl.php.net/get/oci8-2.0.10",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.8": {
@@ -185,7 +185,7 @@
             "releasedBy": "sixd",
             "releaseDate": "2014-03-12T11:38:56+00:00",
             "releaseNotes": "Enhancement - Improve performance of multi-row OCI_RETURN_LOB queries (Bug #66875)",
-            "get": "http://pecl.php.net/get/oci8-2.0.8",
+            "get": "https://pecl.php.net/get/oci8-2.0.8",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.7": {
@@ -195,7 +195,7 @@
             "releasedBy": "sixd",
             "releaseDate": "2014-02-10T20:07:39+00:00",
             "releaseNotes": "Added oci_bind_by_name() support for PL/SQL BOOLEAN type    \nBuild change: Fix source variable definition for C89 compatibility",
-            "get": "http://pecl.php.net/get/oci8-2.0.7",
+            "get": "https://pecl.php.net/get/oci8-2.0.7",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.6": {
@@ -205,7 +205,7 @@
             "releasedBy": "sixd",
             "releaseDate": "2013-10-21T20:25:43+00:00",
             "releaseNotes": "Added a LICENSE file to make it easier for PECL binary distributions\nto conform with the license.",
-            "get": "http://pecl.php.net/get/oci8-2.0.6",
+            "get": "https://pecl.php.net/get/oci8-2.0.6",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.5": {
@@ -215,7 +215,7 @@
             "releasedBy": "sixd",
             "releaseDate": "2013-10-20T21:10:23+00:00",
             "releaseNotes": "Bump PHP OCI8 2.0 mininum requirements to PHP 5.2 and Oracle client\nlibrary 10.2.  (Use OCI8 1.4 for older PHP version support or if only\nOracle 9.2 client libraries are available.)\n\nRe-enable php_oci8.dll and php_oci8_11g.dll for Windows builds so URL\nlinks work in the new Windows PECL infrastructure.",
-            "get": "http://pecl.php.net/get/oci8-2.0.5",
+            "get": "https://pecl.php.net/get/oci8-2.0.5",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.4": {
@@ -225,7 +225,7 @@
             "releasedBy": "sixd",
             "releaseDate": "2013-09-27T20:03:32+00:00",
             "releaseNotes": "Fix persistent memory usage with --enable-dtrace\nExport get_module() for Windows php_oci8_12c.dll",
-            "get": "http://pecl.php.net/get/oci8-2.0.4",
+            "get": "https://pecl.php.net/get/oci8-2.0.4",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.3": {
@@ -235,7 +235,7 @@
             "releasedBy": "sixd",
             "releaseDate": "2013-09-27T00:18:04+00:00",
             "releaseNotes": "Add the oci_set_client_identifier() value and statement structure pointer to several DTrace probes.\nUse 'phpoci' as the DTrace provider name since uniqueness is required by the Linux fasttrap module.\nUpdate Windows builds to create only php_oci8_12c.dll.",
-            "get": "http://pecl.php.net/get/oci8-2.0.3",
+            "get": "https://pecl.php.net/get/oci8-2.0.3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.2": {
@@ -245,7 +245,7 @@
             "releasedBy": "sixd",
             "releaseDate": "2013-09-06T14:13:11+00:00",
             "releaseNotes": "Review and improve error handling code and data types.\nFix oci_set_*($connection, ...) error handling so oci_error($connection) works.\nAdd DTrace oci8-connection-close probe\nAdd the connection handle to several DTrace probes.",
-            "get": "http://pecl.php.net/get/oci8-2.0.2",
+            "get": "https://pecl.php.net/get/oci8-2.0.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.1": {
@@ -255,7 +255,7 @@
             "releasedBy": "sixd",
             "releaseDate": "2013-09-03T18:33:14+00:00",
             "releaseNotes": "Fixed --enable-maintainer-zts mode.\n   Allow Implicit Result Set statement resources to inherit the parent's current prefetch count.\n   Allow OCI8 to be DTrace-enabled independently from core PHP.\n   Require OCI8 to be configured 'shared' when enabling DTrace support.",
-            "get": "http://pecl.php.net/get/oci8-2.0.1",
+            "get": "https://pecl.php.net/get/oci8-2.0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.0": {
@@ -265,7 +265,7 @@
             "releasedBy": "sixd",
             "releaseDate": "2013-07-24T20:07:01+00:00",
             "releaseNotes": "- NEW FUNCTIONALITY:\n\n     - Added Implicit Result Set support for Oracle Database 12c.\n\tStreaming of all IRS's returned from a PL/SQL block is available\n\tvia oci_fetch_array, oci_fetch_assoc, oci_fetch_object and\n\toci_fetch_row (but not oci_fetch or oci_fetch_all).\n\tAlternatively individual IRS statement resources can be obtained\n\twith the new function 'oci_get_implicit_resultset' and passed to\n\tany oci_fetch_* function.\n\n     - Added DTrace probes enabled with PHP's generic --enable-dtrace\n\n   - IMPROVED FUNCTIONALITY:\n\n     - Using 'oci_execute($s, OCI_NO_AUTO_COMMIT)' for a SELECT no\n\tlonger unnecessarily initiates an internal ROLLBACK during\n\tconnection close.  This can improve overall scalability by\n\treducing \"round trips\" between PHP and the database.\n\n   - CHANGED FUNCTIONALITY:\n\n     - PHPINFO() CHANGES:\n\n       - The oci8.event and oci8.connection_class values are now shown\n         only when the Oracle client libraries support the respective\n         functionality.\n\n       - Connection statistics are now in a separate phpinfo() table.\n\n       - Temporary LOB and Collection support status lines in\n         phpinfo() were removed.  These features have always been\n         enabled since 2007.\n\n     - OCI_INTERNAL_DEBUG() CHANGES:\n\n       - The oci_internal_debug() function is now a no-op.  Use PHP's\n         --enable-dtrace functionality with DTrace or SystemTap instead.\n\n   - INTERNAL CHANGES:\n\n     - Fixed a potential NULL pointer dereference flagged by Parfait\n       static code analyis.\n\n     - Extended testing of existing OCI8 functionality.\n\n     - Improved test output portability when using the PHP development\n       web server to run tests.\n\n     - Removed no-longer necessary unicode patterns from tests\n       (vestiges of PHP's previous PHP 6 project)\n       \n     - Improved build portability by removing compilation type cast\n       warnings with some compilers.\n\n     - Fixed compilation warnings when building with Oracle 9.2\n       client libraries.\n\n     - Updated code to use internal macro PHP_OCI_REGISTER_RESOURCE.\n\n     - Regularized code prototypes and fixed some in-line documenation\n       prototypes.\n\n     - Fixed code folding.",
-            "get": "http://pecl.php.net/get/oci8-2.0.0",
+            "get": "https://pecl.php.net/get/oci8-2.0.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.4.10": {
@@ -275,7 +275,7 @@
             "releasedBy": "sixd",
             "releaseDate": "2013-07-08T16:47:34+00:00",
             "releaseNotes": "Bump PECL package info version check to allow PECL installs with PHP 5.5+",
-            "get": "http://pecl.php.net/get/oci8-1.4.10",
+            "get": "https://pecl.php.net/get/oci8-1.4.10",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.4.9": {
@@ -285,7 +285,7 @@
             "releasedBy": "sixd",
             "releaseDate": "2012-10-22T19:44:09+00:00",
             "releaseNotes": "Re-fixed bug #60901 (Improve \"tail\" syntax for AIX installation)",
-            "get": "http://pecl.php.net/get/oci8-1.4.9",
+            "get": "https://pecl.php.net/get/oci8-1.4.9",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.4.8": {
@@ -295,7 +295,7 @@
             "releasedBy": "sixd",
             "releaseDate": "2012-10-19T00:29:36+00:00",
             "releaseNotes": "Fixed bug #63307 (Unused variable in oci8.c)\nFixed bug #63265 (Add ORA-00028 to the PHP_OCI_HANDLE_ERROR macro)\nFixed bug #60901 (Improve \"tail\" syntax for AIX installation)",
-            "get": "http://pecl.php.net/get/oci8-1.4.8",
+            "get": "https://pecl.php.net/get/oci8-1.4.8",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.4.7": {
@@ -305,7 +305,7 @@
             "releasedBy": "sixd",
             "releaseDate": "2012-01-11T14:02:14+00:00",
             "releaseNotes": "Fixed bug #59985 (show normal warning text for OCI_NO_DATA)\nFixed OCI8 part of bug #55748 (CVE-2011-4153: multiple NULL pointer dereferences with zend_strndup)\nFixed OCI8 part of bug #55301 (multiple null pointer dereferences with calloc)\nIncreased maximum Oracle error message buffer length for new Oracle 11.2.0.3 size\nImprove internal initalization failure error messages",
-            "get": "http://pecl.php.net/get/oci8-1.4.7",
+            "get": "https://pecl.php.net/get/oci8-1.4.7",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.4.6": {
@@ -315,7 +315,7 @@
             "releasedBy": "sixd",
             "releaseDate": "2011-08-22T19:58:13+00:00",
             "releaseNotes": "Added oci_client_version() returning the runtime Oracle client library version\nMade OCI8 extension buildable with PHP 5.4-development code",
-            "get": "http://pecl.php.net/get/oci8-1.4.6",
+            "get": "https://pecl.php.net/get/oci8-1.4.6",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.4.5": {
@@ -325,7 +325,7 @@
             "releasedBy": "sixd",
             "releaseDate": "2010-12-09T23:33:16+00:00",
             "releaseNotes": "Protect against null bytes in LOB filenames (http://news.php.net/php.internals/50202)",
-            "get": "http://pecl.php.net/get/oci8-1.4.5",
+            "get": "https://pecl.php.net/get/oci8-1.4.5",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.4.4": {
@@ -335,7 +335,7 @@
             "releasedBy": "sixd",
             "releaseDate": "2010-11-10T14:38:33+00:00",
             "releaseNotes": "Fixed bug #53284 (Valgrind warnings in oci_set_* functions)\nEnhancement - improve startup failure error messages",
-            "get": "http://pecl.php.net/get/oci8-1.4.4",
+            "get": "https://pecl.php.net/get/oci8-1.4.4",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.4.3": {
@@ -345,7 +345,7 @@
             "releasedBy": "sixd",
             "releaseDate": "2010-08-06T20:25:39+00:00",
             "releaseNotes": "Fixed bug #51610 (Using oci_connect causes PHP to take a long time to exit). Requires Oracle bug fix 9891199 for this patch to have an effect.",
-            "get": "http://pecl.php.net/get/oci8-1.4.3",
+            "get": "https://pecl.php.net/get/oci8-1.4.3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.4.2": {
@@ -355,7 +355,7 @@
             "releasedBy": "sixd",
             "releaseDate": "2010-08-06T20:12:10+00:00",
             "releaseNotes": "Fixed bug #52186 (phpinfo() shows 10.1 or 11.1 when installed with ORACLE_HOME 10.2 or 11.2)\nFixed bug #51691 (Unnecessary realloc causes crashes in PHP trunk tests with interned strings)\nFixed bug #51577 (Uninitialized memory reference with oci_bind_array_by_name)\nFixed bug #51291 (oci_error doesn't report last error when called two times)\n\nOCI8 1.4.2 is included in PHP 5.3.3",
-            "get": "http://pecl.php.net/get/oci8-1.4.2",
+            "get": "https://pecl.php.net/get/oci8-1.4.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.4.1": {
@@ -365,7 +365,7 @@
             "releasedBy": "sixd",
             "releaseDate": "2010-02-11T17:42:35+00:00",
             "releaseNotes": "Fixed bug #49560 (Using LOBs causes slow PHP shutdown)\nFixed bug #47281 ($php_errormsg is limited in size of characters)",
-            "get": "http://pecl.php.net/get/oci8-1.4.1",
+            "get": "https://pecl.php.net/get/oci8-1.4.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.4.0": {
@@ -375,7 +375,7 @@
             "releasedBy": "sixd",
             "releaseDate": "2009-10-06T18:39:14+00:00",
             "releaseNotes": "1. Introduce connection attribute functions:\n\n     oci_set_module_name\n     oci_set_action\n     oci_set_client_info\n     oci_set_client_identifier\n  \n   These set values that are visible/used by the database.  They\n   are useful for tracing, authentication and auditing.\n\n2. Introduce connection attribute function:\n\n     oci_set_edition\n\n   Oracle 11g R2 \"editions\" allow multiple versions of DB objects\n   to exist at one time.  By setting different editions, two\n   different versions of an application can run concurrently,\n   making upgrading easier and faster.\n\n3. Set the DRIVER_NAME attribute of Oracle Database 11gR2\n   connections to aid application tracing.  The value used is to\n   \"PHP OCI8\" followed by the OCI8 version number.  Note the\n   version number may get truncated in DB views such as\n   v$session_connect_info.\n\n4. Allow the oci_set_prefetch value to be 0.  This is important in\n   some cases using REF CURSORS in Oracle 11gR2.\n\n5. Introduce OCI_NO_AUTO_COMMIT as an alias for the OCI_DEFAULT\n   constant (which is not the default value) used by oci_execute().\n\n6. Generate an error if an invalid resource type is used in\n   oci_bind_by_name",
-            "get": "http://pecl.php.net/get/oci8-1.4.0",
+            "get": "https://pecl.php.net/get/oci8-1.4.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.3.5": {
@@ -385,7 +385,7 @@
             "releasedBy": "sixd",
             "releaseDate": "2009-03-16T17:40:47+00:00",
             "releaseNotes": "Fixed Bug #47243 (Crash at end of request shutdown on Windows)\nFixed Bug #46994 (CLOB size does not update when using CLOB IN OUT param in stored procedure)\nFixed Bug #46623 (phpinfo doesn't show compile time ORACLE_HOME with phpize)\nFixed bug #45458 (Numeric keys for associative arrays are not handled properly) Note: not fixed when building with PHP 4 due to lack of PHP internal helper.\nFixed PECL Bug #16035 (oci_connect without ORACLE_HOME defined causes segfault)\nFixed PECL Bug #15988 (sqlnet.ora isn't read with older Oracle libraries)\nFixed PECL Bug #14268 (Allow \"pecl install oci8\" command to \"autodetect\" an Instant Client RPM install)",
-            "get": "http://pecl.php.net/get/oci8-1.3.5",
+            "get": "https://pecl.php.net/get/oci8-1.3.5",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.3.4": {
@@ -395,7 +395,7 @@
             "releasedBy": "sixd",
             "releaseDate": "2008-07-27T13:52:50+00:00",
             "releaseNotes": "Enhancement - Allow External Authentication (not supported on Windows)\nEnhancement - Reflection will show function and method arguments with PHP 5.x\nIncrease default oci8.default_prefetch from 10 to 100\nCorrectly define SQLT_BDOUBLE and SQLT_BFLOAT constants with Oracle 10g ORACLE_HOME builds",
-            "get": "http://pecl.php.net/get/oci8-1.3.4",
+            "get": "https://pecl.php.net/get/oci8-1.3.4",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.3.3": {
@@ -405,7 +405,7 @@
             "releasedBy": "sixd",
             "releaseDate": "2008-06-19T15:59:57+00:00",
             "releaseNotes": "Changed OCI NLS initialization for consistency and technical correctness\nRemoved obsolete macros",
-            "get": "http://pecl.php.net/get/oci8-1.3.3",
+            "get": "https://pecl.php.net/get/oci8-1.3.3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.3.2": {
@@ -415,7 +415,7 @@
             "releasedBy": "sixd",
             "releaseDate": "2008-04-17T22:30:50+00:00",
             "releaseNotes": "Refine DRCP connection pooling functionality\nDo scope-end release for oci_pconnect (oci8.old_oci_close_semantics=1 gives old behavior)\nFixed bug #44372 (compilation with Oracle 10gR1 libraries)\nFixed PECL bug #12431 (PEAR install using x86_64 RPM builds)\nAllow builds with PHP 4.3.9 onwards",
-            "get": "http://pecl.php.net/get/oci8-1.3.2",
+            "get": "https://pecl.php.net/get/oci8-1.3.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.3.1": {
@@ -425,7 +425,7 @@
             "releasedBy": "sixd",
             "releaseDate": "2008-02-19T17:22:10+00:00",
             "releaseNotes": "Fixed bug #44113 (New collection creation can fail with OCI-22303)\nFixed bug #42841 (Crash with REF CURSORS when statement caching enabled)\nFixed bug #42496 (Cursor leak selecting LOBs\nFixed bug #43497 (Temporary LOB leak)\nFixed PECL bug #12431 (ping functionality is broken)\nAllow compilation with 64bit Instant Client RPMs\nAllow -with-oci8=instantclient with no directory specified look for RPM install\nRefine DRCP connection pooling functionality",
-            "get": "http://pecl.php.net/get/oci8-1.3.1",
+            "get": "https://pecl.php.net/get/oci8-1.3.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.3.0": {
@@ -435,7 +435,7 @@
             "releasedBy": "sixd",
             "releaseDate": "2007-10-05T12:50:14+00:00",
             "releaseNotes": "Added DRCP and FAN support.",
-            "get": "http://pecl.php.net/get/oci8-1.3.0",
+            "get": "https://pecl.php.net/get/oci8-1.3.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.2.5": {
@@ -445,7 +445,7 @@
             "releasedBy": "sixd",
             "releaseDate": "2008-05-13T01:22:15+00:00",
             "releaseNotes": "This release is based on the OCI8 included in PHP 5.2.6, with the addition of the fix for  http://pecl.php.net/bugs/bug.php?id=13523.\n--------\nFixed bug #42496 (cursor leak selecting LOBs http://bugs.php.net/bug.php?id=42496\nFixed bug #42841 (crash with REF CURSORS when statement caching enabled) http://bugs.php.net/bug.php?id=42841\nFixed bug #43497 (Temporary LOB leak) http://bugs.php.net/bug.php?id=43497\nFixed bug #44206 (OCI8 selecting ref cursors leads to ORA-1000 maximum open cursors reached).\nFixed bug #44008 (OCI8 incorrect usage of OCI-Lob->close crashes PHP).\nFixed bug #44113 (new collection creation can fail with OCI-22303) http://bugs.php.net/bug.php?id=44113\nEnhancement - make -with-oci8=instantclient with no directory specified look for RPM install\nEnhancement - compile with 64bit Instant Client RPMs (bug http://bugs.php.net/bug.php?id=41941, http://pecl.php.net/bugs/bug.php?id=13523)",
-            "get": "http://pecl.php.net/get/oci8-1.2.5",
+            "get": "https://pecl.php.net/get/oci8-1.2.5",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.2.4": {
@@ -455,7 +455,7 @@
             "releasedBy": "tony2001",
             "releaseDate": "2007-08-31T18:40:52+00:00",
             "releaseNotes": "Added Oracle 11g support.\nFixed PECL bug #10194 (crash in Oracle client when memory limit reached in the callback).\nFixed bug #42173 (oci_field_type fixes for INTERVAL and TIMESTAMP types).\nFixed bug #42134 (oci_error() returns false after oci_new_collection() fails).\nFixed bug #41917 (oci_field_precision and oci_field_scale datatypes fixed).\nFixed bug #41711 (Null temporary lobs not supported).\nFixed bug #41594 (Statement cache is flushed too frequently).\nFixed bug #40415 (oci_fetch_all and nested cursors, allocate descriptors dynamically)\nFixed segfault on rebinding and re-executing a statement with LOBs.\nFixed compile failure in ZTS mode when collections support is missing.\nAllowed statement cache size to be set for non-persistent connections.\nImproved oci_password_change() to close persistent connections on shutdown (to update hashed connection details).\nChanged oci_pconnect() to behave like oci_connect() when SYSDBA and SYSOPER privileges are used.\nVarious minor improvements.",
-            "get": "http://pecl.php.net/get/oci8-1.2.4",
+            "get": "https://pecl.php.net/get/oci8-1.2.4",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.2.3": {
@@ -465,7 +465,7 @@
             "releasedBy": "tony2001",
             "releaseDate": "2007-01-25T11:54:51+00:00",
             "releaseNotes": "Fixed possible segfault in ZTS mode when statements containing sub-statements are destroyed in wrong order.\nFixed bug #40078 (ORA-01405 when fetching NULL values using oci_bind_array_by_name()).\nFixed bug #39988 (type argument of oci_define_by_name() is ignored).\nFixed bug #39732 (oci_bind_array_by_name doesn't work on Solaris 64bit).\nFixed PECL bug #8816 (issue in php_oci_statement_fetch with more than one piecewise column).\nVarious minor improvements.",
-            "get": "http://pecl.php.net/get/oci8-1.2.3",
+            "get": "https://pecl.php.net/get/oci8-1.2.3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.2.2": {
@@ -475,7 +475,7 @@
             "releasedBy": "tony2001",
             "releaseDate": "2006-08-24T08:09:07+00:00",
             "releaseNotes": "Reimplemented oci_lob_read() utilities using patch from Massimo Squillace (msquillace at sogei dot it), which should fix Unicode LOB problems.\nFixed bug #38161 (oci_bind_by_name() returns garbage when Oracle didn't set the variable)\nFixed bug #38173 (Freeing nested cursors causes OCI8 to segfault)\nFixed bug #37886 (oci_connect may crash when charset parameter is given)\nFixed bug #37931 (possible crash after database restart when using persistent connections)\nFixed bug #37531 (oci8 persistent connection corruption)\nFixed bug #37487 (oci_fetch_array() array-type should always default to OCI_BOTH)\nFixed bug #37392 (Unnecessary call to OCITransRollback() at the end of request)\nFixed bug #35973 (Error ORA-24806 occurs when trying to fetch a NCLOB field)\nFixed bug #34005 (oci_password_change() fails). Patch by pholdaway at technocom-wireless dot com.\nFixed PECL bug #8112 (Persistent connections misbehave when Apache process times out)",
-            "get": "http://pecl.php.net/get/oci8-1.2.2",
+            "get": "https://pecl.php.net/get/oci8-1.2.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.2.1": {
@@ -485,7 +485,7 @@
             "releasedBy": "tony2001",
             "releaseDate": "2006-05-02T06:24:37+00:00",
             "releaseNotes": "Added support for BINARY_DOUBLE and BINARY_FLOAT (see #36764)\nChanged oci_field_type() to return VARCHAR2 instead of VARCHAR (according to feature request #36800)\nFixed bug #37059 (oci_bind_by_name() doesn't support RAW and LONG RAW fields)\nFixed bug #37055 (incorrect reference counting for persistent OCI8 connections)\nFixed bug #36934 (OCILob->read() doesn't move internal pointer when reading 0's)\nFixed bug #36851 (Documentation and code discrepancies for NULL data)\nFixed bug #36820 (Privileged connection with an Oracle password file fails)",
-            "get": "http://pecl.php.net/get/oci8-1.2.1",
+            "get": "https://pecl.php.net/get/oci8-1.2.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.2.0": {
@@ -495,7 +495,7 @@
             "releasedBy": "tony2001",
             "releaseDate": "2006-03-16T02:35:35+00:00",
             "releaseNotes": "Changed OCI8 code to use OCIServerVersion() instead of OCIPing(), which may crash Oracle server of version < 10.2\nFixed bug #36235 (ocicolumnname returns false before a succesfull fetch)\nFixed bug #36096 (oci_result() returns garbage after oci_fetch() failed)\nFixed bug #36055 (possible OCI8 crash in multithreaded environment)\nFixed bug #36010 (Segfault when re-creating and re-executing statements with bound parameters)\nFixed PECL bug #5571 (oci_new_connect() not closed by oci_close())\nFixed bug #33383 (crash when retrieving empty BLOBs)",
-            "get": "http://pecl.php.net/get/oci8-1.2.0",
+            "get": "https://pecl.php.net/get/oci8-1.2.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.1.1": {
@@ -505,7 +505,7 @@
             "releasedBy": "tony2001",
             "releaseDate": "2005-09-22T08:17:33+00:00",
             "releaseNotes": "Fixed segfault when binding empty values.\nFixed problem with oci_error() without arguments.",
-            "get": "http://pecl.php.net/get/oci8-1.1.1",
+            "get": "https://pecl.php.net/get/oci8-1.1.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.1": {
@@ -515,7 +515,7 @@
             "releasedBy": "tony2001",
             "releaseDate": "2005-09-07T09:05:13+00:00",
             "releaseNotes": "This release fixes a huge amount of bugs and adds support of \nstatement caching, external credentials etc.\nSee official announce for details.",
-            "get": "http://pecl.php.net/get/oci8-1.1",
+            "get": "https://pecl.php.net/get/oci8-1.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0": {
@@ -525,7 +525,7 @@
             "releasedBy": "tony2001",
             "releaseDate": "2003-12-15T13:05:00+00:00",
             "releaseNotes": "- Initial release in PECL, sources were taken from ext/oci8",
-            "get": "http://pecl.php.net/get/oci8-1.0",
+            "get": "https://pecl.php.net/get/oci8-1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

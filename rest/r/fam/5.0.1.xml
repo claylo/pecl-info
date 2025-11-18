@@ -21,6 +21,6 @@
  <da>2008-04-28 11:59:11</da>
  <n>package.xml added to support intallation using pear installer</n>
  <f>5295</f>
- <g>http://pecl.php.net/get/fam-5.0.1</g>
+ <g>https://pecl.php.net/get/fam-5.0.1</g>
  <x xlink:href="package.5.0.1.xml"/>
 </r>

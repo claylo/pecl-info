@@ -20,6 +20,6 @@ PECL extension.
  <da>2004-04-01 13:44:11</da>
  <n>Discontinued in PEAR, PECL_Gen now lives in the PECL repository instead</n>
  <f>1373</f>
- <g>http://pecl.php.net/get/PECL_Gen-0.8.3</g>
+ <g>https://pecl.php.net/get/PECL_Gen-0.8.3</g>
  <x xlink:href="package.0.8.3.xml"/>
 </r>

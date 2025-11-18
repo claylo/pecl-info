@@ -18,6 +18,6 @@
 - Change array keys returned from svn_ls() to be filename
 - Potential BC break with some lower case constants, these are now uppercase.</n>
  <f>22394</f>
- <g>http://pecl.php.net/get/svn-0.4.1</g>
+ <g>https://pecl.php.net/get/svn-0.4.1</g>
  <x xlink:href="package.0.4.1.xml"/>
 </r>

@@ -72,6 +72,6 @@ v2: http://dev.iworks.at/ext-http/lcov/ext/http/</d>
 - Removed the cookies entry from the transfer info, wich was very slow and generated a Netscape formatted list of cookies
 - Changed the header parser to reject illegal characters</n>
  <f>188034</f>
- <g>http://pecl.php.net/get/pecl_http-2.3.0RC1</g>
+ <g>https://pecl.php.net/get/pecl_http-2.3.0RC1</g>
  <x xlink:href="package.2.3.0RC1.xml"/>
 </r>

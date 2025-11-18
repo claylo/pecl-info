@@ -23,6 +23,6 @@
    Allow OCI8 to be DTrace-enabled independently from core PHP.
    Require OCI8 to be configured 'shared' when enabling DTrace support.</n>
  <f>187065</f>
- <g>http://pecl.php.net/get/oci8-2.0.1</g>
+ <g>https://pecl.php.net/get/oci8-2.0.1</g>
  <x xlink:href="package.2.0.1.xml"/>
 </r>

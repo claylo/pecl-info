@@ -29,6 +29,6 @@ Documentation:
     eagerly initialize credentials when no principal is specified (use ccache default principal)
  - [BUG] Fix a couple of memory leaks, add a few more sanity checks</n>
  <f>35481</f>
- <g>http://pecl.php.net/get/krb5-1.1.0</g>
+ <g>https://pecl.php.net/get/krb5-1.1.0</g>
  <x xlink:href="package.1.1.0.xml"/>
 </r>

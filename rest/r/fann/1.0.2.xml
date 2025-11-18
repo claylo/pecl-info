@@ -16,6 +16,6 @@
  <n>* Added configuration for Windows build to config.w32
 * Fixed GCC and Windows compiler warnings</n>
  <f>22721</f>
- <g>http://pecl.php.net/get/fann-1.0.2</g>
+ <g>https://pecl.php.net/get/fann-1.0.2</g>
  <x xlink:href="package.1.0.2.xml"/>
 </r>

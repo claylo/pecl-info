@@ -16,6 +16,6 @@
  <n>- Added arg info macros #9751
 - Updated codegen to be consistent with protobuf #9492</n>
  <f>2048356</f>
- <g>http://pecl.php.net/get/grpc-1.2.0RC1</g>
+ <g>https://pecl.php.net/get/grpc-1.2.0RC1</g>
  <x xlink:href="package.1.2.0RC1.xml"/>
 </r>

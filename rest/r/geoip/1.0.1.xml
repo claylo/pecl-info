@@ -20,6 +20,6 @@
 * Added database file path and name in warning when DB is not found.
 * Added geoip.custom_directory php.ini option to change default path for DBs</n>
  <f>7541</f>
- <g>http://pecl.php.net/get/geoip-1.0.1</g>
+ <g>https://pecl.php.net/get/geoip-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

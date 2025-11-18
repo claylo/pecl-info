@@ -39,6 +39,6 @@ Please use PECL Solr Extension 1.x for Solr Server 3.x, or use PECL Solr 2.x for
 - Several Bug Fixes
 Warning: PECL Solr &gt;= 2 is not compatible with Solr Server &lt; 4.0</n>
  <f>108267</f>
- <g>http://pecl.php.net/get/solr-2.0.0b</g>
+ <g>https://pecl.php.net/get/solr-2.0.0b</g>
  <x xlink:href="package.2.0.0b.xml"/>
 </r>

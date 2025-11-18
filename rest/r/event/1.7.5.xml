@@ -23,6 +23,6 @@
  <da>2013-08-19 07:25:04</da>
  <n>Fix: build error with custom libevent installation prefixes like /lib(John Wamer)</n>
  <f>69145</f>
- <g>http://pecl.php.net/get/event-1.7.5</g>
+ <g>https://pecl.php.net/get/event-1.7.5</g>
  <x xlink:href="package.1.7.5.xml"/>
 </r>

@@ -28,6 +28,6 @@ Deprecated: EventSslContext protocol version options are deprecated for OpenSSL 
   Use the new setMinProtoVersion and setMaxProtoVersion methods instead.
 Fix: build failed with custom openssl setup (non-standard --with-openssl-dir)</n>
  <f>135125</f>
- <g>http://pecl.php.net/get/event-2.3.0RC1</g>
+ <g>https://pecl.php.net/get/event-2.3.0RC1</g>
  <x xlink:href="package.2.3.0RC1.xml"/>
 </r>

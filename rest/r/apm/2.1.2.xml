@@ -25,6 +25,6 @@ A web frontend exists for manipulating the data stored in database at: https://g
 - Make error: duplicate symbol for architecture x86_64 #25
 - Build with PHP 7.1 #44 (Thanks Remi Collet)</n>
  <f>33148</f>
- <g>http://pecl.php.net/get/APM-2.1.2</g>
+ <g>https://pecl.php.net/get/APM-2.1.2</g>
  <x xlink:href="package.2.1.2.xml"/>
 </r>

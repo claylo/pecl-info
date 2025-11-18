@@ -17,6 +17,6 @@
  <n>Bugs Fixed:
 - #71045 zend_mm_alloc_small crashes with zend_string_alloc</n>
  <f>38093</f>
- <g>http://pecl.php.net/get/yaml-2.0.0RC6</g>
+ <g>https://pecl.php.net/get/yaml-2.0.0RC6</g>
  <x xlink:href="package.2.0.0RC6.xml"/>
 </r>

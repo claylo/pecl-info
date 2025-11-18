@@ -35,6 +35,6 @@
 * Fixed parsing messages with Content-Range headers
 * Fixed parsing messages with another Transfer-Encoding header value than chunked</n>
  <f>124936</f>
- <g>http://pecl.php.net/get/pecl_http-0.15.0</g>
+ <g>https://pecl.php.net/get/pecl_http-0.15.0</g>
  <x xlink:href="package.0.15.0.xml"/>
 </r>

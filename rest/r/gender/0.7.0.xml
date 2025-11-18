@@ -18,6 +18,6 @@
 * several community bugfixes (many thanks rrichards, johannes, kalle)
 * Gender class is now in the Gender namespace on PHP v5.3+</n>
  <f>287332</f>
- <g>http://pecl.php.net/get/gender-0.7.0</g>
+ <g>https://pecl.php.net/get/gender-0.7.0</g>
  <x xlink:href="package.0.7.0.xml"/>
 </r>

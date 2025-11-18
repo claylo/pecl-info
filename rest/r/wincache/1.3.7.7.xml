@@ -23,6 +23,6 @@
 - Convert init event to a mutex (improve stability if something gets killed while holding the event)
 - Bug 69609: rmdir/unlink function reroutes do not clear resolve path cache</n>
  <f>172221</f>
- <g>http://pecl.php.net/get/WINCACHE-1.3.7.7</g>
+ <g>https://pecl.php.net/get/WINCACHE-1.3.7.7</g>
  <x xlink:href="package.1.3.7.7.xml"/>
 </r>

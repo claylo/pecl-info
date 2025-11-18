@@ -15,6 +15,6 @@
  <da>2018-07-01 11:27:05</da>
  <n>- fix build error -Werror=format-security (Remi Collet)</n>
  <f>25467</f>
- <g>http://pecl.php.net/get/varnish-1.2.4</g>
+ <g>https://pecl.php.net/get/varnish-1.2.4</g>
  <x xlink:href="package.1.2.4.xml"/>
 </r>

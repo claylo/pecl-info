@@ -28,6 +28,6 @@
 - Added swoole_server-&gt;after and swoole_timer_after
 - Fixed all known issues</n>
  <f>407678</f>
- <g>http://pecl.php.net/get/swoole-1.7.7</g>
+ <g>https://pecl.php.net/get/swoole-1.7.7</g>
  <x xlink:href="package.1.7.7.xml"/>
 </r>

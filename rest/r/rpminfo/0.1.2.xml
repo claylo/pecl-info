@@ -16,6 +16,6 @@
  <n>- first pecl release
 - rpminfo(): add option to retrieve error message instead of raising a warning</n>
  <f>11845</f>
- <g>http://pecl.php.net/get/rpminfo-0.1.2</g>
+ <g>https://pecl.php.net/get/rpminfo-0.1.2</g>
  <x xlink:href="package.0.1.2.xml"/>
 </r>

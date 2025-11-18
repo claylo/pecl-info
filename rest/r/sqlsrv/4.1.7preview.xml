@@ -29,6 +29,6 @@
 - In MAC OS X, if loading both sqlsrv and pdo_sqlsrv, the order matters (even when dynamically). For sqlsrv scripts, load sqlsrv.so first
 - Connection pooling not working in MAC OS X</n>
  <f>192817</f>
- <g>http://pecl.php.net/get/sqlsrv-4.1.7preview</g>
+ <g>https://pecl.php.net/get/sqlsrv-4.1.7preview</g>
  <x xlink:href="package.4.1.7preview.xml"/>
 </r>

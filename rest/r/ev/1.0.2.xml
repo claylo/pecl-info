@@ -16,6 +16,6 @@
  <da>2016-07-29 05:33:34</da>
  <n>Fix: issue #28 where generator test failed with PHP 5.4</n>
  <f>124685</f>
- <g>http://pecl.php.net/get/ev-1.0.2</g>
+ <g>https://pecl.php.net/get/ev-1.0.2</g>
  <x xlink:href="package.1.0.2.xml"/>
 </r>

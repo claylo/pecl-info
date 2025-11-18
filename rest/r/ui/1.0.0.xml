@@ -20,6 +20,6 @@ UI\Point and UI\Size math operations
 Reference counting for layout controls
 Fix build when x is not available</n>
  <f>42594</f>
- <g>http://pecl.php.net/get/UI-1.0.0</g>
+ <g>https://pecl.php.net/get/UI-1.0.0</g>
  <x xlink:href="package.1.0.0.xml"/>
 </r>

@@ -15,6 +15,6 @@
  <da>2015-10-27 02:50:03</da>
  <n>- Release msgpack for PHP7</n>
  <f>45183</f>
- <g>http://pecl.php.net/get/msgpack-2.0.0</g>
+ <g>https://pecl.php.net/get/msgpack-2.0.0</g>
  <x xlink:href="package.2.0.0.xml"/>
 </r>

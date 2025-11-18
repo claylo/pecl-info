@@ -20,6 +20,6 @@ Apache Derby databases.
 Bug 13185 - Updating wrong row (fixed).
 Bug related to special character fixed.</n>
  <f>131111</f>
- <g>http://pecl.php.net/get/ibm_db2-1.7.0</g>
+ <g>https://pecl.php.net/get/ibm_db2-1.7.0</g>
  <x xlink:href="package.1.7.0.xml"/>
 </r>

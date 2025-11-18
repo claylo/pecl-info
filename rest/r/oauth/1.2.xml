@@ -18,6 +18,6 @@ Requirements: ext/hash</d>
  <n>- Fixed bugs: 22337, 22485, 22628, 22630, 22484 (and others!)
 - Added ability to coerce HTTP method when calling OAuth::fetch()</n>
  <f>45129</f>
- <g>http://pecl.php.net/get/oauth-1.2</g>
+ <g>https://pecl.php.net/get/oauth-1.2</g>
  <x xlink:href="package.1.2.xml"/>
 </r>

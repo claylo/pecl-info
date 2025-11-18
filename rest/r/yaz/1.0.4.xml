@@ -21,6 +21,6 @@ Find more information at:
  <n>Added support for yet another record format for yaz_record, array3, 
 which is optimized for MARC handling.</n>
  <f>15793</f>
- <g>http://pecl.php.net/get/yaz-1.0.4</g>
+ <g>https://pecl.php.net/get/yaz-1.0.4</g>
  <x xlink:href="package.1.0.4.xml"/>
 </r>

@@ -17,6 +17,6 @@
  <n>Fixed crash error in pprofp.
 Fixed crash on 64bit architectures.</n>
  <f>36643</f>
- <g>http://pecl.php.net/get/apd-1.0.1</g>
+ <g>https://pecl.php.net/get/apd-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

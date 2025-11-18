@@ -15,6 +15,6 @@
  <da>2018-01-05 00:29:08</da>
  <n>- Fixed verbose log issue #13881</n>
  <f>2304400</f>
- <g>http://pecl.php.net/get/grpc-1.8.3</g>
+ <g>https://pecl.php.net/get/grpc-1.8.3</g>
  <x xlink:href="package.1.8.3.xml"/>
 </r>

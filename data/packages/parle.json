@@ -55,7 +55,7 @@
             "releasedBy": "ab",
             "releaseDate": "2018-03-04T21:00:22+00:00",
             "releaseNotes": "- fix package",
-            "get": "http://pecl.php.net/get/parle-0.8.1",
+            "get": "https://pecl.php.net/get/parle-0.8.1",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.8.0": {
@@ -65,7 +65,7 @@
             "releasedBy": "ab",
             "releaseDate": "2018-03-04T20:12:22+00:00",
             "releaseNotes": "- Synced bundled lexertl14 and parsertl14 with upstream\n- Fixed github issue #12 (Build with GCC 8 is broken)\n- Fixed github issue #14 (Misspelled constant name)",
-            "get": "http://pecl.php.net/get/parle-0.8.0",
+            "get": "https://pecl.php.net/get/parle-0.8.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.7.3": {
@@ -75,7 +75,7 @@
             "releasedBy": "ab",
             "releaseDate": "2017-11-11T18:37:05+00:00",
             "releaseNotes": "- Fix broken package",
-            "get": "http://pecl.php.net/get/parle-0.7.3",
+            "get": "https://pecl.php.net/get/parle-0.7.3",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.7.2": {
@@ -85,7 +85,7 @@
             "releasedBy": "ab",
             "releaseDate": "2017-11-11T17:01:28+00:00",
             "releaseNotes": "- Implemented token callbacks\n- Implemented unicode character class support, available with --enable-parle-utf32",
-            "get": "http://pecl.php.net/get/parle-0.7.2",
+            "get": "https://pecl.php.net/get/parle-0.7.2",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.7.1": {
@@ -95,7 +95,7 @@
             "releasedBy": "ab",
             "releaseDate": "2017-10-29T18:32:41+00:00",
             "releaseNotes": "- Lexer::restart() is renamed to Lexer::reset, same with RLexer\n- Added reset() method to parser classes\n- Improved property handling",
-            "get": "http://pecl.php.net/get/parle-0.7.1",
+            "get": "https://pecl.php.net/get/parle-0.7.1",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.7.0": {
@@ -105,7 +105,7 @@
             "releasedBy": "ab",
             "releaseDate": "2017-10-01T18:03:51+00:00",
             "releaseNotes": "- Introduced RParser class\n- RLexer doesn't inherit from Lexer anymore, Lexer and Parser, as well RLexer and RParser have to be used pairwise\n- General bugfixes",
-            "get": "http://pecl.php.net/get/parle-0.7.0",
+            "get": "https://pecl.php.net/get/parle-0.7.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.6.5": {
@@ -115,7 +115,7 @@
             "releasedBy": "ab",
             "releaseDate": "2017-09-28T17:57:42+00:00",
             "releaseNotes": "- Improved var_dump() output for Parle\\Stack\n- Parser::trace() will return NULL if called in inappropriate context\n- Fixed Lexer functionality while used in Parser\n- Lexers always use DOT_NOT_LF | DOT_NOT_CRLF flags by default\n- General bugfixes",
-            "get": "http://pecl.php.net/get/parle-0.6.5",
+            "get": "https://pecl.php.net/get/parle-0.6.5",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.6.4": {
@@ -125,7 +125,7 @@
             "releasedBy": "ab",
             "releaseDate": "2017-09-25T19:01:09+00:00",
             "releaseNotes": "- Improve Parser::reduceId property handling\n- Fixed index range check in Parser::sigil()\n- Fixed Stack::top handling for empty stack\n- Improved Parser::errorInfo()\n- Fixed properties access in all classes exporting properties",
-            "get": "http://pecl.php.net/get/parle-0.6.4",
+            "get": "https://pecl.php.net/get/parle-0.6.4",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.6.3": {
@@ -135,7 +135,7 @@
             "releasedBy": "ab",
             "releaseDate": "2017-09-22T19:30:32+00:00",
             "releaseNotes": "- Turned Stack method top into property\n- Internal refactoring",
-            "get": "http://pecl.php.net/get/parle-0.6.3",
+            "get": "https://pecl.php.net/get/parle-0.6.3",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.6.2": {
@@ -145,7 +145,7 @@
             "releasedBy": "ab",
             "releaseDate": "2017-09-19T17:02:53+00:00",
             "releaseNotes": "- Fixed reflection properties allocation (Remi Collet)\n- Removed offset from the Token class\n- Introduced Lexer properties for marker and cursor positions\n- Max token id is set to UINT16_MAX to save memory. This might be changed in the future",
-            "get": "http://pecl.php.net/get/parle-0.6.2",
+            "get": "https://pecl.php.net/get/parle-0.6.2",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.6.1": {
@@ -155,7 +155,7 @@
             "releasedBy": "ab",
             "releaseDate": "2017-09-17T18:06:42+00:00",
             "releaseNotes": "- Removed FLAG_REGEX_* prefix from the lexer flag constants\n- Removed non worky rexeg from range signature for pushMacro method",
-            "get": "http://pecl.php.net/get/parle-0.6.1",
+            "get": "https://pecl.php.net/get/parle-0.6.1",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.6.0": {
@@ -165,7 +165,7 @@
             "releasedBy": "ab",
             "releaseDate": "2017-09-16T21:51:17+00:00",
             "releaseNotes": "- Fix consistency of return type in 7.0/7.1/7.2 (Remi Collet)\n- Fix memory leak in Parle\\Stack\n- Max parser id is set to UINT16_MAX to save memory. This might be changed in the future\n- Push signatures accepting string range for regex was removed as ZPP would deliver copies anyway\n- Turned Lexer methods bol, flags and state into properties\n- Turned Parser methods action and reduceId into properties\n- Turned Stack methods empty and size into properties",
-            "get": "http://pecl.php.net/get/parle-0.6.0",
+            "get": "https://pecl.php.net/get/parle-0.6.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.5.3": {
@@ -175,7 +175,7 @@
             "releasedBy": "ab",
             "releaseDate": "2017-09-09T15:11:28+00:00",
             "releaseNotes": "- PHP 7.2 compilation failure (Remi Collet)",
-            "get": "http://pecl.php.net/get/parle-0.5.3",
+            "get": "https://pecl.php.net/get/parle-0.5.3",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.5.2": {
@@ -185,7 +185,7 @@
             "releasedBy": "ab",
             "releaseDate": "2017-09-09T13:58:00+00:00",
             "releaseNotes": "- Package fixes by Remi Collet\n- Introduced Token class\n- Lexer methods skip(), eoi() and npos() are transformed into constants and are available in the Token class as SKIP, EOI and UNKNOWN constants\n- Introduced ErrorInfo class",
-            "get": "http://pecl.php.net/get/parle-0.5.2",
+            "get": "https://pecl.php.net/get/parle-0.5.2",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.5.1": {
@@ -195,7 +195,7 @@
             "releasedBy": "ab",
             "releaseDate": "2017-09-08T21:34:10+00:00",
             "releaseNotes": "- initial release",
-            "get": "http://pecl.php.net/get/parle-0.5.1",
+            "get": "https://pecl.php.net/get/parle-0.5.1",
             "SPDX-License-Identifier": "BSD-2-Clause"
         }
     },

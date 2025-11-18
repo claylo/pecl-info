@@ -28,6 +28,6 @@
 * zend_error() was used instead of php_error_docref() (tony2001)
 * Added 2 tests</n>
  <f>47205</f>
- <g>http://pecl.php.net/get/bbcode-1.0.3b1</g>
+ <g>https://pecl.php.net/get/bbcode-1.0.3b1</g>
  <x xlink:href="package.1.0.3b1.xml"/>
 </r>

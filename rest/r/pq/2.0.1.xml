@@ -25,6 +25,6 @@
  <da>2016-05-03 16:41:35</da>
  <n>* Fix github issue #9 (execAsync - gets another result)</n>
  <f>64679</f>
- <g>http://pecl.php.net/get/pq-2.0.1</g>
+ <g>https://pecl.php.net/get/pq-2.0.1</g>
  <x xlink:href="package.2.0.1.xml"/>
 </r>

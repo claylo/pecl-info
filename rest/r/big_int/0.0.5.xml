@@ -26,6 +26,6 @@ but it needn't any additional external libraries.
 * fixed bug in /msvc7/php_big_int.vcproj , which fails compilation of extension under MSVC7
 * added set_time_limit(0) into /tests/RSA.php</n>
  <f>65060</f>
- <g>http://pecl.php.net/get/big_int-0.0.5</g>
+ <g>https://pecl.php.net/get/big_int-0.0.5</g>
  <x xlink:href="package.0.0.5.xml"/>
 </r>

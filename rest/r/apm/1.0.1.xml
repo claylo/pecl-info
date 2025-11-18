@@ -21,6 +21,6 @@ More drivers to come (SNMP, e-mail, Hadoop,...).</d>
 Fixed:
 - Bug #60276 pecl install fail installing APM</n>
  <f>111367</f>
- <g>http://pecl.php.net/get/APM-1.0.1</g>
+ <g>https://pecl.php.net/get/APM-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

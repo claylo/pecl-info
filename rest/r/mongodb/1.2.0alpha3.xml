@@ -31,6 +31,6 @@ necessary to build a fully-functional MongoDB driver.</d>
     * [PHPC-783] - Use mongoc_collection_find_with_opts() for Query execution
     * [PHPC-796] - Use flexible opts for BulkWrite update and delete</n>
  <f>841402</f>
- <g>http://pecl.php.net/get/mongodb-1.2.0alpha3</g>
+ <g>https://pecl.php.net/get/mongodb-1.2.0alpha3</g>
  <x xlink:href="package.1.2.0alpha3.xml"/>
 </r>

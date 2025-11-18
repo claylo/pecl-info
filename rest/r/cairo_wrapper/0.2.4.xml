@@ -16,6 +16,6 @@
  <n>- added various cairo 1.4 specific functions
 - fixed build if cairo installation has no SVG support (PECL Bug #13521)</n>
  <f>36312</f>
- <g>http://pecl.php.net/get/cairo_wrapper-0.2.4</g>
+ <g>https://pecl.php.net/get/cairo_wrapper-0.2.4</g>
  <x xlink:href="package.0.2.4.xml"/>
 </r>

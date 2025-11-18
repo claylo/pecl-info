@@ -23,6 +23,6 @@ libstatgrab library.
 Added statg_network_iface_stats() function to get interface information.
 Added additional information to network functions.</n>
  <f>4980</f>
- <g>http://pecl.php.net/get/Statgrab-0.2</g>
+ <g>https://pecl.php.net/get/Statgrab-0.2</g>
  <x xlink:href="package.0.2.xml"/>
 </r>

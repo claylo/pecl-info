@@ -15,6 +15,6 @@
  <da>2011-08-26 14:08:36</da>
  <n>Fix for the package to build</n>
  <f>25565</f>
- <g>http://pecl.php.net/get/varnish-0.4.1</g>
+ <g>https://pecl.php.net/get/varnish-0.4.1</g>
  <x xlink:href="package.0.4.1.xml"/>
 </r>

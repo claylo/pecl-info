@@ -24,6 +24,6 @@
  <n>- Fixed issue #113 setBastPath.
 - Fixed PHP --re seaslog result.</n>
  <f>78121</f>
- <g>http://pecl.php.net/get/SeasLog-1.6.9</g>
+ <g>https://pecl.php.net/get/SeasLog-1.6.9</g>
  <x xlink:href="package.1.6.9.xml"/>
 </r>

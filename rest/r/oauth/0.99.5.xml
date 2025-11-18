@@ -20,6 +20,6 @@ Requirements: ext/hash and libcurl (with https support if you plan to access res
 - Added disableSSLChecks and enableSSLChecks (enabled by default)
 - Added support for following and signing redirects</n>
  <f>21642</f>
- <g>http://pecl.php.net/get/oauth-0.99.5</g>
+ <g>https://pecl.php.net/get/oauth-0.99.5</g>
  <x xlink:href="package.0.99.5.xml"/>
 </r>

@@ -26,6 +26,6 @@ http://pecl4win.php.net/ext.php/php_pdo_pgsql.dll
 
 Added PDO::pgsqlLOBCreate(), PDO::pgsqlLOBOpen() and PDO::pgsqlLOBUnlink().</n>
  <f>13308</f>
- <g>http://pecl.php.net/get/PDO_PGSQL-1.0.1</g>
+ <g>https://pecl.php.net/get/PDO_PGSQL-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

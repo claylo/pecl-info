@@ -46,6 +46,6 @@ Xdebug also provides:
   - Fixed issue #1501: Xdebug var dump tries casting properties.
   - Fixed issue #1502: SEND_REF lines are not marked as covered.</n>
  <f>279605</f>
- <g>http://pecl.php.net/get/xdebug-2.6.0beta1</g>
+ <g>https://pecl.php.net/get/xdebug-2.6.0beta1</g>
  <x xlink:href="package.2.6.0beta1.xml"/>
 </r>

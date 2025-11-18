@@ -25,6 +25,6 @@
 - Added unique()
 - Fixed a lot of memory leaks</n>
  <f>9827</f>
- <g>http://pecl.php.net/get/functional-0.0.5</g>
+ <g>https://pecl.php.net/get/functional-0.0.5</g>
  <x xlink:href="package.0.0.5.xml"/>
 </r>

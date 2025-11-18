@@ -20,6 +20,6 @@ Changes list:
   - Change V8\Exception::*Error() return type to V8\ObjectValue as the only possible type;
   - Add external exception wiring option to V8\Isolate::ThrowException().</n>
  <f>178791</f>
- <g>http://pecl.php.net/get/v8-0.1.8</g>
+ <g>https://pecl.php.net/get/v8-0.1.8</g>
  <x xlink:href="package.0.1.8.xml"/>
 </r>

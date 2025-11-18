@@ -1,1 +1,1 @@
-"f57-6088c07b3eedb-gzip"
+"f57-6088c07b3eedb"

@@ -15,7 +15,7 @@
             "releasedBy": "yorambh",
             "releaseDate": "2012-08-28T07:24:44+00:00",
             "releaseNotes": "install-examples command added to build\nbuild issue with apr.h fixed",
-            "get": "http://pecl.php.net/get/apacheaccessor-1.0.1",
+            "get": "https://pecl.php.net/get/apacheaccessor-1.0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.5.1": {
@@ -25,7 +25,7 @@
             "releasedBy": "yorambh",
             "releaseDate": "2012-04-01T03:09:09+00:00",
             "releaseNotes": "First stable release.\nplease report bugs",
-            "get": "http://pecl.php.net/get/apacheaccessor-0.5.1",
+            "get": "https://pecl.php.net/get/apacheaccessor-0.5.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.1.1": {
@@ -35,7 +35,7 @@
             "releasedBy": "yorambh",
             "releaseDate": "2010-07-22T08:19:20+00:00",
             "releaseNotes": "apacheaccessor_dump_conf() now accepts third optional parameter, which represents the keys (and sections) we want to dump.\nthe configuration walk function was moved to different file.",
-            "get": "http://pecl.php.net/get/apacheaccessor-0.1.1",
+            "get": "https://pecl.php.net/get/apacheaccessor-0.1.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.1.0": {
@@ -45,7 +45,7 @@
             "releasedBy": "yorambh",
             "releaseDate": "2010-07-07T06:40:52+00:00",
             "releaseNotes": "First release\n* functionality seems to work fine.\n* no bugs or craches detected",
-            "get": "http://pecl.php.net/get/apacheaccessor-0.1.0",
+            "get": "https://pecl.php.net/get/apacheaccessor-0.1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

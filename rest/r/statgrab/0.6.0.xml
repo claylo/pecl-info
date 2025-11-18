@@ -21,6 +21,6 @@ libstatgrab library.
  <da>2006-11-07 17:16:08</da>
  <n>1) Added support for sg_get_fs_stats()</n>
  <f>6255</f>
- <g>http://pecl.php.net/get/Statgrab-0.6.0</g>
+ <g>https://pecl.php.net/get/Statgrab-0.6.0</g>
  <x xlink:href="package.0.6.0.xml"/>
 </r>

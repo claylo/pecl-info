@@ -33,6 +33,6 @@
 - Fixed accept dead loop when server have too many connection
 - Fixed sequence of onConnect/onReceive events disorder</n>
  <f>446082</f>
- <g>http://pecl.php.net/get/swoole-1.7.13</g>
+ <g>https://pecl.php.net/get/swoole-1.7.13</g>
  <x xlink:href="package.1.7.13.xml"/>
 </r>

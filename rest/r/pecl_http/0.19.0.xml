@@ -36,6 +36,6 @@ HttpUtil, HttpMessage, HttpRequest, HttpRequestPool; HttpResponse (PHP-5.1)</d>
   CRC32, MD5 and SHA1 are available out of the box with MD5 being the default. 
   If pecl/hash is available, any algorithm this extension provides can be used.</n>
  <f>141248</f>
- <g>http://pecl.php.net/get/pecl_http-0.19.0</g>
+ <g>https://pecl.php.net/get/pecl_http-0.19.0</g>
  <x xlink:href="package.0.19.0.xml"/>
 </r>

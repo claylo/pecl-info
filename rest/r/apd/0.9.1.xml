@@ -16,6 +16,6 @@
  <da>2004-07-16 20:19:00</da>
  <n>Fix for packaging error</n>
  <f>36827</f>
- <g>http://pecl.php.net/get/apd-0.9.1</g>
+ <g>https://pecl.php.net/get/apd-0.9.1</g>
  <x xlink:href="package.0.9.1.xml"/>
 </r>

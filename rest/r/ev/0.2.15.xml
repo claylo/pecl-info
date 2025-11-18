@@ -16,6 +16,6 @@
  <da>2015-05-03 10:56:30</da>
  <n>Issue #12: marked as CLI-only extension (the changes are actually missing in 0.2.14)</n>
  <f>96963</f>
- <g>http://pecl.php.net/get/ev-0.2.15</g>
+ <g>https://pecl.php.net/get/ev-0.2.15</g>
  <x xlink:href="package.0.2.15.xml"/>
 </r>

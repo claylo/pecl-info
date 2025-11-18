@@ -16,6 +16,6 @@
  <n>- Fixed Bug that if no routes success router will throw exception(since 2.1.13 Yaf supports configure default route by application.ini)
 - Fixed Bug that 'foo/index' router result as c =&gt; index a =&gt; foo(affected 2.1.13)</n>
  <f>81296</f>
- <g>http://pecl.php.net/get/yaf-2.1.14</g>
+ <g>https://pecl.php.net/get/yaf-2.1.14</g>
  <x xlink:href="package.2.1.14.xml"/>
 </r>

@@ -15,6 +15,6 @@
  <da>2018-03-28 23:08:38</da>
  <n>- gRPC C Core bug fixes #14747, #14787</n>
  <f>2341863</f>
- <g>http://pecl.php.net/get/grpc-1.10.1RC1</g>
+ <g>https://pecl.php.net/get/grpc-1.10.1RC1</g>
  <x xlink:href="package.1.10.1RC1.xml"/>
 </r>

@@ -19,6 +19,6 @@ older versions of php, use the pecl package version 1.
  * Fix build on PHP 7.1
  * Various bug fixes</n>
  <f>27493</f>
- <g>http://pecl.php.net/get/rdkafka-2.0.1</g>
+ <g>https://pecl.php.net/get/rdkafka-2.0.1</g>
  <x xlink:href="package.2.0.1.xml"/>
 </r>

@@ -34,6 +34,6 @@ in PHP GMP extension, but it needn't any external libraries.
 * fixed possible bug in bin_op() function in /libbig_int/src/bitset_funcs.c, when parameter [a] or [b] points to the same address as [answer]
 - removed unnesessary /PEAR folder, which contained of Crypt_RSA package. This package is available at http://chat.finalcombat.com/valyala/big_int/ page.</n>
  <f>45549</f>
- <g>http://pecl.php.net/get/big_int-1.0.3</g>
+ <g>https://pecl.php.net/get/big_int-1.0.3</g>
  <x xlink:href="package.1.0.3.xml"/>
 </r>

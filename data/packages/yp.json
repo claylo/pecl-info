@@ -15,7 +15,7 @@
             "releasedBy": "gasolwu",
             "releaseDate": "2014-05-12T06:04:55+00:00",
             "releaseNotes": "1.0.1 release\n\n- trivial update to fix wrong version dispaly in php_info page [gasolwu]",
-            "get": "http://pecl.php.net/get/yp-1.0.1",
+            "get": "https://pecl.php.net/get/yp-1.0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.0": {
@@ -25,7 +25,7 @@
             "releasedBy": "gasolwu",
             "releaseDate": "2014-05-11T09:55:51+00:00",
             "releaseNotes": "Initial stable release\n\n - Fix build with modern PHP including PHP 5.3, 5.4 and 5.5 [gasolwu]\n - Build testing environment with vagrants [gasolwu]\n - Add tests for all public functions [gasolwu]\n - Fix bugs #59537 [gasolwu]\n - Correct constant value of YPERR_ACCESS [gasolwu]",
-            "get": "http://pecl.php.net/get/yp-1.0.0",
+            "get": "https://pecl.php.net/get/yp-1.0.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.0RC1": {
@@ -35,7 +35,7 @@
             "releasedBy": "gasolwu",
             "releaseDate": "2014-02-21T23:43:45+00:00",
             "releaseNotes": "Initial beta release\n\n - Fix build with modern PHP including PHP 5.3, 5.4 and 5.5 [gasolwu]\n - Build testing environment with vagrants [gasolwu]\n - Add tests for all public funcctions [gasolwu]",
-            "get": "http://pecl.php.net/get/yp-1.0.0RC1",
+            "get": "https://pecl.php.net/get/yp-1.0.0RC1",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

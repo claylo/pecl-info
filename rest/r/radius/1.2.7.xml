@@ -23,6 +23,6 @@ with other users encouraged to upgrade when practical.
 - Fix a security issue in radius_get_vendor_attr() by enforcing checks of the
   VSA length field against the buffer size. (Adam)</n>
  <f>35779</f>
- <g>http://pecl.php.net/get/radius-1.2.7</g>
+ <g>https://pecl.php.net/get/radius-1.2.7</g>
  <x xlink:href="package.1.2.7.xml"/>
 </r>

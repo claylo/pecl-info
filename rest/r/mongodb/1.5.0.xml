@@ -85,6 +85,6 @@ necessary to build a fully-functional MongoDB driver.</d>
     * [PHPC-1200] - Remove MD5 from ObjectID generation 
     * [PHPC-1216] - Always validate and apply wtimeoutMS in URI options array</n>
  <f>1054840</f>
- <g>http://pecl.php.net/get/mongodb-1.5.0</g>
+ <g>https://pecl.php.net/get/mongodb-1.5.0</g>
  <x xlink:href="package.1.5.0.xml"/>
 </r>

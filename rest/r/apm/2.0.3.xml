@@ -30,6 +30,6 @@ Changed:
 - Weird things could happen when changing 'apm.enabled' during a request. It doesn't make much sense to support
   in request activation/deactivation. 'apm.enabled' is therefor now PHP_INI_SYSTEM.</n>
  <f>30589</f>
- <g>http://pecl.php.net/get/APM-2.0.3</g>
+ <g>https://pecl.php.net/get/APM-2.0.3</g>
  <x xlink:href="package.2.0.3.xml"/>
 </r>

@@ -21,6 +21,6 @@
 -- add a sanity test for timer (kannan)
 -- fix for compile error on debian linux (russ)</n>
  <f>931660</f>
- <g>http://pecl.php.net/get/xhprof-0.9.2</g>
+ <g>https://pecl.php.net/get/xhprof-0.9.2</g>
  <x xlink:href="package.0.9.2.xml"/>
 </r>

@@ -16,6 +16,6 @@
  <da>2014-09-08 23:17:02</da>
  <n>Fixed #10: Segfault in test suite for ZTS (thanks to Remi Collet)</n>
  <f>96837</f>
- <g>http://pecl.php.net/get/ev-0.2.12</g>
+ <g>https://pecl.php.net/get/ev-0.2.12</g>
  <x xlink:href="package.0.2.12.xml"/>
 </r>

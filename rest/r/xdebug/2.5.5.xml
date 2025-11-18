@@ -38,6 +38,6 @@ Xdebug also provides:
   - Fixed issue #1446: Code Coverage misses elseif if it uses an isset with a
     property</n>
  <f>279491</f>
- <g>http://pecl.php.net/get/xdebug-2.5.5</g>
+ <g>https://pecl.php.net/get/xdebug-2.5.5</g>
  <x xlink:href="package.2.5.5.xml"/>
 </r>

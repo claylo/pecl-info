@@ -34,6 +34,6 @@ v2: http://dev.iworks.at/ext-http/lcov/ext/http/</d>
 	 
 Keep in mind that it's got the major version 2, because it's incompatible with pecl_http v1.</n>
  <f>151891</f>
- <g>http://pecl.php.net/get/pecl_http-2.0.0</g>
+ <g>https://pecl.php.net/get/pecl_http-2.0.0</g>
  <x xlink:href="package.2.0.0.xml"/>
 </r>

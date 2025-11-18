@@ -25,6 +25,6 @@ support. Parallel requests are available for PHP 5 and greater.</d>
  <n>* Fixed PHP5.1 build
 * Fixed http_get_request_body[_stream]() with FastCGI SAPI</n>
  <f>173065</f>
- <g>http://pecl.php.net/get/pecl_http-1.6.5</g>
+ <g>https://pecl.php.net/get/pecl_http-1.6.5</g>
  <x xlink:href="package.1.6.5.xml"/>
 </r>

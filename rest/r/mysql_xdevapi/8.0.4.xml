@@ -31,6 +31,6 @@ WL#10725-DevAPI: Modify/MergePatch
 WL#10868-DevAPI: transaction save-points
 WL#11340-Remove configuration API</n>
  <f>423603</f>
- <g>http://pecl.php.net/get/mysql_xdevapi-8.0.4</g>
+ <g>https://pecl.php.net/get/mysql_xdevapi-8.0.4</g>
  <x xlink:href="package.8.0.4.xml"/>
 </r>

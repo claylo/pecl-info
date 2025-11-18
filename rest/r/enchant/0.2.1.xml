@@ -25,6 +25,6 @@ see www.abisource.com/enchant/
  <n>- Fix possible leak in suggestions result
 - Move to beta status</n>
  <f>6565</f>
- <g>http://pecl.php.net/get/enchant-0.2.1</g>
+ <g>https://pecl.php.net/get/enchant-0.2.1</g>
  <x xlink:href="package.0.2.1.xml"/>
 </r>

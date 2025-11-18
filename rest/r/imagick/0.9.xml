@@ -45,6 +45,6 @@ read the examples for more information (in $doc_dir/imagick/examples)
     - fixed minor issue with a number of example files; was nothing
       critical</n>
  <f>63758</f>
- <g>http://pecl.php.net/get/imagick-0.9</g>
+ <g>https://pecl.php.net/get/imagick-0.9</g>
  <x xlink:href="package.0.9.xml"/>
 </r>

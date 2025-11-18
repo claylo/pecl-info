@@ -15,7 +15,7 @@
             "releasedBy": "silkcut",
             "releaseDate": "2017-08-17T06:35:39+00:00",
             "releaseNotes": "molten 0.1.2 beta\n* remove RTLD_NOW build error.",
-            "get": "http://pecl.php.net/get/Molten-0.1.2beta",
+            "get": "https://pecl.php.net/get/Molten-0.1.2beta",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "0.1.1beta": {
@@ -25,7 +25,7 @@
             "releasedBy": "silkcut",
             "releaseDate": "2017-08-17T06:30:04+00:00",
             "releaseNotes": "molten 0.1.0 beta\n* support pdo/mysqli/memcached/curl/redis/guzzle/es call tracing.\n* support zipkin format trace log for zipkin server.\n* get it self running status cross web server.\n* muliti report format for different env.",
-            "get": "http://pecl.php.net/get/Molten-0.1.1beta",
+            "get": "https://pecl.php.net/get/Molten-0.1.1beta",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "0.1.0beta": {
@@ -35,7 +35,7 @@
             "releasedBy": "silkcut",
             "releaseDate": "2017-08-16T08:03:17+00:00",
             "releaseNotes": "molten 0.1.0 beta\n* support pdo/mysqli/memcached/curl/redis/guzzle/es call tracing.\n* support zipkin format trace log for zipkin server.\n* get it self running status cross web server.\n* muliti report format for different env.",
-            "get": "http://pecl.php.net/get/Molten-0.1.0beta",
+            "get": "https://pecl.php.net/get/Molten-0.1.0beta",
             "SPDX-License-Identifier": "Apache-2.0"
         }
     },

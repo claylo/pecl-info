@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pecl_http">pecl_http</p>
+ <c>pecl.php.net</c>
+ <v>4.3.1</v>
+ <st>stable</st>
+ <l>BSD-2-Clause</l>
+ <m>mike</m>
+ <s>Extended HTTP Support</s>
+ <d>This HTTP extension aims to provide a convenient and powerful
+set of functionality for one of PHPs major applications.
+
+It eases handling of HTTP urls, headers and messages, provides
+means for negotiation of a client&#039;s preferred content type,
+language and charset, as well as a convenient way to send any
+arbitrary data with caching and resuming capabilities.
+
+It provides powerful request functionality with support for
+parallel requests.
+
+Documentation:
+https://mdref.m6w6.name/http</d>
+ <da>2025-10-09 15:56:18</da>
+ <n>&amp;gt; NOTE: Fixed git tag
+* Fix PHP-8.5 compatibility (#150, #149, #148)
+* Fix GCC-15 compatibility (#143)
+* Add new curl options: default_protocol, protocols, redir_protocols (#146)
+* Add recent curl info and options up to v8.12 (c08b957)</n>
+ <f>224532</f>
+ <g>https://pecl.php.net/get/pecl_http-4.3.1</g>
+ <x xlink:href="package.4.3.1.xml"/>
+</r>

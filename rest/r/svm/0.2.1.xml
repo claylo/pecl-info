@@ -15,6 +15,6 @@
  <da>2018-08-19 09:39:02</da>
  <n>- Fix package.xml which was missing config.w32</n>
  <f>130632</f>
- <g>http://pecl.php.net/get/svm-0.2.1</g>
+ <g>https://pecl.php.net/get/svm-0.2.1</g>
  <x xlink:href="package.0.2.1.xml"/>
 </r>

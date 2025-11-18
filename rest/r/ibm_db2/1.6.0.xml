@@ -21,6 +21,6 @@ Fixed bug #7882 (escape string functionality added)
 Fixed bug #9870 (fix for db2_result LOB defect)
 Fix for LOB binding defects</n>
  <f>121546</f>
- <g>http://pecl.php.net/get/ibm_db2-1.6.0</g>
+ <g>https://pecl.php.net/get/ibm_db2-1.6.0</g>
  <x xlink:href="package.1.6.0.xml"/>
 </r>

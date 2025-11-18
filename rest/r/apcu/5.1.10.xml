@@ -22,6 +22,6 @@
 - improve fix gh#266 refcounting errors in APCIterator
 - fix for PHP 7.3 compatibility</n>
  <f>111937</f>
- <g>http://pecl.php.net/get/apcu-5.1.10</g>
+ <g>https://pecl.php.net/get/apcu-5.1.10</g>
  <x xlink:href="package.5.1.10.xml"/>
 </r>

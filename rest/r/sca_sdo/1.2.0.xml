@@ -44,6 +44,6 @@
 * Examples
     o More SCA examples that exercise some of the new bindings, and some of the old, including HelloWorlds and Email scenarios.</n>
  <f>475978</f>
- <g>http://pecl.php.net/get/SCA_SDO-1.2.0</g>
+ <g>https://pecl.php.net/get/SCA_SDO-1.2.0</g>
  <x xlink:href="package.1.2.0.xml"/>
 </r>

@@ -24,6 +24,6 @@ Bugs Fixed:
 - #64019 Segmentation fault if yaml anchor ends with a colon
 - #64694 Segfault when array used as mapping key</n>
  <f>37862</f>
- <g>http://pecl.php.net/get/yaml-1.1.1</g>
+ <g>https://pecl.php.net/get/yaml-1.1.1</g>
  <x xlink:href="package.1.1.1.xml"/>
 </r>

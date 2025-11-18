@@ -50,6 +50,6 @@ Xdebug also provides:
     - Fixed bug #95: Segfault when deinitializing Xdebug module.
       (Patch by Maxim Poltarak &lt;demiurg@gmail.com&gt;)</n>
  <f>197794</f>
- <g>http://pecl.php.net/get/xdebug-2.0.0beta3</g>
+ <g>https://pecl.php.net/get/xdebug-2.0.0beta3</g>
  <x xlink:href="package.2.0.0beta3.xml"/>
 </r>

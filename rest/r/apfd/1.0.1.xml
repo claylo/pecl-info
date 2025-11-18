@@ -19,6 +19,6 @@ This extension does not provide any INI entries, constants, functions or classes
  <da>2015-04-24 20:19:31</da>
  <n>* Fix bug where non-POST payloads with mixed case boundaries would not be parsed</n>
  <f>4375</f>
- <g>http://pecl.php.net/get/apfd-1.0.1</g>
+ <g>https://pecl.php.net/get/apfd-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

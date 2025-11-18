@@ -33,6 +33,6 @@
 - Added Coroutine::fwrite
 - Added Coroutine::gethostbyname</n>
  <f>769029</f>
- <g>http://pecl.php.net/get/swoole-2.0.11</g>
+ <g>https://pecl.php.net/get/swoole-2.0.11</g>
  <x xlink:href="package.2.0.11.xml"/>
 </r>

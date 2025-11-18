@@ -28,6 +28,6 @@
  <n>* added HttpRequestPool class (PHP5)
 * added missing files to package.xml</n>
  <f>78641</f>
- <g>http://pecl.php.net/get/pecl_http-0.9.0</g>
+ <g>https://pecl.php.net/get/pecl_http-0.9.0</g>
  <x xlink:href="package.0.9.0.xml"/>
 </r>

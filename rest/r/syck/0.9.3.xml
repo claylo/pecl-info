@@ -18,6 +18,6 @@ YAML(tm) (rhymes with &quot;camel&quot;) is a straightforward machine parsable d
 - multiline strings are exported in folded format (for readability) now
 - maps and sequences of unknown types are treated as php/hash and php/array (with notice)</n>
  <f>12407</f>
- <g>http://pecl.php.net/get/syck-0.9.3</g>
+ <g>https://pecl.php.net/get/syck-0.9.3</g>
  <x xlink:href="package.0.9.3.xml"/>
 </r>

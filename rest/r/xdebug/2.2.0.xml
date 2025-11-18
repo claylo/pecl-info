@@ -85,6 +85,6 @@ Xdebug also provides:
 	- Fixed bug #662: idekey is set to running user.
 	- Fixed bug #627: Added the realpath check.</n>
  <f>247670</f>
- <g>http://pecl.php.net/get/xdebug-2.2.0</g>
+ <g>https://pecl.php.net/get/xdebug-2.2.0</g>
  <x xlink:href="package.2.2.0.xml"/>
 </r>

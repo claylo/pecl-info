@@ -16,6 +16,6 @@
  <n>- Upgraded API to PHP 7.0
 - Removed deprecated functions</n>
  <f>12757</f>
- <g>http://pecl.php.net/get/bitset-3.0.0</g>
+ <g>https://pecl.php.net/get/bitset-3.0.0</g>
  <x xlink:href="package.3.0.0.xml"/>
 </r>

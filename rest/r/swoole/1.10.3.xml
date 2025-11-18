@@ -35,6 +35,6 @@
 - Added swoole_process::setBlocking
 - Added swoole_http_request::getData</n>
  <f>729334</f>
- <g>http://pecl.php.net/get/swoole-1.10.3</g>
+ <g>https://pecl.php.net/get/swoole-1.10.3</g>
  <x xlink:href="package.1.10.3.xml"/>
 </r>

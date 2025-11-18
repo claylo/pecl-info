@@ -21,6 +21,6 @@ Changes:
 * PCBC-319: Correct segfault when using persist_to/replicate_to.
 * Corrected typo in N1QL query interface.</n>
  <f>29182</f>
- <g>http://pecl.php.net/get/couchbase-2.0.3</g>
+ <g>https://pecl.php.net/get/couchbase-2.0.3</g>
  <x xlink:href="package.2.0.3.xml"/>
 </r>

@@ -15,7 +15,7 @@
             "releasedBy": "mgdm",
             "releaseDate": "2017-03-13T21:17:34+00:00",
             "releaseNotes": "* PHP 7 support thanks to Sara Golemon\n* Improved docs hosted on ReadTheDocs\n* Some memory usage fixes",
-            "get": "http://pecl.php.net/get/Mosquitto-0.4.0",
+            "get": "https://pecl.php.net/get/Mosquitto-0.4.0",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "0.3.0": {
@@ -25,7 +25,7 @@
             "releasedBy": "mgdm",
             "releaseDate": "2015-09-02T21:04:50+00:00",
             "releaseNotes": "* Add missing onPublish callback\n* Improve error handling\n* Better PHPT tests\n* add exitLoop() method to break out of the event loop without disconnecting\n* Move to beta stability",
-            "get": "http://pecl.php.net/get/Mosquitto-0.3.0",
+            "get": "https://pecl.php.net/get/Mosquitto-0.3.0",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "0.2.2": {
@@ -35,7 +35,7 @@
             "releasedBy": "mgdm",
             "releaseDate": "2014-05-12T10:28:02+00:00",
             "releaseNotes": "* Add missing unsubscribe method",
-            "get": "http://pecl.php.net/get/Mosquitto-0.2.2",
+            "get": "https://pecl.php.net/get/Mosquitto-0.2.2",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "0.2.1": {
@@ -45,7 +45,7 @@
             "releasedBy": "mgdm",
             "releaseDate": "2013-12-09T15:21:34+00:00",
             "releaseNotes": "* Fix compatibility with PHP 5.3",
-            "get": "http://pecl.php.net/get/Mosquitto-0.2.1",
+            "get": "https://pecl.php.net/get/Mosquitto-0.2.1",
             "SPDX-License-Identifier": "BSD-3-Clause"
         }
     },

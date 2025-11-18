@@ -16,6 +16,6 @@
  <n>- Fixed a memory leak during channel creation #14017
 - Fixed a memory leak with SSL cert #12706</n>
  <f>2305257</f>
- <g>http://pecl.php.net/get/grpc-1.8.5</g>
+ <g>https://pecl.php.net/get/grpc-1.8.5</g>
  <x xlink:href="package.1.8.5.xml"/>
 </r>

@@ -19,6 +19,6 @@ AOP aims to allow separation of cross-cutting concerns (cache, log, security, tr
  <da>2012-11-18 07:01:37</da>
  <n>- Cache on function (With SegFault Correction)</n>
  <f>2855061</f>
- <g>http://pecl.php.net/get/AOP-0.2.2b1</g>
+ <g>https://pecl.php.net/get/AOP-0.2.2b1</g>
  <x xlink:href="package.0.2.2b1.xml"/>
 </r>

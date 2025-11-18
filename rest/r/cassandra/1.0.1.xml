@@ -25,6 +25,6 @@ Bug Fixes:
 
 * [PHP-53] Error when inserting a &quot;0&quot; Decimal</n>
  <f>93748</f>
- <g>http://pecl.php.net/get/cassandra-1.0.1</g>
+ <g>https://pecl.php.net/get/cassandra-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

@@ -16,6 +16,6 @@
  <da>2004-01-07 21:22:00</da>
  <n>Added test files and improved PEAR installer support.</n>
  <f>8901</f>
- <g>http://pecl.php.net/get/LZF-1.2</g>
+ <g>https://pecl.php.net/get/LZF-1.2</g>
  <x xlink:href="package.1.2.xml"/>
 </r>

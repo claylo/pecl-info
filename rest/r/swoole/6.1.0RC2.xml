@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>6.1.0RC2</v>
+ <st>beta</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in tcp/http/websocket/http2 server
+        - coroutine tcp/http/websocket client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2025-10-13 14:11:16</da>
+ <n># New Features
+- Added the `$throw_exception` parameter to `Swoole\Coroutine::cancel()`, enabling exceptions to be thrown when canceling coroutines.
+- `Swoole\Coroutine\Http\Client` and `Swoole\Coroutine\Http\Server` now support receiving WebSocket fragmented messages.
+- Added `disconnect` and `ping` methods to `Swoole\Coroutine\Http\Client` and `Swoole\Coroutine\Http\Server`.
+- Refactored `Swoole\Coroutine\Lock`, `Swoole\Lock`, and `Swoole\Thread\Lock`, retaining only the `__construct`, `lock`, and `unlock` methods to align more closely with `php flock` in usage.
+# Bug Fixes
+- Fixed an issue where `Swoole\Websocket\Server` might still trigger the `onMessage` callback after a handshake failure or connection closure.
+- Fixed execution errors in `Swoole\Coroutine\Http\Server` caused by inconsistencies between function return types and signatures.
+- Fixed the issue where `Swoole\Coroutine\Http\Server` did not support enabling HTTP/2.
+- Fixed the timeout precision conversion issue in `Swoole\Lock::lockwait()`.
+- Fixed the `ReactorEpoll::add(): failed to add event` warning when using the coroutine-based `curl` module, caused by PHP 8 compatibility adjustments and incomplete cleanup of `keepalive` connections.
+# Internal Optimizations
+- Upgraded the `Swoole library` version.
+- Disabled the `-Wdate-time` warning to resolve compilation errors when using Zig/Clang.
+- Removed PHP 8.0 compatibility code.
+- Added the `SWOOLE_ODBC_LIBS` variable in `config.m4`.
+- Ensured that `timespec.tv_nsec` values are less than `1,000,000,000` to comply with POSIX standards.
+# Notes
+- This version is an RC (Release Candidate) and should only be used in testing environments. Do not deploy it in production.
+- Starting from Swoole 6.1, `Swoole\Coroutine\Http\Client` and `Swoole\Coroutine\Http\Server` will automatically handle WebSocket control frames unless `open_websocket_ping_frame`, `open_websocket_pong_frame`, or `open_websocket_close_frame` are explicitly set.
+- `Swoole\Coroutine::cancel()` cannot cancel file coroutine operations. Forcibly canceling may cause segmentation faults.
+- If `--enable-iouring` is enabled, a warning will be thrown if the kernel version or `liburing` version does not meet the requirements.
+- The `Swoole\Websocket\Server::push` method does not automatically close the connection after sending a close frame. To close the connection, use the `Swoole\Websocket\Server::disconnect()` method.
+- When handling control frames, the Swoole protocol actively sets the FIN flag to 1 and ensures compression is not enabled (i.e., the RSV1 bit is 0). User settings for this will be ignored.
+- When handling compression and sending of consecutive frames, Swoole delegates the responsibility of compression and data chunking to the application layer. Users need to manually implement the relevant logic. See the example below for details.</n>
+ <f>2450189</f>
+ <g>https://pecl.php.net/get/swoole-6.1.0RC2</g>
+ <x xlink:href="package.6.1.0RC2.xml"/>
+</r>

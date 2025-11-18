@@ -17,6 +17,6 @@ It can deal with rfc822 and rfc2045 (MIME) compliant messages.</d>
  <n>Fix bug #13155 (infinite loop and/or mem. corruption after calling mailparse_msg_get_part_data)
 Fix Bug #13373 (compilation breaks with CodeWarrior compiler)</n>
  <f>36862</f>
- <g>http://pecl.php.net/get/mailparse-2.1.4</g>
+ <g>https://pecl.php.net/get/mailparse-2.1.4</g>
  <x xlink:href="package.2.1.4.xml"/>
 </r>

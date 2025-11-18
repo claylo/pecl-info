@@ -17,6 +17,6 @@
 - fix gh#158 apc_inc() with negative step value hangs the process
 - fix gh#164 apc_inc() can take minutes with huge step value</n>
  <f>108422</f>
- <g>http://pecl.php.net/get/apcu-5.1.3</g>
+ <g>https://pecl.php.net/get/apcu-5.1.3</g>
  <x xlink:href="package.5.1.3.xml"/>
 </r>

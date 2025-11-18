@@ -21,6 +21,6 @@
 * Random numbers API including seeding and saving/loading PRNG state
 * Incremental Base64 decoding and encoding</n>
  <f>30614</f>
- <g>http://pecl.php.net/get/crypto-0.1.0</g>
+ <g>https://pecl.php.net/get/crypto-0.1.0</g>
  <x xlink:href="package.0.1.0.xml"/>
 </r>

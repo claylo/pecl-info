@@ -15,6 +15,6 @@
  <da>2015-02-02 03:50:10</da>
  <n>- fix availability of integer constant macros in C++ (Jan Ehrhardt)</n>
  <f>35659</f>
- <g>http://pecl.php.net/get/xmldiff-1.1.1</g>
+ <g>https://pecl.php.net/get/xmldiff-1.1.1</g>
  <x xlink:href="package.1.1.1.xml"/>
 </r>

@@ -1,13 +1,23 @@
 {
     "category": "Networking",
     "deprecated": false,
-    "description": "This PECL extension enables you to get the geo location information of an IP address, such as country, region or state, city, latitude and longitude, US ZIP code, time zone, Internet Service Provider (ISP) or company name, domain name, net speed, area code, weather station code, weather station name, mobile country code (MCC), mobile network code (MNC) and carrier brand, elevation, and usage type.",
-    "latestReleaseDate": "2023-06-12T07:47:01+00:00",
-    "latestVersion": "8.2.0",
-    "license": "PHP License",
+    "description": "This PECL extension enables you to get the geo location information of an IP address, such as country, region or state, district, city, latitude and longitude, ZIP/Postal code, time zone, Internet Service Provider (ISP) or company name, domain name, net speed, area code, weather station code, weather station name, mobile country code (MCC), mobile network code (MNC) and carrier brand, elevation, usage type, address type, IAB category and ASN.",
+    "latestReleaseDate": "2025-09-03T07:29:04+00:00",
+    "latestVersion": "8.3.0",
+    "license": "PHP-3.01",
     "name": "ip2location",
     "php8Mentioned": false,
     "releases": {
+        "8.3.0": {
+            "version": "8.3.0",
+            "state": "stable",
+            "license": "PHP-3.01",
+            "releasedBy": "ip2location",
+            "releaseDate": "2025-09-03T07:29:04+00:00",
+            "releaseNotes": "added as domain, as usage type and as cidr.",
+            "get": "https://pecl.php.net/get/ip2location-8.3.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
         "8.2.0": {
             "version": "8.2.0",
             "state": "stable",
@@ -16,7 +26,7 @@
             "releaseDate": "2023-06-12T07:47:01+00:00",
             "releaseNotes": "added district, asn and as.",
             "get": "https://pecl.php.net/get/ip2location-8.2.0",
-            "SPDX-License-Identifier": null
+            "SPDX-License-Identifier": "PHP-3.01"
         },
         "8.1.2": {
             "version": "8.1.2",
@@ -55,7 +65,7 @@
             "releasedBy": "ip2location",
             "releaseDate": "2017-11-08T00:45:45+00:00",
             "releaseNotes": "fix license issue",
-            "get": "http://pecl.php.net/get/ip2location-8.0.1",
+            "get": "https://pecl.php.net/get/ip2location-8.0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "8.0.0": {
@@ -65,7 +75,7 @@
             "releasedBy": "ip2location",
             "releaseDate": "2017-11-07T03:16:33+00:00",
             "releaseNotes": "* support PHP7 and bug fixes",
-            "get": "http://pecl.php.net/get/ip2location-8.0.0",
+            "get": "https://pecl.php.net/get/ip2location-8.0.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "6.0.4": {
@@ -75,7 +85,7 @@
             "releasedBy": "ip2location",
             "releaseDate": "2014-11-18T20:18:12+00:00",
             "releaseNotes": "* new release",
-            "get": "http://pecl.php.net/get/ip2location-6.0.4",
+            "get": "https://pecl.php.net/get/ip2location-6.0.4",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "6.0.3": {
@@ -85,7 +95,7 @@
             "releasedBy": "ip2location",
             "releaseDate": "2014-11-18T02:01:05+00:00",
             "releaseNotes": "* new release",
-            "get": "http://pecl.php.net/get/ip2location-6.0.3",
+            "get": "https://pecl.php.net/get/ip2location-6.0.3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "6.0.2": {
@@ -95,7 +105,7 @@
             "releasedBy": "ip2location",
             "releaseDate": "2014-11-18T01:03:06+00:00",
             "releaseNotes": "* new release",
-            "get": "http://pecl.php.net/get/ip2location-6.0.2",
+            "get": "https://pecl.php.net/get/ip2location-6.0.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "6.0.1": {
@@ -105,7 +115,7 @@
             "releasedBy": "ip2location",
             "releaseDate": "2013-09-17T04:26:55+00:00",
             "releaseNotes": "* new release",
-            "get": "http://pecl.php.net/get/ip2location-6.0.1",
+            "get": "https://pecl.php.net/get/ip2location-6.0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "6.0.0": {
@@ -115,7 +125,7 @@
             "releasedBy": "ip2location",
             "releaseDate": "2013-09-17T02:52:16+00:00",
             "releaseNotes": "* new release",
-            "get": "http://pecl.php.net/get/ip2location-6.0.0",
+            "get": "https://pecl.php.net/get/ip2location-6.0.0",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

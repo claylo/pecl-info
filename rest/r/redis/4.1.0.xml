@@ -27,6 +27,6 @@ The primary new feature of this release is session locking functionality. Thanks
 * Fix compression in RedisCluster [1aed74b4] (Pavlo Yatsukhnenko)
 * Refactor geo* commands + documentation improvements (Michael Grunder)</n>
  <f>220774</f>
- <g>http://pecl.php.net/get/redis-4.1.0</g>
+ <g>https://pecl.php.net/get/redis-4.1.0</g>
  <x xlink:href="package.4.1.0.xml"/>
 </r>

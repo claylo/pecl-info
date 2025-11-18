@@ -15,6 +15,6 @@
  <da>2009-01-20 11:15:16</da>
  <n>* Fixing compile bug when multiple GeoIP libs are installed, bug #15372.</n>
  <f>9087</f>
- <g>http://pecl.php.net/get/geoip-1.0.6</g>
+ <g>https://pecl.php.net/get/geoip-1.0.6</g>
  <x xlink:href="package.1.0.6.xml"/>
 </r>

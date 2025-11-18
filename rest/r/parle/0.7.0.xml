@@ -17,6 +17,6 @@
 - RLexer doesn't inherit from Lexer anymore, Lexer and Parser, as well RLexer and RParser have to be used pairwise
 - General bugfixes</n>
  <f>107449</f>
- <g>http://pecl.php.net/get/parle-0.7.0</g>
+ <g>https://pecl.php.net/get/parle-0.7.0</g>
  <x xlink:href="package.0.7.0.xml"/>
 </r>

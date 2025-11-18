@@ -17,6 +17,6 @@ libssh2 is available from http://www.sourceforge.net/projects/libssh2</d>
  <n>Fix version check bugs found in release 0.8.
 Add pty option to ssh2_exec().</n>
  <f>21872</f>
- <g>http://pecl.php.net/get/ssh2-0.9</g>
+ <g>https://pecl.php.net/get/ssh2-0.9</g>
  <x xlink:href="package.0.9.xml"/>
 </r>

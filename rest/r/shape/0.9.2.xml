@@ -15,6 +15,6 @@
  <da>2009-09-21 05:17:54</da>
  <n>Fixed config.m4 to fix build on modern Linux distributions like Ubuntu.</n>
  <f>8605</f>
- <g>http://pecl.php.net/get/shape-0.9.2</g>
+ <g>https://pecl.php.net/get/shape-0.9.2</g>
  <x xlink:href="package.0.9.2.xml"/>
 </r>

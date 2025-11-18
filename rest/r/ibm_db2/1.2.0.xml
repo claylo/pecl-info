@@ -25,6 +25,6 @@ Avoid appending a null character to CLOB values (bug 6755).
 Enable default cursor type to be set as a connection attribute.
 Provide initial support for native XML data type.</n>
  <f>143683</f>
- <g>http://pecl.php.net/get/ibm_db2-1.2.0</g>
+ <g>https://pecl.php.net/get/ibm_db2-1.2.0</g>
  <x xlink:href="package.1.2.0.xml"/>
 </r>

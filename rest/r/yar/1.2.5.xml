@@ -17,6 +17,6 @@
 - Fixed build from PECL
 - Fixed issue #50 &quot;can not get fd from curl instance&quot;</n>
  <f>38595</f>
- <g>http://pecl.php.net/get/yar-1.2.5</g>
+ <g>https://pecl.php.net/get/yar-1.2.5</g>
  <x xlink:href="package.1.2.5.xml"/>
 </r>

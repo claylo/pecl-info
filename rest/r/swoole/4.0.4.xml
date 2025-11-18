@@ -40,6 +40,6 @@
 * Use SSL_pending
 * Better signal handler on MacOS</n>
  <f>907216</f>
- <g>http://pecl.php.net/get/swoole-4.0.4</g>
+ <g>https://pecl.php.net/get/swoole-4.0.4</g>
  <x xlink:href="package.4.0.4.xml"/>
 </r>

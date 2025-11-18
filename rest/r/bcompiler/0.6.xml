@@ -30,6 +30,6 @@ For install instructions see the manual at pear.php.net
 - many memory leaks fixed
 - added support for stand-alone executables creating</n>
  <f>44015</f>
- <g>http://pecl.php.net/get/bcompiler-0.6</g>
+ <g>https://pecl.php.net/get/bcompiler-0.6</g>
  <x xlink:href="package.0.6.xml"/>
 </r>

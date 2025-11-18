@@ -23,6 +23,6 @@ More drivers to come (SNMP, e-mail, Hadoop,...).</d>
 - Prevent calling the original error handler if Xdebug is loaded
 - Possible segfault if MySQL server connection link is gone</n>
  <f>115121</f>
- <g>http://pecl.php.net/get/APM-1.1.0beta2</g>
+ <g>https://pecl.php.net/get/APM-1.1.0beta2</g>
  <x xlink:href="package.1.1.0beta2.xml"/>
 </r>

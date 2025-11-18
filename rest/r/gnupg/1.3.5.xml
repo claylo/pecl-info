@@ -17,6 +17,6 @@
   iterator fix
   bug #65342</n>
  <f>19260</f>
- <g>http://pecl.php.net/get/gnupg-1.3.5</g>
+ <g>https://pecl.php.net/get/gnupg-1.3.5</g>
  <x xlink:href="package.1.3.5.xml"/>
 </r>

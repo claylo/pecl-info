@@ -20,6 +20,6 @@ This package was originally developed by Bart Vanbrabant. Old versions are avail
 - Added an error message when no path translated has been found
 - Unlock the cache when an error occured in alter_ini and using a cached entry</n>
  <f>7140</f>
- <g>http://pecl.php.net/get/htscanner-0.6.2</g>
+ <g>https://pecl.php.net/get/htscanner-0.6.2</g>
  <x xlink:href="package.0.6.2.xml"/>
 </r>

@@ -18,6 +18,6 @@
 - Allow PHP 7.2
 - Fix build warnings</n>
  <f>44806</f>
- <g>http://pecl.php.net/get/mustache-0.7.4RC2</g>
+ <g>https://pecl.php.net/get/mustache-0.7.4RC2</g>
  <x xlink:href="package.0.7.4RC2.xml"/>
 </r>

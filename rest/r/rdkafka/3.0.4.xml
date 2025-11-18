@@ -16,6 +16,6 @@
  <n>* Fixed destruction order, fixes hangs during RdKafka\Consumer destruction
 * Added RdKafka\Conf::setStatsCb</n>
  <f>29920</f>
- <g>http://pecl.php.net/get/rdkafka-3.0.4</g>
+ <g>https://pecl.php.net/get/rdkafka-3.0.4</g>
  <x xlink:href="package.3.0.4.xml"/>
 </r>

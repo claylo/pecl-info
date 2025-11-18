@@ -245,7 +245,7 @@
             "releasedBy": "lbarnaud",
             "releaseDate": "2017-11-20T10:53:39+00:00",
             "releaseNotes": "* Fixed destruction order, fixes hangs during RdKafka\\Consumer destruction",
-            "get": "http://pecl.php.net/get/rdkafka-3.0.5",
+            "get": "https://pecl.php.net/get/rdkafka-3.0.5",
             "SPDX-License-Identifier": "MIT"
         },
         "3.0.4": {
@@ -255,7 +255,7 @@
             "releasedBy": "lbarnaud",
             "releaseDate": "2017-08-16T09:46:27+00:00",
             "releaseNotes": "* Fixed destruction order, fixes hangs during RdKafka\\Consumer destruction\n* Added RdKafka\\Conf::setStatsCb",
-            "get": "http://pecl.php.net/get/rdkafka-3.0.4",
+            "get": "https://pecl.php.net/get/rdkafka-3.0.4",
             "SPDX-License-Identifier": "MIT"
         },
         "3.0.3": {
@@ -265,7 +265,7 @@
             "releasedBy": "lbarnaud",
             "releaseDate": "2017-05-29T14:30:02+00:00",
             "releaseNotes": "* Reduced termination times",
-            "get": "http://pecl.php.net/get/rdkafka-3.0.3",
+            "get": "https://pecl.php.net/get/rdkafka-3.0.3",
             "SPDX-License-Identifier": "MIT"
         },
         "3.0.2": {
@@ -275,7 +275,7 @@
             "releasedBy": "lbarnaud",
             "releaseDate": "2017-05-23T15:49:06+00:00",
             "releaseNotes": "* Fixed ConsumerTopic::consumeStop() hanging on PHP 5",
-            "get": "http://pecl.php.net/get/rdkafka-3.0.2",
+            "get": "https://pecl.php.net/get/rdkafka-3.0.2",
             "SPDX-License-Identifier": "MIT"
         },
         "3.0.1": {
@@ -285,7 +285,7 @@
             "releasedBy": "lbarnaud",
             "releaseDate": "2017-01-28T10:32:32+00:00",
             "releaseNotes": "* Fixed build on old gcc",
-            "get": "http://pecl.php.net/get/rdkafka-3.0.1",
+            "get": "https://pecl.php.net/get/rdkafka-3.0.1",
             "SPDX-License-Identifier": "MIT"
         },
         "3.0.0": {
@@ -295,7 +295,7 @@
             "releasedBy": "lbarnaud",
             "releaseDate": "2016-12-18T10:34:28+00:00",
             "releaseNotes": "* Unified code for PHP versions 5 and 7. This package builds and works on\n  PHP 5.3 through PHP 7.x.",
-            "get": "http://pecl.php.net/get/rdkafka-3.0.0",
+            "get": "https://pecl.php.net/get/rdkafka-3.0.0",
             "SPDX-License-Identifier": "MIT"
         },
         "2.0.1": {
@@ -305,7 +305,7 @@
             "releasedBy": "lbarnaud",
             "releaseDate": "2016-11-28T13:30:19+00:00",
             "releaseNotes": "This version of rdkafka is indented for php version 7. To compile rdkafka for\nolder versions of php, use the pecl package version 1.\n\n * Fix build on PHP 7.1\n * Various bug fixes",
-            "get": "http://pecl.php.net/get/rdkafka-2.0.1",
+            "get": "https://pecl.php.net/get/rdkafka-2.0.1",
             "SPDX-License-Identifier": "MIT"
         },
         "2.0.0": {
@@ -315,7 +315,7 @@
             "releasedBy": "lbarnaud",
             "releaseDate": "2016-09-09T10:05:35+00:00",
             "releaseNotes": "This version of rdkafka is indented for php version 7. To compile rdkafka for\nolder versions of php, use the pecl package version 1.\n\n * Added high level consumer: Rdkafka\\KafkaConsumer (librdkafka 0.9)\n * RD_KAFKA_VERSION now reports the runtime librdkafka version\n * Added RD_KAFKA_BUILD_VERSION\n * Export runtime-provided constants from librdkafka (librdkafka 0.9)\n * Added rd_kafka_get_err_descs() (librdkafka 0.9)\n * Improve reflection/arginfo\n * Rdkafka::metadata() is now a deprecated alias to Rdkafka::getMetadata()\n * Rdkafka::outqLen() is now a deprecated alias to Rdkafka::getOutQLen()\n * Rdkafka now throws Rdkafka\\Exception instances\n * Added Rdkafka\\Conf::setDefaultTopicConf() (librdkafka 0.9)\n * Added Rdkafka\\Conf::setDrMsgCb() (librdkafka 0.9)",
-            "get": "http://pecl.php.net/get/rdkafka-2.0.0",
+            "get": "https://pecl.php.net/get/rdkafka-2.0.0",
             "SPDX-License-Identifier": "MIT"
         },
         "1.0.0": {
@@ -325,7 +325,7 @@
             "releasedBy": "lbarnaud",
             "releaseDate": "2016-09-09T10:01:51+00:00",
             "releaseNotes": "This version of rdkafka is indented for php version 5. To compile rdkafka for\nnewer versions of php, use the pecl package version 2.\n\n * Added high level consumer: Rdkafka\\KafkaConsumer (librdkafka 0.9)\n * RD_KAFKA_VERSION now reports the runtime librdkafka version\n * Added RD_KAFKA_BUILD_VERSION\n * Export runtime-provided constants from librdkafka (librdkafka 0.9)\n * Added rd_kafka_get_err_descs() (librdkafka 0.9)\n * Improve reflection/arginfo\n * Rdkafka::metadata() is now a deprecated alias to Rdkafka::getMetadata()\n * Rdkafka::outqLen() is now a deprecated alias to Rdkafka::getOutQLen()\n * Rdkafka now throws Rdkafka\\Exception instances\n * Added Rdkafka\\Conf::setDefaultTopicConf() (librdkafka 0.9)\n * Added Rdkafka\\Conf::setDrMsgCb() (librdkafka 0.9)",
-            "get": "http://pecl.php.net/get/rdkafka-1.0.0",
+            "get": "https://pecl.php.net/get/rdkafka-1.0.0",
             "SPDX-License-Identifier": "MIT"
         },
         "0.9.1": {
@@ -335,7 +335,7 @@
             "releasedBy": "lbarnaud",
             "releaseDate": "2016-01-11T09:34:03+00:00",
             "releaseNotes": "* Allow to build against librdkafka master/0.9.x",
-            "get": "http://pecl.php.net/get/rdkafka-0.9.1",
+            "get": "https://pecl.php.net/get/rdkafka-0.9.1",
             "SPDX-License-Identifier": "MIT"
         },
         "0.9.0": {
@@ -345,7 +345,7 @@
             "releasedBy": "lbarnaud",
             "releaseDate": "2016-01-09T14:22:55+00:00",
             "releaseNotes": "* Metadata API\n* Consistent partitioner\n* Fix ZTS build",
-            "get": "http://pecl.php.net/get/rdkafka-0.9.0",
+            "get": "https://pecl.php.net/get/rdkafka-0.9.0",
             "SPDX-License-Identifier": "MIT"
         },
         "0.0.2": {
@@ -355,7 +355,7 @@
             "releasedBy": "lbarnaud",
             "releaseDate": "2015-05-13T14:47:36+00:00",
             "releaseNotes": "Fixed package",
-            "get": "http://pecl.php.net/get/rdkafka-0.0.2",
+            "get": "https://pecl.php.net/get/rdkafka-0.0.2",
             "SPDX-License-Identifier": "MIT"
         },
         "0.0.1": {
@@ -365,7 +365,7 @@
             "releasedBy": "lbarnaud",
             "releaseDate": "2015-05-13T14:41:02+00:00",
             "releaseNotes": "First release",
-            "get": "http://pecl.php.net/get/rdkafka-0.0.1",
+            "get": "https://pecl.php.net/get/rdkafka-0.0.1",
             "SPDX-License-Identifier": "MIT"
         }
     },

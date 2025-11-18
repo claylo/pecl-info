@@ -50,6 +50,6 @@
 * Fixed old stream memory loss leak when HTTP2 client reconnect
 * Fixed wrong package info by version 4.1.0</n>
  <f>930623</f>
- <g>http://pecl.php.net/get/swoole-4.1.1</g>
+ <g>https://pecl.php.net/get/swoole-4.1.1</g>
  <x xlink:href="package.4.1.1.xml"/>
 </r>

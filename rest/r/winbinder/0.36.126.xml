@@ -153,6 +153,6 @@ Changes in C code
 - wb_window.c: DefaultWBProc(): WBWM_KEYPRESS callback
 - Many other changes</n>
  <f>534888</f>
- <g>http://pecl.php.net/get/WinBinder-0.36.126</g>
+ <g>https://pecl.php.net/get/WinBinder-0.36.126</g>
  <x xlink:href="package.0.36.126.xml"/>
 </r>

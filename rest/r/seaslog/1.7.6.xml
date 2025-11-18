@@ -27,6 +27,6 @@
  <n>- Fixed analyzerDetail bug, use grep -ai key_words.
 - Fixed issue #152. Segfault in cli.</n>
  <f>90917</f>
- <g>http://pecl.php.net/get/SeasLog-1.7.6</g>
+ <g>https://pecl.php.net/get/SeasLog-1.7.6</g>
  <x xlink:href="package.1.7.6.xml"/>
 </r>

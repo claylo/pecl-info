@@ -2,12 +2,22 @@
     "category": "Web Services",
     "deprecated": false,
     "description": "Yar(Yet another RPC framework) is a light, concurrent RPC framework, supports multi package protocols (json, msgpack)",
-    "latestReleaseDate": "2024-06-25T09:14:18+00:00",
-    "latestVersion": "2.3.3",
+    "latestReleaseDate": "2025-07-29T09:08:15+00:00",
+    "latestVersion": "2.3.4",
     "license": "PHP",
     "name": "yar",
     "php8Mentioned": true,
     "releases": {
+        "2.3.4": {
+            "version": "2.3.4",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "laruence",
+            "releaseDate": "2025-07-29T09:08:15+00:00",
+            "releaseNotes": "- Fixed build with PHP8.5",
+            "get": "https://pecl.php.net/get/yar-2.3.4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
         "2.3.3": {
             "version": "2.3.3",
             "state": "stable",
@@ -135,7 +145,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2017-12-31T04:28:23+00:00",
             "releaseNotes": "- Implemented FR #108 (Allow setting custom headers)\n- Clenup for 7.2",
-            "get": "http://pecl.php.net/get/yar-2.0.4",
+            "get": "https://pecl.php.net/get/yar-2.0.4",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.3": {
@@ -145,7 +155,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2017-07-27T10:35:52+00:00",
             "releaseNotes": "- Fixed bug #74867 (segment fault when use yar persistent call twice remote function)\n- Fixed PHP-7.2 Compatibility",
-            "get": "http://pecl.php.net/get/yar-2.0.3",
+            "get": "https://pecl.php.net/get/yar-2.0.3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.2": {
@@ -155,7 +165,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2017-03-15T05:11:32+00:00",
             "releaseNotes": "- Fixed issue #98 (Memeory exhuasted while using with Yaf)",
-            "get": "http://pecl.php.net/get/yar-2.0.2",
+            "get": "https://pecl.php.net/get/yar-2.0.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.1": {
@@ -165,7 +175,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2016-07-02T06:51:13+00:00",
             "releaseNotes": "- Fixed bug in doc comment displaying\n- PHP-7.1 compatible fixs",
-            "get": "http://pecl.php.net/get/yar-2.0.1",
+            "get": "https://pecl.php.net/get/yar-2.0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.0": {
@@ -175,7 +185,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2015-10-27T02:39:35+00:00",
             "releaseNotes": "- Release Yar for PHP7",
-            "get": "http://pecl.php.net/get/yar-2.0.0",
+            "get": "https://pecl.php.net/get/yar-2.0.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.2.5": {
@@ -185,7 +195,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2015-10-27T02:39:48+00:00",
             "releaseNotes": "- Fixed #62 Fix the issue#61. yar_server.c:php_yar_server_handle free raw_data prematurely\n- Fixed build from PECL\n- Fixed issue #50 \"can not get fd from curl instance\"",
-            "get": "http://pecl.php.net/get/yar-1.2.5",
+            "get": "https://pecl.php.net/get/yar-1.2.5",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.2.4": {
@@ -195,7 +205,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2014-10-22T10:11:30+00:00",
             "releaseNotes": "- Fixed bug \"can not get fd from curl instance\" on MacOS and Windows\n- Add Yar_Concurrent_Client::reset to meet #26\n- Fixed build with libcurl-7.12\n- Enable msgpack prompt in package.xml",
-            "get": "http://pecl.php.net/get/yar-1.2.4",
+            "get": "https://pecl.php.net/get/yar-1.2.4",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.2.3": {
@@ -205,7 +215,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2014-01-02T03:18:58+00:00",
             "releaseNotes": "- Fixed windows building \n- Fixed segfault NULL pointer dereference",
-            "get": "http://pecl.php.net/get/yar-1.2.3",
+            "get": "https://pecl.php.net/get/yar-1.2.3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.2.2": {
@@ -215,7 +225,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2013-12-31T05:05:01+00:00",
             "releaseNotes": "- Fixed Issue #9 (Yar Server will response in the same package as client packaged)\n- Fixed Bug (Unterminatable select)\n- Add debug tool (A PHP implemented Yar debug client)",
-            "get": "http://pecl.php.net/get/yar-1.2.2",
+            "get": "https://pecl.php.net/get/yar-1.2.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.2.1": {
@@ -225,7 +235,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2013-11-19T05:14:27+00:00",
             "releaseNotes": "- (NOTE) yar.connect_timeout and yar.timeout are ms now\n- Fixed bug(a typo) by zengohm at gmail.com\n- Fixed bug that curl_multi_fdset may return -1",
-            "get": "http://pecl.php.net/get/yar-1.2.1",
+            "get": "https://pecl.php.net/get/yar-1.2.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.2.0": {
@@ -235,7 +245,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2013-07-15T06:04:52+00:00",
             "releaseNotes": "- Add ability to change the request/response Content-type\n- Add Version info in phpinfo outputing",
-            "get": "http://pecl.php.net/get/yar-1.2.0",
+            "get": "https://pecl.php.net/get/yar-1.2.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.1.2": {
@@ -245,7 +255,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2013-03-03T09:05:17+00:00",
             "releaseNotes": "- Fixed bug uninitialized value in socket transporter",
-            "get": "http://pecl.php.net/get/yar-1.1.2",
+            "get": "https://pecl.php.net/get/yar-1.1.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.1.1": {
@@ -255,7 +265,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2013-02-18T22:37:38+00:00",
             "releaseNotes": "- Add missed socket.c into package",
-            "get": "http://pecl.php.net/get/yar-1.1.1",
+            "get": "https://pecl.php.net/get/yar-1.1.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.1.0": {
@@ -265,7 +275,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2013-02-18T04:10:30+00:00",
             "releaseNotes": "- Support TCP/Unix RPC\n- Support perisitent link (HTTP/TCP/Unix)\n- Reimplements http RPC for profermance\n- Fix some memleaks",
-            "get": "http://pecl.php.net/get/yar-1.1.0",
+            "get": "https://pecl.php.net/get/yar-1.1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.0": {
@@ -275,7 +285,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2012-10-12T04:03:02+00:00",
             "releaseNotes": "- First release",
-            "get": "http://pecl.php.net/get/yar-1.0.0",
+            "get": "https://pecl.php.net/get/yar-1.0.0",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

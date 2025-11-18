@@ -16,6 +16,6 @@
  <da>2012-04-11 23:51:02</da>
  <n>- Fixed build with php 5.3</n>
  <f>14861</f>
- <g>http://pecl.php.net/get/taint-0.5.2</g>
+ <g>https://pecl.php.net/get/taint-0.5.2</g>
  <x xlink:href="package.0.5.2.xml"/>
 </r>

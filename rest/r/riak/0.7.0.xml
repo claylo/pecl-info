@@ -15,6 +15,6 @@
  <da>2013-10-31 13:53:58</da>
  <n>- Riak 1.4+ feature: secondary index paging implemented</n>
  <f>123795</f>
- <g>http://pecl.php.net/get/riak-0.7.0</g>
+ <g>https://pecl.php.net/get/riak-0.7.0</g>
  <x xlink:href="package.0.7.0.xml"/>
 </r>

@@ -16,6 +16,6 @@
  <n>* Improve graceful fix from 1.0.3, see https://github.com/jcupitt/php-vips/issues/27
 * Better notes section in package.xml, see https://github.com/jcupitt/php-vips/issues/28</n>
  <f>555245</f>
- <g>http://pecl.php.net/get/vips-1.0.4</g>
+ <g>https://pecl.php.net/get/vips-1.0.4</g>
  <x xlink:href="package.1.0.4.xml"/>
 </r>

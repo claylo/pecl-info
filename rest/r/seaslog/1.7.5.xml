@@ -37,6 +37,6 @@
 - Fixed issue #145. Error by analyzerDetail.
 - Fixed issue #146. Segfault at php-fpm.</n>
  <f>90799</f>
- <g>http://pecl.php.net/get/SeasLog-1.7.5</g>
+ <g>https://pecl.php.net/get/SeasLog-1.7.5</g>
  <x xlink:href="package.1.7.5.xml"/>
 </r>

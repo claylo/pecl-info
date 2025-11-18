@@ -20,6 +20,6 @@ This is a drop-in alternative to PHP standard json extension.</d>
 - fix #23 single quote in property name
 - fix #9  invalid UTF-8 characters</n>
  <f>70745</f>
- <g>http://pecl.php.net/get/jsonc-1.3.8RC1</g>
+ <g>https://pecl.php.net/get/jsonc-1.3.8RC1</g>
  <x xlink:href="package.1.3.8RC1.xml"/>
 </r>

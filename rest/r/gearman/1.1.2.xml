@@ -15,6 +15,6 @@
  <da>2013-08-29 01:05:52</da>
  <n>- All callbacks should have a reference pointer (Special thanks to guilhermeblanco)</n>
  <f>30961</f>
- <g>http://pecl.php.net/get/gearman-1.1.2</g>
+ <g>https://pecl.php.net/get/gearman-1.1.2</g>
  <x xlink:href="package.1.1.2.xml"/>
 </r>

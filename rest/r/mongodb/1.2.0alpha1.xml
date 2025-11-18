@@ -70,6 +70,6 @@ necessary to build a fully-functional MongoDB driver.</d>
     * [PHPC-708] - Port http://php.net/manual/en/mongo.security.php to the new docs/driver
     * [PHPC-758] - Disable Decimal128 for bundled libbson and libmongoc 1.4.0</n>
  <f>855221</f>
- <g>http://pecl.php.net/get/mongodb-1.2.0alpha1</g>
+ <g>https://pecl.php.net/get/mongodb-1.2.0alpha1</g>
  <x xlink:href="package.1.2.0alpha1.xml"/>
 </r>

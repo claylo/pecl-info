@@ -20,7 +20,13 @@
         },
         "2.2.5": {
             "version": "2.2.5",
-            "state": "stable"
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "bd808",
+            "releaseDate": "2025-08-02T19:00:38+00:00",
+            "releaseNotes": "Bugs Fixed:\n- use Zend/zend_smart_string.h (remicollet)",
+            "get": "https://pecl.php.net/get/yaml-2.2.5",
+            "SPDX-License-Identifier": "MIT"
         },
         "2.2.4": {
             "version": "2.2.4",
@@ -114,7 +120,13 @@
         },
         "2.0.3": {
             "version": "2.0.3",
-            "state": "stable"
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "bd808",
+            "releaseDate": "2018-11-13T02:56:40+00:00",
+            "releaseNotes": "Bugs Fixed:\n- #75029 Empty documents are valid (bd808)\n- #75213 Fix float parsing on Alpine (neclimdul)\n- #76309 Quote strings like \"0.\" when emitting (bd808)\n- #76522 PHP 7.3 compilation fixes (dktapps, remicollet)\n- CRLF and whitespace fixes (petk)",
+            "get": "https://pecl.php.net/get/yaml-2.0.3",
+            "SPDX-License-Identifier": "MIT"
         },
         "2.0.2": {
             "version": "2.0.2",
@@ -123,7 +135,7 @@
             "releasedBy": "bd808",
             "releaseDate": "2017-07-29T21:56:39+00:00",
             "releaseNotes": "Same as 2.0.1, but marked correctly as a stable release\n\nBugs Fixed:\n- relax tests to pass with 7.1.4RC1 (remicollet)\n- #74799 fix memory leak in apply_filter function (gleb-svitelskiy)\n- #72540 fix crash in yaml_parse_url when stream/file is empty (bd808)",
-            "get": "http://pecl.php.net/get/yaml-2.0.2",
+            "get": "https://pecl.php.net/get/yaml-2.0.2",
             "SPDX-License-Identifier": "MIT"
         },
         "2.0.1": {
@@ -133,7 +145,7 @@
             "releasedBy": "bd808",
             "releaseDate": "2017-07-29T21:53:40+00:00",
             "releaseNotes": "Bugs Fixed:\n- relax tests to pass with 7.1.4RC1 (remicollet)\n- #74799 fix memory leak in apply_filter function (gleb-svitelskiy)\n- #72540 fix crash in yaml_parse_url when stream/file is empty (bd808)",
-            "get": "http://pecl.php.net/get/yaml-2.0.1",
+            "get": "https://pecl.php.net/get/yaml-2.0.1",
             "SPDX-License-Identifier": "MIT"
         },
         "2.0.0": {
@@ -143,7 +155,7 @@
             "releasedBy": "bd808",
             "releaseDate": "2016-09-24T22:25:09+00:00",
             "releaseNotes": "Breaking changes:\n- #69617 yaml.decode_php ini setting now defaults to false.\nNew Features:\n- PHP7 compatible\n- 2.x series will no longer support PHP5\nBugs Fixed:\n- Premature free in y_write_object (remicollet)\n- Uninitialized smart_str in convert_to_char (remicollet)\n- Missing free in convert_to_char (remicollet)\n- Use zend_* datatypes (weltling)\n- Fix handling of optional encoding argument to yaml_emit_file (weltling)\n- Removed PHP6 compat IS_UNICODE support (bd808)\n- Fixed parameter parsing for yaml_emit_file()\n- Fixed callback usage for yaml_emit_file()\n- Use smart_str_free() instead of smart_string_free() (remicollet)\n- #71045 zend_mm_alloc_small crashes with zend_string_alloc\n- Fix handling of tag callbacks for aliased values (ranvis)\n- Quick fix on handle_mapping. arrval should be used instead of retval (jabiinfante)\n- #71696 Bad datetime management (bocharov)\n- Fix memory leak in mapping with sequence (bocharov)\n- Fix anchor in anchor problemo (bocharov)\n- Fix tests bug_64019.phpt, bug_parsing_alias.phpt (bocharov)\n- #72204 Crash when try to parse yaml file",
-            "get": "http://pecl.php.net/get/yaml-2.0.0",
+            "get": "https://pecl.php.net/get/yaml-2.0.0",
             "SPDX-License-Identifier": "MIT"
         },
         "2.0.0RC8": {
@@ -153,7 +165,7 @@
             "releasedBy": "bd808",
             "releaseDate": "2016-06-04T23:33:56+00:00",
             "releaseNotes": "Bugs Fixed:\n- Quick fix on handle_mapping. arrval should be used instead of retval (jabiinfante)\n- #71696 Bad datetime management (bocharov)\n- Fix memory leak in mapping with sequence (bocharov)\n- Fix anchor in anchor problemo (bocharov)\n- Fix tests bug_64019.phpt, bug_parsing_alias.phpt (bocharov)\n- #72204 Crash when try to parse yaml file",
-            "get": "http://pecl.php.net/get/yaml-2.0.0RC8",
+            "get": "https://pecl.php.net/get/yaml-2.0.0RC8",
             "SPDX-License-Identifier": "MIT"
         },
         "2.0.0RC7": {
@@ -163,7 +175,7 @@
             "releasedBy": "bd808",
             "releaseDate": "2015-12-30T21:29:43+00:00",
             "releaseNotes": "Bugs Fixed:\n- Fix handling of tag callbacks for aliased values (ranvis)",
-            "get": "http://pecl.php.net/get/yaml-2.0.0RC7",
+            "get": "https://pecl.php.net/get/yaml-2.0.0RC7",
             "SPDX-License-Identifier": "MIT"
         },
         "2.0.0RC6": {
@@ -173,7 +185,7 @@
             "releasedBy": "bd808",
             "releaseDate": "2015-12-08T05:11:46+00:00",
             "releaseNotes": "Bugs Fixed:\n- #71045 zend_mm_alloc_small crashes with zend_string_alloc",
-            "get": "http://pecl.php.net/get/yaml-2.0.0RC6",
+            "get": "https://pecl.php.net/get/yaml-2.0.0RC6",
             "SPDX-License-Identifier": "MIT"
         },
         "2.0.0RC5": {
@@ -183,7 +195,7 @@
             "releasedBy": "bd808",
             "releaseDate": "2015-10-17T20:57:10+00:00",
             "releaseNotes": "Breaking changes:\n- #69617 yaml.decode_php ini setting now defaults to false.\nBugs Fixed:\n- Fixed parameter parsing for yaml_emit_file()\n- Fixed callback usage for yaml_emit_file()\n- Use smart_str_free() instead of smart_string_free() (remicollet)",
-            "get": "http://pecl.php.net/get/yaml-2.0.0RC5",
+            "get": "https://pecl.php.net/get/yaml-2.0.0RC5",
             "SPDX-License-Identifier": "MIT"
         },
         "2.0.0RC4": {
@@ -193,7 +205,7 @@
             "releasedBy": "bd808",
             "releaseDate": "2015-10-17T16:58:56+00:00",
             "releaseNotes": "Bugs Fixed:\n- Use zend_* datatypes (weltling)\n- Fix handling of optional encoding argument to yaml_emit_file (weltling)\n- Removed PHP6 compat IS_UNICODE support (bd808)",
-            "get": "http://pecl.php.net/get/yaml-2.0.0RC4",
+            "get": "https://pecl.php.net/get/yaml-2.0.0RC4",
             "SPDX-License-Identifier": "MIT"
         },
         "2.0.0RC3": {
@@ -203,7 +215,7 @@
             "releasedBy": "bd808",
             "releaseDate": "2015-10-17T16:11:15+00:00",
             "releaseNotes": "Bugs Fixed:\n- Premature free in y_write_object (remicollet)\n- Uninitialized smart_str in convert_to_char (remicollet)\n- Missing free in convert_to_char (remicollet)",
-            "get": "http://pecl.php.net/get/yaml-2.0.0RC3",
+            "get": "https://pecl.php.net/get/yaml-2.0.0RC3",
             "SPDX-License-Identifier": "MIT"
         },
         "2.0.0RC2": {
@@ -213,7 +225,7 @@
             "releasedBy": "bd808",
             "releaseDate": "2015-10-17T06:02:39+00:00",
             "releaseNotes": "New Features:\n- Change min PHP verison from 7.0.0RC5 to 7.0.0-dev",
-            "get": "http://pecl.php.net/get/yaml-2.0.0RC2",
+            "get": "https://pecl.php.net/get/yaml-2.0.0RC2",
             "SPDX-License-Identifier": "MIT"
         },
         "2.0.0RC1": {
@@ -223,7 +235,7 @@
             "releasedBy": "bd808",
             "releaseDate": "2015-10-17T05:18:10+00:00",
             "releaseNotes": "New Features:\n- PHP7 compatible\n- 2.x series will no longer support PHP5",
-            "get": "http://pecl.php.net/get/yaml-2.0.0RC1",
+            "get": "https://pecl.php.net/get/yaml-2.0.0RC1",
             "SPDX-License-Identifier": "MIT"
         },
         "1.3.2": {
@@ -243,7 +255,7 @@
             "releasedBy": "bd808",
             "releaseDate": "2017-07-29T21:50:51+00:00",
             "releaseNotes": "Bugs Fixed:\n- #72540 yaml_parse_url: check php_stream_copy_to_mem return value",
-            "get": "http://pecl.php.net/get/yaml-1.3.1",
+            "get": "https://pecl.php.net/get/yaml-1.3.1",
             "SPDX-License-Identifier": "MIT"
         },
         "1.3.0": {
@@ -253,7 +265,7 @@
             "releasedBy": "bd808",
             "releaseDate": "2016-09-24T22:31:51+00:00",
             "releaseNotes": "New Features:\n- Removed IS_UNICODE (PHP6) support\n- Removed support for PHP <5.3.3\n- Timestamps encoded according to https://www.w3.org/TR/NOTE-datetime\n\nBugs Fixed:\n- Various missing free calls (remicollet, bd808)\n- Fix parameter parsing for yaml_emit_file\n- Fix callback handling for yaml_emit_file\n- Fix result of tag callback to be copied to aliases (ranvis)\n- #71696 Bad datetime management",
-            "get": "http://pecl.php.net/get/yaml-1.3.0",
+            "get": "https://pecl.php.net/get/yaml-1.3.0",
             "SPDX-License-Identifier": "MIT"
         },
         "1.3.0b1": {
@@ -263,7 +275,7 @@
             "releasedBy": "bd808",
             "releaseDate": "2016-06-04T22:36:01+00:00",
             "releaseNotes": "New Features:\n- Removed IS_UNICODE (PHP6) support\n- Removed support for PHP <5.3.3\n- Timestamps encoded according to https://www.w3.org/TR/NOTE-datetime\n\nBugs Fixed:\n- Various missing free calls (remicollet, bd808)\n- Fix parameter parsing for yaml_emit_file\n- Fix callback handling for yaml_emit_file\n- Fix result of tag callback to be copied to aliases (ranvis)\n- #71696 Bad datetime management",
-            "get": "http://pecl.php.net/get/yaml-1.3.0b1",
+            "get": "https://pecl.php.net/get/yaml-1.3.0b1",
             "SPDX-License-Identifier": "MIT"
         },
         "1.2.0": {
@@ -273,7 +285,7 @@
             "releasedBy": "bd808",
             "releaseDate": "2015-05-18T15:05:22+00:00",
             "releaseNotes": "New Features:\n- #69617 Allow unserialize for !php/object to be disabled\n\n  New yaml.decode_php ini setting to enable/disable serialized php object\n  processing. Deployments relying on !php/object are encouraged to\n  explicitly set yaml.decode_php=1 as default will change to disabled in\n  a future release.\n\nBugs Fixed:\n- Honour --with-libdir\n- Fix package.xml schema validation\n- Add const for pointers where possible\n- Explicitly cast emalloc returns\n- #69465 Resolve quoted and non-specific scalars as strings\n- #69616 Fix double free when unserialize fails",
-            "get": "http://pecl.php.net/get/yaml-1.2.0",
+            "get": "https://pecl.php.net/get/yaml-1.2.0",
             "SPDX-License-Identifier": "MIT"
         },
         "1.1.1": {
@@ -283,7 +295,7 @@
             "releasedBy": "bd808",
             "releaseDate": "2013-11-18T23:37:39+00:00",
             "releaseNotes": "New Features:\n- Removed \"not yet implemented\" warning and deliberate abort from\n  yaml_emit_file()\nBugs Fixed:\n- #61770 Crash on nonunicode character\n- #61923 Detect_scalar_type() is not aware of base 60 representation\n- #63086 Compiling PHP with YAML as static extension fails\n- #64019 Segmentation fault if yaml anchor ends with a colon\n- #64694 Segfault when array used as mapping key",
-            "get": "http://pecl.php.net/get/yaml-1.1.1",
+            "get": "https://pecl.php.net/get/yaml-1.1.1",
             "SPDX-License-Identifier": "MIT"
         },
         "1.1.0": {
@@ -293,7 +305,7 @@
             "releasedBy": "bd808",
             "releaseDate": "2012-04-15T16:26:42+00:00",
             "releaseNotes": "Marking 1.1.0 branch as stable. No change from 1.1.0RC2.",
-            "get": "http://pecl.php.net/get/yaml-1.1.0",
+            "get": "https://pecl.php.net/get/yaml-1.1.0",
             "SPDX-License-Identifier": "MIT"
         },
         "1.1.0RC2": {
@@ -303,7 +315,7 @@
             "releasedBy": "bd808",
             "releaseDate": "2012-03-26T23:39:25+00:00",
             "releaseNotes": "Bugs Fixed:\n  - #61477 memset sizeof(struct) instead of sizeof(pointer)\n  - #61475 config.m4 honors `php-config --prefix`",
-            "get": "http://pecl.php.net/get/yaml-1.1.0RC2",
+            "get": "https://pecl.php.net/get/yaml-1.1.0RC2",
             "SPDX-License-Identifier": "MIT"
         },
         "1.1.0RC1": {
@@ -313,7 +325,7 @@
             "releasedBy": "bd808",
             "releaseDate": "2012-03-12T23:45:38+00:00",
             "releaseNotes": "New Features:\n - #59860 Callback support when parsing implicit tags\n - #60711 Callback support when emitting objects\nBugs Fixed:\n  - #59765 Build process does not honour custom CFLAGS\n  - #60628 Mystery circular references after tag callback",
-            "get": "http://pecl.php.net/get/yaml-1.1.0RC1",
+            "get": "https://pecl.php.net/get/yaml-1.1.0RC1",
             "SPDX-License-Identifier": "MIT"
         },
         "1.0.1": {
@@ -323,7 +335,7 @@
             "releasedBy": "bd808",
             "releaseDate": "2011-02-20T19:37:06+00:00",
             "releaseNotes": "- Bug #21995: fixed double free bug when a callback mapping is provided\n- corrected string length issue with callback \"tag\" argument\n- added \"tag\" and \"flags\" arguments to sequence and map callbacks",
-            "get": "http://pecl.php.net/get/yaml-1.0.1",
+            "get": "https://pecl.php.net/get/yaml-1.0.1",
             "SPDX-License-Identifier": "MIT"
         },
         "1.0.0": {
@@ -333,7 +345,7 @@
             "releasedBy": "bd808",
             "releaseDate": "2011-02-20T14:37:19+00:00",
             "releaseNotes": "Marking package as stable after 12 months of daily production usage.",
-            "get": "http://pecl.php.net/get/yaml-1.0.0",
+            "get": "https://pecl.php.net/get/yaml-1.0.0",
             "SPDX-License-Identifier": "MIT"
         },
         "0.6.3": {
@@ -343,7 +355,7 @@
             "releasedBy": "bd808",
             "releaseDate": "2010-02-09T14:12:51+00:00",
             "releaseNotes": "Fixed packaging problem that broke install via pecl channel.",
-            "get": "http://pecl.php.net/get/yaml-0.6.3",
+            "get": "https://pecl.php.net/get/yaml-0.6.3",
             "SPDX-License-Identifier": "MIT"
         },
         "0.6.2": {
@@ -353,7 +365,7 @@
             "releasedBy": "bd808",
             "releaseDate": "2010-02-06T18:33:22+00:00",
             "releaseNotes": "First release from new hosting at svn.php.net via pecl.php.net",
-            "get": "http://pecl.php.net/get/yaml-0.6.2",
+            "get": "https://pecl.php.net/get/yaml-0.6.2",
             "SPDX-License-Identifier": "MIT"
         }
     },

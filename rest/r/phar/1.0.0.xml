@@ -29,6 +29,6 @@ if the ini variable phar.require_hash is set to true.</d>
 Rename Phar-&gt;begin/isFlushingToPhar/commit to startBuffering/isBuffering/stopBuffering
 Note that isBuffering() returns the opposite value to isFlushingToPhar()</n>
  <f>50474</f>
- <g>http://pecl.php.net/get/phar-1.0.0</g>
+ <g>https://pecl.php.net/get/phar-1.0.0</g>
  <x xlink:href="package.1.0.0.xml"/>
 </r>

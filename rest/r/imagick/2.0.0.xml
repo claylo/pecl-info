@@ -20,6 +20,6 @@ IMPORTANT: Version 2.x API is not compatible with earlier versions.</d>
 + Added Imagick::IMAGICK_VERSION_NUMBER and Imagick::IMAGICK_VERSION_STRING constants
 + Fixed a possible crash in Imagick::newPseudoImage</n>
  <f>68818</f>
- <g>http://pecl.php.net/get/imagick-2.0.0</g>
+ <g>https://pecl.php.net/get/imagick-2.0.0</g>
  <x xlink:href="package.2.0.0.xml"/>
 </r>

@@ -35,6 +35,6 @@ Xdebug also provides:
   - Fixed issue #1421: Xdebug crashes when it is loaded without pcntl being
     present</n>
  <f>279085</f>
- <g>http://pecl.php.net/get/xdebug-2.5.3</g>
+ <g>https://pecl.php.net/get/xdebug-2.5.3</g>
  <x xlink:href="package.2.5.3.xml"/>
 </r>

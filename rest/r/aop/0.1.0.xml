@@ -19,6 +19,6 @@ AOP aims to allow separation of cross-cutting concerns (cache, log, security, tr
  <da>2012-07-05 11:42:36</da>
  <n>AOP In PHP</n>
  <f>29606</f>
- <g>http://pecl.php.net/get/AOP-0.1.0</g>
+ <g>https://pecl.php.net/get/AOP-0.1.0</g>
  <x xlink:href="package.0.1.0.xml"/>
 </r>

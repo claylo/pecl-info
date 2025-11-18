@@ -36,6 +36,6 @@ Sundown\Render\Base::LIST_ORDERED
 Sundown\Render\Base::MKDA_NORMAL
 Sundown\Render\Base::MKDA_EMAIL</n>
  <f>53331</f>
- <g>http://pecl.php.net/get/sundown-0.3.6</g>
+ <g>https://pecl.php.net/get/sundown-0.3.6</g>
  <x xlink:href="package.0.3.6.xml"/>
 </r>

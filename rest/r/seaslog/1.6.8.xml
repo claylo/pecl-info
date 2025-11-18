@@ -24,6 +24,6 @@
  <n>- Fixed issue #100 #102 #103 memory leak.
 - Fixed Dir chmod 0755 and File chmod 0666.</n>
  <f>76782</f>
- <g>http://pecl.php.net/get/SeasLog-1.6.8</g>
+ <g>https://pecl.php.net/get/SeasLog-1.6.8</g>
  <x xlink:href="package.1.6.8.xml"/>
 </r>

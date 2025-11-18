@@ -32,6 +32,6 @@
 - Allow to add timer in master process
 - Added configure options for pecl script</n>
  <f>729676</f>
- <g>http://pecl.php.net/get/swoole-1.10.4</g>
+ <g>https://pecl.php.net/get/swoole-1.10.4</g>
  <x xlink:href="package.1.10.4.xml"/>
 </r>

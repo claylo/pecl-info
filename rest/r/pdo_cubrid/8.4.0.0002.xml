@@ -18,6 +18,6 @@
 - Fix a bug in cubrid_stmt_next_rowset: new version cci_next_result will reuse the request handle, so do not close it before calling cci_next_result. 
 - Fix a bug about life cycle management of pdo_cubrid_stmt: when database connection is closed, all request handle will be closed in CCI too. So the handle in pdo_cubrid_stmt must be set to invalid value.</n>
  <f>21026</f>
- <g>http://pecl.php.net/get/PDO_CUBRID-8.4.0.0002</g>
+ <g>https://pecl.php.net/get/PDO_CUBRID-8.4.0.0002</g>
  <x xlink:href="package.8.4.0.0002.xml"/>
 </r>

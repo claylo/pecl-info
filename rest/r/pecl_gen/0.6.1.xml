@@ -20,6 +20,6 @@ PECL extension.
  <da>2003-06-29 19:40:00</da>
  <n>typo fix in package.xml dependencies entry for XML_Parser</n>
  <f>35645</f>
- <g>http://pecl.php.net/get/PECL_Gen-0.6.1</g>
+ <g>https://pecl.php.net/get/PECL_Gen-0.6.1</g>
  <x xlink:href="package.0.6.1.xml"/>
 </r>

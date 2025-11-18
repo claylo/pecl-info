@@ -18,6 +18,6 @@ More drivers to come (SNMP, e-mail, Hadoop,...).</d>
  <n>Changed:
 - upgraded UI by using tweeter boostrap and upgrading jqGrid</n>
  <f>265441</f>
- <g>http://pecl.php.net/get/APM-1.1.0RC2</g>
+ <g>https://pecl.php.net/get/APM-1.1.0RC2</g>
  <x xlink:href="package.1.1.0RC2.xml"/>
 </r>

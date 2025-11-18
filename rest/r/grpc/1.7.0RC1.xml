@@ -15,6 +15,6 @@
  <da>2017-10-11 19:41:22</da>
  <n>- Updated gRPC C Core library version 1.7</n>
  <f>2324194</f>
- <g>http://pecl.php.net/get/grpc-1.7.0RC1</g>
+ <g>https://pecl.php.net/get/grpc-1.7.0RC1</g>
  <x xlink:href="package.1.7.0RC1.xml"/>
 </r>

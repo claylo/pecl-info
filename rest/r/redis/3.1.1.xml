@@ -38,6 +38,6 @@ the php 5 and 7 codebase into a single branch.
 * Added explicit module dependancy for igbinary (@remicollet)
 * Added phpinfo serialization information (@remicollet)</n>
  <f>198597</f>
- <g>http://pecl.php.net/get/redis-3.1.1</g>
+ <g>https://pecl.php.net/get/redis-3.1.1</g>
  <x xlink:href="package.3.1.1.xml"/>
 </r>

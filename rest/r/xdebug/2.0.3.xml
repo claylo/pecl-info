@@ -42,6 +42,6 @@ Xdebug also provides:
 	- Added a CSS-class for xdebug's var_dump().
 	- Added support for the new E_DEPRECATED.</n>
  <f>286325</f>
- <g>http://pecl.php.net/get/xdebug-2.0.3</g>
+ <g>https://pecl.php.net/get/xdebug-2.0.3</g>
  <x xlink:href="package.2.0.3.xml"/>
 </r>

@@ -33,6 +33,6 @@
 - Update Server::send method, SSL connections can use sendfile
 - Added 27 unit test scripts</n>
  <f>702492</f>
- <g>http://pecl.php.net/get/swoole-1.9.17</g>
+ <g>https://pecl.php.net/get/swoole-1.9.17</g>
  <x xlink:href="package.1.9.17.xml"/>
 </r>

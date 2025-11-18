@@ -16,6 +16,6 @@
  <n>- Added Riak\ServerInfo class.
 - Fixed: The connection pool never got used if PHP was compiled without ZTS-</n>
  <f>128725</f>
- <g>http://pecl.php.net/get/riak-0.9.0</g>
+ <g>https://pecl.php.net/get/riak-0.9.0</g>
  <x xlink:href="package.0.9.0.xml"/>
 </r>

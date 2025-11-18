@@ -21,6 +21,6 @@
 - Fixed pecl bug #17130 (Uninitialized tv.tv_usec causing PHP to loop endlessly)
 - Fixed pecl bug #13623 (Memcache-client makes php segfault in semi-related code)</n>
  <f>35957</f>
- <g>http://pecl.php.net/get/memcache-2.2.6</g>
+ <g>https://pecl.php.net/get/memcache-2.2.6</g>
  <x xlink:href="package.2.2.6.xml"/>
 </r>

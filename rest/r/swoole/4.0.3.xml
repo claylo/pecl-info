@@ -41,6 +41,6 @@
 - Fixed all memory errors and invalid properties error
 - Fixed core dump when send without recv</n>
  <f>903874</f>
- <g>http://pecl.php.net/get/swoole-4.0.3</g>
+ <g>https://pecl.php.net/get/swoole-4.0.3</g>
  <x xlink:href="package.4.0.3.xml"/>
 </r>

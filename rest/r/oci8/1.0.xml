@@ -17,6 +17,6 @@ It wraps the Oracle Call Interface (OCI).
  <da>2003-12-15 13:05:00</da>
  <n>- Initial release in PECL, sources were taken from ext/oci8</n>
  <f>33060</f>
- <g>http://pecl.php.net/get/oci8-1.0</g>
+ <g>https://pecl.php.net/get/oci8-1.0</g>
  <x xlink:href="package.1.0.xml"/>
 </r>

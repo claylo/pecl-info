@@ -1,1 +1,1 @@
-"b3-62f127b3abeac-gzip"
+"b3-62f127b3abeac"

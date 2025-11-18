@@ -15,6 +15,6 @@
  <da>2009-11-04 07:37:32</da>
  <n>bug #16759 fixed, unit tests passed, live data use tested</n>
  <f>85059</f>
- <g>http://pecl.php.net/get/pdo_4d-0.3</g>
+ <g>https://pecl.php.net/get/pdo_4d-0.3</g>
  <x xlink:href="package.0.3.xml"/>
 </r>

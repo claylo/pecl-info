@@ -26,6 +26,6 @@ Fixed:
 - Decouple mysql backend from sqlite3 (#62288)
 - Invalid UTF-8 may cause backtrace to be truncated in MySQL driver (#62244)</n>
  <f>116917</f>
- <g>http://pecl.php.net/get/APM-1.1.0RC1</g>
+ <g>https://pecl.php.net/get/APM-1.1.0RC1</g>
  <x xlink:href="package.1.1.0RC1.xml"/>
 </r>

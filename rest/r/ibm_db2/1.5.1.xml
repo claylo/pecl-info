@@ -21,6 +21,6 @@ Bug fix for binding two parameters out of order
 Options fix for setting cursor to scrollable
 Fix for db2_free_result segfault</n>
  <f>151913</f>
- <g>http://pecl.php.net/get/ibm_db2-1.5.1</g>
+ <g>https://pecl.php.net/get/ibm_db2-1.5.1</g>
  <x xlink:href="package.1.5.1.xml"/>
 </r>

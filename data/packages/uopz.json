@@ -105,7 +105,7 @@
             "releasedBy": "remi",
             "releaseDate": "2017-08-03T12:57:37+00:00",
             "releaseNotes": "- add uopz.disable ini switch (default 0)\n- fix gh#43: setting hook on __invoke method doesn't work on call_user_func\n- fix gh#48: segmentation fault (uopz_set_return)\n- add 4 new functions:\n    - uopz_call_user_func(callable function, ... args)\n    - uopz_get_exit_status()\n    - uopz_allow_exit(bool allow)\n    - uopz_call_user_func_array(callable function, array args)\n- fix PHP 7.1 compatibility\n- fix PHP 7.2 compatibility",
-            "get": "http://pecl.php.net/get/uopz-5.0.2",
+            "get": "https://pecl.php.net/get/uopz-5.0.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "5.0.1": {
@@ -115,7 +115,7 @@
             "releasedBy": "remi",
             "releaseDate": "2016-04-13T12:34:01+00:00",
             "releaseNotes": "- PHP 7 compatibility\n- new API, see documentation",
-            "get": "http://pecl.php.net/get/uopz-5.0.1",
+            "get": "https://pecl.php.net/get/uopz-5.0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.7": {
@@ -125,7 +125,7 @@
             "releasedBy": "krakjoe",
             "releaseDate": "2015-03-04T07:58:34+00:00",
             "releaseNotes": "fix bug in overriding methods in classes loaded prior to override\nadd ability to send object from ZEND_NEW handler\nsend exit parameter to overload function\nfix bug in handling exit status code when overloading disabled\nset exit status code when overloading enabled from return value",
-            "get": "http://pecl.php.net/get/uopz-2.0.7",
+            "get": "https://pecl.php.net/get/uopz-2.0.7",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.6": {
@@ -135,7 +135,7 @@
             "releasedBy": "krakjoe",
             "releaseDate": "2014-10-15T07:48:28+00:00",
             "releaseNotes": "fix builds with >= 50600 (zend_is_true changes)",
-            "get": "http://pecl.php.net/get/uopz-2.0.6",
+            "get": "https://pecl.php.net/get/uopz-2.0.6",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.5": {
@@ -145,7 +145,7 @@
             "releasedBy": "krakjoe",
             "releaseDate": "2014-06-05T02:28:02+00:00",
             "releaseNotes": "fix issue when closure in static scope replaces method",
-            "get": "http://pecl.php.net/get/uopz-2.0.5",
+            "get": "https://pecl.php.net/get/uopz-2.0.5",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.4": {
@@ -155,7 +155,7 @@
             "releasedBy": "krakjoe",
             "releaseDate": "2014-04-04T04:59:55+00:00",
             "releaseNotes": "set overloads to 0 by default",
-            "get": "http://pecl.php.net/get/uopz-2.0.4",
+            "get": "https://pecl.php.net/get/uopz-2.0.4",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.3": {
@@ -165,7 +165,7 @@
             "releasedBy": "krakjoe",
             "releaseDate": "2014-04-03T01:27:11+00:00",
             "releaseNotes": "fix leaks in FETCH_CLASS ADD_TRAIT and ADD_INTERFACE overloads",
-            "get": "http://pecl.php.net/get/uopz-2.0.3",
+            "get": "https://pecl.php.net/get/uopz-2.0.3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.2": {
@@ -175,7 +175,7 @@
             "releasedBy": "krakjoe",
             "releaseDate": "2014-04-01T13:36:25+00:00",
             "releaseNotes": "disable overloads by configuration\nadd uopz_flags function",
-            "get": "http://pecl.php.net/get/uopz-2.0.2",
+            "get": "https://pecl.php.net/get/uopz-2.0.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.1": {
@@ -185,7 +185,7 @@
             "releasedBy": "krakjoe",
             "releaseDate": "2014-03-31T14:07:35+00:00",
             "releaseNotes": "fix build error in some setups",
-            "get": "http://pecl.php.net/get/uopz-2.0.1",
+            "get": "https://pecl.php.net/get/uopz-2.0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.0": {
@@ -195,7 +195,7 @@
             "releasedBy": "krakjoe",
             "releaseDate": "2014-03-31T01:01:33+00:00",
             "releaseNotes": "API finalized, no moar changes\nfix logical error in uopz_extend\nfix logical errors in uopz_compose\nenforce using correct handlers (stability++)\nfix scope issue in global functions created with uopz_function\ntake modifiers to uopz_function for global functions\nfix bug in uopz_delete on magic methods",
-            "get": "http://pecl.php.net/get/uopz-2.0.0",
+            "get": "https://pecl.php.net/get/uopz-2.0.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.11": {
@@ -205,7 +205,7 @@
             "releasedBy": "krakjoe",
             "releaseDate": "2014-03-30T09:05:57+00:00",
             "releaseNotes": "fix unresolved external symbols on some builds\nfix bug in overload for add trait/interface",
-            "get": "http://pecl.php.net/get/uopz-1.0.11",
+            "get": "https://pecl.php.net/get/uopz-1.0.11",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.10": {
@@ -215,7 +215,7 @@
             "releasedBy": "krakjoe",
             "releaseDate": "2014-03-30T08:26:51+00:00",
             "releaseNotes": "take properties to compose",
-            "get": "http://pecl.php.net/get/uopz-1.0.10",
+            "get": "https://pecl.php.net/get/uopz-1.0.10",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.9": {
@@ -225,7 +225,7 @@
             "releasedBy": "krakjoe",
             "releaseDate": "2014-03-30T04:25:31+00:00",
             "releaseNotes": "fix bug in finding functions, affecting various\nadd more tests",
-            "get": "http://pecl.php.net/get/uopz-1.0.9",
+            "get": "https://pecl.php.net/get/uopz-1.0.9",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.8": {
@@ -235,7 +235,7 @@
             "releasedBy": "krakjoe",
             "releaseDate": "2014-03-29T15:20:33+00:00",
             "releaseNotes": "fix bug in applying method modifiers\nwork on uopz_compose, compose classes in one function call is possible",
-            "get": "http://pecl.php.net/get/uopz-1.0.8",
+            "get": "https://pecl.php.net/get/uopz-1.0.8",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.7": {
@@ -245,7 +245,7 @@
             "releasedBy": "krakjoe",
             "releaseDate": "2014-03-29T11:10:07+00:00",
             "releaseNotes": "fix bug in applying method modifiers",
-            "get": "http://pecl.php.net/get/uopz-1.0.7",
+            "get": "https://pecl.php.net/get/uopz-1.0.7",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.6": {
@@ -255,7 +255,7 @@
             "releasedBy": "krakjoe",
             "releaseDate": "2014-03-29T03:18:20+00:00",
             "releaseNotes": "fix memory error causing segfault in auto backup\nallow composition of interfaces and traits\nenforce inheritance rules while composing classes",
-            "get": "http://pecl.php.net/get/uopz-1.0.6",
+            "get": "https://pecl.php.net/get/uopz-1.0.6",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.5": {
@@ -265,7 +265,7 @@
             "releasedBy": "krakjoe",
             "releaseDate": "2014-03-27T19:49:01+00:00",
             "releaseNotes": "fix various scope issues\nuse exceptions where appropriate\ntidy all code\nadd some more tests",
-            "get": "http://pecl.php.net/get/uopz-1.0.5",
+            "get": "https://pecl.php.net/get/uopz-1.0.5",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.4": {
@@ -275,7 +275,7 @@
             "releasedBy": "krakjoe",
             "releaseDate": "2014-03-27T13:34:20+00:00",
             "releaseNotes": "add copy\nfix various scope issues\nfix heap corruption issue\nauto backup on uopz_function",
-            "get": "http://pecl.php.net/get/uopz-1.0.4",
+            "get": "https://pecl.php.net/get/uopz-1.0.4",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.3": {
@@ -285,7 +285,7 @@
             "releasedBy": "krakjoe",
             "releaseDate": "2014-03-24T14:38:54+00:00",
             "releaseNotes": "allow overriding static scope on created methods\nadd backup/restore functions (auto restore internal functions)",
-            "get": "http://pecl.php.net/get/uopz-1.0.3",
+            "get": "https://pecl.php.net/get/uopz-1.0.3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.2": {
@@ -295,7 +295,7 @@
             "releasedBy": "krakjoe",
             "releaseDate": "2014-03-24T05:34:38+00:00",
             "releaseNotes": "allow compose to take constructor\napply magic to methods created with uopz_function\ncapture class scope for created methods",
-            "get": "http://pecl.php.net/get/uopz-1.0.2",
+            "get": "https://pecl.php.net/get/uopz-1.0.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.1": {
@@ -305,7 +305,7 @@
             "releasedBy": "krakjoe",
             "releaseDate": "2014-03-23T14:03:42+00:00",
             "releaseNotes": "fix compatibility with 5.4",
-            "get": "http://pecl.php.net/get/uopz-1.0.1",
+            "get": "https://pecl.php.net/get/uopz-1.0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.0": {
@@ -315,7 +315,7 @@
             "releasedBy": "krakjoe",
             "releaseDate": "2014-03-23T07:55:41+00:00",
             "releaseNotes": "First release",
-            "get": "http://pecl.php.net/get/uopz-1.0.0",
+            "get": "https://pecl.php.net/get/uopz-1.0.0",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

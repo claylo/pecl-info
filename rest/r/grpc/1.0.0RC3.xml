@@ -15,6 +15,6 @@
  <da>2016-07-28 19:29:39</da>
  <n>- PHP7 Support continued, reduce code duplication #7543</n>
  <f>1910021</f>
- <g>http://pecl.php.net/get/grpc-1.0.0RC3</g>
+ <g>https://pecl.php.net/get/grpc-1.0.0RC3</g>
  <x xlink:href="package.1.0.0RC3.xml"/>
 </r>

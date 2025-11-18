@@ -36,6 +36,6 @@ http://snaps.php.net/win32/PECL_STABLE/php_sqlite.dll
 Fixed some build issues for thread-safe builds.
 Increase the default busy timeout interval to 60 seconds.</n>
  <f>354024</f>
- <g>http://pecl.php.net/get/SQLite-1.0</g>
+ <g>https://pecl.php.net/get/SQLite-1.0</g>
  <x xlink:href="package.1.0.xml"/>
 </r>

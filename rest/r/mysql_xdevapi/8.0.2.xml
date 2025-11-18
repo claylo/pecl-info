@@ -31,6 +31,6 @@ WL-10089/10392 DevAPI: Cleanup Drop APIs
 WL-10390: DevAPI, Document UUID generation
 WL-10506: Bugs and Clarifications</n>
  <f>306050</f>
- <g>http://pecl.php.net/get/mysql_xdevapi-8.0.2</g>
+ <g>https://pecl.php.net/get/mysql_xdevapi-8.0.2</g>
  <x xlink:href="package.8.0.2.xml"/>
 </r>

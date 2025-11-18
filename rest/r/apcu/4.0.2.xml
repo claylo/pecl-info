@@ -18,6 +18,6 @@
 - Fixed resource leak when data preload fails. (Anatol)
 - Fixed issue #29 php_apcu.dll does not load anymore under X64. (Anatol)</n>
  <f>120325</f>
- <g>http://pecl.php.net/get/apcu-4.0.2</g>
+ <g>https://pecl.php.net/get/apcu-4.0.2</g>
  <x xlink:href="package.4.0.2.xml"/>
 </r>

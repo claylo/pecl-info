@@ -42,6 +42,6 @@ Xdebug also provides:
 	  environments (Patch by Francis.Grolemund@netapp.com).
 	- Fixed bug #558: PHP segfaults when running a nested eval.</n>
  <f>299030</f>
- <g>http://pecl.php.net/get/xdebug-2.1.0RC1</g>
+ <g>https://pecl.php.net/get/xdebug-2.1.0RC1</g>
  <x xlink:href="package.2.1.0RC1.xml"/>
 </r>

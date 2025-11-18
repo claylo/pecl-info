@@ -26,6 +26,6 @@ OS (for example against Windows Active-Directory via IAS).
 - Removed unneeded sources
 - Some cleanup's</n>
  <f>29502</f>
- <g>http://pecl.php.net/get/radius-1.2.1</g>
+ <g>https://pecl.php.net/get/radius-1.2.1</g>
  <x xlink:href="package.1.2.1.xml"/>
 </r>

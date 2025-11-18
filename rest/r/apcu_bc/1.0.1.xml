@@ -17,6 +17,6 @@
 - apc_cache_info: both parameters are optional
 - add dep on APCu extension</n>
  <f>6500</f>
- <g>http://pecl.php.net/get/apcu_bc-1.0.1</g>
+ <g>https://pecl.php.net/get/apcu_bc-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

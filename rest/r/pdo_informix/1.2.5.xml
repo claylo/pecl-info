@@ -22,6 +22,6 @@ Problem while inserting NULL in CLOB field.
 Bug fixed - PDO error info throws SEGV on SQL_SUCCESS.
 Updating test cases.</n>
  <f>65594</f>
- <g>http://pecl.php.net/get/PDO_INFORMIX-1.2.5</g>
+ <g>https://pecl.php.net/get/PDO_INFORMIX-1.2.5</g>
  <x xlink:href="package.1.2.5.xml"/>
 </r>

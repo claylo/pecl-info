@@ -17,6 +17,6 @@
 - Fixed github issue #12 (Build with GCC 8 is broken)
 - Fixed github issue #14 (Misspelled constant name)</n>
  <f>112478</f>
- <g>http://pecl.php.net/get/parle-0.8.0</g>
+ <g>https://pecl.php.net/get/parle-0.8.0</g>
  <x xlink:href="package.0.8.0.xml"/>
 </r>

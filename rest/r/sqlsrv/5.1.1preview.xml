@@ -33,6 +33,6 @@
   - unixODBC &lt;= 2.3.4 (Linux and MAC) might not return proper diagnostics information, such as error messages, warnings and informative messages
   - due to this unixODBC bug, fetch large data (such as xml, binary) as streams as a workaround. See the examples [here](https://github.com/Microsoft/msphpsql/wiki/Connection-Pooling-on-Linux-and-Mac)</n>
  <f>171252</f>
- <g>http://pecl.php.net/get/sqlsrv-5.1.1preview</g>
+ <g>https://pecl.php.net/get/sqlsrv-5.1.1preview</g>
  <x xlink:href="package.5.1.1preview.xml"/>
 </r>

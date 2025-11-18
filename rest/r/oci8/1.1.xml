@@ -19,6 +19,6 @@ the Oracle Call Interface (OCI8).
 statement caching, external credentials etc.
 See official announce for details.</n>
  <f>60864</f>
- <g>http://pecl.php.net/get/oci8-1.1</g>
+ <g>https://pecl.php.net/get/oci8-1.1</g>
  <x xlink:href="package.1.1.xml"/>
 </r>

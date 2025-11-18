@@ -34,6 +34,6 @@
     - Added swoole_process_pool
     - Added swoole_msgqueue</n>
  <f>830074</f>
- <g>http://pecl.php.net/get/swoole-2.1.2</g>
+ <g>https://pecl.php.net/get/swoole-2.1.2</g>
  <x xlink:href="package.2.1.2.xml"/>
 </r>

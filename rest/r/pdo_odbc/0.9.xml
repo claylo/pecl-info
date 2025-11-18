@@ -20,6 +20,6 @@ You also require either IBM DB2 CLI libraries or unixODBC.
 If you are running on windows, you can download the binary from here:
 http://snaps.php.net/win32/PECL_5_0/php_pdo_odbc.dll</n>
  <f>12838</f>
- <g>http://pecl.php.net/get/PDO_ODBC-0.9</g>
+ <g>https://pecl.php.net/get/PDO_ODBC-0.9</g>
  <x xlink:href="package.0.9.xml"/>
 </r>

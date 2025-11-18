@@ -17,6 +17,6 @@
 - Fixed Bug #14 (&quot;Invalid read&quot; reported by valgrind)
 - Fixed FR #8 (Return on unserialization)</n>
  <f>55999</f>
- <g>http://pecl.php.net/get/msgpack-0.5.5</g>
+ <g>https://pecl.php.net/get/msgpack-0.5.5</g>
  <x xlink:href="package.0.5.5.xml"/>
 </r>

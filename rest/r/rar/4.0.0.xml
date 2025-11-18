@@ -19,6 +19,6 @@
 - Changed stat handler to return UTC time for creation, modification and access time (does not work reliably on Windows).
 - Fix cloning of RarArchive being allowed.</n>
  <f>383732</f>
- <g>http://pecl.php.net/get/rar-4.0.0</g>
+ <g>https://pecl.php.net/get/rar-4.0.0</g>
  <x xlink:href="package.4.0.0.xml"/>
 </r>

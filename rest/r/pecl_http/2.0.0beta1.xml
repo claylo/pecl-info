@@ -33,6 +33,6 @@
 + Added QueryString proxy methods to http\Env\Request
 + Added Serializable to http\Message\Body's interfaces</n>
  <f>152301</f>
- <g>http://pecl.php.net/get/pecl_http-2.0.0beta1</g>
+ <g>https://pecl.php.net/get/pecl_http-2.0.0beta1</g>
  <x xlink:href="package.2.0.0beta1.xml"/>
 </r>

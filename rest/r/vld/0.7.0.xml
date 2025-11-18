@@ -20,6 +20,6 @@ bugs and changes the way on how VLD is activated. Only if the
 configure setting &quot;vld.active&quot; is set to &quot;1&quot; it will dump the
 op arrays.</n>
  <f>7416</f>
- <g>http://pecl.php.net/get/vld-0.7.0</g>
+ <g>https://pecl.php.net/get/vld-0.7.0</g>
  <x xlink:href="package.0.7.0.xml"/>
 </r>

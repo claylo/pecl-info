@@ -17,6 +17,6 @@
 - Fixed bug that $this is not Yaf_View_Simple in render method which was introduced in 2.2.3
 - Fixed memleak in Yaf_View_Simple::display()</n>
  <f>92546</f>
- <g>http://pecl.php.net/get/yaf-2.2.4</g>
+ <g>https://pecl.php.net/get/yaf-2.2.4</g>
  <x xlink:href="package.2.2.4.xml"/>
 </r>

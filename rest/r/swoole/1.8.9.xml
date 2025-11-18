@@ -38,6 +38,6 @@
 - Fixed Swoole\Http\Client memory leak on PHP7
 - Fixed Swoole\Http\Server crash when uploading files on PHP7</n>
  <f>522403</f>
- <g>http://pecl.php.net/get/swoole-1.8.9</g>
+ <g>https://pecl.php.net/get/swoole-1.8.9</g>
  <x xlink:href="package.1.8.9.xml"/>
 </r>

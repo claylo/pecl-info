@@ -20,6 +20,6 @@ Using this extension with on a non reverse proxied system will result in a secur
  <da>2011-05-04 15:04:16</da>
  <n>pecl channel fix</n>
  <f>4763</f>
- <g>http://pecl.php.net/get/txforward-1.0.7</g>
+ <g>https://pecl.php.net/get/txforward-1.0.7</g>
  <x xlink:href="package.1.0.7.xml"/>
 </r>

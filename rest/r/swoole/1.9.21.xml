@@ -36,6 +36,6 @@
 - Fixed sendfile on the MacOS platform there is a 5 second delay problem
 - Added Process::setTimeout</n>
  <f>707603</f>
- <g>http://pecl.php.net/get/swoole-1.9.21</g>
+ <g>https://pecl.php.net/get/swoole-1.9.21</g>
  <x xlink:href="package.1.9.21.xml"/>
 </r>

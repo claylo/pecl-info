@@ -19,6 +19,6 @@
 - Fixed issue #163 (forward from init controller)
 - Fixed Bug #70913 (Segfault while new Yaf_Controller)</n>
  <f>95274</f>
- <g>http://pecl.php.net/get/yaf-3.0.1</g>
+ <g>https://pecl.php.net/get/yaf-3.0.1</g>
  <x xlink:href="package.3.0.1.xml"/>
 </r>

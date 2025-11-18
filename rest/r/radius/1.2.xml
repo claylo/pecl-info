@@ -27,6 +27,6 @@ OS (for example against Windows Active-Directory via IAS).
 - Some minor changes in radius-auth.php
 - Added php-script for testing MS-CHAP functions</n>
  <f>30171</f>
- <g>http://pecl.php.net/get/radius-1.2</g>
+ <g>https://pecl.php.net/get/radius-1.2</g>
  <x xlink:href="package.1.2.xml"/>
 </r>

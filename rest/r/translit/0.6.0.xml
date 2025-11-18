@@ -20,6 +20,6 @@ punctuation and spacing.</d>
  <da>2008-04-01 13:37:50</da>
  <n>- Fixed typing issues, fixes segfaults and strange behavior.</n>
  <f>102854</f>
- <g>http://pecl.php.net/get/translit-0.6.0</g>
+ <g>https://pecl.php.net/get/translit-0.6.0</g>
  <x xlink:href="package.0.6.0.xml"/>
 </r>

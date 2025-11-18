@@ -21,6 +21,6 @@
 - Fixed incorrect column count being returned on a non executed statement
 - Fixed lack of library when using the shared sqlite3</n>
  <f>744852</f>
- <g>http://pecl.php.net/get/sqlite3-0.5</g>
+ <g>https://pecl.php.net/get/sqlite3-0.5</g>
  <x xlink:href="package.0.5.xml"/>
 </r>

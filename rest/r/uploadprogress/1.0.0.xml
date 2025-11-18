@@ -17,6 +17,6 @@
  <da>2009-03-15 13:42:27</da>
  <n>- Fixed a renaming issue with temporary files on Windows and PHP 5.2.</n>
  <f>7761</f>
- <g>http://pecl.php.net/get/uploadprogress-1.0.0</g>
+ <g>https://pecl.php.net/get/uploadprogress-1.0.0</g>
  <x xlink:href="package.1.0.0.xml"/>
 </r>

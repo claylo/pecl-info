@@ -27,6 +27,6 @@ Fix: pathnames in tests
 Change: dropped preprocessor checks on non-UNIX platforms, i.e. no plans to
 support non-UNIX</n>
  <f>23056</f>
- <g>http://pecl.php.net/get/eio-0.1.1</g>
+ <g>https://pecl.php.net/get/eio-0.1.1</g>
  <x xlink:href="package.0.1.1.xml"/>
 </r>

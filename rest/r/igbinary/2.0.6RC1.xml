@@ -21,6 +21,6 @@
 * Fix harmless compiler warnings during builds.
 * Fix a build error on PHP7.3-dev.</n>
  <f>73400</f>
- <g>http://pecl.php.net/get/igbinary-2.0.6RC1</g>
+ <g>https://pecl.php.net/get/igbinary-2.0.6RC1</g>
  <x xlink:href="package.2.0.6RC1.xml"/>
 </r>

@@ -30,6 +30,6 @@ Fixed:
 - Bug #17513: Using MySQL driver, only events of the first incoming request are stored.
 - Bug #19421: apm.*_error_reporting is ignored.</n>
  <f>112419</f>
- <g>http://pecl.php.net/get/APM-1.0.0beta3</g>
+ <g>https://pecl.php.net/get/APM-1.0.0beta3</g>
  <x xlink:href="package.1.0.0beta3.xml"/>
 </r>

@@ -17,6 +17,6 @@
  <n>Fix in PHP7: memory leak due to incorrect default loop destruction.
 Change: removed pthreads dependency(pthread_atfork setup for the ev_loop_fork(EV_DEFAULT) call)</n>
  <f>124792</f>
- <g>http://pecl.php.net/get/ev-1.0.0RC4</g>
+ <g>https://pecl.php.net/get/ev-1.0.0RC4</g>
  <x xlink:href="package.1.0.0RC4.xml"/>
 </r>

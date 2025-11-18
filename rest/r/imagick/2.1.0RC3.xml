@@ -19,6 +19,6 @@ IMPORTANT: Version 2.x API is not compatible with earlier versions.</d>
  <n>- Fixes PECL Bug #12851
 - Some major housekeeping changing numeral values to constants</n>
  <f>74514</f>
- <g>http://pecl.php.net/get/imagick-2.1.0RC3</g>
+ <g>https://pecl.php.net/get/imagick-2.1.0RC3</g>
  <x xlink:href="package.2.1.0RC3.xml"/>
 </r>

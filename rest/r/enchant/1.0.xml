@@ -28,6 +28,6 @@ see www.abisource.com/enchant/
 - Fixed various function prototypes.
 - Fixed possible leak in suggestions result.</n>
  <f>6864</f>
- <g>http://pecl.php.net/get/enchant-1.0</g>
+ <g>https://pecl.php.net/get/enchant-1.0</g>
  <x xlink:href="package.1.0.xml"/>
 </r>

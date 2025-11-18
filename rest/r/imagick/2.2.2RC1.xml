@@ -20,6 +20,6 @@ IMPORTANT: Version 2.x API is not compatible with earlier versions.</d>
 - Added getImageCompressionQuality
 - Fixes building against PHP 5.3</n>
  <f>75934</f>
- <g>http://pecl.php.net/get/imagick-2.2.2RC1</g>
+ <g>https://pecl.php.net/get/imagick-2.2.2RC1</g>
  <x xlink:href="package.2.2.2RC1.xml"/>
 </r>

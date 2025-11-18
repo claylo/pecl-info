@@ -15,6 +15,6 @@
  <da>2013-06-13 06:37:02</da>
  <n>package.xml is hard but it should work now</n>
  <f>80720</f>
- <g>http://pecl.php.net/get/riak-0.4.2</g>
+ <g>https://pecl.php.net/get/riak-0.4.2</g>
  <x xlink:href="package.0.4.2.xml"/>
 </r>

@@ -18,6 +18,6 @@ IMPORTANT: Version 2.x API is not compatible with earlier versions.</d>
  <da>2009-02-06 17:13:15</da>
  <n>- No bugs reported against RC4 so releasing it as is</n>
  <f>77212</f>
- <g>http://pecl.php.net/get/imagick-2.2.2</g>
+ <g>https://pecl.php.net/get/imagick-2.2.2</g>
  <x xlink:href="package.2.2.2.xml"/>
 </r>

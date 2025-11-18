@@ -18,6 +18,6 @@ Apache Derby databases.
  <da>2006-07-24 09:55:27</da>
  <n>Fix for memory leak on failed connection attempt and failed statement execution</n>
  <f>146826</f>
- <g>http://pecl.php.net/get/ibm_db2-1.4.10</g>
+ <g>https://pecl.php.net/get/ibm_db2-1.4.10</g>
  <x xlink:href="package.1.4.10.xml"/>
 </r>

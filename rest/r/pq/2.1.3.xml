@@ -26,6 +26,6 @@
  <n>* Fix gh-issue #27: crash in pq\Connection::escapeBytea()
 + Update static pq\Types with PostgreSQL-10 types</n>
  <f>67352</f>
- <g>http://pecl.php.net/get/pq-2.1.3</g>
+ <g>https://pecl.php.net/get/pq-2.1.3</g>
  <x xlink:href="package.2.1.3.xml"/>
 </r>

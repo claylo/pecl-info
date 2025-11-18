@@ -21,6 +21,6 @@
 - Fix php_stream_cast() usage.
 - fixes for windows build and php 5.4 compat</n>
  <f>55300</f>
- <g>http://pecl.php.net/get/memcache-3.0.7</g>
+ <g>https://pecl.php.net/get/memcache-3.0.7</g>
  <x xlink:href="package.3.0.7.xml"/>
 </r>

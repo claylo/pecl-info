@@ -15,7 +15,7 @@
             "releasedBy": "pollita",
             "releaseDate": "2007-11-13T06:50:35+00:00",
             "releaseNotes": "Initial Release",
-            "get": "http://pecl.php.net/get/params-1.0",
+            "get": "https://pecl.php.net/get/params-1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

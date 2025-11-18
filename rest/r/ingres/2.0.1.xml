@@ -24,6 +24,6 @@
  - Revised PECL_INGRES_VERSION to take in to consideration --enable-ingres2
  - Fixed LOB retrieval when used with scollable cursors with Ingres 9.2.0</n>
  <f>65715</f>
- <g>http://pecl.php.net/get/ingres-2.0.1</g>
+ <g>https://pecl.php.net/get/ingres-2.0.1</g>
  <x xlink:href="package.2.0.1.xml"/>
 </r>

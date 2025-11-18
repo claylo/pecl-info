@@ -19,6 +19,6 @@
 - Fixed bug that segv occurred while using a custom view engine
 - Fixed one memleak</n>
  <f>82225</f>
- <g>http://pecl.php.net/get/yaf-2.1.16</g>
+ <g>https://pecl.php.net/get/yaf-2.1.16</g>
  <x xlink:href="package.2.1.16.xml"/>
 </r>

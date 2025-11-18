@@ -15,6 +15,6 @@
  <da>2011-02-16 12:13:00</da>
  <n>- Connect timeout does not set read timeout</n>
  <f>15265</f>
- <g>http://pecl.php.net/get/mogilefs-0.8.1</g>
+ <g>https://pecl.php.net/get/mogilefs-0.8.1</g>
  <x xlink:href="package.0.8.1.xml"/>
 </r>

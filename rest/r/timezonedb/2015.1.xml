@@ -20,6 +20,6 @@ located at http://www.iana.org/time-zones.</d>
  <da>2015-02-01 13:32:33</da>
  <n>Updated to version 2015.1 (2015a)</n>
  <f>197812</f>
- <g>http://pecl.php.net/get/timezonedb-2015.1</g>
+ <g>https://pecl.php.net/get/timezonedb-2015.1</g>
  <x xlink:href="package.2015.1.xml"/>
 </r>

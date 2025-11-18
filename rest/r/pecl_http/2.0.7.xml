@@ -38,6 +38,6 @@ v2: http://dev.iworks.at/ext-http/lcov/ext/http/</d>
 * Fixed use after free if the http\Client::enqueue() closure returns TRUE
 * Fixed bug #67584 (http\Client\Response not initialized as response on failure)</n>
  <f>155545</f>
- <g>http://pecl.php.net/get/pecl_http-2.0.7</g>
+ <g>https://pecl.php.net/get/pecl_http-2.0.7</g>
  <x xlink:href="package.2.0.7.xml"/>
 </r>

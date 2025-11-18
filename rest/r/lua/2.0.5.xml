@@ -18,6 +18,6 @@
 - Fix non-string member access in read/write prop. (SaraG)
 - Fix allocation of lua object. (SaraG)</n>
  <f>14818</f>
- <g>http://pecl.php.net/get/lua-2.0.5</g>
+ <g>https://pecl.php.net/get/lua-2.0.5</g>
  <x xlink:href="package.2.0.5.xml"/>
 </r>

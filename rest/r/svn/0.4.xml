@@ -22,6 +22,6 @@
 - Allow svn_commit() to take a string instead of an array for paths.
 - Revert backwards compatible break with svn_log()</n>
  <f>22108</f>
- <g>http://pecl.php.net/get/svn-0.4</g>
+ <g>https://pecl.php.net/get/svn-0.4</g>
  <x xlink:href="package.0.4.xml"/>
 </r>

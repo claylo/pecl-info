@@ -16,6 +16,6 @@
  <da>2012-09-13 18:02:33</da>
  <n>- [update] remove schema URI from send/sendAsync proto</n>
  <f>11094</f>
- <g>http://pecl.php.net/get/xcommerce-1.0.3</g>
+ <g>https://pecl.php.net/get/xcommerce-1.0.3</g>
  <x xlink:href="package.1.0.3.xml"/>
 </r>

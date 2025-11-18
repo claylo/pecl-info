@@ -20,6 +20,6 @@ NOTE: This is the last release that supports PHP 7.0.
 Changes list:
   - refactor methods name to follow PSR-2 camelCase convention;</n>
  <f>177119</f>
- <g>http://pecl.php.net/get/v8-0.1.9</g>
+ <g>https://pecl.php.net/get/v8-0.1.9</g>
  <x xlink:href="package.0.1.9.xml"/>
 </r>

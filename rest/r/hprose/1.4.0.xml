@@ -42,6 +42,6 @@
  <n>Added windows support.
         Faster write of HproseBytesIO for long string.</n>
  <f>47061</f>
- <g>http://pecl.php.net/get/hprose-1.4.0</g>
+ <g>https://pecl.php.net/get/hprose-1.4.0</g>
  <x xlink:href="package.1.4.0.xml"/>
 </r>

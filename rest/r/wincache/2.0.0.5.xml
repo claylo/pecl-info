@@ -19,6 +19,6 @@
 - Fix IS_REFERENCE zvals passed to wincache_ucache_[inc|dec] functions
 - Minor bug fixes and tweaks</n>
  <f>140990</f>
- <g>http://pecl.php.net/get/WINCACHE-2.0.0.5</g>
+ <g>https://pecl.php.net/get/WINCACHE-2.0.0.5</g>
  <x xlink:href="package.2.0.0.5.xml"/>
 </r>

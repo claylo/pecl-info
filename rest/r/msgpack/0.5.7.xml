@@ -16,6 +16,6 @@
  <n>- Add support deserializing the bin format family
 - Implement Issue #49, implement the 'compatibility mode' mentioned in msgpack implementation guidelines</n>
  <f>57150</f>
- <g>http://pecl.php.net/get/msgpack-0.5.7</g>
+ <g>https://pecl.php.net/get/msgpack-0.5.7</g>
  <x xlink:href="package.0.5.7.xml"/>
 </r>

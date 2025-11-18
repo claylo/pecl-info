@@ -43,6 +43,6 @@ Xdebug also provides:
 
   - Fixed issue #1487: Re-enable IPv6 test on Travis</n>
  <f>283961</f>
- <g>http://pecl.php.net/get/xdebug-2.6.1</g>
+ <g>https://pecl.php.net/get/xdebug-2.6.1</g>
  <x xlink:href="package.2.6.1.xml"/>
 </r>

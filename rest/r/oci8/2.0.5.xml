@@ -30,6 +30,6 @@ Oracle 9.2 client libraries are available.)
 Re-enable php_oci8.dll and php_oci8_11g.dll for Windows builds so URL
 links work in the new Windows PECL infrastructure.</n>
  <f>188213</f>
- <g>http://pecl.php.net/get/oci8-2.0.5</g>
+ <g>https://pecl.php.net/get/oci8-2.0.5</g>
  <x xlink:href="package.2.0.5.xml"/>
 </r>

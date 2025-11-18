@@ -36,6 +36,6 @@
 - Added the reload_async option to control the asynchronous reboot of the switch
 - Added the tcp_fastopen option to turn on TCP fast handshake</n>
  <f>704242</f>
- <g>http://pecl.php.net/get/swoole-1.9.19</g>
+ <g>https://pecl.php.net/get/swoole-1.9.19</g>
  <x xlink:href="package.1.9.19.xml"/>
 </r>

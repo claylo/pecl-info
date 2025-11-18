@@ -24,6 +24,6 @@ implemented in PHP GMP extension, but it needn't any external libraries.</d>
 - removed unnesessary files from package: regression tests and calc application, based on BIG_INT library.
   These files are still avaible at BIG_INT homepage http://chat.finalcombat.com/valyala/big_int/</n>
  <f>42597</f>
- <g>http://pecl.php.net/get/big_int-1.0.0</g>
+ <g>https://pecl.php.net/get/big_int-1.0.0</g>
  <x xlink:href="package.1.0.0.xml"/>
 </r>

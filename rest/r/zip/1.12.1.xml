@@ -16,6 +16,6 @@
  <n>- fix build on some linux
 - fix zip_set_file_compression</n>
  <f>264431</f>
- <g>http://pecl.php.net/get/zip-1.12.1</g>
+ <g>https://pecl.php.net/get/zip-1.12.1</g>
  <x xlink:href="package.1.12.1.xml"/>
 </r>

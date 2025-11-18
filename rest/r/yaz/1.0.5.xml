@@ -23,6 +23,6 @@ to get details about hit counts for parts of a query.
 Added support for new yaz_connect options, preferredMessageSize and
 maximumRecordSize.</n>
  <f>16432</f>
- <g>http://pecl.php.net/get/yaz-1.0.5</g>
+ <g>https://pecl.php.net/get/yaz-1.0.5</g>
  <x xlink:href="package.1.0.5.xml"/>
 </r>

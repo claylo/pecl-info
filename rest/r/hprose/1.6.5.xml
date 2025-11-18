@@ -41,6 +41,6 @@
  <da>2016-06-10 12:31:03</da>
  <n>Fixed PHP 7.1 build.</n>
  <f>42109</f>
- <g>http://pecl.php.net/get/hprose-1.6.5</g>
+ <g>https://pecl.php.net/get/hprose-1.6.5</g>
  <x xlink:href="package.1.6.5.xml"/>
 </r>

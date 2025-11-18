@@ -34,6 +34,6 @@ v2: http://dev.iworks.at/ext-http/lcov/ext/http/</d>
 * Fixed bug #68149 (duplicate content-length with libcurl &lt; 7.23)
 * Fixed bug #66891 (Unexpected HTTP 401 after NTLM authentication)</n>
  <f>159005</f>
- <g>http://pecl.php.net/get/pecl_http-2.1.4</g>
+ <g>https://pecl.php.net/get/pecl_http-2.1.4</g>
  <x xlink:href="package.2.1.4.xml"/>
 </r>

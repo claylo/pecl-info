@@ -20,6 +20,6 @@ IMPORTANT: Version 2.x API is not compatible with earlier versions.</d>
 - Fixed thumbnail resize bug (#GH-1)
 - Fixed building against latest PHP versions</n>
  <f>93396</f>
- <g>http://pecl.php.net/get/imagick-3.1.0RC3</g>
+ <g>https://pecl.php.net/get/imagick-3.1.0RC3</g>
  <x xlink:href="package.3.1.0RC3.xml"/>
 </r>

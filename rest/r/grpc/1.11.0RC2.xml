@@ -19,6 +19,6 @@
 - Windows build fix #14960
 - gRPC C Core 1.11 uptake</n>
  <f>2455379</f>
- <g>http://pecl.php.net/get/grpc-1.11.0RC2</g>
+ <g>https://pecl.php.net/get/grpc-1.11.0RC2</g>
  <x xlink:href="package.1.11.0RC2.xml"/>
 </r>

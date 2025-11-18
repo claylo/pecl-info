@@ -18,6 +18,6 @@
  <da>2004-11-23 23:33:00</da>
  <n>Some cleanups and bug fixes, added config file ca_config.h for multiple ca's, added ca_prom_get() ca_convert() (hex2long, bin2hex, hex2bin conversion), changed initializer</n>
  <f>10617</f>
- <g>http://pecl.php.net/get/coin_acceptor-0.3</g>
+ <g>https://pecl.php.net/get/coin_acceptor-0.3</g>
  <x xlink:href="package.0.3.xml"/>
 </r>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/pdo_oci">PDO_OCI</p>
+ <c>pecl.php.net</c>
+ <v>0.2</v>
+ <st>beta</st>
+ <l>PHP</l>
+ <m>wez</m>
+ <s>Oracle Call Interface driver for PDO</s>
+ <d>This extension provides an Oracle driver for PDO.
+</d>
+ <da>2005-02-09 05:15:00</da>
+ <n>You need to install the PDO core module before you can make use of this one.
+You also require Oracle OCI 8 or higher client libraries installed on the machine where you intend to build and/or use it.
+
+If you are running on windows, you can download the binary from here:
+http://snaps.php.net/win32/PECL_5_0/php_pdo_oci.dll</n>
+ <f>10992</f>
+ <g>https://pecl.php.net/get/PDO_OCI-0.2</g>
+ <x xlink:href="package.0.2.xml"/>
+</r>

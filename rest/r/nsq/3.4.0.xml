@@ -16,6 +16,6 @@
  <n>* fix process management
 * fix pub error</n>
  <f>19641</f>
- <g>http://pecl.php.net/get/nsq-3.4.0</g>
+ <g>https://pecl.php.net/get/nsq-3.4.0</g>
  <x xlink:href="package.3.4.0.xml"/>
 </r>

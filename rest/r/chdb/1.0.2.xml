@@ -27,6 +27,6 @@ thus guaranteeing worst case O(1) lookup time.</d>
 - Use RuntimeException instead of Exception for runtime errors.
 - Generate slightly better error in case of input size of 1.</n>
  <f>9835</f>
- <g>http://pecl.php.net/get/chdb-1.0.2</g>
+ <g>https://pecl.php.net/get/chdb-1.0.2</g>
  <x xlink:href="package.1.0.2.xml"/>
 </r>

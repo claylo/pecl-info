@@ -15,6 +15,6 @@
  <da>2013-07-08 16:47:34</da>
  <n>Bump PECL package info version check to allow PECL installs with PHP 5.5+</n>
  <f>169248</f>
- <g>http://pecl.php.net/get/oci8-1.4.10</g>
+ <g>https://pecl.php.net/get/oci8-1.4.10</g>
  <x xlink:href="package.1.4.10.xml"/>
 </r>

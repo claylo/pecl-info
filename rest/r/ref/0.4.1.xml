@@ -18,6 +18,6 @@
   was thrown before such destruction (outside notifiers and referent object destructor) (#17);
 - do not call soft notifiers if original object was prevented from being destroyed in one of notifiers (#18).</n>
  <f>36546</f>
- <g>http://pecl.php.net/get/ref-0.4.1</g>
+ <g>https://pecl.php.net/get/ref-0.4.1</g>
  <x xlink:href="package.0.4.1.xml"/>
 </r>

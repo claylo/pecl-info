@@ -16,6 +16,6 @@
  <n>- Fixed PECL bug #13684 (tdb fails to configure on FreeBSD)
 - Improved configure checks in order to detect wrong TDB version.</n>
  <f>11205</f>
- <g>http://pecl.php.net/get/tdb-1.0.0</g>
+ <g>https://pecl.php.net/get/tdb-1.0.0</g>
  <x xlink:href="package.1.0.0.xml"/>
 </r>

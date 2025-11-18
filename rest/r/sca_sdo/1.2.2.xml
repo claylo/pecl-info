@@ -29,6 +29,6 @@
    - Added the eServiceStore example - shows several components which can be make local or
      remote with only a swift change of the @binding annotations.</n>
  <f>492328</f>
- <g>http://pecl.php.net/get/SCA_SDO-1.2.2</g>
+ <g>https://pecl.php.net/get/SCA_SDO-1.2.2</g>
  <x xlink:href="package.1.2.2.xml"/>
 </r>

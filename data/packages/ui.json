@@ -15,7 +15,7 @@
             "releasedBy": "krakjoe",
             "releaseDate": "2016-11-02T06:10:49+00:00",
             "releaseNotes": "Refactor of Brushes:\n  UI\\Draw\\Brush\n  abstract UI\\Draw\\Brush\\Gradient\n  UI\\Draw\\Brush\\LinearGradient\n  UI\\Draw\\Brush\\RadialGradient\nUI\\Draw\\Color Improvements:\n  Direct access to channels by name (r, g, b, a) as properties, (case insensitive)\n  Allow the use of RRGGBBAA integers in place of UI\\Draw\\Color\nUI\\Draw\\Path Improvements:\n  Use Path::Winding as default mode\nUI\\Draw\\Pen Improvements:\n  Allow UI\\Draw\\Color (or RRGGBBAA integer) in place of UI\\Draw\\Brush (fill, stroke)\nUI\\Executor:\n  Scheduled executor service for animations superceeds and replaces App::onTick mechanism\nUI\\App:\n  Removed, it should be obvious that run/quit are global functions\nUI\\Window:\n  Fixed onClosing",
-            "get": "http://pecl.php.net/get/UI-2.0.0",
+            "get": "https://pecl.php.net/get/UI-2.0.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.3": {
@@ -25,7 +25,7 @@
             "releasedBy": "krakjoe",
             "releaseDate": "2016-10-30T06:23:08+00:00",
             "releaseNotes": "UI\\Draw\\Text\\Font\\Descriptor::getFamily\nUI\\Draw\\Text\\Font\\Descriptor::getSize\nUI\\Draw\\Text\\Font\\Descriptor::getWeight\nUI\\Draw\\Text\\Font\\Descriptor::getItalic\nUI\\Draw\\Text\\Font\\Descriptor::getStretch\nUI\\Draw\\Text\\Font::getAscent\nUI\\Draw\\Text\\Font::getDescent\nUI\\Draw\\Text\\Font::getLeading\nUI\\Draw\\Text\\Font::getUnderlinePosition\nUI\\Draw\\Text\\Font::getUnderlineThickness\nRadial and Linear Gradients\nUI\\Draw\\Brush::addStop\nUI\\Draw\\Brush::delStop\nUI\\Draw\\Brush::setStop\nExceptions\nArrangement controls child list\nArrangement controls API improvements",
-            "get": "http://pecl.php.net/get/UI-1.0.3",
+            "get": "https://pecl.php.net/get/UI-1.0.3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.2": {
@@ -35,7 +35,7 @@
             "releasedBy": "krakjoe",
             "releaseDate": "2016-10-28T09:43:39+00:00",
             "releaseNotes": "UI\\Size and UI\\Point support for basic math operators (+,/,*,-) fixed\nUI\\Point cast to UI\\Size with UI\\Size::of(UI\\Point) (can also take double-ish)\nUI\\Size cast to UI\\Point with UI\\Point::at(UI\\Size) (can also take double-ish)",
-            "get": "http://pecl.php.net/get/UI-1.0.2",
+            "get": "https://pecl.php.net/get/UI-1.0.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.1": {
@@ -45,7 +45,7 @@
             "releasedBy": "krakjoe",
             "releaseDate": "2016-10-26T07:03:27+00:00",
             "releaseNotes": "Fix windows onTick",
-            "get": "http://pecl.php.net/get/UI-1.0.1",
+            "get": "https://pecl.php.net/get/UI-1.0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.0": {
@@ -55,7 +55,7 @@
             "releasedBy": "krakjoe",
             "releaseDate": "2016-10-25T08:13:38+00:00",
             "releaseNotes": "App::run changes (see docs)\nApp::onTick (see docs)\nUI\\Key enumeration\nUI\\Point and UI\\Size math operations\nReference counting for layout controls\nFix build when x is not available",
-            "get": "http://pecl.php.net/get/UI-1.0.0",
+            "get": "https://pecl.php.net/get/UI-1.0.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.9.9": {
@@ -65,7 +65,7 @@
             "releasedBy": "krakjoe",
             "releaseDate": "2016-10-23T11:08:28+00:00",
             "releaseNotes": "initial release",
-            "get": "http://pecl.php.net/get/UI-0.9.9",
+            "get": "https://pecl.php.net/get/UI-0.9.9",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

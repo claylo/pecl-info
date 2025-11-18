@@ -16,6 +16,6 @@
  <n>- Added driver version to php info output
 - Fixed crash when fetching string data</n>
  <f>31514</f>
- <g>http://pecl.php.net/get/PDO_SQLANYWHERE-0.1.3</g>
+ <g>https://pecl.php.net/get/PDO_SQLANYWHERE-0.1.3</g>
  <x xlink:href="package.0.1.3.xml"/>
 </r>

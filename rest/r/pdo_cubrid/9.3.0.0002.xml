@@ -15,6 +15,6 @@
  <da>2015-01-14 20:24:40</da>
  <n>1) Update cci to 9.3.0.0206</n>
  <f>1005105</f>
- <g>http://pecl.php.net/get/PDO_CUBRID-9.3.0.0002</g>
+ <g>https://pecl.php.net/get/PDO_CUBRID-9.3.0.0002</g>
  <x xlink:href="package.9.3.0.0002.xml"/>
 </r>

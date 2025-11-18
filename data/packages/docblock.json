@@ -15,7 +15,7 @@
             "releasedBy": "cellog",
             "releaseDate": "2006-06-27T19:35:08+00:00",
             "releaseNotes": "Bugfix release\n- fix Bug #7952: terse mode ignores simplelist end\n- fix Bug #7953: {@internal}} returned as inline tag inside <code>",
-            "get": "http://pecl.php.net/get/docblock-0.2.0",
+            "get": "https://pecl.php.net/get/docblock-0.2.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.1.0": {
@@ -25,7 +25,7 @@
             "releasedBy": "cellog",
             "releaseDate": "2005-11-22T02:01:43+00:00",
             "releaseNotes": "Initial release.  This release supports all docblock features that\nphpDocumentor supports.",
-            "get": "http://pecl.php.net/get/docblock-0.1.0",
+            "get": "https://pecl.php.net/get/docblock-0.1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

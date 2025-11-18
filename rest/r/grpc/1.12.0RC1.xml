@@ -16,6 +16,6 @@
  <n>- Persistent channel and tests related fixes: #14991, #15061, #15082, #15171
 - gRPC C Core 1.12 uptake</n>
  <f>2459528</f>
- <g>http://pecl.php.net/get/grpc-1.12.0RC1</g>
+ <g>https://pecl.php.net/get/grpc-1.12.0RC1</g>
  <x xlink:href="package.1.12.0RC1.xml"/>
 </r>

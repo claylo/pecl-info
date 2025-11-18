@@ -21,6 +21,6 @@
 - Allow only strings as the append/prepend value.
 - Remove expiration parameter from append/prepend.</n>
  <f>19588</f>
- <g>http://pecl.php.net/get/memcached-0.1.2</g>
+ <g>https://pecl.php.net/get/memcached-0.1.2</g>
  <x xlink:href="package.0.1.2.xml"/>
 </r>

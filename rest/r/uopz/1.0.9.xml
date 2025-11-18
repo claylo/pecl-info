@@ -16,6 +16,6 @@
  <n>fix bug in finding functions, affecting various
 add more tests</n>
  <f>25741</f>
- <g>http://pecl.php.net/get/uopz-1.0.9</g>
+ <g>https://pecl.php.net/get/uopz-1.0.9</g>
  <x xlink:href="package.1.0.9.xml"/>
 </r>

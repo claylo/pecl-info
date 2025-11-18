@@ -18,6 +18,6 @@ Apache Derby databases.
  <da>2007-06-20 13:27:52</da>
  <n>Fixed bug -- db2_fetch_assoc() of BLOB columns</n>
  <f>122914</f>
- <g>http://pecl.php.net/get/ibm_db2-1.6.2</g>
+ <g>https://pecl.php.net/get/ibm_db2-1.6.2</g>
  <x xlink:href="package.1.6.2.xml"/>
 </r>

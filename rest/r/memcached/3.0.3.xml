@@ -21,6 +21,6 @@ Fixes
  * Fix crash when checking session data with older versions of libmemcached (#328)
  * Fix crash due to zend_mm_corrupted when fetching session data (#327)</n>
  <f>77310</f>
- <g>http://pecl.php.net/get/memcached-3.0.3</g>
+ <g>https://pecl.php.net/get/memcached-3.0.3</g>
  <x xlink:href="package.3.0.3.xml"/>
 </r>

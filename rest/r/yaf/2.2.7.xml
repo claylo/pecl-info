@@ -16,6 +16,6 @@
  <n>- Improve the templates directory handling
 - Fixed bug #63438 (Strange behavior with nested rendering)</n>
  <f>94864</f>
- <g>http://pecl.php.net/get/yaf-2.2.7</g>
+ <g>https://pecl.php.net/get/yaf-2.2.7</g>
  <x xlink:href="package.2.2.7.xml"/>
 </r>

@@ -31,6 +31,6 @@ avaiable then SHA-256 and SHA-512 signatures are supported as well.</d>
 * remove unused variables
 * fix jit file open sprintf calls</n>
  <f>95522</f>
- <g>http://pecl.php.net/get/phar-1.2.2</g>
+ <g>https://pecl.php.net/get/phar-1.2.2</g>
  <x xlink:href="package.1.2.2.xml"/>
 </r>

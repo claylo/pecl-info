@@ -22,6 +22,6 @@ necessary to build a fully-functional MongoDB driver.</d>
     * [PHPC-1168] - Advise macOS users to install using PECL
     * [PHPC-1197] - Check for unistd.h when compiling bundled zLib</n>
  <f>1043458</f>
- <g>http://pecl.php.net/get/mongodb-1.4.4</g>
+ <g>https://pecl.php.net/get/mongodb-1.4.4</g>
  <x xlink:href="package.1.4.4.xml"/>
 </r>

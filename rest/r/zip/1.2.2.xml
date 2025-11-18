@@ -19,6 +19,6 @@
 - fix a leak when the ::open method is called twice or more with the same
 object</n>
  <f>39637</f>
- <g>http://pecl.php.net/get/zip-1.2.2</g>
+ <g>https://pecl.php.net/get/zip-1.2.2</g>
  <x xlink:href="package.1.2.2.xml"/>
 </r>

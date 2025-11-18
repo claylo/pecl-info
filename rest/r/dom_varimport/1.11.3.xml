@@ -25,6 +25,6 @@
     * Relax a little test 003 - may help with tests &quot;false-negatives&quot; [remicollet]
     * Update README, link to TravisCI integration</n>
  <f>11672</f>
- <g>http://pecl.php.net/get/dom_varimport-1.11.3</g>
+ <g>https://pecl.php.net/get/dom_varimport-1.11.3</g>
  <x xlink:href="package.1.11.3.xml"/>
 </r>

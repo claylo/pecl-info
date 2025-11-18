@@ -40,6 +40,6 @@ Xdebug also provides:
 	- Fixed bug #300: Direction of var_dump().
 	- Always set the transaction_id and command. (Related to bug #313).</n>
  <f>279621</f>
- <g>http://pecl.php.net/get/xdebug-2.0.2</g>
+ <g>https://pecl.php.net/get/xdebug-2.0.2</g>
  <x xlink:href="package.2.0.2.xml"/>
 </r>

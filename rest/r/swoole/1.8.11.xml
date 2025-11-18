@@ -33,6 +33,6 @@
 - Added SIGRTMIN signal handler, used to reopen the log file
 - Fixed server crash on Cygwin environment</n>
  <f>523334</f>
- <g>http://pecl.php.net/get/swoole-1.8.11</g>
+ <g>https://pecl.php.net/get/swoole-1.8.11</g>
  <x xlink:href="package.1.8.11.xml"/>
 </r>

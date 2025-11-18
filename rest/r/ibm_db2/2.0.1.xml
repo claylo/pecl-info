@@ -20,6 +20,6 @@ Fixed : Security flaw with using user and password for hashing in db2_pconnect.
 Fxied : Local scope bound values in a class are not used
 Fixed : Compilation issue of PHP-5.6 in windows.</n>
  <f>190000</f>
- <g>http://pecl.php.net/get/ibm_db2-2.0.1</g>
+ <g>https://pecl.php.net/get/ibm_db2-2.0.1</g>
  <x xlink:href="package.2.0.1.xml"/>
 </r>

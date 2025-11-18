@@ -20,6 +20,6 @@
 - Full sync with zip-0.7.1
 - #8009, modify archives on windows cannot be closed</n>
  <f>43569</f>
- <g>http://pecl.php.net/get/zip-1.4.0</g>
+ <g>https://pecl.php.net/get/zip-1.4.0</g>
  <x xlink:href="package.1.4.0.xml"/>
 </r>

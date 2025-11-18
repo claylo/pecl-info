@@ -20,6 +20,6 @@ Apache Derby databases.
 Fixing db2_bind_param for a clean exit.
 Fix for Pecl bug 10353 and adding deferred prepare statement option</n>
  <f>122974</f>
- <g>http://pecl.php.net/get/ibm_db2-1.6.1</g>
+ <g>https://pecl.php.net/get/ibm_db2-1.6.1</g>
  <x xlink:href="package.1.6.1.xml"/>
 </r>

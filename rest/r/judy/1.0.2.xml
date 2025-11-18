@@ -19,6 +19,6 @@
  <n>- Bug fix with count/size, see https://github.com/orieg/php-judy/issues/15
 - Add missing test files in package.xml</n>
  <f>24174</f>
- <g>http://pecl.php.net/get/Judy-1.0.2</g>
+ <g>https://pecl.php.net/get/Judy-1.0.2</g>
  <x xlink:href="package.1.0.2.xml"/>
 </r>

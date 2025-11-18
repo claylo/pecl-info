@@ -16,6 +16,6 @@
  <n>- #49072, feof never returns true for damaged file in zip 
 - Fix possible crash when zip stream are used, the file entry stream was desroyed after the archive.</n>
  <f>236912</f>
- <g>http://pecl.php.net/get/zip-1.10.2</g>
+ <g>https://pecl.php.net/get/zip-1.10.2</g>
  <x xlink:href="package.1.10.2.xml"/>
 </r>

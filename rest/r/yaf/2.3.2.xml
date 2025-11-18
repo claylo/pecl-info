@@ -19,6 +19,6 @@
   - Added Yaf_Route::assemble. (Now you can assemble url via routes)
   - Fixed Segfault if a empty application.directory is set</n>
  <f>105177</f>
- <g>http://pecl.php.net/get/yaf-2.3.2</g>
+ <g>https://pecl.php.net/get/yaf-2.3.2</g>
  <x xlink:href="package.2.3.2.xml"/>
 </r>

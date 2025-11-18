@@ -125,7 +125,7 @@
             "releasedBy": "macintoshplus",
             "releaseDate": "2018-03-09T16:21:14+00:00",
             "releaseNotes": "Add support for use a non admin account for start, stop, pause, resume service.\nAdd support for PHP 7.2.\nFix bugs.\nThe binary is also available here: https://github.com/InExtenso/win32service/releases/tag/v0.3.0",
-            "get": "http://pecl.php.net/get/win32service-0.3.0",
+            "get": "https://pecl.php.net/get/win32service-0.3.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.2.1": {
@@ -135,7 +135,7 @@
             "releasedBy": "macintoshplus",
             "releaseDate": "2017-05-02T17:05:07+00:00",
             "releaseNotes": "Fix issue with PHP 7.1.4.\nThe binary is also available here: https://github.com/InExtenso/win32service/releases/tag/v0.2.1",
-            "get": "http://pecl.php.net/get/win32service-0.2.1",
+            "get": "https://pecl.php.net/get/win32service-0.2.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.2.0": {
@@ -145,7 +145,7 @@
             "releasedBy": "macintoshplus",
             "releaseDate": "2017-03-23T08:07:02+00:00",
             "releaseNotes": "Update for PHP 7.0 and 7.1.\nThe binary is available here: https://github.com/InExtenso/win32service/releases/tag/v0.2.0",
-            "get": "http://pecl.php.net/get/win32service-0.2.0",
+            "get": "https://pecl.php.net/get/win32service-0.2.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.1.0": {
@@ -155,7 +155,7 @@
             "releasedBy": "rquadling",
             "releaseDate": "2011-03-15T12:04:38+00:00",
             "releaseNotes": "- Initial PECL release",
-            "get": "http://pecl.php.net/get/win32service-0.1.0",
+            "get": "https://pecl.php.net/get/win32service-0.1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

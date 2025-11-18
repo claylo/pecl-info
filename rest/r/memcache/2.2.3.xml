@@ -21,6 +21,6 @@
 - Fixed PECL bug #13060 (make problems, due to role=&quot;doc&quot; instead of role=&quot;src&quot;)
 - Added package version to phpinfo()</n>
  <f>27304</f>
- <g>http://pecl.php.net/get/memcache-2.2.3</g>
+ <g>https://pecl.php.net/get/memcache-2.2.3</g>
  <x xlink:href="package.2.2.3.xml"/>
 </r>

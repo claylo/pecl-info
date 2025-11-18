@@ -18,6 +18,6 @@
  <n>- Added imagick_border(). (pierre-alain joye)
       - Fixed return of annotate and rotate (true on success). (pierre-alain joye)</n>
  <f>13316</f>
- <g>http://pecl.php.net/get/imagick-0.1.2</g>
+ <g>https://pecl.php.net/get/imagick-0.1.2</g>
  <x xlink:href="package.0.1.2.xml"/>
 </r>

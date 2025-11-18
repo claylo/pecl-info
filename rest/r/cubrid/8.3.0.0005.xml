@@ -21,6 +21,6 @@
 - fix a bug in last db connect/request life cycle management : if there is no var to refer these resources, then they will be removed by garbage collector.
 - fix a bug in cubrid_unbuffered_query which can cause memory leak : when query execution fails, it don't free the allocated request resource.</n>
  <f>37945</f>
- <g>http://pecl.php.net/get/CUBRID-8.3.0.0005</g>
+ <g>https://pecl.php.net/get/CUBRID-8.3.0.0005</g>
  <x xlink:href="package.8.3.0.0005.xml"/>
 </r>

@@ -28,6 +28,6 @@ Bug Fixes:
 * [PHP-43] Fixed timeout handling in `Cassandra\ExecutionOptions`
 * [PHP-44] Fixed memory leak</n>
  <f>92826</f>
- <g>http://pecl.php.net/get/cassandra-1.0.0</g>
+ <g>https://pecl.php.net/get/cassandra-1.0.0</g>
  <x xlink:href="package.1.0.0.xml"/>
 </r>

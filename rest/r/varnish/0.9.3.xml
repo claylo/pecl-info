@@ -19,6 +19,6 @@
 * VarnishAdmin::vclUse()
 - multiple leak and bug fixes</n>
  <f>29213</f>
- <g>http://pecl.php.net/get/varnish-0.9.3</g>
+ <g>https://pecl.php.net/get/varnish-0.9.3</g>
  <x xlink:href="package.0.9.3.xml"/>
 </r>

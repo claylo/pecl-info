@@ -27,6 +27,6 @@
 - Removed http\Env\Response::CONTENT_DISPOSOTION_* constants
 - Removed http\Request\Method class; request methods are now used as simple strings</n>
  <f>144090</f>
- <g>http://pecl.php.net/get/pecl_http-2.0.0dev9</g>
+ <g>https://pecl.php.net/get/pecl_http-2.0.0dev9</g>
  <x xlink:href="package.2.0.0dev9.xml"/>
 </r>

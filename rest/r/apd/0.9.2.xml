@@ -17,6 +17,6 @@
  <n>Fix for crash error with pprofp on some systems.  
 Fix for crash on 64 bit.</n>
  <f>36989</f>
- <g>http://pecl.php.net/get/apd-0.9.2</g>
+ <g>https://pecl.php.net/get/apd-0.9.2</g>
  <x xlink:href="package.0.9.2.xml"/>
 </r>

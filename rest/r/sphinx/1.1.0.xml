@@ -17,6 +17,6 @@
  - Fixed PECL bug #18325 (support 1.10-beta string attributes)
  - Fixed PECL bug #17558 (time taken in search result was incorrect)</n>
  <f>12870</f>
- <g>http://pecl.php.net/get/sphinx-1.1.0</g>
+ <g>https://pecl.php.net/get/sphinx-1.1.0</g>
  <x xlink:href="package.1.1.0.xml"/>
 </r>

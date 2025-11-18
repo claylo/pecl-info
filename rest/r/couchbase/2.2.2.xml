@@ -24,6 +24,6 @@ Changes:
 * PCBC-423: report N1QL error details via logger
 * Documentation updates and bug fixes</n>
  <f>61304</f>
- <g>http://pecl.php.net/get/couchbase-2.2.2</g>
+ <g>https://pecl.php.net/get/couchbase-2.2.2</g>
  <x xlink:href="package.2.2.2.xml"/>
 </r>

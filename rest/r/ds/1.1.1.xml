@@ -15,6 +15,6 @@
  <da>2016-08-03 17:37:20</da>
  <n>Fix memory leaks where objects were not free'd correctly</n>
  <f>49636</f>
- <g>http://pecl.php.net/get/ds-1.1.1</g>
+ <g>https://pecl.php.net/get/ds-1.1.1</g>
  <x xlink:href="package.1.1.1.xml"/>
 </r>

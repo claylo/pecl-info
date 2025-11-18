@@ -18,6 +18,6 @@
  <n>- ensure var_dump() does not SEGV on php-5.2 
 - add an optional thaw=false parameter for hidef_fetch()</n>
  <f>16582</f>
- <g>http://pecl.php.net/get/hidef-0.1.7</g>
+ <g>https://pecl.php.net/get/hidef-0.1.7</g>
  <x xlink:href="package.0.1.7.xml"/>
 </r>

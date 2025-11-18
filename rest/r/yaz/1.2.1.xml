@@ -19,6 +19,6 @@ Find more information at:
  <da>2016-08-12 12:47:30</da>
  <n>Use YAZ 5 for Windows build. Fix &quot;l&quot; args for yaz_range and yaz_record.</n>
  <f>20147</f>
- <g>http://pecl.php.net/get/yaz-1.2.1</g>
+ <g>https://pecl.php.net/get/yaz-1.2.1</g>
  <x xlink:href="package.1.2.1.xml"/>
 </r>

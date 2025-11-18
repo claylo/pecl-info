@@ -44,6 +44,6 @@ Bugfixes
 - fix build on Windows with VS2017 (thanks @Jan-E)
 - fix enumeration of methods on V8 6.3</n>
  <f>101564</f>
- <g>http://pecl.php.net/get/v8js-2.0.0</g>
+ <g>https://pecl.php.net/get/v8js-2.0.0</g>
  <x xlink:href="package.2.0.0.xml"/>
 </r>

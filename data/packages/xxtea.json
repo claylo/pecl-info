@@ -15,7 +15,7 @@
             "releasedBy": "andot",
             "releaseDate": "2016-01-05T15:53:22+00:00",
             "releaseNotes": "Moved include php.h from .c to .h",
-            "get": "http://pecl.php.net/get/xxtea-1.0.11",
+            "get": "https://pecl.php.net/get/xxtea-1.0.11",
             "SPDX-License-Identifier": "MIT"
         },
         "1.0.10": {
@@ -25,7 +25,7 @@
             "releasedBy": "andot",
             "releaseDate": "2015-03-27T23:05:45+00:00",
             "releaseNotes": "Fixed typo in configure output",
-            "get": "http://pecl.php.net/get/xxtea-1.0.10",
+            "get": "https://pecl.php.net/get/xxtea-1.0.10",
             "SPDX-License-Identifier": "MIT"
         },
         "1.0.9": {
@@ -35,7 +35,7 @@
             "releasedBy": "andot",
             "releaseDate": "2015-03-23T05:20:19+00:00",
             "releaseNotes": "Added Changelog",
-            "get": "http://pecl.php.net/get/xxtea-1.0.9",
+            "get": "https://pecl.php.net/get/xxtea-1.0.9",
             "SPDX-License-Identifier": "MIT"
         },
         "1.0.8": {
@@ -45,7 +45,7 @@
             "releasedBy": "andot",
             "releaseDate": "2015-03-23T04:55:41+00:00",
             "releaseNotes": "Initial release to PECL",
-            "get": "http://pecl.php.net/get/xxtea-1.0.8",
+            "get": "https://pecl.php.net/get/xxtea-1.0.8",
             "SPDX-License-Identifier": "MIT"
         },
         "1.0.7": {
@@ -55,7 +55,7 @@
             "releasedBy": "andot",
             "releaseDate": "2015-03-23T04:27:56+00:00",
             "releaseNotes": "Initial release to PECL",
-            "get": "http://pecl.php.net/get/xxtea-1.0.7",
+            "get": "https://pecl.php.net/get/xxtea-1.0.7",
             "SPDX-License-Identifier": "MIT"
         },
         "1.0.6": {
@@ -65,7 +65,7 @@
             "releasedBy": "andot",
             "releaseDate": "2015-03-23T02:52:29+00:00",
             "releaseNotes": "Initial release to PECL",
-            "get": "http://pecl.php.net/get/xxtea-1.0.6",
+            "get": "https://pecl.php.net/get/xxtea-1.0.6",
             "SPDX-License-Identifier": "MIT"
         },
         "1.0.5": {
@@ -75,7 +75,7 @@
             "releasedBy": "andot",
             "releaseDate": "2015-03-23T01:36:06+00:00",
             "releaseNotes": "Initial release to PECL",
-            "get": "http://pecl.php.net/get/xxtea-1.0.5",
+            "get": "https://pecl.php.net/get/xxtea-1.0.5",
             "SPDX-License-Identifier": "MIT"
         }
     },

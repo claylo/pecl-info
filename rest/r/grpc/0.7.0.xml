@@ -18,6 +18,6 @@
 - New plugin based metadata auth API #4394
 - Explicit ChannelCredentials::createInsecure() call</n>
  <f>19757</f>
- <g>http://pecl.php.net/get/grpc-0.7.0</g>
+ <g>https://pecl.php.net/get/grpc-0.7.0</g>
  <x xlink:href="package.0.7.0.xml"/>
 </r>

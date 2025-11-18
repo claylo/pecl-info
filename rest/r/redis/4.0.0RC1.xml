@@ -37,6 +37,6 @@
 * Use zend_string for storing auth and prefix members [4b8336f7] (Pavlo Yatsukhnenko)
 * Documentation improvements (Michael Grunder, @TomA-R)</n>
  <f>210588</f>
- <g>http://pecl.php.net/get/redis-4.0.0RC1</g>
+ <g>https://pecl.php.net/get/redis-4.0.0RC1</g>
  <x xlink:href="package.4.0.0RC1.xml"/>
 </r>

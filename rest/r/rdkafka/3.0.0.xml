@@ -16,6 +16,6 @@
  <n>* Unified code for PHP versions 5 and 7. This package builds and works on
   PHP 5.3 through PHP 7.x.</n>
  <f>29115</f>
- <g>http://pecl.php.net/get/rdkafka-3.0.0</g>
+ <g>https://pecl.php.net/get/rdkafka-3.0.0</g>
  <x xlink:href="package.3.0.0.xml"/>
 </r>

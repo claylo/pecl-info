@@ -28,6 +28,6 @@
 * Use special template for Bison
 * The parser and scanner is rebuilt only if enabled in configuration</n>
  <f>86120</f>
- <g>http://pecl.php.net/get/jsond-1.4.0RC1</g>
+ <g>https://pecl.php.net/get/jsond-1.4.0RC1</g>
  <x xlink:href="package.1.4.0RC1.xml"/>
 </r>

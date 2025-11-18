@@ -21,6 +21,6 @@
  <n>Fix persistent memory usage with --enable-dtrace
 Export get_module() for Windows php_oci8_12c.dll</n>
  <f>187781</f>
- <g>http://pecl.php.net/get/oci8-2.0.4</g>
+ <g>https://pecl.php.net/get/oci8-2.0.4</g>
  <x xlink:href="package.2.0.4.xml"/>
 </r>

@@ -27,6 +27,6 @@
 - Don't failover on &quot;object to large&quot; errors
 - Use $phpincludedir for finding php_session.h</n>
  <f>24745</f>
- <g>http://pecl.php.net/get/memcache-2.2.0</g>
+ <g>https://pecl.php.net/get/memcache-2.2.0</g>
  <x xlink:href="package.2.2.0.xml"/>
 </r>

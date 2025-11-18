@@ -31,6 +31,6 @@
  <n>- Fixed WebSocket::unpack memory leak
 - Fixed server accept blocking in MacOS platform</n>
  <f>573631</f>
- <g>http://pecl.php.net/get/swoole-1.9.13</g>
+ <g>https://pecl.php.net/get/swoole-1.9.13</g>
  <x xlink:href="package.1.9.13.xml"/>
 </r>

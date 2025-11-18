@@ -30,19 +30,43 @@
         },
         "1.13.0": {
             "version": "1.13.0",
-            "state": "stable"
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "bwoebi",
+            "releaseDate": "2025-09-30T16:56:21+00:00",
+            "releaseNotes": "## Tracer\n### Changed\n- Reduce integrations overhead #3380\n- Avoid unnecessary gc_collect_cycles if there's no open span #3428\n- Make use of fast_shutdown to avoid freeing overhead #3429\n- Optimize PDOIntegration::parseDsn() #3430\n\n### Fixed\n- Fix #3135: Force flushing on shutdown of entry point processes #3398\n- Support curl_multi_exec root spans #3419\n- Fix a couple memory leaks #3420\n\n## Profiling\n### Added\n- Add source code integration #3418\n\n### Fixed\n- Fix missing line numbers #3417\n- Early init default connector to fix env var race #3432\n\n### Internal\n- Refactor tag handling #3423\n- Permanently enable compilation of allocation, exception, and timeline features #3431",
+            "get": "https://pecl.php.net/get/datadog_trace-1.13.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "1.12.1": {
             "version": "1.12.1",
-            "state": "stable"
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "flowcontrol",
+            "releaseDate": "2025-09-15T08:41:07+00:00",
+            "releaseNotes": "## Tracer\n### Fixed\n- Fix double free at sidecar connection (#3407)\n- Fix crash with freed resource (#3402)\n- Fix invalid user headers injection (#3403)\n- Exclude /vendor from code origins (#3399)",
+            "get": "https://pecl.php.net/get/datadog_trace-1.12.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "1.12.0": {
             "version": "1.12.0",
-            "state": "stable"
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "bwoebi",
+            "releaseDate": "2025-08-27T20:48:19+00:00",
+            "releaseNotes": "## All products\n### Internal\n- Add injection metadata fields to telemetry forwarder #3359\n\n## Tracer\n### Added\n- Add http.route tag to SymfonyIntegration.php #2992\n- Add setting to avoid obfuscating mongodb queries #3390\n- Handle native HTTP requests #3366\n\n### Changed\n- Expose curl_multi_exec_get_request_spans() as non-internal #3389\n- Use resources_weak_* API for Curl as well #3386\n- Gracefully handle sidecar broken pipes #3370\n- Enable log injection by default #3355\n\n### Fixed\n- Capture the stack for log probes #3367 \n- Properly cache the telemetry cache #3387\n- Fix names of global git tags for debugger #3377\n- Fix SQLSRVIntegration resource handling #3379\n- Set DD_APPSEC_RASP_ENABLED default to true as on the tracer #3374\n- Fix top Code Origin frame for ExecIntegration and KafkaIntegration #3392\n\n### Internal\n- Update baggage telemetry typo #3382\n- Switch to bookworm containers #3375\n\n## Application Security Management\n### Added\n- Add fingerprint capabilities #3371\n- Implement jwt #3352\n\n### Fixed\n- Fix musl appsec helper shutdown crash #3378\n\n### Internal\n- Fix submission of telemetry logs from appsec #3373",
+            "get": "https://pecl.php.net/get/datadog_trace-1.12.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "1.11.0": {
             "version": "1.11.0",
-            "state": "stable"
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "bwoebi",
+            "releaseDate": "2025-08-01T11:45:33+00:00",
+            "releaseNotes": "## All products\n### Internal\n- Implement new SSI configuration telemetry #3301\n\n### Fixed\n- Treat opcache.jit=0 as JIT disabled #3337\n\n## Tracer\n### Changed\n- Add knuth sampling formula #3281\n- Add db.type to PDO integration #3350\n\n### Fixed\n- Fix dd_patch_zend_call_known_function on early PHP 8 versions on Windows #3326\n- Fix DogStatsD client crash when endpoint is unreachable #3344\n- Fix trailing ; in tracestate #3354\n- Fix DD_TRACE_AGENT_URL panic without scheme and path #3358\n\n### Internal\n- Fixup the otel.env.invalid metric name #3284\n- Bump the required rust version to 1.84.1 #3299\n- Add redaction in autoload_php_file #3313\n- Reduce telemetry sent #3316\n- Adding telemetry for baggage propagation #3353\n- Make max memory of sidecar configurable DataDog/libdatadog#1105\n- Fix possible remote config deadlock DataDog/libdatadog#1161\n\n## Profiling\n### Fixed\n- Fewer borrows, less panics on borrows #3295\n- Validate opline before access #3319\n- Do not call zend_jit_status() on affected versions #3356\n- Revert to more stable hooking for allocation profiling #3361\n\n### Internal\n- Bump Rust version #3330\n- Bump patch versions, drop indexmap #3338\n\n## Application Security Management\n### Added\n- Truncate input #3250\n- Implement ATO v2 functions #3263, #3315\n- Schema extraction with DD_APM_TRACING_ENABLED=false #3269\n- Parse authorization header #3279\n- Add forwarded header and private IP #3345\n\n### Changed\n- Update SLO metrics #3239\n- Update event obfuscation regex #3290\n\n### Fixed\n- Fix rate limiter #3331\n\n### Internal\n- Send some telemetry logs from the helper #3236\n- Fix warnings on clang-tidy-17 #3287\n- Upgrade boost to 1.86 #3289\n- Upgrade waf #3323",
+            "get": "https://pecl.php.net/get/datadog_trace-1.11.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "1.10.0": {
             "version": "1.10.0",

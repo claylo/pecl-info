@@ -18,6 +18,6 @@ fix various scope issues
 fix heap corruption issue
 auto backup on uopz_function</n>
  <f>20884</f>
- <g>http://pecl.php.net/get/uopz-1.0.4</g>
+ <g>https://pecl.php.net/get/uopz-1.0.4</g>
  <x xlink:href="package.1.0.4.xml"/>
 </r>

@@ -23,8 +23,20 @@
   <email>rango@swoole.com</email>
   <active>yes</active>
  </lead>
+ <developer>
+  <name>Lu Fei</name>
+  <user>lufei</user>
+  <email>lufei@php.net</email>
+  <active>yes</active>
+ </developer>
+ <developer>
+  <name>Bruce Dou</name>
+  <user>doubaokun</user>
+  <email>doubaokun@php.net</email>
+  <active>yes</active>
+ </developer>
  <date>2024-11-22</date>
- <time>05:16:10</time>
+ <time>11:44:00</time>
  <version>
   <release>6.0.0RC1</release>
   <api>6.0</api>
@@ -39,7 +51,7 @@
 - `Swoole\Coroutine\Socket::getoption()` supports the `TCPINFO` feature. @matyhtf
 - `Swoole\Client` synchronous blocking client supports `http` proxy. @matyhtf
 - Added asynchronous non-blocking `TCP/UDP/Unix socket` client `Swoole\Async\client`. @matyhtf
-- Optimized the `Swoole\Redis\Server::format()` method to support zero-copy memory, compatible with the `Redis` protocol. @matyhtf
+- Optimized the `Swoole\Redis\server::format()` method to support zero-copy memory, compatible with the `Redis` protocol. @matyhtf
 - Fixed `Fatal error` issue caused by `PHP-8.4`&apos;s `timeout` feature in ZTS mode. @matyhtf
 - Fixed compatibility issue with the `exit()` function in `swoole` for `PHP-8.4`. @remicollet
 - Fixed the issue where `Swoole\Thread::getNativeId()` did not work in `cygwin`. @matyhtf

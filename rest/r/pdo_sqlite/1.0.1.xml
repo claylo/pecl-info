@@ -30,6 +30,6 @@ concurrency.</d>
 Windows binary:
 http://pecl4win.php.net/ext.php/php_pdo_sqlite.dll</n>
  <f>868469</f>
- <g>http://pecl.php.net/get/PDO_SQLITE-1.0.1</g>
+ <g>https://pecl.php.net/get/PDO_SQLITE-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

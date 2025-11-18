@@ -15,6 +15,6 @@
  <da>2005-11-12 13:44:33</da>
  <n>fixed zts build</n>
  <f>18128</f>
- <g>http://pecl.php.net/get/gnupg-0.6.1</g>
+ <g>https://pecl.php.net/get/gnupg-0.6.1</g>
  <x xlink:href="package.0.6.1.xml"/>
 </r>

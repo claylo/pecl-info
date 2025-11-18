@@ -18,6 +18,6 @@
 - Fixed Bug that tainted info lost if string is parsed by htmlspecialchars
 - Trigger warning when doing dim assign concat</n>
  <f>14264</f>
- <g>http://pecl.php.net/get/taint-0.5.0</g>
+ <g>https://pecl.php.net/get/taint-0.5.0</g>
  <x xlink:href="package.0.5.0.xml"/>
 </r>

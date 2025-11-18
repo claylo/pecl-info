@@ -29,6 +29,6 @@ Windows binary: http://snaps.php.net/win32/PECL_5_0/php_pdo_sqlite.dll
 - Fixed PECL Bug #3391; cannot bind NULL parameters	
 - Fixed build problem when building the bundled sqlite library</n>
  <f>859745</f>
- <g>http://pecl.php.net/get/PDO_SQLITE-1.0RC1</g>
+ <g>https://pecl.php.net/get/PDO_SQLITE-1.0RC1</g>
  <x xlink:href="package.1.0RC1.xml"/>
 </r>

@@ -17,6 +17,6 @@
  <da>2018-10-29 20:57:25</da>
  <n>- Fix Psr\Http\Message\ServerRequestInterface not actually extending `Psr\Http\Message\RequestInterface`</n>
  <f>24075</f>
- <g>http://pecl.php.net/get/psr-0.5.1</g>
+ <g>https://pecl.php.net/get/psr-0.5.1</g>
  <x xlink:href="package.0.5.1.xml"/>
 </r>

@@ -24,6 +24,6 @@ intend to build and/or use it.
 If you are running on windows, you can download the binary from here:
 http://pecl4win.php.net/ext.php/php_pdo_pgsql.dll</n>
  <f>11626</f>
- <g>http://pecl.php.net/get/PDO_PGSQL-1.0RC2</g>
+ <g>https://pecl.php.net/get/PDO_PGSQL-1.0RC2</g>
  <x xlink:href="package.1.0RC2.xml"/>
 </r>

@@ -2,12 +2,42 @@
     "category": "Database",
     "deprecated": false,
     "description": "The purpose of this driver is to provide exceptionally thin glue between MongoDB\nand PHP, implementing only fundamental and performance-critical components\nnecessary to build a fully-functional MongoDB driver.",
-    "latestReleaseDate": "2025-06-13T12:45:44+00:00",
-    "latestVersion": "2.1.1",
+    "latestReleaseDate": "2025-10-08T16:06:25+00:00",
+    "latestVersion": "2.1.4",
     "license": "Apache License",
     "name": "mongodb",
     "php8Mentioned": true,
     "releases": {
+        "2.1.4": {
+            "version": "2.1.4",
+            "state": "stable",
+            "license": "Apache License",
+            "releasedBy": "jmikola",
+            "releaseDate": "2025-10-08T16:06:25+00:00",
+            "releaseNotes": "## What's Changed\n* PHPC-2637: Update to libmongoc 1.30.6 (#1882) by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1887\n\n\n**Full Changelog**: https://github.com/mongodb/mongo-php-driver/compare/2.1.3...2.1.4",
+            "get": "https://pecl.php.net/get/mongodb-2.1.4",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.1.3": {
+            "version": "2.1.3",
+            "state": "stable",
+            "license": "Apache License",
+            "releasedBy": "jmikola",
+            "releaseDate": "2025-10-07T16:01:12+00:00",
+            "releaseNotes": "## What's Changed\n* PHPC-2635: Remove serverless URIs from Atlas connectivity tests by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1879\n* PHPC-2637: Update to libmongoc 1.30.6 by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1882\n\n\n**Full Changelog**: https://github.com/mongodb/mongo-php-driver/compare/2.1.2...2.1.3",
+            "get": "https://pecl.php.net/get/mongodb-2.1.3",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.1.2": {
+            "version": "2.1.2",
+            "state": "stable",
+            "license": "Apache License",
+            "releasedBy": "alcaeus",
+            "releaseDate": "2025-10-02T11:59:01+00:00",
+            "releaseNotes": "## What's Changed\n* PHPC-2613: Test x509 authentication on Atlas by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1858\n* PHPC-2617: Support PHP 8.5 by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1871\n* Fix wrong PHP version constraint for pie by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1874\n\n\n**Full Changelog**: https://github.com/mongodb/mongo-php-driver/compare/2.1.1...2.1.2",
+            "get": "https://pecl.php.net/get/mongodb-2.1.2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "2.1.1": {
             "version": "2.1.1",
             "state": "stable",
@@ -36,6 +66,16 @@
             "releaseDate": "2025-04-10T07:38:41+00:00",
             "releaseNotes": "## What's Changed\n* PHPC-2447: Extend Iterator interface in CustorInterface by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1654\n* PHP-1741: Remove getServer from APM event classes by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1652\n* PHPC-2346: Remove deprecated BSON functions by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1653\n* PHPC-2402: Remove range_preview constants by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1665\n* PHPC-2140: Make tentative return types definitive by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1658\n* PHPC-2351: Remove CursorId class by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1664\n* PHPC-2342: Remove --with-libbson and --with-libmongoc configure options by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1667\n* PHPC-1021: Remove support for ReadPreference integer modes by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1666\n* Update version for 2.x branch by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1672\n* PHPC-2248: Remove Serializable implementations by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1663\n* PHPC-2444: Remove support for string arguments in UTCDateTime constructor by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1662\n* PHPC-2309: Remove --with-openssl-dir configure option by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1676\n* PHPC-2417 Add `UTCDateTimeInterface::toDateTimeImmutable()` by @GromNaN in https://github.com/mongodb/mongo-php-driver/pull/1684\n* PHPC-2348 Remove `WriteException` and move `getWriteResult` to `BulkWriteException` by @GromNaN in https://github.com/mongodb/mongo-php-driver/pull/1685\n* PHPC-2454: Remove --enable-system-ciphers configure option by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1681\n* PHPC-2144 Throw a LogicException when getting info from unacknowledged write result by @GromNaN in https://github.com/mongodb/mongo-php-driver/pull/1687\n* PHPC-2344 Remove SSLConnectionException by @GromNaN in https://github.com/mongodb/mongo-php-driver/pull/1696\n* PHPC-2459: Remove support for float arg in UTCDateTime ctor by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1709\n* PHPC-2440: Remove deprecated Query constructor options by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1707\n* PHPC-990: Strict type validation for boolean URI options by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1713\n* PHPC-2441: Remove deprecated Manager constructor options by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1719\n* PHPC-2497: BulkWriteException stub should inherit ServerException by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1784\n* PHPC-2485: Remove WriteConcern and ReadPreference from execute method arginfo by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1783\n* PHPC-2536: Migrate to common OCSP responder script by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1800\n* PHPC-2536: Remove run-ocsp-responder.sh by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1802\n* PHPC-2558: Update to libmongoc 1.30.3 by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1806\n\n\n**Full Changelog**: https://github.com/mongodb/mongo-php-driver/compare/1.21.0...2.0.0",
             "get": "https://pecl.php.net/get/mongodb-2.0.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.21.2": {
+            "version": "1.21.2",
+            "state": "stable",
+            "license": "Apache License",
+            "releasedBy": "jmikola",
+            "releaseDate": "2025-10-07T15:35:22+00:00",
+            "releaseNotes": "## What's Changed\n* Fix wrong PHP version constraint for pie by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1874\n* PHPC-2635: Remove serverless URIs from Atlas connectivity tests by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1879\n* PHPC-2637: Update to libmongoc 1.30.6 by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1882\n\n\n**Full Changelog**: https://github.com/mongodb/mongo-php-driver/compare/1.21.1...1.21.2",
+            "get": "https://pecl.php.net/get/mongodb-1.21.2",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.21.1": {
@@ -625,7 +665,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2018-09-20T18:57:45+00:00",
             "releaseNotes": "** Bug\n    * [PHPC-1241] - OpenSSL 1.1 not found if pkg-config is not available\n    * [PHPC-1266] - Empty deeply nested BSON document causes unallocated memory writes\n    * [PHPC-1272] - phongo_execute_query() should not alter state of Query opts\n\n** Task\n    * [PHPC-1177] - Reimplement tests that use parse_url()\n    * [PHPC-1178] - Reimplement tests that load data fixtures\n    * [PHPC-1179] - Reimplement tests that start servers with Mongo Orchestration\n    * [PHPC-1209] - is_replica_set() should return false when connected to RS primary in standalone mode\n    * [PHPC-1220] - Create skip function for insufficient replica set members\n    * [PHPC-1225] - Add test to catch unsupported server wire protocol versions\n    * [PHPC-1258] - Bump system dependency on libbson and libmongoc in config.m4 to 1.12.0\n    * [PHPC-1263] - Update tests for PHP 7.3's output changes\n    * [PHPC-1270] - Upgrade libmongoc to 1.13.0",
-            "get": "http://pecl.php.net/get/mongodb-1.5.3",
+            "get": "https://pecl.php.net/get/mongodb-1.5.3",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.5.2": {
@@ -635,7 +675,7 @@
             "releasedBy": "derick",
             "releaseDate": "2018-08-01T17:07:22+00:00",
             "releaseNotes": "** Bug\n    * [PHPC-1110] - advanceOperationTime test failure\n    * [PHPC-1239] - Passing empty driversOptions array to Manager constructor overrides SSL options in URI\n    * [PHPC-1241] - OpenSSL 1.1 not found if pkg-config is not available\n    * [PHPC-1243] - Calling session methods after Session::endSession() causes use-after-free crash\n\n** Task\n    * [PHPC-1184] - Add alternative topologies to Travis CI\n    * [PHPC-1205] - Allow unencoded subdelimiters in usernames and passwords\n    * [PHPC-1227] - Document that transactions do not allow per-op read/write concerns\n    * [PHPC-1244] - Use majority WC to drop/create collections for transaction tests\n    * [PHPC-1246] - Document class tree for exception classes\n    * [PHPC-1248] - Add test to ensure that URI constant is successfully parsed\n    * [PHPC-1249] - Fix tests running against MongoDB 3.0 replicaset\n    * [PHPC-1251] - Upgrade libmongoc to 1.12.0",
-            "get": "http://pecl.php.net/get/mongodb-1.5.2",
+            "get": "https://pecl.php.net/get/mongodb-1.5.2",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.5.1": {
@@ -645,7 +685,7 @@
             "releasedBy": "derick",
             "releaseDate": "2018-07-09T14:28:12+00:00",
             "releaseNotes": "** Bug\n    * [PHPC-1221] - Accept \"yes\" and no value for non-binary PHP_ARG_WITH() options\n\n** Task\n    * [PHPC-1217] - Remind users to include __pclass field in projections\n    * [PHPC-1224] - Remove 2.6 servers from Travis CI",
-            "get": "http://pecl.php.net/get/mongodb-1.5.1",
+            "get": "https://pecl.php.net/get/mongodb-1.5.1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.5.0": {
@@ -655,7 +695,7 @@
             "releasedBy": "derick",
             "releaseDate": "2018-06-26T13:16:22+00:00",
             "releaseNotes": "** Epic\n    * [PHPC-1075] - Import libbson and libmongoc Autotools configuration\n    * [PHPC-1086] - Improve exception hierarchy for RuntimeException\n    * [PHPC-1102] - PHPC MongoDB 4.0 Support\n\n** New Feature\n    * [PHPC-314] - Implement type map syntax for documents within field paths\n    * [PHPC-578] - Expose result document for failed commands\n    * [PHPC-1076] - Expose result document for failed commands via CommandFailedEvent\n    * [PHPC-1087] - Introduce ServerException class\n    * [PHPC-1089] - Introduce CommandException class\n    * [PHPC-1105] - Implement SASLPrep\n    * [PHPC-1108] - SCRAM-SHA-256 Support\n    * [PHPC-1140] - Implement Transactions spec\n    * [PHPC-1153] - Handshake changes for SDAM and Auth\n    * [PHPC-1181] - Retryable writes should consider more errors retryable\n    * [PHPC-1211] - Create Int64 class to wrap 64-bit integers on 32-bit platforms\n\n** Bug\n    * [PHPC-332] - Test that server selection throws ConnectionTimeoutException\n    * [PHPC-355] - Connection timeouts should throw ConnectionTimeoutException, and not RuntimeException\n    * [PHPC-1022] - Sporadic SCRAM-SHA-1 authentication failures due to \"storedKey mismatch\"\n    * [PHPC-1158] - Segfault during OpenSSL cleanup routines\n    * [PHPC-1166] - Update zend array recursion protection for PHP 7.3\n    * [PHPC-1169] - TLS renegotiation errors during heartbeat when using Secure Transport\n    * [PHPC-1195] - BulkWrite::update() should append arrayFilters option as array\n    * [PHPC-1196] - Raise client error if arrayFilters option is used when unsupported\n    * [PHPC-1198] - Ensure bundled libraries set CFLAGS correctly\n\n** Task\n    * [PHPC-585] - Document maxTimeMS example for executeCommand and executeQuery\n    * [PHPC-759] - Ensure that the driver can be compiled as a built-in PHP extension\n    * [PHPC-1083] - Change \"available\" RP constant to use libmongoc's constant instead of hard coding it\n    * [PHPC-1088] - Deprecate SSLConnectionException\n    * [PHPC-1107] - Resync tests to update handling of inconsistent write concern\n    * [PHPC-1113] - Migrate tests to use a common URI environment variable\n    * [PHPC-1114] - Add template.rc file to embed the right MongoDB version in the Windows binary\n    * [PHPC-1118] - Create clang-format file and Makefile targets\n    * [PHPC-1121] - Test Windows builds on Appveyor\n    * [PHPC-1126] - Prohibit using unacknowledged writes with explicit sessions\n    * [PHPC-1132] - Remove HHVM checks in test suite\n    * [PHPC-1133] - Remove unused includes in SKIPIF and FILE sections\n    * [PHPC-1137] - Deprecate maxScan query option\n    * [PHPC-1138] - Deprecate snapshot option\n    * [PHPC-1143] - Select ServerException for MONGOC_ERROR_WRITE_CONCERN domain\n    * [PHPC-1144] - Use server-side error code for BulkWriteException\n    * [PHPC-1145] - Fix development build warnings for numeric type conversions\n    * [PHPC-1148] - Throw InvalidArgumentException if BulkWrite is executed multiple times\n    * [PHPC-1160] - Initialize bson_error_t structs to zero\n    * [PHPC-1174] - Upgrade bundled libbson and libmongoc to 1.10\n    * [PHPC-1185] - Remove support for Cyrus SASL search path\n    * [PHPC-1186] - Consolidate libbson and libmongoc build configs\n    * [PHPC-1188] - Use --coverage compiler/linker option for code coverage builds\n    * [PHPC-1191] - Don't allow coverage for static builds \n    * [PHPC-1193] - Upgrade bundled libbson and libmongoc to 1.11\n\n** Improvement\n    * [PHPC-850] - Add var_export() support for ReadConcern, ReadPreference, and WriteConcern\n    * [PHPC-922] - Improve specificity in generic corrupt BSON exception message\n    * [PHPC-1090] - Clean up switch statements for exception class selection\n    * [PHPC-1091] - Ensure ExecutionTimeoutException selection only considers server error code\n    * [PHPC-1120] - Decrease likelihood of implicit session leaks\n    * [PHPC-1127] - Remove old Mongo Orchestration cluster tests\n    * [PHPC-1139] - Update algorithm for Kerberos hostname canonicalization\n    * [PHPC-1149] - php_phongo_dispatch_handlers() should break if exception is thrown\n    * [PHPC-1154] - Implement wild card syntax for typemap field paths\n    * [PHPC-1189] - Prefix maintainer/coverage configure options with \"mongodb\"\n    * [PHPC-1200] - Remove MD5 from ObjectID generation \n    * [PHPC-1216] - Always validate and apply wtimeoutMS in URI options array",
-            "get": "http://pecl.php.net/get/mongodb-1.5.0",
+            "get": "https://pecl.php.net/get/mongodb-1.5.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.4.4": {
@@ -665,7 +705,7 @@
             "releasedBy": "derick",
             "releaseDate": "2018-06-06T16:00:33+00:00",
             "releaseNotes": "** Bug\n    * [PHPC-1163] - Do not allow a session to be used with an unacknowledged write concern\n\n** Task\n    * [PHPC-1168] - Advise macOS users to install using PECL\n    * [PHPC-1197] - Check for unistd.h when compiling bundled zLib",
-            "get": "http://pecl.php.net/get/mongodb-1.4.4",
+            "get": "https://pecl.php.net/get/mongodb-1.4.4",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.4.3": {
@@ -675,7 +715,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2018-04-19T14:38:05+00:00",
             "releaseNotes": "** Bug\n    * [PHPC-1151] - Possible segfault is Session object is freed before Cursor\n    * [PHPC-1152] - Aggregate may fail to use the same session for getMore commands\n    * [PHPC-1162] - Dumping cursor while iterating with IteratorIterator may segfault\n\n** Task\n    * [PHPC-1136] - Add Appveyor build status badge to readme\n    * [PHPC-1156] - Default to Secure Transport on macOS before OpenSSL\n    * [PHPC-1157] - Upgrade bundled libmongoc and libbson to 1.9.4\n    * [PHPC-1159] - Test on specific server versions in Travis CI\n\n** Improvement\n    * [PHPC-1161] - Free reference to Session once Cursor is exhausted",
-            "get": "http://pecl.php.net/get/mongodb-1.4.3",
+            "get": "https://pecl.php.net/get/mongodb-1.4.3",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.4.2": {
@@ -685,7 +725,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2018-03-06T20:57:46+00:00",
             "releaseNotes": "** Bug\n    * [PHPC-1128] - Aggregation pipelines are broken on sharded collections\n\n** Task\n    * [PHPC-962] - Document example of tailable cursor iteration",
-            "get": "http://pecl.php.net/get/mongodb-1.4.2",
+            "get": "https://pecl.php.net/get/mongodb-1.4.2",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.4.1": {
@@ -695,7 +735,7 @@
             "releasedBy": "derick",
             "releaseDate": "2018-02-21T15:24:00+00:00",
             "releaseNotes": "** Bug\n    * [PHPC-1124] - Add correct include path for SASL\n    * [PHPC-1125] - Out-of-source compilation with bundled zlib fails\n\n** Task\n    * [PHPC-456] - Document caveats of serializing BSON document to arrays with type maps",
-            "get": "http://pecl.php.net/get/mongodb-1.4.1",
+            "get": "https://pecl.php.net/get/mongodb-1.4.1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.4.0": {
@@ -705,7 +745,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2018-02-09T04:02:22+00:00",
             "releaseNotes": "** Bug\n    * [PHPC-1038] - \"documents\" key in \"command\" in APM's commandStarted for \"insert\" is missing\n    * [PHPC-1043] - phongo_execute_query() may leak cursor struct on error\n    * [PHPC-1049] - Build warnings with CLang/LLVM\n    * [PHPC-1050] - Advancing a new command cursor to check for an error may invoke getMore\n    * [PHPC-1053] - UTCDateTime constructor reports that its single argument is required\n    * [PHPC-1057] - Refactor option parsing for execute methods\n    * [PHPC-1067] - BSON document produces driver segfault\n    * [PHPC-1072] - phongo_execute_command() leaks BSON reply on error\n    * [PHPC-1092] - Infinite loop iterating BSON object properties with foreach\n    * [PHPC-1093] - Bound checking on 32-bit platforms for APM's duration_micros\n    * [PHPC-1096] - Driver fails to build with libmongoc's bundled zlib\n    * [PHPC-1104] - pecl package misses zlib sources\n\n** Epic\n    * [PHPC-934] - PHPC MongoDB 3.6 Support\n\n** New Feature\n    * [PHPC-834] - Add Read, ReadWrite, and Write command execute methods\n    * [PHPC-967] - Add support for reading and writing OP_COMPRESSED\n    * [PHPC-975] - Array Update Improvements\n    * [PHPC-979] - OP_MSG support\n    * [PHPC-980] - Implement Drivers Sessions API\n    * [PHPC-986] - All writes retryable support\n    * [PHPC-987] - Causally Consistent Reads support \n    * [PHPC-993] - Parse localLogicalSessionTimeoutMinutes from isMaster response\n    * [PHPC-1015] - Implement Initial DNS Seedlist discovery spec\n    * [PHPC-1027] - Introduce classes for deprecated BSON types\n    * [PHPC-1029] - Support maxTimeMS getMore option for tailable command cursors\n    * [PHPC-1042] - Support options array for BulkWrite, Command, and Query execute methods\n    * [PHPC-1109] - Support batchSize getMore option for command cursors\n\n** Task\n    * [PHPC-227] - Mongo Orchestration should restart when Vagrant test VM boots\n    * [PHPC-599] - Document 32-bit platform limitation for Timestamp arguments\n    * [PHPC-995] - Drop support for MongoDB 2.4\n    * [PHPC-1003] - Use container environment for Travis CI builds\n    * [PHPC-1013] - Test Driver Wire Version Overlap logic\n    * [PHPC-1024] - Document BSON exceptions for Cursor iteration\n    * [PHPC-1035] - Improve server compatibility error messages for wire version checks\n    * [PHPC-1036] - Update test suite for MongoDB 3.6\n    * [PHPC-1037] - Upgrade bundled libmongoc and libbson to 1.9\n    * [PHPC-1039] - Non data-bearing servers must be excluded when determining if a cluster supports sessions\n    * [PHPC-1047] - Add MongoDB 3.6 to test framework\n    * [PHPC-1048] - Rename phongo_execute_write to phongo_execute_bulk_write\n    * [PHPC-1055] - Improve docs for linking correct version of OpenSSL on macOS\n    * [PHPC-1065] - Enable BSON corpus tests for deprecated types\n    * [PHPC-1069] - Enable Coverity scans for the driver\n    * [PHPC-1070] - Create macro for accessing zval class or type name\n    * [PHPC-1077] - Fix X509 test failures with libmongoc 1.9.0 and MongoDB 3.6\n    * [PHPC-1078] - Create constant for available read concern level\n    * [PHPC-1079] - Document that jsonSerialize() returns legacy extended JSON\n    * [PHPC-1080] - Document new (deprecated) BSON classes\n    * [PHPC-1081] - Investigate Fedora build failures for 1.4.0beta1\n    * [PHPC-1082] - Add a PHP version check to config.m4\n    * [PHPC-1084] - Upgrade switch/case fallthrough comments to use GCC 7's new attribute\n    * [PHPC-1097] - Report libmongoc's compression engines in phpinfo() output\n    * [PHPC-1098] - Fix test failures due to floating point precision\n    * [PHPC-1100] - Fix test failures when driver is compiled without SSL\n\n** Improvement\n    * [PHPC-709] - Debuglog timestamp does not contain micro/nanoseconds\n    * [PHPC-888] - Support additional TLS libraries for bundled libmongoc\n    * [PHPC-969] - Have TCP keepalive default to true \n    * [PHPC-1031] - Run configure check to use ASN1_STRING_get0_data over ASN1_STRING_data in bundled libmongoc\n    * [PHPC-1071] - Report class name in exception for unexpected object values",
-            "get": "http://pecl.php.net/get/mongodb-1.4.0",
+            "get": "https://pecl.php.net/get/mongodb-1.4.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.4.0RC2": {
@@ -715,7 +755,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2018-02-06T19:13:00+00:00",
             "releaseNotes": "** Bug\n    * [PHPC-1104] - pecl package misses zlib sources\n\n** New Feature\n    * [PHPC-1109] - Support batchSize getMore option for command cursors",
-            "get": "http://pecl.php.net/get/mongodb-1.4.0RC2",
+            "get": "https://pecl.php.net/get/mongodb-1.4.0RC2",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.4.0RC1": {
@@ -725,7 +765,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2018-01-23T18:09:02+00:00",
             "releaseNotes": "** Bug\n    * [PHPC-1038] - \"documents\" key in \"command\" in APM's commandStarted for \"insert\" is missing\n    * [PHPC-1049] - Build warnings with CLang/LLVM\n    * [PHPC-1050] - Advancing a new command cursor to check for an error may invoke getMore\n    * [PHPC-1067] - BSON document produces driver segfault\n    * [PHPC-1092] - Infinite loop iterating BSON object properties with foreach\n    * [PHPC-1093] - Bound checking on 32-bit platforms for APM's duration_micros\n    * [PHPC-1096] - Driver fails to build with libmongoc's bundled zlib\n\n** Task\n    * [PHPC-227] - Mongo Orchestration should restart when Vagrant test VM boots\n    * [PHPC-962] - Document example of tailable cursor iteration\n    * [PHPC-1003] - Use container environment for Travis CI builds\n    * [PHPC-1013] - Test Driver Wire Version Overlap logic\n    * [PHPC-1024] - Document BSON exceptions for Cursor iteration\n    * [PHPC-1065] - Enable BSON corpus tests for deprecated types\n    * [PHPC-1069] - Enable Coverity scans for the driver\n    * [PHPC-1077] - Fix X509 test failures with libmongoc 1.9.0 and MongoDB 3.6\n    * [PHPC-1078] - Create constant for available read concern level\n    * [PHPC-1079] - Document that jsonSerialize() returns legacy extended JSON\n    * [PHPC-1080] - Document new (deprecated) BSON classes\n    * [PHPC-1081] - Investigate Fedora build failures for 1.4.0beta1\n    * [PHPC-1082] - Add a PHP version check to config.m4\n    * [PHPC-1084] - Upgrade switch/case fallthrough comments to use GCC 7's new attribute\n    * [PHPC-1097] - Report libmongoc's compression engines in phpinfo() output\n    * [PHPC-1098] - Fix test failures due to floating point precision\n    * [PHPC-1100] - Fix test failures when driver is compiled without SSL\n\n** Improvement\n    * [PHPC-888] - Support additional TLS libraries for bundled libmongoc",
-            "get": "http://pecl.php.net/get/mongodb-1.4.0RC1",
+            "get": "https://pecl.php.net/get/mongodb-1.4.0RC1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.4.0beta1": {
@@ -735,7 +775,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2017-12-21T22:02:19+00:00",
             "releaseNotes": "** Bug\n    * [PHPC-1043] - phongo_execute_query() may leak cursor struct on error\n    * [PHPC-1053] - UTCDateTime constructor reports that its single argument is required\n    * [PHPC-1057] - Refactor option parsing for execute methods\n    * [PHPC-1072] - phongo_execute_command() leaks BSON reply on error\n\n** Epic\n    * [PHPC-934] - PHPC MongoDB 3.6 Support\n\n** New Feature\n    * [PHPC-967] - Add support for reading and writing OP_COMPRESSED\n    * [PHPC-975] - Array Update Improvements\n    * [PHPC-979] - OP_MSG support\n    * [PHPC-980] - Implement Drivers Sessions API\n    * [PHPC-986] - All writes retryable support\n    * [PHPC-987] - Causally Consistent Reads support \n    * [PHPC-993] - Parse localLogicalSessionTimeoutMinutes from isMaster response\n    * [PHPC-1015] - Implement Initial DNS Seedlist discovery spec\n    * [PHPC-1027] - Introduce classes for deprecated BSON types\n    * [PHPC-1029] - Support maxTimeMS getMore option for tailable command cursors\n    * [PHPC-1042] - Support options array for BulkWrite, Command, and Query execute methods\n\n** Task\n    * [PHPC-599] - Document 32-bit platform limitation for Timestamp arguments\n    * [PHPC-834] - Add Read, ReadWrite, and Write command execute methods\n    * [PHPC-995] - Drop support for MongoDB 2.4\n    * [PHPC-1035] - Improve server compatibility error messages for wire version checks\n    * [PHPC-1036] - Update test suite for MongoDB 3.6\n    * [PHPC-1037] - Upgrade bundled libmongoc and libbson to 1.9\n    * [PHPC-1039] - Non data-bearing servers must be excluded when determining if a cluster supports sessions\n    * [PHPC-1047] - Add MongoDB 3.6 to test framework\n    * [PHPC-1048] - Rename phongo_execute_write to phongo_execute_bulk_write\n    * [PHPC-1070] - Create macro for accessing zval class or type name\n\n** Improvement\n    * [PHPC-709] - Debuglog timestamp does not contain micro/nanoseconds\n    * [PHPC-969] - Have TCP keepalive default to true \n    * [PHPC-1031] - Run configure check to use ASN1_STRING_get0_data over ASN1_STRING_data in bundled libmongoc\n    * [PHPC-1071] - Report class name in exception for unexpected object values",
-            "get": "http://pecl.php.net/get/mongodb-1.4.0beta1",
+            "get": "https://pecl.php.net/get/mongodb-1.4.0beta1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.3.4": {
@@ -745,7 +785,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2017-12-01T18:45:22+00:00",
             "releaseNotes": "** Bug\n    * [PHPC-1053] - UTCDateTime constructor reports that its single argument is required",
-            "get": "http://pecl.php.net/get/mongodb-1.3.4",
+            "get": "https://pecl.php.net/get/mongodb-1.3.4",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.3.3": {
@@ -755,7 +795,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2017-11-21T21:14:09+00:00",
             "releaseNotes": "** Bug\n    * [PHPC-1045] - Segfault if username is not provided for SCRAM-SHA-1 authMechanism\n    * [PHPC-1046] - Do not specify $external as database name in tests\n\n** Task\n    * [PHPC-1044] - Upgrade libbson and libmongoc to 1.8.2",
-            "get": "http://pecl.php.net/get/mongodb-1.3.3",
+            "get": "https://pecl.php.net/get/mongodb-1.3.3",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.3.2": {
@@ -765,7 +805,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2017-10-30T19:01:55+00:00",
             "releaseNotes": "** Improvement\n    * [PHPC-1026] - Log warnings instead of throwing for unsupported BSON types",
-            "get": "http://pecl.php.net/get/mongodb-1.3.2",
+            "get": "https://pecl.php.net/get/mongodb-1.3.2",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.3.1": {
@@ -775,7 +815,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2017-10-16T17:22:19+00:00",
             "releaseNotes": "** Bug\n    * [PHPC-1014] - config.m4 produces unterminated quoted string",
-            "get": "http://pecl.php.net/get/mongodb-1.3.1",
+            "get": "https://pecl.php.net/get/mongodb-1.3.1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.3.0": {
@@ -785,7 +825,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2017-09-19T20:45:03+00:00",
             "releaseNotes": "** Bug\n    * [PHPC-586] - Create regression tests for tailable cursor iteration\n    * [PHPC-624] - WriteResult::getUpsertedIds() only supports ObjectIDs and integers\n    * [PHPC-692] - Check for phongo_bson_to_zval_ex() failures in Server methods\n    * [PHPC-712] - Driver should validate BSON documents before insert and update\n    * [PHPC-875] - Allow compiling without SSL\n    * [PHPC-895] - Require 16-byte data length for Binary UUID subtypes 0x03 and 0x04\n    * [PHPC-914] - php mongodb connect 'SCRAM Failure: invalid salt length of 0 in sasl step2' exception\n    * [PHPC-939] - BSON classes should not assign public properties after var_dump()\n    * [PHPC-950] - Skip APM callbacks if subscriber HashTable is uninitialized\n    * [PHPC-951] - CursorId is a signed 64-bit integer\n    * [PHPC-964] - Ensure SASL output variables are always defined in config.m4\n    * [PHPC-974] - Converting JSON to BSON to PHP introduces gaps in array indexes\n    * [PHPC-981] - APM functions should reside in MongoDB\\Driver\\Monitoring namespace\n    * [PHPC-982] - Include null byte in key length when accessing subscriber HashTable in PHP 5\n    * [PHPC-983] - MongoDB\\BSON\\toPHP() arg info is missing type map parameter\n    * [PHPC-994] - Fix HAVE_SOCKLEN_T macro redefinition for Windows builds\n    * [PHPC-1005] - Ensure array symtable converts to object proptable in PHP 7.2\n    * [PHPC-1006] - Do not modify memory of Persistable::bsonSerialize() return value\n\n** Epic\n    * [PHPC-909] - Spring cleaning for 1.3.0\n\n** New Feature\n    * [PHPC-349] - Application Performance Monitoring (APM)\n    * [PHPC-382] - Allow zval_to_bson() to return the ID irrespective of ID generation\n    * [PHPC-471] - BulkWrite::insert() should always return the document's ID\n    * [PHPC-587] - CursorId should serialize to BSON as 64-bit integer\n    * [PHPC-772] - Parse authMechanism options in URI options array\n    * [PHPC-839] - Add option maxAwaitTimeMS on getMore commands\n    * [PHPC-926] - Implement Extended JSON spec\n    * [PHPC-976] - Create isDefault() method for read and write concerns\n    * [PHPC-985] - Implement Timestamp::getIncrement() and getTimestamp() methods\n    * [PHPC-988] - PHP 5.x segfault if TypeWrapper::createFromBSONType() throws exception\n\n** Task\n    * [PHPC-302] - Throw exceptions for unsupported BSON types\n    * [PHPC-640] - Implement interfaces for userland BSON type classes\n    * [PHPC-765] - Connection string spec compliance\n    * [PHPC-892] - Upgrade libbson and libmongoc to 1.6.0\n    * [PHPC-907] - Remove PHONGO_API macro for exported symbols\n    * [PHPC-908] - Do not declare MINIT functions for each driver class\n    * [PHPC-910] - Reorganize BSON encoding and decoding sources\n    * [PHPC-911] - Prefix symbols and use static decls whenever possible\n    * [PHPC-915] - Document precedence of authMechanismProperties URI option over named GSSAPI options\n    * [PHPC-928] - Sync release files in PECL package generation script\n    * [PHPC-929] - Skip BSON corpus test for embedded null in code string\n    * [PHPC-932] - Remove reference to Manager on Cursor, Server, and WriteResult objects\n    * [PHPC-953] - Do not parse undocumented \"database\" key in URI options array\n    * [PHPC-957] - Use libmongoc constants for applicable URI options\n    * [PHPC-959] - Do not check for null return from mongoc_collection_find_with_opts()\n    * [PHPC-977] - Upgrade libbson and libmongoc to 1.7.0\n    * [PHPC-992] - Rename to[Canonical|Relaxed]JSON() to to[Canonical|Relaxed]ExtendedJSON()\n    * [PHPC-996] - Remove support for PHP 5.4\n    * [PHPC-997] - Update date/time handling code due to changes in timelib\n    * [PHPC-1004] - Rename ObjectID to ObjectId\n    * [PHPC-1007] - Upgrade libbson and libmongoc to 1.8.0\n    * [PHPC-1008] - Use SETUP_OPENSSL() in config.w32 if available\n\n** Improvement\n    * [PHPC-579] - Throw exception for invalid BulkWrite::update() newObj argument\n    * [PHPC-628] - executeBulkWrite() should throw InvalidArgumentException for empty BulkWrite\n    * [PHPC-846] - Throw if maxStalenessSeconds URI option is out of range\n    * [PHPC-887] - Throw exceptions for unexpected types in URI options array\n    * [PHPC-904] - ReadPreference constructor should accept strings\n    * [PHPC-930] - Do not throw exceptions for critical and error levels in libmongoc log callback\n    * [PHPC-935] - Validate filter and options in Query constructor\n    * [PHPC-937] - Cursor::setTypeMap() and toPHP() should return early if type map is invalid\n    * [PHPC-941] - Introduce API for converting BSON to canonical and relaxed extended JSON\n    * [PHPC-942] - Use mongoc_uri_new_with_error() to improve URI error reporting\n    * [PHPC-944] - MONGOC_ERROR_COMMAND_INVALID_ARG should yield InvalidArgumentException\n    * [PHPC-1001] - Report field name for invalid UTF-8 and unsupported zval types during BSON encoding",
-            "get": "http://pecl.php.net/get/mongodb-1.3.0",
+            "get": "https://pecl.php.net/get/mongodb-1.3.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.3.0RC1": {
@@ -795,7 +835,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2017-09-14T16:18:43+00:00",
             "releaseNotes": "** Bug\n    * [PHPC-994] - Fix HAVE_SOCKLEN_T macro redefinition for Windows builds\n    * [PHPC-1005] - Ensure array symtable converts to object proptable in PHP 7.2\n    * [PHPC-1006] - Do not modify memory of Persistable::bsonSerialize() return value\n\n** Task\n    * [PHPC-996] - Remove support for PHP 5.4\n    * [PHPC-997] - Update date/time handling code due to changes in timelib\n    * [PHPC-1004] - Rename ObjectID to ObjectId\n    * [PHPC-1007] - Upgrade libbson and libmongoc to 1.8.0\n    * [PHPC-1008] - Use SETUP_OPENSSL() in config.w32 if available\n\n** Improvement\n    * [PHPC-1001] - Report field name for invalid UTF-8 and unsupported zval types during BSON encoding",
-            "get": "http://pecl.php.net/get/mongodb-1.3.0RC1",
+            "get": "https://pecl.php.net/get/mongodb-1.3.0RC1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.3.0beta1": {
@@ -805,7 +845,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2017-08-10T18:59:35+00:00",
             "releaseNotes": "** Bug\n    * [PHPC-586] - Create regression tests for tailable cursor iteration\n    * [PHPC-624] - WriteResult::getUpsertedIds() only supports ObjectIDs and integers\n    * [PHPC-692] - Check for phongo_bson_to_zval_ex() failures in Server methods\n    * [PHPC-712] - Driver should validate BSON documents before insert and update\n    * [PHPC-875] - Allow compiling without SSL\n    * [PHPC-895] - Require 16-byte data length for Binary UUID subtypes 0x03 and 0x04\n    * [PHPC-914] - php mongodb connect 'SCRAM Failure: invalid salt length of 0 in sasl step2' exception\n    * [PHPC-939] - BSON classes should not assign public properties after var_dump()\n    * [PHPC-950] - Skip APM callbacks if subscriber HashTable is uninitialized\n    * [PHPC-951] - CursorId is a signed 64-bit integer\n    * [PHPC-964] - Ensure SASL output variables are always defined in config.m4\n    * [PHPC-974] - Converting JSON to BSON to PHP introduces gaps in array indexes\n    * [PHPC-981] - APM functions should reside in MongoDB\\Driver\\Monitoring namespace\n    * [PHPC-982] - Include null byte in key length when accessing subscriber HashTable in PHP 5\n    * [PHPC-983] - MongoDB\\BSON\\toPHP() arg info is missing type map parameter\n\n** Epic\n    * [PHPC-909] - Spring cleaning for 1.3.0\n\n** New Feature\n    * [PHPC-349] - Application Performance Monitoring (APM)\n    * [PHPC-382] - Allow zval_to_bson() to return the ID irrespective of ID generation\n    * [PHPC-471] - BulkWrite::insert() should always return the document's ID\n    * [PHPC-587] - CursorId should serialize to BSON as 64-bit integer\n    * [PHPC-772] - Parse authMechanism options in URI options array\n    * [PHPC-839] - Add option maxAwaitTimeMS on getMore commands\n    * [PHPC-926] - Implement Extended JSON spec\n    * [PHPC-976] - Create isDefault() method for read and write concerns\n    * [PHPC-985] - Implement Timestamp::getIncrement() and getTimestamp() methods\n    * [PHPC-988] - PHP 5.x segfault if TypeWrapper::createFromBSONType() throws exception\n\n** Task\n    * [PHPC-302] - Throw exceptions for unsupported BSON types\n    * [PHPC-640] - Implement interfaces for userland BSON type classes\n    * [PHPC-765] - Connection string spec compliance\n    * [PHPC-892] - Upgrade libbson and libmongoc to 1.6.0\n    * [PHPC-907] - Remove PHONGO_API macro for exported symbols\n    * [PHPC-908] - Do not declare MINIT functions for each driver class\n    * [PHPC-910] - Reorganize BSON encoding and decoding sources\n    * [PHPC-911] - Prefix symbols and use static decls whenever possible\n    * [PHPC-915] - Document precedence of authMechanismProperties URI option over named GSSAPI options\n    * [PHPC-928] - Sync release files in PECL package generation script\n    * [PHPC-929] - Skip BSON corpus test for embedded null in code string\n    * [PHPC-932] - Remove reference to Manager on Cursor, Server, and WriteResult objects\n    * [PHPC-953] - Do not parse undocumented \"database\" key in URI options array\n    * [PHPC-957] - Use libmongoc constants for applicable URI options\n    * [PHPC-959] - Do not check for null return from mongoc_collection_find_with_opts()\n    * [PHPC-977] - Upgrade libbson and libmongoc to 1.7.0\n    * [PHPC-992] - Rename to[Canonical|Relaxed]JSON() to to[Canonical|Relaxed]ExtendedJSON()\n\n** Improvement\n    * [PHPC-579] - Throw exception for invalid BulkWrite::update() newObj argument\n    * [PHPC-628] - executeBulkWrite() should throw InvalidArgumentException for empty BulkWrite\n    * [PHPC-846] - Throw if maxStalenessSeconds URI option is out of range\n    * [PHPC-887] - Throw exceptions for unexpected types in URI options array\n    * [PHPC-904] - ReadPreference constructor should accept strings\n    * [PHPC-930] - Do not throw exceptions for critical and error levels in libmongoc log callback\n    * [PHPC-935] - Validate filter and options in Query constructor\n    * [PHPC-937] - Cursor::setTypeMap() and toPHP() should return early if type map is invalid\n    * [PHPC-941] - Introduce API for converting BSON to canonical and relaxed extended JSON\n    * [PHPC-942] - Use mongoc_uri_new_with_error() to improve URI error reporting\n    * [PHPC-944] - MONGOC_ERROR_COMMAND_INVALID_ARG should yield InvalidArgumentException",
-            "get": "http://pecl.php.net/get/mongodb-1.3.0beta1",
+            "get": "https://pecl.php.net/get/mongodb-1.3.0beta1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.2.11": {
@@ -815,7 +855,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2017-09-19T19:16:32+00:00",
             "releaseNotes": "** Bug\n    * [PHPC-875] - Allow compiling without SSL\n\n** Task\n    * [PHPC-1008] - Use SETUP_OPENSSL() in config.w32 if available",
-            "get": "http://pecl.php.net/get/mongodb-1.2.11",
+            "get": "https://pecl.php.net/get/mongodb-1.2.11",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.2.10": {
@@ -825,7 +865,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2017-09-07T15:36:13+00:00",
             "releaseNotes": "** Bug\n    * [PHPC-1005] - Ensure array symtable converts to object proptable in PHP 7.2\n    * [PHPC-1006] - Do not modify memory of Persistable::bsonSerialize() return value\n\n** Task\n    * [PHPC-997] - Update date/time handling code due to changes in timelib",
-            "get": "http://pecl.php.net/get/mongodb-1.2.10",
+            "get": "https://pecl.php.net/get/mongodb-1.2.10",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.2.9": {
@@ -835,7 +875,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2017-05-04T16:34:49+00:00",
             "releaseNotes": "** Bug\n    * [PHPC-940] - php_phongo_free_ssl_opt() attempts to free interned strings\n    * [PHPC-948] - BSON encoding should throw on circular references\n    * [PHPC-949] - Memory leak if Serializable::bsonSerialize() returns keys with null bytes",
-            "get": "http://pecl.php.net/get/mongodb-1.2.9",
+            "get": "https://pecl.php.net/get/mongodb-1.2.9",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.2.8": {
@@ -845,7 +885,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2017-03-20T17:40:25+00:00",
             "releaseNotes": "** Improvement\n    * [PHPC-936] - Define PHP_MONGODB_VERSION constant for Pickle compatibility",
-            "get": "http://pecl.php.net/get/mongodb-1.2.8",
+            "get": "https://pecl.php.net/get/mongodb-1.2.8",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.2.7": {
@@ -855,7 +895,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2017-03-15T17:53:31+00:00",
             "releaseNotes": "** Bug\n    * [PHPC-500] - Resolve PHP 7 memory leaks\n    * [PHPC-931] - php_phongo_pclient_t is leaked during MSHUTDOWN\n    * [PHPC-933] - Unnecessary zend_string_release() in phongo_zval_to_bson() for PHP 7\n\n** Task\n    * [PHPC-411] - Drop system.profile collection before tests",
-            "get": "http://pecl.php.net/get/mongodb-1.2.7",
+            "get": "https://pecl.php.net/get/mongodb-1.2.7",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.2.6": {
@@ -865,7 +905,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2017-03-07T19:15:09+00:00",
             "releaseNotes": "** Bug\n    * [PHPC-901] - False slaveOk URI option should be ignored\n    * [PHPC-912] - Child processes should not destroy clients created by parent processes\n    * [PHPC-913] - Child process should not re-use mongoc_client_t objects from parent\n    * [PHPC-917] - localThresholdMS should default to 15 milliseconds\n    * [PHPC-923] - Use zend_string_release() to free class names\n    * [PHPC-924] - Cursor::setTypeMap() may unnecessarily convert first BSON document\n\n** Task\n    * [PHPC-736] - Remove zend_str_tolower_dup() in ObjectID construction\n    * [PHPC-825] - Document URI options array for Manager constructor\n    * [PHPC-906] - Make test suite compatible with libbson/libmongoc 1.5.0 and 1.6.0",
-            "get": "http://pecl.php.net/get/mongodb-1.2.6",
+            "get": "https://pecl.php.net/get/mongodb-1.2.6",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.2.5": {
@@ -875,7 +915,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2017-01-31T18:24:35+00:00",
             "releaseNotes": "Fix Windows build scripts",
-            "get": "http://pecl.php.net/get/mongodb-1.2.5",
+            "get": "https://pecl.php.net/get/mongodb-1.2.5",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.2.4": {
@@ -885,7 +925,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2017-01-30T22:26:54+00:00",
             "releaseNotes": "** Bug\n    * [PHPC-894] - BSON get_properties handlers leak during gc_possible_root() checks\n    * [PHPC-898] - readConcern option should not be included in getMore commands\n\n** Task\n    * [PHPC-897] - Document that connections are initialized lazily\n    * [PHPC-899] - Remind users about BSON comparison behavior",
-            "get": "http://pecl.php.net/get/mongodb-1.2.4",
+            "get": "https://pecl.php.net/get/mongodb-1.2.4",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.2.3": {
@@ -895,7 +935,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2017-01-17T18:36:12+00:00",
             "releaseNotes": "** Bug\n    * [PHPC-855] - Assertion failure in stream_not_found() after failed getmore operation\n    * [PHPC-856] - Build errors using bundled libbson and system libmongoc\n    * [PHPC-872] - Do not use system crypto policy for OpenSSL on Windows\n    * [PHPC-878] - php_json_serializable_ce missing in PHP versions before 5.5.10 and 5.4.26\n    * [PHPC-879] - php_date_get_immutable_ce missing in PHP versions before 5.6.8 and 5.5.24\n    * [PHPC-881] - Windows CA stores should be opened with read-only flag\n    * [PHPC-883] - BSON array keys should be disregarded during visitation\n    * [PHPC-884] - Public property with zero-length name ignored during BSON encoding\n    * [PHPC-885] - Alphabetize Regex flags when instantiating from BSON\n    * [PHPC-886] - Always recalculate field name length when encoding BSON\n    * [PHPC-891] - BSON encoding should throw if PHP keys contain null bytes\n\n** Improvement\n    * [PHPC-635] - WriteResult debug handler should return objects\n    * [PHPC-873] - Do not allow mixing bundled and system libbson and libmongoc libraries\n\n** Task\n    * [PHPC-633] - Add lines to phpinfo() output regarding support for SSL and SASL\n    * [PHPC-714] - Implement BSON corpus test suite\n    * [PHPC-890] - Add license header to source files",
-            "get": "http://pecl.php.net/get/mongodb-1.2.3",
+            "get": "https://pecl.php.net/get/mongodb-1.2.3",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.2.2": {
@@ -905,7 +945,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2016-12-13T20:15:37+00:00",
             "releaseNotes": "** Bug\n    * [PHPC-849] - Cursor::setTypeMap() leaks current element if called during iteration\n    * [PHPC-851] - Segfault when ReadPreference tag sets are an immutable array\n    * [PHPC-852] - Do not depend on date and standard extensions in config.w32 \n    * [PHPC-853] - config.w32 fails to generate all libmongoc and libbson version constants\n    * [PHPC-854] - Client persistence crashes with ZTS (e.g. Apache)",
-            "get": "http://pecl.php.net/get/mongodb-1.2.2",
+            "get": "https://pecl.php.net/get/mongodb-1.2.2",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.2.1": {
@@ -915,7 +955,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2016-12-07T18:26:58+00:00",
             "releaseNotes": "** Bug\n    * [PHPC-848] - Fix BSON encoding of immutable arrays and documents with circular references",
-            "get": "http://pecl.php.net/get/mongodb-1.2.1",
+            "get": "https://pecl.php.net/get/mongodb-1.2.1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.2.0": {
@@ -925,7 +965,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2016-11-29T16:05:32+00:00",
             "releaseNotes": "** Bug\n    * [PHPC-316] - config.w32 should define MONGOC_ENABLE_SASL\n    * [PHPC-447] - Windows builds should generate libmongoc and libbson config and version files\n    * [PHPC-481] - Windows reports wrong mongoc and libbson versions\n    * [PHPC-520] - Document driver dependencies\n    * [PHPC-525] - Demonstrate non-empty $filter argument in Query constructor example\n    * [PHPC-530] - Document MongoDB\\Driver\\Server type constants\n    * [PHPC-554] - Rephrase unsupported/corrupt BSON messages\n    * [PHPC-625] - Document that persistent sockets should not be re-used after forking\n    * [PHPC-673] - Cursor::isDead() returns true despite cursor being alive\n    * [PHPC-674] - Advise users to install pkg-config for building the driver\n    * [PHPC-693] - Unacknowledged WriteResults have null counts\n    * [PHPC-728] - Wrong example on how to provide client certificate\n    * [PHPC-748] - CursorID is not properly expressed on 32-bit platforms\n    * [PHPC-756] - fromJSON() should not evaluate bson_error_t.message as boolean\n    * [PHPC-762] - undefined symbol: mongoc_write_concern_is_acknowledged\n    * [PHPC-788] - Timestamp on 32-bit platforms breaks\n    * [PHPC-790] - UTCDateTime constructor should truncate floats\n    * [PHPC-794] - BulkWrite::update() silently ignores invalid arguments\n    * [PHPC-801] - Empty ReadConcern and WriteConcern should serialize to BSON documents\n    * [PHPC-804] - Timestamp and UTCDateTime constructors should accept integers in strict types mode\n    * [PHPC-838] - Javascript objects are always serialized as BSON code types without scope\n\n** Epic\n    * [PHPC-542] - Remove dependency on mongoc private symbols\n\n** Improvement\n    * [PHPC-359] - Ensure read preference tags sets serialize as documents\n    * [PHPC-424] - Validate that read preference tag set is an array of documents\n    * [PHPC-433] - Persist topology state between requests\n    * [PHPC-486] - Add syntax highlighting to BSON persistence articles\n    * [PHPC-637] - Remind users that connection URIs should be encoded\n    * [PHPC-654] - Implement comparison handlers for BSON types\n    * [PHPC-676] - Do not allow BulkWrite objects to be executed multiple times\n    * [PHPC-684] - Report bypassDocumentValidation in BulkWrite debug output\n    * [PHPC-705] - Do not unnecessarily wrap filters in $query\n    * [PHPC-721] - Javascript constructor should throw if code contains null bytes\n    * [PHPC-724] - Regex constructor should throw if pattern or flags contain null bytes\n    * [PHPC-726] - Allow cross-platform serialization of Timestamp and UTCDateTime\n    * [PHPC-731] - Parse Timestamp argument as strings to accept large integers\n    * [PHPC-739] - Rename \"javascript\" to \"code\" in Javascript BSON class\n    * [PHPC-741] - Use consistent exceptions for BSON initialization methods\n    * [PHPC-742] - Regex constructor should default flags arg to empty string\n    * [PHPC-744] - Improve error messages for invalid Decimal128 and ObjectID strings\n    * [PHPC-746] - Default Manager URI to \"mongodb://127.0.0.1/\"\n    * [PHPC-754] - Remove libmongoc-priv system dependency in config.m4\n    * [PHPC-755] - Remove include of private mongoc-trace.h\n\n** New Feature\n    * [PHPC-459] - BSON objects should implement JsonSerializable\n    * [PHPC-460] - BSON classes should support PHP serialization and var_export()\n    * [PHPC-498] - ReadPreference, ReadConcern, and WriteConcern should serialize to BSON\n    * [PHPC-536] - UTCDateTime constructor should default to current time and accept DateTimeInterface\n    * [PHPC-552] - Implement ObjectID::getTimestamp() method\n    * [PHPC-619] - Implement Decimal 128 type spec\n    * [PHPC-716] - Support new readConcern level \"linearizable\"\n    * [PHPC-729] - Implement __toString() method for Javascript and Binary\n    * [PHPC-730] - Implement getCode() and getScope() for Javascript\n    * [PHPC-734] - Support providing collation per operation\n    * [PHPC-752] - Allow users to set a limit on acceptable staleness\n    * [PHPC-757] - Implement The MongoDB Handshake Protocol\n    * [PHPC-786] - Support appname in URI array options\n\n** Question\n    * [PHPC-723] - Blocking connect() leads to cumulative timeouts for multiple inaccessible servers\n\n** Task\n    * [PHPC-313] - BSON should throw when encountering 64-bit integer on 32-bit platform\n    * [PHPC-416] - Document SSL options\n    * [PHPC-504] - Document how RP, RC, and WC are serialized to BSON\n    * [PHPC-533] - Remove PHONGO_API macro for exported functions\n    * [PHPC-584] - Remove MkDocs documentation in favor of PHP.net documentation\n    * [PHPC-600] - Manager::getServers() should use mongoc_client_get_server_descriptions()\n    * [PHPC-601] - Cursor::getServer() should not access mongoc_cursor_t.client\n    * [PHPC-602] - Create command cursors with mongoc_cursor_new_from_command_document()\n    * [PHPC-603] - Use mongoc_read_prefs_t getters instead of accessing struct fields directly\n    * [PHPC-604] - WriteConcern::getJournal() should use mongoc_write_concern_journal_is_set()\n    * [PHPC-605] - Rely on libmongoc's socket handling and SSL implementation\n    * [PHPC-606] - Use mongoc_server_description_t public API\n    * [PHPC-607] - Manager::selectServer() should use mongoc_client_select_server()\n    * [PHPC-609] - Ensure client URI handling uses libmongoc public API\n    * [PHPC-610] - Client construction should use mongoc_write_concern_is_valid()\n    * [PHPC-611] - WriteResult::isAcknowledged() should use mongoc_write_concern_is_acknowledged()\n    * [PHPC-618] - Implement SDAM Monitoring spec\n    * [PHPC-629] - Upgrade libbson and libmongoc to 1.4.0\n    * [PHPC-630] - Update bson_visitor_t for unsupported type function pointer\n    * [PHPC-653] - Document WriteResult, WriteConcernError, and WriteError classes\n    * [PHPC-659] - Update bson_visitor_t for decimal 128 type function pointer\n    * [PHPC-662] - Use mongoc_bulk_operation_get_hint()\n    * [PHPC-663] - Use mongoc_bulk_operation_get_write_concern()\n    * [PHPC-664] - Use mongoc_write_concern_get_w()\n    * [PHPC-665] - Remove private libmongoc and libbson header includes\n    * [PHPC-680] - BulkWrite::count() should return number of operations instead of estimated round-trips\n    * [PHPC-682] - Do not use mongoc_bulk_operation_t private API in BulkWrite debug handler\n    * [PHPC-687] - Consolidate struct definitions for PHP 5 and 7\n    * [PHPC-688] - Do not use mongoc_cursor_t private API in Cursor debug handler\n    * [PHPC-689] - Query and command execution should use mongoc_cursor_set_hint()\n    * [PHPC-703] - Update configure scripts for upstream SSL changes\n    * [PHPC-704] - Do not set \"mongodb.debug\" based on Manager's $driverOptions[\"debug\"]\n    * [PHPC-708] - Port http://php.net/manual/en/mongo.security.php to the new docs/driver\n    * [PHPC-718] - Define extension dependencies\n    * [PHPC-751] - Document MongoDB\\BSON\\Decimal128\n    * [PHPC-758] - Disable Decimal128 for bundled libbson and libmongoc 1.4.0\n    * [PHPC-761] - Remove BSON_NAMESPACE constant\n    * [PHPC-769] - Javascript serialization, export, and dump should always include scope field\n    * [PHPC-777] - Document MongoDB\\Driver\\ReadConcern::LINEARIZABLE\n    * [PHPC-779] - Switch serialization from O type to C type\n    * [PHPC-780] - Document persistent connection behavior\n    * [PHPC-783] - Use mongoc_collection_find_with_opts() for Query execution\n    * [PHPC-789] - Remove __wakeup from BSON/* classes\n    * [PHPC-791] - Upgrade libbson and libmongoc to 1.5.0\n    * [PHPC-796] - Use flexible opts for BulkWrite update and delete\n    * [PHPC-799] - Create notice for all third party libraries\n    * [PHPC-805] - Query \"partial\" option is now \"allowPartialResults\"\n    * [PHPC-806] - Document Query options for mongoc_collection_find_with_opts()\n    * [PHPC-807] - Document \"collation\" option for Query and BulkWrite update/delete\n    * [PHPC-824] - SDAM spec update : Update the topology from each handshake\n    * [PHPC-826] - Document that socket paths must be URL-encoded\n    * [PHPC-827] - Update Max Staleness implementation\n    * [PHPC-829] - BSON Regex flags must be alphabetically ordered",
-            "get": "http://pecl.php.net/get/mongodb-1.2.0",
+            "get": "https://pecl.php.net/get/mongodb-1.2.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.2.0alpha3": {
@@ -935,7 +975,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2016-09-21T21:22:35+00:00",
             "releaseNotes": "** Bug\n    * [PHPC-794] - BulkWrite::update() silently ignores invalid arguments\n\n** Improvement\n    * [PHPC-424] - Validate that read preference tag set is an array of documents\n    * [PHPC-705] - Do not unnecessarily wrap filters in $query\n\n** New Feature\n    * [PHPC-498] - ReadPreference, ReadConcern, and WriteConcern should serialize to BSON\n    * [PHPC-734] - Support providing collation per operation\n    * [PHPC-752] - Allow users to set a limit on acceptable staleness\n\n** Task\n    * [PHPC-783] - Use mongoc_collection_find_with_opts() for Query execution\n    * [PHPC-796] - Use flexible opts for BulkWrite update and delete",
-            "get": "http://pecl.php.net/get/mongodb-1.2.0alpha3",
+            "get": "https://pecl.php.net/get/mongodb-1.2.0alpha3",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.2.0alpha2": {
@@ -945,7 +985,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2016-09-14T18:12:33+00:00",
             "releaseNotes": "** Bug\n    * [PHPC-762] - undefined symbol: mongoc_write_concern_is_acknowledged\n\n** Improvement\n    * [PHPC-433] - Persist topology state between requests\n    * [PHPC-726] - Allow cross-platform serialization of Timestamp and UTCDateTime\n    * [PHPC-731] - Parse Timestamp argument as strings to accept large integers\n    * [PHPC-742] - Regex constructor should default flags arg to empty string\n    * [PHPC-744] - Improve error messages for invalid Decimal128 and ObjectID strings\n\n** New Feature\n    * [PHPC-552] - Implement ObjectID::getTimestamp() method\n    * [PHPC-716] - Support new readConcern level \"linearizable\"\n    * [PHPC-757] - Implement The MongoDB Handshake Protocol\n    * [PHPC-786] - Support appname in URI array options\n\n** Task\n    * [PHPC-605] - Rely on libmongoc's socket handling and SSL implementation\n    * [PHPC-629] - Upgrade libbson and libmongoc to 1.4.0\n    * [PHPC-704] - Do not set \"mongodb.debug\" based on Manager's $driverOptions[\"debug\"]\n    * [PHPC-761] - Remove BSON_NAMESPACE constant\n    * [PHPC-769] - Javascript serialization, export, and dump should always include scope field\n    * [PHPC-779] - Switch serialization from O type to C type\n    * [PHPC-789] - Remove __wakeup from BSON/* classes",
-            "get": "http://pecl.php.net/get/mongodb-1.2.0alpha2",
+            "get": "https://pecl.php.net/get/mongodb-1.2.0alpha2",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.2.0alpha1": {
@@ -955,7 +995,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2016-08-02T19:26:14+00:00",
             "releaseNotes": "** Bug\n    * [PHPC-316] - config.w32 should define MONGOC_ENABLE_SASL\n    * [PHPC-447] - Windows builds should generate libmongoc and libbson config and version files\n    * [PHPC-481] - Windows reports wrong mongoc and libbson versions\n    * [PHPC-530] - Document MongoDB\\Driver\\Server type constants\n    * [PHPC-554] - Rephrase unsupported/corrupt BSON messages\n    * [PHPC-673] - Cursor::isDead() returns true despite cursor being alive\n    * [PHPC-693] - Unacknowledged WriteResults have null counts\n    * [PHPC-728] - Wrong example on how to provide client certificate\n    * [PHPC-748] - CursorID is not properly expressed on 32-bit platforms\n\n** Improvement\n    * [PHPC-486] - Add syntax highlighting to BSON persistence articles\n    * [PHPC-684] - Report bypassDocumentValidation in BulkWrite debug output\n    * [PHPC-721] - Javascript constructor should throw if code contains null bytes\n    * [PHPC-724] - Regex constructor should throw if pattern or flags contain null bytes\n    * [PHPC-739] - Rename \"javascript\" to \"code\" in Javascript BSON class\n    * [PHPC-741] - Use consistent exceptions for BSON initialization methods\n    * [PHPC-746] - Default Manager URI to \"mongodb://127.0.0.1/\"\n    * [PHPC-754] - Remove libmongoc-priv system dependency in config.m4\n    * [PHPC-755] - Remove include of private mongoc-trace.h\n\n** New Feature\n    * [PHPC-460] - BSON classes should support PHP serialization and var_export()\n    * [PHPC-536] - UTCDateTime constructor should default to current time and accept DateTimeInterface\n    * [PHPC-619] - Implement Decimal 128 type spec\n    * [PHPC-729] - Implement __toString() method for Javascript and Binary\n    * [PHPC-730] - Implement getCode() and getScope() for Javascript\n\n** Task\n    * [PHPC-600] - Manager::getServers() should use mongoc_client_get_server_descriptions()\n    * [PHPC-601] - Cursor::getServer() should not access mongoc_cursor_t.client\n    * [PHPC-602] - Create command cursors with mongoc_cursor_new_from_command_document()\n    * [PHPC-603] - Use mongoc_read_prefs_t getters instead of accessing struct fields directly\n    * [PHPC-604] - WriteConcern::getJournal() should use mongoc_write_concern_journal_is_set()\n    * [PHPC-606] - Use mongoc_server_description_t public API\n    * [PHPC-607] - Manager::selectServer() should use mongoc_client_select_server()\n    * [PHPC-609] - Ensure client URI handling uses libmongoc public API\n    * [PHPC-610] - Client construction should use mongoc_write_concern_is_valid()\n    * [PHPC-611] - WriteResult::isAcknowledged() should use mongoc_write_concern_is_acknowledged()\n    * [PHPC-630] - Update bson_visitor_t for unsupported type function pointer\n    * [PHPC-659] - Update bson_visitor_t for decimal 128 type function pointer\n    * [PHPC-662] - Use mongoc_bulk_operation_get_hint()\n    * [PHPC-663] - Use mongoc_bulk_operation_get_write_concern()\n    * [PHPC-664] - Use mongoc_write_concern_get_w()\n    * [PHPC-665] - Remove private libmongoc and libbson header includes\n    * [PHPC-680] - BulkWrite::count() should return number of operations instead of estimated round-trips\n    * [PHPC-682] - Do not use mongoc_bulk_operation_t private API in BulkWrite debug handler\n    * [PHPC-687] - Consolidate struct definitions for PHP 5 and 7\n    * [PHPC-688] - Do not use mongoc_cursor_t private API in Cursor debug handler\n    * [PHPC-689] - Query and command execution should use mongoc_cursor_set_hint()\n    * [PHPC-703] - Update configure scripts for upstream SSL changes\n    * [PHPC-708] - Port http://php.net/manual/en/mongo.security.php to the new docs/driver\n    * [PHPC-758] - Disable Decimal128 for bundled libbson and libmongoc 1.4.0",
-            "get": "http://pecl.php.net/get/mongodb-1.2.0alpha1",
+            "get": "https://pecl.php.net/get/mongodb-1.2.0alpha1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.1.10": {
@@ -965,7 +1005,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2016-12-07T18:23:19+00:00",
             "releaseNotes": "* PHPC-848: Consult ZEND_HASH_APPLY_PROTECTION() in PHP7",
-            "get": "http://pecl.php.net/get/mongodb-1.1.10",
+            "get": "https://pecl.php.net/get/mongodb-1.1.10",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.1.9": {
@@ -975,7 +1015,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2016-10-20T17:53:22+00:00",
             "releaseNotes": "* PHPC-820: Upgrade libbson and libmongoc to 1.3.6\n* PHPC-820: Upgrade libbson and libmongoc to 1.3.6",
-            "get": "http://pecl.php.net/get/mongodb-1.1.9",
+            "get": "https://pecl.php.net/get/mongodb-1.1.9",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.1.8": {
@@ -985,7 +1025,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2016-07-05T18:46:12+00:00",
             "releaseNotes": "* PHPC-720: Do not persist SSL streams to avoid SSL reinitialization errors\n* PHPC-631: Regression tests for UTCDateTime::toDateTime()\n* PHPC-631: Fix timelib_time.f assignment in UTCDateTime::toDateTime()",
-            "get": "http://pecl.php.net/get/mongodb-1.1.8",
+            "get": "https://pecl.php.net/get/mongodb-1.1.8",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.1.7": {
@@ -995,7 +1035,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2016-06-02T15:53:15+00:00",
             "releaseNotes": "* PHPC-572: Keep stream context options alive for Manager's lifetime\n* PHPC-671: Avoid mongoc_client_t use-after-free by Cursor and Server\n* PHPC-698: Check HAVE_OPENSSL_EXT before calling php-ssl.c functions\n* PHPC-699: Rename \"php_mongo\" functions to not conflict with legacy driver\n* Fix expected exception message for PHPC-487 test case\n* PHPC-677: Keep pem_file valid for life of mongoc_client_t\n* PHPC-550: Remove XFAIL ODS tests for removed functionality\n* PHPC-672: Fix zend_str_tolower usage",
-            "get": "http://pecl.php.net/get/mongodb-1.1.7",
+            "get": "https://pecl.php.net/get/mongodb-1.1.7",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.1.6": {
@@ -1005,7 +1045,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2016-04-06T15:46:32+00:00",
             "releaseNotes": "* PHPC-667: Fix check for existing \"_id\" field during BulkWrite::insert()\n* PHPC-657: Support MONGOC_NO_AUTOMATIC GLOBALS configure flag\n* PHPC-657: Upgrade libbson and libmongoc to 1.3.5\n* PHPC-655: Use case insensitive parsing for Manager connectTimeoutMS array option\n* PHPC-564: Use macros for accessing write result int32 fields\n* PHPC-564, PHPC-626: WriteResult should use libmongoc's public API\n* Fix title for PHPC-155 regression test",
-            "get": "http://pecl.php.net/get/mongodb-1.1.6",
+            "get": "https://pecl.php.net/get/mongodb-1.1.6",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.1.5": {
@@ -1015,7 +1055,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2016-03-18T17:23:39+00:00",
             "releaseNotes": "* PHPC-632: Define MONGOC_NO_AUTOMATIC_GLOBALS when bundling libmongoc",
-            "get": "http://pecl.php.net/get/mongodb-1.1.5",
+            "get": "https://pecl.php.net/get/mongodb-1.1.5",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.1.4": {
@@ -1025,7 +1065,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2016-03-10T18:14:15+00:00",
             "releaseNotes": "* PHPC-620: Lowercase hexadecimal strings in ObjectID ctor\n* PHPC-623: Fix 64-bit integer conversion for BSON keys",
-            "get": "http://pecl.php.net/get/mongodb-1.1.4",
+            "get": "https://pecl.php.net/get/mongodb-1.1.4",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.1.3": {
@@ -1035,7 +1075,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2016-03-04T18:50:19+00:00",
             "releaseNotes": "* Skip PHPC-545 test on HHVM due to __pclass encoding order\n* PHPC-613: toJSON() should throw if bson_as_json() fails\n* PHPC-615: Return after throwing for bson_reader_read() error\n* PHPC-616: Document and array visitors should throw for corrupt BSON\n* PHPC-531: Fix double free in corrupt BSON visitor\n* Fixed PHPC-506: Use more descriptive messages in WriteExceptions\n* PHPC-414: Combine 32-bit and 64-bit UTCDateTime debug handler tests\n* PHPC-593: Binary type is an unsigned 8-bit integer\n* PHPC-594: Timestamp components are unsigned 32-bit integers\n* PHPC-595: Throw exception if wtimeout > INT32_MAX\n* PHPC-544: Use phongo_long in UTCDateTime ctor\n* PHPC-544: Consult SIZEOF_ZEND_LONG for 64-bit integer support\n* PHPC-592: ADD_ASSOC_STRINGL() can only be used with string literals\n* PHPC-545: Regression test for Peristable bug report\n* PHPC-550: Always encode ODS field when serializing Persistable documents\n* PHPC-581: Use ConnectionTimeoutException for server selection failures\n* PHPC-582: Manager::selectServer() should select exception class based on bson_error_t\n* PHPC-553: Relax expected output patterns for HHVM\n* PHPC-553: Check for connection exceptions in exec and SS methods\n* PHPC-553: Suppress warnings during stream creation\n* PHPC-566: Remove request_id from Manager::__debugInfo()\n* PHPC-567: Bump config.m4 library deps\n* PHPC-567: Upgrade libbson and libmongoc to 1.3.3\n* PHPC-523: Parse readconcernlevel in URI options array\n* PHPC-563: Remove undocumented Manager \"hosts\" URI option\n* PHPC-539: Include read concern in Query debug output\n* PHPC-519: Add missing modifiers to final class methods\n* PHPC-538: ObjectID should not abort on null ctor arg\n* PHPC-515: Test that negative cursor limits return one batch\n* Fixed PHPC-543: MongoDB\\BSON\\UTCDateTime on 32 bit platforms parse argument wrong\n* Fixed PHPC-558: Upgrade libmongoc and libbson to 1.3.2",
-            "get": "http://pecl.php.net/get/mongodb-1.1.3",
+            "get": "https://pecl.php.net/get/mongodb-1.1.3",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.1.2": {
@@ -1045,7 +1085,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2016-01-07T19:19:30+00:00",
             "releaseNotes": "* PHPC-496: Revert \"Temporary workaround for warning in mongoc\"\n* PHPC-534: Enable configure without SASL and support --with-mongodb-sasl=no\n* PHPC-529: Prefix BSON functions to avoid symbol conflicts\n* PHPC-528: Support zval references when appending BSON\n* PHPC-527: fix call to add_index_stringl\n* PHPC-527: Fix PHP 7 / 32bits build",
-            "get": "http://pecl.php.net/get/mongodb-1.1.2",
+            "get": "https://pecl.php.net/get/mongodb-1.1.2",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.1.1": {
@@ -1055,7 +1095,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2015-12-22T20:51:41+00:00",
             "releaseNotes": "* PHPC-285: Allow for PHP 7.x support in package.xml\n* PHPC-285: VC14 needs timezone defined for SSL function\n* PHPC-285: Fix syntax for empty struct initializer\n* PHPC-400: Compare WriteConcern journal arg with IS_TRUE\n* PHPC-405: Additional zval* to zval changes\n* PHPC-397: Additional RETURN_STRING updates\n* PHPC-393: Don't BSON-encode non-public properties in PHP 7\n* PHPC-390: Fix OnUpdateString calls within OnUpdateDebug\n* PHPC-373: Additional MAKE_STD_ZVAL() cleanup\n* PHPC-374: zend_string updates for OnUpdateDebug\n* PHPC-404: Additional hash API changes\n* PHPC-370: Additionally return_value_ptr and return_value_used suppressions\n* PHPC-369: Additional Z_<CLASSNAME>_OBJ_P() macros\n* PHPC-399: Additional zval_used_for_init cleanup\n* PHPC-431: Add the testcase from the report\n* PHPC-431: Segfault when using Manager through singleton class\n* PHPC-391 & PHPC-389: Stream and SSL API changes\n* PHPC-387: Properly init the iterator, and don't free it on dtor\n* PHPC-405: zval drop a level; zval*->zval, zval**->zval*\n* PHPC-404: off-by-one hash api changes\n* PHPC-390: php.ini updates\n* PHPC-380: Use the compatability macros to get the object\n* PHPC-400: Handle IS_TRUE and IS_FALSE\n* PHPC-373: MAKE_STD_ZVAL() and zval* -> zval upgrades\n* PHPC-397: RETURN_*() should RETURN ! :)\n* PHPC-399: zval_used_for_init is no longer needed (or defined)\n* PHPC-398: zend_parse_parameter 's' expects a char* and size_t now\n* PHPC-373: MAKE_STD_ZVAL() is gone\n* PHPC-397: RETURN_STRING() duplicate argument removed\n* PHPC-387: get_current_data() API changes\n* PHPC-397: dup argument in most string macros removed\n* PHPC-380: Use our bc type for free_object argument\n* PHPC-397: dup argument in most string macros removed\n* PHPC-396: HashTable no longer contains nApplyCount\n* PHPC-394: Fix issue with WriteException and zend_read_property\n* PHPC-380: PHP7 create/free object changes\n* PHPC-380: create/free object handlers for PHP7\n* PHPC-385: Remove leftover braces\n* PHPC-374: php_stream_xport_create() now wants zend_string\n* PHPC-388 - dtor on bson_to_zval() failure\n* PHPC-387: Iterator API changes\n* PHPC-386: Forward port Z_PHPDATE_P() to get php_date_obj\n* PHPC-385: add_assoc_string_ex() doesn't have a duplicate param in PHP7\n* PHPC-384: php_stream's no longer have resource ids\n* PHPC-383: Simplify getting the current exception zval*\n* PHPC-376: Cursor var_dump() is weird\n* PHPC-373: Remove MAKE_STD_ZVAL() usage\n* PHPC-374: zend_string* vs char* PHP API changes (1/many)\n* PHPC-375: TSRMLS_FETCH_FROM_CTX() not applicable in PHP7\n* PHPC-372: zend_throw_exception() return value changes\n* PHPC-371: Prep for PHP7 resource changes\n* PHPC-370: Hardcode return_value_used to 1 in PHP7\n* PHPC-370: return_value_ptr and return_value_used removed in PHP7\n* PHPC-369: Use the new Z_<CLASSNAME>_OBJ_P() macros\n* PHPC-369: Split PHP5 and PHP7 style custom object struct declrations\n* PHPC-368: Refactor MongoDB\\Driver\\Manager ctor\n* PHPC-285: Allow for PHP 7.x support in package.xml\n* PHPC-285: VC14 needs timezone defined for SSL function\n* PHPC-285: Fix syntax for empty struct initializer\n* PHPC-400: Compare WriteConcern journal arg with IS_TRUE\n* PHPC-405: Additional zval* to zval changes\n* PHPC-397: Additional RETURN_STRING updates\n* PHPC-393: Don't BSON-encode non-public properties in PHP 7\n* PHPC-390: Fix OnUpdateString calls within OnUpdateDebug\n* PHPC-373: Additional MAKE_STD_ZVAL() cleanup\n* PHPC-374: zend_string updates for OnUpdateDebug\n* PHPC-404: Additional hash API changes\n* PHPC-370: Additionally return_value_ptr and return_value_used suppressions\n* PHPC-369: Additional Z_<CLASSNAME>_OBJ_P() macros\n* PHPC-399: Additional zval_used_for_init cleanup\n* PHPC-431: Add the testcase from the report\n* PHPC-431: Segfault when using Manager through singleton class\n* PHPC-391 & PHPC-389: Stream and SSL API changes\n* PHPC-387: Properly init the iterator, and don't free it on dtor\n* PHPC-405: zval drop a level; zval*->zval, zval**->zval*\n* PHPC-404: off-by-one hash api changes\n* PHPC-390: php.ini updates\n* PHPC-380: Use the compatability macros to get the object\n* PHPC-400: Handle IS_TRUE and IS_FALSE\n* PHPC-373: MAKE_STD_ZVAL() and zval* -> zval upgrades\n* PHPC-397: RETURN_*() should RETURN ! :)\n* PHPC-399: zval_used_for_init is no longer needed (or defined)\n* PHPC-398: zend_parse_parameter 's' expects a char* and size_t now\n* PHPC-373: MAKE_STD_ZVAL() is gone\n* PHPC-397: RETURN_STRING() duplicate argument removed\n* PHPC-387: get_current_data() API changes\n* PHPC-397: dup argument in most string macros removed\n* PHPC-380: Use our bc type for free_object argument\n* PHPC-397: dup argument in most string macros removed\n* PHPC-396: HashTable no longer contains nApplyCount\n* PHPC-394: Fix issue with WriteException and zend_read_property\n* PHPC-380: PHP7 create/free object changes\n* PHPC-380: create/free object handlers for PHP7\n* PHPC-385: Remove leftover braces\n* PHPC-374: php_stream_xport_create() now wants zend_string\n* PHPC-388 - dtor on bson_to_zval() failure\n* PHPC-387: Iterator API changes\n* PHPC-386: Forward port Z_PHPDATE_P() to get php_date_obj\n* PHPC-385: add_assoc_string_ex() doesn't have a duplicate param in PHP7\n* PHPC-384: php_stream's no longer have resource ids\n* PHPC-383: Simplify getting the current exception zval*\n* PHPC-376: Cursor var_dump() is weird\n* PHPC-373: Remove MAKE_STD_ZVAL() usage\n* PHPC-374: zend_string* vs char* PHP API changes (1/many)\n* PHPC-375: TSRMLS_FETCH_FROM_CTX() not applicable in PHP7\n* PHPC-372: zend_throw_exception() return value changes\n* PHPC-371: Prep for PHP7 resource changes\n* PHPC-370: Hardcode return_value_used to 1 in PHP7\n* PHPC-370: return_value_ptr and return_value_used removed in PHP7\n* PHPC-369: Use the new Z_<CLASSNAME>_OBJ_P() macros\n* PHPC-369: Split PHP5 and PHP7 style custom object struct declrations\n* PHPC-368: Refactor MongoDB\\Driver\\Manager ctor",
-            "get": "http://pecl.php.net/get/mongodb-1.1.1",
+            "get": "https://pecl.php.net/get/mongodb-1.1.1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.1.0": {
@@ -1065,7 +1105,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2015-12-15T16:00:54+00:00",
             "releaseNotes": "* PHPC-509: Default Manager URI to \"mongodb://localhost:27017/\"\n* PHPC-448: Fix arginfo for ReadConcern constructor\n* PHPC-514: Fix --with-mongodb-sasl flag\n* PHPC-512: Disable async stream connections\n* PHPC-508: Construct valid stream URI for IPv6 literals\n* PHPC-448: Manager::getReadConcern() and URI test\n* PHPC-448: Support readConcern option on Query\n* PHPC-448: Implement ReadConcern class\n* PHPC-443: Support \"bypassDocumentValidation\" option in BulkWrite\n* PHPC-450: failReceivedGetmore does not support getMore commands\n* PHPC-450: Don't assert exact isMaster response when dumping Servers\n* PHPC-450: Split query tests for OP_QUERY and find command\n* PHPC-450: Profiled aggregate commands log the collection NS in 3.2\n* PHPC-450: Update open cursor check for MongoDB 3.2\n* Fixed PHPC-502: bson_init_static(): precondition failed: data\n* PHPC-450: Enable majority read concern by default in MO\n* PHPC-450: Use MongoDB 3.2 final for testing",
-            "get": "http://pecl.php.net/get/mongodb-1.1.0",
+            "get": "https://pecl.php.net/get/mongodb-1.1.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.0.1": {
@@ -1075,7 +1115,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2015-12-07T17:36:34+00:00",
             "releaseNotes": "* PHPC-487: Regression tests for check_closed stream handler\n* PHPC-487: Reverse logic in check_closed stream handler\n* PHPC-499: Only add the dependency when we're actually enabling the extension",
-            "get": "http://pecl.php.net/get/mongodb-1.0.1",
+            "get": "https://pecl.php.net/get/mongodb-1.0.1",
             "SPDX-License-Identifier": "PHP-3.01 OR Apache-2.0"
         },
         "1.0.0": {
@@ -1085,7 +1125,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2015-10-30T16:24:20+00:00",
             "releaseNotes": "* PHPC-475: toJSON and fromJSON should thrown on error",
-            "get": "http://pecl.php.net/get/mongodb-1.0.0",
+            "get": "https://pecl.php.net/get/mongodb-1.0.0",
             "SPDX-License-Identifier": "PHP-3.01 OR Apache-2.0"
         },
         "1.0.0RC0": {
@@ -1095,7 +1135,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2015-10-26T21:07:12+00:00",
             "releaseNotes": "* PHPC-465: Remove WriteConcernException and WriteErrorException\n* PHPC-465: Remove Manager's single write methods\n* PHPC-440: WriteErrorException extends abstract WriteException\n* PHPC-462: Remove unused DuplicateKeyException\n* PHPC-310: Make BSON types final and disable serialization for now\n* PHPC-310: Exception classes need not be final\n* PHPC-444: Support options array in BulkWrite and executeInsert()\n* PHPC-407: Rename X509 error test and fix cert path\n* PHPC-454: Remove WriteResult::getInfo() method\n* PHPC-441: slaveOk bit is now set on hinted secondary query\n* PHPC-256: Productions debug logs\n* PHPC-441: Skip (xfail) these tests while the ticket is being worked on",
-            "get": "http://pecl.php.net/get/mongodb-1.0.0RC0",
+            "get": "https://pecl.php.net/get/mongodb-1.0.0RC0",
             "SPDX-License-Identifier": "PHP-3.01 OR Apache-2.0"
         },
         "1.0.0beta2": {
@@ -1105,7 +1145,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2015-10-06T05:55:06+00:00",
             "releaseNotes": "* PHPC-442: report PHP version in debug info\n* PHPC-409: $readPreference is no longer sent to non-mongos nodes\n* PHPC-438: Debug handler should display null for no WC error\n* PHPC-436: Handle new writeConcernErrors array in mongoc_write_result_t\n* PHPC-415: Add testcase\n* PHPC-415: SSL/TLS already set-up for this stream\n* PHPC-393: Ignore non-public properties when encoding BSON\n* PHPC-430, PHPC-377: Do not convert Query filter arg to an object\n* PHPC-377: Eliminate object casting and whole lot of zend hash helpers\n* PHPC-373: Get rid of MAKE_STD_ZVAL() and use bson_t instead\n* PHPC-430: Regression tests for Query arg corruption\n* PHPC-379: I broke PHP5.3 build. Thats OK, since we don't support it.\n* PHPC-427: Fix parsing of null WC journal param for PHP 5.4\n* PHPC-428: Remove support for WriteConcern fsync option\n* PHPC-427: Do not set WC journal/fsync to false for NULL args\n* PHPC-423: WriteConcern should report default \"w\" option as null\n* PHPC-426: WC ctor should throw for invalid $w and $wtimeout args\n* PHPC-425: WC ctor should accept int/string $w args w/o casting\n* PHPC-412: HHVM does not do SSL peer verification like PHP\n* PHPC-410: Make BSON exception message consistent with HHVM\n* PHPC-410: zval_to_bson() should throw on non-Serializable Type objects\n* PHPC-410: object_to_bson() should throw on unsupported BSON\\Type objects\n* PHPC-410: object_to_bson() should encode non-stdClass objects\n* PHPC-418: Getters for WriteConcern properties\n* PHPC-418: Getters for ReadPreference properties\n* PHPC-417: Return value objects from Manager RP/WC getters\n* PHPC-408: Ensure object_to_bson() always creates a BSON document",
-            "get": "http://pecl.php.net/get/mongodb-1.0.0beta2",
+            "get": "https://pecl.php.net/get/mongodb-1.0.0beta2",
             "SPDX-License-Identifier": "PHP-3.01 OR Apache-2.0"
         },
         "1.0.0beta1": {
@@ -1115,7 +1155,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2015-09-10T18:34:24+00:00",
             "releaseNotes": "* PHPC-381: Print whether profile commands were successful\n* PHPC-381: Server::executeQuery/Command() should take a read preference\n* PHPC-361: Manager::getServers() should omit unknown servers\n* PHPC-337: BSON\\Javascript debug handler\n* PHPC-339: BSON\\Timestamp debug handler\n* PHPC-340: BSON\\UTCDateTime debug handler\n* PHPC-338: BSON\\Regex debug handler\n* PHPC-366: Update release script to use RELEASE-x.y file\n* PHPC-366: Merge 1.0.x release notes into RELEASE-1.0\n* PHPC-366: Merge RELEASE-0.* release notes into RELEASE-0",
-            "get": "http://pecl.php.net/get/mongodb-1.0.0beta1",
+            "get": "https://pecl.php.net/get/mongodb-1.0.0beta1",
             "SPDX-License-Identifier": "PHP-3.01 OR Apache-2.0"
         },
         "1.0.0alpha2": {
@@ -1125,7 +1165,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2015-08-21T00:30:24+00:00",
             "releaseNotes": "* PHPC-365: Add src/contrib to Windows build includes",
-            "get": "http://pecl.php.net/get/mongodb-1.0.0alpha2",
+            "get": "https://pecl.php.net/get/mongodb-1.0.0alpha2",
             "SPDX-License-Identifier": "PHP-3.01 OR Apache-2.0"
         },
         "1.0.0alpha1": {
@@ -1135,7 +1175,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2015-08-20T20:22:14+00:00",
             "releaseNotes": "* PHPC-271: Server::executeBulkWrite() should take a write concern\n* PHPC-196: Implement Manager getters for WC and RP\n* PHPC-353: Return early when there are no options to apply\n* PHPC-353: Support RP and WC in Manager options array\n* PHPC-357: Revise test and relocate to standalone group\n* PHPC-357: \"invalid namespace\" exception should report the namespace\n* PHPC-129: Split out WriteConcern constructor error test\n* PHPC-350: Bump libmongoc submodule for updated headers\n* PHPC-347: bson_to_zval() leaks when buffer contains no documents\n* PHPC-345: bson_to_zval() should throw exceptions instead of warnings\n* PHPC-334: Split hex_dump() test case\n* PHPC-344: Allow non-root Serializable to encode as BSON array\n* PHPC-343: Allow bsonSerialize() to return a stdClass\n* PHPC-331: Tests for BSON deserialization errors\n* PHPC-329: bson_to_zval() serialization spec compatibility\n* PHPC-329: __pclass must be both instantiatable and Persistable\n* PHPC-329: Apply more validation to type map class\n* PHPC-336: BSON\\Binary debug handler\n* PHPC-341: Ensure bson_t is freed after decoding JSON\n* PHPC-333: Implement MongoDB\\BSON\\Binary::getData()\n* PHPC-229: Support options array in second parameter of Manager ctor\n* PHPC-334: Don't produce BSON with multiple __pclass fields\n* PHPC-330: Always include __pclass property when unserializing BSON\n* PHPC-311: Rename from/toArray() functions to from/toPHP()\n* PHPC-315: Support \"root\" type mapping for top-level documents\n* PHPC-319: Convert top-level documents to stdClass by default\n* PHPC-304: Enable the test again -- and fix typo in the clean section!\n* PHPC-303: Cannot connect to healthy Replica Set if seedlist only contains a secondary\n* PHPC-325: bson_to_zval() leaks when buffer contains multiple documents\n* PHPC-306: Check for sasl_client_done in config.m4\n* PHPC-317: Ensure \"sort\" query option serializes as BSON object\n* PHPC-323: The check for system mongoc checks system bson, not mongoc\n* PHPC-322: Wrong bugtracker URL in configure output\n* PHPC-321: UTCDatetime -> UTCDateTime\n* PHPC-321: UTCDatetime -> UTCDateTime\n* PHPC-309: Bump tests\n* PHPC-309: Move the BSON namespace under MongoDB\\ namespace\n* PHPC-308: Skip getmore test until libmongoc issues are resolved\n* PHPC-308: Failed getmore should throw exception\n* PHPC-304: Add a failGetMore trigger\n* PHPC-291: New cluster/socket/connection tests\n* PHPC-291: Add a script to convert mo-tests (JSON) to PHPT\n* PHPC-305: add --with-libmongo option\n* PHPC-75: Improve debug output coverage\n* PHPC-75: Improve coverage\n* PHPC-75: Server error code coverage\n* PHPC-301: var_dump()ing Manager should show debug info\n* PHPC-300: Add var_dump() debug info for Server\n* PHPC-75: Improve coverage for the Manager\n* PHPC-277: Ensure Query always serializes $query as a BSON object\n* PHPC-299: Annoying compiler warning\n* PHPC-298: Coalesce small writes\n* PHPC-284: Fix LogicException declaration\n* PHPC-279: Add 2.4 (and 2.6) to build matrix and ensure test suite compatibility\n* PHPC-296: phongo.debug created for empty values",
-            "get": "http://pecl.php.net/get/mongodb-1.0.0alpha1",
+            "get": "https://pecl.php.net/get/mongodb-1.0.0alpha1",
             "SPDX-License-Identifier": "PHP-3.01 OR Apache-2.0"
         },
         "0.6.3": {
@@ -1145,7 +1185,7 @@
             "releasedBy": "bjori",
             "releaseDate": "2015-05-06T16:54:31+00:00",
             "releaseNotes": "* PHPC-294: Fix path to build directory",
-            "get": "http://pecl.php.net/get/mongodb-0.6.3",
+            "get": "https://pecl.php.net/get/mongodb-0.6.3",
             "SPDX-License-Identifier": "PHP-3.01 OR Apache-2.0"
         },
         "0.6.2": {
@@ -1155,7 +1195,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2015-05-06T15:51:10+00:00",
             "releaseNotes": "* Fix PECL package stability",
-            "get": "http://pecl.php.net/get/mongodb-0.6.2",
+            "get": "https://pecl.php.net/get/mongodb-0.6.2",
             "SPDX-License-Identifier": "PHP-3.01 OR Apache-2.0"
         },
         "0.6.1": {
@@ -1165,7 +1205,7 @@
             "releasedBy": "jmikola",
             "releaseDate": "2015-05-06T15:37:17+00:00",
             "releaseNotes": "* Fix build outside of srcdir",
-            "get": "http://pecl.php.net/get/mongodb-0.6.1",
+            "get": "https://pecl.php.net/get/mongodb-0.6.1",
             "SPDX-License-Identifier": "PHP-3.01 OR Apache-2.0"
         },
         "0.6.0": {
@@ -1175,7 +1215,7 @@
             "releasedBy": "bjori",
             "releaseDate": "2015-05-05T16:24:43+00:00",
             "releaseNotes": "* PHPC-282: Test for multiple Cursor::toArray() calls\n* PHPC-255: Cursors cannot rewind after starting iteration\n* PHPC-282: Remove tests for multiple iterators on the same Cursor\n* PHPC-282: Cursor should not yield multiple iterators\n* PHPC-284: Create MongoDB\\Driver\\Exception\\LogicException class\n* PHPC-283: UnexpectedValueException for invalid bsonSerialize() return value\n* PHPC-280: WriteConcern should always set journal/fsync boolean args\n* PHPC-179: Show unset journal/fsync as null in WriteConcern debug handler\n* PHPC-274: Regression test for root BSON\\Serializable encoding\n* PHPC-275: object_to_bson() handling for invalid bsonSerialize() retval\n* PHPC-274: Fix zval_to_bson() encoding of BSON\\Serializable objects\n* PHPC-278: nModified may be null for legacy writes\n* PHPC-269: Travis mojo again\n* PHPC-272: Move exceptions into MongoDB\\Driver\\Exception namespace",
-            "get": "http://pecl.php.net/get/mongodb-0.6.0",
+            "get": "https://pecl.php.net/get/mongodb-0.6.0",
             "SPDX-License-Identifier": "PHP-3.01 OR Apache-2.0"
         },
         "0.5.1": {
@@ -1185,7 +1225,7 @@
             "releasedBy": "bjori",
             "releaseDate": "2015-04-24T22:07:03+00:00",
             "releaseNotes": "* PHPC-241: Don't try to use local timezone\n* PHPC-241: mongodb.debug improvements\n* PHPC-270: Several test fail because of missing enableTestCommands\n* PHPC-270: add TESTCOMMANDS() skipif to confirm mongod is running with required options\n* PHPC-269: Fix travis setup\n* PHPC-268: Update tests to declare which environments they need\n* PHPC-268: Add NEEDS() function to check if that environment is available\n* PHPC-247: Remove 'faker' as prerequisite from running our full test suite\n* PHPC-247: Remove on-the-fly composer generated fixtures\n* PHPC-247: Use the bundled pregenerated fixtures\n* PHPC-89: Bundle generated fixtures and make them easily loadable\n* PHPC-260: Allow/use \"object\" in setTypeMap() as alias/preferred for \"stdclass\"\n* PHPC-267; _id generated on embedded document\n* PHPC-265: BSON encoding unsupoprted types (Resource) should fail\n* PHPC-266: Add MongoDB\\Driver\\UnexpectedValueException\n* PHPC-75: Improve code coverage\n* PHPC-258: make all filed needed for test as role=\"test\"\n* PHPC-259: add --with-libbson option",
-            "get": "http://pecl.php.net/get/mongodb-0.5.1",
+            "get": "https://pecl.php.net/get/mongodb-0.5.1",
             "SPDX-License-Identifier": "PHP-3.01 OR Apache-2.0"
         },
         "0.5.0": {
@@ -1195,7 +1235,7 @@
             "releasedBy": "bjori",
             "releaseDate": "2015-04-21T21:17:49+00:00",
             "releaseNotes": "* PHPC-241: Include lib versions and uri in the logs\n* PHPC-240: Rely on libmongoc for command cursor iteration\n* PHPC-240: Regression tests for command cursor getmore\n* PHPC-254: Remove unused RINIT and RSHUTDOWN handlers\n* PHPC-253: bump mongoc after CDRIVER-611 fix\n* PHPC-249: empty array should be serialized as array\n* PHPC-248: Allow ->setTypeMap() to set 'array' and 'stdclass'\n* PHPC-245: Allow embedding objects in updates\n* PHPC-245: executeUpdate() converts objects to arrays\n* PHPC-244: Cannot use object of type Person as array\n* PHPC-243: Manager->executeUpdate() option is supposed to be 'multi'\n* PHPC-239: Cursor refcount issues\n* PHPC-237: Update PHP version requirement in package.xml",
-            "get": "http://pecl.php.net/get/mongodb-0.5.0",
+            "get": "https://pecl.php.net/get/mongodb-0.5.0",
             "SPDX-License-Identifier": "PHP-3.01 OR Apache-2.0"
         },
         "0.4.1": {
@@ -1205,7 +1245,7 @@
             "releasedBy": "bjori",
             "releaseDate": "2015-04-10T23:21:42+00:00",
             "releaseNotes": "* PHPC-236: 5.3-zts build broken",
-            "get": "http://pecl.php.net/get/mongodb-0.4.1",
+            "get": "https://pecl.php.net/get/mongodb-0.4.1",
             "SPDX-License-Identifier": "PHP-3.01 OR Apache-2.0"
         },
         "0.4.0": {
@@ -1215,7 +1255,7 @@
             "releasedBy": "bjori",
             "releaseDate": "2015-04-10T21:43:00+00:00",
             "releaseNotes": "* PHPC-234: Run test suite automatically on FreeBSD 10.1\n* PHPC-235: Fix out-of-src builds on FreeBSD\n* PHPC-213: Disable extra bson type alignment\n* PHPC-233: Mark the ctor as private for internally created value objects\n* PHPC-80: Create distcheck target\n* PHPC-231: Manager instances should not free streams that are still in use\n* bump dependencies for PHPC-231 & PHPC-213\n* PHPC-232: Fix capitalization for WriteResult::getWriteConcern()\n* PHPC-231: Regression test for Manager destruct stream freeing\n* PHPC-215: Fix Cursor iteration through IteratorIterator\n* PHPC-225: Test Cursor::isDead() and kill on destruct\n* PHPC-224: Consolidate Result and Cursor classes into one\n* PHPC-224: Remove Cursor class, which implements Iterator\n* PHPC-207: Correct serialized data examples for ODS documentation\n* PHPC-210 & PHPC-209 & PHPC-207 Fix BSON ODM/ODS\n* PHPC-208: Restrict ODS to \"__pclass\" fieldnames\n* PHPC-194: Implement Manager::selectServer() method to wrap SDAM server selection\n* PHPC-190: Provide __wakeUp() to disable unserialize()\n* PHPC-191 && PHPC-192: Add verify_expiry && verify_peer_name certificate verify options\n* PHPC-223: Use explicit SSL options rather then stream context\n* PHPC-222: WriteConcernError can cause segfaults on Ubuntu Precise 32bit\n* PHPC-220: BSON\\UTCDatetime broken on 32bit\n* PHPC-221: Add Ubuntu Precise (12.04.5) 32bit image\n* PHPC-219 - BSON\\Javascript segfaults on Ubuntu Precise 32bit\n* PHPC-221: Rename the identifier to precise64 as we'll be adding 32bit soon\n* PHPC-204: Result::toArray() should respect type map configuration\n* PHPC-203: Result::toArray() should proxy iterator_to_array($this)\n* PHPC-214: Result does not need custom iterator classes\n* PHPC-216: PHP5.5 change the prototype of get_current_key leading to\n* PHPC-216: Include our pem files in the pecl archive\n* PHPC-216: Use array(), not [], for PHP5.3 compatibility\n* PHPC-218: Provision ubuntu image and install & run the test suite\n* PHPC-216: PHP5.3 test suite fixes\n* PHPC-217: Include the connection tests in pecl package\n* PHPC-213: Memory alignment issues on FreeBSD\n* PHPC-216: PHP5.3 test suite fixes\n* PHPC-212: undefined symbol: _mongoc_sasl_set_service_host - patch by remi@php.net",
-            "get": "http://pecl.php.net/get/mongodb-0.4.0",
+            "get": "https://pecl.php.net/get/mongodb-0.4.0",
             "SPDX-License-Identifier": "PHP-3.01 OR Apache-2.0"
         },
         "0.3.1": {
@@ -1225,7 +1265,7 @@
             "releasedBy": "bjori",
             "releaseDate": "2015-03-25T22:15:56+00:00",
             "releaseNotes": "* PHPC-211: Windows libbson and mongoc config files missing in release archive",
-            "get": "http://pecl.php.net/get/mongodb-0.3.1",
+            "get": "https://pecl.php.net/get/mongodb-0.3.1",
             "SPDX-License-Identifier": "PHP-3.01 OR Apache-2.0"
         },
         "0.3.0": {
@@ -1235,7 +1275,7 @@
             "releasedBy": "bjori",
             "releaseDate": "2015-03-25T18:14:01+00:00",
             "releaseNotes": "* PHPC-175: Fix header includes on Windows\n* PHPC-175: Fix build on 32bit\n* PHPC-175: Windows doesn't have these compiler attributes\n* IPHPC-176: Copy build templates, add missing file & set build flags\n* PHPC-200: Don't set stream initiator when creating client fails\n* PHPC-199: Missing file from mongoc in config.m4\n* Update naming after PHPC-174",
-            "get": "http://pecl.php.net/get/mongodb-0.3.0",
+            "get": "https://pecl.php.net/get/mongodb-0.3.0",
             "SPDX-License-Identifier": "PHP-3.01 OR Apache-2.0"
         },
         "0.2.0": {
@@ -1245,7 +1285,7 @@
             "releasedBy": "bjori",
             "releaseDate": "2015-03-23T19:07:10+00:00",
             "releaseNotes": "* PHPC-174: Rename module registration, constants and so on to mongodb\n* PHPC-174: Rename phongo to mongodb\n* PHPC-174: Use consistent extension names for PHP and HHVM drivers\n* PHPC-195: Fix typo and couple of missing incldues\n* PHPC-195: Remove mongoc/bson header file workarounds\n* Test for PHPC-186\n* PHPC-183: Add -Wdeclaration-after-statement to --enable-developers-flags\n* PHPC-183: Fix compiler warnings with -Wdeclaration-after-statement\n* PHPC-189: Implement Manager->getServers()\n* PHPC-188: Populate MongoDB\\Driver\\Server\n* PHPC-24 PHPC-77 PHPC-69 Provide a functioning Server object\n* PHPC-106: Comment out var_dump() data for now\n* PHPC-106: Enable mongoc SDAM build\n* PHPC-106: Connect asynchronouslyish\n* PHPC-106: Implement the new poll callback\n* PHPC-181: Discard const qualifiers for PHP API\n* PHPC-181: Use const for pointer args where applicable\n* PHPC-180: Fix limited batch import\n* PHPC-180: No need to sleep anything, we get a fresh connection in next test\n* PHPC-180: We now load 1024 users\n* PHPC-180: We now generate 1024 users, only load the first 100\n* PHPC-180: Cache the fixtures\n* PHPC-180: Rename constant and pass the cleanup uri explicitly\n* PHPC-180: Replace this Orchestration wrapper with significantly simpler code\n* PHPC-168: Implement WriteResult::isAcknowledged()\n* PHPC-170: Don't set write concern on bulk unnecessarily\n* PHPC-177: Include all fields in WriteConcern debug output",
-            "get": "http://pecl.php.net/get/mongodb-0.2.0",
+            "get": "https://pecl.php.net/get/mongodb-0.2.0",
             "SPDX-License-Identifier": "PHP-3.01 OR Apache-2.0"
         }
     },

@@ -15,6 +15,6 @@
  <da>2010-01-12 12:17:29</da>
  <n>- Added support for open(), close(), status() and setOverride() available in sphinx 0.9.9 new API</n>
  <f>12092</f>
- <g>http://pecl.php.net/get/sphinx-1.0.3</g>
+ <g>https://pecl.php.net/get/sphinx-1.0.3</g>
  <x xlink:href="package.1.0.3.xml"/>
 </r>

@@ -16,6 +16,6 @@
  <n>- PECL Bug #9082, wrong entry name like &quot;a/b//file.txt&quot; cannot be extracted on windows
   A &quot;bug&quot; in php mkdir was the cause, a work around has been introduced for php versions before 5.2.0</n>
  <f>57137</f>
- <g>http://pecl.php.net/get/zip-1.7.5</g>
+ <g>https://pecl.php.net/get/zip-1.7.5</g>
  <x xlink:href="package.1.7.5.xml"/>
 </r>

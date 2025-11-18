@@ -16,6 +16,6 @@
  <n>- Fix issues with relative path in threaded environment,
   VCWD_REALPATH is used in ZipArchive::open() and ::addFile</n>
  <f>55647</f>
- <g>http://pecl.php.net/get/zip-1.7.1</g>
+ <g>https://pecl.php.net/get/zip-1.7.1</g>
  <x xlink:href="package.1.7.1.xml"/>
 </r>

@@ -25,6 +25,6 @@
 - Refine VM base address selection for shared memory maps.
 - Ensure all named objects created with Global prefix when apppoolid is set.</n>
  <f>158879</f>
- <g>http://pecl.php.net/get/WINCACHE-1.3.7.4</g>
+ <g>https://pecl.php.net/get/WINCACHE-1.3.7.4</g>
  <x xlink:href="package.1.3.7.4.xml"/>
 </r>

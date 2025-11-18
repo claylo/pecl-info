@@ -20,6 +20,6 @@ Using this extension with on a non reverse proxied system will result in a secur
  <da>2008-12-30 22:58:45</da>
  <n>supports chained proxies through ini configuration</n>
  <f>4893</f>
- <g>http://pecl.php.net/get/txforward-1.0.6</g>
+ <g>https://pecl.php.net/get/txforward-1.0.6</g>
  <x xlink:href="package.1.0.6.xml"/>
 </r>

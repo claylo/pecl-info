@@ -16,6 +16,6 @@ This extension requires GraphicsMagick version 1.2.6+ and PHP 5.1.3+.</d>
  <da>2013-12-14 12:19:03</da>
  <n>Incorporate Remi's patch on php_gmagick_zval_to_double_array</n>
  <f>97245</f>
- <g>http://pecl.php.net/get/gmagick-1.1.6RC2</g>
+ <g>https://pecl.php.net/get/gmagick-1.1.6RC2</g>
  <x xlink:href="package.1.1.6RC2.xml"/>
 </r>

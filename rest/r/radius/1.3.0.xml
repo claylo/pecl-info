@@ -20,6 +20,6 @@ OS (for example against Windows Active-Directory via IAS).</d>
 - Fixed bug #65378 (radius.c:706: error: too many arguments to function ‘rad_salt_value’). (Adam)
 - Fixed bug #65599 (Fix compiling for VC11 x64). (Jan Ehrhardt)</n>
  <f>43060</f>
- <g>http://pecl.php.net/get/radius-1.3.0</g>
+ <g>https://pecl.php.net/get/radius-1.3.0</g>
  <x xlink:href="package.1.3.0.xml"/>
 </r>

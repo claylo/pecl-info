@@ -16,6 +16,6 @@
  <n>Added oci_client_version() returning the runtime Oracle client library version
 Made OCI8 extension buildable with PHP 5.4-development code</n>
  <f>167182</f>
- <g>http://pecl.php.net/get/oci8-1.4.6</g>
+ <g>https://pecl.php.net/get/oci8-1.4.6</g>
  <x xlink:href="package.1.4.6.xml"/>
 </r>

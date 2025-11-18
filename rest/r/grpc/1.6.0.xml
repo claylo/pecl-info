@@ -17,6 +17,6 @@
 - Added support for php_namespace option in codegen plugin #11886
 - Updated gRPC C Core library version 1.6</n>
  <f>2315119</f>
- <g>http://pecl.php.net/get/grpc-1.6.0</g>
+ <g>https://pecl.php.net/get/grpc-1.6.0</g>
  <x xlink:href="package.1.6.0.xml"/>
 </r>

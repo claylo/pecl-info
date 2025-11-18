@@ -19,6 +19,6 @@
 - RPMs are now available from Remi's repository
 - improved the test suite</n>
  <f>22836</f>
- <g>http://pecl.php.net/get/varnish-1.1.0</g>
+ <g>https://pecl.php.net/get/varnish-1.1.0</g>
  <x xlink:href="package.1.1.0.xml"/>
 </r>

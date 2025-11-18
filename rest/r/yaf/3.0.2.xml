@@ -17,6 +17,6 @@
 - Attempt to fix issue #226 (Segfault on windows7 64bits)
 - Fixed issue #232 (segfault with Yaf_Route_Simple)</n>
  <f>95601</f>
- <g>http://pecl.php.net/get/yaf-3.0.2</g>
+ <g>https://pecl.php.net/get/yaf-3.0.2</g>
  <x xlink:href="package.3.0.2.xml"/>
 </r>

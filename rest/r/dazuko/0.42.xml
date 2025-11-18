@@ -22,6 +22,6 @@ dazuko to code virus scanners and other security frameworks.
  <da>2004-10-05 16:38:00</da>
  <n>Removed event_counter and fixed event_id. Fixed multi threaded api.</n>
  <f>8199</f>
- <g>http://pecl.php.net/get/dazuko-0.42</g>
+ <g>https://pecl.php.net/get/dazuko-0.42</g>
  <x xlink:href="package.0.42.xml"/>
 </r>

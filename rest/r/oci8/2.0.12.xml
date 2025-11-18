@@ -26,6 +26,6 @@ Interoperability Support&quot; (ID 207303.1) for details.</d>
  <da>2016-08-18 08:26:06</da>
  <n>Fixed invalid handle error with Implicit Result Sets</n>
  <f>191954</f>
- <g>http://pecl.php.net/get/oci8-2.0.12</g>
+ <g>https://pecl.php.net/get/oci8-2.0.12</g>
  <x xlink:href="package.2.0.12.xml"/>
 </r>

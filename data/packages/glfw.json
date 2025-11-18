@@ -1,0 +1,13 @@
+{
+    "category": "Multimedia",
+    "deprecated": false,
+    "description": "A complete OpenGL and GLFW extension for PHP, enabling the creation of real-time 2D and 3D graphical applications, games, simulations, and more.",
+    "latestReleaseDate": "",
+    "latestVersion": "",
+    "license": "MIT",
+    "name": "glfw",
+    "php8Mentioned": false,
+    "releases": [],
+    "summary": "GLFW, OpenGL, and various utilities for visual applications.",
+    "SPDX-License-Identifier": "MIT"
+}

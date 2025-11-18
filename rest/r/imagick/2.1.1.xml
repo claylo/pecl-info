@@ -19,6 +19,6 @@ IMPORTANT: Version 2.x API is not compatible with earlier versions.</d>
  <n>- Fixed a bug with fit parameter when scaling images with scaling ratio 1:1
   * This is a minor BWC break. Scripts relying on incorrect behavior might need revisiting.</n>
  <f>74980</f>
- <g>http://pecl.php.net/get/imagick-2.1.1</g>
+ <g>https://pecl.php.net/get/imagick-2.1.1</g>
  <x xlink:href="package.2.1.1.xml"/>
 </r>

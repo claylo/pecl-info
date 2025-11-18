@@ -18,6 +18,6 @@
 - Lexer methods skip(), eoi() and npos() are transformed into constants and are available in the Token class as SKIP, EOI and UNKNOWN constants
 - Introduced ErrorInfo class</n>
  <f>102393</f>
- <g>http://pecl.php.net/get/parle-0.5.2</g>
+ <g>https://pecl.php.net/get/parle-0.5.2</g>
  <x xlink:href="package.0.5.2.xml"/>
 </r>

@@ -15,6 +15,6 @@
  <da>2016-01-29 06:48:08</da>
  <n>- restore apc behavior, apc_inc / apc_dec fail when key doesnt exists</n>
  <f>7067</f>
- <g>http://pecl.php.net/get/apcu_bc-1.0.2</g>
+ <g>https://pecl.php.net/get/apcu_bc-1.0.2</g>
  <x xlink:href="package.1.0.2.xml"/>
 </r>

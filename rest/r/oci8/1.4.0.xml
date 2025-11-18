@@ -47,6 +47,6 @@
 6. Generate an error if an invalid resource type is used in
    oci_bind_by_name</n>
  <f>151384</f>
- <g>http://pecl.php.net/get/oci8-1.4.0</g>
+ <g>https://pecl.php.net/get/oci8-1.4.0</g>
  <x xlink:href="package.1.4.0.xml"/>
 </r>

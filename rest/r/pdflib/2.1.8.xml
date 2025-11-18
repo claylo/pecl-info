@@ -25,6 +25,6 @@ http://www.pdflib.com/fileadmin/pdflib/pdf/support/PDFlib-in-PHP-HowTo.pdf</d>
  - added php_check_open_basedir
  - added missing functions to oo php wrapper</n>
  <f>55797</f>
- <g>http://pecl.php.net/get/pdflib-2.1.8</g>
+ <g>https://pecl.php.net/get/pdflib-2.1.8</g>
  <x xlink:href="package.2.1.8.xml"/>
 </r>

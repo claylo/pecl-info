@@ -45,7 +45,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2017-08-09T05:35:30+00:00",
             "releaseNotes": "- PHP-7.2 Compatibility",
-            "get": "http://pecl.php.net/get/taint-2.0.4",
+            "get": "https://pecl.php.net/get/taint-2.0.4",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.3": {
@@ -55,7 +55,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2017-07-27T10:41:34+00:00",
             "releaseNotes": "- Support str_ireplace\n - Fixed arg order of mysqli",
-            "get": "http://pecl.php.net/get/taint-2.0.3",
+            "get": "https://pecl.php.net/get/taint-2.0.3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.2": {
@@ -65,7 +65,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2016-07-04T04:18:07+00:00",
             "releaseNotes": "- Fixed build with PHP-7.1",
-            "get": "http://pecl.php.net/get/taint-2.0.2",
+            "get": "https://pecl.php.net/get/taint-2.0.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.1": {
@@ -75,7 +75,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2015-12-12T14:03:19+00:00",
             "releaseNotes": "- Fixed issue #26 (taint deson't work with PDO)\n - Added SQLite3 supproted",
-            "get": "http://pecl.php.net/get/taint-2.0.1",
+            "get": "https://pecl.php.net/get/taint-2.0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.0": {
@@ -85,7 +85,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2015-10-27T02:56:50+00:00",
             "releaseNotes": "- Release taint for PHP7",
-            "get": "http://pecl.php.net/get/taint-2.0.0",
+            "get": "https://pecl.php.net/get/taint-2.0.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.2.2": {
@@ -95,7 +95,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2013-03-22T10:47:48+00:00",
             "releaseNotes": "- Fixed issue #4 (wrong op fetched)\n - Fixed issue #3 (zend_error_noreturn undefined)",
-            "get": "http://pecl.php.net/get/taint-1.2.2",
+            "get": "https://pecl.php.net/get/taint-1.2.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.2.1": {
@@ -105,7 +105,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2013-02-26T01:12:48+00:00",
             "releaseNotes": "- release stable version",
-            "get": "http://pecl.php.net/get/taint-1.2.1",
+            "get": "https://pecl.php.net/get/taint-1.2.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.2.0": {
@@ -115,7 +115,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2012-11-05T23:39:23+00:00",
             "releaseNotes": "- Support tracing dim concat result (phonpeng@vip.qq.com)",
-            "get": "http://pecl.php.net/get/taint-1.2.0",
+            "get": "https://pecl.php.net/get/taint-1.2.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.1.0": {
@@ -125,7 +125,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2012-09-21T10:00:15+00:00",
             "releaseNotes": "- Fixed bug #63100 (array_walk_recursive behaves wrongly when taint enabled)\n - Fixed bug #63123 (Hash pointer should be reset at the end of function:php_taint_mark_strings). (274611049 at qq dot com)",
-            "get": "http://pecl.php.net/get/taint-1.1.0",
+            "get": "https://pecl.php.net/get/taint-1.1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.0": {
@@ -135,7 +135,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2012-06-23T05:32:37+00:00",
             "releaseNotes": "- Fixed bug #62395 (str_replace\u91cd\u5199\u6709\u8bef)",
-            "get": "http://pecl.php.net/get/taint-1.0.0",
+            "get": "https://pecl.php.net/get/taint-1.0.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.5.3": {
@@ -145,7 +145,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2012-05-08T04:36:20+00:00",
             "releaseNotes": "- Bug #61816 (Segmentation fault)",
-            "get": "http://pecl.php.net/get/taint-0.5.3",
+            "get": "https://pecl.php.net/get/taint-0.5.3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.5.2": {
@@ -155,7 +155,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2012-04-11T23:51:02+00:00",
             "releaseNotes": "- Fixed build with php 5.3",
-            "get": "http://pecl.php.net/get/taint-0.5.2",
+            "get": "https://pecl.php.net/get/taint-0.5.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.5.1": {
@@ -165,7 +165,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2012-04-09T10:52:17+00:00",
             "releaseNotes": "- Fixed Bug that segfault with global keyword",
-            "get": "http://pecl.php.net/get/taint-0.5.1",
+            "get": "https://pecl.php.net/get/taint-0.5.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.5.0": {
@@ -175,7 +175,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2012-03-22T23:52:19+00:00",
             "releaseNotes": "- Support more functions(strstr, substr, str_replace etc)\n- Fixed Bug that tainted info lost if string is parsed by htmlspecialchars\n- Trigger warning when doing dim assign concat",
-            "get": "http://pecl.php.net/get/taint-0.5.0",
+            "get": "https://pecl.php.net/get/taint-0.5.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.4.1": {
@@ -185,7 +185,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2012-02-26T01:44:31+00:00",
             "releaseNotes": "- Fixed bug #61163 (Passing and using tainted data in specific way crashes)\n- Fix build while zend_error_noreturn missed",
-            "get": "http://pecl.php.net/get/taint-0.4.1",
+            "get": "https://pecl.php.net/get/taint-0.4.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.4.0": {
@@ -195,7 +195,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2012-02-20T09:05:11+00:00",
             "releaseNotes": "- Support trim/rtrim/ltrim\n- Dosen't depend on exposing of zif_* symbols any more\n- Fixed a potential crash(PHP 5.2)\n- Fixed bug that concat_assign lost tainted info in php 5.4(if the var_ptr is tainted while value is not)\n- Fix memory leak in assign_concat\n- Fix tests faild of sprintf/trim etc args signature\n- Fixed compiler warnings",
-            "get": "http://pecl.php.net/get/taint-0.4.0",
+            "get": "https://pecl.php.net/get/taint-0.4.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.3.0": {
@@ -205,7 +205,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2012-02-18T08:15:10+00:00",
             "releaseNotes": "- Taint result of sprintf/vsprintf instead of trigger warnings.\n- Taint result of explode/implode if the input is tained.\n- Taint result of strval if the input is tainted",
-            "get": "http://pecl.php.net/get/taint-0.3.0",
+            "get": "https://pecl.php.net/get/taint-0.3.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.2.0": {
@@ -215,7 +215,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2012-02-18T02:42:03+00:00",
             "releaseNotes": "- Support separation caused by send_ref\n- Support separation caused by send_var\n- Support checking for method\n- Support more functions (sqlite, oci, etc)",
-            "get": "http://pecl.php.net/get/taint-0.2.0",
+            "get": "https://pecl.php.net/get/taint-0.2.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.1.0": {
@@ -225,7 +225,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2012-02-17T00:39:19+00:00",
             "releaseNotes": "- Support reference separation",
-            "get": "http://pecl.php.net/get/taint-0.1.0",
+            "get": "https://pecl.php.net/get/taint-0.1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.0.2": {
@@ -235,7 +235,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2012-02-16T08:02:56+00:00",
             "releaseNotes": "- Fixed bug that MINIT din't respect taint.enable\n- Fixed bug that Taint doesn't work with eval\n- Fixed bug that Taint works wrongly with php 5.3(function arguments)\n- Support ternary",
-            "get": "http://pecl.php.net/get/taint-0.0.2",
+            "get": "https://pecl.php.net/get/taint-0.0.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.0.1": {
@@ -245,7 +245,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2012-02-15T03:43:43+00:00",
             "releaseNotes": "- First release",
-            "get": "http://pecl.php.net/get/taint-0.0.1",
+            "get": "https://pecl.php.net/get/taint-0.0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

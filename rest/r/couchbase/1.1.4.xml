@@ -29,6 +29,6 @@
 - PCBC-191 Don't coredump for invalid argument
 - Update the list of supported PHP versions</n>
  <f>77740</f>
- <g>http://pecl.php.net/get/couchbase-1.1.4</g>
+ <g>https://pecl.php.net/get/couchbase-1.1.4</g>
  <x xlink:href="package.1.1.4.xml"/>
 </r>

@@ -18,6 +18,6 @@
 - Updating license
 - Fix while() condition, since always true</n>
  <f>7803</f>
- <g>http://pecl.php.net/get/doublemetaphone-0.1.2</g>
+ <g>https://pecl.php.net/get/doublemetaphone-0.1.2</g>
  <x xlink:href="package.0.1.2.xml"/>
 </r>

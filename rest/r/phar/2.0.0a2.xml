@@ -51,6 +51,6 @@ avaiable then SHA-256 and SHA-512 signatures are supported as well.</d>
 
 Changes since 2.0.0a1: fix build in PHP 5.2</n>
  <f>208983</f>
- <g>http://pecl.php.net/get/phar-2.0.0a2</g>
+ <g>https://pecl.php.net/get/phar-2.0.0a2</g>
  <x xlink:href="package.2.0.0a2.xml"/>
 </r>

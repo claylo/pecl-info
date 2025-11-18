@@ -19,6 +19,6 @@
 - General improvements (Remi Collet)
 - RPMs are now available from Remi's repository</n>
  <f>34808</f>
- <g>http://pecl.php.net/get/xmldiff-0.9.0</g>
+ <g>https://pecl.php.net/get/xmldiff-0.9.0</g>
  <x xlink:href="package.0.9.0.xml"/>
 </r>

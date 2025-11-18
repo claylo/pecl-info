@@ -19,6 +19,6 @@
 - Fixed PECL bug #11430 (rar_extract() doesn't close handles gracefully)
 - rar_open() now throws an error when failed to open the specified file.</n>
  <f>134904</f>
- <g>http://pecl.php.net/get/rar-1.0.0</g>
+ <g>https://pecl.php.net/get/rar-1.0.0</g>
  <x xlink:href="package.1.0.0.xml"/>
 </r>

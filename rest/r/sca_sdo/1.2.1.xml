@@ -19,6 +19,6 @@
  * Experimental support for service names following the PEAR coding standard
  * Experimental support for a manual service request dispatching interface on SCA.php</n>
  <f>470049</f>
- <g>http://pecl.php.net/get/SCA_SDO-1.2.1</g>
+ <g>https://pecl.php.net/get/SCA_SDO-1.2.1</g>
  <x xlink:href="package.1.2.1.xml"/>
 </r>

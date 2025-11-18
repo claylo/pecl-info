@@ -19,6 +19,6 @@ IMPORTANT: Version 2.x API is not compatible with earlier versions.</d>
  <n>- imagick::setImageVirtualPixelMethod not deprecated anymore
 - fixed windows build</n>
  <f>86976</f>
- <g>http://pecl.php.net/get/imagick-2.3.0</g>
+ <g>https://pecl.php.net/get/imagick-2.3.0</g>
  <x xlink:href="package.2.3.0.xml"/>
 </r>

@@ -17,6 +17,6 @@
 - Fixed bug Yaf_View_Simple crash while calling assign if construct it with no tpl_dir
 - Fixed bug that Yaf_View_Simple::display doesn't convert controller name</n>
  <f>79242</f>
- <g>http://pecl.php.net/get/yaf-2.1.12</g>
+ <g>https://pecl.php.net/get/yaf-2.1.12</g>
  <x xlink:href="package.2.1.12.xml"/>
 </r>

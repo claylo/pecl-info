@@ -15,6 +15,6 @@
  <da>2011-12-05 11:44:03</da>
  <n>- Fixed PECL Bug #60438 (wrong version number in php_gearman.h)</n>
  <f>30387</f>
- <g>http://pecl.php.net/get/gearman-1.0.1</g>
+ <g>https://pecl.php.net/get/gearman-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

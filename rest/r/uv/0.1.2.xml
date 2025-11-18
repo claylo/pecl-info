@@ -17,6 +17,6 @@
 - Fix a few memory leaks
 - Fix loop cleanup</n>
  <f>52757</f>
- <g>http://pecl.php.net/get/uv-0.1.2</g>
+ <g>https://pecl.php.net/get/uv-0.1.2</g>
  <x xlink:href="package.0.1.2.xml"/>
 </r>

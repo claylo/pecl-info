@@ -23,6 +23,6 @@ Fixed in charset conversion code that avoids bad ODR memory ref.
 Force first argument ref for yaz_wait. Not second. Patch by Jakub Vrana.
 Specify version in zend_module_entry.</n>
  <f>14762</f>
- <g>http://pecl.php.net/get/yaz-1.0.2</g>
+ <g>https://pecl.php.net/get/yaz-1.0.2</g>
  <x xlink:href="package.1.0.2.xml"/>
 </r>

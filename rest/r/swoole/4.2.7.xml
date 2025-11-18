@@ -40,6 +40,6 @@
 * Fixed a bug in `Process\Pool`
 - `Swoole\Serialize` will be forced to close in PHP73 (unsupported temporarily)</n>
  <f>1205136</f>
- <g>http://pecl.php.net/get/swoole-4.2.7</g>
+ <g>https://pecl.php.net/get/swoole-4.2.7</g>
  <x xlink:href="package.4.2.7.xml"/>
 </r>

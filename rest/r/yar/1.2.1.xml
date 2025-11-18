@@ -17,6 +17,6 @@
 - Fixed bug(a typo) by zengohm at gmail.com
 - Fixed bug that curl_multi_fdset may return -1</n>
  <f>35174</f>
- <g>http://pecl.php.net/get/yar-1.2.1</g>
+ <g>https://pecl.php.net/get/yar-1.2.1</g>
  <x xlink:href="package.1.2.1.xml"/>
 </r>

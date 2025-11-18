@@ -26,6 +26,6 @@ and for commercial licensing.
   appear during runtime.
 - pear install will work on Mac OS X now</n>
  <f>23053</f>
- <g>http://pecl.php.net/get/pdflib-2.0.2</g>
+ <g>https://pecl.php.net/get/pdflib-2.0.2</g>
  <x xlink:href="package.2.0.2.xml"/>
 </r>

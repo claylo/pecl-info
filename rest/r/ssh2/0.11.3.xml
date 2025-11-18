@@ -20,6 +20,6 @@
 - Fixed bug#17142 (Missing EOF detection in ssh2.sftp:// streams)
 - Fixed bug#16944 (Segmentation fault SIGSEGV with protected variable with ssh2)</n>
  <f>23062</f>
- <g>http://pecl.php.net/get/ssh2-0.11.3</g>
+ <g>https://pecl.php.net/get/ssh2-0.11.3</g>
  <x xlink:href="package.0.11.3.xml"/>
 </r>

@@ -22,6 +22,6 @@ necessary to build a fully-functional MongoDB driver.</d>
     * [PHPC-853] - config.w32 fails to generate all libmongoc and libbson version constants
     * [PHPC-854] - Client persistence crashes with ZTS (e.g. Apache)</n>
  <f>856275</f>
- <g>http://pecl.php.net/get/mongodb-1.2.2</g>
+ <g>https://pecl.php.net/get/mongodb-1.2.2</g>
  <x xlink:href="package.1.2.2.xml"/>
 </r>

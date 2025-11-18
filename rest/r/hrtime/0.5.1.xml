@@ -15,6 +15,6 @@
  <da>2015-02-03 13:08:14</da>
  <n>- fixed invalid free under PHP7</n>
  <f>8944</f>
- <g>http://pecl.php.net/get/hrtime-0.5.1</g>
+ <g>https://pecl.php.net/get/hrtime-0.5.1</g>
  <x xlink:href="package.0.5.1.xml"/>
 </r>

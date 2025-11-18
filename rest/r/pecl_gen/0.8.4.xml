@@ -32,6 +32,6 @@ Technical changes are:
 - files can be added using 'file' tag in 'deps'
 - ...</n>
  <f>46492</f>
- <g>http://pecl.php.net/get/PECL_Gen-0.8.4</g>
+ <g>https://pecl.php.net/get/PECL_Gen-0.8.4</g>
  <x xlink:href="package.0.8.4.xml"/>
 </r>

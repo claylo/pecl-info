@@ -17,6 +17,6 @@
 - Persistent channel fix #14904
 - gRPC C Core bug fixes #14747, #14787</n>
  <f>2351796</f>
- <g>http://pecl.php.net/get/grpc-1.10.1</g>
+ <g>https://pecl.php.net/get/grpc-1.10.1</g>
  <x xlink:href="package.1.10.1.xml"/>
 </r>

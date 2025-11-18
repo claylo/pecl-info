@@ -16,6 +16,6 @@
  <n>1.3.7.10:
 - Off-by-one error in interning key strings for hash table buckets in opcode cache</n>
  <f>172537</f>
- <g>http://pecl.php.net/get/WINCACHE-1.3.7.10</g>
+ <g>https://pecl.php.net/get/WINCACHE-1.3.7.10</g>
  <x xlink:href="package.1.3.7.10.xml"/>
 </r>

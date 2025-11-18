@@ -25,6 +25,6 @@
  <da>2016-03-23 12:04:37</da>
  <n>Fixed #4: linker issue on aarch64</n>
  <f>73531</f>
- <g>http://pecl.php.net/get/eio-2.0.0RC3</g>
+ <g>https://pecl.php.net/get/eio-2.0.0RC3</g>
  <x xlink:href="package.2.0.0RC3.xml"/>
 </r>

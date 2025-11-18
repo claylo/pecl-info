@@ -1,24 +1,13 @@
 {
     "category": "Math",
     "deprecated": false,
-    "description": "Provides a past PHP compatible PRNG implementation of object scope.",
-    "latestReleaseDate": "2020-12-23T13:07:28+00:00",
-    "latestVersion": "0.0.3",
+    "description": "DEPRECATED: use PHP 8.2 or later Randomizer",
+    "latestReleaseDate": "",
+    "latestVersion": "",
     "license": "PHP License",
     "name": "orng",
     "php8Mentioned": false,
-    "releases": {
-        "0.0.3": {
-            "version": "0.0.3",
-            "state": "alpha",
-            "license": "PHP License",
-            "releasedBy": "zeriyoshi",
-            "releaseDate": "2020-12-23T13:07:28+00:00",
-            "releaseNotes": "- Support Windows (Thanks cmb)\n- Fix stabilities, currently NOT stable.",
-            "get": "https://pecl.php.net/get/orng-0.0.3",
-            "SPDX-License-Identifier": "PHP-3.01"
-        }
-    },
-    "summary": "orng - Object scoped PRNG Extension",
+    "releases": [],
+    "summary": "DEPRECATED: use PHP 8.2 or later Randomizer",
     "SPDX-License-Identifier": "PHP-3.01"
 }

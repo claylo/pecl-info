@@ -19,6 +19,6 @@
 - APIS-49: cubrid_set_query_timeout and cubrid_get_query_timeout should use CCI_ER_QUERY_TIMEOUT when they cause an error
 - use cci_prepare_and_execute to improve the performace for cubrid_execute and cubrid_query</n>
  <f>42958</f>
- <g>http://pecl.php.net/get/CUBRID-8.4.1.0002</g>
+ <g>https://pecl.php.net/get/CUBRID-8.4.1.0002</g>
  <x xlink:href="package.8.4.1.0002.xml"/>
 </r>

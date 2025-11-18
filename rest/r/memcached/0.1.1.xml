@@ -17,6 +17,6 @@
 - Implement addServers() method.
 - Swap internal compressed and serialized flags to be compatible with other clients.</n>
  <f>19113</f>
- <g>http://pecl.php.net/get/memcached-0.1.1</g>
+ <g>https://pecl.php.net/get/memcached-0.1.1</g>
  <x xlink:href="package.0.1.1.xml"/>
 </r>

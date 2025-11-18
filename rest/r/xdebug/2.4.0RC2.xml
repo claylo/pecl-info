@@ -47,6 +47,6 @@ Xdebug also provides:
     include file / line numbers by default
   - Use long for PHP 5, and zend_long for PHP 7 for ini settings in the globals</n>
  <f>263506</f>
- <g>http://pecl.php.net/get/xdebug-2.4.0RC2</g>
+ <g>https://pecl.php.net/get/xdebug-2.4.0RC2</g>
  <x xlink:href="package.2.4.0RC2.xml"/>
 </r>

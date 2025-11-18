@@ -18,6 +18,6 @@ necessary to build a fully-functional MongoDB driver.</d>
  <n>** Improvement
     * [PHPC-1026] - Log warnings instead of throwing for unsupported BSON types</n>
  <f>925655</f>
- <g>http://pecl.php.net/get/mongodb-1.3.2</g>
+ <g>https://pecl.php.net/get/mongodb-1.3.2</g>
  <x xlink:href="package.1.3.2.xml"/>
 </r>

@@ -4,7 +4,7 @@
     "description": "SDL_mixer extension for PHP provides the binding of functions for audio loading, playing and mixing.",
     "latestReleaseDate": "2022-03-15T13:41:58+00:00",
     "latestVersion": "0.4.0",
-    "license": "ZLIB",
+    "license": "ZLib",
     "name": "sdl_mixer",
     "php8Mentioned": false,
     "releases": {

@@ -23,6 +23,6 @@ handy OO and procedural interfaces.
 3) Hopefully fixed all possible problems with persistent connections (thanks to [anight at monamour dot ru]).
 4) Some uncritical impovements.</n>
  <f>13013</f>
- <g>http://pecl.php.net/get/memcache-1.2</g>
+ <g>https://pecl.php.net/get/memcache-1.2</g>
  <x xlink:href="package.1.2.xml"/>
 </r>

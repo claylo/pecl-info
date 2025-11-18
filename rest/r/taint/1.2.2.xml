@@ -17,6 +17,6 @@
  <n>- Fixed issue #4 (wrong op fetched)
  - Fixed issue #3 (zend_error_noreturn undefined)</n>
  <f>19949</f>
- <g>http://pecl.php.net/get/taint-1.2.2</g>
+ <g>https://pecl.php.net/get/taint-1.2.2</g>
  <x xlink:href="package.1.2.2.xml"/>
 </r>

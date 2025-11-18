@@ -1,4 +1,16 @@
 {
+    "3.4.7": {
+        "version": "3.4.7",
+        "state": "stable"
+    },
+    "3.4.6": {
+        "version": "3.4.6",
+        "state": "stable"
+    },
+    "3.4.5": {
+        "version": "3.4.5",
+        "state": "stable"
+    },
     "3.4.4": {
         "version": "3.4.4",
         "state": "stable"

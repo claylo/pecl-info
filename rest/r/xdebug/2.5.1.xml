@@ -51,6 +51,6 @@ Xdebug also provides:
     definition
   - Fixed issue #1394: Code coverage does not cover instanceof (in elseif)</n>
  <f>278286</f>
- <g>http://pecl.php.net/get/xdebug-2.5.1</g>
+ <g>https://pecl.php.net/get/xdebug-2.5.1</g>
  <x xlink:href="package.2.5.1.xml"/>
 </r>

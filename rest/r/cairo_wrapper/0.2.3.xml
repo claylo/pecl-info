@@ -16,6 +16,6 @@
  <n>Stuff added since 0.2.2:
 - fixed some function name issues (PECL bug# 12302)</n>
  <f>34451</f>
- <g>http://pecl.php.net/get/cairo_wrapper-0.2.3</g>
+ <g>https://pecl.php.net/get/cairo_wrapper-0.2.3</g>
  <x xlink:href="package.0.2.3.xml"/>
 </r>

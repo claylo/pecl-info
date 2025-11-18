@@ -37,6 +37,6 @@
 - Modify the error information when the client fails to resolve the domain name
 - Process is marked as idle during reload and no longer receives new requests</n>
  <f>727770</f>
- <g>http://pecl.php.net/get/swoole-1.10.2</g>
+ <g>https://pecl.php.net/get/swoole-1.10.2</g>
  <x xlink:href="package.1.10.2.xml"/>
 </r>

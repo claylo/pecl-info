@@ -22,6 +22,6 @@ and for commercial licensing.
  <n>Bugfixes:
 - fixed buildproblems when used link PDFLib statically into PHP.</n>
  <f>36082</f>
- <g>http://pecl.php.net/get/pdflib-2.0.4</g>
+ <g>https://pecl.php.net/get/pdflib-2.0.4</g>
  <x xlink:href="package.2.0.4.xml"/>
 </r>

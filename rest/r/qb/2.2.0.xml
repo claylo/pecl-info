@@ -23,6 +23,6 @@ Fixed issue #34 - Inability to call functions inside namespace
 Fixed issue #35 - Segfault in PHP 5.5.8 when QB coroutine is called
 Fixed issues flagged by Valgrind</n>
  <f>1090431</f>
- <g>http://pecl.php.net/get/qb-2.2.0</g>
+ <g>https://pecl.php.net/get/qb-2.2.0</g>
  <x xlink:href="package.2.2.0.xml"/>
 </r>

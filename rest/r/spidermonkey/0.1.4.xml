@@ -20,6 +20,6 @@
   * Bug 16983: Problems with registering classes containing __get()
 * Added compatibility with spidermonkey 1.9</n>
  <f>15859</f>
- <g>http://pecl.php.net/get/spidermonkey-0.1.4</g>
+ <g>https://pecl.php.net/get/spidermonkey-0.1.4</g>
  <x xlink:href="package.0.1.4.xml"/>
 </r>

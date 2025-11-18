@@ -30,6 +30,6 @@ Code Cleanup
 - Removed support for &quot;old-age&quot; V8 versions (i.e. V8 &lt; 4.6.76)
 - Removed old examples and pre-phpt test script</n>
  <f>90882</f>
- <g>http://pecl.php.net/get/v8js-1.3.0</g>
+ <g>https://pecl.php.net/get/v8js-1.3.0</g>
  <x xlink:href="package.1.3.0.xml"/>
 </r>

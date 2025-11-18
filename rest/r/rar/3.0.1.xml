@@ -20,6 +20,6 @@
 - Fix bad pointer in an error message.
 - Added test for bug #59939 (can't reproduce).</n>
  <f>256638</f>
- <g>http://pecl.php.net/get/rar-3.0.1</g>
+ <g>https://pecl.php.net/get/rar-3.0.1</g>
  <x xlink:href="package.3.0.1.xml"/>
 </r>

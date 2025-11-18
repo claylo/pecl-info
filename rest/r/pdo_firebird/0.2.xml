@@ -19,6 +19,6 @@ all versions of Firebird and InterBase versions 6 and up.
 or InterBase's client library installed on your system.
 Hope it works!</n>
  <f>13380</f>
- <g>http://pecl.php.net/get/PDO_FIREBIRD-0.2</g>
+ <g>https://pecl.php.net/get/PDO_FIREBIRD-0.2</g>
  <x xlink:href="package.0.2.xml"/>
 </r>

@@ -45,6 +45,6 @@
 - Added request_slowlog_timeout configuration, record slow request log
 - Added MySQL asynchronous client support for JSON format</n>
  <f>720529</f>
- <g>http://pecl.php.net/get/swoole-1.10.0</g>
+ <g>https://pecl.php.net/get/swoole-1.10.0</g>
  <x xlink:href="package.1.10.0.xml"/>
 </r>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/wxwidgets">wxwidgets</p>
+ <c>pecl.php.net</c>
+ <v>3.0.2.0</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>jgmdev</m>
+ <s>Cross-platform widget toolkit.</s>
+ <d>Wraps the wxWidgets library, which allows to write 
+ multi-platform desktop applications that make use of the native 
+ graphical components available to the different platforms.</d>
+ <da>2015-06-09 08:08:19</da>
+ <n>* Updated the thread.php example to work properly.
+* Remove delete on the wxThread garbage collector function, which 
+  should fix most issues on #84.
+* Modified wxWindow::GetHandle to return the XWindowID on Gtk which 
+  should really fix #86.
+* Enabled wxWindow::GetHandle by casting WXWidget to size_t.
+* Enabled wxOutputStream::Write and wxInputStream::Read variations 
+  that take a 'void* buf' as argument which should fix issue #87
+* Updated version numbers and added userland version constants: 
+  WXWIDGETS_LIBRARY_VERSION and WXWIDGETS_EXTENSION_VERSION.
+* Added --with-wxwidgets-version to package.xml so 'pecl install 
+  wxwidgets' can ask for a different version of wxWidgets library to 
+  download and compile.
+* Set the default wxWidgets version to download and compile on linux 
+  and mac to 3.0.2. Also added a new configure option 
+  --with-wxwidgets-version to explicitly change the version of 
+  wxWidgets to download, eg: --with-wxwidgets-version=3.0.1
+* Forgot to conditionally fetch tsrm on wxAppWrapper.
+* Fetch TSRM on wxAppWrapper which probably fixes issue #70
+* Unmodified copy of wxImage::GetData to zval which fixes #75.
+* Own the data parameter on wxImage SetData to really fix issue #75.
+* Custom templates for wxImage GetData and SetData which fix 
+  and close #75.
+* Updating location of Mac OS X SDK in docs (chrisnharvey).
+* Updating docs for building on Mac OS X (chrisnharvey)
+* Updating link to heading
+* Updating macosx-version-min to 10.9
+* Added sdl, sdl_sound as dependencies on archlinux PKGBUILD.
+* Updated config.m4 to require sdl and sdl_sound on linux which 
+  fixes #2.
+* Removed some testing printf code.
+* Added some wxApp methods.
+* Fix to correctly brake search for wx-config when first found in 
+  config.m4 file.
+* Added wxPHP shell script in /usr/bin/wxphp.
+* Added some wxApp methods.
+* Automated Mac OSX detection which should fix #94.
+* Simplified README.md and added building steps into INSTALL.md.
+* Removed trace of debugging code.
+* Merge child class method overrides that differ into parent methods 
+  which should fix #97.
+* Added drag and drop example.
+* Disabled pointer deletion for wxDropTarget and child classes
+  to fix segmentation fault which fixes #98.</n>
+ <f>1846913</f>
+ <g>https://pecl.php.net/get/wxwidgets-3.0.2.0</g>
+ <x xlink:href="package.3.0.2.0.xml"/>
+</r>

@@ -33,6 +33,6 @@
 - Make sure apcu_inc/dec are atomic when working on a non-existing entry.
 - Many changes to internal C APIs.</n>
  <f>105890</f>
- <g>http://pecl.php.net/get/apcu-5.1.12</g>
+ <g>https://pecl.php.net/get/apcu-5.1.12</g>
  <x xlink:href="package.5.1.12.xml"/>
 </r>

@@ -42,6 +42,6 @@ Xdebug also provides:
  - Fixed bug #935: Document the return value from xdebug_get_code_coverage()
  - Fixed bug #947: Newlines converted when html_errors = 0</n>
  <f>250543</f>
- <g>http://pecl.php.net/get/xdebug-2.2.3</g>
+ <g>https://pecl.php.net/get/xdebug-2.2.3</g>
  <x xlink:href="package.2.2.3.xml"/>
 </r>

@@ -22,6 +22,6 @@ and Visual FoxPro.
 the ODBTP 1.1.2 C client library. The extension's source file was also
 renamed from odbtp.c to php_odbtp.c.</n>
  <f>25475</f>
- <g>http://pecl.php.net/get/odbtp-1.1.2</g>
+ <g>https://pecl.php.net/get/odbtp-1.1.2</g>
  <x xlink:href="package.1.1.2.xml"/>
 </r>

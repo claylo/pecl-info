@@ -21,6 +21,6 @@
 - Fixed inconsistencies in wincache_ucache APIs. Included session entries lookups in hit/miss counts.
 - Updated the wincache.php page to show the informaiton about user and session cache.</n>
  <f>110441</f>
- <g>http://pecl.php.net/get/WINCACHE-1.1.0</g>
+ <g>https://pecl.php.net/get/WINCACHE-1.1.0</g>
  <x xlink:href="package.1.1.0.xml"/>
 </r>

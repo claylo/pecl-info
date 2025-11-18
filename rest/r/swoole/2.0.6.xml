@@ -31,6 +31,6 @@
  <n>- Fixed http client and redis client conflicts
 - Fixed the coroutine client cannot use the SplQueue on PHP5</n>
  <f>580583</f>
- <g>http://pecl.php.net/get/swoole-2.0.6</g>
+ <g>https://pecl.php.net/get/swoole-2.0.6</g>
  <x xlink:href="package.2.0.6.xml"/>
 </r>

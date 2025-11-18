@@ -15,6 +15,6 @@
  <da>2015-10-07 20:50:49</da>
  <n>- fixed undefined constant fatal error when run with apache/nginx #2275</n>
  <f>18018</f>
- <g>http://pecl.php.net/get/grpc-0.6.1</g>
+ <g>https://pecl.php.net/get/grpc-0.6.1</g>
  <x xlink:href="package.0.6.1.xml"/>
 </r>

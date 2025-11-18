@@ -28,6 +28,6 @@
   Before 1.0.2 it would stop treating datas, now the parser continues just after the opening quote character.
 * Added an escaping test case</n>
  <f>46961</f>
- <g>http://pecl.php.net/get/bbcode-1.0.2</g>
+ <g>https://pecl.php.net/get/bbcode-1.0.2</g>
  <x xlink:href="package.1.0.2.xml"/>
 </r>

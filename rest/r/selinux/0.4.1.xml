@@ -21,6 +21,6 @@
 - PHP 7 compatibility (Remi)
 - fix build woth libselinux 2.0 (RHEL-6)</n>
  <f>14169</f>
- <g>http://pecl.php.net/get/selinux-0.4.1</g>
+ <g>https://pecl.php.net/get/selinux-0.4.1</g>
  <x xlink:href="package.0.4.1.xml"/>
 </r>

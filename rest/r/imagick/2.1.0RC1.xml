@@ -43,6 +43,6 @@ IMPORTANT: Version 2.x API is not compatible with earlier versions.</d>
   - Imagick::setPointsize()
   - Imagick::getPointsize()</n>
  <f>74884</f>
- <g>http://pecl.php.net/get/imagick-2.1.0RC1</g>
+ <g>https://pecl.php.net/get/imagick-2.1.0RC1</g>
  <x xlink:href="package.2.1.0RC1.xml"/>
 </r>

@@ -17,6 +17,6 @@
  <da>2017-08-11 23:10:10</da>
  <n>- Fix TypeError when no argument is passed to methods in AbstractLogger</n>
  <f>18551</f>
- <g>http://pecl.php.net/get/psr-0.3.0RC4</g>
+ <g>https://pecl.php.net/get/psr-0.3.0RC4</g>
  <x xlink:href="package.0.3.0RC4.xml"/>
 </r>

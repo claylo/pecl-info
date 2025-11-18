@@ -16,6 +16,6 @@
  <n>- do not create empty file when a zip entry is only
 a directory (empty or not)</n>
  <f>36844</f>
- <g>http://pecl.php.net/get/zip-1.1.2</g>
+ <g>https://pecl.php.net/get/zip-1.1.2</g>
  <x xlink:href="package.1.1.2.xml"/>
 </r>

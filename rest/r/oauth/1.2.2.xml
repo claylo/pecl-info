@@ -17,6 +17,6 @@ Requirements: ext/hash (now a part of PHP core)</d>
  <da>2011-07-22 12:55:26</da>
  <n>- Bug 22834</n>
  <f>45348</f>
- <g>http://pecl.php.net/get/oauth-1.2.2</g>
+ <g>https://pecl.php.net/get/oauth-1.2.2</g>
  <x xlink:href="package.1.2.2.xml"/>
 </r>

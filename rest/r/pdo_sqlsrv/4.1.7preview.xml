@@ -30,6 +30,6 @@
 - Segmentation fault may result when an unsupported attribute is used for connection
 - Connection pooling not working in MAC OS X</n>
  <f>181969</f>
- <g>http://pecl.php.net/get/pdo_sqlsrv-4.1.7preview</g>
+ <g>https://pecl.php.net/get/pdo_sqlsrv-4.1.7preview</g>
  <x xlink:href="package.4.1.7preview.xml"/>
 </r>

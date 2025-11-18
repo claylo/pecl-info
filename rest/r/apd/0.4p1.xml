@@ -16,6 +16,6 @@
  <da>2002-11-28 01:38:00</da>
  <n>Fix for pre-4.3 versions of php</n>
  <f>39605</f>
- <g>http://pecl.php.net/get/apd-0.4p1</g>
+ <g>https://pecl.php.net/get/apd-0.4p1</g>
  <x xlink:href="package.0.4p1.xml"/>
 </r>

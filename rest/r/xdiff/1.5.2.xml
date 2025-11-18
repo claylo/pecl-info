@@ -16,6 +16,6 @@
  <n>- Fixed bug #61358 (&quot;Warning: String is not zero-terminated&quot; failing tests w/PHP 5.3.10)
 - Fixed build on PHP 5.4+</n>
  <f>9275</f>
- <g>http://pecl.php.net/get/xdiff-1.5.2</g>
+ <g>https://pecl.php.net/get/xdiff-1.5.2</g>
  <x xlink:href="package.1.5.2.xml"/>
 </r>

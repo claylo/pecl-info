@@ -15,6 +15,6 @@
  <da>2011-10-24 06:04:35</da>
  <n>- Compatibility with latest HEAD of libcld</n>
  <f>5113</f>
- <g>http://pecl.php.net/get/cld-0.2.0</g>
+ <g>https://pecl.php.net/get/cld-0.2.0</g>
  <x xlink:href="package.0.2.0.xml"/>
 </r>

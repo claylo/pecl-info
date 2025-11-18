@@ -15,7 +15,7 @@
             "releasedBy": "andrey",
             "releaseDate": "2009-09-21T05:17:54+00:00",
             "releaseNotes": "Fixed config.m4 to fix build on modern Linux distributions like Ubuntu.",
-            "get": "http://pecl.php.net/get/shape-0.9.2",
+            "get": "https://pecl.php.net/get/shape-0.9.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.9.1": {
@@ -25,7 +25,7 @@
             "releasedBy": "andrey",
             "releaseDate": "2006-07-12T13:19:39+00:00",
             "releaseNotes": "Fixed small bug, SHPT_POLYGON constant hat the same value as SHPT_MULTIPOINT (Thanks to Peter Schweitzer)",
-            "get": "http://pecl.php.net/get/shape-0.9.1",
+            "get": "https://pecl.php.net/get/shape-0.9.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.9.0": {
@@ -35,7 +35,7 @@
             "releasedBy": "andrey",
             "releaseDate": "2006-03-25T13:29:17+00:00",
             "releaseNotes": "- First release as package",
-            "get": "http://pecl.php.net/get/shape-0.9.0",
+            "get": "https://pecl.php.net/get/shape-0.9.0",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

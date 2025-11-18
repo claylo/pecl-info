@@ -18,6 +18,6 @@
 1) APIS-287: Use cci_connect_ex instead of cci_connect in PDO driver.
 2) APIS-288: Use CCI funciton cci_escape_string() to implement PDO::quote</n>
  <f>21870</f>
- <g>http://pecl.php.net/get/PDO_CUBRID-8.4.3.0001</g>
+ <g>https://pecl.php.net/get/PDO_CUBRID-8.4.3.0001</g>
  <x xlink:href="package.8.4.3.0001.xml"/>
 </r>

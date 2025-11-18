@@ -16,6 +16,6 @@
  <n>Fixed retrieval bug, that made PHP crash when reading too much data.
 Made licence into PHP only.</n>
  <f>82789</f>
- <g>http://pecl.php.net/get/pdo_4d-0.2.1</g>
+ <g>https://pecl.php.net/get/pdo_4d-0.2.1</g>
  <x xlink:href="package.0.2.1.xml"/>
 </r>

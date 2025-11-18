@@ -25,6 +25,6 @@
 Fix: assignment reference to &quot;data&quot; property caused 'Fatal error:  Cannot assign by reference to overloaded object'
 Fix: evnt object dtors sometimes didn't free the 'data' member until the script shutdown phase</n>
  <f>68082</f>
- <g>http://pecl.php.net/get/event-1.7.1</g>
+ <g>https://pecl.php.net/get/event-1.7.1</g>
  <x xlink:href="package.1.7.1.xml"/>
 </r>

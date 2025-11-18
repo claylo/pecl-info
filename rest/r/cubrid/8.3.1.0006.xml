@@ -21,6 +21,6 @@ Fixed bugs:
 - Fix a bug in cubrid_insert_id: max precision of insert id is 38, so it shouldn't return the value as integer, use string instead;
 - Fix a bug about BLOB/CLOB: When inserting LOB data, if the data size is large enough, it will fails. If the LOB data is in a file, and it is too large to be put into memory, you can bind a file path name when binding the LOB data.</n>
  <f>38154</f>
- <g>http://pecl.php.net/get/CUBRID-8.3.1.0006</g>
+ <g>https://pecl.php.net/get/CUBRID-8.3.1.0006</g>
  <x xlink:href="package.8.3.1.0006.xml"/>
 </r>

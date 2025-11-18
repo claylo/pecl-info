@@ -36,6 +36,6 @@
 - Fixed defer interface can not perform in the onWorkerStart callback
 - Fixed EOF sync client has received an EAGIAN error when receiving data continuously</n>
  <f>700922</f>
- <g>http://pecl.php.net/get/swoole-1.9.18</g>
+ <g>https://pecl.php.net/get/swoole-1.9.18</g>
  <x xlink:href="package.1.9.18.xml"/>
 </r>

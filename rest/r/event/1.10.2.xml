@@ -21,10 +21,8 @@
 
   Note, event-1.0.0 and greater is not compatible with previous versions.</d>
  <da>2014-06-19 23:31:40</da>
- <n>Fix: EventBufferEvent::read() accepted negative values
-Fix: TSRM context was not set in EventHttp::__construct (János Fekete)
-Fix: refcounter in EventHttp's default callback (János Fekete)</n>
+ <n></n>
  <f>77508</f>
- <g>http://pecl.php.net/get/event-1.10.2</g>
+ <g>https://pecl.php.net/get/event-1.10.2</g>
  <x xlink:href="package.1.10.2.xml"/>
 </r>

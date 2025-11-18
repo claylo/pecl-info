@@ -42,6 +42,6 @@
 - Fixed bug #65338 (Enabling both php_opcache and php_wincache AVs on shutdown).
 - Fixed bug #64827 Segfault in zval_mark_grey (zend_gc.c)</n>
  <f>94164</f>
- <g>http://pecl.php.net/get/zendopcache-7.0.3</g>
+ <g>https://pecl.php.net/get/zendopcache-7.0.3</g>
  <x xlink:href="package.7.0.3.xml"/>
 </r>

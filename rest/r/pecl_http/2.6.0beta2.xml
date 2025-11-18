@@ -53,6 +53,6 @@ Changes from beta1:
 * Fixed PHP-5.3 compatibility
 * Fixed recursive calls to the event loop dispatcher</n>
  <f>210147</f>
- <g>http://pecl.php.net/get/pecl_http-2.6.0beta2</g>
+ <g>https://pecl.php.net/get/pecl_http-2.6.0beta2</g>
  <x xlink:href="package.2.6.0beta2.xml"/>
 </r>

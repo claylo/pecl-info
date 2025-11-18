@@ -27,6 +27,6 @@ For install instructions see the manual at pear.php.net
 - Added compiler script to convert groups of php files/classes to bytecodes
 - Lots of Windows Build fixes, hopefully a windows version will be available soon.</n>
  <f>30389</f>
- <g>http://pecl.php.net/get/bcompiler-0.4</g>
+ <g>https://pecl.php.net/get/bcompiler-0.4</g>
  <x xlink:href="package.0.4.xml"/>
 </r>

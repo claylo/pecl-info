@@ -4,7 +4,7 @@
     "description": "This stem extension for PHP provides stemming capability for a variety of languages using Dr. M.F. Porter's Snowball API, which can be found at: http://snowball.tartarus.org",
     "latestReleaseDate": "2012-03-25T13:36:26+00:00",
     "latestVersion": "1.5.1",
-    "license": "PHP 3.01",
+    "license": "BSD",
     "name": "stem",
     "php8Mentioned": false,
     "releases": {
@@ -15,7 +15,7 @@
             "releasedBy": "ohill",
             "releaseDate": "2012-03-25T13:36:26+00:00",
             "releaseNotes": "* PHP 5.4 Compatibility",
-            "get": "http://pecl.php.net/get/stem-1.5.1",
+            "get": "https://pecl.php.net/get/stem-1.5.1",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "1.5.0": {
@@ -25,7 +25,7 @@
             "releasedBy": "ohill",
             "releaseDate": "2008-06-09T15:18:20+00:00",
             "releaseNotes": "* Reimported the new API from Snowball and synchronize all currently available stemmers.\n* Added Turkish (Unicode), Romanian and Hungarian stemmers\n* Using current param parsing in ZE (don't manipulate zvals directly)\n* Fix bug #12482",
-            "get": "http://pecl.php.net/get/stem-1.5.0",
+            "get": "https://pecl.php.net/get/stem-1.5.0",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "1.4.3": {
@@ -35,10 +35,10 @@
             "releasedBy": "jay",
             "releaseDate": "2006-01-23T16:52:30+00:00",
             "releaseNotes": "Initial PECL release",
-            "get": "http://pecl.php.net/get/stem-1.4.3",
+            "get": "https://pecl.php.net/get/stem-1.4.3",
             "SPDX-License-Identifier": "BSD-3-Clause"
         }
     },
     "summary": "a PHP extension that provides word stemming",
-    "SPDX-License-Identifier": "PHP-3.01"
+    "SPDX-License-Identifier": "BSD-3-Clause"
 }

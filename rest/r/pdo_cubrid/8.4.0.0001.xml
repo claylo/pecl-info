@@ -55,6 +55,6 @@ Fixed bugs:
 - Fix a bug in cubrid_stmt_describe_col which will cause the failure of test bug_44861.phpt;
 - Fix a bug in cubrid_handle_quoter: Before escaping unquoted string, it should init the value of quotedlen to 0.</n>
  <f>20739</f>
- <g>http://pecl.php.net/get/PDO_CUBRID-8.4.0.0001</g>
+ <g>https://pecl.php.net/get/PDO_CUBRID-8.4.0.0001</g>
  <x xlink:href="package.8.4.0.0001.xml"/>
 </r>

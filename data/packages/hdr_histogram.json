@@ -25,7 +25,7 @@
             "releasedBy": "beberlei",
             "releaseDate": "2016-08-17T11:42:55+00:00",
             "releaseNotes": "- Improve serialized array size by introducing skip counter\n- Validate inputs into hdr_import are in their range",
-            "get": "http://pecl.php.net/get/hdr_histogram-0.3.0",
+            "get": "https://pecl.php.net/get/hdr_histogram-0.3.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.2.0": {
@@ -35,7 +35,7 @@
             "releasedBy": "beberlei",
             "releaseDate": "2016-07-17T17:11:04+00:00",
             "releaseNotes": "- Update APIs\n- some fixes",
-            "get": "http://pecl.php.net/get/hdr_histogram-0.2.0",
+            "get": "https://pecl.php.net/get/hdr_histogram-0.2.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.1.0": {
@@ -45,7 +45,7 @@
             "releasedBy": "beberlei",
             "releaseDate": "2015-12-31T16:01:21+00:00",
             "releaseNotes": "- First release",
-            "get": "http://pecl.php.net/get/hdr_histogram-0.1.0",
+            "get": "https://pecl.php.net/get/hdr_histogram-0.1.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         }
     },

@@ -55,7 +55,7 @@
             "releasedBy": "remi",
             "releaseDate": "2018-03-14T05:27:16+00:00",
             "releaseNotes": "- initial pecl release",
-            "get": "http://pecl.php.net/get/componere-2.1.3",
+            "get": "https://pecl.php.net/get/componere-2.1.3",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

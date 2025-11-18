@@ -20,6 +20,6 @@ IMPORTANT: Version 2.x API is not compatible with earlier versions.</d>
 - Fixed sharpenImage parameters being reversed
 - Fixed building with pre 5.2 versions</n>
  <f>74689</f>
- <g>http://pecl.php.net/get/imagick-2.1.0</g>
+ <g>https://pecl.php.net/get/imagick-2.1.0</g>
  <x xlink:href="package.2.1.0.xml"/>
 </r>

@@ -19,6 +19,6 @@ functions for function tracing, memory usage and profiling.
 Engine 2. Also added support for MacOSX and added the xdebug_call_class()
 function.</n>
  <f>58608</f>
- <g>http://pecl.php.net/get/xdebug-1.2.0</g>
+ <g>https://pecl.php.net/get/xdebug-1.2.0</g>
  <x xlink:href="package.1.2.0.xml"/>
 </r>

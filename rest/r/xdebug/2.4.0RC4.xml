@@ -50,6 +50,6 @@ Xdebug also provides:
   - Fixed issue #1250: Add PHP version descriptors to debugging log and profile
     files.</n>
  <f>264477</f>
- <g>http://pecl.php.net/get/xdebug-2.4.0RC4</g>
+ <g>https://pecl.php.net/get/xdebug-2.4.0RC4</g>
  <x xlink:href="package.2.4.0RC4.xml"/>
 </r>

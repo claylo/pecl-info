@@ -25,6 +25,6 @@ more than adequate.</d>
  <n>Fixes for bugs #61989 (PECL package &quot;dio&quot; will not compile against PHP-5.4.3)
 and #62188 (Possible typo in errno check in dio_fdopen()).</n>
  <f>18811</f>
- <g>http://pecl.php.net/get/dio-0.0.6</g>
+ <g>https://pecl.php.net/get/dio-0.0.6</g>
  <x xlink:href="package.0.0.6.xml"/>
 </r>

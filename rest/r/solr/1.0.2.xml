@@ -17,6 +17,6 @@
 - Changes to make the code compile on 5.2.3 and greater
 - Changes to Tests by Pierrick</n>
  <f>101292</f>
- <g>http://pecl.php.net/get/solr-1.0.2</g>
+ <g>https://pecl.php.net/get/solr-1.0.2</g>
  <x xlink:href="package.1.0.2.xml"/>
 </r>

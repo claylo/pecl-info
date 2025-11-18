@@ -21,6 +21,6 @@
 - Use cci_connect_ex instead of cci_connect in PDO driver.
 - Use old functions in pdo driver because CUBRID does not export them.</n>
  <f>21286</f>
- <g>http://pecl.php.net/get/PDO_CUBRID-9.0.0.0001</g>
+ <g>https://pecl.php.net/get/PDO_CUBRID-9.0.0.0001</g>
  <x xlink:href="package.9.0.0.0001.xml"/>
 </r>

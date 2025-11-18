@@ -18,6 +18,6 @@ IMPORTANT: Version 2.x API is not compatible with earlier versions.</d>
  <da>2008-09-05 10:47:21</da>
  <n>- Fixed ZTS build</n>
  <f>75862</f>
- <g>http://pecl.php.net/get/imagick-2.2.1RC2</g>
+ <g>https://pecl.php.net/get/imagick-2.2.1RC2</g>
  <x xlink:href="package.2.2.1RC2.xml"/>
 </r>

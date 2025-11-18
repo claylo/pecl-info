@@ -29,6 +29,6 @@ Sundown\Render\MKDA_EMAIL
 Sundown\Render\Base::autolink(string$link, int $type)
   type should be Sundown\Render\MKDA_NORMAL or Sundown\Render\MKDA_EMAIL</n>
  <f>52717</f>
- <g>http://pecl.php.net/get/sundown-0.3.5</g>
+ <g>https://pecl.php.net/get/sundown-0.3.5</g>
  <x xlink:href="package.0.3.5.xml"/>
 </r>

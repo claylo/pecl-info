@@ -19,6 +19,6 @@ glob or regexp patterns to add entries. They also accept options like remove_pat
 , add_path or remove_all_path. See the examples addglob and addpattern.php
 - requires pcre</n>
  <f>63971</f>
- <g>http://pecl.php.net/get/zip-1.9.0</g>
+ <g>https://pecl.php.net/get/zip-1.9.0</g>
  <x xlink:href="package.1.9.0.xml"/>
 </r>

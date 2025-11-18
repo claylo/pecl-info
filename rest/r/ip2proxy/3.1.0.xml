@@ -12,9 +12,9 @@
  <m>ip2location</m>
  <s>Get proxy information of an IP address</s>
  <d>This PECL extension allows you to detect proxy servers with country, region, city, ISP, domain, usage type, ASN, security threat, proxy type, provider and fraud score information using IP2Proxy binary database.</d>
- <da>2025-02-05 23:59:27</da>
+ <da>2025-02-06 06:56:34</da>
  <n>Added ip2proxy_get_fraud_score function.</n>
- <f>401155</f>
+ <f>401176</f>
  <g>https://pecl.php.net/get/ip2proxy-3.1.0</g>
  <x xlink:href="package.3.1.0.xml"/>
 </r>

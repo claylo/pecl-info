@@ -30,6 +30,6 @@
  <da>2017-12-29 11:28:39</da>
  <n>- No longer support PHP5</n>
  <f>772960</f>
- <g>http://pecl.php.net/get/swoole-2.0.12</g>
+ <g>https://pecl.php.net/get/swoole-2.0.12</g>
  <x xlink:href="package.2.0.12.xml"/>
 </r>

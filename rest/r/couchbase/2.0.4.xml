@@ -22,6 +22,6 @@ Changes:
 * PCBC-317: Updated N1QL querying to support DP4.
 * Fixed issue with design document management methods.</n>
  <f>29380</f>
- <g>http://pecl.php.net/get/couchbase-2.0.4</g>
+ <g>https://pecl.php.net/get/couchbase-2.0.4</g>
  <x xlink:href="package.2.0.4.xml"/>
 </r>

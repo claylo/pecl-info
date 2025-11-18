@@ -21,6 +21,6 @@ fix scope issue in global functions created with uopz_function
 take modifiers to uopz_function for global functions
 fix bug in uopz_delete on magic methods</n>
  <f>27304</f>
- <g>http://pecl.php.net/get/uopz-2.0.0</g>
+ <g>https://pecl.php.net/get/uopz-2.0.0</g>
  <x xlink:href="package.2.0.0.xml"/>
 </r>

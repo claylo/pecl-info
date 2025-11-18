@@ -26,6 +26,6 @@ Fixed issue #49: &quot;Invalid file descriptor&quot; exceptions in PHP 7.2. Due 
   Zend API changes in PHP 7.2, Event stream arguments were accepted by
   reference.</n>
  <f>139599</f>
- <g>http://pecl.php.net/get/event-2.4.0RC2</g>
+ <g>https://pecl.php.net/get/event-2.4.0RC2</g>
  <x xlink:href="package.2.4.0RC2.xml"/>
 </r>

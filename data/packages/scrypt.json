@@ -45,7 +45,7 @@
             "releasedBy": "dom",
             "releaseDate": "2016-05-18T14:50:53+00:00",
             "releaseNotes": "Fixed memory leak in PHP 7 (#48), weak CSPRNG on salts in the example file (#44)",
-            "get": "http://pecl.php.net/get/scrypt-1.4.2",
+            "get": "https://pecl.php.net/get/scrypt-1.4.2",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "1.4.1": {
@@ -55,7 +55,7 @@
             "releasedBy": "dom",
             "releaseDate": "2016-05-18T13:26:43+00:00",
             "releaseNotes": "Fixed issue on RHEL 6 in x86_64 with PHP 7 (#46)",
-            "get": "http://pecl.php.net/get/scrypt-1.4.1",
+            "get": "https://pecl.php.net/get/scrypt-1.4.1",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "1.4": {
@@ -65,7 +65,7 @@
             "releasedBy": "dom",
             "releaseDate": "2016-05-18T12:13:28+00:00",
             "releaseNotes": "Added PHP 7 support (#39, #40, #45)\n\nRemoved support for PHP 5.2 as Travis no longer supports testing it.",
-            "get": "http://pecl.php.net/get/scrypt-1.4",
+            "get": "https://pecl.php.net/get/scrypt-1.4",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "1.3": {
@@ -75,7 +75,7 @@
             "releasedBy": "dom",
             "releaseDate": "2015-08-09T17:33:24+00:00",
             "releaseNotes": "Fixed install pecl install on machines which do not support SSE extensions (#37).\n   Added a segfault catch for when an invalid N was passed in (#31).",
-            "get": "http://pecl.php.net/get/scrypt-1.3",
+            "get": "https://pecl.php.net/get/scrypt-1.3",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "1.2": {
@@ -85,7 +85,7 @@
             "releasedBy": "dom",
             "releaseDate": "2013-07-15T08:28:13+00:00",
             "releaseNotes": "Initial release to PECL, plus various changes to the example PHP file",
-            "get": "http://pecl.php.net/get/scrypt-1.2",
+            "get": "https://pecl.php.net/get/scrypt-1.2",
             "SPDX-License-Identifier": "BSD-2-Clause"
         }
     },

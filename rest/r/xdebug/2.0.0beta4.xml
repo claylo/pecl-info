@@ -50,6 +50,6 @@ Xdebug also provides:
 	- Fixed bug #133: PHP scripts exits with 0 on PHP error.
 	- Fixed bug #132: use of eval causes a segmentation fault.</n>
  <f>228343</f>
- <g>http://pecl.php.net/get/xdebug-2.0.0beta4</g>
+ <g>https://pecl.php.net/get/xdebug-2.0.0beta4</g>
  <x xlink:href="package.2.0.0beta4.xml"/>
 </r>

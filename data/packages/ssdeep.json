@@ -1,10 +1,10 @@
 {
     "category": "Text",
     "deprecated": false,
-    "description": "The ssdeep project page describes it as a library for \"...computing context triggered piecewise hashes (CTPH). Also called fuzzy hashes, CTPH can match inputs that have homologies. Such inputs have sequences of identical bytes in the same order, although bytes in between these sequences may be different in both content and length\".\n\nFor an in depth paper explaining context triggered piecewise hashes please see http://dfrws.org/2006/proceedings/12-Kornblum.pdf\n\n\nssdeep API Information\n---------------------------\n\nRequires at least ssdeep v2.5.\n\nThis extensions wraps the ssdeep fuzzy hashing API created by Jesse Kornblum.\n\nFor more information about ssdeep, the API and context triggered piecewise hashing please see http://ssdeep.sourceforge.net/\n\n\nssdeep Licensing Exemption\n---------------------------\n\nAlthough ssdeep and the fuzzy hashing API are usually licensed under GNU GPLv2 Jesse Kornblum has licenced them to PECL under the terms of the Perl Artistic Licence with the following declaration:\n\"I hereby license ssdeep, the current version and all subsequent versions, under the terms of the Perl Artistic License, for inclusion into the PECL.\"\nSee http://news.php.net/php.pecl.dev/7625 for the verbatim email.",
+    "description": "The ssdeep project page describes it as a library for &quot;...computing context triggered piecewise hashes (CTPH). Also called fuzzy hashes, CTPH can match inputs that have homologies. Such inputs have sequences of identical bytes in the same order, although bytes in between these sequences may be different in both content and length&quot;.\n\nFor an in depth paper explaining context triggered piecewise hashes please see http://dfrws.org/2006/proceedings/12-Kornblum.pdf\n\n\nssdeep API Information\n---------------------------\n\nRequires at least ssdeep v2.5.\n\nThis extensions wraps the ssdeep fuzzy hashing API created by Jesse Kornblum.\n\nFor more information about ssdeep, the API and context triggered piecewise hashing please see http://ssdeep.sourceforge.net/\n\n\nssdeep Licensing Exemption\n---------------------------\n\nAlthough ssdeep and the fuzzy hashing API are usually licensed under GNU GPLv2 Jesse Kornblum has licenced them to PECL under the terms of the Perl Artistic Licence with the following declaration:\n&quot;I hereby license ssdeep, the current version and all subsequent versions, under the terms of the Perl Artistic License, for inclusion into the PECL.&quot;\nSee http://news.php.net/php.pecl.dev/7625 for the verbatim email.",
     "latestReleaseDate": "2018-02-20T04:01:49+00:00",
     "latestVersion": "1.1.0",
-    "license": "New BSD License",
+    "license": "BSD 2-Clause License",
     "name": "ssdeep",
     "php8Mentioned": false,
     "releases": {
@@ -15,7 +15,7 @@
             "releasedBy": "treffynnon",
             "releaseDate": "2018-02-20T04:01:49+00:00",
             "releaseNotes": "* Patch for PHP 7 support (remicollet)\n* Add basic Windows support (weltling)",
-            "get": "http://pecl.php.net/get/ssdeep-1.1.0",
+            "get": "https://pecl.php.net/get/ssdeep-1.1.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "1.0.4": {
@@ -25,7 +25,7 @@
             "releasedBy": "treffynnon",
             "releaseDate": "2014-01-22T08:35:12+00:00",
             "releaseNotes": "This is a build maintenance release only so there is no need to upgrade.\n\n - Make use of --with-libdir so installers can override the lib default (RHEL uses lib64 for example)\n - Clean up the build script to standardise the code constructs used\n - Add LICENSE, README and CREDITS to PECL package configuration",
-            "get": "http://pecl.php.net/get/ssdeep-1.0.4",
+            "get": "https://pecl.php.net/get/ssdeep-1.0.4",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "1.0.3": {
@@ -35,7 +35,7 @@
             "releasedBy": "treffynnon",
             "releaseDate": "2014-01-21T10:07:26+00:00",
             "releaseNotes": "Bug #60347 OSX can't build as .so hardcoded",
-            "get": "http://pecl.php.net/get/ssdeep-1.0.3",
+            "get": "https://pecl.php.net/get/ssdeep-1.0.3",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "1.0.2": {
@@ -45,7 +45,7 @@
             "releasedBy": "treffynnon",
             "releaseDate": "2010-11-10T10:53:47+00:00",
             "releaseNotes": "Patch bug in library availablity code when building with ssdeep path specified (--with-ssdeep=/tmp/ssdeep-2.6 for example) to the upstream packages build directory.",
-            "get": "http://pecl.php.net/get/ssdeep-1.0.2",
+            "get": "https://pecl.php.net/get/ssdeep-1.0.2",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "1.0.1": {
@@ -55,7 +55,7 @@
             "releasedBy": "treffynnon",
             "releaseDate": "2010-11-06T18:14:46+00:00",
             "releaseNotes": "Add in better library availability checking script and remove extraneous docs, which are now available at http://php.net/ssdeep",
-            "get": "http://pecl.php.net/get/ssdeep-1.0.1",
+            "get": "https://pecl.php.net/get/ssdeep-1.0.1",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "1.0.0": {
@@ -65,7 +65,7 @@
             "releasedBy": "treffynnon",
             "releaseDate": "2010-09-15T07:39:03+00:00",
             "releaseNotes": "Initial PECL compatible release.",
-            "get": "http://pecl.php.net/get/ssdeep-1.0.0",
+            "get": "https://pecl.php.net/get/ssdeep-1.0.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         }
     },

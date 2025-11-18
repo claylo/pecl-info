@@ -2,12 +2,32 @@
     "category": "PHP",
     "deprecated": false,
     "description": "The Vulcan Logic Disassembler hooks into the Zend Engine and\ndumps all the opcodes (execution units) of a script.",
-    "latestReleaseDate": "2022-09-16T08:01:08+00:00",
-    "latestVersion": "0.18.0",
+    "latestReleaseDate": "2025-07-15T14:24:05+00:00",
+    "latestVersion": "0.19.1",
     "license": "BSD style",
     "name": "vld",
     "php8Mentioned": true,
     "releases": {
+        "0.19.1": {
+            "version": "0.19.1",
+            "state": "beta",
+            "license": "BSD style",
+            "releasedBy": "derick",
+            "releaseDate": "2025-07-15T14:24:05+00:00",
+            "releaseNotes": "- Remove 'ZEND_' prefix from opcode names\n- PHP 8.5: Add support for the new DECLARE_ATTRIBUTED_CONST opcode\n- Improve support for PHP 8.4 property hooks, and add the new INIT_PARENT_PROPERTY_HOOK_CALL opcode\n- Fixed EXT_STMT display, as it does not have any used op nodes",
+            "get": "https://pecl.php.net/get/vld-0.19.1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "0.19.0": {
+            "version": "0.19.0",
+            "state": "beta",
+            "license": "BSD style",
+            "releasedBy": "derick",
+            "releaseDate": "2025-07-01T15:37:12+00:00",
+            "releaseNotes": "- Add support for PHP 8.3 and PHP 8.4",
+            "get": "https://pecl.php.net/get/vld-0.19.0",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
         "0.18.0": {
             "version": "0.18.0",
             "state": "beta",
@@ -75,7 +95,7 @@
             "releasedBy": "derick",
             "releaseDate": "2016-12-18T19:47:29+00:00",
             "releaseNotes": "- PHP 7.0 and 7.1 support\n- Fixes for dead code and path analysis",
-            "get": "http://pecl.php.net/get/vld-0.14.0",
+            "get": "https://pecl.php.net/get/vld-0.14.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.13.0": {
@@ -85,7 +105,7 @@
             "releasedBy": "derick",
             "releaseDate": "2014-11-14T06:30:56+00:00",
             "releaseNotes": "- PHP 5.6 and PHPNG (preliminary) compatibility\n- Fixed issues with brk/cnt\n- Fixed memory leaks \n- Support for showing entry and exit points when generating dot files",
-            "get": "http://pecl.php.net/get/vld-0.13.0",
+            "get": "https://pecl.php.net/get/vld-0.13.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.12.0": {
@@ -95,7 +115,7 @@
             "releasedBy": "derick",
             "releaseDate": "2013-09-21T18:36:27+00:00",
             "releaseNotes": "- PHP 5.5 compatibility",
-            "get": "http://pecl.php.net/get/vld-0.12.0",
+            "get": "https://pecl.php.net/get/vld-0.12.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.11.2": {
@@ -105,7 +125,7 @@
             "releasedBy": "derick",
             "releaseDate": "2012-10-16T04:44:24+00:00",
             "releaseNotes": "- Fixed some crash fixes (Felipe Pena)\n- Display the constant value if we know it",
-            "get": "http://pecl.php.net/get/vld-0.11.2",
+            "get": "https://pecl.php.net/get/vld-0.11.2",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.11.1": {
@@ -115,7 +135,7 @@
             "releasedBy": "derick",
             "releaseDate": "2012-03-09T18:13:40+00:00",
             "releaseNotes": "- PHP 5.4 support",
-            "get": "http://pecl.php.net/get/vld-0.11.1",
+            "get": "https://pecl.php.net/get/vld-0.11.1",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.11.0": {
@@ -125,7 +145,7 @@
             "releasedBy": "derick",
             "releaseDate": "2012-03-04T00:41:13+00:00",
             "releaseNotes": "- PHP 5.4 support",
-            "get": "http://pecl.php.net/get/vld-0.11.0",
+            "get": "https://pecl.php.net/get/vld-0.11.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.10.1": {
@@ -135,7 +155,7 @@
             "releasedBy": "derick",
             "releaseDate": "2010-04-13T05:53:31+00:00",
             "releaseNotes": "- SEND_VAR_NO_REF needs to use extended value (Patch by Graham K.)\n- Fix build with 5.3 and trunk.\n- Added Zo\u00eb's patch for CVS style formatting.\n- Added the closures opcode\n- Added a path finding algorithm.\n- Added an option (vld.dump_paths) that dumps branch and paths when turned on.\n- Added two options (vld.save_dir and vld.save_paths) that allows you to \n  dump path information has a graphviz .dot file.\n- TSRM fixes (by Wojciech Meler <wmeler@wp-sa.pl>).",
-            "get": "http://pecl.php.net/get/vld-0.10.1",
+            "get": "https://pecl.php.net/get/vld-0.10.1",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.10.0": {
@@ -145,7 +165,7 @@
             "releasedBy": "derick",
             "releaseDate": "2010-04-12T16:13:49+00:00",
             "releaseNotes": "- SEND_VAR_NO_REF needs to use extended value (Patch by Graham K.)\n- Fix build with 5.3 and trunk.\n- Added Zo\u00eb's patch for CVS style formatting.\n- Added the closures opcode\n- Added a path finding algorithm.\n- Added an option (vld.dump_paths) that dumps branch and paths when turned on.\n- Added two options (vld.save_dir and vld.save_paths) that allows you to \n  dump path information has a graphviz .dot file.\n- TSRM fixes (by Wojciech Meler <wmeler@wp-sa.pl>).",
-            "get": "http://pecl.php.net/get/vld-0.10.0",
+            "get": "https://pecl.php.net/get/vld-0.10.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.9.1": {
@@ -155,7 +175,7 @@
             "releasedBy": "derick",
             "releaseDate": "2008-04-01T13:08:54+00:00",
             "releaseNotes": "- Fixed a few segfaults in branch analyzation.\n- Fixed HEAD compilation.",
-            "get": "http://pecl.php.net/get/vld-0.9.1",
+            "get": "https://pecl.php.net/get/vld-0.9.1",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.9.0": {
@@ -165,7 +185,7 @@
             "releasedBy": "derick",
             "releaseDate": "2007-11-29T08:15:18+00:00",
             "releaseNotes": "Lots of fixes and improvements.",
-            "get": "http://pecl.php.net/get/vld-0.9.0",
+            "get": "https://pecl.php.net/get/vld-0.9.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.8.0": {
@@ -175,7 +195,7 @@
             "releasedBy": "derick",
             "releaseDate": "2005-01-19T14:38:00+00:00",
             "releaseNotes": "Bring this up-to-date with latest PHP 5.1-dev.",
-            "get": "http://pecl.php.net/get/vld-0.8.0",
+            "get": "https://pecl.php.net/get/vld-0.8.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.7.0": {
@@ -185,7 +205,7 @@
             "releasedBy": "derick",
             "releaseDate": "2003-09-18T18:42:00+00:00",
             "releaseNotes": "This release adds a lot of Zend Engine 2 support, fixes some\nbugs and changes the way on how VLD is activated. Only if the\nconfigure setting \"vld.active\" is set to \"1\" it will dump the\nop arrays.",
-            "get": "http://pecl.php.net/get/vld-0.7.0",
+            "get": "https://pecl.php.net/get/vld-0.7.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         }
     },

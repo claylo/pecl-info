@@ -25,6 +25,6 @@
  <da>2018-06-26 08:06:41</da>
  <n>* Fix gh-issue #30: pq\Types is restricted to non-composite types</n>
  <f>67407</f>
- <g>http://pecl.php.net/get/pq-2.1.4</g>
+ <g>https://pecl.php.net/get/pq-2.1.4</g>
  <x xlink:href="package.2.1.4.xml"/>
 </r>

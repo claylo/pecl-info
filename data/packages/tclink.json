@@ -15,7 +15,7 @@
             "releasedBy": "witten",
             "releaseDate": "2003-09-10T23:48:00+00:00",
             "releaseNotes": "new upstream release",
-            "get": "http://pecl.php.net/get/TCLink-3.4.0",
+            "get": "https://pecl.php.net/get/TCLink-3.4.0",
             "SPDX-License-Identifier": "LGPL-2.1-or-later"
         },
         "3.3.1": {
@@ -25,7 +25,7 @@
             "releasedBy": "witten",
             "releaseDate": "2003-01-14T23:02:00+00:00",
             "releaseNotes": "initial pear/PECL release",
-            "get": "http://pecl.php.net/get/TCLink-3.3.1",
+            "get": "https://pecl.php.net/get/TCLink-3.3.1",
             "SPDX-License-Identifier": "LGPL-2.1-or-later"
         }
     },

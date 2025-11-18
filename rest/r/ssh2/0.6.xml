@@ -19,6 +19,6 @@ libssh2 is available from http://www.sourceforge.net/projects/libssh2
 Users of PHP/SSH2 are recommended to upgrade their installation of libssh2 to version 0.6
 whether or not upgrading the PHP/SSH2 extension.</n>
  <f>18017</f>
- <g>http://pecl.php.net/get/ssh2-0.6</g>
+ <g>https://pecl.php.net/get/ssh2-0.6</g>
  <x xlink:href="package.0.6.xml"/>
 </r>

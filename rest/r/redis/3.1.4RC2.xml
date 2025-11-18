@@ -40,6 +40,6 @@ also many bugfixes and minor improvements to the api, listed below:
 * Use zend_string rather than char* for various context fields (err, prefix, etc) [2bf7b2] (Pavlo Yatsukhnenko)
 * Various other library fixes [142b51, 4452f6, e672f4, 658ee3, c9df77, 4a0a46] (Pavlo Yatsukhnenko)</n>
  <f>199582</f>
- <g>http://pecl.php.net/get/redis-3.1.4RC2</g>
+ <g>https://pecl.php.net/get/redis-3.1.4RC2</g>
  <x xlink:href="package.3.1.4RC2.xml"/>
 </r>

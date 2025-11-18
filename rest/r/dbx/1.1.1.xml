@@ -21,6 +21,6 @@ module-dependencies are only for the databases you wish to use.</d>
  <da>2011-08-11 09:54:41</da>
  <n>- fixed build error on PHP 5.x.</n>
  <f>31315</f>
- <g>http://pecl.php.net/get/dbx-1.1.1</g>
+ <g>https://pecl.php.net/get/dbx-1.1.1</g>
  <x xlink:href="package.1.1.1.xml"/>
 </r>

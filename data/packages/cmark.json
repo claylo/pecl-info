@@ -25,7 +25,7 @@
             "releasedBy": "remi",
             "releaseDate": "2018-04-20T14:51:24+00:00",
             "releaseNotes": "- Add CQL, CommonMark Query Language: allow the programmer to navigate the\n  document without loading entire trees or intermediate objects into memory\n- refcounting fixes",
-            "get": "http://pecl.php.net/get/cmark-1.1.0",
+            "get": "https://pecl.php.net/get/cmark-1.1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.1": {
@@ -35,7 +35,7 @@
             "releasedBy": "remi",
             "releaseDate": "2018-04-10T04:45:54+00:00",
             "releaseNotes": "- improve efficiency of visitation, only looking up functions one time for each accept()\n- allow returning [Event => Node] from enter/leave, providing full control over backing iterator",
-            "get": "http://pecl.php.net/get/cmark-1.0.1",
+            "get": "https://pecl.php.net/get/cmark-1.0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.0": {
@@ -45,7 +45,7 @@
             "releasedBy": "remi",
             "releaseDate": "2018-03-29T07:06:29+00:00",
             "releaseNotes": "- initial pecl release",
-            "get": "http://pecl.php.net/get/cmark-1.0.0",
+            "get": "https://pecl.php.net/get/cmark-1.0.0",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

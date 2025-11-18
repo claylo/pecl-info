@@ -21,6 +21,6 @@ Bug Fixes:
 
 * [PHP-113] pecl install of 1.2.0 fails because sourcecode is missing FutureRows.h</n>
  <f>153258</f>
- <g>http://pecl.php.net/get/cassandra-1.2.1</g>
+ <g>https://pecl.php.net/get/cassandra-1.2.1</g>
  <x xlink:href="package.1.2.1.xml"/>
 </r>

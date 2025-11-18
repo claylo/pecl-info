@@ -15,6 +15,6 @@
  <da>2018-02-11 23:09:36</da>
  <n>- trader_ht_phasor and trader_ht_sine expect one argument, fixes bugs #72882, #72967</n>
  <f>309711</f>
- <g>http://pecl.php.net/get/trader-0.4.1</g>
+ <g>https://pecl.php.net/get/trader-0.4.1</g>
  <x xlink:href="package.0.4.1.xml"/>
 </r>

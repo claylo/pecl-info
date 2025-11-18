@@ -27,6 +27,6 @@ Interoperability Support&quot; (ID 207303.1) for details.</d>
  <n>This version is for PHP 7 only.
 Fixed uninitialized data causing random crash</n>
  <f>191992</f>
- <g>http://pecl.php.net/get/oci8-2.1.4</g>
+ <g>https://pecl.php.net/get/oci8-2.1.4</g>
  <x xlink:href="package.2.1.4.xml"/>
 </r>

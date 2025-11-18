@@ -16,7 +16,7 @@
             "releaseDate": "2025-05-12T13:39:04+00:00",
             "releaseNotes": "- Add support for RFC9562 UUIDs (UUID_TYPE_TIME_V6 and UUID_TYPE_TIME_V7)\n  when available, in libuuid from util-linux version 2.41\n- constant UUID_TYPE_DCE is deprecated, use UUID_TYPE_RANDOM instead\n- constant UUID_TYPE_NAME is deprecated, use UUID_TYPE_TIME instead\n- new constant UUID_TYPE_VENDOR, only for uuid_type",
             "get": "https://pecl.php.net/get/uuid-1.3.0",
-            "SPDX-License-Identifier": null
+            "SPDX-License-Identifier": "verify"
         },
         "1.2.1": {
             "version": "1.2.1",
@@ -26,7 +26,7 @@
             "releaseDate": "2024-10-08T07:09:13+00:00",
             "releaseNotes": "- MacOS support (Sean Molenaar)\n- fix for util-linux/libuuid 2.40 and uuid_time64",
             "get": "https://pecl.php.net/get/uuid-1.2.1",
-            "SPDX-License-Identifier": null
+            "SPDX-License-Identifier": "verify"
         },
         "1.2.0": {
             "version": "1.2.0",
@@ -65,7 +65,7 @@
             "releasedBy": "remi",
             "releaseDate": "2015-05-08T15:14:36+00:00",
             "releaseNotes": "- PHP 7 compatibility\n- add LICENSE in documentation\n- various build fix",
-            "get": "http://pecl.php.net/get/uuid-1.0.4",
+            "get": "https://pecl.php.net/get/uuid-1.0.4",
             "SPDX-License-Identifier": "LGPL-2.1-or-later"
         },
         "1.0.4RC2": {
@@ -75,7 +75,7 @@
             "releasedBy": "remi",
             "releaseDate": "2015-04-08T07:55:03+00:00",
             "releaseNotes": "- PHP 7 compatibility\n- add LICENSE in documentation\n- various build fix",
-            "get": "http://pecl.php.net/get/uuid-1.0.4RC2",
+            "get": "https://pecl.php.net/get/uuid-1.0.4RC2",
             "SPDX-License-Identifier": "LGPL-2.1-or-later"
         },
         "1.0.3": {
@@ -85,7 +85,7 @@
             "releasedBy": "felipe",
             "releaseDate": "2012-06-18T19:41:04+00:00",
             "releaseNotes": "- Fixed build on PHP 5.3+",
-            "get": "http://pecl.php.net/get/uuid-1.0.3",
+            "get": "https://pecl.php.net/get/uuid-1.0.3",
             "SPDX-License-Identifier": "LGPL-2.1-or-later"
         },
         "1.0.2": {
@@ -95,7 +95,7 @@
             "releasedBy": "hholzgra",
             "releaseDate": "2008-04-01T11:00:11+00:00",
             "releaseNotes": "- should now work on Solaris, too (although missing two functions)\n- added uuid_parse() and uuid_unparse()\n- now generated using PEAR::CodeGen_PECL",
-            "get": "http://pecl.php.net/get/uuid-1.0.2",
+            "get": "https://pecl.php.net/get/uuid-1.0.2",
             "SPDX-License-Identifier": "LGPL-2.1-or-later"
         },
         "1.0.1": {
@@ -105,7 +105,7 @@
             "releasedBy": "hholzgra",
             "releaseDate": "2008-03-25T18:04:41+00:00",
             "releaseNotes": "Now works with Solaris libuuid implementation, too",
-            "get": "http://pecl.php.net/get/uuid-1.0.1",
+            "get": "https://pecl.php.net/get/uuid-1.0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0": {
@@ -115,7 +115,7 @@
             "releasedBy": "hholzgra",
             "releaseDate": "2004-03-27T13:16:00+00:00",
             "releaseNotes": "Official 1.0 stable release",
-            "get": "http://pecl.php.net/get/uuid-1.0",
+            "get": "https://pecl.php.net/get/uuid-1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.9": {
@@ -125,10 +125,10 @@
             "releasedBy": "hholzgra",
             "releaseDate": "2003-06-24T09:28:00+00:00",
             "releaseNotes": "Initial 'official' beta release.",
-            "get": "http://pecl.php.net/get/uuid-0.9",
+            "get": "https://pecl.php.net/get/uuid-0.9",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },
     "summary": "UUID extension",
-    "SPDX-License-Identifier": null
+    "SPDX-License-Identifier": "verify"
 }

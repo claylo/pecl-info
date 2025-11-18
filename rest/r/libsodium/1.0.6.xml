@@ -15,6 +15,6 @@
  <da>2016-05-04 21:55:56</da>
  <n>- The PWHASH_MEMLIMIT_{MODERATE,SENSITIVE} constants are correctly defined</n>
  <f>169817</f>
- <g>http://pecl.php.net/get/libsodium-1.0.6</g>
+ <g>https://pecl.php.net/get/libsodium-1.0.6</g>
  <x xlink:href="package.1.0.6.xml"/>
 </r>

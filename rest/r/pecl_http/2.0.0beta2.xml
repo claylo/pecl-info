@@ -31,6 +31,6 @@
 - Change: you have to care yourself for Content headers if a message's body has a reading stream filter attached
 + Added http\Env::getResponseStatusForAllCodes()</n>
  <f>156080</f>
- <g>http://pecl.php.net/get/pecl_http-2.0.0beta2</g>
+ <g>https://pecl.php.net/get/pecl_http-2.0.0beta2</g>
  <x xlink:href="package.2.0.0beta2.xml"/>
 </r>

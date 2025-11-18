@@ -17,6 +17,6 @@
 * Fix a compile issue on FreeBSD
 * Try to be bulletproof on library features detection.</n>
  <f>9416</f>
- <g>http://pecl.php.net/get/geoip-1.0.7</g>
+ <g>https://pecl.php.net/get/geoip-1.0.7</g>
  <x xlink:href="package.1.0.7.xml"/>
 </r>

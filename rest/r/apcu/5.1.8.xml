@@ -17,6 +17,6 @@
 - fix gh#221 memory leak
 - update to apc dashboard (Tyson Andre)</n>
  <f>111260</f>
- <g>http://pecl.php.net/get/apcu-5.1.8</g>
+ <g>https://pecl.php.net/get/apcu-5.1.8</g>
  <x xlink:href="package.5.1.8.xml"/>
 </r>

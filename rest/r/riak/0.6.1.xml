@@ -17,6 +17,6 @@
     - Issue43: Search\Output: hasMaxScore and hasNumFound fails
     - Issue42: Riak\Bucket::getName() does not work</n>
  <f>110532</f>
- <g>http://pecl.php.net/get/riak-0.6.1</g>
+ <g>https://pecl.php.net/get/riak-0.6.1</g>
  <x xlink:href="package.0.6.1.xml"/>
 </r>

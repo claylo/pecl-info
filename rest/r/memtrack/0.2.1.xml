@@ -17,6 +17,6 @@
  <da>2011-09-27 07:10:22</da>
  <n>- fixed PECL bug #23826 (memtrack breaks suhosin checks).</n>
  <f>5591</f>
- <g>http://pecl.php.net/get/memtrack-0.2.1</g>
+ <g>https://pecl.php.net/get/memtrack-0.2.1</g>
  <x xlink:href="package.0.2.1.xml"/>
 </r>

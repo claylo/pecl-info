@@ -41,6 +41,6 @@
  <da>2015-06-25 12:15:25</da>
  <n>Use zend_ce_throwable introduce in 7.0.0alpha2.</n>
  <f>56004</f>
- <g>http://pecl.php.net/get/hprose-1.5.5</g>
+ <g>https://pecl.php.net/get/hprose-1.5.5</g>
  <x xlink:href="package.1.5.5.xml"/>
 </r>

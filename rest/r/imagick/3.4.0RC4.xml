@@ -17,6 +17,6 @@ This extension requires ImageMagick version 6.5.3-10+ and PHP 5.4.0+.</d>
  <n>- Fixes:
   * Remove duplicated definitions of class constants.</n>
  <f>232843</f>
- <g>http://pecl.php.net/get/imagick-3.4.0RC4</g>
+ <g>https://pecl.php.net/get/imagick-3.4.0RC4</g>
  <x xlink:href="package.3.4.0RC4.xml"/>
 </r>

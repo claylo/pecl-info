@@ -31,6 +31,6 @@
 + Added http\Header::negotiate()
 + Added http\Header::parse()</n>
  <f>160976</f>
- <g>http://pecl.php.net/get/pecl_http-2.0.0beta3</g>
+ <g>https://pecl.php.net/get/pecl_http-2.0.0beta3</g>
  <x xlink:href="package.2.0.0beta3.xml"/>
 </r>

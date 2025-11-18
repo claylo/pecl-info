@@ -34,6 +34,6 @@ Xdebug also provides:
 
   - Fixed issue #1522: Remote debugging test failures on s390 (Big Endian).</n>
  <f>283644</f>
- <g>http://pecl.php.net/get/xdebug-2.6.0</g>
+ <g>https://pecl.php.net/get/xdebug-2.6.0</g>
  <x xlink:href="package.2.6.0.xml"/>
 </r>

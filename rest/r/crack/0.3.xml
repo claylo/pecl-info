@@ -30,6 +30,6 @@ word, and searches for it in your dictionary.
  <da>2005-09-05 08:31:32</da>
  <n>Bundled with cracklib, removed static variables for thread safety, new functionality</n>
  <f>23304</f>
- <g>http://pecl.php.net/get/crack-0.3</g>
+ <g>https://pecl.php.net/get/crack-0.3</g>
  <x xlink:href="package.0.3.xml"/>
 </r>

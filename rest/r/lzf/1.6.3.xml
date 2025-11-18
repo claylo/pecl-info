@@ -20,6 +20,6 @@
 - adapt Windows build (Anatol)
 - add arginfo for reflection</n>
  <f>15545</f>
- <g>http://pecl.php.net/get/LZF-1.6.3</g>
+ <g>https://pecl.php.net/get/LZF-1.6.3</g>
  <x xlink:href="package.1.6.3.xml"/>
 </r>

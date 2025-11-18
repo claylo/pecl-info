@@ -1,1 +1,1 @@
-"ec9-60e8bde0ccccb-gzip"
+"ec9-60e8bde0ccccb"

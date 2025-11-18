@@ -45,6 +45,6 @@ phpredis working in php 7.0!
 * Potential segfault fix in cluster session (Sergei Lomakov) [661fb5b1]
 * php7 related serialization leak fix (Adam Harvey) [c40fc1d8]</n>
  <f>189720</f>
- <g>http://pecl.php.net/get/redis-3.0.0</g>
+ <g>https://pecl.php.net/get/redis-3.0.0</g>
  <x xlink:href="package.3.0.0.xml"/>
 </r>

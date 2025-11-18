@@ -24,6 +24,6 @@ AsyncTask workers</d>
 - new function swoole_server_taskwait
 - remove *.lo files</n>
  <f>282627</f>
- <g>http://pecl.php.net/get/swoole-1.6.8</g>
+ <g>https://pecl.php.net/get/swoole-1.6.8</g>
  <x xlink:href="package.1.6.8.xml"/>
 </r>

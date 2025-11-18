@@ -21,6 +21,6 @@ concurrency.
  <n>You need to install the PDO core module before you can make use of this one.
 This package includes a bundled SQLite 3 library.</n>
  <f>744566</f>
- <g>http://pecl.php.net/get/PDO_SQLITE-0.2</g>
+ <g>https://pecl.php.net/get/PDO_SQLITE-0.2</g>
  <x xlink:href="package.0.2.xml"/>
 </r>

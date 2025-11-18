@@ -21,6 +21,6 @@
 - Add support for Travis CI
 - Update minimum PHP version to 5.3</n>
  <f>23287</f>
- <g>http://pecl.php.net/get/Judy-1.0.1</g>
+ <g>https://pecl.php.net/get/Judy-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

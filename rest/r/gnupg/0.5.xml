@@ -15,6 +15,6 @@
  <da>2005-10-25 15:53:44</da>
  <n>now supports multiple keys. added getsignatures. verify can now handle all signature types. therefore the API has changed.</n>
  <f>19122</f>
- <g>http://pecl.php.net/get/gnupg-0.5</g>
+ <g>https://pecl.php.net/get/gnupg-0.5</g>
  <x xlink:href="package.0.5.xml"/>
 </r>

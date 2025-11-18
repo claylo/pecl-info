@@ -26,6 +26,6 @@ are kept until you call dbase_pack().</d>
  <n>Bug fix release 
     #18831 - invalid length field when writing date and boolean types.</n>
  <f>13929</f>
- <g>http://pecl.php.net/get/dbase-5.0.1</g>
+ <g>https://pecl.php.net/get/dbase-5.0.1</g>
  <x xlink:href="package.5.0.1.xml"/>
 </r>

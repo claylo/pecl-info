@@ -27,6 +27,6 @@ Fixes
  * Fix build warnings (329)
  * Document GET_EXTENDED flag, add/rename other missing/misnamed constants (#335)</n>
  <f>78776</f>
- <g>http://pecl.php.net/get/memcached-3.0.4</g>
+ <g>https://pecl.php.net/get/memcached-3.0.4</g>
  <x xlink:href="package.3.0.4.xml"/>
 </r>

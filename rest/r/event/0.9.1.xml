@@ -34,6 +34,6 @@ Support for /dev/poll and kqueue is pending.
 
 On Windows, currently only sockets can participate in the IO notification engine.</n>
  <f>22551</f>
- <g>http://pecl.php.net/get/event-0.9.1</g>
+ <g>https://pecl.php.net/get/event-0.9.1</g>
  <x xlink:href="package.0.9.1.xml"/>
 </r>

@@ -22,6 +22,6 @@
 - support for system libzip on Windows (Anatol)
 - drop bundled libzip, only support system library (Remi)</n>
  <f>248476</f>
- <g>http://pecl.php.net/get/zip-1.14.0</g>
+ <g>https://pecl.php.net/get/zip-1.14.0</g>
  <x xlink:href="package.1.14.0.xml"/>
 </r>

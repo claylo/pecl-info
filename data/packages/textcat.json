@@ -15,7 +15,7 @@
             "releasedBy": "crodas",
             "releaseDate": "2012-01-15T00:43:37+00:00",
             "releaseNotes": "Fixed memory issues",
-            "get": "http://pecl.php.net/get/textcat-0.2.0",
+            "get": "https://pecl.php.net/get/textcat-0.2.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.1.0": {
@@ -25,7 +25,7 @@
             "releasedBy": "crodas",
             "releaseDate": "2010-01-25T22:31:13+00:00",
             "releaseNotes": "- Initial PECL release",
-            "get": "http://pecl.php.net/get/textcat-0.1.0",
+            "get": "https://pecl.php.net/get/textcat-0.1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

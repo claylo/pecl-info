@@ -24,6 +24,6 @@
 - Fixed bug Yaf_Route_Simple dont respect application.modules configure
 - Fixed some memory leaks</n>
  <f>79274</f>
- <g>http://pecl.php.net/get/yaf-2.1.11</g>
+ <g>https://pecl.php.net/get/yaf-2.1.11</g>
  <x xlink:href="package.2.1.11.xml"/>
 </r>

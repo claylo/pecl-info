@@ -15,7 +15,7 @@
             "releasedBy": "jon",
             "releaseDate": "2004-01-27T08:58:00+00:00",
             "releaseNotes": "Initial preview release.",
-            "get": "http://pecl.php.net/get/sasl-0.1.0",
+            "get": "https://pecl.php.net/get/sasl-0.1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

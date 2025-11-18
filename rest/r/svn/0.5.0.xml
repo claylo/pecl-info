@@ -24,6 +24,6 @@
 - Add check on module load that the APR version matches.
 - Fix fatal error when the location of the HOME enviromental variable can't be read</n>
  <f>23504</f>
- <g>http://pecl.php.net/get/svn-0.5.0</g>
+ <g>https://pecl.php.net/get/svn-0.5.0</g>
  <x xlink:href="package.0.5.0.xml"/>
 </r>

@@ -35,6 +35,6 @@ See http://news.php.net/php.pecl.dev/7625 for the verbatim email.</d>
  <da>2010-11-06 18:14:46</da>
  <n>Add in better library availability checking script and remove extraneous docs, which are now available at http://php.net/ssdeep</n>
  <f>6502</f>
- <g>http://pecl.php.net/get/ssdeep-1.0.1</g>
+ <g>https://pecl.php.net/get/ssdeep-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

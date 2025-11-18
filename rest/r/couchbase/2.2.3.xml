@@ -22,6 +22,6 @@ Changes:
 * PCBC-428: use correct exception when credentials missing for CouchbaseClusterManager
 * Documentation updates and bug fixes</n>
  <f>61382</f>
- <g>http://pecl.php.net/get/couchbase-2.2.3</g>
+ <g>https://pecl.php.net/get/couchbase-2.2.3</g>
  <x xlink:href="package.2.2.3.xml"/>
 </r>

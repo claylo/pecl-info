@@ -17,6 +17,6 @@
 Fixed bug #63265 (Add ORA-00028 to the PHP_OCI_HANDLE_ERROR macro)
 Fixed bug #60901 (Improve &quot;tail&quot; syntax for AIX installation)</n>
  <f>169215</f>
- <g>http://pecl.php.net/get/oci8-1.4.8</g>
+ <g>https://pecl.php.net/get/oci8-1.4.8</g>
  <x xlink:href="package.1.4.8.xml"/>
 </r>

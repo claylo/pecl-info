@@ -16,6 +16,6 @@
  <n>- Fixed Bug #76524 ZipArchive memory leak (OVERWRITE flag and empty archive)
 - Fixed incorrrecr zval_dtor() usage to replace value of argument passed by reference, that may lead to memory leaks.</n>
  <f>268277</f>
- <g>http://pecl.php.net/get/zip-1.15.4</g>
+ <g>https://pecl.php.net/get/zip-1.15.4</g>
  <x xlink:href="package.1.15.4.xml"/>
 </r>

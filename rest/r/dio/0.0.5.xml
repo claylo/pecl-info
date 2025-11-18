@@ -28,6 +28,6 @@ dio_fdopen() returns a dio resource for an integer UNIX style file descriptor.
 
 dio_dup() duplicates an existing stream.</n>
  <f>18754</f>
- <g>http://pecl.php.net/get/dio-0.0.5</g>
+ <g>https://pecl.php.net/get/dio-0.0.5</g>
  <x xlink:href="package.0.0.5.xml"/>
 </r>

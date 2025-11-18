@@ -15,6 +15,6 @@
  <da>2012-06-13 08:18:29</da>
  <n>- Fixed build in PHP 5.3+</n>
  <f>11472</f>
- <g>http://pecl.php.net/get/bitset-1.0.1</g>
+ <g>https://pecl.php.net/get/bitset-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

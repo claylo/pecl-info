@@ -95,6 +95,6 @@ it is strongly recommended to use the version of ImageMagick that Imagick was co
 - Misc:
 * CI now compiles with CFLAGS=&quot;-Wno-deprecated-declarations -Wdeclaration-after-statement -Werror&quot;</n>
  <f>180037</f>
- <g>http://pecl.php.net/get/imagick-3.3.0RC2</g>
+ <g>https://pecl.php.net/get/imagick-3.3.0RC2</g>
  <x xlink:href="package.3.3.0RC2.xml"/>
 </r>

@@ -17,6 +17,6 @@ This extension is meant for development and debug purposes only and contains som
  <da>2004-08-29 05:14:00</da>
  <n>Fix ZE1 segfault when popping classes.</n>
  <f>13572</f>
- <g>http://pecl.php.net/get/parsekit-0.3.1</g>
+ <g>https://pecl.php.net/get/parsekit-0.3.1</g>
  <x xlink:href="package.0.3.1.xml"/>
 </r>

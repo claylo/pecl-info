@@ -19,6 +19,6 @@
 - Fix handling of optional encoding argument to yaml_emit_file (weltling)
 - Removed PHP6 compat IS_UNICODE support (bd808)</n>
  <f>37703</f>
- <g>http://pecl.php.net/get/yaml-2.0.0RC4</g>
+ <g>https://pecl.php.net/get/yaml-2.0.0RC4</g>
  <x xlink:href="package.2.0.0RC4.xml"/>
 </r>

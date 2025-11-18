@@ -16,6 +16,6 @@
  <n>- fix #176 segfault when apc.preload_path contains bad data
 - fix bad data used in test suite</n>
  <f>119535</f>
- <g>http://pecl.php.net/get/apcu-4.0.11</g>
+ <g>https://pecl.php.net/get/apcu-4.0.11</g>
  <x xlink:href="package.4.0.11.xml"/>
 </r>

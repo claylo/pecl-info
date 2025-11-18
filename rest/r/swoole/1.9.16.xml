@@ -34,6 +34,6 @@
 - Fixd deadlock when sending large packets in UserProcess
 - Added 16 unit test scripts</n>
  <f>689633</f>
- <g>http://pecl.php.net/get/swoole-1.9.16</g>
+ <g>https://pecl.php.net/get/swoole-1.9.16</g>
  <x xlink:href="package.1.9.16.xml"/>
 </r>

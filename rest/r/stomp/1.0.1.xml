@@ -20,6 +20,6 @@
 - Add the frame body content in the Stomp::Error() method 
 - Fixed bug #17262 (Server is not responding on win32).</n>
  <f>18205</f>
- <g>http://pecl.php.net/get/stomp-1.0.1</g>
+ <g>https://pecl.php.net/get/stomp-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

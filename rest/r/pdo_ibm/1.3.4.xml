@@ -16,6 +16,6 @@ Universal Database, IBM Cloudscape, Apache Derby databases and IDS (Informix Dat
  <da>2016-04-18 11:31:47</da>
  <n>Fixed: Added PHP 7 support.</n>
  <f>84204</f>
- <g>http://pecl.php.net/get/PDO_IBM-1.3.4</g>
+ <g>https://pecl.php.net/get/PDO_IBM-1.3.4</g>
  <x xlink:href="package.1.3.4.xml"/>
 </r>

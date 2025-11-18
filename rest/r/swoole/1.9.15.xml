@@ -37,6 +37,6 @@
 - Fixed Redis\Server received more than 8K request crashes when the request
 - Added 170 unit test scripts</n>
  <f>685387</f>
- <g>http://pecl.php.net/get/swoole-1.9.15</g>
+ <g>https://pecl.php.net/get/swoole-1.9.15</g>
  <x xlink:href="package.1.9.15.xml"/>
 </r>

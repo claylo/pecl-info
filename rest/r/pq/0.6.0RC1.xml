@@ -30,6 +30,6 @@
 * Added pq\Cursor::{open,close}Async() methods
 * Added pq\Cursor::$query and pq\Cursor::$flags readonly properties</n>
  <f>63040</f>
- <g>http://pecl.php.net/get/pq-0.6.0RC1</g>
+ <g>https://pecl.php.net/get/pq-0.6.0RC1</g>
  <x xlink:href="package.0.6.0RC1.xml"/>
 </r>

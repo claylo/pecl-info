@@ -40,6 +40,6 @@ This extension requires ImageMagick version 6.5.3-10+ and PHP 5.4.0+.</d>
     IMAGICK_REGISTER_CONST_LONG(&quot;ALPHACHANNEL_OFF&quot;, OffAlphaChannel);
     IMAGICK_REGISTER_CONST_LONG(&quot;ALPHACHANNEL_DISCRETE&quot;, DiscreteAlphaChannel);</n>
  <f>245140</f>
- <g>http://pecl.php.net/get/imagick-3.4.3RC1</g>
+ <g>https://pecl.php.net/get/imagick-3.4.3RC1</g>
  <x xlink:href="package.3.4.3RC1.xml"/>
 </r>

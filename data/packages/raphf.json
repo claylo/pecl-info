@@ -2,12 +2,22 @@
     "category": "PHP",
     "deprecated": false,
     "description": "A reusable split-off of pecl_http's persistent handle and resource factory API.",
-    "latestReleaseDate": "2019-10-25T07:44:17+00:00",
-    "latestVersion": "2.0.1",
+    "latestReleaseDate": "2025-08-29T07:58:36+00:00",
+    "latestVersion": "2.0.2",
     "license": "BSD-2-Clause",
     "name": "raphf",
     "php8Mentioned": false,
     "releases": {
+        "2.0.2": {
+            "version": "2.0.2",
+            "state": "stable",
+            "license": "BSD-2-Clause",
+            "releasedBy": "mike",
+            "releaseDate": "2025-08-29T07:58:36+00:00",
+            "releaseNotes": "* Merged gh#9: fix format, used is unsigned long (Remi)",
+            "get": "https://pecl.php.net/get/raphf-2.0.2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
         "2.0.1": {
             "version": "2.0.1",
             "state": "stable",
@@ -25,27 +35,7 @@
             "releasedBy": "mike",
             "releaseDate": "2016-01-19T09:25:31+00:00",
             "releaseNotes": "* Internals documentation available at http://m6w6.github.io/ext-raphf/master/\n* Travis support\n* PHP 7 compatible version",
-            "get": "http://pecl.php.net/get/raphf-2.0.0",
-            "SPDX-License-Identifier": "BSD-2-Clause"
-        },
-        "1.1.2": {
-            "version": "1.1.2",
-            "state": "stable",
-            "license": "BSD, revised",
-            "releasedBy": "mike",
-            "releaseDate": "2016-01-19T07:07:41+00:00",
-            "releaseNotes": "* Fixed release stability to stable",
-            "get": "http://pecl.php.net/get/raphf-1.1.2",
-            "SPDX-License-Identifier": "BSD-2-Clause"
-        },
-        "1.1.1": {
-            "version": "1.1.1",
-            "state": "beta",
-            "license": "BSD, revised",
-            "releasedBy": "mike",
-            "releaseDate": "2016-01-19T05:46:46+00:00",
-            "releaseNotes": "* Source code documentation available at http://m6w6.github.io/ext-raphf/v1.1.x\n* Travis support\n* Fix package.xml's maximum and minimum PHP version",
-            "get": "http://pecl.php.net/get/raphf-1.1.1",
+            "get": "https://pecl.php.net/get/raphf-2.0.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "2.0.0RC1": {
@@ -55,7 +45,27 @@
             "releasedBy": "mike",
             "releaseDate": "2015-12-07T08:24:10+00:00",
             "releaseNotes": "* Internals documentation available at http://m6w6.github.io/ext-raphf/master/\n* Travis support\n* PHP 7 compatible version",
-            "get": "http://pecl.php.net/get/raphf-2.0.0RC1",
+            "get": "https://pecl.php.net/get/raphf-2.0.0RC1",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.1.2": {
+            "version": "1.1.2",
+            "state": "stable",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2016-01-19T07:07:41+00:00",
+            "releaseNotes": "* Fixed release stability to stable",
+            "get": "https://pecl.php.net/get/raphf-1.1.2",
+            "SPDX-License-Identifier": "BSD-2-Clause"
+        },
+        "1.1.1": {
+            "version": "1.1.1",
+            "state": "beta",
+            "license": "BSD, revised",
+            "releasedBy": "mike",
+            "releaseDate": "2016-01-19T05:46:46+00:00",
+            "releaseNotes": "* Source code documentation available at http://m6w6.github.io/ext-raphf/v1.1.x\n* Travis support\n* Fix package.xml's maximum and minimum PHP version",
+            "get": "https://pecl.php.net/get/raphf-1.1.1",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "1.1.1RC1": {
@@ -65,7 +75,7 @@
             "releasedBy": "mike",
             "releaseDate": "2015-12-07T08:16:14+00:00",
             "releaseNotes": "* Source code documentation available at http://m6w6.github.io/ext-raphf/v1.1.x\n* Travis support\n* Fix package.xml's maximum and minimum PHP version",
-            "get": "http://pecl.php.net/get/raphf-1.1.1RC1",
+            "get": "https://pecl.php.net/get/raphf-1.1.1RC1",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "1.1.0": {
@@ -75,7 +85,7 @@
             "releasedBy": "mike",
             "releaseDate": "2015-07-28T08:22:12+00:00",
             "releaseNotes": "* Fixed php module dependency check with RTLD_LAZY\n+ Source code documentation available at http://m6w6.github.io/ext-raphf",
-            "get": "http://pecl.php.net/get/raphf-1.1.0",
+            "get": "https://pecl.php.net/get/raphf-1.1.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "1.0.4": {
@@ -85,7 +95,7 @@
             "releasedBy": "mike",
             "releaseDate": "2013-11-26T05:27:07+00:00",
             "releaseNotes": "* Fix re-use of destroyed hashtable with phpdbg",
-            "get": "http://pecl.php.net/get/raphf-1.0.4",
+            "get": "https://pecl.php.net/get/raphf-1.0.4",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "1.0.3": {
@@ -95,7 +105,7 @@
             "releasedBy": "mike",
             "releaseDate": "2013-11-15T04:29:59+00:00",
             "releaseNotes": "* Added pecl/http-v2 tests",
-            "get": "http://pecl.php.net/get/raphf-1.0.3",
+            "get": "https://pecl.php.net/get/raphf-1.0.3",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "1.0.2": {
@@ -105,7 +115,7 @@
             "releasedBy": "mike",
             "releaseDate": "2013-08-20T08:29:24+00:00",
             "releaseNotes": "* Fixed ZTS shutdown crash",
-            "get": "http://pecl.php.net/get/raphf-1.0.2",
+            "get": "https://pecl.php.net/get/raphf-1.0.2",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "1.0.1": {
@@ -115,7 +125,7 @@
             "releasedBy": "mike",
             "releaseDate": "2013-08-20T04:43:06+00:00",
             "releaseNotes": "* Fixed ZTS build",
-            "get": "http://pecl.php.net/get/raphf-1.0.1",
+            "get": "https://pecl.php.net/get/raphf-1.0.1",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "1.0.0": {
@@ -125,7 +135,7 @@
             "releasedBy": "mike",
             "releaseDate": "2013-08-12T08:41:55+00:00",
             "releaseNotes": "* Stable release",
-            "get": "http://pecl.php.net/get/raphf-1.0.0",
+            "get": "https://pecl.php.net/get/raphf-1.0.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.1.0": {
@@ -135,7 +145,7 @@
             "releasedBy": "mike",
             "releaseDate": "2013-02-16T18:08:55+00:00",
             "releaseNotes": "* Initial split-off release",
-            "get": "http://pecl.php.net/get/raphf-0.1.0",
+            "get": "https://pecl.php.net/get/raphf-0.1.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         }
     },

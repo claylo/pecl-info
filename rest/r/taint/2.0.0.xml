@@ -16,6 +16,6 @@
  <da>2015-10-27 02:56:50</da>
  <n>- Release taint for PHP7</n>
  <f>15573</f>
- <g>http://pecl.php.net/get/taint-2.0.0</g>
+ <g>https://pecl.php.net/get/taint-2.0.0</g>
  <x xlink:href="package.2.0.0.xml"/>
 </r>

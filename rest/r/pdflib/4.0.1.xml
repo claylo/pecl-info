@@ -21,6 +21,6 @@ http://www.pdflib.com/developer-center/technical-documentation/php-howto</d>
  <n>- fix bug #73249
 - improve PHP7 wrapper (fixed crash when extending PDFlib class)</n>
  <f>32954</f>
- <g>http://pecl.php.net/get/pdflib-4.0.1</g>
+ <g>https://pecl.php.net/get/pdflib-4.0.1</g>
  <x xlink:href="package.4.0.1.xml"/>
 </r>

@@ -41,6 +41,6 @@
  <da>2015-05-24 02:34:11</da>
  <n>Fixed a bug of serializing an object of a class which implements IteratorAggregate interface.</n>
  <f>55872</f>
- <g>http://pecl.php.net/get/hprose-1.5.4</g>
+ <g>https://pecl.php.net/get/hprose-1.5.4</g>
  <x xlink:href="package.1.5.4.xml"/>
 </r>

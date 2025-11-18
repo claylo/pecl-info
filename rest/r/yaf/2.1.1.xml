@@ -16,6 +16,6 @@
  <n>-Fixed Yaf_View_Simple::render flush output instantly in PHP5.4
 -Fixed Yaf_Session crash in PHP5.4</n>
  <f>73394</f>
- <g>http://pecl.php.net/get/yaf-2.1.1</g>
+ <g>https://pecl.php.net/get/yaf-2.1.1</g>
  <x xlink:href="package.2.1.1.xml"/>
 </r>

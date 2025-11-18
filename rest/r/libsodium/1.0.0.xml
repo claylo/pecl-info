@@ -17,6 +17,6 @@
 - crypto_sign_publickey_from_secretkey(), and crypto_auth() have been added.
 - The extension and its API are now marked stable.</n>
  <f>166089</f>
- <g>http://pecl.php.net/get/libsodium-1.0.0</g>
+ <g>https://pecl.php.net/get/libsodium-1.0.0</g>
  <x xlink:href="package.1.0.0.xml"/>
 </r>

@@ -17,6 +17,6 @@
 - Fixed a MacOS mutex segfault #12109
 - Fixed a ZTS compilation issue #12109</n>
  <f>2301137</f>
- <g>http://pecl.php.net/get/grpc-1.4.4</g>
+ <g>https://pecl.php.net/get/grpc-1.4.4</g>
  <x xlink:href="package.1.4.4.xml"/>
 </r>

@@ -17,6 +17,6 @@
  <da>2007-10-20 03:19:42</da>
  <n>Fixed #12268 (Capturing output via exp_loguser from within PHP / Apache)</n>
  <f>5898</f>
- <g>http://pecl.php.net/get/expect-0.2.4</g>
+ <g>https://pecl.php.net/get/expect-0.2.4</g>
  <x xlink:href="package.0.2.4.xml"/>
 </r>

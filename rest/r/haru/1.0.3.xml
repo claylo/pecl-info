@@ -16,6 +16,6 @@
  <n>- Fixed PECL bug #15960 (Cannot access to object properties when extending HaruDoc class)
 - Allow compiling with PHP 5.4+. (philip)</n>
  <f>25941</f>
- <g>http://pecl.php.net/get/haru-1.0.3</g>
+ <g>https://pecl.php.net/get/haru-1.0.3</g>
  <x xlink:href="package.1.0.3.xml"/>
 </r>

@@ -21,6 +21,6 @@ Bugs Fixed:
 - #74799 fix memory leak in apply_filter function (gleb-svitelskiy)
 - #72540 fix crash in yaml_parse_url when stream/file is empty (bd808)</n>
  <f>38495</f>
- <g>http://pecl.php.net/get/yaml-2.0.2</g>
+ <g>https://pecl.php.net/get/yaml-2.0.2</g>
  <x xlink:href="package.2.0.2.xml"/>
 </r>

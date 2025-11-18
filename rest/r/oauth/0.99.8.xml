@@ -18,6 +18,6 @@ Requirements: ext/hash and libcurl (with https support if you plan to access res
  <n>- Added setCAPath/getCAPath for Certificate Authority information
 - Fixed bus error on fetch if http_method was undefined</n>
  <f>23969</f>
- <g>http://pecl.php.net/get/oauth-0.99.8</g>
+ <g>https://pecl.php.net/get/oauth-0.99.8</g>
  <x xlink:href="package.0.99.8.xml"/>
 </r>

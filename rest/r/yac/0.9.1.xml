@@ -17,6 +17,6 @@
  <da>2014-07-25 03:50:31</da>
  <n>- Try to fix windows build</n>
  <f>34585</f>
- <g>http://pecl.php.net/get/yac-0.9.1</g>
+ <g>https://pecl.php.net/get/yac-0.9.1</g>
  <x xlink:href="package.0.9.1.xml"/>
 </r>

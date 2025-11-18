@@ -17,6 +17,6 @@
 - Code that could be implemented in userland was removed from the extension.
 - Unit tests improvements/changes.</n>
  <f>100674</f>
- <g>http://pecl.php.net/get/sdl-2.1.0</g>
+ <g>https://pecl.php.net/get/sdl-2.1.0</g>
  <x xlink:href="package.2.1.0.xml"/>
 </r>

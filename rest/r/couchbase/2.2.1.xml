@@ -22,6 +22,6 @@ Changes:
 * PCBC-414: return $this from N1qlQuery methods
 * Documentation updates and bug fixes</n>
  <f>59308</f>
- <g>http://pecl.php.net/get/couchbase-2.2.1</g>
+ <g>https://pecl.php.net/get/couchbase-2.2.1</g>
  <x xlink:href="package.2.2.1.xml"/>
 </r>

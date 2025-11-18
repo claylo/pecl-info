@@ -20,6 +20,6 @@
 - Bug fix segfault with iterator, see https://github.com/orieg/php-judy/issues/2
 - Add new test case + fix some ZVAL refcount</n>
  <f>17698</f>
- <g>http://pecl.php.net/get/Judy-0.1.4</g>
+ <g>https://pecl.php.net/get/Judy-0.1.4</g>
  <x xlink:href="package.0.1.4.xml"/>
 </r>

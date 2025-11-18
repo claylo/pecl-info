@@ -17,6 +17,6 @@
  <n>- fix gh#47 Incorrect function definition for smbclient_read
 - optimization: enable stream wrapper reusing connections</n>
  <f>31891</f>
- <g>http://pecl.php.net/get/smbclient-0.9.0</g>
+ <g>https://pecl.php.net/get/smbclient-0.9.0</g>
  <x xlink:href="package.0.9.0.xml"/>
 </r>

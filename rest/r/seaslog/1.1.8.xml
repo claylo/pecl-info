@@ -22,6 +22,6 @@
  <n>- Fixed init config error with ZTS
 - Fixed SeasLog::analyzerDetail() function compatible with CentOS</n>
  <f>48686</f>
- <g>http://pecl.php.net/get/SeasLog-1.1.8</g>
+ <g>https://pecl.php.net/get/SeasLog-1.1.8</g>
  <x xlink:href="package.1.1.8.xml"/>
 </r>

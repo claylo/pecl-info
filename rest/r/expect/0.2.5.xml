@@ -17,6 +17,6 @@
  <da>2008-11-27 05:13:36</da>
  <n>Fixed bug #14768 (configure error in Ubuntu 8.04)</n>
  <f>6006</f>
- <g>http://pecl.php.net/get/expect-0.2.5</g>
+ <g>https://pecl.php.net/get/expect-0.2.5</g>
  <x xlink:href="package.0.2.5.xml"/>
 </r>

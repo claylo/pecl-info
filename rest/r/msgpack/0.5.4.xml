@@ -16,6 +16,6 @@
  <n>- Fixed Bug #12 (msgpack_seriallize interfere with php serialize)
 - Fixed Bug #11 (unpacking empty array / segmentation fault).</n>
  <f>55627</f>
- <g>http://pecl.php.net/get/msgpack-0.5.4</g>
+ <g>https://pecl.php.net/get/msgpack-0.5.4</g>
  <x xlink:href="package.0.5.4.xml"/>
 </r>

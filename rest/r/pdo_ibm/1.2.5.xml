@@ -20,6 +20,6 @@ Universal Database, IBM Cloudscape, and Apache Derby databases.
 Bug of SEGV when execute is used with bind_param on parameter markers BLOB/CLOB type fixed.
 Updating test cases.</n>
  <f>67044</f>
- <g>http://pecl.php.net/get/PDO_IBM-1.2.5</g>
+ <g>https://pecl.php.net/get/PDO_IBM-1.2.5</g>
  <x xlink:href="package.1.2.5.xml"/>
 </r>

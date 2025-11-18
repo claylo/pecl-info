@@ -16,6 +16,6 @@
  <n>Sync with libmonetra-5.2
 Make version match internal release version</n>
  <f>19094</f>
- <g>http://pecl.php.net/get/mcve-5.2.0</g>
+ <g>https://pecl.php.net/get/mcve-5.2.0</g>
  <x xlink:href="package.5.2.0.xml"/>
 </r>

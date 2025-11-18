@@ -58,6 +58,6 @@ Xdebug also provides:
   - Get rid of setlocale hack, by using %F instead of %f (and speed up tracing
     by 15-20%)</n>
  <f>268381</f>
- <g>http://pecl.php.net/get/xdebug-2.3.3</g>
+ <g>https://pecl.php.net/get/xdebug-2.3.3</g>
  <x xlink:href="package.2.3.3.xml"/>
 </r>

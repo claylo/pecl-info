@@ -39,6 +39,6 @@ This extension requires ImageMagick version 6.5.4+ and PHP 5.4.0+.</d>
   * Imagick::exportImagePixels works for all storage types
   * Version number in extension header</n>
  <f>230995</f>
- <g>http://pecl.php.net/get/imagick-3.4.0RC2</g>
+ <g>https://pecl.php.net/get/imagick-3.4.0RC2</g>
  <x xlink:href="package.3.4.0RC2.xml"/>
 </r>

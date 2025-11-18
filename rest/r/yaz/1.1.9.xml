@@ -19,6 +19,6 @@ Find more information at:
  <da>2014-11-03 07:48:07</da>
  <n>Fix compilation for older YAZ versions. Tests part of package.</n>
  <f>18590</f>
- <g>http://pecl.php.net/get/yaz-1.1.9</g>
+ <g>https://pecl.php.net/get/yaz-1.1.9</g>
  <x xlink:href="package.1.1.9.xml"/>
 </r>

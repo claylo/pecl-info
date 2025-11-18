@@ -24,6 +24,6 @@ http://www.pdflib.com/developer-center/technical-documentation/php-howto</d>
  - improved show_boxed() function
  - fixed GD_SUPPORT (not supported)</n>
  <f>55917</f>
- <g>http://pecl.php.net/get/pdflib-2.1.6</g>
+ <g>https://pecl.php.net/get/pdflib-2.1.6</g>
  <x xlink:href="package.2.1.6.xml"/>
 </r>

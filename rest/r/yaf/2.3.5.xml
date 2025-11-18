@@ -15,6 +15,6 @@
  <da>2015-09-06 09:51:05</da>
  <n>- Fixed bug (redirect doesn't work)</n>
  <f>104743</f>
- <g>http://pecl.php.net/get/yaf-2.3.5</g>
+ <g>https://pecl.php.net/get/yaf-2.3.5</g>
  <x xlink:href="package.2.3.5.xml"/>
 </r>

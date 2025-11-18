@@ -28,6 +28,6 @@ necessary to build a fully-functional MongoDB driver.</d>
     * [PHPC-825] - Document URI options array for Manager constructor
     * [PHPC-906] - Make test suite compatible with libbson/libmongoc 1.5.0 and 1.6.0</n>
  <f>785493</f>
- <g>http://pecl.php.net/get/mongodb-1.2.6</g>
+ <g>https://pecl.php.net/get/mongodb-1.2.6</g>
  <x xlink:href="package.1.2.6.xml"/>
 </r>

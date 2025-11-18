@@ -26,6 +26,6 @@ thus guaranteeing worst case O(1) lookup time.</d>
  <n>- Fix bug #22600: possible crash when throwing an exception on 64-bit systems.
 - Fix decoding of error messages in some cases.</n>
  <f>9688</f>
- <g>http://pecl.php.net/get/chdb-1.0.1</g>
+ <g>https://pecl.php.net/get/chdb-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

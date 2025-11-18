@@ -21,6 +21,6 @@
 - Fixed PHP distrib test after cc files were added #11193
 - Fixed protoc plugin comment escape bug #11025</n>
  <f>2298120</f>
- <g>http://pecl.php.net/get/grpc-1.4.0</g>
+ <g>https://pecl.php.net/get/grpc-1.4.0</g>
  <x xlink:href="package.1.4.0.xml"/>
 </r>

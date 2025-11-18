@@ -1,4 +1,8 @@
 {
+    "8.3.0": {
+        "version": "8.3.0",
+        "state": "stable"
+    },
     "8.2.0": {
         "version": "8.2.0",
         "state": "stable"

@@ -17,6 +17,6 @@
 - Restructured extension sources so php FQN can be mapped directly to source.
 - Changed get output from array to collection, which implements ArrayAccess so it maintains compatability</n>
  <f>119993</f>
- <g>http://pecl.php.net/get/riak-0.6.2</g>
+ <g>https://pecl.php.net/get/riak-0.6.2</g>
  <x xlink:href="package.0.6.2.xml"/>
 </r>

@@ -27,6 +27,6 @@ Interoperability Support&quot; (ID 207303.1) for details.</d>
  <n>This version is for PHP 7 only.
 Added oci_unregister_taf_callback()</n>
  <f>193960</f>
- <g>http://pecl.php.net/get/oci8-2.1.7</g>
+ <g>https://pecl.php.net/get/oci8-2.1.7</g>
  <x xlink:href="package.2.1.7.xml"/>
 </r>

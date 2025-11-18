@@ -15,6 +15,6 @@
  <da>2013-01-20 16:18:45</da>
  <n>* Fix compilation on PHP 5.4</n>
  <f>9391</f>
- <g>http://pecl.php.net/get/RSVG-0.1.1</g>
+ <g>https://pecl.php.net/get/RSVG-0.1.1</g>
  <x xlink:href="package.0.1.1.xml"/>
 </r>

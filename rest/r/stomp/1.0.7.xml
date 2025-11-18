@@ -17,6 +17,6 @@
 - Fixed Windows compilation regression due to new TCP_NODELAY code. (Gennady Feldman)
 - Fixed bug where error checking was missing after stomp_send(). (Gennady Feldman)</n>
  <f>21846</f>
- <g>http://pecl.php.net/get/stomp-1.0.7</g>
+ <g>https://pecl.php.net/get/stomp-1.0.7</g>
  <x xlink:href="package.1.0.7.xml"/>
 </r>

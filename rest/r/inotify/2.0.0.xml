@@ -15,6 +15,6 @@
  <da>2016-01-30 12:34:16</da>
  <n>* PHP 7 compatible release</n>
  <f>8836</f>
- <g>http://pecl.php.net/get/inotify-2.0.0</g>
+ <g>https://pecl.php.net/get/inotify-2.0.0</g>
  <x xlink:href="package.2.0.0.xml"/>
 </r>

@@ -20,6 +20,6 @@
 - Use static for each internal functions when possible (Nuno Lopes)
 - Update protos in the sources</n>
  <f>60058</f>
- <g>http://pecl.php.net/get/zip-1.8.1</g>
+ <g>https://pecl.php.net/get/zip-1.8.1</g>
  <x xlink:href="package.1.8.1.xml"/>
 </r>

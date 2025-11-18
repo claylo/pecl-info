@@ -15,6 +15,6 @@
  <da>2012-03-03 09:58:43</da>
  <n>- Fix embedded version number to be not -dev</n>
  <f>39088</f>
- <g>http://pecl.php.net/get/memcached-2.0.1</g>
+ <g>https://pecl.php.net/get/memcached-2.0.1</g>
  <x xlink:href="package.2.0.1.xml"/>
 </r>

@@ -26,6 +26,6 @@ http://snaps.php.net/win32/PECL_4_3/php_sqlite.dll
 single string would not work if you looked at the return value.  The fix for
 this case is to use the new sqlite_exec() function instead. (Stas)</n>
  <f>371189</f>
- <g>http://pecl.php.net/get/SQLite-1.0.3</g>
+ <g>https://pecl.php.net/get/SQLite-1.0.3</g>
  <x xlink:href="package.1.0.3.xml"/>
 </r>

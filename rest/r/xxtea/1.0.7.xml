@@ -17,6 +17,6 @@ It is different from the original XXTEA encryption algorithm. It encrypts and de
  <da>2015-03-23 04:27:56</da>
  <n>Initial release to PECL</n>
  <f>6913</f>
- <g>http://pecl.php.net/get/xxtea-1.0.7</g>
+ <g>https://pecl.php.net/get/xxtea-1.0.7</g>
  <x xlink:href="package.1.0.7.xml"/>
 </r>

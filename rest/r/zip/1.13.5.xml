@@ -17,6 +17,6 @@
 - Fixed bug #68302 (impossible to compile php with zip support). (cmb)
 - Fixed bug #70752 (Depacking with wrong password leaves 0 length files). (cmb)</n>
  <f>316993</f>
- <g>http://pecl.php.net/get/zip-1.13.5</g>
+ <g>https://pecl.php.net/get/zip-1.13.5</g>
  <x xlink:href="package.1.13.5.xml"/>
 </r>

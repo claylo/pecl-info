@@ -32,6 +32,6 @@ in PHP GMP extension, but it needn't any external libraries.
  <n>* significantly improved speed of bi_to_str() function (up to 30 times for base = 2)
 * fixed bug in big_int_to_str() function, which sometimes returned wrong result for negative numbers</n>
  <f>45853</f>
- <g>http://pecl.php.net/get/big_int-1.0.5</g>
+ <g>https://pecl.php.net/get/big_int-1.0.5</g>
  <x xlink:href="package.1.0.5.xml"/>
 </r>

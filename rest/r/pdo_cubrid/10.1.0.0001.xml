@@ -16,6 +16,6 @@
  <n>1) Support cubrid engine version up to 10.1.0
 2) Support PHP version 7 (7.1.x)</n>
  <f>1077996</f>
- <g>http://pecl.php.net/get/PDO_CUBRID-10.1.0.0001</g>
+ <g>https://pecl.php.net/get/PDO_CUBRID-10.1.0.0001</g>
  <x xlink:href="package.10.1.0.0001.xml"/>
 </r>

@@ -18,6 +18,6 @@
 - fix bug: value of integer greater than LONG_MAX using BIN_LONG_MAX instead of LONG_MAX
 - Make the tests passed on both i386 and x86_64. Thank you remicollet.</n>
  <f>17782</f>
- <g>http://pecl.php.net/get/binpack-1.0.1</g>
+ <g>https://pecl.php.net/get/binpack-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

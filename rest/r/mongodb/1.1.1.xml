@@ -128,6 +128,6 @@ necessary to build a fully-functional MongoDB driver.</d>
 * PHPC-369: Split PHP5 and PHP7 style custom object struct declrations
 * PHPC-368: Refactor MongoDB\Driver\Manager ctor</n>
  <f>642977</f>
- <g>http://pecl.php.net/get/mongodb-1.1.1</g>
+ <g>https://pecl.php.net/get/mongodb-1.1.1</g>
  <x xlink:href="package.1.1.1.xml"/>
 </r>

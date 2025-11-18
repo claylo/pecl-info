@@ -23,6 +23,6 @@ Fix oci_set_*($connection, ...) error handling so oci_error($connection) works.
 Add DTrace oci8-connection-close probe
 Add the connection handle to several DTrace probes.</n>
  <f>187320</f>
- <g>http://pecl.php.net/get/oci8-2.0.2</g>
+ <g>https://pecl.php.net/get/oci8-2.0.2</g>
  <x xlink:href="package.2.0.2.xml"/>
 </r>

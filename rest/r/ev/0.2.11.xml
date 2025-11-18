@@ -19,6 +19,6 @@ Fixed #9: factory methods messed up the instance zval properties thus causing fa
 Fixed: EvWatcher::keepalive method didn't regard the default value of the 1st argument.
 Pulled latest fixes from libev's upstream</n>
  <f>96785</f>
- <g>http://pecl.php.net/get/ev-0.2.11</g>
+ <g>https://pecl.php.net/get/ev-0.2.11</g>
  <x xlink:href="package.0.2.11.xml"/>
 </r>

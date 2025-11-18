@@ -19,6 +19,6 @@
 Fix for bug 9426 - printing open types
 Update to Apache Tuscany C++ SDO revision level 483149 - includes various fixes for sequenced and open data types.</n>
  <f>359393</f>
- <g>http://pecl.php.net/get/SCA_SDO-1.1.1</g>
+ <g>https://pecl.php.net/get/SCA_SDO-1.1.1</g>
  <x xlink:href="package.1.1.1.xml"/>
 </r>

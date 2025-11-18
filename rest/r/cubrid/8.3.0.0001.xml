@@ -20,6 +20,6 @@
 - More data types support for cubrid_bind, the following types are added: CHAR, VARCHAR, BIGINT, MONETARY, VARBIT and DATETIME.
 - Fix a bug in cubrid_get: If parameter attr is given and its type is string, and the function returns successfully, then there will be memory leak.</n>
  <f>36934</f>
- <g>http://pecl.php.net/get/CUBRID-8.3.0.0001</g>
+ <g>https://pecl.php.net/get/CUBRID-8.3.0.0001</g>
  <x xlink:href="package.8.3.0.0001.xml"/>
 </r>

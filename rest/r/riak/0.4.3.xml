@@ -31,6 +31,6 @@
     RiakBucket-&gt;put no longer accepts key as second parameter
     RiakBucket-&gt;put/get now takes an optional RiakGetRequestConfiguration</n>
  <f>83355</f>
- <g>http://pecl.php.net/get/riak-0.4.3</g>
+ <g>https://pecl.php.net/get/riak-0.4.3</g>
  <x xlink:href="package.0.4.3.xml"/>
 </r>

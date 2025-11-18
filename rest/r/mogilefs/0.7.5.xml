@@ -17,6 +17,6 @@
 - Fixed build issue on Mac OS X. Now compiles fine with neon from fink
 - Checking return value of asprintf()</n>
  <f>15193</f>
- <g>http://pecl.php.net/get/mogilefs-0.7.5</g>
+ <g>https://pecl.php.net/get/mogilefs-0.7.5</g>
  <x xlink:href="package.0.7.5.xml"/>
 </r>

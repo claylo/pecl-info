@@ -19,6 +19,6 @@ Cloudscape, and Apache Derby databases.</d>
 Fixed 16257: db2_execute() Segfault on an empty string as a bind parameter. 
 Fixed: GRAPHIC, VARGRAPHIC Data type error.</n>
  <f>147671</f>
- <g>http://pecl.php.net/get/ibm_db2-1.8.3</g>
+ <g>https://pecl.php.net/get/ibm_db2-1.8.3</g>
  <x xlink:href="package.1.8.3.xml"/>
 </r>

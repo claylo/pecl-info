@@ -21,6 +21,6 @@ handy OO and procedural interfaces.
  <n>1) Fixed couple of possible segfaults and one error (many thanks to Anight).
 2) Minor improvements.</n>
  <f>12768</f>
- <g>http://pecl.php.net/get/memcache-1.1</g>
+ <g>https://pecl.php.net/get/memcache-1.1</g>
  <x xlink:href="package.1.1.xml"/>
 </r>

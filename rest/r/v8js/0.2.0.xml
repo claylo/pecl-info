@@ -23,6 +23,6 @@
 - fix property and method visibility issues
 - fix memory leaks</n>
  <f>87387</f>
- <g>http://pecl.php.net/get/v8js-0.2.0</g>
+ <g>https://pecl.php.net/get/v8js-0.2.0</g>
  <x xlink:href="package.0.2.0.xml"/>
 </r>

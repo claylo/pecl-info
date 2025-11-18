@@ -16,6 +16,6 @@
  <n>- Fixed/improved parts of the code based on suggestions by johannes
 - Merged code from various sources (initial wikipedia code, code found on bug report, etc)</n>
  <f>2754</f>
- <g>http://pecl.php.net/get/proctitle-0.1.0</g>
+ <g>https://pecl.php.net/get/proctitle-0.1.0</g>
  <x xlink:href="package.0.1.0.xml"/>
 </r>

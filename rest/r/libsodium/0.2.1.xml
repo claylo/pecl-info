@@ -16,6 +16,6 @@
  <n>- Fixed support for old versions of libsodium
 - New helper function: increment()</n>
  <f>167853</f>
- <g>http://pecl.php.net/get/libsodium-0.2.1</g>
+ <g>https://pecl.php.net/get/libsodium-0.2.1</g>
  <x xlink:href="package.0.2.1.xml"/>
 </r>

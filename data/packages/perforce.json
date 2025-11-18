@@ -15,7 +15,7 @@
             "releasedBy": "jon",
             "releaseDate": "2010-04-20T01:09:45+00:00",
             "releaseNotes": "Fixing some compilations issues with PHP 5.3 builds.",
-            "get": "http://pecl.php.net/get/perforce-1.0.3",
+            "get": "https://pecl.php.net/get/perforce-1.0.3",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "1.0.1": {
@@ -25,7 +25,7 @@
             "releasedBy": "jon",
             "releaseDate": "2008-02-05T00:46:36+00:00",
             "releaseNotes": "The internal object code has been rewritten to take advantage of the PHP5-specific object model.",
-            "get": "http://pecl.php.net/get/perforce-1.0.1",
+            "get": "https://pecl.php.net/get/perforce-1.0.1",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "1.0.0": {
@@ -35,7 +35,7 @@
             "releasedBy": "jon",
             "releaseDate": "2008-01-19T16:18:11+00:00",
             "releaseNotes": "The official 1.0.0 release.",
-            "get": "http://pecl.php.net/get/perforce-1.0.0",
+            "get": "https://pecl.php.net/get/perforce-1.0.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "1.0.0RC": {
@@ -45,7 +45,7 @@
             "releasedBy": "jon",
             "releaseDate": "2008-01-12T19:56:53+00:00",
             "releaseNotes": "Version 1.0.0 release candidate",
-            "get": "http://pecl.php.net/get/perforce-1.0.0RC",
+            "get": "https://pecl.php.net/get/perforce-1.0.0RC",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.9.3": {
@@ -55,7 +55,7 @@
             "releasedBy": "jon",
             "releaseDate": "2008-01-05T18:43:42+00:00",
             "releaseNotes": "- Added the P4API path as a build-time configuration option.\n- Improved the Unix build's P4API path detection code.",
-            "get": "http://pecl.php.net/get/perforce-0.9.3",
+            "get": "https://pecl.php.net/get/perforce-0.9.3",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.9.2": {
@@ -65,7 +65,7 @@
             "releasedBy": "jon",
             "releaseDate": "2008-01-03T02:06:34+00:00",
             "releaseNotes": "- The runTag() and waitTag() methods have been removed.  They are deprecated in the P4API.",
-            "get": "http://pecl.php.net/get/perforce-0.9.2",
+            "get": "https://pecl.php.net/get/perforce-0.9.2",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.9.1": {
@@ -75,7 +75,7 @@
             "releasedBy": "jon",
             "releaseDate": "2007-12-30T23:36:42+00:00",
             "releaseNotes": "- Fixing the C++ linkage used when building the extension as a shared module.",
-            "get": "http://pecl.php.net/get/perforce-0.9.1",
+            "get": "https://pecl.php.net/get/perforce-0.9.1",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.9.0": {
@@ -85,7 +85,7 @@
             "releasedBy": "jon",
             "releaseDate": "2007-12-09T16:55:56+00:00",
             "releaseNotes": "- Fixing support for tagged output.\n- Unknown tags are no longer filtered before being passed to OutputStat().\n- setArgs() now accepts either an array of arguments or individual arguments.\n- The documention includes a number of small improvements.\n- The API is now considered stable.",
-            "get": "http://pecl.php.net/get/perforce-0.9.0",
+            "get": "https://pecl.php.net/get/perforce-0.9.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.6.0": {
@@ -95,7 +95,7 @@
             "releasedBy": "jon",
             "releaseDate": "2007-12-02T02:48:55+00:00",
             "releaseNotes": "- Implementing additional PerforceClient methods: setProg(), getConfig(),\n  setTicketFile(), runTag(), and waitTag().\n- Added some initial user documentation.",
-            "get": "http://pecl.php.net/get/perforce-0.6.0",
+            "get": "https://pecl.php.net/get/perforce-0.6.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.5.0": {
@@ -105,7 +105,7 @@
             "releasedBy": "jon",
             "releaseDate": "2007-11-26T01:33:08+00:00",
             "releaseNotes": "- Added a formal PHP5 interface (PerforceClientUser) to define the UI object.\n- Support for PHP4 has been removed.\n- Improved the overall performance and memory profile of the extension.\n- Added an initial set of unit tests.",
-            "get": "http://pecl.php.net/get/perforce-0.5.0",
+            "get": "https://pecl.php.net/get/perforce-0.5.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.3.0": {
@@ -115,7 +115,7 @@
             "releasedBy": "jon",
             "releaseDate": "2004-06-23T07:02:00+00:00",
             "releaseNotes": "PHP5 Win32 builds (and ZTS builds, in general) are now fully supported.",
-            "get": "http://pecl.php.net/get/perforce-0.3.0",
+            "get": "https://pecl.php.net/get/perforce-0.3.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.2.0": {
@@ -125,7 +125,7 @@
             "releasedBy": "jon",
             "releaseDate": "2004-05-17T05:08:00+00:00",
             "releaseNotes": "Initial preview release.",
-            "get": "http://pecl.php.net/get/perforce-0.2.0",
+            "get": "https://pecl.php.net/get/perforce-0.2.0",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

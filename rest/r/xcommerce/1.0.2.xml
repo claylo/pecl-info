@@ -17,6 +17,6 @@
  <n>- [bug] fix autoconf error if libavro is missing
 - [new] add Xcom::getOnboardingURL</n>
  <f>11056</f>
- <g>http://pecl.php.net/get/xcommerce-1.0.2</g>
+ <g>https://pecl.php.net/get/xcommerce-1.0.2</g>
  <x xlink:href="package.1.0.2.xml"/>
 </r>

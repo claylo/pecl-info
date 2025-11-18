@@ -15,6 +15,6 @@
  <da>2017-03-15 05:11:32</da>
  <n>- Fixed issue #98 (Memeory exhuasted while using with Yaf)</n>
  <f>38015</f>
- <g>http://pecl.php.net/get/yar-2.0.2</g>
+ <g>https://pecl.php.net/get/yar-2.0.2</g>
  <x xlink:href="package.2.0.2.xml"/>
 </r>

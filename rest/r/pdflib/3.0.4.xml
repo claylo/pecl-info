@@ -21,6 +21,6 @@ http://www.pdflib.com/developer-center/technical-documentation/php-howto</d>
  <n>- avoid deprecated warnings for API's which are not yet deprecated
   when building against an older PDFlib Version.</n>
  <f>27043</f>
- <g>http://pecl.php.net/get/pdflib-3.0.4</g>
+ <g>https://pecl.php.net/get/pdflib-3.0.4</g>
  <x xlink:href="package.3.0.4.xml"/>
 </r>

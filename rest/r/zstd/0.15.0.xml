@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/zstd">zstd</p>
+ <c>pecl.php.net</c>
+ <v>0.15.0</v>
+ <st>stable</st>
+ <l>MIT</l>
+ <m>kjdev</m>
+ <s>Zstandard extension</s>
+ <d>PHP extension for compression and decompression with Zstandard library.</d>
+ <da>2025-08-12 22:43:56</da>
+ <n>- feat: Incremental Compression: Added zstd_(un)compress_init() and zstd_(un)compress_add() functions for streaming compression
+- feat: ZstdContext Classes: Introduced Zstd\\Compress\\Context and Zstd\\Uncompress\\Context classes for object-oriented streaming
+- feat: Dictionary Support: Added dictionary parameter to compress and uncompress functions
+- feat: Named Arguments: Support for PHP 8.0+ named arguments
+- update: Zstd Library: Updated to zstd 1.5.7
+- update: Constants Unification: Renamed constants for consistency:
+- experimental: DCZ Support: Experimental compression dictionary transport support in output handler
+- improve: Refactored internal compression/decompression to use stream-based approach with php_zstd_context{}
+- improve: Enhanced output handler with dictionary support
+- improve: Error handling and memory management
+- fix: streaming compressed data with zstd_uncompress_dict()
+- fix: improved output handler context initialization</n>
+ <f>502350</f>
+ <g>https://pecl.php.net/get/zstd-0.15.0</g>
+ <x xlink:href="package.0.15.0.xml"/>
+</r>

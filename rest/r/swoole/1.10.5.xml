@@ -34,6 +34,6 @@
 - Fixed arg of udp connect no effect
 - Added setting window size support for http2 client</n>
  <f>730797</f>
- <g>http://pecl.php.net/get/swoole-1.10.5</g>
+ <g>https://pecl.php.net/get/swoole-1.10.5</g>
  <x xlink:href="package.1.10.5.xml"/>
 </r>

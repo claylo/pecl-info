@@ -15,6 +15,6 @@
  <da>2010-12-26 19:54:41</da>
  <n>- Fix a bug in cubrid_put: Under x64 system, there will be memory overflow in cubrid_put when given the the attr name as the third param.</n>
  <f>36584</f>
- <g>http://pecl.php.net/get/CUBRID-8.3.0.0004</g>
+ <g>https://pecl.php.net/get/CUBRID-8.3.0.0004</g>
  <x xlink:href="package.8.3.0.0004.xml"/>
 </r>

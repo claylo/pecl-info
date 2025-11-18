@@ -15,6 +15,6 @@
  <da>2017-03-05 22:30:24</da>
  <n>This is a maintenance release which drops PHP &lt; 7.0.3 support.</n>
  <f>35938</f>
- <g>http://pecl.php.net/get/ref-0.4.2</g>
+ <g>https://pecl.php.net/get/ref-0.4.2</g>
  <x xlink:href="package.0.4.2.xml"/>
 </r>

@@ -26,6 +26,6 @@
     * Tests for special attribute and DOMElement [Dimasik]
     * Enable Win32 build (ZTS support)</n>
  <f>11476</f>
- <g>http://pecl.php.net/get/dom_varimport-1.11.0</g>
+ <g>https://pecl.php.net/get/dom_varimport-1.11.0</g>
  <x xlink:href="package.1.11.0.xml"/>
 </r>

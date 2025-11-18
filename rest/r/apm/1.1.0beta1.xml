@@ -35,6 +35,6 @@ Fixed:
 - Possible buffer overflows
 - Compilation issues related to timelib with PHP &gt;= 5.3.9</n>
  <f>114793</f>
- <g>http://pecl.php.net/get/APM-1.1.0beta1</g>
+ <g>https://pecl.php.net/get/APM-1.1.0beta1</g>
  <x xlink:href="package.1.1.0beta1.xml"/>
 </r>

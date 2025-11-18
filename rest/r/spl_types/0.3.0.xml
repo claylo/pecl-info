@@ -17,6 +17,6 @@
 - Added new type (SplFloat)
 - Support for OSX</n>
  <f>8100</f>
- <g>http://pecl.php.net/get/SPL_Types-0.3.0</g>
+ <g>https://pecl.php.net/get/SPL_Types-0.3.0</g>
  <x xlink:href="package.0.3.0.xml"/>
 </r>

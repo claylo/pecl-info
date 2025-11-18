@@ -35,7 +35,7 @@
             "releasedBy": "mike",
             "releaseDate": "2015-04-24T20:19:31+00:00",
             "releaseNotes": "* Fix bug where non-POST payloads with mixed case boundaries would not be parsed",
-            "get": "http://pecl.php.net/get/apfd-1.0.1",
+            "get": "https://pecl.php.net/get/apfd-1.0.1",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "1.0.0": {
@@ -45,7 +45,7 @@
             "releasedBy": "mike",
             "releaseDate": "2015-03-18T01:46:59+00:00",
             "releaseNotes": "* Split off pecl_http",
-            "get": "http://pecl.php.net/get/apfd-1.0.0",
+            "get": "https://pecl.php.net/get/apfd-1.0.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "1.0.0RC1": {
@@ -55,7 +55,7 @@
             "releasedBy": "mike",
             "releaseDate": "2015-03-10T07:28:25+00:00",
             "releaseNotes": "* Split off pecl_http",
-            "get": "http://pecl.php.net/get/apfd-1.0.0RC1",
+            "get": "https://pecl.php.net/get/apfd-1.0.0RC1",
             "SPDX-License-Identifier": "BSD-2-Clause"
         }
     },

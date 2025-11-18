@@ -15,6 +15,6 @@
  <da>2014-10-22 09:59:13</da>
  <n>- Fixed build with PHP-5.6</n>
  <f>105260</f>
- <g>http://pecl.php.net/get/yaf-2.3.3</g>
+ <g>https://pecl.php.net/get/yaf-2.3.3</g>
  <x xlink:href="package.2.3.3.xml"/>
 </r>

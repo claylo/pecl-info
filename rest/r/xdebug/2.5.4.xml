@@ -38,6 +38,6 @@ Xdebug also provides:
   - Fixed issue #1429: Code coverage does not cover null coalesce
   - Fixed issue #1434: Code coverage segfaults on 32-bit arch</n>
  <f>279308</f>
- <g>http://pecl.php.net/get/xdebug-2.5.4</g>
+ <g>https://pecl.php.net/get/xdebug-2.5.4</g>
  <x xlink:href="package.2.5.4.xml"/>
 </r>

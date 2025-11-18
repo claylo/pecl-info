@@ -24,6 +24,6 @@ see www.abisource.com/enchant/</d>
  <n>- add enchant_broker_set_dict_path and enchant_broker_get_dict_path. Allows custom locations for the ispell and myspell dictionnaries
 - add ENCHANT_ISPELL and ENCHANT_MYSPELL constants</n>
  <f>9464</f>
- <g>http://pecl.php.net/get/enchant-1.1.0</g>
+ <g>https://pecl.php.net/get/enchant-1.1.0</g>
  <x xlink:href="package.1.1.0.xml"/>
 </r>

@@ -18,6 +18,6 @@
 - Code cleanup in file change notification
 - Ignore change notifications for new files, since they won't exist in the file cache</n>
  <f>141108</f>
- <g>http://pecl.php.net/get/WINCACHE-2.0.0.6</g>
+ <g>https://pecl.php.net/get/WINCACHE-2.0.0.6</g>
  <x xlink:href="package.2.0.0.6.xml"/>
 </r>

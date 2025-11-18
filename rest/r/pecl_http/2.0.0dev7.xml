@@ -26,6 +26,6 @@
 + Added primitive quoting/escaping capabilities to http\Params.
 + Reworked and improved negotiation support, added asterisk (*) matching etc.</n>
  <f>126098</f>
- <g>http://pecl.php.net/get/pecl_http-2.0.0dev7</g>
+ <g>https://pecl.php.net/get/pecl_http-2.0.0dev7</g>
  <x xlink:href="package.2.0.0dev7.xml"/>
 </r>

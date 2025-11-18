@@ -16,6 +16,6 @@
  <da>2013-04-22 12:27:58</da>
  <n>Fix: build error in Mac OS X: inline php_ev_set_watcher_priority function had been exported as a library symbol</n>
  <f>92978</f>
- <g>http://pecl.php.net/get/ev-0.2.4</g>
+ <g>https://pecl.php.net/get/ev-0.2.4</g>
  <x xlink:href="package.0.2.4.xml"/>
 </r>

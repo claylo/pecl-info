@@ -16,6 +16,6 @@
  <n>- Move from resource handles to object handles
 - Various smaller fixes</n>
  <f>53172</f>
- <g>http://pecl.php.net/get/uv-0.2.0</g>
+ <g>https://pecl.php.net/get/uv-0.2.0</g>
  <x xlink:href="package.0.2.0.xml"/>
 </r>

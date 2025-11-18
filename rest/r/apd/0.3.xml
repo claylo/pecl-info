@@ -17,6 +17,6 @@
  <n>Complete rewrite of internal to use the zend_execute function
 pointer instead of the engine hooks for tracing.</n>
  <f>36796</f>
- <g>http://pecl.php.net/get/apd-0.3</g>
+ <g>https://pecl.php.net/get/apd-0.3</g>
  <x xlink:href="package.0.3.xml"/>
 </r>

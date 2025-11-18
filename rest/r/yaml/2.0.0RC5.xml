@@ -21,6 +21,6 @@ Bugs Fixed:
 - Fixed callback usage for yaml_emit_file()
 - Use smart_str_free() instead of smart_string_free() (remicollet)</n>
  <f>37703</f>
- <g>http://pecl.php.net/get/yaml-2.0.0RC5</g>
+ <g>https://pecl.php.net/get/yaml-2.0.0RC5</g>
  <x xlink:href="package.2.0.0RC5.xml"/>
 </r>

@@ -33,6 +33,6 @@ submitting pull requests!  :)
 [DOC] Fix syntax error in documentation for the SET command (@mithunsatheesh)
 [DOC] Homebrew documentation instructions (@mathias)</n>
  <f>96970</f>
- <g>http://pecl.php.net/get/redis-2.2.5</g>
+ <g>https://pecl.php.net/get/redis-2.2.5</g>
  <x xlink:href="package.2.2.5.xml"/>
 </r>

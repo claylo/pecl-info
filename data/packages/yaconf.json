@@ -55,7 +55,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2017-12-31T04:24:04+00:00",
             "releaseNotes": "- Fixed PHP-7.2 build\n- Fixed HT flags",
-            "get": "http://pecl.php.net/get/yaconf-1.0.7",
+            "get": "https://pecl.php.net/get/yaconf-1.0.7",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.6": {
@@ -65,7 +65,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2017-07-27T09:55:20+00:00",
             "releaseNotes": "- Fixed PHP-7.2 Compatiblity",
-            "get": "http://pecl.php.net/get/yaconf-1.0.6",
+            "get": "https://pecl.php.net/get/yaconf-1.0.6",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.5": {
@@ -75,7 +75,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2017-04-27T02:28:00+00:00",
             "releaseNotes": "- Fixed issue #26 (Segmentation fault $php_fpm_BIN --daemonize $php_opts)",
-            "get": "http://pecl.php.net/get/yaconf-1.0.5",
+            "get": "https://pecl.php.net/get/yaconf-1.0.5",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.4": {
@@ -85,7 +85,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2016-12-07T04:23:11+00:00",
             "releaseNotes": "- Fixed issue #20 (Segfault during test suite with 7.1.0GA (TS))",
-            "get": "http://pecl.php.net/get/yaconf-1.0.4",
+            "get": "https://pecl.php.net/get/yaconf-1.0.4",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.3": {
@@ -95,7 +95,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2016-11-30T04:00:15+00:00",
             "releaseNotes": "- Fixed ISSUE #19 (Memory leak on foreach and reference)",
-            "get": "http://pecl.php.net/get/yaconf-1.0.3",
+            "get": "https://pecl.php.net/get/yaconf-1.0.3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.2": {
@@ -105,7 +105,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2016-05-26T09:18:28+00:00",
             "releaseNotes": "- Fixed ISSUE #14 (segfault with pop entry)",
-            "get": "http://pecl.php.net/get/yaconf-1.0.2",
+            "get": "https://pecl.php.net/get/yaconf-1.0.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.1": {
@@ -115,7 +115,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2015-12-12T13:43:42+00:00",
             "releaseNotes": "- Fixed various bugs",
-            "get": "http://pecl.php.net/get/yaconf-1.0.1",
+            "get": "https://pecl.php.net/get/yaconf-1.0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.0": {
@@ -125,7 +125,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2015-10-27T05:46:33+00:00",
             "releaseNotes": "- Release yaconf for PHP7",
-            "get": "http://pecl.php.net/get/yaconf-1.0.0",
+            "get": "https://pecl.php.net/get/yaconf-1.0.0",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

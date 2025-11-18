@@ -34,6 +34,6 @@
 	- Added Co\Redis::$connected property
 	- Added Co\MySQL::$connected property</n>
  <f>810507</f>
- <g>http://pecl.php.net/get/swoole-2.1.1</g>
+ <g>https://pecl.php.net/get/swoole-2.1.1</g>
  <x xlink:href="package.2.1.1.xml"/>
 </r>

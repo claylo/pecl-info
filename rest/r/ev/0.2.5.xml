@@ -17,6 +17,6 @@
  <n>Fix: bug #64788 where var_dump() of EvIo watcher caused disfunction of whole event loop
 Fix: build error due to return (void) from function returning int on Mac OS X</n>
  <f>93261</f>
- <g>http://pecl.php.net/get/ev-0.2.5</g>
+ <g>https://pecl.php.net/get/ev-0.2.5</g>
  <x xlink:href="package.0.2.5.xml"/>
 </r>

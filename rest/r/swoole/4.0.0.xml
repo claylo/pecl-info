@@ -36,6 +36,6 @@
 - Removed Linux AIO and use thread pool for asynchronous file IO anyway
 - Added MySQL stored procedure supports</n>
  <f>894619</f>
- <g>http://pecl.php.net/get/swoole-4.0.0</g>
+ <g>https://pecl.php.net/get/swoole-4.0.0</g>
  <x xlink:href="package.4.0.0.xml"/>
 </r>

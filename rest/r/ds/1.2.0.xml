@@ -17,6 +17,6 @@
 - Map and Set's minimum and default capacity down from 16 to 8.
 - Hash function of arrays is now the length of the array, so O(1).</n>
  <f>50635</f>
- <g>http://pecl.php.net/get/ds-1.2.0</g>
+ <g>https://pecl.php.net/get/ds-1.2.0</g>
  <x xlink:href="package.1.2.0.xml"/>
 </r>

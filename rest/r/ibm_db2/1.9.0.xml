@@ -20,6 +20,6 @@ Fix for autocommit issue (CLI setting is now handled).
 Fix for db2_pconnect connection reset issue.
 Fix for connection rollback in db2_pconnect at the end of request.</n>
  <f>151113</f>
- <g>http://pecl.php.net/get/ibm_db2-1.9.0</g>
+ <g>https://pecl.php.net/get/ibm_db2-1.9.0</g>
  <x xlink:href="package.1.9.0.xml"/>
 </r>

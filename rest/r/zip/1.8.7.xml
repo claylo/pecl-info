@@ -17,6 +17,6 @@
 - Fixed possible relative path issues in zip_open and TS mode (old API)
 - rename SAFEMODE_CHECKFILE to OPENBASEDIR_CHECKPATH (no confusion when used wiht php6)</n>
  <f>66863</f>
- <g>http://pecl.php.net/get/zip-1.8.7</g>
+ <g>https://pecl.php.net/get/zip-1.8.7</g>
  <x xlink:href="package.1.8.7.xml"/>
 </r>

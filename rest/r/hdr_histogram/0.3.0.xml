@@ -16,6 +16,6 @@
  <n>- Improve serialized array size by introducing skip counter
 - Validate inputs into hdr_import are in their range</n>
  <f>10327</f>
- <g>http://pecl.php.net/get/hdr_histogram-0.3.0</g>
+ <g>https://pecl.php.net/get/hdr_histogram-0.3.0</g>
  <x xlink:href="package.0.3.0.xml"/>
 </r>

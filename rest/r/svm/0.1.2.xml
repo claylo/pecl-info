@@ -16,6 +16,6 @@
  <n>Removed unnecessary 'weight' parameter
 Made probability and shrinking boolean parameters</n>
  <f>109839</f>
- <g>http://pecl.php.net/get/svm-0.1.2</g>
+ <g>https://pecl.php.net/get/svm-0.1.2</g>
  <x xlink:href="package.0.1.2.xml"/>
 </r>

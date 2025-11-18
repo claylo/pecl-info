@@ -20,6 +20,6 @@ More drivers to come (SNMP, e-mail, Hadoop,...).</d>
 Fixed:
 - Script filename could possibly not be filled in case of slow request.</n>
  <f>111172</f>
- <g>http://pecl.php.net/get/APM-1.0.0</g>
+ <g>https://pecl.php.net/get/APM-1.0.0</g>
  <x xlink:href="package.1.0.0.xml"/>
 </r>

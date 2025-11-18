@@ -40,6 +40,6 @@
 * Fixed access to protected HttpMessage properties in extending classes
 * Fixed lots of tests for the changed HTTP header order in PHP-5.1</n>
  <f>137014</f>
- <g>http://pecl.php.net/get/pecl_http-0.17.0</g>
+ <g>https://pecl.php.net/get/pecl_http-0.17.0</g>
  <x xlink:href="package.0.17.0.xml"/>
 </r>

@@ -21,6 +21,6 @@ IMPORTANT: Version 2.x API is not compatible with earlier versions.</d>
 + Added second optional parameter to getImageProperties and getImageProfiles to return just the available properties. 
 + Closes PECL Bug #12006</n>
  <f>68728</f>
- <g>http://pecl.php.net/get/imagick-2.0.0RC4</g>
+ <g>https://pecl.php.net/get/imagick-2.0.0RC4</g>
  <x xlink:href="package.2.0.0RC4.xml"/>
 </r>

@@ -16,6 +16,6 @@
  <da>2003-05-11 19:39:00</da>
  <n>Updated alpha release that includes a number of improvements over the existing alpha preview.  PEAR (PECL) support is working, too.</n>
  <f>3468</f>
- <g>http://pecl.php.net/get/cybermut-1.0</g>
+ <g>https://pecl.php.net/get/cybermut-1.0</g>
  <x xlink:href="package.1.0.xml"/>
 </r>

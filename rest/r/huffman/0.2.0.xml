@@ -16,6 +16,6 @@
  <da>2004-08-27 12:51:00</da>
  <n>Fixed memory leak bug (Thanks to Marcin Gibula).</n>
  <f>13357</f>
- <g>http://pecl.php.net/get/huffman-0.2.0</g>
+ <g>https://pecl.php.net/get/huffman-0.2.0</g>
  <x xlink:href="package.0.2.0.xml"/>
 </r>

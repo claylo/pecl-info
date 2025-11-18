@@ -67,6 +67,6 @@ Xdebug also provides:
   current scope including all contents). (Derick)
 + Implemented conditions for breakpoints in the &quot;break&quot; command. (Derick)</n>
  <f>153048</f>
- <g>http://pecl.php.net/get/xdebug-1.3.0rc2</g>
+ <g>https://pecl.php.net/get/xdebug-1.3.0rc2</g>
  <x xlink:href="package.1.3.0rc2.xml"/>
 </r>

@@ -25,6 +25,6 @@
  <da>2018-07-30 07:13:23</da>
  <n>Add check for HAVE_STRUCT_STAT_ST_BLKSIZE and HAVE_STRUCT_STAT_ST_RDEV (thanks to petk)</n>
  <f>74118</f>
- <g>http://pecl.php.net/get/eio-2.0.4</g>
+ <g>https://pecl.php.net/get/eio-2.0.4</g>
  <x xlink:href="package.2.0.4.xml"/>
 </r>

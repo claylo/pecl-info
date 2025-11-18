@@ -15,7 +15,7 @@
             "releasedBy": "neeke",
             "releaseDate": "2018-05-27T11:00:24+00:00",
             "releaseNotes": "- Merged formatting cleanups for README from google.\n- Rename class from JsonNet to Jsonnet.",
-            "get": "http://pecl.php.net/get/Jsonnet-1.3.1",
+            "get": "https://pecl.php.net/get/Jsonnet-1.3.1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.3.0": {
@@ -25,7 +25,7 @@
             "releasedBy": "neeke",
             "releaseDate": "2018-03-29T12:23:02+00:00",
             "releaseNotes": "- Update Lib JsonNet use v0.10.0.\n- Support PHP 7.",
-            "get": "http://pecl.php.net/get/JsonNet-1.3.0",
+            "get": "https://pecl.php.net/get/JsonNet-1.3.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.2.0": {
@@ -35,7 +35,7 @@
             "releasedBy": "neeke",
             "releaseDate": "2017-11-28T14:10:02+00:00",
             "releaseNotes": "- Update Lib JsonNet use v0.9.5.\n- Add function JsonNet::fmtFile.\n- Add function JsonNet::fmtSnippet.",
-            "get": "http://pecl.php.net/get/JsonNet-1.2.0",
+            "get": "https://pecl.php.net/get/JsonNet-1.2.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.1.1": {
@@ -45,7 +45,7 @@
             "releasedBy": "neeke",
             "releaseDate": "2016-08-07T07:37:30+00:00",
             "releaseNotes": "- Fixed issue #4, pecl install failed.",
-            "get": "http://pecl.php.net/get/JsonNet-1.1.1",
+            "get": "https://pecl.php.net/get/JsonNet-1.1.1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.1.0": {
@@ -55,7 +55,7 @@
             "releasedBy": "neeke",
             "releaseDate": "2016-07-14T09:12:45+00:00",
             "releaseNotes": "- Update Lib JsonNet use v0.8.9.\n- Fixed issue #1 #2, install error and .so load failed.",
-            "get": "http://pecl.php.net/get/JsonNet-1.1.0",
+            "get": "https://pecl.php.net/get/JsonNet-1.1.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.0.0": {
@@ -65,7 +65,7 @@
             "releasedBy": "neeke",
             "releaseDate": "2015-05-31T09:41:13+00:00",
             "releaseNotes": "- First version.",
-            "get": "http://pecl.php.net/get/JsonNet-1.0.0",
+            "get": "https://pecl.php.net/get/JsonNet-1.0.0",
             "SPDX-License-Identifier": "Apache-2.0"
         }
     },

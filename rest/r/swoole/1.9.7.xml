@@ -40,6 +40,6 @@
 - Fixed a problem that caused a crash when a string type variable was passed directly when swoole.fast_serialize was enabled
 - Update The reactorId variable in the onClose callback is set to -1 when the server actively shuts down the connection</n>
  <f>562174</f>
- <g>http://pecl.php.net/get/swoole-1.9.7</g>
+ <g>https://pecl.php.net/get/swoole-1.9.7</g>
  <x xlink:href="package.1.9.7.xml"/>
 </r>

@@ -35,6 +35,6 @@
 * Fixed exit interceptor does not work
 * Fixed too long domain name DNS buffer overflow in client</n>
  <f>1007982</f>
- <g>http://pecl.php.net/get/swoole-4.2.1</g>
+ <g>https://pecl.php.net/get/swoole-4.2.1</g>
  <x xlink:href="package.4.2.1.xml"/>
 </r>

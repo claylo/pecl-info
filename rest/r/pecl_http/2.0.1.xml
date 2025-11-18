@@ -33,6 +33,6 @@ v2: http://dev.iworks.at/ext-http/lcov/ext/http/</d>
  <n>* Fixed a bug with multiple ob_start(http\Env\Response) while replacing the body
 * Fixed build on Windows with libevent2</n>
  <f>152187</f>
- <g>http://pecl.php.net/get/pecl_http-2.0.1</g>
+ <g>https://pecl.php.net/get/pecl_http-2.0.1</g>
  <x xlink:href="package.2.0.1.xml"/>
 </r>

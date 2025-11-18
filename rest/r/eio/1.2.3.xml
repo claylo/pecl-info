@@ -25,6 +25,6 @@
  <da>2013-07-19 04:15:37</da>
  <n>Fix: bug #65293 where eio functions failed to process file descriptor equal to 0</n>
  <f>57504</f>
- <g>http://pecl.php.net/get/eio-1.2.3</g>
+ <g>https://pecl.php.net/get/eio-1.2.3</g>
  <x xlink:href="package.1.2.3.xml"/>
 </r>

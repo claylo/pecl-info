@@ -15,7 +15,7 @@
             "releasedBy": "skettler",
             "releaseDate": "2005-09-21T05:16:56+00:00",
             "releaseNotes": "Updated to PEAR 1.4 (package2.xml format), added binary package for Win32",
-            "get": "http://pecl.php.net/get/crack_dll-0.4",
+            "get": "https://pecl.php.net/get/crack_dll-0.4",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

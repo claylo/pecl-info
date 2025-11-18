@@ -18,6 +18,6 @@ The default locking is now rwlocks
 APCu API installed in build environment
 Please see TECHNOTES/README.md</n>
  <f>104250</f>
- <g>http://pecl.php.net/get/apcu-4.0.0</g>
+ <g>https://pecl.php.net/get/apcu-4.0.0</g>
  <x xlink:href="package.4.0.0.xml"/>
 </r>

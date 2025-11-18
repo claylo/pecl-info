@@ -36,6 +36,6 @@
 - Added unixsock support for async client  
 - Added high-precision time for Swoole\Http\Request</n>
  <f>507040</f>
- <g>http://pecl.php.net/get/swoole-1.8.4</g>
+ <g>https://pecl.php.net/get/swoole-1.8.4</g>
  <x xlink:href="package.1.8.4.xml"/>
 </r>

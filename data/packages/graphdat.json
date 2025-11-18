@@ -15,7 +15,7 @@
             "releasedBy": "graphdat",
             "releaseDate": "2014-12-05T22:44:09+00:00",
             "releaseNotes": "Stable release, linux based platforms only",
-            "get": "http://pecl.php.net/get/graphdat-1.0.4",
+            "get": "https://pecl.php.net/get/graphdat-1.0.4",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.0.3": {
@@ -25,7 +25,7 @@
             "releasedBy": "graphdat",
             "releaseDate": "2014-09-18T18:33:26+00:00",
             "releaseNotes": "Stable release, linux based platforms only",
-            "get": "http://pecl.php.net/get/graphdat-1.0.3",
+            "get": "https://pecl.php.net/get/graphdat-1.0.3",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.0.2": {
@@ -35,7 +35,7 @@
             "releasedBy": "graphdat",
             "releaseDate": "2013-09-11T14:00:18+00:00",
             "releaseNotes": "Stable release, linux based platforms only",
-            "get": "http://pecl.php.net/get/graphdat-1.0.2",
+            "get": "https://pecl.php.net/get/graphdat-1.0.2",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.0.1": {
@@ -45,7 +45,7 @@
             "releasedBy": "graphdat",
             "releaseDate": "2013-08-22T12:41:26+00:00",
             "releaseNotes": "Stable release, linux based platforms only",
-            "get": "http://pecl.php.net/get/graphdat-1.0.1",
+            "get": "https://pecl.php.net/get/graphdat-1.0.1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.0.0": {
@@ -55,7 +55,7 @@
             "releasedBy": "graphdat",
             "releaseDate": "2013-08-22T03:46:40+00:00",
             "releaseNotes": "Stable release, linux based platforms only",
-            "get": "http://pecl.php.net/get/graphdat-1.0.0",
+            "get": "https://pecl.php.net/get/graphdat-1.0.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "0.3.0": {
@@ -65,7 +65,7 @@
             "releasedBy": "graphdat",
             "releaseDate": "2013-01-23T19:53:23+00:00",
             "releaseNotes": "Preliminary release, linux based platforms only",
-            "get": "http://pecl.php.net/get/graphdat-0.3.0",
+            "get": "https://pecl.php.net/get/graphdat-0.3.0",
             "SPDX-License-Identifier": "MIT"
         },
         "0.2.0": {
@@ -75,7 +75,7 @@
             "releasedBy": "graphdat",
             "releaseDate": "2012-12-16T23:10:54+00:00",
             "releaseNotes": "Preliminary release, linux based platforms only",
-            "get": "http://pecl.php.net/get/graphdat-0.2.0",
+            "get": "https://pecl.php.net/get/graphdat-0.2.0",
             "SPDX-License-Identifier": "MIT"
         },
         "0.1.0": {
@@ -85,7 +85,7 @@
             "releasedBy": "graphdat",
             "releaseDate": "2012-12-16T19:27:30+00:00",
             "releaseNotes": "Preliminary release, linux based platforms only",
-            "get": "http://pecl.php.net/get/graphdat-0.1.0",
+            "get": "https://pecl.php.net/get/graphdat-0.1.0",
             "SPDX-License-Identifier": "MIT"
         }
     },

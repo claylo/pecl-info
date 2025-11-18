@@ -16,6 +16,6 @@
  <n>* Added linking of openssl shared lib to the config.m4
 * Fixed buffer overflow in Base64 encoding</n>
  <f>31097</f>
- <g>http://pecl.php.net/get/crypto-0.1.1</g>
+ <g>https://pecl.php.net/get/crypto-0.1.1</g>
  <x xlink:href="package.0.1.1.xml"/>
 </r>

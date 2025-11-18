@@ -21,6 +21,6 @@ AsyncTask workers</d>
  <da>2014-01-02 02:47:47</da>
  <n>- use &quot;pecl package&quot;</n>
  <f>81147</f>
- <g>http://pecl.php.net/get/swoole-1.6.9</g>
+ <g>https://pecl.php.net/get/swoole-1.6.9</g>
  <x xlink:href="package.1.6.9.xml"/>
 </r>

@@ -20,6 +20,6 @@ http://www.pdflib.com/developer-center/technical-documentation/php-howto</d>
  <da>2017-07-28 21:14:41</da>
  <n>- fix problem in PHP 7 that when extending the PDFlib class it was not possible to access any members of the extended class.</n>
  <f>33081</f>
- <g>http://pecl.php.net/get/pdflib-4.1.2</g>
+ <g>https://pecl.php.net/get/pdflib-4.1.2</g>
  <x xlink:href="package.4.1.2.xml"/>
 </r>

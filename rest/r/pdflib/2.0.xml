@@ -28,6 +28,6 @@ and for commercial licensing.
 - disables VIRTUAL_DIR support (use SerachPath instead)
 - disables CHECK_OPEN_BASEDIR checks</n>
  <f>22841</f>
- <g>http://pecl.php.net/get/pdflib-2.0</g>
+ <g>https://pecl.php.net/get/pdflib-2.0</g>
  <x xlink:href="package.2.0.xml"/>
 </r>

@@ -18,6 +18,6 @@
 http://old.nabble.com/Can%27t-get-zval-write-property-handler-working-for-%2B%2B------%2B%2B-and-other-operators-to34843859.html
 Fix: check for attempts to bind a signal to different event loops</n>
  <f>93324</f>
- <g>http://pecl.php.net/get/ev-0.2.1</g>
+ <g>https://pecl.php.net/get/ev-0.2.1</g>
  <x xlink:href="package.0.2.1.xml"/>
 </r>

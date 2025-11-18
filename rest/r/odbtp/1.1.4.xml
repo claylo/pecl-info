@@ -22,6 +22,6 @@ and Visual FoxPro.
 * Added conversion of ISO date/time string to datetime for input parameters.
 * Added odbtp_is_detached function.</n>
  <f>26314</f>
- <g>http://pecl.php.net/get/odbtp-1.1.4</g>
+ <g>https://pecl.php.net/get/odbtp-1.1.4</g>
  <x xlink:href="package.1.1.4.xml"/>
 </r>

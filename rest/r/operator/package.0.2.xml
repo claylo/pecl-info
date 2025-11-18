@@ -1,49 +1,132 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE package SYSTEM "http://pear.php.net/dtd/package-1.0">
-<package version="1.0" packagerversion="1.4.4">
- <name>operator</name>
- <summary>Operator overloading for Objects</summary>
- <description>Operator overloading for +, -, *, /, %, &lt;&lt;, &gt;&gt;, ., |, &amp;, ^, ~, !, ++, -- += -= *= /= %= &lt;&lt;= &gt;&gt;= .= |= &amp;= ^= and ~= operators.
- </description>
- <maintainers>
-  <maintainer>
-   <user>pollita</user>
-   <name>Sara Golemon</name>
-   <email>pollita@php.net</email>
-   <role>lead</role>
-  </maintainer>
-  </maintainers>
- <release>
-  <version>0.2</version>
-  <date>2006-01-25</date>
-  <license>PHP</license>
-  <state>beta</state>
-  <notes>* Added support for pre/post inc/dec operators
-* Added support for assignment operators
-* Refactored opline-&gt;result handling
-* Refactored opcode handlers
-  </notes>
-  <filelist>
-   <file role="doc" md5sum="484a9936718663d13ae88d23228c6fdb" name="CREDITS"/>
-   <file role="doc" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="EXPERIMENTAL"/>
-   <file role="src" md5sum="9b5262c94a62ae6c057a9170a1f475db" name="config.m4"/>
-   <file role="src" md5sum="0fac1f0bf8938228d2f506e60869db59" name="config.w32"/>
-   <file role="src" md5sum="b9443589c811d840f7f44f6d342fe3c7" name="operator.c"/>
-   <file role="src" md5sum="27b9a7c900b6ed6291a13b27f2088fa0" name="php_operator.h"/>
-   <file role="test" md5sum="fa163fd1da77bf6f9a80c9850ff3b8ed" name="tests/unary.phpt"/>
-   <file role="test" md5sum="daf9869f9adda1653dd31d784b2adeb4" name="tests/binary.phpt"/>
-   <file role="test" md5sum="3b363f38aa94c901f5bab09a7099b351" name="tests/incdec.phpt"/>
-   <file role="test" md5sum="8c20811a85133fb817c0cbf851a3c4da" name="tests/binary_assign.phpt"/>
-   <file role="test" md5sum="b918477d16a65a7f0d90d5638ed0e764" name="tests/binary_assign_objdim.phpt"/>
-  </filelist>
- </release>
- <changelog>
-   <release>
-    <version>0.1</version>
-    <date>2006-01-12</date>
-    <state>beta</state>
-    <notes>Initial Release
-    </notes>
-   </release>
- </changelog>
-</package>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PECL :: Error 404 not found</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="alternate" type="application/rss+xml" title="RSS feed" href="https://pecl.php.net/feeds/latest.rss">
+    <link rel="stylesheet" href="/css/style.css">
+    </head>
+
+<body >
+
+<div><a id="TOP"></a></div>
+
+<table class="head" cellspacing="0" cellpadding="0" width="100%">
+    <tr>
+        <td class="head-logo">
+            <a href="/"><img src="/img/peclsmall.gif" alt="PECL :: The PHP Extension Community Library" width="106" height="55" style="margin: 5px;"></a><br>
+        </td>
+
+        <td class="head-menu">
+
+                            <a href="/login.php" class="menuBlack">Login</a>
+            
+            &nbsp;|&nbsp;
+            <a href="/packages.php" class="menuBlack">Packages</a>
+            &nbsp;|&nbsp;
+            <a href="/support.php" class="menuBlack">Support</a>
+            &nbsp;|&nbsp;
+            <a href="/bugs/" class="menuBlack">Bugs</a>
+
+        </td>
+    </tr>
+
+    <tr>
+        <td class="head-search" colspan="2">
+            <form method="post" action="/search.php">
+                <p class="head-search"><span class="accesskey">S</span>earch for
+                    <input class="small" type="text" name="search_string" value="" size="20" accesskey="s">
+                    in the
+                    <select name="search_in" class="small">
+                        <option value="packages">Packages</option>
+                        <option value="site">This site (using Google)</option>
+                        <option value="developers">Developers</option>
+                        <option value="pecl-dev">Developer mailing list</option>
+                        <option value="pecl-cvs">SVN commits mailing list</option>
+                    </select>
+                    <input type="image" src="/img/small_submit_white.gif" alt="search" style="vertical-align: middle;">&nbsp;<br>
+                </p>
+            </form>
+        </td>
+    </tr>
+</table>
+
+<table class="middle" cellspacing="0" cellpadding="0">
+    <tr>
+        <td class="sidebar_left">
+            <ul class="side_pages">
+    <li class="side_page"><a href="/" >Home</a></li>
+    <li class="side_page"><a href="/news/" >News</a></li>
+</ul>
+
+            <strong>Documentation:</strong>
+
+<ul class="side_pages">
+    <li class="side_page"><a href="/support.php" >Support</a></li>
+</ul>
+
+            <strong>Downloads:</strong>
+
+<ul class="side_pages">
+    <li class="side_page">
+        <a href="/packages.php" >Browse Packages</a>
+    </li>
+
+    <li class="side_page">
+        <a href="/package-search.php" >Search Packages</a>
+    </li>
+
+    <li class="side_page">
+        <a href="/package-stats.php" >Download Statistics</a>
+    </li>
+</ul>
+
+            
+                    </td>
+
+        <td class="content">
+            
+<h1>Error 404 not found</h1>
+
+<p>The requested page <i>/rest/r/operator/package.0.2.xml</i> was not
+found on this server.</p>
+
+
+<p>If you think that this error message is caused by an error in the
+configuration of the server, please contact
+<a href="mailto:pecl-dev@lists.php.net">pecl-dev@lists.php.net</a>.
+
+        </td>
+
+        
+    </tr>
+</table>
+
+<table class="foot" cellspacing="0" cellpadding="0">
+    <tr>
+        <td class="foot-bar" colspan="2">
+            <a href="/about/privacy.php" class="menuBlack">PRIVACY POLICY</a>
+            &nbsp;|&nbsp;
+            <a href="/credits.php" class="menuBlack">CREDITS</a>
+            <br>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="foot-copy">
+            <small>
+                <a href="/copyright.php">Copyright &copy; 2001-2025 The PHP Group</a><br>
+                All rights reserved.<br>
+            </small>
+        </td>
+        <td class="foot-source">
+            <small>
+                Last updated: Wed Sep 03 10:50:24 2025 UTC<br>
+                Bandwidth and hardware provided by: <a href="https://www.pair.com/">pair Networks</a>
+            </small>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>

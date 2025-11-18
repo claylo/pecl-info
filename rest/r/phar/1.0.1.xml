@@ -28,6 +28,6 @@ if the ini variable phar.require_hash is set to true.</d>
  <n>* Fix return value of unlink() and rename() when used for phar archievs.
   [Marcus]</n>
  <f>50612</f>
- <g>http://pecl.php.net/get/phar-1.0.1</g>
+ <g>https://pecl.php.net/get/phar-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

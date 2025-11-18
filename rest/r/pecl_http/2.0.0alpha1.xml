@@ -25,6 +25,6 @@
 + Added fourth parameter 'flags' to http\Params' constructor, which defaults to http\Params::PARSE_DEFAULT
 * Fixed bug #61444 (query string converts . to _ in param names)</n>
  <f>149174</f>
- <g>http://pecl.php.net/get/pecl_http-2.0.0alpha1</g>
+ <g>https://pecl.php.net/get/pecl_http-2.0.0alpha1</g>
  <x xlink:href="package.2.0.0alpha1.xml"/>
 </r>

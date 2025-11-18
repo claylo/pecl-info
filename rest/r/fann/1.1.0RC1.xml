@@ -16,6 +16,6 @@
  <n>* Added support for PHP 7
 * Fixed issue #15: Incorrect path permission check</n>
  <f>46425</f>
- <g>http://pecl.php.net/get/fann-1.1.0RC1</g>
+ <g>https://pecl.php.net/get/fann-1.1.0RC1</g>
  <x xlink:href="package.1.1.0RC1.xml"/>
 </r>

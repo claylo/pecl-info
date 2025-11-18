@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>6.1.0RC1</v>
+ <st>alpha</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in tcp/http/websocket/http2 server
+        - coroutine tcp/http/websocket client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2025-08-30 03:43:07</da>
+ <n>## **Standard Library Extension**
+
+In version `6.1`, `Swoole-Cli` will introduce extended syntax for the `PHP` standard library, providing additional new syntax while maintaining full compatibility with the official `PHP` syntax. These new extended syntax features are entirely optional and do not affect existing `PHP` code. The standard library extension syntax will be implemented in the `stdext` module of `ext-swoole`.
+
+- `swoole-cli` users can use it directly without any additional parameters.
+- `ext-swoole` users need to add `--enable-swoole-stdext` during compilation to enable it.
+- `stdext` can be used in `php-cli`, `php-fpm`, `cli-http-server`, and `swoole` modes.
+
+### **1. Object-Oriented Basic Types**
+
+Version `6.1` implements object-oriented encapsulation of basic types such as `array`, `string`, and `stream`, supporting method calls in an object-oriented style. Built-in methods can be directly called on variables of these types.
+
+The built-in methods for basic types still utilize the `PHP` standard library. These methods correspond one-to-one with `PHP`&#039;s `str_` or `array_` series functions. For example, `$text-&gt;replace()` corresponds to the `str_replace` function. The underlying implementation only adjusts function names, slightly modifies the parameter order for a few methods, and adjusts parameter and return value types for several others. For details, please refer to the [Swoole Documentation](https://wiki.swoole.com/).
+
+### **2. Typed-Array**
+
+Typed arrays can enforce type constraints, such as `Map` or `ArrayList`, and restrict the types of keys and values. Multi-level nested formats are supported. Typed arrays are still essentially `array` types, with parameter checks performed only during write operations. Typed arrays can be passed as `array` to other functions or class methods.
+
+## **New Features**
+- **Default llHTTP Parser**: Starting from v6.1.0, Swoole uses the higher-performance `llhttp` as the default HTTP message parser, replacing `http_parser`.
+- **Coroutine-Based File Download**: `Swoole\Coroutine\Http\Client` now supports full coroutine-based file download operations.
+- **Asynchronous File Truncation**: Added support for `iouring ftruncate`, expanding asynchronous file operation capabilities.
+
+## **Bug Fixes**
+- **Thread Mode Optimization**:
+- Fixed the issue where `hook_flags` settings were ineffective in `SWOOLE_THREAD` mode.
+- Fixed the issue where heartbeat threads held invalid pointers and accessed freed memory after worker threads restarted due to reaching the `max_request` limit.
+- Fixed the issue where `Task` processes could not be restarted individually.
+- **Stability Improvements**:
+- Fixed the issue where synchronous processes (including manager and task processes) could not use `process::signal()` properly.
+- Corrected the resource cleanup mechanism when worker processes exit abnormally.
+- Resolved compilation failures on the Cygwin platform.
+- Fixed the issue where curl could not reuse sockets when keepalive was enabled.
+- Improved the logging component to address data consistency issues in multi-threaded mode.
+- Fixed compilation failures of the `futex` feature in `io_uring` on `ubuntu24.04`.
+- Fixed compilation failures caused by struct sequential assignment on older Linux systems.
+- Fixed the issue where the `id` property of directly instantiated `Swoole\Process` objects was uninitialized.
+- Fixed the missing zstd option in composer.json when compiling Swoole with PIE.
+- **Compatibility Improvements**:
+- Fixed compatibility issues with `php_swoole_register_shutdown_function` on PHP 8.5.
+- Corrected the handling of null parameters in `Swoole\Table::get()`.
+- **Protocol Handling**:
+- Optimized the handling of duplicate fields in HTTP request and response headers to ensure proper merging.
+- Fixed the issue where a warning about an unknown compression method was triggered when processing client `Accept-Encoding: zlib` headers without `zlib` installed.
+
+## Deprecations
+- Support for the `select` event mechanism has been removed. `select` only supports event monitoring for up to `1024` handles and has significant limitations. On platforms that do not support `epoll/kqueue`, `poll` will be used as the event polling mechanism, enabling support for high concurrency even on the `Cygwin` platform.
+- The second parameter `$waitEvent` in `Swoole\Server::stop()` has been deprecated. Please use the `reload_async` parameter instead.
+
+## **Architectural Optimizations**
+
+Version `6.1` adds extensive unit tests for core modules, increasing test coverage to **86%**. By systematically supplementing test cases and refactoring underlying code logic, combined with full static code analysis using the `clang-tidy` toolchain, automated code formatting and redundancy cleanup have been achieved, significantly improving code readability and maintainability.
+
+- Optimized the underlying `SSL` module.
+- Optimized the underlying `Socket` module.
+- Refactored the underlying synchronous signal module.
+- Refactored the underlying `reactor` and `string` modules.
+- Refactored the underlying dynamic log file reloading mechanism based on `SIGRTMIN` signals.
+- Optimized the underlying static file server by removing C-style code and unifying it into C++-style code.
+- Optimized thread initialization logic to improve multi-threaded performance. Memory for independent management structures is now managed separately, eliminating the need for locks during thread creation and exit.
+- Removed the `socket_dontwait` option from the underlying `async` module, as it is deprecated.
+- Improved test coverage for `WebSocket` mask handling.
+- Optimized the `sendfile` functionality to avoid setting the `tcp_cork` option for files smaller than `64KB`.
+- Added unit tests for `aarch64` and `macOS` environments.
+- Optimized underlying client network address resolution and settings.
+- Added `ssl_cafile/ssl_capath` configuration items for the `Server` module.
+- Added the `print_backtrace_on_error` configuration, which prints C function stack traces when location errors occur.
+- Added the `Address Sanitizer` debugging tool.
+- Added `Cygwin` testing, significantly improving compatibility and stability on the `Cygwin` platform.
+- On `macOS` systems, the `kqueue` event mechanism does not support cross-process pipe event monitoring, making it impossible to use `SWOOLE_PROCESS` mode and `Task` processes. Therefore, the system defaults to using `poll` as the underlying event mechanism. To enable `kqueue`, manually activate it using `Swoole\Server::set([&#039;enable_kqueue&#039; =&gt; true])` and `swoole_async_set([&#039;enable_kqueue&#039; =&gt; true])`.
+
+## **Note**
+- This version is an `RC` (Release Candidate) and not an official release. It is recommended for use only in testing environments and should not be used in production.
+
+## **Acknowledgments**
+Sincere thanks to @matyhtf @jingjingxyk @sy-records @KIMDONGYEON00 @ServBayDev @NathanFreeman and all contributors for their professional efforts. Swoole is stronger because of you! Wishing all open-source community partners good health, success in all endeavors, and smooth work.</n>
+ <f>2443107</f>
+ <g>https://pecl.php.net/get/swoole-6.1.0RC1</g>
+ <x xlink:href="package.6.1.0RC1.xml"/>
+</r>

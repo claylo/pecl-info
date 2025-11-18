@@ -51,6 +51,6 @@
 * Stop throwing and clearing an exception on connect failure @matmoi
 * Fix a false positive unit test failure having to do with TTL returns</n>
  <f>90982</f>
- <g>http://pecl.php.net/get/redis-2.2.4</g>
+ <g>https://pecl.php.net/get/redis-2.2.4</g>
  <x xlink:href="package.2.2.4.xml"/>
 </r>

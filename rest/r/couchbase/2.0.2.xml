@@ -23,6 +23,6 @@ Changes:
     information in Exception stack traces.
 * Refactored code base for better maintainability.</n>
  <f>28666</f>
- <g>http://pecl.php.net/get/couchbase-2.0.2</g>
+ <g>https://pecl.php.net/get/couchbase-2.0.2</g>
  <x xlink:href="package.2.0.2.xml"/>
 </r>

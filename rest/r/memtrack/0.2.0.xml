@@ -18,6 +18,6 @@
  <n>- added Win32 config file.
 - changed vm_limit to use mallinfo() instead of reading /proc.</n>
  <f>5521</f>
- <g>http://pecl.php.net/get/memtrack-0.2.0</g>
+ <g>https://pecl.php.net/get/memtrack-0.2.0</g>
  <x xlink:href="package.0.2.0.xml"/>
 </r>

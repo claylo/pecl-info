@@ -22,6 +22,6 @@
 - Fix problem with arguments passed by-reference #77
 - Fix some unit tests</n>
  <f>65565</f>
- <g>http://pecl.php.net/get/trace-1.0.1beta</g>
+ <g>https://pecl.php.net/get/trace-1.0.1beta</g>
  <x xlink:href="package.1.0.1beta.xml"/>
 </r>

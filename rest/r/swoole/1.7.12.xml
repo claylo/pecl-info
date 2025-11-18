@@ -27,6 +27,6 @@
  <n>- Fixed swoole_server tcp buffer error
 - Fixed wrong error log</n>
  <f>440165</f>
- <g>http://pecl.php.net/get/swoole-1.7.12</g>
+ <g>https://pecl.php.net/get/swoole-1.7.12</g>
  <x xlink:href="package.1.7.12.xml"/>
 </r>

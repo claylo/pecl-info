@@ -15,6 +15,6 @@
  <da>2016-11-30 04:00:15</da>
  <n>- Fixed ISSUE #19 (Memory leak on foreach and reference)</n>
  <f>10492</f>
- <g>http://pecl.php.net/get/yaconf-1.0.3</g>
+ <g>https://pecl.php.net/get/yaconf-1.0.3</g>
  <x xlink:href="package.1.0.3.xml"/>
 </r>
