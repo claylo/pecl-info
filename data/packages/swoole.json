@@ -1,13 +1,45 @@
 {
     "category": "Event",
     "deprecated": false,
-    "description": "Event-driven asynchronous and concurrent networking engine with high performance for PHP.\n        - event-driven\n        - coroutine\n        - asynchronous non-blocking\n        - multi-thread reactor\n        - multi-process worker\n        - multi-protocol\n        - millisecond timer\n        - built-in tcp/http/websocket/http2 server\n        - coroutine tcp/http/websocket client\n        - coroutine mysql client\n        - coroutine redis client\n        - coroutine read/write file system\n        - coroutine dns lookup\n        - support IPv4/IPv6/UnixSocket/TCP/UDP\n        - support SSL/TLS encrypted transmission",
-    "latestReleaseDate": "2025-03-22T06:49:09+00:00",
-    "latestVersion": "6.0.2",
+    "description": "Event-driven asynchronous and concurrent networking engine with high performance for PHP.\n        - event-driven\n        - coroutine\n        - asynchronous non-blocking\n        - multi-thread reactor\n        - multi-process worker\n        - multi-protocol\n        - millisecond timer\n        - built-in tcp/http/websocket/http2 server\n        - coroutine tcp/http/websocket client\n        - coroutine read/write file system\n        - coroutine dns lookup\n        - support IPv4/IPv6/UnixSocket/TCP/UDP\n        - support SSL/TLS encrypted transmission",
+    "latestReleaseDate": "2025-11-11T15:01:55+00:00",
+    "latestVersion": "6.1.2",
     "license": "Apache2.0",
     "name": "swoole",
     "php8Mentioned": true,
     "releases": {
+        "6.1.2": {
+            "version": "6.1.2",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "tianfenghan",
+            "releaseDate": "2025-11-11T15:01:55+00:00",
+            "releaseNotes": "- No longer throw warnings when failing to set the `socket` receive/send buffer size\n- Fixed an issue in `Swoole\\Http\\Server` where the `onClose` callback might execute before `onRequest` when handling `HTTP2` requests, leading to a use-after-free problem\n- Optimized the `getSocket()` method by duplicating the file descriptor when exporting the `php sockets` resource object, preventing `php sockets` from affecting the `socket` held by `Swoole` upon closure\n- Fixed a memory leak issue in `Swoole\\Async\\Client`\n- Fixed an issue where `Swoole\\Coroutine\\Http\\Client` of `IPv6` type could not use `Socks5` proxy\n- Synchronized updates to adapt to relevant changes in the `CURL` extension in `PHP 8.4`\n- Added the `async.file://` file protocol, which allows enabling coroutine scheduling for specific file operations even when global file coroutine support is disabled",
+            "get": "https://pecl.php.net/get/swoole-6.1.2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "6.1.1": {
+            "version": "6.1.1",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "tianfenghan",
+            "releaseDate": "2025-10-30T14:40:28+00:00",
+            "releaseNotes": "- Fixed a compilation failure caused by missing `zlib` dependency.\n- Optimized the resource management logic in the `curl` module to prevent use-after-free risks.\n- Resolved the absence of `fdatasync` on macOS systems.\n- Improved the log output format for coroutine deadlock detection.",
+            "get": "https://pecl.php.net/get/swoole-6.1.1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "6.1.0": {
+            "version": "6.1.0",
+            "state": "stable"
+        },
+        "6.1.0RC2": {
+            "version": "6.1.0RC2",
+            "state": "beta"
+        },
+        "6.1.0RC1": {
+            "version": "6.1.0RC1",
+            "state": "alpha"
+        },
         "6.0.2": {
             "version": "6.0.2",
             "state": "stable",
@@ -47,6 +79,10 @@
             "releaseNotes": "- Added `non-blocking, reentrant coroutine mutex lock`, which can be used between processes/threads without blocking them. @NathanFreeman\n- `Swoole\\Coroutine\\Socket::getoption()` supports the `TCPINFO` feature. @matyhtf\n- `Swoole\\Client` synchronous blocking client supports `http` proxy. @matyhtf\n- Added asynchronous non-blocking `TCP/UDP/Unix socket` client `Swoole\\Async\\client`. @matyhtf\n- Optimized the `Swoole\\Redis\\Server::format()` method to support zero-copy memory, compatible with the `Redis` protocol. @matyhtf\n- Fixed `Fatal error` issue caused by `PHP-8.4`'s `timeout` feature in ZTS mode. @matyhtf\n- Fixed compatibility issue with the `exit()` function in `swoole` for `PHP-8.4`. @remicollet\n- Fixed the issue where `Swoole\\Thread::getNativeId()` did not work in `cygwin`. @matyhtf\n- Fixed the issue causing `SIGSEGV` in `Swoole\\Coroutine::getaddrinfo()` method. @matyhtf\n- Fixed the issue where the runtime TCP module did not support dynamically enabling SSL encryption. @matyhtf\n- Fixed the issue where the HTTP client had an incorrect timeout after running for a long time. @matyhtf\n- Fixed the problem where the mutex lock of `Swoole\\Table` could not be used before the process exited. @matyhtf\n- Fixed the failure of `Swoole\\Server::stop()` when using named parameters. @matyhtf\n- Fixed the issue with the `toArray` function of concurrent containers in `SWOOLE_THREAD` multi-thread mode. @matyhtf\n- Fixed the issue of being unable to delete nested numeric keys in `Swoole\\Thread\\Map` in `SWOOLE_THREAD` multi-thread mode. @matyhtf\n- Multi-thread mode `SWOOLE_THREAD` supports restarting worker threads. @matyhtf\n- Multi-thread mode `SWOOLE_THREAD` supports starting timers in the `Manager` thread. @matyhtf\n- Compatible with the `curl` extension of `PHP-8.4`. @matyhtf @NathanFreeman\n- Refactored `iouring`. @matyhtf @NathanFreeman\n- Optimized timers so that synchronous processes do not depend on signals. @matyhtf\n- Optimized the `Swoole\\Coroutine\\System::waitSignal()` method to allow listening to multiple signals simultaneously. @matyhtf\n- This version is a `pre-release` and should not be used in production environments, only in testing environments.",
             "get": "https://pecl.php.net/get/swoole-6.0.0RC1",
             "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "5.1.8": {
+            "version": "5.1.8",
+            "state": "stable"
         },
         "5.1.7": {
             "version": "5.1.7",

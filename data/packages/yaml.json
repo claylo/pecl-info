@@ -2,12 +2,26 @@
     "category": "File Formats",
     "deprecated": false,
     "description": "Support for YAML 1.1 (YAML Ain't Markup Language) serialization using the\n  LibYAML library.",
-    "latestReleaseDate": "2024-10-07T13:54:03+00:00",
-    "latestVersion": "2.2.4",
+    "latestReleaseDate": "2025-11-12T02:23:40+00:00",
+    "latestVersion": "2.3.0",
     "license": "MIT",
     "name": "yaml",
     "php8Mentioned": true,
     "releases": {
+        "2.3.0": {
+            "version": "2.3.0",
+            "state": "stable",
+            "license": "MIT",
+            "releasedBy": "bd808",
+            "releaseDate": "2025-11-12T02:23:40+00:00",
+            "releaseNotes": "New Features:\n- Add a composer.json to enable support for PIE (asgrim)\nBugs Fixed:\n- #97: Ignore null array offset warnings in explicit null tests (bd808)\n- avoid unexpected NAN value was coerced to string (remicollet)",
+            "get": "https://pecl.php.net/get/yaml-2.3.0",
+            "SPDX-License-Identifier": "MIT"
+        },
+        "2.2.5": {
+            "version": "2.2.5",
+            "state": "stable"
+        },
         "2.2.4": {
             "version": "2.2.4",
             "state": "stable",

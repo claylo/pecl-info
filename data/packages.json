@@ -4873,12 +4873,48 @@
         "category": "Benchmarking",
         "deprecated": false,
         "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-        "latestReleaseDate": "2025-05-28T17:59:36+00:00",
-        "latestVersion": "1.10.0",
+        "latestReleaseDate": "2025-11-13T14:19:25+00:00",
+        "latestVersion": "1.14.0",
         "license": "BSD 3-Clause",
         "name": "datadog_trace",
         "php8Mentioned": true,
         "releases": {
+            "1.14.0": {
+                "version": "1.14.0",
+                "state": "stable",
+                "license": "BSD 3-Clause",
+                "releasedBy": "bwoebi",
+                "releaseDate": "2025-11-13T14:19:25+00:00",
+                "releaseNotes": "## All products\n- Add PHP 8.5 support #3400\n\n## Tracer\n### Added\n- Implement APM endpoint resource renaming #3415\n- Enable dynamic configuration for debugger-related products #3476\n\n### Fixed\n- Collect incompletely fetched CurlMulti handles upon destruction #3469\n- Safeguard proc_get_span in case proc_assoc_span is not happening #3471\n- Skip SSI injector in installer for accurate ini-dir readings #3472\n- Make stub file compatible with php 8.4+ parser #3475\n- Fix function resolver on PHP 8.0 and PHP 8.1 for targets without HAVE_GCC_GLOBAL_REGS and with active JIT #3482\n- Support ENOENT as shm_open failure mode DataDog/libdatadog#1315\n  - This fixes a failure mode present on some serverless runtimes.\n\n### Internal\n- Add crashtracker support for the sidecar #3453\n- Strip error messages from hook telemetry #3449\n- Collect runtime crash frames #3479\n- Use a dedicated endpoint for enriched logs DataDog/libdatadog#1338\n\n## Profiling\n### Internal\n- Cleanup I/O profiling code #3406\n- Upgrade to libdatadog v23, profiling uses zstd now #3470\n- Switch panics to abort #3474\n\n## Application Security Management\n### Added\n- Print block_id #3444\n\n### Changed\n- Upgrade libddwaf and rules #3438\n- Adapt security_response_id to latest #3480",
+                "get": "https://pecl.php.net/get/datadog_trace-1.14.0",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
+            "1.13.1": {
+                "version": "1.13.1",
+                "state": "stable",
+                "license": "BSD 3-Clause",
+                "releasedBy": "estringanadd",
+                "releaseDate": "2025-10-30T13:55:41+00:00",
+                "releaseNotes": "## Tracer\n### Fixed\n- Fix closed resource handling in live debugger #3437\n- Ensure local variables in exception replay are redacted #3440\n- Reset ddtrace_endpoint properly #3451\n- Use a local limiter if shared memory fails to allocate #3454\n- Do not skip error handling for timeouts happening during hook execution #3459\n- Defer Theme\\Registry::getRuntime() call until posthook #3465\n- Ensure there's no trailing semicolon with only tid as propagated tag #3466\n\n## Profiling\n### Fixed\n- Reset interrupt count when removing interrupt #3455\n\n## Application Security Management\n### Fixed\n- Ensure json dependency is loaded at runtime #3462\n- Fix several bugs and potential bugs in appsec #3463\n- When helper is unavailable, avoid very long waits (> 7s) #3464",
+                "get": "https://pecl.php.net/get/datadog_trace-1.13.1",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
+            "1.13.0": {
+                "version": "1.13.0",
+                "state": "stable"
+            },
+            "1.12.1": {
+                "version": "1.12.1",
+                "state": "stable"
+            },
+            "1.12.0": {
+                "version": "1.12.0",
+                "state": "stable"
+            },
+            "1.11.0": {
+                "version": "1.11.0",
+                "state": "stable"
+            },
             "1.10.0": {
                 "version": "1.10.0",
                 "state": "stable",
@@ -8177,12 +8213,26 @@
         "category": "Event",
         "deprecated": false,
         "description": "ev provides interface to libev library - high performance\n  full-featured event loop written in C.",
-        "latestReleaseDate": "2024-09-03T13:54:27+00:00",
-        "latestVersion": "1.2.0",
+        "latestReleaseDate": "2025-11-04T10:57:01+00:00",
+        "latestVersion": "1.2.2",
         "license": "PHP",
         "name": "ev",
         "php8Mentioned": true,
         "releases": {
+            "1.2.2": {
+                "version": "1.2.2",
+                "state": "stable",
+                "license": "PHP",
+                "releasedBy": "osmanov",
+                "releaseDate": "2025-11-04T10:57:01+00:00",
+                "releaseNotes": "Fix #53: php_stream_cast() without the PHP_STREAM_CAST_INTERNAL caused warnings",
+                "get": "https://pecl.php.net/get/ev-1.2.2",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
+            "1.2.1": {
+                "version": "1.2.1",
+                "state": "stable"
+            },
             "1.2.0": {
                 "version": "1.2.0",
                 "state": "stable",
@@ -14427,12 +14477,26 @@
         "category": "Database",
         "deprecated": false,
         "description": "ibm_db2 provides access to DB2 and compatible databases on PHP.\n  It uses a procedural interface. (PDO users should use PDO_IBM instead.)\n  \n  The following software is supported without any additional licenses:\n  - IBM Db2 (Linux/Unix/Windows)\n  - IBM Db2 for i (running on IBM i)\n  - Apache Derby\n  \n  The following software may require additional licenses on the database:\n  - IBM Db2 Connect for i (for using Db2 for i from LUW)\n  - IBM Db2 Connect for z (for using Db2 for z from LUW)\n  \n  Note that for IBM i, IBM and Seiden Group recommend new applications use ODBC instead.",
-        "latestReleaseDate": "2024-11-01T15:47:33+00:00",
-        "latestVersion": "2.2.2",
+        "latestReleaseDate": "2025-10-31T17:42:11+00:00",
+        "latestVersion": "2.3.1",
         "license": "Apache License 2.0",
         "name": "ibm_db2",
         "php8Mentioned": true,
         "releases": {
+            "2.3.1": {
+                "version": "2.3.1",
+                "state": "stable",
+                "license": "Apache License 2.0",
+                "releasedBy": "theprez",
+                "releaseDate": "2025-10-31T17:42:11+00:00",
+                "releaseNotes": "- Try to use out_length for bound character columns when smaller than strlen.\n  This is to work around an issue on IBM i where SQL/CLI returns garbage after out_length.\n  Note that strlen is still used to keep existing behaviour with nulls in strings;\n  binary bound columns are also not affected.",
+                "get": "https://pecl.php.net/get/ibm_db2-2.3.1",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
+            "2.3.0": {
+                "version": "2.3.0",
+                "state": "stable"
+            },
             "2.2.2": {
                 "version": "2.2.2",
                 "state": "stable",
@@ -16975,12 +17039,22 @@
         "category": "File System",
         "deprecated": false,
         "description": "Inotify bindings for PHP",
-        "latestReleaseDate": "2020-12-18T11:11:52+00:00",
-        "latestVersion": "3.0.0",
+        "latestReleaseDate": "2025-10-28T09:20:30+00:00",
+        "latestVersion": "3.0.1",
         "license": "PHP License",
         "name": "inotify",
         "php8Mentioned": true,
         "releases": {
+            "3.0.1": {
+                "version": "3.0.1",
+                "state": "stable",
+                "license": "PHP License",
+                "releasedBy": "lbarnaud",
+                "releaseDate": "2025-10-28T09:20:30+00:00",
+                "releaseNotes": "* Add support for IN_EXCL_UNLINK flag (#9, @realFlowControl)\n* Add support for PIE\n\nThis is the last release on PECL: Please use PIE instead.",
+                "get": "https://pecl.php.net/get/inotify-3.0.1",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
             "3.0.0": {
                 "version": "3.0.0",
                 "state": "stable",
@@ -31350,12 +31424,50 @@
         "category": "Tools and Utilities",
         "deprecated": false,
         "description": "https://developers.google.com/protocol-buffers/",
-        "latestReleaseDate": "2025-05-28T19:04:31+00:00",
-        "latestVersion": "4.31.1",
+        "latestReleaseDate": "2025-11-13T16:36:19+00:00",
+        "latestVersion": "4.33.1",
         "license": "BSD-3-Clause",
         "name": "protobuf",
         "php8Mentioned": false,
         "releases": {
+            "4.33.1": {
+                "version": "4.33.1",
+                "state": "stable",
+                "license": "BSD-3-Clause",
+                "releasedBy": "protobufpackages",
+                "releaseDate": "2025-11-13T16:36:19+00:00",
+                "releaseNotes": "* See github.com/protocolbuffers/protobuf/releases/tag/v33.1 for release notes.",
+                "get": "https://pecl.php.net/get/protobuf-4.33.1",
+                "SPDX-License-Identifier": "BSD-3-Clause"
+            },
+            "4.33.0": {
+                "version": "4.33.0",
+                "state": "stable"
+            },
+            "4.33.0RC2": {
+                "version": "4.33.0RC2",
+                "state": "beta"
+            },
+            "4.33.0RC1": {
+                "version": "4.33.0RC1",
+                "state": "beta"
+            },
+            "4.32.1": {
+                "version": "4.32.1",
+                "state": "stable"
+            },
+            "4.32.0": {
+                "version": "4.32.0",
+                "state": "stable"
+            },
+            "4.32.0RC2": {
+                "version": "4.32.0RC2",
+                "state": "beta"
+            },
+            "4.32.0RC1": {
+                "version": "4.32.0RC1",
+                "state": "beta"
+            },
             "4.31.1": {
                 "version": "4.31.1",
                 "state": "stable",
@@ -34510,12 +34622,26 @@
         "category": "Database",
         "deprecated": false,
         "description": "This extension provides an API for communicating with RESP-based key-value\n   stores, such as Redis, Valkey, and KeyDB.",
-        "latestReleaseDate": "2025-03-24T19:05:36+00:00",
-        "latestVersion": "6.2.0",
+        "latestReleaseDate": "2025-11-06T20:05:53+00:00",
+        "latestVersion": "6.3.0",
         "license": "PHP",
         "name": "redis",
         "php8Mentioned": true,
         "releases": {
+            "6.3.0": {
+                "version": "6.3.0",
+                "state": "stable",
+                "license": "PHP",
+                "releasedBy": "mgrunder",
+                "releaseDate": "2025-11-06T20:05:53+00:00",
+                "releaseNotes": "--- Sponsors ---\n\nA-VISION Advertising - https://github.com/A-VISION-BV\nAvtandil Kikabidze - https://github.com/akalongman\nGeoffrey Hoffman - https://github.com/phpguru\nObject Cache Pro for WordPress - https://objectcache.pro/\nOpen LMS - https://openlms.net/\nRelay - https://relay.so\nSalvatore Sanfilippo - https://github.com/antirez\nTy Karok - https://github.com/karock\n\n--- 6.3.0 ---\n\nThis release introduces support for dozens of new commands, including hash\nfield expiration, Valkey?s DELIFEQ, and Redis vector set commands. It also\nincludes many bug fixes and performance improvements.\n\nFixed:\n\n* Cloning our objects should not segfault [770034cc] (michael-grunder)\n* Fix return type for `RedisCluster` `vgetattr` and `vsetattr`\n  [834d2b37] (michael-grunder)",
+                "get": "https://pecl.php.net/get/redis-6.3.0",
+                "SPDX-License-Identifier": "PHP-3.01"
+            },
+            "6.3.0RC1": {
+                "version": "6.3.0RC1",
+                "state": "beta"
+            },
             "6.2.0": {
                 "version": "6.2.0",
                 "state": "stable",
@@ -40263,13 +40389,45 @@
     "swoole": {
         "category": "Event",
         "deprecated": false,
-        "description": "Event-driven asynchronous and concurrent networking engine with high performance for PHP.\n        - event-driven\n        - coroutine\n        - asynchronous non-blocking\n        - multi-thread reactor\n        - multi-process worker\n        - multi-protocol\n        - millisecond timer\n        - built-in tcp/http/websocket/http2 server\n        - coroutine tcp/http/websocket client\n        - coroutine mysql client\n        - coroutine redis client\n        - coroutine read/write file system\n        - coroutine dns lookup\n        - support IPv4/IPv6/UnixSocket/TCP/UDP\n        - support SSL/TLS encrypted transmission",
-        "latestReleaseDate": "2025-03-22T06:49:09+00:00",
-        "latestVersion": "6.0.2",
+        "description": "Event-driven asynchronous and concurrent networking engine with high performance for PHP.\n        - event-driven\n        - coroutine\n        - asynchronous non-blocking\n        - multi-thread reactor\n        - multi-process worker\n        - multi-protocol\n        - millisecond timer\n        - built-in tcp/http/websocket/http2 server\n        - coroutine tcp/http/websocket client\n        - coroutine read/write file system\n        - coroutine dns lookup\n        - support IPv4/IPv6/UnixSocket/TCP/UDP\n        - support SSL/TLS encrypted transmission",
+        "latestReleaseDate": "2025-11-11T15:01:55+00:00",
+        "latestVersion": "6.1.2",
         "license": "Apache2.0",
         "name": "swoole",
         "php8Mentioned": true,
         "releases": {
+            "6.1.2": {
+                "version": "6.1.2",
+                "state": "stable",
+                "license": "Apache2.0",
+                "releasedBy": "tianfenghan",
+                "releaseDate": "2025-11-11T15:01:55+00:00",
+                "releaseNotes": "- No longer throw warnings when failing to set the `socket` receive/send buffer size\n- Fixed an issue in `Swoole\\Http\\Server` where the `onClose` callback might execute before `onRequest` when handling `HTTP2` requests, leading to a use-after-free problem\n- Optimized the `getSocket()` method by duplicating the file descriptor when exporting the `php sockets` resource object, preventing `php sockets` from affecting the `socket` held by `Swoole` upon closure\n- Fixed a memory leak issue in `Swoole\\Async\\Client`\n- Fixed an issue where `Swoole\\Coroutine\\Http\\Client` of `IPv6` type could not use `Socks5` proxy\n- Synchronized updates to adapt to relevant changes in the `CURL` extension in `PHP 8.4`\n- Added the `async.file://` file protocol, which allows enabling coroutine scheduling for specific file operations even when global file coroutine support is disabled",
+                "get": "https://pecl.php.net/get/swoole-6.1.2",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
+            "6.1.1": {
+                "version": "6.1.1",
+                "state": "stable",
+                "license": "Apache2.0",
+                "releasedBy": "tianfenghan",
+                "releaseDate": "2025-10-30T14:40:28+00:00",
+                "releaseNotes": "- Fixed a compilation failure caused by missing `zlib` dependency.\n- Optimized the resource management logic in the `curl` module to prevent use-after-free risks.\n- Resolved the absence of `fdatasync` on macOS systems.\n- Improved the log output format for coroutine deadlock detection.",
+                "get": "https://pecl.php.net/get/swoole-6.1.1",
+                "SPDX-License-Identifier": "Apache-2.0"
+            },
+            "6.1.0": {
+                "version": "6.1.0",
+                "state": "stable"
+            },
+            "6.1.0RC2": {
+                "version": "6.1.0RC2",
+                "state": "beta"
+            },
+            "6.1.0RC1": {
+                "version": "6.1.0RC1",
+                "state": "alpha"
+            },
             "6.0.2": {
                 "version": "6.0.2",
                 "state": "stable",
@@ -40309,6 +40467,10 @@
                 "releaseNotes": "- Added `non-blocking, reentrant coroutine mutex lock`, which can be used between processes/threads without blocking them. @NathanFreeman\n- `Swoole\\Coroutine\\Socket::getoption()` supports the `TCPINFO` feature. @matyhtf\n- `Swoole\\Client` synchronous blocking client supports `http` proxy. @matyhtf\n- Added asynchronous non-blocking `TCP/UDP/Unix socket` client `Swoole\\Async\\client`. @matyhtf\n- Optimized the `Swoole\\Redis\\Server::format()` method to support zero-copy memory, compatible with the `Redis` protocol. @matyhtf\n- Fixed `Fatal error` issue caused by `PHP-8.4`'s `timeout` feature in ZTS mode. @matyhtf\n- Fixed compatibility issue with the `exit()` function in `swoole` for `PHP-8.4`. @remicollet\n- Fixed the issue where `Swoole\\Thread::getNativeId()` did not work in `cygwin`. @matyhtf\n- Fixed the issue causing `SIGSEGV` in `Swoole\\Coroutine::getaddrinfo()` method. @matyhtf\n- Fixed the issue where the runtime TCP module did not support dynamically enabling SSL encryption. @matyhtf\n- Fixed the issue where the HTTP client had an incorrect timeout after running for a long time. @matyhtf\n- Fixed the problem where the mutex lock of `Swoole\\Table` could not be used before the process exited. @matyhtf\n- Fixed the failure of `Swoole\\Server::stop()` when using named parameters. @matyhtf\n- Fixed the issue with the `toArray` function of concurrent containers in `SWOOLE_THREAD` multi-thread mode. @matyhtf\n- Fixed the issue of being unable to delete nested numeric keys in `Swoole\\Thread\\Map` in `SWOOLE_THREAD` multi-thread mode. @matyhtf\n- Multi-thread mode `SWOOLE_THREAD` supports restarting worker threads. @matyhtf\n- Multi-thread mode `SWOOLE_THREAD` supports starting timers in the `Manager` thread. @matyhtf\n- Compatible with the `curl` extension of `PHP-8.4`. @matyhtf @NathanFreeman\n- Refactored `iouring`. @matyhtf @NathanFreeman\n- Optimized timers so that synchronous processes do not depend on signals. @matyhtf\n- Optimized the `Swoole\\Coroutine\\System::waitSignal()` method to allow listening to multiple signals simultaneously. @matyhtf\n- This version is a `pre-release` and should not be used in production environments, only in testing environments.",
                 "get": "https://pecl.php.net/get/swoole-6.0.0RC1",
                 "SPDX-License-Identifier": "Apache-2.0"
+            },
+            "5.1.8": {
+                "version": "5.1.8",
+                "state": "stable"
             },
             "5.1.7": {
                 "version": "5.1.7",
@@ -51335,12 +51497,26 @@
         "category": "File Formats",
         "deprecated": false,
         "description": "Support for YAML 1.1 (YAML Ain't Markup Language) serialization using the\n  LibYAML library.",
-        "latestReleaseDate": "2024-10-07T13:54:03+00:00",
-        "latestVersion": "2.2.4",
+        "latestReleaseDate": "2025-11-12T02:23:40+00:00",
+        "latestVersion": "2.3.0",
         "license": "MIT",
         "name": "yaml",
         "php8Mentioned": true,
         "releases": {
+            "2.3.0": {
+                "version": "2.3.0",
+                "state": "stable",
+                "license": "MIT",
+                "releasedBy": "bd808",
+                "releaseDate": "2025-11-12T02:23:40+00:00",
+                "releaseNotes": "New Features:\n- Add a composer.json to enable support for PIE (asgrim)\nBugs Fixed:\n- #97: Ignore null array offset warnings in explicit null tests (bd808)\n- avoid unexpected NAN value was coerced to string (remicollet)",
+                "get": "https://pecl.php.net/get/yaml-2.3.0",
+                "SPDX-License-Identifier": "MIT"
+            },
+            "2.2.5": {
+                "version": "2.2.5",
+                "state": "stable"
+            },
             "2.2.4": {
                 "version": "2.2.4",
                 "state": "stable",

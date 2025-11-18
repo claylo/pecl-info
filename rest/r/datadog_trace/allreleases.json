@@ -1,4 +1,28 @@
 {
+    "1.14.0": {
+        "version": "1.14.0",
+        "state": "stable"
+    },
+    "1.13.1": {
+        "version": "1.13.1",
+        "state": "stable"
+    },
+    "1.13.0": {
+        "version": "1.13.0",
+        "state": "stable"
+    },
+    "1.12.1": {
+        "version": "1.12.1",
+        "state": "stable"
+    },
+    "1.12.0": {
+        "version": "1.12.0",
+        "state": "stable"
+    },
+    "1.11.0": {
+        "version": "1.11.0",
+        "state": "stable"
+    },
     "1.10.0": {
         "version": "1.10.0",
         "state": "stable"

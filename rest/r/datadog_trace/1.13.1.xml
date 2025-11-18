@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>1.13.1</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>estringanadd</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2025-10-30 13:55:41</da>
+ <n>## Tracer
+### Fixed
+- Fix closed resource handling in live debugger #3437
+- Ensure local variables in exception replay are redacted #3440
+- Reset ddtrace_endpoint properly #3451
+- Use a local limiter if shared memory fails to allocate #3454
+- Do not skip error handling for timeouts happening during hook execution #3459
+- Defer Theme\Registry::getRuntime() call until posthook #3465
+- Ensure there&#039;s no trailing semicolon with only tid as propagated tag #3466
+
+## Profiling
+### Fixed
+- Reset interrupt count when removing interrupt #3455
+
+## Application Security Management
+### Fixed
+- Ensure json dependency is loaded at runtime #3462
+- Fix several bugs and potential bugs in appsec #3463
+- When helper is unavailable, avoid very long waits (&gt; 7s) #3464</n>
+ <f>1495730</f>
+ <g>https://pecl.php.net/get/datadog_trace-1.13.1</g>
+ <x xlink:href="package.1.13.1.xml"/>
+</r>

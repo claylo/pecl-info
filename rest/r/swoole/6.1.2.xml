@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>6.1.2</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in tcp/http/websocket/http2 server
+        - coroutine tcp/http/websocket client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2025-11-11 15:01:55</da>
+ <n>- No longer throw warnings when failing to set the `socket` receive/send buffer size
+- Fixed an issue in `Swoole\Http\Server` where the `onClose` callback might execute before `onRequest` when handling `HTTP2` requests, leading to a use-after-free problem
+- Optimized the `getSocket()` method by duplicating the file descriptor when exporting the `php sockets` resource object, preventing `php sockets` from affecting the `socket` held by `Swoole` upon closure
+- Fixed a memory leak issue in `Swoole\Async\Client`
+- Fixed an issue where `Swoole\Coroutine\Http\Client` of `IPv6` type could not use `Socks5` proxy
+- Synchronized updates to adapt to relevant changes in the `CURL` extension in `PHP 8.4`
+- Added the `async.file://` file protocol, which allows enabling coroutine scheduling for specific file operations even when global file coroutine support is disabled</n>
+ <f>2453484</f>
+ <g>https://pecl.php.net/get/swoole-6.1.2</g>
+ <x xlink:href="package.6.1.2.xml"/>
+</r>

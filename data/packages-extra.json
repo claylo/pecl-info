@@ -685,12 +685,12 @@
         "verified": false
     },
     "ev": {
-        "bugs": "https://bitbucket.org/osmanov/pecl-ev/issues",
-        "docs": "http://docs.php.net/ev",
-        "home": "https://bitbucket.org/osmanov/pecl-ev",
+        "bugs": "",
+        "docs": "",
+        "home": "",
         "maintained": true,
-        "repo": "https://bitbucket.org/osmanov/pecl-ev/src",
-        "stats": "https://pecl.php.net/package-stats.php?pid=938&rid=&cid=44",
+        "repo": "",
+        "stats": "",
         "verified": false
     },
     "event": {
@@ -1019,13 +1019,13 @@
         "stats": "https://pecl.php.net/package-stats.php?pid=804&rid=&cid=7"
     },
     "ibm_db2": {
-        "bugs": "https://github.com/php/pecl-database-ibm_db2/issues",
-        "docs": "https://php.net/ibm_db2",
+        "bugs": "",
+        "docs": "",
         "home": "",
         "maintained": true,
-        "repo": "https://github.com/php/pecl-database-ibm_db2",
-        "stats": "https://pecl.php.net/package-stats.php?pid=440&rid=&cid=7",
-        "verified": true
+        "repo": "",
+        "stats": "",
+        "verified": false
     },
     "ice": {
         "bugs": "https://github.com/ice/framework/issues",
@@ -1113,12 +1113,12 @@
         "stats": "https://pecl.php.net/package-stats.php?pid=478&rid=&cid=7"
     },
     "inotify": {
-        "bugs": "https://github.com/arnaud-lb/php-inotify/issues",
-        "docs": "https://php.net/inotify",
-        "home": "https://github.com/arnaud-lb/php-inotify",
+        "bugs": "",
+        "docs": "",
+        "home": "",
         "maintained": true,
-        "repo": "https://github.com/arnaud-lb/php-inotify",
-        "stats": "https://pecl.php.net/package-stats.php?pid=826&rid=&cid=9",
+        "repo": "",
+        "stats": "",
         "verified": false
     },
     "interbase": {
@@ -2417,12 +2417,12 @@
         "stats": "https://pecl.php.net/package-stats.php?pid=1039&rid=&cid=36"
     },
     "redis": {
-        "bugs": "https://github.com/phpredis/phpredis/issues",
-        "docs": "https://github.com/phpredis/phpredis/#readme",
-        "home": "https://github.com/phpredis/phpredis/",
+        "bugs": "",
+        "docs": "",
+        "home": "",
         "maintained": true,
-        "repo": "https://github.com/phpredis/phpredis/",
-        "stats": "https://pecl.php.net/package-stats.php?pid=935&rid=&cid=7",
+        "repo": "",
+        "stats": "",
         "verified": false
     },
     "ref": {
@@ -2903,12 +2903,12 @@
         "stats": "https://pecl.php.net/package-stats.php?pid=683&rid=&cid=57"
     },
     "swoole": {
-        "bugs": "https://github.com/swoole/swoole-src/issues",
-        "docs": "https://wiki.swoole.com/en/#/",
-        "home": "https://github.com/swoole/swoole-src",
+        "bugs": "",
+        "docs": "",
+        "home": "",
         "maintained": true,
-        "repo": "https://github.com/swoole/swoole-src",
-        "stats": "https://pecl.php.net/package-stats.php?pid=957&rid=&cid=44",
+        "repo": "",
+        "stats": "",
         "verified": false
     },
     "swoole_serialize": {
@@ -3552,12 +3552,12 @@
         "stats": "https://pecl.php.net/package-stats.php?pid=719&rid=&cid=16"
     },
     "yaml": {
-        "bugs": "https://github.com/php/pecl-file_formats-yaml/issues",
-        "docs": "http://php.net/yaml",
-        "home": "http://bd808.com/pecl-file_formats-yaml/",
+        "bugs": "",
+        "docs": "",
+        "home": "",
         "maintained": true,
-        "repo": "https://github.com/php/pecl-file_formats-yaml",
-        "stats": "https://pecl.php.net/package-stats.php?pid=876&rid=&cid=33",
+        "repo": "",
+        "stats": "",
         "verified": false
     },
     "yar": {
