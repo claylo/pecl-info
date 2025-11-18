@@ -7,7 +7,8 @@ function fetch_xml($url)
     curl_setopt_array($ch, [
         CURLOPT_RETURNTRANSFER => true,
         // Let cURL handle gzip/deflate/br if present; also tolerates missing header cases better
-        CURLOPT_ENCODING => '',            // '' means "accept all" and auto-decode
+        //CURLOPT_ENCODING => '',            // '' means "accept all" and auto-decode
+        CURLOPT_ENCODING => 'gzip, deflate',
         CURLOPT_USERAGENT => 'PHP RSS bot',
         CURLOPT_TIMEOUT => 10,
         CURLOPT_FOLLOWLOCATION => true,
@@ -61,7 +62,7 @@ $xml = fetch_xml('https://pecl.php.net/feeds/latest.rss');
 // PECL RSS feeds don't use/respect eTags, so we don't make an If-Modified-Since request.
 // $xml = file_get_contents('https://pecl.php.net/feeds/latest.rss');
 // just to be safe
-$xml = mb_convert_encoding($xml, 'UTF-8');
+// $xml = mb_convert_encoding($xml, 'UTF-8');
 
 $dry = false;
 if (isset($argv[1]) && $argv[1] == '--dry-run') {
