@@ -16,6 +16,6 @@
  <n>- Implemented token callbacks
 - Implemented unicode character class support, available with --enable-parle-utf32</n>
  <f>111210</f>
- <g>http://pecl.php.net/get/parle-0.7.2</g>
+ <g>https://pecl.php.net/get/parle-0.7.2</g>
  <x xlink:href="package.0.7.2.xml"/>
 </r>

@@ -19,6 +19,6 @@
 - Fixed PECL Bug #59944 (Undefined symbol: gearman_client_set_server_option)
  - Now requires libgearman 0.21 or greater</n>
  <f>30358</f>
- <g>http://pecl.php.net/get/gearman-1.0.0</g>
+ <g>https://pecl.php.net/get/gearman-1.0.0</g>
  <x xlink:href="package.1.0.0.xml"/>
 </r>

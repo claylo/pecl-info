@@ -24,6 +24,6 @@ Fixed bug #36934 (OCILob-&gt;read() doesn't move internal pointer when reading 0
 Fixed bug #36851 (Documentation and code discrepancies for NULL data)
 Fixed bug #36820 (Privileged connection with an Oracle password file fails)</n>
  <f>67874</f>
- <g>http://pecl.php.net/get/oci8-1.2.1</g>
+ <g>https://pecl.php.net/get/oci8-1.2.1</g>
  <x xlink:href="package.1.2.1.xml"/>
 </r>

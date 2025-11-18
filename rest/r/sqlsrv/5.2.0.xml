@@ -51,6 +51,6 @@
 - Connection with Connection Resiliency enabled so not resume properly with Connection Pooling (Issue #678)
 - Cannot connect with both Connection Resiliency enabled and ColumnEncryption enabled (Issue #577)</n>
  <f>171728</f>
- <g>http://pecl.php.net/get/sqlsrv-5.2.0</g>
+ <g>https://pecl.php.net/get/sqlsrv-5.2.0</g>
  <x xlink:href="package.5.2.0.xml"/>
 </r>

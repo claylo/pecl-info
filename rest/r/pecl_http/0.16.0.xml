@@ -25,6 +25,6 @@
  <n>+ Added ext/zlib independant GZIP support
 + Added HttpRequestPool::getAttachedRequests() and getFinishedRequests()</n>
  <f>129194</f>
- <g>http://pecl.php.net/get/pecl_http-0.16.0</g>
+ <g>https://pecl.php.net/get/pecl_http-0.16.0</g>
  <x xlink:href="package.0.16.0.xml"/>
 </r>

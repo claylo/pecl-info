@@ -19,6 +19,6 @@ PECL Sundown provides straight forward object oriented Markdown API and customiz
  <da>2014-01-02 05:59:09</da>
  <n>fix segfault in sundown_render_base</n>
  <f>76221</f>
- <g>http://pecl.php.net/get/sundown-0.3.11</g>
+ <g>https://pecl.php.net/get/sundown-0.3.11</g>
  <x xlink:href="package.0.3.11.xml"/>
 </r>

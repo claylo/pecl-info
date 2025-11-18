@@ -22,6 +22,6 @@
 - Fixed problem with keys being modified in-place and empty keys (PECL Bug #11236)
 - Fixed incompatibility with standard hash strategy in previous versions</n>
  <f>26828</f>
- <g>http://pecl.php.net/get/memcache-2.2.1</g>
+ <g>https://pecl.php.net/get/memcache-2.2.1</g>
  <x xlink:href="package.2.2.1.xml"/>
 </r>

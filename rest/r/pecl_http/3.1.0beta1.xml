@@ -49,6 +49,6 @@ https://mdref.m6w6.name/http</d>
 * Fix gh-issue #33: allow setting prodyhost request option to NULL (Mike, @rcanavan)
 * Fix gh-issue #31: add/improve configure checks for default CA bundle/path (Mike, @rcanavan)</n>
  <f>207482</f>
- <g>http://pecl.php.net/get/pecl_http-3.1.0beta1</g>
+ <g>https://pecl.php.net/get/pecl_http-3.1.0beta1</g>
  <x xlink:href="package.3.1.0beta1.xml"/>
 </r>

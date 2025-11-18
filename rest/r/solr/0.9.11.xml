@@ -19,6 +19,6 @@
 - Added support for new native Solr response writer
 - New response writer is available at https://issues.apache.org/jira/browse/SOLR-1967</n>
  <f>98397</f>
- <g>http://pecl.php.net/get/solr-0.9.11</g>
+ <g>https://pecl.php.net/get/solr-0.9.11</g>
  <x xlink:href="package.0.9.11.xml"/>
 </r>

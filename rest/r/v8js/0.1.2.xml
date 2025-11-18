@@ -15,6 +15,6 @@
  <da>2010-12-31 07:58:30</da>
  <n>- Removed unnecessary notice added to registerExtension() in previous release</n>
  <f>17745</f>
- <g>http://pecl.php.net/get/v8js-0.1.2</g>
+ <g>https://pecl.php.net/get/v8js-0.1.2</g>
  <x xlink:href="package.0.1.2.xml"/>
 </r>

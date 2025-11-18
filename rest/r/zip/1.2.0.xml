@@ -21,6 +21,6 @@
 - add more example, like using xmlreader and zip
    stream to parse OpenDocument meta info</n>
  <f>39223</f>
- <g>http://pecl.php.net/get/zip-1.2.0</g>
+ <g>https://pecl.php.net/get/zip-1.2.0</g>
  <x xlink:href="package.1.2.0.xml"/>
 </r>

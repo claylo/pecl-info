@@ -16,6 +16,6 @@
  <n>* implemented Gender::similarNames()
 * implemented Gender::isNick()</n>
  <f>1184391</f>
- <g>http://pecl.php.net/get/gender-0.9.0</g>
+ <g>https://pecl.php.net/get/gender-0.9.0</g>
  <x xlink:href="package.0.9.0.xml"/>
 </r>

@@ -18,6 +18,6 @@
 - Updates to zts for php 5.3
 - Replaced errno with getErrno</n>
  <f>28442</f>
- <g>http://pecl.php.net/get/gearman-0.5.0</g>
+ <g>https://pecl.php.net/get/gearman-0.5.0</g>
  <x xlink:href="package.0.5.0.xml"/>
 </r>

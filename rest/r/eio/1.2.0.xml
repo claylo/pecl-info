@@ -28,6 +28,6 @@ Change: internal event notification uses pipe() when eventfd() is not available.
 Del: some redundant code
 Fix: use libeio's EIO_FALLOC_FL_KEEP_SIZE instead of the system constant</n>
  <f>55871</f>
- <g>http://pecl.php.net/get/eio-1.2.0</g>
+ <g>https://pecl.php.net/get/eio-1.2.0</g>
  <x xlink:href="package.1.2.0.xml"/>
 </r>

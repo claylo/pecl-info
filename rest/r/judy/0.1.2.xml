@@ -20,6 +20,6 @@
 - Fix Mac OS X support
 - Fix infinite loop with foreach() on Windows</n>
  <f>19668</f>
- <g>http://pecl.php.net/get/Judy-0.1.2</g>
+ <g>https://pecl.php.net/get/Judy-0.1.2</g>
  <x xlink:href="package.0.1.2.xml"/>
 </r>

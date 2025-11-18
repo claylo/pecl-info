@@ -27,6 +27,6 @@ Changes:
 * PCBC-395: Type checks properly enforced for booleans
 * Various minor changes</n>
  <f>51041</f>
- <g>http://pecl.php.net/get/couchbase-2.2.0beta3</g>
+ <g>https://pecl.php.net/get/couchbase-2.2.0beta3</g>
  <x xlink:href="package.2.2.0beta3.xml"/>
 </r>

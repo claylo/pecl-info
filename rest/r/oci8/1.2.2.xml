@@ -28,6 +28,6 @@ Fixed bug #35973 (Error ORA-24806 occurs when trying to fetch a NCLOB field)
 Fixed bug #34005 (oci_password_change() fails). Patch by pholdaway at technocom-wireless dot com.
 Fixed PECL bug #8112 (Persistent connections misbehave when Apache process times out)</n>
  <f>71806</f>
- <g>http://pecl.php.net/get/oci8-1.2.2</g>
+ <g>https://pecl.php.net/get/oci8-1.2.2</g>
  <x xlink:href="package.1.2.2.xml"/>
 </r>

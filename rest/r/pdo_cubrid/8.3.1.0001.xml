@@ -60,6 +60,6 @@ Fixed bugs:
 - Fix a bug about cursor type: the cursor type (forward only or scrollable) should be statement attribute, not connection attribute.
 - Fix a bug in cubrid_schema: After array_init(return_value), when error occures, it should destroy array before return false.</n>
  <f>18937</f>
- <g>http://pecl.php.net/get/PDO_CUBRID-8.3.1.0001</g>
+ <g>https://pecl.php.net/get/PDO_CUBRID-8.3.1.0001</g>
  <x xlink:href="package.8.3.1.0001.xml"/>
 </r>

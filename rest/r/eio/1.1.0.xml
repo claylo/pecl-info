@@ -30,6 +30,6 @@ Refact: set FD_CLOEXEC flag for file descriptor opened with eio_open()
 Refact: no need to copy zval when passing request resource to eio_grp_*()
 Fix: eio_grp_*() didn't initialize eio automatically</n>
  <f>56165</f>
- <g>http://pecl.php.net/get/eio-1.1.0</g>
+ <g>https://pecl.php.net/get/eio-1.1.0</g>
  <x xlink:href="package.1.1.0.xml"/>
 </r>

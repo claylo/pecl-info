@@ -16,6 +16,6 @@
  <n>* Add vips_version() [chregu]
 * Add vips_new_from_memory() / vips_write_to_memory() [kleisauke]</n>
  <f>557299</f>
- <g>http://pecl.php.net/get/vips-1.0.8</g>
+ <g>https://pecl.php.net/get/vips-1.0.8</g>
  <x xlink:href="package.1.0.8.xml"/>
 </r>

@@ -41,6 +41,6 @@
  <da>2015-05-10 09:11:20</da>
  <n>Fixed a bug of async service.</n>
  <f>55339</f>
- <g>http://pecl.php.net/get/hprose-1.5.2</g>
+ <g>https://pecl.php.net/get/hprose-1.5.2</g>
  <x xlink:href="package.1.5.2.xml"/>
 </r>

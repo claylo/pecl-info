@@ -15,6 +15,6 @@
  <da>2015-09-26 10:46:57</da>
  <n>- Fix reference counting issue on PHP-&gt;JS-&gt;PHP exception propagation</n>
  <f>93882</f>
- <g>http://pecl.php.net/get/v8js-0.2.6</g>
+ <g>https://pecl.php.net/get/v8js-0.2.6</g>
  <x xlink:href="package.0.2.6.xml"/>
 </r>

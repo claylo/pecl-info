@@ -1,4 +1,16 @@
 {
+    "2.1.4": {
+        "version": "2.1.4",
+        "state": "stable"
+    },
+    "2.1.3": {
+        "version": "2.1.3",
+        "state": "stable"
+    },
+    "2.1.2": {
+        "version": "2.1.2",
+        "state": "stable"
+    },
     "2.1.1": {
         "version": "2.1.1",
         "state": "stable"
@@ -9,6 +21,10 @@
     },
     "2.0.0": {
         "version": "2.0.0",
+        "state": "stable"
+    },
+    "1.21.2": {
+        "version": "1.21.2",
         "state": "stable"
     },
     "1.21.1": {

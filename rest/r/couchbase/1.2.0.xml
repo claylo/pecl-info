@@ -28,6 +28,6 @@
 - PCBC-231: Remove obsolete version string
 - PCBC-228: Preserve extra error information</n>
  <f>82184</f>
- <g>http://pecl.php.net/get/couchbase-1.2.0</g>
+ <g>https://pecl.php.net/get/couchbase-1.2.0</g>
  <x xlink:href="package.1.2.0.xml"/>
 </r>

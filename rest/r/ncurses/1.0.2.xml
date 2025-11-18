@@ -24,6 +24,6 @@ See also http://www.gnu.org/software/ncurses/ncurses.html</d>
  <n>- Fixed build on PHP 5.3+
 - Fixed bug #60853 (Missing NCURSES_KEY_HOME constant)</n>
  <f>16226</f>
- <g>http://pecl.php.net/get/ncurses-1.0.2</g>
+ <g>https://pecl.php.net/get/ncurses-1.0.2</g>
  <x xlink:href="package.1.0.2.xml"/>
 </r>

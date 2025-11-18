@@ -37,6 +37,6 @@ HttpResponse</d>
 * Fixed missing &quot;parentMessage&quot; entry in print_r($HttpMessageObject)
 * Fixed possible crash if the response does not contain a status message</n>
  <f>179263</f>
- <g>http://pecl.php.net/get/pecl_http-1.0.0RC3</g>
+ <g>https://pecl.php.net/get/pecl_http-1.0.0RC3</g>
  <x xlink:href="package.1.0.0RC3.xml"/>
 </r>

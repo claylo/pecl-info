@@ -19,6 +19,6 @@
 - Removed support for PHP versions less than 5.3
 - Fixed issue (Github #7) BitSet::set(0) should set the first bit only (credits @aurora)</n>
  <f>19436</f>
- <g>http://pecl.php.net/get/bitset-2.0.1</g>
+ <g>https://pecl.php.net/get/bitset-2.0.1</g>
  <x xlink:href="package.2.0.1.xml"/>
 </r>

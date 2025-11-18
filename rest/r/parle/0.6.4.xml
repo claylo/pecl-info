@@ -19,6 +19,6 @@
 - Improved Parser::errorInfo()
 - Fixed properties access in all classes exporting properties</n>
  <f>105771</f>
- <g>http://pecl.php.net/get/parle-0.6.4</g>
+ <g>https://pecl.php.net/get/parle-0.6.4</g>
  <x xlink:href="package.0.6.4.xml"/>
 </r>

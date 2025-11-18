@@ -15,7 +15,7 @@
             "releasedBy": "mike",
             "releaseDate": "2006-12-11T08:39:43+00:00",
             "releaseNotes": "* Initial release",
-            "get": "http://pecl.php.net/get/courierauth-0.1.0",
+            "get": "https://pecl.php.net/get/courierauth-0.1.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         }
     },

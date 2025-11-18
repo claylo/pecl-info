@@ -21,6 +21,6 @@
 4) APIS-353: cubrid_schema dosen't support to query all triggers with CUBRID_SCH_TRIGGER type. Fixed the PHP driver part.
 5) NOISSUE: not use two connect_ex and new excape_string functions in Windows platform, because the cascci.lib doesn't export these functions.</n>
  <f>47023</f>
- <g>http://pecl.php.net/get/CUBRID-9.0.0.0001</g>
+ <g>https://pecl.php.net/get/CUBRID-9.0.0.0001</g>
  <x xlink:href="package.9.0.0.0001.xml"/>
 </r>

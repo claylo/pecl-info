@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>1.21.2</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>jmikola</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2025-10-07 15:35:22</da>
+ <n>## What&#039;s Changed
+* Fix wrong PHP version constraint for pie by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1874
+* PHPC-2635: Remove serverless URIs from Atlas connectivity tests by @jmikola in https://github.com/mongodb/mongo-php-driver/pull/1879
+* PHPC-2637: Update to libmongoc 1.30.6 by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1882
+
+
+**Full Changelog**: https://github.com/mongodb/mongo-php-driver/compare/1.21.1...1.21.2</n>
+ <f>2156200</f>
+ <g>https://pecl.php.net/get/mongodb-1.21.2</g>
+ <x xlink:href="package.1.21.2.xml"/>
+</r>

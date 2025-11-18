@@ -40,6 +40,6 @@
   - due to this unixODBC bug, fetch large data (such as xml, binary) as streams as a workaround. See the examples [here](https://github.com/Microsoft/msphpsql/wiki/Features#pooling)
 - With ColumnEncryption enabled, calling stored procedure with XML parameter does not work (Issue [#674](https://github.com/Microsoft/msphpsql/issues/674))</n>
  <f>173492</f>
- <g>http://pecl.php.net/get/sqlsrv-5.3.0</g>
+ <g>https://pecl.php.net/get/sqlsrv-5.3.0</g>
  <x xlink:href="package.5.3.0.xml"/>
 </r>

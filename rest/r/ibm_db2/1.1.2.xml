@@ -16,6 +16,6 @@ Apache Derby databases.</d>
  <da>2005-09-24 12:16:23</da>
  <n>Fix win32 build problem.</n>
  <f>114764</f>
- <g>http://pecl.php.net/get/ibm_db2-1.1.2</g>
+ <g>https://pecl.php.net/get/ibm_db2-1.1.2</g>
  <x xlink:href="package.1.1.2.xml"/>
 </r>

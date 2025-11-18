@@ -16,6 +16,6 @@
  <n>- Fix multi-threading with pthreads extension
 - Remove v8 debug agent support (which is unsupported by V8 since 3.28.4)</n>
  <f>92901</f>
- <g>http://pecl.php.net/get/v8js-0.3.0</g>
+ <g>https://pecl.php.net/get/v8js-0.3.0</g>
  <x xlink:href="package.0.3.0.xml"/>
 </r>

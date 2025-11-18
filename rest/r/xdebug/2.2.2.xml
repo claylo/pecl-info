@@ -44,6 +44,6 @@ Xdebug also provides:
 	- Fixed bug #905: Support PHP 5.5 and generators.
 	- Fixed bug #920: AM_CONFIG_HEADER is depreciated.</n>
  <f>250184</f>
- <g>http://pecl.php.net/get/xdebug-2.2.2</g>
+ <g>https://pecl.php.net/get/xdebug-2.2.2</g>
  <x xlink:href="package.2.2.2.xml"/>
 </r>

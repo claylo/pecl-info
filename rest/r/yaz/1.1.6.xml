@@ -19,6 +19,6 @@ Find more information at:
  <da>2013-08-12 04:04:55</da>
  <n>Fix Bug #64773: error define in php_yaz.c.</n>
  <f>16464</f>
- <g>http://pecl.php.net/get/yaz-1.1.6</g>
+ <g>https://pecl.php.net/get/yaz-1.1.6</g>
  <x xlink:href="package.1.1.6.xml"/>
 </r>

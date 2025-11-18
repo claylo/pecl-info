@@ -17,6 +17,6 @@
 * When the child process exits abnormally, it will pull up a new child process
 * When the master process exits, all child processes also exit</n>
  <f>19348</f>
- <g>http://pecl.php.net/get/nsq-3.3.0</g>
+ <g>https://pecl.php.net/get/nsq-3.3.0</g>
  <x xlink:href="package.3.3.0.xml"/>
 </r>

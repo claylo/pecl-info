@@ -17,6 +17,6 @@
 - Revert &quot;Global\&quot; prefix for named objects.  It breaks IIS Express.
 - Improve tracing by adding thread ID to debug trace logs</n>
  <f>141540</f>
- <g>http://pecl.php.net/get/WINCACHE-2.0.0.8</g>
+ <g>https://pecl.php.net/get/WINCACHE-2.0.0.8</g>
  <x xlink:href="package.2.0.0.8.xml"/>
 </r>

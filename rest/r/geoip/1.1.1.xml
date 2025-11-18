@@ -16,6 +16,6 @@
  <n>* Add IPv6 support (geoip_country_code_by_*_v6)
 * PHP7 support (thanks to Adam and Dan Ackroyd)</n>
  <f>13004</f>
- <g>http://pecl.php.net/get/geoip-1.1.1</g>
+ <g>https://pecl.php.net/get/geoip-1.1.1</g>
  <x xlink:href="package.1.1.1.xml"/>
 </r>

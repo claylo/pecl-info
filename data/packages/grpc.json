@@ -2,12 +2,72 @@
     "category": "Networking",
     "deprecated": false,
     "description": "Remote Procedure Calls (RPCs) provide a useful abstraction for building distributed applications and services. The libraries in this repository provide a concrete implementation of the gRPC protocol, layered over HTTP/2. These libraries enable communication between clients and servers using any combination of the supported languages.",
-    "latestReleaseDate": "2025-06-10T20:15:48+00:00",
-    "latestVersion": "1.73.0",
+    "latestReleaseDate": "2025-10-24T06:01:41+00:00",
+    "latestVersion": "1.76.0",
     "license": "Apache 2.0",
     "name": "gRPC",
     "php8Mentioned": true,
     "releases": {
+        "1.76.0": {
+            "version": "1.76.0",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "stanleycheung",
+            "releaseDate": "2025-10-24T06:01:41+00:00",
+            "releaseNotes": "- gRPC Core 1.76.0 update",
+            "get": "https://pecl.php.net/get/grpc-1.76.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.76.0RC1": {
+            "version": "1.76.0RC1",
+            "state": "beta",
+            "license": "Apache 2.0",
+            "releasedBy": "stanleycheung",
+            "releaseDate": "2025-10-03T20:32:14+00:00",
+            "releaseNotes": "- gRPC Core 1.76.0 update",
+            "get": "https://pecl.php.net/get/grpc-1.76.0RC1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.75.0": {
+            "version": "1.75.0",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "stanleycheung",
+            "releaseDate": "2025-09-15T23:30:46+00:00",
+            "releaseNotes": "- gRPC Core 1.75.0 update",
+            "get": "https://pecl.php.net/get/grpc-1.75.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.75.0RC1": {
+            "version": "1.75.0RC1",
+            "state": "beta",
+            "license": "Apache 2.0",
+            "releasedBy": "stanleycheung",
+            "releaseDate": "2025-09-09T04:09:55+00:00",
+            "releaseNotes": "- gRPC Core 1.75.0 update",
+            "get": "https://pecl.php.net/get/grpc-1.75.0RC1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.74.0": {
+            "version": "1.74.0",
+            "state": "stable",
+            "license": "Apache 2.0",
+            "releasedBy": "stanleycheung",
+            "releaseDate": "2025-07-24T19:57:53+00:00",
+            "releaseNotes": "- gRPC Core 1.74.0 update",
+            "get": "https://pecl.php.net/get/grpc-1.74.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "1.74.0RC2": {
+            "version": "1.74.0RC2",
+            "state": "beta",
+            "license": "Apache 2.0",
+            "releasedBy": "stanleycheung",
+            "releaseDate": "2025-07-17T17:34:01+00:00",
+            "releaseNotes": "- gRPC Core 1.74.0 update",
+            "get": "https://pecl.php.net/get/grpc-1.74.0RC2",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "1.73.0": {
             "version": "1.73.0",
             "state": "stable",
@@ -1385,7 +1445,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2018-10-23T04:48:23+00:00",
             "releaseNotes": "- gRPC C Core 1.16.0 Uptake",
-            "get": "http://pecl.php.net/get/grpc-1.16.0",
+            "get": "https://pecl.php.net/get/grpc-1.16.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.15.0": {
@@ -1395,7 +1455,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2018-09-12T21:46:23+00:00",
             "releaseNotes": "- gRPC C Core 1.15 uptake",
-            "get": "http://pecl.php.net/get/grpc-1.15.0",
+            "get": "https://pecl.php.net/get/grpc-1.15.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.15.0RC1": {
@@ -1405,7 +1465,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2018-08-28T21:46:49+00:00",
             "releaseNotes": "- gRPC C Core 1.15 uptake",
-            "get": "http://pecl.php.net/get/grpc-1.15.0RC1",
+            "get": "https://pecl.php.net/get/grpc-1.15.0RC1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.14.1": {
@@ -1415,7 +1475,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2018-08-09T20:42:49+00:00",
             "releaseNotes": "- gRPC C Core patch release 1.14.1 uptake",
-            "get": "http://pecl.php.net/get/grpc-1.14.1",
+            "get": "https://pecl.php.net/get/grpc-1.14.1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.14.0": {
@@ -1425,7 +1485,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2018-08-06T19:34:01+00:00",
             "releaseNotes": "- gRPC C Core 1.14 uptake",
-            "get": "http://pecl.php.net/get/grpc-1.14.0",
+            "get": "https://pecl.php.net/get/grpc-1.14.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.14.0RC2": {
@@ -1435,7 +1495,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2018-07-31T19:26:41+00:00",
             "releaseNotes": "- gRPC C Core 1.14 uptake",
-            "get": "http://pecl.php.net/get/grpc-1.14.0RC2",
+            "get": "https://pecl.php.net/get/grpc-1.14.0RC2",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.13.0": {
@@ -1445,7 +1505,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2018-07-09T20:42:26+00:00",
             "releaseNotes": "- Experimental support for client-side interceptor #13342, #15779\n- Add upper bound for number of persistent channels per target #15218",
-            "get": "http://pecl.php.net/get/grpc-1.13.0",
+            "get": "https://pecl.php.net/get/grpc-1.13.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.13.0RC3": {
@@ -1455,7 +1515,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2018-06-26T17:44:03+00:00",
             "releaseNotes": "- Experimental support for client-side interceptor #13342, #15779\n- Add upper bound for number of persistent channels per target #15218",
-            "get": "http://pecl.php.net/get/grpc-1.13.0RC3",
+            "get": "https://pecl.php.net/get/grpc-1.13.0RC3",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.12.0": {
@@ -1465,7 +1525,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2018-05-17T20:21:28+00:00",
             "releaseNotes": "- Persistent channel and tests related fixes: #14991, #15061, #15082, #15171\n- gRPC C Core 1.12 uptake",
-            "get": "http://pecl.php.net/get/grpc-1.12.0",
+            "get": "https://pecl.php.net/get/grpc-1.12.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.12.0RC1": {
@@ -1475,7 +1535,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2018-05-04T18:37:10+00:00",
             "releaseNotes": "- Persistent channel and tests related fixes: #14991, #15061, #15082, #15171\n- gRPC C Core 1.12 uptake",
-            "get": "http://pecl.php.net/get/grpc-1.12.0RC1",
+            "get": "https://pecl.php.net/get/grpc-1.12.0RC1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.11.1": {
@@ -1485,7 +1545,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2018-05-15T17:46:18+00:00",
             "releaseNotes": "- Misc C Core bug fixes",
-            "get": "http://pecl.php.net/get/grpc-1.11.1",
+            "get": "https://pecl.php.net/get/grpc-1.11.1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.11.1RC1": {
@@ -1495,7 +1555,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2018-05-04T19:46:05+00:00",
             "releaseNotes": "- Misc C Core bug fixes",
-            "get": "http://pecl.php.net/get/grpc-1.11.1RC1",
+            "get": "https://pecl.php.net/get/grpc-1.11.1RC1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.11.0": {
@@ -1505,7 +1565,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2018-04-16T17:55:50+00:00",
             "releaseNotes": "- Compile flags optimization #14768\n- Persistent channel fix #14904\n- Installation fix #14825, 14807\n- Windows build fix #14960\n- gRPC C Core 1.11 uptake",
-            "get": "http://pecl.php.net/get/grpc-1.11.0",
+            "get": "https://pecl.php.net/get/grpc-1.11.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.11.0RC2": {
@@ -1515,7 +1575,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2018-04-10T20:37:47+00:00",
             "releaseNotes": "- Compile flags optimization #14768\n- Persistent channel fix #14904\n- Installation fix #14825, 14807\n- Windows build fix #14960\n- gRPC C Core 1.11 uptake",
-            "get": "http://pecl.php.net/get/grpc-1.11.0RC2",
+            "get": "https://pecl.php.net/get/grpc-1.11.0RC2",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.11.0RC1": {
@@ -1525,7 +1585,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2018-04-05T20:43:36+00:00",
             "releaseNotes": "- Compile flags optimization #14768\n- Persistent channel fix #14904\n- Installation fix #14825, 14807\n- gRPC C Core 1.11 uptake",
-            "get": "http://pecl.php.net/get/grpc-1.11.0RC1",
+            "get": "https://pecl.php.net/get/grpc-1.11.0RC1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.10.1": {
@@ -1535,7 +1595,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2018-04-05T20:27:32+00:00",
             "releaseNotes": "- Compile flags optimization #14768\n- Persistent channel fix #14904\n- gRPC C Core bug fixes #14747, #14787",
-            "get": "http://pecl.php.net/get/grpc-1.10.1",
+            "get": "https://pecl.php.net/get/grpc-1.10.1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.10.1RC1": {
@@ -1545,7 +1605,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2018-03-28T23:08:38+00:00",
             "releaseNotes": "- gRPC C Core bug fixes #14747, #14787",
-            "get": "http://pecl.php.net/get/grpc-1.10.1RC1",
+            "get": "https://pecl.php.net/get/grpc-1.10.1RC1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.10.0": {
@@ -1555,7 +1615,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2018-03-12T21:01:50+00:00",
             "releaseNotes": "- Memory leak fixes\n- gRPC C Core 1.10 uptake",
-            "get": "http://pecl.php.net/get/grpc-1.10.0",
+            "get": "https://pecl.php.net/get/grpc-1.10.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.10.0RC2": {
@@ -1565,7 +1625,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2018-03-01T19:39:46+00:00",
             "releaseNotes": "- TBD",
-            "get": "http://pecl.php.net/get/grpc-1.10.0RC2",
+            "get": "https://pecl.php.net/get/grpc-1.10.0RC2",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.9.0": {
@@ -1575,7 +1635,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2018-02-02T19:20:26+00:00",
             "releaseNotes": "- Updated gRPC C Core library version 1.9\n- Report grpc extension version in phpinfo() #13687\n- Fixed memory leak when handling metadata array #13660\n- Fixed memory involing persistent channels #14125 - #14130",
-            "get": "http://pecl.php.net/get/grpc-1.9.0",
+            "get": "https://pecl.php.net/get/grpc-1.9.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.9.0RC3": {
@@ -1585,7 +1645,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2018-01-29T19:53:25+00:00",
             "releaseNotes": "- Updated gRPC C Core library version 1.9\n- Report grpc extension version in phpinfo() #13687\n- Fixed memory leak when handling metadata array #13660\n- Fixed memory involing persistent channels #14125 - #14130",
-            "get": "http://pecl.php.net/get/grpc-1.9.0RC3",
+            "get": "https://pecl.php.net/get/grpc-1.9.0RC3",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.9.0RC1": {
@@ -1595,7 +1655,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2018-01-24T21:31:11+00:00",
             "releaseNotes": "- Updated gRPC C Core library version 1.9\n- Report grpc extension version in phpinfo() #13687\n- Fixed memory leak when handling metadata array #13660\n- Fixed memory involing persistent channels #14125 - #14130",
-            "get": "http://pecl.php.net/get/grpc-1.9.0RC1",
+            "get": "https://pecl.php.net/get/grpc-1.9.0RC1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.8.5": {
@@ -1605,7 +1665,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2018-01-18T21:21:12+00:00",
             "releaseNotes": "- Fixed a memory leak during channel creation #14017\n- Fixed a memory leak with SSL cert #12706",
-            "get": "http://pecl.php.net/get/grpc-1.8.5",
+            "get": "https://pecl.php.net/get/grpc-1.8.5",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.8.3": {
@@ -1615,7 +1675,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2018-01-05T00:29:08+00:00",
             "releaseNotes": "- Fixed verbose log issue #13881",
-            "get": "http://pecl.php.net/get/grpc-1.8.3",
+            "get": "https://pecl.php.net/get/grpc-1.8.3",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.8.0": {
@@ -1625,7 +1685,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2017-12-14T20:24:27+00:00",
             "releaseNotes": "- Updated gRPC C Core library version 1.8",
-            "get": "http://pecl.php.net/get/grpc-1.8.0",
+            "get": "https://pecl.php.net/get/grpc-1.8.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.8.0RC1": {
@@ -1635,7 +1695,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2017-11-29T18:49:04+00:00",
             "releaseNotes": "- Updated gRPC C Core library version 1.8",
-            "get": "http://pecl.php.net/get/grpc-1.8.0RC1",
+            "get": "https://pecl.php.net/get/grpc-1.8.0RC1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.7.0": {
@@ -1645,7 +1705,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2017-11-14T19:02:11+00:00",
             "releaseNotes": "- Updated gRPC C Core library version 1.7",
-            "get": "http://pecl.php.net/get/grpc-1.7.0",
+            "get": "https://pecl.php.net/get/grpc-1.7.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.7.0RC1": {
@@ -1655,7 +1715,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2017-10-11T19:41:22+00:00",
             "releaseNotes": "- Updated gRPC C Core library version 1.7",
-            "get": "http://pecl.php.net/get/grpc-1.7.0RC1",
+            "get": "https://pecl.php.net/get/grpc-1.7.0RC1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.6.0": {
@@ -1665,7 +1725,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2017-09-18T21:47:21+00:00",
             "releaseNotes": "- License changed to Apache 2.0\n- Added support for php_namespace option in codegen plugin #11886\n- Updated gRPC C Core library version 1.6",
-            "get": "http://pecl.php.net/get/grpc-1.6.0",
+            "get": "https://pecl.php.net/get/grpc-1.6.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.6.0RC1": {
@@ -1675,7 +1735,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2017-08-31T18:55:03+00:00",
             "releaseNotes": "- License changed to Apache 2.0\n- Added support for php_namespace option in codegen plugin #11886\n- Updated gRPC C Core library version 1.6",
-            "get": "http://pecl.php.net/get/grpc-1.6.0RC1",
+            "get": "https://pecl.php.net/get/grpc-1.6.0RC1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.4.6": {
@@ -1685,7 +1745,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2017-08-17T01:21:43+00:00",
             "releaseNotes": "- Fixed segfault when tests were run under Travis #12123",
-            "get": "http://pecl.php.net/get/grpc-1.4.6",
+            "get": "https://pecl.php.net/get/grpc-1.4.6",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "1.4.6RC6": {
@@ -1695,7 +1755,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2017-08-16T01:18:57+00:00",
             "releaseNotes": "- Fixed segfault when tests were run under Travis #12123",
-            "get": "http://pecl.php.net/get/grpc-1.4.6RC6",
+            "get": "https://pecl.php.net/get/grpc-1.4.6RC6",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "1.4.6RC5": {
@@ -1705,7 +1765,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2017-08-15T07:56:24+00:00",
             "releaseNotes": "- Fixed segfault when tests were run under Travis #12123",
-            "get": "http://pecl.php.net/get/grpc-1.4.6RC5",
+            "get": "https://pecl.php.net/get/grpc-1.4.6RC5",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "1.4.6RC4": {
@@ -1715,7 +1775,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2017-08-15T02:09:01+00:00",
             "releaseNotes": "- Fixed a Windows installation issue #12108\n- Fixed a MacOS mutex segfault #12109\n- Fixed a ZTS compilation issue #12109",
-            "get": "http://pecl.php.net/get/grpc-1.4.6RC4",
+            "get": "https://pecl.php.net/get/grpc-1.4.6RC4",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "1.4.6RC3": {
@@ -1725,7 +1785,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2017-08-14T23:19:55+00:00",
             "releaseNotes": "- Fixed a Windows installation issue #12108\n- Fixed a MacOS mutex segfault #12109\n- Fixed a ZTS compilation issue #12109",
-            "get": "http://pecl.php.net/get/grpc-1.4.6RC3",
+            "get": "https://pecl.php.net/get/grpc-1.4.6RC3",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "1.4.6RC2": {
@@ -1735,7 +1795,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2017-08-14T22:42:52+00:00",
             "releaseNotes": "- Fixed a Windows installation issue #12108\n- Fixed a MacOS mutex segfault #12109\n- Fixed a ZTS compilation issue #12109",
-            "get": "http://pecl.php.net/get/grpc-1.4.6RC2",
+            "get": "https://pecl.php.net/get/grpc-1.4.6RC2",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "1.4.6RC1": {
@@ -1745,7 +1805,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2017-08-14T21:14:48+00:00",
             "releaseNotes": "- Fixed some segfaults when tests were run on Travis #12123\n- Fixed a memory leak when setting default root certs #11632",
-            "get": "http://pecl.php.net/get/grpc-1.4.6RC1",
+            "get": "https://pecl.php.net/get/grpc-1.4.6RC1",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "1.4.4": {
@@ -1755,7 +1815,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2017-08-08T19:43:19+00:00",
             "releaseNotes": "- Fixed a Windows installation issue #12108\n- Fixed a MacOS mutex segfault #12109\n- Fixed a ZTS compilation issue #12109",
-            "get": "http://pecl.php.net/get/grpc-1.4.4",
+            "get": "https://pecl.php.net/get/grpc-1.4.4",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "1.4.3": {
@@ -1765,7 +1825,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2017-08-07T17:51:01+00:00",
             "releaseNotes": "- Fixed hang bug when fork() was used #11814\n- Channel are now by default persistent #11878",
-            "get": "http://pecl.php.net/get/grpc-1.4.3",
+            "get": "https://pecl.php.net/get/grpc-1.4.3",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "1.4.1": {
@@ -1775,7 +1835,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2017-06-29T23:55:05+00:00",
             "releaseNotes": "- gRPC C Core 1.4.1 bug fixes",
-            "get": "http://pecl.php.net/get/grpc-1.4.1",
+            "get": "https://pecl.php.net/get/grpc-1.4.1",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "1.4.0": {
@@ -1785,7 +1845,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2017-06-21T19:40:56+00:00",
             "releaseNotes": "- Fixed some memory leaks #9559, #10996\n- Disabled cares dependency from gRPC C Core #10940\n- De-coupled protobuf dependency #11112\n- Fixed extension reported version #10842\n- Added config.w32 for Windows support #8161\n- Fixed PHP distrib test after cc files were added #11193\n- Fixed protoc plugin comment escape bug #11025",
-            "get": "http://pecl.php.net/get/grpc-1.4.0",
+            "get": "https://pecl.php.net/get/grpc-1.4.0",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "1.4.0RC2": {
@@ -1795,7 +1855,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2017-06-01T21:49:10+00:00",
             "releaseNotes": "In addition to 1.4.0RC1\n- Fixed pecl windows build issue #11350\n- Fixed extension reported version #10842",
-            "get": "http://pecl.php.net/get/grpc-1.4.0RC2",
+            "get": "https://pecl.php.net/get/grpc-1.4.0RC2",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "1.4.0RC1": {
@@ -1805,7 +1865,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2017-05-31T20:11:04+00:00",
             "releaseNotes": "- Fixed some memory leaks #9559, #10996\n- Disabled cares dependency from gRPC C Core #10940\n- De-coupled protobuf dependency #11112\n- Fixed extension reported version #10842\n- Added config.w32 for Windows support #8161\n- Fixed PHP distrib test after cc files were added #11193\n- Fixed protoc plugin comment escape bug #11025",
-            "get": "http://pecl.php.net/get/grpc-1.4.0RC1",
+            "get": "https://pecl.php.net/get/grpc-1.4.0RC1",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "1.3.2": {
@@ -1815,7 +1875,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2017-05-11T19:38:54+00:00",
             "releaseNotes": "- Fixed some memory leaks #9559, #10996",
-            "get": "http://pecl.php.net/get/grpc-1.3.2",
+            "get": "https://pecl.php.net/get/grpc-1.3.2",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "1.3.2RC1": {
@@ -1825,7 +1885,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2017-05-10T22:14:09+00:00",
             "releaseNotes": "- Fixed some memory leaks #9559, #10996",
-            "get": "http://pecl.php.net/get/grpc-1.3.2RC1",
+            "get": "https://pecl.php.net/get/grpc-1.3.2RC1",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "1.3.1RC1": {
@@ -1835,7 +1895,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2017-05-04T18:15:52+00:00",
             "releaseNotes": "- gRPC Core 1.3 uptake",
-            "get": "http://pecl.php.net/get/grpc-1.3.1RC1",
+            "get": "https://pecl.php.net/get/grpc-1.3.1RC1",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "1.2.0": {
@@ -1845,7 +1905,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2017-03-20T22:15:39+00:00",
             "releaseNotes": "- Added arg info macros #9751\n- Updated codegen to be consistent with protobuf #9492",
-            "get": "http://pecl.php.net/get/grpc-1.2.0",
+            "get": "https://pecl.php.net/get/grpc-1.2.0",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "1.2.0RC1": {
@@ -1855,7 +1915,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2017-03-10T19:19:29+00:00",
             "releaseNotes": "- Added arg info macros #9751\n- Updated codegen to be consistent with protobuf #9492",
-            "get": "http://pecl.php.net/get/grpc-1.2.0RC1",
+            "get": "https://pecl.php.net/get/grpc-1.2.0RC1",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "1.1.0": {
@@ -1865,7 +1925,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2017-01-31T21:45:02+00:00",
             "releaseNotes": "- PHP Proto3 adoption #8179\n- Various bug fixes",
-            "get": "http://pecl.php.net/get/grpc-1.1.0",
+            "get": "https://pecl.php.net/get/grpc-1.1.0",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "1.1.0RC1": {
@@ -1875,7 +1935,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2017-01-27T20:50:43+00:00",
             "releaseNotes": "- PHP Proto3 adoption #8179\n- Various bug fixes",
-            "get": "http://pecl.php.net/get/grpc-1.1.0RC1",
+            "get": "https://pecl.php.net/get/grpc-1.1.0RC1",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "1.0.1": {
@@ -1885,7 +1945,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2016-10-27T19:55:49+00:00",
             "releaseNotes": "- Reject metadata keys which are not legal #7881",
-            "get": "http://pecl.php.net/get/grpc-1.0.1",
+            "get": "https://pecl.php.net/get/grpc-1.0.1",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "1.0.1RC1": {
@@ -1895,7 +1955,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2016-10-06T22:55:55+00:00",
             "releaseNotes": "- Reject metadata keys which are not legal #7881",
-            "get": "http://pecl.php.net/get/grpc-1.0.1RC1",
+            "get": "https://pecl.php.net/get/grpc-1.0.1RC1",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "1.0.0": {
@@ -1905,7 +1965,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2016-08-18T23:20:01+00:00",
             "releaseNotes": "- gRPC 1.0.0 release",
-            "get": "http://pecl.php.net/get/grpc-1.0.0",
+            "get": "https://pecl.php.net/get/grpc-1.0.0",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "1.0.0RC4": {
@@ -1915,7 +1975,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2016-08-11T20:21:40+00:00",
             "releaseNotes": "- Fixed Ubuntu compile error #7571, #7642",
-            "get": "http://pecl.php.net/get/grpc-1.0.0RC4",
+            "get": "https://pecl.php.net/get/grpc-1.0.0RC4",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "1.0.0RC3": {
@@ -1925,7 +1985,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2016-07-28T19:29:39+00:00",
             "releaseNotes": "- PHP7 Support continued, reduce code duplication #7543",
-            "get": "http://pecl.php.net/get/grpc-1.0.0RC3",
+            "get": "https://pecl.php.net/get/grpc-1.0.0RC3",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "1.0.0RC2": {
@@ -1935,7 +1995,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2016-07-22T04:29:18+00:00",
             "releaseNotes": "- PHP7 Support #7464",
-            "get": "http://pecl.php.net/get/grpc-1.0.0RC2",
+            "get": "https://pecl.php.net/get/grpc-1.0.0RC2",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "1.0.0RC1": {
@@ -1945,7 +2005,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2016-07-19T02:35:59+00:00",
             "releaseNotes": "- GA release\n- Fix shutdown hang problem #4017",
-            "get": "http://pecl.php.net/get/grpc-1.0.0RC1",
+            "get": "https://pecl.php.net/get/grpc-1.0.0RC1",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "0.15.0": {
@@ -1955,7 +2015,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2016-06-28T20:32:57+00:00",
             "releaseNotes": "- Updated functions with TSRM macros for ZTS support #6607\n- Load default roots.pem via grpc_set_ssl_roots_override_callback #6848",
-            "get": "http://pecl.php.net/get/grpc-0.15.0",
+            "get": "https://pecl.php.net/get/grpc-0.15.0",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "0.14.0": {
@@ -1965,7 +2025,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2016-05-11T23:08:09+00:00",
             "releaseNotes": "- wrap grpc C core version 0.14.0\n- destroy grpc_byte_buffer after startBatch #6096",
-            "get": "http://pecl.php.net/get/grpc-0.14.0",
+            "get": "https://pecl.php.net/get/grpc-0.14.0",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "0.8.1": {
@@ -1975,7 +2035,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2016-04-04T21:19:31+00:00",
             "releaseNotes": "- Increase unit test code coverage #5225",
-            "get": "http://pecl.php.net/get/grpc-0.8.1",
+            "get": "https://pecl.php.net/get/grpc-0.8.1",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "0.8.0": {
@@ -1985,7 +2045,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2016-03-01T00:06:49+00:00",
             "releaseNotes": "- Simplify gRPC PHP installation #4517\n- Wrap gRPC core library version 0.13",
-            "get": "http://pecl.php.net/get/grpc-0.8.0",
+            "get": "https://pecl.php.net/get/grpc-0.8.0",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "0.7.0": {
@@ -1995,7 +2055,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2016-01-15T18:34:25+00:00",
             "releaseNotes": "- Breaking change to Credentials class (removed) #3765\n- Replaced by ChannelCredentials and CallCredentials class #3765\n- New plugin based metadata auth API #4394\n- Explicit ChannelCredentials::createInsecure() call",
-            "get": "http://pecl.php.net/get/grpc-0.7.0",
+            "get": "https://pecl.php.net/get/grpc-0.7.0",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "0.6.1": {
@@ -2005,7 +2065,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2015-10-07T20:50:49+00:00",
             "releaseNotes": "- fixed undefined constant fatal error when run with apache/nginx #2275",
-            "get": "http://pecl.php.net/get/grpc-0.6.1",
+            "get": "https://pecl.php.net/get/grpc-0.6.1",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "0.6.0": {
@@ -2015,7 +2075,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2015-09-24T21:32:12+00:00",
             "releaseNotes": "- support per message compression disable\n- expose per-call host override option\n- expose connectivity API\n- expose channel target and call peer\n- add user-agent\n- update to wrap gRPC C core library beta version 0.11.0",
-            "get": "http://pecl.php.net/get/grpc-0.6.0",
+            "get": "https://pecl.php.net/get/grpc-0.6.0",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "0.5.1": {
@@ -2025,7 +2085,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2015-07-10T18:37:53+00:00",
             "releaseNotes": "Update to wrap gRPC C Core version 0.10.0",
-            "get": "http://pecl.php.net/get/grpc-0.5.1",
+            "get": "https://pecl.php.net/get/grpc-0.5.1",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "0.5.0": {
@@ -2035,7 +2095,7 @@
             "releasedBy": "stanleycheung",
             "releaseDate": "2015-06-25T23:22:39+00:00",
             "releaseNotes": "First alpha release",
-            "get": "http://pecl.php.net/get/grpc-0.5.0",
+            "get": "https://pecl.php.net/get/grpc-0.5.0",
             "SPDX-License-Identifier": "BSD-3-Clause"
         }
     },

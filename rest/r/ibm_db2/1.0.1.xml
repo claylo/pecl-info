@@ -18,6 +18,6 @@ Apache Derby databases.
  <n>Enable binary data types. Handle string truncation errors gracefully.
 Enable verbose output in phpinfo().</n>
  <f>146339</f>
- <g>http://pecl.php.net/get/ibm_db2-1.0.1</g>
+ <g>https://pecl.php.net/get/ibm_db2-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

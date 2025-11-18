@@ -24,6 +24,6 @@ dumps all the opcodes (execution units) of a script.</d>
   dump path information has a graphviz .dot file.
 - TSRM fixes (by Wojciech Meler &lt;wmeler@wp-sa.pl&gt;).</n>
  <f>15314</f>
- <g>http://pecl.php.net/get/vld-0.10.0</g>
+ <g>https://pecl.php.net/get/vld-0.10.0</g>
  <x xlink:href="package.0.10.0.xml"/>
 </r>

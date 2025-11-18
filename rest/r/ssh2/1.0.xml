@@ -24,6 +24,6 @@
 - Added explicit ssh2_disconnect function (Credomane Evonguard)
 - Fixed bug #72150 - Fixing segfault when passing env variables (Krakjoe)</n>
  <f>29013</f>
- <g>http://pecl.php.net/get/ssh2-1.0</g>
+ <g>https://pecl.php.net/get/ssh2-1.0</g>
  <x xlink:href="package.1.0.xml"/>
 </r>

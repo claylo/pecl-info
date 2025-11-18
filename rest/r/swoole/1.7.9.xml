@@ -35,6 +35,6 @@
 - Added swoole_server user/group setting
 - Added swoole_server task/finish automatic packing</n>
  <f>433120</f>
- <g>http://pecl.php.net/get/swoole-1.7.9</g>
+ <g>https://pecl.php.net/get/swoole-1.7.9</g>
  <x xlink:href="package.1.7.9.xml"/>
 </r>

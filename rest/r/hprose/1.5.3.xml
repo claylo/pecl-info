@@ -41,6 +41,6 @@
  <da>2015-05-13 13:39:52</da>
  <n>Fixed a bug of instance method service.</n>
  <f>55571</f>
- <g>http://pecl.php.net/get/hprose-1.5.3</g>
+ <g>https://pecl.php.net/get/hprose-1.5.3</g>
  <x xlink:href="package.1.5.3.xml"/>
 </r>

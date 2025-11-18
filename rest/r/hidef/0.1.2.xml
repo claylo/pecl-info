@@ -19,6 +19,6 @@
 - tsrm fixes (felipe)
 - fix empty segv (lbarnaud)</n>
  <f>11607</f>
- <g>http://pecl.php.net/get/hidef-0.1.2</g>
+ <g>https://pecl.php.net/get/hidef-0.1.2</g>
  <x xlink:href="package.0.1.2.xml"/>
 </r>

@@ -25,12 +25,12 @@
         - coroutine dns lookup
         - support IPv4/IPv6/UnixSocket/TCP/UDP
         - support SSL/TLS encrypted transmission</d>
- <da>2024-11-22 05:18:46</da>
+ <da>2024-11-22 11:44:53</da>
  <n>- Added `non-blocking, reentrant coroutine mutex lock`, which can be used between processes/threads without blocking them. @NathanFreeman
 - `Swoole\Coroutine\Socket::getoption()` supports the `TCPINFO` feature. @matyhtf
 - `Swoole\Client` synchronous blocking client supports `http` proxy. @matyhtf
 - Added asynchronous non-blocking `TCP/UDP/Unix socket` client `Swoole\Async\client`. @matyhtf
-- Optimized the `Swoole\Redis\Server::format()` method to support zero-copy memory, compatible with the `Redis` protocol. @matyhtf
+- Optimized the `Swoole\Redis\server::format()` method to support zero-copy memory, compatible with the `Redis` protocol. @matyhtf
 - Fixed `Fatal error` issue caused by `PHP-8.4`&#039;s `timeout` feature in ZTS mode. @matyhtf
 - Fixed compatibility issue with the `exit()` function in `swoole` for `PHP-8.4`. @remicollet
 - Fixed the issue where `Swoole\Thread::getNativeId()` did not work in `cygwin`. @matyhtf
@@ -48,7 +48,7 @@
 - Optimized timers so that synchronous processes do not depend on signals. @matyhtf
 - Optimized the `Swoole\Coroutine\System::waitSignal()` method to allow listening to multiple signals simultaneously. @matyhtf
 - This version is a `pre-release` and should not be used in production environments, only in testing environments.</n>
- <f>2280265</f>
+ <f>2280176</f>
  <g>https://pecl.php.net/get/swoole-6.0.0RC1</g>
  <x xlink:href="package.6.0.0RC1.xml"/>
 </r>

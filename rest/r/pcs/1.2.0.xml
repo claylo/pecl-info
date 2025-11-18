@@ -23,6 +23,6 @@ Compatibility : PHP 5 (5.3+) and 7</d>
 - Add PCS\Display class (PHP code) to display information about virtual files and symbols as plain text or html
 - Add tests</n>
  <f>64037</f>
- <g>http://pecl.php.net/get/pcs-1.2.0</g>
+ <g>https://pecl.php.net/get/pcs-1.2.0</g>
  <x xlink:href="package.1.2.0.xml"/>
 </r>

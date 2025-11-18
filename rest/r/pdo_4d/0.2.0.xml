@@ -16,6 +16,6 @@
  <n>Added support for timeout, monoquery and 4D 11.4.
 Developement cycle release.</n>
  <f>94875</f>
- <g>http://pecl.php.net/get/pdo_4d-0.2.0</g>
+ <g>https://pecl.php.net/get/pdo_4d-0.2.0</g>
  <x xlink:href="package.0.2.0.xml"/>
 </r>

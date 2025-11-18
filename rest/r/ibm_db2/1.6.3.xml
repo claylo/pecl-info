@@ -18,6 +18,6 @@ Apache Derby databases.
  <da>2007-09-05 16:29:06</da>
  <n>Fixed bug -- db2_tables() was failing on i5/OS</n>
  <f>122880</f>
- <g>http://pecl.php.net/get/ibm_db2-1.6.3</g>
+ <g>https://pecl.php.net/get/ibm_db2-1.6.3</g>
  <x xlink:href="package.1.6.3.xml"/>
 </r>

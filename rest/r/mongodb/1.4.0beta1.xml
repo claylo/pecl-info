@@ -55,6 +55,6 @@ necessary to build a fully-functional MongoDB driver.</d>
     * [PHPC-1031] - Run configure check to use ASN1_STRING_get0_data over ASN1_STRING_data in bundled libmongoc
     * [PHPC-1071] - Report class name in exception for unexpected object values</n>
  <f>897428</f>
- <g>http://pecl.php.net/get/mongodb-1.4.0beta1</g>
+ <g>https://pecl.php.net/get/mongodb-1.4.0beta1</g>
  <x xlink:href="package.1.4.0beta1.xml"/>
 </r>

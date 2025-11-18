@@ -16,6 +16,6 @@
  <n>- Implemented FR #108 (Allow setting custom headers)
 - Clenup for 7.2</n>
  <f>37895</f>
- <g>http://pecl.php.net/get/yar-2.0.4</g>
+ <g>https://pecl.php.net/get/yar-2.0.4</g>
  <x xlink:href="package.2.0.4.xml"/>
 </r>

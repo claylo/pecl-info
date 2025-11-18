@@ -22,6 +22,6 @@ PECL Sundown provides straight forward object oriented Markdown API and customiz
 - fixes #28 Wired memory limit error with autolink set.
 Sundown\Render\Base callbacks are able to throw exceptions.</n>
  <f>55121</f>
- <g>http://pecl.php.net/get/sundown-0.3.8</g>
+ <g>https://pecl.php.net/get/sundown-0.3.8</g>
  <x xlink:href="package.0.3.8.xml"/>
 </r>

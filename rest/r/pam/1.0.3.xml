@@ -15,6 +15,6 @@
  <da>2009-11-29 05:50:04</da>
  <n>Added checkacctmgmt parameter to enable skipping the pam_acct_mgmt() call (which might require root access)</n>
  <f>6671</f>
- <g>http://pecl.php.net/get/pam-1.0.3</g>
+ <g>https://pecl.php.net/get/pam-1.0.3</g>
  <x xlink:href="package.1.0.3.xml"/>
 </r>

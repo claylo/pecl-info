@@ -24,6 +24,6 @@ PECL Solr 2+ is only compatible with Apache Solr Server 4.0+</d>
  <da>2015-09-27 17:16:32</da>
  <n>- Fix windows build</n>
  <f>142383</f>
- <g>http://pecl.php.net/get/solr-2.2.1</g>
+ <g>https://pecl.php.net/get/solr-2.2.1</g>
  <x xlink:href="package.2.2.1.xml"/>
 </r>

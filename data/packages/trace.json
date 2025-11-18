@@ -15,7 +15,7 @@
             "releasedBy": "monque",
             "releaseDate": "2017-03-14T06:20:18+00:00",
             "releaseNotes": "- Add support for PHP 7.1\n- Fix problem with arguments passed by-reference #77\n- Fix some unit tests",
-            "get": "http://pecl.php.net/get/trace-1.0.1beta",
+            "get": "https://pecl.php.net/get/trace-1.0.1beta",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.0.0": {
@@ -25,7 +25,7 @@
             "releasedBy": "silkcut",
             "releaseDate": "2017-01-19T06:13:21+00:00",
             "releaseNotes": "### Added\n\n- Add support for Linux environment ptrace\n- Add support for MacOS\n- Add filter by url/class/function name\n- Add limit ouput count\n\n### Changed\n\n- Refactoring extensions and tool-side information interaction\n- Optimize format and color of the output\n- Remove unused messages such as wall_time?memory records\n- Improve display status module",
-            "get": "http://pecl.php.net/get/trace-1.0.0",
+            "get": "https://pecl.php.net/get/trace-1.0.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "0.3.0": {
@@ -35,7 +35,7 @@
             "releasedBy": "monque",
             "releaseDate": "2015-05-22T07:30:07+00:00",
             "releaseNotes": "### Added\n\n- Added support for special function calls: `main`, `include`, `require`, `Closure`, `Labmda`, `eval()`\n- Added support for PHP 5.1\n- Keep collecting and sending back trace information after PHP bailout\n- Added duplexing to communication module\n- Compatible with Trait Alias\n- Added checking for ZTS (Thread-safety support) during configuration\n\n### Changed\n\n- Refactor the PHP extension\n- Unified the naming convention of Type, Function, Macro\n- Change License to Apache 2.0\n- Change Extension's name to \"trace\" (php is redundant for a PHP extension)\n- Improve representation of `zval` and support for Array, Object\n- Improve performance when trace if off\n- Limit the length of print arguments and retvalue\n\n### Fixed\n\n- Fixed handling of large or small double value that needs scientific notation\n- Fixed memory leaks related with SDS",
-            "get": "http://pecl.php.net/get/trace-0.3.0",
+            "get": "https://pecl.php.net/get/trace-0.3.0",
             "SPDX-License-Identifier": "Apache-2.0"
         }
     },

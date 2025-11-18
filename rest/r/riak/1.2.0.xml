@@ -16,6 +16,6 @@
  <n>Fixes issue 78: Segmentation fault with numeric key
 Fixes issue 80: Support lazy connection</n>
  <f>139758</f>
- <g>http://pecl.php.net/get/riak-1.2.0</g>
+ <g>https://pecl.php.net/get/riak-1.2.0</g>
  <x xlink:href="package.1.2.0.xml"/>
 </r>

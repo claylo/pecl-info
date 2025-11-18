@@ -17,6 +17,6 @@
 - Optimized output data allocation
 - Fixed bug #62832 PHP_FE_END undefined on PHP lower than 5.3.10</n>
  <f>298434</f>
- <g>http://pecl.php.net/get/trader-0.4.0</g>
+ <g>https://pecl.php.net/get/trader-0.4.0</g>
  <x xlink:href="package.0.4.0.xml"/>
 </r>

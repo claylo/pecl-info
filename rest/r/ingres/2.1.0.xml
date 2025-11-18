@@ -21,6 +21,6 @@
     - Add ingres_escape_string()
     - Add ingres_result_seek() to support row positioning</n>
  <f>73835</f>
- <g>http://pecl.php.net/get/ingres-2.1.0</g>
+ <g>https://pecl.php.net/get/ingres-2.1.0</g>
  <x xlink:href="package.2.1.0.xml"/>
 </r>

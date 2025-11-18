@@ -21,6 +21,6 @@ libssh2 is available from http://www.sourceforge.net/projects/libssh2
 - Fixed incorrect return values for rename/unlink/mkdir/rmdir with sftp functions/streams
 - Fixed various memory leaks and segfaults</n>
  <f>22884</f>
- <g>http://pecl.php.net/get/ssh2-0.11.0</g>
+ <g>https://pecl.php.net/get/ssh2-0.11.0</g>
  <x xlink:href="package.0.11.0.xml"/>
 </r>

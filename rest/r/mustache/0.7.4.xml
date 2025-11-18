@@ -16,6 +16,6 @@
  <n>- Mark release as stable
 - Change minimum version to 5.4.0</n>
  <f>44952</f>
- <g>http://pecl.php.net/get/mustache-0.7.4</g>
+ <g>https://pecl.php.net/get/mustache-0.7.4</g>
  <x xlink:href="package.0.7.4.xml"/>
 </r>

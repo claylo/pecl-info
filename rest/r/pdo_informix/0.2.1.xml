@@ -19,6 +19,6 @@ from http://ibm.com/informix/downloads.html.
  <da>2005-11-24 12:45:23</da>
  <n>Compiling on Windows is now possible.</n>
  <f>25833</f>
- <g>http://pecl.php.net/get/PDO_INFORMIX-0.2.1</g>
+ <g>https://pecl.php.net/get/PDO_INFORMIX-0.2.1</g>
  <x xlink:href="package.0.2.1.xml"/>
 </r>

@@ -15,6 +15,6 @@
  <da>2016-03-13 17:33:51</da>
  <n>* Fixed C89 compatibility in placing TSRMLS_FETCH</n>
  <f>46462</f>
- <g>http://pecl.php.net/get/fann-1.1.0RC2</g>
+ <g>https://pecl.php.net/get/fann-1.1.0RC2</g>
  <x xlink:href="package.1.1.0RC2.xml"/>
 </r>

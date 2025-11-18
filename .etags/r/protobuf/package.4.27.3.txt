@@ -1,1 +1,1 @@
-"bfb-61e8d63e78f3c-gzip"
+"bfb-61e8d63e78f3c"

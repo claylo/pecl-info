@@ -19,6 +19,6 @@
 - Add rudimentary validation of filemap files
 - Fix assign vs. comparison bug in session</n>
  <f>172481</f>
- <g>http://pecl.php.net/get/WINCACHE-1.3.7.9</g>
+ <g>https://pecl.php.net/get/WINCACHE-1.3.7.9</g>
  <x xlink:href="package.1.3.7.9.xml"/>
 </r>

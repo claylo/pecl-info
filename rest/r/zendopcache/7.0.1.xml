@@ -29,6 +29,6 @@
 - Add optional flag to opcache_get_status()
 - Separate &quot;start_time&quot; from &quot;last_restart_time&quot;</n>
  <f>85076</f>
- <g>http://pecl.php.net/get/zendopcache-7.0.1</g>
+ <g>https://pecl.php.net/get/zendopcache-7.0.1</g>
  <x xlink:href="package.7.0.1.xml"/>
 </r>

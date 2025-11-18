@@ -18,6 +18,6 @@
 ps_symbol(), ps_symbol_name(), ps_symbol_width(), ps_begin_pattern(),
 ps_end_pattern(), ps_begin_template(), ps_end_template().</n>
  <f>70150</f>
- <g>http://pecl.php.net/get/ps-1.2.0</g>
+ <g>https://pecl.php.net/get/ps-1.2.0</g>
  <x xlink:href="package.1.2.0.xml"/>
 </r>

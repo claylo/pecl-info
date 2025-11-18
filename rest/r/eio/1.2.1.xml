@@ -26,6 +26,6 @@
  <n>Fix: build failed without sockets extension
 Fix: eio_write failed when buffer length was lesser than size + offset</n>
  <f>57296</f>
- <g>http://pecl.php.net/get/eio-1.2.1</g>
+ <g>https://pecl.php.net/get/eio-1.2.1</g>
  <x xlink:href="package.1.2.1.xml"/>
 </r>

@@ -16,6 +16,6 @@
  <da>2012-11-05 23:39:23</da>
  <n>- Support tracing dim concat result (phonpeng@vip.qq.com)</n>
  <f>19631</f>
- <g>http://pecl.php.net/get/taint-1.2.0</g>
+ <g>https://pecl.php.net/get/taint-1.2.0</g>
  <x xlink:href="package.1.2.0.xml"/>
 </r>

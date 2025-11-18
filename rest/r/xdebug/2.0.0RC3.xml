@@ -47,6 +47,6 @@ Xdebug also provides:
 	- Fixed a segfault that occurred when creating printable stack traces and
 	  collect_params was turned off.</n>
  <f>261735</f>
- <g>http://pecl.php.net/get/xdebug-2.0.0RC3</g>
+ <g>https://pecl.php.net/get/xdebug-2.0.0RC3</g>
  <x xlink:href="package.2.0.0RC3.xml"/>
 </r>

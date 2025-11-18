@@ -15,6 +15,6 @@
  <da>2015-06-16 15:35:00</da>
  <n>- rrdc_disconnect is available in rrd 1.4.0+ (Remi)</n>
  <f>19198</f>
- <g>http://pecl.php.net/get/rrd-2.0.0beta1</g>
+ <g>https://pecl.php.net/get/rrd-2.0.0beta1</g>
  <x xlink:href="package.2.0.0beta1.xml"/>
 </r>

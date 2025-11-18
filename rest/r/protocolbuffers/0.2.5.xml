@@ -18,6 +18,6 @@
 [bug fix]
 * (jsonSerialize) fix memory size problem on CentOS 64bit box.</n>
  <f>100108</f>
- <g>http://pecl.php.net/get/protocolbuffers-0.2.5</g>
+ <g>https://pecl.php.net/get/protocolbuffers-0.2.5</g>
  <x xlink:href="package.0.2.5.xml"/>
 </r>

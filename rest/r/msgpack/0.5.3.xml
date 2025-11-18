@@ -15,6 +15,6 @@
  <da>2012-10-12 04:01:00</da>
  <n>- Fixed Bug #6 (bug with incorrect packing of mixed arrays)</n>
  <f>55029</f>
- <g>http://pecl.php.net/get/msgpack-0.5.3</g>
+ <g>https://pecl.php.net/get/msgpack-0.5.3</g>
  <x xlink:href="package.0.5.3.xml"/>
 </r>

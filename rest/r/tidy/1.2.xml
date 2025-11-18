@@ -20,6 +20,6 @@ NOTE: This is the PHP4 version!
  <da>2005-11-07 11:39:51</da>
  <n>Fixed bug #4202 tidy is not binary safe</n>
  <f>9602</f>
- <g>http://pecl.php.net/get/tidy-1.2</g>
+ <g>https://pecl.php.net/get/tidy-1.2</g>
  <x xlink:href="package.1.2.xml"/>
 </r>

@@ -52,6 +52,6 @@
 * The underlying code is cleaned up, all TSRM macros, PHP5 compatible macros and functions are removed, useless stack allocation and multiple pointers are reduced, FASTZPP is re-enabled to improve parameter parsing performance
 * Error tips optimization, error reporting guidelines will be generated when the underlying crash occurs</n>
  <f>1126504</f>
- <g>http://pecl.php.net/get/swoole-4.2.2</g>
+ <g>https://pecl.php.net/get/swoole-4.2.2</g>
  <x xlink:href="package.4.2.2.xml"/>
 </r>

@@ -27,6 +27,6 @@ The X DevAPI introduces a new, modern and easy-to-learn way to work with your da
 WL#11955: Increase coverage
 refactorings: WL#11960, WL#11945,  WL#11949, WL#11947, WL#11854</n>
  <f>421629</f>
- <g>http://pecl.php.net/get/mysql_xdevapi-8.0.12</g>
+ <g>https://pecl.php.net/get/mysql_xdevapi-8.0.12</g>
  <x xlink:href="package.8.0.12.xml"/>
 </r>

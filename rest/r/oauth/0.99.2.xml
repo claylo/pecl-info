@@ -23,6 +23,6 @@ Requirements: ext/hash and libcurl (with https support if you plan to access res
 - Added arginfo
 - Marking as beta</n>
  <f>16434</f>
- <g>http://pecl.php.net/get/oauth-0.99.2</g>
+ <g>https://pecl.php.net/get/oauth-0.99.2</g>
  <x xlink:href="package.0.99.2.xml"/>
 </r>

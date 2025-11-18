@@ -28,6 +28,6 @@ Changes:
   This fixes getFromReplica() returning NULL.
 * Documentation updates and bug fixes</n>
  <f>69874</f>
- <g>http://pecl.php.net/get/couchbase-2.2.4</g>
+ <g>https://pecl.php.net/get/couchbase-2.2.4</g>
  <x xlink:href="package.2.2.4.xml"/>
 </r>

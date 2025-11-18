@@ -41,6 +41,6 @@ Xdebug also provides:
   - Fixed issue #1267: AIX build issues
   - Fixed issue #1270: String parsing marked not covered with PHP 7</n>
  <f>264832</f>
- <g>http://pecl.php.net/get/xdebug-2.4.0</g>
+ <g>https://pecl.php.net/get/xdebug-2.4.0</g>
  <x xlink:href="package.2.4.0.xml"/>
 </r>

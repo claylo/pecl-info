@@ -20,6 +20,6 @@
 - PHP bug #54662, unserializing nested objects cause crash
 - Other fixes</n>
  <f>36789</f>
- <g>http://pecl.php.net/get/igbinary-1.2.0</g>
+ <g>https://pecl.php.net/get/igbinary-1.2.0</g>
  <x xlink:href="package.1.2.0.xml"/>
 </r>

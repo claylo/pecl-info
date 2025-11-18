@@ -22,6 +22,6 @@ A web frontend exists for manipulating the data stored in database at: https://g
  <n>Fixed:
 - Compilation issue with ZTS</n>
  <f>32706</f>
- <g>http://pecl.php.net/get/APM-2.1.1</g>
+ <g>https://pecl.php.net/get/APM-2.1.1</g>
  <x xlink:href="package.2.1.1.xml"/>
 </r>

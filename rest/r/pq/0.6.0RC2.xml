@@ -34,6 +34,6 @@ Changes from RC1:
 * Fixed RTLD_LAZY compatibility with pecl/raphf
 * Simplified config.m4</n>
  <f>63322</f>
- <g>http://pecl.php.net/get/pq-0.6.0RC2</g>
+ <g>https://pecl.php.net/get/pq-0.6.0RC2</g>
  <x xlink:href="package.0.6.0RC2.xml"/>
 </r>

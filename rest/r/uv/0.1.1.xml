@@ -16,6 +16,6 @@
  <n>- A few fixes regarding refcounting of uv resources
 - A better config.m4</n>
  <f>51096</f>
- <g>http://pecl.php.net/get/uv-0.1.1</g>
+ <g>https://pecl.php.net/get/uv-0.1.1</g>
  <x xlink:href="package.0.1.1.xml"/>
 </r>

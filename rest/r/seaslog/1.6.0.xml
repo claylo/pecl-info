@@ -25,6 +25,6 @@
 - Fixed issue #91 Support TCP UDP appender.
 - Support appender with config, switch File TCP UDP; config the remote_host and remote_port.</n>
  <f>72352</f>
- <g>http://pecl.php.net/get/SeasLog-1.6.0</g>
+ <g>https://pecl.php.net/get/SeasLog-1.6.0</g>
  <x xlink:href="package.1.6.0.xml"/>
 </r>

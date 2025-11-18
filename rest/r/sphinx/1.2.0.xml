@@ -17,6 +17,6 @@
 - Fixed build with 5_4.
 - Fixed bug #61392 (build failure with new version of libsphinxclient)</n>
  <f>13392</f>
- <g>http://pecl.php.net/get/sphinx-1.2.0</g>
+ <g>https://pecl.php.net/get/sphinx-1.2.0</g>
  <x xlink:href="package.1.2.0.xml"/>
 </r>

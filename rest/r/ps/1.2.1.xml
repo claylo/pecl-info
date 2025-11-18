@@ -17,6 +17,6 @@
  <n>ps_hyphenate() did not return an array but true. Added more tests
       and examples. Many internal changes.</n>
  <f>150907</f>
- <g>http://pecl.php.net/get/ps-1.2.1</g>
+ <g>https://pecl.php.net/get/ps-1.2.1</g>
  <x xlink:href="package.1.2.1.xml"/>
 </r>

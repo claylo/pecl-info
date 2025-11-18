@@ -26,6 +26,6 @@ PECL extension.
 - container tags like &lt;functions&gt; or &lt;globals&gt; are now optional
 - pecl-gen will now set exit status on errors</n>
  <f>57485</f>
- <g>http://pecl.php.net/get/PECL_Gen-0.8.5</g>
+ <g>https://pecl.php.net/get/PECL_Gen-0.8.5</g>
  <x xlink:href="package.0.8.5.xml"/>
 </r>

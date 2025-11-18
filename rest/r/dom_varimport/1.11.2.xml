@@ -23,6 +23,6 @@
  <n>** Bug
     * @attribute: rare bug with numeric keys processing, more errors checks and tests</n>
  <f>11435</f>
- <g>http://pecl.php.net/get/dom_varimport-1.11.2</g>
+ <g>https://pecl.php.net/get/dom_varimport-1.11.2</g>
  <x xlink:href="package.1.11.2.xml"/>
 </r>

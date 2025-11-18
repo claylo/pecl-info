@@ -37,6 +37,6 @@ Documentation:
 * [PHP-117] Broken links in documentor-generated docs
 * [PHP-102] Documentation improvements</n>
  <f>163700</f>
- <g>http://pecl.php.net/get/cassandra-1.3.2</g>
+ <g>https://pecl.php.net/get/cassandra-1.3.2</g>
  <x xlink:href="package.1.3.2.xml"/>
 </r>

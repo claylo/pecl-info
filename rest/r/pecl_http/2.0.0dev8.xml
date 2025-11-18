@@ -30,6 +30,6 @@
 + Added http\Message\Body::addPart(http\Message $part)
 + Added http\Env\Response::__invoke() output buffering handler</n>
  <f>127088</f>
- <g>http://pecl.php.net/get/pecl_http-2.0.0dev8</g>
+ <g>https://pecl.php.net/get/pecl_http-2.0.0dev8</g>
  <x xlink:href="package.2.0.0dev8.xml"/>
 </r>

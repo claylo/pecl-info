@@ -30,6 +30,6 @@
  <da>2017-11-22 09:20:53</da>
  <n>- Fixed occasional crash bugs of SSL server</n>
  <f>708921</f>
- <g>http://pecl.php.net/get/swoole-1.9.23</g>
+ <g>https://pecl.php.net/get/swoole-1.9.23</g>
  <x xlink:href="package.1.9.23.xml"/>
 </r>

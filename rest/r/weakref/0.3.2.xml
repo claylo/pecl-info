@@ -15,6 +15,6 @@
  <da>2016-01-24 11:59:58</da>
  <n>- Fix crash in wr_store_tracked_object_dtor</n>
  <f>11961</f>
- <g>http://pecl.php.net/get/Weakref-0.3.2</g>
+ <g>https://pecl.php.net/get/Weakref-0.3.2</g>
  <x xlink:href="package.0.3.2.xml"/>
 </r>

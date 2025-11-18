@@ -19,6 +19,6 @@
     	- Added &quot;invalid token&quot; warning in apn_send()
     	- TSRM fixes</n>
  <f>14406</f>
- <g>http://pecl.php.net/get/apn-1.0.3</g>
+ <g>https://pecl.php.net/get/apn-1.0.3</g>
  <x xlink:href="package.1.0.3.xml"/>
 </r>

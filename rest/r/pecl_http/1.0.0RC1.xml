@@ -35,6 +35,6 @@ HttpResponse</d>
 * Fixed builds where include/php/ext/iconv does not have php_have_*.h files
 * Fixed PHP-4 build.</n>
  <f>177518</f>
- <g>http://pecl.php.net/get/pecl_http-1.0.0RC1</g>
+ <g>https://pecl.php.net/get/pecl_http-1.0.0RC1</g>
  <x xlink:href="package.1.0.0RC1.xml"/>
 </r>

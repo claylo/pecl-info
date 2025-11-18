@@ -18,6 +18,6 @@
 * PCBC-442: fail fast view requests on ephemeral buckets
 * PCBC-513: make public API non-final (remove final attribute from classes and methods)</n>
  <f>154976</f>
- <g>http://pecl.php.net/get/couchbase-2.4.2</g>
+ <g>https://pecl.php.net/get/couchbase-2.4.2</g>
  <x xlink:href="package.2.4.2.xml"/>
 </r>

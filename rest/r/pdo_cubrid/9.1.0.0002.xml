@@ -17,6 +17,6 @@
 1) APIS-546: The PDO driver does not support for the connection between the PDO and CUBRID shard broker.
 2) APIS-550: The PDO driver does not support prepare and query function in CUBRID shard db.</n>
  <f>2251790</f>
- <g>http://pecl.php.net/get/PDO_CUBRID-9.1.0.0002</g>
+ <g>https://pecl.php.net/get/PDO_CUBRID-9.1.0.0002</g>
  <x xlink:href="package.9.1.0.0002.xml"/>
 </r>

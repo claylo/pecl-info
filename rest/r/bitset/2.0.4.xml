@@ -16,6 +16,6 @@
  <n>- Fixed out of bounds bug (thanks kgodet)
 - Fixed fromRawValue missing offset</n>
  <f>19973</f>
- <g>http://pecl.php.net/get/bitset-2.0.4</g>
+ <g>https://pecl.php.net/get/bitset-2.0.4</g>
  <x xlink:href="package.2.0.4.xml"/>
 </r>

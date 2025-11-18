@@ -38,6 +38,6 @@
 - Fixed taskWaitMulti unable to return to the results of the successful implementation of the task after a timeout
 - Timers use monotonic time to solve the system time to modify the problem caused by timer confusion</n>
  <f>536493</f>
- <g>http://pecl.php.net/get/swoole-1.9.1</g>
+ <g>https://pecl.php.net/get/swoole-1.9.1</g>
  <x xlink:href="package.1.9.1.xml"/>
 </r>

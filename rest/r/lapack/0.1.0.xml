@@ -19,6 +19,6 @@
 - Added inverse and identity functions
 - Added eigenvector retrieval on eigenvalue functions</n>
  <f>10241</f>
- <g>http://pecl.php.net/get/lapack-0.1.0</g>
+ <g>https://pecl.php.net/get/lapack-0.1.0</g>
  <x xlink:href="package.0.1.0.xml"/>
 </r>

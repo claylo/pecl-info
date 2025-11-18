@@ -22,6 +22,6 @@
 - Changed behaviour of close() to actually remove all servers from pool (PECL bug #12555)
 - Added configure option for PEAR installer to disable session handler support</n>
  <f>27149</f>
- <g>http://pecl.php.net/get/memcache-2.2.2</g>
+ <g>https://pecl.php.net/get/memcache-2.2.2</g>
  <x xlink:href="package.2.2.2.xml"/>
 </r>

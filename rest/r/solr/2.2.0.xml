@@ -33,6 +33,6 @@ PECL Solr 2+ is only compatible with Apache Solr Server 4.0+</d>
 - Fix compatibility tests with Solr Server 5 (Bug #70333)
 - Fix Error unserializing raw response on statistics response having NaN as value (Bug #67394)</n>
  <f>142374</f>
- <g>http://pecl.php.net/get/solr-2.2.0</g>
+ <g>https://pecl.php.net/get/solr-2.2.0</g>
  <x xlink:href="package.2.2.0.xml"/>
 </r>

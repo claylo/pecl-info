@@ -16,6 +16,6 @@
  <n>- Bug fix: sodium_pad() din't support block sizes over 255 bytes
 - Bug fix: file descriptors were not properly closed when using PHP as an Apache module, and Apache was reloaded</n>
  <f>29027</f>
- <g>http://pecl.php.net/get/libsodium-2.0.12</g>
+ <g>https://pecl.php.net/get/libsodium-2.0.12</g>
  <x xlink:href="package.2.0.12.xml"/>
 </r>

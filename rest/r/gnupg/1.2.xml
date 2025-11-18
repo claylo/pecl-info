@@ -16,6 +16,6 @@
  <n>fixed bug #7587 (gnupg_verify fails with detached signature)
 added &quot;summary&quot; into signature-array</n>
  <f>20264</f>
- <g>http://pecl.php.net/get/gnupg-1.2</g>
+ <g>https://pecl.php.net/get/gnupg-1.2</g>
  <x xlink:href="package.1.2.xml"/>
 </r>

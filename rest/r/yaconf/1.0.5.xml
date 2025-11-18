@@ -15,6 +15,6 @@
  <da>2017-04-27 02:28:00</da>
  <n>- Fixed issue #26 (Segmentation fault $php_fpm_BIN --daemonize $php_opts)</n>
  <f>10891</f>
- <g>http://pecl.php.net/get/yaconf-1.0.5</g>
+ <g>https://pecl.php.net/get/yaconf-1.0.5</g>
  <x xlink:href="package.1.0.5.xml"/>
 </r>

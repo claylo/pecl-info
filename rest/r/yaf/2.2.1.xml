@@ -26,6 +26,6 @@
 - Implemented FR #62702 (Make baseuri case-insensitive)
 - Implemented FR #62638 (Supports set yaf runtime configuration via application.ini)</n>
  <f>89929</f>
- <g>http://pecl.php.net/get/yaf-2.2.1</g>
+ <g>https://pecl.php.net/get/yaf-2.2.1</g>
  <x xlink:href="package.2.2.1.xml"/>
 </r>

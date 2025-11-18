@@ -15,7 +15,7 @@
             "releasedBy": "andrei",
             "releaseDate": "2009-03-23T18:00:30+00:00",
             "releaseNotes": "- Initial PECL release",
-            "get": "http://pecl.php.net/get/bloomy-0.1.0",
+            "get": "https://pecl.php.net/get/bloomy-0.1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

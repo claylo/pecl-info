@@ -30,6 +30,6 @@ intend to build and/or use this package.
 If you are running on windows, you can download the binary from here:
 http://pecl4win.php.net/ext.php/php_pdo_pgsql.dll</n>
  <f>14961</f>
- <g>http://pecl.php.net/get/PDO_PGSQL-1.0.2</g>
+ <g>https://pecl.php.net/get/PDO_PGSQL-1.0.2</g>
  <x xlink:href="package.1.0.2.xml"/>
 </r>

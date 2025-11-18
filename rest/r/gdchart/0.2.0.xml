@@ -32,6 +32,6 @@ Changes include the following:
 	* fixed a number of potential crashes due to missing input validation
 	* fixed memory leaks in gdchart library</n>
  <f>52417</f>
- <g>http://pecl.php.net/get/gdchart-0.2.0</g>
+ <g>https://pecl.php.net/get/gdchart-0.2.0</g>
  <x xlink:href="package.0.2.0.xml"/>
 </r>

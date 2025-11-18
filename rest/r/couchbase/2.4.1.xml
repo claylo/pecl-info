@@ -18,6 +18,6 @@
 * Allow to override default pool connectime idle time with `couchbase.pool.max_idle_time_sec` INI setting.
 * PCBC-503, PCBC-504: Improve running tests.</n>
  <f>153695</f>
- <g>http://pecl.php.net/get/couchbase-2.4.1</g>
+ <g>https://pecl.php.net/get/couchbase-2.4.1</g>
  <x xlink:href="package.2.4.1.xml"/>
 </r>

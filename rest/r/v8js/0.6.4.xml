@@ -15,6 +15,6 @@
  <da>2016-07-02 20:51:39</da>
  <n>Fix build against V8 5.3.337 (and higher)</n>
  <f>86901</f>
- <g>http://pecl.php.net/get/v8js-0.6.4</g>
+ <g>https://pecl.php.net/get/v8js-0.6.4</g>
  <x xlink:href="package.0.6.4.xml"/>
 </r>

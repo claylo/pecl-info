@@ -17,6 +17,6 @@
 - Add support for virtual bucket distribution
 - Fix compilation against PHP 5.2</n>
  <f>39095</f>
- <g>http://pecl.php.net/get/memcached-2.1.0</g>
+ <g>https://pecl.php.net/get/memcached-2.1.0</g>
  <x xlink:href="package.2.1.0.xml"/>
 </r>

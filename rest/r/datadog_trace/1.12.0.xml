@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>1.12.0</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>bwoebi</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2025-08-27 20:48:19</da>
+ <n>## All products
+### Internal
+- Add injection metadata fields to telemetry forwarder #3359
+
+## Tracer
+### Added
+- Add http.route tag to SymfonyIntegration.php #2992
+- Add setting to avoid obfuscating mongodb queries #3390
+- Handle native HTTP requests #3366
+
+### Changed
+- Expose curl_multi_exec_get_request_spans() as non-internal #3389
+- Use resources_weak_* API for Curl as well #3386
+- Gracefully handle sidecar broken pipes #3370
+- Enable log injection by default #3355
+
+### Fixed
+- Capture the stack for log probes #3367 
+- Properly cache the telemetry cache #3387
+- Fix names of global git tags for debugger #3377
+- Fix SQLSRVIntegration resource handling #3379
+- Set DD_APPSEC_RASP_ENABLED default to true as on the tracer #3374
+- Fix top Code Origin frame for ExecIntegration and KafkaIntegration #3392
+
+### Internal
+- Update baggage telemetry typo #3382
+- Switch to bookworm containers #3375
+
+## Application Security Management
+### Added
+- Add fingerprint capabilities #3371
+- Implement jwt #3352
+
+### Fixed
+- Fix musl appsec helper shutdown crash #3378
+
+### Internal
+- Fix submission of telemetry logs from appsec #3373</n>
+ <f>1496333</f>
+ <g>https://pecl.php.net/get/datadog_trace-1.12.0</g>
+ <x xlink:href="package.1.12.0.xml"/>
+</r>

@@ -35,6 +35,6 @@ avaiable then SHA-256 and SHA-512 signatures are supported as well.</d>
 * fix Bug #12492: filenew incorrectly creates file path [urkle]
 * fix Bug #12493: extract throws an error and won't open the file [urkle]</n>
  <f>87482</f>
- <g>http://pecl.php.net/get/phar-1.2.3</g>
+ <g>https://pecl.php.net/get/phar-1.2.3</g>
  <x xlink:href="package.1.2.3.xml"/>
 </r>

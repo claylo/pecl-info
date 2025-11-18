@@ -18,6 +18,6 @@ Cloudscape, and Apache Derby databases.</d>
  <n>Fixed memory leak stored procedure i/o param both IBM i and LUW.
 Customer request abandon 'executing' persistent connection for IBM i</n>
  <f>190222</f>
- <g>http://pecl.php.net/get/ibm_db2-2.0.2</g>
+ <g>https://pecl.php.net/get/ibm_db2-2.0.2</g>
  <x xlink:href="package.2.0.2.xml"/>
 </r>

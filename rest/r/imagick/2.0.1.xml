@@ -21,6 +21,6 @@ IMPORTANT: Version 2.x API is not compatible with earlier versions.</d>
 + Added check for empty or invalid pseudo format string in Imagick::newPseudoImage
 + Fixed incorrect arg hinting for Imagick::compareImageChannels</n>
  <f>70957</f>
- <g>http://pecl.php.net/get/imagick-2.0.1</g>
+ <g>https://pecl.php.net/get/imagick-2.0.1</g>
  <x xlink:href="package.2.0.1.xml"/>
 </r>

@@ -32,6 +32,6 @@ v2: http://dev.iworks.at/ext-http/lcov/ext/http/</d>
  <da>2013-12-10 03:54:12</da>
  <n>* Fixed typo</n>
  <f>152156</f>
- <g>http://pecl.php.net/get/pecl_http-2.0.3</g>
+ <g>https://pecl.php.net/get/pecl_http-2.0.3</g>
  <x xlink:href="package.2.0.3.xml"/>
 </r>

@@ -38,7 +38,7 @@ Xdebug also provides:
 	- Added &quot;Scream&quot; support, which disables the @ operator.
 	- Added a trace-file analysing script.
 	- Added support for debugging into phars.
-	- Added a default xdebug.ini. (Patch by Martin Schuhfu
+	- Added a default xdebug.ini. (Patch by Martin SchuhfuÃ
 	  &lt;martins@spot-media.de&gt;)
 	- Added function parameters in computerized function traces.
 	- PHP 5.3 compatibility.
@@ -146,6 +146,6 @@ Xdebug also provides:
 	  requests to facilitate deficiencies in IDEs that fail to show the &quot;classname&quot;
 	  XML attribute.</n>
  <f>295579</f>
- <g>http://pecl.php.net/get/xdebug-2.1.0beta1</g>
+ <g>https://pecl.php.net/get/xdebug-2.1.0beta1</g>
  <x xlink:href="package.2.1.0beta1.xml"/>
 </r>

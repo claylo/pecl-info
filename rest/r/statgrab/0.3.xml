@@ -24,6 +24,6 @@ libstatgrab library.
 4) Added sg_process_stats() that can now return detailed information about
    all currently running processes.</n>
  <f>5805</f>
- <g>http://pecl.php.net/get/Statgrab-0.3</g>
+ <g>https://pecl.php.net/get/Statgrab-0.3</g>
  <x xlink:href="package.0.3.xml"/>
 </r>

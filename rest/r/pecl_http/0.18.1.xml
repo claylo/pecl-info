@@ -24,6 +24,6 @@
  <da>2005-11-18 05:31:29</da>
  <n>* Fixed build with PHP-4 and PHP-5.0</n>
  <f>140720</f>
- <g>http://pecl.php.net/get/pecl_http-0.18.1</g>
+ <g>https://pecl.php.net/get/pecl_http-0.18.1</g>
  <x xlink:href="package.0.18.1.xml"/>
 </r>

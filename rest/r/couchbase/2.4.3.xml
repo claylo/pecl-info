@@ -21,6 +21,6 @@
 * PCBC-522: Check username/password for NULL in Classic Authenticator
 * PCBC-516: Append information about runtime to HELLO string</n>
  <f>159580</f>
- <g>http://pecl.php.net/get/couchbase-2.4.3</g>
+ <g>https://pecl.php.net/get/couchbase-2.4.3</g>
  <x xlink:href="package.2.4.3.xml"/>
 </r>

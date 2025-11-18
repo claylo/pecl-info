@@ -18,6 +18,6 @@
 	- added support for TTL by function (optional argument to memoize())
 	- win32 fixes</n>
  <f>13016</f>
- <g>http://pecl.php.net/get/memoize-0.2.0</g>
+ <g>https://pecl.php.net/get/memoize-0.2.0</g>
  <x xlink:href="package.0.2.0.xml"/>
 </r>

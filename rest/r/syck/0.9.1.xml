@@ -20,6 +20,6 @@ YAML(tm) (rhymes with &quot;camel&quot;) is a straightforward machine parsable d
 - added support for DateTime in syck_dump
 - fixed dumping of associative-arrays</n>
  <f>8341</f>
- <g>http://pecl.php.net/get/syck-0.9.1</g>
+ <g>https://pecl.php.net/get/syck-0.9.1</g>
  <x xlink:href="package.0.9.1.xml"/>
 </r>

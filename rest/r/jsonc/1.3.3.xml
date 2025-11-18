@@ -19,6 +19,6 @@ This is a drop-in alternative to PHP standard json extension.</d>
 - drop confusing warning about JSON_BIGINT_AS_STRING
 - add E_NOTICE &quot;integer overflow detected&quot;</n>
  <f>62707</f>
- <g>http://pecl.php.net/get/jsonc-1.3.3</g>
+ <g>https://pecl.php.net/get/jsonc-1.3.3</g>
  <x xlink:href="package.1.3.3.xml"/>
 </r>

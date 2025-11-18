@@ -21,6 +21,6 @@ AOP aims to allow separation of cross-cutting concerns (cache, log, security, tr
 - Bugs on this in process()
 - Pyrus version</n>
  <f>290816</f>
- <g>http://pecl.php.net/get/AOP-0.2.1b3</g>
+ <g>https://pecl.php.net/get/AOP-0.2.1b3</g>
  <x xlink:href="package.0.2.1b3.xml"/>
 </r>

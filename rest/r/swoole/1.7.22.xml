@@ -32,6 +32,6 @@
 - Added swoole_server ssl_client_cert_file settings
 - Fixed timer exec_time overflow cause stop</n>
  <f>487337</f>
- <g>http://pecl.php.net/get/swoole-1.7.22</g>
+ <g>https://pecl.php.net/get/swoole-1.7.22</g>
  <x xlink:href="package.1.7.22.xml"/>
 </r>

@@ -18,6 +18,6 @@ Windows are supported.</d>
  <da>2014-04-23 21:21:11</da>
  <n>Fix w32 build, fix compiler warnings, use zval resource instead of LONG for handles</n>
  <f>8939</f>
- <g>http://pecl.php.net/get/pcsc-0.3</g>
+ <g>https://pecl.php.net/get/pcsc-0.3</g>
  <x xlink:href="package.0.3.xml"/>
 </r>

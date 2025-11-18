@@ -16,6 +16,6 @@
  <n>- PriorityQueue automatic truncate bug #78
 - Bugs related to unserialization. #77</n>
  <f>50406</f>
- <g>http://pecl.php.net/get/ds-1.1.8</g>
+ <g>https://pecl.php.net/get/ds-1.1.8</g>
  <x xlink:href="package.1.1.8.xml"/>
 </r>

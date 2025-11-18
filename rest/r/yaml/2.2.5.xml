@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/yaml">yaml</p>
+ <c>pecl.php.net</c>
+ <v>2.2.5</v>
+ <st>stable</st>
+ <l>MIT</l>
+ <m>bd808</m>
+ <s>YAML-1.1 parser and emitter</s>
+ <d>Support for YAML 1.1 (YAML Ain&#039;t Markup Language) serialization using the
+  LibYAML library.</d>
+ <da>2025-08-02 19:00:38</da>
+ <n>Bugs Fixed:
+- use Zend/zend_smart_string.h (remicollet)</n>
+ <f>41617</f>
+ <g>https://pecl.php.net/get/yaml-2.2.5</g>
+ <x xlink:href="package.2.2.5.xml"/>
+</r>

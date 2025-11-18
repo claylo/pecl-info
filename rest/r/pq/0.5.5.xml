@@ -27,6 +27,6 @@
 - Let JSON be decoded to arrays unless the fetch type is FETCH_OBJECT
 * Fix remaining build issues</n>
  <f>58524</f>
- <g>http://pecl.php.net/get/pq-0.5.5</g>
+ <g>https://pecl.php.net/get/pq-0.5.5</g>
  <x xlink:href="package.0.5.5.xml"/>
 </r>

@@ -77,6 +77,6 @@ Fixed bugs:
 - Fix a bug about BLOB/CLOB: When inserting LOB data, if the data size is large enough, it will fails. And if the LOB data is in a file, and it is too large to be put into memory, you can bind a file path name when binding the LOB data;
 - Fix a bug about CLOB: When binding data type is CLOB, it will fail when inserting it into CUBRID.</n>
  <f>40078</f>
- <g>http://pecl.php.net/get/CUBRID-8.4.0.0001</g>
+ <g>https://pecl.php.net/get/CUBRID-8.4.0.0001</g>
  <x xlink:href="package.8.4.0.0001.xml"/>
 </r>

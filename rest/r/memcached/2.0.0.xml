@@ -19,6 +19,6 @@
 - Make it work with libmemcached up to 1.0.4
 - Test against PHP 5.4.0</n>
  <f>39060</f>
- <g>http://pecl.php.net/get/memcached-2.0.0</g>
+ <g>https://pecl.php.net/get/memcached-2.0.0</g>
  <x xlink:href="package.2.0.0.xml"/>
 </r>

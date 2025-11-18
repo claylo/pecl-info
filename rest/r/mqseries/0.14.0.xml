@@ -18,6 +18,6 @@
 - Update all implemented mqseries_* functions to expose WebSphere v7 parameters (Pierrick)
 - Add mqseries_sub and mqseries_stat functions from WebSphere v7 (Pierrick)</n>
  <f>72358</f>
- <g>http://pecl.php.net/get/mqseries-0.14.0</g>
+ <g>https://pecl.php.net/get/mqseries-0.14.0</g>
  <x xlink:href="package.0.14.0.xml"/>
 </r>

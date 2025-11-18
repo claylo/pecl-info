@@ -49,6 +49,6 @@ Fixed bugs:
 
 1) APIS-176: Resolve the memory growth when continually execute SQL statements on one connection and don't close request.</n>
  <f>46409</f>
- <g>http://pecl.php.net/get/CUBRID-8.4.1.0004</g>
+ <g>https://pecl.php.net/get/CUBRID-8.4.1.0004</g>
  <x xlink:href="package.8.4.1.0004.xml"/>
 </r>

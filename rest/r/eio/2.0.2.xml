@@ -25,6 +25,6 @@
  <da>2017-04-17 10:43:48</da>
  <n>Fixed build error due to undefined O_FSYNC in musl libc</n>
  <f>74005</f>
- <g>http://pecl.php.net/get/eio-2.0.2</g>
+ <g>https://pecl.php.net/get/eio-2.0.2</g>
  <x xlink:href="package.2.0.2.xml"/>
 </r>

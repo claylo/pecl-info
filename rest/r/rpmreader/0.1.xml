@@ -19,6 +19,6 @@ or archive sections of the RPM file.
  <da>2005-10-06 12:39:56</da>
  <n>1) Initial release</n>
  <f>11978</f>
- <g>http://pecl.php.net/get/rpmreader-0.1</g>
+ <g>https://pecl.php.net/get/rpmreader-0.1</g>
  <x xlink:href="package.0.1.xml"/>
 </r>

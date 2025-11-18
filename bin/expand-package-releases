@@ -1,4 +1,4 @@
-#!/usr/bin/env php
+#!/usr/bin/env php -d display_errors=0 -d memory_limit=-1
 <?php
 
 // TODO clean up & standardize licenses to a new spdx key
@@ -35,7 +35,8 @@ if (isset($argv[1])) {
     }
 }
 
-function getSpdxId($pkg, $txt, $spdxMap, $version = null) {
+function getSpdxId($pkg, $txt, $spdxMap, $version = null)
+{
     $id = $spdxMap[$txt];
     if (array_key_exists($pkg, $spdxMap['package-specific'])) {
         if (array_key_exists($txt, $spdxMap['package-specific'][$pkg])) {

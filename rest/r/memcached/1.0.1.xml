@@ -15,6 +15,6 @@
  <da>2010-03-11 14:06:58</da>
  <n>- Fix build for libmemcached-0.38.</n>
  <f>22250</f>
- <g>http://pecl.php.net/get/memcached-1.0.1</g>
+ <g>https://pecl.php.net/get/memcached-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

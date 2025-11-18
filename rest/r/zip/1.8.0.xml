@@ -18,6 +18,6 @@
 - Fixed setComment when used with a freshly added entry
 - setComment now returns the expected value (boolean) (Hannes)</n>
  <f>59749</f>
- <g>http://pecl.php.net/get/zip-1.8.0</g>
+ <g>https://pecl.php.net/get/zip-1.8.0</g>
  <x xlink:href="package.1.8.0.xml"/>
 </r>

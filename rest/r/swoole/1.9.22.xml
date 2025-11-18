@@ -32,6 +32,6 @@
 - Added Async::exec
 - Added tsl_host_name option</n>
  <f>708510</f>
- <g>http://pecl.php.net/get/swoole-1.9.22</g>
+ <g>https://pecl.php.net/get/swoole-1.9.22</g>
  <x xlink:href="package.1.9.22.xml"/>
 </r>

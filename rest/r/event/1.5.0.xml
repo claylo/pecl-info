@@ -29,6 +29,6 @@ Add: EventListener::getSocketName method
 Fix: memory leak due to lack of zend_hash_destroy on the ssl context options
 Add: support of UNIX domain sockets in EventListener::__construct, EventBufferEvent::connect methods</n>
  <f>62294</f>
- <g>http://pecl.php.net/get/event-1.5.0</g>
+ <g>https://pecl.php.net/get/event-1.5.0</g>
  <x xlink:href="package.1.5.0.xml"/>
 </r>

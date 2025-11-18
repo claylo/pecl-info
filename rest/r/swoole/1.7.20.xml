@@ -33,6 +33,6 @@
 - Added swoole_client ssl certificate supports
 - Fixed swoole_http_server memory leak</n>
  <f>469962</f>
- <g>http://pecl.php.net/get/swoole-1.7.20</g>
+ <g>https://pecl.php.net/get/swoole-1.7.20</g>
  <x xlink:href="package.1.7.20.xml"/>
 </r>

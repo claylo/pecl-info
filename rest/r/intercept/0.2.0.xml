@@ -19,6 +19,6 @@
        Added checking to make sure the handler function
        is not an internal function.</n>
  <f>5957</f>
- <g>http://pecl.php.net/get/intercept-0.2.0</g>
+ <g>https://pecl.php.net/get/intercept-0.2.0</g>
  <x xlink:href="package.0.2.0.xml"/>
 </r>

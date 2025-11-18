@@ -16,6 +16,6 @@
  <n>Replaced predict_probability function with predict_probabilities that more closely
 mirrors the underlying API.</n>
  <f>111020</f>
- <g>http://pecl.php.net/get/svm-0.1.4</g>
+ <g>https://pecl.php.net/get/svm-0.1.4</g>
  <x xlink:href="package.0.1.4.xml"/>
 </r>

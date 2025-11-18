@@ -18,6 +18,6 @@
  <da>2009-03-12 02:17:56</da>
  <n>- Specfile to build RPM package is added.</n>
  <f>12027</f>
- <g>http://pecl.php.net/get/selinux-0.2.1</g>
+ <g>https://pecl.php.net/get/selinux-0.2.1</g>
  <x xlink:href="package.0.2.1.xml"/>
 </r>

@@ -17,6 +17,6 @@
 - Removed unused variables and dead code (remicollet)
 - Package tests with the release (remicollet)</n>
  <f>36146</f>
- <g>http://pecl.php.net/get/zmq-1.0.8</g>
+ <g>https://pecl.php.net/get/zmq-1.0.8</g>
  <x xlink:href="package.1.0.8.xml"/>
 </r>

@@ -19,6 +19,6 @@ Fixed bug #44372 (compilation with Oracle 10gR1 libraries)
 Fixed PECL bug #12431 (PEAR install using x86_64 RPM builds)
 Allow builds with PHP 4.3.9 onwards</n>
  <f>125752</f>
- <g>http://pecl.php.net/get/oci8-1.3.2</g>
+ <g>https://pecl.php.net/get/oci8-1.3.2</g>
  <x xlink:href="package.1.3.2.xml"/>
 </r>

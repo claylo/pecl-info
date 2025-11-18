@@ -32,6 +32,6 @@
 - Make increment/decrement initialize value when it is not available (when
   using binary protocol)</n>
  <f>38473</f>
- <g>http://pecl.php.net/get/memcached-2.0.0b2</g>
+ <g>https://pecl.php.net/get/memcached-2.0.0b2</g>
  <x xlink:href="package.2.0.0b2.xml"/>
 </r>

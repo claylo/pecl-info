@@ -15,6 +15,6 @@
  <da>2015-10-27 09:26:10</da>
  <n>- Compatibility with old distros and old versions of libsodium</n>
  <f>168200</f>
- <g>http://pecl.php.net/get/libsodium-1.0.2</g>
+ <g>https://pecl.php.net/get/libsodium-1.0.2</g>
  <x xlink:href="package.1.0.2.xml"/>
 </r>

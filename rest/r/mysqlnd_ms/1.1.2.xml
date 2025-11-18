@@ -15,6 +15,6 @@
  <da>2011-11-04 15:02:33</da>
  <n>Fixed the build for 5.4. Declaring the code as stable</n>
  <f>284596</f>
- <g>http://pecl.php.net/get/mysqlnd_ms-1.1.2</g>
+ <g>https://pecl.php.net/get/mysqlnd_ms-1.1.2</g>
  <x xlink:href="package.1.1.2.xml"/>
 </r>

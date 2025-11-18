@@ -19,6 +19,6 @@ necessary to build a fully-functional MongoDB driver.</d>
 * PHPC-631: Regression tests for UTCDateTime::toDateTime()
 * PHPC-631: Fix timelib_time.f assignment in UTCDateTime::toDateTime()</n>
  <f>806900</f>
- <g>http://pecl.php.net/get/mongodb-1.1.8</g>
+ <g>https://pecl.php.net/get/mongodb-1.1.8</g>
  <x xlink:href="package.1.1.8.xml"/>
 </r>

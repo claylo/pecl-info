@@ -86,6 +86,6 @@ Xdebug also provides:
 	- Fixed bug #208: Socket connection attempted when XDEBUG_SESSION_STOP.
 	- Fixed PECL bug #8989: Compile error with PHP 5 and GCC 2.95.</n>
  <f>259763</f>
- <g>http://pecl.php.net/get/xdebug-2.0.0RC2</g>
+ <g>https://pecl.php.net/get/xdebug-2.0.0RC2</g>
  <x xlink:href="package.2.0.0RC2.xml"/>
 </r>

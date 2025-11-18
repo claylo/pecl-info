@@ -74,6 +74,6 @@ Security addition
 Changes since 2.0.0a2: many bugfixes, removal of phar.extract_list, compression API refactored,
  conversion API refactored</n>
  <f>271410</f>
- <g>http://pecl.php.net/get/phar-2.0.0b1</g>
+ <g>https://pecl.php.net/get/phar-2.0.0b1</g>
  <x xlink:href="package.2.0.0b1.xml"/>
 </r>

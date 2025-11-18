@@ -17,6 +17,6 @@ Cloudscape, and Apache Derby databases.</d>
  <da>2018-03-26 12:14:03</da>
  <n>Added support for PHP 7.2</n>
  <f>377869</f>
- <g>http://pecl.php.net/get/ibm_db2-2.0.4</g>
+ <g>https://pecl.php.net/get/ibm_db2-2.0.4</g>
  <x xlink:href="package.2.0.4.xml"/>
 </r>

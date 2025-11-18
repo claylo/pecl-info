@@ -18,6 +18,6 @@ libssh2 is available from http://www.sourceforge.net/projects/libssh2
  <da>2005-11-01 18:49:24</da>
  <n>Added support for publickey subsystem.</n>
  <f>22187</f>
- <g>http://pecl.php.net/get/ssh2-0.10</g>
+ <g>https://pecl.php.net/get/ssh2-0.10</g>
  <x xlink:href="package.0.10.xml"/>
 </r>

@@ -46,6 +46,6 @@ HttpUtil, HttpMessage, HttpRequest, HttpRequestPool; HttpResponse (PHP-5.1)</d>
 * Fixed several memory leaks and inconspicuous access violations
 * Fixed some logical errors in the uri builder</n>
  <f>143182</f>
- <g>http://pecl.php.net/get/pecl_http-0.20.0</g>
+ <g>https://pecl.php.net/get/pecl_http-0.20.0</g>
  <x xlink:href="package.0.20.0.xml"/>
 </r>

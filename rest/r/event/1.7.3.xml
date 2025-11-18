@@ -24,6 +24,6 @@
  <n>Fix: in php_event.c write_property function was non-static
 Fix: absence of get_gc property handler caused segfaults with gc_collect_cycles()</n>
  <f>68824</f>
- <g>http://pecl.php.net/get/event-1.7.3</g>
+ <g>https://pecl.php.net/get/event-1.7.3</g>
  <x xlink:href="package.1.7.3.xml"/>
 </r>

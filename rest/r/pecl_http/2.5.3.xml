@@ -31,6 +31,6 @@ http://dev.iworks.at/ext-http/lcov/ext/http/</d>
  <n>* Fixed gh-issue #12: crash on bad url passed to http\Message::setRequestUrl()
 * The URL parser now fails on empty labels</n>
  <f>191863</f>
- <g>http://pecl.php.net/get/pecl_http-2.5.3</g>
+ <g>https://pecl.php.net/get/pecl_http-2.5.3</g>
  <x xlink:href="package.2.5.3.xml"/>
 </r>

@@ -17,6 +17,6 @@
 - PECL Bug #8676, zipArchive::addFile was not updated and still used VCWD_REALPATH, it now uses expand_filename
 - Fixed wrong internal types for comment lenghts, does not affect userland script (Nuno Lopes)</n>
  <f>56415</f>
- <g>http://pecl.php.net/get/zip-1.7.3</g>
+ <g>https://pecl.php.net/get/zip-1.7.3</g>
  <x xlink:href="package.1.7.3.xml"/>
 </r>

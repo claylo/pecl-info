@@ -20,6 +20,6 @@ Issue 10: Automatic retry implemented and set to 1 retry by default
 Fixes:
 Issue 55: Implemented missing getter for last modified on object.</n>
  <f>134477</f>
- <g>http://pecl.php.net/get/riak-1.1.0</g>
+ <g>https://pecl.php.net/get/riak-1.1.0</g>
  <x xlink:href="package.1.1.0.xml"/>
 </r>

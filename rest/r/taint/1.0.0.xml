@@ -16,6 +16,6 @@
  <da>2012-06-23 05:32:37</da>
  <n>- Fixed bug #62395 (str_replace重写有误)</n>
  <f>15174</f>
- <g>http://pecl.php.net/get/taint-1.0.0</g>
+ <g>https://pecl.php.net/get/taint-1.0.0</g>
  <x xlink:href="package.1.0.0.xml"/>
 </r>

@@ -205,7 +205,7 @@
             "releasedBy": "yitam",
             "releaseDate": "2018-09-24T17:01:38+00:00",
             "releaseNotes": "[Added]\n- Added support for PHP 7.3.0 RC 1\n- Added support for Azure AD Access Token (in Linux / macOS this requires [MS ODBC Driver 17+](https://docs.microsoft.com/sql/connect/odbc/linux-mac/installing-the-microsoft-odbc-driver-for-sql-server) and [unixODBC](http://www.unixodbc.org/) 2.3.6+)\n- Feature Request [#842](https://github.com/Microsoft/msphpsql/pull/842) - new PDO_STMT_OPTION_FETCHES_DATETIME_TYPE flag for pdo_sqlsrv to return datetime as objects\n- Compatible with [ODBC Driver 17.3 CTP](https://blogs.msdn.microsoft.com/sqlnativeclient/2018/09/24/odbc-driver-17-3-preview-for-sql-server-released/)\n[Removed]\n- Dropped support for Ubuntu 17.10\n- Dropped support for PHP 7.0 - [Version 5.3](https://docs.microsoft.com/sql/connect/php/system-requirements-for-the-php-sql-driver?view=sql-server-2017) is the last to support PHP 7.0.\n[Fixed]\n- Issue [#434](https://github.com/Microsoft/msphpsql/issues/434) - To avoid the pitfall that could result in a crash, before freeing stmt in the destructor check if its dbh driver data is NULL\n- Pull Request [#836](https://github.com/Microsoft/msphpsql/pull/836) - Modified the config files to enable Spectre Mitigations (use /Qspectre switch) for PHP 7.2\n- Pull Request [#833](https://github.com/Microsoft/msphpsql/pull/833) - Streamlined the error handling to remove a potential cause of crash\n[Limitations]\n- No support for inout / output params when using sql_variant type\n- In Linux and macOS, setlocale() only takes effect if it is invoked before the first connection. Attempting to set the locale after connecting will not work\n- Always Encrypted requires [MS ODBC Driver 17+](https://docs.microsoft.com/en-us/sql/connect/odbc/linux-mac/installing-the-microsoft-odbc-driver-for-sql-server?view=sql-server-2017)\n  - Only Windows Certificate Store and Azure Key Vault are supported. Custom Keystores are not yet supported\n  - Issue [#716](https://github.com/Microsoft/msphpsql/issues/716) - With Always Encrypted enabled, named parameters in subqueries are not supported\n  - [Always Encrypted limitations](https://docs.microsoft.com/en-us/sql/connect/php/using-always-encrypted-php-drivers?view=sql-server-2017#limitations-of-the-php-drivers-when-using-always-encrypted)\n[Known Issues]\n- Connection pooling on Linux or macOS is not recommended with [unixODBC](http://www.unixodbc.org/) < 2.3.6\n- When pooling is enabled in Linux or macOS\n  - unixODBC <= 2.3.4 (Linux and macOS) might not return proper diagnostic information, such as error messages, warnings and informative messages\n  - due to this unixODBC bug, fetch large data (such as xml, binary) as streams as a workaround. See the examples [here](https://github.com/Microsoft/msphpsql/wiki/Features#pooling)\n- With ColumnEncryption enabled, calling stored procedure with XML parameter does not work (Issue [#674](https://github.com/Microsoft/msphpsql/issues/674))\n- With ColumnEncryption enabled, fetching varbinary(max), varchar(max) or nvarchar(max) may fail with ODBC Driver 17.3 CTP",
-            "get": "http://pecl.php.net/get/pdo_sqlsrv-5.4.0preview",
+            "get": "https://pecl.php.net/get/pdo_sqlsrv-5.4.0preview",
             "SPDX-License-Identifier": "MIT"
         },
         "5.3.0": {
@@ -215,7 +215,7 @@
             "releasedBy": "yitam",
             "releaseDate": "2018-07-20T18:02:01+00:00",
             "releaseNotes": "[Added]\n- Added support for Azure Key Vault for Always Encrypted functionality. Always Encrypted functionality is supported on Linux and macOS through Azure Key Vault\n- Added support for connection resiliency on Linux and macOS (requires version 17.2 or higher of the [ODBC driver](https://docs.microsoft.com/en-us/sql/connect/odbc/linux-mac/installing-the-microsoft-odbc-driver-for-sql-server?view=sql-server-2017))\n- Added support for macOS High Sierra (requires version 17 or higher of the [ODBC driver](https://docs.microsoft.com/en-us/sql/connect/odbc/linux-mac/installing-the-microsoft-odbc-driver-for-sql-server?view=sql-server-2017))\n- Added support for Ubuntu 18.04 (requires version 17.2 or higher of the [ODBC driver](https://docs.microsoft.com/en-us/sql/connect/odbc/linux-mac/installing-the-microsoft-odbc-driver-for-sql-server?view=sql-server-2017))\n[Fixed]\n- Issue [#577](https://github.com/Microsoft/msphpsql/issues/577) - Idle Connection Resiliency doesn't work with Column Encryption enabled connections (fixed in MS ODBC Driver 17.1)\n- Issue [#678](https://github.com/Microsoft/msphpsql/issues/678) - Idle Connection Resiliency doesn't work with Connection Pooling (fixed in MS ODBC Driver 17.1)\n- Issue [#705](https://github.com/Microsoft/msphpsql/issues/705) - Always Encrypted - Retrieving a negative decimal value (edge case) as output parameter causes truncation\n- Issue [#706](https://github.com/Microsoft/msphpsql/issues/706) - Always Encrypted - Cannot insert double with precision and scale (38, 38)\n- Issue [#707](https://github.com/Microsoft/msphpsql/issues/707) - Always Encrypted - Fetching decimals / numerics as output parameters bound to PDO::PARAM_BOOL or PDO::PARAM_INT returns floats, not integers \n- Issue [#735](https://github.com/Microsoft/msphpsql/issues/735) - Extended the buffer size for PDO::lastInsertId so that data types other than integers can be supported\n- Pull Request [#759](https://github.com/Microsoft/msphpsql/pull/759) - Removed the limitation of binding a binary as inout param as PDO::PARAM_STR with SQLSRV_ENCODING_BINARY\n[Limitations]\n- No support for inout / output params when using sql_variant type\n- In Linux and macOS, setlocale() only takes effect if it is invoked before the first connection. Attempting to set the locale after connecting will not work\n- Always Encrypted requires [MS ODBC Driver 17+](https://docs.microsoft.com/en-us/sql/connect/odbc/linux-mac/installing-the-microsoft-odbc-driver-for-sql-server?view=sql-server-2017)\n  - Only Windows Certificate Store and Azure Key Vault are supported. Custom Keystores are not yet supported\n  - Issue [#716](https://github.com/Microsoft/msphpsql/issues/716) - With Always Encrypted enabled, named parameters in subqueries are not supported\n  - [Always Encrypted limitations](https://docs.microsoft.com/en-us/sql/connect/php/using-always-encrypted-php-drivers?view=sql-server-2017#limitations-of-the-php-drivers-when-using-always-encrypted)\n[Known Issues]\n- Connection pooling on Linux or macOS is not recommended with [unixODBC](http://www.unixodbc.org/) < 2.3.6\n- When pooling is enabled in Linux or macOS\n  - unixODBC <= 2.3.4 (Linux and macOS) might not return proper diagnostic information, such as error messages, warnings and informative messages\n  - due to this unixODBC bug, fetch large data (such as xml, binary) as streams as a workaround. See the examples [here](https://github.com/Microsoft/msphpsql/wiki/Features#pooling)\n- With ColumnEncryption enabled, calling stored procedure with XML parameter does not work (Issue [#674](https://github.com/Microsoft/msphpsql/issues/674))",
-            "get": "http://pecl.php.net/get/pdo_sqlsrv-5.3.0",
+            "get": "https://pecl.php.net/get/pdo_sqlsrv-5.3.0",
             "SPDX-License-Identifier": "MIT"
         },
         "5.2.1preview": {
@@ -225,7 +225,7 @@
             "releasedBy": "mbar",
             "releaseDate": "2018-05-30T18:09:04+00:00",
             "releaseNotes": "[Added]\n- Added support for Azure Key Vault for Always Encrypted for basic CRUD functionalities such that Always Encrypted feature is also available to Linux or macOS users \n- Added support for macOS High Sierra (requires [MS ODBC Driver 17+](https://docs.microsoft.com/en-us/sql/connect/odbc/linux-mac/installing-the-microsoft-odbc-driver-for-sql-server?view=sql-server-2017))\n[Fixed]\n- Issue [#577](https://github.com/Microsoft/msphpsql/issues/577) - Idle Connection Resiliency doesn't work with Column Encryption enabled connection\n- Issue [#678](https://github.com/Microsoft/msphpsql/issues/678) - Idle Connection Resiliency doesn't work with Connection Pooling bug\n- Issue [#705](https://github.com/Microsoft/msphpsql/issues/705) - AE - Retrieving a negative decimal value (edge case) as output parameter causes truncation\n- Issue [#706](https://github.com/Microsoft/msphpsql/issues/706) - AE - Cannot insert double with precision and scale (38, 38)\n- Issue [#707](https://github.com/Microsoft/msphpsql/issues/707) - AE - Fetching decimals / numerics as output parameters bound to PDO::PARAM_BOOL or PDO::PARAM_INT returns floats, not integers \n- Issue [#735](https://github.com/Microsoft/msphpsql/issues/735) - Extended the buffer size for PDO lastInsertId such that data types other than integers can be supported\n[Limitations]\n- No support for inout / output params when using sql_variant type\n- In Linux and macOS, setlocale() only takes effect if it is invoked before the first connection. The subsequent locale setting will not work\n- Always Encrypted feature, which requires [MS ODBC Driver 17+](https://docs.microsoft.com/en-us/sql/connect/odbc/linux-mac/installing-the-microsoft-odbc-driver-for-sql-server?view=sql-server-2017)\n  - only Windows Certificate Store and Azure Key Vault are supported\n  - Issue [#716](https://github.com/Microsoft/msphpsql/issues/716) - With Always Encrypted feature enabled, Named Parameters in Sub Queries are not supported\n  - [Always Encrypted limitations](https://docs.microsoft.com/en-us/sql/connect/php/using-always-encrypted-php-drivers?view=sql-server-2017#limitations-of-the-php-drivers-when-using-always-encrypted)\n[Known Issues]\n- Connection pooling on Linux or macOS not recommended with [unixODBC](http://www.unixodbc.org/) < 2.3.6\n- When pooling is enabled in Linux or macOS\n  - unixODBC <= 2.3.4 (Linux and macOS) might not return proper diagnostics information, such as error messages, warnings and informative messages\n  - due to this unixODBC bug, fetch large data (such as xml, binary) as streams as a workaround. See the examples [here](https://github.com/Microsoft/msphpsql/wiki/Features#pooling)\n- With ColumnEncryption enabled, calling stored procedure with XML parameter does not work (Issue [#674](https://github.com/Microsoft/msphpsql/issues/674))",
-            "get": "http://pecl.php.net/get/pdo_sqlsrv-5.2.1preview",
+            "get": "https://pecl.php.net/get/pdo_sqlsrv-5.2.1preview",
             "SPDX-License-Identifier": "MIT"
         },
         "5.2.0": {
@@ -235,7 +235,7 @@
             "releasedBy": "mbar",
             "releaseDate": "2018-03-23T21:29:52+00:00",
             "releaseNotes": "[Added]\n- Added support for Always Encrypted with basic CRUD functionalities (see here [here] (https://github.com/Microsoft/msphpsql/wiki/Features#aebindparam))\n  - Support for Windows Certificate Store (use connection keyword ColumnEncryption)\n  - Support for inserting into and modifying an encrypted column\n  - Support for fetching from an encrypted column\n- Added support for PHP 7.2\n- Added support for MSODBC 17\n- Added support for Ubuntu 17 (requires MSODBC 17)\n- Added support for Debian 9 (requires MSODBC 17)\n- Added support for SUSE 12\n- Added Driver option to set the ODBC driver, Added \"Driver\" option, valid values are ODBC Driver 17 for SQL Server, ODBC Driver 13 for SQL Server, and ODBC Driver 11 for SQL Server\n  - The default driver is ODBC Driver 17 for SQL Server\n[Changed]\n- Implementation of PDO::lastInsertId($name) to return the last inserted sequence number if the sequence name is supplied to the function (lastInsertId)\n[Fixed]\n- Issue #555 - Hebrew strings truncation (requires MSODBC 17)\n- Adjusted precisions for numeric/decimal inputs with Always Encrypted\n- Support for non-UTF8 locales in Linux and macOS\n- Fixed crash caused by executing an invalid query in a transaction (Issue #434)\n- Added error handling for using PDO::SQLSRV_ATTR_DIRECT_QUERY or PDO::ATTR_EMULATE_PREPARES in a Column Encryption enabled connection\n- Added error handling for binding TEXT, NTEXT or IMAGE as output parameter (Issue #231)\n- PDO::quote with string containing ASCII NUL character (Issue #538)\n- Decimal types with no decimals are correctly handled when AE is enabled (PR #544)\n- BIGINT as an output param no longer results in value out of range exception when the returned value is larger than a maximum integer (PR #567)\n[Removed]\n- No longer support Ubuntu 15\n- Supplying tablename into PDO::lastInsertId($name) no longer return the last inserted row (lastInsertId [lastInsertId](https://github.com/Microsoft/msphpsql/wiki/Features#aebindparam))\n[Limitations]\n- In Linux and macOS, setlocale() only takes effect if it is invoked before the first connection. The subsequent locale setting will not work\n- Always Encrypted functionalities are only supported using MSODBC 17\n- Always Encrypted limitations [Always Encrypted limitations](https://github.com/Microsoft/msphpsql/wiki/Features#aelimitation)\n- When using sqlsrv_query with Always Encrypted feature, SQL type has to be specified for each input (see here [here](https://github.com/Microsoft/msphpsql/wiki/Features#aebindparam))\n- No support for inout / output params when using sql_variant type\n[Known Issues]\n- Connection pooling on Linux doesn't work properly when using the MSODBC 17 preview\n- When pooling is enabled in Linux or macOS\n  - unixODBC <= 2.3.4 (Linux and macOS) might not return proper diagnostics information, such as error messages, warnings and informative messages\n  - due to this unixODBC bug, fetch large data (such as xml, binary) as streams as a workaround. See the examples here [here](https://github.com/Microsoft/msphpsql/wiki/Connection-Pooling-on-Linux-and-Mac)\n- Calling stored procedure with XML parameter does not work with Column Encryption enabled (Issue #674)\n- Connection with Connection Resiliency enabled so not resume properly with Connection Pooling (Issue #678)\n- Cannot connect with both Connection Resiliency enabled and ColumnEncryption enabled (Issue #577)",
-            "get": "http://pecl.php.net/get/pdo_sqlsrv-5.2.0",
+            "get": "https://pecl.php.net/get/pdo_sqlsrv-5.2.0",
             "SPDX-License-Identifier": "MIT"
         },
         "5.2.0RC1": {
@@ -245,7 +245,7 @@
             "releasedBy": "mbar",
             "releaseDate": "2017-12-21T23:25:29+00:00",
             "releaseNotes": "[Added]\n- Added support for Ubuntu 17 (requires ODBC 17 preview)\n- Added support for Debian 9 (requires ODBC 17 preview)\n[Fixed]\n- Adjusted precisions for numeric/decimal inputs with Always Encrypted\n- Fixed bugs when binding parameters with Always Encrypted\n- Fixed warnings as per Prefast code analysis\n[Limitations]\n- In Linux and macOS, setlocale() only takes effect if it is invoked before the first connection. The subsequent locale setting will not work\n- Always Encrypted functionalities are only supported using MSODBC 17 preview\n  - ODBC binaries for macOS available upon request\n- MSODBC 17 preview msodbcsql.msi only works for Windows10\n- Always Encrypted limitations\n- No support for inout / output params when using sql_variant type\n- Does not support non-UTF8 locales in Linux and macOS with Always Encrypted\n[Known Issues]\n- Connection pooling on Linux doesn't work properly when using the MSODBC17 preview\n- When pooling is enabled in Linux or macOS\n  - unixODBC <= 2.3.4 (Linux and macOS) might not return proper diagnostics information, such as error messages, warnings and informative messages\n  - due to this unixODBC bug, fetch large data (such as xml, binary) as streams as a workaround. See the examples [here](https://github.com/Microsoft/msphpsql/wiki/Connection-Pooling-on-Linux-and-Mac)",
-            "get": "http://pecl.php.net/get/pdo_sqlsrv-5.2.0RC1",
+            "get": "https://pecl.php.net/get/pdo_sqlsrv-5.2.0RC1",
             "SPDX-License-Identifier": "MIT"
         },
         "5.2.0RC": {
@@ -255,7 +255,7 @@
             "releasedBy": "mbar",
             "releaseDate": "2017-12-20T20:32:08+00:00",
             "releaseNotes": "[Added]\n- Azure Active Directory Authentication with ActiveDirectoryPassword and SqlPassword\n[Fixed]\n- Fixed output parameter returning garbage when the parameter is initialized to a type that is different from the output type (issue #378)\n- Fixed incorrectly binding of unicode parameter when emulate prepare is on and the encoding is set at the statement level (issue #92)\n- Fixed binary column binding when emulate prepare is on (issue #140)\n[Known Issues]\n- User defined data types and SQL_VARIANT ([issue #127]\n- When pooling is enabled in Linux or MAC\n  - unixODBC 2.3.1 (Linux) and unixODBC 2.3.4 (MAC) might not return proper diagnostics information, such as error messages, warnings and informative messages\n  - due to this unixODBC bug, fetch large data (such as xml, binary) as streams as a workaround. See the examples (https://github.com/Microsoft/msphpsql/wiki/Connection-Pooling-on-Linux-and-Mac)",
-            "get": "http://pecl.php.net/get/pdo_sqlsrv-5.2.0RC",
+            "get": "https://pecl.php.net/get/pdo_sqlsrv-5.2.0RC",
             "SPDX-License-Identifier": "MIT"
         },
         "5.1.2preview": {
@@ -265,7 +265,7 @@
             "releasedBy": "mbar",
             "releaseDate": "2017-11-22T17:11:43+00:00",
             "releaseNotes": "[Fixed]\n- PDO::quote with string containing ASCII NUL character (Issue [#538]( https://github.com/Microsoft/msphpsql/issues/538))\n- Appropriate error message is returned when calling nextRowset() or sqlsrv_next_result() on an empty result set (issue [#507 ](https://github.com/Microsoft/msphpsql/issues/507))\n- Decimal types with no decimals are correctly handled when AE is enabled (PR [#544](https://github.com/Microsoft/msphpsql/pull/544))\n- Search for installed ODBC drivers in Linux/macOS first before attempting to connect using the default ODBC driver \n- BIGINT as an output param no longer results in value out of range exception when the returned value is larger than a maximum integer ([PR #567](https://github.com/Microsoft/msphpsql/pull/567))\n[Limitations]\n- Always Encrypted functionalities are only supported using [MSODBC 17 preview](https://github.com/Microsoft/msphpsql/tree/dev/ODBC%2017%20binaries%20preview)\n  - ODBC binaries for macOS available upon request\n- MSODBC 17 preview msodbcsql.msi only works for Windows10\n- [Always Encrypted limitations](https://github.com/Microsoft/msphpsql/wiki/Features#aelimitation)\n- When using sqlsrv_query with Always Encrypted feature, SQL type has to be specified for each input (see [here](https://github.com/Microsoft/msphpsql/wiki/Features#aebindparam))\n- No support for inout / output params when using sql_variant type\n[Known Issues]\n- Connection pooling on Linux doesn't work properly when using the MSODBC17 preview\n- When pooling is enabled in Linux or MAC\n  - unixODBC <= 2.3.4 (Linux and MAC) might not return proper diagnostics information, such as error messages, warnings and informative messages\n  - due to this unixODBC bug, fetch large data (such as xml, binary) as streams as a workaround. See the examples [here](https://github.com/Microsoft/msphpsql/wiki/Connection-Pooling-on-Linux-and-Mac)",
-            "get": "http://pecl.php.net/get/pdo_sqlsrv-5.1.2preview",
+            "get": "https://pecl.php.net/get/pdo_sqlsrv-5.1.2preview",
             "SPDX-License-Identifier": "MIT"
         },
         "5.1.1preview": {
@@ -275,7 +275,7 @@
             "releasedBy": "mbar",
             "releaseDate": "2017-10-25T20:44:27+00:00",
             "releaseNotes": "[Fixed]\n- PDO::quote with string containing ASCII NUL character (Issue [#538]( https://github.com/Microsoft/msphpsql/issues/538))\n- Appropriate error message is returned when calling nextRowset() or sqlsrv_next_result() on an empty result set (issue [#507 ](https://github.com/Microsoft/msphpsql/issues/507))\n- Decimal types with no decimals are correctly handled when AE is enabled (PR [#544](https://github.com/Microsoft/msphpsql/pull/544))\n- Search for installed ODBC drivers in Linux/macOS first before attempting to connect using the default ODBC driver \n- BIGINT as an output param no longer results in value out of range exception when the returned value is larger than a maximum integer ([PR #567](https://github.com/Microsoft/msphpsql/pull/567))\n[Limitations]\n- Always Encrypted functionalities are only supported using [MSODBC 17 preview](https://github.com/Microsoft/msphpsql/tree/dev/ODBC%2017%20binaries%20preview)\n  - ODBC binaries for macOS available upon request\n- MSODBC 17 preview msodbcsql.msi only works for Windows10\n- [Always Encrypted limitations](https://github.com/Microsoft/msphpsql/wiki/Features#aelimitation)\n- When using sqlsrv_query with Always Encrypted feature, SQL type has to be specified for each input (see [here](https://github.com/Microsoft/msphpsql/wiki/Features#aebindparam))\n- No support for inout / output params when using sql_variant type\n[Known Issues]\n- Connection pooling on Linux doesn't work properly when using the MSODBC17 preview\n- When pooling is enabled in Linux or MAC\n  - unixODBC <= 2.3.4 (Linux and MAC) might not return proper diagnostics information, such as error messages, warnings and informative messages\n  - due to this unixODBC bug, fetch large data (such as xml, binary) as streams as a workaround. See the examples [here](https://github.com/Microsoft/msphpsql/wiki/Connection-Pooling-on-Linux-and-Mac)",
-            "get": "http://pecl.php.net/get/pdo_sqlsrv-5.1.1preview",
+            "get": "https://pecl.php.net/get/pdo_sqlsrv-5.1.1preview",
             "SPDX-License-Identifier": "MIT"
         },
         "5.1.0preview": {
@@ -285,7 +285,7 @@
             "releasedBy": "mbar",
             "releaseDate": "2017-09-20T20:45:58+00:00",
             "releaseNotes": "[Added]\n- Added support for Always Encrypted with basic CRUD functionalities (see [here](https://github.com/Microsoft/msphpsql/wiki/Features#aebindparam))\n  - Support for Windows Certificate Store (use connection keyword ColumnEncryption)\n  - Support for custom key store provider (use connection keywords ColumnEncryption, CEKeystoreProvider, CEKeystoreName, CEKeystoreEncryptKey)\n  - Support for inserting into an encrypted column\n  - Support for fetching from an encrypted column\n- Added support for MSODBC 17 preview\n- Added Driver option to set the ODBC driver, Added\"Driver\" option, valid values are ODBC Driver 13 for SQL Server,ODBC Driver 11 for SQL Server, and ODBC Driver 17 for SQL Server\n  - If the user intends to use the new Always Encrypted features, we recommend you to specify explicitly the 'Driver' option to 'ODBC Driver 17 for SQL Server' in the connection string\n[Limitation]\n- Always Encrypted functionalities are only supported using [MSODBC 17 preview](https://github.com/Microsoft/msphpsql/tree/dev/ODBC%2017%20binaries%20preview)\n  - ODBC binaries for macOS available upon request\n- MSODBC 17 preview msodbcsql.msi only works for Windows10\n- [Always Encrypted limitations](https://github.com/Microsoft/msphpsql/wiki/Features#aelimitation)\n- when using sqlsrv_query with Always Encrypted feature, SQL type has to be specified for each input (see [here](https://github.com/Microsoft/msphpsql/wiki/Features#aebindparam))\n- No support for inout / output params when using sql_variant type\n[Known Issues]\n- Connection pooling on Linux doesn't work properly if the user uses the MSODBC17 preview\n- PDO::quote returns truncated string with garbage characters appended if the string contains a ASCII NUL ('/0') character\n- When pooling is enabled in Linux or MAC\n  - unixODBC 2.3.4 or prior (Linux and MAC) might not return proper diagnostics information, such as error messages, warnings and informative messages\n  - due to this unixODBC bug, fetch large data (such as xml, binary) as streams as a workaround. See the examples (https://github.com/Microsoft/msphpsql/wiki/Connection-Pooling-on-Linux-and-Mac)",
-            "get": "http://pecl.php.net/get/pdo_sqlsrv-5.1.0preview",
+            "get": "https://pecl.php.net/get/pdo_sqlsrv-5.1.0preview",
             "SPDX-License-Identifier": "MIT"
         },
         "5.0.0preview": {
@@ -295,7 +295,7 @@
             "releasedBy": "mbar",
             "releaseDate": "2017-07-31T22:11:41+00:00",
             "releaseNotes": "[Added]\n- Added support for PHP 7.2 Beta 1\n[Changed]\n- Implementation of PDO::lastInsertId($name) to return the last inserted sequence number if the sequence name is supplied to the function ([lastInsertId](https://github.com/Microsoft/msphpsql/wiki/Features#lastinsertid))\n[Removed]\n- No longer support Ubuntu 15\n- Supplying tablename into PDO::lastInsertId($name) no longer return the last inserted row ([lastInsertId](https://github.com/Microsoft/msphpsql/wiki/Features#lastinsertid))\n[Limitation]\n- No support for inout / output params when using sql_variant type\n[Known Issues]\n- When pooling is enabled in Linux or MAC\n  - unixODBC 2.3.4 or prior (Linux and MAC) might not return proper diagnostics information, such as error messages, warnings and informative messages\n  - due to this unixODBC bug, fetch large data (such as xml, binary) as streams as a workaround. See the examples (https://github.com/Microsoft/msphpsql/wiki/Connection-Pooling-on-Linux-and-Mac)",
-            "get": "http://pecl.php.net/get/pdo_sqlsrv-5.0.0preview",
+            "get": "https://pecl.php.net/get/pdo_sqlsrv-5.0.0preview",
             "SPDX-License-Identifier": "MIT"
         },
         "4.3.0": {
@@ -305,7 +305,7 @@
             "releasedBy": "hadisfard",
             "releaseDate": "2017-07-06T18:56:07+00:00",
             "releaseNotes": "[Added]\n- Added Unicode Column name support (issue #138). \n- Support for Always On Availability groups via Transparent Network IP Resolution (TNIR)  \n- Added support for sql_variant data type with limitation (issue #51 and issue #127) \n- Support drivers on Debian Jessie (tested on Debian 8.7) \n- Connection Resiliency support in Windows \n- Connection pooling support for Linux and macOS  \n- Support for Mac(El Capitan and above) \n- Azure Active Directory Authentication with ActiveDirectoryPassword and SqlPassword \n[Fixed]\n- Fixed PECL installation errors when PHP was installed from source (issue #213). \n- Fixed segmentation fault with PDOStatement::getColumnMeta() when the supplied column index is out of range (issue #224). \n- Fixed the assertion error (Linux) when fetching data from a binary column using the binary encoding (issue #226). \n- Fixed issue output parameters bound to empty string (issue #182). \n- Fixed issue with SQLSRV_ATTR_FETCHES_NUMERIC_TYPE when column return type is set on statement (issue #173). \n- Fixed a memory leak in closing connection resources. \n- Fixed load ordering issue in MacOS (issue #417) \n- Added a workaround for a bug in unixODBC 2.3.4 when connection pooling is enabled. \n- Fixed the issue with driver loading order in macOS \n- Fixed null returned when an empty string is set to an output parameter (issue #308). \n- Fixed incorrectly binding of unicode parameter when emulate prepare is on and the encoding is set at the statement level (issue #92). \n- Fixed binary column binding when emulate prepare is on (issue #140). \n- Improved performance by implementing a cache to store column SQL types and display sizes (issue #189). \n- Fixed issue with the unsupported attribute PDO::ATTR_PERSISTENT in connection (issue #65). \n- Fixed the issue with executing DELETE operation on a non-existent value (issue #336). \n- Fixed incorrectly binding of unicode parameter when emulate prepare is on and the encoding is set at the statement level (issue #92). \n- Fixed wrong value returned when fetching varbinary value on Linux (issue #270). \n- Fixed binary data not returned when the column is bound by name (issue #35). \n- Fixed exception thrown on closeCursor() when the statement has not been executed (issue #267). \n[Limitation]\n- Limited support for inout / output params when using sql_variant type\n[Known Issues]\n- When pooling is enabled in Linux or MAC\n  - unixODBC 2.3.4 or prior (Linux and MAC) might not return proper diagnostics information, such as error messages, warnings and informative messages\n  - due to this unixODBC bug, fetch large data (such as xml, binary) as streams as a workaround. See the examples (https://github.com/Microsoft/msphpsql/wiki/Connection-Pooling-on-Linux-and-Mac)",
-            "get": "http://pecl.php.net/get/pdo_sqlsrv-4.3.0",
+            "get": "https://pecl.php.net/get/pdo_sqlsrv-4.3.0",
             "SPDX-License-Identifier": "MIT"
         },
         "4.3.0RC1": {
@@ -315,7 +315,7 @@
             "releasedBy": "hadisfard",
             "releaseDate": "2017-06-21T23:28:52+00:00",
             "releaseNotes": "[Added]\n- Added Transparent Network IP Resolution (TNIR) feature.\n[Fixed]\n- Fixed a memory leak in closing connection resources.\n- Fixed load ordering issue in MacOS [issue #417]\n[Limitation]\n- Limited support for inout / output params when using sql_variant type\n[Known Issues]\n- When pooling is enabled in Linux or MAC\n  - unixODBC 2.3.4 or prior (Linux and MAC) might not return proper diagnostics information, such as error messages, warnings and informative messages\n  - due to this unixODBC bug, fetch large data (such as xml, binary) as streams as a workaround. See the examples (https://github.com/Microsoft/msphpsql/wiki/Connection-Pooling-on-Linux-and-Mac)",
-            "get": "http://pecl.php.net/get/pdo_sqlsrv-4.3.0RC1",
+            "get": "https://pecl.php.net/get/pdo_sqlsrv-4.3.0RC1",
             "SPDX-License-Identifier": "MIT"
         },
         "4.2.0preview": {
@@ -325,7 +325,7 @@
             "releasedBy": "mbar",
             "releaseDate": "2017-05-19T19:32:37+00:00",
             "releaseNotes": "[Added]\n- Added support for sql_variant data type with limitation ([issue #51] and [issue #127])\n- This is a preview for Debian Jessie (tested on Debian 8.7)\n[Fixed]\n- Increased Test Coverage\n- General bug fixes after running static analyses\n[Limitation]\n- Limited support for input / output params when using sql_variant \n[Known Issues]\n- User defined data types \n- When pooling is enabled in Linux or MAC\n  - unixODBC 2.3.4 or prior (Linux and MAC) might not return proper diagnostics information, such as error messages, warnings and informative messages\n  - due to this unixODBC bug, fetch large data (such as xml, binary) as streams as a workaround. See the examples (https://github.com/Microsoft/msphpsql/wiki/Connection-Pooling-on-Linux-and-Mac)",
-            "get": "http://pecl.php.net/get/pdo_sqlsrv-4.2.0preview",
+            "get": "https://pecl.php.net/get/pdo_sqlsrv-4.2.0preview",
             "SPDX-License-Identifier": "MIT"
         },
         "4.1.9preview": {
@@ -335,7 +335,7 @@
             "releasedBy": "hadisfard",
             "releaseDate": "2017-05-10T23:37:05+00:00",
             "releaseNotes": "[Added]\n- Azure Active Directory Authentication with ActiveDirectoryPassword and SqlPassword\n[Fixed]\n- Fixed output parameter returning garbage when the parameter is initialized to a type that is different from the output type (issue #378)\n- Fixed incorrectly binding of unicode parameter when emulate prepare is on and the encoding is set at the statement level (issue #92)\n- Fixed binary column binding when emulate prepare is on (issue #140)\n[Known Issues]\n- User defined data types and SQL_VARIANT ([issue #127]\n- When pooling is enabled in Linux or MAC\n  - unixODBC 2.3.1 (Linux) and unixODBC 2.3.4 (MAC) might not return proper diagnostics information, such as error messages, warnings and informative messages\n  - due to this unixODBC bug, fetch large data (such as xml, binary) as streams as a workaround. See the examples (https://github.com/Microsoft/msphpsql/wiki/Connection-Pooling-on-Linux-and-Mac)",
-            "get": "http://pecl.php.net/get/pdo_sqlsrv-4.1.9preview",
+            "get": "https://pecl.php.net/get/pdo_sqlsrv-4.1.9preview",
             "SPDX-License-Identifier": "MIT"
         },
         "4.1.8preview": {
@@ -345,7 +345,7 @@
             "releasedBy": "mbar",
             "releaseDate": "2017-04-10T19:59:44+00:00",
             "releaseNotes": "[Added]\n- Connection Resiliency now supported in Windows\n- Connection pooling now works in MAC\n[Fixed]\n- Added a workaround for a bug in unixODBC 2.3.4 when connection pooling is enabled\n- Fixed the issue in MAC such that the order of which drivers are loaded first no longer matters\n- Improved performance by implementing a cache to store column SQL types and display sizes (issue #189)\n- Fixed issue with the unsupported attribute PDO::ATTR_PERSISTENT in connection (issue #65)\n- Fixed issue when deleting on something that doesn't exist (issue #336)\n[Known Issues]\n- User defined data types and SQL_VARIANT\n- Binary column binding with emulate prepare (issue #140)",
-            "get": "http://pecl.php.net/get/pdo_sqlsrv-4.1.8preview",
+            "get": "https://pecl.php.net/get/pdo_sqlsrv-4.1.8preview",
             "SPDX-License-Identifier": "MIT"
         },
         "4.1.7preview": {
@@ -355,7 +355,7 @@
             "releasedBy": "mbar",
             "releaseDate": "2017-03-07T01:46:42+00:00",
             "releaseNotes": "[Added]\n- The early technical preview (ETP) with basic functionalities is now available on MAC OS X. Tested on OS versions El Capitan (OS X 10.11) \n[Fixed]\n- Fixed null returned when an empty string is set to an output parameter (issue #308)\n- Fixed memory leaks in buffered result sets\n- Fixed wrong value returned when fetching varbinary value on Linux (issue #270)\n- Fixed clang compile errors\n- Fixed binary data not returned when the column is bound by name (issue #35)\n- Fixed exception thrown on closeCursor() when the statement has not been executed (issue #267)\n[Known Issues]\n- User defined data types and SQL_VARIANT\n- Binary column binding with emulate prepare (issue #140)\n- In MAC OS X, if loading both sqlsrv and pdo_sqlsrv, the order matters (even when dynamically). For PDO scripts, load pdo_sqlsrv.so first\n- Segmentation fault may result when an unsupported attribute is used for connection\n- Connection pooling not working in MAC OS X",
-            "get": "http://pecl.php.net/get/pdo_sqlsrv-4.1.7preview",
+            "get": "https://pecl.php.net/get/pdo_sqlsrv-4.1.7preview",
             "SPDX-License-Identifier": "MIT"
         },
         "4.1.6.1": {
@@ -365,7 +365,7 @@
             "releasedBy": "mbar",
             "releaseDate": "2017-02-08T19:13:44+00:00",
             "releaseNotes": "[Added]\n- Merged Windows and Linux source code.\n- Enabled connection pooling with unixODBC in Linux.\n[Fixed]\n- Fixed segmentation fault with PDOStatement::getColumnMeta() when the supplied column index is out of range.\n- Fixed the assertion error (Linux) when fetching data from a binary column using the binary encoding.\n- Fixed PECL installation errors when PHP was installed from source.",
-            "get": "http://pecl.php.net/get/pdo_sqlsrv-4.1.6.1",
+            "get": "https://pecl.php.net/get/pdo_sqlsrv-4.1.6.1",
             "SPDX-License-Identifier": "MIT"
         },
         "4.1.6": {
@@ -375,7 +375,7 @@
             "releasedBy": "hadisfard",
             "releaseDate": "2017-02-07T18:25:15+00:00",
             "releaseNotes": "[Added]\n- Merged Windows and Linux source code.\n- Enabled connection pooling with unixODBC in Linux.\n[Fixed]\n- Fixed segmentation fault with PDOStatement::getColumnMeta() when the supplied column index is out of range.\n- Fixed the assertion error (Linux) when fetching data from a binary column using the binary encoding.\n- Fixed PECL installation errors when PHP was installed from source.",
-            "get": "http://pecl.php.net/get/pdo_sqlsrv-4.1.6",
+            "get": "https://pecl.php.net/get/pdo_sqlsrv-4.1.6",
             "SPDX-License-Identifier": "MIT"
         },
         "4.0.8": {
@@ -385,7 +385,7 @@
             "releasedBy": "hadisfard",
             "releaseDate": "2016-12-19T21:16:50+00:00",
             "releaseNotes": "[Added]\n- SQLSRV_ATTR_FETCHES_NUMERIC_TYPE attribute support.\n- Unicode Column name support.\n[Fixed]\n- Fixed precision issues when double data type returned as strings using buffered queries.\n- Fixed issue with buffered cursor in PDO_SQLSRV driver when CharacterSet is UTF-8.\n- Fixed segmentation fault in error cases when error message is returned with emulate prepare attribute is set to true.\n- Fixed issue with empty output parameters on stored procedure.\n- Fixed memory leaks in buffered queries.",
-            "get": "http://pecl.php.net/get/pdo_sqlsrv-4.0.8",
+            "get": "https://pecl.php.net/get/pdo_sqlsrv-4.0.8",
             "SPDX-License-Identifier": "MIT"
         },
         "4.0.7": {
@@ -395,7 +395,7 @@
             "releasedBy": "mbar",
             "releaseDate": "2016-11-17T20:04:46+00:00",
             "releaseNotes": "This version is for PHP 7 only.\nThis preview contains the PDO_SQLSRV drivers for PHP 7 (64-bit) with limitations. Upcoming release(s) will contain more functionality, bug fixes, and more.",
-            "get": "http://pecl.php.net/get/pdo_sqlsrv-4.0.7",
+            "get": "https://pecl.php.net/get/pdo_sqlsrv-4.0.7",
             "SPDX-License-Identifier": "MIT"
         },
         "4.0.6": {
@@ -405,7 +405,7 @@
             "releasedBy": "mbar",
             "releaseDate": "2016-10-22T00:38:52+00:00",
             "releaseNotes": "This version is for PHP 7 only.\nThis preview contains the PDO_SQLSRV drivers for PHP 7 (64-bit) with limitations. Upcoming release(s) will contain more functionality, bug fixes, and more.",
-            "get": "http://pecl.php.net/get/pdo_sqlsrv-4.0.6",
+            "get": "https://pecl.php.net/get/pdo_sqlsrv-4.0.6",
             "SPDX-License-Identifier": "MIT"
         },
         "4.0.5": {
@@ -415,7 +415,7 @@
             "releasedBy": "mbar",
             "releaseDate": "2016-09-30T20:45:53+00:00",
             "releaseNotes": "This version is for PHP 7 only.\nThis preview contains the PDO_SQLSRV drivers for PHP 7 (64-bit) with limitations. Upcoming release(s) will contain more functionality, bug fixes, and more.",
-            "get": "http://pecl.php.net/get/pdo_sqlsrv-4.0.5",
+            "get": "https://pecl.php.net/get/pdo_sqlsrv-4.0.5",
             "SPDX-License-Identifier": "MIT"
         },
         "4.0.4": {
@@ -425,7 +425,7 @@
             "releasedBy": "mbar",
             "releaseDate": "2016-09-27T18:19:43+00:00",
             "releaseNotes": "This version is for PHP 7 only.\nThis preview contains the PDO_SQLSRV drivers for PHP 7 (64-bit) with limitations (see Limitations below for details). Upcoming release(s) will contain more functionality, bug fixes, and more.",
-            "get": "http://pecl.php.net/get/pdo_sqlsrv-4.0.4",
+            "get": "https://pecl.php.net/get/pdo_sqlsrv-4.0.4",
             "SPDX-License-Identifier": "MIT"
         },
         "3.0.1": {
@@ -435,7 +435,7 @@
             "releasedBy": "jguerin",
             "releaseDate": "2012-04-10T11:35:14+00:00",
             "releaseNotes": "Cumulative Update 1 for Microsoft Drivers 3.0 for PHP for SQL Server",
-            "get": "http://pecl.php.net/get/pdo_sqlsrv-3.0.1",
+            "get": "https://pecl.php.net/get/pdo_sqlsrv-3.0.1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "2.0.1": {
@@ -445,7 +445,7 @@
             "releasedBy": "jguerin",
             "releaseDate": "2011-06-02T18:05:03+00:00",
             "releaseNotes": "Introduction into PECL repository",
-            "get": "http://pecl.php.net/get/pdo_sqlsrv-2.0.1",
+            "get": "https://pecl.php.net/get/pdo_sqlsrv-2.0.1",
             "SPDX-License-Identifier": "Apache-2.0"
         }
     },

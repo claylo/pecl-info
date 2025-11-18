@@ -16,6 +16,6 @@ card processing for Unix.</d>
  <da>2008-05-12 08:14:34</da>
  <n>Remove deprecated (insecure) dropfile support</n>
  <f>19587</f>
- <g>http://pecl.php.net/get/mcve-7.0.1</g>
+ <g>https://pecl.php.net/get/mcve-7.0.1</g>
  <x xlink:href="package.7.0.1.xml"/>
 </r>

@@ -18,6 +18,6 @@
 + Fixed bugs:
 	- Fixed #3 Iterator leaks.</n>
  <f>17342</f>
- <g>http://pecl.php.net/get/leveldb-0.1.1</g>
+ <g>https://pecl.php.net/get/leveldb-0.1.1</g>
  <x xlink:href="package.0.1.1.xml"/>
 </r>

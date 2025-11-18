@@ -19,6 +19,6 @@
 	- globally disable hidef for CLI scripts (hidef.enable_cli) 
 	- allow the PHP memory_limit to be be temporarily increased during startup (hidef.memory_limit)</n>
  <f>21910</f>
- <g>http://pecl.php.net/get/hidef-0.1.13</g>
+ <g>https://pecl.php.net/get/hidef-0.1.13</g>
  <x xlink:href="package.0.1.13.xml"/>
 </r>

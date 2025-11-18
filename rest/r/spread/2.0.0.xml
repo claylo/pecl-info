@@ -19,6 +19,6 @@ toolkit API.  Information on Spread can be found at http://www.spread.org/</d>
 - re-work much of the internal code
 - fix various segfaults and other memory issues</n>
  <f>8261</f>
- <g>http://pecl.php.net/get/spread-2.0.0</g>
+ <g>https://pecl.php.net/get/spread-2.0.0</g>
  <x xlink:href="package.2.0.0.xml"/>
 </r>

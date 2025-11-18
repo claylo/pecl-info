@@ -26,6 +26,6 @@ Windows platforms.
 ** Changes **
 - Fix Bug #35032; didn't find FreeTDS includes on some systems</n>
  <f>8167</f>
- <g>http://pecl.php.net/get/PDO_DBLIB-1.0RC2</g>
+ <g>https://pecl.php.net/get/PDO_DBLIB-1.0RC2</g>
  <x xlink:href="package.1.0RC2.xml"/>
 </r>

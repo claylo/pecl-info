@@ -17,6 +17,6 @@
 - Added add event_buffer_set_callback().
 - Fixed possible segfault in event_del().</n>
  <f>9003</f>
- <g>http://pecl.php.net/get/libevent-0.0.4</g>
+ <g>https://pecl.php.net/get/libevent-0.0.4</g>
  <x xlink:href="package.0.0.4.xml"/>
 </r>

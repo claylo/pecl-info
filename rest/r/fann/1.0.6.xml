@@ -16,6 +16,6 @@
  <n>* Fixed not working fann_train
 * Added extra check for NULL when ANN creation fails</n>
  <f>37233</f>
- <g>http://pecl.php.net/get/fann-1.0.6</g>
+ <g>https://pecl.php.net/get/fann-1.0.6</g>
  <x xlink:href="package.1.0.6.xml"/>
 </r>

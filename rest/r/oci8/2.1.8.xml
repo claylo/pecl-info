@@ -27,6 +27,6 @@ Interoperability Support&quot; (ID 207303.1) for details.</d>
  <n>This version is for PHP 7 only.
 Fixed reference counting and memory issues. (Dmitry, Tianfang)</n>
  <f>194154</f>
- <g>http://pecl.php.net/get/oci8-2.1.8</g>
+ <g>https://pecl.php.net/get/oci8-2.1.8</g>
  <x xlink:href="package.2.1.8.xml"/>
 </r>

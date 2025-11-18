@@ -18,6 +18,6 @@
 * Using current param parsing in ZE (don't manipulate zvals directly)
 * Fix bug #12482</n>
  <f>82721</f>
- <g>http://pecl.php.net/get/stem-1.5.0</g>
+ <g>https://pecl.php.net/get/stem-1.5.0</g>
  <x xlink:href="package.1.5.0.xml"/>
 </r>

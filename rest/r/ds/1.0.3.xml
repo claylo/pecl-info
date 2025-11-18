@@ -16,6 +16,6 @@
  <n>Fix intersect, diff, xor before contains bug (see docs #4)
 Add Set::merge</n>
  <f>49527</f>
- <g>http://pecl.php.net/get/ds-1.0.3</g>
+ <g>https://pecl.php.net/get/ds-1.0.3</g>
  <x xlink:href="package.1.0.3.xml"/>
 </r>

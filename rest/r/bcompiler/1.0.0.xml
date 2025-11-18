@@ -35,6 +35,6 @@ For install instructions see the manual at pear.php.net</d>
 - support for new superglobals
 - fix segfault in bc_serialize_Filedir</n>
  <f>57280</f>
- <g>http://pecl.php.net/get/bcompiler-1.0.0</g>
+ <g>https://pecl.php.net/get/bcompiler-1.0.0</g>
  <x xlink:href="package.1.0.0.xml"/>
 </r>

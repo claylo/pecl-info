@@ -20,6 +20,6 @@
 - Now works on Mac OSX.
 - Now works on PHP 7.  The same code base also works on PHP 5.</n>
  <f>16789</f>
- <g>http://pecl.php.net/get/sync-1.1.0</g>
+ <g>https://pecl.php.net/get/sync-1.1.0</g>
  <x xlink:href="package.1.1.0.xml"/>
 </r>

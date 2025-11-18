@@ -21,6 +21,6 @@ Cloudscape, and Apache Derby databases.
 Adding DecFloat Datatype support.
 Updating test case names.</n>
  <f>147741</f>
- <g>http://pecl.php.net/get/ibm_db2-1.8.1</g>
+ <g>https://pecl.php.net/get/ibm_db2-1.8.1</g>
  <x xlink:href="package.1.8.1.xml"/>
 </r>

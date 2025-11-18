@@ -16,6 +16,6 @@
  <da>2004-11-09 12:44:00</da>
  <n>Fix libxdiff 0.9 crash. Force last parameters of xdiff_string_patch and xdiff_string_merge3 to be passed by reference.</n>
  <f>8215</f>
- <g>http://pecl.php.net/get/xdiff-1.2</g>
+ <g>https://pecl.php.net/get/xdiff-1.2</g>
  <x xlink:href="package.1.2.xml"/>
 </r>

@@ -20,6 +20,6 @@
  <n>- fixed critical error in call to strlen() in _php_imagick_set_last_error().
   I strongly recommend you upgrade.</n>
  <f>70818</f>
- <g>http://pecl.php.net/get/imagick-0.9.8</g>
+ <g>https://pecl.php.net/get/imagick-0.9.8</g>
  <x xlink:href="package.0.9.8.xml"/>
 </r>

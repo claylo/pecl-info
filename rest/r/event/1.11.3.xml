@@ -23,6 +23,6 @@
  <da>2016-02-11 04:22:11</da>
  <n>Issue #20: SSL_GET_PREV_SESSION:session id context uninitialized</n>
  <f>79126</f>
- <g>http://pecl.php.net/get/event-1.11.3</g>
+ <g>https://pecl.php.net/get/event-1.11.3</g>
  <x xlink:href="package.1.11.3.xml"/>
 </r>

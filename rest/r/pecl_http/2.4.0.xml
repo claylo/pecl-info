@@ -30,6 +30,6 @@ http://dev.iworks.at/ext-http/lcov/ext/http/</d>
  <da>2015-03-18 01:47:56</da>
  <n>* Split off pecl/apfd and pecl/json_post</n>
  <f>187099</f>
- <g>http://pecl.php.net/get/pecl_http-2.4.0</g>
+ <g>https://pecl.php.net/get/pecl_http-2.4.0</g>
  <x xlink:href="package.2.4.0.xml"/>
 </r>

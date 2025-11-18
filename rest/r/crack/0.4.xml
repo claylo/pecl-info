@@ -29,6 +29,6 @@ word, and searches for it in your dictionary.
  <da>2005-09-21 05:13:20</da>
  <n>Updated to PEAR 1.4 (package2.xml format), added binary package for Win32, fixed compatibility with PHP 4.1</n>
  <f>25524</f>
- <g>http://pecl.php.net/get/crack-0.4</g>
+ <g>https://pecl.php.net/get/crack-0.4</g>
  <x xlink:href="package.0.4.xml"/>
 </r>

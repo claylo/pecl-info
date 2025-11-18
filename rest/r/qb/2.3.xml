@@ -21,6 +21,6 @@ QB performs code translation on a per-function basis. It does not affect in anyw
  Bought complex number functions into compliance with ISO standard
  Fixed issue #36 - Incorrect cast to int</n>
  <f>919030</f>
- <g>http://pecl.php.net/get/qb-2.3</g>
+ <g>https://pecl.php.net/get/qb-2.3</g>
  <x xlink:href="package.2.3.xml"/>
 </r>

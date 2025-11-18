@@ -1,4 +1,28 @@
 {
+    "1.76.0": {
+        "version": "1.76.0",
+        "state": "stable"
+    },
+    "1.76.0RC1": {
+        "version": "1.76.0RC1",
+        "state": "beta"
+    },
+    "1.75.0": {
+        "version": "1.75.0",
+        "state": "stable"
+    },
+    "1.75.0RC1": {
+        "version": "1.75.0RC1",
+        "state": "beta"
+    },
+    "1.74.0": {
+        "version": "1.74.0",
+        "state": "stable"
+    },
+    "1.74.0RC2": {
+        "version": "1.74.0RC2",
+        "state": "beta"
+    },
     "1.73.0": {
         "version": "1.73.0",
         "state": "stable"

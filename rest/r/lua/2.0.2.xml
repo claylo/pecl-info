@@ -16,6 +16,6 @@
  <da>2016-05-26 09:57:14</da>
  <n>- Fixed issue #22 (Boolean FALSE is always TRUE)</n>
  <f>14348</f>
- <g>http://pecl.php.net/get/lua-2.0.2</g>
+ <g>https://pecl.php.net/get/lua-2.0.2</g>
  <x xlink:href="package.2.0.2.xml"/>
 </r>

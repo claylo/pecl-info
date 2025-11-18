@@ -18,6 +18,6 @@
  <n>- FrozenArray::thaw() function to speed up iterating over data
     - fix arginfo for hidef_fetch() (felipe)</n>
  <f>13418</f>
- <g>http://pecl.php.net/get/hidef-0.1.5</g>
+ <g>https://pecl.php.net/get/hidef-0.1.5</g>
  <x xlink:href="package.0.1.5.xml"/>
 </r>

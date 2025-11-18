@@ -37,6 +37,6 @@ Xdebug also provides:
   - Fixed issue #1113: xdebug.*_trigger do no longer work, due to NULL not
     being an empty string</n>
  <f>266218</f>
- <g>http://pecl.php.net/get/xdebug-2.3.1</g>
+ <g>https://pecl.php.net/get/xdebug-2.3.1</g>
  <x xlink:href="package.2.3.1.xml"/>
 </r>

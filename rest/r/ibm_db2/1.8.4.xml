@@ -22,6 +22,6 @@ i5/OS Fix BIGINT string type to help with larger values.
 i5/OS Fix &quot;early&quot; terminate fetch loops due to CLOB/BLOB zero length.
 i5/OS Fix db2_pclose() to allow reset persistent connections.</n>
  <f>149693</f>
- <g>http://pecl.php.net/get/ibm_db2-1.8.4</g>
+ <g>https://pecl.php.net/get/ibm_db2-1.8.4</g>
  <x xlink:href="package.1.8.4.xml"/>
 </r>

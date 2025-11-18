@@ -15,6 +15,6 @@
  <da>2016-01-02 07:35:51</da>
  <n>Update License to PHP 3.1, fixes #65884</n>
  <f>100201</f>
- <g>http://pecl.php.net/get/stats-2.0.1</g>
+ <g>https://pecl.php.net/get/stats-2.0.1</g>
  <x xlink:href="package.2.0.1.xml"/>
 </r>

@@ -41,6 +41,6 @@
  <da>2015-09-01 16:12:29</da>
  <n>Added hprose session.serialize_handler.</n>
  <f>41178</f>
- <g>http://pecl.php.net/get/hprose-1.6.1</g>
+ <g>https://pecl.php.net/get/hprose-1.6.1</g>
  <x xlink:href="package.1.6.1.xml"/>
 </r>

@@ -21,6 +21,6 @@ Bugs Fixed:
   - #59765 Build process does not honour custom CFLAGS
   - #60628 Mystery circular references after tag callback</n>
  <f>35842</f>
- <g>http://pecl.php.net/get/yaml-1.1.0RC1</g>
+ <g>https://pecl.php.net/get/yaml-1.1.0RC1</g>
  <x xlink:href="package.1.1.0RC1.xml"/>
 </r>

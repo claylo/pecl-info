@@ -19,6 +19,6 @@
  <n>- The &quot;permissive&quot; tag was added to selinux_compute_av
 - The selinux_deny_unknown() was added</n>
  <f>12355</f>
- <g>http://pecl.php.net/get/selinux-0.3.1</g>
+ <g>https://pecl.php.net/get/selinux-0.3.1</g>
  <x xlink:href="package.0.3.1.xml"/>
 </r>

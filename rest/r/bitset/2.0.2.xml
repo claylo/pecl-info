@@ -17,6 +17,6 @@
 - Cleaned up warnings from old code
 - Added fromRawValue method (Github #6) (credits @aurora)</n>
  <f>18307</f>
- <g>http://pecl.php.net/get/bitset-2.0.2</g>
+ <g>https://pecl.php.net/get/bitset-2.0.2</g>
  <x xlink:href="package.2.0.2.xml"/>
 </r>

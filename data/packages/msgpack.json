@@ -115,7 +115,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2016-12-07T04:18:30+00:00",
             "releaseNotes": "- Fixed issue #104 (PHP7.1 build:Use own definition of msgpack_unserialize_data_t)",
-            "get": "http://pecl.php.net/get/msgpack-2.0.2",
+            "get": "https://pecl.php.net/get/msgpack-2.0.2",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "2.0.1": {
@@ -125,7 +125,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2016-03-01T03:23:36+00:00",
             "releaseNotes": "- Fixed issue #82 (Check hash protection flag to avoid memory corruption)\n- Fixed Issue #80 (Serialized failed on unseted value)\n- When packing/unpacking a zend_object don't call magic methods __set/__get",
-            "get": "http://pecl.php.net/get/msgpack-2.0.1",
+            "get": "https://pecl.php.net/get/msgpack-2.0.1",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "2.0.0": {
@@ -135,7 +135,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2015-10-27T02:50:03+00:00",
             "releaseNotes": "- Release msgpack for PHP7",
-            "get": "http://pecl.php.net/get/msgpack-2.0.0",
+            "get": "https://pecl.php.net/get/msgpack-2.0.0",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "0.5.7": {
@@ -145,7 +145,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2015-08-30T08:01:37+00:00",
             "releaseNotes": "- Add support deserializing the bin format family\n- Implement Issue #49, implement the 'compatibility mode' mentioned in msgpack implementation guidelines",
-            "get": "http://pecl.php.net/get/msgpack-0.5.7",
+            "get": "https://pecl.php.net/get/msgpack-0.5.7",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "0.5.6": {
@@ -155,7 +155,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2015-04-27T03:36:15+00:00",
             "releaseNotes": "- support str8 type (wudikua)\n- Fix a warning and a possible crash (Mike)\n- Fix crash with memcached (Mike)",
-            "get": "http://pecl.php.net/get/msgpack-0.5.6",
+            "get": "https://pecl.php.net/get/msgpack-0.5.6",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "0.5.5": {
@@ -165,7 +165,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2013-02-18T22:08:46+00:00",
             "releaseNotes": "- Fix ZTS build\n- Fixed Bug #14 (\"Invalid read\" reported by valgrind)\n- Fixed FR #8 (Return on unserialization)",
-            "get": "http://pecl.php.net/get/msgpack-0.5.5",
+            "get": "https://pecl.php.net/get/msgpack-0.5.5",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "0.5.4": {
@@ -175,7 +175,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2013-02-18T01:48:19+00:00",
             "releaseNotes": "- Fixed Bug #12 (msgpack_seriallize interfere with php serialize)\n- Fixed Bug #11 (unpacking empty array / segmentation fault).",
-            "get": "http://pecl.php.net/get/msgpack-0.5.4",
+            "get": "https://pecl.php.net/get/msgpack-0.5.4",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "0.5.3": {
@@ -185,7 +185,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2012-10-12T04:01:00+00:00",
             "releaseNotes": "- Fixed Bug #6 (bug with incorrect packing of mixed arrays)",
-            "get": "http://pecl.php.net/get/msgpack-0.5.3",
+            "get": "https://pecl.php.net/get/msgpack-0.5.3",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "0.5.2": {
@@ -195,7 +195,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2012-09-14T23:55:29+00:00",
             "releaseNotes": "- Initial release",
-            "get": "http://pecl.php.net/get/msgpack-0.5.2",
+            "get": "https://pecl.php.net/get/msgpack-0.5.2",
             "SPDX-License-Identifier": "BSD-3-Clause"
         }
     },

@@ -34,6 +34,6 @@ in PHP GMP extension, but it needn't any external libraries.
 * updated documentation (/docs/index.html, INSTALL, README) and tests (/tests folder)
 * significantly improved speed of bi_from_str() function (up to 30 times for base = 2)</n>
  <f>48100</f>
- <g>http://pecl.php.net/get/big_int-1.0.6</g>
+ <g>https://pecl.php.net/get/big_int-1.0.6</g>
  <x xlink:href="package.1.0.6.xml"/>
 </r>

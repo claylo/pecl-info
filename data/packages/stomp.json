@@ -25,7 +25,7 @@
             "releasedBy": "remi",
             "releaseDate": "2018-06-29T09:33:23+00:00",
             "releaseNotes": "- Fix compatibility with PHP 7.3\n- Fix -Wformat issues",
-            "get": "http://pecl.php.net/get/stomp-2.0.2",
+            "get": "https://pecl.php.net/get/stomp-2.0.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.1": {
@@ -35,7 +35,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2017-05-04T06:28:49+00:00",
             "releaseNotes": "- PHP7.1 Support",
-            "get": "http://pecl.php.net/get/stomp-2.0.1",
+            "get": "https://pecl.php.net/get/stomp-2.0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.0": {
@@ -45,7 +45,7 @@
             "releasedBy": "laruence",
             "releaseDate": "2016-05-26T08:09:58+00:00",
             "releaseNotes": "- PHP7 Support",
-            "get": "http://pecl.php.net/get/stomp-2.0.0",
+            "get": "https://pecl.php.net/get/stomp-2.0.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.9": {
@@ -55,7 +55,7 @@
             "releasedBy": "gena01",
             "releaseDate": "2016-01-04T21:50:50+00:00",
             "releaseNotes": "- Adding .travis.yml to enable Travis CI test runner. (Gennady)\n- Adding a basic README file. (Gennady)\n- Check stomp connection status after _stomp_recv. (Gennady)\n- Commenting out activemq.prefetchSize hardcoded header for SUBSCRIBE frame. (Gennady)\n- Make login and passcode headers optional (if no creds provided). (Gennady)\n- Fixing type cast warning, introduced a new int variable. (Gennady)\n- Fixing stomp_writable() check so we can catch when connect failed. (Gennady)",
-            "get": "http://pecl.php.net/get/stomp-1.0.9",
+            "get": "https://pecl.php.net/get/stomp-1.0.9",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.8": {
@@ -65,7 +65,7 @@
             "releasedBy": "gena01",
             "releaseDate": "2015-05-18T22:16:21+00:00",
             "releaseNotes": "- Fix perm on source files. (Remi)\n- Fixing PHP_STOMP_VERSION constant, per Remi's request. (Gennady)",
-            "get": "http://pecl.php.net/get/stomp-1.0.8",
+            "get": "https://pecl.php.net/get/stomp-1.0.8",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.7": {
@@ -75,7 +75,7 @@
             "releasedBy": "gena01",
             "releaseDate": "2015-05-15T21:09:07+00:00",
             "releaseNotes": "- add LICENSE file as documentation (Remi)\n- Fixed Windows compilation regression due to new TCP_NODELAY code. (Gennady Feldman)\n- Fixed bug where error checking was missing after stomp_send(). (Gennady Feldman)",
-            "get": "http://pecl.php.net/get/stomp-1.0.7",
+            "get": "https://pecl.php.net/get/stomp-1.0.7",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.6": {
@@ -85,7 +85,7 @@
             "releasedBy": "pierrick",
             "releaseDate": "2014-12-07T21:59:15+00:00",
             "releaseNotes": "- Add two new ini options stomp.default_username and stomp.default_passowrd (Pierrick)\n- General performance improvements (Pierrick)\n- Fix stomp_read_frame when buffered (Pierrick)\n- Fixed bug #59217 (Connections to RabbitMQ via CLI). (Pierrick).\n- Fixed bug #59970 (acking a message makes rabbitmq disconnect the server). (Pierrick)\n- Fixed bug #67170 (Disable Nagle's Algorithm with TCP_NODELAY, it delays sending small messages). (Yarek Tyshchenko)\n- Fixed bug #68497 (Stomp client doesn't parse ERROR response on CONNECT). (Lorenzo Fontana)\n- Fixed bug #64671 (Add stomp_nack and Stomp::nack functions). (Pierrick)",
-            "get": "http://pecl.php.net/get/stomp-1.0.6",
+            "get": "https://pecl.php.net/get/stomp-1.0.6",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.5": {
@@ -95,7 +95,7 @@
             "releasedBy": "pierrick",
             "releaseDate": "2012-11-18T17:36:40+00:00",
             "releaseNotes": "- Fix memory leak when Stomp can't write the message on the queue. (Pierrick)\n- Add a buffer for receipts. (Pierrick)\n- Fixed bug #62831 (Stomp module seems not initializing SSL library first).\n  (Patch by lwhsu at lwhsu dot org)\n- Fixed bug #59972 (Message body are not binary safe). (Pierrick)",
-            "get": "http://pecl.php.net/get/stomp-1.0.5",
+            "get": "https://pecl.php.net/get/stomp-1.0.5",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.4": {
@@ -105,7 +105,7 @@
             "releasedBy": "pierrick",
             "releaseDate": "2012-09-17T10:15:14+00:00",
             "releaseNotes": "- Fix compatibility with 5.4",
-            "get": "http://pecl.php.net/get/stomp-1.0.4",
+            "get": "https://pecl.php.net/get/stomp-1.0.4",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.3": {
@@ -115,7 +115,7 @@
             "releasedBy": "pierrick",
             "releaseDate": "2010-10-12T23:29:05+00:00",
             "releaseNotes": "- Fixed bug #18772 (setTimeout usecs not honored)",
-            "get": "http://pecl.php.net/get/stomp-1.0.3",
+            "get": "https://pecl.php.net/get/stomp-1.0.3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.2": {
@@ -125,7 +125,7 @@
             "releasedBy": "pierrick",
             "releaseDate": "2010-08-13T09:59:11+00:00",
             "releaseNotes": "- Fixed SSL connection bug introduced in 1.0.1",
-            "get": "http://pecl.php.net/get/stomp-1.0.2",
+            "get": "https://pecl.php.net/get/stomp-1.0.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.1": {
@@ -135,7 +135,7 @@
             "releasedBy": "pierrick",
             "releaseDate": "2010-08-03T09:22:10+00:00",
             "releaseNotes": "- Add new parameter to the constructor to allow client to send extra informations\n- Add zend engine runtime cache support (introduced into trunk) \n- Add new details property in the StompException class\n- Add new StompException::getDetails() method\n- Add the frame body content in the Stomp::Error() method \n- Fixed bug #17262 (Server is not responding on win32).",
-            "get": "http://pecl.php.net/get/stomp-1.0.1",
+            "get": "https://pecl.php.net/get/stomp-1.0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.0": {
@@ -145,7 +145,7 @@
             "releasedBy": "pierrick",
             "releaseDate": "2010-02-12T00:01:29+00:00",
             "releaseNotes": "- Bump to stable",
-            "get": "http://pecl.php.net/get/stomp-1.0.0",
+            "get": "https://pecl.php.net/get/stomp-1.0.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.4.1": {
@@ -155,7 +155,7 @@
             "releasedBy": "pierrick",
             "releaseDate": "2010-01-19T00:18:20+00:00",
             "releaseNotes": "- Fix compilation issue on PHP5.2 branch",
-            "get": "http://pecl.php.net/get/stomp-0.4.1",
+            "get": "https://pecl.php.net/get/stomp-0.4.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.3.2": {
@@ -165,7 +165,7 @@
             "releasedBy": "pierrick",
             "releaseDate": "2009-11-22T15:45:18+00:00",
             "releaseNotes": "- Fixed bug #16936 (Module segfaults on readFrame if Frame > STOMP_BUFSIZE)\n- Fixed bug #16933 (readFrame does not notice when server shuts down)\n- Fixed bug #16930 (readFrame reports error-frames as \"timeout\")",
-            "get": "http://pecl.php.net/get/stomp-0.3.2",
+            "get": "https://pecl.php.net/get/stomp-0.3.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.3.1": {
@@ -175,7 +175,7 @@
             "releasedBy": "pierrick",
             "releaseDate": "2009-11-08T10:39:57+00:00",
             "releaseNotes": "- Fix memory leak in stomp_send and in stomp_ack\n- Reduced minimum php version to 5.2.2",
-            "get": "http://pecl.php.net/get/stomp-0.3.1",
+            "get": "https://pecl.php.net/get/stomp-0.3.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.3.0": {
@@ -185,7 +185,7 @@
             "releasedBy": "pierrick",
             "releaseDate": "2009-11-06T23:08:02+00:00",
             "releaseNotes": "* new stomp_connect_error() function (pierrick)\n* stomp_begin, stomp_abort and stomp_commit now accept additional headers (pierrick)\n* new connection timeout and read timeout ini configuration (pierrick)\n* Fix a memory leak in stomp_read_line (pierrick)    \n* Better set of test (Pierrick and Anis)",
-            "get": "http://pecl.php.net/get/stomp-0.3.0",
+            "get": "https://pecl.php.net/get/stomp-0.3.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.2.0": {
@@ -195,7 +195,7 @@
             "releasedBy": "pierrick",
             "releaseDate": "2009-11-01T17:51:11+00:00",
             "releaseNotes": "- Windows build fix (kalle)\n- Add SSL support (pierrick)",
-            "get": "http://pecl.php.net/get/stomp-0.2.0",
+            "get": "https://pecl.php.net/get/stomp-0.2.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.1.0": {
@@ -205,7 +205,7 @@
             "releasedBy": "pierrick",
             "releaseDate": "2009-10-30T20:50:02+00:00",
             "releaseNotes": "- Initial PECL release. (pierrick)",
-            "get": "http://pecl.php.net/get/stomp-0.1.0",
+            "get": "https://pecl.php.net/get/stomp-0.1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

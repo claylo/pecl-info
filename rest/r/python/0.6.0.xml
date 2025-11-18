@@ -16,6 +16,6 @@
  <da>2002-11-05 17:55:00</da>
  <n>Updated alpha release that includes a number of improvements over the existing alpha preview.  PEAR (PECL) support is now working, too.</n>
  <f>12439</f>
- <g>http://pecl.php.net/get/python-0.6.0</g>
+ <g>https://pecl.php.net/get/python-0.6.0</g>
  <x xlink:href="package.0.6.0.xml"/>
 </r>

@@ -1,7 +1,7 @@
 {
     "category": "PHP",
     "deprecated": false,
-    "description": "Allows the user to have a user-space function called \n  when the specified function or method is called.",
+    "description": "Allows the user to have a user-space function called \n  when the specified function is called. Support for class/object\n  methods will be added later.",
     "latestReleaseDate": "2012-06-14T21:23:41+00:00",
     "latestVersion": "0.4.0",
     "license": "PHP",
@@ -15,7 +15,7 @@
             "releasedBy": "felipe",
             "releaseDate": "2012-06-14T21:23:41+00:00",
             "releaseNotes": "- Fixed build on PHP 5.3+\n- Fixed bug #57424 (crash when using intercept_add function)\n- Fixed memory issues",
-            "get": "http://pecl.php.net/get/intercept-0.4.0",
+            "get": "https://pecl.php.net/get/intercept-0.4.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.3.0": {
@@ -25,7 +25,7 @@
             "releasedBy": "gabe",
             "releaseDate": "2005-05-28T18:22:21+00:00",
             "releaseNotes": "Added preliminary support for intercepting class methods.",
-            "get": "http://pecl.php.net/get/intercept-0.3.0",
+            "get": "https://pecl.php.net/get/intercept-0.3.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.2.0": {
@@ -35,7 +35,7 @@
             "releasedBy": "gabe",
             "releaseDate": "2005-02-28T17:02:08+00:00",
             "releaseNotes": "Added support for intercepting internal functions.\n       Added checking to make sure the handler function\n       is not an internal function.",
-            "get": "http://pecl.php.net/get/intercept-0.2.0",
+            "get": "https://pecl.php.net/get/intercept-0.2.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.1": {
@@ -45,7 +45,7 @@
             "releasedBy": "gabe",
             "releaseDate": "2005-02-26T12:15:49+00:00",
             "releaseNotes": "First release.\nThis version can only intercept user-space functions\nwith user-space callbacks.",
-            "get": "http://pecl.php.net/get/intercept-0.1",
+            "get": "https://pecl.php.net/get/intercept-0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

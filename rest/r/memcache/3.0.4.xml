@@ -27,6 +27,6 @@
 - New INI directive
    memcache.lock_timeout = 15</n>
  <f>54283</f>
- <g>http://pecl.php.net/get/memcache-3.0.4</g>
+ <g>https://pecl.php.net/get/memcache-3.0.4</g>
  <x xlink:href="package.3.0.4.xml"/>
 </r>

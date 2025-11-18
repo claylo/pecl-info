@@ -20,6 +20,6 @@ Optimize db2_bind_param().
 Disable connect options in pconnection.
 Add in correct message buffer length.</n>
  <f>110223</f>
- <g>http://pecl.php.net/get/ibm_db2-1.0.2</g>
+ <g>https://pecl.php.net/get/ibm_db2-1.0.2</g>
  <x xlink:href="package.1.0.2.xml"/>
 </r>

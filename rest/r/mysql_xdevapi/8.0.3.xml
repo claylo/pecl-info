@@ -28,6 +28,6 @@ WL-10640 / 10876: DevAPI: getOne, removeOne, replaceOne, addOrReplaceOne
 WL-10641/10877 DevAPI: Row locking for Crud.Find / Table.Select
 server 8.x support, fixes for phpize build</n>
  <f>486180</f>
- <g>http://pecl.php.net/get/mysql_xdevapi-8.0.3</g>
+ <g>https://pecl.php.net/get/mysql_xdevapi-8.0.3</g>
  <x xlink:href="package.8.0.3.xml"/>
 </r>

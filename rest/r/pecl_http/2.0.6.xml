@@ -35,6 +35,6 @@ v2: http://dev.iworks.at/ext-http/lcov/ext/http/</d>
 * Fixed compatibility with PHP-5.6+
 * Fixed re-use of request messages which content length remained untouched when the body was reset</n>
  <f>152827</f>
- <g>http://pecl.php.net/get/pecl_http-2.0.6</g>
+ <g>https://pecl.php.net/get/pecl_http-2.0.6</g>
  <x xlink:href="package.2.0.6.xml"/>
 </r>

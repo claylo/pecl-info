@@ -1,1 +1,1 @@
-"bff-60fc9cdfe2a03-gzip"
+"bff-60fc9cdfe2a03"

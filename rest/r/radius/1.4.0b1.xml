@@ -19,6 +19,6 @@ OS (for example against Windows Active-Directory via IAS).</d>
  <n>- Add PHP 7.0 support. (Adam)
 - Drop support for PHP &lt; 5.3.</n>
  <f>50953</f>
- <g>http://pecl.php.net/get/radius-1.4.0b1</g>
+ <g>https://pecl.php.net/get/radius-1.4.0b1</g>
  <x xlink:href="package.1.4.0b1.xml"/>
 </r>

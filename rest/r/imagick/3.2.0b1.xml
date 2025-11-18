@@ -25,6 +25,6 @@ IMPORTANT: Version 2.x API is not compatible with earlier versions.</d>
 - Fixed Bug #64945: ZEND_ACC_ALLOW_STATIC vs ZEND_ACC_STATIC
 - A lot of internal refactoring: rewrite macros as functions, clean up naming etc</n>
  <f>105096</f>
- <g>http://pecl.php.net/get/imagick-3.2.0b1</g>
+ <g>https://pecl.php.net/get/imagick-3.2.0b1</g>
  <x xlink:href="package.3.2.0b1.xml"/>
 </r>

@@ -17,6 +17,6 @@
  <da>2005-09-11 01:56:14</da>
  <n>Update code for API changes in PDO; no actual changes have been made to this driver.</n>
  <f>7953</f>
- <g>http://pecl.php.net/get/PDO_DBLIB-1.0RC1</g>
+ <g>https://pecl.php.net/get/PDO_DBLIB-1.0RC1</g>
  <x xlink:href="package.1.0RC1.xml"/>
 </r>

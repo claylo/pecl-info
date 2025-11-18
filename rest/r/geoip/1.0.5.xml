@@ -15,6 +15,6 @@
  <da>2008-12-19 14:31:51</da>
  <n>* Small bug in phpinfo() when printing version number could crash PHP.</n>
  <f>8979</f>
- <g>http://pecl.php.net/get/geoip-1.0.5</g>
+ <g>https://pecl.php.net/get/geoip-1.0.5</g>
  <x xlink:href="package.1.0.5.xml"/>
 </r>

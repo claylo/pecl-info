@@ -30,6 +30,6 @@
 - Allow for a 0 offset in all ingres field functions 
 - Update build scripts for OpenVMS CSWS PHP 2.0</n>
  <f>92203</f>
- <g>http://pecl.php.net/get/ingres-2.2.2</g>
+ <g>https://pecl.php.net/get/ingres-2.2.2</g>
  <x xlink:href="package.2.2.2.xml"/>
 </r>

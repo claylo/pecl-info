@@ -17,6 +17,6 @@ toolkit API.  Information on Spread can be found at http://www.spread.org/</d>
  <n>- fix misplaced parenthesis (patch by Kevin Murphy)
 - fix mem corruption calling receive multiple time</n>
  <f>8017</f>
- <g>http://pecl.php.net/get/spread-2.0.1</g>
+ <g>https://pecl.php.net/get/spread-2.0.1</g>
  <x xlink:href="package.2.0.1.xml"/>
 </r>

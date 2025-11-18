@@ -17,6 +17,6 @@
 - fix gh#168 drop trying to return strings from shm
 - fix gh#170 do not create entries when serialization fails</n>
  <f>109091</f>
- <g>http://pecl.php.net/get/apcu-5.1.4</g>
+ <g>https://pecl.php.net/get/apcu-5.1.4</g>
  <x xlink:href="package.5.1.4.xml"/>
 </r>

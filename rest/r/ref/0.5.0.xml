@@ -23,6 +23,6 @@ Changelist:
  - Fix wrong behavior when reference get deleted during notifier call;
  - Fix memleaks;</n>
  <f>33923</f>
- <g>http://pecl.php.net/get/ref-0.5.0</g>
+ <g>https://pecl.php.net/get/ref-0.5.0</g>
  <x xlink:href="package.0.5.0.xml"/>
 </r>

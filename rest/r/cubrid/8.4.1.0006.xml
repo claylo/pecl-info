@@ -19,6 +19,6 @@
 2) APIS-280: Modifed cubrid_affected_rows's parameter to be compatible with MySQL, and make changes to be compatible with the previous version, too.
 3) APIS-294: Fixed a bug for cubrid_connect_with_url that when user don't pass user/password, public will be given.</n>
  <f>46620</f>
- <g>http://pecl.php.net/get/CUBRID-8.4.1.0006</g>
+ <g>https://pecl.php.net/get/CUBRID-8.4.1.0006</g>
  <x xlink:href="package.8.4.1.0006.xml"/>
 </r>

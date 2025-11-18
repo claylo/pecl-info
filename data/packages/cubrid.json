@@ -15,7 +15,7 @@
             "releasedBy": "cubrid",
             "releaseDate": "2017-08-04T03:44:36+00:00",
             "releaseNotes": "Fixed bugs:\n [APIS-756] crashed (core dumped) in calling cubrid_pconnect in PHP 7.1.x version",
-            "get": "http://pecl.php.net/get/CUBRID-10.1.0.0002",
+            "get": "https://pecl.php.net/get/CUBRID-10.1.0.0002",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "10.1.0.0001": {
@@ -25,7 +25,7 @@
             "releasedBy": "cubrid",
             "releaseDate": "2017-08-03T01:20:16+00:00",
             "releaseNotes": "Changed and Enhanced Features:\n1) The driver is support cubrid version 8.4.1,8.4.3 ,8.4.4,9.1.0, 9.2.0 9.3.0 and 10.1.0\n\nFixed bugs:\n1)APIS-724 - cubrid_column_types could not get data type date.",
-            "get": "http://pecl.php.net/get/CUBRID-10.1.0.0001",
+            "get": "https://pecl.php.net/get/CUBRID-10.1.0.0001",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "9.3.0.0001": {
@@ -35,7 +35,7 @@
             "releasedBy": "cubrid",
             "releaseDate": "2014-05-15T05:02:32+00:00",
             "releaseNotes": "Update version to 9.3.0.",
-            "get": "http://pecl.php.net/get/CUBRID-9.3.0.0001",
+            "get": "https://pecl.php.net/get/CUBRID-9.3.0.0001",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "9.2.0.0001": {
@@ -45,7 +45,7 @@
             "releasedBy": "cubrid",
             "releaseDate": "2013-09-27T02:24:33+00:00",
             "releaseNotes": "1) APIS-631 - PHP cubrid_free_result() doesn't return False if the method was called with invalid parameters",
-            "get": "http://pecl.php.net/get/CUBRID-9.2.0.0001",
+            "get": "https://pecl.php.net/get/CUBRID-9.2.0.0001",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "9.1.0.0004": {
@@ -55,7 +55,7 @@
             "releasedBy": "cubrid",
             "releaseDate": "2013-07-23T02:23:35+00:00",
             "releaseNotes": "Fixed bugs:\n1)[APIS-120] - [PHP]Return value is not correct when passing a date parameter to cubrid_bind method\n2)[APIS-121] - [PHP]Return value is not false when passing a invalid time to cubrid_bind method\n3)[APIS-358] - [PHP] Create table failed when using default timestamp '2038-01-19 12:14:07'\n4)[APIS-364] - [PHP][Windows] the export lob file from db is not correct after import the lob fie into db successfully\n5)[APIS-513] - [PHP Static] Cas error code is not expected in Windows\n6)[APIS-553] - Manual page for cubrid_close_request() should be edited\n7)[APIS-554] - cubrid_connect_with_url example does not have updated connection url\n8)[APIS-556] - cubrid_fetch CUBRID_LOB tries to allocate 4 billion bytes\n9)[APIS-557] - cubrid_lob2_seek64 example does not work properly\n10)[APIS-558] - [PHP]some bug about document\n11)[APIS-560] - Cannot load PHP API 9.1.0.0003 in CentOS 5.6: undefined symbol: pthread_create in Unknown on line 0\n12)[APIS-562] - Cannot execute DELETE query in CUBRID SHARD via PHP API\n13)[APIS-583] - [PHP] The cubrid_get_class_name() function throws a warning if select data from a system table\n14)[APIS-586] - [PHP] cubrid_bind() doesn't work properly when insert bit data\n15)[APIS-587] - [PHP] cubrid_bind() doesn't support select bit data from a prepared statement\n16)[APIS-596] - [PHP][Manual] The 'test_lob' table which is not created initially may lead some misunderstandings\nChanged and Enhanced Features:\n1)[APIS-549] - Warnings during PHP/PDO API build via PECL\n2)[APIS-555] - support Collection Data Types in Pdo driver\n3)[APIS-559] - Compile PHP/PDO drivers from together with CCI source code instead of including the entire CCI binary.\n4)[APIS-584] - [PHP][Manual] Some 'Example' codes about the driver in php.net are somewhat confused\n5)[APIS-580] - Support CCI connection string parameters like altHosts, loadBalance in PHP/PDO",
-            "get": "http://pecl.php.net/get/CUBRID-9.1.0.0004",
+            "get": "https://pecl.php.net/get/CUBRID-9.1.0.0004",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "9.1.0.0003": {
@@ -65,7 +65,7 @@
             "releasedBy": "cubrid",
             "releaseDate": "2013-06-11T03:09:11+00:00",
             "releaseNotes": "Fixed bugs:\n1) APIS-548: The PHP driver does not support non-prepared statement for CUBRID shard database.\n2) APIS-546: The PDO driver does not support for the connection between the PDO and CUBRID shard broker.\n3) APIS-550: The PDO driver does not support prepare and query function in CUBRID shard db.\n4) APIS-551: The PHP driver does not support shard_key sql hint in CUBRID shard db.",
-            "get": "http://pecl.php.net/get/CUBRID-9.1.0.0003",
+            "get": "https://pecl.php.net/get/CUBRID-9.1.0.0003",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "9.1.0.0002": {
@@ -75,7 +75,7 @@
             "releasedBy": "cubrid",
             "releaseDate": "2013-06-10T04:40:40+00:00",
             "releaseNotes": "Fixed bugs:\n1) APIS-548: The PHP driver doesn\u2019t support non-prepared statement for CUBRID shard database.\n2) APIS-546: The PDO driver doesn\u2019t support for the connection between the PDO and CUBRID shard broker.\n3) APIS-550: The PDO driver doesn\u2019t support prepare and query function in CUBRID shard db.\n4) APIS-551: The PHP driver doesn\u2019t support shard_key sql hint in CUBRID shard db.",
-            "get": "http://pecl.php.net/get/CUBRID-9.1.0.0002",
+            "get": "https://pecl.php.net/get/CUBRID-9.1.0.0002",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "9.1.0.0001": {
@@ -85,17 +85,7 @@
             "releasedBy": "cubrid",
             "releaseDate": "2013-03-15T06:06:43+00:00",
             "releaseNotes": "Changed and Enhanced Features:\n\n1) APIS-417: Add the support of binding ENUM type data in CUBRID PHP driver.\n2) Enable cci_connect_ex(), cci_connect_with_url_ex(), escape_string() APIs for Windows platform.\n3) Update the urls infomation in README.\n\nFixed bugs:\n\n1) APIS-397: fix the NULL type support in PHP driver.\n2) APIS-434: fix memory leak when using cubrid_insert_id() in Windows platform.\n3) APIS-185: Update the error message when the connection is failed.\n4) APIS-459: When querying the column info, return \"unknown\" instead of error for unknown type.",
-            "get": "http://pecl.php.net/get/CUBRID-9.1.0.0001",
-            "SPDX-License-Identifier": "PHP-3.01"
-        },
-        "8.4.3.0001": {
-            "version": "8.4.3.0001",
-            "state": "stable",
-            "license": "PHP",
-            "releasedBy": "cubrid",
-            "releaseDate": "2012-11-16T03:55:40+00:00",
-            "releaseNotes": "This release works with Cubrid 8.4.3. It is based on the 8.4.1 branch and containing all the features in 8.4.1.\n\nChanged and Enhanced Features:\n\n1) APIS-385: Fix the segment fault when using cubrid_fetch_object().\n2) APIS-196: Return value of cubrid_column_types() is unknown when the column is set(list)\n3) APIS-294: Fixed a bug for cubrid_connect_with_url that when user don't pass user/password, public will be given\n4) APIS-280: Modified cubrid_affected_rows's parameter\n5) APIS-266: Remove \"CUBRID Version\" row in phpinfo()\n6) APIS-241: cubrid_real_escape_string() returns NULL for JSO string value\n7) APIS-194: cubrid_fetch_row and cubrid_fetch_array can't fetch results after added CUBRID_LOB option\n8) APIS-268: Modify PARAM_LOCK_TIMEOUT of cubrid_set_db_parameter\n\nIf you want to get more information about the bugs or if you need help, please go to\nhttp://jira.cubrid.org/browse/APIS.",
-            "get": "http://pecl.php.net/get/CUBRID-8.4.3.0001",
+            "get": "https://pecl.php.net/get/CUBRID-9.1.0.0001",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "9.0.0.0001": {
@@ -105,7 +95,17 @@
             "releasedBy": "cubrid",
             "releaseDate": "2012-10-15T06:05:51+00:00",
             "releaseNotes": "Fixed bugs:\n\n1) APIS-285: Modify cubrid_real_escape_string function\n2) APIS-338: When execute the sql statement containing \"prepare\", the error info is not right.\n3) APIS-293: fix the bug of the default PUBLIC user when there is only one argument in cubrid_connect_with_url()\n4) APIS-353: cubrid_schema dosen't support to query all triggers with CUBRID_SCH_TRIGGER type. Fixed the PHP driver part.\n5) NOISSUE: not use two connect_ex and new excape_string functions in Windows platform, because the cascci.lib doesn't export these functions.",
-            "get": "http://pecl.php.net/get/CUBRID-9.0.0.0001",
+            "get": "https://pecl.php.net/get/CUBRID-9.0.0.0001",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "8.4.3.0001": {
+            "version": "8.4.3.0001",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "cubrid",
+            "releaseDate": "2012-11-16T03:55:40+00:00",
+            "releaseNotes": "This release works with Cubrid 8.4.3. It is based on the 8.4.1 branch and containing all the features in 8.4.1.\n\nChanged and Enhanced Features:\n\n1) APIS-385: Fix the segment fault when using cubrid_fetch_object().\n2) APIS-196: Return value of cubrid_column_types() is unknown when the column is set(list)\n3) APIS-294: Fixed a bug for cubrid_connect_with_url that when user don't pass user/password, public will be given\n4) APIS-280: Modified cubrid_affected_rows's parameter\n5) APIS-266: Remove \"CUBRID Version\" row in phpinfo()\n6) APIS-241: cubrid_real_escape_string() returns NULL for JSO string value\n7) APIS-194: cubrid_fetch_row and cubrid_fetch_array can't fetch results after added CUBRID_LOB option\n8) APIS-268: Modify PARAM_LOCK_TIMEOUT of cubrid_set_db_parameter\n\nIf you want to get more information about the bugs or if you need help, please go to\nhttp://jira.cubrid.org/browse/APIS.",
+            "get": "https://pecl.php.net/get/CUBRID-8.4.3.0001",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "8.4.1.0006": {
@@ -115,7 +115,7 @@
             "releasedBy": "cubrid",
             "releaseDate": "2012-09-26T05:46:37+00:00",
             "releaseNotes": "Fixed bugs:\n\n1) APIS-266: Removed \"CUBRID Version\" row in phpinfo(). Because PHP Driver can't get the version of CUBRID before connection established.\n2) APIS-280: Modifed cubrid_affected_rows's parameter to be compatible with MySQL, and make changes to be compatible with the previous version, too.\n3) APIS-294: Fixed a bug for cubrid_connect_with_url that when user don't pass user/password, public will be given.",
-            "get": "http://pecl.php.net/get/CUBRID-8.4.1.0006",
+            "get": "https://pecl.php.net/get/CUBRID-8.4.1.0006",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "8.4.1.0005": {
@@ -125,7 +125,7 @@
             "releasedBy": "cubrid",
             "releaseDate": "2012-08-28T05:30:37+00:00",
             "releaseNotes": "Fixed bugs:\n\n1) APIS-241: Fixed cubrid_real_escape_string function.",
-            "get": "http://pecl.php.net/get/CUBRID-8.4.1.0005",
+            "get": "https://pecl.php.net/get/CUBRID-8.4.1.0005",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "8.4.1.0004": {
@@ -135,7 +135,7 @@
             "releasedBy": "cubrid",
             "releaseDate": "2012-07-04T02:37:38+00:00",
             "releaseNotes": "We have added functions about lob object in this version and these functions have been tested carefully.\nIf you want to get more information about the bugs or if you need help, please go to\nhttp://jira.cubrid.org/browse/APIS.\n\nThe following functions have been added:\n\n- cubrid_lob2_new\n- cubrid_lob2_bind\n- cubrid_lob2_export\n- cubrid_lob2_import\n- cubrid_lob2_read\n- cubrid_lob2_write\n- cubrid_lob2_tell\n- cubrid_lob2_tell64\n- cubrid_lob2_seek\n- cubrid_lob2_seek64\n- cubrid_lob2_size\n- cubrid_lob2_size64\n- cubrid_lob2_close\n\nChanged and Enhanced Features:\n\n1) APIS-179: Remove the support of named placeholders for prepare statements\n\n2) APIS-172: Remove the possibilities of the value of affected rows may not correct\n\n3) APIS-171: Unify the request resource registered in cubrid_execute, cubrid_query and cubrid_unbuffered_query\n\n   Though the implements of cubrid_execute, cubrid_query and cubrid_unbuffered_query are different,\n   there are also some problems that these three functions all need to consider, such as when should the \n   request resource be registered. We should register the request resource when the related objects are ready.\n\nFixed bugs:\n\n1) APIS-176: Resolve the memory growth when continually execute SQL statements on one connection and don't close request.",
-            "get": "http://pecl.php.net/get/CUBRID-8.4.1.0004",
+            "get": "https://pecl.php.net/get/CUBRID-8.4.1.0004",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "8.4.1.0003": {
@@ -145,7 +145,7 @@
             "releasedBy": "cubrid",
             "releaseDate": "2012-03-20T00:45:21+00:00",
             "releaseNotes": "Changed and Enhanced Features:\n\n- APIS-52: Simplify the code of cubrid_client_encoding and cubrid_get_charset\n- APIS-72: Unify the return value of some functions when they fail\n- APIS-97: In PHP calling is_resource() function when  = cubrid resource, always returns \"Unknown\"\n- APIS-100: PHPinfo() displays DB engine, CCI(libcas) and PHP driver's version info\n- APIS-103: Error: CCI, -13, Column index is out of range when calling cubrid_fetch_field()\n- APIS-105: cubrid_field_type() returns \"varchar(100)\" instead of \"varchar\"\n- APIS-106: cubrid_affected_rows() requires a different parameter than mysql_affected_rows()\n- APIS-107: cubrid_fetch_field() return default value as empty string instead of NULL\n- APIS-108: The resource parameter in cubrid_disconnect should be optional as in cubrid_close\n- APIS-109: Make the return values of cubrid_move_cursor and cubrid_data_seek consistent with mysql_data_seek\n- APIS-110: Modify return value of cubrid_num_fields\n- APIS-111: cubrid_list_dbs() requires connection_id while in mysql_list_dbs() connection_id is optional\n- APIS-117: cubrid_fetch_field will affect the cursor position which will influence the results of cubrid_fetch\n- APIS-123: Return value of cubrid_fetch_lengths method is empty when record number is 1\n- APIS-128: Passing field parameter in the form of tablename.fieldname to cubrid_result method will fail\n- APIS-129: Getting value using cubrid_result method will fail when the column value in database is null\n- APIS-132: Error message is empty when row number is out of range of cubrid_data_seek method\n- APIS-135: Segment default will appear when calling cubrid_list_dbs() method\n- APIS-147: Connect will success when passing a error passwd to cubrid_pconnect() method\n- APIS-150: Return values are not good for cubrid_get_autocommit",
-            "get": "http://pecl.php.net/get/CUBRID-8.4.1.0003",
+            "get": "https://pecl.php.net/get/CUBRID-8.4.1.0003",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "8.4.1.0002": {
@@ -155,7 +155,7 @@
             "releasedBy": "cubrid",
             "releaseDate": "2012-02-25T04:31:31+00:00",
             "releaseNotes": "Changed and Enhanced Features:\n\n- API-50: Remove some custom errors that have provided in CCI\n- APIS-49: cubrid_set_query_timeout and cubrid_get_query_timeout should use CCI_ER_QUERY_TIMEOUT when they cause an error\n- use cci_prepare_and_execute to improve the performace for cubrid_execute and cubrid_query",
-            "get": "http://pecl.php.net/get/CUBRID-8.4.1.0002",
+            "get": "https://pecl.php.net/get/CUBRID-8.4.1.0002",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "8.4.1.0001": {
@@ -165,7 +165,7 @@
             "releasedBy": "cubrid",
             "releaseDate": "2012-02-01T00:54:31+00:00",
             "releaseNotes": "2008 R4.1 Release\n\nThis release is a major release. Several new features have been added to this version \nincluding persistent connecting, query timeout and so on. Accordingly new functions\nare added, and several bugs have been fixed.\n\nThe following functions have been added:\n\n- cubrid_pconnect\n- cubrid_pconnect_with_url\n- cubrid_set_query_timeout\n- cubrid_get_query_timeout\n\nChanged and Enhanced Features:\n\n1) Reuse the connection established:\n\nFor mysql, if a second call is made to mysql_connect() with the same arguments, no new\nlink will be established, but instead, the connect identifier of the already opened\nconnection will be returned. The new_link parameter modifies this behavior and makes\nmysql_connect() always open a new connection, even if mysql_connect() was called before\nwith the same parameters. \n\nTo make compatibility with mysql, we add the new_link parameter in cubrid_connect and\ncubrid_connect_with_url.\n\n2) Add persistent connection:\n\nWe add two functions, cubrid_pconnect and cubrid_pconnect_with_url, to provide persistent\ndatabase connections. The parameters of cubrid_pconnect are same with cubrid_connect, and\nso do cubrid_pconnect_with_url and cubrid_connect_with_url.\n\n3) Add functions about getting and setting the query timeout time:\n\nIf database queries are taking too long to perform, and your application is becoming\nunresponsive, you can configure a timeout for database queries. We add two functions\n(cubrid_get_query_timeout and cubrid_set_query_timeout) to get and set the query timeout\nof database queries.\n\n4) Add a form of the url parameter for cubrid_connect_with_url function:\n\nSupport the way without \"cci:\" in url parameter, that is the url become \n\"CUBRID:host:db_name:db_user:.......\"\n\nFixed bugs:\n\n- Fix a bug in cubrid_fetch, cubrid_fetch_row, cubrid_fetch_array, cubrid_fetch_assoc\nand cubrid_fetch_object: Modified the return value when there are no more data;",
-            "get": "http://pecl.php.net/get/CUBRID-8.4.1.0001",
+            "get": "https://pecl.php.net/get/CUBRID-8.4.1.0001",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "8.4.0.0005": {
@@ -175,17 +175,7 @@
             "releasedBy": "cubrid",
             "releaseDate": "2011-11-23T04:18:43+00:00",
             "releaseNotes": "Changed and Enhanced Features:\n\n- Add two functions, cubrid_pconnect and cubrid_pconnect_with_url, to support the persistent connection like mysql_pconnect\n- Add a form of the url argument in cubrid_connect_with_url function",
-            "get": "http://pecl.php.net/get/CUBRID-8.4.0.0005",
-            "SPDX-License-Identifier": "PHP-3.01"
-        },
-        "8.3.1.0008": {
-            "version": "8.3.1.0008",
-            "state": "stable",
-            "license": "PHP",
-            "releasedBy": "cubrid",
-            "releaseDate": "2011-11-23T03:52:54+00:00",
-            "releaseNotes": "Changed and Enhanced Features:\n\n- According to mysql_fetch_field, Add 4 properties(primary_key blob unsigned zerofill) in cubrid_fetch_field\n- Add two functions, cubrid_pconnect and cubrid_pconnect_with_url, to support the persistent connection like mysql_pconnect\n- Add a form of the url argument in cubrid_connect_with_url function",
-            "get": "http://pecl.php.net/get/CUBRID-8.3.1.0008",
+            "get": "https://pecl.php.net/get/CUBRID-8.4.0.0005",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "8.4.0.0004": {
@@ -195,7 +185,7 @@
             "releasedBy": "cubrid",
             "releaseDate": "2011-10-17T21:37:24+00:00",
             "releaseNotes": "Changed and Enhanced Features:\n\n- According to mysql_fetch_field, Add 4 properties(primary_key blob unsigned zerofill) in cubrid_fetch_field",
-            "get": "http://pecl.php.net/get/CUBRID-8.4.0.0004",
+            "get": "https://pecl.php.net/get/CUBRID-8.4.0.0004",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "8.4.0.0003": {
@@ -205,17 +195,7 @@
             "releasedBy": "cubrid",
             "releaseDate": "2011-08-08T01:10:13+00:00",
             "releaseNotes": "Fixed bugs:\n\n- Fix a bug about last_connect_id: if applications don't close all the connections, at some point retrieving data from database seems to be successfully but it does not return anything, only a warning message in the error_log that says someting like this: \"11 is not a valid CUBRID-Connect resource\"",
-            "get": "http://pecl.php.net/get/CUBRID-8.4.0.0003",
-            "SPDX-License-Identifier": "PHP-3.01"
-        },
-        "8.3.1.0007": {
-            "version": "8.3.1.0007",
-            "state": "stable",
-            "license": "PHP",
-            "releasedBy": "cubrid",
-            "releaseDate": "2011-08-08T01:09:48+00:00",
-            "releaseNotes": "Fixed bugs:\n\n- Fix a bug about last_connect_id: if applications don't close all the connections, at some point retrieving data from database seems to be successfully but it does not return anything, only a warning message in the error_log that says someting like this: \"11 is not a valid CUBRID-Connect resource\"",
-            "get": "http://pecl.php.net/get/CUBRID-8.3.1.0007",
+            "get": "https://pecl.php.net/get/CUBRID-8.4.0.0003",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "8.4.0.0002": {
@@ -225,7 +205,7 @@
             "releasedBy": "cubrid",
             "releaseDate": "2011-07-01T03:15:56+00:00",
             "releaseNotes": "Changed and Enhanced Features:\n\n- Getting the isolation level value when connectiong to CUBRID will causes less performance on PHP application, so remove it. \n\nFixed bugs:\n\n- Fix a bug in cubrid_next_result: new version cci_next_result will reuse the request handle, so do not close it before calling cci_next_result.\n- Fix a bug about life cycle management of PHP resource T_CUBRID_REQUEST: The CCI request on new database connection may be closed when php garbage collector release the resource T_CUBRID_REQUEST on last database connection.",
-            "get": "http://pecl.php.net/get/CUBRID-8.4.0.0002",
+            "get": "https://pecl.php.net/get/CUBRID-8.4.0.0002",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "8.4.0.0001": {
@@ -235,7 +215,27 @@
             "releasedBy": "cubrid",
             "releaseDate": "2011-05-09T04:15:44+00:00",
             "releaseNotes": "2008 R4.0 Release\n\nThis release is a major release. Several new features have been added to this\nversion including auto commit, multiple SQL statements support, named parameter\nand so on. Accordingly new functions are added, and several bugs have been\nfixed.\n\nFunctionality added:\n\ncubrid_next_result\ncubrid_set_autocommit\ncubrid_get_autocommit\ncubrid_set_db_parameter\n\nChanged and Enhanced Features:\n\n- Add named parameter support:\n\ncubrid_bind() supports both positioal and named parameter when binding\nparameters for SQL statement.\n\n- Add multiple SQL statements support:\n\ncubrid_execute() supports multiple SQL statements when the option\nCUBRID_EXEC_QUERY_ALL is set. The return value of cubrid_execute() is the\nresult of the first query, and you can use cubrid_next_result() to get the\nresult of next query if it is executed successfully.\n\n- Add auto commit support:\n\nCUBRID PHP supports auto-commit mode. You can set auto-commit mode when\nconnecting to CUBRID by using cubrid_connect_with_url(). You can also get\nauto-commit mode of current connection by using cubrid_get_autocommit() and\nchange it by using cubrid_set_autocommit().\n\n- Add database parameter setting support:\n\ncubrid_set_db_parameter() can be used to set the database transaction isolation\nlevel and lock timeout value. \n\n- cubrid_insert_id() returns only one value:\n\ncubrid_insert_id() will not return an array, instead it will return a string\nrepresenting the ID generated by the AUTO_INCREMENT column which is updated by\nthe previous INSERT query.\n\nCUBRID supports AUTO_INCREMENT for more than one columns in a table. In most\ncases, there will be a single AUTO_INCREMENT column in a table. If there are\nmultiple AUTO_INCREMENT columns, the cubrid_insert_id() should not be used even\nif it will return a value. \n\n- cubrid_lob_size() return value type changes:\n\ncubrid_lob_size() will return the lob size as a string.\n\nFixed bugs:\n\n- Fix a bug in cubrid_fetch_object: cubrid_fetch_object can't work with php-5.2.x;\n- Fix a bug in cubrid_put: There may be column name string copy error if the length of column name is more than 4;\n- Fix a bug in cubrid_bind: When the value of binding parameter is NULL, it will covert the value to empty string;\n- Fix a bug which may casue memory leak: After calling array_init(return_value), if error occures, it should destroy the array before returning false;\n- Fix a bug about BLOB/CLOB: When inserting LOB data, if the data size is large enough, it will fails. And if the LOB data is in a file, and it is too large to be put into memory, you can bind a file path name when binding the LOB data;\n- Fix a bug about CLOB: When binding data type is CLOB, it will fail when inserting it into CUBRID.",
-            "get": "http://pecl.php.net/get/CUBRID-8.4.0.0001",
+            "get": "https://pecl.php.net/get/CUBRID-8.4.0.0001",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "8.3.1.0008": {
+            "version": "8.3.1.0008",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "cubrid",
+            "releaseDate": "2011-11-23T03:52:54+00:00",
+            "releaseNotes": "Changed and Enhanced Features:\n\n- According to mysql_fetch_field, Add 4 properties(primary_key blob unsigned zerofill) in cubrid_fetch_field\n- Add two functions, cubrid_pconnect and cubrid_pconnect_with_url, to support the persistent connection like mysql_pconnect\n- Add a form of the url argument in cubrid_connect_with_url function",
+            "get": "https://pecl.php.net/get/CUBRID-8.3.1.0008",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "8.3.1.0007": {
+            "version": "8.3.1.0007",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "cubrid",
+            "releaseDate": "2011-08-08T01:09:48+00:00",
+            "releaseNotes": "Fixed bugs:\n\n- Fix a bug about last_connect_id: if applications don't close all the connections, at some point retrieving data from database seems to be successfully but it does not return anything, only a warning message in the error_log that says someting like this: \"11 is not a valid CUBRID-Connect resource\"",
+            "get": "https://pecl.php.net/get/CUBRID-8.3.1.0007",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "8.3.1.0006": {
@@ -245,7 +245,7 @@
             "releasedBy": "cubrid",
             "releaseDate": "2011-04-08T05:02:25+00:00",
             "releaseNotes": "- Add support for named placeholder for prepare statement;\n- cubrid_lob_size returns lob size as a string, because it can't return 64-bit integer from php extension. \n\nFixed bugs:\n\n- Fix a bug in cubrid_insert_id: max precision of insert id is 38, so it shouldn't return the value as integer, use string instead;\n- Fix a bug about BLOB/CLOB: When inserting LOB data, if the data size is large enough, it will fails. If the LOB data is in a file, and it is too large to be put into memory, you can bind a file path name when binding the LOB data.",
-            "get": "http://pecl.php.net/get/CUBRID-8.3.1.0006",
+            "get": "https://pecl.php.net/get/CUBRID-8.3.1.0006",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "8.3.1.0005": {
@@ -255,7 +255,7 @@
             "releasedBy": "cubrid",
             "releaseDate": "2011-02-22T21:08:46+00:00",
             "releaseNotes": "- Use long long to store lob size. \n     \nThe data type of BLOB/CLOB size is long long, but it can't return long long\nfrom PHP extension function. After tring serveral methods, I find that\ncubrid_lob_size should return a string just as PDO does. I will fix this\nproblem in CUBRID PHP R4.0 release.\n\n- Fix a bug which may casue memory leak: After calling array_init(return_value), if error occures, it should destroy the array before returning false;\n- Fix a bug in cubrid_bind: When the value of binding parameter is NULL, it will covert the value to empty string;\n- Fix a bug in cubrid_real_escape string: When escaping single quote in string, it should use double single quotes, not backslash.",
-            "get": "http://pecl.php.net/get/CUBRID-8.3.1.0005",
+            "get": "https://pecl.php.net/get/CUBRID-8.3.1.0005",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "8.3.1.0004": {
@@ -265,7 +265,7 @@
             "releasedBy": "cubrid",
             "releaseDate": "2011-01-24T21:30:41+00:00",
             "releaseNotes": "- zend_long64 don't exist in php-5.2.x, use size_t for LOB size instead.",
-            "get": "http://pecl.php.net/get/CUBRID-8.3.1.0004",
+            "get": "https://pecl.php.net/get/CUBRID-8.3.1.0004",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "8.3.1.0003": {
@@ -275,7 +275,7 @@
             "releasedBy": "cubrid",
             "releaseDate": "2011-01-20T03:46:45+00:00",
             "releaseNotes": "- use zend_long64 to store LOB data size, not long.",
-            "get": "http://pecl.php.net/get/CUBRID-8.3.1.0003",
+            "get": "https://pecl.php.net/get/CUBRID-8.3.1.0003",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "8.3.1.0002": {
@@ -285,7 +285,7 @@
             "releasedBy": "cubrid",
             "releaseDate": "2011-01-11T00:49:19+00:00",
             "releaseNotes": "- fix a bug in cubrid_fetch_object : cubrid_fetch_object can't work with php-5.2.x.\n- fix a bug in cubrid_bind : blob/clob data won't be binded correctly, which will cause cubrid_execute fail\"",
-            "get": "http://pecl.php.net/get/CUBRID-8.3.1.0002",
+            "get": "https://pecl.php.net/get/CUBRID-8.3.1.0002",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "8.3.1.0001": {
@@ -295,7 +295,7 @@
             "releasedBy": "cubrid",
             "releaseDate": "2011-01-05T04:12:23+00:00",
             "releaseNotes": "2008 R3.1 Release\n\nThis release is a major release. CUBRID 3.1 Stable has been released. Several new \nfeatures have been added to this version including new BLOB and CLOB data types and \nnew APIs in JDBC/CCI which can get foreign key information. Accordingly new functions \nand features are added in this CUBRID PHP version, and some bugs have been fixed.\n\nFunctionality added:\n\n- Add more CUBRID-MySQL Compatibility functions:\n\n  cubrid_query\n  cubrid_close\n  cubrid_error\n  cubrid_errno\n  cubrid_client_encoding\n  cubrid_fetch_array\n  cubrid_db_name\n  cubrid_ping\n\n- Add Lob related functions:\n\n  cubrid_lob_get\n  cubrid_lob_close\n  cubrid_lob_size\n  cubrid_lob_export\n  cubrid_lob_send\n\nFunctionality removed:\n\nGlo data type has been removed from CUBRID 3.1, BLOB/CLOB can be used to replace it. So \nremoved Glo related functions:\n\n  cubrid_new_glo\n  cubrid_save_to_glo\n  cubrid_load_from_glo\n  cubrid_send_glo\n\nChanged and Enhanced Features:\n\n- Add three new schema type integer constants for cubrid_schema: \n\n  CUBRID_SCH_IMPORTED_KEYS\n  CUBRID_SCH_EXPORTED_KEYS\n  CUBRID_SCH_CROSS_REFERENCE\n\n  They can be used to get foreign key information. \n\n- cubrid_bind support BLOB and CLOB data types.\n\n- cubrid_unbuffered_query now is worthy of its name. It won't need to wait \n  for that all query results have been complete. It will return when the \n  results are being generated, so you can't use cubrid_num_rows and \n  cubrid_data_seek on a result set returned from cubrid_unbuffered_query.\n\n- cubrid_fetch_object: Add new parameters class_name and params, which can \n  pass the name of class to instantiate and the constructor for class_name objects.\n\n- When cubrid_schema and cubrid_col_size fails, return false instead of -1.\n\nFixed bugs:\n\n- last db connetion/request resource management: If there is no variable to refer these resources, they will be removed by garbage collector.\n- cubrid_execute: If cubrid fails to get result info after executing sql statement, there may be memory leak.\n- cubrid_disconnect: When disconnecting any db connection, it will always reset the last request and connection info.\n- cubrid_unbuffered_query: When query execution fails, it don't free the allocated request resource.",
-            "get": "http://pecl.php.net/get/CUBRID-8.3.1.0001",
+            "get": "https://pecl.php.net/get/CUBRID-8.3.1.0001",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "8.3.0.0005": {
@@ -305,7 +305,7 @@
             "releasedBy": "cubrid",
             "releaseDate": "2011-01-03T20:55:21+00:00",
             "releaseNotes": "- enhance cubrid_fetch_object : make it compitible with mysql_fetch_object.\n- enhance cubrid_unbuffered_query : make it worthy of the name, unbuffered query.\n\n- fix a bug in cubrid_execute : if cubrid fails to get result info, there may be memory leak.\n- fix a bug in cubrid_disconnect : When disconnecting any db connection, it will always reset the last request and connection info.\n- fix a bug in last db connect/request life cycle management : if there is no var to refer these resources, then they will be removed by garbage collector.\n- fix a bug in cubrid_unbuffered_query which can cause memory leak : when query execution fails, it don't free the allocated request resource.",
-            "get": "http://pecl.php.net/get/CUBRID-8.3.0.0005",
+            "get": "https://pecl.php.net/get/CUBRID-8.3.0.0005",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "8.3.0.0004": {
@@ -315,7 +315,7 @@
             "releasedBy": "cubrid",
             "releaseDate": "2010-12-26T19:54:41+00:00",
             "releaseNotes": "- Fix a bug in cubrid_put: Under x64 system, there will be memory overflow in cubrid_put when given the the attr name as the third param.",
-            "get": "http://pecl.php.net/get/CUBRID-8.3.0.0004",
+            "get": "https://pecl.php.net/get/CUBRID-8.3.0.0004",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "8.3.0.0003": {
@@ -325,7 +325,7 @@
             "releasedBy": "cubrid",
             "releaseDate": "2010-11-18T21:48:07+00:00",
             "releaseNotes": "- Add a new function cubrid_fetch_array",
-            "get": "http://pecl.php.net/get/CUBRID-8.3.0.0003",
+            "get": "https://pecl.php.net/get/CUBRID-8.3.0.0003",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "8.3.0.0002": {
@@ -335,7 +335,7 @@
             "releasedBy": "cubrid",
             "releaseDate": "2010-10-26T04:29:16+00:00",
             "releaseNotes": "- fix an installation bug in config.m4",
-            "get": "http://pecl.php.net/get/CUBRID-8.3.0.0002",
+            "get": "https://pecl.php.net/get/CUBRID-8.3.0.0002",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "8.3.0.0001": {
@@ -345,7 +345,7 @@
             "releasedBy": "cubrid",
             "releaseDate": "2010-10-18T03:59:39+00:00",
             "releaseNotes": "This release is a major release. All codes has been reviewed, and totally rewritten with latest Zend Engine 2 API.\n\n- Added more than 20 new APIs, see release-notes.html in package for more details.\n- Added two new schema types for cubrid_schema: CUBRID_SCH_DIRECT_SUPER_CLASS and CUBRID_SCH_PRIMARY_KEY.\n- More data types support for cubrid_bind, the following types are added: CHAR, VARCHAR, BIGINT, MONETARY, VARBIT and DATETIME.\n- Fix a bug in cubrid_get: If parameter attr is given and its type is string, and the function returns successfully, then there will be memory leak.",
-            "get": "http://pecl.php.net/get/CUBRID-8.3.0.0001",
+            "get": "https://pecl.php.net/get/CUBRID-8.3.0.0001",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

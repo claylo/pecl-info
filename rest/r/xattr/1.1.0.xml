@@ -15,6 +15,6 @@
  <da>2008-07-01 11:11:20</da>
  <n>Enforce open_basedir and safe_mode checks.</n>
  <f>5204</f>
- <g>http://pecl.php.net/get/xattr-1.1.0</g>
+ <g>https://pecl.php.net/get/xattr-1.1.0</g>
  <x xlink:href="package.1.1.0.xml"/>
 </r>

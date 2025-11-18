@@ -25,6 +25,6 @@ libraries are available.</d>
  <da>2014-03-12 11:38:56</da>
  <n>Enhancement - Improve performance of multi-row OCI_RETURN_LOB queries (Bug #66875)</n>
  <f>190854</f>
- <g>http://pecl.php.net/get/oci8-2.0.8</g>
+ <g>https://pecl.php.net/get/oci8-2.0.8</g>
  <x xlink:href="package.2.0.8.xml"/>
 </r>

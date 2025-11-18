@@ -24,6 +24,6 @@
  <da>2005-10-04 04:54:47</da>
  <n>* Fixed caching by Last-Modified with dates in october</n>
  <f>104180</f>
- <g>http://pecl.php.net/get/pecl_http-0.14.2</g>
+ <g>https://pecl.php.net/get/pecl_http-0.14.2</g>
  <x xlink:href="package.0.14.2.xml"/>
 </r>

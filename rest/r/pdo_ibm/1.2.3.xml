@@ -18,6 +18,6 @@ Universal Database, IBM Cloudscape, and Apache Derby databases.
  <da>2007-09-14 11:05:12</da>
  <n>Rolled back fix for selecting LOB with an empty string(&quot;&quot;)</n>
  <f>54034</f>
- <g>http://pecl.php.net/get/PDO_IBM-1.2.3</g>
+ <g>https://pecl.php.net/get/PDO_IBM-1.2.3</g>
  <x xlink:href="package.1.2.3.xml"/>
 </r>

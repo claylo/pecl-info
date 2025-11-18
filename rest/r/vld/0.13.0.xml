@@ -19,6 +19,6 @@ dumps all the opcodes (execution units) of a script.</d>
 - Fixed memory leaks 
 - Support for showing entry and exit points when generating dot files</n>
  <f>17547</f>
- <g>http://pecl.php.net/get/vld-0.13.0</g>
+ <g>https://pecl.php.net/get/vld-0.13.0</g>
  <x xlink:href="package.0.13.0.xml"/>
 </r>

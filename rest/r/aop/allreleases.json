@@ -3,6 +3,10 @@
         "version": "0.2.2b1",
         "state": "beta"
     },
+    "0.2.1": {
+        "version": "0.2.1",
+        "state": "alpha"
+    },
     "0.2.1b5": {
         "version": "0.2.1b5",
         "state": "beta"
@@ -22,10 +26,6 @@
     "0.2.1b1": {
         "version": "0.2.1b1",
         "state": "beta"
-    },
-    "0.2.1": {
-        "version": "0.2.1",
-        "state": "alpha"
     },
     "0.2.0": {
         "version": "0.2.0",

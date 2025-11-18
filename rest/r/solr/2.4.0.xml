@@ -31,6 +31,6 @@ PECL Solr 2+ is only compatible with Apache Solr Server 4.0+</d>
 - Fix SolrObject::offsetExists SegFault [Bug #71852]
 - Fix float formatting with decimal comma [Bug #71568]</n>
  <f>256316</f>
- <g>http://pecl.php.net/get/solr-2.4.0</g>
+ <g>https://pecl.php.net/get/solr-2.4.0</g>
  <x xlink:href="package.2.4.0.xml"/>
 </r>

@@ -45,6 +45,6 @@ Xdebug also provides:
 	- Fixed a memory free error related to remote debugging conditions.
 	  (Related to bug #297).</n>
  <f>279058</f>
- <g>http://pecl.php.net/get/xdebug-2.0.1</g>
+ <g>https://pecl.php.net/get/xdebug-2.0.1</g>
  <x xlink:href="package.2.0.1.xml"/>
 </r>

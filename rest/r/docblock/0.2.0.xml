@@ -35,6 +35,6 @@ docblock_token_name() takes a DOCBLOCK_* constant and returns its name</d>
 - fix Bug #7952: terse mode ignores simplelist end
 - fix Bug #7953: {@internal}} returned as inline tag inside &lt;code&gt;</n>
  <f>28197</f>
- <g>http://pecl.php.net/get/docblock-0.2.0</g>
+ <g>https://pecl.php.net/get/docblock-0.2.0</g>
  <x xlink:href="package.0.2.0.xml"/>
 </r>

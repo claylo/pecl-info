@@ -16,6 +16,6 @@
  <n>- Fixed bug that Yaf_View_Simple::eval doesn't accept short open tag
 - Fixed bug that Yaf_View_Simple::eval doesn't allow tpl be wrapped by PHP opening tag</n>
  <f>82647</f>
- <g>http://pecl.php.net/get/yaf-2.1.18</g>
+ <g>https://pecl.php.net/get/yaf-2.1.18</g>
  <x xlink:href="package.2.1.18.xml"/>
 </r>

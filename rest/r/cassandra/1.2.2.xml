@@ -23,6 +23,6 @@ Bug Fixes:
 * [PHP-112] Freeing a null future as result of a failure in \Cassandra\DefaultSession::executeAsync()
 * [PHP-115] \Cassandra\UUID returning duplicate UUIDs</n>
  <f>153553</f>
- <g>http://pecl.php.net/get/cassandra-1.2.2</g>
+ <g>https://pecl.php.net/get/cassandra-1.2.2</g>
  <x xlink:href="package.1.2.2.xml"/>
 </r>

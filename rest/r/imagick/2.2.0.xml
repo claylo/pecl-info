@@ -20,6 +20,6 @@ IMPORTANT: Version 2.x API is not compatible with earlier versions.</d>
   * Major refactoring of the file structure
   * Fixes bugs related to the refactoring</n>
  <f>76417</f>
- <g>http://pecl.php.net/get/imagick-2.2.0</g>
+ <g>https://pecl.php.net/get/imagick-2.2.0</g>
  <x xlink:href="package.2.2.0.xml"/>
 </r>

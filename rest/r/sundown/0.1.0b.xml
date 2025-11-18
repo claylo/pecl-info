@@ -35,6 +35,6 @@ builtin markdown html render.
 * Sundown\Render\XHTML
 builtin markdown xhtml render.</n>
  <f>44227</f>
- <g>http://pecl.php.net/get/sundown-0.1.0b</g>
+ <g>https://pecl.php.net/get/sundown-0.1.0b</g>
  <x xlink:href="package.0.1.0b.xml"/>
 </r>

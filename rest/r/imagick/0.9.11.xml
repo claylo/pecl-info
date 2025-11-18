@@ -22,6 +22,6 @@
  <n>- Fix some segfaults on errors  (by Andrei Nigmatulin)
 - EXPERIMENTAL support for ImageMagick &gt;= 6.0.0 (hint by Stanislav Yadykin). Please report successes or failures.</n>
  <f>69562</f>
- <g>http://pecl.php.net/get/imagick-0.9.11</g>
+ <g>https://pecl.php.net/get/imagick-0.9.11</g>
  <x xlink:href="package.0.9.11.xml"/>
 </r>

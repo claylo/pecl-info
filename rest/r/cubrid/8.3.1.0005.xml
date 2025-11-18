@@ -24,6 +24,6 @@ problem in CUBRID PHP R4.0 release.
 - Fix a bug in cubrid_bind: When the value of binding parameter is NULL, it will covert the value to empty string;
 - Fix a bug in cubrid_real_escape string: When escaping single quote in string, it should use double single quotes, not backslash.</n>
  <f>35780</f>
- <g>http://pecl.php.net/get/CUBRID-8.3.1.0005</g>
+ <g>https://pecl.php.net/get/CUBRID-8.3.1.0005</g>
  <x xlink:href="package.8.3.1.0005.xml"/>
 </r>

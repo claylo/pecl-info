@@ -16,6 +16,6 @@
  <da>2009-09-23 23:08:56</da>
  <n>fix for  libsvn 1.6.2</n>
  <f>23563</f>
- <g>http://pecl.php.net/get/svn-0.5.1</g>
+ <g>https://pecl.php.net/get/svn-0.5.1</g>
  <x xlink:href="package.0.5.1.xml"/>
 </r>

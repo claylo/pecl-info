@@ -26,6 +26,6 @@ IMPORTANT: Version 2.x API is not compatible with earlier versions.</d>
 + Added Imagick::getIteratorIndex() and Imagick::setIteratorIndex().
 + Added Imagick::readImages()</n>
  <f>66972</f>
- <g>http://pecl.php.net/get/imagick-2.0.0RC1</g>
+ <g>https://pecl.php.net/get/imagick-2.0.0RC1</g>
  <x xlink:href="package.2.0.0RC1.xml"/>
 </r>

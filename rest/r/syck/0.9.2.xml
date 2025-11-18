@@ -25,6 +25,6 @@ YAML(tm) (rhymes with &quot;camel&quot;) is a straightforward machine parsable d
 - added support for loading classes which implement Serializable (!php/object::ClassName)
 - added support for dumping classes which implement Serializable (!php/object::ClassName)</n>
  <f>11339</f>
- <g>http://pecl.php.net/get/syck-0.9.2</g>
+ <g>https://pecl.php.net/get/syck-0.9.2</g>
  <x xlink:href="package.0.9.2.xml"/>
 </r>

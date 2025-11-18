@@ -16,6 +16,6 @@ dumps all the opcodes (execution units) of a script.</d>
  <da>2012-03-09 18:13:40</da>
  <n>- PHP 5.4 support</n>
  <f>16344</f>
- <g>http://pecl.php.net/get/vld-0.11.1</g>
+ <g>https://pecl.php.net/get/vld-0.11.1</g>
  <x xlink:href="package.0.11.1.xml"/>
 </r>

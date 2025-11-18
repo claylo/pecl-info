@@ -20,6 +20,6 @@ Fixed: Compilation error with php-5.4.x
 i5/OS: Remove compile errors during IBM i compiles due to chaining support
 i5/OS: Allow use of V6+ (SQL_ATTR_INFO_ACCTSTR, SQL_ATTR_INFO_APPLNAME, SQL_ATTR_INFO_PROGRAMID, SQL_ATTR_INFO_USERID, SQL_ATTR_INFO_WRKSTNNAME connection attributes)</n>
  <f>156494</f>
- <g>http://pecl.php.net/get/ibm_db2-1.9.3</g>
+ <g>https://pecl.php.net/get/ibm_db2-1.9.3</g>
  <x xlink:href="package.1.9.3.xml"/>
 </r>

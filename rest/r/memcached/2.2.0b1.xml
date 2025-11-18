@@ -33,6 +33,6 @@
 - Memcached::setSaslAuthData returns correct status on success
 - Added support for user-defined flags in set and get operations</n>
  <f>70216</f>
- <g>http://pecl.php.net/get/memcached-2.2.0b1</g>
+ <g>https://pecl.php.net/get/memcached-2.2.0b1</g>
  <x xlink:href="package.2.2.0b1.xml"/>
 </r>

@@ -25,6 +25,6 @@
 - Fixed PECL request #13725 (unnecessary allocations in mmc_consistent_add_server)
 - Changed behaviour when unserialize/uncompress fail to return false instead of failing the server</n>
  <f>35389</f>
- <g>http://pecl.php.net/get/memcache-2.2.4</g>
+ <g>https://pecl.php.net/get/memcache-2.2.4</g>
  <x xlink:href="package.2.2.4.xml"/>
 </r>

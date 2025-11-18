@@ -23,6 +23,6 @@ http://www.pdflib.com/developer-center/technical-documentation/php-howto</d>
 - support for PDFlib 7/8/9 and PDFlib Light
 - dropped support for PDFlib 6 and earlier</n>
  <f>26849</f>
- <g>http://pecl.php.net/get/pdflib-3.0.1</g>
+ <g>https://pecl.php.net/get/pdflib-3.0.1</g>
  <x xlink:href="package.3.0.1.xml"/>
 </r>

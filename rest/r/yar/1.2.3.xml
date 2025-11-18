@@ -16,6 +16,6 @@
  <n>- Fixed windows building 
 - Fixed segfault NULL pointer dereference</n>
  <f>37574</f>
- <g>http://pecl.php.net/get/yar-1.2.3</g>
+ <g>https://pecl.php.net/get/yar-1.2.3</g>
  <x xlink:href="package.1.2.3.xml"/>
 </r>

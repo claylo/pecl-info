@@ -18,6 +18,6 @@ the Oracle Call Interface (OCI8).
  <n>Fixed segfault when binding empty values.
 Fixed problem with oci_error() without arguments.</n>
  <f>60970</f>
- <g>http://pecl.php.net/get/oci8-1.1.1</g>
+ <g>https://pecl.php.net/get/oci8-1.1.1</g>
  <x xlink:href="package.1.1.1.xml"/>
 </r>

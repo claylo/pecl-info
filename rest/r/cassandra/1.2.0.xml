@@ -31,6 +31,6 @@ Bug Fixes:
 * [PHP-100] Whitelist/Blacklist LB setting should update the cluster builder hash key
 * [PHP-101] Memory leak when paging results</n>
  <f>153289</f>
- <g>http://pecl.php.net/get/cassandra-1.2.0</g>
+ <g>https://pecl.php.net/get/cassandra-1.2.0</g>
  <x xlink:href="package.1.2.0.xml"/>
 </r>

@@ -27,6 +27,6 @@
 * Fix JSON dep (Remi)
 * Fix build on MacOSX</n>
  <f>58243</f>
- <g>http://pecl.php.net/get/pq-0.5.3</g>
+ <g>https://pecl.php.net/get/pq-0.5.3</g>
  <x xlink:href="package.0.5.3.xml"/>
 </r>

@@ -32,6 +32,6 @@
   Server 5.x feature).
 * PCBC-440: add experimental support of extended attributes for subdocument operations.</n>
  <f>142614</f>
- <g>http://pecl.php.net/get/couchbase-2.3.2</g>
+ <g>https://pecl.php.net/get/couchbase-2.3.2</g>
  <x xlink:href="package.2.3.2.xml"/>
 </r>

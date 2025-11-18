@@ -19,6 +19,6 @@ This package was originally developed by Bart Vanbrabant. Old versions are avail
  <n>- Initial PHP4 support
 Thanks to widexs (http://www.widexs.nl) to fund php4 support</n>
  <f>8388</f>
- <g>http://pecl.php.net/get/htscanner-0.8.0</g>
+ <g>https://pecl.php.net/get/htscanner-0.8.0</g>
  <x xlink:href="package.0.8.0.xml"/>
 </r>

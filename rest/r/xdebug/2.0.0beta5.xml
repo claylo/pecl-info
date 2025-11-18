@@ -43,6 +43,6 @@ Xdebug also provides:
 	- Fixed bug #154: GCC 4.0.2 optimizes too much out with -O2.
 	- Fixed bug #141: Remote context_get causes segfault.</n>
  <f>230405</f>
- <g>http://pecl.php.net/get/xdebug-2.0.0beta5</g>
+ <g>https://pecl.php.net/get/xdebug-2.0.0beta5</g>
  <x xlink:href="package.2.0.0beta5.xml"/>
 </r>

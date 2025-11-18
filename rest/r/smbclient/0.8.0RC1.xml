@@ -19,6 +19,6 @@
 - rename extension to smbclient
 - PHP 7 compatibility</n>
  <f>30812</f>
- <g>http://pecl.php.net/get/smbclient-0.8.0RC1</g>
+ <g>https://pecl.php.net/get/smbclient-0.8.0RC1</g>
  <x xlink:href="package.0.8.0RC1.xml"/>
 </r>

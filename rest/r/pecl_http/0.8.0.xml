@@ -35,6 +35,6 @@
 * added http_match_request_header()
 * added clean_ob parameter to HttpResponse::send()</n>
  <f>71907</f>
- <g>http://pecl.php.net/get/pecl_http-0.8.0</g>
+ <g>https://pecl.php.net/get/pecl_http-0.8.0</g>
  <x xlink:href="package.0.8.0.xml"/>
 </r>

@@ -15,6 +15,6 @@
  <da>2012-10-22 19:44:09</da>
  <n>Re-fixed bug #60901 (Improve &quot;tail&quot; syntax for AIX installation)</n>
  <f>169255</f>
- <g>http://pecl.php.net/get/oci8-1.4.9</g>
+ <g>https://pecl.php.net/get/oci8-1.4.9</g>
  <x xlink:href="package.1.4.9.xml"/>
 </r>

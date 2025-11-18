@@ -32,6 +32,6 @@ API changes:
   - The first(EventBase) argument of EventBufferEvent::sslFilter method is deprecated, since the internal EventBase object must match EventBase object within the underlying EventBufferEvent
   - Added EventBufferEvent::createSslFilter method as a replacement for the sslFilter method.</n>
  <f>129809</f>
- <g>http://pecl.php.net/get/event-2.0.0RC1</g>
+ <g>https://pecl.php.net/get/event-2.0.0RC1</g>
  <x xlink:href="package.2.0.0RC1.xml"/>
 </r>

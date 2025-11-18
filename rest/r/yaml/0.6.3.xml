@@ -16,6 +16,6 @@
  <da>2010-02-09 14:12:51</da>
  <n>Fixed packaging problem that broke install via pecl channel.</n>
  <f>33871</f>
- <g>http://pecl.php.net/get/yaml-0.6.3</g>
+ <g>https://pecl.php.net/get/yaml-0.6.3</g>
  <x xlink:href="package.0.6.3.xml"/>
 </r>

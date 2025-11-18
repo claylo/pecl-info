@@ -15,6 +15,6 @@
  <da>2011-01-09 03:50:42</da>
  <n>Fixed bug #16836 (introduce expect.match_max .ini parameter for asterisk match buffer size)</n>
  <f>6438</f>
- <g>http://pecl.php.net/get/expect-0.2.8</g>
+ <g>https://pecl.php.net/get/expect-0.2.8</g>
  <x xlink:href="package.0.2.8.xml"/>
 </r>

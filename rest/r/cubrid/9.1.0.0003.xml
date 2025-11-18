@@ -19,6 +19,6 @@
 3) APIS-550: The PDO driver does not support prepare and query function in CUBRID shard db.
 4) APIS-551: The PHP driver does not support shard_key sql hint in CUBRID shard db.</n>
  <f>2278076</f>
- <g>http://pecl.php.net/get/CUBRID-9.1.0.0003</g>
+ <g>https://pecl.php.net/get/CUBRID-9.1.0.0003</g>
  <x xlink:href="package.9.1.0.0003.xml"/>
 </r>

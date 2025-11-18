@@ -24,6 +24,6 @@
  <n>Add: EventHttpRequest methods: getBufferEvent, getConnection, closeConnection(thanks to rickysu at Bitbucket)
 Add: EventHttpConnection::setCloseCallback method</n>
  <f>71640</f>
- <g>http://pecl.php.net/get/event-1.8.0</g>
+ <g>https://pecl.php.net/get/event-1.8.0</g>
  <x xlink:href="package.1.8.0.xml"/>
 </r>

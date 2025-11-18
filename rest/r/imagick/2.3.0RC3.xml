@@ -18,6 +18,6 @@ IMPORTANT: Version 2.x API is not compatible with earlier versions.</d>
  <da>2009-07-02 18:27:34</da>
  <n>- Closed bug reports and pushing out RC just in case before stable.</n>
  <f>86976</f>
- <g>http://pecl.php.net/get/imagick-2.3.0RC3</g>
+ <g>https://pecl.php.net/get/imagick-2.3.0RC3</g>
  <x xlink:href="package.2.3.0RC3.xml"/>
 </r>

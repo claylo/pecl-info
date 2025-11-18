@@ -16,6 +16,6 @@
  <n>- Fixed issue #273 (segfault if stdclass passed to dispatch)
 - PHP-7.1 compatible fixes</n>
  <f>95844</f>
- <g>http://pecl.php.net/get/yaf-3.0.3</g>
+ <g>https://pecl.php.net/get/yaf-3.0.3</g>
  <x xlink:href="package.3.0.3.xml"/>
 </r>

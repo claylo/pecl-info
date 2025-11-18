@@ -20,6 +20,6 @@
 - Fixed bug that 404 occurred if the request is prefix with more than one slash
 - Fixed bug that free NULL pointer in Yaf_Loader::registerLocalNameSpace</n>
  <f>81156</f>
- <g>http://pecl.php.net/get/yaf-2.1.13</g>
+ <g>https://pecl.php.net/get/yaf-2.1.13</g>
  <x xlink:href="package.2.1.13.xml"/>
 </r>

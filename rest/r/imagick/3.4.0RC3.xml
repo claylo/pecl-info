@@ -30,6 +30,6 @@ This extension requires ImageMagick version 6.5.3-10+ and PHP 5.4.0+.</d>
 - Added methods:
   * Imagick::similarityImage() which is an alias to Imagick::subImageMatch()</n>
  <f>233355</f>
- <g>http://pecl.php.net/get/imagick-3.4.0RC3</g>
+ <g>https://pecl.php.net/get/imagick-3.4.0RC3</g>
  <x xlink:href="package.3.4.0RC3.xml"/>
 </r>

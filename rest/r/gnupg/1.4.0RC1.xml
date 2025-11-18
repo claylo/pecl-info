@@ -16,6 +16,6 @@
  <n>* Added support for PHP 7
 * Fixed various compilation issues</n>
  <f>27969</f>
- <g>http://pecl.php.net/get/gnupg-1.4.0RC1</g>
+ <g>https://pecl.php.net/get/gnupg-1.4.0RC1</g>
  <x xlink:href="package.1.4.0RC1.xml"/>
 </r>

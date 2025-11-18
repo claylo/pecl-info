@@ -16,6 +16,6 @@
  <n>- Always URL-decode response from tracker (patch by Andre Pascha &lt;andre.pascha@kwick.de&gt;)
 - Allow PHP 5.4</n>
  <f>16905</f>
- <g>http://pecl.php.net/get/mogilefs-0.9.2</g>
+ <g>https://pecl.php.net/get/mogilefs-0.9.2</g>
  <x xlink:href="package.0.9.2.xml"/>
 </r>

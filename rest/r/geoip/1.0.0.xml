@@ -20,6 +20,6 @@ For more info, please visit Maxmind's website.
  <n>* Marked as stable
 * Fixing wrong version number inside extension</n>
  <f>5437</f>
- <g>http://pecl.php.net/get/geoip-1.0.0</g>
+ <g>https://pecl.php.net/get/geoip-1.0.0</g>
  <x xlink:href="package.1.0.0.xml"/>
 </r>

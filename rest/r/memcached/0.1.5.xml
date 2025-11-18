@@ -19,6 +19,6 @@
 - Fix bug #16084 (Crash when addServers is called with an associative array).
 - ZTS compilation fixes.</n>
  <f>20816</f>
- <g>http://pecl.php.net/get/memcached-0.1.5</g>
+ <g>https://pecl.php.net/get/memcached-0.1.5</g>
  <x xlink:href="package.0.1.5.xml"/>
 </r>

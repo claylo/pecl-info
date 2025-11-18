@@ -30,6 +30,6 @@ are kept until you call dbase_pack().</d>
 - Fixed #72812: dbase_create does not close the FD on failure
 - Fixed #72815: zend_get_parameters_ex() is deprecated</n>
  <f>16206</f>
- <g>http://pecl.php.net/get/dbase-7.0.0beta1</g>
+ <g>https://pecl.php.net/get/dbase-7.0.0beta1</g>
  <x xlink:href="package.7.0.0beta1.xml"/>
 </r>

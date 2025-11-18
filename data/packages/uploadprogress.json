@@ -95,7 +95,7 @@
             "releasedBy": "chregu",
             "releaseDate": "2011-08-15T09:23:00+00:00",
             "releaseNotes": "- Wrong version number in .h file",
-            "get": "http://pecl.php.net/get/uploadprogress-1.0.3.1",
+            "get": "https://pecl.php.net/get/uploadprogress-1.0.3.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.3": {
@@ -105,7 +105,7 @@
             "releasedBy": "chregu",
             "releaseDate": "2011-08-08T08:24:49+00:00",
             "releaseNotes": "- Another make it work with PHP 5.4",
-            "get": "http://pecl.php.net/get/uploadprogress-1.0.3",
+            "get": "https://pecl.php.net/get/uploadprogress-1.0.3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.2": {
@@ -115,7 +115,7 @@
             "releasedBy": "chregu",
             "releaseDate": "2011-07-26T05:47:59+00:00",
             "releaseNotes": "- Make it work with PHP 5.4",
-            "get": "http://pecl.php.net/get/uploadprogress-1.0.2",
+            "get": "https://pecl.php.net/get/uploadprogress-1.0.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.1": {
@@ -125,7 +125,7 @@
             "releasedBy": "chregu",
             "releaseDate": "2009-06-16T03:20:47+00:00",
             "releaseNotes": "- Default temporary directory is taken from system settings during compile time (guenter).\n- Fix a while loop error in removing preceding whitespace (terralith).\n- Example: Added a check, if the extension is installed at all.\n- Example: Added checks for a valid uploadprogress.file.filename_template setting.",
-            "get": "http://pecl.php.net/get/uploadprogress-1.0.1",
+            "get": "https://pecl.php.net/get/uploadprogress-1.0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.0": {
@@ -135,7 +135,7 @@
             "releasedBy": "chregu",
             "releaseDate": "2009-03-15T13:42:27+00:00",
             "releaseNotes": "- Fixed a renaming issue with temporary files on Windows and PHP 5.2.",
-            "get": "http://pecl.php.net/get/uploadprogress-1.0.0",
+            "get": "https://pecl.php.net/get/uploadprogress-1.0.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.9.2": {
@@ -145,7 +145,7 @@
             "releasedBy": "chregu",
             "releaseDate": "2009-01-22T02:14:41+00:00",
             "releaseNotes": "- Fixed an issue with filenames containing spaces, see http://pecl.php.net/bugs/bug.php?id=14525 for details (by franck).\n- Extended the example to check for too large files.",
-            "get": "http://pecl.php.net/get/uploadprogress-0.9.2",
+            "get": "https://pecl.php.net/get/uploadprogress-0.9.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.9.1": {
@@ -155,7 +155,7 @@
             "releasedBy": "chregu",
             "releaseDate": "2008-08-25T06:21:04+00:00",
             "releaseNotes": "- Fixed version information in phpinfo()\n - Added php.ini options to phpinfo()",
-            "get": "http://pecl.php.net/get/uploadprogress-0.9.1",
+            "get": "https://pecl.php.net/get/uploadprogress-0.9.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.9.0": {
@@ -165,7 +165,7 @@
             "releasedBy": "chregu",
             "releaseDate": "2008-07-08T16:41:52+00:00",
             "releaseNotes": "- Added uploadprogress_get_contents(id, fieldname) to return the contents of\nthat file (Ben Ramsey)\n- Added uploadprogress.get_contents INI option to enable above function (Ben Ramsey)\n- Added a simple example \n- Minor Fixes",
-            "get": "http://pecl.php.net/get/uploadprogress-0.9.0",
+            "get": "https://pecl.php.net/get/uploadprogress-0.9.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.3.0": {
@@ -175,7 +175,7 @@
             "releasedBy": "chregu",
             "releaseDate": "2006-12-05T07:05:59+00:00",
             "releaseNotes": "Initial release",
-            "get": "http://pecl.php.net/get/uploadprogress-0.3.0",
+            "get": "https://pecl.php.net/get/uploadprogress-0.3.0",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

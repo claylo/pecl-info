@@ -75,6 +75,6 @@ Xdebug also provides:
 	- Stopped the use of &gt;error&gt; elements for exception breakpoints, as that
 	  violates the protocol.</n>
  <f>269219</f>
- <g>http://pecl.php.net/get/xdebug-2.0.0RC4</g>
+ <g>https://pecl.php.net/get/xdebug-2.0.0RC4</g>
  <x xlink:href="package.2.0.0RC4.xml"/>
 </r>

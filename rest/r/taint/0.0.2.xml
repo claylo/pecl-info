@@ -18,6 +18,6 @@
 - Fixed bug that Taint works wrongly with php 5.3(function arguments)
 - Support ternary</n>
  <f>9775</f>
- <g>http://pecl.php.net/get/taint-0.0.2</g>
+ <g>https://pecl.php.net/get/taint-0.0.2</g>
  <x xlink:href="package.0.0.2.xml"/>
 </r>

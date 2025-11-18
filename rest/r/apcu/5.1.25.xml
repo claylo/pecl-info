@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/apcu">apcu</p>
+ <c>pecl.php.net</c>
+ <v>5.1.25</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>nikic</m>
+ <s>APCu - APC User Cache</s>
+ <d>APC User Caching</d>
+ <da>2025-07-28 18:51:09</da>
+ <n>- If the cache is full, try to clean up expired entries based on their per-entry hard TTL even
+  if the soft apc.ttl is 0. Previously the entire cache was discarded.
+- If a new entry cannot be inserted due to fragmentation, the cache will be defragmented,
+  combining many small free blocks into one big free block by moving around cache entries.
+  This avoids the need to discard the entire cache in more cases.
+- The access time (which is used by the soft apc.ttl) is now also updated when using
+  apcu_exists().
+- apc.entries_hint now defaults to 512 entries per 1MB of shared memory. Previously the
+  default was 4096, independent of shm_size. This could lead to a large number of hash
+  collisions if shm_size was increased without also increasing entries_hint.
+- Added apc.mmap_hugepage_size to use huge pages of a certain size for the apcu shared memory
+  segment. This requires support for huge pages to be enabled in the kernel. Note that even if
+  this option is not set, shared memory is still configured to use transparent huge pages.
+- The apc.shm_segments ini option has been removed. Multiple SHM segments are no longer
+  supported. (They were already not supported when using mmap, which is the default mode of
+  operation)
+- The apc.smart configuration setting should now work more reliably. Values &gt; 1 can be used
+  to increase the chance of discarding the entire cache when the amount of memory freed by
+  removing expired entries was too small. This could be useful if performance degrades due to
+  executing the logic to remove expired entries (+ defragmentation) too frequently during
+  periods of high memory usage.
+- The number of cache cleanups performed (removal of expired entries) is now available
+  in the array returned by apcu_cache_info() (via array key &quot;cleanups&quot;).
+- The number of defragmentations performed is now available in the array returned by
+  apcu_cache_info() (via array key &quot;defragmentations&quot;).
+- Fixed several issues that caused inserting new entries to fail unexpectedly.
+
+Internal changes:
+- Fixed -Wclobbered compiler warnings.
+- All cache data structures are now relocatable, i.e. independent of the base address of the
+  cache. This enables defragmentation support.
+- Hash slots now use doubly linked lists. This is necessary for defragmentation.</n>
+ <f>94319</f>
+ <g>https://pecl.php.net/get/apcu-5.1.25</g>
+ <x xlink:href="package.5.1.25.xml"/>
+</r>

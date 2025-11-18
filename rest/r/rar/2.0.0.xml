@@ -24,6 +24,6 @@ API backwards incompatible changes:
 - Calling rar_close/RarArchive::close() invalidates RarEntry objects (actually, only extraction is forbidden, but don't rely on it).
 For the other changes, see the changelog for version 2.0.0RC1.</n>
  <f>189885</f>
- <g>http://pecl.php.net/get/rar-2.0.0</g>
+ <g>https://pecl.php.net/get/rar-2.0.0</g>
  <x xlink:href="package.2.0.0.xml"/>
 </r>

@@ -15,7 +15,7 @@
             "releasedBy": "doury",
             "releaseDate": "2007-05-31T11:12:38+00:00",
             "releaseNotes": "Added extension details to phpinfo().",
-            "get": "http://pecl.php.net/get/IMS-0.1.1",
+            "get": "https://pecl.php.net/get/IMS-0.1.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.1.0": {
@@ -25,7 +25,7 @@
             "releasedBy": "doury",
             "releaseDate": "2007-03-30T09:15:49+00:00",
             "releaseNotes": "- Initial Packaged Release.\n- This alpha version is experimental, it requires upgrades but it does work fine\n- Sources are kind of clean... a few TODO tasks still remain though\n- This extension is presently used by a demonstration web 2.0 site which allows\n  access to DB2 access running on Z/OS\n- Questions, comments and suggestions are more than welcome...",
-            "get": "http://pecl.php.net/get/IMS-0.1.0",
+            "get": "https://pecl.php.net/get/IMS-0.1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

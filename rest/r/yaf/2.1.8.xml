@@ -15,6 +15,6 @@
  <da>2012-03-12 09:22:29</da>
  <n>- Fixed bug Yaf_Response::setBody act the same as Yaf_Response::prependBody</n>
  <f>75639</f>
- <g>http://pecl.php.net/get/yaf-2.1.8</g>
+ <g>https://pecl.php.net/get/yaf-2.1.8</g>
  <x xlink:href="package.2.1.8.xml"/>
 </r>

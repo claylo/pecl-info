@@ -20,6 +20,6 @@
 This version can only intercept user-space functions
 with user-space callbacks.</n>
  <f>5012</f>
- <g>http://pecl.php.net/get/intercept-0.1</g>
+ <g>https://pecl.php.net/get/intercept-0.1</g>
  <x xlink:href="package.0.1.xml"/>
 </r>

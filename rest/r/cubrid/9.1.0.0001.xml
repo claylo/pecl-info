@@ -26,6 +26,6 @@ Fixed bugs:
 3) APIS-185: Update the error message when the connection is failed.
 4) APIS-459: When querying the column info, return &quot;unknown&quot; instead of error for unknown type.</n>
  <f>48090</f>
- <g>http://pecl.php.net/get/CUBRID-9.1.0.0001</g>
+ <g>https://pecl.php.net/get/CUBRID-9.1.0.0001</g>
  <x xlink:href="package.9.1.0.0001.xml"/>
 </r>

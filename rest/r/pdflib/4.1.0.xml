@@ -20,6 +20,6 @@ http://www.pdflib.com/developer-center/technical-documentation/php-howto</d>
  <da>2016-12-21 10:19:12</da>
  <n>- add support for PDFlib 9.1</n>
  <f>33069</f>
- <g>http://pecl.php.net/get/pdflib-4.1.0</g>
+ <g>https://pecl.php.net/get/pdflib-4.1.0</g>
  <x xlink:href="package.4.1.0.xml"/>
 </r>

@@ -23,6 +23,6 @@
 - Fixed bug #67215 (php-cgi work with opcache, may be segmentation fault happen)
 - Fixed issue #183 (TMP_VAR is not only used once)</n>
  <f>96340</f>
- <g>http://pecl.php.net/get/zendopcache-7.0.4</g>
+ <g>https://pecl.php.net/get/zendopcache-7.0.4</g>
  <x xlink:href="package.7.0.4.xml"/>
 </r>

@@ -16,6 +16,6 @@
  <n>- GA release
 - Fix shutdown hang problem #4017</n>
  <f>1904810</f>
- <g>http://pecl.php.net/get/grpc-1.0.0RC1</g>
+ <g>https://pecl.php.net/get/grpc-1.0.0RC1</g>
  <x xlink:href="package.1.0.0RC1.xml"/>
 </r>

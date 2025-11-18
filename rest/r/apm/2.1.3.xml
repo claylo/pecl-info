@@ -22,6 +22,6 @@ A web frontend exists for manipulating the data stored in database at: https://g
  <n>Fixed:
 - PHP 5 build is broken #50 (Thanks Remi Collet)</n>
  <f>33188</f>
- <g>http://pecl.php.net/get/APM-2.1.3</g>
+ <g>https://pecl.php.net/get/APM-2.1.3</g>
  <x xlink:href="package.2.1.3.xml"/>
 </r>

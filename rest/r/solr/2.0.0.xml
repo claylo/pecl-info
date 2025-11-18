@@ -33,6 +33,6 @@ Change 2.0.0 with your version number</d>
  - Dropped Support for phpnative Response Writer
  - Fix config involving --enable-solr-debug always enables SOLR_DEBUG [Bug #60361]</n>
  <f>113614</f>
- <g>http://pecl.php.net/get/solr-2.0.0</g>
+ <g>https://pecl.php.net/get/solr-2.0.0</g>
  <x xlink:href="package.2.0.0.xml"/>
 </r>

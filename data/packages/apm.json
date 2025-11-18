@@ -15,7 +15,7 @@
             "releasedBy": "patrickallaert",
             "releaseDate": "2017-02-13T17:47:29+00:00",
             "releaseNotes": "Fixed:\n- PHP 5 build is broken #50 (Thanks Remi Collet)",
-            "get": "http://pecl.php.net/get/APM-2.1.3",
+            "get": "https://pecl.php.net/get/APM-2.1.3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.1.2": {
@@ -25,7 +25,7 @@
             "releasedBy": "patrickallaert",
             "releaseDate": "2017-02-13T14:44:13+00:00",
             "releaseNotes": "Fixed:\n- Wrong path for mysql.h prevents Windows build\n- Possible segmentation fault and invalid errors under PHP 7.0\n- Make error: duplicate symbol for architecture x86_64 #25\n- Build with PHP 7.1 #44 (Thanks Remi Collet)",
-            "get": "http://pecl.php.net/get/APM-2.1.2",
+            "get": "https://pecl.php.net/get/APM-2.1.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.1.1": {
@@ -35,7 +35,7 @@
             "releasedBy": "patrickallaert",
             "releaseDate": "2016-03-29T14:33:19+00:00",
             "releaseNotes": "Fixed:\n- Compilation issue with ZTS",
-            "get": "http://pecl.php.net/get/APM-2.1.1",
+            "get": "https://pecl.php.net/get/APM-2.1.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.1.0": {
@@ -45,7 +45,7 @@
             "releasedBy": "patrickallaert",
             "releaseDate": "2016-03-29T08:03:16+00:00",
             "releaseNotes": "Added:\n- Support for PHP 7\n- collecting HTTP method\n\nImproved:\n- Better coexistence with Xdebug",
-            "get": "http://pecl.php.net/get/APM-2.1.0",
+            "get": "https://pecl.php.net/get/APM-2.1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.5": {
@@ -55,7 +55,7 @@
             "releasedBy": "patrickallaert",
             "releaseDate": "2015-06-17T16:07:35+00:00",
             "releaseNotes": "Fixed:\n- missing apm.statsd_exception_mode and apm.socket_exception_mode\n- sqlite3.h file not found in Windows build\n\nImproved:\n- Minor optimizations in stacktrace creation",
-            "get": "http://pecl.php.net/get/APM-2.0.5",
+            "get": "https://pecl.php.net/get/APM-2.0.5",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.4": {
@@ -65,7 +65,7 @@
             "releasedBy": "patrickallaert",
             "releaseDate": "2015-06-01T17:53:44+00:00",
             "releaseNotes": "Fixed:\n- Temporary buffer not freed when generating stacktraces.\n- Arguments in stacktraces dumped with a bigger depth than what is configured with apm.dump_max_depth.",
-            "get": "http://pecl.php.net/get/APM-2.0.4",
+            "get": "https://pecl.php.net/get/APM-2.0.4",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.3": {
@@ -75,7 +75,7 @@
             "releasedBy": "patrickallaert",
             "releaseDate": "2015-05-18T11:20:04+00:00",
             "releaseNotes": "Fixed:\n- Double initialization of request data.\n  This could lead to data being present twice in DBs (reproducible with both SQLite and MySQL enabled).\nChanged:\n- Default value of apm.dump_max_depth decreased to 1.\n  With today's application complexity, the amount of data collected in stacktraces\n  including arguments can lead to several thousands of MiB of memory consumed.\n  We recommend increasing this value with care.\n- Weird things could happen when changing 'apm.enabled' during a request. It doesn't make much sense to support\n  in request activation/deactivation. 'apm.enabled' is therefor now PHP_INI_SYSTEM.",
-            "get": "http://pecl.php.net/get/APM-2.0.3",
+            "get": "https://pecl.php.net/get/APM-2.0.3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.2": {
@@ -85,7 +85,7 @@
             "releasedBy": "patrickallaert",
             "releaseDate": "2015-03-09T16:04:03+00:00",
             "releaseNotes": "Fixed:\n- Compilation issue on non ZTS setup",
-            "get": "http://pecl.php.net/get/APM-2.0.2",
+            "get": "https://pecl.php.net/get/APM-2.0.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.1": {
@@ -95,7 +95,7 @@
             "releasedBy": "patrickallaert",
             "releaseDate": "2015-03-09T09:37:19+00:00",
             "releaseNotes": "Fixed:\n- #10: Bad configure message (thx @RemiCollet)\n- #11: Bad version reported (thx @RemiCollet)\n- #13: ZTS build is broken (thx @RemiCollet)\n- APM not working with XDebug\n  If Xdebug is enabled as in xdebug_enable() or xdebug.default_enable, APM error callback will not be called.\n  Use xdebug.default_enable=0 or xdebug_disable() to go through APM error handling.\n\nImproved:\n- #12: Installation of files via pecl install\n- StatsD driver (thanks @0livier for the discovery!)\n\nChanged:\n- Web frontend located on its own repository: https://github.com/patrickallaert/php-apm-web",
-            "get": "http://pecl.php.net/get/APM-2.0.1",
+            "get": "https://pecl.php.net/get/APM-2.0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.0": {
@@ -105,7 +105,7 @@
             "releasedBy": "patrickallaert",
             "releaseDate": "2015-02-20T07:45:43+00:00",
             "releaseNotes": "New drivers:\n- StatsD\n- Socket\n\nAdded:\n- Per-driver option 'apm.<storage driver>_store_silenced_events that lets you toggle whether to store silenced (@-ed) errors (thanks Mathieu Kooiman (@mathieuk))\n- apm.*_exception_mode configuration to control exception collection\n- Auto creation of SQLite and MariaDB/MySQL schemas\n- Stats:\n  - User and System CPU time\n  - Memory Peak Usage\n  - HTTP response code\n- 'application_id' field to categorize the issues per application/server/environment/...\n- Support for compilation on Ubuntu (thanks Olivier Garcia (@0livier))\n\nChanged:\n- Deep refactoring:\n  - New DB schema\n  - No more native functions, retrieval of data is directly made in PHP\n- SQLite drivder attempts to create the directory structure by himself\n- Renamed 'slow request' to 'stats'\n- Connect to MySQL once and reconnect if needed\n- Small UI improvements\n- Avoiding int / uint conversion\n- MariaDB/MySQL driver activated by default\n\nFixed:\n- Parse error test failing on PHP 5.4\n- Possible segfault with APM_DEBUG used outside RINIT/RSHUTDOWN phases\n- Missing disconnect from SQLite DB if changed with ini_set()\n- Too few arguments to sprintf() with MariaDB/MySQL backend\n- Possible segfault with PHP 5.5\n- Segmentation fault with \"zend_mm_heap corrupted\" message.\n- Missing zval reference incrementing\n- Out of memory error in backtrace generation\n- Removed hard-coded limit of 64kB json data\n- Do not activate silence handler if APM is not enabled\n- Some compiler warnings\n- Incorrect status propagation for PHP_RSHUTDOWN_FUNCTION\n- Several memory leaks\n\nRemoved:\n- Deffered processing (can't be easily implemented in a generic and driver\n  agnostic way. Depending on the drivers, some deffered processing will\n  happen inside them.)\n- Reference SQL files, see source code for that ;-)",
-            "get": "http://pecl.php.net/get/APM-2.0.0",
+            "get": "https://pecl.php.net/get/APM-2.0.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.0alpha1": {
@@ -115,7 +115,7 @@
             "releasedBy": "patrickallaert",
             "releaseDate": "2013-06-07T13:04:14+00:00",
             "releaseNotes": "Changed:\n- Deep refactoring:\n  - New DB schema\n  - No more native functions, retrieval of data is directly made in PHP",
-            "get": "http://pecl.php.net/get/APM-2.0.0alpha1",
+            "get": "https://pecl.php.net/get/APM-2.0.0alpha1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.1.0RC2": {
@@ -125,7 +125,7 @@
             "releasedBy": "patrickallaert",
             "releaseDate": "2013-05-11T13:13:54+00:00",
             "releaseNotes": "Changed:\n- upgraded UI by using tweeter boostrap and upgrading jqGrid",
-            "get": "http://pecl.php.net/get/APM-1.1.0RC2",
+            "get": "https://pecl.php.net/get/APM-1.1.0RC2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.1.0RC1": {
@@ -135,7 +135,7 @@
             "releasedBy": "patrickallaert",
             "releaseDate": "2012-10-19T08:05:35+00:00",
             "releaseNotes": "Added:\n- --with-debugfile[=FILE] option to permit debugging of APM\n\nChanged:\n- Lazy loading the connection to the SQLite database\n\nFixed:\n- Ordering by URL not working\n- Decouple mysql backend from sqlite3 (#62288)\n- Invalid UTF-8 may cause backtrace to be truncated in MySQL driver (#62244)",
-            "get": "http://pecl.php.net/get/APM-1.1.0RC1",
+            "get": "https://pecl.php.net/get/APM-1.1.0RC1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.1.0beta4": {
@@ -145,7 +145,7 @@
             "releasedBy": "patrickallaert",
             "releaseDate": "2012-06-07T17:43:55+00:00",
             "releaseNotes": "Added:\n- Referer\n\nChanged:\n- Storing all ts in SQLite as integers\n\nFixed:\n- Bug #62187: The MySQL driver does not store a timestamp for an event (Thanks to mathieu at mollie dot nl, HMWiesinger at gmx dot at).\n- Bug #62012: No data collected\n- Missing post_vars column definition in SQL creation scripts.",
-            "get": "http://pecl.php.net/get/APM-1.1.0beta4",
+            "get": "https://pecl.php.net/get/APM-1.1.0beta4",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.1.0beta3": {
@@ -155,7 +155,7 @@
             "releasedBy": "patrickallaert",
             "releaseDate": "2012-05-26T19:31:31+00:00",
             "releaseNotes": "Fixed:\n- Possible memory not being freed\n- Segmentation fault preventing the collection of data (#62012)",
-            "get": "http://pecl.php.net/get/APM-1.1.0beta3",
+            "get": "https://pecl.php.net/get/APM-1.1.0beta3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.1.0beta2": {
@@ -165,7 +165,7 @@
             "releasedBy": "patrickallaert",
             "releaseDate": "2012-05-06T17:32:25+00:00",
             "releaseNotes": "Fixed:\n- Version 1.1.0beta* should be marked as \"beta\" and not as \"stable\"\n- APM-1.1.0beta1.tgz file contains only package.xml (#61937)\n- Some GCC warnings when built with PHP 5.4\n- Error callback arguments must be copied in every cases\n- Prevent calling the original error handler if Xdebug is loaded\n- Possible segfault if MySQL server connection link is gone",
-            "get": "http://pecl.php.net/get/APM-1.1.0beta2",
+            "get": "https://pecl.php.net/get/APM-1.1.0beta2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.1.0beta1": {
@@ -175,7 +175,7 @@
             "releasedBy": "patrickallaert",
             "releaseDate": "2012-04-02T06:09:05+00:00",
             "releaseNotes": "Added:\n- New information stored: IP, host, POST data, cookies\n- Configuration to limit the depth when dumping variables (apm.dump_max_depth)\n\nRemoved:\n- JSON flag for apm_get_*_events and apm_get_*_slow_requests\n\nChanged:\n- Some UI refactoring\n- Minor optimizations\n\nFixed:\n- Installation failing because of config file being named \"config.php\"\n  pecl/pear installer issue?\n- Some compilation warnings\n- Deffered mode taking only the *mysql* error_reporting into account\n- APM not correctly linking to libmysqlclient\n- Possible buffer overflows\n- Compilation issues related to timelib with PHP >= 5.3.9",
-            "get": "http://pecl.php.net/get/APM-1.1.0beta1",
+            "get": "https://pecl.php.net/get/APM-1.1.0beta1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.1": {
@@ -185,7 +185,7 @@
             "releasedBy": "patrickallaert",
             "releaseDate": "2011-11-11T19:12:08+00:00",
             "releaseNotes": "Changed:\n- Base install dir for web files, now in php/PECL/APM\n\nFixed:\n- Bug #60276 pecl install fail installing APM",
-            "get": "http://pecl.php.net/get/APM-1.0.1",
+            "get": "https://pecl.php.net/get/APM-1.0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.0": {
@@ -195,7 +195,7 @@
             "releasedBy": "patrickallaert",
             "releaseDate": "2011-06-14T16:53:51+00:00",
             "releaseNotes": "This is the initial stable release of APM.\n\nFixed:\n- Script filename could possibly not be filled in case of slow request.",
-            "get": "http://pecl.php.net/get/APM-1.0.0",
+            "get": "https://pecl.php.net/get/APM-1.0.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.0beta3": {
@@ -205,7 +205,7 @@
             "releasedBy": "patrickallaert",
             "releaseDate": "2010-11-07T11:41:36+00:00",
             "releaseNotes": "Added:\n- MySQL driver\n- Per driver error reporting level\n- Asynchronous processing of events (config option: apm.deffered_processing)\n\nChanged:\n- Code refactored to make use of 'APM drivers'\n\nFixed:\n- APM cannot be compiled with PHP < 5.2.2.\n- Bug #17502: Drivers' rshutdown run only when slow_request tracking is enabled.\n- Bug #17512: Sqlite connections aren't closed at the end of the request.\n- Bug #17513: Using MySQL driver, only events of the first incoming request are stored.\n- Bug #19421: apm.*_error_reporting is ignored.",
-            "get": "http://pecl.php.net/get/APM-1.0.0beta3",
+            "get": "https://pecl.php.net/get/APM-1.0.0beta3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.0beta2": {
@@ -215,7 +215,7 @@
             "releasedBy": "dmendolia",
             "releaseDate": "2010-01-30T05:38:43+00:00",
             "releaseNotes": "- Initial release",
-            "get": "http://pecl.php.net/get/APM-1.0.0beta2",
+            "get": "https://pecl.php.net/get/APM-1.0.0beta2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.0beta1": {
@@ -225,7 +225,7 @@
             "releasedBy": "dmendolia",
             "releaseDate": "2009-11-29T12:01:06+00:00",
             "releaseNotes": "- Initial release",
-            "get": "http://pecl.php.net/get/APM-1.0.0beta1",
+            "get": "https://pecl.php.net/get/APM-1.0.0beta1",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

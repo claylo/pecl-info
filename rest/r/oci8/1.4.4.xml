@@ -16,6 +16,6 @@
  <n>Fixed bug #53284 (Valgrind warnings in oci_set_* functions)
 Enhancement - improve startup failure error messages</n>
  <f>153398</f>
- <g>http://pecl.php.net/get/oci8-1.4.4</g>
+ <g>https://pecl.php.net/get/oci8-1.4.4</g>
  <x xlink:href="package.1.4.4.xml"/>
 </r>

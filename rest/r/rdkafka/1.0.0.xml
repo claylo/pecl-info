@@ -28,6 +28,6 @@ newer versions of php, use the pecl package version 2.
  * Added Rdkafka\Conf::setDefaultTopicConf() (librdkafka 0.9)
  * Added Rdkafka\Conf::setDrMsgCb() (librdkafka 0.9)</n>
  <f>27150</f>
- <g>http://pecl.php.net/get/rdkafka-1.0.0</g>
+ <g>https://pecl.php.net/get/rdkafka-1.0.0</g>
  <x xlink:href="package.1.0.0.xml"/>
 </r>

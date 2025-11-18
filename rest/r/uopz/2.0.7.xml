@@ -19,6 +19,6 @@ send exit parameter to overload function
 fix bug in handling exit status code when overloading disabled
 set exit status code when overloading enabled from return value</n>
  <f>29192</f>
- <g>http://pecl.php.net/get/uopz-2.0.7</g>
+ <g>https://pecl.php.net/get/uopz-2.0.7</g>
  <x xlink:href="package.2.0.7.xml"/>
 </r>

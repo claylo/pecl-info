@@ -19,6 +19,6 @@ Cloudscape, and Apache Derby databases.</d>
 Fixed: Connection hanging issue.
 Fixed: Defect #20281 (Improve error reporting)</n>
  <f>155991</f>
- <g>http://pecl.php.net/get/ibm_db2-1.9.2</g>
+ <g>https://pecl.php.net/get/ibm_db2-1.9.2</g>
  <x xlink:href="package.1.9.2.xml"/>
 </r>

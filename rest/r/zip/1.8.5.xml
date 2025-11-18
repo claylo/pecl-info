@@ -16,6 +16,6 @@
  <n>- Fixed leaks happening on error (Nuno Lopes) 
 - PHP bug #40228, extractTo does not create recursive empty path (empty1/empty2/)</n>
  <f>60697</f>
- <g>http://pecl.php.net/get/zip-1.8.5</g>
+ <g>https://pecl.php.net/get/zip-1.8.5</g>
  <x xlink:href="package.1.8.5.xml"/>
 </r>

@@ -17,6 +17,6 @@ dumps all the opcodes (execution units) of a script.</d>
  <n>- Fixed some crash fixes (Felipe Pena)
 - Display the constant value if we know it</n>
  <f>16403</f>
- <g>http://pecl.php.net/get/vld-0.11.2</g>
+ <g>https://pecl.php.net/get/vld-0.11.2</g>
  <x xlink:href="package.0.11.2.xml"/>
 </r>

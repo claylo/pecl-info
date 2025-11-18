@@ -26,6 +26,6 @@
  <n>Fixed build error in PHP 7.3.
 Removed ASAN from debug configuration.</n>
  <f>74023</f>
- <g>http://pecl.php.net/get/eio-2.0.3</g>
+ <g>https://pecl.php.net/get/eio-2.0.3</g>
  <x xlink:href="package.2.0.3.xml"/>
 </r>

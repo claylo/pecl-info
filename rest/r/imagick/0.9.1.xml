@@ -31,6 +31,6 @@
 	imagick_composite()
 - Added IMAGICK_COMPOSITE_OP_* for use with imagick_composite().</n>
  <f>65722</f>
- <g>http://pecl.php.net/get/imagick-0.9.1</g>
+ <g>https://pecl.php.net/get/imagick-0.9.1</g>
  <x xlink:href="package.0.9.1.xml"/>
 </r>

@@ -21,6 +21,6 @@ Fixed bug #39732 (oci_bind_array_by_name doesn't work on Solaris 64bit).
 Fixed PECL bug #8816 (issue in php_oci_statement_fetch with more than one piecewise column).
 Various minor improvements.</n>
  <f>83591</f>
- <g>http://pecl.php.net/get/oci8-1.2.3</g>
+ <g>https://pecl.php.net/get/oci8-1.2.3</g>
  <x xlink:href="package.1.2.3.xml"/>
 </r>

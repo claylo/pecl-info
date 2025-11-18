@@ -80,6 +80,6 @@ Fixed bugs:
 - cubrid_disconnect: When disconnecting any db connection, it will always reset the last request and connection info.
 - cubrid_unbuffered_query: When query execution fails, it don't free the allocated request resource.</n>
  <f>34942</f>
- <g>http://pecl.php.net/get/CUBRID-8.3.1.0001</g>
+ <g>https://pecl.php.net/get/CUBRID-8.3.1.0001</g>
  <x xlink:href="package.8.3.1.0001.xml"/>
 </r>

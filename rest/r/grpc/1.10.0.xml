@@ -16,6 +16,6 @@
  <n>- Memory leak fixes
 - gRPC C Core 1.10 uptake</n>
  <f>2341186</f>
- <g>http://pecl.php.net/get/grpc-1.10.0</g>
+ <g>https://pecl.php.net/get/grpc-1.10.0</g>
  <x xlink:href="package.1.10.0.xml"/>
 </r>

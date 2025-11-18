@@ -34,6 +34,6 @@ HttpResponse</d>
 * Fixed sending userspace streams
 * Fixed too aggressive caching behaviour of HttpResponse</n>
  <f>177565</f>
- <g>http://pecl.php.net/get/pecl_http-1.0.0RC2</g>
+ <g>https://pecl.php.net/get/pecl_http-1.0.0RC2</g>
  <x xlink:href="package.1.0.0RC2.xml"/>
 </r>

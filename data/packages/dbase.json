@@ -78,16 +78,6 @@
             "get": "https://pecl.php.net/get/dbase-7.0.0RC1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
-        "5.1.1": {
-            "version": "5.1.1",
-            "state": "stable",
-            "license": "PHP",
-            "releasedBy": "cmb",
-            "releaseDate": "2016-10-26T15:33:09+00:00",
-            "releaseNotes": "- Fixed #39305: Use of decimal point in different countries\n- Fixed #52112: dbase_get_record() returns integer instead of decimal values\n- Fixed #68289: wrong strlcpy call\n- Fixed #72812: dbase_create does not close the FD on failure\n- Fixed #73391: Writing of floats can cause OOB reads",
-            "get": "http://pecl.php.net/get/dbase-5.1.1",
-            "SPDX-License-Identifier": "PHP-3.01"
-        },
         "7.0.0beta1": {
             "version": "7.0.0beta1",
             "state": "beta",
@@ -95,7 +85,17 @@
             "releasedBy": "cmb",
             "releaseDate": "2016-10-26T09:54:23+00:00",
             "releaseNotes": "- PHP 7 compatibility (use dbase-5 with PHP 5)\n- Fixed #39305: Use of decimal point in different countries\n- Fixed #52112: dbase_get_record() returns integer instead of decimal values\n- Fixed #68289: wrong strlcpy call\n- Fixed #72812: dbase_create does not close the FD on failure\n- Fixed #72815: zend_get_parameters_ex() is deprecated",
-            "get": "http://pecl.php.net/get/dbase-7.0.0beta1",
+            "get": "https://pecl.php.net/get/dbase-7.0.0beta1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "5.1.1": {
+            "version": "5.1.1",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "cmb",
+            "releaseDate": "2016-10-26T15:33:09+00:00",
+            "releaseNotes": "- Fixed #39305: Use of decimal point in different countries\n- Fixed #52112: dbase_get_record() returns integer instead of decimal values\n- Fixed #68289: wrong strlcpy call\n- Fixed #72812: dbase_create does not close the FD on failure\n- Fixed #73391: Writing of floats can cause OOB reads",
+            "get": "https://pecl.php.net/get/dbase-5.1.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "5.1.0": {
@@ -105,7 +105,7 @@
             "releasedBy": "felipe",
             "releaseDate": "2012-06-12T21:46:08+00:00",
             "releaseNotes": "- Fixed build on PHP 5.4+",
-            "get": "http://pecl.php.net/get/dbase-5.1.0",
+            "get": "https://pecl.php.net/get/dbase-5.1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "5.0.1": {
@@ -115,7 +115,7 @@
             "releasedBy": "alan_k",
             "releaseDate": "2010-10-11T02:22:22+00:00",
             "releaseNotes": "Bug fix release \n    #18831 - invalid length field when writing date and boolean types.",
-            "get": "http://pecl.php.net/get/dbase-5.0.1",
+            "get": "https://pecl.php.net/get/dbase-5.0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "5.0": {
@@ -125,7 +125,7 @@
             "releasedBy": "alan_k",
             "releaseDate": "2010-08-19T00:51:37+00:00",
             "releaseNotes": "package.xml added to support installation using pear installer\n\nReleased so at least it can be installed..",
-            "get": "http://pecl.php.net/get/dbase-5.0",
+            "get": "https://pecl.php.net/get/dbase-5.0",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

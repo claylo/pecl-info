@@ -27,6 +27,6 @@ Fixed issue #49 - Multiple static arrays cause failure to compile to native code
 Fixed issue #50 - Cannot pass GD image as int8[][4]
 Fixed issue $51 - Multithreading fails when pcntl_fork() is used</n>
  <f>930521</f>
- <g>http://pecl.php.net/get/qb-2.4.0</g>
+ <g>https://pecl.php.net/get/qb-2.4.0</g>
  <x xlink:href="package.2.4.0.xml"/>
 </r>

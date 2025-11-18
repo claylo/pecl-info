@@ -37,6 +37,6 @@ Change 2.0.0 with your version number</d>
 - Internals: Allowed zero-length argument-to-argument-value separator
 - Security Fix</n>
  <f>122073</f>
- <g>http://pecl.php.net/get/solr-2.1.0</g>
+ <g>https://pecl.php.net/get/solr-2.1.0</g>
  <x xlink:href="package.2.1.0.xml"/>
 </r>

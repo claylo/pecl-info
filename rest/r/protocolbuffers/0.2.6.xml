@@ -19,6 +19,6 @@
 [fixes]
 * (ExtensionRegistry) initialize class entry member when reallocating scheme.</n>
  <f>100094</f>
- <g>http://pecl.php.net/get/protocolbuffers-0.2.6</g>
+ <g>https://pecl.php.net/get/protocolbuffers-0.2.6</g>
  <x xlink:href="package.0.2.6.xml"/>
 </r>

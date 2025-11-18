@@ -15,7 +15,7 @@
             "releasedBy": "tony",
             "releaseDate": "2003-01-18T18:32:00+00:00",
             "releaseNotes": "Updated to work with ecasound 2.2.0",
-            "get": "http://pecl.php.net/get/Ecasound-0.2",
+            "get": "https://pecl.php.net/get/Ecasound-0.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.1": {
@@ -25,7 +25,7 @@
             "releasedBy": "tony",
             "releaseDate": "2002-10-03T06:56:00+00:00",
             "releaseNotes": "First release",
-            "get": "http://pecl.php.net/get/Ecasound-0.1",
+            "get": "https://pecl.php.net/get/Ecasound-0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

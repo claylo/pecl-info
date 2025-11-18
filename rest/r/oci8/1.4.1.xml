@@ -16,6 +16,6 @@
  <n>Fixed bug #49560 (Using LOBs causes slow PHP shutdown)
 Fixed bug #47281 ($php_errormsg is limited in size of characters)</n>
  <f>149097</f>
- <g>http://pecl.php.net/get/oci8-1.4.1</g>
+ <g>https://pecl.php.net/get/oci8-1.4.1</g>
  <x xlink:href="package.1.4.1.xml"/>
 </r>

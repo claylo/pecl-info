@@ -17,6 +17,6 @@ This extension allows you to easily gather latency and other metadata by watchin
  <da>2018-05-08 23:50:57</da>
  <n>- Fix refcounts for arguments in traced function callbacks (#184)</n>
  <f>28468</f>
- <g>http://pecl.php.net/get/opencensus-0.2.2</g>
+ <g>https://pecl.php.net/get/opencensus-0.2.2</g>
  <x xlink:href="package.0.2.2.xml"/>
 </r>

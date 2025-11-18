@@ -17,6 +17,6 @@
 * PCBC-538: do not dereference NULL values after encoding.
 * PCBC-549, PCBC-541: Update crypto interfaces.</n>
  <f>168296</f>
- <g>http://pecl.php.net/get/couchbase-2.4.7</g>
+ <g>https://pecl.php.net/get/couchbase-2.4.7</g>
  <x xlink:href="package.2.4.7.xml"/>
 </r>

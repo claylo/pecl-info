@@ -17,6 +17,6 @@ It can deal with rfc822 and rfc2045 (MIME) compliant messages.
  <da>2002-12-12 20:06:00</da>
  <n>Initial release</n>
  <f>33386</f>
- <g>http://pecl.php.net/get/mailparse-0.9</g>
+ <g>https://pecl.php.net/get/mailparse-0.9</g>
  <x xlink:href="package.0.9.xml"/>
 </r>

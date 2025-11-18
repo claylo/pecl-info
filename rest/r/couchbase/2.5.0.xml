@@ -20,6 +20,6 @@
 * PCBC-544: Implement CertAuthenticator for extra checks
 * Fixes for PHP 7.3</n>
  <f>169604</f>
- <g>http://pecl.php.net/get/couchbase-2.5.0</g>
+ <g>https://pecl.php.net/get/couchbase-2.5.0</g>
  <x xlink:href="package.2.5.0.xml"/>
 </r>

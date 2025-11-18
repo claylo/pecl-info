@@ -15,6 +15,6 @@
  <da>2007-05-19 18:52:01</da>
  <n>-Fixed a possible crash in the event directory cannot be created, due to a double free. (Ilia)</n>
  <f>66878</f>
- <g>http://pecl.php.net/get/zip-1.8.9</g>
+ <g>https://pecl.php.net/get/zip-1.8.9</g>
  <x xlink:href="package.1.8.9.xml"/>
 </r>

@@ -47,6 +47,6 @@
 * Fixed custom ETags and Last-Modified dates in HttpResponse
 * Fixed PHP4 build</n>
  <f>92002</f>
- <g>http://pecl.php.net/get/pecl_http-0.12.0</g>
+ <g>https://pecl.php.net/get/pecl_http-0.12.0</g>
  <x xlink:href="package.0.12.0.xml"/>
 </r>

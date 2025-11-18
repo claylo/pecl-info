@@ -32,6 +32,6 @@ Add: sockets support(eio_sendfile, eio_readahead etc.), enabled by default
 Add: eio_seek function
 Change: numeric fd arguments are now mixed(stream, Socket, or number)</n>
  <f>54477</f>
- <g>http://pecl.php.net/get/eio-0.5.0</g>
+ <g>https://pecl.php.net/get/eio-0.5.0</g>
  <x xlink:href="package.0.5.0.xml"/>
 </r>

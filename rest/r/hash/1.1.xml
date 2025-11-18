@@ -25,6 +25,6 @@ Supported Algorithms:
  * haval128, haval160, haval192, haval224, haval256 (3, 4 and 5 passes)
  * crc32, crc32b, adler32, gost, snefru, whirlpool</n>
  <f>100713</f>
- <g>http://pecl.php.net/get/hash-1.1</g>
+ <g>https://pecl.php.net/get/hash-1.1</g>
  <x xlink:href="package.1.1.xml"/>
 </r>

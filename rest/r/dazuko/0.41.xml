@@ -22,6 +22,6 @@ dazuko to code virus scanners and other security frameworks.
  <da>2004-10-05 16:13:00</da>
  <n>Some structure updates. Added examples and readme file. Added event_counter to result resource.</n>
  <f>8206</f>
- <g>http://pecl.php.net/get/dazuko-0.41</g>
+ <g>https://pecl.php.net/get/dazuko-0.41</g>
  <x xlink:href="package.0.41.xml"/>
 </r>

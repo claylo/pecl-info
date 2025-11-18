@@ -17,6 +17,6 @@
 - Fixed pecl windows build issue #11350
 - Fixed extension reported version #10842</n>
  <f>2298694</f>
- <g>http://pecl.php.net/get/grpc-1.4.0RC2</g>
+ <g>https://pecl.php.net/get/grpc-1.4.0RC2</g>
  <x xlink:href="package.1.4.0RC2.xml"/>
 </r>

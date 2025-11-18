@@ -15,6 +15,6 @@
  <da>2012-05-07 04:29:21</da>
  <n>- Fixed typo variable name in static route(affect 2.1.14)</n>
  <f>81233</f>
- <g>http://pecl.php.net/get/yaf-2.1.15</g>
+ <g>https://pecl.php.net/get/yaf-2.1.15</g>
  <x xlink:href="package.2.1.15.xml"/>
 </r>

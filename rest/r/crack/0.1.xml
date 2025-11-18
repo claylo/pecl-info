@@ -33,6 +33,6 @@ The crack extension requires cracklib (libcrack) 2.7, some kind of word dictiona
  <da>2004-07-21 14:16:00</da>
  <n>Extension moved from PHP source to PECL</n>
  <f>6071</f>
- <g>http://pecl.php.net/get/crack-0.1</g>
+ <g>https://pecl.php.net/get/crack-0.1</g>
  <x xlink:href="package.0.1.xml"/>
 </r>

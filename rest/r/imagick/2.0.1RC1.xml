@@ -23,6 +23,6 @@ IMPORTANT: Version 2.x API is not compatible with earlier versions.</d>
 + Most of the operations that read / add images to the stack move the iterator position to the last element
 + Fixed memleaks in methods that replace the internal MagickWand* pointer</n>
  <f>70278</f>
- <g>http://pecl.php.net/get/imagick-2.0.1RC1</g>
+ <g>https://pecl.php.net/get/imagick-2.0.1RC1</g>
  <x xlink:href="package.2.0.1RC1.xml"/>
 </r>

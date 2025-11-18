@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/couchbase">couchbase</p>
+ <c>pecl.php.net</c>
+ <v>4.4.0</v>
+ <st>stable</st>
+ <l>Apache V2</l>
+ <m>avsej</m>
+ <s>Couchbase Server PHP extension</s>
+ <d>The PHP client library provides fast access to documents stored in a Couchbase Server.</d>
+ <da>2025-09-30 19:33:01</da>
+ <n>New features and enhancements
+=============================
+
+* PCBC-1026: Implement FTS vector search pre-filters
+* PCBC-1030: Fix how SDK handles KV Expiry (#226)
+* Install VS2019 tools for building on windows 2022 (#225)</n>
+ <f>6251963</f>
+ <g>https://pecl.php.net/get/couchbase-4.4.0</g>
+ <x xlink:href="package.4.4.0.xml"/>
+</r>

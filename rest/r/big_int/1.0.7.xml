@@ -37,6 +37,6 @@ in PHP GMP extension, but it needn't any external libraries.
 * fixed compilation bug under unix, which fails building bundled into PHP package
 * windows-style carriage returns \r\n replaced by unix-style \n in all files, except MSVC-related *.dsp, *.dsw, *.sln &amp; *.vcproj</n>
  <f>48248</f>
- <g>http://pecl.php.net/get/big_int-1.0.7</g>
+ <g>https://pecl.php.net/get/big_int-1.0.7</g>
  <x xlink:href="package.1.0.7.xml"/>
 </r>

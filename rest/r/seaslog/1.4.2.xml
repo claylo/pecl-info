@@ -22,6 +22,6 @@
  <n>- Fixed issue #47 support trace_error and trace_exception switch.
 - Fixed issue #48 Ignore notice or warning, but error automatic logging.</n>
  <f>67544</f>
- <g>http://pecl.php.net/get/SeasLog-1.4.2</g>
+ <g>https://pecl.php.net/get/SeasLog-1.4.2</g>
  <x xlink:href="package.1.4.2.xml"/>
 </r>

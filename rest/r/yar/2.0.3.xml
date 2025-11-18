@@ -16,6 +16,6 @@
  <n>- Fixed bug #74867 (segment fault when use yar persistent call twice remote function)
 - Fixed PHP-7.2 Compatibility</n>
  <f>37506</f>
- <g>http://pecl.php.net/get/yar-2.0.3</g>
+ <g>https://pecl.php.net/get/yar-2.0.3</g>
  <x xlink:href="package.2.0.3.xml"/>
 </r>

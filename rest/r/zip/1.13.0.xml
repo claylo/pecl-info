@@ -21,6 +21,6 @@
   when creating directories). (neal at fb dot com)
 - Fixed bug #70322 (ZipArchive::close() doesn't indicate errors). (cmb)</n>
  <f>312531</f>
- <g>http://pecl.php.net/get/zip-1.13.0</g>
+ <g>https://pecl.php.net/get/zip-1.13.0</g>
  <x xlink:href="package.1.13.0.xml"/>
 </r>

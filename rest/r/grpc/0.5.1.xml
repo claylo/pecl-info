@@ -15,6 +15,6 @@
  <da>2015-07-10 18:37:53</da>
  <n>Update to wrap gRPC C Core version 0.10.0</n>
  <f>16800</f>
- <g>http://pecl.php.net/get/grpc-0.5.1</g>
+ <g>https://pecl.php.net/get/grpc-0.5.1</g>
  <x xlink:href="package.0.5.1.xml"/>
 </r>

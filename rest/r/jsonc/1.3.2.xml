@@ -20,6 +20,6 @@ This is a drop-in alternative to PHP standard json extension.</d>
 - trailing char after data not allowed (json-c PR #94)
 - add JSON_C_BUNDLED and JSON_C_VERSION constants</n>
  <f>61768</f>
- <g>http://pecl.php.net/get/jsonc-1.3.2</g>
+ <g>https://pecl.php.net/get/jsonc-1.3.2</g>
  <x xlink:href="package.1.3.2.xml"/>
 </r>

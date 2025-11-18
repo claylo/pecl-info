@@ -18,6 +18,6 @@ IMPORTANT: Version 2.x API is not compatible with earlier versions.</d>
  <da>2010-08-20 17:31:19</da>
  <n>- Fixed a bug which caused failure in writing files with format prefix (such as png:test.jpg)</n>
  <f>93976</f>
- <g>http://pecl.php.net/get/imagick-3.0.1RC2</g>
+ <g>https://pecl.php.net/get/imagick-3.0.1RC2</g>
  <x xlink:href="package.3.0.1RC2.xml"/>
 </r>

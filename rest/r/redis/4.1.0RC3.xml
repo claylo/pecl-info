@@ -26,6 +26,6 @@ The primary new feature of this release is session locking functionality. Thanks
 * Add session locking functionality [300c7251] (@SkydiveMarius, Michael Grunder, Pavlo Yatsukhnenko)
 * Refactor geo* commands + documentation improvements (Michael Grunder)</n>
  <f>220784</f>
- <g>http://pecl.php.net/get/redis-4.1.0RC3</g>
+ <g>https://pecl.php.net/get/redis-4.1.0RC3</g>
  <x xlink:href="package.4.1.0RC3.xml"/>
 </r>

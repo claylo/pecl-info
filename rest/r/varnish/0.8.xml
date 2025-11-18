@@ -19,6 +19,6 @@
 - VarnishAdmin improved with sanity checks for connection and auth
 - Ident vs. host/port are mutually exclusive</n>
  <f>27675</f>
- <g>http://pecl.php.net/get/varnish-0.8</g>
+ <g>https://pecl.php.net/get/varnish-0.8</g>
  <x xlink:href="package.0.8.xml"/>
 </r>

@@ -18,6 +18,6 @@
 - Use snprintf instead sprintf (Ilia, Marcus)
 - Add examples images and odt in release</n>
  <f>66678</f>
- <g>http://pecl.php.net/get/zip-1.8.6</g>
+ <g>https://pecl.php.net/get/zip-1.8.6</g>
  <x xlink:href="package.1.8.6.xml"/>
 </r>

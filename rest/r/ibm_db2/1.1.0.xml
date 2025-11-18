@@ -17,6 +17,6 @@ Apache Derby databases.
  <da>2005-07-12 14:20:42</da>
  <n>First stable release of the ibm_db2 extension for IBM DB2 Universal Database for Linux, UNIX, and Windows, IBM Cloudscape, and Apache Derby.</n>
  <f>110282</f>
- <g>http://pecl.php.net/get/ibm_db2-1.1.0</g>
+ <g>https://pecl.php.net/get/ibm_db2-1.1.0</g>
  <x xlink:href="package.1.1.0.xml"/>
 </r>

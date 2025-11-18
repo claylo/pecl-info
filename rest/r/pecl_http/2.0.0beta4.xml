@@ -28,6 +28,6 @@
 + Added support for sending http\Env\Response over PHP streams
 + Added message body reference counting</n>
  <f>164874</f>
- <g>http://pecl.php.net/get/pecl_http-2.0.0beta4</g>
+ <g>https://pecl.php.net/get/pecl_http-2.0.0beta4</g>
  <x xlink:href="package.2.0.0beta4.xml"/>
 </r>

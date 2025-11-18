@@ -1,1 +1,1 @@
-"41a-62efc4d9db8c0-gzip"
+"41a-62efc4d9db8c0"

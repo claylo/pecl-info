@@ -26,6 +26,6 @@ Enable default cursor type to be set as a connection attribute.
 Provide initial support and testing for native XML data type.
 Improve variable scope binding</n>
  <f>144278</f>
- <g>http://pecl.php.net/get/ibm_db2-1.2.1</g>
+ <g>https://pecl.php.net/get/ibm_db2-1.2.1</g>
  <x xlink:href="package.1.2.1.xml"/>
 </r>

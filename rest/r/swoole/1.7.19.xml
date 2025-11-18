@@ -32,6 +32,6 @@
 - Added addProcess in SWOOLE_BASE mode
 - Fixed SWOOLE_KEEP core dump</n>
  <f>468385</f>
- <g>http://pecl.php.net/get/swoole-1.7.19</g>
+ <g>https://pecl.php.net/get/swoole-1.7.19</g>
  <x xlink:href="package.1.7.19.xml"/>
 </r>

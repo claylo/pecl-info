@@ -20,6 +20,6 @@
 - fix preprocessor bug for ZipArchive::close method being renamed to
 _close on Windows</n>
  <f>264253</f>
- <g>http://pecl.php.net/get/zip-1.12.0</g>
+ <g>https://pecl.php.net/get/zip-1.12.0</g>
  <x xlink:href="package.1.12.0.xml"/>
 </r>

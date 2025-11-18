@@ -15,6 +15,6 @@
  <da>2017-10-11 12:15:07</da>
  <n>This is a maintenance release, compatible with libsodium 1.0.15+</n>
  <f>170352</f>
- <g>http://pecl.php.net/get/libsodium-1.0.7</g>
+ <g>https://pecl.php.net/get/libsodium-1.0.7</g>
  <x xlink:href="package.1.0.7.xml"/>
 </r>

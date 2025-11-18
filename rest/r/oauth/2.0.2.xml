@@ -17,6 +17,6 @@ Requirements: ext/hash (now a part of PHP core)</d>
  <da>2016-06-18 04:05:53</da>
  <n>* Fix #72006</n>
  <f>49115</f>
- <g>http://pecl.php.net/get/oauth-2.0.2</g>
+ <g>https://pecl.php.net/get/oauth-2.0.2</g>
  <x xlink:href="package.2.0.2.xml"/>
 </r>

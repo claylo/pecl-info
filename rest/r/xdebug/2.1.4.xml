@@ -42,6 +42,6 @@ Xdebug also provides:
 	- Fixed an issue with debugging and the eval command.
 	- Fixed compilation with ZTS on PHP &lt; 5.3.</n>
  <f>308742</f>
- <g>http://pecl.php.net/get/xdebug-2.1.4</g>
+ <g>https://pecl.php.net/get/xdebug-2.1.4</g>
  <x xlink:href="package.2.1.4.xml"/>
 </r>

@@ -18,6 +18,6 @@ in .MB files.
  <da>2006-02-13 11:12:39</da>
  <n>PX_insert_record() inserts null values if the record array has less elements than expected. Added test for automatic incrementation of autoinc fields.</n>
  <f>18956</f>
- <g>http://pecl.php.net/get/paradox-1.4.1</g>
+ <g>https://pecl.php.net/get/paradox-1.4.1</g>
  <x xlink:href="package.1.4.1.xml"/>
 </r>

@@ -16,6 +16,6 @@
  <n>- Fixed build with PHP 5.5.
 - Upgraded bundled unrar to version 4.2.4.</n>
  <f>257787</f>
- <g>http://pecl.php.net/get/rar-3.0.2</g>
+ <g>https://pecl.php.net/get/rar-3.0.2</g>
  <x xlink:href="package.3.0.2.xml"/>
 </r>

@@ -33,6 +33,6 @@
 - Fixed bug #62083: memory leak in grapheme_extract().
 - Fixed bug #62564/#62565: call to object_properties_init() missing.</n>
  <f>149430</f>
- <g>http://pecl.php.net/get/intl-2.0.1</g>
+ <g>https://pecl.php.net/get/intl-2.0.1</g>
  <x xlink:href="package.2.0.1.xml"/>
 </r>

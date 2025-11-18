@@ -26,6 +26,6 @@
  <n>Fix: Bitbucket issue #1: eio_open fails when file is owned by root
 Fix: LICENSE role in package.xml (Remi)</n>
  <f>57381</f>
- <g>http://pecl.php.net/get/eio-1.2.4</g>
+ <g>https://pecl.php.net/get/eio-1.2.4</g>
  <x xlink:href="package.1.2.4.xml"/>
 </r>

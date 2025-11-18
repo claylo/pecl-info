@@ -15,7 +15,7 @@
             "releasedBy": "iliaa",
             "releaseDate": "2006-11-07T17:16:08+00:00",
             "releaseNotes": "1) Added support for sg_get_fs_stats()",
-            "get": "http://pecl.php.net/get/Statgrab-0.6.0",
+            "get": "https://pecl.php.net/get/Statgrab-0.6.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.5.0": {
@@ -25,7 +25,7 @@
             "releasedBy": "iliaa",
             "releaseDate": "2006-03-22T12:37:22+00:00",
             "releaseNotes": "1) Allow compilation against libstatgrab 0.12\n2) Fixed compilation on FreeBSD systems\n3) Unflip network stats and incremental network stats\n4) Fixed a few spelling mistakes",
-            "get": "http://pecl.php.net/get/Statgrab-0.5.0",
+            "get": "https://pecl.php.net/get/Statgrab-0.5.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.4": {
@@ -35,7 +35,7 @@
             "releasedBy": "iliaa",
             "releaseDate": "2005-04-05T11:24:01+00:00",
             "releaseNotes": "1) Fixed config.m4, which caused the statgrab library not to be detected\n   on some systems.",
-            "get": "http://pecl.php.net/get/Statgrab-0.4",
+            "get": "https://pecl.php.net/get/Statgrab-0.4",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.3": {
@@ -45,7 +45,7 @@
             "releasedBy": "iliaa",
             "releaseDate": "2004-05-21T14:15:00+00:00",
             "releaseNotes": "1) Make statgrab extension work with libstatgrab 0.10 (now required).\n2) Change function prefixes to sg_ from statg_.\n3) Renamed sg_process_stats() to sg_process_count().\n4) Added sg_process_stats() that can now return detailed information about\n   all currently running processes.",
-            "get": "http://pecl.php.net/get/Statgrab-0.3",
+            "get": "https://pecl.php.net/get/Statgrab-0.3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.2": {
@@ -55,7 +55,7 @@
             "releasedBy": "iliaa",
             "releaseDate": "2004-03-10T19:41:00+00:00",
             "releaseNotes": "Updated interface with new functionality avaliable in libstatgrab 0.9\n(old versions of libstatgrab are still supported).\nAdded statg_network_iface_stats() function to get interface information.\nAdded additional information to network functions.",
-            "get": "http://pecl.php.net/get/Statgrab-0.2",
+            "get": "https://pecl.php.net/get/Statgrab-0.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.1": {
@@ -65,7 +65,7 @@
             "releasedBy": "iliaa",
             "releaseDate": "2004-01-28T03:25:00+00:00",
             "releaseNotes": "Initial release",
-            "get": "http://pecl.php.net/get/Statgrab-0.1",
+            "get": "https://pecl.php.net/get/Statgrab-0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

@@ -15,6 +15,6 @@
  <da>2009-12-03 07:41:41</da>
  <n>- Fixed crash when extending class doesn't call parent constructor.</n>
  <f>11482</f>
- <g>http://pecl.php.net/get/sphinx-1.0.2</g>
+ <g>https://pecl.php.net/get/sphinx-1.0.2</g>
  <x xlink:href="package.1.0.2.xml"/>
 </r>

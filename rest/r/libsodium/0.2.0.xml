@@ -19,6 +19,6 @@
 - multi-part hashing was implemented (crypto_generichash_{init|update|final})
 - sealed boxes have been implemented (crypto_seal)</n>
  <f>167833</f>
- <g>http://pecl.php.net/get/libsodium-0.2.0</g>
+ <g>https://pecl.php.net/get/libsodium-0.2.0</g>
  <x xlink:href="package.0.2.0.xml"/>
 </r>

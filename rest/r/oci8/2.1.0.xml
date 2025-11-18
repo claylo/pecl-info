@@ -27,6 +27,6 @@ Interoperability Support&quot; (ID 207303.1) for details.</d>
  <n>This version is for PHP 7 only.
 Updated driver name format.</n>
  <f>191149</f>
- <g>http://pecl.php.net/get/oci8-2.1.0</g>
+ <g>https://pecl.php.net/get/oci8-2.1.0</g>
  <x xlink:href="package.2.1.0.xml"/>
 </r>

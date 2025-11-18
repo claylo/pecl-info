@@ -25,6 +25,6 @@ Enhancements:
 - added pdf_utf8_to_utf16() and pdf_utf16_to_utf8() API's.
 - included support for PDFlib4 again</n>
  <f>36143</f>
- <g>http://pecl.php.net/get/pdflib-2.0.3</g>
+ <g>https://pecl.php.net/get/pdflib-2.0.3</g>
  <x xlink:href="package.2.0.3.xml"/>
 </r>

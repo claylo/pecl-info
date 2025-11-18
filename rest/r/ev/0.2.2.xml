@@ -19,6 +19,6 @@ Refact: callbacks' no_separation = 1(was 0)
 Fix: typo in package.xml
 Fix: markdown syntax</n>
  <f>93696</f>
- <g>http://pecl.php.net/get/ev-0.2.2</g>
+ <g>https://pecl.php.net/get/ev-0.2.2</g>
  <x xlink:href="package.0.2.2.xml"/>
 </r>

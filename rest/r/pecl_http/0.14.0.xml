@@ -37,6 +37,6 @@
 * Renamed HTTP_GET etc. constants to HTTP_METH_GET
 * Fixed protected property access</n>
  <f>104144</f>
- <g>http://pecl.php.net/get/pecl_http-0.14.0</g>
+ <g>https://pecl.php.net/get/pecl_http-0.14.0</g>
  <x xlink:href="package.0.14.0.xml"/>
 </r>

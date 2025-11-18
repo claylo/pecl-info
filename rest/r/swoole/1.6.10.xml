@@ -26,6 +26,6 @@ AsyncTask workers</d>
 - Add last_time and connect_time to tcp connection_info
 - rebuild data_buffer</n>
  <f>94121</f>
- <g>http://pecl.php.net/get/swoole-1.6.10</g>
+ <g>https://pecl.php.net/get/swoole-1.6.10</g>
  <x xlink:href="package.1.6.10.xml"/>
 </r>

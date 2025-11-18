@@ -58,6 +58,6 @@ Changes from beta2:
 * Fix bug #73185: Buffer overflow in HTTP parse_hostinfo() (Mike, @rc0r) (CVE-2016-7961)
 * Fix HTTP/2 version parser for older libcurl versions (Mike)</n>
  <f>217673</f>
- <g>http://pecl.php.net/get/pecl_http-2.6.0</g>
+ <g>https://pecl.php.net/get/pecl_http-2.6.0</g>
  <x xlink:href="package.2.6.0.xml"/>
 </r>

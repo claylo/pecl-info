@@ -17,6 +17,6 @@
  <n>New Features:
 - Change min PHP verison from 7.0.0RC5 to 7.0.0-dev</n>
  <f>37817</f>
- <g>http://pecl.php.net/get/yaml-2.0.0RC2</g>
+ <g>https://pecl.php.net/get/yaml-2.0.0RC2</g>
  <x xlink:href="package.2.0.0RC2.xml"/>
 </r>

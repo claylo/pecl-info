@@ -18,6 +18,6 @@
  <n>1) Support returning match substrings in array.
 		2) Fix missing null-termination in returned match string.</n>
  <f>5737</f>
- <g>http://pecl.php.net/get/expect-0.2.1</g>
+ <g>https://pecl.php.net/get/expect-0.2.1</g>
  <x xlink:href="package.0.2.1.xml"/>
 </r>

@@ -33,6 +33,6 @@
 * Fixed a bug which required &quot;=&quot; in Content-Range response message headers
 * Fixed a bug with directly setting HttpMessage property values</n>
  <f>141230</f>
- <g>http://pecl.php.net/get/pecl_http-0.18.0</g>
+ <g>https://pecl.php.net/get/pecl_http-0.18.0</g>
  <x xlink:href="package.0.18.0.xml"/>
 </r>

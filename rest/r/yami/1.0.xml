@@ -24,6 +24,6 @@
 - This build was compiled for PHP version 5.2.1
 - The extension should compile for PHP 4.x as well</n>
  <f>26514</f>
- <g>http://pecl.php.net/get/yami-1.0</g>
+ <g>https://pecl.php.net/get/yami-1.0</g>
  <x xlink:href="package.1.0.xml"/>
 </r>

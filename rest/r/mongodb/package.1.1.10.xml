@@ -660,7 +660,7 @@ necessary to build a fully-functional MongoDB driver.</description>
    <file md5sum="324f4d69acdeb1132691a570731e58a2" name="README.md" role="doc" />
    <file md5sum="f99c580b04875fa6d39a302ad8110ebd" name="RELEASE-0" role="doc" />
    <file md5sum="f28b9c1fe3faa9766fe6ee5b270383fe" name="RELEASE-1.0" role="doc" />
-   <file md5sum="48dedfebdafe1d807b50d1b9cd76b580" name="RELEASE-1.1" role="doc" />
+   <file md5sum="ba80f479ccd6213e7d0fd5a632ea7639" name="RELEASE-1.1" role="doc" />
    <file md5sum="f8b23ef6c95aae65b1120e007247476b" name="RELEASE-1.1.10" role="doc" />
    <file md5sum="422ba17467e9aa074a0856a15519f543" name="Vagrantfile" role="test" />
    <file md5sum="4e3a2c82048a73ebbe405ba48f8e47a6" name="config.m4" role="src" />

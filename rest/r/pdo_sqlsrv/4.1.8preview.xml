@@ -27,6 +27,6 @@
 - User defined data types and SQL_VARIANT
 - Binary column binding with emulate prepare (issue #140)</n>
  <f>184252</f>
- <g>http://pecl.php.net/get/pdo_sqlsrv-4.1.8preview</g>
+ <g>https://pecl.php.net/get/pdo_sqlsrv-4.1.8preview</g>
  <x xlink:href="package.4.1.8preview.xml"/>
 </r>

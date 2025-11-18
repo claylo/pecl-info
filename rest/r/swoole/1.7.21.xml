@@ -33,6 +33,6 @@
 - Added swoole_client-&gt;sleep/wakeup method for suspend/resume data reception event
 - Fixed UDP large package data is abnormal</n>
  <f>472387</f>
- <g>http://pecl.php.net/get/swoole-1.7.21</g>
+ <g>https://pecl.php.net/get/swoole-1.7.21</g>
  <x xlink:href="package.1.7.21.xml"/>
 </r>

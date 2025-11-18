@@ -18,6 +18,6 @@ IMPORTANT: Version 2.x API is not compatible with earlier versions.</d>
  <da>2010-01-21 20:17:29</da>
  <n>- Fixes building against PHP 5.2.x</n>
  <f>88046</f>
- <g>http://pecl.php.net/get/imagick-3.0.0b2</g>
+ <g>https://pecl.php.net/get/imagick-3.0.0b2</g>
  <x xlink:href="package.3.0.0b2.xml"/>
 </r>

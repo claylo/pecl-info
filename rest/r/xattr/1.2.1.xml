@@ -18,6 +18,6 @@
 - add arginfo for reflection (Remi)
 - add a test for set/get/list/remove functions (Remi)</n>
  <f>7242</f>
- <g>http://pecl.php.net/get/xattr-1.2.1</g>
+ <g>https://pecl.php.net/get/xattr-1.2.1</g>
  <x xlink:href="package.1.2.1.xml"/>
 </r>

@@ -21,6 +21,6 @@ IMPORTANT: Version 2.x API is not compatible with earlier versions.</d>
 - Added getImageChannelRange method
 - Some cleaning up on the syntax</n>
  <f>75959</f>
- <g>http://pecl.php.net/get/imagick-2.2.1RC1</g>
+ <g>https://pecl.php.net/get/imagick-2.2.1RC1</g>
  <x xlink:href="package.2.2.1RC1.xml"/>
 </r>

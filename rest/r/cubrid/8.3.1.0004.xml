@@ -15,6 +15,6 @@
  <da>2011-01-24 21:30:41</da>
  <n>- zend_long64 don't exist in php-5.2.x, use size_t for LOB size instead.</n>
  <f>35173</f>
- <g>http://pecl.php.net/get/CUBRID-8.3.1.0004</g>
+ <g>https://pecl.php.net/get/CUBRID-8.3.1.0004</g>
  <x xlink:href="package.8.3.1.0004.xml"/>
 </r>

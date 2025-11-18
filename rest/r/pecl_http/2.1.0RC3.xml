@@ -36,6 +36,6 @@ v2: http://dev.iworks.at/ext-http/lcov/ext/http/</d>
 + Added curlcode transfer info
 - Removed port and scheme guessing of http\Url for portability</n>
  <f>158468</f>
- <g>http://pecl.php.net/get/pecl_http-2.1.0RC3</g>
+ <g>https://pecl.php.net/get/pecl_http-2.1.0RC3</g>
  <x xlink:href="package.2.1.0RC3.xml"/>
 </r>

@@ -24,6 +24,6 @@ Fixed config.w32 regarding compile issue on Windows
 Fix for internal defect: exec function not returning success/failure when no rows need be returned
 Fix for internal defect: fix for segfault when using bad SQL</n>
  <f>58040</f>
- <g>http://pecl.php.net/get/PDO_IBM-1.1.1</g>
+ <g>https://pecl.php.net/get/PDO_IBM-1.1.1</g>
  <x xlink:href="package.1.1.1.xml"/>
 </r>

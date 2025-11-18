@@ -28,6 +28,6 @@
 - Fixed issue #97 (Use size_t instead of int to support a cache larger than 2G)
 - Fixed bug (Avoid possible conditional jump depended on uninitialised value)</n>
  <f>87858</f>
- <g>http://pecl.php.net/get/zendopcache-7.0.2</g>
+ <g>https://pecl.php.net/get/zendopcache-7.0.2</g>
  <x xlink:href="package.7.0.2.xml"/>
 </r>

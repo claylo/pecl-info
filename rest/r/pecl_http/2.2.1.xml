@@ -32,6 +32,6 @@ v2: http://dev.iworks.at/ext-http/lcov/ext/http/</d>
  <da>2015-02-07 06:26:46</da>
  <n>* Fixed Bug #69000 (http\Url breaks down with very long URL query strings)</n>
  <f>172422</f>
- <g>http://pecl.php.net/get/pecl_http-2.2.1</g>
+ <g>https://pecl.php.net/get/pecl_http-2.2.1</g>
  <x xlink:href="package.2.2.1.xml"/>
 </r>

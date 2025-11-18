@@ -23,6 +23,6 @@
  <da>2018-08-11 08:02:23</da>
  <n>Fixed issue #52: namespace issues when installing via pecl command in non-interactive mode.</n>
  <f>139675</f>
- <g>http://pecl.php.net/get/event-2.4.1</g>
+ <g>https://pecl.php.net/get/event-2.4.1</g>
  <x xlink:href="package.2.4.1.xml"/>
 </r>

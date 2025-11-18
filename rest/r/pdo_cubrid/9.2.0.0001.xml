@@ -16,6 +16,6 @@
  <n>Fixed bugs:
 1) APIS-634 - PDO Cannot connect to the shard db in PDO driver</n>
  <f>991439</f>
- <g>http://pecl.php.net/get/PDO_CUBRID-9.2.0.0001</g>
+ <g>https://pecl.php.net/get/PDO_CUBRID-9.2.0.0001</g>
  <x xlink:href="package.9.2.0.0001.xml"/>
 </r>

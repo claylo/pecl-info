@@ -1,4 +1,12 @@
 {
+    "0.18.2": {
+        "version": "0.18.2",
+        "state": "stable"
+    },
+    "0.18.1": {
+        "version": "0.18.1",
+        "state": "stable"
+    },
     "0.18.0": {
         "version": "0.18.0",
         "state": "stable"

@@ -15,6 +15,6 @@
  <da>2017-11-29 18:49:04</da>
  <n>- Updated gRPC C Core library version 1.8</n>
  <f>2302591</f>
- <g>http://pecl.php.net/get/grpc-1.8.0RC1</g>
+ <g>https://pecl.php.net/get/grpc-1.8.0RC1</g>
  <x xlink:href="package.1.8.0RC1.xml"/>
 </r>

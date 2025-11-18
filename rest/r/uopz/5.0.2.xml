@@ -35,6 +35,6 @@ It supports the following activities:
 - fix PHP 7.1 compatibility
 - fix PHP 7.2 compatibility</n>
  <f>24931</f>
- <g>http://pecl.php.net/get/uopz-5.0.2</g>
+ <g>https://pecl.php.net/get/uopz-5.0.2</g>
  <x xlink:href="package.5.0.2.xml"/>
 </r>

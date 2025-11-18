@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/apcu">apcu</p>
+ <c>pecl.php.net</c>
+ <v>5.1.27</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>nikic</m>
+ <s>APCu - APC User Cache</s>
+ <d>APC User Caching</d>
+ <da>2025-08-28 19:20:40</da>
+ <n>- Fixed another hang introduced in apcu 5.1.25, which can occur when defragmentation is triggered
+  under load.
+
+Internal changes:
+- The report_memleaks INI directive has been removed from all tests as it will be deprecated in
+PHP 8.5.</n>
+ <f>94489</f>
+ <g>https://pecl.php.net/get/apcu-5.1.27</g>
+ <x xlink:href="package.5.1.27.xml"/>
+</r>

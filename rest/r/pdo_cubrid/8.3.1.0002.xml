@@ -17,6 +17,6 @@
 
 - Fix a bug in cubrid_handle_quoter: Before escaping unquoted string, it should init the value of quotedlen to 0;</n>
  <f>18985</f>
- <g>http://pecl.php.net/get/PDO_CUBRID-8.3.1.0002</g>
+ <g>https://pecl.php.net/get/PDO_CUBRID-8.3.1.0002</g>
  <x xlink:href="package.8.3.1.0002.xml"/>
 </r>

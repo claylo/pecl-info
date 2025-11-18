@@ -17,6 +17,6 @@
  <n>Fix: memory leaks in objects derived from EvWatcher 
 Refact: some frequent checks optimized</n>
  <f>95193</f>
- <g>http://pecl.php.net/get/ev-0.2.9</g>
+ <g>https://pecl.php.net/get/ev-0.2.9</g>
  <x xlink:href="package.0.2.9.xml"/>
 </r>

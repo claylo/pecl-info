@@ -16,6 +16,6 @@
  <n>- Experimental support for client-side interceptor #13342, #15779
 - Add upper bound for number of persistent channels per target #15218</n>
  <f>2531231</f>
- <g>http://pecl.php.net/get/grpc-1.13.0RC3</g>
+ <g>https://pecl.php.net/get/grpc-1.13.0RC3</g>
  <x xlink:href="package.1.13.0RC3.xml"/>
 </r>

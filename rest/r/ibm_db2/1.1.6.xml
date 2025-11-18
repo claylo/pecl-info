@@ -20,6 +20,6 @@ Apache Derby databases.
 Better memory management for OUT and INOUT parameters.
 More forgiving of NULL or 0 values for scrollable cursor positioning.</n>
  <f>113257</f>
- <g>http://pecl.php.net/get/ibm_db2-1.1.6</g>
+ <g>https://pecl.php.net/get/ibm_db2-1.1.6</g>
  <x xlink:href="package.1.1.6.xml"/>
 </r>

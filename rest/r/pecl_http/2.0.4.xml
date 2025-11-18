@@ -33,6 +33,6 @@ v2: http://dev.iworks.at/ext-http/lcov/ext/http/</d>
  <n>* Removed the pecl/event conflict
 * Fixed bug #66388 (Crash on POST with Content-Length:0 and untouched body)</n>
  <f>152350</f>
- <g>http://pecl.php.net/get/pecl_http-2.0.4</g>
+ <g>https://pecl.php.net/get/pecl_http-2.0.4</g>
  <x xlink:href="package.2.0.4.xml"/>
 </r>

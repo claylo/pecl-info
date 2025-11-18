@@ -32,6 +32,6 @@
 + HTTPi_Request::getResponseInfo([string name]) now allows retrieval of single info values
 + vastly enhanced http_absolute_uri()</n>
  <f>44998</f>
- <g>http://pecl.php.net/get/pecl_http-0.6.1</g>
+ <g>https://pecl.php.net/get/pecl_http-0.6.1</g>
  <x xlink:href="package.0.6.1.xml"/>
 </r>

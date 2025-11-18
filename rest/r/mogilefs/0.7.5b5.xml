@@ -18,6 +18,6 @@
  <da>2008-12-09 11:46:28</da>
  <n>- Added config.m4 to package.xml to allow installation via pecl/pear</n>
  <f>15879</f>
- <g>http://pecl.php.net/get/mogilefs-0.7.5b5</g>
+ <g>https://pecl.php.net/get/mogilefs-0.7.5b5</g>
  <x xlink:href="package.0.7.5b5.xml"/>
 </r>

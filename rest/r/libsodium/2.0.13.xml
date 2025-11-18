@@ -15,6 +15,6 @@
  <da>2018-10-12 22:17:50</da>
  <n>- Security fix: sodium_pad() used to read extra memory when given an empty string</n>
  <f>28975</f>
- <g>http://pecl.php.net/get/libsodium-2.0.13</g>
+ <g>https://pecl.php.net/get/libsodium-2.0.13</g>
  <x xlink:href="package.2.0.13.xml"/>
 </r>

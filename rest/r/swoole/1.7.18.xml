@@ -32,6 +32,6 @@
 - Fixed woole_client and swoole_timer memory leak
 - Added swoole_server-&gt;exist function</n>
  <f>465228</f>
- <g>http://pecl.php.net/get/swoole-1.7.18</g>
+ <g>https://pecl.php.net/get/swoole-1.7.18</g>
  <x xlink:href="package.1.7.18.xml"/>
 </r>

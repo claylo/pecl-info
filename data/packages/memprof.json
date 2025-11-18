@@ -85,7 +85,7 @@
             "releasedBy": "lbarnaud",
             "releaseDate": "2017-01-28T12:51:49+00:00",
             "releaseNotes": "* PHP 7 version",
-            "get": "http://pecl.php.net/get/memprof-2.0.0",
+            "get": "https://pecl.php.net/get/memprof-2.0.0",
             "SPDX-License-Identifier": "MIT"
         },
         "1.0.0": {
@@ -95,7 +95,7 @@
             "releasedBy": "lbarnaud",
             "releaseDate": "2013-05-21T13:08:44+00:00",
             "releaseNotes": "PECL release",
-            "get": "http://pecl.php.net/get/memprof-1.0.0",
+            "get": "https://pecl.php.net/get/memprof-1.0.0",
             "SPDX-License-Identifier": "MIT"
         }
     },

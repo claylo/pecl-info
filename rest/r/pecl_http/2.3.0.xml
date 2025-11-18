@@ -75,6 +75,6 @@ v2: http://dev.iworks.at/ext-http/lcov/ext/http/</d>
 Changes from RC1:
 * Fixed a shutdown crash with chunked encoded stream responses</n>
  <f>188432</f>
- <g>http://pecl.php.net/get/pecl_http-2.3.0</g>
+ <g>https://pecl.php.net/get/pecl_http-2.3.0</g>
  <x xlink:href="package.2.3.0.xml"/>
 </r>

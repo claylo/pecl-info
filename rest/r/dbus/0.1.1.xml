@@ -16,6 +16,6 @@
  <da>2011-06-15 07:38:06</da>
  <n>- Compile fix for PHP 5.4/trunk.</n>
  <f>17131</f>
- <g>http://pecl.php.net/get/dbus-0.1.1</g>
+ <g>https://pecl.php.net/get/dbus-0.1.1</g>
  <x xlink:href="package.0.1.1.xml"/>
 </r>

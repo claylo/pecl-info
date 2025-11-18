@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/vld">vld</p>
+ <c>pecl.php.net</c>
+ <v>0.19.1</v>
+ <st>beta</st>
+ <l>BSD style</l>
+ <m>derick</m>
+ <s>Provides functionality to dump the internal representation of PHP scripts</s>
+ <d>The Vulcan Logic Disassembler hooks into the Zend Engine and
+dumps all the opcodes (execution units) of a script.</d>
+ <da>2025-07-15 14:24:05</da>
+ <n>- Remove &#039;ZEND_&#039; prefix from opcode names
+- PHP 8.5: Add support for the new DECLARE_ATTRIBUTED_CONST opcode
+- Improve support for PHP 8.4 property hooks, and add the new INIT_PARENT_PROPERTY_HOOK_CALL opcode
+- Fixed EXT_STMT display, as it does not have any used op nodes</n>
+ <f>22913</f>
+ <g>https://pecl.php.net/get/vld-0.19.1</g>
+ <x xlink:href="package.0.19.1.xml"/>
+</r>

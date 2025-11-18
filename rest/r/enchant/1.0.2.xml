@@ -24,6 +24,6 @@ see www.abisource.com/enchant/</d>
  <n>- #13181, Leaving a context frees the dictionnary resources
 - Fix protos descriptions in the sources</n>
  <f>8407</f>
- <g>http://pecl.php.net/get/enchant-1.0.2</g>
+ <g>https://pecl.php.net/get/enchant-1.0.2</g>
  <x xlink:href="package.1.0.2.xml"/>
 </r>

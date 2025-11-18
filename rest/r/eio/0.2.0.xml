@@ -27,6 +27,6 @@ Fix: in a threaded SAPI libeio in a single process might initialize mutex multip
 Change: switch from semaphore to mutex
 Change: dropped --with-eio-shm* configuration options</n>
  <f>21894</f>
- <g>http://pecl.php.net/get/eio-0.2.0</g>
+ <g>https://pecl.php.net/get/eio-0.2.0</g>
  <x xlink:href="package.0.2.0.xml"/>
 </r>

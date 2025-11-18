@@ -15,6 +15,6 @@
  <da>2016-03-08 17:16:04</da>
  <n>- Allow to adjust the considered &quot;amount of external memory&quot; by objects exported to V8</n>
  <f>100185</f>
- <g>http://pecl.php.net/get/v8js-0.6.0</g>
+ <g>https://pecl.php.net/get/v8js-0.6.0</g>
  <x xlink:href="package.0.6.0.xml"/>
 </r>

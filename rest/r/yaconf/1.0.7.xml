@@ -16,6 +16,6 @@
  <n>- Fixed PHP-7.2 build
 - Fixed HT flags</n>
  <f>11055</f>
- <g>http://pecl.php.net/get/yaconf-1.0.7</g>
+ <g>https://pecl.php.net/get/yaconf-1.0.7</g>
  <x xlink:href="package.1.0.7.xml"/>
 </r>

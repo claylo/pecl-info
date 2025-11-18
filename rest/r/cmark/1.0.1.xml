@@ -17,6 +17,6 @@
  <n>- improve efficiency of visitation, only looking up functions one time for each accept()
 - allow returning [Event =&gt; Node] from enter/leave, providing full control over backing iterator</n>
  <f>41534</f>
- <g>http://pecl.php.net/get/cmark-1.0.1</g>
+ <g>https://pecl.php.net/get/cmark-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

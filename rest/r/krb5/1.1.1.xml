@@ -30,6 +30,6 @@ Documentation:
 - [BUG] fix _add_assoc_string string length (fixes extra null bytes in some arrays)
 - [BUG] fix PHP7 crash due to wrong addrlist zval declaration</n>
  <f>36568</f>
- <g>http://pecl.php.net/get/krb5-1.1.1</g>
+ <g>https://pecl.php.net/get/krb5-1.1.1</g>
  <x xlink:href="package.1.1.1.xml"/>
 </r>

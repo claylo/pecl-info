@@ -25,6 +25,6 @@ See also http://www.gnu.org/software/ncurses/ncurses.html
  <da>2006-01-05 17:39:20</da>
  <n>package.xml added to support intallation using pear installer</n>
  <f>15733</f>
- <g>http://pecl.php.net/get/ncurses-1.0.0</g>
+ <g>https://pecl.php.net/get/ncurses-1.0.0</g>
  <x xlink:href="package.1.0.0.xml"/>
 </r>

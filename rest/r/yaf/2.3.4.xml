@@ -18,6 +18,6 @@
 - Fixed invalid read(segfault) with php-5.4
 - Fixed bug (Exception in preDispatch is not caught)</n>
  <f>104737</f>
- <g>http://pecl.php.net/get/yaf-2.3.4</g>
+ <g>https://pecl.php.net/get/yaf-2.3.4</g>
  <x xlink:href="package.2.3.4.xml"/>
 </r>

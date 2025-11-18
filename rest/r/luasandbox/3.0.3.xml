@@ -15,6 +15,6 @@
  <da>2018-10-11 02:48:27</da>
  <n>- Fix ZTS build on PHP 7+ (Patch by Remi Collet)</n>
  <f>59808</f>
- <g>http://pecl.php.net/get/LuaSandbox-3.0.3</g>
+ <g>https://pecl.php.net/get/LuaSandbox-3.0.3</g>
  <x xlink:href="package.3.0.3.xml"/>
 </r>

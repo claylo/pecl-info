@@ -24,6 +24,6 @@ http://www.pdflib.com/products/pdflib/info/PDFlib-in-PHP-HowTo.pdf.
  <n>Bugfixes:
 - fixed Bug http://pecl.php.net/bugs/bug.php?id=3554</n>
  <f>36505</f>
- <g>http://pecl.php.net/get/pdflib-2.0.5</g>
+ <g>https://pecl.php.net/get/pdflib-2.0.5</g>
  <x xlink:href="package.2.0.5.xml"/>
 </r>

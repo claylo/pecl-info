@@ -15,6 +15,6 @@
  <da>2018-03-04 19:40:01</da>
  <n>- fixed Varnish 5.2 compatibility</n>
  <f>25366</f>
- <g>http://pecl.php.net/get/varnish-1.2.3</g>
+ <g>https://pecl.php.net/get/varnish-1.2.3</g>
  <x xlink:href="package.1.2.3.xml"/>
 </r>

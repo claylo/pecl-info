@@ -29,6 +29,6 @@
 * Corrected Memory leaking of smileys strings.
 * Makes bbcode_set_flags work correctly.</n>
  <f>44631</f>
- <g>http://pecl.php.net/get/bbcode-0.10.3</g>
+ <g>https://pecl.php.net/get/bbcode-0.10.3</g>
  <x xlink:href="package.0.10.3.xml"/>
 </r>

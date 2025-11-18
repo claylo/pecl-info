@@ -16,6 +16,6 @@
  <da>2016-07-04 04:18:07</da>
  <n>- Fixed build with PHP-7.1</n>
  <f>18550</f>
- <g>http://pecl.php.net/get/taint-2.0.2</g>
+ <g>https://pecl.php.net/get/taint-2.0.2</g>
  <x xlink:href="package.2.0.2.xml"/>
 </r>

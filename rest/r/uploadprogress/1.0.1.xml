@@ -20,6 +20,6 @@
 - Example: Added a check, if the extension is installed at all.
 - Example: Added checks for a valid uploadprogress.file.filename_template setting.</n>
  <f>8536</f>
- <g>http://pecl.php.net/get/uploadprogress-1.0.1</g>
+ <g>https://pecl.php.net/get/uploadprogress-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

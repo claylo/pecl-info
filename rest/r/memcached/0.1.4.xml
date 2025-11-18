@@ -16,6 +16,6 @@
  <n>- Fix compilation against PHP 5.3.
 - Add support for 'igbinary' serializer (Oleg Grenrus)</n>
  <f>20373</f>
- <g>http://pecl.php.net/get/memcached-0.1.4</g>
+ <g>https://pecl.php.net/get/memcached-0.1.4</g>
  <x xlink:href="package.0.1.4.xml"/>
 </r>

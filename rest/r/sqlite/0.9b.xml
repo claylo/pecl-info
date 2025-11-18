@@ -32,6 +32,6 @@ Fixed some build issues for thread-safe builds.
 API is considered stabilized for 4.3.x; this is a pre-release before
 announcing stable version 1.0.</n>
  <f>310644</f>
- <g>http://pecl.php.net/get/SQLite-0.9b</g>
+ <g>https://pecl.php.net/get/SQLite-0.9b</g>
  <x xlink:href="package.0.9b.xml"/>
 </r>

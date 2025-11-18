@@ -35,6 +35,6 @@
 - Forcing file change check on folder after listener is moved to different process.
 - Fixed fcnotify refcount bug and updated version number for beta2 release.</n>
  <f>133035</f>
- <g>http://pecl.php.net/get/WINCACHE-1.1.0beta2</g>
+ <g>https://pecl.php.net/get/WINCACHE-1.1.0beta2</g>
  <x xlink:href="package.1.1.0beta2.xml"/>
 </r>

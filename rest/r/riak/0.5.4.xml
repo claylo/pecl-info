@@ -18,6 +18,6 @@
   Issue35: Memoryleak in MapReduce and search has been fixed.
   Issue37: session.auto_start breaks session handling</n>
  <f>103827</f>
- <g>http://pecl.php.net/get/riak-0.5.4</g>
+ <g>https://pecl.php.net/get/riak-0.5.4</g>
  <x xlink:href="package.0.5.4.xml"/>
 </r>

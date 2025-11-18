@@ -18,6 +18,6 @@
 This release conains only fix of RedisArray distributor hashing function
 which was broken in 3.1.4. Huge thanks to @rexchen123</n>
  <f>199920</f>
- <g>http://pecl.php.net/get/redis-3.1.6</g>
+ <g>https://pecl.php.net/get/redis-3.1.6</g>
  <x xlink:href="package.3.1.6.xml"/>
 </r>

@@ -15,6 +15,6 @@
  <da>2010-04-20 01:09:45</da>
  <n>Fixing some compilations issues with PHP 5.3 builds.</n>
  <f>15582</f>
- <g>http://pecl.php.net/get/perforce-1.0.3</g>
+ <g>https://pecl.php.net/get/perforce-1.0.3</g>
  <x xlink:href="package.1.0.3.xml"/>
 </r>

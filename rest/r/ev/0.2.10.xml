@@ -18,6 +18,6 @@
 Fix: missing get_gc property handler
 Fix: operators applied to uninitialized EvWatcher::data property caused unexpected results</n>
  <f>95645</f>
- <g>http://pecl.php.net/get/ev-0.2.10</g>
+ <g>https://pecl.php.net/get/ev-0.2.10</g>
  <x xlink:href="package.0.2.10.xml"/>
 </r>

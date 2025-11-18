@@ -20,6 +20,6 @@
  <n>- Improved performance of consistent hash strategy
 - Fixed PECL request #13758 (Failed to extract 'connection' variable from object)</n>
  <f>35981</f>
- <g>http://pecl.php.net/get/memcache-2.2.5</g>
+ <g>https://pecl.php.net/get/memcache-2.2.5</g>
  <x xlink:href="package.2.2.5.xml"/>
 </r>

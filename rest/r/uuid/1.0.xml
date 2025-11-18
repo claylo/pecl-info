@@ -19,6 +19,6 @@ systems, its source is bundled with the ext2fs tools.
  <da>2004-03-27 13:16:00</da>
  <n>Official 1.0 stable release</n>
  <f>4993</f>
- <g>http://pecl.php.net/get/uuid-1.0</g>
+ <g>https://pecl.php.net/get/uuid-1.0</g>
  <x xlink:href="package.1.0.xml"/>
 </r>

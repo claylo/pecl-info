@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/mongodb">mongodb</p>
+ <c>pecl.php.net</c>
+ <v>2.1.2</v>
+ <st>stable</st>
+ <l>Apache License</l>
+ <m>alcaeus</m>
+ <s>MongoDB driver for PHP</s>
+ <d>The purpose of this driver is to provide exceptionally thin glue between MongoDB
+and PHP, implementing only fundamental and performance-critical components
+necessary to build a fully-functional MongoDB driver.</d>
+ <da>2025-10-02 11:59:01</da>
+ <n>## What&#039;s Changed
+* PHPC-2613: Test x509 authentication on Atlas by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1858
+* PHPC-2617: Support PHP 8.5 by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1871
+* Fix wrong PHP version constraint for pie by @alcaeus in https://github.com/mongodb/mongo-php-driver/pull/1874
+
+
+**Full Changelog**: https://github.com/mongodb/mongo-php-driver/compare/2.1.1...2.1.2</n>
+ <f>2128221</f>
+ <g>https://pecl.php.net/get/mongodb-2.1.2</g>
+ <x xlink:href="package.2.1.2.xml"/>
+</r>

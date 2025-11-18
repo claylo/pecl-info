@@ -15,6 +15,6 @@
  <da>2013-03-03 09:05:17</da>
  <n>- Fixed bug uninitialized value in socket transporter</n>
  <f>33428</f>
- <g>http://pecl.php.net/get/yar-1.1.2</g>
+ <g>https://pecl.php.net/get/yar-1.1.2</g>
  <x xlink:href="package.1.1.2.xml"/>
 </r>

@@ -20,6 +20,6 @@
 * PCBC-468: Add support for user CRUD in ClusterManager
 * PCBC-489: Add shortcut for PasswordAuthenticator as Cluster-&gt;authenticateAs($username, $password)</n>
  <f>147963</f>
- <g>http://pecl.php.net/get/couchbase-2.3.3</g>
+ <g>https://pecl.php.net/get/couchbase-2.3.3</g>
  <x xlink:href="package.2.3.3.xml"/>
 </r>

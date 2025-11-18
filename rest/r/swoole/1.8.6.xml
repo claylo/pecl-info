@@ -37,6 +37,6 @@
 - Optimize websocket server performance
 - Added swoole_server-&gt;task complete callback parameter</n>
  <f>511021</f>
- <g>http://pecl.php.net/get/swoole-1.8.6</g>
+ <g>https://pecl.php.net/get/swoole-1.8.6</g>
  <x xlink:href="package.1.8.6.xml"/>
 </r>

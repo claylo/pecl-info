@@ -16,6 +16,6 @@
  <n>- Fixed hang bug when fork() was used #11814
 - Channel are now by default persistent #11878</n>
  <f>2301057</f>
- <g>http://pecl.php.net/get/grpc-1.4.3</g>
+ <g>https://pecl.php.net/get/grpc-1.4.3</g>
  <x xlink:href="package.1.4.3.xml"/>
 </r>

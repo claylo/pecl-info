@@ -25,6 +25,6 @@ a new function &quot;transliterate_filters_get()&quot; to return a list of all a
 filters and added support for aliases of filters with the ALIAS pragma in the
 .tr files. Also removed the special decomposition of the paragraph sign.</n>
  <f>107062</f>
- <g>http://pecl.php.net/get/translit-0.4</g>
+ <g>https://pecl.php.net/get/translit-0.4</g>
  <x xlink:href="package.0.4.xml"/>
 </r>

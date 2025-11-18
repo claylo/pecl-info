@@ -35,7 +35,7 @@
             "releasedBy": "mike",
             "releaseDate": "2015-07-28T08:24:48+00:00",
             "releaseNotes": "* Fix: json_post.flags=2 ignored with php7 (Remi)",
-            "get": "http://pecl.php.net/get/json_post-1.0.1",
+            "get": "https://pecl.php.net/get/json_post-1.0.1",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "1.0.0": {
@@ -45,7 +45,7 @@
             "releasedBy": "mike",
             "releaseDate": "2015-03-18T01:47:28+00:00",
             "releaseNotes": "* Split off pecl_http",
-            "get": "http://pecl.php.net/get/json_post-1.0.0",
+            "get": "https://pecl.php.net/get/json_post-1.0.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "1.0.0RC2": {
@@ -55,7 +55,7 @@
             "releasedBy": "mike",
             "releaseDate": "2015-03-12T01:40:20+00:00",
             "releaseNotes": "* Split off pecl_http",
-            "get": "http://pecl.php.net/get/json_post-1.0.0RC2",
+            "get": "https://pecl.php.net/get/json_post-1.0.0RC2",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "1.0.0RC1": {
@@ -65,7 +65,7 @@
             "releasedBy": "mike",
             "releaseDate": "2015-03-10T07:31:12+00:00",
             "releaseNotes": "* Split off pecl_http",
-            "get": "http://pecl.php.net/get/json_post-1.0.0RC1",
+            "get": "https://pecl.php.net/get/json_post-1.0.0RC1",
             "SPDX-License-Identifier": "BSD-2-Clause"
         }
     },

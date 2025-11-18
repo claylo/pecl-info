@@ -15,6 +15,6 @@
  <da>2011-06-24 09:32:28</da>
  <n>Updated minimum PHP requirement to 5.2.3.</n>
  <f>31747</f>
- <g>http://pecl.php.net/get/PDO_SQLANYWHERE-0.1.1</g>
+ <g>https://pecl.php.net/get/PDO_SQLANYWHERE-0.1.1</g>
  <x xlink:href="package.0.1.1.xml"/>
 </r>

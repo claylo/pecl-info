@@ -16,6 +16,6 @@
  <n>* Bugfix release
 * Tests work now with ICU 3.6 and 3.8</n>
  <f>131578</f>
- <g>http://pecl.php.net/get/intl-1.0.1</g>
+ <g>https://pecl.php.net/get/intl-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

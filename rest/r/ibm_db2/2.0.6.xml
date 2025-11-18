@@ -17,6 +17,6 @@ Cloudscape, and Apache Derby databases.</d>
  <da>2018-06-18 10:55:41</da>
  <n>Fixed crash while in windows.</n>
  <f>190326</f>
- <g>http://pecl.php.net/get/ibm_db2-2.0.6</g>
+ <g>https://pecl.php.net/get/ibm_db2-2.0.6</g>
  <x xlink:href="package.2.0.6.xml"/>
 </r>

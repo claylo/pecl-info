@@ -19,6 +19,6 @@
 - Added compare()
 - On PHP7, make memzero() and increment() avoid zeroing an object if it is not a reference or if its reference count is &gt; 1</n>
  <f>168209</f>
- <g>http://pecl.php.net/get/libsodium-1.0.1</g>
+ <g>https://pecl.php.net/get/libsodium-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

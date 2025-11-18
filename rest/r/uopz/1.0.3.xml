@@ -16,6 +16,6 @@
  <n>allow overriding static scope on created methods
 add backup/restore functions (auto restore internal functions)</n>
  <f>17894</f>
- <g>http://pecl.php.net/get/uopz-1.0.3</g>
+ <g>https://pecl.php.net/get/uopz-1.0.3</g>
  <x xlink:href="package.1.0.3.xml"/>
 </r>

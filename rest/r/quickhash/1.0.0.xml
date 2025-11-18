@@ -18,6 +18,6 @@ the sets and hashes.</d>
  <da>2012-09-02 17:47:09</da>
  <n>Implemented ArrayAccess for QuickHashIntSet</n>
  <f>22829</f>
- <g>http://pecl.php.net/get/quickhash-1.0.0</g>
+ <g>https://pecl.php.net/get/quickhash-1.0.0</g>
  <x xlink:href="package.1.0.0.xml"/>
 </r>

@@ -18,6 +18,6 @@
 - Fixed compile issues with PHP 5.1 and 5.3
 - Added in ARG_INFO macros to make reflection work</n>
  <f>24024</f>
- <g>http://pecl.php.net/get/drizzle-0.4.0</g>
+ <g>https://pecl.php.net/get/drizzle-0.4.0</g>
  <x xlink:href="package.0.4.0.xml"/>
 </r>

@@ -18,6 +18,6 @@
 - stats_stat_factorial returns immediately when the value are reached to +INF
 - Change supported version to PHP 5.3 or higher</n>
  <f>112280</f>
- <g>http://pecl.php.net/get/stats-2.0.3</g>
+ <g>https://pecl.php.net/get/stats-2.0.3</g>
  <x xlink:href="package.2.0.3.xml"/>
 </r>

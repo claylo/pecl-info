@@ -34,6 +34,6 @@ Xdebug also provides:
 
   - Fixed issue #1521: xdebug_gc_stats.* missing from 2.6.0RC1 tarball</n>
  <f>283601</f>
- <g>http://pecl.php.net/get/xdebug-2.6.0RC2</g>
+ <g>https://pecl.php.net/get/xdebug-2.6.0RC2</g>
  <x xlink:href="package.2.6.0RC2.xml"/>
 </r>

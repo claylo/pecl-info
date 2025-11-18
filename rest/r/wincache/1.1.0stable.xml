@@ -20,6 +20,6 @@
 - Added functionality to clear user cache from wincache.php.
 - Updated build number for RTW release. Removed rerouteini config property.</n>
  <f>134481</f>
- <g>http://pecl.php.net/get/WINCACHE-1.1.0stable</g>
+ <g>https://pecl.php.net/get/WINCACHE-1.1.0stable</g>
  <x xlink:href="package.1.1.0stable.xml"/>
 </r>

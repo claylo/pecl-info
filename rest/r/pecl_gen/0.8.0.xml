@@ -24,6 +24,6 @@ PECL extension.
 - config,m4 header files check added
 - config.m4 support for makefile fragments</n>
  <f>42023</f>
- <g>http://pecl.php.net/get/PECL_Gen-0.8.0</g>
+ <g>https://pecl.php.net/get/PECL_Gen-0.8.0</g>
  <x xlink:href="package.0.8.0.xml"/>
 </r>

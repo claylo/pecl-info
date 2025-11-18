@@ -20,6 +20,6 @@
 - fixes gh#185: zend_mm_heap corrupted
 - fixes gh#190: memory leak/failed check for duplicates</n>
  <f>110792</f>
- <g>http://pecl.php.net/get/apcu-5.1.6</g>
+ <g>https://pecl.php.net/get/apcu-5.1.6</g>
  <x xlink:href="package.5.1.6.xml"/>
 </r>

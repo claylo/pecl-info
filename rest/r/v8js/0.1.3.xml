@@ -16,6 +16,6 @@
  <n>- Fixed build in PHP 5.4+
 - Fixed bug #59553 (can't build due to missing class member)</n>
  <f>17968</f>
- <g>http://pecl.php.net/get/v8js-0.1.3</g>
+ <g>https://pecl.php.net/get/v8js-0.1.3</g>
  <x xlink:href="package.0.1.3.xml"/>
 </r>

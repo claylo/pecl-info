@@ -17,6 +17,6 @@ It is not designed for complete security (it is still possible to disassemble th
  <da>2014-04-27 10:26:45</da>
  <n>Upgraded to works with latest PHP version</n>
  <f>17861</f>
- <g>http://pecl.php.net/get/blenc-1.1.4b</g>
+ <g>https://pecl.php.net/get/blenc-1.1.4b</g>
  <x xlink:href="package.1.1.4b.xml"/>
 </r>

@@ -15,6 +15,6 @@
  <da>2012-07-06 20:36:44</da>
  <n>Fixed build on PHP 5.3+</n>
  <f>11508</f>
- <g>http://pecl.php.net/get/LZF-1.6.1</g>
+ <g>https://pecl.php.net/get/LZF-1.6.1</g>
  <x xlink:href="package.1.6.1.xml"/>
 </r>

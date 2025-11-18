@@ -17,6 +17,6 @@
 gnupg_deletekey now allows deleting a secret key in procedural usage
 raised min version to 4.4</n>
  <f>19253</f>
- <g>http://pecl.php.net/get/gnupg-1.3</g>
+ <g>https://pecl.php.net/get/gnupg-1.3</g>
  <x xlink:href="package.1.3.xml"/>
 </r>

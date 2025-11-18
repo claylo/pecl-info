@@ -19,6 +19,6 @@ This package was originally developed by Bart Vanbrabant. Old versions are avail
  <n>- #10426, safe_mode throws warnings about missing .htaccess
 - #10432, warning while blocking php_value safe_mode (Matthew Kent)</n>
  <f>8608</f>
- <g>http://pecl.php.net/get/htscanner-0.8.1</g>
+ <g>https://pecl.php.net/get/htscanner-0.8.1</g>
  <x xlink:href="package.0.8.1.xml"/>
 </r>

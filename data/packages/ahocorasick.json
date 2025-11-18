@@ -75,7 +75,7 @@
             "releasedBy": "ph4r05sk",
             "releaseDate": "2018-07-31T15:40:39+00:00",
             "releaseNotes": "Initial release",
-            "get": "http://pecl.php.net/get/ahocorasick-0.0.1",
+            "get": "https://pecl.php.net/get/ahocorasick-0.0.1",
             "SPDX-License-Identifier": "PHP-3.01 OR LGPL-3.0-only"
         }
     },

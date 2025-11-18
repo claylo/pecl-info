@@ -15,7 +15,7 @@
             "releasedBy": "surfchen",
             "releaseDate": "2008-11-25T09:08:50+00:00",
             "releaseNotes": "Initial release.",
-            "get": "http://pecl.php.net/get/qqwry-0.1.0",
+            "get": "https://pecl.php.net/get/qqwry-0.1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

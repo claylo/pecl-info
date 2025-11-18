@@ -21,6 +21,6 @@
 - Fixed bug in MogileFS::connect()
 - Renamed MogileFsClient back to MogileFS</n>
  <f>14972</f>
- <g>http://pecl.php.net/get/mogilefs-0.7.5b4</g>
+ <g>https://pecl.php.net/get/mogilefs-0.7.5b4</g>
  <x xlink:href="package.0.7.5b4.xml"/>
 </r>

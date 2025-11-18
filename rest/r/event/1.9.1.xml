@@ -24,6 +24,6 @@
  <n>Fix: return value of EventBase::reInit() was inverted
 issue #7: PHP_EVENT_REQUIRE_BASE_BY_REF() didn't work in 5.6.0-dev (fixed by Remi Collet)</n>
  <f>75603</f>
- <g>http://pecl.php.net/get/event-1.9.1</g>
+ <g>https://pecl.php.net/get/event-1.9.1</g>
  <x xlink:href="package.1.9.1.xml"/>
 </r>

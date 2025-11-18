@@ -15,6 +15,6 @@
  <da>2012-03-28 11:33:44</da>
  <n>Fixed bug #61545 - newt_checkbox_tree_add_item() doesn't accept correct number of arguments.</n>
  <f>24919</f>
- <g>http://pecl.php.net/get/newt-1.2.6</g>
+ <g>https://pecl.php.net/get/newt-1.2.6</g>
  <x xlink:href="package.1.2.6.xml"/>
 </r>

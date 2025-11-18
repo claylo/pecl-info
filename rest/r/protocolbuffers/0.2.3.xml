@@ -23,6 +23,6 @@
 * #33 Message::append on a repeated field causes segfault, batch assigning it throws exception
 * fixed refcounting problem</n>
  <f>100258</f>
- <g>http://pecl.php.net/get/protocolbuffers-0.2.3</g>
+ <g>https://pecl.php.net/get/protocolbuffers-0.2.3</g>
  <x xlink:href="package.0.2.3.xml"/>
 </r>

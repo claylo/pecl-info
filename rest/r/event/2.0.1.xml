@@ -23,6 +23,6 @@
  <da>2016-03-17 05:13:54</da>
  <n>PHP7: Protected user callbacks from destruction within libevent callbacks</n>
  <f>130826</f>
- <g>http://pecl.php.net/get/event-2.0.1</g>
+ <g>https://pecl.php.net/get/event-2.0.1</g>
  <x xlink:href="package.2.0.1.xml"/>
 </r>

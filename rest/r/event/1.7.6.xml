@@ -25,6 +25,6 @@
 turn off this requirement explicitly with --disable-event-sockets configure
 option</n>
  <f>69482</f>
- <g>http://pecl.php.net/get/event-1.7.6</g>
+ <g>https://pecl.php.net/get/event-1.7.6</g>
  <x xlink:href="package.1.7.6.xml"/>
 </r>

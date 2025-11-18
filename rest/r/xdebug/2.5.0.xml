@@ -49,6 +49,6 @@ Xdebug also provides:
   - Fixed issue #1373: Crash in zend_hash_apply_with_arguments when debugging,
     due to unset symbol table</n>
  <f>267640</f>
- <g>http://pecl.php.net/get/xdebug-2.5.0</g>
+ <g>https://pecl.php.net/get/xdebug-2.5.0</g>
  <x xlink:href="package.2.5.0.xml"/>
 </r>

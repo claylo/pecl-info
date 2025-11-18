@@ -15,6 +15,6 @@
  <da>2016-04-02 13:59:19</da>
  <n>- Fixed bug #70727 zend_mm_heap corrupted when uncompressed size multiple of 1024</n>
  <f>16409</f>
- <g>http://pecl.php.net/get/LZF-1.6.4</g>
+ <g>https://pecl.php.net/get/LZF-1.6.4</g>
  <x xlink:href="package.1.6.4.xml"/>
 </r>

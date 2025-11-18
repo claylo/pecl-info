@@ -15,7 +15,7 @@
             "releasedBy": "cvubrugier",
             "releaseDate": "2005-11-26T13:15:08+00:00",
             "releaseNotes": "First alpha version",
-            "get": "http://pecl.php.net/get/clucene-0.0.9",
+            "get": "https://pecl.php.net/get/clucene-0.0.9",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

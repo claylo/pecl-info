@@ -17,6 +17,6 @@
  <n>Seems to have problems instrumenting when run under apache.
 Offers two probes: function-entry and function-return.</n>
  <f>3049</f>
- <g>http://pecl.php.net/get/dtrace-1.0.1</g>
+ <g>https://pecl.php.net/get/dtrace-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

@@ -24,6 +24,6 @@ libstatgrab library.
 3) Unflip network stats and incremental network stats
 4) Fixed a few spelling mistakes</n>
  <f>6087</f>
- <g>http://pecl.php.net/get/Statgrab-0.5.0</g>
+ <g>https://pecl.php.net/get/Statgrab-0.5.0</g>
  <x xlink:href="package.0.5.0.xml"/>
 </r>

@@ -16,6 +16,6 @@
  <n>- Fixed bug #63900 (Segfault if separated action executes failed)
 - Fixed some compiler warnings (Remi)</n>
  <f>95034</f>
- <g>http://pecl.php.net/get/yaf-2.2.9</g>
+ <g>https://pecl.php.net/get/yaf-2.2.9</g>
  <x xlink:href="package.2.2.9.xml"/>
 </r>

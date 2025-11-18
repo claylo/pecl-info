@@ -135,7 +135,7 @@
             "releasedBy": "eduardo",
             "releaseDate": "2017-02-10T17:05:16+00:00",
             "releaseNotes": "- fix gh#47 Incorrect function definition for smbclient_read\n- optimization: enable stream wrapper reusing connections",
-            "get": "http://pecl.php.net/get/smbclient-0.9.0",
+            "get": "https://pecl.php.net/get/smbclient-0.9.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.8.0": {
@@ -145,7 +145,7 @@
             "releasedBy": "eduardo",
             "releaseDate": "2016-03-01T15:31:27+00:00",
             "releaseNotes": "- Promoting to stable after almost 3 months with no commits needed.",
-            "get": "http://pecl.php.net/get/smbclient-0.8.0",
+            "get": "https://pecl.php.net/get/smbclient-0.8.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.8.0RC1": {
@@ -155,7 +155,7 @@
             "releasedBy": "eduardo",
             "releaseDate": "2015-12-08T16:39:25+00:00",
             "releaseNotes": "- initial PECL release\n- add 'smb' streams support\n- rename extension to smbclient\n- PHP 7 compatibility",
-            "get": "http://pecl.php.net/get/smbclient-0.8.0RC1",
+            "get": "https://pecl.php.net/get/smbclient-0.8.0RC1",
             "SPDX-License-Identifier": "BSD-2-Clause"
         }
     },

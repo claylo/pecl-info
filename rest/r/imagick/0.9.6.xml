@@ -32,6 +32,6 @@
           $handle = imagick_readimage( &quot;image.jpg&quot; ) or die( imagick_error() ) ;
 - fixed configure script. It honours now values returned by Magick-config.</n>
  <f>71297</f>
- <g>http://pecl.php.net/get/imagick-0.9.6</g>
+ <g>https://pecl.php.net/get/imagick-0.9.6</g>
  <x xlink:href="package.0.9.6.xml"/>
 </r>

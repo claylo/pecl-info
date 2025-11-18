@@ -49,6 +49,6 @@
 * Fixed MySQL's memory allocation caused by the use of prepare statement without parameter binding
 * Fixed old stream memory loss leak when HTTP2 client reconnect</n>
  <f>919949</f>
- <g>http://pecl.php.net/get/swoole-4.1.0</g>
+ <g>https://pecl.php.net/get/swoole-4.1.0</g>
  <x xlink:href="package.4.1.0.xml"/>
 </r>

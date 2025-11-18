@@ -34,6 +34,6 @@
 - Removed DNS cache, removed swoole_clear_dns_cache function
 - Added use_async_resolver option to enable real async-io DNS lookup</n>
  <f>542481</f>
- <g>http://pecl.php.net/get/swoole-1.9.5</g>
+ <g>https://pecl.php.net/get/swoole-1.9.5</g>
  <x xlink:href="package.1.9.5.xml"/>
 </r>

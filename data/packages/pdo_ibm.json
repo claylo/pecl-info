@@ -2,12 +2,22 @@
     "category": "Database",
     "deprecated": false,
     "description": "This extension provides an IBM database driver for PDO. This driver supports IBM DB2\nUniversal Database, IBM Cloudscape, Apache Derby databases and IDS (Informix Data Server).",
-    "latestReleaseDate": "2023-11-16T21:41:38+00:00",
-    "latestVersion": "1.6.1",
+    "latestReleaseDate": "2025-09-24T19:55:07+00:00",
+    "latestVersion": "1.7.0",
     "license": "Apache License 2.0",
     "name": "PDO_IBM",
     "php8Mentioned": true,
     "releases": {
+        "1.7.0": {
+            "version": "1.7.0",
+            "state": "stable",
+            "license": "Apache License 2.0",
+            "releasedBy": "theprez",
+            "releaseDate": "2025-09-24T19:55:07+00:00",
+            "releaseNotes": "- Support for PHP 8.5\n- A PDO driver class (\\Pdo\\Ibm) is now provided on PHP 8.4 and newer.\n  Currently, it has no extra methods, but in PHP 8.5, the PDO constants\n  have been moved to the \\Pdo\\Ibm class, and a deprecation message added to\n  the old PDO:: constants.",
+            "get": "https://pecl.php.net/get/PDO_IBM-1.7.0",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
         "1.6.1": {
             "version": "1.6.1",
             "state": "stable",
@@ -85,7 +95,7 @@
             "releasedBy": "vnkbabu",
             "releaseDate": "2017-11-15T10:43:50+00:00",
             "releaseNotes": "Added fix for defect 72121 and multibyte fix which was delivered by IBM for defect 64008 in PDO_INFORMIX in 1.3.3",
-            "get": "http://pecl.php.net/get/PDO_IBM-1.3.5",
+            "get": "https://pecl.php.net/get/PDO_IBM-1.3.5",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.3.4": {
@@ -95,7 +105,7 @@
             "releasedBy": "vnkbabu",
             "releaseDate": "2016-04-18T11:31:47+00:00",
             "releaseNotes": "Fixed: Added PHP 7 support.",
-            "get": "http://pecl.php.net/get/PDO_IBM-1.3.4",
+            "get": "https://pecl.php.net/get/PDO_IBM-1.3.4",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.3.3": {
@@ -105,7 +115,7 @@
             "releasedBy": "rahulpriyadarshi",
             "releaseDate": "2012-03-12T08:13:19+00:00",
             "releaseNotes": "Fixed: Segmentation fault on getColumnMeta\nFixed: PDO_IBM driver needs to return SQL error codes\nFixed: should throw a PDOException if someone tries to use DDL and placeholders\nFixed: Nested queries returns corrupted rows or segmentation fault\nFixed: Compilation error with php-5.4.x",
-            "get": "http://pecl.php.net/get/PDO_IBM-1.3.3",
+            "get": "https://pecl.php.net/get/PDO_IBM-1.3.3",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.3.2": {
@@ -115,7 +125,7 @@
             "releasedBy": "ambrish",
             "releaseDate": "2010-03-30T05:24:52+00:00",
             "releaseNotes": "Adding support for Client Info (IDS Feature).\nAdding support for ISAM Error code (IDS Feature).",
-            "get": "http://pecl.php.net/get/PDO_IBM-1.3.2",
+            "get": "https://pecl.php.net/get/PDO_IBM-1.3.2",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.3.1": {
@@ -125,7 +135,7 @@
             "releasedBy": "ambrish",
             "releaseDate": "2009-12-24T04:09:31+00:00",
             "releaseNotes": "Problem related to dynamic loading is fixed.",
-            "get": "http://pecl.php.net/get/PDO_IBM-1.3.1",
+            "get": "https://pecl.php.net/get/PDO_IBM-1.3.1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.3.0": {
@@ -135,7 +145,7 @@
             "releasedBy": "ambrish",
             "releaseDate": "2008-12-11T13:46:09+00:00",
             "releaseNotes": "Adding support for V6R1 i-Series systems.\nSwitch various BINARY/CHAR mismatch bind types for ASCII/EBCDIC.\nDBCLOB added for i5 meta data, etc.",
-            "get": "http://pecl.php.net/get/PDO_IBM-1.3.0",
+            "get": "https://pecl.php.net/get/PDO_IBM-1.3.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.2.5": {
@@ -145,7 +155,7 @@
             "releasedBy": "kfbombar",
             "releaseDate": "2008-08-12T04:17:50+00:00",
             "releaseNotes": "Adding trusted context support.\nBug of SEGV when execute is used with bind_param on parameter markers BLOB/CLOB type fixed.\nUpdating test cases.",
-            "get": "http://pecl.php.net/get/PDO_IBM-1.2.5",
+            "get": "https://pecl.php.net/get/PDO_IBM-1.2.5",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.2.4": {
@@ -155,7 +165,7 @@
             "releasedBy": "kfbombar",
             "releaseDate": "2008-04-02T17:56:53+00:00",
             "releaseNotes": "Adding test cases.",
-            "get": "http://pecl.php.net/get/PDO_IBM-1.2.4",
+            "get": "https://pecl.php.net/get/PDO_IBM-1.2.4",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.2.3": {
@@ -165,7 +175,7 @@
             "releasedBy": "kfbombar",
             "releaseDate": "2007-09-14T11:05:12+00:00",
             "releaseNotes": "Rolled back fix for selecting LOB with an empty string(\"\")",
-            "get": "http://pecl.php.net/get/PDO_IBM-1.2.3",
+            "get": "https://pecl.php.net/get/PDO_IBM-1.2.3",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.2.2": {
@@ -175,7 +185,7 @@
             "releasedBy": "kfbombar",
             "releaseDate": "2007-09-06T16:56:51+00:00",
             "releaseNotes": "Defect fixes for large objects when dealing with nulls and empty strings",
-            "get": "http://pecl.php.net/get/PDO_IBM-1.2.2",
+            "get": "https://pecl.php.net/get/PDO_IBM-1.2.2",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.2.1": {
@@ -185,7 +195,7 @@
             "releasedBy": "kfbombar",
             "releaseDate": "2007-08-06T11:31:46+00:00",
             "releaseNotes": "Minor release to fix formatting and remove generic non-PDO_IBM code\nNew Feature: Added support for lastInsertId() method\nNew Feature: Added support for PDO::ATTR_SERVER_INFO connection attribute\nImproved unit test coverage for DB2 and IDS 11",
-            "get": "http://pecl.php.net/get/PDO_IBM-1.2.1",
+            "get": "https://pecl.php.net/get/PDO_IBM-1.2.1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.2.0": {
@@ -195,7 +205,7 @@
             "releasedBy": "kfbombar",
             "releaseDate": "2007-08-03T19:24:17+00:00",
             "releaseNotes": "New Feature: Added support for lastInsertId() method\nNew Feature: Added support for PDO::ATTR_SERVER_INFO connection attribute\nImproved unit test coverage for DB2 and IDS 11",
-            "get": "http://pecl.php.net/get/PDO_IBM-1.2.0",
+            "get": "https://pecl.php.net/get/PDO_IBM-1.2.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.1.1": {
@@ -205,7 +215,7 @@
             "releasedBy": "kfbombar",
             "releaseDate": "2007-06-13T13:31:17+00:00",
             "releaseNotes": "New feature: quote function supported\nNew feature: set_attribute feature supported\nFix for internal defect: bindParam crash\nFixed Pecl defect 10398: statement->execute is not throw exception\nFixed config.w32 regarding compile issue on Windows\nFix for internal defect: exec function not returning success/failure when no rows need be returned\nFix for internal defect: fix for segfault when using bad SQL",
-            "get": "http://pecl.php.net/get/PDO_IBM-1.1.1",
+            "get": "https://pecl.php.net/get/PDO_IBM-1.1.1",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.1.0": {
@@ -215,7 +225,7 @@
             "releasedBy": "kfbombar",
             "releaseDate": "2007-02-13T18:50:14+00:00",
             "releaseNotes": "Fixed internal bug regarding wrong getAttribute information\nFixed internal bug regarding error description not being cleared\nFixed internal bug regarding an issue found when faulty SQL is issued\nFixed internal bug regarding float data type issues",
-            "get": "http://pecl.php.net/get/PDO_IBM-1.1.0",
+            "get": "https://pecl.php.net/get/PDO_IBM-1.1.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "1.0.0": {
@@ -225,7 +235,7 @@
             "releasedBy": "kfbombar",
             "releaseDate": "2006-11-22T16:14:50+00:00",
             "releaseNotes": "Stable version of the PDO_IBM driver",
-            "get": "http://pecl.php.net/get/PDO_IBM-1.0.0",
+            "get": "https://pecl.php.net/get/PDO_IBM-1.0.0",
             "SPDX-License-Identifier": "Apache-2.0"
         },
         "0.9.0": {
@@ -235,7 +245,7 @@
             "releasedBy": "kfbombar",
             "releaseDate": "2006-11-06T17:40:19+00:00",
             "releaseNotes": "Initial version of the PDO_IBM driver",
-            "get": "http://pecl.php.net/get/PDO_IBM-0.9.0",
+            "get": "https://pecl.php.net/get/PDO_IBM-0.9.0",
             "SPDX-License-Identifier": "Apache-2.0"
         }
     },

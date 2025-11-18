@@ -33,6 +33,6 @@
 - Fixed WebSocket client memory leak
 - Fixed compiler error when have not SSE instruction</n>
  <f>573635</f>
- <g>http://pecl.php.net/get/swoole-1.9.12</g>
+ <g>https://pecl.php.net/get/swoole-1.9.12</g>
  <x xlink:href="package.1.9.12.xml"/>
 </r>

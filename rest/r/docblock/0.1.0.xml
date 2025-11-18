@@ -34,6 +34,6 @@ docblock_token_name() takes a DOCBLOCK_* constant and returns its name</d>
  <n>Initial release.  This release supports all docblock features that
 phpDocumentor supports.</n>
  <f>27414</f>
- <g>http://pecl.php.net/get/docblock-0.1.0</g>
+ <g>https://pecl.php.net/get/docblock-0.1.0</g>
  <x xlink:href="package.0.1.0.xml"/>
 </r>

@@ -22,6 +22,6 @@ Changes:
 * PCBC-381: support for Full Text Search queries
 * Various minor fixes and improvements</n>
  <f>58171</f>
- <g>http://pecl.php.net/get/couchbase-2.2.0beta4</g>
+ <g>https://pecl.php.net/get/couchbase-2.2.0beta4</g>
  <x xlink:href="package.2.2.0beta4.xml"/>
 </r>

@@ -65,7 +65,7 @@
             "releasedBy": "mikl",
             "releaseDate": "2009-11-29T05:50:04+00:00",
             "releaseNotes": "Added checkacctmgmt parameter to enable skipping the pam_acct_mgmt() call (which might require root access)",
-            "get": "http://pecl.php.net/get/pam-1.0.3",
+            "get": "https://pecl.php.net/get/pam-1.0.3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.2": {
@@ -75,7 +75,7 @@
             "releasedBy": "mikl",
             "releaseDate": "2007-11-28T14:20:34+00:00",
             "releaseNotes": "Added PAM_RHOST param to facilitate RHOST auth (using $_SERVER['REMOTE_ADDR'])",
-            "get": "http://pecl.php.net/get/pam-1.0.2",
+            "get": "https://pecl.php.net/get/pam-1.0.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.1": {
@@ -85,7 +85,7 @@
             "releasedBy": "mikl",
             "releaseDate": "2007-09-22T03:31:57+00:00",
             "releaseNotes": "Error messages specify which pam_* function failed\nFixed build on lib64 type systems",
-            "get": "http://pecl.php.net/get/pam-1.0.1",
+            "get": "https://pecl.php.net/get/pam-1.0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.0": {
@@ -95,7 +95,7 @@
             "releasedBy": "mikl",
             "releaseDate": "2006-11-13T03:27:23+00:00",
             "releaseNotes": "Initial PECL release",
-            "get": "http://pecl.php.net/get/pam-1.0.0",
+            "get": "https://pecl.php.net/get/pam-1.0.0",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

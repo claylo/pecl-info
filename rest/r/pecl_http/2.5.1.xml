@@ -37,6 +37,6 @@ http://dev.iworks.at/ext-http/lcov/ext/http/</d>
 + Added &quot;service_name&quot; and &quot;proxy_service_name&quot; request options for SPNEGO (available with libcurl &gt;= 7.43)
 + Enabled &quot;certinfo&quot; transfer info on all supporting SSL backends (OpenSSL: libcurl v7.19.1, NSS: libcurl v7.34.0, GSKit: libcurl v7.39.0, GnuTLS: libcurl v7.42.0)</n>
  <f>191275</f>
- <g>http://pecl.php.net/get/pecl_http-2.5.1</g>
+ <g>https://pecl.php.net/get/pecl_http-2.5.1</g>
  <x xlink:href="package.2.5.1.xml"/>
 </r>

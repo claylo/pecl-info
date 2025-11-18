@@ -45,7 +45,7 @@
             "releasedBy": "hanez",
             "releaseDate": "2015-01-22T17:13:26+00:00",
             "releaseNotes": "Fixed bug to make the use of the T=0 protocol possible.",
-            "get": "http://pecl.php.net/get/pcsc-0.3.1",
+            "get": "https://pecl.php.net/get/pcsc-0.3.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.3": {
@@ -55,7 +55,7 @@
             "releasedBy": "hanez",
             "releaseDate": "2014-04-23T21:21:11+00:00",
             "releaseNotes": "Fix w32 build, fix compiler warnings, use zval resource instead of LONG for handles",
-            "get": "http://pecl.php.net/get/pcsc-0.3",
+            "get": "https://pecl.php.net/get/pcsc-0.3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.2": {
@@ -65,7 +65,7 @@
             "releasedBy": "hanez",
             "releaseDate": "2013-04-11T14:21:30+00:00",
             "releaseNotes": "Fixed compile error on >= PHP5.4 and added w32 support",
-            "get": "http://pecl.php.net/get/pcsc-0.2",
+            "get": "https://pecl.php.net/get/pcsc-0.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.1": {
@@ -75,7 +75,7 @@
             "releasedBy": "hanez",
             "releaseDate": "2011-12-13T18:26:40+00:00",
             "releaseNotes": "Initial release",
-            "get": "http://pecl.php.net/get/pcsc-0.1",
+            "get": "https://pecl.php.net/get/pcsc-0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

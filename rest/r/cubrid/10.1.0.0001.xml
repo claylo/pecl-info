@@ -19,6 +19,6 @@
 Fixed bugs:
 1)APIS-724 - cubrid_column_types could not get data type date.</n>
  <f>2544859</f>
- <g>http://pecl.php.net/get/CUBRID-10.1.0.0001</g>
+ <g>https://pecl.php.net/get/CUBRID-10.1.0.0001</g>
  <x xlink:href="package.10.1.0.0001.xml"/>
 </r>

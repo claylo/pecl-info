@@ -75,7 +75,7 @@
             "releasedBy": "tstarling",
             "releaseDate": "2018-10-11T02:48:27+00:00",
             "releaseNotes": "- Fix ZTS build on PHP 7+ (Patch by Remi Collet)",
-            "get": "http://pecl.php.net/get/LuaSandbox-3.0.3",
+            "get": "https://pecl.php.net/get/LuaSandbox-3.0.3",
             "SPDX-License-Identifier": "MIT"
         },
         "3.0.2": {
@@ -85,7 +85,7 @@
             "releasedBy": "tstarling",
             "releaseDate": "2018-10-09T05:37:23+00:00",
             "releaseNotes": "- Fix PHP 7 object layout\n- Initial PECL release",
-            "get": "http://pecl.php.net/get/LuaSandbox-3.0.2",
+            "get": "https://pecl.php.net/get/LuaSandbox-3.0.2",
             "SPDX-License-Identifier": "MIT"
         }
     },

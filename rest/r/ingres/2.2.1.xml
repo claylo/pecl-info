@@ -16,6 +16,6 @@
  <n>This is a minor release that fixes the following problem:
 - Fix bug 16688 - EXECUTE PROCEDURE fails due to a missing &quot;break&quot;</n>
  <f>86547</f>
- <g>http://pecl.php.net/get/ingres-2.2.1</g>
+ <g>https://pecl.php.net/get/ingres-2.2.1</g>
  <x xlink:href="package.2.2.1.xml"/>
 </r>

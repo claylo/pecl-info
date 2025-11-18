@@ -42,6 +42,6 @@ Xdebug also provides:
 	- Fixed bug #758: php_value xdebug.idekey is ignored in .htaccess files
 	- Fixed bug #662: idekey is set to running user.</n>
  <f>244638</f>
- <g>http://pecl.php.net/get/xdebug-2.2.0RC2</g>
+ <g>https://pecl.php.net/get/xdebug-2.2.0RC2</g>
  <x xlink:href="package.2.2.0RC2.xml"/>
 </r>

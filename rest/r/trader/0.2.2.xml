@@ -19,6 +19,6 @@
 - fixed element number in out arrays
 - implemented TA-Lib utility functions to set compatibility mode and unstable period</n>
  <f>283707</f>
- <g>http://pecl.php.net/get/trader-0.2.2</g>
+ <g>https://pecl.php.net/get/trader-0.2.2</g>
  <x xlink:href="package.0.2.2.xml"/>
 </r>

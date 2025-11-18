@@ -22,6 +22,6 @@ http://www.pdflib.com/developer-center/technical-documentation/php-howto</d>
  <da>2013-04-08 10:19:53</da>
  <n>- fixed https://bugs.php.net/bug.php?id=64455</n>
  <f>55880</f>
- <g>http://pecl.php.net/get/pdflib-2.1.10</g>
+ <g>https://pecl.php.net/get/pdflib-2.1.10</g>
  <x xlink:href="package.2.1.10.xml"/>
 </r>

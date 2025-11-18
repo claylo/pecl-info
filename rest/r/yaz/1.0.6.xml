@@ -21,6 +21,6 @@ Find more information at:
  <n>If a searchresult reference is passed to yaz_hits, the reference
 variable is converted to an array.</n>
  <f>16383</f>
- <g>http://pecl.php.net/get/yaz-1.0.6</g>
+ <g>https://pecl.php.net/get/yaz-1.0.6</g>
  <x xlink:href="package.1.0.6.xml"/>
 </r>

@@ -47,6 +47,6 @@
   closes #48, also modified code generator to only add the properties 
   code when needed which made the source and library more clean.</n>
  <f>1785518</f>
- <g>http://pecl.php.net/get/wxwidgets-3.0.0.1</g>
+ <g>https://pecl.php.net/get/wxwidgets-3.0.0.1</g>
  <x xlink:href="package.3.0.0.1.xml"/>
 </r>

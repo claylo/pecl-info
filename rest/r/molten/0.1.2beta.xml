@@ -22,6 +22,6 @@
  <n>molten 0.1.2 beta
 * remove RTLD_NOW build error.</n>
  <f>68183</f>
- <g>http://pecl.php.net/get/Molten-0.1.2beta</g>
+ <g>https://pecl.php.net/get/Molten-0.1.2beta</g>
  <x xlink:href="package.0.1.2beta.xml"/>
 </r>

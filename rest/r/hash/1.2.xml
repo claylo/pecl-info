@@ -16,6 +16,6 @@
  <n>* Fixed tiger algorithm generating wrong results on big endian platforms.
 + Added MD2 to supported algorithms.</n>
  <f>102008</f>
- <g>http://pecl.php.net/get/hash-1.2</g>
+ <g>https://pecl.php.net/get/hash-1.2</g>
  <x xlink:href="package.1.2.xml"/>
 </r>

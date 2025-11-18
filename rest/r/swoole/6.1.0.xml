@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>6.1.0</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in tcp/http/websocket/http2 server
+        - coroutine tcp/http/websocket client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2025-10-24 12:54:28</da>
+ <n>Major Changes in Swoole 6.1.0
+1. Introduction of &quot;Standard Library Extensions&quot; - Revolutionary Syntax Enhancements
+This is the most eye-catching feature at the language level in this update, allowing object-oriented operations on basic types.
+Object-Oriented Basic Types: Methods can be called directly on variables of basic types like string, array, and stream (e.g., $text-&gt;length()-&gt;lower()), greatly improving code readability and development experience.
+Typed Arrays: Introduced the typed_array syntax, allowing constraints on key and value types, with type checks performed on write operations, enhancing code robustness.
+
+2. A Major Leap in Underlying Architecture and Stability
+This version invests heavily in code quality and stability, laying a solid foundation for future development.
+Significant Increase in Test Coverage to 86%: By systematically adding test cases, potential errors are greatly reduced, improving the overall reliability and maintainability of the project.
+Large-Scale Code Refactoring and Static Analysis: Refactored multiple core modules like Reactor, SSL, and Socket, and used clang-tidy for code standardization, significantly improving code quality and performance.
+
+3. Major Simplification and Unification of the Lock API
+A groundbreaking refactoring of the core component for concurrent programming – the lock.
+API Simplification: Removed methods like lockwait and trylock, retaining only three core methods – __construct, lock, and unlock – for Swoole\Coroutine\Lock, Swoole\Lock, and Swoole\Thread\Lock.
+Unified Behavior: The new API design is closer to PHP&#039;s native flock function, reducing the learning curve, and uses standard constants like LOCK_EX | LOCK_NB to implement advanced features such as non-blocking.
+
+4. Enhanced Coroutine Capabilities and Fine-Grained Control
+More flexible coroutine operation capabilities.
+Coroutine Cancellation Mechanism: Swoole\Coroutine::cancel() now includes a $throw_exception parameter, allowing a catchable Swoole\Coroutine\CanceledException to be thrown into the target coroutine upon cancellation, enabling safer and more controllable coroutine lifecycle management.
+Coroutine State Isolation for Serialization Operations: Fixed the issue of global state isolation for serialize/unserialize in coroutine environments. Global variables related to serialization are now automatically saved and restored during coroutine switches, ensuring isolated serialization contexts for each coroutine.
+
+5. Default HTTP Parser Upgrade, Websocket Feature Enhancements, and Platform Compatibility Improvements
+Important improvements in performance and compatibility.
+llHTTP Enabled by Default: Replaced the old http_parser with the more performant and modern llhttp, improving the efficiency and reliability of HTTP processing.
+WebSocket Feature Enhancements: Both client and server now support receiving fragmented messages, actively disconnecting (disconnect), and sending Ping frames (ping), making the WebSocket protocol implementation more complete.
+Deprecating Select, Embracing Poll: Completely deprecated the flawed select event mechanism. On platforms that do not support epoll/kqueue (like Cygwin), poll is now used by default, enabling support for a large number of concurrent connections on these platforms as well.</n>
+ <f>2451482</f>
+ <g>https://pecl.php.net/get/swoole-6.1.0</g>
+ <x xlink:href="package.6.1.0.xml"/>
+</r>

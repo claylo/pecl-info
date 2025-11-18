@@ -18,6 +18,6 @@
  <n>1. Fixed bug #15799
 2. Fix compile errors against PHP 5.3.</n>
  <f>24853</f>
- <g>http://pecl.php.net/get/newt-1.2.1</g>
+ <g>https://pecl.php.net/get/newt-1.2.1</g>
  <x xlink:href="package.1.2.1.xml"/>
 </r>

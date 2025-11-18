@@ -36,6 +36,6 @@
 * Fix the problem of mmap `MAP_FAILED` return value detection
 + Add PECL package verification</n>
  <f>1002500</f>
- <g>http://pecl.php.net/get/swoole-4.1.2</g>
+ <g>https://pecl.php.net/get/swoole-4.1.2</g>
  <x xlink:href="package.4.1.2.xml"/>
 </r>

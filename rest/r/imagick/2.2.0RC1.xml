@@ -18,6 +18,6 @@ IMPORTANT: Version 2.x API is not compatible with earlier versions.</d>
  <da>2008-06-13 05:46:50</da>
  <n>Fix build on Mac related to duplicate symbols</n>
  <f>76414</f>
- <g>http://pecl.php.net/get/imagick-2.2.0RC1</g>
+ <g>https://pecl.php.net/get/imagick-2.2.0RC1</g>
  <x xlink:href="package.2.2.0RC1.xml"/>
 </r>

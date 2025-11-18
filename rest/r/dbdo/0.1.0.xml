@@ -49,6 +49,6 @@ At this point, DBDO is working on at least one web site, so it is undergoing
 testing, and needs more people to come up with ideas to improve it, or just 
 find more reproducable bugs..</n>
  <f>40511</f>
- <g>http://pecl.php.net/get/DBDO-0.1.0</g>
+ <g>https://pecl.php.net/get/DBDO-0.1.0</g>
  <x xlink:href="package.0.1.0.xml"/>
 </r>

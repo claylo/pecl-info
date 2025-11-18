@@ -24,6 +24,6 @@ but it needn't any additional external libraries.
  <da>2005-02-14 17:58:00</da>
  <n>package.xml added to support intallation using pear installer</n>
  <f>60902</f>
- <g>http://pecl.php.net/get/big_int-0.0.4</g>
+ <g>https://pecl.php.net/get/big_int-0.0.4</g>
  <x xlink:href="package.0.0.4.xml"/>
 </r>

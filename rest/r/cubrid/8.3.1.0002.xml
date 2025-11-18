@@ -16,6 +16,6 @@
  <n>- fix a bug in cubrid_fetch_object : cubrid_fetch_object can't work with php-5.2.x.
 - fix a bug in cubrid_bind : blob/clob data won't be binded correctly, which will cause cubrid_execute fail&quot;</n>
  <f>35095</f>
- <g>http://pecl.php.net/get/CUBRID-8.3.1.0002</g>
+ <g>https://pecl.php.net/get/CUBRID-8.3.1.0002</g>
  <x xlink:href="package.8.3.1.0002.xml"/>
 </r>

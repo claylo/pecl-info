@@ -17,6 +17,6 @@
 - Compatible with PHP5.5
 - Fixed build break for PHP5.2</n>
  <f>17726</f>
- <g>http://pecl.php.net/get/leveldb-0.1.4</g>
+ <g>https://pecl.php.net/get/leveldb-0.1.4</g>
  <x xlink:href="package.0.1.4.xml"/>
 </r>

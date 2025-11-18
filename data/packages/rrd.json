@@ -35,7 +35,7 @@
             "releasedBy": "koubel",
             "releaseDate": "2016-05-10T21:32:46+00:00",
             "releaseNotes": "- config.m4 - cleanup, pkg-config usage\n- check for rrdtool 1.5, 1.6 - works without code changes",
-            "get": "http://pecl.php.net/get/rrd-2.0.1",
+            "get": "https://pecl.php.net/get/rrd-2.0.1",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "2.0.0": {
@@ -45,7 +45,7 @@
             "releasedBy": "koubel",
             "releaseDate": "2015-12-28T11:25:41+00:00",
             "releaseNotes": "- utilize ZSTR macros for zend_string",
-            "get": "http://pecl.php.net/get/rrd-2.0.0",
+            "get": "https://pecl.php.net/get/rrd-2.0.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "2.0.0beta3": {
@@ -55,7 +55,7 @@
             "releasedBy": "koubel",
             "releaseDate": "2015-06-27T16:58:37+00:00",
             "releaseNotes": "- better default time parameter handling for RRDUpdater:update\n- zend_string in zend_parse_parameter if possible\n- 'p' for paths in zend_parse_parameter (remi)\n- zend_object must be the last member of the own object struct - uggh - (remi)\n- PHP_FE_END instead of 3 times NULL in zend_function_entry - uggh - (remi)\n- zend_object_properties_size() usage (remi)\n- size_t for string parameters length (remi)\n- huge thanks to remi :)",
-            "get": "http://pecl.php.net/get/rrd-2.0.0beta3",
+            "get": "https://pecl.php.net/get/rrd-2.0.0beta3",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "2.0.0beta2": {
@@ -65,7 +65,7 @@
             "releasedBy": "koubel",
             "releaseDate": "2015-06-16T15:49:32+00:00",
             "releaseNotes": "- first release for PHP 7 - 2.x series isn't BC compatible with PHP 5\n- package.xml release info fix",
-            "get": "http://pecl.php.net/get/rrd-2.0.0beta2",
+            "get": "https://pecl.php.net/get/rrd-2.0.0beta2",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "2.0.0beta1": {
@@ -75,7 +75,7 @@
             "releasedBy": "koubel",
             "releaseDate": "2015-06-16T15:35:00+00:00",
             "releaseNotes": "- rrdc_disconnect is available in rrd 1.4.0+ (Remi)",
-            "get": "http://pecl.php.net/get/rrd-2.0.0beta1",
+            "get": "https://pecl.php.net/get/rrd-2.0.0beta1",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "1.1.3": {
@@ -85,7 +85,7 @@
             "releasedBy": "koubel",
             "releaseDate": "2014-01-15T03:37:48+00:00",
             "releaseNotes": "- rrdc_disconnect is available in rrd 1.4.0+ (Remi)",
-            "get": "http://pecl.php.net/get/rrd-1.1.3",
+            "get": "https://pecl.php.net/get/rrd-1.1.3",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "1.1.2": {
@@ -95,7 +95,7 @@
             "releasedBy": "koubel",
             "releaseDate": "2014-01-14T04:45:36+00:00",
             "releaseNotes": "- closing connection to rrd caching daemon #66088\n- better documentation for RRDGraph::setOptions #65756",
-            "get": "http://pecl.php.net/get/rrd-1.1.2",
+            "get": "https://pecl.php.net/get/rrd-1.1.2",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "1.1.1": {
@@ -105,7 +105,7 @@
             "releasedBy": "koubel",
             "releaseDate": "2013-09-03T03:55:46+00:00",
             "releaseNotes": "- possible segfault in rrd_fetch",
-            "get": "http://pecl.php.net/get/rrd-1.1.1",
+            "get": "https://pecl.php.net/get/rrd-1.1.1",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "1.1.0": {
@@ -115,7 +115,7 @@
             "releasedBy": "koubel",
             "releaseDate": "2012-06-04T05:49:59+00:00",
             "releaseNotes": "- bug with multiple data sources in rrd_lastupdate - BC break #61316",
-            "get": "http://pecl.php.net/get/rrd-1.1.0",
+            "get": "https://pecl.php.net/get/rrd-1.1.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "1.0.5": {
@@ -125,7 +125,7 @@
             "releasedBy": "koubel",
             "releaseDate": "2011-11-16T12:14:05+00:00",
             "releaseNotes": "- license changed to the BSD license",
-            "get": "http://pecl.php.net/get/rrd-1.0.5",
+            "get": "https://pecl.php.net/get/rrd-1.0.5",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "1.0.5RC2": {
@@ -135,7 +135,7 @@
             "releasedBy": "koubel",
             "releaseDate": "2011-10-17T04:35:18+00:00",
             "releaseNotes": "- zts build fixed #59992",
-            "get": "http://pecl.php.net/get/rrd-1.0.5RC2",
+            "get": "https://pecl.php.net/get/rrd-1.0.5RC2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.5RC1": {
@@ -145,7 +145,7 @@
             "releasedBy": "koubel",
             "releaseDate": "2011-09-27T04:41:45+00:00",
             "releaseNotes": "- config.m4 - lib searching rewritten, better support across architectures #22683\n- RRDUpdater - multiple DS doesnt' work #23579\n- better support for compiling under 5.2.x #22719\n- small manual fixes",
-            "get": "http://pecl.php.net/get/rrd-1.0.5RC1",
+            "get": "https://pecl.php.net/get/rrd-1.0.5RC1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.4": {
@@ -155,7 +155,7 @@
             "releasedBy": "koubel",
             "releaseDate": "2011-08-12T11:00:03+00:00",
             "releaseNotes": "- can be used with 5.4/trunk #22836",
-            "get": "http://pecl.php.net/get/rrd-1.0.4",
+            "get": "https://pecl.php.net/get/rrd-1.0.4",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.3": {
@@ -165,7 +165,7 @@
             "releasedBy": "koubel",
             "releaseDate": "2011-04-29T07:46:35+00:00",
             "releaseNotes": "- fixed installation for libs outside LDFLAGS #22666",
-            "get": "http://pecl.php.net/get/rrd-1.0.3",
+            "get": "https://pecl.php.net/get/rrd-1.0.3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.2": {
@@ -175,7 +175,7 @@
             "releasedBy": "koubel",
             "releaseDate": "2011-04-19T09:02:07+00:00",
             "releaseNotes": "- fixed broken installation on FreeBSD #22651",
-            "get": "http://pecl.php.net/get/rrd-1.0.2",
+            "get": "https://pecl.php.net/get/rrd-1.0.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.1": {
@@ -185,7 +185,7 @@
             "releasedBy": "koubel",
             "releaseDate": "2011-04-16T06:14:24+00:00",
             "releaseNotes": "- fixed broken pecl installation #22644",
-            "get": "http://pecl.php.net/get/rrd-1.0.1",
+            "get": "https://pecl.php.net/get/rrd-1.0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.0": {
@@ -195,7 +195,7 @@
             "releasedBy": "koubel",
             "releaseDate": "2011-04-12T10:47:22+00:00",
             "releaseNotes": "- fixed all reported bugs, mostly in test\n- rrd_version() added\n- better tests",
-            "get": "http://pecl.php.net/get/rrd-1.0.0",
+            "get": "https://pecl.php.net/get/rrd-1.0.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.10.0": {
@@ -205,7 +205,7 @@
             "releasedBy": "koubel",
             "releaseDate": "2011-03-02T14:27:40+00:00",
             "releaseNotes": "- fixed all reported bugs\n- fixed major bug in rrd_fetch #21402\n- BC break : rdd_fetch returned array format changed, these items doesn't\n exist anymore - \"ds_cnt\", \"ds_namv\"",
-            "get": "http://pecl.php.net/get/rrd-0.10.0",
+            "get": "https://pecl.php.net/get/rrd-0.10.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.9.0": {
@@ -215,7 +215,7 @@
             "releasedBy": "koubel",
             "releaseDate": "2011-01-03T07:27:35+00:00",
             "releaseNotes": "- first PECL release",
-            "get": "http://pecl.php.net/get/rrd-0.9.0",
+            "get": "https://pecl.php.net/get/rrd-0.9.0",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

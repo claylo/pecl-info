@@ -17,6 +17,6 @@
  <n>- Fixed issue #26 (taint deson't work with PDO)
  - Added SQLite3 supproted</n>
  <f>18358</f>
- <g>http://pecl.php.net/get/taint-2.0.1</g>
+ <g>https://pecl.php.net/get/taint-2.0.1</g>
  <x xlink:href="package.2.0.1.xml"/>
 </r>

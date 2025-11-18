@@ -21,6 +21,6 @@ Multiple memory leak fixes
 Fix for stored procedures
 Modified db2_exec functionality to improve performance</n>
  <f>145703</f>
- <g>http://pecl.php.net/get/ibm_db2-1.2.2</g>
+ <g>https://pecl.php.net/get/ibm_db2-1.2.2</g>
  <x xlink:href="package.1.2.2.xml"/>
 </r>

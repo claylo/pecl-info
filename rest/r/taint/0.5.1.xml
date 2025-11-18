@@ -16,6 +16,6 @@
  <da>2012-04-09 10:52:17</da>
  <n>- Fixed Bug that segfault with global keyword</n>
  <f>14851</f>
- <g>http://pecl.php.net/get/taint-0.5.1</g>
+ <g>https://pecl.php.net/get/taint-0.5.1</g>
  <x xlink:href="package.0.5.1.xml"/>
 </r>

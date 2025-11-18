@@ -18,6 +18,6 @@
  <n>- Throw exceptions on serialize and do not segfault on unserialize 
 - hidef_wrap to make dev work easier without restarting apache (hidef_wrap(unserialize(...)) to get a FrozenArray</n>
  <f>19892</f>
- <g>http://pecl.php.net/get/hidef-0.1.10</g>
+ <g>https://pecl.php.net/get/hidef-0.1.10</g>
  <x xlink:href="package.0.1.10.xml"/>
 </r>

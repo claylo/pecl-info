@@ -16,6 +16,6 @@ So you can sign, encrypt, verify directly from php</d>
  <da>2005-10-15 11:07:55</da>
  <n>added import/export methods and better errormessages</n>
  <f>15730</f>
- <g>http://pecl.php.net/get/gnupg-0.3</g>
+ <g>https://pecl.php.net/get/gnupg-0.3</g>
  <x xlink:href="package.0.3.xml"/>
 </r>

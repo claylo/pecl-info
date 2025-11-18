@@ -17,6 +17,6 @@ necessary to build a fully-functional MongoDB driver.</d>
  <da>2016-03-18 17:23:39</da>
  <n>* PHPC-632: Define MONGOC_NO_AUTOMATIC_GLOBALS when bundling libmongoc</n>
  <f>794713</f>
- <g>http://pecl.php.net/get/mongodb-1.1.5</g>
+ <g>https://pecl.php.net/get/mongodb-1.1.5</g>
  <x xlink:href="package.1.1.5.xml"/>
 </r>

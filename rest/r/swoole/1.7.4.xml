@@ -32,6 +32,6 @@
 - Increase the clang compiler support
 - Repair shutdown task_worker and manager abnormal stop</n>
  <f>359488</f>
- <g>http://pecl.php.net/get/swoole-1.7.4</g>
+ <g>https://pecl.php.net/get/swoole-1.7.4</g>
  <x xlink:href="package.1.7.4.xml"/>
 </r>

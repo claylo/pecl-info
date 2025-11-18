@@ -17,6 +17,6 @@
  <n>- Fixed bug #63100 (array_walk_recursive behaves wrongly when taint enabled)
  - Fixed bug #63123 (Hash pointer should be reset at the end of function:php_taint_mark_strings). (274611049 at qq dot com)</n>
  <f>15798</f>
- <g>http://pecl.php.net/get/taint-1.1.0</g>
+ <g>https://pecl.php.net/get/taint-1.1.0</g>
  <x xlink:href="package.1.1.0.xml"/>
 </r>

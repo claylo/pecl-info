@@ -16,6 +16,6 @@
  <n>fix bug in applying method modifiers
 work on uopz_compose, compose classes in one function call is possible</n>
  <f>25240</f>
- <g>http://pecl.php.net/get/uopz-1.0.8</g>
+ <g>https://pecl.php.net/get/uopz-1.0.8</g>
  <x xlink:href="package.1.0.8.xml"/>
 </r>

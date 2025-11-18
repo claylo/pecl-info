@@ -26,6 +26,6 @@ libraries are available.</d>
  <n>Added oci_bind_by_name() support for PL/SQL BOOLEAN type    
 Build change: Fix source variable definition for C89 compatibility</n>
  <f>190723</f>
- <g>http://pecl.php.net/get/oci8-2.0.7</g>
+ <g>https://pecl.php.net/get/oci8-2.0.7</g>
  <x xlink:href="package.2.0.7.xml"/>
 </r>

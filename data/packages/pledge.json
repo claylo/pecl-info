@@ -55,7 +55,7 @@
             "releasedBy": "tvlooy",
             "releaseDate": "2018-10-13T07:04:57+00:00",
             "releaseNotes": "- correct reflection information",
-            "get": "http://pecl.php.net/get/pledge-2.0.2",
+            "get": "https://pecl.php.net/get/pledge-2.0.2",
             "SPDX-License-Identifier": "ISC"
         },
         "2.0.1": {
@@ -65,7 +65,7 @@
             "releasedBy": "tvlooy",
             "releaseDate": "2018-10-12T21:44:34+00:00",
             "releaseNotes": "- add unveil tests",
-            "get": "http://pecl.php.net/get/pledge-2.0.1",
+            "get": "https://pecl.php.net/get/pledge-2.0.1",
             "SPDX-License-Identifier": "ISC"
         },
         "2.0.0": {
@@ -75,7 +75,7 @@
             "releasedBy": "tvlooy",
             "releaseDate": "2018-10-04T09:58:40+00:00",
             "releaseNotes": "- add promises support to pledge()\n- add unveil()",
-            "get": "http://pecl.php.net/get/pledge-2.0.0",
+            "get": "https://pecl.php.net/get/pledge-2.0.0",
             "SPDX-License-Identifier": "ISC"
         },
         "1.0.0": {
@@ -85,7 +85,7 @@
             "releasedBy": "tvlooy",
             "releaseDate": "2018-10-04T09:58:04+00:00",
             "releaseNotes": "- add pledge()",
-            "get": "http://pecl.php.net/get/pledge-1.0.0",
+            "get": "https://pecl.php.net/get/pledge-1.0.0",
             "SPDX-License-Identifier": "ISC"
         }
     },

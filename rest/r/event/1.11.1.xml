@@ -23,6 +23,6 @@
  <da>2014-11-13 23:59:28</da>
  <n>Fixed build with old openssl (RHEL-5) (thanks to Remi Collet)</n>
  <f>78942</f>
- <g>http://pecl.php.net/get/event-1.11.1</g>
+ <g>https://pecl.php.net/get/event-1.11.1</g>
  <x xlink:href="package.1.11.1.xml"/>
 </r>

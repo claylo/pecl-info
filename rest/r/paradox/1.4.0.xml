@@ -18,6 +18,6 @@ in .MB files.
  <da>2006-02-10 07:26:44</da>
  <n>New functions px_delete_record(), px_insert_record(),</n>
  <f>18696</f>
- <g>http://pecl.php.net/get/paradox-1.4.0</g>
+ <g>https://pecl.php.net/get/paradox-1.4.0</g>
  <x xlink:href="package.1.4.0.xml"/>
 </r>

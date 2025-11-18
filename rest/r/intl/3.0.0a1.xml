@@ -17,6 +17,6 @@
 - Added the ability for the intl exception to throw exceptions when a
   global error is set.</n>
  <f>189342</f>
- <g>http://pecl.php.net/get/intl-3.0.0a1</g>
+ <g>https://pecl.php.net/get/intl-3.0.0a1</g>
  <x xlink:href="package.3.0.0a1.xml"/>
 </r>

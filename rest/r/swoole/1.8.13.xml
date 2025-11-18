@@ -35,6 +35,6 @@
 - Added a bug where the protocol length function crashed when the connection was closed
 - Fixed swoole_select function in PHP7 can not modify the reference array problem</n>
  <f>523667</f>
- <g>http://pecl.php.net/get/swoole-1.8.13</g>
+ <g>https://pecl.php.net/get/swoole-1.8.13</g>
  <x xlink:href="package.1.8.13.xml"/>
 </r>

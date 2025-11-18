@@ -16,6 +16,6 @@
  <n>- Added a workaround for a PHP vulnerability affecting all PHP7 versions up to and including 7.2.5.
 - Bindings for crypto_aead_*_detached() functions have been added.</n>
  <f>28951</f>
- <g>http://pecl.php.net/get/libsodium-2.0.11</g>
+ <g>https://pecl.php.net/get/libsodium-2.0.11</g>
  <x xlink:href="package.2.0.11.xml"/>
 </r>

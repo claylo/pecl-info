@@ -15,6 +15,6 @@
  <da>2012-06-18 19:41:04</da>
  <n>- Fixed build on PHP 5.3+</n>
  <f>6330</f>
- <g>http://pecl.php.net/get/uuid-1.0.3</g>
+ <g>https://pecl.php.net/get/uuid-1.0.3</g>
  <x xlink:href="package.1.0.3.xml"/>
 </r>

@@ -38,6 +38,6 @@ Xdebug also provides:
 	- Fixed bug #800: var_dump(get_class(new foo\bar')) add an extra &quot;\&quot; in
 	  class name.</n>
  <f>248057</f>
- <g>http://pecl.php.net/get/xdebug-2.2.1</g>
+ <g>https://pecl.php.net/get/xdebug-2.2.1</g>
  <x xlink:href="package.2.2.1.xml"/>
 </r>

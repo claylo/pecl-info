@@ -17,6 +17,6 @@
 * Fixed compilation issue on 5.3
 * Bumped version to 1.0.0 to prevent PECL from complaining about the version</n>
  <f>16639</f>
- <g>http://pecl.php.net/get/spidermonkey-1.0.0</g>
+ <g>https://pecl.php.net/get/spidermonkey-1.0.0</g>
  <x xlink:href="package.1.0.0.xml"/>
 </r>

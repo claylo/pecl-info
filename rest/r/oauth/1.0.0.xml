@@ -23,6 +23,6 @@ Requirements: ext/hash</d>
 - Send the User-Agent header for pecl/oauth
 - Lots of other improvements...</n>
  <f>42834</f>
- <g>http://pecl.php.net/get/oauth-1.0.0</g>
+ <g>https://pecl.php.net/get/oauth-1.0.0</g>
  <x xlink:href="package.1.0.0.xml"/>
 </r>

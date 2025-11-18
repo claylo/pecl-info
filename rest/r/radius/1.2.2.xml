@@ -22,6 +22,6 @@ OS (for example against Windows Active-Directory via IAS).
 - Removed deprecated files
 - Added IPv6 related attributes defined in RFC3162</n>
  <f>29278</f>
- <g>http://pecl.php.net/get/radius-1.2.2</g>
+ <g>https://pecl.php.net/get/radius-1.2.2</g>
  <x xlink:href="package.1.2.2.xml"/>
 </r>

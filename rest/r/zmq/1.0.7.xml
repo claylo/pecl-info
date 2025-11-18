@@ -16,6 +16,6 @@
  <n>- Added optional listener socket to ZMQDevice
 - Added support for ZeroMQ 4.x</n>
  <f>25786</f>
- <g>http://pecl.php.net/get/zmq-1.0.7</g>
+ <g>https://pecl.php.net/get/zmq-1.0.7</g>
  <x xlink:href="package.1.0.7.xml"/>
 </r>

@@ -70,6 +70,6 @@ IMPORTANT: Version 2.x API is not compatible with earlier versions.</d>
     Imagick::COMPRESSION_JBIG1
     Imagick::COMPRESSION_JBIG2</n>
  <f>163326</f>
- <g>http://pecl.php.net/get/imagick-3.2.0b2</g>
+ <g>https://pecl.php.net/get/imagick-3.2.0b2</g>
  <x xlink:href="package.3.2.0b2.xml"/>
 </r>

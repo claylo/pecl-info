@@ -15,6 +15,6 @@
  <da>2014-03-31 14:07:35</da>
  <n>fix build error in some setups</n>
  <f>27184</f>
- <g>http://pecl.php.net/get/uopz-2.0.1</g>
+ <g>https://pecl.php.net/get/uopz-2.0.1</g>
  <x xlink:href="package.2.0.1.xml"/>
 </r>

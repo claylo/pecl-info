@@ -22,6 +22,6 @@ Changes:
 * PCBC-366: Correct issue with legacy transcoder compression.
 * Various minor changes</n>
  <f>36670</f>
- <g>http://pecl.php.net/get/couchbase-2.1.0</g>
+ <g>https://pecl.php.net/get/couchbase-2.1.0</g>
  <x xlink:href="package.2.1.0.xml"/>
 </r>

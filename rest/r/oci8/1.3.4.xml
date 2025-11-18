@@ -18,6 +18,6 @@ Enhancement - Reflection will show function and method arguments with PHP 5.x
 Increase default oci8.default_prefetch from 10 to 100
 Correctly define SQLT_BDOUBLE and SQLT_BFLOAT constants with Oracle 10g ORACLE_HOME builds</n>
  <f>134240</f>
- <g>http://pecl.php.net/get/oci8-1.3.4</g>
+ <g>https://pecl.php.net/get/oci8-1.3.4</g>
  <x xlink:href="package.1.3.4.xml"/>
 </r>

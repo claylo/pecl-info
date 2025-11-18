@@ -18,6 +18,6 @@ from http://ibm.com/informix/downloads.html.</d>
  <n>Fixed: Problem related to dynamic loading
 Fixed: Compilation error with php-5.4.x</n>
  <f>67578</f>
- <g>http://pecl.php.net/get/PDO_INFORMIX-1.2.7</g>
+ <g>https://pecl.php.net/get/PDO_INFORMIX-1.2.7</g>
  <x xlink:href="package.1.2.7.xml"/>
 </r>

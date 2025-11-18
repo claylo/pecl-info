@@ -30,6 +30,6 @@ Change: instead of stream pass numeric file descriptor to EventListener's accept
 Fix: unneeded Z_ADDREF_P() calls in EventListener, EventBufferEvent constructors and factory methods
 Fix: EventListener cached file descriptor for all connections</n>
  <f>50943</f>
- <g>http://pecl.php.net/get/event-1.2.5</g>
+ <g>https://pecl.php.net/get/event-1.2.5</g>
  <x xlink:href="package.1.2.5.xml"/>
 </r>

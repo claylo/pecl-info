@@ -16,6 +16,6 @@
  <n>- Fixed bug #61163 (Passing and using tainted data in specific way crashes)
 - Fix build while zend_error_noreturn missed</n>
  <f>12952</f>
- <g>http://pecl.php.net/get/taint-0.4.1</g>
+ <g>https://pecl.php.net/get/taint-0.4.1</g>
  <x xlink:href="package.0.4.1.xml"/>
 </r>

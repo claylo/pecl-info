@@ -20,6 +20,6 @@ Universal Database, IBM Cloudscape, and Apache Derby databases.
 New Feature: Added support for PDO::ATTR_SERVER_INFO connection attribute
 Improved unit test coverage for DB2 and IDS 11</n>
  <f>66779</f>
- <g>http://pecl.php.net/get/PDO_IBM-1.2.0</g>
+ <g>https://pecl.php.net/get/PDO_IBM-1.2.0</g>
  <x xlink:href="package.1.2.0.xml"/>
 </r>

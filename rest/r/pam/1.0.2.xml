@@ -17,6 +17,6 @@
  <da>2007-11-28 14:20:34</da>
  <n>Added PAM_RHOST param to facilitate RHOST auth (using $_SERVER['REMOTE_ADDR'])</n>
  <f>6050</f>
- <g>http://pecl.php.net/get/pam-1.0.2</g>
+ <g>https://pecl.php.net/get/pam-1.0.2</g>
  <x xlink:href="package.1.0.2.xml"/>
 </r>

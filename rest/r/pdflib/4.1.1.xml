@@ -20,6 +20,6 @@ http://www.pdflib.com/developer-center/technical-documentation/php-howto</d>
  <da>2016-12-28 11:17:22</da>
  <n>- fix build problem when compiling statically into PHP</n>
  <f>33080</f>
- <g>http://pecl.php.net/get/pdflib-4.1.1</g>
+ <g>https://pecl.php.net/get/pdflib-4.1.1</g>
  <x xlink:href="package.4.1.1.xml"/>
 </r>

@@ -36,6 +36,6 @@
 - Added swoole_http_server support for POST multi-level KEY
 - Fixed listening on UDP port setting onPacket invalid issue</n>
  <f>550874</f>
- <g>http://pecl.php.net/get/swoole-1.9.6</g>
+ <g>https://pecl.php.net/get/swoole-1.9.6</g>
  <x xlink:href="package.1.9.6.xml"/>
 </r>

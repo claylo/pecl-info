@@ -20,6 +20,6 @@ IMPORTANT: Version 2.x API is not compatible with earlier versions.</d>
 - Imagick progress monitor name is now correctly cloned
 - Fixes PECL Bug #15614</n>
  <f>76933</f>
- <g>http://pecl.php.net/get/imagick-2.2.2RC3</g>
+ <g>https://pecl.php.net/get/imagick-2.2.2RC3</g>
  <x xlink:href="package.2.2.2RC3.xml"/>
 </r>

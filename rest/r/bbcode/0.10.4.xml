@@ -23,6 +23,6 @@
 * Corrected bug 12241
 * Added test case in order to cover the function bbcode_add_element</n>
  <f>44816</f>
- <g>http://pecl.php.net/get/bbcode-0.10.4</g>
+ <g>https://pecl.php.net/get/bbcode-0.10.4</g>
  <x xlink:href="package.0.10.4.xml"/>
 </r>

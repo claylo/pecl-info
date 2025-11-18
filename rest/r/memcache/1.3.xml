@@ -21,6 +21,6 @@ handy OO and procedural interfaces.
  <n>1) Fixed potential problem with empty datasets (yet another patch from Andrey Nigmatulin [anight at monamour dot ru]).
 2) Fixed bug #2167 (thanks to [pbnadeau at gmail dot com] for noticing, testing and patching).</n>
  <f>13341</f>
- <g>http://pecl.php.net/get/memcache-1.3</g>
+ <g>https://pecl.php.net/get/memcache-1.3</g>
  <x xlink:href="package.1.3.xml"/>
 </r>

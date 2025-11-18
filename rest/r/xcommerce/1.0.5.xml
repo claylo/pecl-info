@@ -16,6 +16,6 @@
  <da>2012-12-17 18:27:18</da>
  <n>- [bug] handle non-array HTTP headers params</n>
  <f>11701</f>
- <g>http://pecl.php.net/get/xcommerce-1.0.5</g>
+ <g>https://pecl.php.net/get/xcommerce-1.0.5</g>
  <x xlink:href="package.1.0.5.xml"/>
 </r>

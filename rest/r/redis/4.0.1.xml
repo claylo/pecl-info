@@ -21,6 +21,6 @@
 * Updates EXISTS documentation and notes change in 4.0.0 [bed186] (Michael Grunder)
 * Fix typo in notes [0bed36] (@szepeviktor)</n>
  <f>212414</f>
- <g>http://pecl.php.net/get/redis-4.0.1</g>
+ <g>https://pecl.php.net/get/redis-4.0.1</g>
  <x xlink:href="package.4.0.1.xml"/>
 </r>

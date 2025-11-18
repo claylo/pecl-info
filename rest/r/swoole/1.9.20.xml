@@ -31,6 +31,6 @@
  <n>- Fixed 32-bit system compilation failed
 - Fixed not available on PHP5</n>
  <f>704025</f>
- <g>http://pecl.php.net/get/swoole-1.9.20</g>
+ <g>https://pecl.php.net/get/swoole-1.9.20</g>
  <x xlink:href="package.1.9.20.xml"/>
 </r>

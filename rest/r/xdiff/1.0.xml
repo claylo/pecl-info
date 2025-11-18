@@ -16,6 +16,6 @@
  <da>2004-02-09 16:28:00</da>
  <n>Add support to memory_limit (libxdiff &gt;= 0.6 required).</n>
  <f>8061</f>
- <g>http://pecl.php.net/get/xdiff-1.0</g>
+ <g>https://pecl.php.net/get/xdiff-1.0</g>
  <x xlink:href="package.1.0.xml"/>
 </r>

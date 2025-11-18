@@ -15,14 +15,14 @@
 +, -, *, /, %, **, &lt;&lt;, &gt;&gt;, ., |, &amp;, ^, ~, ++, --,
 =, +=, -=, *=, /=, %=, **=, &lt;&lt;=, &gt;&gt;=, .=, |=, &amp;=, ^=,
 ==, !=, &lt;&gt;, ===, !==, &lt;, &lt;=, &gt;, &gt;=, and &lt;=&gt; operators.</d>
- <da>2025-02-26 23:57:37</da>
+ <da>2025-02-27 17:49:47</da>
  <n>This is a complete rewrite.
 * Updated to add support for PHP 8.2+. Support for this extension was lost in PHP 7.4 because of a change in the way that assignment operators are handled by the engine.
 * Added support for the spaceship operator.
 * Added support for the greater than and greater than or equal to operators without the need for a parser patch.
 
 Note: This extension will work with PHP 8.0-8.1, but will segfault when you overload the assignment operator and change data types from a non-string to a string, and sometimes from a null to a non-null. If you wish to use it in PHP &lt; 8.2, you have been warned.</n>
- <f>15110</f>
+ <f>12965</f>
  <g>https://pecl.php.net/get/operator-0.5.0</g>
  <x xlink:href="package.0.5.0.xml"/>
 </r>

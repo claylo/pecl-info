@@ -16,6 +16,6 @@
  <n>- config.m4 - cleanup, pkg-config usage
 - check for rrdtool 1.5, 1.6 - works without code changes</n>
  <f>18880</f>
- <g>http://pecl.php.net/get/rrd-2.0.1</g>
+ <g>https://pecl.php.net/get/rrd-2.0.1</g>
  <x xlink:href="package.2.0.1.xml"/>
 </r>

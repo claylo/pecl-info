@@ -20,6 +20,6 @@ Universal Database, IBM Cloudscape, and Apache Derby databases.
 Switch various BINARY/CHAR mismatch bind types for ASCII/EBCDIC.
 DBCLOB added for i5 meta data, etc.</n>
  <f>100463</f>
- <g>http://pecl.php.net/get/PDO_IBM-1.3.0</g>
+ <g>https://pecl.php.net/get/PDO_IBM-1.3.0</g>
  <x xlink:href="package.1.3.0.xml"/>
 </r>

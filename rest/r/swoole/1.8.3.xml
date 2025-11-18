@@ -38,6 +38,6 @@
 - Fixed swoole_client callback function memory leak
 - Added support for asynchronous full reload of server security</n>
  <f>506721</f>
- <g>http://pecl.php.net/get/swoole-1.8.3</g>
+ <g>https://pecl.php.net/get/swoole-1.8.3</g>
  <x xlink:href="package.1.8.3.xml"/>
 </r>

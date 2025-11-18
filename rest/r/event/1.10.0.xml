@@ -25,6 +25,6 @@
 Add: EventHttpConnection::__construct() now optionally accepts EventSslContext argument (issue #5).
 Add: EventHttp::__construct() now accepts EventSslContext object as argument.</n>
  <f>77894</f>
- <g>http://pecl.php.net/get/event-1.10.0</g>
+ <g>https://pecl.php.net/get/event-1.10.0</g>
  <x xlink:href="package.1.10.0.xml"/>
 </r>

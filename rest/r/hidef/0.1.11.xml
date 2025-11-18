@@ -19,6 +19,6 @@
 - hidef.per_request_ini to load up .ini files in vhosts 
 - allow simplified constants in hidef ini files</n>
  <f>21078</f>
- <g>http://pecl.php.net/get/hidef-0.1.11</g>
+ <g>https://pecl.php.net/get/hidef-0.1.11</g>
  <x xlink:href="package.0.1.11.xml"/>
 </r>

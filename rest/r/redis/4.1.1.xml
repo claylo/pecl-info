@@ -22,6 +22,6 @@ This release contains only bugfixes and documentation improvements
 * Fix TravisCI builds [9bf32d30] (@jrchamp)
 * Highlight php codes in documentation [c3b023b0] (@ackintosh)</n>
  <f>220894</f>
- <g>http://pecl.php.net/get/redis-4.1.1</g>
+ <g>https://pecl.php.net/get/redis-4.1.1</g>
  <x xlink:href="package.4.1.1.xml"/>
 </r>

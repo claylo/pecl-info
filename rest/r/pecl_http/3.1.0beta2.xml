@@ -52,6 +52,6 @@ https://mdref.m6w6.name/http</d>
 Changes from beta1:
 * Fixed recursive calls to the event loop dispatcher</n>
  <f>207607</f>
- <g>http://pecl.php.net/get/pecl_http-3.1.0beta2</g>
+ <g>https://pecl.php.net/get/pecl_http-3.1.0beta2</g>
  <x xlink:href="package.3.1.0beta2.xml"/>
 </r>

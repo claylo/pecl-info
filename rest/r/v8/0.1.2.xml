@@ -39,6 +39,6 @@ Changes to public API and other important changes which may affect end-user:
     - Add V8\SetObject;
     - Fix obj and func templates external memory adjusting.</n>
  <f>183064</f>
- <g>http://pecl.php.net/get/v8-0.1.2</g>
+ <g>https://pecl.php.net/get/v8-0.1.2</g>
  <x xlink:href="package.0.1.2.xml"/>
 </r>

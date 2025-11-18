@@ -21,6 +21,6 @@ libstatgrab library.
  <n>1) Fixed config.m4, which caused the statgrab library not to be detected
    on some systems.</n>
  <f>5763</f>
- <g>http://pecl.php.net/get/Statgrab-0.4</g>
+ <g>https://pecl.php.net/get/Statgrab-0.4</g>
  <x xlink:href="package.0.4.xml"/>
 </r>

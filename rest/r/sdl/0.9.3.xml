@@ -16,6 +16,6 @@
  <n>- Small fix for a ZTS issue that made the extension unusable on most platforms. (@remi)
 - Only bugfixes on this branch. Working on the much improved sdl2 extension, hopefully to be released this month.</n>
  <f>33828</f>
- <g>http://pecl.php.net/get/sdl-0.9.3</g>
+ <g>https://pecl.php.net/get/sdl-0.9.3</g>
  <x xlink:href="package.0.9.3.xml"/>
 </r>

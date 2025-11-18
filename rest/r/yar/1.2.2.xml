@@ -17,6 +17,6 @@
 - Fixed Bug (Unterminatable select)
 - Add debug tool (A PHP implemented Yar debug client)</n>
  <f>37509</f>
- <g>http://pecl.php.net/get/yar-1.2.2</g>
+ <g>https://pecl.php.net/get/yar-1.2.2</g>
  <x xlink:href="package.1.2.2.xml"/>
 </r>

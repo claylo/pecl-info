@@ -1,1 +1,1 @@
-"ca1-61173f1ba4b3d-gzip"
+"ca1-61173f1ba4b3d"

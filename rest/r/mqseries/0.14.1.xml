@@ -15,6 +15,6 @@
  <da>2014-12-05 16:58:16</da>
  <n>- Fixed bug #63563. (Segfault when using lib64)</n>
  <f>72526</f>
- <g>http://pecl.php.net/get/mqseries-0.14.1</g>
+ <g>https://pecl.php.net/get/mqseries-0.14.1</g>
  <x xlink:href="package.0.14.1.xml"/>
 </r>

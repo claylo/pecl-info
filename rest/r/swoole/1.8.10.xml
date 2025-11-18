@@ -31,6 +31,6 @@
  <n>- Fixed Swoole\Http\Client crash when do close connection in the callback function
 - Fixed Swoole\Http\Server cannot support more than 1024 concurrent</n>
  <f>522440</f>
- <g>http://pecl.php.net/get/swoole-1.8.10</g>
+ <g>https://pecl.php.net/get/swoole-1.8.10</g>
  <x xlink:href="package.1.8.10.xml"/>
 </r>

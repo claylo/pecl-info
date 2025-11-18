@@ -39,6 +39,6 @@ https://packagist.org/packages/pmjones/request .</d>
 - ServerRequest::$forwarded(For|Host|Proto), computed from
   $_SERVER['HTTP_X_FORWARDED(FOR|HOST|PROTO)']</n>
  <f>34666</f>
- <g>http://pecl.php.net/get/request-1.0.0b1</g>
+ <g>https://pecl.php.net/get/request-1.0.0b1</g>
  <x xlink:href="package.1.0.0b1.xml"/>
 </r>

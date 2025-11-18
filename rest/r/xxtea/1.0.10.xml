@@ -17,6 +17,6 @@ It is different from the original XXTEA encryption algorithm. It encrypts and de
  <da>2015-03-27 23:05:45</da>
  <n>Fixed typo in configure output</n>
  <f>7101</f>
- <g>http://pecl.php.net/get/xxtea-1.0.10</g>
+ <g>https://pecl.php.net/get/xxtea-1.0.10</g>
  <x xlink:href="package.1.0.10.xml"/>
 </r>

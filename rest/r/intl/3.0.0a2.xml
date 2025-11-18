@@ -67,6 +67,6 @@
 - Added private constructor to IntlTimeZone.
 - Fixed IntlDateFormatter::setCalendar() with a constant passed.</n>
  <f>232123</f>
- <g>http://pecl.php.net/get/intl-3.0.0a2</g>
+ <g>https://pecl.php.net/get/intl-3.0.0a2</g>
  <x xlink:href="package.3.0.0a2.xml"/>
 </r>

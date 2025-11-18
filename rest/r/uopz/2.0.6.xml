@@ -15,6 +15,6 @@
  <da>2014-10-15 07:48:28</da>
  <n>fix builds with &gt;= 50600 (zend_is_true changes)</n>
  <f>28078</f>
- <g>http://pecl.php.net/get/uopz-2.0.6</g>
+ <g>https://pecl.php.net/get/uopz-2.0.6</g>
  <x xlink:href="package.2.0.6.xml"/>
 </r>

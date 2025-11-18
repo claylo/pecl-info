@@ -15,6 +15,6 @@
  <da>2012-03-12 13:12:51</da>
  <n>- Added support for building on mac with libsvm via Brew</n>
  <f>111428</f>
- <g>http://pecl.php.net/get/svm-0.1.6</g>
+ <g>https://pecl.php.net/get/svm-0.1.6</g>
  <x xlink:href="package.0.1.6.xml"/>
 </r>

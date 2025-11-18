@@ -17,6 +17,6 @@
  <n>Bugs Fixed:
 - Fix handling of tag callbacks for aliased values (ranvis)</n>
  <f>38233</f>
- <g>http://pecl.php.net/get/yaml-2.0.0RC7</g>
+ <g>https://pecl.php.net/get/yaml-2.0.0RC7</g>
  <x xlink:href="package.2.0.0RC7.xml"/>
 </r>

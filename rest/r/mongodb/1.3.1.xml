@@ -18,6 +18,6 @@ necessary to build a fully-functional MongoDB driver.</d>
  <n>** Bug
     * [PHPC-1014] - config.m4 produces unterminated quoted string</n>
  <f>925647</f>
- <g>http://pecl.php.net/get/mongodb-1.3.1</g>
+ <g>https://pecl.php.net/get/mongodb-1.3.1</g>
  <x xlink:href="package.1.3.1.xml"/>
 </r>

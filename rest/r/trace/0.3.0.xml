@@ -42,6 +42,6 @@
 - Fixed handling of large or small double value that needs scientific notation
 - Fixed memory leaks related with SDS</n>
  <f>76354</f>
- <g>http://pecl.php.net/get/trace-0.3.0</g>
+ <g>https://pecl.php.net/get/trace-0.3.0</g>
  <x xlink:href="package.0.3.0.xml"/>
 </r>

@@ -21,6 +21,6 @@
 - http://pecl.php.net/bugs/bug.php?id=15283: Invalid comparison with string literal (patch by crrodriguez@opensuse.org)
 - Refactored retrieval of the default domain to use new mogilefs_get_default_domain()</n>
  <f>16087</f>
- <g>http://pecl.php.net/get/mogilefs-0.7.5b6</g>
+ <g>https://pecl.php.net/get/mogilefs-0.7.5b6</g>
  <x xlink:href="package.0.7.5b6.xml"/>
 </r>

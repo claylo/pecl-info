@@ -40,6 +40,6 @@
 * Fix several issues with serialization NARY
 * @itcom -- Fix missing TSRMLS_CC and a TSRMLS_DC/TSRMLS_CC typo</n>
  <f>134340</f>
- <g>http://pecl.php.net/get/redis-2.2.7</g>
+ <g>https://pecl.php.net/get/redis-2.2.7</g>
  <x xlink:href="package.2.2.7.xml"/>
 </r>

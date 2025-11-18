@@ -21,6 +21,6 @@ handy OO and procedural interfaces.
  <n>1) Fixed minor leak.
 2) Class Memcache made inheritable.</n>
  <f>14291</f>
- <g>http://pecl.php.net/get/memcache-1.5</g>
+ <g>https://pecl.php.net/get/memcache-1.5</g>
  <x xlink:href="package.1.5.xml"/>
 </r>

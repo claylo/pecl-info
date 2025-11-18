@@ -28,6 +28,6 @@
 (there is a lack of Zend API to access TSRM thread-local data from a user thread). Some extensions(particularly, pthreads)
 invent their own(rather hacky) ways to overcome the problem. However, IMHO, this should be implemented within Zend API itself.</n>
  <f>73469</f>
- <g>http://pecl.php.net/get/eio-2.0.0RC2</g>
+ <g>https://pecl.php.net/get/eio-2.0.0RC2</g>
  <x xlink:href="package.2.0.0RC2.xml"/>
 </r>

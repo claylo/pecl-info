@@ -15,6 +15,6 @@
  <da>2018-05-24 21:02:41</da>
  <n>- Fixed not clearing memory after buffer reallocation. #114</n>
  <f>50924</f>
- <g>http://pecl.php.net/get/ds-1.2.6</g>
+ <g>https://pecl.php.net/get/ds-1.2.6</g>
  <x xlink:href="package.1.2.6.xml"/>
 </r>

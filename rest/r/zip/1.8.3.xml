@@ -16,6 +16,6 @@
  <n>- Fixed threadsafe issue with localtime function, it uses now the
  php php_localtime_r (Ron Korving, Ilia)</n>
  <f>60245</f>
- <g>http://pecl.php.net/get/zip-1.8.3</g>
+ <g>https://pecl.php.net/get/zip-1.8.3</g>
  <x xlink:href="package.1.8.3.xml"/>
 </r>

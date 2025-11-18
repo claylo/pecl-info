@@ -23,6 +23,6 @@ http://www.pdflib.com/developer-center/technical-documentation/php-howto
  <da>2006-11-02 09:39:13</da>
  <n>- fixed: Bug #9216  	Don't build with PHP 5.2 (again)</n>
  <f>55669</f>
- <g>http://pecl.php.net/get/pdflib-2.1.2</g>
+ <g>https://pecl.php.net/get/pdflib-2.1.2</g>
  <x xlink:href="package.2.1.2.xml"/>
 </r>

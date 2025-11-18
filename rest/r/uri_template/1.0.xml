@@ -17,6 +17,6 @@
 - Package includes LICENSE and README.md files
 - Windows fix by Anatol Belski: https://github.com/ioseb/uri-template/pull/4</n>
  <f>23489</f>
- <g>http://pecl.php.net/get/uri_template-1.0</g>
+ <g>https://pecl.php.net/get/uri_template-1.0</g>
  <x xlink:href="package.1.0.xml"/>
 </r>

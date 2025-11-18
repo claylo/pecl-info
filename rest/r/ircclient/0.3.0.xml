@@ -16,6 +16,6 @@
  <n>* Allow infinite timeout in Session::run()
 * The read and write fd arrays may now be empty and still trigger a select() in Session::run()</n>
  <f>10906</f>
- <g>http://pecl.php.net/get/ircclient-0.3.0</g>
+ <g>https://pecl.php.net/get/ircclient-0.3.0</g>
  <x xlink:href="package.0.3.0.xml"/>
 </r>

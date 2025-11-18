@@ -33,6 +33,6 @@ And fixes the following problems:
 - ingres_fetch_proc_return should return NULL if no value is available
 - Handle leading white-space characters in query detection (thanks Alex Trofast)</n>
  <f>86721</f>
- <g>http://pecl.php.net/get/ingres-2.2.0</g>
+ <g>https://pecl.php.net/get/ingres-2.2.0</g>
  <x xlink:href="package.2.2.0.xml"/>
 </r>

@@ -15,6 +15,6 @@
  <da>2010-05-03 18:14:09</da>
  <n>- Fix build for libmemcached-0.39 (memcached_server_list() issue)</n>
  <f>22724</f>
- <g>http://pecl.php.net/get/memcached-1.0.2</g>
+ <g>https://pecl.php.net/get/memcached-1.0.2</g>
  <x xlink:href="package.1.0.2.xml"/>
 </r>

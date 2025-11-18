@@ -38,6 +38,6 @@
 - Added the &quot;filelist&quot; id's to the file list tables to allow usage of page anchors in navigation.
 - Modified the chart in wincache.php to display the numbers rounded to 2 digits after decimal point.</n>
  <f>91972</f>
- <g>http://pecl.php.net/get/WINCACHE-1.0.0</g>
+ <g>https://pecl.php.net/get/WINCACHE-1.0.0</g>
  <x xlink:href="package.1.0.0.xml"/>
 </r>

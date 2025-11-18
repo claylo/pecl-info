@@ -16,6 +16,6 @@
  <n>* Fixed segfault on 32bit platform
 * Included tests in PECL tarball</n>
  <f>36410</f>
- <g>http://pecl.php.net/get/fann-1.0.3</g>
+ <g>https://pecl.php.net/get/fann-1.0.3</g>
  <x xlink:href="package.1.0.3.xml"/>
 </r>

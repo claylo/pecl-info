@@ -16,6 +16,6 @@
  <n>- Fixed bug #61487 - bad bounds check in grapheme_strpos.
 - Fixed several tests.</n>
  <f>145979</f>
- <g>http://pecl.php.net/get/intl-2.0.0</g>
+ <g>https://pecl.php.net/get/intl-2.0.0</g>
  <x xlink:href="package.2.0.0.xml"/>
 </r>

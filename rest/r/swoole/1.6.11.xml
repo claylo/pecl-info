@@ -28,6 +28,6 @@
 - swoole_client-&gt;send will check data length
 - swoole_server-&gt;connection_info for udp</n>
  <f>99403</f>
- <g>http://pecl.php.net/get/swoole-1.6.11</g>
+ <g>https://pecl.php.net/get/swoole-1.6.11</g>
  <x xlink:href="package.1.6.11.xml"/>
 </r>

@@ -38,6 +38,6 @@
   some header in wx distro to be patched (weltling)
 * Removed template.rc (weltling)</n>
  <f>1787264</f>
- <g>http://pecl.php.net/get/wxwidgets-3.0.0.2</g>
+ <g>https://pecl.php.net/get/wxwidgets-3.0.0.2</g>
  <x xlink:href="package.3.0.0.2.xml"/>
 </r>

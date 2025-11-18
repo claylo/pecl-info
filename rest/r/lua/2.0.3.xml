@@ -16,6 +16,6 @@
  <da>2017-02-10 11:14:57</da>
  <n>- Fixed issue #20 (PHP 7: Lua::eval(): unsupported type `unknown' for lua)</n>
  <f>14463</f>
- <g>http://pecl.php.net/get/lua-2.0.3</g>
+ <g>https://pecl.php.net/get/lua-2.0.3</g>
  <x xlink:href="package.2.0.3.xml"/>
 </r>

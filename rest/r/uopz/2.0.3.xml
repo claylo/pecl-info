@@ -15,6 +15,6 @@
  <da>2014-04-03 01:27:11</da>
  <n>fix leaks in FETCH_CLASS ADD_TRAIT and ADD_INTERFACE overloads</n>
  <f>27988</f>
- <g>http://pecl.php.net/get/uopz-2.0.3</g>
+ <g>https://pecl.php.net/get/uopz-2.0.3</g>
  <x xlink:href="package.2.0.3.xml"/>
 </r>

@@ -15,7 +15,7 @@
             "releasedBy": "gabe",
             "releaseDate": "2005-09-24T17:25:19+00:00",
             "releaseNotes": "Stable release.",
-            "get": "http://pecl.php.net/get/zeroconf-1.0",
+            "get": "https://pecl.php.net/get/zeroconf-1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.5.0": {
@@ -25,7 +25,7 @@
             "releasedBy": "gabe",
             "releaseDate": "2005-06-01T19:44:18+00:00",
             "releaseNotes": "Fixed build for Mac OS X 10.3 and earlier.",
-            "get": "http://pecl.php.net/get/zeroconf-0.5.0",
+            "get": "https://pecl.php.net/get/zeroconf-0.5.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.1.2": {

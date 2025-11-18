@@ -19,6 +19,6 @@ This extension requires Tokyo Cabinet, Tokyo Tyrant and PHP version 5.2.0+.</d>
  <n>- Disabled timeout by default
 - Added tune method to change the timeout</n>
  <f>22480</f>
- <g>http://pecl.php.net/get/tokyo_tyrant-0.1.1</g>
+ <g>https://pecl.php.net/get/tokyo_tyrant-0.1.1</g>
  <x xlink:href="package.0.1.1.xml"/>
 </r>

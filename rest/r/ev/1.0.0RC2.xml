@@ -19,6 +19,6 @@ Fix: issue #16 where get_properties handler failed with segmentation fault
 Fix: issue #17 where EgSignal::$signum property always returned NULL
 Fix: EvStat::$path property always returned NULL</n>
  <f>124873</f>
- <g>http://pecl.php.net/get/ev-1.0.0RC2</g>
+ <g>https://pecl.php.net/get/ev-1.0.0RC2</g>
  <x xlink:href="package.1.0.0RC2.xml"/>
 </r>

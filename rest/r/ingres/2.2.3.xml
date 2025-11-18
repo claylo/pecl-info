@@ -17,6 +17,6 @@
  - Fix bug 18006 - An unreferenced result resources can cause ingres_query() to fail
  - Fix bug 17621 - Improve the handling of C style comments within an SQL query</n>
  <f>92474</f>
- <g>http://pecl.php.net/get/ingres-2.2.3</g>
+ <g>https://pecl.php.net/get/ingres-2.2.3</g>
  <x xlink:href="package.2.2.3.xml"/>
 </r>

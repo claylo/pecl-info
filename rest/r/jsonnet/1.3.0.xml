@@ -28,6 +28,6 @@
  <n>- Update Lib JsonNet use v0.10.0.
 - Support PHP 7.</n>
  <f>127541</f>
- <g>http://pecl.php.net/get/JsonNet-1.3.0</g>
+ <g>https://pecl.php.net/get/JsonNet-1.3.0</g>
  <x xlink:href="package.1.3.0.xml"/>
 </r>

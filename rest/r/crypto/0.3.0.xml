@@ -19,6 +19,6 @@
 * Renamed HashException code ALGORITHM_NOT_FOUND to HASH_ALGORITHM_NOT_FOUND
 * Renamed MACException code ALGORITHM_NOT_FOUND to MAC_ALGORITHM_NOT_FOUND</n>
  <f>72836</f>
- <g>http://pecl.php.net/get/crypto-0.3.0</g>
+ <g>https://pecl.php.net/get/crypto-0.3.0</g>
  <x xlink:href="package.0.3.0.xml"/>
 </r>

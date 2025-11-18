@@ -16,6 +16,6 @@
  <n>- first release for PHP 7 - 2.x series isn't BC compatible with PHP 5
 - package.xml release info fix</n>
  <f>19233</f>
- <g>http://pecl.php.net/get/rrd-2.0.0beta2</g>
+ <g>https://pecl.php.net/get/rrd-2.0.0beta2</g>
  <x xlink:href="package.2.0.0beta2.xml"/>
 </r>

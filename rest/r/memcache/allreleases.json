@@ -19,10 +19,6 @@
         "version": "3.0.8",
         "state": "beta"
     },
-    "2.2.7": {
-        "version": "2.2.7",
-        "state": "stable"
-    },
     "3.0.7": {
         "version": "3.0.7",
         "state": "beta"
@@ -34,14 +30,6 @@
     "3.0.5": {
         "version": "3.0.5",
         "state": "beta"
-    },
-    "2.2.6": {
-        "version": "2.2.6",
-        "state": "stable"
-    },
-    "2.2.5": {
-        "version": "2.2.5",
-        "state": "stable"
     },
     "3.0.4": {
         "version": "3.0.4",
@@ -55,13 +43,29 @@
         "version": "3.0.2",
         "state": "beta"
     },
-    "2.2.4": {
-        "version": "2.2.4",
-        "state": "stable"
-    },
     "3.0.1": {
         "version": "3.0.1",
         "state": "beta"
+    },
+    "3.0.0": {
+        "version": "3.0.0",
+        "state": "alpha"
+    },
+    "2.2.7": {
+        "version": "2.2.7",
+        "state": "stable"
+    },
+    "2.2.6": {
+        "version": "2.2.6",
+        "state": "stable"
+    },
+    "2.2.5": {
+        "version": "2.2.5",
+        "state": "stable"
+    },
+    "2.2.4": {
+        "version": "2.2.4",
+        "state": "stable"
     },
     "2.2.3": {
         "version": "2.2.3",
@@ -70,10 +74,6 @@
     "2.2.2": {
         "version": "2.2.2",
         "state": "stable"
-    },
-    "3.0.0": {
-        "version": "3.0.0",
-        "state": "alpha"
     },
     "2.2.1": {
         "version": "2.2.1",

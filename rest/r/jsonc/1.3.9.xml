@@ -16,6 +16,6 @@ This is a drop-in alternative to PHP standard json extension.</d>
  <da>2015-09-15 11:08:29</da>
  <n>- fix #70499 segfault after json_decode</n>
  <f>75383</f>
- <g>http://pecl.php.net/get/jsonc-1.3.9</g>
+ <g>https://pecl.php.net/get/jsonc-1.3.9</g>
  <x xlink:href="package.1.3.9.xml"/>
 </r>

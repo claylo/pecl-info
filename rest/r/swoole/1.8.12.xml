@@ -38,6 +38,6 @@
 - Added Swoole\Async namespace class style api
 - Fixed Http\Server lisnten UDP port cannot use onReceive callback function</n>
  <f>523694</f>
- <g>http://pecl.php.net/get/swoole-1.8.12</g>
+ <g>https://pecl.php.net/get/swoole-1.8.12</g>
  <x xlink:href="package.1.8.12.xml"/>
 </r>

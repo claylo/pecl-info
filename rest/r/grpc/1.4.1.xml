@@ -15,6 +15,6 @@
  <da>2017-06-29 23:55:05</da>
  <n>- gRPC C Core 1.4.1 bug fixes</n>
  <f>2297997</f>
- <g>http://pecl.php.net/get/grpc-1.4.1</g>
+ <g>https://pecl.php.net/get/grpc-1.4.1</g>
  <x xlink:href="package.1.4.1.xml"/>
 </r>

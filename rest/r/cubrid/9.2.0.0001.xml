@@ -15,6 +15,6 @@
  <da>2013-09-27 02:24:33</da>
  <n>1) APIS-631 - PHP cubrid_free_result() doesn't return False if the method was called with invalid parameters</n>
  <f>1042405</f>
- <g>http://pecl.php.net/get/CUBRID-9.2.0.0001</g>
+ <g>https://pecl.php.net/get/CUBRID-9.2.0.0001</g>
  <x xlink:href="package.9.2.0.0001.xml"/>
 </r>

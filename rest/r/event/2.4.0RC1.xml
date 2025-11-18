@@ -24,6 +24,6 @@
  <n>Issue #46: Class name conflict with Laravel and Lumen.
   Added --with-event-ns configuration option.</n>
  <f>139318</f>
- <g>http://pecl.php.net/get/event-2.4.0RC1</g>
+ <g>https://pecl.php.net/get/event-2.4.0RC1</g>
  <x xlink:href="package.2.4.0RC1.xml"/>
 </r>

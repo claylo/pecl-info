@@ -16,6 +16,6 @@
  <n>- Fix compatibility with PHP 7.3
 - Fix -Wformat issues</n>
  <f>23609</f>
- <g>http://pecl.php.net/get/stomp-2.0.2</g>
+ <g>https://pecl.php.net/get/stomp-2.0.2</g>
  <x xlink:href="package.2.0.2.xml"/>
 </r>

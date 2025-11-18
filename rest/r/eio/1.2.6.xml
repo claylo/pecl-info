@@ -26,6 +26,6 @@
  <n>Fix: uid/gid validation in eio_fchown
 Fix: compilation issue on OS X 10.11</n>
  <f>57593</f>
- <g>http://pecl.php.net/get/eio-1.2.6</g>
+ <g>https://pecl.php.net/get/eio-1.2.6</g>
  <x xlink:href="package.1.2.6.xml"/>
 </r>

@@ -1,7 +1,7 @@
 {
     "category": "Numbers",
     "deprecated": false,
-    "description": "The BitSet extension assists by providing a mechanism to manage sets of bits.\n\nThis provides a similar API (object-based) to java.util.BitSet with some PHP-specific flavoring.",
+    "description": "The BitSet extension assists by providing a mechanism to manage sets of bits.\n  This provides a similar API (object-based) to java.util.BitSet with some PHP-specific flavoring.",
     "latestReleaseDate": "2023-05-26T06:43:20+00:00",
     "latestVersion": "3.2.0",
     "license": "PHP-3.01",
@@ -16,7 +16,7 @@
             "releaseDate": "2023-05-26T06:43:20+00:00",
             "releaseNotes": "- fix BitSet::fromArray() to allow setting bit 0\n- add BitSet::fromInteger() and BitSet::toInteger()",
             "get": "https://pecl.php.net/get/bitset-3.2.0",
-            "SPDX-License-Identifier": null
+            "SPDX-License-Identifier": "PHP-3.01"
         },
         "3.1.0": {
             "version": "3.1.0",
@@ -26,7 +26,7 @@
             "releaseDate": "2023-05-25T07:16:12+00:00",
             "releaseNotes": "- add support for PHP 8.2\n- fix #63315: BitSet::fromArray may modify original array value (cmb)\n- add type hinting\n- minor optimizations",
             "get": "https://pecl.php.net/get/bitset-3.1.0",
-            "SPDX-License-Identifier": null
+            "SPDX-License-Identifier": "PHP-3.01"
         },
         "3.0.1": {
             "version": "3.0.1",
@@ -35,17 +35,7 @@
             "releasedBy": "willfitch",
             "releaseDate": "2017-10-06T16:50:56+00:00",
             "releaseNotes": "- Fixed out of bounds bug (thanks kgodet)",
-            "get": "http://pecl.php.net/get/bitset-3.0.1",
-            "SPDX-License-Identifier": "PHP-3.01"
-        },
-        "2.0.4": {
-            "version": "2.0.4",
-            "state": "stable",
-            "license": "PHP",
-            "releasedBy": "willfitch",
-            "releaseDate": "2017-10-06T16:45:40+00:00",
-            "releaseNotes": "- Fixed out of bounds bug (thanks kgodet)\n- Fixed fromRawValue missing offset",
-            "get": "http://pecl.php.net/get/bitset-2.0.4",
+            "get": "https://pecl.php.net/get/bitset-3.0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "3.0.0": {
@@ -55,7 +45,17 @@
             "releasedBy": "willfitch",
             "releaseDate": "2016-03-01T01:45:11+00:00",
             "releaseNotes": "- Upgraded API to PHP 7.0\n- Removed deprecated functions",
-            "get": "http://pecl.php.net/get/bitset-3.0.0",
+            "get": "https://pecl.php.net/get/bitset-3.0.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "2.0.4": {
+            "version": "2.0.4",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "willfitch",
+            "releaseDate": "2017-10-06T16:45:40+00:00",
+            "releaseNotes": "- Fixed out of bounds bug (thanks kgodet)\n- Fixed fromRawValue missing offset",
+            "get": "https://pecl.php.net/get/bitset-2.0.4",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.3": {
@@ -65,7 +65,7 @@
             "releasedBy": "willfitch",
             "releaseDate": "2016-02-29T14:15:51+00:00",
             "releaseNotes": "- Updated PHP version info",
-            "get": "http://pecl.php.net/get/bitset-2.0.3",
+            "get": "https://pecl.php.net/get/bitset-2.0.3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.2": {
@@ -75,7 +75,7 @@
             "releasedBy": "willfitch",
             "releaseDate": "2016-02-26T20:28:18+00:00",
             "releaseNotes": "- Fixed issue (Github #9) BitSet::clear(0) should clear the first bit only (credits @aurora)\n- Cleaned up warnings from old code\n- Added fromRawValue method (Github #6) (credits @aurora)",
-            "get": "http://pecl.php.net/get/bitset-2.0.2",
+            "get": "https://pecl.php.net/get/bitset-2.0.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.1": {
@@ -85,7 +85,7 @@
             "releasedBy": "willfitch",
             "releaseDate": "2014-10-31T06:43:16+00:00",
             "releaseNotes": "- Added new BitSet class\n- Deprecated bitset_* functions\n- Fixed tests with incorrect EXPECTs\n- Removed support for PHP versions less than 5.3\n- Fixed issue (Github #7) BitSet::set(0) should set the first bit only (credits @aurora)",
-            "get": "http://pecl.php.net/get/bitset-2.0.1",
+            "get": "https://pecl.php.net/get/bitset-2.0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0": {
@@ -95,7 +95,7 @@
             "releasedBy": "willfitch",
             "releaseDate": "2012-10-19T09:56:29+00:00",
             "releaseNotes": "- Added new BitSet class\n- Deprecated bitset_* functions\n- Fixed tests with incorrect EXPECTs\n- Removed support for PHP versions less than 5.3",
-            "get": "http://pecl.php.net/get/bitset-2.0",
+            "get": "https://pecl.php.net/get/bitset-2.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0.1": {
@@ -105,7 +105,7 @@
             "releasedBy": "felipe",
             "releaseDate": "2012-06-13T08:18:29+00:00",
             "releaseNotes": "- Fixed build in PHP 5.3+",
-            "get": "http://pecl.php.net/get/bitset-1.0.1",
+            "get": "https://pecl.php.net/get/bitset-1.0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0": {
@@ -115,10 +115,10 @@
             "releasedBy": "cawa",
             "releaseDate": "2005-07-22T05:13:44+00:00",
             "releaseNotes": "First official stable release of Bitset",
-            "get": "http://pecl.php.net/get/bitset-1.0",
+            "get": "https://pecl.php.net/get/bitset-1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },
     "summary": "BITSET extension",
-    "SPDX-License-Identifier": null
+    "SPDX-License-Identifier": "PHP-3.01"
 }

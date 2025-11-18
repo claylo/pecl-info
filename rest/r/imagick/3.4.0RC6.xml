@@ -22,6 +22,6 @@ This extension requires ImageMagick version 6.5.3-10+ and PHP 5.4.0+.</d>
   * Imagick::getImageWhitePoint, Imagick::getImageRedPrimary, Imagick::getImageGreenPrimary,
    Imagick::getImageBluePrimary now return 3 values when compiled against IM7.</n>
  <f>236830</f>
- <g>http://pecl.php.net/get/imagick-3.4.0RC6</g>
+ <g>https://pecl.php.net/get/imagick-3.4.0RC6</g>
  <x xlink:href="package.3.4.0RC6.xml"/>
 </r>

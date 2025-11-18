@@ -31,6 +31,6 @@
 - Added http server gzip compression supports
 - Added swoole_server open_eof_split configuration</n>
  <f>454651</f>
- <g>http://pecl.php.net/get/swoole-1.7.15</g>
+ <g>https://pecl.php.net/get/swoole-1.7.15</g>
  <x xlink:href="package.1.7.15.xml"/>
 </r>

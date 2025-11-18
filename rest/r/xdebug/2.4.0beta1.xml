@@ -50,6 +50,6 @@ Xdebug also provides:
   - Fixed issue #1192: Dead code analysis does not work for generators with
     'return;'</n>
  <f>269305</f>
- <g>http://pecl.php.net/get/xdebug-2.4.0beta1</g>
+ <g>https://pecl.php.net/get/xdebug-2.4.0beta1</g>
  <x xlink:href="package.2.4.0beta1.xml"/>
 </r>

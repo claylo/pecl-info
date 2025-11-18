@@ -16,7 +16,7 @@
             "releaseDate": "2024-02-22T11:45:09+00:00",
             "releaseNotes": "- drop support for PHP 5 and 7\n- add type hinting\n- raise TypeError and ValueError for unexpected parameters",
             "get": "https://pecl.php.net/get/dio-0.3.0",
-            "SPDX-License-Identifier": null
+            "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.3.0RC1": {
             "version": "0.3.0RC1",
@@ -26,7 +26,7 @@
             "releaseDate": "2024-01-25T13:40:38+00:00",
             "releaseNotes": "- drop support for PHP 5 and 7\n- add type hinting\n- raise TypeError and ValueError for unexpected parameters",
             "get": "https://pecl.php.net/get/dio-0.3.0RC1",
-            "SPDX-License-Identifier": null
+            "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.2.2": {
             "version": "0.2.2",
@@ -65,7 +65,7 @@
             "releasedBy": "remi",
             "releaseDate": "2017-03-25T10:59:49+00:00",
             "releaseNotes": "- Fixed memory leak in dio_read (Dawid Zamirski)\n- Fixed Bug #74209 dio_stat - appended nulls (Remi)",
-            "get": "http://pecl.php.net/get/dio-0.1.0",
+            "get": "https://pecl.php.net/get/dio-0.1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.0.9": {
@@ -75,7 +75,7 @@
             "releasedBy": "remi",
             "releaseDate": "2016-12-13T13:11:30+00:00",
             "releaseNotes": "- fix segfault in dio_raw (php 7, big endian)",
-            "get": "http://pecl.php.net/get/dio-0.0.9",
+            "get": "https://pecl.php.net/get/dio-0.0.9",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.0.8": {
@@ -85,7 +85,7 @@
             "releasedBy": "remi",
             "releaseDate": "2016-12-13T11:18:38+00:00",
             "releaseNotes": "- PHP 5 and PHP 7 compatible version\n- add more baudrates (Michael Heimpold)",
-            "get": "http://pecl.php.net/get/dio-0.0.8",
+            "get": "https://pecl.php.net/get/dio-0.0.8",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.0.7": {
@@ -95,7 +95,7 @@
             "releasedBy": "cyberspice",
             "releaseDate": "2013-02-19T10:44:43+00:00",
             "releaseNotes": "Added far better windows error reporting. Warnings now raised when Win32 API\ncalls return errors. The warnings include the underlying Windows error\nmessage.",
-            "get": "http://pecl.php.net/get/dio-0.0.7",
+            "get": "https://pecl.php.net/get/dio-0.0.7",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.0.6": {
@@ -105,7 +105,7 @@
             "releasedBy": "cyberspice",
             "releaseDate": "2012-06-30T18:51:42+00:00",
             "releaseNotes": "Fixes for bugs #61989 (PECL package \"dio\" will not compile against PHP-5.4.3)\nand #62188 (Possible typo in errno check in dio_fdopen()).",
-            "get": "http://pecl.php.net/get/dio-0.0.6",
+            "get": "https://pecl.php.net/get/dio-0.0.6",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.0.5": {
@@ -115,7 +115,7 @@
             "releasedBy": "cyberspice",
             "releaseDate": "2012-02-17T09:53:00+00:00",
             "releaseNotes": "Added dio_fdopen() and dio_dup().\n\ndio_fdopen() returns a dio resource for an integer UNIX style file descriptor.\n\ndio_dup() duplicates an existing stream.",
-            "get": "http://pecl.php.net/get/dio-0.0.5",
+            "get": "https://pecl.php.net/get/dio-0.0.5",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.0.4RC4": {
@@ -125,7 +125,7 @@
             "releasedBy": "cyberspice",
             "releaseDate": "2010-02-10T13:12:47+00:00",
             "releaseNotes": "package.xml added to support installation using pear installer\nPackaged so it can be used.",
-            "get": "http://pecl.php.net/get/dio-0.0.4RC4",
+            "get": "https://pecl.php.net/get/dio-0.0.4RC4",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.0.2": {
@@ -135,10 +135,10 @@
             "releasedBy": "alan_k",
             "releaseDate": "2008-12-07T23:04:35+00:00",
             "releaseNotes": "package.xml added to support intallation using pear installer\nPackaged so it can be used.",
-            "get": "http://pecl.php.net/get/dio-0.0.2",
+            "get": "https://pecl.php.net/get/dio-0.0.2",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },
     "summary": "Direct I/O functions",
-    "SPDX-License-Identifier": null
+    "SPDX-License-Identifier": "PHP-3.01"
 }

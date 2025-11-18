@@ -22,6 +22,6 @@ IMPORTANT: Version 2.x API is not compatible with earlier versions.</d>
 - Added mimetype to identify image as per PECL bug 65037
 - Fixed type conversion error in newpseudoimage</n>
  <f>94657</f>
- <g>http://pecl.php.net/get/imagick-3.1.2</g>
+ <g>https://pecl.php.net/get/imagick-3.1.2</g>
  <x xlink:href="package.3.1.2.xml"/>
 </r>

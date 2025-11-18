@@ -46,6 +46,6 @@ Xdebug also provides:
 
   - Support for PHP versions lower than PHP 5.5 has been dropped</n>
  <f>267046</f>
- <g>http://pecl.php.net/get/xdebug-2.5.0RC1</g>
+ <g>https://pecl.php.net/get/xdebug-2.5.0RC1</g>
  <x xlink:href="package.2.5.0RC1.xml"/>
 </r>

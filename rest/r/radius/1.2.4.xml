@@ -20,6 +20,6 @@ OS (for example against Windows Active-Directory via IAS).
  <n>- Release 1.2.4
 - Forgot including updated radius_init_const.h</n>
  <f>29599</f>
- <g>http://pecl.php.net/get/radius-1.2.4</g>
+ <g>https://pecl.php.net/get/radius-1.2.4</g>
  <x xlink:href="package.1.2.4.xml"/>
 </r>

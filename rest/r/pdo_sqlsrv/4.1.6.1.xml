@@ -22,6 +22,6 @@
 - Fixed the assertion error (Linux) when fetching data from a binary column using the binary encoding.
 - Fixed PECL installation errors when PHP was installed from source.</n>
  <f>181014</f>
- <g>http://pecl.php.net/get/pdo_sqlsrv-4.1.6.1</g>
+ <g>https://pecl.php.net/get/pdo_sqlsrv-4.1.6.1</g>
  <x xlink:href="package.4.1.6.1.xml"/>
 </r>

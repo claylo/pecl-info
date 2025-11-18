@@ -15,6 +15,6 @@
  <da>2010-08-13 09:59:11</da>
  <n>- Fixed SSL connection bug introduced in 1.0.1</n>
  <f>18257</f>
- <g>http://pecl.php.net/get/stomp-1.0.2</g>
+ <g>https://pecl.php.net/get/stomp-1.0.2</g>
  <x xlink:href="package.1.0.2.xml"/>
 </r>

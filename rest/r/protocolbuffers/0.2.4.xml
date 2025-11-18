@@ -18,6 +18,6 @@
 [bug fix]
 * don't implement jsonSerialize twice.</n>
  <f>100088</f>
- <g>http://pecl.php.net/get/protocolbuffers-0.2.4</g>
+ <g>https://pecl.php.net/get/protocolbuffers-0.2.4</g>
  <x xlink:href="package.0.2.4.xml"/>
 </r>

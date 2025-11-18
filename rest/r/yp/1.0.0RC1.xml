@@ -20,6 +20,6 @@ of important administrative files (e.g. the password file).</d>
  - Build testing environment with vagrants [gasolwu]
  - Add tests for all public funcctions [gasolwu]</n>
  <f>8397</f>
- <g>http://pecl.php.net/get/yp-1.0.0RC1</g>
+ <g>https://pecl.php.net/get/yp-1.0.0RC1</g>
  <x xlink:href="package.1.0.0RC1.xml"/>
 </r>

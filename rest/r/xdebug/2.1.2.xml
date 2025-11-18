@@ -40,6 +40,6 @@ Xdebug also provides:
 	- Fixed bug #703 by adding another opcode to the list that needs to be
 	  overridden.</n>
  <f>304229</f>
- <g>http://pecl.php.net/get/xdebug-2.1.2</g>
+ <g>https://pecl.php.net/get/xdebug-2.1.2</g>
  <x xlink:href="package.2.1.2.xml"/>
 </r>

@@ -61,6 +61,6 @@ Xdebug also provides:
 	- Fixed bug #92: xdebug_disable() doesn't disable the exception handler.
 	- Fixed bug #68: Summary not written when script ended with &quot;exit()&quot;.</n>
  <f>195568</f>
- <g>http://pecl.php.net/get/xdebug-2.0.0beta2</g>
+ <g>https://pecl.php.net/get/xdebug-2.0.0beta2</g>
  <x xlink:href="package.2.0.0beta2.xml"/>
 </r>

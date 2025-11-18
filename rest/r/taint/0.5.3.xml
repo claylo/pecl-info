@@ -16,6 +16,6 @@
  <da>2012-05-08 04:36:20</da>
  <n>- Bug #61816 (Segmentation fault)</n>
  <f>15076</f>
- <g>http://pecl.php.net/get/taint-0.5.3</g>
+ <g>https://pecl.php.net/get/taint-0.5.3</g>
  <x xlink:href="package.0.5.3.xml"/>
 </r>

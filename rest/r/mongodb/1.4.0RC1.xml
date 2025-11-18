@@ -46,6 +46,6 @@ necessary to build a fully-functional MongoDB driver.</d>
 ** Improvement
     * [PHPC-888] - Support additional TLS libraries for bundled libmongoc</n>
  <f>905961</f>
- <g>http://pecl.php.net/get/mongodb-1.4.0RC1</g>
+ <g>https://pecl.php.net/get/mongodb-1.4.0RC1</g>
  <x xlink:href="package.1.4.0RC1.xml"/>
 </r>

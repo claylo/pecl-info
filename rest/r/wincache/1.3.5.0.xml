@@ -18,6 +18,6 @@
 - Opcode Cache is disabled by default for PHP 5.5 because Opcache is available in Core
 - Added support for traits and trait aliases</n>
  <f>150777</f>
- <g>http://pecl.php.net/get/WINCACHE-1.3.5.0</g>
+ <g>https://pecl.php.net/get/WINCACHE-1.3.5.0</g>
  <x xlink:href="package.1.3.5.0.xml"/>
 </r>

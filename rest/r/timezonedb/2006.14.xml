@@ -17,6 +17,6 @@ a later version of the timezone database then the one that ships with PHP.</d>
  <da>2006-10-17 13:09:23</da>
  <n>Updated timezone database version to 2006.14.</n>
  <f>178509</f>
- <g>http://pecl.php.net/get/timezonedb-2006.14</g>
+ <g>https://pecl.php.net/get/timezonedb-2006.14</g>
  <x xlink:href="package.2006.14.xml"/>
 </r>

@@ -16,6 +16,6 @@
  <n>* Allow the extension to compile on Ubuntu/Debian
 * Removed a cyclic reference bug when converting values from Javascript</n>
  <f>14367</f>
- <g>http://pecl.php.net/get/spidermonkey-0.1.2</g>
+ <g>https://pecl.php.net/get/spidermonkey-0.1.2</g>
  <x xlink:href="package.0.1.2.xml"/>
 </r>

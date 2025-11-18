@@ -30,6 +30,6 @@ are implemented in PHP GMP extension, but it needn't any external libraries.
 + updated BIG_INT library to new version
 * fixed several bugs in /php_big_int.c</n>
  <f>55910</f>
- <g>http://pecl.php.net/get/big_int-1.0.2</g>
+ <g>https://pecl.php.net/get/big_int-1.0.2</g>
  <x xlink:href="package.1.0.2.xml"/>
 </r>

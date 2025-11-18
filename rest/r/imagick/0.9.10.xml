@@ -25,6 +25,6 @@
   are needed.
 - ImageMagick &gt;= 6.0.0 does not work currently. Patches are welcome ;)</n>
  <f>69580</f>
- <g>http://pecl.php.net/get/imagick-0.9.10</g>
+ <g>https://pecl.php.net/get/imagick-0.9.10</g>
  <x xlink:href="package.0.9.10.xml"/>
 </r>

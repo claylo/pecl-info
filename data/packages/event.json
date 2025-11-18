@@ -295,7 +295,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2018-08-11T08:02:23+00:00",
             "releaseNotes": "Fixed issue #52: namespace issues when installing via pecl command in non-interactive mode.",
-            "get": "http://pecl.php.net/get/event-2.4.1",
+            "get": "https://pecl.php.net/get/event-2.4.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.4.0": {
@@ -305,7 +305,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2018-07-23T06:35:49+00:00",
             "releaseNotes": "Replaced obsolete AC_TRY_COMPILE with AC_COMPILE_IFELSE in config.m4",
-            "get": "http://pecl.php.net/get/event-2.4.0",
+            "get": "https://pecl.php.net/get/event-2.4.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.4.0RC3": {
@@ -315,7 +315,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2018-05-24T09:01:06+00:00",
             "releaseNotes": "Fixed test error on RHEL 6/7 (thanks to Remi Collet).",
-            "get": "http://pecl.php.net/get/event-2.4.0RC3",
+            "get": "https://pecl.php.net/get/event-2.4.0RC3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.4.0RC2": {
@@ -325,7 +325,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2018-05-08T06:28:42+00:00",
             "releaseNotes": "Fixed tests/12-serialization.phpt (thanks to Remi Collet)\nFixed issue #49: \"Invalid file descriptor\" exceptions in PHP 7.2. Due to\n  Zend API changes in PHP 7.2, Event stream arguments were accepted by\n  reference.",
-            "get": "http://pecl.php.net/get/event-2.4.0RC2",
+            "get": "https://pecl.php.net/get/event-2.4.0RC2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.4.0RC1": {
@@ -335,7 +335,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2018-04-23T06:53:24+00:00",
             "releaseNotes": "Issue #46: Class name conflict with Laravel and Lumen.\n  Added --with-event-ns configuration option.",
-            "get": "http://pecl.php.net/get/event-2.4.0RC1",
+            "get": "https://pecl.php.net/get/event-2.4.0RC1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.3.0": {
@@ -345,7 +345,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2017-03-26T09:23:10+00:00",
             "releaseNotes": "Fixed build errors with LibreSSL",
-            "get": "http://pecl.php.net/get/event-2.3.0",
+            "get": "https://pecl.php.net/get/event-2.3.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.3.0RC1": {
@@ -355,7 +355,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2016-11-10T16:48:20+00:00",
             "releaseNotes": "Add: EventSslContext methods: setMinProtoVersion and setMaxProtoVersion for OpenSSL >= 1.1.0.\nAdd: EventSslContext constants: OPENSSL_VERSION_NUMBER and OPENSSL_VERSION_TEXT.\nFix: compilation warnings regarding OpenSSL features deprecated in version 1.0.0 and newer.\nDeprecated: EventSslContext protocol version options are deprecated for OpenSSL >= 1.1.0.\n  Use the new setMinProtoVersion and setMaxProtoVersion methods instead.\nFix: build failed with custom openssl setup (non-standard --with-openssl-dir)",
-            "get": "http://pecl.php.net/get/event-2.3.0RC1",
+            "get": "https://pecl.php.net/get/event-2.3.0RC1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.2.1": {
@@ -365,7 +365,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2016-11-10T16:48:11+00:00",
             "releaseNotes": "Fix: issue #31 where numeric file descriptor caused segmentation fault",
-            "get": "http://pecl.php.net/get/event-2.2.1",
+            "get": "https://pecl.php.net/get/event-2.2.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.1.0": {
@@ -375,7 +375,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2016-06-08T14:30:29+00:00",
             "releaseNotes": "Add: EventUtil::SOCK_RAW constant\nAdd: EventSslContext option constants: OPT_REQUIRE_CLIENT_CERT and OPT_VERIFY_CLIENT_ONCE\nFix: EventBufferEvent::createPair caused segmentation fault in PHP7\nSSL Fixes:\n- chained self-signed certificate failed to pass with EventSslContext::OPT_ALLOW_SELF_SIGNED = TRUE\n- the server didn't set the list of CAs to be sent to the client when requesting a client certificate for underlying SSL structure\n- EventSslContext::OPT_ALLOW_SELF_SIGNED = TRUE accepted any self-signed certificate without regard to OPT_CA_FILE/OPT_CA_PATH\nFix: PHP 7.1.0alpha1 build errors",
-            "get": "http://pecl.php.net/get/event-2.1.0",
+            "get": "https://pecl.php.net/get/event-2.1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.4": {
@@ -385,7 +385,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2016-04-22T05:06:15+00:00",
             "releaseNotes": "Issue #28: event-2.0.3 Windows build fails",
-            "get": "http://pecl.php.net/get/event-2.0.4",
+            "get": "https://pecl.php.net/get/event-2.0.4",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.3": {
@@ -395,7 +395,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2016-04-21T06:02:10+00:00",
             "releaseNotes": "Issue #27: PHP > 7.0.6RC1 build fails",
-            "get": "http://pecl.php.net/get/event-2.0.3",
+            "get": "https://pecl.php.net/get/event-2.0.3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.2": {
@@ -405,7 +405,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2016-04-01T09:24:31+00:00",
             "releaseNotes": "PHP7: fixed random EDOM errors in EventUtil::setSocketOption",
-            "get": "http://pecl.php.net/get/event-2.0.2",
+            "get": "https://pecl.php.net/get/event-2.0.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.1": {
@@ -415,7 +415,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2016-03-17T05:13:54+00:00",
             "releaseNotes": "PHP7: Protected user callbacks from destruction within libevent callbacks",
-            "get": "http://pecl.php.net/get/event-2.0.1",
+            "get": "https://pecl.php.net/get/event-2.0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.0": {
@@ -425,7 +425,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2016-02-29T16:52:11+00:00",
             "releaseNotes": "Fixed some memory issues in PHP7\n- SSL leaks\n- Possibility of implicit destruction of user vars\n- Unclean SSL bufferevent shutdown\n- EventBufferEvent::free() within a callback damaged zvals bound to corresponding bufferevent thereby causing SEGFAULT\n\nFixed PHP5/PHP7 memory issue: string returned by EventBuffer::pullup() was not zero-terminated",
-            "get": "http://pecl.php.net/get/event-2.0.0",
+            "get": "https://pecl.php.net/get/event-2.0.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.0RC2": {
@@ -435,7 +435,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2016-02-24T18:29:33+00:00",
             "releaseNotes": "Fixed Mac OS X build errors",
-            "get": "http://pecl.php.net/get/event-2.0.0RC2",
+            "get": "https://pecl.php.net/get/event-2.0.0RC2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.0RC1": {
@@ -445,7 +445,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2016-02-21T03:34:12+00:00",
             "releaseNotes": "PHP7 support added.\n\nFixes:\n  - issue #23: memory leak in EventHttpConnection close callback + memory leaks in HTTP callbacks.\n  - Libevent 'unrecoverable' fatal errors(fixed by stopping the loop in EventBase free-storage handler).\n\nAPI changes:\n  - EventUtil::createSocket method added(PHP7)\n  - The first(EventBase) argument of EventBufferEvent::sslFilter method is deprecated, since the internal EventBase object must match EventBase object within the underlying EventBufferEvent\n  - Added EventBufferEvent::createSslFilter method as a replacement for the sslFilter method.",
-            "get": "http://pecl.php.net/get/event-2.0.0RC1",
+            "get": "https://pecl.php.net/get/event-2.0.0RC1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.11.3": {
@@ -455,7 +455,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2016-02-11T04:22:11+00:00",
             "releaseNotes": "Issue #20: SSL_GET_PREV_SESSION:session id context uninitialized",
-            "get": "http://pecl.php.net/get/event-1.11.3",
+            "get": "https://pecl.php.net/get/event-1.11.3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.11.2": {
@@ -465,7 +465,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2016-02-11T04:21:42+00:00",
             "releaseNotes": "Issue #6: memory leaks in EventHttp callbacks.\nEventBufferEvent object returned by EventHttpRequest::getBufferEvent() should be freed explicitly,\nif the method is called from a userspace callback.",
-            "get": "http://pecl.php.net/get/event-1.11.2",
+            "get": "https://pecl.php.net/get/event-1.11.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.11.1": {
@@ -475,7 +475,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2014-11-13T23:59:28+00:00",
             "releaseNotes": "Fixed build with old openssl (RHEL-5) (thanks to Remi Collet)",
-            "get": "http://pecl.php.net/get/event-1.11.1",
+            "get": "https://pecl.php.net/get/event-1.11.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.11.0": {
@@ -485,7 +485,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2014-11-13T11:26:31+00:00",
             "releaseNotes": "Fix: exceptions thrown from EventHttp and EventBufferEvent userspace callbacks were not passed through back to user.\nNow the event loop will break and re-throw the exception.\nAdd: EventBase::free method\nAdd: EventBufferEvent methods:\n  - close\n  - sslGetCipherInfo\n  - sslGetCipherName\n  - sslGetCipherVersion\n  - sslGetProtocol\nAdd: EventSslContext options:\n  - OPT_NO_SSLv2\n  - OPT_NO_SSLv3\n  - OPT_NO_TLSv1\n  - OPT_NO_TLSv1_1\n  - OPT_NO_TLSv1_2\n  - OPT_CIPHER_SERVER_PREFERENCE\n  - TLSv11_CLIENT_METHOD\n  - TLSv11_SERVER_METHOD\n  - TLSv12_CLIENT_METHOD\n  - TLSv12_SERVER_METHOD\n(Thanks to Mathieu CARBONNEAUX @ bitbucket.org)\nIssue #13: EventBufferEvent::__construct failed to accept a persistent\nsocket client(STREAM_CLIENT_PERSISTENT)",
-            "get": "http://pecl.php.net/get/event-1.11.0",
+            "get": "https://pecl.php.net/get/event-1.11.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.10.3": {
@@ -495,7 +495,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2014-08-09T16:44:22+00:00",
             "releaseNotes": "Issue #8: pecl install failed due to the REST API issues with Unicode",
-            "get": "http://pecl.php.net/get/event-1.10.3",
+            "get": "https://pecl.php.net/get/event-1.10.3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.10.2": {
@@ -504,8 +504,8 @@
             "license": "PHP",
             "releasedBy": "osmanov",
             "releaseDate": "2014-06-19T23:31:40+00:00",
-            "releaseNotes": "Fix: EventBufferEvent::read() accepted negative values\nFix: TSRM context was not set in EventHttp::__construct (J?nos Fekete)\nFix: refcounter in EventHttp's default callback (J?nos Fekete)",
-            "get": "http://pecl.php.net/get/event-1.10.2",
+            "releaseNotes": "",
+            "get": "https://pecl.php.net/get/event-1.10.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.10.1": {
@@ -515,7 +515,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2014-05-10T15:02:10+00:00",
             "releaseNotes": "Deleted a troublesome phpt test",
-            "get": "http://pecl.php.net/get/event-1.10.1",
+            "get": "https://pecl.php.net/get/event-1.10.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.10.0": {
@@ -525,7 +525,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2014-05-10T07:50:15+00:00",
             "releaseNotes": "Issue #3: Segmentation fault on EventHttpRequest->free() (Bitbucket's tracker).\nAdd: EventHttpConnection::__construct() now optionally accepts EventSslContext argument (issue #5).\nAdd: EventHttp::__construct() now accepts EventSslContext object as argument.",
-            "get": "http://pecl.php.net/get/event-1.10.0",
+            "get": "https://pecl.php.net/get/event-1.10.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.9.1": {
@@ -535,7 +535,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2014-03-23T02:54:58+00:00",
             "releaseNotes": "Fix: return value of EventBase::reInit() was inverted\nissue #7: PHP_EVENT_REQUIRE_BASE_BY_REF() didn't work in 5.6.0-dev (fixed by Remi Collet)",
-            "get": "http://pecl.php.net/get/event-1.9.1",
+            "get": "https://pecl.php.net/get/event-1.9.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.9.0": {
@@ -545,7 +545,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2014-01-16T14:14:57+00:00",
             "releaseNotes": "Windows support introduced(thanks to Anatol Belski <ab@php.net>)\n\nLIBEVENT_VERSION is now reported in phpinfo(Remi <remi@php.net>)\n\n Forced passing EventBase argument by reference. A method accepting EventBase\n will generate fatal error in case if corresponding argument is not passed by\n reference.\n\n EventBufferEvent::createPair method made static.",
-            "get": "http://pecl.php.net/get/event-1.9.0",
+            "get": "https://pecl.php.net/get/event-1.9.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.8.1": {
@@ -555,7 +555,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2013-10-07T03:21:53+00:00",
             "releaseNotes": "Fix: Bug #65847 Issue with old libevent2 where evhttp_connection_get_bufferevent function was not available with libevent version < 2.0.17 (thanks to Remi <remi@php.net>)",
-            "get": "http://pecl.php.net/get/event-1.8.1",
+            "get": "https://pecl.php.net/get/event-1.8.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.8.0": {
@@ -565,7 +565,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2013-10-06T11:56:45+00:00",
             "releaseNotes": "Add: EventHttpRequest methods: getBufferEvent, getConnection, closeConnection(thanks to rickysu at Bitbucket)\nAdd: EventHttpConnection::setCloseCallback method",
-            "get": "http://pecl.php.net/get/event-1.8.0",
+            "get": "https://pecl.php.net/get/event-1.8.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.7.8": {
@@ -575,7 +575,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2013-09-15T04:40:18+00:00",
             "releaseNotes": "Fix: build error on Solaris\nIntroduced negative dependencies: libevent extension, windows OS",
-            "get": "http://pecl.php.net/get/event-1.7.8",
+            "get": "https://pecl.php.net/get/event-1.7.8",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.7.7": {
@@ -585,7 +585,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2013-09-13T05:58:50+00:00",
             "releaseNotes": "Fix: incorrect handling of sockets extension dependency\n(a hack for distros installing sockets separately)",
-            "get": "http://pecl.php.net/get/event-1.7.7",
+            "get": "https://pecl.php.net/get/event-1.7.7",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.7.6": {
@@ -595,7 +595,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2013-09-07T03:13:21+00:00",
             "releaseNotes": "Change: sockets extension is now required(see bug #65597). The user can still\nturn off this requirement explicitly with --disable-event-sockets configure\noption",
-            "get": "http://pecl.php.net/get/event-1.7.6",
+            "get": "https://pecl.php.net/get/event-1.7.6",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.7.5": {
@@ -605,7 +605,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2013-08-19T07:25:04+00:00",
             "releaseNotes": "Fix: build error with custom libevent installation prefixes like /lib(John Wamer)",
-            "get": "http://pecl.php.net/get/event-1.7.5",
+            "get": "https://pecl.php.net/get/event-1.7.5",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.7.4": {
@@ -615,7 +615,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2013-08-14T07:33:30+00:00",
             "releaseNotes": "Fix: Segmentation fault caused by direct access to the zend object properties' hash table",
-            "get": "http://pecl.php.net/get/event-1.7.4",
+            "get": "https://pecl.php.net/get/event-1.7.4",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.7.3": {
@@ -625,7 +625,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2013-08-10T00:47:35+00:00",
             "releaseNotes": "Fix: in php_event.c write_property function was non-static\nFix: absence of get_gc property handler caused segfaults with gc_collect_cycles()",
-            "get": "http://pecl.php.net/get/event-1.7.3",
+            "get": "https://pecl.php.net/get/event-1.7.3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.7.2": {
@@ -635,7 +635,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2013-07-28T08:20:53+00:00",
             "releaseNotes": "Fix: bug #65320 where we got build errors in attempts to compile event statically(thanks to florin)\nFix: bug #65319 where config.m4 used <php_version.h> to detect current PHP version\nFix: config.m4 included -levent_pthreads into LDFLAGS even --without-event-pthreads configuration\nFix: evthread_use_pthreads() call skept due to a \"macro magic\"(PHP_EVENT_ASSERT)",
-            "get": "http://pecl.php.net/get/event-1.7.2",
+            "get": "https://pecl.php.net/get/event-1.7.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.7.1": {
@@ -645,7 +645,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2013-07-21T08:24:06+00:00",
             "releaseNotes": "Fix: segmentation fault on gc_collect_cycles() after calling Event::free(), 5lava @ Bitbucket reported\nFix: assignment reference to \"data\" property caused 'Fatal error:  Cannot assign by reference to overloaded object'\nFix: evnt object dtors sometimes didn't free the 'data' member until the script shutdown phase",
-            "get": "http://pecl.php.net/get/event-1.7.1",
+            "get": "https://pecl.php.net/get/event-1.7.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.7.0": {
@@ -655,7 +655,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2013-07-18T10:36:47+00:00",
             "releaseNotes": "Merged in 5lava/pecl-event (pull request #1) @bitbucket:\nFix: EventBufferEvent::setTimeouts() didn't work with double values\nFix: EventBuffer::copyout() didn't work in some cases\nAdd: EventBuffer::readFrom() method (corresponds to evbuffer_read())\nAdd: EventUtil::getSocketFD() method",
-            "get": "http://pecl.php.net/get/event-1.7.0",
+            "get": "https://pecl.php.net/get/event-1.7.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.6.2": {
@@ -665,7 +665,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2013-07-17T11:36:43+00:00",
             "releaseNotes": "Fix: bug #64678 where Fedora Packaging Guidlines required LICENSE file\nFix: bug #64680 where we should check for SKIP_ONLINE_TESTS environment variable\nFix: bug #64679 where we had buffer overflow caused by struct sockaddr_storage * pointer",
-            "get": "http://pecl.php.net/get/event-1.6.2",
+            "get": "https://pecl.php.net/get/event-1.6.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.6.1": {
@@ -675,7 +675,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2013-04-17T15:07:27+00:00",
             "releaseNotes": "Fix: bug #64652 where Event::__construct returned valid object, however, with\nuninitialized internal struct which caused segmentation faults in further\nmethod calls",
-            "get": "http://pecl.php.net/get/event-1.6.1",
+            "get": "https://pecl.php.net/get/event-1.6.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.6.0": {
@@ -685,7 +685,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2013-04-02T06:16:01+00:00",
             "releaseNotes": "Fix: bug #64551 with build failed on Mac OS X\nFix: address argument of the listener accept callback contained garbage in case of a client connected via UNIX domain socket\nAdd: EventBuffer::write, EventUtil::setSocketOption methods and some constants\nRefact: automatically set the upper bound of EventBuffer::search to the buffer length, if it is greater then the length\nFix: make the code compatible with PHP 5.5.0 .. 5.6.0-dev\nFix: build error with zts PHP setup\nFix: build error with libevent_extra disabled\nAdd: EventListener fd readonly property for numeric file descriptor of the socket associated with the listener\nAdd: EventBuffer::substr method\n\nINCOMPATIBLE CHANGES!\nRenamed EventBuffer::remove to EventBuffer::read, EventBuffer::read now takes only max_bytes argument and returns string.\nRenamed EventBuffer::removeBuffer to EventBuffer::appendFrom\nEventBuffer::read now takes single argument 'size' and returns the string read",
-            "get": "http://pecl.php.net/get/event-1.6.0",
+            "get": "https://pecl.php.net/get/event-1.6.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.5.1": {
@@ -695,7 +695,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2013-03-26T01:45:32+00:00",
             "releaseNotes": "Fix: EventBuffer::removeBuffer returned boolean instead of the number of bytes read\nAdd: EventBuffer::fd property\nChange: EventBuffer class is not final any more",
-            "get": "http://pecl.php.net/get/event-1.5.1",
+            "get": "https://pecl.php.net/get/event-1.5.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.5.0": {
@@ -705,7 +705,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2013-03-22T12:56:47+00:00",
             "releaseNotes": "Fix: uninitialized socket caused segmentation fault in EventBufferEvent methods\nDel: EventBufferPosition class removed, EventBuffer::search now accepts and returns integers\nAdd: EventBuffer::searchEol method\nAdd: EventUtil::getSocketName method\nAdd: EventListener::getSocketName method\nFix: memory leak due to lack of zend_hash_destroy on the ssl context options\nAdd: support of UNIX domain sockets in EventListener::__construct, EventBufferEvent::connect methods",
-            "get": "http://pecl.php.net/get/event-1.5.0",
+            "get": "https://pecl.php.net/get/event-1.5.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.4.0": {
@@ -715,7 +715,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2013-03-13T13:04:07+00:00",
             "releaseNotes": "Add: HTTP server support:\n  * EventHttp methods: setMaxBodySize, setMaxHeadersSize, setTimeout,\n    addServerAlias, removeServerAlias setCallback, setDefaultCallback,\n    setAllowedMethods, setMaxBodySize, setMaxHeadersSize, setTimeout,\n    addServerAlias, removeServerAlias;\n  * EventHttpRequest class, callback and custom data can be bound to the\n    request for future use with EventHttpConnection\n  * New EventHttpConnection::makeRequest method allows to make custom HTTP\n    requests by means of EventHttpRequest class\nChange: make EventDnsBase parameter optional in EventHttpConnection::__construct\nFix: classes/buffer_event.c: possible memory access violation in bufferevent callback\nFix: turn off buggy libevent thread lock debugging when built with --enable-event-debug",
-            "get": "http://pecl.php.net/get/event-1.4.0",
+            "get": "https://pecl.php.net/get/event-1.4.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.3.0": {
@@ -725,7 +725,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2013-03-08T16:13:44+00:00",
             "releaseNotes": "Fix: possible memory access violations in EventBufferEvent input/output property handlers\nChange: Event::$timer_pending property removed; generic Event::$pending property added\nFix: With OPT_LEAVE_SOCKETS_BLOCKING flag EventListener::__construct turned fd to non-blocking mode\nFix: property and class HashTable's were not free'd in MSHUTDOWN\nAdd: Event::$data property\nFix: Event::__construct failed with Event::TIMEOUT flag\nFix: memory leak in EventBuffer::readLine\nAdd: --with-event-pthreads configure option\nFix: EventBase::reInit method's arginfo",
-            "get": "http://pecl.php.net/get/event-1.3.0",
+            "get": "https://pecl.php.net/get/event-1.3.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.2.6": {
@@ -735,7 +735,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2013-02-27T14:49:39+00:00",
             "releaseNotes": "Fix: with OpenSSL turned off got error: undefined symbol: zim_EventUtil_sslRandPoll\nAdd: implemented get_properties property handler(is called when one casts an object to array)\nRefact: removed memory alloc for empty property hashtables\nFix: heap corruption caused by EventBufferEvent callbacks(thanks to Marco Schuster)\nFix: continuous calls to EventBufferEvent::setCallbacks didn't free old fci/fcc(thanks to Marco Schuster)\nFix: possible heap corruption in EventListener's callback\nAdd: EventBase::resume method",
-            "get": "http://pecl.php.net/get/event-1.2.6",
+            "get": "https://pecl.php.net/get/event-1.2.6",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.2.5": {
@@ -745,7 +745,7 @@
             "releasedBy": "osmanov",
             "releaseDate": "2013-02-23T10:58:34+00:00",
             "releaseNotes": "This is the first release on PECL since 1.0.0. Previous releases are available\nhere: https://bitbucket.org/osmanov/pecl-event\n\nAdd: callbacks and the callback arg are now passed to EventBufferEvent::__construct as optional arguments\nChange: EventBufferEvent enable/disable methods return bool now\nChange: instead of stream pass numeric file descriptor to EventListener's accept-connection callback\nFix: unneeded Z_ADDREF_P() calls in EventListener, EventBufferEvent constructors and factory methods\nFix: EventListener cached file descriptor for all connections",
-            "get": "http://pecl.php.net/get/event-1.2.5",
+            "get": "https://pecl.php.net/get/event-1.2.5",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.9.1": {
@@ -755,7 +755,7 @@
             "releasedBy": "wez",
             "releaseDate": "2004-12-16T05:37:00+00:00",
             "releaseNotes": "Added event_timeout() function for easily scheduling a callback after a certain\nperiod of time.  The timeout may be persistent to make the callback a recurrent\nevent.\n\nFixed an issue with timercmp() on windows that caused a busy wait when the\nscheduler could have performed a sleep.\n\nWindows scheduling engine now also processes the message queue while waiting;\nuseful for COM/GUI based scripts.\n\nFixed build for threaded systems with real signals.\n\nSupports epoll(4), poll(2) and select(2) IO notification engines.\nSupport for /dev/poll and kqueue is pending.\n\nOn Windows, currently only sockets can participate in the IO notification engine.",
-            "get": "http://pecl.php.net/get/event-0.9.1",
+            "get": "https://pecl.php.net/get/event-0.9.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.9": {
@@ -765,7 +765,7 @@
             "releasedBy": "wez",
             "releaseDate": "2004-12-13T05:02:00+00:00",
             "releaseNotes": "Supports epoll(4), poll(2) and select(2) IO notification engines.\nSupport for /dev/poll and kqueue is pending.\n\nOn Windows, currently only sockets can participate in the IO notification engine.",
-            "get": "http://pecl.php.net/get/event-0.9",
+            "get": "https://pecl.php.net/get/event-0.9",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

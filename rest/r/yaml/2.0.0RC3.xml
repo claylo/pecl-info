@@ -19,6 +19,6 @@
 - Uninitialized smart_str in convert_to_char (remicollet)
 - Missing free in convert_to_char (remicollet)</n>
  <f>37894</f>
- <g>http://pecl.php.net/get/yaml-2.0.0RC3</g>
+ <g>https://pecl.php.net/get/yaml-2.0.0RC3</g>
  <x xlink:href="package.2.0.0RC3.xml"/>
 </r>

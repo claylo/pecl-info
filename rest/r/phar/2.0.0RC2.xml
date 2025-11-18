@@ -92,6 +92,6 @@ Changes since 2.0.0b1: addition of phar.cache_list, many performance improvement
  add support for package signing to tar-based archives
  require PHP 5.2.1+</n>
  <f>436944</f>
- <g>http://pecl.php.net/get/phar-2.0.0RC2</g>
+ <g>https://pecl.php.net/get/phar-2.0.0RC2</g>
  <x xlink:href="package.2.0.0RC2.xml"/>
 </r>

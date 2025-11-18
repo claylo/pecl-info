@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/gnupg">gnupg</p>
+ <c>pecl.php.net</c>
+ <v>1.5.4</v>
+ <st>stable</st>
+ <l>BSD, revised</l>
+ <m>bukka</m>
+ <s>wrapper around the gpgme library</s>
+ <d>This extension provides methods to interact with gnupg</d>
+ <da>2025-08-08 13:08:24</da>
+ <n>* Fixed GH-57: PHP 8.5 build failure due to usage of removed zend_exception_get_default()
+* Fixed GH-59: Failure to build with gpgme &gt;= 2.0.0 due to romoved trustlist</n>
+ <f>47874</f>
+ <g>https://pecl.php.net/get/gnupg-1.5.4</g>
+ <x xlink:href="package.1.5.4.xml"/>
+</r>

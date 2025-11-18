@@ -20,6 +20,6 @@ Fixed: db2-bind-param with INOUT LOB parameters
 Enhanced: Enable iSeries system naming mode from LUW to iSeries
 Enhanced: Clear global error state at end of request</n>
  <f>158319</f>
- <g>http://pecl.php.net/get/ibm_db2-1.9.6</g>
+ <g>https://pecl.php.net/get/ibm_db2-1.9.6</g>
  <x xlink:href="package.1.9.6.xml"/>
 </r>

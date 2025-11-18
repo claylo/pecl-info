@@ -42,6 +42,6 @@
  <n>Fixed some memory leaks.
            Fixed properties serialization with first capital letter.</n>
  <f>41844</f>
- <g>http://pecl.php.net/get/hprose-1.6.2</g>
+ <g>https://pecl.php.net/get/hprose-1.6.2</g>
  <x xlink:href="package.1.6.2.xml"/>
 </r>

@@ -20,6 +20,6 @@ This package was originally developed by Bart Vanbrabant. Old versions are avail
 - Calculate the length values only once (strlen cleanup)
 - Fixed TSRM build</n>
  <f>7017</f>
- <g>http://pecl.php.net/get/htscanner-0.6.1</g>
+ <g>https://pecl.php.net/get/htscanner-0.6.1</g>
  <x xlink:href="package.0.6.1.xml"/>
 </r>

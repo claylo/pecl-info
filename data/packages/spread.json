@@ -15,7 +15,7 @@
             "releasedBy": "rrichards",
             "releaseDate": "2008-10-22T12:54:56+00:00",
             "releaseNotes": "- Added optional parameter to connect() allowing receipt of\njoin/leave messages\n- service_type property added to received messages\n- membership data added to membership based messages\n- Spread::leave() method implemented\n- Add private group information (patch by Benjamin Schulz)\n- Spread::receive returns null on timeout",
-            "get": "http://pecl.php.net/get/spread-2.1.0",
+            "get": "https://pecl.php.net/get/spread-2.1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.2": {
@@ -25,7 +25,7 @@
             "releasedBy": "rrichards",
             "releaseDate": "2008-06-09T10:09:42+00:00",
             "releaseNotes": "- fix zts build (patch from Alexey Zakhlestin)\n-fix config scrip\n- fix bug #13965 (spread_receive() should be able to wait forever).\n  (patch from Alexey Zakhlestin)\n- 64 bit fixes\n- prevent potential overflow calling multicast\n- fix name collision with curl. (patch by Alexey Zakhlestin)",
-            "get": "http://pecl.php.net/get/spread-2.0.2",
+            "get": "https://pecl.php.net/get/spread-2.0.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.1": {
@@ -35,7 +35,7 @@
             "releasedBy": "rrichards",
             "releaseDate": "2008-05-03T12:44:48+00:00",
             "releaseNotes": "- fix misplaced parenthesis (patch by Kevin Murphy)\n- fix mem corruption calling receive multiple time",
-            "get": "http://pecl.php.net/get/spread-2.0.1",
+            "get": "https://pecl.php.net/get/spread-2.0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "2.0.0": {
@@ -45,7 +45,7 @@
             "releasedBy": "rrichards",
             "releaseDate": "2008-03-24T07:29:27+00:00",
             "releaseNotes": "- change API and method signatures\n- remove unimplemented functions/functionality\n- re-work much of the internal code\n- fix various segfaults and other memory issues",
-            "get": "http://pecl.php.net/get/spread-2.0.0",
+            "get": "https://pecl.php.net/get/spread-2.0.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.1": {
@@ -55,7 +55,7 @@
             "releasedBy": "gschlossnagle",
             "releaseDate": "2002-10-17T05:45:00+00:00",
             "releaseNotes": "Initial import into PECL",
-            "get": "http://pecl.php.net/get/spread-1.1",
+            "get": "https://pecl.php.net/get/spread-1.1",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

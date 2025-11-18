@@ -45,6 +45,6 @@ Add: EventSslContext options:
 Issue #13: EventBufferEvent::__construct failed to accept a persistent
 socket client(STREAM_CLIENT_PERSISTENT)</n>
  <f>78856</f>
- <g>http://pecl.php.net/get/event-1.11.0</g>
+ <g>https://pecl.php.net/get/event-1.11.0</g>
  <x xlink:href="package.1.11.0.xml"/>
 </r>

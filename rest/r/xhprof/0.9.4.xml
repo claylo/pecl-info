@@ -17,6 +17,6 @@
 -- Change graph edge colour. PR#23
 -- Added .gitignore file for build artifacts. PR#25</n>
  <f>842077</f>
- <g>http://pecl.php.net/get/xhprof-0.9.4</g>
+ <g>https://pecl.php.net/get/xhprof-0.9.4</g>
  <x xlink:href="package.0.9.4.xml"/>
 </r>

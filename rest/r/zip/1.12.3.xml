@@ -16,6 +16,6 @@
  <n>- clean all uses of private libzip structure
 - allow to build in php tree</n>
  <f>271567</f>
- <g>http://pecl.php.net/get/zip-1.12.3</g>
+ <g>https://pecl.php.net/get/zip-1.12.3</g>
  <x xlink:href="package.1.12.3.xml"/>
 </r>

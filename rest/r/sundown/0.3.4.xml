@@ -25,6 +25,6 @@ PECL Sundown provides straight forward object oriented Markdown API and customiz
   * improve build script.
   * add Changelog, adjust package.xml</n>
  <f>52604</f>
- <g>http://pecl.php.net/get/sundown-0.3.4</g>
+ <g>https://pecl.php.net/get/sundown-0.3.4</g>
  <x xlink:href="package.0.3.4.xml"/>
 </r>

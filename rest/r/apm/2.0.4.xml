@@ -23,6 +23,6 @@ A web frontend exists for manipulating the data stored in database at: https://g
 - Temporary buffer not freed when generating stacktraces.
 - Arguments in stacktraces dumped with a bigger depth than what is configured with apm.dump_max_depth.</n>
  <f>31300</f>
- <g>http://pecl.php.net/get/APM-2.0.4</g>
+ <g>https://pecl.php.net/get/APM-2.0.4</g>
  <x xlink:href="package.2.0.4.xml"/>
 </r>

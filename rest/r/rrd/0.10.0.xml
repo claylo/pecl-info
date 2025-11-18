@@ -18,6 +18,6 @@
 - BC break : rdd_fetch returned array format changed, these items doesn't
  exist anymore - &quot;ds_cnt&quot;, &quot;ds_namv&quot;</n>
  <f>26291</f>
- <g>http://pecl.php.net/get/rrd-0.10.0</g>
+ <g>https://pecl.php.net/get/rrd-0.10.0</g>
  <x xlink:href="package.0.10.0.xml"/>
 </r>

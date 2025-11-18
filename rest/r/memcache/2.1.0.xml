@@ -27,6 +27,6 @@ handy OO and procedural interfaces.
 - Added memcache.max_failover_attempts ini directive, which can be used to configure max number of 
   servers to try when setting and getting data.</n>
  <f>19567</f>
- <g>http://pecl.php.net/get/memcache-2.1.0</g>
+ <g>https://pecl.php.net/get/memcache-2.1.0</g>
  <x xlink:href="package.2.1.0.xml"/>
 </r>

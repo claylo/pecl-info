@@ -15,6 +15,6 @@
  <da>2016-04-04 20:17:34</da>
  <n>- The Argon2 function is now available for password hashing</n>
  <f>169516</f>
- <g>http://pecl.php.net/get/libsodium-1.0.3</g>
+ <g>https://pecl.php.net/get/libsodium-1.0.3</g>
  <x xlink:href="package.1.0.3.xml"/>
 </r>

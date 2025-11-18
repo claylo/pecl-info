@@ -32,6 +32,6 @@
 - Remove unused messages such as wall_time?memory records
 - Improve display status module</n>
  <f>63928</f>
- <g>http://pecl.php.net/get/trace-1.0.0</g>
+ <g>https://pecl.php.net/get/trace-1.0.0</g>
  <x xlink:href="package.1.0.0.xml"/>
 </r>

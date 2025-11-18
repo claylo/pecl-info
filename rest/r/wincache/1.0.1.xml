@@ -22,6 +22,6 @@
 - Changed variable names and comments to indicate rplist is resolve path cache and not just relative path cache
 - Changed wincache.php to use resolve_path instead of relative_path</n>
  <f>93334</f>
- <g>http://pecl.php.net/get/WINCACHE-1.0.1</g>
+ <g>https://pecl.php.net/get/WINCACHE-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

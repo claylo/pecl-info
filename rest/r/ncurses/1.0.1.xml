@@ -23,6 +23,6 @@ See also http://www.gnu.org/software/ncurses/ncurses.html</d>
  <da>2009-12-17 13:59:57</da>
  <n>Add --enable-ncursesw configure switch for optional wide char support</n>
  <f>16045</f>
- <g>http://pecl.php.net/get/ncurses-1.0.1</g>
+ <g>https://pecl.php.net/get/ncurses-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

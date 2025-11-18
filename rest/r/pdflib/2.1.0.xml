@@ -24,6 +24,6 @@ http://www.pdflib.com/developer-center/technical-documentation/php-howto
  <n>- added support for PDFlib 7
 - prepaired for build with PHP 5.2 (API of PHP_ME_MAPPING changed)</n>
  <f>55625</f>
- <g>http://pecl.php.net/get/pdflib-2.1.0</g>
+ <g>https://pecl.php.net/get/pdflib-2.1.0</g>
  <x xlink:href="package.2.1.0.xml"/>
 </r>

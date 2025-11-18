@@ -16,6 +16,6 @@
  <n>- fix version check in control panel page (gh#182, lennartwesdijk)
 - do not create null strings, palloc may fail</n>
  <f>109196</f>
- <g>http://pecl.php.net/get/apcu-5.1.5</g>
+ <g>https://pecl.php.net/get/apcu-5.1.5</g>
  <x xlink:href="package.5.1.5.xml"/>
 </r>

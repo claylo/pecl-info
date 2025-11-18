@@ -22,6 +22,6 @@ Changes:
 * Fixed various issues with query creation and execution.
 * Corrected various build issues.</n>
  <f>27977</f>
- <g>http://pecl.php.net/get/couchbase-2.0.1</g>
+ <g>https://pecl.php.net/get/couchbase-2.0.1</g>
  <x xlink:href="package.2.0.1.xml"/>
 </r>

@@ -37,6 +37,6 @@
 - Fixed onFinish event callbacks memory leak problem
 - Fixed the problem task finish can not be used under BASE mode</n>
  <f>502770</f>
- <g>http://pecl.php.net/get/swoole-1.8.2</g>
+ <g>https://pecl.php.net/get/swoole-1.8.2</g>
  <x xlink:href="package.1.8.2.xml"/>
 </r>

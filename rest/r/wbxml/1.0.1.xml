@@ -17,6 +17,6 @@
  <da>2009-01-29 14:31:45</da>
  <n>Fixed checking lib64 library path for libraries</n>
  <f>4666</f>
- <g>http://pecl.php.net/get/wbxml-1.0.1</g>
+ <g>https://pecl.php.net/get/wbxml-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

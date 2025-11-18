@@ -30,6 +30,6 @@ Bugs Fixed:
 - #69465 Resolve quoted and non-specific scalars as strings
 - #69616 Fix double free when unserialize fails</n>
  <f>38606</f>
- <g>http://pecl.php.net/get/yaml-1.2.0</g>
+ <g>https://pecl.php.net/get/yaml-1.2.0</g>
  <x xlink:href="package.1.2.0.xml"/>
 </r>

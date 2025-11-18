@@ -15,7 +15,7 @@
             "releasedBy": "flavius",
             "releaseDate": "2011-09-05T14:23:04+00:00",
             "releaseNotes": "Initial import into the PECL directory.",
-            "get": "http://pecl.php.net/get/meta-0.0.1",
+            "get": "https://pecl.php.net/get/meta-0.0.1",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

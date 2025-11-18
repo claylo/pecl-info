@@ -17,6 +17,6 @@
 - Add support for msg_desc-&gt;GroupId. (Pierrick)
 - Add Version support within the msg_desc support. (Pierrick)</n>
  <f>38403</f>
- <g>http://pecl.php.net/get/mqseries-0.13.0</g>
+ <g>https://pecl.php.net/get/mqseries-0.13.0</g>
  <x xlink:href="package.0.13.0.xml"/>
 </r>

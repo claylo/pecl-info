@@ -16,6 +16,6 @@
  <n>- Add OPSYS_CPM constant as documented
 - Fix build with PHP 7.3</n>
  <f>267715</f>
- <g>http://pecl.php.net/get/zip-1.15.3</g>
+ <g>https://pecl.php.net/get/zip-1.15.3</g>
  <x xlink:href="package.1.15.3.xml"/>
 </r>

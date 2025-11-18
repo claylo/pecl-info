@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (99)
+## Relevant Extensions (103)
 
 ### Authentication (2)
 
@@ -67,7 +67,7 @@ The Datadog PHP Tracer brings APM and distributed tracing to PHP.
 <li>Latest Release: <a href="https://pecl.php.net/get/datadog_trace-1.14.0">1.14.0</a> on 13 Nov 2025</li>
 <li>Release data in JSON: <a href="data/packages/datadog_trace.json">datadog_trace.json</a></li>
 <li><a href="https://pecl.php.net/packages/datadog_trace">datadog_trace on PECL</a></li>
-<li></li>
+<li><a href="https://docs.datadoghq.com/tracing/languages/php/">:house: Home</a> &nbsp; <a href="https://github.com/DataDog/dd-trace-php">:sparkles: Source</a> &nbsp; <a href="https://github.com/DataDog/dd-trace-php/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1029&rid=&cid=2">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>excimer&nbsp; :eight:</summary>
@@ -127,10 +127,10 @@ APC User Caching
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/APCu-5.1.24">5.1.24</a> on 21 Sep 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/APCu-5.1.27">5.1.27</a> on 28 Aug 2025</li>
 <li>Release data in JSON: <a href="data/packages/apcu.json">apcu.json</a></li>
 <li><a href="https://pecl.php.net/packages/APCu">APCu on PECL</a></li>
-<li><a href="https://php.net/apcu">:book: Documentation</a> &nbsp; <a href="https://github.com/krakjoe/apcu">:sparkles: Source</a> &nbsp; <a href="https://github.com/krakjoe/apcu/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=944&rid=&cid=3">:bar_chart: Stats</a></li>
+<li><a href="http://php.net/apcu">:book: Documentation</a> &nbsp; <a href="https://github.com/krakjoe/apcu">:sparkles: Source</a> &nbsp; <a href="https://github.com/krakjoe/apcu/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=944&rid=&cid=3">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>immutable_cache&nbsp; :eight:</summary>
@@ -151,8 +151,8 @@ immutable_cache - an shared memory cache of immutable values. Based on APCu.
 <p>memcached extension</p>
 
 ```
-Memcached is a caching daemon designed especially for 
-    dynamic web applications to decrease database load by 
+Memcached is a caching daemon designed especially for
+    dynamic web applications to decrease database load by
     storing objects in memory.
     This extension allows you to work with memcached through
     handy OO and procedural interfaces.
@@ -163,7 +163,7 @@ Memcached is a caching daemon designed especially for
 <li>Latest Release: <a href="https://pecl.php.net/get/memcache-8.2">8.2</a> on 30 Apr 2023</li>
 <li>Release data in JSON: <a href="data/packages/memcache.json">memcache.json</a></li>
 <li><a href="https://pecl.php.net/packages/memcache">memcache on PECL</a></li>
-<li><a href="http://www.php.net/memcache">:book: Documentation</a> &nbsp; <a href="https://github.com/websupport-sk/pecl-memcache">:sparkles: Source</a> &nbsp; <a href="https://github.com/websupport-sk/pecl-memcache/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=294&rid=&cid=3">:bar_chart: Stats</a></li>
+<li><a href="https://php.net/memcache">:book: Documentation</a> &nbsp; <a href="https://github.com/websupport-sk/pecl-memcache">:sparkles: Source</a> &nbsp; <a href="https://github.com/websupport-sk/pecl-memcache/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=294&rid=&cid=3">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>memcached&nbsp; :eight:</summary>
@@ -175,10 +175,10 @@ servers.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/memcached-3.3.0">3.3.0</a> on 17 Oct 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/memcached-3.4.0">3.4.0</a> on 13 Oct 2025</li>
 <li>Release data in JSON: <a href="data/packages/memcached.json">memcached.json</a></li>
 <li><a href="https://pecl.php.net/packages/memcached">memcached on PECL</a></li>
-<li><a href="https://php.net/memcached">:book: Documentation</a> &nbsp; <a href="https://github.com/php-memcached-dev/php-memcached">:house: Home</a> &nbsp; <a href="https://github.com/php-memcached-dev/php-memcached">:sparkles: Source</a> &nbsp; <a href="https://github.com/php-memcached-dev/php-memcached/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=847&rid=&cid=3">:bar_chart: Stats</a></li>
+<li><a href="http://php.net/memcached">:book: Documentation</a> &nbsp; <a href="https://github.com/php-memcached-dev/php-memcached">:house: Home</a> &nbsp; <a href="https://github.com/php-memcached-dev/php-memcached">:sparkles: Source</a> &nbsp; <a href="https://github.com/php-memcached-dev/php-memcached/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=847&rid=&cid=3">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 
@@ -211,10 +211,10 @@ The PHP client library provides fast access to documents stored in a Couchbase S
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/couchbase-4.3.0">4.3.0</a> on 13 Jun 2025</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/couchbase-4.4.0">4.4.0</a> on 30 Sep 2025</li>
 <li>Release data in JSON: <a href="data/packages/couchbase.json">couchbase.json</a></li>
 <li><a href="https://pecl.php.net/packages/couchbase">couchbase on PECL</a></li>
-<li><a href="https://docs.couchbase.com/php-sdk/current/hello-world/start-using-sdk.html">:book: Documentation</a> &nbsp; <a href="https://docs.couchbase.com/php-sdk/current/project-docs/sdk-release-notes.html">:house: Home</a> &nbsp; <a href="https://github.com/couchbase/php-couchbase">:sparkles: Source</a> &nbsp; <a href="https://issues.couchbase.com/browse/PCBC">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=922&rid=&cid=7">:bar_chart: Stats</a></li>
+<li><a href="https://docs.couchbase.com/sdk-api/couchbase-php-client">:book: Documentation</a> &nbsp; <a href="https://docs.couchbase.com/php-sdk/current/hello-world/overview.html">:house: Home</a> &nbsp; <a href="https://github.com/couchbase/couchbase-php-client">:sparkles: Source</a> &nbsp; <a href="https://jira.issues.couchbase.com/jira/software/c/projects/PCBC/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=922&rid=&cid=7">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>ibm_db2&nbsp; :eight:</summary>
@@ -240,7 +240,7 @@ ibm_db2 provides access to DB2 and compatible databases on PHP.
 <li>Latest Release: <a href="https://pecl.php.net/get/ibm_db2-2.3.1">2.3.1</a> on 31 Oct 2025</li>
 <li>Release data in JSON: <a href="data/packages/ibm_db2.json">ibm_db2.json</a></li>
 <li><a href="https://pecl.php.net/packages/ibm_db2">ibm_db2 on PECL</a></li>
-<li></li>
+<li><a href="https://php.net/ibm_db2">:book: Documentation</a> &nbsp; <a href="https://github.com/php/pecl-database-ibm_db2">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-database-ibm_db2/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=440&rid=&cid=7">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>mongodb&nbsp; :eight:</summary>
@@ -253,7 +253,7 @@ necessary to build a fully-functional MongoDB driver.
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/mongodb-2.1.1">2.1.1</a> on 13 Jun 2025</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/mongodb-2.1.4">2.1.4</a> on 08 Oct 2025</li>
 <li>Release data in JSON: <a href="data/packages/mongodb.json">mongodb.json</a></li>
 <li><a href="https://pecl.php.net/packages/mongodb">mongodb on PECL</a></li>
 <li><a href="https://www.php.net/mongodb">:book: Documentation</a> &nbsp; <a href="https://www.mongodb.com/docs/drivers/php-drivers/">:house: Home</a> &nbsp; <a href="https://github.com/mongodb/mongo-php-driver">:sparkles: Source</a> &nbsp; <a href="https://jira.mongodb.org/browse/PHPC">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=981&rid=&cid=7">:bar_chart: Stats</a></li>
@@ -295,7 +295,7 @@ that user principal's password is given in the connection data.
 ```
 The OCI8 extension lets you access Oracle Database.
 
-Use 'pecl install oci8' to install for PHP 8.2.
+Use 'pecl install oci8' to install for PHP 8.2 and PHP 8.3.
 
 Use 'pecl install oci8-3.2.1' to install for PHP 8.1.
 
@@ -312,7 +312,7 @@ Oracle's standard cross-version connectivity applies.  For example, PHP OCI8 lin
 <li>Latest Release: <a href="https://pecl.php.net/get/oci8-3.4.0">3.4.0</a> on 24 Jul 2024</li>
 <li>Release data in JSON: <a href="data/packages/oci8.json">oci8.json</a></li>
 <li><a href="https://pecl.php.net/packages/oci8">oci8 on PECL</a></li>
-<li><a href="http://www.php.net/oci8">:book: Documentation</a> &nbsp; <a href="https://github.com/php/php-src/tree/master/ext/oci8">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/php-src/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=277&rid=&cid=7">:bar_chart: Stats</a></li>
+<li><a href="https://php.net/oci8">:book: Documentation</a> &nbsp; <a href="https://github.com/php/pecl-database-oci8">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-database-oci8/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=277&rid=&cid=7">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>PDO_IBM&nbsp; :eight:</summary>
@@ -324,10 +324,10 @@ Universal Database, IBM Cloudscape, Apache Derby databases and IDS (Informix Dat
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/PDO_IBM-1.6.1">1.6.1</a> on 16 Nov 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/PDO_IBM-1.7.0">1.7.0</a> on 24 Sep 2025</li>
 <li>Release data in JSON: <a href="data/packages/pdo_ibm.json">pdo_ibm.json</a></li>
 <li><a href="https://pecl.php.net/packages/PDO_IBM">PDO_IBM on PECL</a></li>
-<li><a href="http://php.net/pdo-ibm">:book: Documentation</a> &nbsp; <a href="https://github.com/php/pecl-database-pdo_ibm">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-database-pdo_ibm/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=661&rid=&cid=7">:bar_chart: Stats</a></li>
+<li><a href="https://php.net/pdo-ibm">:book: Documentation</a> &nbsp; <a href="https://github.com/php/pecl-database-pdo_ibm">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-database-pdo_ibm/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=661&rid=&cid=7">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>PDO_INFORMIX&nbsp; :eight:</summary>
@@ -343,7 +343,7 @@ from http://ibm.com/informix/downloads.html.
 <li>Latest Release: <a href="https://pecl.php.net/get/PDO_INFORMIX-1.3.7">1.3.7</a> on 29 Jan 2025</li>
 <li>Release data in JSON: <a href="data/packages/pdo_informix.json">pdo_informix.json</a></li>
 <li><a href="https://pecl.php.net/packages/PDO_INFORMIX">PDO_INFORMIX on PECL</a></li>
-<li><a href="https://php.net/pdo-informix">:book: Documentation</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=549&rid=&cid=7">:bar_chart: Stats</a></li>
+<li><a href="http://php.net/pdo-informix">:book: Documentation</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=549&rid=&cid=7">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>pdo_sqlsrv&nbsp; :eight:</summary>
@@ -397,7 +397,7 @@ This extension provides an API for communicating with RESP-based key-value
 <li>Latest Release: <a href="https://pecl.php.net/get/redis-6.3.0">6.3.0</a> on 06 Nov 2025</li>
 <li>Release data in JSON: <a href="data/packages/redis.json">redis.json</a></li>
 <li><a href="https://pecl.php.net/packages/redis">redis on PECL</a></li>
-<li></li>
+<li><a href="https://github.com/phpredis/phpredis/#readme">:book: Documentation</a> &nbsp; <a href="https://github.com/phpredis/phpredis/">:house: Home</a> &nbsp; <a href="https://github.com/phpredis/phpredis/">:sparkles: Source</a> &nbsp; <a href="https://github.com/phpredis/phpredis/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=935&rid=&cid=7">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>SeasClick</summary>
@@ -446,7 +446,7 @@ located at http://www.iana.org/time-zones.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/timezonedb-2025.2">2025.2</a> on 24 Mar 2025</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/timezonedb-2025.2.2">2025.2.2</a> on 25 Sep 2025</li>
 <li>Release data in JSON: <a href="data/packages/timezonedb.json">timezonedb.json</a></li>
 <li><a href="https://pecl.php.net/packages/timezonedb">timezonedb on PECL</a></li>
 <li><a href="https://github.com/php/pecl-datetime-timezonedb">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-datetime-timezonedb/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=536&rid=&cid=8">:bar_chart: Stats</a></li>
@@ -464,10 +464,10 @@ This extension provides methods to interact with gnupg
 ```
 <p><ul>
 <li>License: BSD-2-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/gnupg-1.5.3">1.5.3</a> on 02 Jun 2025</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/gnupg-1.5.4">1.5.4</a> on 08 Aug 2025</li>
 <li>Release data in JSON: <a href="data/packages/gnupg.json">gnupg.json</a></li>
 <li><a href="https://pecl.php.net/packages/gnupg">gnupg on PECL</a></li>
-<li><a href="https://php.net/gnupg">:book: Documentation</a> &nbsp; <a href="https://github.com/php-gnupg/php-gnupg">:sparkles: Source</a> &nbsp; <a href="https://github.com/php-gnupg/php-gnupg/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=543&rid=&cid=6">:bar_chart: Stats</a></li>
+<li><a href="http://php.net/gnupg">:book: Documentation</a> &nbsp; <a href="https://github.com/php-gnupg/php-gnupg">:sparkles: Source</a> &nbsp; <a href="https://github.com/php-gnupg/php-gnupg/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=543&rid=&cid=6">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>PKCS11&nbsp; :eight:</summary>
@@ -508,13 +508,19 @@ distributions, using extended crypt library (libxcrypt):
 
 * sha512 provided for legacy as used on some old distributions
 * yescrypt used on modern distributions
+
+It also provides additional functions from libxcrypt missing in core PHP:
+
+* crypt_preferred_method
+* crypt_gensalt
+* crypt_checksalt
 ```
 <p><ul>
-<li>License: </li>
+<li>License: PHP-3.01</li>
 <li>Latest Release: <a href="https://pecl.php.net/get/xpass-1.1.0">1.1.0</a> on 26 Sep 2024</li>
 <li>Release data in JSON: <a href="data/packages/xpass.json">xpass.json</a></li>
 <li><a href="https://pecl.php.net/packages/xpass">xpass on PECL</a></li>
-<li><a href="https://git.remirepo.net/cgit/tools/php-xpass.git/">:house: Home</a> &nbsp; <a href="https://github.com/remicollet/php-xpass">:sparkles: Source</a> &nbsp; <a href="https://github.com/remicollet/php-xpass/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1085&rid=&cid=6">:bar_chart: Stats</a></li>
+<li><a href="https://www.php.net/xpass">:book: Documentation</a> &nbsp; <a href="https://git.remirepo.net/cgit/tools/php-xpass.git/">:house: Home</a> &nbsp; <a href="https://github.com/remicollet/php-xpass">:sparkles: Source</a> &nbsp; <a href="https://github.com/remicollet/php-xpass/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1085&rid=&cid=6">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 
@@ -539,10 +545,10 @@ This extension provides interface to the libeio library written by Marc Lehmann
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/eio-3.1.3">3.1.3</a> on 02 Mar 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/eio-3.1.4">3.1.4</a> on 17 Jul 2025</li>
 <li>Release data in JSON: <a href="data/packages/eio.json">eio.json</a></li>
 <li><a href="https://pecl.php.net/packages/eio">eio on PECL</a></li>
-<li><a href="http://docs.php.net/eio">:book: Documentation</a> &nbsp; <a href="https://github.com/rosmanov/pecl-eio">:sparkles: Source</a> &nbsp; <a href="https://github.com/rosmanov/pecl-eio/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=913&rid=&cid=44">:bar_chart: Stats</a></li>
+<li><a href="https://www.php.net/eio">:book: Documentation</a> &nbsp; <a href="https://github.com/rosmanov/pecl-eio">:sparkles: Source</a> &nbsp; <a href="https://github.com/rosmanov/pecl-eio/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=913&rid=&cid=44">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>ev&nbsp; :eight:</summary>
@@ -557,7 +563,7 @@ ev provides interface to libev library - high performance
 <li>Latest Release: <a href="https://pecl.php.net/get/ev-1.2.2">1.2.2</a> on 04 Nov 2025</li>
 <li>Release data in JSON: <a href="data/packages/ev.json">ev.json</a></li>
 <li><a href="https://pecl.php.net/packages/ev">ev on PECL</a></li>
-<li></li>
+<li><a href="https://www.php.net/ev">:book: Documentation</a> &nbsp; <a href="https://bitbucket.org/osmanov/pecl-ev">:house: Home</a> &nbsp; <a href="https://bitbucket.org/osmanov/pecl-ev/src">:sparkles: Source</a> &nbsp; <a href="https://bitbucket.org/osmanov/pecl-ev/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=938&rid=&cid=44">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>openswoole&nbsp; :eight:</summary>
@@ -599,7 +605,7 @@ Event-driven asynchronous and concurrent networking engine with high performance
 <li>Latest Release: <a href="https://pecl.php.net/get/swoole-6.1.2">6.1.2</a> on 11 Nov 2025</li>
 <li>Release data in JSON: <a href="data/packages/swoole.json">swoole.json</a></li>
 <li><a href="https://pecl.php.net/packages/swoole">swoole on PECL</a></li>
-<li></li>
+<li><a href="https://wiki.swoole.com/en/#/">:book: Documentation</a> &nbsp; <a href="https://github.com/swoole/swoole-src">:house: Home</a> &nbsp; <a href="https://github.com/swoole/swoole-src">:sparkles: Source</a> &nbsp; <a href="https://github.com/swoole/swoole-src/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=957&rid=&cid=44">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>uv</summary>
@@ -628,7 +634,7 @@ PHP extension for compression and decompression with Brotli library.
 ```
 <p><ul>
 <li>License: MIT</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/brotli-0.18.0">0.18.0</a> on 17 Jun 2025</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/brotli-0.18.2">0.18.2</a> on 17 Aug 2025</li>
 <li>Release data in JSON: <a href="data/packages/brotli.json">brotli.json</a></li>
 <li><a href="https://pecl.php.net/packages/brotli">brotli on PECL</a></li>
 <li><a href="https://github.com/kjdev/php-ext-brotli">:house: Home</a> &nbsp; <a href="https://github.com/kjdev/php-ext-brotli">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1079&rid=&cid=33">:bar_chart: Stats</a></li>
@@ -676,8 +682,8 @@ Retrieve RPM information using librpm, from local RPM file or from installed pac
 Documentation: https://www.php.net/rpminfo
 ```
 <p><ul>
-<li>License: </li>
-<li>Latest Release: <a href="https://pecl.php.net/get/rpminfo-1.2.0">1.2.0</a> on 19 Dec 2024</li>
+<li>License: PHP-3.01</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/rpminfo-1.2.1">1.2.1</a> on 25 Sep 2025</li>
 <li>Release data in JSON: <a href="data/packages/rpminfo.json">rpminfo.json</a></li>
 <li><a href="https://pecl.php.net/packages/rpminfo">rpminfo on PECL</a></li>
 <li><a href="https://www.php.net/rpminfo">:book: Documentation</a> &nbsp; <a href="https://git.remirepo.net/cgit/tools/php-rpminfo.git/">:house: Home</a> &nbsp; <a href="https://git.remirepo.net/cgit/tools/php-rpminfo.git/">:sparkles: Source</a> &nbsp; <a href="https://github.com/remicollet/rpminfo/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1019&rid=&cid=33">:bar_chart: Stats</a></li>
@@ -732,7 +738,7 @@ Support for YAML 1.1 (YAML Ain't Markup Language) serialization using the
 <li>Latest Release: <a href="https://pecl.php.net/get/yaml-2.3.0">2.3.0</a> on 12 Nov 2025</li>
 <li>Release data in JSON: <a href="data/packages/yaml.json">yaml.json</a></li>
 <li><a href="https://pecl.php.net/packages/yaml">yaml on PECL</a></li>
-<li></li>
+<li><a href="https://php.net/yaml">:book: Documentation</a> &nbsp; <a href="http://bd808.com/pecl-file_formats-yaml/">:house: Home</a> &nbsp; <a href="https://github.com/php/pecl-file_formats-yaml">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-file_formats-yaml/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=876&rid=&cid=33">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>zip&nbsp; :eight:</summary>
@@ -742,11 +748,11 @@ Support for YAML 1.1 (YAML Ain't Markup Language) serialization using the
 Zip is an extension to create, modify and read zip files.
 ```
 <p><ul>
-<li>License: </li>
-<li>Latest Release: <a href="https://pecl.php.net/get/zip-1.22.6">1.22.6</a> on 07 May 2025</li>
+<li>License: PHP-3.01</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/zip-1.22.7">1.22.7</a> on 25 Sep 2025</li>
 <li>Release data in JSON: <a href="data/packages/zip.json">zip.json</a></li>
 <li><a href="https://pecl.php.net/packages/zip">zip on PECL</a></li>
-<li><a href="https://php.net/zip">:book: Documentation</a> &nbsp; <a href="https://github.com/pierrejoye/php_zip">:sparkles: Source</a> &nbsp; <a href="https://github.com/pierrejoye/php_zip/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=208&rid=&cid=33">:bar_chart: Stats</a></li>
+<li><a href="http://www.php.net/zip">:book: Documentation</a> &nbsp; <a href="https://github.com/pierrejoye/php_zip">:sparkles: Source</a> &nbsp; <a href="https://github.com/pierrejoye/php_zip/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=208&rid=&cid=33">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>zstd&nbsp; :eight:</summary>
@@ -757,7 +763,7 @@ PHP extension for compression and decompression with Zstandard library.
 ```
 <p><ul>
 <li>License: MIT</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/zstd-0.14.0">0.14.0</a> on 05 Nov 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/zstd-0.15.2">0.15.2</a> on 01 Sep 2025</li>
 <li>Release data in JSON: <a href="data/packages/zstd.json">zstd.json</a></li>
 <li><a href="https://pecl.php.net/packages/zstd">zstd on PECL</a></li>
 <li><a href="https://github.com/kjdev/">:house: Home</a> &nbsp; <a href="https://github.com/kjdev/php-ext-zstd">:sparkles: Source</a> &nbsp; <a href="https://github.com/kjdev/php-ext-zstd/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1045&rid=&cid=33">:bar_chart: Stats</a></li>
@@ -765,7 +771,7 @@ PHP extension for compression and decompression with Zstandard library.
 </details>
 
 ***
-### File System (2)
+### File System (3)
 
 <details><summary>inotify&nbsp; :eight:</summary>
 <p>Inotify</p>
@@ -778,7 +784,7 @@ Inotify bindings for PHP
 <li>Latest Release: <a href="https://pecl.php.net/get/inotify-3.0.1">3.0.1</a> on 28 Oct 2025</li>
 <li>Release data in JSON: <a href="data/packages/inotify.json">inotify.json</a></li>
 <li><a href="https://pecl.php.net/packages/inotify">inotify on PECL</a></li>
-<li></li>
+<li><a href="https://php.net/inotify">:book: Documentation</a> &nbsp; <a href="https://github.com/arnaud-lb/php-inotify">:house: Home</a> &nbsp; <a href="https://github.com/arnaud-lb/php-inotify">:sparkles: Source</a> &nbsp; <a href="https://github.com/arnaud-lb/php-inotify/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=826&rid=&cid=9">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>smbclient&nbsp; :eight:</summary>
@@ -794,6 +800,20 @@ smbclient is a PHP extension that uses Samba's libsmbclient library to provide
 <li>Release data in JSON: <a href="data/packages/smbclient.json">smbclient.json</a></li>
 <li><a href="https://pecl.php.net/packages/smbclient">smbclient on PECL</a></li>
 <li><a href="https://github.com/eduardok/libsmbclient-php">:house: Home</a> &nbsp; <a href="https://github.com/eduardok/libsmbclient-php">:sparkles: Source</a> &nbsp; <a href="https://github.com/eduardok/libsmbclient-php/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=993&rid=&cid=9">:bar_chart: Stats</a></li>
+</ul></p><hr />
+</details>
+<details><summary>xattr&nbsp; :eight:</summary>
+<p>Extended attributes.</p>
+
+```
+This package allows to manipulate extended attributes on filesystems that support them.
+```
+<p><ul>
+<li>License: PHP-3.01</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/xattr-1.4.1">1.4.1</a> on 17 Sep 2025</li>
+<li>Release data in JSON: <a href="data/packages/xattr.json">xattr.json</a></li>
+<li><a href="https://pecl.php.net/packages/xattr">xattr on PECL</a></li>
+<li><a href="https://php.net/xattr">:book: Documentation</a> &nbsp; <a href="https://github.com/php/pecl-file_system-xattr">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-file_system-xattr/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=380&rid=&cid=9">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 
@@ -820,7 +840,7 @@ https://mdref.m6w6.name/http
 ```
 <p><ul>
 <li>License: BSD-2-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/pecl_http-4.2.6">4.2.6</a> on 19 Nov 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/pecl_http-4.3.1">4.3.1</a> on 09 Oct 2025</li>
 <li>Release data in JSON: <a href="data/packages/pecl_http.json">pecl_http.json</a></li>
 <li><a href="https://pecl.php.net/packages/pecl_http">pecl_http on PECL</a></li>
 <li><a href="https://mdref.m6w6.name/http">:book: Documentation</a> &nbsp; <a href="https://github.com/m6w6/ext-http">:sparkles: Source</a> &nbsp; <a href="https://github.com/m6w6/ext-http/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=429&rid=&cid=11">:bar_chart: Stats</a></li>
@@ -842,12 +862,12 @@ This extension requires ImageMagick version 6.5.3-10+ and PHP 5.6.0+.
 <li>Latest Release: <a href="https://pecl.php.net/get/imagick-3.8.0">3.8.0</a> on 10 Apr 2025</li>
 <li>Release data in JSON: <a href="data/packages/imagick.json">imagick.json</a></li>
 <li><a href="https://pecl.php.net/packages/imagick">imagick on PECL</a></li>
-<li><a href="http://php.net/imagick">:book: Documentation</a> &nbsp; <a href="https://phpimagick.com">:house: Home</a> &nbsp; <a href="https://github.com/Imagick/imagick">:sparkles: Source</a> &nbsp; <a href="https://github.com/Imagick/imagick/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=76&rid=&cid=12">:bar_chart: Stats</a></li>
+<li><a href="https://php.net/imagick">:book: Documentation</a> &nbsp; <a href="https://phpimagick.com">:house: Home</a> &nbsp; <a href="https://github.com/Imagick/imagick">:sparkles: Source</a> &nbsp; <a href="https://github.com/Imagick/imagick/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=76&rid=&cid=12">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 
 ***
-### Internationalization (1)
+### Internationalization (2)
 
 <details><summary>ecma_intl&nbsp; :eight:</summary>
 <p>ecma_intl is an i18n and l10n extension for PHP</p>
@@ -862,6 +882,25 @@ Internationalization API Specification.
 <li>Release data in JSON: <a href="data/packages/ecma_intl.json">ecma_intl.json</a></li>
 <li><a href="https://pecl.php.net/packages/ecma_intl">ecma_intl on PECL</a></li>
 <li><a href="https://github.com/php-ecma-intl/ext">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1080&rid=&cid=28">:bar_chart: Stats</a></li>
+</ul></p><hr />
+</details>
+<details><summary>translit&nbsp; :eight:</summary>
+<p>Transliterates non-latin character sets to latin</p>
+
+```
+This extension allows you to transliterate text in non-latin characters (such
+as Chinese, Cyrillic, Greek etc) to latin characters.  Besides the
+transliteration the extension also contains filters to upper- and lowercase
+latin, cyrillic and greek, and perform special forms of transliteration such
+as converting ligatures such as the Norwegian "æ" to "ae" and normalizing
+punctuation and spacing.
+```
+<p><ul>
+<li>License: BSD-2-Clause</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/translit-0.7.2">0.7.2</a> on 01 Jul 2025</li>
+<li>Release data in JSON: <a href="data/packages/translit.json">translit.json</a></li>
+<li><a href="https://pecl.php.net/packages/translit">translit on PECL</a></li>
+<li><a href="http://derickrethans.nl/translit.php">:house: Home</a> &nbsp; <a href="https://github.com/derickr/pecl-translit">:sparkles: Source</a> &nbsp; <a href="https://github.com/derickr/pecl-translit/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=403&rid=&cid=28">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 
@@ -957,11 +996,11 @@ Mailparse is an extension for parsing and working with email messages.
 It can deal with rfc822 and rfc2045 (MIME) compliant messages.
 ```
 <p><ul>
-<li>License: </li>
-<li>Latest Release: <a href="https://pecl.php.net/get/mailparse-3.1.8">3.1.8</a> on 04 Oct 2024</li>
+<li>License: PHP-3.01</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/mailparse-3.1.9">3.1.9</a> on 30 Sep 2025</li>
 <li>Release data in JSON: <a href="data/packages/mailparse.json">mailparse.json</a></li>
 <li><a href="https://pecl.php.net/packages/mailparse">mailparse on PECL</a></li>
-<li><a href="https://php.net/mailparse">:book: Documentation</a> &nbsp; <a href="https://github.com/php/pecl-mail-mailparse">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-mail-mailparse/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=143&rid=&cid=14">:bar_chart: Stats</a></li>
+<li><a href="http://php.net/mailparse">:book: Documentation</a> &nbsp; <a href="https://github.com/php/pecl-mail-mailparse">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-mail-mailparse/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=143&rid=&cid=14">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 
@@ -982,7 +1021,7 @@ The extension currently has implementations of the Haversine and
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/geospatial-0.3.3">0.3.3</a> on 19 Jun 2025</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/geospatial-0.3.5">0.3.5</a> on 01 Jul 2025</li>
 <li>Release data in JSON: <a href="data/packages/geospatial.json">geospatial.json</a></li>
 <li><a href="https://pecl.php.net/packages/geospatial">geospatial on PECL</a></li>
 <li><a href="https://github.com/php-geospatial/geospatial">:sparkles: Source</a> &nbsp; <a href="https://github.com/php-geospatial/geospatial/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=992&rid=&cid=15">:bar_chart: Stats</a></li>
@@ -1059,7 +1098,7 @@ This is an extension to efficiently schedule I/O, time and signal based
 <li>Latest Release: <a href="https://pecl.php.net/get/event-3.1.4">3.1.4</a> on 16 Jul 2024</li>
 <li>Release data in JSON: <a href="data/packages/event.json">event.json</a></li>
 <li><a href="https://pecl.php.net/packages/event">event on PECL</a></li>
-<li><a href="http://docs.php.net/event">:book: Documentation</a> &nbsp; <a href="https://bitbucket.org/osmanov/pecl-event">:house: Home</a> &nbsp; <a href="https://bitbucket.org/osmanov/pecl-event/src">:sparkles: Source</a> &nbsp; <a href="https://bitbucket.org/osmanov/pecl-event/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=418&rid=&cid=16">:bar_chart: Stats</a></li>
+<li><a href="https://www.php.net/event">:book: Documentation</a> &nbsp; <a href="https://bitbucket.org/osmanov/pecl-event">:house: Home</a> &nbsp; <a href="https://bitbucket.org/osmanov/pecl-event/src">:sparkles: Source</a> &nbsp; <a href="https://bitbucket.org/osmanov/pecl-event/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=418&rid=&cid=16">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>gearman&nbsp; :eight:</summary>
@@ -1074,7 +1113,7 @@ writing clients and workers.
 <li>Latest Release: <a href="https://pecl.php.net/get/gearman-2.1.4">2.1.4</a> on 07 Jan 2025</li>
 <li>Release data in JSON: <a href="data/packages/gearman.json">gearman.json</a></li>
 <li><a href="https://pecl.php.net/packages/gearman">gearman on PECL</a></li>
-<li><a href="http://php.net/gearman">:book: Documentation</a> &nbsp; <a href="http://gearman.org">:house: Home</a> &nbsp; <a href="https://github.com/php/pecl-networking-gearman">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-networking-gearman/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=861&rid=&cid=16">:bar_chart: Stats</a></li>
+<li><a href="https://php.net/gearman">:book: Documentation</a> &nbsp; <a href="http://gearman.org">:house: Home</a> &nbsp; <a href="https://github.com/php/pecl-networking-gearman">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-networking-gearman/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=861&rid=&cid=16">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>gRPC&nbsp; :eight:</summary>
@@ -1089,10 +1128,10 @@ languages.
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/gRPC-1.73.0">1.73.0</a> on 10 Jun 2025</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/gRPC-1.76.0">1.76.0</a> on 24 Oct 2025</li>
 <li>Release data in JSON: <a href="data/packages/grpc.json">grpc.json</a></li>
 <li><a href="https://pecl.php.net/packages/gRPC">gRPC on PECL</a></li>
-<li></li>
+<li><a href="http://grpc.io">:house: Home</a> &nbsp; <a href="https://github.com/grpc/grpc/tree/master/src/php/ext/grpc">:sparkles: Source</a> &nbsp; <a href="https://github.com/grpc/grpc/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=986&rid=&cid=16">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>ip2location</summary>
@@ -1100,17 +1139,17 @@ languages.
 
 ```
 This PECL extension enables you to get the geo location information of an IP address, such
-as country, region or state, city, latitude and longitude, US ZIP code, time zone,
-Internet Service Provider (ISP) or company name, domain name, net speed, area code,
+as country, region or state, district, city, latitude and longitude, ZIP/Postal code, time
+zone, Internet Service Provider (ISP) or company name, domain name, net speed, area code,
 weather station code, weather station name, mobile country code (MCC), mobile network code
-(MNC) and carrier brand, elevation, and usage type.
+(MNC) and carrier brand, elevation, usage type, address type, IAB category and ASN.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/ip2location-8.2.0">8.2.0</a> on 12 Jun 2023</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/ip2location-8.3.0">8.3.0</a> on 03 Sep 2025</li>
 <li>Release data in JSON: <a href="data/packages/ip2location.json">ip2location.json</a></li>
 <li><a href="https://pecl.php.net/packages/ip2location">ip2location on PECL</a></li>
-<li><a href="http://www.ip2location.com">:house: Home</a> &nbsp; <a href="https://github.com/chrislim2888/IP2Location-PECL-Extension">:sparkles: Source</a> &nbsp; <a href="https://github.com/chrislim2888/IP2Location-PECL-Extension/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=952&rid=&cid=16">:bar_chart: Stats</a></li>
+<li><a href="https://www.ip2location.com">:house: Home</a> &nbsp; <a href="https://github.com/chrislim2888/IP2Location-PECL-Extension">:sparkles: Source</a> &nbsp; <a href="https://github.com/chrislim2888/IP2Location-PECL-Extension/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=952&rid=&cid=16">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>ip2proxy</summary>
@@ -1123,7 +1162,7 @@ using IP2Proxy binary database.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/ip2proxy-3.1.0">3.1.0</a> on 05 Feb 2025</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/ip2proxy-3.1.0">3.1.0</a> on 06 Feb 2025</li>
 <li>Release data in JSON: <a href="data/packages/ip2proxy.json">ip2proxy.json</a></li>
 <li><a href="https://pecl.php.net/packages/ip2proxy">ip2proxy on PECL</a></li>
 <li><a href="https://www.ip2location.com">:house: Home</a> &nbsp; <a href="https://github.com/ip2location/ip2proxy-pecl">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1053&rid=&cid=16">:bar_chart: Stats</a></li>
@@ -1169,7 +1208,7 @@ Provides bindings to the functions of libssh2 which implements the SSH2 protocol
 <li>Latest Release: <a href="https://pecl.php.net/get/ssh2-1.4.1">1.4.1</a> on 10 Feb 2024</li>
 <li>Release data in JSON: <a href="data/packages/ssh2.json">ssh2.json</a></li>
 <li><a href="https://pecl.php.net/packages/ssh2">ssh2 on PECL</a></li>
-<li><a href="http://www.php.net/ssh2">:book: Documentation</a> &nbsp; <a href="http://www.libssh2.org">:house: Home</a> &nbsp; <a href="https://github.com/php/pecl-networking-ssh2">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-networking-ssh2/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=421&rid=&cid=16">:bar_chart: Stats</a></li>
+<li><a href="https://php.net/ssh2">:book: Documentation</a> &nbsp; <a href="http://www.libssh2.org">:house: Home</a> &nbsp; <a href="https://github.com/php/pecl-networking-ssh2">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-networking-ssh2/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=421&rid=&cid=16">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>uuid&nbsp; :eight:</summary>
@@ -1179,7 +1218,7 @@ Provides bindings to the functions of libssh2 which implements the SSH2 protocol
 A wrapper around Universally Unique IDentifier library (libuuid).
 ```
 <p><ul>
-<li>License: </li>
+<li>License: verify</li>
 <li>Latest Release: <a href="https://pecl.php.net/get/uuid-1.3.0">1.3.0</a> on 12 May 2025</li>
 <li>Release data in JSON: <a href="data/packages/uuid.json">uuid.json</a></li>
 <li><a href="https://pecl.php.net/packages/uuid">uuid on PECL</a></li>
@@ -1195,11 +1234,10 @@ A wrapper around Universally Unique IDentifier library (libuuid).
 
 ```
 The BitSet extension assists by providing a mechanism to manage sets of bits.
-
-This provides a similar API (object-based) to java.util.BitSet with some PHP-specific flavoring.
+  This provides a similar API (object-based) to java.util.BitSet with some PHP-specific flavoring.
 ```
 <p><ul>
-<li>License: </li>
+<li>License: PHP-3.01</li>
 <li>Latest Release: <a href="https://pecl.php.net/get/Bitset-3.2.0">3.2.0</a> on 26 May 2023</li>
 <li>Release data in JSON: <a href="data/packages/bitset.json">bitset.json</a></li>
 <li><a href="https://pecl.php.net/packages/Bitset">Bitset on PECL</a></li>
@@ -1208,7 +1246,7 @@ This provides a similar API (object-based) to java.util.BitSet with some PHP-spe
 </details>
 
 ***
-### PHP (7)
+### PHP (9)
 
 <details><summary>ast&nbsp; :eight:</summary>
 <p>Extension exposing PHP 7 abstract syntax tree</p>
@@ -1220,7 +1258,7 @@ php-ast exports the AST internally used by PHP 7.
 ```
 <p><ul>
 <li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/ast-1.1.2">1.1.2</a> on 10 Aug 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/ast-1.1.3">1.1.3</a> on 10 Aug 2025</li>
 <li>Release data in JSON: <a href="data/packages/ast.json">ast.json</a></li>
 <li><a href="https://pecl.php.net/packages/ast">ast on PECL</a></li>
 <li><a href="https://github.com/nikic/php-ast">:sparkles: Source</a> &nbsp; <a href="https://github.com/nikic/php-ast/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1013&rid=&cid=25">:bar_chart: Stats</a></li>
@@ -1251,7 +1289,7 @@ https://github.com/open-telemetry/opentelemetry-php-instrumentation
 ```
 <p><ul>
 <li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/opentelemetry-1.1.3">1.1.3</a> on 14 May 2025</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/opentelemetry-1.2.1">1.2.1</a> on 02 Oct 2025</li>
 <li>Release data in JSON: <a href="data/packages/opentelemetry.json">opentelemetry.json</a></li>
 <li><a href="https://pecl.php.net/packages/opentelemetry">opentelemetry on PECL</a></li>
 <li><a href="https://opentelemetry.io/docs/instrumentation/php/automatic/">:book: Documentation</a> &nbsp; <a href="https://opentelemetry.io/">:house: Home</a> &nbsp; <a href="https://github.com/open-telemetry/opentelemetry-php-instrumentation">:sparkles: Source</a> &nbsp; <a href="https://github.com/open-telemetry/opentelemetry-php-instrumentation/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1077&rid=&cid=25">:bar_chart: Stats</a></li>
@@ -1265,7 +1303,7 @@ A succinct parallel concurrency API for PHP 7 and 8.
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/parallel-1.2.7">1.2.7</a> on 11 Jun 2025</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/parallel-1.2.8">1.2.8</a> on 24 Jul 2025</li>
 <li>Release data in JSON: <a href="data/packages/parallel.json">parallel.json</a></li>
 <li><a href="https://pecl.php.net/packages/parallel">parallel on PECL</a></li>
 <li><a href="https://github.com/krakjoe/parallel">:house: Home</a> &nbsp; <a href="https://github.com/krakjoe/parallel">:sparkles: Source</a> &nbsp; <a href="https://github.com/krakjoe/parallel/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1032&rid=&cid=25">:bar_chart: Stats</a></li>
@@ -1285,6 +1323,20 @@ A self contained php-code-coverage compatible driver for PHP.
 <li><a href="https://github.com/krakjoe/pcov">:house: Home</a> &nbsp; <a href="https://github.com/krakjoe/pcov">:sparkles: Source</a> &nbsp; <a href="https://github.com/krakjoe/pcov/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1031&rid=&cid=25">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
+<details><summary>raphf</summary>
+<p>Resource and persistent handles factory</p>
+
+```
+A reusable split-off of pecl_http's persistent handle and resource factory API.
+```
+<p><ul>
+<li>License: BSD-2-Clause</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/raphf-2.0.2">2.0.2</a> on 29 Aug 2025</li>
+<li>Release data in JSON: <a href="data/packages/raphf.json">raphf.json</a></li>
+<li><a href="https://pecl.php.net/packages/raphf">raphf on PECL</a></li>
+<li><a href="https://mdref.m6w6.name/raphf">:book: Documentation</a> &nbsp; <a href="https://github.com/m6w6/ext-raphf">:sparkles: Source</a> &nbsp; <a href="https://github.com/m6w6/ext-raphf/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=940&rid=&cid=25">:bar_chart: Stats</a></li>
+</ul></p><hr />
+</details>
 <details><summary>var_representation&nbsp; :eight:</summary>
 <p>A compact, more readable alternative to var_export.</p>
 
@@ -1298,6 +1350,21 @@ characters
 <li>Release data in JSON: <a href="data/packages/var_representation.json">var_representation.json</a></li>
 <li><a href="https://pecl.php.net/packages/var_representation">var_representation on PECL</a></li>
 <li><a href="https://github.com/TysonAndre/var_representation">:house: Home</a> &nbsp; <a href="https://github.com/TysonAndre/var_representation">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1061&rid=&cid=25">:bar_chart: Stats</a></li>
+</ul></p><hr />
+</details>
+<details><summary>vld&nbsp; :eight:</summary>
+<p>Provides functionality to dump the internal representation of PHP scripts</p>
+
+```
+The Vulcan Logic Disassembler hooks into the Zend Engine and
+dumps all the opcodes (execution units) of a script.
+```
+<p><ul>
+<li>License: BSD-2-Clause</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/vld-0.19.1">0.19.1</a> on 15 Jul 2025</li>
+<li>Release data in JSON: <a href="data/packages/vld.json">vld.json</a></li>
+<li><a href="https://pecl.php.net/packages/vld">vld on PECL</a></li>
+<li><a href="http://derickrethans.nl/vld.php">:house: Home</a> &nbsp; <a href="https://github.com/derickr/vld">:sparkles: Source</a> &nbsp; <a href="https://github.com/derickr/vld/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=253&rid=&cid=25">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>xdebug&nbsp; :eight:</summary>
@@ -1329,8 +1396,8 @@ Code Coverage Analysis
     with PHP Unit.
 ```
 <p><ul>
-<li>License: </li>
-<li>Latest Release: <a href="https://pecl.php.net/get/xdebug-3.4.4">3.4.4</a> on 12 Jun 2025</li>
+<li>License: Xdebug</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/xdebug-3.4.7">3.4.7</a> on 26 Oct 2025</li>
 <li>Release data in JSON: <a href="data/packages/xdebug.json">xdebug.json</a></li>
 <li><a href="https://pecl.php.net/packages/xdebug">xdebug on PECL</a></li>
 <li><a href="https://xdebug.org/docs/">:book: Documentation</a> &nbsp; <a href="https://xdebug.org/">:house: Home</a> &nbsp; <a href="https://github.com/xdebug/xdebug">:sparkles: Source</a> &nbsp; <a href="https://bugs.xdebug.org">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=214&rid=&cid=25">:bar_chart: Stats</a></li>
@@ -1365,7 +1432,7 @@ https://github.com/php/pecl-search_engine-solr
 <li>Latest Release: <a href="https://pecl.php.net/get/solr-2.8.1">2.8.1</a> on 22 Apr 2025</li>
 <li>Release data in JSON: <a href="data/packages/solr.json">solr.json</a></li>
 <li><a href="https://pecl.php.net/packages/solr">solr on PECL</a></li>
-<li><a href="http://www.php.net/manual/en/book.solr.php">:book: Documentation</a> &nbsp; <a href="https://github.com/php/pecl-search_engine-solr">:house: Home</a> &nbsp; <a href="https://github.com/php/pecl-search_engine-solr">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-search_engine-solr/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=867&rid=&cid=57">:bar_chart: Stats</a></li>
+<li><a href="https://php.net/manual/en/book.solr.php">:book: Documentation</a> &nbsp; <a href="https://github.com/php/pecl-search_engine-solr">:house: Home</a> &nbsp; <a href="https://github.com/php/pecl-search_engine-solr">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-search_engine-solr/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=867&rid=&cid=57">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 
@@ -1455,7 +1522,7 @@ In all other cases, the standard filesystem functions are
 more than adequate.
 ```
 <p><ul>
-<li>License: </li>
+<li>License: PHP-3.01</li>
 <li>Latest Release: <a href="https://pecl.php.net/get/dio-0.3.0">0.3.0</a> on 22 Feb 2024</li>
 <li>Release data in JSON: <a href="data/packages/dio.json">dio.json</a></li>
 <li><a href="https://pecl.php.net/packages/dio">dio on PECL</a></li>
@@ -1536,7 +1603,7 @@ extension
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/yaf-3.3.6">3.3.6</a> on 25 Jun 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/yaf-3.3.7">3.3.7</a> on 29 Jul 2025</li>
 <li>Release data in JSON: <a href="data/packages/yaf.json">yaf.json</a></li>
 <li><a href="https://pecl.php.net/packages/yaf">yaf on PECL</a></li>
 <li><a href="http://www.php.net/manual/book.yaf.php">:book: Documentation</a> &nbsp; <a href="https://github.com/laruence/yaf">:house: Home</a> &nbsp; <a href="https://github.com/laruence/yaf">:sparkles: Source</a> &nbsp; <a href="https://github.com/laruence/yaf/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=903&rid=&cid=37">:bar_chart: Stats</a></li>
@@ -1574,7 +1641,7 @@ features and principles of the parser/lexer generator tools for C/C++.
 <li>Latest Release: <a href="https://pecl.php.net/get/parle-0.8.5">0.8.5</a> on 01 Jul 2023</li>
 <li>Release data in JSON: <a href="data/packages/parle.json">parle.json</a></li>
 <li><a href="https://pecl.php.net/packages/parle">parle on PECL</a></li>
-<li><a href="https://php.net/parle">:book: Documentation</a> &nbsp; <a href="https://github.com/weltling/parle">:sparkles: Source</a> &nbsp; <a href="https://github.com/weltling/parle/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1016&rid=&cid=36">:bar_chart: Stats</a></li>
+<li><a href="http://php.net/parle">:book: Documentation</a> &nbsp; <a href="https://github.com/weltling/parle">:sparkles: Source</a> &nbsp; <a href="https://github.com/weltling/parle/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1016&rid=&cid=36">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>pspell</summary>
@@ -1622,7 +1689,7 @@ This package provides a PHP binding for FANN (Fast Artificial Neural Network) Li
 <li>Latest Release: <a href="https://pecl.php.net/get/fann-1.2.0">1.2.0</a> on 21 Feb 2024</li>
 <li>Release data in JSON: <a href="data/packages/fann.json">fann.json</a></li>
 <li><a href="https://pecl.php.net/packages/fann">fann on PECL</a></li>
-<li><a href="http://www.php.net/manual/en/book.fann.php">:book: Documentation</a> &nbsp; <a href="https://github.com/bukka/php-fann">:house: Home</a> &nbsp; <a href="https://github.com/bukka/php-fann">:sparkles: Source</a> &nbsp; <a href="https://github.com/bukka/php-fann/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=314&rid=&cid=29">:bar_chart: Stats</a></li>
+<li><a href="https://php.net/manual/en/book.fann.php">:book: Documentation</a> &nbsp; <a href="https://github.com/bukka/php-fann">:house: Home</a> &nbsp; <a href="https://github.com/bukka/php-fann">:sparkles: Source</a> &nbsp; <a href="https://github.com/bukka/php-fann/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=314&rid=&cid=29">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>jsonpath&nbsp; :eight:</summary>
@@ -1679,7 +1746,7 @@ https://developers.google.com/protocol-buffers/
 <li>Latest Release: <a href="https://pecl.php.net/get/protobuf-4.33.1">4.33.1</a> on 13 Nov 2025</li>
 <li>Release data in JSON: <a href="data/packages/protobuf.json">protobuf.json</a></li>
 <li><a href="https://pecl.php.net/packages/protobuf">protobuf on PECL</a></li>
-<li></li>
+<li><a href="https://github.com/google/protobuf">:sparkles: Source</a> &nbsp; <a href="https://github.com/protocolbuffers/protobuf/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=997&rid=&cid=29">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>skywalking_agent&nbsp; :eight:</summary>
@@ -1713,7 +1780,7 @@ calls for each function. Additionally, it supports ability to compare two runs
 <li>Latest Release: <a href="https://pecl.php.net/get/xhprof-2.3.10">2.3.10</a> on 11 Jul 2024</li>
 <li>Release data in JSON: <a href="data/packages/xhprof.json">xhprof.json</a></li>
 <li><a href="https://pecl.php.net/packages/xhprof">xhprof on PECL</a></li>
-<li><a href="https://php.net/xhprof">:book: Documentation</a> &nbsp; <a href="https://github.com/longxinH/xhprof">:house: Home</a> &nbsp; <a href="https://github.com/longxinH/xhprof">:sparkles: Source</a> &nbsp; <a href="https://github.com/longxinH/xhprof/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=856&rid=&cid=29">:bar_chart: Stats</a></li>
+<li><a href="http://php.net/xhprof">:book: Documentation</a> &nbsp; <a href="https://github.com/longxinH/xhprof">:house: Home</a> &nbsp; <a href="https://github.com/longxinH/xhprof">:sparkles: Source</a> &nbsp; <a href="https://github.com/longxinH/xhprof/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=856&rid=&cid=29">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>zephir_parser&nbsp; :eight:</summary>
@@ -1724,7 +1791,7 @@ Zephir Parser is a code parser, delivered as a C extension for the PHP language.
 ```
 <p><ul>
 <li>License: MIT</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/zephir_parser-1.7.0">1.7.0</a> on 23 Nov 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/zephir_parser-1.8.0">1.8.0</a> on 28 Sep 2025</li>
 <li>Release data in JSON: <a href="data/packages/zephir_parser.json">zephir_parser.json</a></li>
 <li><a href="https://pecl.php.net/packages/zephir_parser">zephir_parser on PECL</a></li>
 <li><a href="https://github.com/zephir-lang/php-zephir-parser">:house: Home</a> &nbsp; <a href="https://github.com/zephir-lang/php-zephir-parser">:sparkles: Source</a> &nbsp; <a href="https://github.com/zephir-lang/php-zephir-parser/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1046&rid=&cid=29">:bar_chart: Stats</a></li>
@@ -1744,10 +1811,10 @@ Requirements: ext/hash (now a part of PHP core)
 ```
 <p><ul>
 <li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/oauth-2.0.9">2.0.9</a> on 08 Oct 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/oauth-2.0.10">2.0.10</a> on 09 Oct 2025</li>
 <li>Release data in JSON: <a href="data/packages/oauth.json">oauth.json</a></li>
 <li><a href="https://pecl.php.net/packages/oauth">oauth on PECL</a></li>
-<li><a href="https://php.net/oauth">:book: Documentation</a> &nbsp; <a href="https://github.com/php/pecl-web_services-oauth">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-web_services-oauth/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=828&rid=&cid=23">:bar_chart: Stats</a></li>
+<li><a href="http://php.net/oauth">:book: Documentation</a> &nbsp; <a href="https://github.com/php/pecl-web_services-oauth">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-web_services-oauth/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=828&rid=&cid=23">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>yar&nbsp; :eight:</summary>
@@ -1759,7 +1826,7 @@ package protocols (json, msgpack)
 ```
 <p><ul>
 <li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/yar-2.3.3">2.3.3</a> on 25 Jun 2024</li>
+<li>Latest Release: <a href="https://pecl.php.net/get/yar-2.3.4">2.3.4</a> on 29 Jul 2025</li>
 <li>Release data in JSON: <a href="data/packages/yar.json">yar.json</a></li>
 <li><a href="https://pecl.php.net/packages/yar">yar on PECL</a></li>
 <li><a href="http://www.php.net/manual/book.yar.php">:book: Documentation</a> &nbsp; <a href="https://github.com/laruence/yar">:sparkles: Source</a> &nbsp; <a href="https://github.com/laruence/yar/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=924&rid=&cid=23">:bar_chart: Stats</a></li>
@@ -1783,7 +1850,7 @@ files and strings in memory can be processed.
 <li>Latest Release: <a href="https://pecl.php.net/get/xmldiff-1.1.5">1.1.5</a> on 22 Feb 2025</li>
 <li>Release data in JSON: <a href="data/packages/xmldiff.json">xmldiff.json</a></li>
 <li><a href="https://pecl.php.net/packages/xmldiff">xmldiff on PECL</a></li>
-<li><a href="http://www.php.net/manual/en/book.xmldiff.php">:book: Documentation</a> &nbsp; <a href="https://github.com/php/pecl-xml-xmldiff">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-xml-xmldiff/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=953&rid=&cid=22">:bar_chart: Stats</a></li>
+<li><a href="https://php.net/manual/en/book.xmldiff.php">:book: Documentation</a> &nbsp; <a href="https://github.com/php/pecl-xml-xmldiff">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-xml-xmldiff/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=953&rid=&cid=22">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 

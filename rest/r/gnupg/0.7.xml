@@ -17,6 +17,6 @@
 fixed error during keyimport when the keyring is not writeable
 fixed error when an invalid errormode is passed to seterrormode</n>
  <f>17247</f>
- <g>http://pecl.php.net/get/gnupg-0.7</g>
+ <g>https://pecl.php.net/get/gnupg-0.7</g>
  <x xlink:href="package.0.7.xml"/>
 </r>

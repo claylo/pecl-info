@@ -24,6 +24,6 @@ for the xchacha20-poly1305 construction have been added.
 
 Many bugs have been squashed.</n>
  <f>171753</f>
- <g>http://pecl.php.net/get/libsodium-2.0.0</g>
+ <g>https://pecl.php.net/get/libsodium-2.0.0</g>
  <x xlink:href="package.2.0.0.xml"/>
 </r>

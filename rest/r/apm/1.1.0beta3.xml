@@ -19,6 +19,6 @@ More drivers to come (SNMP, e-mail, Hadoop,...).</d>
 - Possible memory not being freed
 - Segmentation fault preventing the collection of data (#62012)</n>
  <f>115192</f>
- <g>http://pecl.php.net/get/APM-1.1.0beta3</g>
+ <g>https://pecl.php.net/get/APM-1.1.0beta3</g>
  <x xlink:href="package.1.1.0beta3.xml"/>
 </r>

@@ -32,6 +32,6 @@
 * PCBC-441: add experimental support of Analytics query.
   https://developer.couchbase.com/documentation/server/4.5/analytics/introduction.html</n>
  <f>139623</f>
- <g>http://pecl.php.net/get/couchbase-2.3.1</g>
+ <g>https://pecl.php.net/get/couchbase-2.3.1</g>
  <x xlink:href="package.2.3.1.xml"/>
 </r>

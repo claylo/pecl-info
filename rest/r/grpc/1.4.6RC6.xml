@@ -15,6 +15,6 @@
  <da>2017-08-16 01:18:57</da>
  <n>- Fixed segfault when tests were run under Travis #12123</n>
  <f>2301366</f>
- <g>http://pecl.php.net/get/grpc-1.4.6RC6</g>
+ <g>https://pecl.php.net/get/grpc-1.4.6RC6</g>
  <x xlink:href="package.1.4.6RC6.xml"/>
 </r>

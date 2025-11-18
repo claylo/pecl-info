@@ -34,6 +34,6 @@
 - Fixed failed to compile with --disable-coroutine
 - Fixed failed to compile with --enable-coroutinepostgresql on php-7.1</n>
  <f>830565</f>
- <g>http://pecl.php.net/get/swoole-2.1.3</g>
+ <g>https://pecl.php.net/get/swoole-2.1.3</g>
  <x xlink:href="package.2.1.3.xml"/>
 </r>

@@ -15,6 +15,6 @@
  <da>2005-12-01 12:31:34</da>
  <n>fixed PHP 5.1 build</n>
  <f>17261</f>
- <g>http://pecl.php.net/get/gnupg-0.7.1</g>
+ <g>https://pecl.php.net/get/gnupg-0.7.1</g>
  <x xlink:href="package.0.7.1.xml"/>
 </r>

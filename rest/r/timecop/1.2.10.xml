@@ -15,6 +15,6 @@
  <da>2017-11-23 03:29:35</da>
  <n>Fix &quot;double free&quot; bug on PHP 7.2.0</n>
  <f>39487</f>
- <g>http://pecl.php.net/get/timecop-1.2.10</g>
+ <g>https://pecl.php.net/get/timecop-1.2.10</g>
  <x xlink:href="package.1.2.10.xml"/>
 </r>

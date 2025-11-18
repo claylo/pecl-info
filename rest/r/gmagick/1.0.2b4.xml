@@ -16,6 +16,6 @@ This extension requires GraphicsMagick version 1.2.6+ and PHP 5.1.3+.</d>
  <da>2009-12-02 13:52:29</da>
  <n>More fixes for error on make for Mac OS X 10.6.2</n>
  <f>35011</f>
- <g>http://pecl.php.net/get/gmagick-1.0.2b4</g>
+ <g>https://pecl.php.net/get/gmagick-1.0.2b4</g>
  <x xlink:href="package.1.0.2b4.xml"/>
 </r>

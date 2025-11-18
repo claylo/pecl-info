@@ -18,6 +18,6 @@ to the TrustCommerce payment gateway.
  <da>2003-09-10 23:48:00</da>
  <n>new upstream release</n>
  <f>62160</f>
- <g>http://pecl.php.net/get/TCLink-3.4.0</g>
+ <g>https://pecl.php.net/get/TCLink-3.4.0</g>
  <x xlink:href="package.3.4.0.xml"/>
 </r>

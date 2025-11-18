@@ -49,6 +49,6 @@ avaiable then SHA-256 and SHA-512 signatures are supported as well.</d>
  * implement Phar::mount() for mounting external paths or files to locations inside a phar [Greg]
  * add Phar::delete() [Greg]</n>
  <f>208891</f>
- <g>http://pecl.php.net/get/phar-2.0.0a1</g>
+ <g>https://pecl.php.net/get/phar-2.0.0a1</g>
  <x xlink:href="package.2.0.0a1.xml"/>
 </r>

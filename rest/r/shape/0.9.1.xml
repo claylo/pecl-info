@@ -15,6 +15,6 @@
  <da>2006-07-12 13:19:39</da>
  <n>Fixed small bug, SHPT_POLYGON constant hat the same value as SHPT_MULTIPOINT (Thanks to Peter Schweitzer)</n>
  <f>8514</f>
- <g>http://pecl.php.net/get/shape-0.9.1</g>
+ <g>https://pecl.php.net/get/shape-0.9.1</g>
  <x xlink:href="package.0.9.1.xml"/>
 </r>

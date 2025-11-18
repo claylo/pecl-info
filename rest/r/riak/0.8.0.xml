@@ -15,6 +15,6 @@
  <da>2013-11-02 09:02:59</da>
  <n>- Riak 1.4+ feature: CRDT counters implemented</n>
  <f>127829</f>
- <g>http://pecl.php.net/get/riak-0.8.0</g>
+ <g>https://pecl.php.net/get/riak-0.8.0</g>
  <x xlink:href="package.0.8.0.xml"/>
 </r>

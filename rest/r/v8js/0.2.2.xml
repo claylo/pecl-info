@@ -19,6 +19,6 @@
 - Fix memory leak regarding lost script resources (compileScript call et al)
 - Improve V8Function call performance</n>
  <f>90163</f>
- <g>http://pecl.php.net/get/v8js-0.2.2</g>
+ <g>https://pecl.php.net/get/v8js-0.2.2</g>
  <x xlink:href="package.0.2.2.xml"/>
 </r>

@@ -18,6 +18,6 @@ connected networks.
  <da>2004-06-17 05:13:00</da>
  <n>Fix all known bugs, supporting fann-1.1.0</n>
  <f>9509</f>
- <g>http://pecl.php.net/get/fann-0.1.1</g>
+ <g>https://pecl.php.net/get/fann-0.1.1</g>
  <x xlink:href="package.0.1.1.xml"/>
 </r>

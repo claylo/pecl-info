@@ -31,6 +31,6 @@ Change: libeio initialization moved to the MINIT phase, but unfinished
 requests are still handled in the RSHUTDOWN phase
 Change: simplified libeio callbacks</n>
  <f>22486</f>
- <g>http://pecl.php.net/get/eio-0.3.0</g>
+ <g>https://pecl.php.net/get/eio-0.3.0</g>
  <x xlink:href="package.0.3.0.xml"/>
 </r>

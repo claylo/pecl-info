@@ -37,6 +37,6 @@
 - Fixed issue #184 SeasLog::analyzerCount seg fault at PHP7-nts.
 - Fixed issue #181 Perfect when stream's connection was broken.</n>
  <f>92715</f>
- <g>http://pecl.php.net/get/SeasLog-1.8.4</g>
+ <g>https://pecl.php.net/get/SeasLog-1.8.4</g>
  <x xlink:href="package.1.8.4.xml"/>
 </r>

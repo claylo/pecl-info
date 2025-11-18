@@ -15,6 +15,6 @@
  <da>2014-05-15 06:09:50</da>
  <n>Support cubrid engine version up to 9.3</n>
  <f>997767</f>
- <g>http://pecl.php.net/get/PDO_CUBRID-9.3.0.0001</g>
+ <g>https://pecl.php.net/get/PDO_CUBRID-9.3.0.0001</g>
  <x xlink:href="package.9.3.0.0001.xml"/>
 </r>

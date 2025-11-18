@@ -16,6 +16,6 @@
  <n>Added some missing ZEND_ARG_INFO's in bucket.c
 Possibly breaking change: Removed NotFoundException, you always want an GetOutput with vclock even though the object is not found.</n>
  <f>128588</f>
- <g>http://pecl.php.net/get/riak-0.9.1</g>
+ <g>https://pecl.php.net/get/riak-0.9.1</g>
  <x xlink:href="package.0.9.1.xml"/>
 </r>

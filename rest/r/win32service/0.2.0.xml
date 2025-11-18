@@ -16,6 +16,6 @@
  <n>Update for PHP 7.0 and 7.1.
 The binary is available here: https://github.com/InExtenso/win32service/releases/tag/v0.2.0</n>
  <f>15195</f>
- <g>http://pecl.php.net/get/win32service-0.2.0</g>
+ <g>https://pecl.php.net/get/win32service-0.2.0</g>
  <x xlink:href="package.0.2.0.xml"/>
 </r>

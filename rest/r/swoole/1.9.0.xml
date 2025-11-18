@@ -44,6 +44,6 @@
 - Fixed taskWaitMulti When the process returns more than 8K receive timeout problem
 - Fixed atmoic add and sub return value exists data synchronization problems</n>
  <f>534738</f>
- <g>http://pecl.php.net/get/swoole-1.9.0</g>
+ <g>https://pecl.php.net/get/swoole-1.9.0</g>
  <x xlink:href="package.1.9.0.xml"/>
 </r>

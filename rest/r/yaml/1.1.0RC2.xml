@@ -18,6 +18,6 @@
   - #61477 memset sizeof(struct) instead of sizeof(pointer)
   - #61475 config.m4 honors `php-config --prefix`</n>
  <f>35887</f>
- <g>http://pecl.php.net/get/yaml-1.1.0RC2</g>
+ <g>https://pecl.php.net/get/yaml-1.1.0RC2</g>
  <x xlink:href="package.1.1.0RC2.xml"/>
 </r>

@@ -15,6 +15,6 @@
  <da>2011-06-25 06:00:05</da>
  <n>Fixed bug #22621 (Segmentation fault when using hot key)</n>
  <f>24874</f>
- <g>http://pecl.php.net/get/newt-1.2.5</g>
+ <g>https://pecl.php.net/get/newt-1.2.5</g>
  <x xlink:href="package.1.2.5.xml"/>
 </r>

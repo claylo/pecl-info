@@ -28,6 +28,6 @@ Add: errno replaced with the meaningful string in error messages
 Fix: eio_chown denied uid -1 value
 Fix: message about required libeio</n>
  <f>23044</f>
- <g>http://pecl.php.net/get/eio-0.1.0</g>
+ <g>https://pecl.php.net/get/eio-0.1.0</g>
  <x xlink:href="package.0.1.0.xml"/>
 </r>

@@ -23,6 +23,6 @@ http://www.pdflib.com/developer-center/technical-documentation/php-howto
  <da>2007-09-25 05:50:14</da>
  <n>- fixed wrong handling of int parameters which on some 64bit platforms caused problems.</n>
  <f>55714</f>
- <g>http://pecl.php.net/get/pdflib-2.1.4</g>
+ <g>https://pecl.php.net/get/pdflib-2.1.4</g>
  <x xlink:href="package.2.1.4.xml"/>
 </r>

@@ -27,6 +27,6 @@
 * Removed Rand::egd
 * Created a complete API documentation</n>
  <f>66235</f>
- <g>http://pecl.php.net/get/crypto-0.2.0</g>
+ <g>https://pecl.php.net/get/crypto-0.2.0</g>
  <x xlink:href="package.0.2.0.xml"/>
 </r>

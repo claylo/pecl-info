@@ -31,12 +31,12 @@
         "version": "9.1.0.0001",
         "state": "stable"
     },
-    "8.4.3.0001": {
-        "version": "8.4.3.0001",
-        "state": "stable"
-    },
     "9.0.0.0001": {
         "version": "9.0.0.0001",
+        "state": "stable"
+    },
+    "8.4.3.0001": {
+        "version": "8.4.3.0001",
         "state": "stable"
     },
     "8.4.1.0006": {
@@ -67,10 +67,6 @@
         "version": "8.4.0.0005",
         "state": "stable"
     },
-    "8.3.1.0008": {
-        "version": "8.3.1.0008",
-        "state": "stable"
-    },
     "8.4.0.0004": {
         "version": "8.4.0.0004",
         "state": "stable"
@@ -79,16 +75,20 @@
         "version": "8.4.0.0003",
         "state": "stable"
     },
-    "8.3.1.0007": {
-        "version": "8.3.1.0007",
-        "state": "stable"
-    },
     "8.4.0.0002": {
         "version": "8.4.0.0002",
         "state": "stable"
     },
     "8.4.0.0001": {
         "version": "8.4.0.0001",
+        "state": "stable"
+    },
+    "8.3.1.0008": {
+        "version": "8.3.1.0008",
+        "state": "stable"
+    },
+    "8.3.1.0007": {
+        "version": "8.3.1.0007",
         "state": "stable"
     },
     "8.3.1.0006": {

@@ -16,6 +16,6 @@
  <n>- Fixed some segfaults when tests were run on Travis #12123
 - Fixed a memory leak when setting default root certs #11632</n>
  <f>2301643</f>
- <g>http://pecl.php.net/get/grpc-1.4.6RC1</g>
+ <g>https://pecl.php.net/get/grpc-1.4.6RC1</g>
  <x xlink:href="package.1.4.6RC1.xml"/>
 </r>

@@ -16,6 +16,6 @@
  <n>- fixes gh#19: hung apaches on pthread wrlocks
 - fixes gh#203: segfaults in bailout / longjmp</n>
  <f>110921</f>
- <g>http://pecl.php.net/get/apcu-5.1.7</g>
+ <g>https://pecl.php.net/get/apcu-5.1.7</g>
  <x xlink:href="package.5.1.7.xml"/>
 </r>

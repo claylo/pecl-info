@@ -41,6 +41,6 @@ avaiable then SHA-256 and SHA-512 signatures are supported as well.</d>
 * Verify stubs before writing [Marcus]
 * Always use longest stub end to avoid issues with length field [Marcus]</n>
  <f>94944</f>
- <g>http://pecl.php.net/get/phar-1.2.1</g>
+ <g>https://pecl.php.net/get/phar-1.2.1</g>
  <x xlink:href="package.1.2.1.xml"/>
 </r>

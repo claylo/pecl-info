@@ -39,6 +39,6 @@ See http://news.php.net/php.pecl.dev/7625 for the verbatim email.</d>
  - Clean up the build script to standardise the code constructs used
  - Add LICENSE, README and CREDITS to PECL package configuration</n>
  <f>7124</f>
- <g>http://pecl.php.net/get/ssdeep-1.0.4</g>
+ <g>https://pecl.php.net/get/ssdeep-1.0.4</g>
  <x xlink:href="package.1.0.4.xml"/>
 </r>

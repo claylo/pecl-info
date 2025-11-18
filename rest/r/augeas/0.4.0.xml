@@ -16,6 +16,6 @@
  <n>- new method Augeas::mv()
 - added test suite AllTests.php</n>
  <f>8021</f>
- <g>http://pecl.php.net/get/augeas-0.4.0</g>
+ <g>https://pecl.php.net/get/augeas-0.4.0</g>
  <x xlink:href="package.0.4.0.xml"/>
 </r>

@@ -34,6 +34,6 @@
 - Added Swoole\Coroutine\MySQL
 - Added Swoole\Coroutine\Redis</n>
  <f>579472</f>
- <g>http://pecl.php.net/get/swoole-2.0.4</g>
+ <g>https://pecl.php.net/get/swoole-2.0.4</g>
  <x xlink:href="package.2.0.4.xml"/>
 </r>

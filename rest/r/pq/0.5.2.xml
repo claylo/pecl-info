@@ -26,6 +26,6 @@
  <n>* Support PostgreSQL 9.0 and up
 * Make JSON support optional</n>
  <f>58001</f>
- <g>http://pecl.php.net/get/pq-0.5.2</g>
+ <g>https://pecl.php.net/get/pq-0.5.2</g>
  <x xlink:href="package.0.5.2.xml"/>
 </r>

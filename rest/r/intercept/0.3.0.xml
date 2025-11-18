@@ -17,6 +17,6 @@
  <da>2005-05-28 18:22:21</da>
  <n>Added preliminary support for intercepting class methods.</n>
  <f>5698</f>
- <g>http://pecl.php.net/get/intercept-0.3.0</g>
+ <g>https://pecl.php.net/get/intercept-0.3.0</g>
  <x xlink:href="package.0.3.0.xml"/>
 </r>

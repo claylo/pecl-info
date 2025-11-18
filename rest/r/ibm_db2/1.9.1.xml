@@ -17,6 +17,6 @@ Cloudscape, and Apache Derby databases.</d>
  <da>2010-11-08 08:45:33</da>
  <n>Fix for db2_statistics (Failing with pconnect).</n>
  <f>150760</f>
- <g>http://pecl.php.net/get/ibm_db2-1.9.1</g>
+ <g>https://pecl.php.net/get/ibm_db2-1.9.1</g>
  <x xlink:href="package.1.9.1.xml"/>
 </r>

@@ -21,6 +21,6 @@ Fixed: Persistent connections takes up to 1 hour to reconnect on db2 TSA HA fail
 FIxed: Fixed: Allow trial license to connect ZOS/i5
 Added a environment variable IBM_DB_HOME to make the installation process easy and config script will automatically detect the architecure for which PHP is built and accordingly use the libraries under lib32/lib64.</n>
  <f>157273</f>
- <g>http://pecl.php.net/get/ibm_db2-1.9.4</g>
+ <g>https://pecl.php.net/get/ibm_db2-1.9.4</g>
  <x xlink:href="package.1.9.4.xml"/>
 </r>

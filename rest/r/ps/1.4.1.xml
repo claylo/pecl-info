@@ -15,6 +15,6 @@
  <da>2017-07-31 11:49:19</da>
  <n>Change license to BSD style, fixed dependency on php</n>
  <f>578991</f>
- <g>http://pecl.php.net/get/ps-1.4.1</g>
+ <g>https://pecl.php.net/get/ps-1.4.1</g>
  <x xlink:href="package.1.4.1.xml"/>
 </r>

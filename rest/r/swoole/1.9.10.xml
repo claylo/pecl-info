@@ -32,6 +32,6 @@
 - Fixed unix socket client cannot connect to server
 - Fxied swoole_client::close crash with SWOOLE_KEEP flag on PHP-FPM</n>
  <f>576960</f>
- <g>http://pecl.php.net/get/swoole-1.9.10</g>
+ <g>https://pecl.php.net/get/swoole-1.9.10</g>
  <x xlink:href="package.1.9.10.xml"/>
 </r>

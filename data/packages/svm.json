@@ -15,7 +15,7 @@
             "releasedBy": "ab",
             "releaseDate": "2018-08-20T14:23:52+00:00",
             "releaseNotes": "- Fixed lib dir evaluation in config.m4 (Remi Collet)\n- Fixed phpinfo() crash (Remi Collet, Anatol)",
-            "get": "http://pecl.php.net/get/svm-0.2.3",
+            "get": "https://pecl.php.net/get/svm-0.2.3",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "0.2.2": {
@@ -25,7 +25,7 @@
             "releasedBy": "ab",
             "releaseDate": "2018-08-19T10:24:37+00:00",
             "releaseNotes": "- Fixed compilation with bundled libsvm through pecl",
-            "get": "http://pecl.php.net/get/svm-0.2.2",
+            "get": "https://pecl.php.net/get/svm-0.2.2",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "0.2.1": {
@@ -35,7 +35,7 @@
             "releasedBy": "ab",
             "releaseDate": "2018-08-19T09:39:02+00:00",
             "releaseNotes": "- Fix package.xml which was missing config.w32",
-            "get": "http://pecl.php.net/get/svm-0.2.1",
+            "get": "https://pecl.php.net/get/svm-0.2.1",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "0.2.0": {
@@ -45,7 +45,7 @@
             "releasedBy": "ab",
             "releaseDate": "2018-08-19T09:11:11+00:00",
             "releaseNotes": "- Fixed PHP 7 compatibility. (@echobot, Anatol)\n- Bundled libsvm. External libsvm is still preferred, if installed. (Anatol)",
-            "get": "http://pecl.php.net/get/svm-0.2.0",
+            "get": "https://pecl.php.net/get/svm-0.2.0",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "0.1.9": {
@@ -55,7 +55,7 @@
             "releasedBy": "ianb",
             "releaseDate": "2012-11-23T16:38:06+00:00",
             "releaseNotes": "- Verified works with 3.14\n- Fixed option return format\n- Removed unused variable",
-            "get": "http://pecl.php.net/get/svm-0.1.9",
+            "get": "https://pecl.php.net/get/svm-0.1.9",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.1.8": {
@@ -65,7 +65,7 @@
             "releasedBy": "ianb",
             "releaseDate": "2012-09-16T09:31:34+00:00",
             "releaseNotes": "- Fixed GH#2 issue when loading data from a resource\n- Modify include search path to start more generic",
-            "get": "http://pecl.php.net/get/svm-0.1.8",
+            "get": "https://pecl.php.net/get/svm-0.1.8",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.1.6": {
@@ -75,7 +75,7 @@
             "releasedBy": "ianb",
             "releaseDate": "2012-03-12T13:12:51+00:00",
             "releaseNotes": "- Added support for building on mac with libsvm via Brew",
-            "get": "http://pecl.php.net/get/svm-0.1.6",
+            "get": "https://pecl.php.net/get/svm-0.1.6",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.1.5": {
@@ -85,7 +85,7 @@
             "releasedBy": "ianb",
             "releaseDate": "2012-01-21T16:20:55+00:00",
             "releaseNotes": "- Added compatibility with PHP 5.4 - thanks Rasmus!\n- Added getLabel, getNrClasses, getLabels, and checkSvrProbability to SVMModel class.",
-            "get": "http://pecl.php.net/get/svm-0.1.5",
+            "get": "https://pecl.php.net/get/svm-0.1.5",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.1.4": {
@@ -95,7 +95,7 @@
             "releasedBy": "ianb",
             "releaseDate": "2011-12-17T20:25:42+00:00",
             "releaseNotes": "Replaced predict_probability function with predict_probabilities that more closely\nmirrors the underlying API.",
-            "get": "http://pecl.php.net/get/svm-0.1.4",
+            "get": "https://pecl.php.net/get/svm-0.1.4",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.1.3": {
@@ -105,7 +105,7 @@
             "releasedBy": "ianb",
             "releaseDate": "2011-07-21T14:29:44+00:00",
             "releaseNotes": "Added predict_probability function, thanks to Neel Upadhyaya",
-            "get": "http://pecl.php.net/get/svm-0.1.3",
+            "get": "https://pecl.php.net/get/svm-0.1.3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.1.2": {
@@ -115,7 +115,7 @@
             "releasedBy": "ianb",
             "releaseDate": "2011-05-17T08:57:10+00:00",
             "releaseNotes": "Removed unnecessary 'weight' parameter\nMade probability and shrinking boolean parameters",
-            "get": "http://pecl.php.net/get/svm-0.1.2",
+            "get": "https://pecl.php.net/get/svm-0.1.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.1.1": {
@@ -125,7 +125,7 @@
             "releasedBy": "ianb",
             "releaseDate": "2011-05-13T08:46:54+00:00",
             "releaseNotes": "Fixed issue with uninitialised nr_weights causing odd weighting errors\nFixed handling of deprecated model destroy function for libsvm 3.0 and above",
-            "get": "http://pecl.php.net/get/svm-0.1.1",
+            "get": "https://pecl.php.net/get/svm-0.1.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.1.0": {
@@ -135,7 +135,7 @@
             "releasedBy": "ianb",
             "releaseDate": "2011-05-13T06:53:43+00:00",
             "releaseNotes": "Initial packaging.",
-            "get": "http://pecl.php.net/get/svm-0.1.0",
+            "get": "https://pecl.php.net/get/svm-0.1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

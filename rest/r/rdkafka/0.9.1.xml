@@ -15,6 +15,6 @@
  <da>2016-01-11 09:34:03</da>
  <n>* Allow to build against librdkafka master/0.9.x</n>
  <f>22978</f>
- <g>http://pecl.php.net/get/rdkafka-0.9.1</g>
+ <g>https://pecl.php.net/get/rdkafka-0.9.1</g>
  <x xlink:href="package.0.9.1.xml"/>
 </r>

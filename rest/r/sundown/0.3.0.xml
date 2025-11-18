@@ -31,6 +31,6 @@ php-sundown aims to implement more test cases until next minor version release.
   * fix memory leaks
   * implement more test cases.</n>
  <f>45601</f>
- <g>http://pecl.php.net/get/sundown-0.3.0</g>
+ <g>https://pecl.php.net/get/sundown-0.3.0</g>
  <x xlink:href="package.0.3.0.xml"/>
 </r>

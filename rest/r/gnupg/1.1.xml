@@ -16,6 +16,6 @@
  <n>improved PHP4 compatibility
 passphrase-errors now takes care of the errormode</n>
  <f>17518</f>
- <g>http://pecl.php.net/get/gnupg-1.1</g>
+ <g>https://pecl.php.net/get/gnupg-1.1</g>
  <x xlink:href="package.1.1.xml"/>
 </r>

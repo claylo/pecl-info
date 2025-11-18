@@ -23,6 +23,6 @@
  <da>2013-08-14 07:33:30</da>
  <n>Fix: Segmentation fault caused by direct access to the zend object properties' hash table</n>
  <f>69107</f>
- <g>http://pecl.php.net/get/event-1.7.4</g>
+ <g>https://pecl.php.net/get/event-1.7.4</g>
  <x xlink:href="package.1.7.4.xml"/>
 </r>

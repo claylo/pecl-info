@@ -16,6 +16,6 @@
  <n>- emit warning when compiling against V8 without untrusted code mitigations
 - support native modules (i.e. expose PHP objects via require('...'))</n>
  <f>101553</f>
- <g>http://pecl.php.net/get/v8js-2.1.0</g>
+ <g>https://pecl.php.net/get/v8js-2.1.0</g>
  <x xlink:href="package.2.1.0.xml"/>
 </r>

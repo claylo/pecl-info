@@ -15,6 +15,6 @@
  <da>2017-12-01 01:29:53</da>
  <n>1) APIS-762 bug patch (core dumped while calling cci_parepare on PHP 7.1.x environment)</n>
  <f>1071115</f>
- <g>http://pecl.php.net/get/PDO_CUBRID-10.1.0.0004</g>
+ <g>https://pecl.php.net/get/PDO_CUBRID-10.1.0.0004</g>
  <x xlink:href="package.10.1.0.0004.xml"/>
 </r>

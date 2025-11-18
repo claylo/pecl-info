@@ -20,6 +20,6 @@
 * Define HAVE_IGBINARY on Unix/Linux. (previously defined only on Windows)
 * Update formatting/wording of documentation.</n>
  <f>76708</f>
- <g>http://pecl.php.net/get/igbinary-2.0.8</g>
+ <g>https://pecl.php.net/get/igbinary-2.0.8</g>
  <x xlink:href="package.2.0.8.xml"/>
 </r>

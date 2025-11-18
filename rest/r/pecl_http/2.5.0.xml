@@ -32,6 +32,6 @@ http://dev.iworks.at/ext-http/lcov/ext/http/</d>
 + Added http\Url::SANITIZE_PATH to default flags of http\Url::mod()
 * Fixed overly aggressive response caching to only consider 2xx cachable</n>
  <f>190149</f>
- <g>http://pecl.php.net/get/pecl_http-2.5.0</g>
+ <g>https://pecl.php.net/get/pecl_http-2.5.0</g>
  <x xlink:href="package.2.5.0.xml"/>
 </r>

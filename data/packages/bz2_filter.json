@@ -15,7 +15,7 @@
             "releasedBy": "pollita",
             "releaseDate": "2005-02-28T21:03:57+00:00",
             "releaseNotes": "Port bugfixes and persistency safety from core",
-            "get": "http://pecl.php.net/get/bz2_filter-1.1.0",
+            "get": "https://pecl.php.net/get/bz2_filter-1.1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0": {

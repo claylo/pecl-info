@@ -18,6 +18,6 @@
 - Remove experimental eval serializer
 - Fix iterator for compatibility</n>
  <f>119681</f>
- <g>http://pecl.php.net/get/apcu-4.0.3</g>
+ <g>https://pecl.php.net/get/apcu-4.0.3</g>
  <x xlink:href="package.4.0.3.xml"/>
 </r>

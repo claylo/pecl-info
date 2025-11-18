@@ -16,6 +16,6 @@
  <da>2016-07-29 03:06:09</da>
  <n>Fix: issue #27 where callbacks with &lt; 2 arguments were rejected</n>
  <f>124630</f>
- <g>http://pecl.php.net/get/ev-1.0.1</g>
+ <g>https://pecl.php.net/get/ev-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

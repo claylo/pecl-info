@@ -19,6 +19,6 @@ These drivers rely on the Microsoft SQL Server 2012 Native Client's ODBC driver 
  <da>2012-04-10 11:35:02</da>
  <n>Cumulative Update 1 for Microsoft Drivers 3.0 for PHP for SQL Server</n>
  <f>134966</f>
- <g>http://pecl.php.net/get/sqlsrv-3.0.1</g>
+ <g>https://pecl.php.net/get/sqlsrv-3.0.1</g>
  <x xlink:href="package.3.0.1.xml"/>
 </r>

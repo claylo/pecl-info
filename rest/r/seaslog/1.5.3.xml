@@ -25,6 +25,6 @@
 - Fixed issue #73 Fixed segment fault with setBasePath function.
 - Support Datetime Format Config.</n>
  <f>69995</f>
- <g>http://pecl.php.net/get/SeasLog-1.5.3</g>
+ <g>https://pecl.php.net/get/SeasLog-1.5.3</g>
  <x xlink:href="package.1.5.3.xml"/>
 </r>

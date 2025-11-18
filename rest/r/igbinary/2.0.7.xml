@@ -18,6 +18,6 @@
  <da>2018-06-27 03:06:21</da>
  <n>* Fix compiler warnings about format strings, for errors that should not occur during normal igbinary usage.</n>
  <f>73523</f>
- <g>http://pecl.php.net/get/igbinary-2.0.7</g>
+ <g>https://pecl.php.net/get/igbinary-2.0.7</g>
  <x xlink:href="package.2.0.7.xml"/>
 </r>

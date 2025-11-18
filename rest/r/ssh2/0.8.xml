@@ -17,6 +17,6 @@ libssh2 is available from http://www.sourceforge.net/projects/libssh2</d>
  <n>Fixed feof() detection, removed unnecessary sleep() in channel shutdown, and simplified session detection.
 Note: All users are recommended to use libssh2 &gt;= 0.10 as it contains important bugfixes (particularly in the SFTP layer).</n>
  <f>21389</f>
- <g>http://pecl.php.net/get/ssh2-0.8</g>
+ <g>https://pecl.php.net/get/ssh2-0.8</g>
  <x xlink:href="package.0.8.xml"/>
 </r>

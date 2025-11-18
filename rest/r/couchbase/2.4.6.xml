@@ -18,6 +18,6 @@
 * PCBC-531: Field encryption (See https://packagist.org/packages/couchbase/couchbase-encryption).
 * PCBC-537: Implement Bucket#getName() returning bucket name.</n>
  <f>167675</f>
- <g>http://pecl.php.net/get/couchbase-2.4.6</g>
+ <g>https://pecl.php.net/get/couchbase-2.4.6</g>
  <x xlink:href="package.2.4.6.xml"/>
 </r>

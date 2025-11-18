@@ -17,6 +17,6 @@
 - Fixed memory leak when assigning an object
 - Fixed crash when using SplBool::getConstList() on PHP 5.3+</n>
  <f>8388</f>
- <g>http://pecl.php.net/get/SPL_Types-0.4.0</g>
+ <g>https://pecl.php.net/get/SPL_Types-0.4.0</g>
  <x xlink:href="package.0.4.0.xml"/>
 </r>

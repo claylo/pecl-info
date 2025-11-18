@@ -99,6 +99,6 @@ Fixed bugs:
     * 19707: AMQPQueue::get() doesn't return the message
     * 19840: Connection Exception</n>
  <f>38566</f>
- <g>http://pecl.php.net/get/amqp-1.0.8</g>
+ <g>https://pecl.php.net/get/amqp-1.0.8</g>
  <x xlink:href="package.1.0.8.xml"/>
 </r>

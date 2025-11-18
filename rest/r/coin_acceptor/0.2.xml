@@ -18,6 +18,6 @@
  <da>2004-11-18 18:15:00</da>
  <n>Code rewritten, added ca_lock(), ca_unlock(), ca_accept_coins(), changed init model</n>
  <f>7061</f>
- <g>http://pecl.php.net/get/coin_acceptor-0.2</g>
+ <g>https://pecl.php.net/get/coin_acceptor-0.2</g>
  <x xlink:href="package.0.2.xml"/>
 </r>

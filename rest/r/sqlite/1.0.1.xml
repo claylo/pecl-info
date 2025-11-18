@@ -24,6 +24,6 @@ Fixed crash bug in module shutdown
 Fixed crash with empty queries
 Fixed column name mangling bug</n>
  <f>358366</f>
- <g>http://pecl.php.net/get/SQLite-1.0.1</g>
+ <g>https://pecl.php.net/get/SQLite-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

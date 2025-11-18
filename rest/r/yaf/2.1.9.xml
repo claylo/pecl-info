@@ -15,6 +15,6 @@
  <da>2012-03-20 05:39:19</da>
  <n>- Fixed Bug that Yaf_Response::setBody cause invalid read</n>
  <f>75646</f>
- <g>http://pecl.php.net/get/yaf-2.1.9</g>
+ <g>https://pecl.php.net/get/yaf-2.1.9</g>
  <x xlink:href="package.2.1.9.xml"/>
 </r>

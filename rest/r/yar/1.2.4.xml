@@ -18,6 +18,6 @@
 - Fixed build with libcurl-7.12
 - Enable msgpack prompt in package.xml</n>
  <f>38355</f>
- <g>http://pecl.php.net/get/yar-1.2.4</g>
+ <g>https://pecl.php.net/get/yar-1.2.4</g>
  <x xlink:href="package.1.2.4.xml"/>
 </r>

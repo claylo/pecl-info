@@ -24,6 +24,6 @@ arg2 = the line number
 arg3 = classname (or an empty string)
 arg4 = object/class operator (::, -&gt;, or an empty string)</n>
  <f>3335</f>
- <g>http://pecl.php.net/get/dtrace-1.0.3</g>
+ <g>https://pecl.php.net/get/dtrace-1.0.3</g>
  <x xlink:href="package.1.0.3.xml"/>
 </r>

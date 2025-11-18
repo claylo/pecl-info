@@ -19,6 +19,6 @@ See https://github.com/nsf/termbox for the underlying library.</d>
  <da>2014-09-13 13:45:58</da>
  <n>build fixes; arginfo</n>
  <f>201558</f>
- <g>http://pecl.php.net/get/termbox-0.1.1</g>
+ <g>https://pecl.php.net/get/termbox-0.1.1</g>
  <x xlink:href="package.0.1.1.xml"/>
 </r>

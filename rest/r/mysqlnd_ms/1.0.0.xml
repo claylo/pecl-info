@@ -19,6 +19,6 @@
  <da>2011-04-20 11:10:08</da>
  <n>Initial alpha package release. All 1.0 features implemented.</n>
  <f>136120</f>
- <g>http://pecl.php.net/get/mysqlnd_ms-1.0.0</g>
+ <g>https://pecl.php.net/get/mysqlnd_ms-1.0.0</g>
  <x xlink:href="package.1.0.0.xml"/>
 </r>

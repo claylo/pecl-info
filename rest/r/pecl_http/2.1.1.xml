@@ -33,6 +33,6 @@ v2: http://dev.iworks.at/ext-http/lcov/ext/http/</d>
  <n>* Fix httpVersion retrieval on bigendian (Remi)
 * Fix etag/crc32b on bigendian (Remi)</n>
  <f>158441</f>
- <g>http://pecl.php.net/get/pecl_http-2.1.1</g>
+ <g>https://pecl.php.net/get/pecl_http-2.1.1</g>
  <x xlink:href="package.2.1.1.xml"/>
 </r>

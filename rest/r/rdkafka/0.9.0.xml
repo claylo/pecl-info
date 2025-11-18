@@ -17,6 +17,6 @@
 * Consistent partitioner
 * Fix ZTS build</n>
  <f>23119</f>
- <g>http://pecl.php.net/get/rdkafka-0.9.0</g>
+ <g>https://pecl.php.net/get/rdkafka-0.9.0</g>
  <x xlink:href="package.0.9.0.xml"/>
 </r>

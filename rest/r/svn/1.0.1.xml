@@ -19,6 +19,6 @@
    #18513 - svn_info( working_copy, false, SVN_REVISION_UNSPECIFIED ) gives you a svn_info on the local copy
    #20440 - svn_mkdir on working copy log message is optional</n>
  <f>24716</f>
- <g>http://pecl.php.net/get/svn-1.0.1</g>
+ <g>https://pecl.php.net/get/svn-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

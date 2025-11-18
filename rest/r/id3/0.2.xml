@@ -17,6 +17,6 @@ MP3 files. It supports version 1.0, 1.1 and 2.2+ (only reading text- and url-fra
  <da>2004-09-24 18:34:00</da>
  <n>added support to read id3v2 text- and url-frames</n>
  <f>20693</f>
- <g>http://pecl.php.net/get/id3-0.2</g>
+ <g>https://pecl.php.net/get/id3-0.2</g>
  <x xlink:href="package.0.2.xml"/>
 </r>

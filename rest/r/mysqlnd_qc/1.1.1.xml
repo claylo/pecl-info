@@ -15,6 +15,6 @@
  <da>2012-04-16 08:44:11</da>
  <n>Small change to fix the build in case QC is built/used together with MS</n>
  <f>146719</f>
- <g>http://pecl.php.net/get/mysqlnd_qc-1.1.1</g>
+ <g>https://pecl.php.net/get/mysqlnd_qc-1.1.1</g>
  <x xlink:href="package.1.1.1.xml"/>
 </r>

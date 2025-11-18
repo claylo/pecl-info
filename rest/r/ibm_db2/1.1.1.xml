@@ -18,6 +18,6 @@ Apache Derby databases.
  <da>2005-09-21 13:59:16</da>
  <n>Adds db2_client_info() and db2_server_info() functions.</n>
  <f>113899</f>
- <g>http://pecl.php.net/get/ibm_db2-1.1.1</g>
+ <g>https://pecl.php.net/get/ibm_db2-1.1.1</g>
  <x xlink:href="package.1.1.1.xml"/>
 </r>

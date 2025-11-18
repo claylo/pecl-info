@@ -29,6 +29,6 @@ Improved oci_password_change() to close persistent connections on shutdown (to u
 Changed oci_pconnect() to behave like oci_connect() when SYSDBA and SYSOPER privileges are used.
 Various minor improvements.</n>
  <f>99687</f>
- <g>http://pecl.php.net/get/oci8-1.2.4</g>
+ <g>https://pecl.php.net/get/oci8-1.2.4</g>
  <x xlink:href="package.1.2.4.xml"/>
 </r>

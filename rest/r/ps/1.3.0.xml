@@ -16,6 +16,6 @@
  <da>2004-07-27 16:15:00</da>
  <n>Added function ps_shfill(), ps_shading(), ps_shading_pattern(), ps_get_buffer(). New example files shading.php and image.php. Renamed undocumented function ps_setoverprint() to ps_setoverprintmode().</n>
  <f>155309</f>
- <g>http://pecl.php.net/get/ps-1.3.0</g>
+ <g>https://pecl.php.net/get/ps-1.3.0</g>
  <x xlink:href="package.1.3.0.xml"/>
 </r>

@@ -30,6 +30,6 @@
 - php 5.3.0 TSRMLS_CC additions (Thomas Krause)
 - update package xml to v2 (Pierre Joye)</n>
  <f>24466</f>
- <g>http://pecl.php.net/get/svn-1.0.0</g>
+ <g>https://pecl.php.net/get/svn-1.0.0</g>
  <x xlink:href="package.1.0.0.xml"/>
 </r>

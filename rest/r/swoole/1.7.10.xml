@@ -35,6 +35,6 @@
 - Optimization performance for swoole_client and swoole_event
 - Added ARM platform support</n>
  <f>437208</f>
- <g>http://pecl.php.net/get/swoole-1.7.10</g>
+ <g>https://pecl.php.net/get/swoole-1.7.10</g>
  <x xlink:href="package.1.7.10.xml"/>
 </r>

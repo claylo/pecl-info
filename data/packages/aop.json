@@ -15,57 +15,7 @@
             "releasedBy": "juliens",
             "releaseDate": "2012-11-18T07:01:37+00:00",
             "releaseNotes": "- Cache on function (With SegFault Correction)",
-            "get": "http://pecl.php.net/get/AOP-0.2.2b1",
-            "SPDX-License-Identifier": "PHP-3.01"
-        },
-        "0.2.1b5": {
-            "version": "0.2.1b5",
-            "state": "beta",
-            "license": "PHP License",
-            "releasedBy": "juliens",
-            "releaseDate": "2012-11-17T16:42:16+00:00",
-            "releaseNotes": "- Bugs on extract\n- Bugs on this in process()\n- Pyrus version",
-            "get": "http://pecl.php.net/get/AOP-0.2.1b5",
-            "SPDX-License-Identifier": "PHP-3.01"
-        },
-        "0.2.1b4": {
-            "version": "0.2.1b4",
-            "state": "beta",
-            "license": "PHP License",
-            "releasedBy": "juliens",
-            "releaseDate": "2012-11-17T16:31:25+00:00",
-            "releaseNotes": "- Bugs on extract\n- Bugs on this in process()\n- Pyrus version",
-            "get": "http://pecl.php.net/get/AOP-0.2.1b4",
-            "SPDX-License-Identifier": "PHP-3.01"
-        },
-        "0.2.1b3": {
-            "version": "0.2.1b3",
-            "state": "beta",
-            "license": "PHP License",
-            "releasedBy": "juliens",
-            "releaseDate": "2012-11-17T16:23:14+00:00",
-            "releaseNotes": "- Bugs on extract\n- Bugs on this in process()\n- Pyrus version",
-            "get": "http://pecl.php.net/get/AOP-0.2.1b3",
-            "SPDX-License-Identifier": "PHP-3.01"
-        },
-        "0.2.1b2": {
-            "version": "0.2.1b2",
-            "state": "beta",
-            "license": "PHP License",
-            "releasedBy": "juliens",
-            "releaseDate": "2012-11-17T16:14:43+00:00",
-            "releaseNotes": "- Bugs on extract\n- Bugs on this in process()\n- Pyrus version",
-            "get": "http://pecl.php.net/get/AOP-0.2.1b2",
-            "SPDX-License-Identifier": "PHP-3.01"
-        },
-        "0.2.1b1": {
-            "version": "0.2.1b1",
-            "state": "beta",
-            "license": "PHP License",
-            "releasedBy": "juliens",
-            "releaseDate": "2012-11-17T15:57:31+00:00",
-            "releaseNotes": "- Bugs on extract\n- Bugs on this in process()\n- Pyrus version",
-            "get": "http://pecl.php.net/get/AOP-0.2.1b1",
+            "get": "https://pecl.php.net/get/AOP-0.2.2b1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.2.1": {
@@ -75,7 +25,57 @@
             "releasedBy": "juliens",
             "releaseDate": "2012-11-17T15:48:22+00:00",
             "releaseNotes": "- Bugs on extract\n- Bugs on this in process()\n- Pyrus version",
-            "get": "http://pecl.php.net/get/AOP-0.2.1",
+            "get": "https://pecl.php.net/get/AOP-0.2.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.1b5": {
+            "version": "0.2.1b5",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "juliens",
+            "releaseDate": "2012-11-17T16:42:16+00:00",
+            "releaseNotes": "- Bugs on extract\n- Bugs on this in process()\n- Pyrus version",
+            "get": "https://pecl.php.net/get/AOP-0.2.1b5",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.1b4": {
+            "version": "0.2.1b4",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "juliens",
+            "releaseDate": "2012-11-17T16:31:25+00:00",
+            "releaseNotes": "- Bugs on extract\n- Bugs on this in process()\n- Pyrus version",
+            "get": "https://pecl.php.net/get/AOP-0.2.1b4",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.1b3": {
+            "version": "0.2.1b3",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "juliens",
+            "releaseDate": "2012-11-17T16:23:14+00:00",
+            "releaseNotes": "- Bugs on extract\n- Bugs on this in process()\n- Pyrus version",
+            "get": "https://pecl.php.net/get/AOP-0.2.1b3",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.1b2": {
+            "version": "0.2.1b2",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "juliens",
+            "releaseDate": "2012-11-17T16:14:43+00:00",
+            "releaseNotes": "- Bugs on extract\n- Bugs on this in process()\n- Pyrus version",
+            "get": "https://pecl.php.net/get/AOP-0.2.1b2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "0.2.1b1": {
+            "version": "0.2.1b1",
+            "state": "beta",
+            "license": "PHP License",
+            "releasedBy": "juliens",
+            "releaseDate": "2012-11-17T15:57:31+00:00",
+            "releaseNotes": "- Bugs on extract\n- Bugs on this in process()\n- Pyrus version",
+            "get": "https://pecl.php.net/get/AOP-0.2.1b1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.2.0": {
@@ -85,7 +85,7 @@
             "releasedBy": "juliens",
             "releaseDate": "2012-10-11T08:12:42+00:00",
             "releaseNotes": "AopTriggeredJoinPoint was renamed AopJoinPoint\nAopJoinPoint->getTriggering* was renamed AopJoinPoint->get*\nUpdated error messages to be more explicit\nlots of bug fixes\nperformances improvements",
-            "get": "http://pecl.php.net/get/AOP-0.2.0",
+            "get": "https://pecl.php.net/get/AOP-0.2.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.1.0": {
@@ -95,7 +95,7 @@
             "releasedBy": "gerald",
             "releaseDate": "2012-07-05T11:42:36+00:00",
             "releaseNotes": "AOP In PHP",
-            "get": "http://pecl.php.net/get/AOP-0.1.0",
+            "get": "https://pecl.php.net/get/AOP-0.1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

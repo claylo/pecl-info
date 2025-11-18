@@ -17,6 +17,6 @@
 - Fixed regression in the overwrite mode
 - Fixed binary mode with FCGI on Windows</n>
  <f>84988</f>
- <g>http://pecl.php.net/get/zip-1.10.1</g>
+ <g>https://pecl.php.net/get/zip-1.10.1</g>
  <x xlink:href="package.1.10.1.xml"/>
 </r>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/raphf">raphf</p>
+ <c>pecl.php.net</c>
+ <v>2.0.2</v>
+ <st>stable</st>
+ <l>BSD-2-Clause</l>
+ <m>mike</m>
+ <s>Resource and persistent handles factory</s>
+ <d>A reusable split-off of pecl_http&#039;s persistent handle and resource factory API.</d>
+ <da>2025-08-29 07:58:36</da>
+ <n>* Merged gh#9: fix format, used is unsigned long (Remi)</n>
+ <f>16262</f>
+ <g>https://pecl.php.net/get/raphf-2.0.2</g>
+ <x xlink:href="package.2.0.2.xml"/>
+</r>

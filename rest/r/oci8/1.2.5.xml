@@ -24,6 +24,6 @@ Fixed bug #44113 (new collection creation can fail with OCI-22303) http://bugs.p
 Enhancement - make -with-oci8=instantclient with no directory specified look for RPM install
 Enhancement - compile with 64bit Instant Client RPMs (bug http://bugs.php.net/bug.php?id=41941, http://pecl.php.net/bugs/bug.php?id=13523)</n>
  <f>113651</f>
- <g>http://pecl.php.net/get/oci8-1.2.5</g>
+ <g>https://pecl.php.net/get/oci8-1.2.5</g>
  <x xlink:href="package.1.2.5.xml"/>
 </r>

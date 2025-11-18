@@ -15,6 +15,6 @@
  <da>2018-03-22 05:25:12</da>
  <n>- Fixed issue #389 (segfault in debug mode while running with phpunit)</n>
  <f>97140</f>
- <g>http://pecl.php.net/get/yaf-3.0.7</g>
+ <g>https://pecl.php.net/get/yaf-3.0.7</g>
  <x xlink:href="package.3.0.7.xml"/>
 </r>

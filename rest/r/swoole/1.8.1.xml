@@ -37,6 +37,6 @@
 - Fixed async client memory leak
 - Fixed compile failed with enable-openssl on MacOS</n>
  <f>494129</f>
- <g>http://pecl.php.net/get/swoole-1.8.1</g>
+ <g>https://pecl.php.net/get/swoole-1.8.1</g>
  <x xlink:href="package.1.8.1.xml"/>
 </r>

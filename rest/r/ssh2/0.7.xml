@@ -18,6 +18,6 @@ libssh2 is available from http://www.sourceforge.net/projects/libssh2
  <n>Fixed socket leak bug.  Connections wern't being closed like they were supposed to.
 Add ssh2_auth_hostbased_file() for hostkey authentication.</n>
  <f>18359</f>
- <g>http://pecl.php.net/get/ssh2-0.7</g>
+ <g>https://pecl.php.net/get/ssh2-0.7</g>
  <x xlink:href="package.0.7.xml"/>
 </r>

@@ -80,6 +80,6 @@ Xdebug also provides:
     - Suppress NOP/EXT_NOP from being marked as executable code with Code
       Coverage.</n>
  <f>242013</f>
- <g>http://pecl.php.net/get/xdebug-2.0.0beta6</g>
+ <g>https://pecl.php.net/get/xdebug-2.0.0beta6</g>
  <x xlink:href="package.2.0.0beta6.xml"/>
 </r>

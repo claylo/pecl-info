@@ -19,6 +19,6 @@ in .MB files.
  <da>2007-10-04 10:43:18</da>
  <n>Array returned PX_get_info() contains new key 'recordsize'. Added config.w32. Pass TSRMLS_CC to non api functions.</n>
  <f>20670</f>
- <g>http://pecl.php.net/get/paradox-1.4.2</g>
+ <g>https://pecl.php.net/get/paradox-1.4.2</g>
  <x xlink:href="package.1.4.2.xml"/>
 </r>

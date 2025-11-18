@@ -15,6 +15,6 @@
  <da>2012-08-22 11:23:02</da>
  <n>- Fixed segfault when using correlId in MQPUT</n>
  <f>38534</f>
- <g>http://pecl.php.net/get/mqseries-0.12.1</g>
+ <g>https://pecl.php.net/get/mqseries-0.12.1</g>
  <x xlink:href="package.0.12.1.xml"/>
 </r>

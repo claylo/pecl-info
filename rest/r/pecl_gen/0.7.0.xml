@@ -32,6 +32,6 @@ PECL extension.
 - .cvsignore created with platform-specific entries
 - PEARifying error reporting finished</n>
  <f>39370</f>
- <g>http://pecl.php.net/get/PECL_Gen-0.7.0</g>
+ <g>https://pecl.php.net/get/PECL_Gen-0.7.0</g>
  <x xlink:href="package.0.7.0.xml"/>
 </r>

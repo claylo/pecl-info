@@ -18,6 +18,6 @@ This extension requires ImageMagick version 6.5.3-10+ and PHP 5.4.0+.</d>
   * Bug: IM143 Correct ifdef around setOpacity and localContrastImage.
   * Bug: IM147 Imagick was Borging PHP's error handler.</n>
  <f>239574</f>
- <g>http://pecl.php.net/get/imagick-3.4.2</g>
+ <g>https://pecl.php.net/get/imagick-3.4.2</g>
  <x xlink:href="package.3.4.2.xml"/>
 </r>

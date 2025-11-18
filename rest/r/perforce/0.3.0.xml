@@ -16,6 +16,6 @@
  <da>2004-06-23 07:02:00</da>
  <n>PHP5 Win32 builds (and ZTS builds, in general) are now fully supported.</n>
  <f>8865</f>
- <g>http://pecl.php.net/get/perforce-0.3.0</g>
+ <g>https://pecl.php.net/get/perforce-0.3.0</g>
  <x xlink:href="package.0.3.0.xml"/>
 </r>

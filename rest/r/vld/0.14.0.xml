@@ -17,6 +17,6 @@ dumps all the opcodes (execution units) of a script.</d>
  <n>- PHP 7.0 and 7.1 support
 - Fixes for dead code and path analysis</n>
  <f>20506</f>
- <g>http://pecl.php.net/get/vld-0.14.0</g>
+ <g>https://pecl.php.net/get/vld-0.14.0</g>
  <x xlink:href="package.0.14.0.xml"/>
 </r>

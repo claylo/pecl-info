@@ -15,7 +15,7 @@
             "releasedBy": "ppadron",
             "releaseDate": "2010-02-12T07:22:11+00:00",
             "releaseNotes": "- fixed Apache segfault on 64bit",
-            "get": "http://pecl.php.net/get/augeas-0.6.1",
+            "get": "https://pecl.php.net/get/augeas-0.6.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.6.0": {
@@ -25,7 +25,7 @@
             "releasedBy": "ppadron",
             "releaseDate": "2010-02-01T14:05:28+00:00",
             "releaseNotes": "- extension is now compatible with PHP 5.3 (removed static from ZEND_ARG_INFO)\n- fixed some compiler warnings",
-            "get": "http://pecl.php.net/get/augeas-0.6.0",
+            "get": "https://pecl.php.net/get/augeas-0.6.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.5.1": {
@@ -35,7 +35,7 @@
             "releasedBy": "ppadron",
             "releaseDate": "2010-01-29T14:06:21+00:00",
             "releaseNotes": "- Added README file",
-            "get": "http://pecl.php.net/get/augeas-0.5.1",
+            "get": "https://pecl.php.net/get/augeas-0.5.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.5.0": {
@@ -45,7 +45,7 @@
             "releasedBy": "ppadron",
             "releaseDate": "2009-12-15T19:47:31+00:00",
             "releaseNotes": "- Augeas::match() now returns an associative array with nodes => values",
-            "get": "http://pecl.php.net/get/augeas-0.5.0",
+            "get": "https://pecl.php.net/get/augeas-0.5.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.4.0": {
@@ -55,7 +55,7 @@
             "releasedBy": "ppadron",
             "releaseDate": "2009-12-01T13:09:23+00:00",
             "releaseNotes": "- new method Augeas::mv()\n- added test suite AllTests.php",
-            "get": "http://pecl.php.net/get/augeas-0.4.0",
+            "get": "https://pecl.php.net/get/augeas-0.4.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.3": {
@@ -65,7 +65,7 @@
             "releasedBy": "ppadron",
             "releaseDate": "2009-11-24T11:55:47+00:00",
             "releaseNotes": "- private property Augeas::$handle no longer exists\n- resource type is no longer used",
-            "get": "http://pecl.php.net/get/augeas-0.3",
+            "get": "https://pecl.php.net/get/augeas-0.3",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

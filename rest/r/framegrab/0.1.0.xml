@@ -17,6 +17,6 @@
 - Changed FrameGrabImage::writePNG() to FrameGrabImage::writeAsPNG().  
 - Added FrameGrabImage::toStringAsPNG() which returns the image as PNG data as a string.  This allows the output to be fed straight in to GD without requiring an intermediate file.</n>
  <f>12516</f>
- <g>http://pecl.php.net/get/framegrab-0.1.0</g>
+ <g>https://pecl.php.net/get/framegrab-0.1.0</g>
  <x xlink:href="package.0.1.0.xml"/>
 </r>

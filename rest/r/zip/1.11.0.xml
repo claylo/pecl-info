@@ -19,6 +19,6 @@
 - Added ZIP_TRUNCATE for zip_open()
 - Added zip_set_file_compression()</n>
  <f>263909</f>
- <g>http://pecl.php.net/get/zip-1.11.0</g>
+ <g>https://pecl.php.net/get/zip-1.11.0</g>
  <x xlink:href="package.1.11.0.xml"/>
 </r>

@@ -32,6 +32,6 @@
 - Added MySQL8 caching_sha2_password supports
 - Refactor channel</n>
  <f>899395</f>
- <g>http://pecl.php.net/get/swoole-4.0.1</g>
+ <g>https://pecl.php.net/get/swoole-4.0.1</g>
  <x xlink:href="package.4.0.1.xml"/>
 </r>

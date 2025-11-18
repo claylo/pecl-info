@@ -18,6 +18,6 @@
 - Fix string refcount for array keys
 - Minor bug fixes and tweaks</n>
  <f>140433</f>
- <g>http://pecl.php.net/get/WINCACHE-2.0.0.4</g>
+ <g>https://pecl.php.net/get/WINCACHE-2.0.0.4</g>
  <x xlink:href="package.2.0.0.4.xml"/>
 </r>

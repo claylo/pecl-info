@@ -17,6 +17,6 @@
  <n>- Python functions now accept a variable list of arguments.  The array() method of passing arguments no longer works.
 - Python object handles are now stored internally as Zend resources.</n>
  <f>12802</f>
- <g>http://pecl.php.net/get/python-0.7.0</g>
+ <g>https://pecl.php.net/get/python-0.7.0</g>
  <x xlink:href="package.0.7.0.xml"/>
 </r>

@@ -18,6 +18,6 @@ Fixed memory leaks when structures contain themselves.
 Fixed module dependencies.
 Version info in phpinfo()</n>
  <f>49402</f>
- <g>http://pecl.php.net/get/ds-1.1.3</g>
+ <g>https://pecl.php.net/get/ds-1.1.3</g>
  <x xlink:href="package.1.1.3.xml"/>
 </r>

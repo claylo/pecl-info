@@ -32,6 +32,6 @@ HttpResponse</d>
  <n>* Fixed bug #6861 - 5 digit ports get truncated
 * Fixed bug with non-functional HttpRequest::setContentType()</n>
  <f>173043</f>
- <g>http://pecl.php.net/get/pecl_http-0.24.1</g>
+ <g>https://pecl.php.net/get/pecl_http-0.24.1</g>
  <x xlink:href="package.0.24.1.xml"/>
 </r>

@@ -16,6 +16,6 @@
  <n>- Add ability to change the request/response Content-type
 - Add Version info in phpinfo outputing</n>
  <f>33625</f>
- <g>http://pecl.php.net/get/yar-1.2.0</g>
+ <g>https://pecl.php.net/get/yar-1.2.0</g>
  <x xlink:href="package.1.2.0.xml"/>
 </r>

@@ -15,7 +15,7 @@
             "releasedBy": "ab",
             "releaseDate": "2017-01-05T21:41:13+00:00",
             "releaseNotes": "- Major refactoring of the class structure, as described below\n- HRTime\\PerformanceCounter::getFrequency() is now static\n- add HRTime\\PerformanceCounter::getTicks()\n- add HRTime\\PerformanceCounter::getTicksSince()\n- moved HRTime\\PerformanceCounter::start() to HRTime\\StopWatch::start()\n- moved HRTime\\PerformanceCounter::stop() to HRTime\\StopWatch::stop()\n- moved HRTime\\PerformanceCounter::getElapsedTicks() to HRTime\\StopWatch::getElapsedTicks()\n- moved HRTime\\PerformanceCounter::getLastElapsedTicks() to HRTime\\StopWatch::getLastElapsedTicks()\n- moved HRTime\\PerformanceCounter::isRunning() to HRTime\\StopWatch::isRunning()",
-            "get": "http://pecl.php.net/get/hrtime-0.6.0",
+            "get": "https://pecl.php.net/get/hrtime-0.6.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.5.1": {
@@ -25,7 +25,7 @@
             "releasedBy": "ab",
             "releaseDate": "2015-02-03T13:08:14+00:00",
             "releaseNotes": "- fixed invalid free under PHP7",
-            "get": "http://pecl.php.net/get/hrtime-0.5.1",
+            "get": "https://pecl.php.net/get/hrtime-0.5.1",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.5.0": {
@@ -35,7 +35,7 @@
             "releasedBy": "ab",
             "releaseDate": "2015-02-01T14:58:01+00:00",
             "releaseNotes": "- PHP7 compatibility\n- marked stable",
-            "get": "http://pecl.php.net/get/hrtime-0.5.0",
+            "get": "https://pecl.php.net/get/hrtime-0.5.0",
             "SPDX-License-Identifier": "BSD-2-Clause"
         },
         "0.4.3": {
@@ -45,7 +45,7 @@
             "releasedBy": "ab",
             "releaseDate": "2014-04-18T12:44:41+00:00",
             "releaseNotes": "- first public release",
-            "get": "http://pecl.php.net/get/hrtime-0.4.3",
+            "get": "https://pecl.php.net/get/hrtime-0.4.3",
             "SPDX-License-Identifier": "BSD-2-Clause"
         }
     },

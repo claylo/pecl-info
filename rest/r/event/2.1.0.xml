@@ -30,6 +30,6 @@ SSL Fixes:
 - EventSslContext::OPT_ALLOW_SELF_SIGNED = TRUE accepted any self-signed certificate without regard to OPT_CA_FILE/OPT_CA_PATH
 Fix: PHP 7.1.0alpha1 build errors</n>
  <f>132147</f>
- <g>http://pecl.php.net/get/event-2.1.0</g>
+ <g>https://pecl.php.net/get/event-2.1.0</g>
  <x xlink:href="package.2.1.0.xml"/>
 </r>

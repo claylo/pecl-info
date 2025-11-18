@@ -19,6 +19,6 @@ IMPORTANT: Version 2.x API is not compatible with earlier versions.</d>
  <n>- Fixed image reading routines. Page defitions (test.pdf[0]) were broken on RC1
 - Fixed imagick::colorizeImage, it had no effect on images</n>
  <f>87035</f>
- <g>http://pecl.php.net/get/imagick-2.3.0RC2</g>
+ <g>https://pecl.php.net/get/imagick-2.3.0RC2</g>
  <x xlink:href="package.2.3.0RC2.xml"/>
 </r>

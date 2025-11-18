@@ -17,6 +17,6 @@ This extension is meant for development and debug purposes only and contains som
  <n>Make 5.1/5.2 compatable by ifdefing out more opcodes
 Output sensible data for IS_CV nodes</n>
  <f>14805</f>
- <g>http://pecl.php.net/get/parsekit-1.1</g>
+ <g>https://pecl.php.net/get/parsekit-1.1</g>
  <x xlink:href="package.1.1.xml"/>
 </r>

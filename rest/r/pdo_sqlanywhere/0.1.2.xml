@@ -17,6 +17,6 @@
 - Replaced references to Sybase 
 - Fixed crash when calling getColumnMeta</n>
  <f>31780</f>
- <g>http://pecl.php.net/get/PDO_SQLANYWHERE-0.1.2</g>
+ <g>https://pecl.php.net/get/PDO_SQLANYWHERE-0.1.2</g>
  <x xlink:href="package.0.1.2.xml"/>
 </r>

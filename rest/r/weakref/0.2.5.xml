@@ -15,6 +15,6 @@
  <da>2014-10-08 04:35:40</da>
  <n>- Fix crash when freeing circular weakmap/ref (issues #13)</n>
  <f>10101</f>
- <g>http://pecl.php.net/get/Weakref-0.2.5</g>
+ <g>https://pecl.php.net/get/Weakref-0.2.5</g>
  <x xlink:href="package.0.2.5.xml"/>
 </r>

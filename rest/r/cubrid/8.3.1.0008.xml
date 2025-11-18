@@ -19,6 +19,6 @@
 - Add two functions, cubrid_pconnect and cubrid_pconnect_with_url, to support the persistent connection like mysql_pconnect
 - Add a form of the url argument in cubrid_connect_with_url function</n>
  <f>40628</f>
- <g>http://pecl.php.net/get/CUBRID-8.3.1.0008</g>
+ <g>https://pecl.php.net/get/CUBRID-8.3.1.0008</g>
  <x xlink:href="package.8.3.1.0008.xml"/>
 </r>

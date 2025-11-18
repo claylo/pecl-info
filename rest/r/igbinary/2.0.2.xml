@@ -20,6 +20,6 @@
 - Fixes crash in Memcached-&gt;setMulti (in php 7.0+) when the first level of array elements have references as values.
   Other extensions using igbinary shouldn't be affected.</n>
  <f>67192</f>
- <g>http://pecl.php.net/get/igbinary-2.0.2</g>
+ <g>https://pecl.php.net/get/igbinary-2.0.2</g>
  <x xlink:href="package.2.0.2.xml"/>
 </r>

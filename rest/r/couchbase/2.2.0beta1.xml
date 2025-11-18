@@ -23,6 +23,6 @@ Changes:
 * PCBC-373: ensure view query values are properly url encoded
 * Various minor changes</n>
  <f>40927</f>
- <g>http://pecl.php.net/get/couchbase-2.2.0beta1</g>
+ <g>https://pecl.php.net/get/couchbase-2.2.0beta1</g>
  <x xlink:href="package.2.2.0beta1.xml"/>
 </r>

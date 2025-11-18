@@ -18,6 +18,6 @@
 - VarnishStat and VarnishLog aren't supported when linking to Varnish 4.x anymore
 - PHP7 compatibility</n>
  <f>25188</f>
- <g>http://pecl.php.net/get/varnish-1.2.0</g>
+ <g>https://pecl.php.net/get/varnish-1.2.0</g>
  <x xlink:href="package.1.2.0.xml"/>
 </r>

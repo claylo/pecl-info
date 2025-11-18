@@ -26,6 +26,6 @@ libraries are available.</d>
  <n>Added a LICENSE file to make it easier for PECL binary distributions
 to conform with the license.</n>
  <f>189668</f>
- <g>http://pecl.php.net/get/oci8-2.0.6</g>
+ <g>https://pecl.php.net/get/oci8-2.0.6</g>
  <x xlink:href="package.2.0.6.xml"/>
 </r>

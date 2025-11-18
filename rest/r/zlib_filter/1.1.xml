@@ -16,6 +16,6 @@
  <da>2004-07-21 03:58:00</da>
  <n>Backport fixes from PHP 5.1.0 and add persistence safety</n>
  <f>5109</f>
- <g>http://pecl.php.net/get/zlib_filter-1.1</g>
+ <g>https://pecl.php.net/get/zlib_filter-1.1</g>
  <x xlink:href="package.1.1.xml"/>
 </r>

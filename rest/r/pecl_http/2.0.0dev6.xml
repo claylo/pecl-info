@@ -26,6 +26,6 @@
 * Changed http\Env\Response to only cache responses to GET or HEAD requests without authorization
 * Fixed possible crash when http\Url was initialized with empty urls</n>
  <f>124038</f>
- <g>http://pecl.php.net/get/pecl_http-2.0.0dev6</g>
+ <g>https://pecl.php.net/get/pecl_http-2.0.0dev6</g>
  <x xlink:href="package.2.0.0dev6.xml"/>
 </r>

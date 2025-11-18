@@ -20,6 +20,6 @@
 - Fixed overflow with 64bit numbers
 - Fixed building with thread safety enabled</n>
  <f>742884</f>
- <g>http://pecl.php.net/get/sqlite3-0.4</g>
+ <g>https://pecl.php.net/get/sqlite3-0.4</g>
  <x xlink:href="package.0.4.xml"/>
 </r>

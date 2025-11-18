@@ -21,6 +21,6 @@
 - setModuleLoader callback is now allowed to return an empty string as source of module
 - V8Js' internal module path normalisation may now be overrode using setModuleNormaliser</n>
  <f>95258</f>
- <g>http://pecl.php.net/get/v8js-0.4.0</g>
+ <g>https://pecl.php.net/get/v8js-0.4.0</g>
  <x xlink:href="package.0.4.0.xml"/>
 </r>

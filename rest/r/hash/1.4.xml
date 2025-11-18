@@ -17,6 +17,6 @@
 * Added ripemd256, and ripemd320 to supported algorithms
 * Added function reflection information (PHP5+ only)</n>
  <f>98806</f>
- <g>http://pecl.php.net/get/hash-1.4</g>
+ <g>https://pecl.php.net/get/hash-1.4</g>
  <x xlink:href="package.1.4.xml"/>
 </r>

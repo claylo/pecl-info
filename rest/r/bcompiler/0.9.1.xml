@@ -25,6 +25,6 @@ For install instructions see the manual at pear.php.net</d>
  <n>- PHP 5.3 and 6.0-dev support
 - bugfixes</n>
  <f>47335</f>
- <g>http://pecl.php.net/get/bcompiler-0.9.1</g>
+ <g>https://pecl.php.net/get/bcompiler-0.9.1</g>
  <x xlink:href="package.0.9.1.xml"/>
 </r>

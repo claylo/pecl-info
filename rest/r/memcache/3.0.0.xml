@@ -36,6 +36,6 @@
    memcache.hash_strategy = consistent
    memcache.chunk_size = 32768</n>
  <f>41593</f>
- <g>http://pecl.php.net/get/memcache-3.0.0</g>
+ <g>https://pecl.php.net/get/memcache-3.0.0</g>
  <x xlink:href="package.3.0.0.xml"/>
 </r>

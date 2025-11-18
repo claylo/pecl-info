@@ -37,6 +37,6 @@
 * Fixed a bug where entities that where not marked for being cached were
   actually cached if an apropriate ETag or Last-Modified header was seen</n>
  <f>95778</f>
- <g>http://pecl.php.net/get/pecl_http-0.13.0</g>
+ <g>https://pecl.php.net/get/pecl_http-0.13.0</g>
  <x xlink:href="package.0.13.0.xml"/>
 </r>

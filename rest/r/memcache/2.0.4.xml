@@ -22,6 +22,6 @@ handy OO and procedural interfaces.
  <n>- Redefined retry_interval as long to fix no-automatic-reconnect behaviour
 - Fixed PECL bugs #7635, #7637 (OnUpdateInt: referenced symbol not found)</n>
  <f>17778</f>
- <g>http://pecl.php.net/get/memcache-2.0.4</g>
+ <g>https://pecl.php.net/get/memcache-2.0.4</g>
  <x xlink:href="package.2.0.4.xml"/>
 </r>

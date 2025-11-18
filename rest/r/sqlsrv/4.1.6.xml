@@ -22,6 +22,6 @@
 - Fixed sqlsrv client buffer size to only allow positive integers.
 - Fixed PECL installation errors when PHP was installed from source.</n>
  <f>192133</f>
- <g>http://pecl.php.net/get/sqlsrv-4.1.6</g>
+ <g>https://pecl.php.net/get/sqlsrv-4.1.6</g>
  <x xlink:href="package.4.1.6.xml"/>
 </r>

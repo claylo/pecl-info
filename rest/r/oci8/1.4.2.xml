@@ -20,6 +20,6 @@ Fixed bug #51291 (oci_error doesn't report last error when called two times)
 
 OCI8 1.4.2 is included in PHP 5.3.3</n>
  <f>153541</f>
- <g>http://pecl.php.net/get/oci8-1.4.2</g>
+ <g>https://pecl.php.net/get/oci8-1.4.2</g>
  <x xlink:href="package.1.4.2.xml"/>
 </r>

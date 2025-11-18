@@ -79,6 +79,6 @@ necessary to build a fully-functional MongoDB driver.</d>
     * [PHPC-942] - Use mongoc_uri_new_with_error() to improve URI error reporting
     * [PHPC-944] - MONGOC_ERROR_COMMAND_INVALID_ARG should yield InvalidArgumentException</n>
  <f>927659</f>
- <g>http://pecl.php.net/get/mongodb-1.3.0beta1</g>
+ <g>https://pecl.php.net/get/mongodb-1.3.0beta1</g>
  <x xlink:href="package.1.3.0beta1.xml"/>
 </r>

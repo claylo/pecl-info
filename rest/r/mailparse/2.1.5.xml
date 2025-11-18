@@ -20,6 +20,6 @@ Remove compile time warnings, regenerate re2c file, fix old re2c file typo (shir
 Fix memory leak in mailparse_mimemessage creation (shire)
 Fix bug #1462 (shire)</n>
  <f>37332</f>
- <g>http://pecl.php.net/get/mailparse-2.1.5</g>
+ <g>https://pecl.php.net/get/mailparse-2.1.5</g>
  <x xlink:href="package.2.1.5.xml"/>
 </r>

@@ -20,6 +20,6 @@
 - Fixed PECL Bug #16883 (GearmanWorker::addFunction segfaults when function name is non-string)
 - Fixed PECL Bug #17539 (Segmentation fault on calling error() of a fresh worker).  Patch by jiayong.</n>
  <f>29750</f>
- <g>http://pecl.php.net/get/gearman-0.8.0</g>
+ <g>https://pecl.php.net/get/gearman-0.8.0</g>
  <x xlink:href="package.0.8.0.xml"/>
 </r>

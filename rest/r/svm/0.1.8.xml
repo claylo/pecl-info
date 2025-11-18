@@ -16,6 +16,6 @@
  <n>- Fixed GH#2 issue when loading data from a resource
 - Modify include search path to start more generic</n>
  <f>111565</f>
- <g>http://pecl.php.net/get/svm-0.1.8</g>
+ <g>https://pecl.php.net/get/svm-0.1.8</g>
  <x xlink:href="package.0.1.8.xml"/>
 </r>

@@ -25,6 +25,6 @@
  <da>2014-10-23 04:18:11</da>
  <n>* Fix build on MacOSX</n>
  <f>58352</f>
- <g>http://pecl.php.net/get/pq-0.5.4</g>
+ <g>https://pecl.php.net/get/pq-0.5.4</g>
  <x xlink:href="package.0.5.4.xml"/>
 </r>

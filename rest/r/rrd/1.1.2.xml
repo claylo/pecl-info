@@ -16,6 +16,6 @@
  <n>- closing connection to rrd caching daemon #66088
 - better documentation for RRDGraph::setOptions #65756</n>
  <f>19085</f>
- <g>http://pecl.php.net/get/rrd-1.1.2</g>
+ <g>https://pecl.php.net/get/rrd-1.1.2</g>
  <x xlink:href="package.1.1.2.xml"/>
 </r>

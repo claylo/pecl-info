@@ -40,6 +40,6 @@ Xdebug also provides:
  - Fixed bug #1098: Xdebug doesn't make use of __debugInfo.
  - Fixed segfaults with ZTS on PHP 5.6.</n>
  <f>256437</f>
- <g>http://pecl.php.net/get/xdebug-2.2.7</g>
+ <g>https://pecl.php.net/get/xdebug-2.2.7</g>
  <x xlink:href="package.2.2.7.xml"/>
 </r>

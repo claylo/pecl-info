@@ -32,6 +32,6 @@
 - Added Server::taskCo
 - Added Coroutine::sleep</n>
  <f>752261</f>
- <g>http://pecl.php.net/get/swoole-2.0.9</g>
+ <g>https://pecl.php.net/get/swoole-2.0.9</g>
  <x xlink:href="package.2.0.9.xml"/>
 </r>

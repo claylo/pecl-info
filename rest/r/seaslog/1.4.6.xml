@@ -24,6 +24,6 @@
 - Fixed issue #53 Add function flushBuffer,support independent refresh by manual.
 - Fixed issue #57 and #58 Update analyzerDetail by desc and fixed limit value.</n>
  <f>68361</f>
- <g>http://pecl.php.net/get/SeasLog-1.4.6</g>
+ <g>https://pecl.php.net/get/SeasLog-1.4.6</g>
  <x xlink:href="package.1.4.6.xml"/>
 </r>

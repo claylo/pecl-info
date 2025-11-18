@@ -17,6 +17,6 @@
 - Yaf_View_Simple is not final anymore
 - Memleaks fixed in various place</n>
  <f>91057</f>
- <g>http://pecl.php.net/get/yaf-2.2.2</g>
+ <g>https://pecl.php.net/get/yaf-2.2.2</g>
  <x xlink:href="package.2.2.2.xml"/>
 </r>

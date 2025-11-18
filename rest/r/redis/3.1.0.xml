@@ -34,6 +34,6 @@ Also many bug fixes and some improvements has been made.
 * Move zend_object handler to the end (Michael Grunder) [34107966]
 * Using setOption on redis array causes immediate connection (Pavlo Yatsukhnenko) [f1a85b38]</n>
  <f>197322</f>
- <g>http://pecl.php.net/get/redis-3.1.0</g>
+ <g>https://pecl.php.net/get/redis-3.1.0</g>
  <x xlink:href="package.3.1.0.xml"/>
 </r>

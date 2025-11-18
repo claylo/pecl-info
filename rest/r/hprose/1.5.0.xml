@@ -46,6 +46,6 @@
         Added async service support.
         Improved async client support.</n>
  <f>55271</f>
- <g>http://pecl.php.net/get/hprose-1.5.0</g>
+ <g>https://pecl.php.net/get/hprose-1.5.0</g>
  <x xlink:href="package.1.5.0.xml"/>
 </r>

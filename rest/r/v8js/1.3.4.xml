@@ -17,6 +17,6 @@
 - Improve auto configuration (V8 detection)
 - Improve build instructions on Linux &amp; Windows</n>
  <f>92760</f>
- <g>http://pecl.php.net/get/v8js-1.3.4</g>
+ <g>https://pecl.php.net/get/v8js-1.3.4</g>
  <x xlink:href="package.1.3.4.xml"/>
 </r>

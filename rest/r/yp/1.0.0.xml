@@ -22,6 +22,6 @@ of important administrative files (e.g. the password file).</d>
  - Fix bugs #59537 [gasolwu]
  - Correct constant value of YPERR_ACCESS [gasolwu]</n>
  <f>19343</f>
- <g>http://pecl.php.net/get/yp-1.0.0</g>
+ <g>https://pecl.php.net/get/yp-1.0.0</g>
  <x xlink:href="package.1.0.0.xml"/>
 </r>

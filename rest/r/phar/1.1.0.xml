@@ -34,6 +34,6 @@ avaiable then SHA-256 and SHA-512 signatures are supported as well.</d>
 * implement setSignatureAlgorithm() and Phar::MD5 Phar::SHA1 Phar::SHA256 Phar::SHA512 Phar::PGP to
   choose the kind of signature to use (PGP falls back to SHA1) [Greg]</n>
  <f>54851</f>
- <g>http://pecl.php.net/get/phar-1.1.0</g>
+ <g>https://pecl.php.net/get/phar-1.1.0</g>
  <x xlink:href="package.1.1.0.xml"/>
 </r>

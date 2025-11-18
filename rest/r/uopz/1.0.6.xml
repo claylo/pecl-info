@@ -17,6 +17,6 @@
 allow composition of interfaces and traits
 enforce inheritance rules while composing classes</n>
  <f>23073</f>
- <g>http://pecl.php.net/get/uopz-1.0.6</g>
+ <g>https://pecl.php.net/get/uopz-1.0.6</g>
  <x xlink:href="package.1.0.6.xml"/>
 </r>

@@ -15,6 +15,6 @@
  <da>2010-01-19 00:18:20</da>
  <n>- Fix compilation issue on PHP5.2 branch</n>
  <f>17594</f>
- <g>http://pecl.php.net/get/stomp-0.4.1</g>
+ <g>https://pecl.php.net/get/stomp-0.4.1</g>
  <x xlink:href="package.0.4.1.xml"/>
 </r>

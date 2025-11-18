@@ -18,6 +18,6 @@
 - Fix zend_is_callable for PHP 5.3.
 - Add ZEND_ARG_INFO* definitions.</n>
  <f>21845</f>
- <g>http://pecl.php.net/get/gupnp-0.2.0</g>
+ <g>https://pecl.php.net/get/gupnp-0.2.0</g>
  <x xlink:href="package.0.2.0.xml"/>
 </r>

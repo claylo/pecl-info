@@ -17,6 +17,6 @@
 - Fixed bug #72258 (ZipArchive converts filenames to unrecoverable form). (Anatol)
 - Fixed bug #72434 (ZipArchive class Use After Free Vulnerability in PHP's GC algorithm and unserialize). (Dmitry)</n>
  <f>316298</f>
- <g>http://pecl.php.net/get/zip-1.13.3</g>
+ <g>https://pecl.php.net/get/zip-1.13.3</g>
  <x xlink:href="package.1.13.3.xml"/>
 </r>

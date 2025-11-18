@@ -41,6 +41,6 @@
 * Fixed all `swoole_object` dangling pointer
 * Add a series of scripting tools for the underlying development</n>
  <f>1200657</f>
- <g>http://pecl.php.net/get/swoole-4.2.6</g>
+ <g>https://pecl.php.net/get/swoole-4.2.6</g>
  <x xlink:href="package.4.2.6.xml"/>
 </r>

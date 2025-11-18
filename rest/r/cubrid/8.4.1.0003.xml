@@ -36,6 +36,6 @@
 - APIS-147: Connect will success when passing a error passwd to cubrid_pconnect() method
 - APIS-150: Return values are not good for cubrid_get_autocommit</n>
  <f>43634</f>
- <g>http://pecl.php.net/get/CUBRID-8.4.1.0003</g>
+ <g>https://pecl.php.net/get/CUBRID-8.4.1.0003</g>
  <x xlink:href="package.8.4.1.0003.xml"/>
 </r>

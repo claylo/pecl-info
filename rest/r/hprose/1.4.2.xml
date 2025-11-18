@@ -41,6 +41,6 @@
  <da>2015-04-20 06:41:36</da>
  <n>Fixed segmentation fault when serialize/unserialize custom PHP class object on Non Thread Safe (NTS) PHP.</n>
  <f>47280</f>
- <g>http://pecl.php.net/get/hprose-1.4.2</g>
+ <g>https://pecl.php.net/get/hprose-1.4.2</g>
  <x xlink:href="package.1.4.2.xml"/>
 </r>

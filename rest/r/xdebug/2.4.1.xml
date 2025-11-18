@@ -47,6 +47,6 @@ Xdebug also provides:
   - Fixed issue #1326: Tracing and generators crashes with PHP 7.x
   - Fixed issue #1333: Profiler accesses memory structures after freeing</n>
  <f>265542</f>
- <g>http://pecl.php.net/get/xdebug-2.4.1</g>
+ <g>https://pecl.php.net/get/xdebug-2.4.1</g>
  <x xlink:href="package.2.4.1.xml"/>
 </r>

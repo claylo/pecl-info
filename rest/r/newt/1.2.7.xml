@@ -16,6 +16,6 @@
  <n>Fixed bug #64990 - Segmentation Fault @ newt_checkbox_tree_add_item
 Fixed bug #65889 - Provide LICENSE file</n>
  <f>27013</f>
- <g>http://pecl.php.net/get/newt-1.2.7</g>
+ <g>https://pecl.php.net/get/newt-1.2.7</g>
  <x xlink:href="package.1.2.7.xml"/>
 </r>

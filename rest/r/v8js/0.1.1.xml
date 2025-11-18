@@ -16,6 +16,6 @@
  <n>- Fixed crash bug in setting v8.flags ini directive.
 - Added notice to registerExtension() if trying to use it when V8 is already initialized.</n>
  <f>17714</f>
- <g>http://pecl.php.net/get/v8js-0.1.1</g>
+ <g>https://pecl.php.net/get/v8js-0.1.1</g>
  <x xlink:href="package.0.1.1.xml"/>
 </r>

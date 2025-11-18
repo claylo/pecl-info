@@ -45,7 +45,7 @@
             "releasedBy": "steinm",
             "releaseDate": "2017-07-31T11:49:19+00:00",
             "releaseNotes": "Change license to BSD style, fixed dependency on php",
-            "get": "http://pecl.php.net/get/ps-1.4.1",
+            "get": "https://pecl.php.net/get/ps-1.4.1",
             "SPDX-License-Identifier": "PHP-3.0"
         },
         "1.4.0": {
@@ -55,7 +55,7 @@
             "releasedBy": "steinm",
             "releaseDate": "2016-06-24T16:38:31+00:00",
             "releaseNotes": "add support for phpng and drop \u0455upport for php5",
-            "get": "http://pecl.php.net/get/ps-1.4.0",
+            "get": "https://pecl.php.net/get/ps-1.4.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.3.7": {
@@ -65,7 +65,7 @@
             "releasedBy": "steinm",
             "releaseDate": "2013-08-17T01:52:00+00:00",
             "releaseNotes": "no more crashes on 64 bit",
-            "get": "http://pecl.php.net/get/ps-1.3.7",
+            "get": "https://pecl.php.net/get/ps-1.3.7",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.3.6": {
@@ -75,7 +75,7 @@
             "releasedBy": "steinm",
             "releaseDate": "2007-11-27T04:41:43+00:00",
             "releaseNotes": "fixed various build problems on win32",
-            "get": "http://pecl.php.net/get/ps-1.3.6",
+            "get": "https://pecl.php.net/get/ps-1.3.6",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.3.5": {
@@ -85,7 +85,7 @@
             "releasedBy": "steinm",
             "releaseDate": "2007-07-12T10:07:13+00:00",
             "releaseNotes": "Reenablee reading of gd images. Added configuration file for win32. New example to list all glyphs in a font. New examples for creating Type3 fonts and postscript files in memory. Tests for more image types in example/image.php. Added new functions to create Type3 fonts and to modify kerning and ligatures of an existing font. Added new function ps_glyph_name() and ps_glyph_show(). New function ps_include_file().",
-            "get": "http://pecl.php.net/get/ps-1.3.5",
+            "get": "https://pecl.php.net/get/ps-1.3.5",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.3.4": {
@@ -95,7 +95,7 @@
             "releasedBy": "steinm",
             "releaseDate": "2006-07-25T09:22:07+00:00",
             "releaseNotes": "Made ps_arcn() available. ps_set_border_dash() checks now for 3 parameters instead of 4. Fixed segm fault when the optional parameter of ps_show_boxed() is not passed. Added some more examples. New function ps_include_file().",
-            "get": "http://pecl.php.net/get/ps-1.3.4",
+            "get": "https://pecl.php.net/get/ps-1.3.4",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.3.3": {
@@ -105,7 +105,7 @@
             "releasedBy": "steinm",
             "releaseDate": "2005-12-06T10:59:16+00:00",
             "releaseNotes": "fixed stupid compile warning.",
-            "get": "http://pecl.php.net/get/ps-1.3.3",
+            "get": "https://pecl.php.net/get/ps-1.3.3",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.3.2": {
@@ -115,7 +115,7 @@
             "releasedBy": "steinm",
             "releaseDate": "2005-12-06T10:24:06+00:00",
             "releaseNotes": "ps_begin_template() and ps_begin_pattern() now return the id.",
-            "get": "http://pecl.php.net/get/ps-1.3.2",
+            "get": "https://pecl.php.net/get/ps-1.3.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.3.1": {
@@ -125,7 +125,7 @@
             "releasedBy": "steinm",
             "releaseDate": "2005-02-08T12:11:00+00:00",
             "releaseNotes": "Fixed varios compile errors related to php 4.3.10",
-            "get": "http://pecl.php.net/get/ps-1.3.1",
+            "get": "https://pecl.php.net/get/ps-1.3.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.3.0": {
@@ -135,7 +135,7 @@
             "releasedBy": "steinm",
             "releaseDate": "2004-07-27T16:15:00+00:00",
             "releaseNotes": "Added function ps_shfill(), ps_shading(), ps_shading_pattern(), ps_get_buffer(). New example files shading.php and image.php. Renamed undocumented function ps_setoverprint() to ps_setoverprintmode().",
-            "get": "http://pecl.php.net/get/ps-1.3.0",
+            "get": "https://pecl.php.net/get/ps-1.3.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.2.2": {
@@ -145,7 +145,7 @@
             "releasedBy": "steinm",
             "releaseDate": "2004-06-16T07:35:00+00:00",
             "releaseNotes": "Added function ps_makespotcolor().",
-            "get": "http://pecl.php.net/get/ps-1.2.2",
+            "get": "https://pecl.php.net/get/ps-1.2.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.2.1": {
@@ -155,7 +155,7 @@
             "releasedBy": "steinm",
             "releaseDate": "2004-06-07T13:49:00+00:00",
             "releaseNotes": "ps_hyphenate() did not return an array but true. Added more tests\n      and examples. Many internal changes.",
-            "get": "http://pecl.php.net/get/ps-1.2.1",
+            "get": "https://pecl.php.net/get/ps-1.2.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.2.0": {
@@ -165,7 +165,7 @@
             "releasedBy": "steinm",
             "releaseDate": "2004-05-14T10:35:00+00:00",
             "releaseNotes": "Added new function ps_string_geometry(), ps_set_text_pos(),\nps_symbol(), ps_symbol_name(), ps_symbol_width(), ps_begin_pattern(),\nps_end_pattern(), ps_begin_template(), ps_end_template().",
-            "get": "http://pecl.php.net/get/ps-1.2.0",
+            "get": "https://pecl.php.net/get/ps-1.2.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.1.1": {
@@ -175,7 +175,7 @@
             "releasedBy": "steinm",
             "releaseDate": "2004-04-22T07:07:00+00:00",
             "releaseNotes": "Added new function PS_hyphenate().",
-            "get": "http://pecl.php.net/get/ps-1.1.1",
+            "get": "https://pecl.php.net/get/ps-1.1.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.1.0": {

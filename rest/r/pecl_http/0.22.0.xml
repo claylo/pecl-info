@@ -48,6 +48,6 @@ HttpResponse</d>
 * Fixed some issues with http_get_request_body()
 * Fixed bug #6645 - doesn't compile with zlib 1.2.2 (undefined Z_FIXED)</n>
  <f>163358</f>
- <g>http://pecl.php.net/get/pecl_http-0.22.0</g>
+ <g>https://pecl.php.net/get/pecl_http-0.22.0</g>
  <x xlink:href="package.0.22.0.xml"/>
 </r>

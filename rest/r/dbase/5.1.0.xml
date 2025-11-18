@@ -25,6 +25,6 @@ are kept until you call dbase_pack().</d>
  <da>2012-06-12 21:46:08</da>
  <n>- Fixed build on PHP 5.4+</n>
  <f>14112</f>
- <g>http://pecl.php.net/get/dbase-5.1.0</g>
+ <g>https://pecl.php.net/get/dbase-5.1.0</g>
  <x xlink:href="package.5.1.0.xml"/>
 </r>

@@ -15,7 +15,7 @@
             "releasedBy": "mikl",
             "releaseDate": "2008-01-10T13:37:20+00:00",
             "releaseNotes": "Release to mark extension stable",
-            "get": "http://pecl.php.net/get/ocal-1.0.0",
+            "get": "https://pecl.php.net/get/ocal-1.0.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.1.0": {
@@ -25,7 +25,7 @@
             "releasedBy": "mikl",
             "releaseDate": "2006-08-30T11:47:56+00:00",
             "releaseNotes": "Initial PECL release",
-            "get": "http://pecl.php.net/get/ocal-0.1.0",
+            "get": "https://pecl.php.net/get/ocal-0.1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

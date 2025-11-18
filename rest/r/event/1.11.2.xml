@@ -25,6 +25,6 @@
 EventBufferEvent object returned by EventHttpRequest::getBufferEvent() should be freed explicitly,
 if the method is called from a userspace callback.</n>
  <f>79030</f>
- <g>http://pecl.php.net/get/event-1.11.2</g>
+ <g>https://pecl.php.net/get/event-1.11.2</g>
  <x xlink:href="package.1.11.2.xml"/>
 </r>

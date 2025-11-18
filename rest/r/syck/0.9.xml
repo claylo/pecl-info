@@ -19,6 +19,6 @@ YAML(tm) (rhymes with &quot;camel&quot;) is a straightforward machine parsable d
 - fixed a bunch of vartype-errors
 - added support for sexagesimal numbers</n>
  <f>7651</f>
- <g>http://pecl.php.net/get/syck-0.9</g>
+ <g>https://pecl.php.net/get/syck-0.9</g>
  <x xlink:href="package.0.9.xml"/>
 </r>

@@ -22,6 +22,6 @@ You also require PostgreSQL client libraries installed on the machine where you 
 If you are running on windows, you can download the binary from here:
 http://snaps.php.net/win32/PECL_5_0/php_pdo_pgsql.dll</n>
  <f>11468</f>
- <g>http://pecl.php.net/get/PDO_PGSQL-1.0RC1</g>
+ <g>https://pecl.php.net/get/PDO_PGSQL-1.0RC1</g>
  <x xlink:href="package.1.0RC1.xml"/>
 </r>

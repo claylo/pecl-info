@@ -15,6 +15,6 @@
  <da>2018-08-28 21:46:49</da>
  <n>- gRPC C Core 1.15 uptake</n>
  <f>2599878</f>
- <g>http://pecl.php.net/get/grpc-1.15.0RC1</g>
+ <g>https://pecl.php.net/get/grpc-1.15.0RC1</g>
  <x xlink:href="package.1.15.0RC1.xml"/>
 </r>

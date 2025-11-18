@@ -36,6 +36,6 @@
 - Fixed HttpServer special circumstances the release of the problem of the crash occurred
 - Fixed WebSocket::unpack Passing an empty string causes a problem with parsing errors</n>
  <f>574516</f>
- <g>http://pecl.php.net/get/swoole-1.9.14</g>
+ <g>https://pecl.php.net/get/swoole-1.9.14</g>
  <x xlink:href="package.1.9.14.xml"/>
 </r>

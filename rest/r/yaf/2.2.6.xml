@@ -15,6 +15,6 @@
  <da>2012-11-01 00:30:58</da>
  <n>- Fixed bug #63381 ($_SERVER['SCRIPT_NAME'] changed by yaf)</n>
  <f>94276</f>
- <g>http://pecl.php.net/get/yaf-2.2.6</g>
+ <g>https://pecl.php.net/get/yaf-2.2.6</g>
  <x xlink:href="package.2.2.6.xml"/>
 </r>

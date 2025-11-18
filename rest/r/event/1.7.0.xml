@@ -27,6 +27,6 @@ Fix: EventBuffer::copyout() didn't work in some cases
 Add: EventBuffer::readFrom() method (corresponds to evbuffer_read())
 Add: EventUtil::getSocketFD() method</n>
  <f>67217</f>
- <g>http://pecl.php.net/get/event-1.7.0</g>
+ <g>https://pecl.php.net/get/event-1.7.0</g>
  <x xlink:href="package.1.7.0.xml"/>
 </r>

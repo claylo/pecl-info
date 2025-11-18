@@ -32,6 +32,6 @@
 * Fixed http_send_data()
 * Correctly send the full entity if the clients Range header is syntactically invalid</n>
  <f>28821</f>
- <g>http://pecl.php.net/get/pecl_http-0.4.0</g>
+ <g>https://pecl.php.net/get/pecl_http-0.4.0</g>
  <x xlink:href="package.0.4.0.xml"/>
 </r>

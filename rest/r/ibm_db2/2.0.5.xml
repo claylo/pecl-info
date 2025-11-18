@@ -17,6 +17,6 @@ Cloudscape, and Apache Derby databases.</d>
  <da>2018-03-27 06:07:44</da>
  <n>Fixed config.m4 file which messed up in last release.</n>
  <f>190257</f>
- <g>http://pecl.php.net/get/ibm_db2-2.0.5</g>
+ <g>https://pecl.php.net/get/ibm_db2-2.0.5</g>
  <x xlink:href="package.2.0.5.xml"/>
 </r>

@@ -44,6 +44,6 @@ HttpResponse</d>
 
 * Fixed PHP-4.4 and PHP-5.0 build.</n>
  <f>171744</f>
- <g>http://pecl.php.net/get/pecl_http-0.23.0</g>
+ <g>https://pecl.php.net/get/pecl_http-0.23.0</g>
  <x xlink:href="package.0.23.0.xml"/>
 </r>

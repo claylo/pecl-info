@@ -20,6 +20,6 @@
 - check string lengths when looking up keys
 - many internal C APIs changed</n>
  <f>105462</f>
- <g>http://pecl.php.net/get/apcu-5.1.11</g>
+ <g>https://pecl.php.net/get/apcu-5.1.11</g>
  <x xlink:href="package.5.1.11.xml"/>
 </r>

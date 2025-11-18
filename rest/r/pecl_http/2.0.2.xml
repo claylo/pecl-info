@@ -32,6 +32,6 @@ v2: http://dev.iworks.at/ext-http/lcov/ext/http/</d>
  <da>2013-12-10 03:42:41</da>
  <n>* Fixed bug #66250 (shutdown crash as shared extension)</n>
  <f>152177</f>
- <g>http://pecl.php.net/get/pecl_http-2.0.2</g>
+ <g>https://pecl.php.net/get/pecl_http-2.0.2</g>
  <x xlink:href="package.2.0.2.xml"/>
 </r>

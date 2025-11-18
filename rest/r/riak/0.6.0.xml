@@ -30,6 +30,6 @@
 Bug fixes:
     - Issue38: Windows build failing</n>
  <f>110437</f>
- <g>http://pecl.php.net/get/riak-0.6.0</g>
+ <g>https://pecl.php.net/get/riak-0.6.0</g>
  <x xlink:href="package.0.6.0.xml"/>
 </r>

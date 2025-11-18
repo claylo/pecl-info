@@ -15,7 +15,7 @@
             "releasedBy": "tony2001",
             "releaseDate": "2008-04-18T03:39:34+00:00",
             "releaseNotes": "- Fixed PECL bug #13684 (tdb fails to configure on FreeBSD)\n- Improved configure checks in order to detect wrong TDB version.",
-            "get": "http://pecl.php.net/get/tdb-1.0.0",
+            "get": "https://pecl.php.net/get/tdb-1.0.0",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.1.0": {
@@ -25,7 +25,7 @@
             "releasedBy": "tony2001",
             "releaseDate": "2007-08-06T10:32:11+00:00",
             "releaseNotes": "- Initial release.",
-            "get": "http://pecl.php.net/get/tdb-0.1.0",
+            "get": "https://pecl.php.net/get/tdb-0.1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

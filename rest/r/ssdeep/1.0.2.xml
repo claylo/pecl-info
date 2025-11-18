@@ -35,6 +35,6 @@ See http://news.php.net/php.pecl.dev/7625 for the verbatim email.</d>
  <da>2010-11-10 10:53:47</da>
  <n>Patch bug in library availablity code when building with ssdeep path specified (--with-ssdeep=/tmp/ssdeep-2.6 for example) to the upstream packages build directory.</n>
  <f>6549</f>
- <g>http://pecl.php.net/get/ssdeep-1.0.2</g>
+ <g>https://pecl.php.net/get/ssdeep-1.0.2</g>
  <x xlink:href="package.1.0.2.xml"/>
 </r>

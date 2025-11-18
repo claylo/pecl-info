@@ -19,6 +19,6 @@ Cloudscape, and Apache Derby databases.</d>
 Fixed : Security flaw with using user and password for hashing in db2_pconnect.
 Fxied : Local scope bound values in a class are not used</n>
  <f>189933</f>
- <g>http://pecl.php.net/get/ibm_db2-2.0.0</g>
+ <g>https://pecl.php.net/get/ibm_db2-2.0.0</g>
  <x xlink:href="package.2.0.0.xml"/>
 </r>

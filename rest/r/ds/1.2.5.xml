@@ -15,6 +15,6 @@
  <da>2018-03-12 11:24:52</da>
  <n>- Fixed empty `PriorityQueue` causing segfault on `gc_collect_cycles`. #106</n>
  <f>50707</f>
- <g>http://pecl.php.net/get/ds-1.2.5</g>
+ <g>https://pecl.php.net/get/ds-1.2.5</g>
  <x xlink:href="package.1.2.5.xml"/>
 </r>

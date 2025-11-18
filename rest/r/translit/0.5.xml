@@ -26,6 +26,6 @@ normalize_punctuation filter and a missing conversion for uppercase_greek.
 Change the han_transliterate filter to add spaces after ideograms.
 Fixed memory leak.</n>
  <f>111283</f>
- <g>http://pecl.php.net/get/translit-0.5</g>
+ <g>https://pecl.php.net/get/translit-0.5</g>
  <x xlink:href="package.0.5.xml"/>
 </r>

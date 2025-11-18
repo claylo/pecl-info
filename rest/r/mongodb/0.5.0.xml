@@ -29,6 +29,6 @@ necessary to build a fully-functional MongoDB driver.</d>
 * PHPC-239: Cursor refcount issues
 * PHPC-237: Update PHP version requirement in package.xml</n>
  <f>619182</f>
- <g>http://pecl.php.net/get/mongodb-0.5.0</g>
+ <g>https://pecl.php.net/get/mongodb-0.5.0</g>
  <x xlink:href="package.0.5.0.xml"/>
 </r>

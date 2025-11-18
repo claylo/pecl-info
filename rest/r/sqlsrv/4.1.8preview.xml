@@ -25,6 +25,6 @@
 [Known Issues]
 - User defined data types and SQL_VARIANT</n>
  <f>195103</f>
- <g>http://pecl.php.net/get/sqlsrv-4.1.8preview</g>
+ <g>https://pecl.php.net/get/sqlsrv-4.1.8preview</g>
  <x xlink:href="package.4.1.8preview.xml"/>
 </r>

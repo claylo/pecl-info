@@ -37,6 +37,6 @@ v2: http://dev.iworks.at/ext-http/lcov/ext/http/</d>
 + Added http\Env\Response::setCookie()
 + Added http\Env\Request::getCookie()</n>
  <f>172406</f>
- <g>http://pecl.php.net/get/pecl_http-2.2.0</g>
+ <g>https://pecl.php.net/get/pecl_http-2.2.0</g>
  <x xlink:href="package.2.2.0.xml"/>
 </r>

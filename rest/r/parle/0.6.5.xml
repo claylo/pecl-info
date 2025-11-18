@@ -19,6 +19,6 @@
 - Lexers always use DOT_NOT_LF | DOT_NOT_CRLF flags by default
 - General bugfixes</n>
  <f>105967</f>
- <g>http://pecl.php.net/get/parle-0.6.5</g>
+ <g>https://pecl.php.net/get/parle-0.6.5</g>
  <x xlink:href="package.0.6.5.xml"/>
 </r>

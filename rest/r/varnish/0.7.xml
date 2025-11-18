@@ -18,6 +18,6 @@
 - A lot of memory allocation/deallocation fixes
 - Added a couple of tests</n>
  <f>26811</f>
- <g>http://pecl.php.net/get/varnish-0.7</g>
+ <g>https://pecl.php.net/get/varnish-0.7</g>
  <x xlink:href="package.0.7.xml"/>
 </r>

@@ -27,6 +27,6 @@ Documentation:
 - [CLEANUP] Remove KRB5CCache-&gt;setConfig method as this is no longer supported by libraries
 - [BUG] Fix null-deref in isValid for uninitialized KRB5CCache</n>
  <f>27160</f>
- <g>http://pecl.php.net/get/krb5-1.0.0</g>
+ <g>https://pecl.php.net/get/krb5-1.0.0</g>
  <x xlink:href="package.1.0.0.xml"/>
 </r>

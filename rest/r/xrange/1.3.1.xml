@@ -17,6 +17,6 @@
 - Added missing classes to php_info output
 - Fix for bug #13225 - implicit declaration warnings</n>
  <f>8533</f>
- <g>http://pecl.php.net/get/xrange-1.3.1</g>
+ <g>https://pecl.php.net/get/xrange-1.3.1</g>
  <x xlink:href="package.1.3.1.xml"/>
 </r>

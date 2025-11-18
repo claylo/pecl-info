@@ -16,6 +16,6 @@
  <n>- Fixed build failure with PHP 5.1.x.
 - Added support for setSelect(), available in sphinx 0.9.9 new API (patch by Olivier Poitrey)</n>
  <f>11357</f>
- <g>http://pecl.php.net/get/sphinx-1.0.1</g>
+ <g>https://pecl.php.net/get/sphinx-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

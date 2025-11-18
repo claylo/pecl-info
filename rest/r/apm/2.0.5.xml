@@ -26,6 +26,6 @@ A web frontend exists for manipulating the data stored in database at: https://g
 Improved:
 - Minor optimizations in stacktrace creation</n>
  <f>31484</f>
- <g>http://pecl.php.net/get/APM-2.0.5</g>
+ <g>https://pecl.php.net/get/APM-2.0.5</g>
  <x xlink:href="package.2.0.5.xml"/>
 </r>

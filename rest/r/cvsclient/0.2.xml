@@ -19,6 +19,6 @@ Later versions to include add/commit/remove.
 - Added Resource based functions (cvsclient_connect, cvsclient_login, cvsclient_retrieve, cvsclient_log)
 - Several code improvements</n>
  <f>8710</f>
- <g>http://pecl.php.net/get/cvsclient-0.2</g>
+ <g>https://pecl.php.net/get/cvsclient-0.2</g>
  <x xlink:href="package.0.2.xml"/>
 </r>

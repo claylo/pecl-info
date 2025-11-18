@@ -18,6 +18,6 @@
 * Fixed unrecogized &quot;domains&quot; options entry
 * Fixed byte order of ports: &quot;udp_port&quot;/&quot;tcp_port&quot; options, &quot;port&quot; argument of ares_getaddrinfo()</n>
  <f>14574</f>
- <g>http://pecl.php.net/get/ares-0.6.0</g>
+ <g>https://pecl.php.net/get/ares-0.6.0</g>
  <x xlink:href="package.0.6.0.xml"/>
 </r>

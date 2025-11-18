@@ -34,6 +34,6 @@
 - Added connection timeout supports for asynchronous client
 - Optimized performance, reduce branch prediction failure rate</n>
  <f>571955</f>
- <g>http://pecl.php.net/get/swoole-1.9.11</g>
+ <g>https://pecl.php.net/get/swoole-1.9.11</g>
  <x xlink:href="package.1.9.11.xml"/>
 </r>

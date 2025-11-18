@@ -56,6 +56,6 @@ Xdebug also provides:
 	  Patch by Ben Spencer &lt;dangerous.ben@gmail.com&gt;
 	- Fixed bug #670: Xdebug crashes with broken &quot;break x&quot; code.</n>
  <f>303148</f>
- <g>http://pecl.php.net/get/xdebug-2.1.1RC1</g>
+ <g>https://pecl.php.net/get/xdebug-2.1.1RC1</g>
  <x xlink:href="package.2.1.1RC1.xml"/>
 </r>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/rpminfo">rpminfo</p>
+ <c>pecl.php.net</c>
+ <v>1.2.1</v>
+ <st>stable</st>
+ <l>PHP-3.01</l>
+ <m>remi</m>
+ <s>RPM information</s>
+ <d>Retrieve RPM information using librpm, from local RPM file or from installed packages database.
+
+Documentation: https://www.php.net/rpminfo</d>
+ <da>2025-09-25 13:20:04</da>
+ <n>- use RPMTAG_SIGMD5 instead of RPMTAG_PKGID removed in RPM 6
+- use RPMTAG_SHA1HEADER instead of RPMTAG_HDRID removed in RPM 6</n>
+ <f>23125</f>
+ <g>https://pecl.php.net/get/rpminfo-1.2.1</g>
+ <x xlink:href="package.1.2.1.xml"/>
+</r>

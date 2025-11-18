@@ -1,10 +1,10 @@
 {
     "category": "Multimedia",
     "deprecated": false,
-    "description": "SDL_image for PHP allows to load images (PNG, JPG, BMP, TGA, TIF, etc.) and create SDL_Texture or SDL_Surface. It requires SDL PHP Extension.",
+    "description": "SDL_image extension for PHP provides the binding of functions for loading images in SDL textures and surfaces.",
     "latestReleaseDate": "2022-03-16T20:20:13+00:00",
     "latestVersion": "0.4.0",
-    "license": "Zlib",
+    "license": "ZLib",
     "name": "sdl_image",
     "php8Mentioned": false,
     "releases": {

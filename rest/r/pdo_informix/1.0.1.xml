@@ -23,6 +23,6 @@ Bugfix PECL#6717: PHP segfaults when trying execute prepared, parameterized SQL.
 Fixed issue where error codes were not being cleared. 
 Fixed segfault caused by trying to report a PHP exception using a stale connection handle.</n>
  <f>62464</f>
- <g>http://pecl.php.net/get/PDO_INFORMIX-1.0.1</g>
+ <g>https://pecl.php.net/get/PDO_INFORMIX-1.0.1</g>
  <x xlink:href="package.1.0.1.xml"/>
 </r>

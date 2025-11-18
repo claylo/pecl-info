@@ -26,6 +26,6 @@ For install instructions see the manual at pear.php.net
  <n>- bugfix release
 - preliminary PHP6 support</n>
  <f>46667</f>
- <g>http://pecl.php.net/get/bcompiler-0.8</g>
+ <g>https://pecl.php.net/get/bcompiler-0.8</g>
  <x xlink:href="package.0.8.xml"/>
 </r>

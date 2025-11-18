@@ -32,6 +32,6 @@ WL#11851: enable treat warning as error
 WL#11853: check available boost version
 WL#12276: Expose metadata about source and binaries in unified way</n>
  <f>438183</f>
- <g>http://pecl.php.net/get/mysql_xdevapi-8.0.13</g>
+ <g>https://pecl.php.net/get/mysql_xdevapi-8.0.13</g>
  <x xlink:href="package.8.0.13.xml"/>
 </r>

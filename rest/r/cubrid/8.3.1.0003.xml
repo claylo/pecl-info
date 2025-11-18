@@ -15,6 +15,6 @@
  <da>2011-01-20 03:46:45</da>
  <n>- use zend_long64 to store LOB data size, not long.</n>
  <f>35139</f>
- <g>http://pecl.php.net/get/CUBRID-8.3.1.0003</g>
+ <g>https://pecl.php.net/get/CUBRID-8.3.1.0003</g>
  <x xlink:href="package.8.3.1.0003.xml"/>
 </r>

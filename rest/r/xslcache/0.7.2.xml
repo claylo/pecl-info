@@ -20,6 +20,6 @@
  <n>- PHP 5.4+ compatibility
 - fixed assgnmemt to field of uninitialized structure</n>
  <f>12880</f>
- <g>http://pecl.php.net/get/xslcache-0.7.2</g>
+ <g>https://pecl.php.net/get/xslcache-0.7.2</g>
  <x xlink:href="package.0.7.2.xml"/>
 </r>

@@ -15,7 +15,7 @@
             "releasedBy": "nicos",
             "releaseDate": "2003-06-03T11:12:00+00:00",
             "releaseNotes": "Fixing #23978",
-            "get": "http://pecl.php.net/get/cybermut-1.1",
+            "get": "https://pecl.php.net/get/cybermut-1.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "1.0": {
@@ -25,7 +25,7 @@
             "releasedBy": "nicos",
             "releaseDate": "2003-05-11T19:39:00+00:00",
             "releaseNotes": "Updated alpha release that includes a number of improvements over the existing alpha preview.  PEAR (PECL) support is working, too.",
-            "get": "http://pecl.php.net/get/cybermut-1.0",
+            "get": "https://pecl.php.net/get/cybermut-1.0",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

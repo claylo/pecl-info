@@ -30,6 +30,6 @@ http://dev.iworks.at/ext-http/lcov/ext/http/</d>
  <da>2015-03-12 01:26:51</da>
  <n>* Fixed bug with http\QueryString::offsetSet() resetting the complete query string</n>
  <f>187440</f>
- <g>http://pecl.php.net/get/pecl_http-2.3.2</g>
+ <g>https://pecl.php.net/get/pecl_http-2.3.2</g>
  <x xlink:href="package.2.3.2.xml"/>
 </r>

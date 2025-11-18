@@ -1,1 +1,1 @@
-"10d1-611cdddc2d6dd-gzip"
+"10d1-611cdddc2d6dd"

@@ -34,6 +34,6 @@
 - Added HttpServer chunk transmission support
 - Added PCRE detection</n>
  <f>439933</f>
- <g>http://pecl.php.net/get/swoole-1.7.11</g>
+ <g>https://pecl.php.net/get/swoole-1.7.11</g>
  <x xlink:href="package.1.7.11.xml"/>
 </r>

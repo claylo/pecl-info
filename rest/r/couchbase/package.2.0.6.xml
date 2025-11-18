@@ -1,132 +1,294 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>PECL :: Error 404 not found</title>
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="alternate" type="application/rss+xml" title="RSS feed" href="https://pecl.php.net/feeds/latest.rss">
-    <link rel="stylesheet" href="/css/style.css">
-    </head>
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>couchbase</name>
+ <channel>pecl.php.net</channel>
+ <summary>Couchbase Server PHP extension</summary>
+ <description>The PHP client library provides fast access to documents stored in
+        a Couchbase Server.</description>
+ <lead>
+  <name>Brett Lawson</name>
+  <user>brett19</user>
+  <email>brett@couchbase.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2015-04-07</date>
+ <time>19:10:16</time>
+ <version>
+  <release>2.0.6</release>
+  <api>2.0.6</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.apache.org/licenses/LICENSE-2.0">Apache V2</license>
+ <notes>
+This is a patch update to the PHP 2.0 SDK.
+    
+Changes:
+* PCBC-331: CouchbaseBucketManager now has a flush operation to clear a bucket.
+* Orphan: Minor fix to view management return values.
+* Orphan: ViewQuery::group_level now can be chained as expected.
+* PCBC-334: PHP 5.4 transcoder compatibility issues have been fixed.
+* PHP 5.3 support has been deprecated and PHP 5.6 is now fully supported.
+* Corrected various memory leaks and segfaults.
+ </notes>
+ <contents>
+  <dir name="/">
+   <file md5sum="3b83ef96387f14655fc854ddc3c6bd57" name="LICENSE" role="doc" />
+   <file md5sum="c321b830dba31f641ed13f1af6bdfd94" name="README.md" role="doc" />
+   <file md5sum="71f949e5c7e47be8e54e00028848e38b" name="config.m4" role="src" />
+   <file md5sum="44bfad005f674f901ce033aa2c3996fe" name="config.w32" role="src" />
+   <file md5sum="f4f3e98b4cc4216d03e9feee8269801a" name="bucket.c" role="src" />
+   <file md5sum="c0fa183aa0648720c4e643c468c9ce65" name="bucket.h" role="src" />
+   <file md5sum="721438d755d3781243062150f95ebdc2" name="cas.c" role="src" />
+   <file md5sum="2f36d26325c17d3333b074c548729425" name="cas.h" role="src" />
+   <file md5sum="3704f5ee8963f64cfe97edf0f58679cf" name="cluster.c" role="src" />
+   <file md5sum="3f830a267a6528268566dfa10202ee0f" name="cluster.h" role="src" />
+   <file md5sum="28ba11f67b4d788c39c09aecc92bcd32" name="couchbase.c" role="src" />
+   <file md5sum="506e9b4097fbc3ac3962f03bfc91c57a" name="couchbase.h" role="src" />
+   <file md5sum="a1cf7ac366adc2725712cebd92dc1721" name="datainfo.h" role="src" />
+   <file md5sum="70877b24dde3213630414ff9481d3156" name="exception.c" role="src" />
+   <file md5sum="4ff5cccabf63724324a61e1fdf3c386b" name="exception.h" role="src" />
+   <file md5sum="edf7802641b6a83ab759265cba217878" name="metadoc.c" role="src" />
+   <file md5sum="9b9e5c63ef9543679583cddde50b56aa" name="metadoc.h" role="src" />
+   <file md5sum="9a1f9d34ffeef0dfdded4fb1862ffc5e" name="paramparser.h" role="src" />
+   <file md5sum="67c7e5182c112d5b91665e3131d6b51d" name="php_couchbase.h" role="src" />
+   <file md5sum="91eb91787878e0693b38b03f855ee682" name="phphelpers.h" role="src" />
+   <file md5sum="0c7794a27cfcec912f00ec1b00ab9d52" name="transcoding.c" role="src" />
+   <file md5sum="c792fbc4bfffb055b35df83d9184fd73" name="transcoding.h" role="src" />
+   <file md5sum="99d3a380d0da16ad56972902a1ecb4a0" name="phpstubstr.h" role="src" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.3.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.8</min>
+   </pearinstaller>
+  </required>
+  <optional>
+   <package>
+    <name>igbinary</name>
+    <channel>pecl.php.net</channel>
+    <providesextension>igbinary</providesextension>
+   </package>
+  </optional>
+ </dependencies>
+ <providesextension>couchbase</providesextension>
+ <extsrcrelease />
+ <changelog>
+  <release>
+   <date>2014-04-28</date>
+   <version>
+    <release>2.0.0dp1</release>
+    <api>2.0.0dp1</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <notes>
+First developer preview release of 2.0 version of PHP client.
+   </notes>
+  </release>
+  <release>
+   <date>2014-06-24</date>
+   <version>
+    <release>2.0.0dp2</release>
+    <api>2.0.0dp2</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <notes>
+This is a minor update to the existing PHP 2.0 developer
+preview.
 
-<body >
+New features in a nutshell:
+* Cluster constructor now accepts a Couchbase Connection String.
+* Support for cross-SDK compatible data-type flags.
+* Client-side support for SSL connections.
+   </notes>
+  </release>
+  <release>
+   <date>2014-08-21</date>
+   <version>
+    <release>2.0.0beta</release>
+    <api>2.0.0beta</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <notes>
+This is a minor update to the existing PHP 2.0 developer preview
+2.
 
-<div><a id="TOP"></a></div>
+Changes:
+* Added uncommited by stable management APIs.
+* Made minor changes to various methods to allow easier use.
+   </notes>
+  </release>
+  <release>
+   <date>2014-09-16</date>
+   <version>
+    <release>2.0.0beta2</release>
+    <api>2.0.0beta2</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <notes>
+This is a minor update to the existing PHP 2.0 beta.
 
-<table class="head" cellspacing="0" cellpadding="0" width="100%">
-    <tr>
-        <td class="head-logo">
-            <a href="/"><img src="/img/peclsmall.gif" alt="PECL :: The PHP Extension Community Library" width="106" height="55" style="margin: 5px;"></a><br>
-        </td>
+Changes:
+* Added support for cross-sdk data storage/retrieval.
+* Added method to debug generated view queries.
+* Fixed numerous minor bugs since beta.
+   </notes>
+  </release>
+  <release>
+   <date>2014-09-19</date>
+   <version>
+    <release>2.0.0</release>
+    <api>2.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <notes>
+This is the first GA release of the new 2.0 PHP SDK.
 
-        <td class="head-menu">
+No changes since release 2.0.0beta2.
+   </notes>
+  </release>
+  <release>
+   <date>2014-11-04</date>
+   <version>
+    <release>2.0.1</release>
+    <api>2.0.1</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <notes>
+This is a patch update to the PHP 2.0 SDK.
 
-                            <a href="/login.php" class="menuBlack">Login</a>
-            
-            &nbsp;|&nbsp;
-            <a href="/packages.php" class="menuBlack">Packages</a>
-            &nbsp;|&nbsp;
-            <a href="/support.php" class="menuBlack">Support</a>
-            &nbsp;|&nbsp;
-            <a href="/bugs/" class="menuBlack">Bugs</a>
+Changes:
+* PCBC-303: Allow JSON decoding as associative array.
+* Added missing append/prepend forwarders.
+* Fixed various issues with query creation and execution.
+* Corrected various build issues.
+   </notes>
+  </release>
+  <release>
+   <date>2014-12-02</date>
+   <version>
+    <release>2.0.2</release>
+    <api>2.0.2</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <notes>
+This is a patch update to the PHP 2.0 SDK.
 
-        </td>
-    </tr>
+Changes:
+* PCBC-310: Corrected segfault occuring in some cases when
+    running under Apache and IIS.
+* Updated PHP script executer to provide accurate error
+    information in Exception stack traces.
+* Refactored code base for better maintainability.
+   </notes>
+  </release>
+  <release>
+   <date>2015-01-05</date>
+   <version>
+    <release>2.0.3</release>
+    <api>2.0.3</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <notes>
+This is a patch update to the PHP 2.0 SDK.
 
-    <tr>
-        <td class="head-search" colspan="2">
-            <form method="post" action="/search.php">
-                <p class="head-search"><span class="accesskey">S</span>earch for
-                    <input class="small" type="text" name="search_string" value="" size="20" accesskey="s">
-                    in the
-                    <select name="search_in" class="small">
-                        <option value="packages">Packages</option>
-                        <option value="site">This site (using Google)</option>
-                        <option value="developers">Developers</option>
-                        <option value="pecl-dev">Developer mailing list</option>
-                        <option value="pecl-cvs">SVN commits mailing list</option>
-                    </select>
-                    <input type="image" src="/img/small_submit_white.gif" alt="search" style="vertical-align: middle;">&nbsp;<br>
-                </p>
-            </form>
-        </td>
-    </tr>
-</table>
+Changes:
+* PCBC-318: Fix append/prepend operations failing on new libcouchbase.
+* PCBC-319: Correct segfault when using persist_to/replicate_to.
+* Corrected typo in N1QL query interface.
+   </notes>
+  </release>
+  <release>
+   <date>2015-02-03</date>
+   <version>
+    <release>2.0.4</release>
+    <api>2.0.4</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <notes>
+This is a patch update to the PHP 2.0 SDK.
 
-<table class="middle" cellspacing="0" cellpadding="0">
-    <tr>
-        <td class="sidebar_left">
-            <ul class="side_pages">
-    <li class="side_page"><a href="/" >Home</a></li>
-    <li class="side_page"><a href="/news/" >News</a></li>
-</ul>
+Changes:
+* PCBC-321: Corrected issue when passing incorrect option parameter type.
+* Corrected issue related to setting timeouts.
+* PCBC-317: Updated N1QL querying to support DP4.
+* Fixed issue with design document management methods.
+   </notes>
+  </release>
+  <release>
+   <date>2015-03-03</date>
+   <version>
+    <release>2.0.5</release>
+    <api>2.0.5</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <notes>
+This is a patch update to the PHP 2.0 SDK.
 
-            <strong>Documentation:</strong>
+Changes:
+* Orphan: Corrected issue where durability checking may not propagate errors.
+* PCBC-327: group_level semantics now support server 3.x.
+* Orphan: Corrected issue with some ViewQuery methods.
+* PCBC-326: Zero-length strings no longer decode as NULL.
+   </notes>
+  </release>
+  <release>
+   <date>2015-04-07</date>
+   <version>
+    <release>2.0.6</release>
+    <api>2.0.6</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <notes>
+This is a patch update to the PHP 2.0 SDK.
 
-<ul class="side_pages">
-    <li class="side_page"><a href="/support.php" >Support</a></li>
-</ul>
-
-            <strong>Downloads:</strong>
-
-<ul class="side_pages">
-    <li class="side_page">
-        <a href="/packages.php" >Browse Packages</a>
-    </li>
-
-    <li class="side_page">
-        <a href="/package-search.php" >Search Packages</a>
-    </li>
-
-    <li class="side_page">
-        <a href="/package-stats.php" >Download Statistics</a>
-    </li>
-</ul>
-
-            
-                    </td>
-
-        <td class="content">
-            
-<h1>Error 404 not found</h1>
-
-<p>The requested page <i>/rest/r/couchbase/package.2.0.6.xml</i> was not
-found on this server.</p>
-
-
-<p>If you think that this error message is caused by an error in the
-configuration of the server, please contact
-<a href="mailto:pecl-dev@lists.php.net">pecl-dev@lists.php.net</a>.
-
-        </td>
-
-        
-    </tr>
-</table>
-
-<table class="foot" cellspacing="0" cellpadding="0">
-    <tr>
-        <td class="foot-bar" colspan="2">
-            <a href="/about/privacy.php" class="menuBlack">PRIVACY POLICY</a>
-            &nbsp;|&nbsp;
-            <a href="/credits.php" class="menuBlack">CREDITS</a>
-            <br>
-        </td>
-    </tr>
-
-    <tr>
-        <td class="foot-copy">
-            <small>
-                <a href="/copyright.php">Copyright &copy; 2001-2022 The PHP Group</a><br>
-                All rights reserved.<br>
-            </small>
-        </td>
-        <td class="foot-source">
-            <small>
-                Last updated: Mon Jun 01 07:05:01 2020 UTC<br>
-                Bandwidth and hardware provided by: <a href="https://www.pair.com/">pair Networks</a>
-            </small>
-        </td>
-    </tr>
-</table>
-
-</body>
-</html>
+Changes:
+* PCBC-331: CouchbaseBucketManager now has a flush operation to clear a bucket.
+* Orphan: Minor fix to view management return values.
+* Orphan: ViewQuery::group_level now can be chained as expected.
+* PCBC-334: PHP 5.4 transcoder compatibility issues have been fixed.
+* PHP 5.3 support has been deprecated and PHP 5.6 is now fully supported.
+* Corrected various memory leaks and segfaults.
+   </notes>
+  </release>
+ </changelog>
+</package>

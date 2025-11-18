@@ -19,6 +19,6 @@
 - Remove TSRMLS_* from code, they are not used anymore (Stas)
 - Fixed incorrect usage of HASH_OF() macro. (Dmitry)</n>
  <f>315010</f>
- <g>http://pecl.php.net/get/zip-1.13.2</g>
+ <g>https://pecl.php.net/get/zip-1.13.2</g>
  <x xlink:href="package.1.13.2.xml"/>
 </r>

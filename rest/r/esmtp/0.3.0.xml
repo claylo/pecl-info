@@ -17,6 +17,6 @@
  <da>2004-09-01 12:30:00</da>
  <n>- release for both PHP 5.x and 4.x</n>
  <f>25683</f>
- <g>http://pecl.php.net/get/esmtp-0.3.0</g>
+ <g>https://pecl.php.net/get/esmtp-0.3.0</g>
  <x xlink:href="package.0.3.0.xml"/>
 </r>

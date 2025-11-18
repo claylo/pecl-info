@@ -40,6 +40,6 @@
 - Fixed Swoole\Server-&gt;task third parameter passed Callback Crash at PHP7
 - Fixed Swoole\Http\Request-&gt;files crash on PHP7 when externally referenced</n>
  <f>516632</f>
- <g>http://pecl.php.net/get/swoole-1.8.8</g>
+ <g>https://pecl.php.net/get/swoole-1.8.8</g>
  <x xlink:href="package.1.8.8.xml"/>
 </r>

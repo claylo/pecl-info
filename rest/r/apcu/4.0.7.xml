@@ -15,6 +15,6 @@
  <da>2014-10-11 13:02:48</da>
  <n>- fix inconsistent member names for entries in userland</n>
  <f>118670</f>
- <g>http://pecl.php.net/get/apcu-4.0.7</g>
+ <g>https://pecl.php.net/get/apcu-4.0.7</g>
  <x xlink:href="package.4.0.7.xml"/>
 </r>

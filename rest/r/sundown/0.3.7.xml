@@ -33,6 +33,6 @@ ee8a132 Merge pull request #24 from reeze/patch-2
 b0adcc7 Merge pull request #23 from reeze/patch-1
 ebae34b Make travis report test failure since make test didn't report exit code</n>
  <f>53961</f>
- <g>http://pecl.php.net/get/sundown-0.3.7</g>
+ <g>https://pecl.php.net/get/sundown-0.3.7</g>
  <x xlink:href="package.0.3.7.xml"/>
 </r>

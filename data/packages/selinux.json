@@ -16,7 +16,7 @@
             "releaseDate": "2024-10-08T13:43:30+00:00",
             "releaseNotes": "- fix implicit nullable parameters",
             "get": "https://pecl.php.net/get/selinux-0.6.1",
-            "SPDX-License-Identifier": null
+            "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.6.0": {
             "version": "0.6.0",
@@ -45,7 +45,7 @@
             "releasedBy": "remi",
             "releaseDate": "2018-08-20T12:46:25+00:00",
             "releaseNotes": "- missing libselinux in link command\n- The selinux_deny_unknown() was added\n- PHP 7 compatibility (Remi)\n- fix build woth libselinux 2.0 (RHEL-6)",
-            "get": "http://pecl.php.net/get/selinux-0.4.2",
+            "get": "https://pecl.php.net/get/selinux-0.4.2",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.4.1": {
@@ -55,7 +55,7 @@
             "releasedBy": "remi",
             "releaseDate": "2015-05-24T05:48:21+00:00",
             "releaseNotes": "- The \"permissive\" tag was added to selinux_compute_av\n- The selinux_deny_unknown() was added\n- PHP 7 compatibility (Remi)\n- fix build woth libselinux 2.0 (RHEL-6)",
-            "get": "http://pecl.php.net/get/selinux-0.4.1",
+            "get": "https://pecl.php.net/get/selinux-0.4.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.3.1": {
@@ -65,7 +65,7 @@
             "releasedBy": "kaigai",
             "releaseDate": "2009-04-15T20:06:18+00:00",
             "releaseNotes": "- The \"permissive\" tag was added to selinux_compute_av\n- The selinux_deny_unknown() was added",
-            "get": "http://pecl.php.net/get/selinux-0.3.1",
+            "get": "https://pecl.php.net/get/selinux-0.3.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.2.1": {
@@ -75,7 +75,7 @@
             "releasedBy": "kaigai",
             "releaseDate": "2009-03-12T02:17:56+00:00",
             "releaseNotes": "- Specfile to build RPM package is added.",
-            "get": "http://pecl.php.net/get/selinux-0.2.1",
+            "get": "https://pecl.php.net/get/selinux-0.2.1",
             "SPDX-License-Identifier": "PHP-3.01"
         },
         "0.1.2": {
@@ -85,7 +85,7 @@
             "releasedBy": "kaigai",
             "releaseDate": "2009-03-02T20:10:48+00:00",
             "releaseNotes": "- The initial release of SELinux binding for PHP script language.",
-            "get": "http://pecl.php.net/get/selinux-0.1.2",
+            "get": "https://pecl.php.net/get/selinux-0.1.2",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

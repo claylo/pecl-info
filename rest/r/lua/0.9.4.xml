@@ -16,6 +16,6 @@
  <da>2012-03-18 22:19:32</da>
  <n>- Compatible with lua 5.2</n>
  <f>12617</f>
- <g>http://pecl.php.net/get/lua-0.9.4</g>
+ <g>https://pecl.php.net/get/lua-0.9.4</g>
  <x xlink:href="package.0.9.4.xml"/>
 </r>

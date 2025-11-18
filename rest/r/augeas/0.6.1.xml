@@ -15,6 +15,6 @@
  <da>2010-02-12 07:22:11</da>
  <n>- fixed Apache segfault on 64bit</n>
  <f>8816</f>
- <g>http://pecl.php.net/get/augeas-0.6.1</g>
+ <g>https://pecl.php.net/get/augeas-0.6.1</g>
  <x xlink:href="package.0.6.1.xml"/>
 </r>

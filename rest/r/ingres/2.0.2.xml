@@ -23,6 +23,6 @@
     - Clean up proto entries in ingres.c
     - Make ingres_conn_*() and ingres_stmt_* aliases for their ingres_err*() counterparts</n>
  <f>66721</f>
- <g>http://pecl.php.net/get/ingres-2.0.2</g>
+ <g>https://pecl.php.net/get/ingres-2.0.2</g>
  <x xlink:href="package.2.0.2.xml"/>
 </r>

@@ -26,6 +26,6 @@
  <n>Fix: Bitbucket issue #2: Static build fails
 Fix: build failed when EVENTFD was not available</n>
  <f>57539</f>
- <g>http://pecl.php.net/get/eio-1.2.5</g>
+ <g>https://pecl.php.net/get/eio-1.2.5</g>
  <x xlink:href="package.1.2.5.xml"/>
 </r>

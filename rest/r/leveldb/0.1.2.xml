@@ -18,6 +18,6 @@
 - Fixed memory leaks when sepecify invalid snapshot
 - Fixed memory leaks of LevelDB::get()</n>
  <f>17686</f>
- <g>http://pecl.php.net/get/leveldb-0.1.2</g>
+ <g>https://pecl.php.net/get/leveldb-0.1.2</g>
  <x xlink:href="package.0.1.2.xml"/>
 </r>

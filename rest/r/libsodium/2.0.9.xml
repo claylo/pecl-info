@@ -15,6 +15,6 @@
  <da>2017-10-20 08:19:32</da>
  <n>No code change. This release was made to ensure that the stable channel installs version 2.x.</n>
  <f>177852</f>
- <g>http://pecl.php.net/get/libsodium-2.0.9</g>
+ <g>https://pecl.php.net/get/libsodium-2.0.9</g>
  <x xlink:href="package.2.0.9.xml"/>
 </r>

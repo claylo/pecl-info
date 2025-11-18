@@ -24,6 +24,6 @@
 - Fixed segfault when an empty blob is loaded
 - Use new API for fetching support image formats / fonts</n>
  <f>71869</f>
- <g>http://pecl.php.net/get/imagick-0.9.13</g>
+ <g>https://pecl.php.net/get/imagick-0.9.13</g>
  <x xlink:href="package.0.9.13.xml"/>
 </r>

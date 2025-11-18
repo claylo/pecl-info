@@ -22,6 +22,6 @@
  <n>- Add buffer_size config bar,when buffer_size full will write log
 - Code format remove tab to 4space</n>
  <f>47678</f>
- <g>http://pecl.php.net/get/SeasLog-1.0.2</g>
+ <g>https://pecl.php.net/get/SeasLog-1.0.2</g>
  <x xlink:href="package.1.0.2.xml"/>
 </r>

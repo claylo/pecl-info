@@ -33,6 +33,6 @@ http://dev.iworks.at/ext-http/lcov/ext/http/</d>
 * Fix gh-issue #22: Fix PHP5 config.w32 (Jan Ehrhardt)
 * Fix gh-issue #20: setSslOptions notice with curl 7.43 (Mike, Vitaliy Demidov)</n>
  <f>200469</f>
- <g>http://pecl.php.net/get/pecl_http-2.5.6</g>
+ <g>https://pecl.php.net/get/pecl_http-2.5.6</g>
  <x xlink:href="package.2.5.6.xml"/>
 </r>

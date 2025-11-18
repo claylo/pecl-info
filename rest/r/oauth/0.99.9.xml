@@ -21,6 +21,6 @@ Requirements: ext/hash and libcurl (with https support if you plan to access res
 - Added oauth_verifier support to getAccessToken
 - Fixed build failures for PHP5.1</n>
  <f>25609</f>
- <g>http://pecl.php.net/get/oauth-0.99.9</g>
+ <g>https://pecl.php.net/get/oauth-0.99.9</g>
  <x xlink:href="package.0.99.9.xml"/>
 </r>

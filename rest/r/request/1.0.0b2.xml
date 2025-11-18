@@ -37,6 +37,6 @@ https://packagist.org/packages/pmjones/request .</d>
   new methods ServerResponse::setHeaderCallbacks(), addHeaderCallback(), and
   getHeaderCallbacks().</n>
  <f>36283</f>
- <g>http://pecl.php.net/get/request-1.0.0b2</g>
+ <g>https://pecl.php.net/get/request-1.0.0b2</g>
  <x xlink:href="package.1.0.0b2.xml"/>
 </r>

@@ -28,6 +28,6 @@ necessary to build a fully-functional MongoDB driver.</d>
 * PHPC-256: Productions debug logs
 * PHPC-441: Skip (xfail) these tests while the ticket is being worked on</n>
  <f>606693</f>
- <g>http://pecl.php.net/get/mongodb-1.0.0RC0</g>
+ <g>https://pecl.php.net/get/mongodb-1.0.0RC0</g>
  <x xlink:href="package.1.0.0RC0.xml"/>
 </r>

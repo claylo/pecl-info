@@ -29,6 +29,6 @@
 
 Fixed PHP5/PHP7 memory issue: string returned by EventBuffer::pullup() was not zero-terminated</n>
  <f>130641</f>
- <g>http://pecl.php.net/get/event-2.0.0</g>
+ <g>https://pecl.php.net/get/event-2.0.0</g>
  <x xlink:href="package.2.0.0.xml"/>
 </r>

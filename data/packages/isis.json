@@ -15,7 +15,7 @@
             "releasedBy": "braulio",
             "releaseDate": "2004-08-20T21:17:00+00:00",
             "releaseNotes": "This is a development release (EXPERIMENTAL).",
-            "get": "http://pecl.php.net/get/isis-1.0.3p3",
+            "get": "https://pecl.php.net/get/isis-1.0.3p3",
             "SPDX-License-Identifier": "BSD-3-Clause"
         }
     },

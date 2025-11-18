@@ -18,6 +18,6 @@
 - Fixed PECL bug #14930 (configure fails on freebsd). (patch by nobleclem at fatalexception dot us)
 - Fixed PECL bug #14752 (32-bit Client does not work with 64-bit ids). (nobleclem at fatalexception dot us, Tony)</n>
  <f>11117</f>
- <g>http://pecl.php.net/get/sphinx-1.0.0</g>
+ <g>https://pecl.php.net/get/sphinx-1.0.0</g>
  <x xlink:href="package.1.0.0.xml"/>
 </r>

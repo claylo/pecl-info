@@ -17,6 +17,6 @@
 - Retain object identity on 'return $this'
 - Retain object identity on JS-side 'return this'</n>
  <f>101355</f>
- <g>http://pecl.php.net/get/v8js-0.6.2</g>
+ <g>https://pecl.php.net/get/v8js-0.6.2</g>
  <x xlink:href="package.0.6.2.xml"/>
 </r>

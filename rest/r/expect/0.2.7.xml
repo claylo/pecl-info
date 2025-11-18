@@ -15,6 +15,6 @@
  <da>2010-10-10 03:43:40</da>
  <n>Fixed bug #18998 (Change expect.logfile on runtime leave file descriptor opened)</n>
  <f>6393</f>
- <g>http://pecl.php.net/get/expect-0.2.7</g>
+ <g>https://pecl.php.net/get/expect-0.2.7</g>
  <x xlink:href="package.0.2.7.xml"/>
 </r>

@@ -28,6 +28,6 @@
 * Added pq\Result::desc() and fixed pq\Statement::descAsync()
 * Added serializer for input array params</n>
  <f>47973</f>
- <g>http://pecl.php.net/get/pq-0.4.0</g>
+ <g>https://pecl.php.net/get/pq-0.4.0</g>
  <x xlink:href="package.0.4.0.xml"/>
 </r>

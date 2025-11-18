@@ -16,6 +16,6 @@
  <n>- Fix FLAG_FORCE_ARRAY affecting V8Function objects
 - Fix memory leak with repeated calls of methods on exported PHP objects</n>
  <f>90677</f>
- <g>http://pecl.php.net/get/v8js-0.2.3</g>
+ <g>https://pecl.php.net/get/v8js-0.2.3</g>
  <x xlink:href="package.0.2.3.xml"/>
 </r>

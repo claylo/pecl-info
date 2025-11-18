@@ -23,6 +23,6 @@ This package was originally developed by Bart Vanbrabant. Old versions are avail
 	it will simply return SUCCESS and do nothing. It is useful if you have only
 	one php.ini for cli and cgi or if you compiled it staticaly.</n>
  <f>8258</f>
- <g>http://pecl.php.net/get/htscanner-0.7.0</g>
+ <g>https://pecl.php.net/get/htscanner-0.7.0</g>
  <x xlink:href="package.0.7.0.xml"/>
 </r>

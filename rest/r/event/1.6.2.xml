@@ -25,6 +25,6 @@
 Fix: bug #64680 where we should check for SKIP_ONLINE_TESTS environment variable
 Fix: bug #64679 where we had buffer overflow caused by struct sockaddr_storage * pointer</n>
  <f>66941</f>
- <g>http://pecl.php.net/get/event-1.6.2</g>
+ <g>https://pecl.php.net/get/event-1.6.2</g>
  <x xlink:href="package.1.6.2.xml"/>
 </r>

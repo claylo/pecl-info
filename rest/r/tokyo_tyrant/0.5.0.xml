@@ -18,6 +18,6 @@ This extension requires Tokyo Cabinet, Tokyo Tyrant and PHP version 5.2.0+.</d>
  <da>2010-06-09 07:04:40</da>
  <n>- Fix crash when session_regenerate_id(true) is called</n>
  <f>26903</f>
- <g>http://pecl.php.net/get/tokyo_tyrant-0.5.0</g>
+ <g>https://pecl.php.net/get/tokyo_tyrant-0.5.0</g>
  <x xlink:href="package.0.5.0.xml"/>
 </r>

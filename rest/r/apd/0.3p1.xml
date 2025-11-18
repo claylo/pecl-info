@@ -16,6 +16,6 @@
  <da>2002-11-03 17:06:00</da>
  <n>Enabled compile on non 4.3 systems</n>
  <f>38152</f>
- <g>http://pecl.php.net/get/apd-0.3p1</g>
+ <g>https://pecl.php.net/get/apd-0.3p1</g>
  <x xlink:href="package.0.3p1.xml"/>
 </r>

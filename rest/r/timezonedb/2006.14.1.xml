@@ -17,6 +17,6 @@ a later version of the timezone database then the one that ships with PHP.</d>
  <da>2006-10-27 14:10:57</da>
  <n>Fixed a symbol issue for FreeBSD.</n>
  <f>178555</f>
- <g>http://pecl.php.net/get/timezonedb-2006.14.1</g>
+ <g>https://pecl.php.net/get/timezonedb-2006.14.1</g>
  <x xlink:href="package.2006.14.1.xml"/>
 </r>

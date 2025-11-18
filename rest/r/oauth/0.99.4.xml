@@ -17,6 +17,6 @@ Requirements: ext/hash and libcurl (with https support if you plan to access res
  <da>2009-03-26 11:34:15</da>
  <n>- Added extra constants for Google Portable Contact API's</n>
  <f>19205</f>
- <g>http://pecl.php.net/get/oauth-0.99.4</g>
+ <g>https://pecl.php.net/get/oauth-0.99.4</g>
  <x xlink:href="package.0.99.4.xml"/>
 </r>

@@ -32,6 +32,6 @@
 + Added HttpRequest::$recordHistory and HttpRequest::getHistory()
 - Removed the ondebug callback option for requests</n>
  <f>90866</f>
- <g>http://pecl.php.net/get/pecl_http-0.11.0</g>
+ <g>https://pecl.php.net/get/pecl_http-0.11.0</g>
  <x xlink:href="package.0.11.0.xml"/>
 </r>

@@ -20,6 +20,6 @@
 - Fixes bug in session decoder not calling __wakeup() in php 7.0+
 - (Enhancement) Reuses identical strings when unserializing objects and arrays in php 7.0+</n>
  <f>66826</f>
- <g>http://pecl.php.net/get/igbinary-2.0.1</g>
+ <g>https://pecl.php.net/get/igbinary-2.0.1</g>
  <x xlink:href="package.2.0.1.xml"/>
 </r>

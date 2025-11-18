@@ -21,6 +21,6 @@ punctuation and spacing.
  <da>2004-11-14 17:30:00</da>
  <n>Generate better (and less) code, make Windows compiles happy too.</n>
  <f>106567</f>
- <g>http://pecl.php.net/get/translit-0.3</g>
+ <g>https://pecl.php.net/get/translit-0.3</g>
  <x xlink:href="package.0.3.xml"/>
 </r>

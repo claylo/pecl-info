@@ -18,6 +18,6 @@
  <n>- Make it compatible with ImageMagick 5.4.5 (and this is also the needed version now)
 - adjust package.xml to the new &quot;pear build&quot; command</n>
  <f>12590</f>
- <g>http://pecl.php.net/get/imagick-0.1.1</g>
+ <g>https://pecl.php.net/get/imagick-0.1.1</g>
  <x xlink:href="package.0.1.1.xml"/>
 </r>

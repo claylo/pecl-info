@@ -15,6 +15,6 @@
  <da>2013-10-20 07:36:31</da>
  <n>- Fixed bug #65916 (Compilation broken on Mac OS X)</n>
  <f>22852</f>
- <g>http://pecl.php.net/get/varnish-1.1.1</g>
+ <g>https://pecl.php.net/get/varnish-1.1.1</g>
  <x xlink:href="package.1.1.1.xml"/>
 </r>

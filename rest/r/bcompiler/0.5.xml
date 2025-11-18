@@ -28,6 +28,6 @@ For install instructions see the manual at pear.php.net
 - Lots of Windows Build fixes (Ernani Joppert Pontes Martins)
 - bug #23981 &amp; #23852 fixed some bz2 checking (per at nobolt dot com)</n>
  <f>34345</f>
- <g>http://pecl.php.net/get/bcompiler-0.5</g>
+ <g>https://pecl.php.net/get/bcompiler-0.5</g>
  <x xlink:href="package.0.5.xml"/>
 </r>

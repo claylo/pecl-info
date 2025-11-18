@@ -365,7 +365,7 @@
             "releasedBy": "tandre",
             "releaseDate": "2018-10-20T15:29:32+00:00",
             "releaseNotes": "* Be more aggressive about deduplication when generating serialization of arrays in php 7.0+.\n* Define HAVE_IGBINARY on Unix/Linux. (previously defined only on Windows)\n* Update formatting/wording of documentation.",
-            "get": "http://pecl.php.net/get/igbinary-2.0.8",
+            "get": "https://pecl.php.net/get/igbinary-2.0.8",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "2.0.7": {
@@ -375,7 +375,7 @@
             "releasedBy": "tandre",
             "releaseDate": "2018-06-27T03:06:21+00:00",
             "releaseNotes": "* Fix compiler warnings about format strings, for errors that should not occur during normal igbinary usage.",
-            "get": "http://pecl.php.net/get/igbinary-2.0.7",
+            "get": "https://pecl.php.net/get/igbinary-2.0.7",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "2.0.6": {
@@ -385,7 +385,7 @@
             "releasedBy": "tandre",
             "releaseDate": "2018-05-12T23:01:59+00:00",
             "releaseNotes": "* Same as 2.0.6RC1\n* Fix a bug in Windows debug builds.\n* Emit more specific warnings when __sleep() returns a declared property that was unset.\n* Fix harmless compiler warnings during builds.\n* Fix a build error on PHP7.3-dev.",
-            "get": "http://pecl.php.net/get/igbinary-2.0.6",
+            "get": "https://pecl.php.net/get/igbinary-2.0.6",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "2.0.6RC1": {
@@ -395,7 +395,7 @@
             "releasedBy": "tandre",
             "releaseDate": "2018-04-02T01:10:53+00:00",
             "releaseNotes": "* Fix a bug in Windows debug builds.\n* Emit more specific warnings when __sleep() returns a declared property that was unset.\n* Fix harmless compiler warnings during builds.\n* Fix a build error on PHP7.3-dev.",
-            "get": "http://pecl.php.net/get/igbinary-2.0.6RC1",
+            "get": "https://pecl.php.net/get/igbinary-2.0.6RC1",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "2.0.5": {
@@ -405,7 +405,7 @@
             "releasedBy": "tandre",
             "releaseDate": "2017-11-04T17:18:00+00:00",
             "releaseNotes": "* Same as 2.0.5RC1 (no bugs were reported in that release candidate)",
-            "get": "http://pecl.php.net/get/igbinary-2.0.5",
+            "get": "https://pecl.php.net/get/igbinary-2.0.5",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "2.0.5RC1": {
@@ -415,7 +415,7 @@
             "releasedBy": "tandre",
             "releaseDate": "2017-10-16T00:55:21+00:00",
             "releaseNotes": "* Fixes bug #129: Should not call __wakeup() on data which was created by Serializable::unserialize()",
-            "get": "http://pecl.php.net/get/igbinary-2.0.5RC1",
+            "get": "https://pecl.php.net/get/igbinary-2.0.5RC1",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "2.0.4": {
@@ -425,7 +425,7 @@
             "releasedBy": "tandre",
             "releaseDate": "2017-09-25T00:47:46+00:00",
             "releaseNotes": "* Fixes bug #129: Should not call __wakeup() on data which was created by Serializable::unserialize()",
-            "get": "http://pecl.php.net/get/igbinary-2.0.4",
+            "get": "https://pecl.php.net/get/igbinary-2.0.4",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "2.0.3": {
@@ -435,7 +435,7 @@
             "releasedBy": "tandre",
             "releaseDate": "2017-09-25T00:45:01+00:00",
             "releaseNotes": "- Fixes bug #126: Fatal error: \"igbinary_serialize_zval: zval has unknown type 0\" (IS_UNDEF)\n  Make this a warning instead of a fatal error (and serialize as null instead), since IS_UNDEF is a known type.\n  Later releases will fix the root cause of the warning, and consistently omit array/object/other entries for IS_UNDEF.",
-            "get": "http://pecl.php.net/get/igbinary-2.0.3",
+            "get": "https://pecl.php.net/get/igbinary-2.0.3",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "2.0.2": {
@@ -445,7 +445,7 @@
             "releasedBy": "tandre",
             "releaseDate": "2017-09-25T00:42:08+00:00",
             "releaseNotes": "- Compatible with PHP 5.2 - 7.1\n- Fixes crash in Memcached->setMulti (in php 7.0+) when the first level of array elements have references as values.\n  Other extensions using igbinary shouldn't be affected.",
-            "get": "http://pecl.php.net/get/igbinary-2.0.2",
+            "get": "https://pecl.php.net/get/igbinary-2.0.2",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "2.0.1": {
@@ -455,7 +455,7 @@
             "releasedBy": "phadej",
             "releaseDate": "2016-12-20T14:40:51+00:00",
             "releaseNotes": "- Compatible with PHP 5.2 - 7.0\n- Fixes bug in session decoder not calling __wakeup() in php 7.0+\n- (Enhancement) Reuses identical strings when unserializing objects and arrays in php 7.0+",
-            "get": "http://pecl.php.net/get/igbinary-2.0.1",
+            "get": "https://pecl.php.net/get/igbinary-2.0.1",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "2.0.0": {
@@ -465,7 +465,7 @@
             "releasedBy": "phadej",
             "releaseDate": "2016-11-19T12:35:33+00:00",
             "releaseNotes": "- Compatible with PHP 5.2 - 7.0",
-            "get": "http://pecl.php.net/get/igbinary-2.0.0",
+            "get": "https://pecl.php.net/get/igbinary-2.0.0",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "1.2.1": {
@@ -475,7 +475,7 @@
             "releasedBy": "phadej",
             "releaseDate": "2014-08-29T03:06:30+00:00",
             "releaseNotes": "- Compatible with PHP 5.2 - 5.6",
-            "get": "http://pecl.php.net/get/igbinary-1.2.1",
+            "get": "https://pecl.php.net/get/igbinary-1.2.1",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "1.2.0": {
@@ -485,7 +485,7 @@
             "releasedBy": "phadej",
             "releaseDate": "2014-08-28T01:07:39+00:00",
             "releaseNotes": "- PECL bug #22614, igbinary_unserialize(FALSE) must return FALSE\n- PHP bug #54662, unserializing nested objects cause crash\n- Other fixes",
-            "get": "http://pecl.php.net/get/igbinary-1.2.0",
+            "get": "https://pecl.php.net/get/igbinary-1.2.0",
             "SPDX-License-Identifier": "BSD-3-Clause"
         },
         "1.1.1": {
@@ -495,7 +495,7 @@
             "releasedBy": "pajoye",
             "releaseDate": "2011-03-14T07:32:53+00:00",
             "releaseNotes": "- Initial PECL release",
-            "get": "http://pecl.php.net/get/igbinary-1.1.1",
+            "get": "https://pecl.php.net/get/igbinary-1.1.1",
             "SPDX-License-Identifier": "PHP-3.01"
         }
     },

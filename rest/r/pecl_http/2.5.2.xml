@@ -31,6 +31,6 @@ http://dev.iworks.at/ext-http/lcov/ext/http/</d>
  <n>* Fixed regression with HEAD requests always warning about a partial file transfer
 + Added &quot;path_as_is&quot; request option (libcurl &gt;= 7.42)</n>
  <f>191509</f>
- <g>http://pecl.php.net/get/pecl_http-2.5.2</g>
+ <g>https://pecl.php.net/get/pecl_http-2.5.2</g>
  <x xlink:href="package.2.5.2.xml"/>
 </r>

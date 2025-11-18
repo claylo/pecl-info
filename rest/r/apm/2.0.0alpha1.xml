@@ -20,6 +20,6 @@ More drivers to come (SNMP, e-mail, Hadoop,...).</d>
   - New DB schema
   - No more native functions, retrieval of data is directly made in PHP</n>
  <f>267160</f>
- <g>http://pecl.php.net/get/APM-2.0.0alpha1</g>
+ <g>https://pecl.php.net/get/APM-2.0.0alpha1</g>
  <x xlink:href="package.2.0.0alpha1.xml"/>
 </r>

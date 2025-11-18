@@ -26,6 +26,6 @@ Fixed:
 - Bug #62012: No data collected
 - Missing post_vars column definition in SQL creation scripts.</n>
  <f>115585</f>
- <g>http://pecl.php.net/get/APM-1.1.0beta4</g>
+ <g>https://pecl.php.net/get/APM-1.1.0beta4</g>
  <x xlink:href="package.1.1.0beta4.xml"/>
 </r>

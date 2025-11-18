@@ -17,6 +17,6 @@
 - Fixed segfault when reading object properties.
 - Fixed bug #62026 (Second param in setRankingMode should be optional)</n>
  <f>13630</f>
- <g>http://pecl.php.net/get/sphinx-1.3.0</g>
+ <g>https://pecl.php.net/get/sphinx-1.3.0</g>
  <x xlink:href="package.1.3.0.xml"/>
 </r>

@@ -16,6 +16,6 @@
  <n>- optimize lzf_decompress on large input (~20%)
 - use safe allocation to avoid integer overflow</n>
  <f>16968</f>
- <g>http://pecl.php.net/get/LZF-1.6.5</g>
+ <g>https://pecl.php.net/get/LZF-1.6.5</g>
  <x xlink:href="package.1.6.5.xml"/>
 </r>

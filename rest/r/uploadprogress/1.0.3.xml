@@ -17,6 +17,6 @@
  <da>2011-08-08 08:24:49</da>
  <n>- Another make it work with PHP 5.4</n>
  <f>9041</f>
- <g>http://pecl.php.net/get/uploadprogress-1.0.3</g>
+ <g>https://pecl.php.net/get/uploadprogress-1.0.3</g>
  <x xlink:href="package.1.0.3.xml"/>
 </r>
