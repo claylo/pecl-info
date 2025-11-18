@@ -10,6 +10,7 @@ function fetch_xml($url)
         //CURLOPT_ENCODING => '',            // '' means "accept all" and auto-decode
         CURLOPT_ENCODING => 'gzip, deflate',
         CURLOPT_USERAGENT => 'PHP RSS bot',
+        CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
         CURLOPT_TIMEOUT => 10,
         CURLOPT_FOLLOWLOCATION => true,
     ]);
