@@ -9,7 +9,7 @@
 Questions & answers are below the listings. Packages marked with :eight: have a mention of PHP 8 somewhere in their release notes.
 
 
-## Relevant Extensions (110)
+## Relevant Extensions (98)
 
 ### Authentication (2)
 
@@ -201,7 +201,7 @@ This extension provides API for communicating with ZooKeeper service.
 </details>
 
 ***
-### Database (14)
+### Database (12)
 
 <details><summary>couchbase&nbsp; :eight:</summary>
 <p>Couchbase Server PHP extension</p>
@@ -257,30 +257,6 @@ necessary to build a fully-functional MongoDB driver.
 <li>Release data in JSON: <a href="data/packages/mongodb.json">mongodb.json</a></li>
 <li><a href="https://pecl.php.net/packages/mongodb">mongodb on PECL</a></li>
 <li><a href="https://www.php.net/mongodb">:book: Documentation</a> &nbsp; <a href="https://www.mongodb.com/docs/drivers/php-drivers/">:house: Home</a> &nbsp; <a href="https://github.com/mongodb/mongo-php-driver">:sparkles: Source</a> &nbsp; <a href="https://jira.mongodb.org/browse/PHPC">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=981&rid=&cid=7">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>mysql_xdevapi</summary>
-<p>MySQL X DevAPI for PHP</p>
-
-```
-The X DevAPI is the new common API for MySQL Connectors built on the X Protocol introduced in MySQL 5.7.12.
-
-The X DevAPI wraps powerful concepts in a simple API.
-* A new high-level session concept enables you to write code that can transparently scale from single MySQL Server to a multiple server environment.
-* Read operations are simple and easy to understand.
-
-The X DevAPI introduces a new, modern and easy-to-learn way to work with your data.
-* Documents are stored in Collections and have their dedicated CRUD operation set.
-* Work with your existing domain objects or generate code based on structure definitions for strictly typed languages.
-* Focus is put on working with data via CRUD operations. See Section 3.1, “CRUD Operations Overview”.
-* Modern practices and syntax styles are used to get away from traditional SQL-String-Building. See Chapter 10, Building Expressions.
-```
-<p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/mysql_xdevapi-8.0.30">8.0.30</a> on 26 Jul 2022</li>
-<li>Release data in JSON: <a href="data/packages/mysql_xdevapi.json">mysql_xdevapi.json</a></li>
-<li><a href="https://pecl.php.net/packages/mysql_xdevapi">mysql_xdevapi on PECL</a></li>
-<li><a href="http://docs.php.net/manual/en/book.mysql-xdevapi.php">:book: Documentation</a> &nbsp; <a href="http://docs.php.net/manual/en/book.mysql-xdevapi.php">:house: Home</a> &nbsp; <a href="https://github.com/php/pecl-database-mysql_xdevapi">:sparkles: Source</a> &nbsp; <a href="https://bugs.mysql.com/search.php?bug_type[]=Server%3A+DocStore&cmd=display">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1002&rid=&cid=7">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>mysqlnd_krb</summary>
@@ -383,23 +359,6 @@ The Microsoft Drivers for PHP for SQL Server are PHP extensions that allow for t
 <li>Release data in JSON: <a href="data/packages/pdo_sqlsrv.json">pdo_sqlsrv.json</a></li>
 <li><a href="https://pecl.php.net/packages/pdo_sqlsrv">pdo_sqlsrv on PECL</a></li>
 <li><a href="https://github.com/Microsoft/msphpsql">:house: Home</a> &nbsp; <a href="https://github.com/Microsoft/msphpsql">:sparkles: Source</a> &nbsp; <a href="https://github.com/Microsoft/msphpsql/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=901&rid=&cid=7">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>PDO_TAOS</summary>
-<p>TDengine driver for PDO</p>
-
-```
-This extension provides a TDengine database driver for PDO.
-        TDengine is a open-sourced time-series big data platform, designed and optimized for IoT, faster on insert/query speeds.
-        This extension can be used to develop IoT projects with Swoole extension.
-        This extension is compatible with PHP versions since 7.0.
-```
-<p><ul>
-<li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/PDO_TAOS-1.0.3">1.0.3</a> on 06 Sep 2022</li>
-<li>Release data in JSON: <a href="data/packages/pdo_taos.json">pdo_taos.json</a></li>
-<li><a href="https://pecl.php.net/packages/PDO_TAOS">PDO_TAOS on PECL</a></li>
-<li><a href="https://github.com/bearlord/pdo_taos">:house: Home</a> &nbsp; <a href="https://github.com/bearlord/pdo_taos">:sparkles: Source</a> &nbsp; <a href="https://github.com/bearlord/pdo_taos/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1070&rid=&cid=7">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>pq&nbsp; :eight:</summary>
@@ -1051,39 +1010,7 @@ A library and extension that provides objects for scientific computing in PHP.
 </details>
 
 ***
-### Multimedia (2)
-
-<details><summary>sdl&nbsp; :eight:</summary>
-<p>SDL for PHP</p>
-
-```
-Bindings of the SDL2 (Simple DirectMedia Layer) library for PHP.
-```
-<p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/sdl-2.7.0">2.7.0</a> on 22 Jul 2022</li>
-<li>Release data in JSON: <a href="data/packages/sdl.json">sdl.json</a></li>
-<li><a href="https://pecl.php.net/packages/sdl">sdl on PECL</a></li>
-<li><a href="https://github.com/Ponup/phpsdl/blob/master/README.md">:book: Documentation</a> &nbsp; <a href="https://github.com/ponup/phpsdl">:house: Home</a> &nbsp; <a href="https://github.com/ponup/phpsdl">:sparkles: Source</a> &nbsp; <a href="https://github.com/ponup/phpsdl/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=945&rid=&cid=46">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>sdl_ttf</summary>
-<p>SDL_ttf bindings for the PHP language</p>
-
-```
-SDL_ttf bindings for the PHP language
-```
-<p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/sdl_ttf-0.3.0">0.3.0</a> on 02 Aug 2022</li>
-<li>Release data in JSON: <a href="data/packages/sdl_ttf.json">sdl_ttf.json</a></li>
-<li><a href="https://pecl.php.net/packages/sdl_ttf">sdl_ttf on PECL</a></li>
-<li><a href="https://github.com/Ponup/php-sdl-ttf">:house: Home</a> &nbsp; <a href="https://github.com/Ponup/php-sdl-ttf">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1071&rid=&cid=46">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-
-***
-### Networking (11)
+### Networking (10)
 
 <details><summary>amqp&nbsp; :eight:</summary>
 <p>Communicate with any AMQP compliant server</p>
@@ -1247,24 +1174,6 @@ A wrapper around Universally Unique IDentifier library (libuuid).
 <li><a href="https://github.com/php/pecl-networking-uuid">:sparkles: Source</a> &nbsp; <a href="https://github.com/php/pecl-networking-uuid/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=216&rid=&cid=16">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
-<details><summary>yaz&nbsp; :eight:</summary>
-<p>Z39.50/SRU client</p>
-
-```
-This extension implements a Z39.50/SRU client for PHP using the YAZ toolkit and the ZOOM framework.
-
-Find more information at:
-  http://www.indexdata.com/phpyaz
-  http://www.indexdata.com/yaz
-```
-<p><ul>
-<li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/yaz-1.2.4">1.2.4</a> on 22 Aug 2022</li>
-<li>Release data in JSON: <a href="data/packages/yaz.json">yaz.json</a></li>
-<li><a href="https://pecl.php.net/packages/yaz">yaz on PECL</a></li>
-<li><a href="http://www.indexdata.com/phpyaz">:house: Home</a> &nbsp; <a href="https://github.com/indexdata/phpyaz">:sparkles: Source</a> &nbsp; <a href="https://github.com/indexdata/phpyaz/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=322&rid=&cid=16">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
 
 ***
 ### Numbers (1)
@@ -1287,7 +1196,7 @@ This provides a similar API (object-based) to java.util.BitSet with some PHP-spe
 </details>
 
 ***
-### PHP (10)
+### PHP (7)
 
 <details><summary>ast&nbsp; :eight:</summary>
 <p>Extension exposing PHP 7 abstract syntax tree</p>
@@ -1364,36 +1273,6 @@ A self contained php-code-coverage compatible driver for PHP.
 <li><a href="https://github.com/krakjoe/pcov">:house: Home</a> &nbsp; <a href="https://github.com/krakjoe/pcov">:sparkles: Source</a> &nbsp; <a href="https://github.com/krakjoe/pcov/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1031&rid=&cid=25">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
-<details><summary>runkit7&nbsp; :eight:</summary>
-<p>Runkit7 : For all those things you.... probably shouldn't have been doing anyway.... but surely do!</p>
-
-```
-Replace, rename, and remove user defined functions, methods, and constants.
-Define customized superglobal variables for general purpose use.
-```
-<p><ul>
-<li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/runkit7-4.0.0a6">4.0.0a6</a> on 14 Aug 2022</li>
-<li>Release data in JSON: <a href="data/packages/runkit7.json">runkit7.json</a></li>
-<li><a href="https://pecl.php.net/packages/runkit7">runkit7 on PECL</a></li>
-<li><a href="https://github.com/runkit7/runkit7">:book: Documentation</a> &nbsp; <a href="https://github.com/runkit7/runkit7">:house: Home</a> &nbsp; <a href="https://github.com/runkit7/runkit7">:sparkles: Source</a> &nbsp; <a href="https://github.com/runkit7/runkit7/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1036&rid=&cid=25">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>skywalking</summary>
-<p>The PHP instrument agent for Apache SkyWalking.</p>
-
-```
-The package is the PHP instrumentation agent, which is compatible with Apache SkyWalking
-backend and others compatible agents/SDKs.
-```
-<p><ul>
-<li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/skywalking-5.0.1">5.0.1</a> on 30 Jun 2022</li>
-<li>Release data in JSON: <a href="data/packages/skywalking.json">skywalking.json</a></li>
-<li><a href="https://pecl.php.net/packages/skywalking">skywalking on PECL</a></li>
-<li><a href="http://skywalking.apache.org/">:house: Home</a> &nbsp; <a href="https://github.com/SkyAPM/SkyAPM-php-sdk.git">:sparkles: Source</a> &nbsp; <a href="https://github.com/SkyAPM/SkyAPM-php-sdk/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1044&rid=&cid=25">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
 <details><summary>var_representation&nbsp; :eight:</summary>
 <p>A compact, more readable alternative to var_export.</p>
 
@@ -1407,21 +1286,6 @@ characters
 <li>Release data in JSON: <a href="data/packages/var_representation.json">var_representation.json</a></li>
 <li><a href="https://pecl.php.net/packages/var_representation">var_representation on PECL</a></li>
 <li><a href="https://github.com/TysonAndre/var_representation">:house: Home</a> &nbsp; <a href="https://github.com/TysonAndre/var_representation">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1061&rid=&cid=25">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>vld&nbsp; :eight:</summary>
-<p>Provides functionality to dump the internal representation of PHP scripts</p>
-
-```
-The Vulcan Logic Disassembler hooks into the Zend Engine and
-dumps all the opcodes (execution units) of a script.
-```
-<p><ul>
-<li>License: BSD-2-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/vld-0.18.0">0.18.0</a> on 16 Sep 2022</li>
-<li>Release data in JSON: <a href="data/packages/vld.json">vld.json</a></li>
-<li><a href="https://pecl.php.net/packages/vld">vld on PECL</a></li>
-<li><a href="http://derickrethans.nl/vld.php">:house: Home</a> &nbsp; <a href="https://github.com/derickr/vld">:sparkles: Source</a> &nbsp; <a href="https://github.com/derickr/vld/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=253&rid=&cid=25">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>xdebug&nbsp; :eight:</summary>
@@ -1543,7 +1407,7 @@ This extension provides a set of interfaces to communicate between
 </details>
 
 ***
-### Structures (3)
+### Structures (1)
 
 <details><summary>ds&nbsp; :eight:</summary>
 <p>Data Structures</p>
@@ -1557,38 +1421,6 @@ Specialized data structures as efficient alternatives to the PHP array
 <li>Release data in JSON: <a href="data/packages/ds.json">ds.json</a></li>
 <li><a href="https://pecl.php.net/packages/ds">ds on PECL</a></li>
 <li><a href="https://www.php.net/ds">:book: Documentation</a> &nbsp; <a href="https://github.com/php-ds/ext-ds">:house: Home</a> &nbsp; <a href="http://github.com/php-ds/ext-ds">:sparkles: Source</a> &nbsp; <a href="https://github.com/php-ds/ext-ds/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=996&rid=&cid=27">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>quickhash</summary>
-<p>Provides a set of specific strongly-typed classes for sets and hashing</p>
-
-```
-This extension contains four classes for managing: an integer set, an integer
-hash, integer to string hash and a string to integer hash. The main features
-are low memory consumption and fast serialization and deserialization of
-the sets and hashes.
-```
-<p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/quickhash-1.1.1">1.1.1</a> on 19 Jul 2022</li>
-<li>Release data in JSON: <a href="data/packages/quickhash.json">quickhash.json</a></li>
-<li><a href="https://pecl.php.net/packages/quickhash">quickhash on PECL</a></li>
-<li><a href="https://github.com/derickr/quickhash">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=909&rid=&cid=27">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>teds&nbsp; :eight:</summary>
-<p>Provides extra data structures and iterable/array functionality.</p>
-
-```
-teds (Tentative Extra Data Structures) is a collection of data structures and iterable
-functionality
-```
-<p><ul>
-<li>License: BSD-3-Clause</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/teds-1.3.0">1.3.0</a> on 10 Nov 2022</li>
-<li>Release data in JSON: <a href="data/packages/teds.json">teds.json</a></li>
-<li><a href="https://pecl.php.net/packages/teds">teds on PECL</a></li>
-<li><a href="https://github.com/TysonAndre/pecl-teds">:house: Home</a> &nbsp; <a href="https://github.com/TysonAndre/pecl-teds">:sparkles: Source</a> &nbsp; <a href="https://github.com/TysonAndre/pecl-teds/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1064&rid=&cid=27">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 
@@ -1749,7 +1581,7 @@ This extension allows you to check the spelling of a word and offer suggestions.
 </details>
 
 ***
-### Tools and Utilities (11)
+### Tools and Utilities (9)
 
 <details><summary>awscrt</summary>
 <p>AWS Common Runtime PHP bindings</p>
@@ -1765,20 +1597,6 @@ services.
 <li>Release data in JSON: <a href="data/packages/awscrt.json">awscrt.json</a></li>
 <li><a href="https://pecl.php.net/packages/awscrt">awscrt on PECL</a></li>
 <li><a href="https://aws.amazon.com/sdk-for-php/">:house: Home</a> &nbsp; <a href="https://github.com/awslabs/aws-crt-php">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1060&rid=&cid=29">:bar_chart: Stats</a></li>
-</ul></p><hr />
-</details>
-<details><summary>bsdiff</summary>
-<p>The bsdiff extension for PHP</p>
-
-```
-A PHP extension to build and apply patches to binary files.
-```
-<p><ul>
-<li>License: PHP-3.01</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/bsdiff-0.1.2">0.1.2</a> on 12 Oct 2022</li>
-<li>Release data in JSON: <a href="data/packages/bsdiff.json">bsdiff.json</a></li>
-<li><a href="https://pecl.php.net/packages/bsdiff">bsdiff on PECL</a></li>
-<li><a href="https://github.com/deminy/php-bsdiff">:house: Home</a> &nbsp; <a href="https://github.com/deminy/php-bsdiff">:sparkles: Source</a> &nbsp; <a href="https://github.com/deminy/php-bsdiff/issues">:lady_beetle: Issues</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1074&rid=&cid=29">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>fann&nbsp; :eight:</summary>
@@ -1850,21 +1668,6 @@ https://developers.google.com/protocol-buffers/
 <li>Release data in JSON: <a href="data/packages/protobuf.json">protobuf.json</a></li>
 <li><a href="https://pecl.php.net/packages/protobuf">protobuf on PECL</a></li>
 <li></li>
-</ul></p><hr />
-</details>
-<details><summary>simdjson&nbsp; :eight:</summary>
-<p>Provides faster json decoding through simdjson bindings for PHP</p>
-
-```
-Provides faster json decoding through simdjson bindings for PHP (Single Instruction,
-Multiple Data)
-```
-<p><ul>
-<li>License: Apache-2.0</li>
-<li>Latest Release: <a href="https://pecl.php.net/get/simdjson-4.0.0">4.0.0</a> on 19 Oct 2022</li>
-<li>Release data in JSON: <a href="data/packages/simdjson.json">simdjson.json</a></li>
-<li><a href="https://pecl.php.net/packages/simdjson">simdjson on PECL</a></li>
-<li><a href="https://github.com/crazyxman/simdjson_php">:house: Home</a> &nbsp; <a href="https://github.com/crazyxman/simdjson_php">:sparkles: Source</a> &nbsp; <a href="https://pecl.php.net/package-stats.php?pid=1072&rid=&cid=29">:bar_chart: Stats</a></li>
 </ul></p><hr />
 </details>
 <details><summary>skywalking_agent&nbsp; :eight:</summary>
