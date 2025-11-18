@@ -2,12 +2,26 @@
     "category": "Event",
     "deprecated": false,
     "description": "ev provides interface to libev library - high performance\n  full-featured event loop written in C.",
-    "latestReleaseDate": "2024-09-03T13:54:27+00:00",
-    "latestVersion": "1.2.0",
+    "latestReleaseDate": "2025-11-04T10:57:01+00:00",
+    "latestVersion": "1.2.2",
     "license": "PHP",
     "name": "ev",
     "php8Mentioned": true,
     "releases": {
+        "1.2.2": {
+            "version": "1.2.2",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "osmanov",
+            "releaseDate": "2025-11-04T10:57:01+00:00",
+            "releaseNotes": "Fix #53: php_stream_cast() without the PHP_STREAM_CAST_INTERNAL caused warnings",
+            "get": "https://pecl.php.net/get/ev-1.2.2",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "1.2.1": {
+            "version": "1.2.1",
+            "state": "stable"
+        },
         "1.2.0": {
             "version": "1.2.0",
             "state": "stable",

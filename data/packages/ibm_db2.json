@@ -2,12 +2,26 @@
     "category": "Database",
     "deprecated": false,
     "description": "ibm_db2 provides access to DB2 and compatible databases on PHP.\n  It uses a procedural interface. (PDO users should use PDO_IBM instead.)\n  \n  The following software is supported without any additional licenses:\n  - IBM Db2 (Linux/Unix/Windows)\n  - IBM Db2 for i (running on IBM i)\n  - Apache Derby\n  \n  The following software may require additional licenses on the database:\n  - IBM Db2 Connect for i (for using Db2 for i from LUW)\n  - IBM Db2 Connect for z (for using Db2 for z from LUW)\n  \n  Note that for IBM i, IBM and Seiden Group recommend new applications use ODBC instead.",
-    "latestReleaseDate": "2024-11-01T15:47:33+00:00",
-    "latestVersion": "2.2.2",
+    "latestReleaseDate": "2025-10-31T17:42:11+00:00",
+    "latestVersion": "2.3.1",
     "license": "Apache License 2.0",
     "name": "ibm_db2",
     "php8Mentioned": true,
     "releases": {
+        "2.3.1": {
+            "version": "2.3.1",
+            "state": "stable",
+            "license": "Apache License 2.0",
+            "releasedBy": "theprez",
+            "releaseDate": "2025-10-31T17:42:11+00:00",
+            "releaseNotes": "- Try to use out_length for bound character columns when smaller than strlen.\n  This is to work around an issue on IBM i where SQL/CLI returns garbage after out_length.\n  Note that strlen is still used to keep existing behaviour with nulls in strings;\n  binary bound columns are also not affected.",
+            "get": "https://pecl.php.net/get/ibm_db2-2.3.1",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "2.3.0": {
+            "version": "2.3.0",
+            "state": "stable"
+        },
         "2.2.2": {
             "version": "2.2.2",
             "state": "stable",

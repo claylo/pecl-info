@@ -1,4 +1,24 @@
 {
+    "6.1.2": {
+        "version": "6.1.2",
+        "state": "stable"
+    },
+    "6.1.1": {
+        "version": "6.1.1",
+        "state": "stable"
+    },
+    "6.1.0": {
+        "version": "6.1.0",
+        "state": "stable"
+    },
+    "6.1.0RC2": {
+        "version": "6.1.0RC2",
+        "state": "beta"
+    },
+    "6.1.0RC1": {
+        "version": "6.1.0RC1",
+        "state": "alpha"
+    },
     "6.0.2": {
         "version": "6.0.2",
         "state": "stable"
@@ -14,6 +34,10 @@
     "6.0.0RC1": {
         "version": "6.0.0RC1",
         "state": "alpha"
+    },
+    "5.1.8": {
+        "version": "5.1.8",
+        "state": "stable"
     },
     "5.1.7": {
         "version": "5.1.7",

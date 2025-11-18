@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/redis">redis</p>
+ <c>pecl.php.net</c>
+ <v>6.3.0</v>
+ <st>stable</st>
+ <l>PHP</l>
+ <m>mgrunder</m>
+ <s>PHP extension for interfacing with key-value stores</s>
+ <d>This extension provides an API for communicating with RESP-based key-value
+   stores, such as Redis, Valkey, and KeyDB.</d>
+ <da>2025-11-06 20:05:53</da>
+ <n>--- Sponsors ---
+
+A-VISION Advertising - https://github.com/A-VISION-BV
+Avtandil Kikabidze - https://github.com/akalongman
+Geoffrey Hoffman - https://github.com/phpguru
+Object Cache Pro for WordPress - https://objectcache.pro/
+Open LMS - https://openlms.net/
+Relay - https://relay.so
+Salvatore Sanfilippo - https://github.com/antirez
+Ty Karok - https://github.com/karock
+
+--- 6.3.0 ---
+
+This release introduces support for dozens of new commands, including hash
+field expiration, Valkey?s DELIFEQ, and Redis vector set commands. It also
+includes many bug fixes and performance improvements.
+
+Fixed:
+
+* Cloning our objects should not segfault [770034cc] (michael-grunder)
+* Fix return type for `RedisCluster` `vgetattr` and `vsetattr`
+  [834d2b37] (michael-grunder)</n>
+ <f>399284</f>
+ <g>https://pecl.php.net/get/redis-6.3.0</g>
+ <x xlink:href="package.6.3.0.xml"/>
+</r>

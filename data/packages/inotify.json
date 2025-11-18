@@ -2,12 +2,22 @@
     "category": "File System",
     "deprecated": false,
     "description": "Inotify bindings for PHP",
-    "latestReleaseDate": "2020-12-18T11:11:52+00:00",
-    "latestVersion": "3.0.0",
+    "latestReleaseDate": "2025-10-28T09:20:30+00:00",
+    "latestVersion": "3.0.1",
     "license": "PHP License",
     "name": "inotify",
     "php8Mentioned": true,
     "releases": {
+        "3.0.1": {
+            "version": "3.0.1",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "lbarnaud",
+            "releaseDate": "2025-10-28T09:20:30+00:00",
+            "releaseNotes": "* Add support for IN_EXCL_UNLINK flag (#9, @realFlowControl)\n* Add support for PIE\n\nThis is the last release on PECL: Please use PIE instead.",
+            "get": "https://pecl.php.net/get/inotify-3.0.1",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
         "3.0.0": {
             "version": "3.0.0",
             "state": "stable",

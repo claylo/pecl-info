@@ -2,12 +2,26 @@
     "category": "Database",
     "deprecated": false,
     "description": "This extension provides an API for communicating with RESP-based key-value\n   stores, such as Redis, Valkey, and KeyDB.",
-    "latestReleaseDate": "2025-03-24T19:05:36+00:00",
-    "latestVersion": "6.2.0",
+    "latestReleaseDate": "2025-11-06T20:05:53+00:00",
+    "latestVersion": "6.3.0",
     "license": "PHP",
     "name": "redis",
     "php8Mentioned": true,
     "releases": {
+        "6.3.0": {
+            "version": "6.3.0",
+            "state": "stable",
+            "license": "PHP",
+            "releasedBy": "mgrunder",
+            "releaseDate": "2025-11-06T20:05:53+00:00",
+            "releaseNotes": "--- Sponsors ---\n\nA-VISION Advertising - https://github.com/A-VISION-BV\nAvtandil Kikabidze - https://github.com/akalongman\nGeoffrey Hoffman - https://github.com/phpguru\nObject Cache Pro for WordPress - https://objectcache.pro/\nOpen LMS - https://openlms.net/\nRelay - https://relay.so\nSalvatore Sanfilippo - https://github.com/antirez\nTy Karok - https://github.com/karock\n\n--- 6.3.0 ---\n\nThis release introduces support for dozens of new commands, including hash\nfield expiration, Valkey?s DELIFEQ, and Redis vector set commands. It also\nincludes many bug fixes and performance improvements.\n\nFixed:\n\n* Cloning our objects should not segfault [770034cc] (michael-grunder)\n* Fix return type for `RedisCluster` `vgetattr` and `vsetattr`\n  [834d2b37] (michael-grunder)",
+            "get": "https://pecl.php.net/get/redis-6.3.0",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
+        "6.3.0RC1": {
+            "version": "6.3.0RC1",
+            "state": "beta"
+        },
         "6.2.0": {
             "version": "6.2.0",
             "state": "stable",

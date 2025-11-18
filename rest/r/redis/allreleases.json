@@ -1,4 +1,12 @@
 {
+    "6.3.0": {
+        "version": "6.3.0",
+        "state": "stable"
+    },
+    "6.3.0RC1": {
+        "version": "6.3.0RC1",
+        "state": "beta"
+    },
     "6.2.0": {
         "version": "6.2.0",
         "state": "stable"

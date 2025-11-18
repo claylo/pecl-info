@@ -1,4 +1,36 @@
 {
+    "4.33.1": {
+        "version": "4.33.1",
+        "state": "stable"
+    },
+    "4.33.0": {
+        "version": "4.33.0",
+        "state": "stable"
+    },
+    "4.33.0RC2": {
+        "version": "4.33.0RC2",
+        "state": "beta"
+    },
+    "4.33.0RC1": {
+        "version": "4.33.0RC1",
+        "state": "beta"
+    },
+    "4.32.1": {
+        "version": "4.32.1",
+        "state": "stable"
+    },
+    "4.32.0": {
+        "version": "4.32.0",
+        "state": "stable"
+    },
+    "4.32.0RC2": {
+        "version": "4.32.0RC2",
+        "state": "beta"
+    },
+    "4.32.0RC1": {
+        "version": "4.32.0RC1",
+        "state": "beta"
+    },
     "4.31.1": {
         "version": "4.31.1",
         "state": "stable"

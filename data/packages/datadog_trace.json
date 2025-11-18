@@ -2,12 +2,48 @@
     "category": "Benchmarking",
     "deprecated": false,
     "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-    "latestReleaseDate": "2025-05-28T17:59:36+00:00",
-    "latestVersion": "1.10.0",
+    "latestReleaseDate": "2025-11-13T14:19:25+00:00",
+    "latestVersion": "1.14.0",
     "license": "BSD 3-Clause",
     "name": "datadog_trace",
     "php8Mentioned": true,
     "releases": {
+        "1.14.0": {
+            "version": "1.14.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "bwoebi",
+            "releaseDate": "2025-11-13T14:19:25+00:00",
+            "releaseNotes": "## All products\n- Add PHP 8.5 support #3400\n\n## Tracer\n### Added\n- Implement APM endpoint resource renaming #3415\n- Enable dynamic configuration for debugger-related products #3476\n\n### Fixed\n- Collect incompletely fetched CurlMulti handles upon destruction #3469\n- Safeguard proc_get_span in case proc_assoc_span is not happening #3471\n- Skip SSI injector in installer for accurate ini-dir readings #3472\n- Make stub file compatible with php 8.4+ parser #3475\n- Fix function resolver on PHP 8.0 and PHP 8.1 for targets without HAVE_GCC_GLOBAL_REGS and with active JIT #3482\n- Support ENOENT as shm_open failure mode DataDog/libdatadog#1315\n  - This fixes a failure mode present on some serverless runtimes.\n\n### Internal\n- Add crashtracker support for the sidecar #3453\n- Strip error messages from hook telemetry #3449\n- Collect runtime crash frames #3479\n- Use a dedicated endpoint for enriched logs DataDog/libdatadog#1338\n\n## Profiling\n### Internal\n- Cleanup I/O profiling code #3406\n- Upgrade to libdatadog v23, profiling uses zstd now #3470\n- Switch panics to abort #3474\n\n## Application Security Management\n### Added\n- Print block_id #3444\n\n### Changed\n- Upgrade libddwaf and rules #3438\n- Adapt security_response_id to latest #3480",
+            "get": "https://pecl.php.net/get/datadog_trace-1.14.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "1.13.1": {
+            "version": "1.13.1",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "estringanadd",
+            "releaseDate": "2025-10-30T13:55:41+00:00",
+            "releaseNotes": "## Tracer\n### Fixed\n- Fix closed resource handling in live debugger #3437\n- Ensure local variables in exception replay are redacted #3440\n- Reset ddtrace_endpoint properly #3451\n- Use a local limiter if shared memory fails to allocate #3454\n- Do not skip error handling for timeouts happening during hook execution #3459\n- Defer Theme\\Registry::getRuntime() call until posthook #3465\n- Ensure there's no trailing semicolon with only tid as propagated tag #3466\n\n## Profiling\n### Fixed\n- Reset interrupt count when removing interrupt #3455\n\n## Application Security Management\n### Fixed\n- Ensure json dependency is loaded at runtime #3462\n- Fix several bugs and potential bugs in appsec #3463\n- When helper is unavailable, avoid very long waits (> 7s) #3464",
+            "get": "https://pecl.php.net/get/datadog_trace-1.13.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "1.13.0": {
+            "version": "1.13.0",
+            "state": "stable"
+        },
+        "1.12.1": {
+            "version": "1.12.1",
+            "state": "stable"
+        },
+        "1.12.0": {
+            "version": "1.12.0",
+            "state": "stable"
+        },
+        "1.11.0": {
+            "version": "1.11.0",
+            "state": "stable"
+        },
         "1.10.0": {
             "version": "1.10.0",
             "state": "stable",
