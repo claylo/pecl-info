@@ -41,7 +41,7 @@ jobs:
           git config --global tag.forceSignAnnotated true
 
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
 
