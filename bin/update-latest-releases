@@ -24,14 +24,14 @@ function fetch_xml($url)
     // // If they forgot Content-Encoding and cURL didn’t auto-decode, sniff + decode:
     // $body = maybe_decompress($body);
     // $body = file_get_contents($url);
-    exec('curl -sL --http1.1 --compressed ' . escapeshellarg($url), $output, $returnVar);
+    exec('curl -sL --http1.1 --max-time 10 --retry-max-time 60 --retry 3 --compressed ' . escapeshellarg($url), $output, $returnVar);
     if ($returnVar !== 0) {
         throw new RuntimeException('HTTP error: curl exited with code ' . $returnVar);
     }
     $body = implode("\n", $output);
-    echo "::debug::latest.rss is " . strlen($body) . " characters\n";
-    echo "::debug::latest.rss content:\n";
-    echo $body . "\n";
+    // echo "::debug::latest.rss is " . strlen($body) . " characters\n";
+    // echo "::debug::latest.rss content:\n";
+    // echo $body . "\n";
 
     // Parse
     // libxml_use_internal_errors(true);

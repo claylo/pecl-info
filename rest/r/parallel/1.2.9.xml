@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/parallel">parallel</p>
+ <c>pecl.php.net</c>
+ <v>1.2.9</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>flowcontrol</m>
+ <s>Parallel concurrency API</s>
+ <d>A succinct parallel concurrency API for PHP 7 and 8.</d>
+ <da>2025-12-22 11:58:36</da>
+ <n>- Add PHP 8.5 to CI #349
+- Add a reference to argc and argv to child threads #351
+- Add function to expose parallel worker threads #352
+- Refactor: Replace deprecated Zend types with standard C99 types #353
+- Handle calling functions from global scope #355
+- Convert ZEND_INIT_FCALL to ZEND_INIT_FCALL_BY_NAME #356
+- Add clang formatting rules #361
+- Switch Windows CI to `php-windows-builder` #362</n>
+ <f>67387</f>
+ <g>https://pecl.php.net/get/parallel-1.2.9</g>
+ <x xlink:href="package.1.2.9.xml"/>
+</r>

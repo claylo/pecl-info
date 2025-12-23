@@ -2,12 +2,22 @@
     "category": "PHP",
     "deprecated": false,
     "description": "A succinct parallel concurrency API for PHP 7 and 8.",
-    "latestReleaseDate": "2025-07-24T10:21:15+00:00",
-    "latestVersion": "1.2.8",
+    "latestReleaseDate": "2025-12-22T11:58:36+00:00",
+    "latestVersion": "1.2.9",
     "license": "PHP License",
     "name": "parallel",
     "php8Mentioned": true,
     "releases": {
+        "1.2.9": {
+            "version": "1.2.9",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "flowcontrol",
+            "releaseDate": "2025-12-22T11:58:36+00:00",
+            "releaseNotes": "- Add PHP 8.5 to CI #349\n- Add a reference to argc and argv to child threads #351\n- Add function to expose parallel worker threads #352\n- Refactor: Replace deprecated Zend types with standard C99 types #353\n- Handle calling functions from global scope #355\n- Convert ZEND_INIT_FCALL to ZEND_INIT_FCALL_BY_NAME #356\n- Add clang formatting rules #361\n- Switch Windows CI to `php-windows-builder` #362",
+            "get": "https://pecl.php.net/get/parallel-1.2.9",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
         "1.2.8": {
             "version": "1.2.8",
             "state": "stable",

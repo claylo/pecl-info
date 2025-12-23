@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/datadog_trace">datadog_trace</p>
+ <c>pecl.php.net</c>
+ <v>1.15.0</v>
+ <st>stable</st>
+ <l>BSD 3-Clause</l>
+ <m>flowcontrol</m>
+ <s>APM and distributed tracing for PHP</s>
+ <d>The Datadog PHP Tracer brings APM and distributed tracing to PHP.</d>
+ <da>2025-12-16 11:46:29</da>
+ <n>## All products
+### Internal
+- bump tracing-core from 0.1.33 to 0.1.35 #3516
+
+## Tracer
+### Internal
+- Const-ify some logging thread-local variables #3513
+### Fixed
+- Avoid curl&#039;s `getenv` calls #3528
+- `code_origin_for_spans_enabled` naming inconsistency #3494
+- Add `NULL` guard clause in sidecar reconnect callback #3499
+
+## Profiler
+### Added
+- Detect parallel threads #3515
+### Changed
+- Speedup hot path in allocator #3505
+### Fixed
+- Fixed asserting length of INI #3508
+
+## AppSec
+### Added
+- Minify blocking json message #3502
+- Add Custom Data Classification #3524
+- Add metrics for extension connections #3527
+### Fixed
+- Amend string on request abort #3506
+- Fix accessing to incorrectly hardcoded `$_GET` #3501
+- Amend issue where `security_response_id` is being release before displaying it #3493
+- AppSec helper: add send timeouts #3518
+- Minor fixes and improvements to file descriptor reclamation #3526
+- LaravelIntegration: be more defensive #3503
+- Fix `duration_ext` metric #3507
+- Fix segfault iterating mapping #3517
+- Fix double end hook run/segfault when blocking in PHP 7.x #3490
+- Fix `_iovec_writer_flush` and enforce limits on `$_POST` #3495
+- Clear `client_ip` on `request_init` #3496</n>
+ <f>1542434</f>
+ <g>https://pecl.php.net/get/datadog_trace-1.15.0</g>
+ <x xlink:href="package.1.15.0.xml"/>
+</r>

@@ -2,12 +2,46 @@
     "category": "Benchmarking",
     "deprecated": false,
     "description": "The Datadog PHP Tracer brings APM and distributed tracing to PHP.",
-    "latestReleaseDate": "2025-11-13T14:19:25+00:00",
-    "latestVersion": "1.14.0",
+    "latestReleaseDate": "2025-12-22T15:56:47+00:00",
+    "latestVersion": "1.15.2",
     "license": "BSD 3-Clause",
     "name": "datadog_trace",
     "php8Mentioned": true,
     "releases": {
+        "1.15.2": {
+            "version": "1.15.2",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "flowcontrol",
+            "releaseDate": "2025-12-22T15:56:47+00:00",
+            "releaseNotes": "## Profiler\n### Fixed\n- Revert unsafe optimization (#3541)",
+            "get": "https://pecl.php.net/get/datadog_trace-1.15.2",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "1.15.1": {
+            "version": "1.15.1",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "flowcontrol",
+            "releaseDate": "2025-12-19T11:02:09+00:00",
+            "releaseNotes": "## Tracer\n### Fixed\n- Fix panic after bailout in previous request #3537",
+            "get": "https://pecl.php.net/get/datadog_trace-1.15.1",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "1.15.0": {
+            "version": "1.15.0",
+            "state": "stable",
+            "license": "BSD 3-Clause",
+            "releasedBy": "flowcontrol",
+            "releaseDate": "2025-12-16T11:46:29+00:00",
+            "releaseNotes": "## All products\n### Internal\n- bump tracing-core from 0.1.33 to 0.1.35 #3516\n\n## Tracer\n### Internal\n- Const-ify some logging thread-local variables #3513\n### Fixed\n- Avoid curl's `getenv` calls #3528\n- `code_origin_for_spans_enabled` naming inconsistency #3494\n- Add `NULL` guard clause in sidecar reconnect callback #3499\n\n## Profiler\n### Added\n- Detect parallel threads #3515\n### Changed\n- Speedup hot path in allocator #3505\n### Fixed\n- Fixed asserting length of INI #3508\n\n## AppSec\n### Added\n- Minify blocking json message #3502\n- Add Custom Data Classification #3524\n- Add metrics for extension connections #3527\n### Fixed\n- Amend string on request abort #3506\n- Fix accessing to incorrectly hardcoded `$_GET` #3501\n- Amend issue where `security_response_id` is being release before displaying it #3493\n- AppSec helper: add send timeouts #3518\n- Minor fixes and improvements to file descriptor reclamation #3526\n- LaravelIntegration: be more defensive #3503\n- Fix `duration_ext` metric #3507\n- Fix segfault iterating mapping #3517\n- Fix double end hook run/segfault when blocking in PHP 7.x #3490\n- Fix `_iovec_writer_flush` and enforce limits on `$_POST` #3495\n- Clear `client_ip` on `request_init` #3496",
+            "get": "https://pecl.php.net/get/datadog_trace-1.15.0",
+            "SPDX-License-Identifier": "BSD-3-Clause"
+        },
+        "1.14.1": {
+            "version": "1.14.1",
+            "state": "stable"
+        },
         "1.14.0": {
             "version": "1.14.0",
             "state": "stable",

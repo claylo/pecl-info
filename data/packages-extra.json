@@ -53,12 +53,12 @@
     },
     "apcu": {
         "bugs": "https://github.com/krakjoe/apcu/issues",
-        "docs": "http://php.net/apcu",
+        "docs": "https://php.net/apcu",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/krakjoe/apcu",
         "stats": "https://pecl.php.net/package-stats.php?pid=944&rid=&cid=3",
-        "verified": false
+        "verified": true
     },
     "apcu_bc": {
         "bugs": "https://github.com/krakjoe/apcu-bc/issues",
@@ -1751,12 +1751,12 @@
     },
     "oci8": {
         "bugs": "https://github.com/php/pecl-database-oci8/issues",
-        "docs": "https://php.net/oci8",
+        "docs": "http://www.php.net/oci8",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/php/pecl-database-oci8",
         "stats": "https://pecl.php.net/package-stats.php?pid=277&rid=&cid=7",
-        "verified": true
+        "verified": false
     },
     "odbtp": {
         "bugs": "",
@@ -3435,12 +3435,12 @@
     },
     "xmldiff": {
         "bugs": "https://github.com/php/pecl-xml-xmldiff/issues",
-        "docs": "https://php.net/manual/en/book.xmldiff.php",
+        "docs": "http://www.php.net/manual/en/book.xmldiff.php",
         "home": "",
         "maintained": true,
         "repo": "https://github.com/php/pecl-xml-xmldiff",
         "stats": "https://pecl.php.net/package-stats.php?pid=953&rid=&cid=22",
-        "verified": true
+        "verified": false
     },
     "xmlreader": {
         "bugs": "http://bugs.php.net/",
