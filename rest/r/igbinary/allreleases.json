@@ -1,4 +1,8 @@
 {
+    "3.2.17RC1": {
+        "version": "3.2.17RC1",
+        "state": "stable"
+    },
     "3.2.16": {
         "version": "3.2.16",
         "state": "stable"

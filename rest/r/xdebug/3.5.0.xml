@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xdebug">xdebug</p>
+ <c>pecl.php.net</c>
+ <v>3.5.0</v>
+ <st>stable</st>
+ <l>Xdebug-1.03</l>
+ <m>derick</m>
+ <s>Xdebug is a debugging and productivity extension for PHP</s>
+ <d>Xdebug and provides a range of features to improve the PHP development
+experience.
+
+Step Debugging
+    A way to step through your code in your IDE or editor while the script is
+    executing.
+
+Improvements to PHP&#039;s error reporting
+    An improved var_dump() function, stack traces for Notices, Warnings, Errors
+    and Exceptions to highlight the code path to the error
+
+Tracing
+    Writes every function call, with arguments and invocation location to disk.
+    Optionally also includes every variable assignment and return value for
+    each function.
+
+Profiling
+    Allows you, with the help of visualisation tools, to analyse the
+    performance of your PHP application and find bottlenecks.
+
+Code Coverage Analysis
+    To show which parts of your code base are executed when running unit tests
+    with PHP Unit.</d>
+ <da>2025-12-08 17:54:02</da>
+ <n>Thu, Dec 04, 2025 - Xdebug 3.5.0
+
++ New features:
+
+  - Fixed issue #2338: Add experimental support for Windows Named Pipes control socket
+  - Fixed issue #2369: Implement &quot;Native Xdebug Path Mapping&quot; project
+  - Fixed issue #2370: PHP 8.5 support
+
++ Improvements:
+
+  - Fixed issue #2213: Expose __EXCEPTION virtual variable for current EG(exception)
+  - Fixed issue #2363: Add better debugging support for PHP 8.5&#039;s pipes
+  - Fixed issue #2345: DBGP&#039;s detach does not support base64 encoded strings
+
+= Fixed bugs:
+
+  - Fixed issue #2335: Failed dbgp connection is not marked as not active
+  - Fixed issue #2336: Optimise xdebug_init_oparray
+  - Fixed issue #2337: Modify xdebug_add_stack_frame to always work on the passed execute_data
+  - Fixed issue #2367: Debugger should not break on return out of include files when return value debugger is enabled
+  - Fixed issue #2372: Build failed on MSVC
+  - Fixed issue #2374: Breakpoints in mapped paths don&#039;t trigger as they&#039;re mapped back before matching
+  - Fixed issue #2386: Crashes when running context_get in an exception thrown from an internal function</n>
+ <f>282535</f>
+ <g>https://pecl.php.net/get/xdebug-3.5.0</g>
+ <x xlink:href="package.3.5.0.xml"/>
+</r>

@@ -2,12 +2,22 @@
     "category": "PHP",
     "deprecated": false,
     "description": "Xdebug and provides a range of features to improve the PHP development\nexperience.\n\nStep Debugging\n    A way to step through your code in your IDE or editor while the script is\n    executing.\n\nImprovements to PHP's error reporting\n    An improved var_dump() function, stack traces for Notices, Warnings, Errors\n    and Exceptions to highlight the code path to the error\n\nTracing\n    Writes every function call, with arguments and invocation location to disk.\n    Optionally also includes every variable assignment and return value for\n    each function.\n\nProfiling\n    Allows you, with the help of visualisation tools, to analyse the\n    performance of your PHP application and find bottlenecks.\n\nCode Coverage Analysis\n    To show which parts of your code base are executed when running unit tests\n    with PHP Unit.",
-    "latestReleaseDate": "2025-10-26T14:13:25+00:00",
-    "latestVersion": "3.4.7",
+    "latestReleaseDate": "2025-12-08T17:54:02+00:00",
+    "latestVersion": "3.5.0",
     "license": "Xdebug-1.03",
     "name": "xdebug",
     "php8Mentioned": true,
     "releases": {
+        "3.5.0": {
+            "version": "3.5.0",
+            "state": "stable",
+            "license": "Xdebug-1.03",
+            "releasedBy": "derick",
+            "releaseDate": "2025-12-08T17:54:02+00:00",
+            "releaseNotes": "Thu, Dec 04, 2025 - Xdebug 3.5.0\n\n+ New features:\n\n  - Fixed issue #2338: Add experimental support for Windows Named Pipes control socket\n  - Fixed issue #2369: Implement \"Native Xdebug Path Mapping\" project\n  - Fixed issue #2370: PHP 8.5 support\n\n+ Improvements:\n\n  - Fixed issue #2213: Expose __EXCEPTION virtual variable for current EG(exception)\n  - Fixed issue #2363: Add better debugging support for PHP 8.5's pipes\n  - Fixed issue #2345: DBGP's detach does not support base64 encoded strings\n\n= Fixed bugs:\n\n  - Fixed issue #2335: Failed dbgp connection is not marked as not active\n  - Fixed issue #2336: Optimise xdebug_init_oparray\n  - Fixed issue #2337: Modify xdebug_add_stack_frame to always work on the passed execute_data\n  - Fixed issue #2367: Debugger should not break on return out of include files when return value debugger is enabled\n  - Fixed issue #2372: Build failed on MSVC\n  - Fixed issue #2374: Breakpoints in mapped paths don't trigger as they're mapped back before matching\n  - Fixed issue #2386: Crashes when running context_get in an exception thrown from an internal function",
+            "get": "https://pecl.php.net/get/xdebug-3.5.0",
+            "SPDX-License-Identifier": "Xdebug"
+        },
         "3.4.7": {
             "version": "3.4.7",
             "state": "stable",

@@ -2,12 +2,30 @@
     "category": "Event",
     "deprecated": false,
     "description": "Event-driven asynchronous and concurrent networking engine with high performance for PHP.\n        - event-driven\n        - coroutine\n        - asynchronous non-blocking\n        - multi-thread reactor\n        - multi-process worker\n        - multi-protocol\n        - millisecond timer\n        - built-in tcp/http/websocket/http2 server\n        - coroutine tcp/http/websocket client\n        - coroutine read/write file system\n        - coroutine dns lookup\n        - support IPv4/IPv6/UnixSocket/TCP/UDP\n        - support SSL/TLS encrypted transmission",
-    "latestReleaseDate": "2025-11-11T15:01:55+00:00",
-    "latestVersion": "6.1.2",
+    "latestReleaseDate": "2025-12-21T09:33:42+00:00",
+    "latestVersion": "6.1.5",
     "license": "Apache2.0",
     "name": "swoole",
     "php8Mentioned": true,
     "releases": {
+        "6.1.5": {
+            "version": "6.1.5",
+            "state": "stable",
+            "license": "Apache2.0",
+            "releasedBy": "tianfenghan",
+            "releaseDate": "2025-12-21T09:33:42+00:00",
+            "releaseNotes": "- Fixed a crash issue when users manually suspend coroutines in a multithreaded environment\n- Fixed the issue where the `System::socket_poll()` function incorrectly closed sockets after failing to add events\n- Fixed decompression failure in `WebSocket` when compressing message frames, caused by certain server environments not supporting `MAX_MEM_LEVEL=9`\n- Fixed data reception errors in `WebSocket` when receiving consecutive compressed data frames, caused by the buffer not being cleared in time\n- Fixed the `data race` issue in the `pdo_oci` coroutine client when processing non-`PDO_PARAM_LOB` data\n- In `Http Server`, when developers set the `Content-Encoding` header, `Swoole` will no longer automatically compress the response body. Instead, developers need to implement compression logic themselves and output the corresponding content.\n- Removed the `PDO::sqliteCreateAggregate()`, `PDO::sqliteCreateCollation()`, and `PDO::sqliteCreateFunction()` functions in the coroutine environment. Their implementation principle involves calling PHP functions as callbacks in the `sqlite3` engine, which is only feasible in single-threaded synchronous blocking mode. In `Swoole` coroutine mode, the `C` functions of `sqlite3` need to run in asynchronous `AIO` threads. In the `ZTS` version, this can cause null pointer reads, while in the `NTS` version, it may lead to `data race` issues and occasional crashes.\n- Removed support for the `open_basedir` setting in the `pdo_sqlite` coroutine client. It is unsafe to read `PG(open_basedir)` in a multithreaded environment. Ensure that the `sqlite3` database file path is a constant or other safe path. Do not use user input parameters as part of the `sqlite` database file path.",
+            "get": "https://pecl.php.net/get/swoole-6.1.5",
+            "SPDX-License-Identifier": "Apache-2.0"
+        },
+        "6.1.4": {
+            "version": "6.1.4",
+            "state": "stable"
+        },
+        "6.1.3": {
+            "version": "6.1.3",
+            "state": "stable"
+        },
         "6.1.2": {
             "version": "6.1.2",
             "state": "stable",

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/imagick">imagick</p>
+ <c>pecl.php.net</c>
+ <v>3.8.1</v>
+ <st>stable</st>
+ <l>PHP License</l>
+ <m>bukka</m>
+ <s>Provides a wrapper to the ImageMagick library.</s>
+ <d>Imagick is a native php extension to create and modify images using the ImageMagick API.
+This extension requires ImageMagick version 6.5.3-10+ and PHP 5.6.0+.</d>
+ <da>2025-11-26 21:39:59</da>
+ <n>- Fixes:
+  * Fixed compiling against PHP 8.5
+  * Fixed getImage(s)Blob return type</n>
+ <f>364008</f>
+ <g>https://pecl.php.net/get/imagick-3.8.1</g>
+ <x xlink:href="package.3.8.1.xml"/>
+</r>

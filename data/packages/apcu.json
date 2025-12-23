@@ -2,12 +2,22 @@
     "category": "Caching",
     "deprecated": false,
     "description": "APC User Caching",
-    "latestReleaseDate": "2025-08-28T19:20:40+00:00",
-    "latestVersion": "5.1.27",
+    "latestReleaseDate": "2025-12-07T08:01:05+00:00",
+    "latestVersion": "5.1.28",
     "license": "PHP License",
     "name": "APCu",
     "php8Mentioned": true,
     "releases": {
+        "5.1.28": {
+            "version": "5.1.28",
+            "state": "stable",
+            "license": "PHP License",
+            "releasedBy": "nikic",
+            "releaseDate": "2025-12-07T08:01:05+00:00",
+            "releaseNotes": "- Defragmentation now reclaims unused space from moved entries, resulting in better compaction.\n- Shared memory for new entries is allocated faster in scenarios with many free memory blocks.\n  This should improve APCu's insertion performance when entries are frequently deleted or\n  replaced, or when APCu is used with larger amounts of memory.\n- Trying to insert entries larger than the shared memory no longer results in cache wipes.\n- Fix build against PHP 8.6.\n- Fix apc.php compatibility with older apcu versions.",
+            "get": "https://pecl.php.net/get/apcu-5.1.28",
+            "SPDX-License-Identifier": "PHP-3.01"
+        },
         "5.1.27": {
             "version": "5.1.27",
             "state": "stable",

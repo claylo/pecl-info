@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/xmldiff">xmldiff</p>
+ <c>pecl.php.net</c>
+ <v>1.1.6</v>
+ <st>stable</st>
+ <l>BSD 2-clause</l>
+ <m>nielsdos</m>
+ <s>XML diff and merge</s>
+ <d>The extension is able to produce diffs of two XML documents and then to apply the difference to the source document. The diff is a XML document containing copy/insert/delete instruction nodes in human readable format. DOMDocument objects, local files and strings in memory can be processed.</d>
+ <da>2025-12-19 22:17:03</da>
+ <n>- Fix PHP 8.5 compatibility (Remi Collet)</n>
+ <f>36654</f>
+ <g>https://pecl.php.net/get/xmldiff-1.1.6</g>
+ <x xlink:href="package.1.1.6.xml"/>
+</r>

@@ -28,7 +28,7 @@ function checkRestDirPath {
 
 function main {
   local req="${1}"
-  local curlopts="-s --compressed"
+  local curlopts="-s --compressed --max-time 10 --retry-max-time 60 --retry 3"
   setEtagOpts "${req}"
   checkRestDirPath "${req}"
 

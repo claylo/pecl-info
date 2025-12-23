@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://pear.php.net/dtd/rest.release
+    http://pear.php.net/dtd/rest.release.xsd">
+ <p xlink:href="/rest/p/swoole">swoole</p>
+ <c>pecl.php.net</c>
+ <v>6.1.3</v>
+ <st>stable</st>
+ <l>Apache2.0</l>
+ <m>tianfenghan</m>
+ <s>Event-driven asynchronous and concurrent networking engine with high performance for PHP.</s>
+ <d>Event-driven asynchronous and concurrent networking engine with high performance for PHP.
+        - event-driven
+        - coroutine
+        - asynchronous non-blocking
+        - multi-thread reactor
+        - multi-process worker
+        - multi-protocol
+        - millisecond timer
+        - built-in tcp/http/websocket/http2 server
+        - coroutine tcp/http/websocket client
+        - coroutine read/write file system
+        - coroutine dns lookup
+        - support IPv4/IPv6/UnixSocket/TCP/UDP
+        - support SSL/TLS encrypted transmission</d>
+ <da>2025-11-26 01:51:40</da>
+ <n>- Fixed Safari Browser Compatibility Issue: Resolved a flow control compatibility issue in HTTP/2 servers when sending large files to Safari browsers.
+- Fixed Data Race in Date Response Header Caching: Addressed a data race issue in the `Date` response header caching of HTTP/2 servers in multi-threaded mode.
+- Fixed `package_max_length` Configuration Not Taking Effect:
+- The server now returns a `413 Payload Too Large` error when the `Content-Length` in the received `Header` frame exceeds the configured value.
+- The server sends an `HTTP/2 RST_STREAM` frame to terminate the stream when the total length of consecutively received `Data` frames exceeds the configured value.
+- Fixed Memory Out-of-Bounds in Multi-threaded Coroutine Mode: Resolved a memory out-of-bounds issue when enabling `enable_reuse_port` in the multi-threaded coroutine version of the `HTTP/2` server.
+- Fixed TLS Variable Destruction Issue: Addressed a `double free` issue occurring during the destruction of `TLS (Thread Local Storage)` variables when threads exited in the multi-threaded `HTTP/2` server.
+- Fixed Packet Assembly Exception in `Redis\Server::format()` When Processing Large Strings.
+- Fixed Control Frame Data Contamination Issue: Resolved an issue where automatically replied `ping`/`pong`/`close` control frames in the `WebSocket` server carried residual data from previous text or binary frames due to uncleared cache.
+- Fixed Data Race in `swoole_get_task_tmpdir()`: Addressed a data race issue when calling this function in a multi-threaded environment.
+- Fixed Memory Out-of-Bounds Access in Runtime Hooks: Resolved a memory out-of-bounds access issue triggered when setting runtime hooks in a multi-threaded environment.
+- Important Change: Runtime hooks can now only be set in the main thread and must be configured before creating any child threads.
+- Fixed FreeBSD Compilation Failure: Resolved compilation failures on FreeBSD systems.
+- Added Android Platform Support: Improved compatibility with the Android platform, now supporting execution in the Termux environment.
+- Synchronized PHP 8.x cURL Module Updates: Adapted to relevant updates in the `cURL` extension for PHP versions 8.1, 8.2, and 8.3.</n>
+ <f>2455981</f>
+ <g>https://pecl.php.net/get/swoole-6.1.3</g>
+ <x xlink:href="package.6.1.3.xml"/>
+</r>
